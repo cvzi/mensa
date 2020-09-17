@@ -123,7 +123,7 @@ def check_xml(parser, canteen):
 
 
 def test_all_modules():
-    moduleNames = ['kaiserslautern']
+    moduleNames = ['kaiserslautern', 'mensenat']
 
     print("Importing %s" % (", ".join(moduleNames), ), end="")
 
