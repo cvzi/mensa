@@ -13,7 +13,7 @@ baseUrl = "https://cvzi.github.io/mensa/"
 baseRepo = "https://github.com/cvzi/mensa/"
 basePath = "docs/"
 
-def generateIndexHtml(baseUrl, basePath, updateIndex=False):
+def generateIndexHtml(baseUrl, basePath):
     files = []
 
     for r, d, f in os.walk(basePath):
@@ -27,7 +27,7 @@ def generateIndexHtml(baseUrl, basePath, updateIndex=False):
     content = '<br>\n'.join(f'<a href="{file}">{file}</a>' for file in sorted(files, key=lambda s: os.path.splitext(s)[1] + s))
 
     if updateIndex:
-        content = f'<a href="{baseRepo}actions/runs/{updateIndex}">Parser status</a><br>\n<br>\n{content}'
+        content = f'<a href="{baseRepo}actions/">Parser status</a><br>\n<br>\n{content}'
 
     with open(os.path.join(basePath, 'index.html'), 'w', encoding='utf8') as f:
         f.write(content)
@@ -108,7 +108,7 @@ def main(updateJson=True,
 
     if updateIndex:
         print(f" - 📄 index.html", end="")
-        generateIndexHtml(baseUrl=baseUrl, basePath=basePath, updateIndex=updateIndex)
+        generateIndexHtml(baseUrl=baseUrl, basePath=basePath)
         print(f"  {greenOk}")
 
     return 0
@@ -142,7 +142,10 @@ if __name__ == "__main__":
     parser.add_argument(
         '-index',
         dest='updateIndex',
-        help='Runner ID Update index.html')
+        action='store_const',
+        const=True,
+        default=False,
+        help='Update index.html')
     parser.add_argument(
         '-parser',
         dest='selectedParser',
