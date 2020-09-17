@@ -26,8 +26,7 @@ def generateIndexHtml(baseUrl, basePath):
 
     content = '<br>\n'.join(f'<a href="{file}">{file}</a>' for file in sorted(files, key=lambda s: os.path.splitext(s)[1] + s))
 
-    if updateIndex:
-        content = f'<a href="{baseRepo}actions/">Parser status</a><br>\n<br>\n{content}'
+    content = f'<a href="{baseRepo}actions/">Parser status</a><br>\n<br>\n{content}'
 
     with open(os.path.join(basePath, 'index.html'), 'w', encoding='utf8') as f:
         f.write(content)
