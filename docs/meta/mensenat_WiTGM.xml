@@ -1,0 +1,24 @@
+<openmensa xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
+  <canteen>
+    <name>Wien, TGM Mensa &amp; Buffet</name>
+    <address>Wexstraße 19-23, 1200 Wien (Österreich)</address>
+    <city>Wien (Österreich)</city>
+    <phone>05 7405-320</phone>
+    <location latitude="48.2365699" longitude="16.3694653" />
+    <!--<availability></availability>-->
+    <times type="opening">
+      <monday open="09:30-14:30" />
+      <tuesday open="09:30-14:30" />
+      <wednesday open="09:30-14:30" />
+      <thursday open="09:30-14:30" />
+      <friday open="09:30-14:30" />
+      <saturday closed="true" />
+      <sunday closed="true" />
+    </times>
+    <feed name="full" priority="1">
+      <schedule dayOfMonth="*" dayOfWeek="1-5" hour="9" minute="40" retry="65 1 1440" />
+      <url>https://cvzi.github.io/mensa/feed/mensenat_WiTGM.xml</url>
+      <source>https://menu.mensen.at/index/index/locid/70</source>
+    </feed>
+  </canteen>
+</openmensa>

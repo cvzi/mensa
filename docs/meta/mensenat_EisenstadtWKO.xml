@@ -1,0 +1,24 @@
+<openmensa xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
+  <canteen>
+    <name>Eisenstadt, WKO</name>
+    <address>Robert-Graf-Platz 1, 7000 Eisenstadt (Österreich)</address>
+    <city>Eisenstadt (Österreich)</city>
+    <phone>057405-219</phone>
+    <location latitude="47.8425345" longitude="16.5270156" />
+    <!--<availability></availability>-->
+    <times type="opening">
+      <monday open="11:00-14:00" />
+      <tuesday open="11:00-14:00" />
+      <wednesday open="11:00-14:00" />
+      <thursday open="11:00-14:00" />
+      <friday open="11:00-14:00" />
+      <saturday closed="true" />
+      <sunday closed="true" />
+    </times>
+    <feed name="full" priority="1">
+      <schedule dayOfMonth="*" dayOfWeek="1-5" hour="9" minute="40" retry="65 1 1440" />
+      <url>https://cvzi.github.io/mensa/feed/mensenat_EisenstadtWKO.xml</url>
+      <source>https://menu.mensen.at/index/index/locid/90</source>
+    </feed>
+  </canteen>
+</openmensa>

@@ -1,0 +1,24 @@
+<openmensa xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
+  <canteen>
+    <name>Wien, PH Mensa &amp; Buffet</name>
+    <address>Grenzackerstraße 18, 1100 Wien (Österreich)</address>
+    <city>Wien (Österreich)</city>
+    <phone>05 74 05 - 315</phone>
+    <location latitude="48.1644897" longitude="16.3740974" />
+    <!--<availability></availability>-->
+    <times type="opening">
+      <monday open="07:30-15:00" />
+      <tuesday open="07:30-15:00" />
+      <wednesday open="07:30-15:00" />
+      <thursday open="07:30-15:00" />
+      <friday open="07:30-15:00" />
+      <saturday closed="true" />
+      <sunday closed="true" />
+    </times>
+    <feed name="full" priority="1">
+      <schedule dayOfMonth="*" dayOfWeek="1-5" hour="9" minute="40" retry="65 1 1440" />
+      <url>https://cvzi.github.io/mensa/feed/mensenat_WiPHMensaBuffet.xml</url>
+      <source>https://menu.mensen.at/index/index/locid/85</source>
+    </feed>
+  </canteen>
+</openmensa>

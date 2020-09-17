@@ -1,0 +1,24 @@
+<openmensa xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
+  <canteen>
+    <name>Wien, FH Technikum Mensa</name>
+    <address>Höchstädtplatz 5, 1200 Wien (Österreich)</address>
+    <city>Wien (Österreich)</city>
+    <phone>05 7405-236</phone>
+    <location latitude="48.23905337923155" longitude="16.375334115652496" />
+    <!--<availability></availability>-->
+    <times type="opening">
+      <monday open="08:00-20:00" />
+      <tuesday open="08:00-20:00" />
+      <wednesday open="08:00-20:00" />
+      <thursday open="08:00-20:00" />
+      <friday open="08:00-18:00" />
+      <saturday closed="true" />
+      <sunday closed="true" />
+    </times>
+    <feed name="full" priority="1">
+      <schedule dayOfMonth="*" dayOfWeek="1-5" hour="9" minute="40" retry="65 1 1440" />
+      <url>https://cvzi.github.io/mensa/feed/mensenat_WiFHTechnikum.xml</url>
+      <source>https://menu.mensen.at/index/index/locid/67</source>
+    </feed>
+  </canteen>
+</openmensa>
