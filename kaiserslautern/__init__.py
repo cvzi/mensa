@@ -52,7 +52,7 @@ legend = {
     'So': 'Soja',
     'Sw': 'Schwefeldioxid (&quot;SO2&quot;) und Sulfite',
     'V': 'Vegetarisch',
-    'V+': 'vegan',
+    'V+': 'Vegan',
     'W': 'Wild',
     'Wt': 'Weichtiere',
     '1': 'Farbstoff',
@@ -86,48 +86,87 @@ class Parser:
         url = baseUrl + self.canteens[refName]["source"]
         lazyBuilder = LazyBuilder()
         lazyBuilder.setLegendData(legend)
-        r = s.get(url)
-        document = BeautifulSoup(r.text, "html.parser")
+        for weekSuffix in ['', 'kommendeWoche']:
+            r = s.get(url + weekSuffix)
+            document = BeautifulSoup(r.text, "html.parser")
 
-        for dayDiv in document.select(".dailyplan .dailyplan_content"):
-            date = dayDiv.h5.text.strip()
-            if "geschlossen" in date.lower():
-                lazyBuilder.setDayClosed(date)
-            for mealDiv in dayDiv.select(".subcolumns"):
-                category = ("Ausgabe " + mealDiv.select(".counter-name strong")[0].text.strip()).strip()
-                mealNode = mealDiv.select(".counter-meal strong")[0].extract()
-                mealName = mealNode.text.strip()
+            for dayDiv in document.select(".dailyplan .dailyplan_content"):
+                date = dayDiv.h5.text.strip()
+                mealNames = []
+                mealCategories = []
+                mealPrices = []
 
-                if mealDiv.select(".counter-meal u") and mealDiv.select(".counter-meal u")[0]:
-                    specialName = mealDiv.select(".counter-meal u")[0].extract()
-                    if category == "Ausgabe":
-                        category = specialName.text.strip()
+                if "geschlossen" in date.lower():
+                    lazyBuilder.setDayClosed(date)
+                for mealDiv in dayDiv.select(".subcolumns"):
+                    category = (
+                        "Ausgabe " + mealDiv.select(".counter-name strong")[0].text.strip()).strip()
+                    mealNode = mealDiv.select(
+                        ".counter-meal strong")[0].extract()
+                    mealName = mealNode.text.strip()
+                    mealNames.append(mealName)
+
+                    if len(mealDiv.select(".counter-meal u")) > 1:
+                        while mealDiv.select(".counter-meal u"):
+                            specialName = mealDiv.select(
+                                ".counter-meal u")[0].extract()
+                            if category == "Ausgabe":
+                                category = specialName.text.strip()
+                            else:
+                                category += ' ' + specialName.text.strip()
+                            if category.endswith(":"):
+                                category = category[0:-1]
+                            mealCategories.append(category)
+
+                            if mealDiv.select(".counter-meal strong"):
+                                mealNode = mealDiv.select(
+                                    ".counter-meal strong")[0].extract()
+                                mealName = mealNode.text.strip()
+                                mealNames.append(mealName)
+
                     else:
-                        category += ' ' + specialName.text.strip()
-                if category.endswith(":"):
-                    category = category[0:-1]
+                        if category.endswith(":"):
+                            category = category[0:-1]
+                        mealCategories.append(category)
 
-                prices = []
-                roles = []
-                pricesText = mealDiv.select(".counter-meal")[0].text.strip()
-                for p in pricesText.split(" | "):
-                    if p.strip():
-                        for i, r in enumerate(allRolesTitles):
-                            if r in p:
-                                value = p.split(r)[1]
-                                value = float(value.replace(
-                                    ",", ".").replace("€", "").strip())
-                                prices.append(value)
-                                roles.append(allRoles[i])
-                                break
+                    prices = []
+                    roles = []
+                    pricesText = mealDiv.select(
+                        ".counter-meal")[0].text.strip()
+                    for p in pricesText.replace('€', '€ | ').split(" | "):
+                        if p.strip():
+                            for i, r in enumerate(allRolesTitles):
+                                if r in p:
+                                    if allRoles[i] in roles:
+                                        mealPrices.append((prices, roles))
+                                        prices = []
+                                        roles = []
+                                    value = p.split(r)[1]
+                                    value = float(value.replace(
+                                        ",", ".").replace("€", "").strip())
+                                    prices.append(value)
+                                    roles.append(allRoles[i])
+                                    break
+                    if prices and roles:
+                        mealPrices.append((prices, roles))
 
-                for j, productName in enumerate(textwrap.wrap(mealName, width=250)):
-                    lazyBuilder.addMeal(date,
-                                        category,
-                                        productName,
-                                        None,
-                                        prices if j == 0 else None,
-                                        roles if j == 0 else None)
+                    for i, mealName in enumerate(mealNames):
+                        category = mealCategories[i]
+                        prices = mealPrices[i][0]
+                        roles = mealPrices[i][1]
+                        for j, productName in enumerate(textwrap.wrap(mealName, width=250)):
+                            notes = None
+                            if "V+" in productName:
+                                # pyopenmensa does not understand notes containing "+"
+                                productName = productName.replace(
+                                    ',V+', '').replace('V+', '')
+                                notes = [legend['V+']]
+                            lazyBuilder.addMeal(date,
+                                                category,
+                                                productName,
+                                                notes,
+                                                prices if j == 0 else None,
+                                                roles if j == 0 else None)
 
         return lazyBuilder.toXMLFeed()
 
@@ -151,7 +190,8 @@ class Parser:
                 "source": baseUrl + mensa["source"],
             }
             openingTimes = {}
-            pattern = re.compile(r"([A-Z][a-z])(\s*-\s*([A-Z][a-z]))?\s*(\d{1,2}):(\d{2})\s*-\s*(\d{1,2}):(\d{2}) Uhr")
+            pattern = re.compile(
+                r"([A-Z][a-z])(\s*-\s*([A-Z][a-z]))?\s*(\d{1,2}):(\d{2})\s*-\s*(\d{1,2}):(\d{2}) Uhr")
             m = re.findall(pattern, mensa["times"])
             for result in m:
                 fromDay, _, toDay, fromTimeH, fromTimeM, toTimeH, toTimeM = result
@@ -206,4 +246,5 @@ def getParser(baseurl):
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
-    print(getParser("http://localhost/{metaOrFeed}/mensenat_{mensaReference}.xml").feed("tuatrium"))
+    print(getParser(
+        "http://localhost/{metaOrFeed}/kaiserslautern_{mensaReference}.xml").feed("tuatrium"))
