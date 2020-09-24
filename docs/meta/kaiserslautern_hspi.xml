@@ -1,10 +1,10 @@
 <openmensa xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <name>Zweibrücken, Hochschule Kaiserslautern Mensa</name>
-    <address>Amerikastraße, Gebäude M, 66482 Zweibrücken</address>
-    <city>Zweibrücken</city>
-    <phone>0631 3724 5190</phone>
-    <location latitude="49.26023" longitude="7.36128" />
+    <name>Pirmasens, Hochschule Kaiserslautern Mensa</name>
+    <address>Carl-Schurz-Straße 10-16, 66953 Pirmasens</address>
+    <city>Pirmasens</city>
+    <phone>0631 205 3039</phone>
+    <location latitude="49.21065" longitude="7.60186" />
     <!--<availability></availability>-->
     <times type="opening">
       <monday open="11:00-14:30" />
@@ -17,8 +17,8 @@
     </times>
     <feed name="full" priority="1">
       <schedule dayOfMonth="*" dayOfWeek="1-5" hour="9" minute="40" retry="65 1 1440" />
-      <url>https://cvzi.github.io/mensa/feed/kaiserslautern_hszw.xml</url>
-      <source>https://www.studierendenwerk-kaiserslautern.de/zweibruecken/essen-and-trinken/mensa/</source>
+      <url>https://cvzi.github.io/mensa/feed/kaiserslautern_hspi.xml</url>
+      <source>https://www.studierendenwerk-kaiserslautern.de/pirmasens/essen-and-trinken/mensa/</source>
     </feed>
   </canteen>
 </openmensa>
