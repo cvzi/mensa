@@ -62,7 +62,9 @@ def getMenu(mensaId):
     """
     lazyBuilder = LazyBuilder()
 
-    year = datetime.date.today().year
+    today = datetime.date.today()
+    year = today.year
+    month = today.month
 
     r = askMensenAt(mensaId=mensaId)
     if r.status_code != 200:
@@ -95,7 +97,7 @@ def getMenu(mensaId):
     for navItem in document.select('.weekdays .nav-item[data-index]'):
         index = int(navItem.attrs['data-index'])
         date = navItem.find('span', class_="date").text.split('.')
-        dates[index] = datetime.date(year, int(date[1]), int(date[0]))
+        dates[index] = datetime.date(year + 1 if int(date[1]) < month else year, int(date[1]), int(date[0]))
 
     mealDict = {}
 
