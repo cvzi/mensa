@@ -141,6 +141,8 @@ def test_all_modules():
 
             for canteen in canteens:
                 check_xml(parser, canteen)
+        except (KeyboardInterrupt, SystemExit) as e:
+            raise e
         except Exception as e:
             print(f" {redVT}Error in {mod.__name__} ", end="")
             if canteen:
@@ -152,6 +154,19 @@ def test_all_modules():
         raise errors[0]
 
 
+def one_module(name):
+    print(f"Importing {name}", end="")
+
+    mod = __import__(name)
+
+    print(f" -> {greenOk}.")
+
+    parser = mod.getParser('http://localhost/')
+    canteens = list(parser.canteens.keys())
+
+    for canteen in canteens:
+        check_xml(parser, canteen)
+
 def run_all():
     for fname, f in list(globals().items()):
         if fname.startswith('test_'):
@@ -161,6 +176,9 @@ def run_all():
 
 
 if __name__ == '__main__':
-    # logging.basicConfig(level=logging.DEBUG)
-    logging.basicConfig(level=logging.WARNING)
-    run_all()
+    if len(sys.argv) == 2:
+        logging.basicConfig(level=logging.DEBUG)
+        one_module(sys.argv[1])
+    else:
+        logging.basicConfig(level=logging.WARNING)
+        run_all()
