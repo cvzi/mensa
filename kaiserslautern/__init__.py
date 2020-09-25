@@ -50,7 +50,7 @@ legend = {
     'Sf': 'Senf',
     'Sl': 'Sellerie',
     'So': 'Soja',
-    'Sw': 'Schwefeldioxid (&quot;SO2&quot;) und Sulfite',
+    'Sw': 'Schwefeldioxid (SO2) und Sulfite',
     'V': 'Vegetarisch',
     'V+': 'Vegan',
     'W': 'Wild',
