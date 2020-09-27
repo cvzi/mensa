@@ -138,7 +138,7 @@ def main(updateJson=True,
         generateIndexHtml(baseUrl=baseUrl, basePath=basePath, errors=errors)
         print(f"  {greenOk}")
 
-    return max(1, len(errors))
+    return min(0, len(errors))
 
 
 if __name__ == "__main__":
