@@ -86,12 +86,14 @@ class Parser:
         url = baseUrl + self.canteens[refName]["source"]
         lazyBuilder = LazyBuilder()
         lazyBuilder.setLegendData(legend)
+        meals = {}
         for weekSuffix in ['', 'kommendeWoche']:
             r = s.get(url + weekSuffix)
             document = BeautifulSoup(r.text, "html.parser")
 
             for dayDiv in document.select(".dailyplan .dailyplan_content"):
                 date = dayDiv.h5.text.strip()
+                meals[date] = meals[date] if date in meals else {}
                 mealNames = []
                 mealCategories = []
                 mealPrices = []
@@ -151,6 +153,9 @@ class Parser:
                         mealPrices.append((prices, roles))
 
                     for i, mealName in enumerate(mealNames):
+                        if mealName in meals[date]:
+                            continue  # Skip duplicates
+                        meals[date][mealName] = True
                         category = mealCategories[i]
                         prices = mealPrices[i][0]
                         roles = mealPrices[i][1]
@@ -247,4 +252,4 @@ def getParser(baseurl):
 if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
     print(getParser(
-        "http://localhost/{metaOrFeed}/kaiserslautern_{mensaReference}.xml").feed("tuatrium"))
+        "http://localhost/{metaOrFeed}/kaiserslautern_{mensaReference}.xml").feed("tumensa"))

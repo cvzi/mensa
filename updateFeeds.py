@@ -5,6 +5,7 @@ import traceback
 import argparse
 import urllib
 import urllib3
+import string
 
 allParsers = ['kaiserslautern', 'mensenat']
 
@@ -13,7 +14,7 @@ baseUrl = "https://cvzi.github.io/mensa/"
 baseRepo = "https://github.com/cvzi/mensa/"
 basePath = "docs/"
 
-def generateIndexHtml(baseUrl, basePath):
+def generateIndexHtml(baseUrl, basePath, errors=None):
     files = []
 
     for r, d, f in os.walk(basePath):
@@ -24,12 +25,33 @@ def generateIndexHtml(baseUrl, basePath):
             if file.endswith(('.xml', '.json')):
                 files.append(f"{p}{file}")
 
-    content = '<br>\n'.join(f'<a href="{file}">{file}</a>' for file in sorted(files, key=lambda s: os.path.splitext(s)[1] + s))
+    with open('html/index.html', 'r', encoding='utf8') as f:
+        template = string.Template(f.read())
 
-    content = f'<a href="{baseRepo}actions/">Parser status</a><br>\n<br>\n{content}'
+    content = []
+    first = True
+    for file in sorted(files, key=lambda s: s[len(baseUrl):].split('/').pop()):
+        if file.endswith('.json'):
+            if not first:
+                content.append('</ul>')
+            first = False
+            content.append(f'<li><h3><a href="{file}">🐏 {file[len(baseUrl):]}</a></h3>')
+            content.append('<ul style="list-style-type:none">')
+        else:
+            icon = '🈺' if '/meta/' in file else '🍱'
+            content.append(f'  <li><a href="{file}">{icon} {file[len(baseUrl):]}</a></li>')
+    content.append('</ul>')
+    content.append('</li>')
+    content = '<ol style="list-style-type:none">\n' + '\n'.join(content) + '\n</ol>'
+
+    content = f'\n{content}\n'
+
+    status = '<h3><a href="{baseRepo}actions/">🗿 Parser status</a></h3>'
+    if errors:
+        status += '\n<pre>' + '\n'.join(errors) + '</pre>'
 
     with open(os.path.join(basePath, 'index.html'), 'w', encoding='utf8') as f:
-        f.write(content)
+        f.write(template.substitute(content=content, status=status))
 
 def main(updateJson=True,
          updateMeta=True,
@@ -42,8 +64,11 @@ def main(updateJson=True,
 
     greenOk = "Ok" if "idlelib" in sys.modules else "\033[1;32mOk\033[0m"
     redError = "Error" if "idlelib" in sys.modules else "\033[1;31m⚠️ Error\033[0m"
+    errors = []
 
     for parserName in allParsers:
+        if not updateJson and not updateMeta and not updateFeed:
+            continue
         if selectedParser and parserName != selectedParser:
             continue
         print(f"🗳️ {parserName}")
@@ -95,6 +120,8 @@ def main(updateJson=True,
                 except BaseException:
                     print(f"  {redError}")
                     traceback.print_exc()
+                    errors.append(f"{parserName}/{mensaReference}:")
+                    errors.append(traceback.format_exc())
                 canteenCounter += 1
 
         except KeyboardInterrupt:
@@ -102,15 +129,16 @@ def main(updateJson=True,
             return 130
         except BaseException:
             print(f"  {redError}")
+            errors.append(f"{parserName}:")
+            errors.append(traceback.format_exc())
             traceback.print_exc()
-            return 1
 
     if updateIndex:
         print(f" - 📄 index.html", end="")
-        generateIndexHtml(baseUrl=baseUrl, basePath=basePath)
+        generateIndexHtml(baseUrl=baseUrl, basePath=basePath, errors=errors)
         print(f"  {greenOk}")
 
-    return 0
+    return max(1, len(errors))
 
 
 if __name__ == "__main__":
