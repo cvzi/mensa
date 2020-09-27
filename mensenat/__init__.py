@@ -7,12 +7,12 @@ import re
 
 try:
     from mensenat.tools import getMenu
-    from utils import xmlEscape
+    from util import xmlEscape
 except ModuleNotFoundError:
     include = os.path.relpath(os.path.join(os.path.dirname(__file__), '..'))
     sys.path.insert(0, include)
-    from mensenat.tools import getMenu
-    from utils import xmlEscape
+    from tools import getMenu
+    from util import xmlEscape
 
 metaJson = os.path.join(os.path.dirname(__file__), "canteenDict.json")
 
