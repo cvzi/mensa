@@ -28,11 +28,13 @@ jobs:
       run: |
         python updateFeeds.py -meta -feed -json -index
     - name: git commit & push
+      if: always()
       run: |
         git add docs
         # Use "|| true" or "--allow-empty"  otherwise the action fails for empty commits
         git commit -m "Updated xml feeds" || true
         git push
     - name: Test files in github pages
+      if: always()
       run: |
         python tests/test_ghpages.py
