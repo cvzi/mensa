@@ -46,7 +46,7 @@ def generateIndexHtml(baseUrl, basePath, errors=None):
 
     content = f'\n{content}\n'
 
-    status = '<h3><a href="{baseRepo}actions/">🗿 Parser status</a></h3>'
+    status = f'<h3><a href="{baseRepo}actions/">🗿 Parser status</a></h3>'
     if errors:
         status += '\n<pre>' + '\n'.join(errors) + '</pre>'
 
