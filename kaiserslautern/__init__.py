@@ -7,13 +7,17 @@ import re
 import textwrap
 
 import requests
-from pyopenmensa.feed import LazyBuilder
 from bs4 import BeautifulSoup
 
 try:
     from version import __version__, useragentname, useragentcomment
+    from utils import StyledLazyBuilder
 except ModuleNotFoundError:
-    __version__, useragentname, useragentcomment = 0.1, requests.utils.default_user_agent(), "Python 3"
+    import sys
+    include = os.path.relpath(os.path.join(os.path.dirname(__file__), '..'))
+    sys.path.insert(0, include)
+    from version import __version__, useragentname, useragentcomment
+    from utils import StyledLazyBuilder
 
 metaJson = os.path.join(os.path.dirname(__file__), "canteenDict.json")
 
@@ -84,7 +88,7 @@ class Parser:
         if refName not in self.canteens:
             return f"Unkown canteen '{refName}'"
         url = baseUrl + self.canteens[refName]["source"]
-        lazyBuilder = LazyBuilder()
+        lazyBuilder = StyledLazyBuilder()
         lazyBuilder.setLegendData(legend)
         meals = {}
         for weekSuffix in ['', 'kommendeWoche']:

@@ -6,15 +6,19 @@ import textwrap
 import json
 
 import requests
-from pyopenmensa.feed import LazyBuilder
 from bs4 import BeautifulSoup
-
-__all__ = ['getMenu']
 
 try:
     from version import __version__, useragentname, useragentcomment
+    from utils import StyledLazyBuilder
 except ModuleNotFoundError:
-    __version__, useragentname, useragentcomment = 0.1, requests.utils.default_user_agent(), "Python 3"
+    import sys
+    include = os.path.relpath(os.path.join(os.path.dirname(__file__), '..'))
+    sys.path.insert(0, include)
+    from version import __version__, useragentname, useragentcomment
+    from utils import StyledLazyBuilder
+
+__all__ = ['getMenu']
 
 url = "https://www.mensen.at/"
 s = requests.Session()
@@ -60,7 +64,7 @@ def getMenu(mensaId):
     """
     Create openmensa feed from mensen.at website
     """
-    lazyBuilder = LazyBuilder()
+    lazyBuilder = StyledLazyBuilder()
 
     today = datetime.date.today()
     year = today.year

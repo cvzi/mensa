@@ -5,8 +5,6 @@ import logging
 import urllib
 import re
 
-from pyopenmensa.feed import LazyBuilder
-
 try:
     from mensenat.tools import getMenu
     from utils import xmlEscape
