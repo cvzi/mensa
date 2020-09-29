@@ -86,6 +86,7 @@ def check_feed(content, encoding='utf8', name=''):
 def test_all_files():
     GHPAGES = 'docs/'
     FEEDS = 'feed/'
+    TODAYS = 'today/'
     METAS = 'meta/'
     
     ghpagesPath = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', GHPAGES))
@@ -120,6 +121,17 @@ def test_all_files():
             print(f" {redVT}Error:\n%r{endVT}\n" % (e, ), end="", flush=True)
             errors.append(e)
 
+    for filename in os.listdir(os.path.join(ghpagesPath, TODAYS)):
+        prettyName = f"{TODAYS}{filename}"
+        print(prettyName, end="", flush=True)
+        path = os.path.join(ghpagesPath, TODAYS, filename)
+        try:
+            with open(path, 'r', encoding='utf8') as f:
+                check_feed(f.read(), encoding='utf8', name=prettyName)
+        except Exception as e:
+            print(f" {redVT}Error:\n%r{endVT}\n" % (e, ), end="", flush=True)
+            errors.append(e)
+
     for filename in os.listdir(os.path.join(ghpagesPath, FEEDS)):
         prettyName = f"{FEEDS}{filename}"
         print(prettyName, end="", flush=True)
@@ -130,7 +142,6 @@ def test_all_files():
         except Exception as e:
             print(f" {redVT}Error:\n%r{endVT}\n" % (e, ), end="", flush=True)
             errors.append(e)
-
 
     if errors:
         print("--------- First error: ----------------", file=sys.stderr)
