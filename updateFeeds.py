@@ -7,7 +7,7 @@ import urllib
 import urllib3
 import string
 
-allParsers = ['kaiserslautern', 'mensenat']
+allParsers = ['kaiserslautern', 'mensenat', 'koeln']
 
 filenameTemplate = "{base}{{metaOrFeed}}/{parserName}_{{mensaReference}}.xml"
 baseUrl = "https://cvzi.github.io/mensa/"
@@ -28,14 +28,20 @@ def generateIndexHtml(baseUrl, basePath, errors=None):
     with open('html/index.html', 'r', encoding='utf8') as f:
         template = string.Template(f.read())
 
+
+    def sortKey(s):
+        parts = s[len(baseUrl):].split('/')
+        s = parts[-1].upper() + (parts[-2] if len(parts) > 1 else "")
+        return s
+
     content = []
     first = True
-    for file in sorted(files, key=lambda s: s[len(baseUrl):].split('/').pop()):
+    for file in sorted(files, key=sortKey):
         if file.endswith('.json'):
             if not first:
                 content.append('</ul>')
             first = False
-            content.append(f'<li><h3><a href="{file}">🐏 {file[len(baseUrl):]}</a></h3>')
+            content.append(f'<li><h3 id="{file[len(baseUrl):-5]}"><a href="{file}">🐏 {file[len(baseUrl):]}</a></h3>')
             content.append('<ul style="list-style-type:none">')
         else:
             icon = '🈺' if '/meta/' in file else '🍱'
@@ -56,6 +62,7 @@ def generateIndexHtml(baseUrl, basePath, errors=None):
 def main(updateJson=True,
          updateMeta=True,
          updateFeed=True,
+         updateToday=False,
          updateIndex=True,
          selectedParser='',
          selectedMensa='',
@@ -67,7 +74,7 @@ def main(updateJson=True,
     errors = []
 
     for parserName in allParsers:
-        if not updateJson and not updateMeta and not updateFeed:
+        if not updateJson and not updateMeta and not updateFeed and not updateToday:
             continue
         if selectedParser and parserName != selectedParser:
             continue
@@ -79,7 +86,7 @@ def main(updateJson=True,
 
             if updateJson:
                 filename = os.path.join(basePath, f'{parserName}.json')
-                print(f" - 🐏 {filename}", end="")
+                print(f" - 🐏 {filename}", end="", flush=True)
                 os.makedirs(os.path.dirname(filename), exist_ok=True)
                 content = parser.json()
                 with open(filename, 'w', encoding='utf8') as f:
@@ -94,20 +101,28 @@ def main(updateJson=True,
                 try:
                     if updateMeta:
                         filename = filenameTemplate.format(base=basePath, parserName=parserName).format(metaOrFeed='meta', mensaReference=mensaReference)
-                        print(f"    - 🈺 {filename}", end="")
+                        print(f"    - 🈺 {filename}", end="", flush=True)
                         os.makedirs(os.path.dirname(filename), exist_ok=True)
                         content = parser.meta(mensaReference)
                         with open(filename, 'w', encoding='utf8') as f:
                             f.write(content)
                         print(f"  {greenOk}")
-                    if updateFeed:
-                        filename = filenameTemplate.format(base=basePath, parserName=parserName).format(metaOrFeed='feed', mensaReference=mensaReference)
-                        print(f"    - 🍱 {filename}", end="")
-                        os.makedirs(os.path.dirname(filename), exist_ok=True)
-                        content = parser.feed(mensaReference)
-                        with open(filename, 'w', encoding='utf8') as f:
-                            f.write(content)
-                        print(f"  {greenOk}")
+                    if updateFeed or updateToday:
+                        if updateToday:
+                            feedMethods = [feedMethod for feedMethod in ["feed_today"] if hasattr(parser, feedMethod)]
+                            if not feedMethods and not updateMeta:
+                                print("\033[F\033[K", end="")
+                        else:
+                            feedMethods = [feedMethod for feedMethod in ["feed", "feed_today", "feed_all"] if hasattr(parser, feedMethod)]
+                        for feedMethod in feedMethods:
+                            fileTitle = "today" if feedMethod == "feed_today" else "feed"
+                            filename = filenameTemplate.format(base=basePath, parserName=parserName).format(metaOrFeed=fileTitle, mensaReference=mensaReference)
+                            print(f"    - 🍱 {filename}", end="", flush=True)
+                            os.makedirs(os.path.dirname(filename), exist_ok=True)
+                            content = getattr(parser, feedMethod)(mensaReference)
+                            with open(filename, 'w', encoding='utf8') as f:
+                                f.write(content)
+                            print(f"  {greenOk}")
                 except KeyboardInterrupt as e:
                     raise e
                 except (IOError, ConnectionError, urllib.error.URLError, urllib3.exceptions.HTTPError) as e:
@@ -134,7 +149,7 @@ def main(updateJson=True,
             traceback.print_exc()
 
     if updateIndex:
-        print(f" - 📄 index.html", end="")
+        print(f" - 📄 index.html", end="", flush=True)
         generateIndexHtml(baseUrl=baseUrl, basePath=basePath, errors=errors)
         print(f"  {greenOk}")
 
@@ -158,7 +173,14 @@ if __name__ == "__main__":
         action='store_const',
         const=True,
         default=False,
-        help='Update feed xml')
+        help='Update all feed xml')
+    parser.add_argument(
+        '-today',
+        dest='updateToday',
+        action='store_const',
+        const=True,
+        default=False,
+        help='Update today feed xml')
     parser.add_argument(
         '-json',
         dest='updateJson',
