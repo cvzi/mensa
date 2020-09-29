@@ -33,7 +33,7 @@ xmlParser = lxml.etree.XMLParser(schema=lxml.etree.XMLSchema(file=downloadFile(
 
 
 def check_meta(content, name=''):
-    print("Content", end="")
+    print("Content", end="", flush=True)
 
     # Check syntax
     try:
@@ -51,7 +51,7 @@ def check_meta(content, name=''):
 
 
 def check_feed(content, encoding='utf8', name=''):
-    print("Content", end="")
+    print("Content", end="", flush=True)
 
     # Check syntax
     try:
@@ -95,7 +95,7 @@ def test_all_files():
     for filename in os.listdir(ghpagesPath):
         if not filename.endswith(".json"):
             continue
-        print(filename, end="")
+        print(filename, end="", flush=True)
         path = os.path.join(ghpagesPath, filename)
         try:
             with open(path, 'r', encoding='utf8') as f:
@@ -106,33 +106,34 @@ def test_all_files():
             print(f" -> {greenOk}.")
 
         except Exception as e:
-            print(f" {redVT}Error:\n%r{endVT}\n" % (e, ), end="")
+            print(f" {redVT}Error:\n%r{endVT}\n" % (e, ), end="", flush=True)
             errors.append(e)
 
     for filename in os.listdir(os.path.join(ghpagesPath, METAS)):
         prettyName = f"{METAS}{filename}"
-        print(prettyName, end="")
+        print(prettyName, end="", flush=True)
         path = os.path.join(ghpagesPath, METAS, filename)
         try:
             with open(path, 'r', encoding='utf8') as f:
                 check_meta(f.read(), name=prettyName)
         except Exception as e:
-            print(f" {redVT}Error:\n%r{endVT}\n" % (e, ), end="")
+            print(f" {redVT}Error:\n%r{endVT}\n" % (e, ), end="", flush=True)
             errors.append(e)
 
     for filename in os.listdir(os.path.join(ghpagesPath, FEEDS)):
         prettyName = f"{FEEDS}{filename}"
-        print(prettyName, end="")
+        print(prettyName, end="", flush=True)
         path = os.path.join(ghpagesPath, FEEDS, filename)
         try:
             with open(path, 'r', encoding='utf8') as f:
                 check_feed(f.read(), encoding='utf8', name=prettyName)
         except Exception as e:
-            print(f" {redVT}Error:\n%r{endVT}\n" % (e, ), end="")
+            print(f" {redVT}Error:\n%r{endVT}\n" % (e, ), end="", flush=True)
             errors.append(e)
 
 
     if errors:
+        print("--------- First error: ----------------", file=sys.stderr)
         raise errors[0]
 
 
