@@ -235,12 +235,6 @@ class Parser:
 
         self.urlTemplate = urlTemplate
 
-    @staticmethod
-    def __now():
-        berlin = pytz.timezone('Europe/Berlin')
-        now = datetime.datetime.now(berlin)
-        return now
-
     def json(self):
         tmp = {}
         for reference in self.canteens:
@@ -249,8 +243,8 @@ class Parser:
         return json.dumps(tmp, indent=2)
 
 
-def getParser(baseurl):
-    return Parser(baseurl)
+def getParser(urlTemplate):
+    return Parser(urlTemplate)
 
 
 if __name__ == "__main__":

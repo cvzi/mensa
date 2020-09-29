@@ -10,13 +10,13 @@ from bs4 import BeautifulSoup
 
 try:
     from version import __version__, useragentname, useragentcomment
-    from util import StyledLazyBuilder
+    from util import StyledLazyBuilder, nowBerlin
 except ModuleNotFoundError:
     import sys
     include = os.path.relpath(os.path.join(os.path.dirname(__file__), '..'))
     sys.path.insert(0, include)
     from version import __version__, useragentname, useragentcomment
-    from util import StyledLazyBuilder
+    from util import StyledLazyBuilder, nowBerlin
 
 __all__ = ['getMenu']
 
@@ -66,7 +66,7 @@ def getMenu(mensaId):
     """
     lazyBuilder = StyledLazyBuilder()
 
-    today = datetime.date.today()
+    today = nowBerlin().date()
     year = today.year
     month = today.month
 
