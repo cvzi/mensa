@@ -234,8 +234,6 @@ class Parser:
 
             date = nowBerlin()
 
-            # TODO mensabuilder lock
-            
             # Get today
             ret = _parseMealsUrl(lazyBuilder, mensaId, date.date())
 
@@ -243,10 +241,10 @@ class Parser:
                 date += datetime.timedelta(days=1)
                 # Get this week
                 threads = []
-                
-                
+
                 while date.weekday() < 5:
-                    t = Thread(target=_parseMealsUrl, args=(lazyBuilder, mensaId, date.date()))
+                    t = Thread(target=_parseMealsUrl, args=(
+                        lazyBuilder, mensaId, date.date()))
                     t.start()
                     threads.append(t)
                     date += datetime.timedelta(days=1)
@@ -256,7 +254,8 @@ class Parser:
 
                 # Get next week
                 while date.weekday() < 5:
-                    t = Thread(target=_parseMealsUrl, args=(lazyBuilder, mensaId, date.date()))
+                    t = Thread(target=_parseMealsUrl, args=(
+                        lazyBuilder, mensaId, date.date()))
                     t.start()
                     threads.append(t)
                     date += datetime.timedelta(days=1)
@@ -264,13 +263,14 @@ class Parser:
                 for t in threads:
                     t.join()
 
-
             endTime = time.time()
-            logging.debug(f"feed_all({name}) took {endTime - startTime:.2f} seconds")
+            logging.debug(
+                f"feed_all({name}) took {endTime - startTime:.2f} seconds")
 
             return lazyBuilder.toXMLFeed()
         return 'Wrong mensa name'
-    
+
+
 """
     def feed_all(self, name):
         startTime = time.time()
@@ -297,6 +297,7 @@ class Parser:
             return lazyBuilder.toXMLFeed()
         return 'Wrong mensa name'
 """
+
 
 def getParser(urlTemplate):
     parser = Parser(urlTemplate)
