@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="https://cvzi.github.io/om-style/latest/basic.css" type="text/css"?>
+<?xml-stylesheet href="https://cvzi.github.io/om-style/latest/lightgreen.css" type="text/css"?>
+<openmensa xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
+  <canteen>
+    <name>Köln, Bistro Uni E-Raum</name>
+    <address>Köln, Bistro Uni E-Raum Albertus Magnus Platz 50931 Köln</address>
+    <city>Köln</city>
+    <phone>+49 221 9415 573</phone>
+    <location latitude="50.927952" longitude="6.927956" />
+    <!--<availability></availability>-->
+    <times type="opening">
+      <monday open="07:30-18:00" />
+      <tuesday open="07:30-18:00" />
+      <wednesday open="07:30-18:00" />
+      <thursday open="07:30-18:00" />
+      <friday closed="true" />
+      <saturday closed="true" />
+      <sunday closed="true" />
+    </times>
+    <feed name="today" priority="0">
+      <schedule dayOfMonth="*" dayOfWeek="1-5" hour="10-14" retry="5 3" />
+      <url>https://cvzi.github.io/mensa/today/koeln_eraum.xml</url>
+      <source>https://www.kstw.de/speiseplan?l=11</source>
+    </feed>
+    <feed name="full" priority="1">
+      <schedule dayOfMonth="*" dayOfWeek="1-5" hour="9" minute="45" retry="60 1 1440" />
+      <url>https://cvzi.github.io/mensa/feed/koeln_eraum.xml</url>
+      <source>https://www.kstw.de/speiseplan?l=11</source>
+    </feed>
+  </canteen>
+</openmensa>
