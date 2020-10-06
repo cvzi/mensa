@@ -110,38 +110,40 @@ def test_all_files():
             print(f" {redVT}Error:\n%r{endVT}\n" % (e, ), end="", flush=True)
             errors.append(e)
 
-    for filename in os.listdir(os.path.join(ghpagesPath, METAS)):
-        prettyName = f"{METAS}{filename}"
-        print(prettyName, end="", flush=True)
-        path = os.path.join(ghpagesPath, METAS, filename)
-        try:
-            with open(path, 'r', encoding='utf8') as f:
-                check_meta(f.read(), name=prettyName)
-        except Exception as e:
-            print(f" {redVT}Error:\n%r{endVT}\n" % (e, ), end="", flush=True)
-            errors.append(e)
+    if os.path.isdir(os.path.join(ghpagesPath, METAS)):
+        for filename in os.listdir(os.path.join(ghpagesPath, METAS)):
+            prettyName = f"{METAS}{filename}"
+            print(prettyName, end="", flush=True)
+            path = os.path.join(ghpagesPath, METAS, filename)
+            try:
+                with open(path, 'r', encoding='utf8') as f:
+                    check_meta(f.read(), name=prettyName)
+            except Exception as e:
+                print(f" {redVT}Error:\n%r{endVT}\n" % (e, ), end="", flush=True)
+                errors.append(e)
 
-    for filename in os.listdir(os.path.join(ghpagesPath, TODAYS)):
-        prettyName = f"{TODAYS}{filename}"
-        print(prettyName, end="", flush=True)
-        path = os.path.join(ghpagesPath, TODAYS, filename)
-        try:
-            with open(path, 'r', encoding='utf8') as f:
-                check_feed(f.read(), encoding='utf8', name=prettyName)
-        except Exception as e:
-            print(f" {redVT}Error:\n%r{endVT}\n" % (e, ), end="", flush=True)
-            errors.append(e)
-
-    for filename in os.listdir(os.path.join(ghpagesPath, FEEDS)):
-        prettyName = f"{FEEDS}{filename}"
-        print(prettyName, end="", flush=True)
-        path = os.path.join(ghpagesPath, FEEDS, filename)
-        try:
-            with open(path, 'r', encoding='utf8') as f:
-                check_feed(f.read(), encoding='utf8', name=prettyName)
-        except Exception as e:
-            print(f" {redVT}Error:\n%r{endVT}\n" % (e, ), end="", flush=True)
-            errors.append(e)
+    if os.path.isdir(os.path.join(ghpagesPath, TODAYS)):
+        for filename in os.listdir(os.path.join(ghpagesPath, TODAYS)):
+            prettyName = f"{TODAYS}{filename}"
+            print(prettyName, end="", flush=True)
+            path = os.path.join(ghpagesPath, TODAYS, filename)
+            try:
+                with open(path, 'r', encoding='utf8') as f:
+                    check_feed(f.read(), encoding='utf8', name=prettyName)
+            except Exception as e:
+                print(f" {redVT}Error:\n%r{endVT}\n" % (e, ), end="", flush=True)
+                errors.append(e)
+    if os.path.isdir(os.path.join(ghpagesPath, FEEDS)):
+        for filename in os.listdir(os.path.join(ghpagesPath, FEEDS)):
+            prettyName = f"{FEEDS}{filename}"
+            print(prettyName, end="", flush=True)
+            path = os.path.join(ghpagesPath, FEEDS, filename)
+            try:
+                with open(path, 'r', encoding='utf8') as f:
+                    check_feed(f.read(), encoding='utf8', name=prettyName)
+            except Exception as e:
+                print(f" {redVT}Error:\n%r{endVT}\n" % (e, ), end="", flush=True)
+                errors.append(e)
 
     if errors:
         print("--------- First error: ----------------", file=sys.stderr)
