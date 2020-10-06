@@ -3,31 +3,6 @@
 <?xml-stylesheet href="https://cvzi.github.io/om-style/latest/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2020-10-05">
-      <category name="Heimspiel">
-        <meal>
-          <name>Geflügelbratwurst mit Currysauceund Pommes frites, Salat und Dessert</name>
-          <note>contains celery</note>
-          <note>contains mustard</note>
-          <note>mit Antioxidationsmittel</note>
-          <note>mit Geschmacksverstärker</note>
-          <price role="employee">4.70</price>
-          <price role="student">2.60</price>
-        </meal>
-      </category>
-      <category name="Querbeet">
-        <meal>
-          <name>Chili con Soja mit Reis, Salat und Dessert</name>
-          <note>Soja</note>
-          <note>contains celery</note>
-          <note>mit Antioxidationsmittel</note>
-          <note>mit Farbstoff</note>
-          <note>mit Konservierungsstoff</note>
-          <price role="employee">4.30</price>
-          <price role="student">2.35</price>
-        </meal>
-      </category>
-    </day>
     <day date="2020-10-06">
       <category name="Heimspiel">
         <meal>
@@ -40,7 +15,11 @@
       <category name="Querbeet">
         <meal>
           <name>Panzerotti mit Kürbisragout, Salat und Dessert</name>
+          <note>Eier</note>
           <note>Gluten</note>
+          <note>Laktose</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
           <price role="employee">4.30</price>
           <price role="student">2.35</price>
         </meal>
@@ -51,8 +30,8 @@
         <meal>
           <name>Schweineschnitzel mit Paprikarahmsauce und Kroketten,  Salat und Dessert</name>
           <note>Gluten</note>
-          <note>contains lactose</note>
-          <note>contains milk</note>
+          <note>Laktose</note>
+          <note>Milch</note>
           <price role="employee">4.70</price>
           <price role="student">2.60</price>
         </meal>
@@ -60,8 +39,8 @@
       <category name="Querbeet">
         <meal>
           <name>Kartoffeltaschen mit Tomate und Mozzarella gefüllt, Quarkdip und Reis, Salat und Dessert</name>
-          <note>contains lactose</note>
-          <note>contains milk</note>
+          <note>Laktose</note>
+          <note>Milch</note>
           <price role="employee">4.30</price>
           <price role="student">2.35</price>
         </meal>
@@ -72,9 +51,9 @@
         <meal>
           <name>&quot;Bami Goreng&quot; Asiatisches Nudelgericht, Salat und Dessert</name>
           <note>Gluten</note>
+          <note>Senf</note>
+          <note>Sesamsamen</note>
           <note>Soja</note>
-          <note>contains mustard</note>
-          <note>contains sesame seeds</note>
           <price role="employee">4.30</price>
           <price role="student">2.35</price>
         </meal>
@@ -84,9 +63,9 @@
           <name>Geflügelspieß mit Erdnußsauceund Reis, Salat und Dessert</name>
           <note>Erdnüsse</note>
           <note>Gluten</note>
+          <note>Laktose</note>
+          <note>Milch</note>
           <note>Soja</note>
-          <note>contains lactose</note>
-          <note>contains milk</note>
           <price role="employee">4.70</price>
           <price role="student">2.60</price>
         </meal>
@@ -97,8 +76,8 @@
         <meal>
           <name>Pennemit Rahmgemüse, Salat und Dessert</name>
           <note>Gluten</note>
-          <note>contains lactose</note>
-          <note>contains milk</note>
+          <note>Laktose</note>
+          <note>Milch</note>
           <price role="employee">4.30</price>
           <price role="student">2.35</price>
         </meal>
@@ -109,9 +88,9 @@
 Süß-Saurer-Sauce,  Basmatireis,  Salat und Dessert</name>
           <note>Fisch</note>
           <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Sesamsamen</note>
           <note>Soja</note>
-          <note>contains celery</note>
-          <note>contains sesame seeds</note>
           <note>mit Konservierungsstoff</note>
           <price role="employee">4.70</price>
           <price role="student">2.60</price>
@@ -123,10 +102,10 @@ Süß-Saurer-Sauce,  Basmatireis,  Salat und Dessert</name>
         <meal>
           <name>5 Falafel Joghurt-Minzdip,  Gemüsebulgur,  Salat und Dessert</name>
           <note>Gluten</note>
-          <note>contains celery</note>
-          <note>contains lactose</note>
-          <note>contains milk</note>
-          <note>contains mustard</note>
+          <note>Laktose</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
           <price role="employee">4.70</price>
           <price role="student">2.60</price>
         </meal>
@@ -134,7 +113,7 @@ Süß-Saurer-Sauce,  Basmatireis,  Salat und Dessert</name>
       <category name="Worldwide">
         <meal>
           <name>Geflügelcurry mit Reis, Salat und Dessert</name>
-          <note>contains mustard</note>
+          <note>Senf</note>
           <price role="employee">4.70</price>
           <price role="student">2.60</price>
         </meal>
@@ -146,7 +125,7 @@ Süß-Saurer-Sauce,  Basmatireis,  Salat und Dessert</name>
           <name>Frikadelle v. Schwein mit Zwiebeljus,  Pommes Cubes, Salat und Dessert</name>
           <note>Eier</note>
           <note>Gluten</note>
-          <note>contains mustard</note>
+          <note>Senf</note>
           <price role="employee">4.70</price>
           <price role="student">2.60</price>
         </meal>
@@ -155,8 +134,8 @@ Süß-Saurer-Sauce,  Basmatireis,  Salat und Dessert</name>
         <meal>
           <name>Frühlingsrolle mit Süß-Saurer-Sauce,  Basmatireis,  Salat und Dessert</name>
           <note>Gluten</note>
+          <note>Sellerie</note>
           <note>Soja</note>
-          <note>contains celery</note>
           <note>mit Konservierungsstoff</note>
           <price role="employee">4.30</price>
           <price role="student">2.35</price>
@@ -168,8 +147,8 @@ Süß-Saurer-Sauce,  Basmatireis,  Salat und Dessert</name>
         <meal>
           <name>Putenschnitzel mit Pfefferrahmsauce,  Herzoginkartoffeln,  Salat und Dessert</name>
           <note>Gluten</note>
-          <note>contains lactose</note>
-          <note>contains milk</note>
+          <note>Laktose</note>
+          <note>Milch</note>
           <price role="employee">4.70</price>
           <price role="student">2.60</price>
         </meal>
@@ -179,9 +158,9 @@ Süß-Saurer-Sauce,  Basmatireis,  Salat und Dessert</name>
           <name>8 Brokkoli Nuggets mit Kräuterrahmsauce und Möhrengemüse, Salat und Dessert</name>
           <note>Eier</note>
           <note>Gluten</note>
+          <note>Laktose</note>
+          <note>Milch</note>
           <note>Soja</note>
-          <note>contains lactose</note>
-          <note>contains milk</note>
           <price role="employee">4.30</price>
           <price role="student">2.35</price>
         </meal>
@@ -191,9 +170,9 @@ Süß-Saurer-Sauce,  Basmatireis,  Salat und Dessert</name>
       <category name="Querbeet">
         <meal>
           <name>Gemüsecurry mit Sojaund Reis, Salat und Dessert</name>
+          <note>Sellerie</note>
+          <note>Senf</note>
           <note>Soja</note>
-          <note>contains celery</note>
-          <note>contains mustard</note>
           <price role="employee">4.70</price>
           <price role="student">2.60</price>
         </meal>
@@ -222,9 +201,9 @@ Süß-Saurer-Sauce,  Basmatireis,  Salat und Dessert</name>
           <note>Eier</note>
           <note>Fisch</note>
           <note>Gluten</note>
-          <note>contains lactose</note>
-          <note>contains milk</note>
-          <note>contains mustard</note>
+          <note>Laktose</note>
+          <note>Milch</note>
+          <note>Senf</note>
           <note>mit Farbstoff</note>
           <note>mit Konservierungsstoff</note>
           <price role="employee">4.70</price>
