@@ -7,7 +7,7 @@ import urllib
 import urllib3
 import string
 
-allParsers = ['kaiserslautern', 'mensenat', 'koeln']
+allParsers = ['kaiserslautern', 'mensenat', 'koeln', 'wuwien']
 
 filenameTemplate = "{base}{{metaOrFeed}}/{parserName}_{{mensaReference}}.xml"
 baseUrl = "https://cvzi.github.io/mensa/"
