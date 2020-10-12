@@ -49,6 +49,7 @@
                           <xsl:text>.</xsl:text>
                           <xsl:value-of select="substring-after(PREIS, ',')" />
                       </xsl:variable>
+                      <xsl:if test="KOMPONENTE//NAME">
                         <meal>
                             <name>
                               <xsl:for-each select="KOMPONENTE">
@@ -71,6 +72,7 @@
                               </price>
                             </xsl:if>
                         </meal>
+                      </xsl:if>
                     </xsl:for-each>
                 </category>
             </xsl:for-each>
