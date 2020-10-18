@@ -35,6 +35,8 @@
                 <xsl:when test="contains(@datum, 'November')">11</xsl:when>
                 <xsl:when test="contains(@datum, 'Dezember')">12</xsl:when>
               </xsl:choose>-<xsl:value-of select="substring-before(@datum, '.')" /></xsl:attribute>
+        <xsl:choose>
+          <xsl:when test="ITEM//SPEISE//KOMPONENTE//NAME">
             <xsl:for-each select="ITEM">
               <xsl:if test="SPEISE//KOMPONENTE//NAME">
                 <category>
@@ -78,6 +80,11 @@
                 </category>
               </xsl:if>
             </xsl:for-each>
+          </xsl:when>
+          <xsl:otherwise>
+            <closed />
+          </xsl:otherwise>
+        </xsl:choose>
         </day>
     </xsl:for-each>
 </canteen>
