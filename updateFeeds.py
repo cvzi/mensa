@@ -17,7 +17,7 @@ basePath = "docs/"
 def generateIndexHtml(baseUrl, basePath, errors=None):
     files = []
 
-    for r, d, f in os.walk(basePath):
+    for r, _, f in os.walk(basePath):
         p = baseUrl + r[len(basePath):]
         if p[-1] != '/':
             p += '/'
@@ -149,7 +149,7 @@ def main(updateJson=True,
             traceback.print_exc()
 
     if updateIndex:
-        print(f" - 📄 index.html", end="", flush=True)
+        print(" - 📄 index.html", end="", flush=True)
         generateIndexHtml(baseUrl=baseUrl, basePath=basePath, errors=errors)
         print(f"  {greenOk}")
 

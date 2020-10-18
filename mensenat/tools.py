@@ -3,7 +3,6 @@ import re
 import datetime
 import logging
 import textwrap
-import json
 
 import requests
 from bs4 import BeautifulSoup
@@ -43,7 +42,7 @@ legend = {
     }
 
 imageLegend = {
-   'logo_vegetarisch.png' : 'vegetarisch', 
+   'logo_vegetarisch.png' : 'vegetarisch',
 }
 
 roles = ('student', )
@@ -53,7 +52,6 @@ def askMensenAt(mensaId=None):
     """
     Fetch raw data from mensen.at
     """
-    global proxyIndex
     cookies = {}
     if mensaId is not None:
         cookies['mensenExtLocation'] = str(mensaId)

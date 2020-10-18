@@ -13,7 +13,6 @@ try:
     from version import __version__, useragentname, useragentcomment
     from util import StyledLazyBuilder
 except ModuleNotFoundError:
-    import sys
     include = os.path.relpath(os.path.join(os.path.dirname(__file__), '..'))
     sys.path.insert(0, include)
     from version import __version__, useragentname, useragentcomment

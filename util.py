@@ -6,6 +6,8 @@ from pyopenmensa.feed import LazyBuilder
 
 __all__ = ['xmlEscape', 'StyledLazyBuilder', 'nowBerlin']
 
+defaultStyleSheets = ('https://cvzi.github.io/om-style/latest/basic.css', 'https://cvzi.github.io/om-style/latest/lightgreen.css')
+
 def xmlEscape(s, escapeDoubleQuotes=False):
     s = str(s).replace('&', '&amp;')  # amp first!
     s = s.replace('>', '&gt;')
@@ -16,7 +18,7 @@ def xmlEscape(s, escapeDoubleQuotes=False):
 
 
 class StyledLazyBuilder(LazyBuilder):
-    def toXMLFeed(self, styles=('https://cvzi.github.io/om-style/latest/basic.css', 'https://cvzi.github.io/om-style/latest/lightgreen.css')):
+    def toXMLFeed(self, styles=defaultStyleSheets):
         feed = self.toXML()
         xml_header = '<?xml version="1.0" encoding="UTF-8"?>\n'
         if styles:

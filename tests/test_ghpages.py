@@ -88,7 +88,7 @@ def test_all_files():
     FEEDS = 'feed/'
     TODAYS = 'today/'
     METAS = 'meta/'
-    
+
     ghpagesPath = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', GHPAGES))
     print(f"Checking files in {ghpagesPath}")
     errors = []
@@ -101,7 +101,7 @@ def test_all_files():
         try:
             with open(path, 'r', encoding='utf8') as f:
                 data = json.load(f)
-            for key, value in data.items():
+            for value in data.values():
                 assert value.startswith("https://")
                 assert value.endswith(".xml")
             print(f" -> {greenOk}.")
