@@ -3,34 +3,13 @@
 <?xml-stylesheet href="https://cvzi.github.io/om-style/latest/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2020-10-20">
-      <category name="Querbeet">
-        <meal>
-          <name>Bunte Schupfnudelpfanne Tomatensauce,  Salat und Dessert</name>
-          <note>contains gluten</note>
-          <price role="employee">4.35</price>
-          <price role="student">2.35</price>
-        </meal>
-      </category>
-      <category name="Worldwide">
-        <meal>
-          <name>Schweine Cordon Bleu Majoransauce,  3 Beilagen</name>
-          <note>contains eggs</note>
-          <note>contains gluten</note>
-          <note>contains lactose</note>
-          <note>contains milk</note>
-          <price role="employee">4.75</price>
-          <price role="student">2.60</price>
-        </meal>
-      </category>
-    </day>
     <day date="2020-10-21">
       <category name="Querbeet">
         <meal>
           <name>5 Samosaecken Reis,  buntes Wokgemüse,  Salat und Dessert</name>
+          <note>Gluten</note>
           <note>Sellerie</note>
           <note>Senf</note>
-          <note>contains gluten</note>
           <price role="employee">4.30</price>
           <price role="student">2.35</price>
         </meal>
@@ -38,9 +17,9 @@
       <category name="Worldwide">
         <meal>
           <name>Schweinerahmgeschnetzeltes mit Champignons Spirelli,  Salat und Dessert</name>
-          <note>contains gluten</note>
-          <note>contains lactose</note>
-          <note>contains milk</note>
+          <note>Gluten</note>
+          <note>Laktose</note>
+          <note>Milch</note>
           <note>enthält Alkohol</note>
           <price role="employee">4.70</price>
           <price role="student">2.60</price>
@@ -51,7 +30,7 @@
       <category name="Querbeet">
         <meal>
           <name>Kichererbsenpfanne mit Mediterranem Gemüse Reis,  Salat und Dessert</name>
-          <note>contains antioxidants</note>
+          <note>mit Antioxidationsmittel</note>
           <price role="employee">4.30</price>
           <price role="student">2.35</price>
         </meal>
@@ -59,12 +38,12 @@
       <category name="Worldwide">
         <meal>
           <name>Bifteki Bratensauce</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Laktose</note>
+          <note>Milch</note>
           <note>Sellerie</note>
           <note>Senf</note>
-          <note>contains eggs</note>
-          <note>contains gluten</note>
-          <note>contains lactose</note>
-          <note>contains milk</note>
           <price role="student">2.60</price>
         </meal>
       </category>
@@ -73,14 +52,14 @@
       <category name="Heimspiel">
         <meal>
           <name>MSC Kibbelinge Remoulade,  Salzkartoffeln,  Salat,  Dessert</name>
+          <note>Fisch</note>
+          <note>Gluten</note>
+          <note>Laktose</note>
+          <note>Milch</note>
           <note>Senf</note>
-          <note>contains colouring agents</note>
-          <note>contains fish</note>
-          <note>contains gluten</note>
-          <note>contains lactose</note>
-          <note>contains milk</note>
-          <note>contains preservatives</note>
-          <note>contains sweetener(s)</note>
+          <note>mit Farbstoff</note>
+          <note>mit Konservierungsstoff</note>
+          <note>mit Süßstoff</note>
           <price role="employee">4.70</price>
           <price role="student">2.60</price>
         </meal>
@@ -88,28 +67,138 @@
       <category name="Querbeet">
         <meal>
           <name>Gemüsebratling vegane Kräutersauce,  dazu 3 Beilagen</name>
+          <note>Gluten</note>
           <note>Sellerie</note>
-          <note>contains gluten</note>
-          <note>contains soya (beans)</note>
+          <note>Soja</note>
           <price role="employee">4.30</price>
           <price role="student">2.35</price>
         </meal>
       </category>
     </day>
     <day date="2020-10-26">
-      <closed/>
+      <category name="Heimspiel">
+        <meal>
+          <name>3 Rindfleischköfte Quarkdip,  Pommes Wedges,  Salat und Dessert</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Laktose</note>
+          <note>Milch</note>
+          <price role="employee">4.70</price>
+          <price role="student">2.60</price>
+        </meal>
+      </category>
+      <category name="Querbeet">
+        <meal>
+          <name>3 Spinat- Käseknödel Champignon-Sahne-Ragout,  Salat und Dessert</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Laktose</note>
+          <note>Milch</note>
+          <price role="employee">4.30</price>
+          <price role="student">2.35</price>
+        </meal>
+      </category>
     </day>
     <day date="2020-10-27">
-      <closed/>
+      <category name="Heimspiel">
+        <meal>
+          <name>Schweineschnitzel Jägersauce,  Herzoginkartoffeln,  Salat und Dessert</name>
+          <note>Gluten</note>
+          <note>Laktose</note>
+          <note>Milch</note>
+          <price role="employee">4.70</price>
+          <price role="student">2.60</price>
+        </meal>
+      </category>
+      <category name="Querbeet">
+        <meal>
+          <name>Kartoffeltaschen mit Tomate und Mozzarella gefüllt Quarkdip,  Gemüsereis,  Salat und Dessert</name>
+          <note>Laktose</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
+          <price role="employee">4.30</price>
+          <price role="student">2.35</price>
+        </meal>
+      </category>
     </day>
     <day date="2020-10-28">
-      <closed/>
+      <category name="Heimspiel">
+        <meal>
+          <name>Hähnchencrossies Sweet Chillidip,  Pommes Frites,  Salat und Dessert</name>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>mit Konservierungsstoff</note>
+          <price role="employee">4.70</price>
+          <price role="student">2.60</price>
+        </meal>
+      </category>
+      <category name="Querbeet">
+        <meal>
+          <name>Vegetarische Maultaschenpfanne Salat und Dessert</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <price role="employee">4.30</price>
+          <price role="student">2.35</price>
+        </meal>
+      </category>
     </day>
     <day date="2020-10-29">
-      <closed/>
+      <category name="Heimspiel">
+        <meal>
+          <name>Putengulasch Suzy-Wong dazu 3 Beilagen</name>
+          <note>Gluten</note>
+          <note>Senf</note>
+          <note>Soja</note>
+          <note>mit Antioxidationsmittel</note>
+          <note>mit Farbstoff</note>
+          <note>mit Konservierungsstoff</note>
+          <price role="employee">4.70</price>
+          <price role="student">2.60</price>
+        </meal>
+      </category>
+      <category name="Querbeet">
+        <meal>
+          <name>Gemüsepuffer Garten-Kräuterdip,  dazu 3 Beilagen</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Laktose</note>
+          <note>Milch</note>
+          <note>Senf</note>
+          <note>mit Farbstoff</note>
+          <note>mit Konservierungsstoff</note>
+          <price role="employee">4.30</price>
+          <price role="student">2.35</price>
+        </meal>
+      </category>
     </day>
     <day date="2020-10-30">
-      <closed/>
+      <category name="Querbeet">
+        <meal>
+          <name>Erdnusspfännchen Reis,  Salat,  Dessert</name>
+          <note>Erdnüsse</note>
+          <note>Gluten</note>
+          <note>Soja</note>
+          <price role="employee">4.30</price>
+          <price role="student">2.35</price>
+        </meal>
+      </category>
+      <category name="Worldwide">
+        <meal>
+          <name>MSC Schlemmerfilet Bordelaise Dillsauce,  Salzkartoffeln,  Salat und Dessert</name>
+          <note>Fisch</note>
+          <note>Gluten</note>
+          <note>Laktose</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid und Sulfite</note>
+          <note>Senf</note>
+          <note>enthält Alkohol</note>
+          <note>mit Antioxidationsmittel</note>
+          <note>mit Geschmacksverstärker</note>
+          <price role="employee">4.70</price>
+          <price role="student">2.60</price>
+        </meal>
+      </category>
     </day>
   </canteen>
 </openmensa>
