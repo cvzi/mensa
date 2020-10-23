@@ -71,7 +71,7 @@ def _getMealsURL(url, maxAgeMinutes=30):
             logging.debug(f"From cache: {url} [{round(ageSeconds)}s old]")
             return cacheMealsData[url]
 
-    content = requests.get(url, headers=headers).text
+    content = requests.get(url, headers=headers, timeout=10*60).text
     with cacheMealsLock:
         cacheMealsData[url] = content
         cacheMealsTime[url] = time.time()
@@ -237,28 +237,32 @@ class Parser:
             # Get today
             ret = _parseMealsUrl(lazyBuilder, mensaId, date.date())
 
+            n = 1
             if ret:
                 date += datetime.timedelta(days=1)
                 # Get this week
                 threads = []
-
                 while date.weekday() < 5:
                     t = Thread(target=_parseMealsUrl, args=(
                         lazyBuilder, mensaId, date.date()))
                     t.start()
                     threads.append(t)
                     date += datetime.timedelta(days=1)
+                    n += 1
+
 
                 # Skip over weekend
                 date += datetime.timedelta(days=7 - date.weekday())
 
                 # Get next week
-                while date.weekday() < 5:
+                while date.weekday() < 5 and n < 5:
                     t = Thread(target=_parseMealsUrl, args=(
                         lazyBuilder, mensaId, date.date()))
                     t.start()
                     threads.append(t)
                     date += datetime.timedelta(days=1)
+                    n += 1
+
 
                 for t in threads:
                     t.join()
@@ -269,34 +273,6 @@ class Parser:
 
             return lazyBuilder.toXMLFeed()
         return 'Wrong mensa name'
-
-
-"""
-    def feed_all(self, name):
-        startTime = time.time()
-        if name in self.canteens:
-            mensaId = self.canteens[name]["id"]
-            lazyBuilder = StyledLazyBuilder()
-
-            date = nowBerlin()
-
-            # Get this week
-            while _parseMealsUrl(lazyBuilder, mensaId, date.date()):
-                date += datetime.timedelta(days=1)
-
-            # Skip over weekend
-            if date.weekday() > 4:
-                date += datetime.timedelta(days=7 - date.weekday())
-
-                # Get next week
-                while _parseMealsUrl(lazyBuilder, mensaId, date.date()):
-                    date += datetime.timedelta(days=1)
-
-            endTime = time.time()
-            logging.debug(f"feed_all({name}) took {endTime - startTime:.2f} seconds")
-            return lazyBuilder.toXMLFeed()
-        return 'Wrong mensa name'
-"""
 
 
 def getParser(urlTemplate):
