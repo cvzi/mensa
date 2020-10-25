@@ -3,41 +3,70 @@
 <?xml-stylesheet href="https://cvzi.github.io/om-style/latest/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2020-10-19">
+    <day date="2020-10-26">
       <category name="Classic Lunch">
         <meal>
-          <name>Veggie Kürbisgulasch mit Gemüseserviettenknödel</name>
+          <name>Liebe Gäste, wir wünschen einen schönen Feiertag :) euer Mensa - Team</name>
+        </meal>
+      </category>
+      <category name="M-Cafe">
+        <meal>
+          <name>*GUTEN MORGEN*Unser Frühstücks-Angebot (gültig bis 11:00 Uhr)*Das kleine italienische* (Buttercroissant &amp; Cappuccino oder Tee)*Das Süße* (1x Semmel, 1x BIO-Butter,1x Marmelade oder Honig,Cappuccino oder Tee)*Das Pikante* (1xSemmel,1x BIO-</name>
+          <price role="student">5.50</price>
+        </meal>
+        <meal>
+          <name>Butter,1xSchinken und Käse,1x Gemüse,Cappuccino oder Tee) *Das Gesunde*(Joghurt mit Müsli und Früchten &amp;Cappuccino oder Tee)*Das Vielfältige*x Semmel, 1xKorngebäck,1xBIO-Butter,1xMarmelade oder Honig,1xSchinken und Käse,1x Gemüse,1/8 Juice,</name>
+        </meal>
+        <meal>
+          <name>Cappuccino oder Tee) Wir freuen uns auf euch :)</name>
+        </meal>
+      </category>
+      <category name="Snacks">
+        <meal>
+          <name>PIMP IT&quot; Stell dir deinen Lieblingsburger selbst zusammen :) Movie Burger Double Cheese Burger Veggie Burger</name>
+          <note>&amp;Ouml;sterr. Umweltzeichen</note>
+          <note>vegetarisch</note>
+          <price role="student">5.70</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2020-10-27">
+      <category name="Classic Lunch">
+        <meal>
+          <name>Veggie Vegane Indische Dal Linsen dazu Basmatireis mit frischem Koriander</name>
+          <note>Erdnüsse</note>
+          <note>Gluten</note>
+          <note>Schalenfrüchte</note>
+          <note>Sesam</note>
+          <note>Styria vitalis</note>
+          <note>vegan</note>
+          <price role="student">5.10</price>
+        </meal>
+        <meal>
+          <name>Herzhaft Wiener Schnitzel von der Pute mit Erbsenreis und Zitronenschnitz</name>
           <note>Eier</note>
           <note>Gluten</note>
           <note>Milch</note>
           <note>Schalenfrüchte</note>
-          <note>Sellerie</note>
           <note>Sesam</note>
           <note>Sojabohnen</note>
-          <note>Styria vitalis</note>
-          <note>vegetarisch</note>
-          <price role="student">5.10</price>
-        </meal>
-        <meal>
-          <name>Herzhaft Hühnerfilet gebraten in Pfefferrahmsauce dazu Karotten - Zucchini Gemüse und Butterreis</name>
-          <note>Milch</note>
-          <note>Schalenfrüchte</note>
-          <note>Schwefeldioxid/Sulfite</note>
           <price role="student">5.90</price>
         </meal>
       </category>
       <category name="Suppen &amp; Desserts">
         <meal>
-          <name>Suppe Klare Gemüsesuppe mit Fadennudeln Sellerie Apfelcremesuppe</name>
+          <name>Suppe Klare Gemüsesuppe mit Profiteroles Kürbiscremesuppe Vegan</name>
           <note>Eier</note>
           <note>Gluten</note>
-          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
           <note>Sellerie</note>
+          <note>Sojabohnen</note>
           <note>Styria vitalis</note>
+          <note>vegan</note>
           <price role="student">1.60</price>
         </meal>
         <meal>
-          <name>Dessert kalt Joghurt Apfel &amp; Zimt</name>
+          <name>Dessert kalt hausgemachtes Bananen Joghurt</name>
           <note>Milch</note>
           <price role="student">1.00</price>
         </meal>
@@ -56,222 +85,30 @@
       </category>
       <category name="Daily Specials">
         <meal>
-          <name>Pasta Spaghetti mit Sauce Bolognese und frischer Parmesan</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
+          <name>Pasta Penne mit VeganerSojaBolognese</name>
+          <note>vegan</note>
           <price role="student">4.90</price>
         </meal>
         <meal>
-          <name>Grill Currywurst mit fruchtige Currysauce und Pommes frites</name>
-          <note>Gluten</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sojabohnen</note>
-          <price role="student">5.90</price>
-        </meal>
-        <meal>
-          <name>gebratene Medaillons vom Schwein mit Champignonrahmsauce und Kartoffelkroketten</name>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <price role="student">8.10</price>
-        </meal>
-        <meal>
-          <name>Premium Gegrilltes Lachsforellenfilet auf Krensauce mit Mandel-Broccoli und Kürbis-Püree</name>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schalenfrüchte</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <price role="student">10.90</price>
-        </meal>
-      </category>
-      <category name="Snacks">
-        <meal>
-          <name>PIMP IT&quot; Stell dir deinen Lieblingsburger selbst zusammen :) Movie Burger Double Cheese Burger Veggie Burger</name>
-          <note>&amp;Ouml;sterr. Umweltzeichen</note>
-          <note>vegetarisch</note>
-          <price role="student">5.70</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2020-10-20">
-      <category name="Classic Lunch">
-        <meal>
-          <name>Veggie Hausgemachte Spinatknödel mit Österkronsauce und geschmorten Cherrytomaten</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schalenfrüchte</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sesam</note>
-          <note>Sojabohnen</note>
-          <note>Styria vitalis</note>
-          <note>vegetarisch</note>
-          <price role="student">5.10</price>
-        </meal>
-        <meal>
-          <name>Herzhaft Wiener Schnitzel von der Pute mit Kürbiskerne dazu Petersilerdäpfel mit Zitronenschnitz</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schalenfrüchte</note>
-          <note>Sesam</note>
-          <note>Sojabohnen</note>
-          <price role="student">5.90</price>
-        </meal>
-      </category>
-      <category name="Suppen &amp; Desserts">
-        <meal>
-          <name>Suppe Klare Gemüsesuppe mit Eistich Royal Gemüsecremesuppe</name>
-          <note>Eier</note>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-          <note>Styria vitalis</note>
-          <price role="student">1.60</price>
-        </meal>
-        <meal>
-          <name>Dessert kalt Sauerrahmmousse mit Weichselragout</name>
-          <note>Milch</note>
-          <price role="student">1.00</price>
-        </meal>
-      </category>
-      <category name="M-Cafe">
-        <meal>
-          <name>*GUTEN MORGEN*Unser Frühstücks-Angebot (gültig bis 11:00 Uhr)*Das kleine italienische* (Buttercroissant &amp; Cappuccino oder Tee)*Das Süße* (1x Semmel, 1x BIO-Butter,1x Marmelade oder Honig,Cappuccino oder Tee)*Das Pikante* (1xSemmel,1x BIO-</name>
-          <price role="student">5.50</price>
-        </meal>
-        <meal>
-          <name>Butter,1xSchinken und Käse,1x Gemüse,Cappuccino oder Tee) *Das Gesunde*(Joghurt mit Müsli und Früchten &amp;Cappuccino oder Tee)*Das Vielfältige*x Semmel, 1xKorngebäck,1xBIO-Butter,1xMarmelade oder Honig,1xSchinken und Käse,1x Gemüse,1/8 Juice,</name>
-        </meal>
-        <meal>
-          <name>Cappuccino oder Tee) Wir freuen uns auf euch :)</name>
-        </meal>
-      </category>
-      <category name="Daily Specials">
-        <meal>
-          <name>Pasta Penne dazu Sauce Carbonara mit Speck und frischer Parmesan</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <price role="student">4.90</price>
-        </meal>
-        <meal>
-          <name>Grill Currywurst mit fruchtige Currysauce und Pommes frites</name>
-          <note>Gluten</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sojabohnen</note>
-          <price role="student">5.90</price>
-        </meal>
-        <meal>
-          <name>gebratene Medaillons vom Schwein mit Champignonrahmsauce und Kartoffelkroketten</name>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <price role="student">8.10</price>
-        </meal>
-        <meal>
-          <name>Premium Gegrilltes Lachsforellenfilet auf Krensauce mit Mandel-Broccoli und Kürbis-Püree</name>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schalenfrüchte</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <price role="student">10.90</price>
-        </meal>
-      </category>
-      <category name="Snacks">
-        <meal>
-          <name>PIMP IT&quot; Stell dir deinen Lieblingsburger selbst zusammen :) Movie Burger Double Cheese Burger Veggie Burger</name>
-          <note>&amp;Ouml;sterr. Umweltzeichen</note>
-          <note>vegetarisch</note>
-          <price role="student">5.70</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2020-10-21">
-      <category name="Classic Lunch">
-        <meal>
-          <name>Veggie Gemüse Pizza mit Beilagensalat</name>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>vegetarisch</note>
-          <price role="student">5.10</price>
-        </meal>
-        <meal>
-          <name>Herzhaft Wildlasagne mit Pilzen dazu Tomatensauce mit Kürbis und Basilikum</name>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
+          <name>Grill Riesenbratwurst mit Potato Wedges und Zwiebelsenf</name>
           <note>Senf</note>
           <price role="student">5.90</price>
         </meal>
-      </category>
-      <category name="Suppen &amp; Desserts">
         <meal>
-          <name>Suppe Klare Gemüsesuppe mit Eintropf Zucchini-Currysuppe Vegan</name>
+          <name>Gebratenes Putenbruststeak mit Erdäpfelgratin und Mediterranes Grillgemüse</name>
           <note>Eier</note>
           <note>Gluten</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-          <note>Styria vitalis</note>
-          <note>vegan</note>
-          <price role="student">1.60</price>
-        </meal>
-        <meal>
-          <name>Dessert kalt Schokopudding</name>
           <note>Milch</note>
-          <price role="student">1.00</price>
-        </meal>
-      </category>
-      <category name="M-Cafe">
-        <meal>
-          <name>*GUTEN MORGEN*Unser Frühstücks-Angebot (gültig bis 11:00 Uhr)*Das kleine italienische* (Buttercroissant &amp; Cappuccino oder Tee)*Das Süße* (1x Semmel, 1x BIO-Butter,1x Marmelade oder Honig,Cappuccino oder Tee)*Das Pikante* (1xSemmel,1x BIO-</name>
-          <price role="student">5.50</price>
+          <note>Senf</note>
+          <price role="student">7.80</price>
         </meal>
         <meal>
-          <name>Butter,1xSchinken und Käse,1x Gemüse,Cappuccino oder Tee) *Das Gesunde*(Joghurt mit Müsli und Früchten &amp;Cappuccino oder Tee)*Das Vielfältige*x Semmel, 1xKorngebäck,1xBIO-Butter,1xMarmelade oder Honig,1xSchinken und Käse,1x Gemüse,1/8 Juice,</name>
-        </meal>
-        <meal>
-          <name>Cappuccino oder Tee) Wir freuen uns auf euch :)</name>
-        </meal>
-      </category>
-      <category name="Daily Specials">
-        <meal>
-          <name>Wok frisches Gemüse - Wok mit Basmatireis</name>
-          <note>vegan</note>
-          <price role="student">5.80</price>
-        </meal>
-        <meal>
-          <name>Rotes Panang Thai Hühner Curry mit Gemüse und Basmatireis</name>
+          <name>Premium Zanderfilet natur gebraten mit Erdäpfelgratin und Mediterranes Grillgemüse</name>
+          <note>Eier</note>
           <note>Fisch</note>
-          <note>Styria vitalis</note>
-          <price role="student">6.10</price>
-        </meal>
-        <meal>
-          <name>Grill Currywurst mit fruchtige Currysauce und Pommes frites</name>
-          <note>Gluten</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sojabohnen</note>
-          <price role="student">5.90</price>
-        </meal>
-        <meal>
-          <name>gebratene Medaillons vom Schwein mit Champignonrahmsauce und Kartoffelkroketten</name>
           <note>Gluten</note>
           <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
           <price role="student">8.10</price>
-        </meal>
-        <meal>
-          <name>Premium Gegrilltes Lachsforellenfilet auf Krensauce mit Mandel-Broccoli und Kürbis-Püree</name>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schalenfrüchte</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <price role="student">10.90</price>
         </meal>
       </category>
       <category name="Snacks">
@@ -283,113 +120,215 @@
         </meal>
       </category>
     </day>
-    <day date="2020-10-22">
+    <day date="2020-10-28">
       <category name="Classic Lunch">
         <meal>
-          <name>Veggie Kürbisauflauf mit Lauch und gelben Rüben dazu Dillrahmsauce</name>
-          <note>Eier</note>
+          <name>Veggie Gemüse Paella mit Schafkäse</name>
           <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
           <note>Styria vitalis</note>
           <note>vegetarisch</note>
           <price role="student">5.10</price>
         </meal>
         <meal>
-          <name>Herzhaft Putengeschnetzeltes mit Sauerrahmsauce und Gemüsereis</name>
+          <name>Herzhaft Chili con Carne mit Kaisersemmel</name>
+          <note>Gluten</note>
+          <note>Lupinen</note>
           <note>Milch</note>
-          <note>Sellerie</note>
+          <note>Schalenfrüchte</note>
+          <note>Sesam</note>
+          <note>Sojabohnen</note>
           <price role="student">5.90</price>
         </meal>
       </category>
       <category name="Suppen &amp; Desserts">
         <meal>
-          <name>Suppe Klare Gemüsesuppe mit Tarhonya Champignoncremesuppe</name>
-          <note>Eier</note>
-          <note>Gluten</note>
+          <name>SuppeKlare Gemüsesuppe mit Frittaten Broccolicremesuppe</name>
           <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
           <note>Sellerie</note>
           <note>Styria vitalis</note>
           <price role="student">1.60</price>
         </meal>
         <meal>
-          <name>Dessert kalt Creme Caramel</name>
-          <note>Eier</note>
-          <note>Milch</note>
-          <price role="student">1.00</price>
-        </meal>
-      </category>
-      <category name="M-Cafe">
-        <meal>
-          <name>*GUTEN MORGEN*Unser Frühstücks-Angebot (gültig bis 11:00 Uhr)*Das kleine italienische* (Buttercroissant &amp; Cappuccino oder Tee)*Das Süße* (1x Semmel, 1x BIO-Butter,1x Marmelade oder Honig,Cappuccino oder Tee)*Das Pikante* (1xSemmel,1x BIO-</name>
-          <price role="student">5.50</price>
-        </meal>
-        <meal>
-          <name>Butter,1xSchinken und Käse,1x Gemüse,Cappuccino oder Tee) *Das Gesunde*(Joghurt mit Müsli und Früchten &amp;Cappuccino oder Tee)*Das Vielfältige*x Semmel, 1xKorngebäck,1xBIO-Butter,1xMarmelade oder Honig,1xSchinken und Käse,1x Gemüse,1/8 Juice,</name>
-        </meal>
-        <meal>
-          <name>Cappuccino oder Tee) Wir freuen uns auf euch :)</name>
-        </meal>
-      </category>
-      <category name="Daily Specials">
-        <meal>
-          <name>Wok frisches Gemüse - Wok mit Basmatireis</name>
-          <note>vegan</note>
-          <price role="student">5.80</price>
-        </meal>
-        <meal>
-          <name>Hühnergeschnetzeltes &quot;Süß - Sauer&quot; mit Basmatireis</name>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Sojabohnen</note>
-          <price role="student">6.10</price>
-        </meal>
-        <meal>
-          <name>Grill Currywurst mit fruchtige Currysauce und Pommes frites</name>
-          <note>Gluten</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sojabohnen</note>
-          <price role="student">5.90</price>
-        </meal>
-        <meal>
-          <name>gebratene Medaillons vom Schwein mit Champignonrahmsauce und Kartoffelkroketten</name>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <price role="student">8.10</price>
-        </meal>
-        <meal>
-          <name>Premium Gegrilltes Lachsforellenfilet auf Krensauce mit Mandel-Broccoli und Kürbis-Püree</name>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schalenfrüchte</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <price role="student">10.90</price>
-        </meal>
-      </category>
-      <category name="Snacks">
-        <meal>
-          <name>PIMP IT&quot; Stell dir deinen Lieblingsburger selbst zusammen :) Movie Burger Double Cheese Burger Veggie Burger</name>
-          <note>&amp;Ouml;sterr. Umweltzeichen</note>
-          <note>vegetarisch</note>
-          <price role="student">5.70</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2020-10-23">
-      <category name="Classic Lunch">
-        <meal>
-          <name>Veggie Südindisches Kartoffelcurry &quot;Aloo Masala&quot; mit Cous Cous</name>
+          <name>Dessert kalt Schoko Kokos Creme</name>
           <note>Erdnüsse</note>
           <note>Gluten</note>
           <note>Milch</note>
           <note>Schalenfrüchte</note>
+          <note>Schwefeldioxid/Sulfite</note>
           <note>Sesam</note>
+          <price role="student">1.00</price>
+        </meal>
+      </category>
+      <category name="M-Cafe">
+        <meal>
+          <name>*GUTEN MORGEN*Unser Frühstücks-Angebot (gültig bis 11:00 Uhr)*Das kleine italienische* (Buttercroissant &amp; Cappuccino oder Tee)*Das Süße* (1x Semmel, 1x BIO-Butter,1x Marmelade oder Honig,Cappuccino oder Tee)*Das Pikante* (1xSemmel,1x BIO-</name>
+          <price role="student">5.50</price>
+        </meal>
+        <meal>
+          <name>Butter,1xSchinken und Käse,1x Gemüse,Cappuccino oder Tee) *Das Gesunde*(Joghurt mit Müsli und Früchten &amp;Cappuccino oder Tee)*Das Vielfältige*x Semmel, 1xKorngebäck,1xBIO-Butter,1xMarmelade oder Honig,1xSchinken und Käse,1x Gemüse,1/8 Juice,</name>
+        </meal>
+        <meal>
+          <name>Cappuccino oder Tee) Wir freuen uns auf euch :)</name>
+        </meal>
+      </category>
+      <category name="Daily Specials">
+        <meal>
+          <name>Wok frischer Gemüse - Wok mit Basmatireis</name>
+          <note>vegan</note>
+          <price role="student">5.80</price>
+        </meal>
+        <meal>
+          <name>Putengeschnetzeltes in Sesamsauce mit Basmatireis</name>
+          <note>Erdnüsse</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Schalenfrüchte</note>
+          <note>Senf</note>
+          <note>Sesam</note>
+          <note>Sojabohnen</note>
+          <note>Weichtiere/Schnecken/Muscheln/Tintenfische</note>
+          <price role="student">6.10</price>
+        </meal>
+        <meal>
+          <name>Grill Riesenbratwurst mit Potato Wedges und Zwiebelsenf</name>
+          <note>Senf</note>
+          <price role="student">5.90</price>
+        </meal>
+        <meal>
+          <name>Gebratenes Putenbruststeak mit Erdäpfelgratin und Mediterranes Grillgemüse</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Senf</note>
+          <price role="student">7.80</price>
+        </meal>
+        <meal>
+          <name>Premium Zanderfilet natur gebraten mit Erdäpfelgratin und Mediterranes Grillgemüse</name>
+          <note>Eier</note>
+          <note>Fisch</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <price role="student">8.10</price>
+        </meal>
+      </category>
+      <category name="Snacks">
+        <meal>
+          <name>PIMP IT&quot; Stell dir deinen Lieblingsburger selbst zusammen :) Movie Burger Double Cheese Burger Veggie Burger</name>
+          <note>&amp;Ouml;sterr. Umweltzeichen</note>
+          <note>vegetarisch</note>
+          <price role="student">5.70</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2020-10-29">
+      <category name="Classic Lunch">
+        <meal>
+          <name>Veggie Überbackener Gemüserösti mit Herbstgemüse und Kräuterdip dazu Blattsalaten der Saison</name>
+          <note>Milch</note>
           <note>vegetarisch</note>
           <price role="student">5.10</price>
         </meal>
         <meal>
-          <name>Herzhaft Alaska Seelachs in der Knusperpanade mit Sauce Tartare, Kräuterreis und Zitrone</name>
+          <name>Herzhaft Selchschopf in Natursauce mit Erbsen und Erdäpfelpurée</name>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <price role="student">5.90</price>
+        </meal>
+      </category>
+      <category name="Suppen &amp; Desserts">
+        <meal>
+          <name>SuppeKlare Gemüsesuppe mit Fadennudeln Knoblauchcremesuppe</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <note>Styria vitalis</note>
+          <price role="student">1.60</price>
+        </meal>
+        <meal>
+          <name>Dessert kalt Vanillepudding</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Schalenfrüchte</note>
+          <note>Sojabohnen</note>
+          <price role="student">1.00</price>
+        </meal>
+      </category>
+      <category name="M-Cafe">
+        <meal>
+          <name>*GUTEN MORGEN*Unser Frühstücks-Angebot (gültig bis 11:00 Uhr)*Das kleine italienische* (Buttercroissant &amp; Cappuccino oder Tee)*Das Süße* (1x Semmel, 1x BIO-Butter,1x Marmelade oder Honig,Cappuccino oder Tee)*Das Pikante* (1xSemmel,1x BIO-</name>
+          <price role="student">5.50</price>
+        </meal>
+        <meal>
+          <name>Butter,1xSchinken und Käse,1x Gemüse,Cappuccino oder Tee) *Das Gesunde*(Joghurt mit Müsli und Früchten &amp;Cappuccino oder Tee)*Das Vielfältige*x Semmel, 1xKorngebäck,1xBIO-Butter,1xMarmelade oder Honig,1xSchinken und Käse,1x Gemüse,1/8 Juice,</name>
+        </meal>
+        <meal>
+          <name>Cappuccino oder Tee) Wir freuen uns auf euch :)</name>
+        </meal>
+      </category>
+      <category name="Daily Specials">
+        <meal>
+          <name>Wok frischer Gemüse - Wok mit Basmatireis</name>
+          <note>vegan</note>
+          <price role="student">5.80</price>
+        </meal>
+        <meal>
+          <name>Rindergeschnetzeltes &quot;Shanghai&quot; mit Eiernudeln</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Schalenfrüchte</note>
+          <note>Senf</note>
+          <note>Sesam</note>
+          <note>Sojabohnen</note>
+          <note>Styria vitalis</note>
+          <price role="student">7.10</price>
+        </meal>
+        <meal>
+          <name>Grill Riesenbratwurst mit Potato Wedges und Zwiebelsenf</name>
+          <note>Senf</note>
+          <price role="student">5.90</price>
+        </meal>
+        <meal>
+          <name>Gebratenes Putenbruststeak mit Erdäpfelgratin und Mediterranes Grillgemüse</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Senf</note>
+          <price role="student">7.80</price>
+        </meal>
+        <meal>
+          <name>Premium Zanderfilet natur gebraten mit Erdäpfelgratin und Mediterranes Grillgemüse</name>
+          <note>Eier</note>
+          <note>Fisch</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <price role="student">8.10</price>
+        </meal>
+      </category>
+      <category name="Snacks">
+        <meal>
+          <name>PIMP IT&quot; Stell dir deinen Lieblingsburger selbst zusammen :) Movie Burger Double Cheese Burger Veggie Burger</name>
+          <note>&amp;Ouml;sterr. Umweltzeichen</note>
+          <note>vegetarisch</note>
+          <price role="student">5.70</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2020-10-30">
+      <category name="Classic Lunch">
+        <meal>
+          <name>Veggie Asiatischer Wrap mit Krautsalat</name>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Sojabohnen</note>
+          <note>vegetarisch</note>
+          <price role="student">5.10</price>
+        </meal>
+        <meal>
+          <name>Herzhaft Alaska Seelachs gebacken mit Erdäpfel-Mayonnaise Salat und Zitronenschnitz und</name>
           <note>Eier</note>
           <note>Fisch</note>
           <note>Gluten</note>
@@ -401,7 +340,7 @@
       </category>
       <category name="Suppen &amp; Desserts">
         <meal>
-          <name>Suppe Klare Gemüsesuppe mit Backerbsen Petersilwurzelcremesuppe</name>
+          <name>Suppe Klare Gemüsesuppe mit Reibteig Erbsencremesuppe</name>
           <note>Eier</note>
           <note>Gluten</note>
           <note>Milch</note>
@@ -411,9 +350,10 @@
           <price role="student">1.60</price>
         </meal>
         <meal>
-          <name>Dessert kalt Bananenmousse</name>
+          <name>Dessert kaltPanna Cotta mit Erdbeersauce</name>
           <note>Milch</note>
-          <price role="student">1.00</price>
+          <note>Sojabohnen</note>
+          <price role="student">1.10</price>
         </meal>
       </category>
       <category name="M-Cafe">
@@ -430,34 +370,38 @@
       </category>
       <category name="Daily Specials">
         <meal>
-          <name>Chicken Wings Chicken Wings Potato Wedges Chili-Oregano-Dip</name>
+          <name>Wok frischer Gemüse - Wok mit Jasminreis</name>
+          <note>vegan</note>
+          <price role="student">5.80</price>
+        </meal>
+        <meal>
+          <name>Chicken Teriyaki mit Jasminreis</name>
           <note>Gluten</note>
-          <note>Senf</note>
-          <note>Sesam</note>
+          <note>Schwefeldioxid/Sulfite</note>
           <note>Sojabohnen</note>
           <price role="student">6.10</price>
         </meal>
         <meal>
-          <name>Grill Currywurst mit fruchtige Currysauce und Pommes frites</name>
-          <note>Gluten</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sojabohnen</note>
+          <name>Grill Riesenbratwurst mit Potato Wedges und Zwiebelsenf</name>
+          <note>Senf</note>
           <price role="student">5.90</price>
         </meal>
         <meal>
-          <name>gebratene Medaillons vom Schwein mit Champignonrahmsauce und Kartoffelkroketten</name>
+          <name>Gebratenes Putenbruststeak mit Erdäpfelgratin und Mediterranes Grillgemüse</name>
+          <note>Eier</note>
           <note>Gluten</note>
           <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <price role="student">8.10</price>
+          <note>Senf</note>
+          <price role="student">7.80</price>
         </meal>
         <meal>
-          <name>Premium Gegrilltes Lachsforellenfilet auf Krensauce mit Mandel-Broccoli und Kürbis-Püree</name>
+          <name>Premium Zanderfilet natur gebraten mit Erdäpfelgratin und Mediterranes Grillgemüse</name>
+          <note>Eier</note>
+          <note>Fisch</note>
           <note>Gluten</note>
           <note>Milch</note>
-          <note>Schalenfrüchte</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <price role="student">10.90</price>
+          <note>Styria vitalis</note>
+          <price role="student">8.10</price>
         </meal>
       </category>
       <category name="Snacks">
