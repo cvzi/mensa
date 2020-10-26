@@ -4,7 +4,26 @@
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
     <day date="2020-10-26">
-      <closed/>
+      <category name="Heimspiel">
+        <meal>
+          <name>Hähnchenschnitzel im Knuspermantel mit Rahmsuceund Pommes Wedges, Salat und Dessert</name>
+          <note>Gluten</note>
+          <note>Laktose</note>
+          <note>Milch</note>
+          <price role="employee">4.70</price>
+          <price role="student">2.60</price>
+        </meal>
+      </category>
+      <category name="Querbeet">
+        <meal>
+          <name>Röstisticks mit Champignonragout, Salat und Dessert</name>
+          <note>Laktose</note>
+          <note>Milch</note>
+          <note>mit Antioxidationsmittel</note>
+          <price role="employee">4.30</price>
+          <price role="student">2.35</price>
+        </meal>
+      </category>
     </day>
   </canteen>
 </openmensa>
