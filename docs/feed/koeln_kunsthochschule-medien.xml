@@ -3,31 +3,6 @@
 <?xml-stylesheet href="https://cvzi.github.io/om-style/latest/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2020-10-26">
-      <category name="Tellergericht">
-        <meal>
-          <name>MSC Seelachs Meuniere mit Remoulade  und Kartoffeln dazu Salat und Dessert</name>
-          <note>Fisch</note>
-          <note>Gluten</note>
-          <note>Laktose</note>
-          <note>Milch</note>
-          <note>Senf</note>
-          <note>contains colouring agents</note>
-          <note>contains preservatives</note>
-          <note>contains sweetener(s)</note>
-          <price role="employee">3.75</price>
-          <price role="student">2.60</price>
-        </meal>
-      </category>
-      <category name="Vegetaria**">
-        <meal>
-          <name>Vegan: Schupfnudelpfanne mit Tomatensauce dazu Salat und Dessert</name>
-          <note>Gluten</note>
-          <price role="employee">3.75</price>
-          <price role="student">2.60</price>
-        </meal>
-      </category>
-    </day>
     <day date="2020-10-27">
       <category name="Tellergericht">
         <meal>
@@ -37,10 +12,10 @@
           <note>Laktose</note>
           <note>Milch</note>
           <note>Senf</note>
-          <note>contains antioxidants</note>
-          <note>contains colouring agents</note>
-          <note>contains preservatives</note>
-          <note>contains sweetener(s)</note>
+          <note>mit Antioxidationsmittel</note>
+          <note>mit Farbstoff</note>
+          <note>mit Konservierungsstoff</note>
+          <note>mit Süßstoff</note>
           <price role="employee">3.75</price>
           <price role="student">2.60</price>
         </meal>
@@ -50,7 +25,7 @@
           <name>Vegan: Spaghetti mit Tomatenpestosauce  dazu Salat und Dessert</name>
           <note>Gluten</note>
           <note>Schalenfrüchte (Nüsse)</note>
-          <note>contains antioxidants</note>
+          <note>mit Antioxidationsmittel</note>
           <price role="employee">3.75</price>
           <price role="student">2.60</price>
         </meal>
@@ -72,7 +47,7 @@
           <name>Mailänder Risotto mit Champignons  dazu Salat und Dessert</name>
           <note>Laktose</note>
           <note>Milch</note>
-          <note>contains antioxidants</note>
+          <note>mit Antioxidationsmittel</note>
           <price role="employee">3.45</price>
           <price role="student">2.35</price>
         </meal>
@@ -96,7 +71,7 @@
           <note>Senf</note>
           <note>Sesamsamen</note>
           <note>Soja</note>
-          <note>contains preservatives</note>
+          <note>mit Konservierungsstoff</note>
           <price role="employee">3.75</price>
           <price role="student">2.60</price>
         </meal>
@@ -107,9 +82,9 @@
         <meal>
           <name>Paprikagulasch vom Rind mit Spirelli,  dazu Salat und Dessert</name>
           <note>Gluten</note>
-          <note>contains antioxidants</note>
-          <note>contains colouring agents</note>
-          <note>contains preservatives</note>
+          <note>mit Antioxidationsmittel</note>
+          <note>mit Farbstoff</note>
+          <note>mit Konservierungsstoff</note>
           <price role="employee">3.75</price>
           <price role="student">2.60</price>
         </meal>
@@ -125,6 +100,9 @@
           <price role="student">2.35</price>
         </meal>
       </category>
+    </day>
+    <day date="2020-11-02">
+      <closed/>
     </day>
   </canteen>
 </openmensa>
