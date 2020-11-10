@@ -3,35 +3,14 @@
 <?xml-stylesheet href="https://cvzi.github.io/om-style/latest/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2020-11-09">
-      <category name="Tellergericht">
-        <meal>
-          <name>Lachslasagne Kräutersauce 17, 18 Salat und Dessert</name>
-          <note>Gluten</note>
-          <note>contains fish</note>
-          <note>contains lactose</note>
-          <note>contains milk</note>
-          <price role="employee">3.75</price>
-          <price role="student">2.60</price>
-        </meal>
-      </category>
-      <category name="Vegetaria**">
-        <meal>
-          <name>VEGAN Risotto mit weißen Bohnen und getrockneten Tomaten,  dazu Salat und Dessert</name>
-          <note>contains soya (beans)</note>
-          <price role="employee">4.70</price>
-          <price role="student">2.60</price>
-        </meal>
-      </category>
-    </day>
     <day date="2020-11-10">
       <category name="Tellergericht">
         <meal>
           <name>Hähnchennuggets  mit Currydip Pommes Wedges,  dazu Salat und Dessert</name>
           <note>Gluten</note>
-          <note>contains lactose</note>
-          <note>contains milk</note>
-          <note>contains mustard</note>
+          <note>Laktose</note>
+          <note>Milch</note>
+          <note>Senf</note>
           <note>mit Phosphat</note>
           <price role="employee">4.70</price>
           <price role="student">2.60</price>
@@ -40,10 +19,10 @@
       <category name="Vegetaria**">
         <meal>
           <name>Pfannkuchen Crespelle mit Ratatouillegemüse,  dazu Salat und Dessert</name>
+          <note>Eier</note>
           <note>Gluten</note>
-          <note>contains eggs</note>
-          <note>contains lactose</note>
-          <note>contains milk</note>
+          <note>Laktose</note>
+          <note>Milch</note>
           <note>mit Farbstoff</note>
           <price role="employee">4.30</price>
           <price role="student">2.35</price>
@@ -54,11 +33,11 @@
       <category name="Tellergericht">
         <meal>
           <name>Frikadelle mit Zwiebelsauce und Kartoffelpüree,  dazu Salat und Dessert</name>
+          <note>Eier</note>
           <note>Gluten</note>
-          <note>contains eggs</note>
-          <note>contains lactose</note>
-          <note>contains milk</note>
-          <note>contains mustard</note>
+          <note>Laktose</note>
+          <note>Milch</note>
+          <note>Senf</note>
           <price role="employee">4.70</price>
           <price role="student">2.60</price>
         </meal>
@@ -67,9 +46,9 @@
         <meal>
           <name>VEGAN Sesam-Karotten Sticks mit Tomatensalsa  und Bulgur,  dazu Salat und Dessert</name>
           <note>Gluten</note>
-          <note>contains celery</note>
-          <note>contains mustard</note>
-          <note>contains sesame seeds</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <note>Sesamsamen</note>
           <note>mit Antioxidationsmittel</note>
           <note>mit Farbstoff</note>
           <note>mit Konservierungsstoff</note>
@@ -84,10 +63,10 @@
         <meal>
           <name>Rindfleischstreifen Suzy-Wong mit Mie-Nudeln,  dazu Salat und Dessert</name>
           <note>Gluten</note>
-          <note>contains celery</note>
-          <note>contains mustard</note>
-          <note>contains sesame seeds</note>
-          <note>contains soya (beans)</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <note>Sesamsamen</note>
+          <note>Soja</note>
           <note>mit Antioxidationsmittel</note>
           <note>mit Farbstoff</note>
           <note>mit Konservierungsstoff</note>
@@ -98,11 +77,11 @@
       <category name="Vegetaria**">
         <meal>
           <name>Gemüsebratling mit Paprikasauce  und Reis,  dazu Salat und Dessert</name>
+          <note>Eier</note>
           <note>Gluten</note>
-          <note>contains celery</note>
-          <note>contains eggs</note>
-          <note>contains lactose</note>
-          <note>contains milk</note>
+          <note>Laktose</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
           <note>mit Konservierungsstoff</note>
           <price role="employee">4.30</price>
           <price role="student">2.35</price>
@@ -114,9 +93,9 @@
         <meal>
           <name>Hähnchengyros mit Tzaziki Pommes Cubes,  dazu Salat und Dessert</name>
           <note>Gluten</note>
-          <note>contains lactose</note>
-          <note>contains milk</note>
-          <note>contains mustard</note>
+          <note>Laktose</note>
+          <note>Milch</note>
+          <note>Senf</note>
           <note>mit Farbstoff</note>
           <note>mit Konservierungsstoff</note>
           <price role="employee">4.70</price>
@@ -127,9 +106,9 @@
         <meal>
           <name>Vegan: Chili con Soja mit Fladenbrot  dazu Salat und Dessert</name>
           <note>Gluten</note>
-          <note>contains celery</note>
-          <note>contains sesame seeds</note>
-          <note>contains soya (beans)</note>
+          <note>Sellerie</note>
+          <note>Sesamsamen</note>
+          <note>Soja</note>
           <note>mit Antioxidationsmittel</note>
           <note>mit Farbstoff</note>
           <note>mit Konservierungsstoff</note>
@@ -137,6 +116,9 @@
           <price role="student">2.60</price>
         </meal>
       </category>
+    </day>
+    <day date="2020-11-16">
+      <closed/>
     </day>
   </canteen>
 </openmensa>

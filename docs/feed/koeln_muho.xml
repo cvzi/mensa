@@ -3,36 +3,12 @@
 <?xml-stylesheet href="https://cvzi.github.io/om-style/latest/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2020-11-09">
-      <category name="Heimspiel">
-        <meal>
-          <name>Hähnchen Cordon Bleu Bratensauce,  Pommes Frites,  Salat,  Dessert</name>
-          <note>Gluten</note>
-          <note>contains lactose</note>
-          <note>contains milk</note>
-          <price role="employee">4.70</price>
-          <price role="student">2.60</price>
-        </meal>
-      </category>
-      <category name="Querbeet">
-        <meal>
-          <name>Champignon Blätterteigtasche Kräuterrahmsauce,  Reis,  Salat und Dessert</name>
-          <note>Gluten</note>
-          <note>contains celery</note>
-          <note>contains eggs</note>
-          <note>contains lactose</note>
-          <note>contains milk</note>
-          <price role="employee">4.30</price>
-          <price role="student">2.35</price>
-        </meal>
-      </category>
-    </day>
     <day date="2020-11-10">
       <category name="Heimspiel">
         <meal>
           <name>Putengulasch Reis,  Salat und Dessert</name>
-          <note>contains lactose</note>
-          <note>contains milk</note>
+          <note>Laktose</note>
+          <note>Milch</note>
           <price role="employee">4.70</price>
           <price role="student">2.60</price>
         </meal>
@@ -40,11 +16,11 @@
       <category name="Querbeet">
         <meal>
           <name>Spätzlepfanne Gemüserahmsauce,  dazu 2 Beilagen</name>
+          <note>Eier</note>
           <note>Gluten</note>
-          <note>contains celery</note>
-          <note>contains eggs</note>
-          <note>contains lactose</note>
-          <note>contains milk</note>
+          <note>Laktose</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
           <price role="employee">4.30</price>
           <price role="student">2.35</price>
         </meal>
@@ -54,9 +30,9 @@
       <category name="Heimspiel">
         <meal>
           <name>Frikadelle Hausfrauen Art Malzbiersauce,  dazu 3 Beilagen</name>
+          <note>Eier</note>
           <note>Gluten</note>
-          <note>contains eggs</note>
-          <note>contains mustard</note>
+          <note>Senf</note>
           <note>mit Farbstoff</note>
           <price role="employee">4.70</price>
           <price role="student">2.60</price>
@@ -66,7 +42,7 @@
         <meal>
           <name>Gemüseburger Pommes Frites,  dazu 1 Beilage</name>
           <note>Gluten</note>
-          <note>contains celery</note>
+          <note>Sellerie</note>
           <note>mit Antioxidationsmittel</note>
           <note>mit Farbstoff</note>
           <note>mit Konservierungsstoff</note>
@@ -80,7 +56,7 @@
       <category name="Heimspiel">
         <meal>
           <name>Rinderschmorbraten (artgerechte Haltung) dazu 3 Beilagen</name>
-          <note>contains alcohol</note>
+          <note>enthält Alkohol</note>
           <price role="employee">4.70</price>
           <price role="student">2.60</price>
         </meal>
@@ -89,8 +65,8 @@
         <meal>
           <name>Süßkartoffeltaschen mit Frischkäse und Kräutern gefüllt Kräuterquark,  Reis,  Salat und Dessert</name>
           <note>Gluten</note>
-          <note>contains lactose</note>
-          <note>contains milk</note>
+          <note>Laktose</note>
+          <note>Milch</note>
           <price role="employee">4.30</price>
           <price role="student">2.35</price>
         </meal>
@@ -100,11 +76,11 @@
       <category name="Heimspiel">
         <meal>
           <name>MSC Kibbelinge Remoulade,  Salzkartoffeln,  Salat,  Dessert</name>
+          <note>Fisch</note>
           <note>Gluten</note>
-          <note>contains fish</note>
-          <note>contains lactose</note>
-          <note>contains milk</note>
-          <note>contains mustard</note>
+          <note>Laktose</note>
+          <note>Milch</note>
+          <note>Senf</note>
           <note>mit Farbstoff</note>
           <note>mit Konservierungsstoff</note>
           <note>mit Süßstoff</note>
@@ -120,6 +96,9 @@
           <price role="student">2.35</price>
         </meal>
       </category>
+    </day>
+    <day date="2020-11-16">
+      <closed/>
     </day>
   </canteen>
 </openmensa>
