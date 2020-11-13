@@ -6,7 +6,7 @@ from pyopenmensa.feed import LazyBuilder
 
 __all__ = ['xmlEscape', 'StyledLazyBuilder', 'nowBerlin']
 
-defaultStyleSheets = ('https://cvzi.github.io/om-style/latest/basic.css', 'https://cvzi.github.io/om-style/latest/lightgreen.css')
+defaultStyleSheets = ('https://cdn.jsdelivr.net/npm/om-style@1.0.0/basic.css', 'https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css')
 
 def xmlEscape(s, escapeDoubleQuotes=False):
     s = str(s).replace('&', '&amp;')  # amp first!
