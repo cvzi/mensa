@@ -3,54 +3,6 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2020-11-25">
-      <category name="Heimspiel">
-        <meal>
-          <name>Rindergulasch Spirelli,  Salat und Dessert</name>
-          <note>Gluten</note>
-          <note>mit Antioxidationsmittel</note>
-          <note>mit Farbstoff</note>
-          <note>mit Konservierungsstoff</note>
-          <price role="employee">4.70</price>
-          <price role="student">2.60</price>
-        </meal>
-        <meal>
-          <name>Schweineschnitzel Champignonsauce,  Süßkartoffel- Pommes Frites,  Salat und Dessert</name>
-          <note>Gluten</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">4.70</price>
-          <price role="student">2.60</price>
-        </meal>
-      </category>
-      <category name="Querbeet">
-        <meal>
-          <name>Sojagyros vegane Kräutermayonnaise,  Pommes Twister,  Salat und Dessert</name>
-          <note>Gluten</note>
-          <price role="employee">4.70</price>
-          <price role="student">2.60</price>
-        </meal>
-        <meal>
-          <name>Valesssteak Gemüsekruste,  BBQ-Sauce,  gebackene Zwiebelringe,  Salat</name>
-          <note>Gluten</note>
-          <note>mit Farbstoff</note>
-          <note>mit Konservierungsstoff</note>
-          <note>mit Süßstoff</note>
-          <price role="employee">4.30</price>
-          <price role="student">2.35</price>
-        </meal>
-        <meal>
-          <name>Salatbuffet</name>
-          <note>Gluten</note>
-          <note>geschwärzt</note>
-          <note>mit Antioxidationsmittel</note>
-          <note>mit Farbstoff</note>
-          <note>mit Konservierungsstoff</note>
-          <note>mit Süßstoff</note>
-          <price role="employee">0.85</price>
-          <price role="student">0.65</price>
-        </meal>
-      </category>
-    </day>
     <day date="2020-11-26">
       <category name="Heimspiel">
         <meal>
@@ -65,6 +17,8 @@
         <meal>
           <name>Süßkartoffelsuppe mit Salbei Kaiserbrötchen</name>
           <note>Gluten</note>
+          <note>Laktose</note>
+          <note>Milch</note>
           <price role="employee">3.60</price>
           <price role="student">1.80</price>
         </meal>
@@ -73,6 +27,9 @@
         <meal>
           <name>Chili con Soja vegan Fladenbrot,  Salat und Dessert</name>
           <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Sesamsamen</note>
+          <note>Soja</note>
           <note>mit Antioxidationsmittel</note>
           <note>mit Farbstoff</note>
           <note>mit Konservierungsstoff</note>
@@ -81,14 +38,31 @@
         </meal>
         <meal>
           <name>Blumenkohlbratling Sauce Hollandaise,  Salzkartoffeln,  Salat und Dessert</name>
+          <note>Eier</note>
           <note>Gluten</note>
+          <note>Laktose</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid und Sulfite</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <note>enthält Alkohol</note>
           <note>mit Farbstoff</note>
           <price role="employee">4.30</price>
           <price role="student">2.35</price>
         </meal>
         <meal>
           <name>Salatbuffet</name>
+          <note>Eier</note>
+          <note>Erdnüsse</note>
           <note>Gluten</note>
+          <note>Laktose</note>
+          <note>Milch</note>
+          <note>Schalenfrüchte (Nüsse)</note>
+          <note>Schwefeldioxid und Sulfite</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <note>Sesamsamen</note>
+          <note>Soja</note>
           <note>geschwärzt</note>
           <note>mit Antioxidationsmittel</note>
           <note>mit Farbstoff</note>
@@ -102,6 +76,10 @@
         <meal>
           <name>Pfannengyros vom Schwein Tzatziki,  Reisnudeln,  Salat und Dessert</name>
           <note>Gluten</note>
+          <note>Laktose</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
           <note>mit Farbstoff</note>
           <note>mit Konservierungsstoff</note>
           <price role="employee">4.70</price>
@@ -113,7 +91,11 @@
       <category name="Heimspiel">
         <meal>
           <name>MSC Kibbelinge Remoulade,  Pommes Frites,  Salat und Dessert</name>
+          <note>Fisch</note>
           <note>Gluten</note>
+          <note>Laktose</note>
+          <note>Milch</note>
+          <note>Senf</note>
           <note>mit Farbstoff</note>
           <note>mit Konservierungsstoff</note>
           <note>mit Süßstoff</note>
@@ -125,17 +107,30 @@
         <meal>
           <name>Tortellini mit Spinat- Käsefüllung Blattspinatsauce,  Salat und Dessert</name>
           <note>Gluten</note>
+          <note>Laktose</note>
+          <note>Milch</note>
           <price role="employee">4.30</price>
           <price role="student">2.35</price>
         </meal>
         <meal>
           <name>Kürbisrisotto Salat und Dessert</name>
+          <note>Soja</note>
           <price role="employee">4.70</price>
           <price role="student">2.60</price>
         </meal>
         <meal>
           <name>Salatbuffet</name>
+          <note>Eier</note>
+          <note>Erdnüsse</note>
           <note>Gluten</note>
+          <note>Laktose</note>
+          <note>Milch</note>
+          <note>Schalenfrüchte (Nüsse)</note>
+          <note>Schwefeldioxid und Sulfite</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <note>Sesamsamen</note>
+          <note>Soja</note>
           <note>geschwärzt</note>
           <note>mit Antioxidationsmittel</note>
           <note>mit Farbstoff</note>
@@ -148,7 +143,11 @@
       <category name="Worldwide">
         <meal>
           <name>MSC Kibbelinge Remoulade,  Pommes Frites,  Salat und Dessert</name>
+          <note>Fisch</note>
           <note>Gluten</note>
+          <note>Laktose</note>
+          <note>Milch</note>
+          <note>Senf</note>
           <note>mit Farbstoff</note>
           <note>mit Konservierungsstoff</note>
           <note>mit Süßstoff</note>
@@ -162,6 +161,8 @@
         <meal>
           <name>Nudelauflauf mit Rinderhackfleisch Tomatensauce,  Salat und Dessert</name>
           <note>Gluten</note>
+          <note>Laktose</note>
+          <note>Milch</note>
           <note>mit Farbstoff</note>
           <note>mit Konservierungsstoff</note>
           <price role="employee">4.70</price>
@@ -170,6 +171,8 @@
         <meal>
           <name>Linseneintopf mit Mettwurst,  Kaiserbrötchen</name>
           <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
           <note>mit Antioxidationsmittel</note>
           <note>mit Geschmacksverstärker</note>
           <note>mit Konservierungsstoff</note>
@@ -180,7 +183,9 @@
       <category name="Querbeet">
         <meal>
           <name>Paella mit Ebly Paprikasauce,  Salat und Dessert</name>
+          <note>Erdnüsse</note>
           <note>Gluten</note>
+          <note>Sellerie</note>
           <note>mit Antioxidationsmittel</note>
           <note>mit Farbstoff</note>
           <note>mit Konservierungsstoff</note>
@@ -189,14 +194,26 @@
         </meal>
         <meal>
           <name>Bunte Gnocchipfanne Tomatenpestosauce,  Salat und Dessert</name>
+          <note>Eier</note>
           <note>Gluten</note>
+          <note>Schalenfrüchte (Nüsse)</note>
           <note>mit Antioxidationsmittel</note>
           <price role="employee">4.30</price>
           <price role="student">2.35</price>
         </meal>
         <meal>
           <name>Salatbuffet</name>
+          <note>Eier</note>
+          <note>Erdnüsse</note>
           <note>Gluten</note>
+          <note>Laktose</note>
+          <note>Milch</note>
+          <note>Schalenfrüchte (Nüsse)</note>
+          <note>Schwefeldioxid und Sulfite</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <note>Sesamsamen</note>
+          <note>Soja</note>
           <note>geschwärzt</note>
           <note>mit Antioxidationsmittel</note>
           <note>mit Farbstoff</note>
@@ -210,6 +227,10 @@
         <meal>
           <name>Bami Goreng Indonesisches Nudelgericht (Geflügel) Süß-Saurer-Sauce,  Salat und Dessert</name>
           <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <note>Sesamsamen</note>
+          <note>Soja</note>
           <note>mit Antioxidationsmittel</note>
           <note>mit Farbstoff</note>
           <note>mit Konservierungsstoff</note>
@@ -229,12 +250,16 @@
         <meal>
           <name>Blumenkohlcremésuppe Kaiserbrötchen</name>
           <note>Gluten</note>
+          <note>Laktose</note>
+          <note>Milch</note>
           <price role="employee">3.60</price>
           <price role="student">1.80</price>
         </meal>
         <meal>
           <name>Geflügelgeschnetzeltes mit Champignons Rigatoni,  Salat und Dessert</name>
           <note>Gluten</note>
+          <note>Laktose</note>
+          <note>Milch</note>
           <note>mit Antioxidationsmittel</note>
           <price role="employee">4.70</price>
           <price role="student">2.60</price>
@@ -243,7 +268,10 @@
       <category name="Querbeet">
         <meal>
           <name>Crespelle Quarkdip,  Ratatouillegemüse,  Salat und Dessert</name>
+          <note>Eier</note>
           <note>Gluten</note>
+          <note>Laktose</note>
+          <note>Milch</note>
           <note>mit Farbstoff</note>
           <price role="employee">4.30</price>
           <price role="student">2.35</price>
@@ -251,13 +279,26 @@
         <meal>
           <name>Nudelpfanne Toskana Tomatensugo,  Salat und Dessert</name>
           <note>Gluten</note>
+          <note>Laktose</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
           <note>mit Farbstoff</note>
           <price role="employee">4.70</price>
           <price role="student">2.60</price>
         </meal>
         <meal>
           <name>Salatbuffet</name>
+          <note>Eier</note>
+          <note>Erdnüsse</note>
           <note>Gluten</note>
+          <note>Laktose</note>
+          <note>Milch</note>
+          <note>Schalenfrüchte (Nüsse)</note>
+          <note>Schwefeldioxid und Sulfite</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <note>Sesamsamen</note>
+          <note>Soja</note>
           <note>geschwärzt</note>
           <note>mit Antioxidationsmittel</note>
           <note>mit Farbstoff</note>
@@ -270,10 +311,56 @@
       <category name="Worldwide">
         <meal>
           <name>Bifteki Paprikasauce,  Djuvecreis,  Salat und Dessert</name>
+          <note>Eier</note>
           <note>Gluten</note>
+          <note>Laktose</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
           <note>mit Antioxidationsmittel</note>
           <note>mit Farbstoff</note>
           <note>mit Konservierungsstoff</note>
+          <price role="employee">4.70</price>
+          <price role="student">2.60</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2020-12-02">
+      <category name="Querbeet">
+        <meal>
+          <name>Salatbuffet</name>
+          <note>Eier</note>
+          <note>Erdnüsse</note>
+          <note>Gluten</note>
+          <note>Laktose</note>
+          <note>Milch</note>
+          <note>Schalenfrüchte (Nüsse)</note>
+          <note>Schwefeldioxid und Sulfite</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <note>Sesamsamen</note>
+          <note>Soja</note>
+          <note>geschwärzt</note>
+          <note>mit Antioxidationsmittel</note>
+          <note>mit Farbstoff</note>
+          <note>mit Konservierungsstoff</note>
+          <note>mit Süßstoff</note>
+          <price role="employee">0.85</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Süßkartoffeltaschen mit Frischkäse und Kräutern gefüllt Quarkdip,  Gemüsereis,  Salat und Dessert</name>
+          <note>Gluten</note>
+          <note>Laktose</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
+          <price role="employee">4.30</price>
+          <price role="student">2.35</price>
+        </meal>
+        <meal>
+          <name>Tortellini mit Blattspinat und Tomate Sojarahm,  Salat und Dessert</name>
+          <note>Gluten</note>
+          <note>Soja</note>
           <price role="employee">4.70</price>
           <price role="student">2.60</price>
         </meal>
