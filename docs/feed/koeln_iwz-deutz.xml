@@ -3,34 +3,10 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2020-12-01">
-      <category name="Querbeet">
-        <meal>
-          <name>Bunte Schupfnudelpfanne, Salat und Dessert</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <price role="employee">4.30</price>
-          <price role="student">2.60</price>
-        </meal>
-      </category>
-      <category name="Worldwide">
-        <meal>
-          <name>6 Cevapcicimit Tzatzikiund Djuvecreis, Salat und Dessert</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Laktose</note>
-          <note>Milch</note>
-          <note>Sellerie</note>
-          <price role="employee">4.70</price>
-          <price role="student">2.60</price>
-        </meal>
-      </category>
-    </day>
     <day date="2020-12-02">
       <category name="Heimspiel">
         <meal>
           <name>Hähnchenschnitzelmit Rahmsauceund Pommes frites, Erbsen und Möhren, Dessert</name>
-          <note>Gluten</note>
           <note>Laktose</note>
           <note>Milch</note>
           <price role="employee">4.70</price>
@@ -55,7 +31,6 @@
           <note>Milch</note>
           <note>Sellerie</note>
           <note>Senf</note>
-          <note>mit Geschmacksverstärker</note>
           <price role="employee">4.70</price>
           <price role="student">2.60</price>
         </meal>
@@ -73,7 +48,6 @@
       <category name="Querbeet">
         <meal>
           <name>Bunte Nudelpfanne mit Gemüse, Salat und Dessert</name>
-          <note>Gluten</note>
           <price role="employee">4.70</price>
           <price role="student">2.60</price>
         </meal>
@@ -83,10 +57,8 @@
           <name>MSC Fischstäbchen mit Aioliund Pommes Cubes, Salat und Dessert</name>
           <note>Eier</note>
           <note>Fisch</note>
-          <note>Gluten</note>
           <note>Laktose</note>
           <note>Milch</note>
-          <note>mit Farbstoff</note>
           <price role="employee">4.70</price>
           <price role="student">2.60</price>
         </meal>
@@ -107,6 +79,9 @@
           <price role="student">2.60</price>
         </meal>
       </category>
+    </day>
+    <day date="2020-12-08">
+      <closed/>
     </day>
   </canteen>
 </openmensa>
