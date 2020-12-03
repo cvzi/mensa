@@ -3,36 +3,17 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2020-12-02">
-      <category name="Querbeet">
-        <meal>
-          <name>8 Gemüsebällchen Joghurt- Minz Dip,  Gemüsebulgur,  Salat und Dessert</name>
-          <note>Eier</note>
-          <note>Laktose</note>
-          <note>Milch</note>
-          <note>Sellerie</note>
-          <price role="employee">3.45</price>
-          <price role="student">2.35</price>
-        </meal>
-      </category>
-      <category name="Worldwide">
-        <meal>
-          <name>Spaghetti Hackfleischsauce,  Salat</name>
-          <note>Sellerie</note>
-          <price role="employee">3.75</price>
-          <price role="student">2.60</price>
-        </meal>
-      </category>
-    </day>
     <day date="2020-12-03">
       <category name="Heimspiel">
         <meal>
           <name>Bifteki Paprikadip,  grünen Bohnen,  Pommes Cubes  und Dessert</name>
           <note>Eier</note>
+          <note>Gluten</note>
           <note>Laktose</note>
           <note>Milch</note>
           <note>Sellerie</note>
           <note>Senf</note>
+          <note>mit Farbstoff</note>
           <price role="employee">3.75</price>
           <price role="student">2.60</price>
         </meal>
@@ -41,6 +22,7 @@
         <meal>
           <name>Kichererbsenpfanne mit Mediterranem Gemüse Süßkartoffelstampf,  Salat und Dessert</name>
           <note>Soja</note>
+          <note>mit Antioxidationsmittel</note>
           <price role="employee">3.75</price>
           <price role="student">2.60</price>
         </meal>
@@ -51,6 +33,7 @@
         <meal>
           <name>Semmelknödel Mischpilzragout,  Salat</name>
           <note>Eier</note>
+          <note>Gluten</note>
           <note>Laktose</note>
           <note>Milch</note>
           <price role="employee">3.45</price>
@@ -61,9 +44,13 @@
         <meal>
           <name>MSC Kibbelinge Remoulade,  Salzkartoffeln,  Salat und Dessert</name>
           <note>Fisch</note>
+          <note>Gluten</note>
           <note>Laktose</note>
           <note>Milch</note>
           <note>Senf</note>
+          <note>mit Farbstoff</note>
+          <note>mit Konservierungsstoff</note>
+          <note>mit Süßstoff</note>
           <price role="employee">3.75</price>
           <price role="student">2.60</price>
         </meal>
@@ -74,8 +61,13 @@
         <meal>
           <name>3 Rindfleischköfte Kraüter- Olivenquark,  Pommes Cubes,  Balkangemüse  und Dessert</name>
           <note>Eier</note>
+          <note>Gluten</note>
           <note>Laktose</note>
           <note>Milch</note>
+          <note>geschwärzt</note>
+          <note>mit Antioxidationsmittel</note>
+          <note>mit Farbstoff</note>
+          <note>mit Konservierungsstoff</note>
           <price role="employee">3.75</price>
           <price role="student">2.60</price>
         </meal>
@@ -83,6 +75,7 @@
       <category name="Querbeet">
         <meal>
           <name>Bunte Nudelpfanne Tomatensugo,  Salat und Dessert</name>
+          <note>Gluten</note>
           <note>Sellerie</note>
           <price role="employee">3.75</price>
           <price role="student">2.60</price>
@@ -93,6 +86,7 @@
       <category name="Heimspiel">
         <meal>
           <name>Schweineschnitzel Jägersauce,  Herzoginkartoffeln,  Mischgemüse und Dessert</name>
+          <note>Gluten</note>
           <note>Laktose</note>
           <note>Milch</note>
           <note>Schwefeldioxid und Sulfite</note>
@@ -105,10 +99,35 @@
         <meal>
           <name>Canneloni Ricotta Spinatfüllung Tomatensauce,  Salat und Dessert</name>
           <note>Eier</note>
+          <note>Gluten</note>
           <note>Laktose</note>
           <note>Milch</note>
           <price role="employee">3.45</price>
           <price role="student">2.35</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2020-12-09">
+      <category name="Heimspiel">
+        <meal>
+          <name>Grillbratwurst Currysauce,  Pommes Frites,  Salat und Dessert</name>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <note>Soja</note>
+          <note>mit Antioxidationsmittel</note>
+          <note>mit Geschmacksverstärker</note>
+          <price role="employee">3.75</price>
+          <price role="student">2.60</price>
+        </meal>
+      </category>
+      <category name="Querbeet">
+        <meal>
+          <name>Röstisticks Champignonsauce,  Reis,  Salat und Dessert</name>
+          <note>Soja</note>
+          <note>mit Antioxidationsmittel</note>
+          <price role="employee">3.75</price>
+          <price role="student">2.60</price>
         </meal>
       </category>
     </day>
