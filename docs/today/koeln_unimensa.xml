@@ -4,7 +4,61 @@
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
     <day date="2020-12-04">
-      <closed/>
+      <category name="Heimspiel">
+        <meal>
+          <name>Linsensuppe Brötchen</name>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <price role="employee">2.45</price>
+          <price role="student">1.80</price>
+        </meal>
+      </category>
+      <category name="Querbeet">
+        <meal>
+          <name>Bunte Nudelpfanne,  Pilzsauce Salat und Dessert</name>
+          <note>Gluten</note>
+          <note>Soja</note>
+          <price role="employee">3.75</price>
+          <price role="student">2.60</price>
+        </meal>
+        <meal>
+          <name>Tortellini mit Spinat- Käsefüllung Käsesauce,  Salat und Dessert</name>
+          <note>Gluten</note>
+          <note>Laktose</note>
+          <note>Milch</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">3.45</price>
+          <price role="student">2.35</price>
+        </meal>
+        <meal>
+          <name>Salatbuffet in Selbstbedienung</name>
+          <price role="employee">0.85</price>
+          <price role="student">0.65</price>
+        </meal>
+      </category>
+      <category name="Worldwide">
+        <meal>
+          <name>Buntbarschfilet im Backteig Kräuterdip,  Salzkartoffeln,  Salat und Dessert</name>
+          <note>Eier</note>
+          <note>Fisch</note>
+          <note>Gluten</note>
+          <note>Laktose</note>
+          <note>Milch</note>
+          <note>Senf</note>
+          <price role="employee">3.75</price>
+          <price role="student">2.60</price>
+        </meal>
+        <meal>
+          <name>Paniertes Schollenfilet Kräuterdip,  Salzkartoffeln,  Salat und Dessert</name>
+          <note>Fisch</note>
+          <note>Gluten</note>
+          <note>Laktose</note>
+          <note>Milch</note>
+          <price role="employee">3.75</price>
+          <price role="student">2.60</price>
+        </meal>
+      </category>
     </day>
   </canteen>
 </openmensa>

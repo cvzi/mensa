@@ -4,7 +4,29 @@
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
     <day date="2020-12-04">
-      <closed/>
+      <category name="Querbeet">
+        <meal>
+          <name>Bunte Nudelpfanne, Salat und Dessert</name>
+          <note>Gluten</note>
+          <price role="employee">3.75</price>
+          <price role="student">2.60</price>
+        </meal>
+      </category>
+      <category name="Worldwide">
+        <meal>
+          <name>2 MSC Riesenfischstäbchen im Backteig mit Aioli,  Steakhouse Pommes,  Salat und Dessert</name>
+          <note>Eier</note>
+          <note>Fisch</note>
+          <note>Gluten</note>
+          <note>Laktose</note>
+          <note>Milch</note>
+          <note>Senf</note>
+          <note>mit Farbstoff</note>
+          <note>mit Süßstoff</note>
+          <price role="employee">3.75</price>
+          <price role="student">2.60</price>
+        </meal>
+      </category>
     </day>
   </canteen>
 </openmensa>
