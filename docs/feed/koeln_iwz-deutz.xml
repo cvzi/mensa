@@ -3,33 +3,15 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2020-12-07">
-      <category name="Querbeet">
-        <meal>
-          <name>Vegetarische Maultaschenpfanne Zwiebelrahmsauce,  Salat und Dessert</name>
-          <note>Laktose</note>
-          <note>Milch</note>
-          <note>Sellerie</note>
-          <price role="employee">3.45</price>
-          <price role="student">2.35</price>
-        </meal>
-      </category>
-      <category name="Worldwide">
-        <meal>
-          <name>Hähnchencrossies Sweet Chillidip,  Pommes Frites,  Salat und Dessert</name>
-          <note>Sellerie</note>
-          <price role="employee">3.75</price>
-          <price role="student">2.60</price>
-        </meal>
-      </category>
-    </day>
     <day date="2020-12-08">
       <category name="Querbeet">
         <meal>
           <name>5 Samosaecken Süß-Saurer-Sauce,  Reis,  Salat und Dessert</name>
+          <note>Gluten</note>
           <note>Sellerie</note>
           <note>Senf</note>
           <note>Soja</note>
+          <note>mit Konservierungsstoff</note>
           <price role="employee">2.30</price>
           <price role="student">1.60</price>
         </meal>
@@ -37,8 +19,11 @@
       <category name="Worldwide">
         <meal>
           <name>Hähnchengeschnetzeltes nach Stroganoff Art Spirelli,  Salat und Dessert</name>
+          <note>Gluten</note>
           <note>Laktose</note>
           <note>Milch</note>
+          <note>mit Antioxidationsmittel</note>
+          <note>mit Süßstoff</note>
           <price role="employee">3.75</price>
           <price role="student">2.60</price>
         </meal>
@@ -48,10 +33,13 @@
       <category name="Heimspiel">
         <meal>
           <name>Bifteki Paprikadip,  Pommes Cubes,  grünen Bohnen und Dessert</name>
+          <note>Eier</note>
+          <note>Gluten</note>
           <note>Laktose</note>
           <note>Milch</note>
           <note>Sellerie</note>
           <note>Senf</note>
+          <note>mit Farbstoff</note>
           <price role="employee">3.75</price>
           <price role="student">2.60</price>
         </meal>
@@ -59,6 +47,8 @@
       <category name="Querbeet">
         <meal>
           <name>8 Gemüsebällchen Joghurtdip,  Gemüsebulgur,  Salat</name>
+          <note>Eier</note>
+          <note>Gluten</note>
           <note>Laktose</note>
           <note>Milch</note>
           <note>Sellerie</note>
@@ -71,7 +61,9 @@
       <category name="Querbeet">
         <meal>
           <name>Vollkorn Penne Tomatenpestosauce,  Salat und Dessert</name>
+          <note>Gluten</note>
           <note>Schalenfrüchte (Nüsse)</note>
+          <note>mit Antioxidationsmittel</note>
           <price role="employee">3.75</price>
           <price role="student">2.60</price>
         </meal>
@@ -89,6 +81,8 @@
       <category name="Querbeet">
         <meal>
           <name>Canneloni Ricotta Spinatfüllung Basilikumsauce,  Salat und Dessert</name>
+          <note>Eier</note>
+          <note>Gluten</note>
           <note>Laktose</note>
           <note>Milch</note>
           <note>Schwefeldioxid und Sulfite</note>
@@ -100,12 +94,17 @@
       <category name="Worldwide">
         <meal>
           <name>MSC Seelachsfilet im Sesammantel vegane Kräutermayonnaise,  Pommes Frites,  Salat und Dessert</name>
+          <note>Fisch</note>
+          <note>Gluten</note>
           <note>Senf</note>
           <note>Sesamsamen</note>
           <price role="employee">3.75</price>
           <price role="student">2.60</price>
         </meal>
       </category>
+    </day>
+    <day date="2020-12-14">
+      <closed/>
     </day>
   </canteen>
 </openmensa>

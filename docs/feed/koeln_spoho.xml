@@ -3,29 +3,11 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2020-12-07">
-      <category name="Heimspiel">
-        <meal>
-          <name>3 Rindfleischköfte Kraüter- Olivenquark,  Pommes Cubes,  Balkangemüse  und Dessert</name>
-          <note>Laktose</note>
-          <note>Milch</note>
-          <price role="employee">3.75</price>
-          <price role="student">2.60</price>
-        </meal>
-      </category>
-      <category name="Querbeet">
-        <meal>
-          <name>Bunte Nudelpfanne Tomatensugo,  Salat und Dessert</name>
-          <note>Sellerie</note>
-          <price role="employee">3.75</price>
-          <price role="student">2.60</price>
-        </meal>
-      </category>
-    </day>
     <day date="2020-12-08">
       <category name="Heimspiel">
         <meal>
           <name>Schweineschnitzel Jägersauce,  Herzoginkartoffeln,  Mischgemüse und Dessert</name>
+          <note>Gluten</note>
           <note>Laktose</note>
           <note>Milch</note>
           <note>Schwefeldioxid und Sulfite</note>
@@ -37,6 +19,8 @@
       <category name="Querbeet">
         <meal>
           <name>Canneloni Ricotta Spinatfüllung Tomatensauce,  Salat und Dessert</name>
+          <note>Eier</note>
+          <note>Gluten</note>
           <note>Laktose</note>
           <note>Milch</note>
           <price role="employee">3.45</price>
@@ -48,9 +32,12 @@
       <category name="Heimspiel">
         <meal>
           <name>Grillbratwurst Currysauce,  Pommes Frites,  Salat und Dessert</name>
+          <note>Gluten</note>
           <note>Sellerie</note>
           <note>Senf</note>
           <note>Soja</note>
+          <note>mit Antioxidationsmittel</note>
+          <note>mit Geschmacksverstärker</note>
           <price role="employee">3.75</price>
           <price role="student">2.60</price>
         </meal>
@@ -59,6 +46,7 @@
         <meal>
           <name>Röstisticks Champignonsauce,  Reis,  Salat und Dessert</name>
           <note>Soja</note>
+          <note>mit Antioxidationsmittel</note>
           <price role="employee">3.75</price>
           <price role="student">2.60</price>
         </meal>
@@ -68,6 +56,7 @@
       <category name="Heimspiel">
         <meal>
           <name>Paniertes Hähnchenschnitzel Tomatensauce,  Pommes Wedges,  Erbsen &amp; Möhren</name>
+          <note>Gluten</note>
           <price role="employee">3.75</price>
           <price role="student">2.60</price>
         </meal>
@@ -75,6 +64,8 @@
       <category name="Querbeet">
         <meal>
           <name>Vegetarische Maultaschenpfanne Zwiebelrahmsauce,  Salat und Dessert</name>
+          <note>Eier</note>
+          <note>Gluten</note>
           <note>Laktose</note>
           <note>Milch</note>
           <note>Sellerie</note>
@@ -88,6 +79,7 @@
         <meal>
           <name>Erdnusspfännchen Duftreis und Dessert,  Salat</name>
           <note>Erdnüsse</note>
+          <note>Gluten</note>
           <note>Soja</note>
           <price role="employee">3.75</price>
           <price role="student">2.60</price>
@@ -96,9 +88,33 @@
       <category name="Worldwide">
         <meal>
           <name>MSC Seelachs meneuré Pommery- Senfsoße,  Salzkartoffeln,  Kaisergemüse und Dessert</name>
+          <note>Gluten</note>
           <note>Laktose</note>
           <note>Milch</note>
           <note>Senf</note>
+          <note>geschwärzt</note>
+          <price role="employee">3.75</price>
+          <price role="student">2.60</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2020-12-14">
+      <category name="Querbeet">
+        <meal>
+          <name>6 Mini Frühlingsrollen Süß-Saurer-Sauce,  Reis,  Salat und Dessert</name>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
+          <note>mit Konservierungsstoff</note>
+          <price role="employee">3.75</price>
+          <price role="student">2.60</price>
+        </meal>
+      </category>
+      <category name="Worldwide">
+        <meal>
+          <name>Spaghetti Hackfleischsauce,  Salat</name>
+          <note>Gluten</note>
+          <note>Sellerie</note>
           <price role="employee">3.75</price>
           <price role="student">2.60</price>
         </meal>
