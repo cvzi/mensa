@@ -43,6 +43,12 @@ legend = {
 
 imageLegend = {
    'logo_vegetarisch.png' : 'vegetarisch',
+   'logo_vegan.png' : 'vegan',
+   'bio-logo-klein.png' : 'Bio',
+   'logo_msc.png' : 'MSC',
+   'logo_asc.png' : 'ASC',
+   'logo_umweltzeichen.png' : 'Österr. Umweltzeichen',
+   'logo_st.jpg' : 'Styria vitalis'
 }
 
 roles = ('student', )
