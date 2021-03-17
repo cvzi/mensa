@@ -59,7 +59,7 @@ def generateIndexHtml(baseUrl, basePath, errors=None):
     with open(os.path.join(basePath, 'index.html'), 'w', encoding='utf8') as f:
         f.write(template.substitute(content=content, status=status))
 
-def main(updateJson=True,
+def updateFeeds(updateJson=True,
          updateMeta=True,
          updateFeed=True,
          updateToday=False,
@@ -156,7 +156,7 @@ def main(updateJson=True,
     return min(0, len(errors))
 
 
-if __name__ == "__main__":
+def startFromTerminal(exitAfterwards=True):
     # Arguments
     parser = argparse.ArgumentParser(
         description='Update github pages')
@@ -218,4 +218,12 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    sys.exit(main(**vars(args)))
+    exitCode = updateFeeds(**vars(args))
+
+    if exitAfterwards:
+        sys.exit(exitCode)
+    return exitCode
+
+
+if __name__ == "__main__":
+    startFromTerminal()
