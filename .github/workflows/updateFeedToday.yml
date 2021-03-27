@@ -1,6 +1,7 @@
 name: RunParsersToday
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "32 6-11 * * 1-5" # UTC
 jobs:
