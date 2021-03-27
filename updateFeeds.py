@@ -9,6 +9,7 @@ import string
 
 allParsers = ['kaiserslautern', 'mensenat', 'koeln', 'wuwien']
 
+repoPath = os.path.dirname(__file__)
 filenameTemplate = "{base}{{metaOrFeed}}/{parserName}_{{mensaReference}}.xml"
 baseUrl = "https://cvzi.github.io/mensa/"
 baseRepo = "https://github.com/cvzi/mensa/"
@@ -17,7 +18,7 @@ basePath = "docs/"
 def generateIndexHtml(baseUrl, basePath, errors=None):
     files = []
 
-    for r, _, f in os.walk(basePath):
+    for r, _, f in os.walk(os.path.join(repoPath, basePath)):
         p = baseUrl + r[len(basePath):]
         if p[-1] != '/':
             p += '/'
@@ -25,7 +26,7 @@ def generateIndexHtml(baseUrl, basePath, errors=None):
             if file.endswith(('.xml', '.json')):
                 files.append(f"{p}{file}")
 
-    with open('html/index.html', 'r', encoding='utf8') as f:
+    with open(os.path.join(repoPath, 'html/index.html'), 'r', encoding='utf8') as f:
         template = string.Template(f.read())
 
 
@@ -56,10 +57,11 @@ def generateIndexHtml(baseUrl, basePath, errors=None):
     if errors:
         status += '\n<pre>' + '\n'.join(errors) + '</pre>'
 
-    with open(os.path.join(basePath, 'index.html'), 'w', encoding='utf8') as f:
+    with open(os.path.join(repoPath, basePath, 'index.html'), 'w', encoding='utf8') as f:
         f.write(template.substitute(content=content, status=status))
 
-def updateFeeds(updateJson=True,
+def updateFeeds(force=None,
+         updateJson=True,
          updateMeta=True,
          updateFeed=True,
          updateToday=False,
@@ -89,7 +91,7 @@ def updateFeeds(updateJson=True,
                 print(f" - 🐏 {filename}", end="", flush=True)
                 os.makedirs(os.path.dirname(filename), exist_ok=True)
                 content = parser.json()
-                with open(filename, 'w', encoding='utf8') as f:
+                with open(os.path.join(repoPath, filename), 'w', encoding='utf8') as f:
                     f.write(content)
                 print(f"  {greenOk}")
 
@@ -104,7 +106,7 @@ def updateFeeds(updateJson=True,
                         print(f"    - 🈺 {filename}", end="", flush=True)
                         os.makedirs(os.path.dirname(filename), exist_ok=True)
                         content = parser.meta(mensaReference)
-                        with open(filename, 'w', encoding='utf8') as f:
+                        with open(os.path.join(repoPath, filename), 'w', encoding='utf8') as f:
                             f.write(content)
                         print(f"  {greenOk}")
                     if updateFeed or updateToday:
@@ -120,7 +122,7 @@ def updateFeeds(updateJson=True,
                             print(f"    - 🍱 {filename}", end="", flush=True)
                             os.makedirs(os.path.dirname(filename), exist_ok=True)
                             content = getattr(parser, feedMethod)(mensaReference)
-                            with open(filename, 'w', encoding='utf8') as f:
+                            with open(os.path.join(repoPath, filename), 'w', encoding='utf8') as f:
                                 f.write(content)
                             print(f"  {greenOk}")
                 except KeyboardInterrupt as e:
@@ -160,6 +162,13 @@ def startFromTerminal(exitAfterwards=True):
     # Arguments
     parser = argparse.ArgumentParser(
         description='Update github pages')
+    parser.add_argument(
+        '-force',
+        dest='force',
+        action='store_const',
+        const=True,
+        default=False,
+        help='Force update')
     parser.add_argument(
         '-meta',
         dest='updateMeta',
