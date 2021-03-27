@@ -6,6 +6,7 @@ Parsers support:
 *   [Kölner Studierendenwerk](https://www.kstw.de/speiseplan)
 *   [mensen.at](https://www.mensen.at/)
 *   [Wirtschaftsuniversität Wien](http://www.wumensa.at/)
+*   [Restopolis](https://portal.education.lu/restopolis/) (luxembourgish school restaurants)
 
 |  Feeds       |                                         Status                                                                                                                  |                     Cron                                                                                                                                      |
 |:------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------:|
