@@ -19,7 +19,7 @@ def generateIndexHtml(baseUrl, basePath, errors=None):
     files = []
 
     for r, _, f in os.walk(os.path.join(repoPath, basePath)):
-        p = baseUrl + r[len(basePath):]
+        p = baseUrl + r[len(os.path.join(repoPath, basePath)):]
         if p[-1] != '/':
             p += '/'
         for file in f:
@@ -37,11 +37,13 @@ def generateIndexHtml(baseUrl, basePath, errors=None):
 
     content = []
     first = True
+
     for file in sorted(files, key=sortKey):
         if file.endswith('.json'):
             if not first:
                 content.append('</ul>')
             first = False
+
             content.append(f'<li><h3 id="{file[len(baseUrl):-5]}"><a href="{file}">🐏 {file[len(baseUrl):]}</a></h3>')
             content.append('<ul style="list-style-type:none">')
         else:
