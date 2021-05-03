@@ -37,7 +37,73 @@
   <body>
     <main>
       <article>Parser for <a target="_blank" href="https://openmensa.org">openmensa.org</a>. The parser runs in a <a target="_blank" title="What's a Github action?" href="https://docs.github.com/en/actions">Github action<sup>❓</sup></a> and pushes the XML feeds to this page</article>
-      <article><h3><a href="https://github.com/cvzi/mensa/actions/">🗿 Parser status</a></h3></article>
+      <article><h3><a href="https://github.com/cvzi/mensa/actions/">🗿 Parser status</a></h3>
+<pre>luxembourg:
+Traceback (most recent call last):
+  File "C:\Python310\lib\site-packages\urllib3\connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Python310\lib\site-packages\urllib3\connectionpool.py", line 445, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\Python310\lib\site-packages\urllib3\connectionpool.py", line 440, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Python310\lib\http\client.py", line 1362, in getresponse
+    response.begin()
+  File "C:\Python310\lib\http\client.py", line 307, in begin
+    version, status, reason = self._read_status()
+  File "C:\Python310\lib\http\client.py", line 276, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python310\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "C:\Python310\lib\site-packages\urllib3\connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "C:\Python310\lib\site-packages\urllib3\util\retry.py", line 531, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "C:\Python310\lib\site-packages\urllib3\packages\six.py", line 734, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Python310\lib\site-packages\urllib3\connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Python310\lib\site-packages\urllib3\connectionpool.py", line 445, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\Python310\lib\site-packages\urllib3\connectionpool.py", line 440, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Python310\lib\http\client.py", line 1362, in getresponse
+    response.begin()
+  File "C:\Python310\lib\http\client.py", line 307, in begin
+    version, status, reason = self._read_status()
+  File "C:\Python310\lib\http\client.py", line 276, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\cuzi\Dropbox\Coding\Python\openmensa\mensa_github\updateFeeds.py", line 135, in updateFeeds
+    raise e
+  File "C:\Users\cuzi\Dropbox\Coding\Python\openmensa\mensa_github\updateFeeds.py", line 126, in updateFeeds
+    content = getattr(parser, feedMethod)(mensaReference)
+  File "C:\Users\cuzi\Dropbox\Coding\Python\openmensa\mensa_github\luxembourg\__init__.py", line 38, in feed
+    xml, _, _, _ = getMenu(restaurantId=self.canteens[refName]["id"], serviceIds=self.canteens[refName]["services"], alternativeId=alternativeId, alternativeServiceIds=alternativeServiceIds)
+  File "C:\Users\cuzi\Dropbox\Coding\Python\openmensa\mensa_github\luxembourg\tools.py", line 131, in getMenu
+    r = askRestopolis(restaurant=restaurantId,
+  File "C:\Users\cuzi\Dropbox\Coding\Python\openmensa\mensa_github\luxembourg\tools.py", line 88, in askRestopolis
+    r = s.get(url, cookies=cookies, timeout=10.0)
+  File "C:\Python310\lib\site-packages\requests\sessions.py", line 555, in get
+    return self.request('GET', url, **kwargs)
+  File "C:\Python310\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Python310\lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Python310\lib\site-packages\requests\adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+</pre></article>
       <article>
 <ol style="list-style-type:none">
 <li><h3 id="kaiserslautern"><a href="https://cvzi.github.io/mensa/kaiserslautern.json">🐏 kaiserslautern.json</a></h3>
