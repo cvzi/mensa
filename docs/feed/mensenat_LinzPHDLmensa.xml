@@ -2,5 +2,45 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/basic.css" type="text/css"?>
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
-  <canteen/>
+  <canteen>
+    <day date="2021-05-03">
+      <category name="Menü Veggie">
+        <meal>
+          <name>Gnocchi/Käsesauce</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>vegetarisch</note>
+          <price role="student">5.60</price>
+        </meal>
+      </category>
+      <category name="Menü Herzhaft">
+        <meal>
+          <name>Putengeschnetzeltes /Gemüserahmsauce/Reis</name>
+          <note>Milch</note>
+          <price role="student">6.40</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2021-05-04">
+      <category name="Menü Veggie">
+        <meal>
+          <name>Süßkartoffelcurry/Basmatireis</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <note>vegetarisch</note>
+          <price role="student">5.80</price>
+        </meal>
+      </category>
+      <category name="Menü Herzhaft">
+        <meal>
+          <name>Gegrilltes Kotelett vom Schweinsschopf /Wedges /Kräuterbutter</name>
+          <note>Milch</note>
+          <price role="student">6.40</price>
+        </meal>
+      </category>
+    </day>
+  </canteen>
 </openmensa>
