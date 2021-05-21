@@ -37,7 +37,35 @@
   <body>
     <main>
       <article>Parser for <a target="_blank" href="https://openmensa.org">openmensa.org</a>. The parser runs in a <a target="_blank" title="What's a Github action?" href="https://docs.github.com/en/actions">Github action<sup>❓</sup></a> and pushes the XML feeds to this page</article>
-      <article><h3><a href="https://github.com/cvzi/mensa/actions/">🗿 Parser status</a></h3></article>
+      <article><h3><a href="https://github.com/cvzi/mensa/actions/">🗿 Parser status</a></h3>
+<pre>luxembourg/ALRint:
+Traceback (most recent call last):
+  File "C:\Users\cuzi\Dropbox\Coding\Python\openmensa\mensa_github\updateFeeds.py", line 126, in updateFeeds
+    content = getattr(parser, feedMethod)(mensaReference)
+  File "C:\Users\cuzi\Dropbox\Coding\Python\openmensa\mensa_github\luxembourg\__init__.py", line 38, in feed
+    xml, _, _, _ = getMenu(restaurantId=self.canteens[refName]["id"], serviceIds=self.canteens[refName]["services"], alternativeId=alternativeId, alternativeServiceIds=alternativeServiceIds)
+  File "C:\Users\cuzi\Dropbox\Coding\Python\openmensa\mensa_github\luxembourg\tools.py", line 267, in getMenu
+    lazyBuilder.addMeal(
+  File "C:\Python310\lib\site-packages\pyopenmensa\feed.py", line 662, in addMeal
+    super(LazyBuilder, self).addMeal(extractDate(date), category, name,
+  File "C:\Python310\lib\site-packages\pyopenmensa\feed.py", line 395, in addMeal
+    raise ValueError('Meal names must not be empty')
+ValueError: Meal names must not be empty
+
+luxembourg/SportInt:
+Traceback (most recent call last):
+  File "C:\Users\cuzi\Dropbox\Coding\Python\openmensa\mensa_github\updateFeeds.py", line 126, in updateFeeds
+    content = getattr(parser, feedMethod)(mensaReference)
+  File "C:\Users\cuzi\Dropbox\Coding\Python\openmensa\mensa_github\luxembourg\__init__.py", line 38, in feed
+    xml, _, _, _ = getMenu(restaurantId=self.canteens[refName]["id"], serviceIds=self.canteens[refName]["services"], alternativeId=alternativeId, alternativeServiceIds=alternativeServiceIds)
+  File "C:\Users\cuzi\Dropbox\Coding\Python\openmensa\mensa_github\luxembourg\tools.py", line 267, in getMenu
+    lazyBuilder.addMeal(
+  File "C:\Python310\lib\site-packages\pyopenmensa\feed.py", line 662, in addMeal
+    super(LazyBuilder, self).addMeal(extractDate(date), category, name,
+  File "C:\Python310\lib\site-packages\pyopenmensa\feed.py", line 395, in addMeal
+    raise ValueError('Meal names must not be empty')
+ValueError: Meal names must not be empty
+</pre></article>
       <article>
 <ol style="list-style-type:none">
 <li><h3 id="kaiserslautern"><a href="https://cvzi.github.io/mensa/kaiserslautern.json">🐏 kaiserslautern.json</a></h3>
