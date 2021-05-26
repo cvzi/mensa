@@ -260,6 +260,8 @@ def getMenu(restaurantId, datetimeDay=None, serviceIds=None, alternativeId=None,
                     mealCounter += 1
                     weekdayCounter[weekDay] += 1
                     for li in div.select('li'):
+                        if not li.text or not li.text.strip():
+                            continue
                         # Add meal
                         category = courseName
                         if productSection:
@@ -295,4 +297,4 @@ def getMenu(restaurantId, datetimeDay=None, serviceIds=None, alternativeId=None,
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
-    print(getMenu(170)[0])
+    print(getMenu(137)[0])
