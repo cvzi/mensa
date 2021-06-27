@@ -13,13 +13,13 @@ from bs4 import BeautifulSoup
 
 try:
     from version import __version__, useragentname, useragentcomment
-    from util import StyledLazyBuilder, nowBerlin
+    from util import xmlEscape, StyledLazyBuilder, nowBerlin
 except ModuleNotFoundError:
     import sys
     include = os.path.relpath(os.path.join(os.path.dirname(__file__), '..'))
     sys.path.insert(0, include)
     from version import __version__, useragentname, useragentcomment
-    from util import StyledLazyBuilder, nowBerlin
+    from util import xmlEscape, StyledLazyBuilder, nowBerlin
 
 __all__ = ['getMenu', 'askRestopolis']
 
@@ -138,6 +138,10 @@ def getMenu(restaurantId, datetimeDay=None, serviceIds=None, alternativeId=None,
             from pprint import pprint
             pprint(r.headers)
             return status, 0, 0, weekdayCounter
+
+        if '<' not in r.text:
+            comments.append(f"Restaurant [id={restaurantId}, service={service}]: No HTML in response body: `{r.text}`")
+            break
 
         document = BeautifulSoup(r.text, "html.parser")
 
