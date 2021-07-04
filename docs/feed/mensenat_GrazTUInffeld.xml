@@ -3,19 +3,24 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2021-07-01">
+    <day date="2021-07-05">
       <category name="Classic Lunch">
         <meal>
-          <name>Veggie Kicherebsen Wrap mit Korianderdip und Salat</name>
+          <name>Veggie Gratinierte Polenta-Gemüseschnitten mit Cherrytomaten Sauce</name>
+          <note>Eier</note>
           <note>Lupinen</note>
+          <note>Milch</note>
           <note>Sellerie</note>
           <note>Styria vitalis</note>
-          <note>vegan</note>
+          <note>vegetarisch</note>
           <price role="student">5.20</price>
         </meal>
         <meal>
-          <name>Herzhaft Paprikahühnchen aus Österreich mit Kräuterreis</name>
+          <name>Herzhaft Putenschnitzel aus Österreich überbacken &quot;Caprese&quot; mit Kräuterjus und Tagliatelle</name>
+          <note>Eier</note>
+          <note>Gluten</note>
           <note>Milch</note>
+          <note>Schalenfrüchte</note>
           <note>Schwefeldioxid/Sulfite</note>
           <note>Sellerie</note>
           <note>Österr. Umweltzeichen</note>
@@ -24,24 +29,21 @@
       </category>
       <category name="Suppe &amp; Dessert">
         <meal>
-          <name>Klare Suppe Gemüsesuppe mit Profiteroles</name>
+          <name>Klare Suppe Klare Gemüsesuppe mit Fadennudeln</name>
           <note>Eier</note>
           <note>Gluten</note>
+          <note>Sellerie</note>
+          <price role="student">1.60</price>
+        </meal>
+        <meal>
+          <name>Suppe Tomatencremesuppe</name>
           <note>Milch</note>
           <note>Sellerie</note>
           <price role="student">1.60</price>
         </meal>
         <meal>
-          <name>Suppe Paprikacremesuppe</name>
+          <name>Dessert Vanillepudding</name>
           <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-          <price role="student">1.60</price>
-        </meal>
-        <meal>
-          <name>Dessert Vanille-Kokoscreme</name>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
           <price role="student">1.00</price>
         </meal>
       </category>
@@ -72,194 +74,38 @@
       </category>
       <category name="Daily Specials">
         <meal>
-          <name>Pasta Penne mit Basilikum-Mandel Pestound geschmorten Cherrytomaten mit Parmesan G</name>
+          <name>Curry&amp;Asia 1 Selbstgemachter Gemüse Wok mit Basmatireis</name>
           <note>Gluten</note>
-          <note>Sellerie</note>
-          <note>vegan</note>
-          <note>vegetarisch</note>
-          <price role="student">4.90</price>
-        </meal>
-        <meal>
-          <name>Grill&amp;Gebackenes 1 Cevapcici mit Wedges und Zwiebelsenf</name>
-          <note>Lupinen</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <price role="student">5.90</price>
-        </meal>
-        <meal>
-          <name>Grill&amp;Gebacken 2 Kap Seehecht Filet MSC gebratenmit &quot;Mediterranem&quot; Gemüsedazu Petersilerdäpfel und Kräuterbutter</name>
-          <note>Fisch</note>
-          <note>Gluten</note>
-          <note>MSC</note>
-          <note>Milch</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <price role="student">7.20</price>
-        </meal>
-        <meal>
-          <name>Premium Rostbraten aus Österreich mit Pfefferrahmsauce&quot;Mediterranem&quot; Gemüse Petersilerdäpfel</name>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <note>Österr. Umweltzeichen</note>
-          <price role="student">8.50</price>
-        </meal>
-      </category>
-      <category name="Snacks">
-        <meal>
-          <name>Liebe Gäste, nachfolgend ein Auszug aus unserem tollen Snack Angebot: Käse Weckerl</name>
-          <price role="student">3.00</price>
-        </meal>
-        <meal>
-          <name>Kornspitz mit Gauda</name>
-          <price role="student">2.50</price>
-        </meal>
-        <meal>
-          <name>Kornspitz mit Putenschinken</name>
-          <price role="student">2.70</price>
-        </meal>
-        <meal>
-          <name>Kürbiskernweckerl mit Saunaschinken</name>
-          <price role="student">2.60</price>
-        </meal>
-        <meal>
-          <name>Buttercroissant regional</name>
-          <price role="student">1.40</price>
-        </meal>
-        <meal>
-          <name>Muffin Blueberry</name>
-          <price role="student">1.80</price>
-        </meal>
-        <meal>
-          <name>Muffin Double Chocolate</name>
-          <price role="student">1.80</price>
-        </meal>
-        <meal>
-          <name>Nußkrone</name>
-          <price role="student">2.20</price>
-        </meal>
-        <meal>
-          <name>Topfentascherl</name>
-          <price role="student">2.20</price>
-        </meal>
-        <meal>
-          <name>Ihr Mensa Cafè Team</name>
-        </meal>
-      </category>
-    </day>
-    <day date="2021-07-02">
-      <category name="Classic Lunch">
-        <meal>
-          <name>Veggie Hausgemachte Spinatknödel mit Kräuterrahmsauce</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-          <note>Styria vitalis</note>
-          <note>vegetarisch</note>
-          <price role="student">5.20</price>
-        </meal>
-        <meal>
-          <name>Herzhaft Alaska Seelachs MSC mit Mayonaise-Erdäpfelsalat und Zitrone</name>
-          <note>Eier</note>
-          <note>Fisch</note>
-          <note>Gluten</note>
-          <note>Lupinen</note>
-          <note>MSC</note>
-          <note>Milch</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <price role="student">5.90</price>
-        </meal>
-      </category>
-      <category name="Suppe &amp; Dessert">
-        <meal>
-          <name>Klare Suppe Gemüsesuppe mit Reibteig</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Sellerie</note>
-          <price role="student">1.60</price>
-        </meal>
-        <meal>
-          <name>Suppe Broccolicremesuppe</name>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-          <price role="student">1.60</price>
-        </meal>
-        <meal>
-          <name>Dessert Himbeerecreme</name>
-          <price role="student">1.00</price>
-        </meal>
-      </category>
-      <category name="M-Cafe">
-        <meal>
-          <name>Das Kleine Italienische : Buttercroissant &amp; Cappuccino</name>
-          <price role="student">2.70</price>
-        </meal>
-        <meal>
-          <name>Das Süße : 1x Semmel, 1x Bio- Butter, 1x Marmelade od Honig, 1 Cappuccino od Tee</name>
-          <price role="student">2.60</price>
-        </meal>
-        <meal>
-          <name>Das Pikante : 1x Semmel, 1x Bio- Butter, 1x Schinken- u. Käse, 1x Gemüse, Cappuccino od Tee</name>
-          <price role="student">3.90</price>
-        </meal>
-        <meal>
-          <name>Das Gesunde: Bircher- Müsli 150g &amp; Cappuccino od Tee</name>
-          <price role="student">3.00</price>
-        </meal>
-        <meal>
-          <name>Das Vielfältige: 1x Semmel,1x Korngebäck, 1x Bio- Butter, 1x Marmelade od Honig, 1x Schinken- u. Käse, 1x Gemüse, 1/8 l Juice, Cappuccino od Tee</name>
-          <price role="student">5.50</price>
-        </meal>
-        <meal>
-          <name>Ihr Mensa Cafe - Team</name>
-        </meal>
-      </category>
-      <category name="Daily Specials">
-        <meal>
-          <name>American Food Vegetarischer Burger mit Süßkartoffel Pommes</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Lupinen</note>
-          <note>Milch</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
           <note>Sesam</note>
           <note>Sojabohnen</note>
-          <note>vegetarisch</note>
-          <price role="student">7.20</price>
-        </meal>
-        <meal>
-          <name>Grill&amp;Gebackenes 1 Cevapcici mit Wedges und Zwiebelsenf</name>
-          <note>Lupinen</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
           <price role="student">5.90</price>
         </meal>
         <meal>
-          <name>Grill&amp;Gebacken 2 Kap Seehecht Filet MSC gebratenmit &quot;Mediterranem&quot; Gemüsedazu Petersilerdäpfel und Kräuterbutter</name>
-          <note>Fisch</note>
+          <name>Curry&amp;Asia 2 Putenbruststreifen &quot;Teriyaki&quot; mit Basmatireis</name>
           <note>Gluten</note>
-          <note>MSC</note>
+          <note>Sesam</note>
+          <note>Sojabohnen</note>
+          <price role="student">6.10</price>
+        </meal>
+        <meal>
+          <name>Grill&amp;Gebackenes 1 Berner Würstel mit Pommes dazu Ketchup</name>
+          <note>Lupinen</note>
           <note>Milch</note>
+          <price role="student">5.90</price>
+        </meal>
+        <meal>
+          <name>Grill&amp;Gebackenes 2 Saltimbocca vom Schwein mit Thymianjus dazu Broccoli mit Mandel und Reis</name>
+          <note>Milch</note>
+          <note>Schalenfrüchte</note>
+          <note>Schwefeldioxid/Sulfite</note>
           <note>Sellerie</note>
-          <note>Senf</note>
           <price role="student">7.20</price>
         </meal>
         <meal>
-          <name>Premium Rostbraten aus Österreich mit Pfefferrahmsauce&quot;Mediterranem&quot; Gemüse Petersilerdäpfel</name>
-          <note>Gluten</note>
+          <name>Premium Zanderfilet gebraten dazu Broccoli mit Mandeln und Reis</name>
+          <note>Fisch</note>
           <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <note>Österr. Umweltzeichen</note>
+          <note>Schalenfrüchte</note>
           <price role="student">8.50</price>
         </meal>
       </category>
@@ -305,42 +151,46 @@
         </meal>
       </category>
     </day>
-    <day date="2022-06-28">
+    <day date="2021-07-06">
       <category name="Classic Lunch">
         <meal>
-          <name>Veggie Käsespätzle mit Röstzwiebel und Salat</name>
+          <name>Veggie Gemüserisotto &quot;Mediterran&quot; mit Parmesan und Ruccolasalat</name>
           <note>Eier</note>
-          <note>Gluten</note>
           <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
           <note>Sellerie</note>
-          <note>Styria vitalis</note>
           <note>vegetarisch</note>
           <price role="student">5.20</price>
         </meal>
         <meal>
-          <name>Herzhaft Chili con Carne mit Semmel</name>
+          <name>Herzhaft Hühnerschnitzel gebacken aus Österreich mit Petersilerdäpfel und Zitrone</name>
+          <note>Eier</note>
           <note>Gluten</note>
           <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <note>Österr. Umweltzeichen</note>
           <price role="student">5.90</price>
         </meal>
       </category>
       <category name="Suppe &amp; Dessert">
         <meal>
-          <name>Klare Suppe Gemüsesuppe mit Grießnockerl</name>
-          <note>Milch</note>
+          <name>Klare Suppe Klare Gemüsesuppe mit Grießnockerl</name>
+          <note>Eier</note>
+          <note>Gluten</note>
           <note>Sellerie</note>
           <price role="student">1.60</price>
         </meal>
         <meal>
-          <name>Suppe Gazpacho</name>
+          <name>Suppe Erdäpfel-Lauchsuppe</name>
           <note>Sellerie</note>
+          <note>Sojabohnen</note>
           <price role="student">1.60</price>
         </meal>
         <meal>
-          <name>Dessert Bannanenjoghurt €1,00</name>
+          <name>Dessert Schwarzwäldercreme mit Sauerkirschen</name>
           <note>Milch</note>
+          <note>Sojabohnen</note>
+          <price role="student">1.00</price>
         </meal>
       </category>
       <category name="M-Cafe">
@@ -370,40 +220,32 @@
       </category>
       <category name="Daily Specials">
         <meal>
-          <name>Pasta Penne mit cremiger-Blumenkohl-Sauce</name>
-          <note>Eier</note>
+          <name>Curry&amp;Asia 1 Selbstgemachter Gemüse Wok mit Basmatireis  €5,90 Curry&amp;Asia 2 Hühnercurry mit Ananas und Kokosmilch dazu Basmatireis</name>
           <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
           <note>Sellerie</note>
-          <note>vegetarisch</note>
-          <price role="student">4.90</price>
+          <note>Sesam</note>
+          <note>Sojabohnen</note>
+          <price role="student">6.10</price>
         </meal>
         <meal>
-          <name>Grill&amp;Gebackenes 1 Cevapcici mit Wedges und Zwiebelsenf</name>
+          <name>Grill&amp;Gebackenes 1 Berner Würstel mit Pommes dazu Ketchup</name>
           <note>Lupinen</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
+          <note>Milch</note>
           <price role="student">5.90</price>
         </meal>
         <meal>
-          <name>Grill&amp;Gebacken 2 Kap Seehecht Filet MSC gebratenmit &quot;Mediterranem&quot; Gemüsedazu Petersilerdäpfel und Kräuterbutter</name>
-          <note>Fisch</note>
-          <note>Gluten</note>
-          <note>MSC</note>
+          <name>Grill&amp;Gebackenes 2 Saltimbocca vom Schwein mit Thymianjus dazu Broccoli mit Mandel und Reis</name>
           <note>Milch</note>
+          <note>Schalenfrüchte</note>
+          <note>Schwefeldioxid/Sulfite</note>
           <note>Sellerie</note>
-          <note>Senf</note>
           <price role="student">7.20</price>
         </meal>
         <meal>
-          <name>Premium Rostbraten aus Österreich mit Pfefferrahmsauce&quot;Mediterranem&quot; Gemüse Petersilerdäpfel</name>
-          <note>Gluten</note>
+          <name>Premium Zanderfilet gebraten dazu Broccoli mit Mandeln und Reis</name>
+          <note>Fisch</note>
           <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <note>Österr. Umweltzeichen</note>
+          <note>Schalenfrüchte</note>
           <price role="student">8.50</price>
         </meal>
       </category>
@@ -449,106 +291,238 @@
         </meal>
       </category>
     </day>
-    <day date="2022-06-29">
+    <day date="2021-07-07">
       <category name="Classic Lunch">
         <meal>
-          <name>Veggie Champigon a la creme mit Serviettenknödel</name>
+          <name>Veggie Frischer Gemüseeintopf mit Reis</name>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Styria vitalis</note>
+          <note>vegan</note>
+          <price role="student">5.20</price>
+        </meal>
+        <meal>
+          <name>Herzhaft Rindergeschnetzeltes &quot;Esterhazy&quot; mit Spätzle</name>
           <note>Eier</note>
           <note>Gluten</note>
           <note>Milch</note>
           <note>Schwefeldioxid/Sulfite</note>
           <note>Sellerie</note>
-          <note>Styria vitalis</note>
-          <note>vegetarisch</note>
-          <price role="student">5.20</price>
-        </meal>
-        <meal>
-          <name>Herzhaft Schweinsschnitzel aus Österreich in Kürbispanademit Erdäpfel-Vogelsalat und Zitrone(A,C,G;L;M)</name>
+          <note>Senf</note>
           <note>Österr. Umweltzeichen</note>
           <price role="student">5.90</price>
         </meal>
       </category>
       <category name="Suppe &amp; Dessert">
         <meal>
-          <name>Klare Suppe Gemüsesuppe mit Kaspressknödel /A,C,G,L)</name>
+          <name>Klare Suppe Klare Gemüsesuppe mit Eierflocken</name>
+          <note>Eier</note>
+          <note>Sellerie</note>
           <price role="student">1.60</price>
         </meal>
         <meal>
-          <name>Suppe Karotte-Ingwersuppe</name>
+          <name>Suppe Kohlrabicremesuppe</name>
           <note>Milch</note>
           <note>Schwefeldioxid/Sulfite</note>
           <note>Sellerie</note>
           <price role="student">1.60</price>
         </meal>
         <meal>
-          <name>Dessert Tiramisu</name>
+          <name>Dessert Hausgemachter Milchreis</name>
+          <note>Milch</note>
+          <price role="student">1.00</price>
+        </meal>
+      </category>
+      <category name="M-Cafe">
+        <meal>
+          <name>Das Kleine Italienische : Buttercroissant &amp; Cappuccino</name>
+          <price role="student">2.70</price>
+        </meal>
+        <meal>
+          <name>Das Süße : 1x Semmel, 1x Bio- Butter, 1x Marmelade od Honig, 1 Cappuccino od Tee</name>
+          <price role="student">2.60</price>
+        </meal>
+        <meal>
+          <name>Das Pikante : 1x Semmel, 1x Bio- Butter, 1x Schinken- u. Käse, 1x Gemüse, Cappuccino od Tee</name>
+          <price role="student">3.90</price>
+        </meal>
+        <meal>
+          <name>Das Gesunde: Bircher- Müsli 150g &amp; Cappuccino od Tee</name>
+          <price role="student">3.00</price>
+        </meal>
+        <meal>
+          <name>Das Vielfältige: 1x Semmel,1x Korngebäck, 1x Bio- Butter, 1x Marmelade od Honig, 1x Schinken- u. Käse, 1x Gemüse, 1/8 l Juice, Cappuccino od Tee</name>
+          <price role="student">5.50</price>
+        </meal>
+        <meal>
+          <name>Ihr Mensa Cafe - Team</name>
+        </meal>
+      </category>
+      <category name="Daily Specials">
+        <meal>
+          <name>Curry&amp;Asia 1 Selbstgemachter Gemüse Wok mit Jasminreis  €5,90 Curry&amp;Asia 2 Wok Putengeschnetzeltes mit Sesamsauce und Jasminreis</name>
+          <note>Gluten</note>
+          <note>Sesam</note>
+          <note>Sojabohnen</note>
+          <note>Weichtiere/Schnecken/Muscheln/Tintenfische</note>
+          <price role="student">6.10</price>
+        </meal>
+        <meal>
+          <name>Grill&amp;Gebackenes 1 Berner Würstel mit Pommes dazu Ketchup</name>
+          <note>Lupinen</note>
+          <note>Milch</note>
+          <price role="student">5.90</price>
+        </meal>
+        <meal>
+          <name>Grill&amp;Gebackenes 2 Saltimbocca vom Schwein mit Thymianjus dazu Broccoli mit Mandel und Reis</name>
+          <note>Milch</note>
+          <note>Schalenfrüchte</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <price role="student">7.20</price>
+        </meal>
+        <meal>
+          <name>Premium Zanderfilet gebraten dazu Broccoli mit Mandeln und Reis</name>
+          <note>Fisch</note>
+          <note>Milch</note>
+          <note>Schalenfrüchte</note>
+          <price role="student">8.50</price>
+        </meal>
+      </category>
+      <category name="Snacks">
+        <meal>
+          <name>Liebe Gäste, nachfolgend ein Auszug aus unserem tollen Snack Angebot: Käse Weckerl</name>
+          <price role="student">3.00</price>
+        </meal>
+        <meal>
+          <name>Kornspitz mit Gauda</name>
+          <price role="student">2.50</price>
+        </meal>
+        <meal>
+          <name>Kornspitz mit Putenschinken</name>
+          <price role="student">2.70</price>
+        </meal>
+        <meal>
+          <name>Kürbiskernweckerl mit Saunaschinken</name>
+          <price role="student">2.60</price>
+        </meal>
+        <meal>
+          <name>Buttercroissant regional</name>
+          <price role="student">1.40</price>
+        </meal>
+        <meal>
+          <name>Muffin Blueberry</name>
+          <price role="student">1.80</price>
+        </meal>
+        <meal>
+          <name>Muffin Double Chocolate</name>
+          <price role="student">1.80</price>
+        </meal>
+        <meal>
+          <name>Nußkrone</name>
+          <price role="student">2.20</price>
+        </meal>
+        <meal>
+          <name>Topfentascherl</name>
+          <price role="student">2.20</price>
+        </meal>
+        <meal>
+          <name>Ihr Mensa Cafè Team</name>
+        </meal>
+      </category>
+    </day>
+    <day date="2021-07-08">
+      <category name="Classic Lunch">
+        <meal>
+          <name>Veggie Überbackener Gemüserösti mit Joghurt-Kräuterdip und Salat</name>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>vegetarisch</note>
+          <price role="student">5.20</price>
+        </meal>
+        <meal>
+          <name>Herzhaft Schopfsteak gegrillt mit Jus dazu Brechbohnen mit Speck und Bratkartoffeln</name>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <note>Österr. Umweltzeichen</note>
+          <price role="student">5.90</price>
+        </meal>
+      </category>
+      <category name="Suppe &amp; Dessert">
+        <meal>
+          <name>Klare Suppe Klare Gemüsesuppe mit Schöberl</name>
           <note>Eier</note>
           <note>Gluten</note>
-          <note>Lupinen</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
+          <price role="student">1.60</price>
+        </meal>
+        <meal>
+          <name>Suppe Kräutercremesuppe</name>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <price role="student">1.60</price>
+        </meal>
+        <meal>
+          <name>Dessert Bananenmousse</name>
+          <note>Milch</note>
+          <price role="student">1.00</price>
+        </meal>
+      </category>
+      <category name="M-Cafe">
+        <meal>
+          <name>Das Kleine Italienische : Buttercroissant &amp; Cappuccino</name>
+          <price role="student">2.70</price>
+        </meal>
+        <meal>
+          <name>Das Süße : 1x Semmel, 1x Bio- Butter, 1x Marmelade od Honig, 1 Cappuccino od Tee</name>
+          <price role="student">2.60</price>
+        </meal>
+        <meal>
+          <name>Das Pikante : 1x Semmel, 1x Bio- Butter, 1x Schinken- u. Käse, 1x Gemüse, Cappuccino od Tee</name>
+          <price role="student">3.90</price>
+        </meal>
+        <meal>
+          <name>Das Gesunde: Bircher- Müsli 150g &amp; Cappuccino od Tee</name>
+          <price role="student">3.00</price>
+        </meal>
+        <meal>
+          <name>Das Vielfältige: 1x Semmel,1x Korngebäck, 1x Bio- Butter, 1x Marmelade od Honig, 1x Schinken- u. Käse, 1x Gemüse, 1/8 l Juice, Cappuccino od Tee</name>
+          <price role="student">5.50</price>
+        </meal>
+        <meal>
+          <name>Ihr Mensa Cafe - Team</name>
+        </meal>
+      </category>
+      <category name="Daily Specials">
+        <meal>
+          <name>Curry&amp;Asia 1 Selbstgemachter Gemüse Wok mit Basmatireis  €5,90 Curry&amp;Asia 2 Wok Schweinsgeschnetzeltes &quot;Asia Shanghai&quot; mit Basmatireis</name>
+          <note>Gluten</note>
           <note>Milch</note>
           <note>Sesam</note>
-          <price role="student">1.10</price>
-        </meal>
-      </category>
-      <category name="M-Cafe">
-        <meal>
-          <name>Das Kleine Italienische : Buttercroissant &amp; Cappuccino</name>
-          <price role="student">2.70</price>
+          <note>Sojabohnen</note>
+          <price role="student">6.10</price>
         </meal>
         <meal>
-          <name>Das Süße : 1x Semmel, 1x Bio- Butter, 1x Marmelade od Honig, 1 Cappuccino od Tee</name>
-          <price role="student">2.60</price>
-        </meal>
-        <meal>
-          <name>Das Pikante : 1x Semmel, 1x Bio- Butter, 1x Schinken- u. Käse, 1x Gemüse, Cappuccino od Tee</name>
-          <price role="student">3.90</price>
-        </meal>
-        <meal>
-          <name>Das Gesunde: Bircher- Müsli 150g &amp; Cappuccino od Tee</name>
-          <price role="student">3.00</price>
-        </meal>
-        <meal>
-          <name>Das Vielfältige: 1x Semmel,1x Korngebäck, 1x Bio- Butter, 1x Marmelade od Honig, 1x Schinken- u. Käse, 1x Gemüse, 1/8 l Juice, Cappuccino od Tee</name>
-          <price role="student">5.50</price>
-        </meal>
-        <meal>
-          <name>Ihr Mensa Cafe - Team</name>
-        </meal>
-      </category>
-      <category name="Daily Specials">
-        <meal>
-          <name>Pasta Farfalle mit Napoletanasauce &quot;mit Parmesan&quot; G</name>
-          <note>Gluten</note>
-          <note>Sellerie</note>
-          <note>vegan</note>
-          <note>vegetarisch</note>
-          <price role="student">4.90</price>
-        </meal>
-        <meal>
-          <name>Grill&amp;Gebackenes 1 Cevapcici mit Wedges und Zwiebelsenf</name>
+          <name>Grill&amp;Gebackenes 1 Berner Würstel mit Pommes dazu Ketchup</name>
           <note>Lupinen</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
+          <note>Milch</note>
           <price role="student">5.90</price>
         </meal>
         <meal>
-          <name>Grill&amp;Gebacken 2 Kap Seehecht Filet MSC gebratenmit &quot;Mediterranem&quot; Gemüsedazu Petersilerdäpfel und Kräuterbutter</name>
-          <note>Fisch</note>
-          <note>Gluten</note>
-          <note>MSC</note>
+          <name>Grill&amp;Gebackenes 2 Saltimbocca vom Schwein mit Thymianjus dazu Broccoli mit Mandel und Reis</name>
           <note>Milch</note>
+          <note>Schalenfrüchte</note>
+          <note>Schwefeldioxid/Sulfite</note>
           <note>Sellerie</note>
-          <note>Senf</note>
           <price role="student">7.20</price>
         </meal>
         <meal>
-          <name>Premium Rostbraten aus Österreich mit Pfefferrahmsauce&quot;Mediterranem&quot; Gemüse Petersilerdäpfel</name>
-          <note>Gluten</note>
+          <name>Premium Zanderfilet gebraten dazu Broccoli mit Mandeln und Reis</name>
+          <note>Fisch</note>
           <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <note>Österr. Umweltzeichen</note>
+          <note>Schalenfrüchte</note>
           <price role="student">8.50</price>
         </meal>
       </category>
@@ -594,49 +568,42 @@
         </meal>
       </category>
     </day>
-    <day date="2022-06-30">
+    <day date="2021-07-09">
       <category name="Classic Lunch">
         <meal>
-          <name>Veggie Gemüselasagne mit Tomatensauce</name>
+          <name>Veggie Cous Cous Gemüselaibchen mit Korianderdip dazu Salat mit Currydressing</name>
           <note>Eier</note>
           <note>Gluten</note>
           <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
           <note>Sellerie</note>
+          <note>Senf</note>
           <note>Styria vitalis</note>
           <note>vegetarisch</note>
           <price role="student">5.20</price>
         </meal>
         <meal>
-          <name>Herzhaft Rindergeschnetzeltes aus Österreich mit Fusilli</name>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-          <note>Österr. Umweltzeichen</note>
+          <name>Herzhaft Alaska Seelachs MSC im Backteig mit Tyrolienne Sauce und Erdäpfelsalat ( A,C,D,G,L,M)</name>
+          <note>MSC</note>
           <price role="student">5.90</price>
         </meal>
       </category>
       <category name="Suppe &amp; Dessert">
         <meal>
-          <name>Klare Suppe Gemüsesuppe mit Frittaten</name>
+          <name>Klare Suppe Klare Gemüsesuppe mit Tarhonya</name>
           <note>Eier</note>
           <note>Gluten</note>
-          <note>Milch</note>
           <note>Sellerie</note>
           <price role="student">1.60</price>
         </meal>
         <meal>
-          <name>Suppe Gelbe Rüben-Currycremesuppe</name>
+          <name>Suppe Champignoncremesuppe</name>
           <note>Milch</note>
           <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
           <price role="student">1.60</price>
         </meal>
         <meal>
           <name>Dessert Joghurt mit Fruchtsalat</name>
           <note>Milch</note>
-          <note>Sellerie</note>
           <price role="student">1.00</price>
         </meal>
       </category>
@@ -667,38 +634,32 @@
       </category>
       <category name="Daily Specials">
         <meal>
-          <name>Pasta Spaghetti mit Kräuter-Tomatenragout und Parmesan G</name>
+          <name>Curry&amp;Asia 1 Selbstgemachter Gemüse Wok mit Basmatireis  €5,90 Curry&amp;Asia 2 Wok Hühnergeschnetzeltes &quot;Sambal Manis&quot;</name>
           <note>Gluten</note>
-          <note>Sellerie</note>
-          <note>vegan</note>
-          <note>vegetarisch</note>
-          <price role="student">4.90</price>
+          <note>Milch</note>
+          <note>Sesam</note>
+          <note>Sojabohnen</note>
+          <price role="student">6.10</price>
         </meal>
         <meal>
-          <name>Grill&amp;Gebackenes 1 Cevapcici mit Wedges und Zwiebelsenf</name>
+          <name>Grill&amp;Gebackenes 1 Berner Würstel mit Pommes dazu Ketchup</name>
           <note>Lupinen</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
+          <note>Milch</note>
           <price role="student">5.90</price>
         </meal>
         <meal>
-          <name>Grill&amp;Gebacken 2 Kap Seehecht Filet MSC gebratenmit &quot;Mediterranem&quot; Gemüsedazu Petersilerdäpfel und Kräuterbutter</name>
-          <note>Fisch</note>
-          <note>Gluten</note>
-          <note>MSC</note>
+          <name>Grill&amp;Gebackenes 2 Saltimbocca vom Schwein mit Thymianjus dazu Broccoli mit Mandel und Reis</name>
           <note>Milch</note>
+          <note>Schalenfrüchte</note>
+          <note>Schwefeldioxid/Sulfite</note>
           <note>Sellerie</note>
-          <note>Senf</note>
           <price role="student">7.20</price>
         </meal>
         <meal>
-          <name>Premium Rostbraten aus Österreich mit Pfefferrahmsauce&quot;Mediterranem&quot; Gemüse Petersilerdäpfel</name>
-          <note>Gluten</note>
+          <name>Premium Zanderfilet gebraten dazu Broccoli mit Mandeln und Reis</name>
+          <note>Fisch</note>
           <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <note>Österr. Umweltzeichen</note>
+          <note>Schalenfrüchte</note>
           <price role="student">8.50</price>
         </meal>
       </category>
