@@ -55,9 +55,11 @@ allergens = {
 }
 
 imgs = {
-    "/terroir.png": "produit culinaire du terroir",
-    "/bio.png": "bio",
-    "/transfair.png": "produit Transfair"
+    "/terroir.png": "produit du Luxembourg",
+    "/bio.png": "produit biologique",
+    "/transfair.png": "produit Transfair",
+    "/vegetarian.png" : "produit végétarien",
+    "/vegan.png" : "produit végétalien"
 }
 
 
@@ -170,6 +172,7 @@ def getMenu(restaurantId, datetimeDay=None, serviceIds=None, alternativeId=None,
             productName = ""
             productAllergens = []
             productDescription = ""
+            isClosed = False
 
             oneDayDiv.append(document.new_tag("div", attrs={"class":"fake-last"}))
             children = list(oneDayDiv.children)
@@ -177,8 +180,7 @@ def getMenu(restaurantId, datetimeDay=None, serviceIds=None, alternativeId=None,
                 if not isinstance(div, bs4.element.Tag):
                     # Skip text node children
                     continue
-
-                if courseName and productName and "class" in div.attrs and ("fake-last" in div.attrs["class"] or "product-name" in div.attrs["class"] or "course-name" in div.attrs["class"] or "product-section" in div.attrs["class"]):
+                if not isClosed and courseName and productName and "class" in div.attrs and ("fake-last" in div.attrs["class"] or "product-name" in div.attrs["class"] or "course-name" in div.attrs["class"] or "product-section" in div.attrs["class"]):
                     # Add meal
                     mealCounter += 1
                     weekdayCounter[weekDay] += 1
@@ -204,6 +206,14 @@ def getMenu(restaurantId, datetimeDay=None, serviceIds=None, alternativeId=None,
                 if "class" in div.attrs:
                     if "fake-last" in div.attrs["class"]:
                         pass
+                    elif "no-products" in div.attrs["class"] or div.find(".formulaeContainer.no-products"):
+                        # Closed (No meals)
+                        lazyBuilder.setDayClosed(date)
+                        isClosed = True
+                    elif "fermé" in div.text.lower() or "fermé" in str(div.attrs).lower():
+                        # Closed (explicit)
+                        lazyBuilder.setDayClosed(date)
+                        isClosed = True
                     elif "course-name" in div.attrs["class"]:
                         courseName = div.text.strip()
                         productSection = ""
@@ -232,12 +242,6 @@ def getMenu(restaurantId, datetimeDay=None, serviceIds=None, alternativeId=None,
                     elif "wrapper-theme-day" in div.attrs["class"]:
                         logging.info(f"Theme day: {div.text.strip()} [restaurant={restaurantId}]")
                         comments.append(f"Theme day: {div.text.strip()} [restaurant={restaurantId}]")
-                    elif "no-products" in div.attrs["class"]:
-                        # Closed (No meals)
-                        lazyBuilder.setDayClosed(date)
-                    elif "fermé" in div.text.lower() or "fermé" in str(div.attrs).lower():
-                        # Closed (explicit)
-                        lazyBuilder.setDayClosed(date)
                     elif "wrapper-category" in div.attrs["class"]:
                         for categoryButton in div.find_all('button'):
                             if "showConstantProducts" not in categoryButton.attrs['class'] and "showFormulae" not in categoryButton.attrs['class']:
