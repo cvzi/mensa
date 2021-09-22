@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/basic.css" type="text/css"?>
+<?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
+<openmensa xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
+  <canteen>
+    <name>Junglinster, LLJ Point de Vente (Lënster Lycée)</name>
+    <address>2, rue Victor Ferrant, L-6122 Junglinster (Luxembourg)</address>
+    <city>Junglinster (Luxembourg)</city>
+    
+    <location latitude="49.70002" longitude="6.2497" />
+    <!--<availability></availability>-->
+    <times type="opening">
+      <monday open="07:00-18:00" />
+      <tuesday open="07:00-18:00" />
+      <wednesday open="07:00-18:00" />
+      <thursday open="07:00-18:00" />
+      <friday open="07:00-18:00" />
+      <saturday closed="true" />
+      <sunday closed="true" />
+    </times>
+    <feed name="full" priority="1">
+      <schedule dayOfMonth="*" dayOfWeek="1-5" hour="9" minute="40" retry="65 1 1440" />
+      <url>https://cvzi.github.io/mensa/feed/luxembourg_LLJp.xml</url>
+      <source>https://portal.education.lu/restopolis/Language/fr/MENUS/MENU-DU-JOUR/RestaurantId/1204/ServiceId/2250#12691</source>
+    </feed>
+  </canteen>
+</openmensa>
