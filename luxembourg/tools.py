@@ -149,16 +149,25 @@ def getMenu(restaurantId, datetimeDay=None, serviceIds=None, alternativeId=None,
 
         # Extract available dates from date selector
         dateSelector = document.find("div", {"class": "date-selector-desktop"})
-        if not dateSelector:
-            logging.warning(f"No div.date-selector-desktop found")
-            comments.append(f"Restaurant [id={restaurantId}, service={service}] not found")
-            break
 
-        dateButtons = dateSelector.find_all("button", {"class": "day"})
-        dates = []
-        for button in dateButtons:
-            dates.append(datetime.datetime.strptime(
-                button.attrs["data-full-date"], '%d.%m.%Y').date())
+        if dateSelector:
+            dateButtons = dateSelector.find_all("button", {"class": "day"})
+            dates = []
+            for button in dateButtons:
+                dates.append(datetime.datetime.strptime(
+                    button.attrs["data-full-date"], '%d.%m.%Y').date())
+        else:
+            dateSelector = document.find("div", {"class": "date-selector-mobile-indicator"})
+            if not dateSelector:
+                logging.warning(f"No div.date-selector-desktop found")
+                comments.append(f"Restaurant [id={restaurantId}, service={service}] not found")
+                break
+
+            dateButtons = dateSelector.find_all("div", {"class": "date-selector-mobile-day-bullet"})
+            dates = []
+            for button in dateButtons:
+                dates.append(datetime.datetime.strptime(
+                    button.attrs["data-day-text"], '%d.%m.%Y').date())
 
         # Extract menu for each date
         for i, oneDayDiv in enumerate(document.select(".daily-menu>div")):
@@ -259,7 +268,8 @@ def getMenu(restaurantId, datetimeDay=None, serviceIds=None, alternativeId=None,
                             categoryNotes = ["produit constant"]
                         else:
                             categoryNotes = []
-
+                    elif "action-buttons" in div.attrs["class"]:
+                        pass
                     else:
                         logging.debug(div)
                         raise RuntimeWarning(
