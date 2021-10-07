@@ -133,7 +133,7 @@ def getMenu(restaurantId, datetimeDay=None, serviceIds=None, alternativeId=None,
         r = askRestopolis(restaurant=restaurantId,
                           service=service[0], date=datetimeDay)
         if r.status_code != 200:
-            status = 'Could not open restopolis'
+            status = f'Could not open restopolis Error{r.status_code}'
             if 'status' in r.headers:
                 status = f"{status}: {r.headers['status']}"
             logging.error(status)
