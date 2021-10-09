@@ -4,7 +4,13 @@
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
     <day date="2021-10-06">
-      <category name="Classic Lunch">
+      <category name="Suppe &amp; Dessert">
+        <meal>
+          <name>Dessert Schokoladenmousse Dunkel</name>
+          <price role="student">1.20</price>
+        </meal>
+      </category>
+      <category name="Tagesangebot, Pasta &amp; WOK">
         <meal>
           <name>Suppe klar Klare Gemüsesuppe mit Backerbsen</name>
           <note>Eier</note>
@@ -41,15 +47,15 @@
           <price role="student">6.40</price>
         </meal>
       </category>
-      <category name="Komponenten">
+    </day>
+    <day date="2021-10-07">
+      <category name="Suppe &amp; Dessert">
         <meal>
-          <name>Dessert Schokoladenmousse Dunkel</name>
+          <name>Dessert Topfencreme</name>
           <price role="student">1.20</price>
         </meal>
       </category>
-    </day>
-    <day date="2021-10-07">
-      <category name="Classic Lunch">
+      <category name="Tagesangebot, Pasta &amp; WOK">
         <meal>
           <name>Suppe Tomatencremesuppe</name>
           <note>Milch</note>
@@ -81,15 +87,9 @@
           <price role="student">6.40</price>
         </meal>
       </category>
-      <category name="Komponenten">
-        <meal>
-          <name>Dessert Topfencreme</name>
-          <price role="student">1.20</price>
-        </meal>
-      </category>
     </day>
     <day date="2021-10-08">
-      <category name="Classic Lunch">
+      <category name="Tagesangebot, Pasta &amp; WOK">
         <meal>
           <name>Suppe Zucchini-Currycremesuppe Vegan</name>
           <note>Schwefeldioxid/Sulfite</note>
