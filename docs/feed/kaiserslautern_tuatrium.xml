@@ -3,14 +3,28 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2021-10-20">
+    <day date="2021-10-21">
+      <category name="Ausgabe">
+        <meal>
+          <name>Große Ofenkartoffel mit Grillgemüse , dazu Paprika-Kräuter-Dip</name>
+          <note>Laktose</note>
+          <note>Schwefeldioxid (SO2) und Sulfite</note>
+          <note>Vegetarisch</note>
+          <note>geschwefelt</note>
+          <price role="employee">4.05</price>
+          <price role="other">5.00</price>
+          <price role="student">2.65</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2021-10-28">
       <category name="Mensaessen To-Go">
         <meal>
-          <name>Paella mit Hähnchen, Seelachs, Shrimps und Gemüse</name>
-          <note>Fisch</note>
+          <name>Asiatisches Curry mit Gemüse und Hähnchenbruststreifen , dazu Reis</name>
           <note>Geflügel</note>
-          <note>Krebstiere (Krusten- und Schalentiere)</note>
+          <note>Glutenhaltiges Getreide</note>
           <note>Senf</note>
+          <note>Sesam</note>
           <price role="employee">4.05</price>
           <price role="other">5.00</price>
           <price role="student">2.65</price>
@@ -18,8 +32,10 @@
       </category>
       <category name="Mensaessen To-Go Fleischlose Alternative">
         <meal>
-          <name>Gemüsepaella</name>
+          <name>Asiatisches Curry mit Gemüse , dazu Reis</name>
+          <note>Glutenhaltiges Getreide</note>
           <note>Senf</note>
+          <note>Sesam</note>
           <note>Vegan</note>
           <note>Vegetarisch</note>
           <price role="employee">4.05</price>
