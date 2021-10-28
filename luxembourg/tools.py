@@ -56,10 +56,11 @@ allergens = {
 
 imgs = {
     "/terroir.png": "produit du Luxembourg",
-    "/bio.png": "produit biologique",
+    "/bio.png": "biologique",
     "/transfair.png": "produit Transfair",
-    "/vegetarian.png" : "produit végétarien",
-    "/vegan.png" : "produit végétalien"
+    "/vegetarian.png" : "végétarien",
+    "/vegan.png" : "végétalien",
+    "/not_vegetarian.png" : "non-végétarien",
 }
 
 
