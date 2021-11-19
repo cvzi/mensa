@@ -148,6 +148,10 @@ def getMenu(restaurantId, datetimeDay=None, serviceIds=None, alternativeId=None,
 
         document = BeautifulSoup(r.text, "html.parser")
 
+        service_closed = document.find("span", {"class": "service-closed"})
+        if service_closed:
+            logging.warning(service_closed.text)
+
         # Extract available dates from date selector
         dateSelector = document.find("div", {"class": "date-selector-desktop"})
 
@@ -162,6 +166,9 @@ def getMenu(restaurantId, datetimeDay=None, serviceIds=None, alternativeId=None,
             if not dateSelector:
                 logging.warning(f"No div.date-selector-desktop found")
                 comments.append(f"Restaurant [id={restaurantId}, service={service}] not found")
+                if service_closed:
+                    for i in range(7):
+                        lazyBuilder.setDayClosed((datetime.date.today() + datetime.timedelta(i)))
                 break
 
             dateButtons = dateSelector.find_all("div", {"class": "date-selector-mobile-day-bullet"})
