@@ -148,10 +148,6 @@ def getMenu(restaurantId, datetimeDay=None, serviceIds=None, alternativeId=None,
 
         document = BeautifulSoup(r.text, "html.parser")
 
-        service_closed = document.find("span", {"class": "service-closed"})
-        if service_closed:
-            logging.warning(service_closed.text)
-
         # Extract available dates from date selector
         dateSelector = document.find("div", {"class": "date-selector-desktop"})
 
@@ -163,19 +159,26 @@ def getMenu(restaurantId, datetimeDay=None, serviceIds=None, alternativeId=None,
                     button.attrs["data-full-date"], '%d.%m.%Y').date())
         else:
             dateSelector = document.find("div", {"class": "date-selector-mobile-indicator"})
-            if not dateSelector:
-                logging.warning(f"No div.date-selector-desktop found")
-                comments.append(f"Restaurant [id={restaurantId}, service={service}] not found")
-                if service_closed:
-                    for i in range(7):
-                        lazyBuilder.setDayClosed((datetime.date.today() + datetime.timedelta(i)))
-                break
+            if dateSelector:
+                dateButtons = dateSelector.find_all("div", {"class": "date-selector-mobile-day-bullet"})
+                dates = []
+                for button in dateButtons:
+                    dates.append(datetime.datetime.strptime(
+                        button.attrs["data-day-text"], '%d.%m.%Y').date())
 
-            dateButtons = dateSelector.find_all("div", {"class": "date-selector-mobile-day-bullet"})
-            dates = []
-            for button in dateButtons:
-                dates.append(datetime.datetime.strptime(
-                    button.attrs["data-day-text"], '%d.%m.%Y').date())
+            else:
+                dateSelector = document.find("div", {"id": "date-selector"})
+                if dateSelector:
+                    dateButtons = dateSelector.find_all("a", {"class": "day"})
+                    dates = []
+                    for button in dateButtons:
+                        dates.append(datetime.datetime.strptime(
+                            button.attrs["data-date"], '%d.%m.%Y').date())
+
+                elif not dateSelector:
+                    logging.warning(f"No div.date-selector-desktop found")
+                    comments.append(f"Restaurant [id={restaurantId}, service={service}] not found")
+                    break
 
         # Extract menu for each date
         for i, oneDayDiv in enumerate(document.select(".daily-menu>div")):
@@ -303,7 +306,7 @@ def getMenu(restaurantId, datetimeDay=None, serviceIds=None, alternativeId=None,
                         f"unknown tag <{div.name}>: oneDayDiv->else")
 
         if hasattr(r, 'duration') and r.duration < 2000 and time.time() - startTime < 7000:
-            if repeat and repeatCounter < 3 and mealCounter > 0 and mealCounter > mealCounterLast:
+            if repeat and repeatCounter < 3 and (mealCounter > 0 and mealCounter > mealCounterLast or nowBerlin().weekday() in (5,6)):
                 repeatCounter += 1
                 mealCounterLast = mealCounter
                 serviceIds.append(service)
@@ -323,4 +326,4 @@ def getMenu(restaurantId, datetimeDay=None, serviceIds=None, alternativeId=None,
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
-    print(getMenu(137)[0])
+    print(getMenu(18)[0])
