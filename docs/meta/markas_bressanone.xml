@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/basic.css" type="text/css"?>
+<?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
+<openmensa xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
+  <canteen>
+    <name>Brixen, Freie Universität</name>
+    <address>Regensburger Allee 16, I-39042 Bressanone (BZ)</address>
+    <city>Brixen (Italien)</city>
+    <phone>+39 0472 201 070</phone>
+    <location latitude="46.71511" longitude="11.65342" />
+    <times type="opening">
+      <monday open="12:00-14:30" />
+      <tuesday open="12:00-14:30" />
+      <wednesday open="12:00-14:30" />
+      <thursday open="12:00-14:30" />
+      <friday open="12:00-14:30" />
+      <saturday open="12:00-14:30" />
+      <sunday closed="true" />
+    </times>
+    <feed name="full" priority="1">
+      <schedule dayOfMonth="*" dayOfWeek="1-5" hour="9" minute="40" retry="65 1 1440" />
+      <url>https://cvzi.github.io/mensa/feed/markas_bressanone.xml</url>
+      <source>https://unibz.markas.info/menu/1637752306/0/3783/</source>
+    </feed>
+  </canteen>
+</openmensa>
