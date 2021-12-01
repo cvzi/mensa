@@ -5,12 +5,10 @@ import logging
 import urllib
 import re
 import textwrap
-import datetime
 
 import requests
 import bs4
 from bs4 import BeautifulSoup
-import pytz
 
 try:
     from version import __version__, useragentname, useragentcomment
