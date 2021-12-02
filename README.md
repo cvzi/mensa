@@ -7,6 +7,8 @@ Parsers support:
 *   [mensen.at](https://www.mensen.at/)
 *   [Wirtschaftsuniversität Wien](http://www.wumensa.at/)
 *   [Restopolis](https://portal.education.lu/restopolis/) (luxembourgish school restaurants)
+*   [ristocloud/markas](https://www.markas.com)
+*   [mampf1a.de](https://mampf1a.de/)
 
 |  Feeds       |                                         Status                                                                                                                  |                     Cron                                                                                                                                      |
 |:------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------:|
