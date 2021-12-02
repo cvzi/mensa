@@ -93,7 +93,7 @@ def test_all_files():
     print(f"Checking files in {ghpagesPath}")
     errors = []
 
-    for filename in os.listdir(ghpagesPath):
+    for filename in sorted(os.listdir(ghpagesPath)):
         if not filename.endswith(".json"):
             continue
         print(filename, end="", flush=True)
@@ -111,7 +111,7 @@ def test_all_files():
             errors.append(e)
 
     if os.path.isdir(os.path.join(ghpagesPath, METAS)):
-        for filename in os.listdir(os.path.join(ghpagesPath, METAS)):
+        for filename in sorted(os.listdir(os.path.join(ghpagesPath, METAS))):
             prettyName = f"{METAS}{filename}"
             print(prettyName, end="", flush=True)
             path = os.path.join(ghpagesPath, METAS, filename)
@@ -123,7 +123,7 @@ def test_all_files():
                 errors.append(e)
 
     if os.path.isdir(os.path.join(ghpagesPath, TODAYS)):
-        for filename in os.listdir(os.path.join(ghpagesPath, TODAYS)):
+        for filename in sorted(os.listdir(os.path.join(ghpagesPath, TODAYS))):
             prettyName = f"{TODAYS}{filename}"
             print(prettyName, end="", flush=True)
             path = os.path.join(ghpagesPath, TODAYS, filename)
@@ -134,7 +134,7 @@ def test_all_files():
                 print(f" {redVT}Error:\n%r{endVT}\n" % (e, ), end="", flush=True)
                 errors.append(e)
     if os.path.isdir(os.path.join(ghpagesPath, FEEDS)):
-        for filename in os.listdir(os.path.join(ghpagesPath, FEEDS)):
+        for filename in sorted(os.listdir(os.path.join(ghpagesPath, FEEDS))):
             prettyName = f"{FEEDS}{filename}"
             print(prettyName, end="", flush=True)
             path = os.path.join(ghpagesPath, FEEDS, filename)
