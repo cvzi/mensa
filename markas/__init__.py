@@ -40,6 +40,8 @@ class Parser:
         path = self.canteens[refName]["source"]
         domain = self.canteens[refName]["domain"]
 
+        if "{timestamp}" in path:
+            path = path.format(timestamp=int(nowBerlin().timestamp()))
         if "change_language" in self.canteens[refName]:
             lang = self.canteens[refName]["change_language"]
             html = requests.get(f"https://{domain}/change_language/{lang}", headers={
@@ -49,6 +51,14 @@ class Parser:
 
         lazyBuilder = StyledLazyBuilder()
         document = BeautifulSoup(html, "html.parser")
+
+        # Log name
+        logging.debug(f"\tReference: {refName}")
+        for selected in document.select('#selector_bar_container select option[selected]'):
+            if selected.text:
+                logging.debug(f"\tSelected: {selected.text}")
+            else:
+                logging.debug(f"\tSelected: {selected}")
 
         # Dates
         dates = []
@@ -92,6 +102,7 @@ class Parser:
             if refName != reference:
                 continue
 
+            path = mensa['source'].replace("{timestamp}", "")
             data = {
                 "name": mensa["name"],
                 "address": mensa["address"],
@@ -100,7 +111,7 @@ class Parser:
                 "latitude": mensa["latitude"],
                 "longitude": mensa["longitude"],
                 "feed": self.urlTemplate.format(metaOrFeed='feed', mensaReference=urllib.parse.quote(reference)),
-                "source": f"https://{mensa['domain']}{mensa['source']}",
+                "source": f"https://{mensa['domain']}{path}",
             }
             openingTimes = {}
             pattern = re.compile(
@@ -153,7 +164,4 @@ def getParser(urlTemplate):
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
-    print(getParser(
-        "http://localhost/{metaOrFeed}/markas_{mensaReference}.xml").feed("bolzano"))
-    print(getParser(
-        "http://localhost/{metaOrFeed}/markas_{mensaReference}.xml").feed("bressanone"))
+    print(getParser("http://localhost/{metaOrFeed}/markas_{mensaReference}.xml").feed("bressanone"))
