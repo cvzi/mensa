@@ -37,7 +37,63 @@
   <body>
     <main>
       <article>Parser for <a target="_blank" href="https://openmensa.org">openmensa.org</a>. The parser runs in a <a target="_blank" title="What's a Github action?" href="https://docs.github.com/en/actions">Github action<sup>❓</sup></a> and pushes the XML feeds to this page</article>
-      <article><h3><a href="https://github.com/cvzi/mensa/actions/">🗿 Parser status</a></h3></article>
+      <article><h3><a href="https://github.com/cvzi/mensa/actions/">🗿 Parser status</a></h3>
+<pre>markas/bolzano:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 126, in updateFeeds
+    content = getattr(parser, feedMethod)(mensaReference)
+  File "/home/runner/work/mensa/mensa/markas/__init__.py", line 47, in feed
+    ts = today + datetime.timedelta(days=1)
+NameError: name 'datetime' is not defined
+
+markas/bressanone:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 126, in updateFeeds
+    content = getattr(parser, feedMethod)(mensaReference)
+  File "/home/runner/work/mensa/mensa/markas/__init__.py", line 47, in feed
+    ts = today + datetime.timedelta(days=1)
+NameError: name 'datetime' is not defined
+
+markas/vasto.infanzia:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 126, in updateFeeds
+    content = getattr(parser, feedMethod)(mensaReference)
+  File "/home/runner/work/mensa/mensa/markas/__init__.py", line 47, in feed
+    ts = today + datetime.timedelta(days=1)
+NameError: name 'datetime' is not defined
+
+markas/vasto.primaria:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 126, in updateFeeds
+    content = getattr(parser, feedMethod)(mensaReference)
+  File "/home/runner/work/mensa/mensa/markas/__init__.py", line 47, in feed
+    ts = today + datetime.timedelta(days=1)
+NameError: name 'datetime' is not defined
+
+markas/sulmona.infanzia:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 126, in updateFeeds
+    content = getattr(parser, feedMethod)(mensaReference)
+  File "/home/runner/work/mensa/mensa/markas/__init__.py", line 47, in feed
+    ts = today + datetime.timedelta(days=1)
+NameError: name 'datetime' is not defined
+
+markas/sulmona.primaria:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 126, in updateFeeds
+    content = getattr(parser, feedMethod)(mensaReference)
+  File "/home/runner/work/mensa/mensa/markas/__init__.py", line 47, in feed
+    ts = today + datetime.timedelta(days=1)
+NameError: name 'datetime' is not defined
+
+markas/sulmona.secondaria:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 126, in updateFeeds
+    content = getattr(parser, feedMethod)(mensaReference)
+  File "/home/runner/work/mensa/mensa/markas/__init__.py", line 47, in feed
+    ts = today + datetime.timedelta(days=1)
+NameError: name 'datetime' is not defined
+</pre></article>
       <article>
 <ol style="list-style-type:none">
 <li><h3 id="kaiserslautern"><a href="https://cvzi.github.io/mensa/kaiserslautern.json">🐏 kaiserslautern.json</a></h3>
@@ -417,6 +473,50 @@
   <li><a href="https://cvzi.github.io/mensa/meta/mampf1a_boxberg.xml">🈺 meta/mampf1a_boxberg.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/mampf1a_cafeteria-lauda.xml">🍱 feed/mampf1a_cafeteria-lauda.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/mampf1a_cafeteria-lauda.xml">🈺 meta/mampf1a_cafeteria-lauda.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/feed/mampf1a_cvb-uffenheim.xml">🍱 feed/mampf1a_cvb-uffenheim.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/meta/mampf1a_cvb-uffenheim.xml">🈺 meta/mampf1a_cvb-uffenheim.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/feed/mampf1a_evdhg-wuerzburg.xml">🍱 feed/mampf1a_evdhg-wuerzburg.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/meta/mampf1a_evdhg-wuerzburg.xml">🈺 meta/mampf1a_evdhg-wuerzburg.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/feed/mampf1a_feldkirchen-donau.xml">🍱 feed/mampf1a_feldkirchen-donau.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/meta/mampf1a_feldkirchen-donau.xml">🈺 meta/mampf1a_feldkirchen-donau.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/feed/mampf1a_freistadt.xml">🍱 feed/mampf1a_freistadt.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/meta/mampf1a_freistadt.xml">🈺 meta/mampf1a_freistadt.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/feed/mampf1a_ghrs-kirchberg-jagst.xml">🍱 feed/mampf1a_ghrs-kirchberg-jagst.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/meta/mampf1a_ghrs-kirchberg-jagst.xml">🈺 meta/mampf1a_ghrs-kirchberg-jagst.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/feed/mampf1a_ghs-reinhardshof.xml">🍱 feed/mampf1a_ghs-reinhardshof.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/meta/mampf1a_ghs-reinhardshof.xml">🈺 meta/mampf1a_ghs-reinhardshof.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/feed/mampf1a_ghs-wertheim.xml">🍱 feed/mampf1a_ghs-wertheim.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/meta/mampf1a_ghs-wertheim.xml">🈺 meta/mampf1a_ghs-wertheim.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/feed/mampf1a_grundschule-bestenheid.xml">🍱 feed/mampf1a_grundschule-bestenheid.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/meta/mampf1a_grundschule-bestenheid.xml">🈺 meta/mampf1a_grundschule-bestenheid.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/feed/mampf1a_guxhagen.xml">🍱 feed/mampf1a_guxhagen.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/meta/mampf1a_guxhagen.xml">🈺 meta/mampf1a_guxhagen.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/feed/mampf1a_hansestadt-uelzen.xml">🍱 feed/mampf1a_hansestadt-uelzen.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/meta/mampf1a_hansestadt-uelzen.xml">🈺 meta/mampf1a_hansestadt-uelzen.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/feed/mampf1a_haslach.xml">🍱 feed/mampf1a_haslach.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/meta/mampf1a_haslach.xml">🈺 meta/mampf1a_haslach.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/feed/mampf1a_kappelrodeck.xml">🍱 feed/mampf1a_kappelrodeck.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/meta/mampf1a_kappelrodeck.xml">🈺 meta/mampf1a_kappelrodeck.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/feed/mampf1a_klosterschulen-offenburg.xml">🍱 feed/mampf1a_klosterschulen-offenburg.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/meta/mampf1a_klosterschulen-offenburg.xml">🈺 meta/mampf1a_klosterschulen-offenburg.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/feed/mampf1a_Kubiz.xml">🍱 feed/mampf1a_Kubiz.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/meta/mampf1a_Kubiz.xml">🈺 meta/mampf1a_Kubiz.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/feed/mampf1a_kuelsheim.xml">🍱 feed/mampf1a_kuelsheim.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/meta/mampf1a_kuelsheim.xml">🈺 meta/mampf1a_kuelsheim.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/feed/mampf1a_langenau-ats.xml">🍱 feed/mampf1a_langenau-ats.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/meta/mampf1a_langenau-ats.xml">🈺 meta/mampf1a_langenau-ats.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/feed/mampf1a_langenau-grundschule.xml">🍱 feed/mampf1a_langenau-grundschule.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/meta/mampf1a_langenau-grundschule.xml">🈺 meta/mampf1a_langenau-grundschule.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/feed/mampf1a_langenau.xml">🍱 feed/mampf1a_langenau.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/meta/mampf1a_langenau.xml">🈺 meta/mampf1a_langenau.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/feed/mampf1a_liebfrauenschule.xml">🍱 feed/mampf1a_liebfrauenschule.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/meta/mampf1a_liebfrauenschule.xml">🈺 meta/mampf1a_liebfrauenschule.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/feed/mampf1a_lohne.xml">🍱 feed/mampf1a_lohne.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/meta/mampf1a_lohne.xml">🈺 meta/mampf1a_lohne.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/feed/mampf1a_maeck-pom.xml">🍱 feed/mampf1a_maeck-pom.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/meta/mampf1a_maeck-pom.xml">🈺 meta/mampf1a_maeck-pom.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/feed/mampf1a_mensaverein-langenfeld.xml">🍱 feed/mampf1a_mensaverein-langenfeld.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/meta/mampf1a_mensaverein-langenfeld.xml">🈺 meta/mampf1a_mensaverein-langenfeld.xml</a></li>
 </ul>
 <li><h3 id="markas"><a href="https://cvzi.github.io/mensa/markas.json">🐏 markas.json</a></h3>
 <ul style="list-style-type:none">

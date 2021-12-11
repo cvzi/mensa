@@ -3,7 +3,7 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2021-12-06">
+    <day date="2021-12-13">
       <category name="Tagessuppe">
         <meal>
           <name>Klare Gemüsesuppe mit Einlage</name>
@@ -13,85 +13,183 @@
           <price role="student">1.80</price>
         </meal>
         <meal>
-          <name>oder Erdäpfel-Lauchsuppe / *</name>
+          <name>oder Karfiolcremesuppe / *</name>
+          <note>Milch</note>
           <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <note>vegan</note>
+          <note>vegetarisch</note>
           <price role="student">3.60</price>
         </meal>
       </category>
       <category name="Tages-Empfehlung/en">
         <meal>
-          <name>Kartoffel-Gnocchi mit Wildbolognese und Rotkrautsalat</name>
+          <name>Herzhafter Bauernschmaus mit Sauerkraut und Semmelknödel</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <price role="student">8.90</price>
+        </meal>
+      </category>
+      <category name="Veggie &amp; Herzhaft">
+        <meal>
+          <name>Gemüse-Wrap mit Dip an mariniertem Salatbouquet</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <note>Sojabohnen</note>
+          <note>vegetarisch</note>
+          <price role="student">4.90</price>
+        </meal>
+        <meal>
+          <name>&quot;Jägergeschnetzeltes&quot; vom heimischen Rind mit Teigwaren</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <price role="student">5.60</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2021-12-14">
+      <category name="Tagessuppe">
+        <meal>
+          <name>Klare Gemüsesuppe mit Einlage</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <price role="student">1.80</price>
+        </meal>
+        <meal>
+          <name>oder Kräutercremesuppe / *</name>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <note>vegetarisch</note>
+          <price role="student">3.60</price>
+        </meal>
+      </category>
+      <category name="Tages-Empfehlung/en">
+        <meal>
+          <name>Gebackenes Schweinsschnitzel in der Kürbis-Panade mit Erdäpfelsalat &amp; Kernöl</name>
           <note>Eier</note>
           <note>Gluten</note>
           <note>Schwefeldioxid/Sulfite</note>
           <note>Sellerie</note>
           <note>Senf</note>
+          <price role="student">6.90</price>
+        </meal>
+      </category>
+      <category name="Veggie &amp; Herzhaft">
+        <meal>
+          <name>Gemüse-Lasagne in Tomatensauce</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>vegetarisch</note>
+          <price role="student">4.90</price>
+        </meal>
+        <meal>
+          <name>Chicken &quot;Tikka Masala&quot; (nach indischem Rezept) mit Reis</name>
+          <note>Milch</note>
+          <note>Schalenfrüchte</note>
+          <price role="student">5.60</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2021-12-15">
+      <category name="Tagessuppe">
+        <meal>
+          <name>Klare Gemüsesuppe mit Einlage</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <price role="student">1.80</price>
+        </meal>
+        <meal>
+          <name>oder Rote Linsencremesuppe / *</name>
+          <note>Milch</note>
+          <note>vegetarisch</note>
+          <price role="student">3.60</price>
+        </meal>
+      </category>
+      <category name="Tages-Empfehlung/en">
+        <meal>
+          <name>Hirschragout nach &quot;Förster Art&quot; mit Kroketten und Gemüse</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <price role="student">8.90</price>
+        </meal>
+      </category>
+      <category name="Veggie &amp; Herzhaft">
+        <meal>
+          <name>Asiatisches Gemüse-Curry mit Cous Cous</name>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Sesam</note>
+          <note>Sojabohnen</note>
+          <note>vegan</note>
+          <price role="student">4.90</price>
+        </meal>
+        <meal>
+          <name>Gebratener Leberkäse mit Erdäpfelpüree &amp; Gemüse</name>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sojabohnen</note>
+          <price role="student">5.60</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2021-12-16">
+      <category name="Tagessuppe">
+        <meal>
+          <name>Klare Gemüsesuppe mit Einlage</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <price role="student">1.80</price>
+        </meal>
+        <meal>
+          <name>oder Zucchinicremesuppe / *</name>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>vegetarisch</note>
+          <price role="student">3.60</price>
+        </meal>
+      </category>
+      <category name="Tages-Empfehlung/en">
+        <meal>
+          <name>Räucherlachs-Lasagne in Dill-Rahmsauce</name>
+          <note>Eier</note>
+          <note>Fisch</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
           <note>Sojabohnen</note>
           <price role="student">6.20</price>
         </meal>
       </category>
       <category name="Veggie &amp; Herzhaft">
         <meal>
-          <name>Gemüse-Curry mit Cous Cous</name>
+          <name>Kartoffel-Gnocchi in Tomatensauce mit Kürbis und Basilikum</name>
+          <note>Eier</note>
           <note>Gluten</note>
+          <note>Milch</note>
           <note>Sellerie</note>
           <note>Sojabohnen</note>
           <note>vegetarisch</note>
           <price role="student">4.90</price>
         </meal>
         <meal>
-          <name>Putengeschnetzeltes &quot;Zürcher Art&quot; mit Reis</name>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <price role="student">5.60</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2021-12-07">
-      <category name="Tagessuppe">
-        <meal>
-          <name>Klare Gemüsesuppe mit Einlage</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Sellerie</note>
-          <price role="student">1.80</price>
-        </meal>
-        <meal>
-          <name>oder Karotten-Ingwercremesuppe / *</name>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-          <note>vegetarisch</note>
-          <price role="student">3.60</price>
-        </meal>
-      </category>
-      <category name="Tages-Empfehlung/en">
-        <meal>
-          <name>Wiener Schnitzel von der Pute mit Petersilerdäpfel</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <price role="student">6.90</price>
-        </meal>
-      </category>
-      <category name="Veggie &amp; Herzhaft">
-        <meal>
-          <name>Spinat-Spätzle mit Österkronsauce</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Senf</note>
-          <note>vegetarisch</note>
-          <price role="student">4.90</price>
-        </meal>
-        <meal>
-          <name>Überbackene Schinkenfleckerl mit Sauerrahm-Dip</name>
+          <name>Majoranfleisch vom Schwein mit Butter-Spätzle</name>
           <note>Eier</note>
           <note>Gluten</note>
           <note>Milch</note>
@@ -99,80 +197,7 @@
         </meal>
       </category>
     </day>
-    <day date="2021-12-08">
-      <category name="Tagessuppe">
-        <meal>
-          <name>Mariä Empfängnis</name>
-        </meal>
-      </category>
-      <category name="Tages-Empfehlung/en">
-        <meal>
-          <name>Mariä Empfängnis</name>
-        </meal>
-      </category>
-      <category name="Veggie &amp; Herzhaft">
-        <meal>
-          <name>Das Mensa-Team wünscht einen schönen Feiertag!</name>
-        </meal>
-      </category>
-    </day>
-    <day date="2021-12-09">
-      <category name="Tagessuppe">
-        <meal>
-          <name>Klare Gemüsesuppe mit Einlage</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Sellerie</note>
-          <price role="student">1.80</price>
-        </meal>
-        <meal>
-          <name>oder Kohlrabicremesuppe / *</name>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-          <note>vegetarisch</note>
-          <price role="student">3.60</price>
-        </meal>
-      </category>
-      <category name="Tages-Empfehlung/en">
-        <meal>
-          <name>Veggie-Burger mit Pommes frites</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Senf</note>
-          <note>vegetarisch</note>
-          <price role="student">5.80</price>
-        </meal>
-      </category>
-      <category name="Veggie &amp; Herzhaft">
-        <meal>
-          <name>Gemüse-Chili mit einem Stück Gebäck</name>
-          <note>Gluten</note>
-          <note>Lupinen</note>
-          <note>Milch</note>
-          <note>Schalenfrüchte</note>
-          <note>Sellerie</note>
-          <note>Sesam</note>
-          <note>Sojabohnen</note>
-          <note>vegetarisch</note>
-          <price role="student">4.90</price>
-        </meal>
-        <meal>
-          <name>Hühner-Wok mit Eiernudeln</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schalenfrüchte</note>
-          <note>Senf</note>
-          <note>Sesam</note>
-          <note>Sojabohnen</note>
-          <price role="student">5.60</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2021-12-10">
+    <day date="2021-12-17">
       <category name="Tagessuppe">
         <meal>
           <name>Klare Gemüsesuppe mit Einlage</name>
@@ -192,33 +217,34 @@
       </category>
       <category name="Tages-Empfehlung/en">
         <meal>
-          <name>Gebackener Meeresfisch mit Erdäpfelsalat und Zitronenschnitz</name>
+          <name>Gebackenes MSC Meeresfischfilet mit Gemüsereis und Sauce Tartare</name>
+          <note>Eier</note>
           <note>Fisch</note>
           <note>Gluten</note>
           <note>MSC</note>
-          <note>Schwefeldioxid/Sulfite</note>
+          <note>Milch</note>
           <note>Sellerie</note>
           <note>Senf</note>
-          <note>Sojabohnen</note>
           <price role="student">6.40</price>
         </meal>
       </category>
       <category name="Veggie &amp; Herzhaft">
         <meal>
-          <name>Gemüse-Eintopf mit cremiger Polenta</name>
+          <name>Pilzrahm-Gulasch mit Gemüse-Serviettenknödel</name>
           <note>Eier</note>
           <note>Gluten</note>
           <note>Milch</note>
           <note>Schwefeldioxid/Sulfite</note>
           <note>Sellerie</note>
-          <note>Sojabohnen</note>
           <note>vegetarisch</note>
           <price role="student">4.90</price>
         </meal>
         <meal>
-          <name>Käsekrainer vom Grill mit Rösterdäpfel und Senf</name>
+          <name>Gratinierte Fleisch-Palatschinken in Tomatensauce</name>
+          <note>Eier</note>
+          <note>Gluten</note>
           <note>Milch</note>
-          <note>Senf</note>
+          <note>Sellerie</note>
           <price role="student">5.60</price>
         </meal>
       </category>
