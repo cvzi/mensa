@@ -60,7 +60,7 @@ class Parser:
 
     def feed(self, refName):
         if refName not in self.canteens:
-            return f"Unkown canteen '{refName}'"
+            return f"Canteen refName='{refName}' not found in canteenDict.json"
         url = self.build_url(refName)
 
         lazyBuilder = StyledLazyBuilder()
@@ -304,5 +304,9 @@ def getParser(baseurl):
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
-    print(getParser("http://localhost/{metaOrFeed}/mampf1a_{mensaReference}.xml").feed("boxberg"))
-    #print(getParser("http://localhost/{metaOrFeed}/mampf1a_{mensaReference}.xml").feed("schiffdorf"))
+    p = getParser("http://localhost/{metaOrFeed}/mampf1a_{mensaReference}.xml")
+    k = "lohne"
+    print("feed:")
+    print(p.feed(k))
+    print("meta:")
+    print(p.meta(k))
