@@ -45,6 +45,7 @@ legend = {
     'Kr': 'Krebstiere (Krusten- und Schalentiere)',
     'L': 'Lamm',
     'La': 'Laktose',
+    'LA': 'Laktose',
     'Lu': 'Lupine',
     'Nu': 'Schalenfrüchte (Nüsse)',
     'R': 'Rind',
