@@ -49,9 +49,13 @@ class Parser:
 
     @staticmethod
     def build_url(refName, base=baseUrl):
+        refParts = refName.rsplit('~', 1)
+        if len(refParts) == 2:
+            refName = refParts[0]
+
         refParts = refName.split('.', 1)
         if len(refParts) == 2:
-            reference, urlParams = refParts[0], '&' + refParts[1].strip('?& ')
+            reference, urlParams = refParts[0], '&typ=' + refParts[1].strip('?& ')
         else:
             reference, urlParams = refParts[0], ''
 
