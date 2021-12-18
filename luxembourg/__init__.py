@@ -29,6 +29,8 @@ weekdaysMap = [
 
 class Parser:
     def feed(self, refName):
+        if "active" in self.canteens[refName] and not self.canteens[refName]["active"]:
+            return "Unknown reference or deactivated canteen"
         if "alternativeId" in self.canteens[refName]:
             alternativeId = self.canteens[refName]["alternativeId"]
             alternativeServiceIds = self.canteens[refName]["alternativeServiceIds"]
