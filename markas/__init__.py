@@ -78,9 +78,9 @@ class Parser:
 
             date = today.replace(day=i)
             if date.day > today.day:
-                date = date.replace(month=date.month - 1)
+                date = date.replace(month=date.month - 1 if date.month > 1 else 12)
             if dates and date < dates[-1]:
-                date = date.replace(month=date.month + 1)
+                date = date.replace(month=date.month + 1 if date.month < 12 else 1)
             dates.append(date)
 
         # Meals
@@ -171,4 +171,4 @@ def getParser(urlTemplate):
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
-    print(getParser("http://localhost/{metaOrFeed}/markas_{mensaReference}.xml").feed("bressanone"))
+    print(getParser("http://localhost/{metaOrFeed}/markas_{mensaReference}.xml").feed("bolzano"))
