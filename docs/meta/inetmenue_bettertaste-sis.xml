@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-stylesheet type="text/css" href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/basic.css"?>
+<?xml-stylesheet type="text/css" href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css"?>
+<openmensa xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
+  <canteen>
+    <name>Fellbach, SIS Swiss International School Stuttgart-Fellbach</name>
+    <address>Schmidener Weg 7/1, 70736 Fellbach</address>
+    <city>Fellbach</city>
+    <location latitude="48.82172753160374" longitude="9.273477180827612"/>
+    <feed name="today" priority="0">
+      <schedule dayOfMonth="*" dayOfWeek="1-5" hour="10-14" retry="5 3"/>
+      <url>https://cvzi.github.io/mensa/today/inetmenue_bettertaste-sis.xml</url>
+      <source>https://bettertaste-sis.inetmenue.de/fs/menu/week</source>
+    </feed>
+    <feed name="full" priority="1">
+      <schedule dayOfMonth="*" dayOfWeek="1-5" hour="7" minute="30" retry="60 1 1440"/>
+      <url>https://cvzi.github.io/mensa/feed/inetmenue_bettertaste-sis.xml</url>
+      <source>https://bettertaste-sis.inetmenue.de/fs/menu/week</source>
+    </feed>
+  </canteen>
+</openmensa>

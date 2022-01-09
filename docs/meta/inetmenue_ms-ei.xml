@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-stylesheet type="text/css" href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/basic.css"?>
+<?xml-stylesheet type="text/css" href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css"?>
+<openmensa xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
+  <canteen>
+    <name>Eichstätt, Mittelschule Schottenau</name>
+    <address>Schottenau 18, 85072 Eichstätt</address>
+    <city>Eichstätt</city>
+    <phone/>
+    <location latitude="48.88670520518449" longitude="11.194643274605117"/>
+    <times type="opening">
+      <monday open="12:00-13:30"/>
+      <tuesday open="12:00-13:30"/>
+      <wednesday open="12:00-13:30"/>
+      <thursday open="12:00-13:30"/>
+      <friday open="12:00-13:30"/>
+      <saturday open="12:00-13:30"/>
+      <sunday open="12:00-13:30"/>
+    </times>
+    <feed name="today" priority="0">
+      <schedule dayOfMonth="*" dayOfWeek="1-5" hour="10-14" retry="5 3"/>
+      <url>https://cvzi.github.io/mensa/today/inetmenue_ms-ei.xml</url>
+      <source>https://ms-ei.inetmenue.de/fs/menu/week</source>
+    </feed>
+    <feed name="full" priority="1">
+      <schedule dayOfMonth="*" dayOfWeek="1-5" hour="7" minute="30" retry="60 1 1440"/>
+      <url>https://cvzi.github.io/mensa/feed/inetmenue_ms-ei.xml</url>
+      <source>https://ms-ei.inetmenue.de/fs/menu/week</source>
+    </feed>
+  </canteen>
+</openmensa>

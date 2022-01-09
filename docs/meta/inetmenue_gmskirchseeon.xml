@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-stylesheet type="text/css" href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/basic.css"?>
+<?xml-stylesheet type="text/css" href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css"?>
+<openmensa xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
+  <canteen>
+    <name>Kirchseeon, GMS Grund- und Mittelschule</name>
+    <address>Graf-Ulrich-Straße 10, 85614 Kirchseeon</address>
+    <city>Kirchseeon</city>
+    <location latitude="48.07811329737072" longitude="11.861092878018013"/>
+    <feed name="today" priority="0">
+      <schedule dayOfMonth="*" dayOfWeek="1-5" hour="10-14" retry="5 3"/>
+      <url>https://cvzi.github.io/mensa/today/inetmenue_gmskirchseeon.xml</url>
+      <source>https://gmskirchseeon.inetmenue.de/fs/menu/week</source>
+    </feed>
+    <feed name="full" priority="1">
+      <schedule dayOfMonth="*" dayOfWeek="1-5" hour="7" minute="30" retry="60 1 1440"/>
+      <url>https://cvzi.github.io/mensa/feed/inetmenue_gmskirchseeon.xml</url>
+      <source>https://gmskirchseeon.inetmenue.de/fs/menu/week</source>
+    </feed>
+  </canteen>
+</openmensa>
