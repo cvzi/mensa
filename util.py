@@ -4,7 +4,7 @@ import datetime
 from zoneinfo import ZoneInfo
 from pyopenmensa.feed import LazyBuilder
 
-__all__ = ['xmlEscape', 'StyledLazyBuilder', 'nowBerlin']
+__all__ = ['xmlEscape', 'StyledLazyBuilder', 'nowBerlin', 'weekdays_map']
 
 defaultStyleSheets = ('https://cdn.jsdelivr.net/npm/om-style@1.0.0/basic.css', 'https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css')
 
@@ -30,3 +30,13 @@ def nowBerlin():
     berlin = ZoneInfo('Europe/Berlin')
     now = datetime.datetime.now(tz=berlin)
     return now
+
+weekdays_map = [
+    ("Mo", "monday"),
+    ("Tu", "tuesday"),
+    ("We", "wednesday"),
+    ("Th", "thursday"),
+    ("Fr", "friday"),
+    ("Sa", "saturday"),
+    ("Su", "sunday")
+]
