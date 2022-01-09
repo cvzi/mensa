@@ -53,7 +53,7 @@ class Parser:
 
         # This week
         url_parts = urllib.parse.urlsplit(self.canteens[ref]['source'], scheme="https")
-        resp = self.session.get(url_parts.geturl())
+        resp = self._get_cached(url_parts.geturl())
         next_week_path = self.parseMeals(ref, builder, resp.text)
 
         # Next week
@@ -63,7 +63,7 @@ class Parser:
             url_parts[2] = next_week_path
             url = urllib.parse.urlunsplit(url_parts)
             if url != this_week_url:
-                resp = self.session.get(url)
+                resp = self._get_cached(url)
                 logging.debug(f"This week url='{this_week_url}'")
                 logging.debug(f"Next week url='{url}'")
                 self.parseMeals(ref, builder, resp.text)
@@ -295,6 +295,18 @@ class Parser:
             'User-Agent': f'{useragentname}/{__version__} ({useragentcomment}) {requests.utils.default_user_agent()}',
             'Accept-Encoding': 'utf-8'
         }
+        self._cache = []
+
+    def _get_cached(self, url):
+        for key, content in self._cache:
+            if key == url:
+                logging.debug(f"Retrieved from cache: {url}")
+                return content
+        content = self.session.get(url)
+        self._cache.append((url, content))
+        if len(self._cache) > 20:
+            self._cache.pop(0)
+        return content
 
     def json(self):
         tmp = {}
@@ -310,5 +322,7 @@ def getParser(url_template):
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
-    print(getParser("http://localhost/").feed_today("menseria-oesede"))
-    print(getParser("http://localhost/").meta("menseria-oesede"))
+    p = getParser("http://localhost/")
+    print(p.feed_today("menseria-oesede"))
+    #print(p.feed_all("menseria-oesede"))
+    #print(p.meta("menseria-oesede"))

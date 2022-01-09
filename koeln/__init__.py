@@ -16,13 +16,13 @@ from bs4 import BeautifulSoup
 
 try:
     from version import __version__, useragentname, useragentcomment
-    from util import StyledLazyBuilder, nowBerlin
+    from util import StyledLazyBuilder, nowBerlin, weekdays_map
 except ModuleNotFoundError:
     import sys
     include = os.path.relpath(os.path.join(os.path.dirname(__file__), '..'))
     sys.path.insert(0, include)
     from version import __version__, useragentname, useragentcomment
-    from util import StyledLazyBuilder, nowBerlin
+    from util import StyledLazyBuilder, nowBerlin, weekdays_map
 
 # Based on https://github.com/mswart/openmensa-parsers/blob/master/magdeburg.py
 
@@ -43,15 +43,6 @@ headers = {
     'User-Agent': f'{useragentname}/{__version__} ({useragentcomment}) {requests.utils.default_user_agent()}'
 }
 
-weekdaysMap = [
-    ("Mo", "monday"),
-    ("Di", "tuesday"),
-    ("Mi", "wednesday"),
-    ("Do", "thursday"),
-    ("Fr", "friday"),
-    ("Sa", "saturday"),
-    ("So", "sunday")
-]
 
 rolesOrder = ('student', 'employee', 'other')
 
@@ -177,7 +168,7 @@ def _generateCanteenMeta(mensa, urlTemplate):
             int(fromTimeH), int(fromTimeM), int(toTimeH), int(toTimeM))
         if toDay:
             select = False
-            for short, long in weekdaysMap:
+            for short, long in weekdays_map:
                 if short == fromDay:
                     select = True
                 elif select:
@@ -186,7 +177,7 @@ def _generateCanteenMeta(mensa, urlTemplate):
                 if short == toDay:
                     select = False
 
-        for short, long in weekdaysMap:
+        for short, long in weekdays_map:
             if short in openingTimes:
                 data[long] = 'open="%s"' % openingTimes[short]
             else:

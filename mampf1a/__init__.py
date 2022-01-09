@@ -12,27 +12,18 @@ from bs4 import BeautifulSoup
 
 try:
     from version import __version__, useragentname, useragentcomment
-    from util import StyledLazyBuilder, nowBerlin, xmlEscape
+    from util import StyledLazyBuilder, nowBerlin, xmlEscape, weekdays_map
 except ModuleNotFoundError:
     import sys
     include = os.path.relpath(os.path.join(os.path.dirname(__file__), '..'))
     sys.path.insert(0, include)
     from version import __version__, useragentname, useragentcomment
-    from util import StyledLazyBuilder, nowBerlin, xmlEscape
+    from util import StyledLazyBuilder, nowBerlin, xmlEscape, weekdays_map
 
 metaJson = os.path.join(os.path.dirname(__file__), "canteenDict.json")
 
 metaTemplateFile = os.path.join(os.path.dirname(__file__), "metaTemplate.xml")
 
-weekdaysMap = [
-    ("Mo", "monday"),
-    ("Di", "tuesday"),
-    ("Mi", "wednesday"),
-    ("Do", "thursday"),
-    ("Fr", "friday"),
-    ("Sa", "saturday"),
-    ("So", "sunday")
-]
 
 datePattern = re.compile(r"\d{1,2}\.\d{1,2}\.\d{0,4}")
 legendPattern = re.compile(r"([-+\w]+)\s+-\s+(.+)")
@@ -40,9 +31,6 @@ pricePattern = re.compile("(\d+(,\d\d)?)\s+(€|eur)", re.IGNORECASE)
 
 baseUrl = 'https://login.mampf1a.de/{reference}/winEsel5/speiseplan.php?no_cache=1{urlParams}'
 baseUrlMeta = 'https://login.mampf1a.de/{reference}/winEsel5/speiseplan.php?{urlParams}'
-headers = {
-    'User-Agent': f'{useragentname}/{__version__} ({useragentcomment}) {requests.utils.default_user_agent()}'
-}
 
 spans = []
 class Parser:
@@ -69,7 +57,7 @@ class Parser:
 
         lazyBuilder = StyledLazyBuilder()
 
-        r = requests.get(url, headers = headers)
+        r = self._get_cached(url)
         document = BeautifulSoup(r.text, "html.parser")
 
         # Generate legend (unique for each canteen)
@@ -253,7 +241,7 @@ class Parser:
                         int(fromTimeH), int(fromTimeM), int(toTimeH), int(toTimeM))
                     if toDay:
                         select = False
-                        for short, long in weekdaysMap:
+                        for short, long in weekdays_map:
                             if short == fromDay:
                                 select = True
                             elif select:
@@ -262,7 +250,7 @@ class Parser:
                             if short == toDay:
                                 select = False
 
-                    for short, long in weekdaysMap:
+                    for short, long in weekdays_map:
                         if short in openingTimes:
                             data[long] = 'open="%s"' % openingTimes[short]
                         else:
@@ -292,6 +280,23 @@ class Parser:
             self.canteens = json.load(f)
 
         self.urlTemplate = urlTemplate
+        self.session = requests.Session()
+        self.session.headers = {
+            'User-Agent': f'{useragentname}/{__version__} ({useragentcomment}) {requests.utils.default_user_agent()}',
+            'Accept-Encoding': 'utf-8'
+        }
+        self._cache = []
+
+    def _get_cached(self, url):
+        for key, content in self._cache:
+            if key == url:
+                logging.debug(f"Retrieved from cache: {url}")
+                return content
+        content = self.session.get(url)
+        self._cache.append((url, content))
+        if len(self._cache) > 30:
+            self._cache.pop(0)
+        return content
 
     def json(self):
         tmp = {}

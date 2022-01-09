@@ -7,26 +7,17 @@ import re
 
 try:
     from mensenat.tools import getMenu
-    from util import xmlEscape
+    from util import xmlEscape, weekdays_map
 except ModuleNotFoundError:
     include = os.path.relpath(os.path.join(os.path.dirname(__file__), '..'))
     sys.path.insert(0, include)
     from tools import getMenu
-    from util import xmlEscape
+    from util import xmlEscape, weekdays_map
 
 metaJson = os.path.join(os.path.dirname(__file__), "canteenDict.json")
 
 metaTemplateFile = os.path.join(os.path.dirname(__file__), "metaTemplate.xml")
 
-weekdaysMap = [
-    ("Mo", "monday"),
-    ("Di", "tuesday"),
-    ("Mi", "wednesday"),
-    ("Do", "thursday"),
-    ("Fr", "friday"),
-    ("Sa", "saturday"),
-    ("So", "sunday")
-]
 
 class Parser:
     def feed(self, refName):
@@ -61,7 +52,7 @@ class Parser:
                     int(fromTimeH), int(fromTimeM), int(toTimeH), int(toTimeM))
                 if toDay:
                     select = False
-                    for short, long in weekdaysMap:
+                    for short, long in weekdays_map:
                         if short == fromDay:
                             select = True
                         elif select:
@@ -70,7 +61,7 @@ class Parser:
                         if short == toDay:
                             select = False
 
-                for short, long in weekdaysMap:
+                for short, long in weekdays_map:
                     if short in openingTimes:
                         data[long] = 'open="%s"' % openingTimes[short]
                     else:

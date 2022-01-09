@@ -6,8 +6,13 @@ import re
 
 try:
     from luxembourg.tools import getMenu
+    from util import weekdays_map
 except ModuleNotFoundError:
+    import sys
+    include = os.path.relpath(os.path.join(os.path.dirname(__file__), '..'))
+    sys.path.insert(0, include)
     from tools import getMenu
+    from util import weekdays_map
 
 metaJson = os.path.join(os.path.dirname(__file__), "canteenDict.json")
 metaJsonAlternative = os.path.join(os.path.dirname(__file__), "canteenDictFrupstut.json")
@@ -15,16 +20,6 @@ metaJsonAlternative = os.path.join(os.path.dirname(__file__), "canteenDictFrupst
 metaTemplateFile = os.path.join(os.path.dirname(__file__), "metaTemplate_luxembourg.xml")
 
 template_sourceURL = r"https://portal.education.lu/restopolis/Language/fr/MENUS/MENU-DU-JOUR/RestaurantId/%d/ServiceId/%d#12691"
-
-weekdaysMap = [
-    ("Mo", "monday"),
-    ("Tu", "tuesday"),
-    ("We", "wednesday"),
-    ("Th", "thursday"),
-    ("Fr", "friday"),
-    ("Sa", "saturday"),
-    ("Su", "sunday")
-]
 
 
 class Parser:
@@ -91,7 +86,7 @@ class Parser:
                 fromDay, toDay = ['Mo', 'Su']
 
             isOpen = False
-            for dayShort, dayXML in weekdaysMap:
+            for dayShort, dayXML in weekdays_map:
                 if fromDay == dayShort:
                     isOpen = True
                 if isOpen:
