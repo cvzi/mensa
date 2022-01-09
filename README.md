@@ -9,6 +9,7 @@ Parsers support:
 *   [Restopolis](https://portal.education.lu/restopolis/) (luxembourgish school restaurants)
 *   [ristocloud/markas](https://www.markas.com)
 *   [mampf1a.de](https://mampf1a.de/)
+*   [inetmenue.de](https://www.inetmenue.de/)
 
 |  Feeds       |                                         Status                                                                                                                  |                     Cron                                                                                                                                      |
 |:------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------:|
