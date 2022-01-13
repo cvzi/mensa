@@ -10,7 +10,7 @@
     <location latitude="{latitude}" longitude="{longitude}" />
     {times}
     <feed name="full" priority="1">
-      <schedule dayOfMonth="*" dayOfWeek="1-5" hour="8" minute="20" retry="65 1 1440" />
+      <schedule dayOfMonth="*" dayOfWeek="1-5" hour="8" minute="50" retry="65 1 1440" />
       <url>{feed}</url>
       <source>{source}</source>
     </feed>

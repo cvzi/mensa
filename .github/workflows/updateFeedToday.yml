@@ -3,7 +3,7 @@ name: RunParsersToday
 on:
   workflow_dispatch:
   schedule:
-    - cron: "32 6-11 * * 1-5" # UTC
+    - cron: "32 7-11 * * 1-5" # UTC
 jobs:
   generateXMLFeedsToday:
     runs-on: ubuntu-latest
