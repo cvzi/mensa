@@ -3,25 +3,19 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2022-01-28">
-      <category name="muslimisch">
-        <meal>
-          <name>Chili sin Carne, Reis, Fruchtjoghurt Chili sin Carne, Reis [I] Fruchtjoghurt [G]</name>
-          <note>mit Backtriebmittel</note>
-          <note>mit Milchprodukten (lactosehaltig)</note>
-        </meal>
-      </category>
-      <category name="Teenager fleischlos">
-        <meal>
-          <name>Chili sin Carne, Reis, Fruchtjoghurt Chili sin Carne, Reis [I] Fruchtjoghurt [G]</name>
-          <note>fleischlos</note>
-          <note>mit Backtriebmittel</note>
-          <note>mit Milchprodukten (lactosehaltig)</note>
-        </meal>
-      </category>
-    </day>
     <day date="2022-01-31">
+      <category name="fleischlos">
+        <meal>
+          <name>Gemüseeintopf mit Kartoffeln, Erdbeer-Quark Gemüseeintopf mit Kartoffeln [I,G,C,A1] Erdbeer-Quark [1,G]</name>
+          <note>fleischlos</note>
+        </meal>
+      </category>
       <category name="muslimisch">
+        <meal>
+          <name>Gemüseeintopf mit Rindfleisch &amp; Kartoffeln, Erdbeer-Quark Gemüseeintopf mit Rindfleisch &amp; Kartoffeln [I, G,C,A1] Erdbeer-Quark [1,G]</name>
+        </meal>
+      </category>
+      <category name="normal">
         <meal>
           <name>Gemüseeintopf mit Rindfleisch &amp; Kartoffeln, Erdbeer-Quark Gemüseeintopf mit Rindfleisch &amp; Kartoffeln [I, G,C,A1] Erdbeer-Quark [1,G]</name>
         </meal>
@@ -30,17 +24,6 @@
         <meal>
           <name>Semmelkloßscheiben mit Gemüsesoße Semmelkloßscheiben mit Gemüsesoße [10,A1,C,G]</name>
           <note>fleischlos</note>
-        </meal>
-      </category>
-      <category name="fleischlos">
-        <meal>
-          <name>Gemüseeintopf mit Kartoffeln, Erdbeer-Quark Gemüseeintopf mit Kartoffeln [I,G,C,A1] Erdbeer-Quark [1,G]</name>
-          <note>fleischlos</note>
-        </meal>
-      </category>
-      <category name="normal">
-        <meal>
-          <name>Gemüseeintopf mit Rindfleisch &amp; Kartoffeln, Erdbeer-Quark Gemüseeintopf mit Rindfleisch &amp; Kartoffeln [I, G,C,A1] Erdbeer-Quark [1,G]</name>
         </meal>
       </category>
       <category name="Teenager normal">
@@ -63,7 +46,25 @@
       </category>
     </day>
     <day date="2022-02-02">
+      <category name="fleischlos">
+        <meal>
+          <name>Gemüsestäbchen, Kartoffelpüree, Gemüse Gemüsestäbchen, Kartoffelpüree, Gemüse [10,A1,C,G,I]</name>
+          <note>fleischlos</note>
+          <note>mit Backtriebmittel</note>
+          <note>mit Ei</note>
+          <note>mit Milchprodukten (lactosehaltig)</note>
+          <note>mit Sellerie</note>
+        </meal>
+      </category>
       <category name="muslimisch">
+        <meal>
+          <name>Fischstäbchen, Kartoffelpüree, Gemüse Fischstäbchen, Kartoffelpüree, Gemüse [10,A1,G,J]</name>
+          <note>mit Backtriebmittel</note>
+          <note>mit Milchprodukten (lactosehaltig)</note>
+          <note>mit Senf</note>
+        </meal>
+      </category>
+      <category name="normal">
         <meal>
           <name>Fischstäbchen, Kartoffelpüree, Gemüse Fischstäbchen, Kartoffelpüree, Gemüse [10,A1,G,J]</name>
           <note>mit Backtriebmittel</note>
@@ -77,24 +78,6 @@
           <note>fleischlos</note>
         </meal>
       </category>
-      <category name="fleischlos">
-        <meal>
-          <name>Gemüsestäbchen, Kartoffelpüree, Gemüse Gemüsestäbchen, Kartoffelpüree, Gemüse [10,A1,C,G,I]</name>
-          <note>fleischlos</note>
-          <note>mit Backtriebmittel</note>
-          <note>mit Ei</note>
-          <note>mit Milchprodukten (lactosehaltig)</note>
-          <note>mit Sellerie</note>
-        </meal>
-      </category>
-      <category name="normal">
-        <meal>
-          <name>Fischstäbchen, Kartoffelpüree, Gemüse Fischstäbchen, Kartoffelpüree, Gemüse [10,A1,G,J]</name>
-          <note>mit Backtriebmittel</note>
-          <note>mit Milchprodukten (lactosehaltig)</note>
-          <note>mit Senf</note>
-        </meal>
-      </category>
       <category name="Teenager normal">
         <meal>
           <name>Schollenfilet paniert mit Salzkartoffeln dazu hausgemachte Remoulade, Endiviensalat mit Essig-Öldressing Schollenfilet paniert mit Salzkartoffeln dazu hausgemachte Remoulade [A1,I,J,D] Endiviensalat mit Essig-Öldressing [J]</name>
@@ -102,6 +85,12 @@
       </category>
     </day>
     <day date="2022-02-03">
+      <category name="fleischlos">
+        <meal>
+          <name>Mildes Thai-Gemüsecurry, Reis, Schokoladenpudding Mildes Thai-Gemüsecurry, Reis Schokoladenpudding [1,G]</name>
+          <note>fleischlos</note>
+        </meal>
+      </category>
       <category name="muslimisch">
         <meal>
           <name>Mildes Thai-Gemüsecurry, Reis, Schokoladenpudding Mildes Thai-Gemüsecurry, Reis Schokoladenpudding [1,G]</name>
@@ -113,14 +102,14 @@
           <note>fleischlos</note>
         </meal>
       </category>
+    </day>
+    <day date="2022-02-07">
       <category name="fleischlos">
         <meal>
-          <name>Mildes Thai-Gemüsecurry, Reis, Schokoladenpudding Mildes Thai-Gemüsecurry, Reis Schokoladenpudding [1,G]</name>
+          <name>Kartoffel-Gemüseauflauf, Mandarinen Kartoffel-Gemüseauflauf [G,I] Mandarinen</name>
           <note>fleischlos</note>
         </meal>
       </category>
-    </day>
-    <day date="2022-02-07">
       <category name="muslimisch">
         <meal>
           <name>Kartoffel-Gemüseauflauf, Mandarinen Kartoffel-Gemüseauflauf [G,I] Mandarinen</name>
@@ -132,15 +121,14 @@
           <note>fleischlos</note>
         </meal>
       </category>
-      <category name="fleischlos">
-        <meal>
-          <name>Kartoffel-Gemüseauflauf, Mandarinen Kartoffel-Gemüseauflauf [G,I] Mandarinen</name>
-          <note>fleischlos</note>
-        </meal>
-      </category>
     </day>
     <day date="2022-02-08">
       <category name="muslimisch">
+        <meal>
+          <name>Putengeschnetzeltes, Spätzle, Blattsalat Walzer mit Gartenkräuter-Dressing Putengeschnetzeltes, Spätzle [A1,G,I,C] Blattsalat Walzer mit Gartenkräuter-Dressing [J,L]</name>
+        </meal>
+      </category>
+      <category name="normal">
         <meal>
           <name>Putengeschnetzeltes, Spätzle, Blattsalat Walzer mit Gartenkräuter-Dressing Putengeschnetzeltes, Spätzle [A1,G,I,C] Blattsalat Walzer mit Gartenkräuter-Dressing [J,L]</name>
         </meal>
@@ -149,11 +137,6 @@
         <meal>
           <name>Spätzle mit Lauch-Käsesoße, Blattsalat Walzer mit Gartenkräuter-Dressing Spätzle mit Lauch-Käsesoße [A1,C,G,I] Blattsalat Walzer mit Gartenkräuter-Dressing [J,L]</name>
           <note>fleischlos</note>
-        </meal>
-      </category>
-      <category name="normal">
-        <meal>
-          <name>Putengeschnetzeltes, Spätzle, Blattsalat Walzer mit Gartenkräuter-Dressing Putengeschnetzeltes, Spätzle [A1,G,I,C] Blattsalat Walzer mit Gartenkräuter-Dressing [J,L]</name>
         </meal>
       </category>
       <category name="Teenager normal">
