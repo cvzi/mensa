@@ -15,6 +15,16 @@ baseUrl = "https://cvzi.github.io/mensa/"
 baseRepo = "https://github.com/cvzi/mensa/"
 basePath = "docs/"
 
+
+log_file = None
+greenOk = "Ok" if "idlelib" in sys.modules else "\033[1;32mOk\033[0m"
+redError = "Error" if "idlelib" in sys.modules else "\033[1;31m⚠️ Error\033[0m"
+
+def log(*objects, sep=' ', end='\n', file=sys.stdout, flush=False):
+    print(*objects, sep=sep, end=end, file=file, flush=flush)
+    if log_file and not log_file.closed:
+        print(*objects, sep=sep, end=end, file=log_file, flush=flush)
+
 def generateIndexHtml(baseUrl, basePath, errors=None):
     files = []
 
@@ -73,8 +83,6 @@ def updateFeeds(force=None,
          baseUrl=baseUrl,
          basePath=basePath):
 
-    greenOk = "Ok" if "idlelib" in sys.modules else "\033[1;32mOk\033[0m"
-    redError = "Error" if "idlelib" in sys.modules else "\033[1;31m⚠️ Error\033[0m"
     errors = []
 
     for parserName in allParsers:
@@ -82,7 +90,7 @@ def updateFeeds(force=None,
             continue
         if selectedParser and parserName != selectedParser:
             continue
-        print(f"🗳️ {parserName}")
+        log(f"🗳️ {parserName}")
         try:
             module = importlib.import_module(parserName)
             parser = module.getParser(filenameTemplate.format(
@@ -90,43 +98,43 @@ def updateFeeds(force=None,
 
             if updateJson:
                 filename = os.path.join(basePath, f'{parserName}.json')
-                print(f" - 🐏 {filename}", end="", flush=True)
+                log(f" - 🐏 {filename}", end="", flush=True)
                 os.makedirs(os.path.dirname(filename), exist_ok=True)
                 content = parser.json()
                 with open(os.path.join(repoPath, filename), 'w', encoding='utf8') as f:
                     f.write(content)
-                print(f"  {greenOk}")
+                log(f"  {greenOk}")
 
             canteenCounter = 0
             for mensaReference in parser.canteens:
                 if selectedMensa and selectedMensa != mensaReference:
                     continue
-                print(f"  - 🏫 {mensaReference}")
+                log(f"  - 🏫 {mensaReference}")
                 try:
                     if updateMeta:
                         filename = filenameTemplate.format(base=basePath, parserName=parserName).format(metaOrFeed='meta', mensaReference=mensaReference)
-                        print(f"    - 🈺 {filename}", end="", flush=True)
+                        log(f"    - 🈺 {filename}", end="", flush=True)
                         os.makedirs(os.path.dirname(filename), exist_ok=True)
                         content = parser.meta(mensaReference)
                         with open(os.path.join(repoPath, filename), 'w', encoding='utf8') as f:
                             f.write(content)
-                        print(f"  {greenOk}")
+                        log(f"  {greenOk}")
                     if updateFeed or updateToday:
                         if updateToday:
                             feedMethods = [feedMethod for feedMethod in ["feed_today"] if hasattr(parser, feedMethod)]
                             if not feedMethods and not updateMeta:
-                                print("\033[F\033[K", end="")
+                                log("\033[F\033[K", end="")
                         else:
                             feedMethods = [feedMethod for feedMethod in ["feed", "feed_today", "feed_all"] if hasattr(parser, feedMethod)]
                         for feedMethod in feedMethods:
                             fileTitle = "today" if feedMethod == "feed_today" else "feed"
                             filename = filenameTemplate.format(base=basePath, parserName=parserName).format(metaOrFeed=fileTitle, mensaReference=mensaReference)
-                            print(f"    - 🍱 {filename}", end="", flush=True)
+                            log(f"    - 🍱 {filename}", end="", flush=True)
                             os.makedirs(os.path.dirname(filename), exist_ok=True)
                             content = getattr(parser, feedMethod)(mensaReference)
                             with open(os.path.join(repoPath, filename), 'w', encoding='utf8') as f:
                                 f.write(content)
-                            print(f"  {greenOk}")
+                            log(f"  {greenOk}")
                 except KeyboardInterrupt as e:
                     raise e
                 except (IOError, ConnectionError, urllib.error.URLError, urllib3.exceptions.HTTPError) as e:
@@ -134,28 +142,28 @@ def updateFeeds(force=None,
                         # Assumption: this errors affects the whole parser, skip the whole parser
                         raise e
                     else:
-                        print(f"  {redError}")
+                        log(f"  {redError}")
                         traceback.print_exc()
                 except BaseException:
-                    print(f"  {redError}")
+                    log(f"  {redError}")
                     traceback.print_exc()
                     errors.append(f"{parserName}/{mensaReference}:")
                     errors.append(traceback.format_exc())
                 canteenCounter += 1
 
         except KeyboardInterrupt:
-            print(" [Control-C]")
+            log(" [Control-C]")
             return 130
         except BaseException:
-            print(f"  {redError}")
+            log(f"  {redError}")
             errors.append(f"{parserName}:")
             errors.append(traceback.format_exc())
             traceback.print_exc()
 
     if updateIndex:
-        print(" - 📄 index.html", end="", flush=True)
+        log(" - 📄 index.html", end="", flush=True)
         generateIndexHtml(baseUrl=baseUrl, basePath=basePath, errors=errors)
-        print(f"  {greenOk}")
+        log(f"  {greenOk}")
 
     return min(0, len(errors))
 
