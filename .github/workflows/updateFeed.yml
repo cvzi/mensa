@@ -38,6 +38,7 @@ jobs:
     - name: git commit & push
       if: always()
       run: |
+        touch doc/.nojekyll
         git add docs
         # Use "|| true" or "--allow-empty"  otherwise the action fails for empty commits
         git commit -m "Updated xml feeds" || true
