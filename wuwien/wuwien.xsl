@@ -22,12 +22,18 @@
         <day>
             <xsl:attribute name="date"><xsl:value-of select="$year" />-<xsl:choose>
                 <xsl:when test="contains(@datum, 'Januar')">01</xsl:when>
+                <xsl:when test="contains(@datum, 'January')">01</xsl:when>
                 <xsl:when test="contains(@datum, 'Februar')">02</xsl:when>
+                <xsl:when test="contains(@datum, 'February')">02</xsl:when>
                 <xsl:when test="contains(@datum, 'März')">03</xsl:when>
+                <xsl:when test="contains(@datum, 'March')">03</xsl:when>
                 <xsl:when test="contains(@datum, 'April')">04</xsl:when>
                 <xsl:when test="contains(@datum, 'Mai')">05</xsl:when>
+                <xsl:when test="contains(@datum, 'May')">05</xsl:when>
                 <xsl:when test="contains(@datum, 'Juni')">06</xsl:when>
+                <xsl:when test="contains(@datum, 'June')">06</xsl:when>
                 <xsl:when test="contains(@datum, 'Juli')">07</xsl:when>
+                <xsl:when test="contains(@datum, 'July')">07</xsl:when>
                 <xsl:when test="contains(@datum, 'August')">08</xsl:when>
                 <xsl:when test="contains(@datum, 'September')">09</xsl:when>
                 <xsl:when test="contains(@datum, 'Oktober')">10</xsl:when>
