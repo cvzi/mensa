@@ -3,15 +3,20 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2022-03-07">
+    <day date="2022-03-14">
       <category name="Menü Classic 1">
         <meal>
-          <name>Klare Gemüsesuppe mit Einlage oder Beilagensalat Süßkartoffel-Kichererbsen-Eintopf mit Cous Cous inkl. Getränk €5,40 für Uni-Angehörige, abzüglich Bonus €6,10 für externe Gäste</name>
+          <name>Klare Gemüsesuppe mit Einlage und/oder Beilagensalat und/oder Getränk Ofenerdäpfel mit gebratenem Gemüse und Kräuterjoghurt Dip -für Uni-Angehörige, abzüglich Bonus</name>
           <note>Eier</note>
-          <note>Erdnüsse</note>
           <note>Gluten</note>
+          <note>Milch</note>
           <note>Sellerie</note>
-          <note>vegan</note>
+          <note>vegetarisch</note>
+          <price role="student">5.40</price>
+        </meal>
+        <meal>
+          <name>-für externe Gäste</name>
+          <price role="student">6.10</price>
         </meal>
       </category>
       <category name="Unser Wochenangebot">
@@ -24,7 +29,8 @@
           <price role="student">7.30</price>
         </meal>
         <meal>
-          <name>Veganes Gemüsecurry mit geräuchertem Tofu und Basmatireis</name>
+          <name>Indonesisches Wokgemüse &quot;Vegan&quot; mit Basmatireis</name>
+          <note>Gluten</note>
           <note>Sellerie</note>
           <note>Sojabohnen</note>
           <note>vegan</note>
@@ -41,26 +47,96 @@
       </category>
       <category name="Menü Classic 2">
         <meal>
-          <name>Klare Gemüsesuppe mit Einlage oder Beilagensalat Bio Bratwurst vom Grill mit Sauerkraut, Rösterdäpfel und Senf inkl. Getränk €6,80 für Uni-Angehörige, abzüglich Bonus €7,50 für externe Gäste</name>
+          <name>Klare Gemüsesuppe mit Einlage und/oder Beilagensalat und/oder Getränk Chili con Carne mit Bio Faschierten dazu Gebäck -für Uni-Angehörige, abzüglich Bonus</name>
           <note>Austria Bio Garantie</note>
           <note>Eier</note>
           <note>Gluten</note>
+          <note>Sellerie</note>
+          <price role="student">6.80</price>
+        </meal>
+        <meal>
+          <name>-für externe Gäste</name>
+          <price role="student">7.50</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2022-03-15">
+      <category name="Menü Classic 1">
+        <meal>
+          <name>Bärlauchcremesuppe und/oder Beilagensalat und/oder Getränk Vegetarische Frühlingsrolle mit Sesamreis und Soja-Dip -für Uni-Angehörige, abzüglich Bonus</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <note>Sesam</note>
+          <note>Sojabohnen</note>
+          <note>vegetarisch</note>
+          <price role="student">5.40</price>
+        </meal>
+        <meal>
+          <name>-für externe Gäste</name>
+          <price role="student">6.10</price>
+        </meal>
+      </category>
+      <category name="Unser Wochenangebot">
+        <meal>
+          <name>WOCHENANGEBOT Gebackenes Schnitzel vom Bio Schwein mit Petersilerdäpfel oder Butterreis</name>
+          <note>Austria Bio Garantie</note>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <price role="student">7.30</price>
+        </meal>
+        <meal>
+          <name>Indonesisches Wokgemüse &quot;Vegan&quot; mit Basmatireis</name>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <note>vegan</note>
+          <price role="student">5.50</price>
+        </meal>
+        <meal>
+          <name>BEILAGENBUFFET Kräuterkartoffeln Reis Ofengemüse / 100g</name>
+          <price role="student">1.00</price>
+        </meal>
+        <meal>
+          <name>PASTASTATION Vegetarische Pasta kl. Portion €3,30 / gr. Portion €4,40 Herzhafte Pasta kl. Portion €4,90 / gr. Portion €5,90 Im Menü Classic 1+2 Zur Hauptspeise wahlweise 2 aus 3: Suppe und/oder Salat und/oder Getränk</name>
+          <note>vegetarisch</note>
+        </meal>
+      </category>
+      <category name="Menü Classic 2">
+        <meal>
+          <name>Bärlauchcremesuppe und/oder Beilagensalat und/oder Getränk Gegrilltes Bio Putenschnitzel Bärlauchkruste/Natursauce/Erdäpfelpurée -für Uni-Angehörige, abzüglich Bonus</name>
+          <note>Austria Bio Garantie</note>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
           <note>Schwefeldioxid/Sulfite</note>
           <note>Sellerie</note>
           <note>Senf</note>
+          <price role="student">6.80</price>
+        </meal>
+        <meal>
+          <name>-für externe Gäste</name>
+          <price role="student">7.50</price>
         </meal>
       </category>
     </day>
-    <day date="2022-03-08">
+    <day date="2022-03-16">
       <category name="Menü Classic 1">
         <meal>
-          <name>Gemüsecremesuppe oder Beilagensalat Gemüserahmspätzle  inkl. Getränk €5,40 für Uni-Angehörige, abzüglich Bonus €6,10 für externe Gäste</name>
+          <name>Klare Gemüsesuppe mit Einlage und/oder Beilagensalat und/oder Getränk Gemüse-Tomaten Enchilada auf Saltbouquet mit Knoblauchdip -für Uni-Angehörige, abzüglich Bonus</name>
           <note>Eier</note>
           <note>Gluten</note>
           <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
           <note>Sellerie</note>
           <note>vegetarisch</note>
+          <price role="student">5.40</price>
+        </meal>
+        <meal>
+          <name>-für externe Gäste</name>
+          <price role="student">6.10</price>
         </meal>
       </category>
       <category name="Unser Wochenangebot">
@@ -73,7 +149,8 @@
           <price role="student">7.30</price>
         </meal>
         <meal>
-          <name>Veganes Gemüsecurry mit geräuchertem Tofu und Basmatireis</name>
+          <name>Indonesisches Wokgemüse &quot;Vegan&quot; mit Basmatireis</name>
+          <note>Gluten</note>
           <note>Sellerie</note>
           <note>Sojabohnen</note>
           <note>vegan</note>
@@ -90,24 +167,34 @@
       </category>
       <category name="Menü Classic 2">
         <meal>
-          <name>Gemüsecremesuppe oder Beilagensalat Tiroler Gröstl mit Bio Fleisch dazu Krautsalat inkl. Getränk €6,80 für Uni-Angehörige, abzüglich Bonus €7,50 für externe Gäste</name>
+          <name>Klare Gemüsesuppe mit Einlage und/oder Beilagensalat und/oder Getränk Ragout vom Bio Huhn Karotten/Bärlauchreis -für Uni-Angehörige, abzüglich Bonus</name>
           <note>Austria Bio Garantie</note>
+          <note>Eier</note>
           <note>Gluten</note>
           <note>Milch</note>
           <note>Schwefeldioxid/Sulfite</note>
           <note>Sellerie</note>
+          <price role="student">6.80</price>
+        </meal>
+        <meal>
+          <name>-für externe Gäste</name>
+          <price role="student">7.50</price>
         </meal>
       </category>
     </day>
-    <day date="2022-03-09">
+    <day date="2022-03-17">
       <category name="Menü Classic 1">
         <meal>
-          <name>Klare Gemüsesuppe mit Einlage oder Beilagensalat Gemüse Lasagne mit Tomatensauce inkl. Getränk €5,40 für Uni-Angehörige, abzüglich Bonus €6,10 für externe Gäste</name>
+          <name>Broccolicremesuppe und/oder Beilagensalat und/oder Getränk Überbackene Polentaschnitte mit Letschosauce -für Uni-Angehörige, abzüglich Bonus</name>
           <note>Eier</note>
-          <note>Gluten</note>
           <note>Milch</note>
           <note>Sellerie</note>
           <note>vegetarisch</note>
+          <price role="student">5.40</price>
+        </meal>
+        <meal>
+          <name>-für externe Gäste</name>
+          <price role="student">6.10</price>
         </meal>
       </category>
       <category name="Unser Wochenangebot">
@@ -120,7 +207,8 @@
           <price role="student">7.30</price>
         </meal>
         <meal>
-          <name>Veganes Gemüsecurry mit geräuchertem Tofu und Basmatireis</name>
+          <name>Indonesisches Wokgemüse &quot;Vegan&quot; mit Basmatireis</name>
+          <note>Gluten</note>
           <note>Sellerie</note>
           <note>Sojabohnen</note>
           <note>vegan</note>
@@ -137,74 +225,35 @@
       </category>
       <category name="Menü Classic 2">
         <meal>
-          <name>Klare Gemüsesuppe mit Einlage oder Beilagensalat Ragout vom Bio Rind in Wurzelrahmsauce mit Fusilli inkl. Getränk €6,80 für Uni-Angehörige, abzüglich Bonus €7,50 für externe Gäste</name>
-          <note>Austria Bio Garantie</note>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-        </meal>
-      </category>
-    </day>
-    <day date="2022-03-10">
-      <category name="Menü Classic 1">
-        <meal>
-          <name>Frühlingszwiebelsuppe oder Beilagensalat Gemüseschnitzel mit Petersilerdäpfel und Kräuterjoghurt Dip inkl. Getränk €5,40 für Uni-Angehörige, abzüglich Bonus €6,10 für externe Gäste</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <note>vegetarisch</note>
-        </meal>
-      </category>
-      <category name="Unser Wochenangebot">
-        <meal>
-          <name>WOCHENANGEBOT Gebackenes Schnitzel vom Bio Schwein mit Petersilerdäpfel oder Butterreis</name>
-          <note>Austria Bio Garantie</note>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <price role="student">7.30</price>
-        </meal>
-        <meal>
-          <name>Veganes Gemüsecurry mit geräuchertem Tofu und Basmatireis</name>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <note>vegan</note>
-          <price role="student">5.50</price>
-        </meal>
-        <meal>
-          <name>BEILAGENBUFFET Kräuterkartoffeln Reis Ofengemüse / 100g</name>
-          <price role="student">1.00</price>
-        </meal>
-        <meal>
-          <name>PASTASTATION Vegetarische Pasta kl. Portion €3,30 / gr. Portion €4,40 Herzhafte Pasta kl. Portion €4,90 / gr. Portion €5,90 Im Menü Classic 1+2 Zur Hauptspeise wahlweise 2 aus 3: Suppe und/oder Salat und/oder Getränk</name>
-          <note>vegetarisch</note>
-        </meal>
-      </category>
-      <category name="Menü Classic 2">
-        <meal>
-          <name>Frühlingszwiebelsuppe oder Beilagensalat Gebratene Bio Hühnerkeule mit Polenta und Gemüse inkl. Getränk €6,80 für Uni-Angehörige, abzüglich Bonus €7,50 für externe Gäste</name>
+          <name>Broccolicremesuppe und/oder Beilagensalat und/oder Getränk Reisfleisch von der Bio Pute mit Beilagensalat -für Uni-Angehörige, abzüglich Bonus</name>
           <note>Bio</note>
           <note>Eier</note>
+          <note>Gluten</note>
           <note>Milch</note>
           <note>Schwefeldioxid/Sulfite</note>
           <note>Sellerie</note>
-          <note>Sojabohnen</note>
+          <price role="student">6.80</price>
+        </meal>
+        <meal>
+          <name>-für externe Gäste</name>
+          <price role="student">7.50</price>
         </meal>
       </category>
     </day>
-    <day date="2022-03-11">
+    <day date="2022-03-18">
       <category name="Menü Classic 1">
         <meal>
-          <name>Klare Gemüsesuppe mit Einlage oder Beilagensalat Dinkel-Gemüsepfanne mit frischer Parmesan inkl. Getränk €5,40 für Uni-Angehörige, abzüglich Bonus €6,10 für externe Gäste</name>
+          <name>Klare Gemüsesuppe mit Einlage und/oder Beilagensalat und/oder Getränk Hausgemachte Spinatknödel mit Braune Butter -für Uni-Angehörige, abzüglich Bonus</name>
           <note>Eier</note>
           <note>Gluten</note>
           <note>Milch</note>
           <note>Sellerie</note>
           <note>vegetarisch</note>
+          <price role="student">5.40</price>
+        </meal>
+        <meal>
+          <name>-für externe Gäste</name>
+          <price role="student">6.10</price>
         </meal>
       </category>
       <category name="Unser Wochenangebot">
@@ -217,7 +266,8 @@
           <price role="student">7.30</price>
         </meal>
         <meal>
-          <name>Veganes Gemüsecurry mit geräuchertem Tofu und Basmatireis</name>
+          <name>Indonesisches Wokgemüse &quot;Vegan&quot; mit Basmatireis</name>
+          <note>Gluten</note>
           <note>Sellerie</note>
           <note>Sojabohnen</note>
           <note>vegan</note>
@@ -234,14 +284,20 @@
       </category>
       <category name="Menü Classic 2">
         <meal>
-          <name>Klare Gemüsesuppe mit Einlage oder Beilagensalat Alaska Seelachs in der Knusperpanade mit Kräuterreis und S. Tartare inkl. Getränk €6,80 für Uni-Angehörige, abzüglich Bonus €7,50 für externe Gäste</name>
+          <name>Klare Gemüsesuppe mit Einlage und/oder Beilagensalat und/oder Getränk Alaska Seelachs gebacken mit Erdäpfel-Mayonnaise Salat -für Uni-Angehörige, abzüglich Bonus</name>
           <note>Eier</note>
           <note>Fisch</note>
           <note>Gluten</note>
           <note>MSC</note>
           <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
           <note>Sellerie</note>
           <note>Senf</note>
+          <price role="student">6.80</price>
+        </meal>
+        <meal>
+          <name>-für externe Gäste</name>
+          <price role="student">7.50</price>
         </meal>
       </category>
     </day>
