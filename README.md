@@ -10,6 +10,7 @@ Parsers support:
 *   [ristocloud/markas](https://www.markas.com)
 *   [mampf1a.de](https://mampf1a.de/)
 *   [inetmenue.de](https://www.inetmenue.de/)
+*   [Studierendenwerk Greifswald](https://www.stw-greifswald.de/essen/speiseplaene/) forked from [github.com/derconno/OpenMensaParserHOST](https://github.com/derconno/OpenMensaParserHOST)
 
 |  Feeds       |                                         Status                                                                                                                  |                     Cron                                                                                                                                      |
 |:------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------:|
@@ -21,4 +22,5 @@ Links:
 *   [Understand OpenMensa’s Parser Concept](https://doc.openmensa.org/parsers/understand/)
 *   OpenMensa [XML schema](https://doc.openmensa.org/feed/v2/)
 *   OpenMensa Android app on [f-droid](https://f-droid.org/en/packages/de.uni_potsdam.hpi.openmensa/), [playstore](https://play.google.com/store/apps/details?id=de.uni_potsdam.hpi.openmensa), [github](https://github.com/domoritz/open-mensa-android)
-*   Another parser for OpenMensa: [https://github.com/cvzi/mensahd](https://github.com/cvzi/mensahd)
+*   My other parser for OpenMensa: [https://github.com/cvzi/mensahd](https://github.com/cvzi/mensahd)
+*   Another parser by [TheNCuber](https://github.com/TheNCuber/) based on this parser: [https://github.com/TheNCuber/mensa](https://github.com/TheNCuber/mensa)

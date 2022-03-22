@@ -1,17 +1,36 @@
-from pyopenmensa.feed import LazyBuilder
-from urllib.request import urlopen
+"""
+Original file: https://github.com/derconno/OpenMensaParserHOST/blob/9b183e9eb0c93df9643cc9caf7ea2e68a6545112/FeedGenerator.py
+
+Modified 2022-03-22 by cvzi (cuzi@openmail.cc)
+
+"""
+
+import sys
+import os
+import requests
 from bs4 import BeautifulSoup
 from datetime import date, timedelta
 
-mensa = LazyBuilder()
+try:
+    from version import __version__, useragentname, useragentcomment
+    from util import StyledLazyBuilder
+except ModuleNotFoundError:
+    include = os.path.relpath(os.path.join(os.path.dirname(__file__), '..'))
+    sys.path.insert(0, include)
+    from version import __version__, useragentname, useragentcomment
+    from util import StyledLazyBuilder
 
-def getMealsForDay(day: str):
+headers = {
+    'User-Agent': f'{useragentname}/{__version__} ({useragentcomment}) {requests.utils.default_user_agent()}'
+}
+
+def getMealsForDay(mensa: StyledLazyBuilder, day: str, canteen: str):
 
     if date.fromisoformat(day).weekday() > 4:  # Saturday or Sunday
         mensa.setDayClosed(date.fromisoformat(day))
         return True
 
-    html = urlopen("https://www.stw-greifswald.de/essen/speiseplaene/mensa-stralsund/?datum=" + day).read()
+    html = requests.get("https://www.stw-greifswald.de/essen/speiseplaene/" + canteen + "/?datum=" + day, headers=headers).text
     soup = BeautifulSoup(html, 'html.parser')
 
     if mensa.legendData == None:
@@ -21,9 +40,11 @@ def getMealsForDay(day: str):
                     .replace('KENNZEICHNUNGSPFLICHTIGE ZUSATZSTOFFE:', '') \
                     .replace('SONSTIGE KENNZEICHNUNGEN:', '')
                 mensa.setLegendData(text=text, regex='(?P<name>(\d|[a-zA-Z])+)\)\s*(?P<value>([\w/]+)((\s+\w+)*[^0-9)]))')
+        for key in mensa.legendData:
+            mensa.legendData[key] = mensa.legendData[key].strip(',')
 
     for table in soup.find_all('table', {'class': 'table module-food-table'}):
-        category = table.find('th').text
+        category = table.find('th').text.strip()
         for tr in table.find('tbody').find_all('tr'):
             td = tr.find('td').text.strip().split('\n')
             meal = ''
@@ -37,13 +58,27 @@ def getMealsForDay(day: str):
                           roles=['student', 'employee', 'other'])
     return mensa.hasMealsFor(date.fromisoformat(day))
 
-def generateFull():
+
+def generateToday(canteen_name: str):
+    mensa = StyledLazyBuilder()
+
     day = date.today()
-    while getMealsForDay(day.isoformat()):
+
+    getMealsForDay(mensa, day.isoformat(), canteen_name)
+
+    return mensa.toXMLFeed()
+
+
+def generateFull(canteen_name: str):
+    mensa = StyledLazyBuilder()
+
+    day = date.today()
+
+    while getMealsForDay(mensa, day.isoformat(), canteen_name):
         day = day + timedelta(days=1)
 
-    with open('full.xml', 'w') as fd:
-        fd.write(mensa.toXMLFeed())
+    return mensa.toXMLFeed()
+
 
 if __name__=="__main__":
-    generateFull()
+    print(generateToday("mensa-am-berthold-beitz-platz"))
