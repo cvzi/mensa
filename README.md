@@ -22,5 +22,5 @@ Links:
 *   [Understand OpenMensa’s Parser Concept](https://doc.openmensa.org/parsers/understand/)
 *   OpenMensa [XML schema](https://doc.openmensa.org/feed/v2/)
 *   OpenMensa Android app on [f-droid](https://f-droid.org/en/packages/de.uni_potsdam.hpi.openmensa/), [playstore](https://play.google.com/store/apps/details?id=de.uni_potsdam.hpi.openmensa), [github](https://github.com/domoritz/open-mensa-android)
-*   My other parser for OpenMensa: [https://github.com/cvzi/mensahd](https://github.com/cvzi/mensahd)
-*   Another parser by [TheNCuber](https://github.com/TheNCuber/) based on this parser: [https://github.com/TheNCuber/mensa](https://github.com/TheNCuber/mensa)
+*   My other parser for OpenMensa: [github.com/cvzi/mensahd](https://github.com/cvzi/mensahd)
+*   Another parser by [TheNCuber](https://github.com/TheNCuber/) based on this parser: [github.com/TheNCuber/mensa](https://github.com/TheNCuber/mensa)
