@@ -54,6 +54,14 @@ Traceback (most recent call last):
     date = date.replace(month=date.month - 1 if date.month > 1 else 12)
 ValueError: day is out of range for month
 
+markas/scuolececina:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 134, in updateFeeds
+    content = getattr(parser, feedMethod)(mensaReference)
+  File "/home/runner/work/mensa/mensa/markas/__init__.py", line 71, in feed
+    date = date.replace(month=date.month - 1 if date.month > 1 else 12)
+ValueError: day is out of range for month
+
 markas/vasto.infanzia:
 Traceback (most recent call last):
   File "/home/runner/work/mensa/mensa/updateFeeds.py", line 134, in updateFeeds
