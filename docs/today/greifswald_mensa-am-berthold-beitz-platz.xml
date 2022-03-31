@@ -3,26 +3,65 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2022-03-30">
+    <day date="2022-03-31">
       <category name="Tellergericht">
         <meal>
-          <name>3 Eierkuchen mit Blaubeerfüllung und Vanillesoße</name>
+          <name>Kl. Schüssel: Süßer Bulgur mit Sauerkirschkompott</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">1.50</price>
+          <price role="other">2.25</price>
+          <price role="student">0.80</price>
+        </meal>
+        <meal>
+          <name>Teller: Süßer Bulgur mit Sauerkirschkompott</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">2.20</price>
+          <price role="other">3.40</price>
+          <price role="student">1.30</price>
+        </meal>
+        <meal>
+          <name>Terrine: Süßer Bulgur mit Sauerkirschkompott</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">3.40</price>
+          <price role="other">4.70</price>
+          <price role="student">1.80</price>
+        </meal>
+      </category>
+      <category name="Komponente 1">
+        <meal>
+          <name>Schlemmerfilet Brokkoli mit Gemüsesoße</name>
+          <note>Fische und daraus hergestellte Erzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker</note>
+          <price role="employee">2.90</price>
+          <price role="other">3.75</price>
+          <price role="student">2.05</price>
+        </meal>
+      </category>
+      <category name="Komponente 2">
+        <meal>
+          <name>Hackbraten mit Bratensoße</name>
           <note>Eier und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Milch/Milchzucker</note>
+          <note>Schweinefleisch</note>
           <note>jodiertes Salz</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">2.80</price>
-          <price role="other">4.10</price>
-          <price role="student">1.60</price>
+          <price role="employee">2.65</price>
+          <price role="other">3.50</price>
+          <price role="student">1.80</price>
         </meal>
       </category>
       <category name="Komponente 3">
         <meal>
-          <name>Hähnchenbrust mit Spinat- und Käsefüllung (2,Gefl,G) dazu eine Geflügelsoße</name>
+          <name>Geflügelbratwurst (9,Gefl,G,I) mit Möhren-Erbsen-Gemüse in Rahm</name>
           <note>Glutenhaltiges Getreide</note>
           <note>Milch/Milchzucker</note>
-          <note>jodiertes Salz</note>
           <price role="employee">2.90</price>
           <price role="other">3.75</price>
           <price role="student">2.05</price>
@@ -30,33 +69,50 @@
       </category>
       <category name="Komponente 4">
         <meal>
-          <name>Steinofenpizza Perfettissima BBQ Pollo (7,Gefl,G,A)</name>
-          <price role="employee">4.70</price>
-          <price role="other">5.00</price>
-          <price role="student">3.50</price>
+          <name>Extra: Steinofenpizza Perfettissima BBQ Pollo (7,Gefl,G,A)</name>
+          <price role="employee">4.20</price>
+          <price role="other">5.50</price>
+          <price role="student">3.00</price>
         </meal>
       </category>
       <category name="Vegetarisch oder Vegan">
         <meal>
-          <name>Vegan: 2 Ruccola-Süßkartoffel-Schnitten dazu ein bunter Nudelsalat mit Oliven</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>geschwärzt</note>
-          <price role="employee">3.70</price>
-          <price role="other">5.00</price>
-          <price role="student">2.50</price>
+          <name>Blumenkohl mit Käse überbacken dazu Kräuterquark  und Kartoffeln</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <note>Milch/Milchzucker</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <price role="employee">3.05</price>
+          <price role="other">4.35</price>
+          <price role="student">1.85</price>
         </meal>
       </category>
-      <category name="Mensa Vital">
+      <category name="Mittagsgericht Cafeteria Klinikum (zzgl. 5€ ReBowl-Pfand)">
         <meal>
-          <name>Gebratenes Hokifilet auf buntem Sesam-Glasnudel-Salat</name>
-          <note>Fische und daraus hergestellte Erzeugnisse</note>
+          <name>Geflügelbratwurst (9,Gefl,G,I) dazu Mischgemüse in Rahm  und Salzkartoffeln</name>
           <note>Glutenhaltiges Getreide</note>
-          <note>Sesamsamen und daraus hergestellte Erzeugnisse</note>
-          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
-          <note>mit Antioxidationsmittel</note>
-          <price role="employee">4.20</price>
-          <price role="other">5.50</price>
-          <price role="student">2.90</price>
+          <note>Milch/Milchzucker</note>
+          <note>geschwefelt</note>
+          <price role="employee">3.75</price>
+          <price role="other">5.00</price>
+          <price role="student">2.60</price>
+        </meal>
+      </category>
+      <category name="Pasta pro Portion oder nach Gewicht (pro 100g)">
+        <meal>
+          <name>Pastateller: Penne mit veganem Rucola-Nusspesto</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Schalenfrüchte und daraus hergestellte Erzeugnisse</note>
+          <price role="employee">0.70</price>
+          <price role="other">1.05</price>
+          <price role="student">0.45</price>
+        </meal>
+        <meal>
+          <name>Penne mit veganem Rucola-Nusspesto</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Schalenfrüchte und daraus hergestellte Erzeugnisse</note>
+          <price role="employee">3.25</price>
+          <price role="other">4.50</price>
+          <price role="student">2.10</price>
         </meal>
       </category>
       <category name="Beilagen">
@@ -70,7 +126,7 @@
           <price role="student">0.20</price>
         </meal>
         <meal>
-          <name>Basmatireis Ausgabe 4</name>
+          <name>Reis Ausgabe 4</name>
           <price role="employee">0.85</price>
           <price role="other">1.25</price>
           <price role="student">0.55</price>
@@ -83,25 +139,21 @@
           <price role="student">0.55</price>
         </meal>
         <meal>
+          <name>Bratkartoffeln mit Speck und Zwiebeln   Ausgabe 3</name>
+          <note>Schweinefleisch</note>
+          <price role="employee">1.15</price>
+          <price role="other">1.55</price>
+          <price role="student">0.85</price>
+        </meal>
+        <meal>
           <name>Pommes Frites Ausgabe 5</name>
           <price role="employee">1.15</price>
           <price role="other">1.55</price>
           <price role="student">0.85</price>
         </meal>
         <meal>
-          <name>Nudelsalat Griechische Art mit Oliven   Ausgabe 3</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>geschwärzt</note>
-          <price role="employee">1.15</price>
-          <price role="other">1.55</price>
-          <price role="student">0.85</price>
-        </meal>
-        <meal>
-          <name>Sesam-Glasnudel-Salat   Ausgabe 4</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Sesamsamen und daraus hergestellte Erzeugnisse</note>
-          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
-          <note>mit Antioxidationsmittel</note>
+          <name>Extra: Schnittlauch-Sahnekartoffeln   Ausgabe 3</name>
+          <note>Milch/Milchzucker</note>
           <price role="employee">1.15</price>
           <price role="other">1.55</price>
           <price role="student">0.85</price>
@@ -115,13 +167,23 @@
       </category>
       <category name="Gemüse">
         <meal>
-          <name>Möhrenscheiben mit Petersilie Ausgabe 3, 4</name>
+          <name>Gelbe Bohnen   Ausgabe 3</name>
+          <note>jodiertes Salz</note>
           <price role="employee">0.85</price>
           <price role="other">1.25</price>
           <price role="student">0.55</price>
         </meal>
         <meal>
-          <name>Kaisergemüse [Brokkoli, Blumenkohl, Karottenscheiben] Ausgabe 3, 4</name>
+          <name>Romanesco   Ausgabe 4</name>
+          <note>jodiertes Salz</note>
+          <price role="employee">1.05</price>
+          <price role="other">1.45</price>
+          <price role="student">0.75</price>
+        </meal>
+        <meal>
+          <name>Möhren-Erbsen-Gemüse in Rahm   Ausgabe 4</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker</note>
           <price role="employee">1.05</price>
           <price role="other">1.45</price>
           <price role="student">0.75</price>
