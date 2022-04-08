@@ -3,60 +3,96 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2022-04-07">
+    <day date="2022-04-08">
       <category name="Tellergericht">
         <meal>
-          <name>Halbe Portion: 2 vegane Kartoffelpuffer mit Apfelmus</name>
-          <note>mit Antioxidationsmittel</note>
-          <price role="employee">1.40</price>
-          <price role="other">2.05</price>
-          <price role="student">0.80</price>
-        </meal>
-        <meal>
-          <name>Vegan: 4 Kartoffelpuffer mit Apfelmus</name>
-          <note>mit Antioxidationsmittel</note>
+          <name>Apfelstrudel mit Rosinen, Puderzucker und Vanillesoße</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker</note>
+          <note>mit Farbstoff</note>
           <price role="employee">2.80</price>
           <price role="other">4.10</price>
           <price role="student">1.60</price>
         </meal>
-      </category>
-      <category name="Komponente 1">
         <meal>
-          <name>Paniertes Schollenfilet mit süß-saurer-Soße</name>
-          <note>Fische und daraus hergestellte Erzeugnisse</note>
+          <name>Vegan: Apfelstrudel mit Puderzucker und Vanillesoße</name>
           <note>Glutenhaltiges Getreide</note>
-          <note>Senf und daraus hergestellte Erzeugnisse</note>
-          <note>mit Farbstoff</note>
+          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
+          <price role="employee">3.00</price>
+          <price role="other">4.30</price>
+          <price role="student">1.80</price>
+        </meal>
+      </category>
+      <category name="Komponente 2">
+        <meal>
+          <name>Mit Hackfleisch gefüllte Paprikaschote mit Paprikasoße</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Rindfleisch</note>
+          <note>Schweinefleisch</note>
           <price role="employee">2.90</price>
           <price role="other">3.75</price>
           <price role="student">2.05</price>
         </meal>
       </category>
-      <category name="Komponente 2">
+      <category name="Komponente 4">
         <meal>
-          <name>Kasselernackenbraten mit Kasselersoße</name>
+          <name>Gegrilltes Hähnchensteak (Gefl)</name>
+          <price role="employee">2.70</price>
+          <price role="other">3.55</price>
+          <price role="student">1.85</price>
+        </meal>
+      </category>
+      <category name="Vegetarisch oder Vegan">
+        <meal>
+          <name>Eieromelett Spinat-Mozzarella dazu Sahnesoße  und Kräuterpüree</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
-          <note>Schweinefleisch</note>
-          <note>Senf und daraus hergestellte Erzeugnisse</note>
-          <note>mit Antioxidationsmittel</note>
-          <note>mit Konservierungsstoff</note>
-          <price role="employee">2.65</price>
-          <price role="other">3.50</price>
-          <price role="student">1.80</price>
+          <note>Milch/Milchzucker</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>jodiertes Salz</note>
+          <price role="employee">3.05</price>
+          <price role="other">4.35</price>
+          <price role="student">1.85</price>
+        </meal>
+        <meal>
+          <name>Vegan: Paprikaschote gelb mit Couscousfüllung dazu Paprikasoße  und Couscous</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>jodiertes Salz</note>
+          <price role="employee">3.35</price>
+          <price role="other">4.65</price>
+          <price role="student">2.15</price>
         </meal>
       </category>
       <category name="Mittagsgericht Cafeteria Klinikum (zzgl. 5€ ReBowl-Pfand)">
         <meal>
-          <name>Paniertes Schollenfilet mit süß-saurer-Soße  Möhrenscheiben mit Petersilie und Kartoffelpüree</name>
-          <note>Fische und daraus hergestellte Erzeugnisse</note>
+          <name>Mit Hackfleisch gefüllte Paprikaschote Paprikasoße  und Langkornreis</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
-          <note>Milch/Milchzucker</note>
-          <note>Senf und daraus hergestellte Erzeugnisse</note>
-          <note>mit Antioxidationsmittel</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">4.60</price>
-          <price role="other">6.25</price>
-          <price role="student">3.15</price>
+          <note>Rindfleisch</note>
+          <note>Schweinefleisch</note>
+          <price role="employee">3.75</price>
+          <price role="other">5.00</price>
+          <price role="student">2.60</price>
+        </meal>
+      </category>
+      <category name="Pasta pro Portion oder nach Gewicht (pro 100g)">
+        <meal>
+          <name>Pastateller: Vollkornspiralen mit veganem Tomaten-Chili-Knoblauch-Pesto</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>geschwärzt</note>
+          <price role="employee">0.70</price>
+          <price role="other">1.05</price>
+          <price role="student">0.45</price>
+        </meal>
+        <meal>
+          <name>Vollkornspiralen mit veganem Tomaten-Chili-Knoblauch-Pesto</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>geschwärzt</note>
+          <price role="employee">3.25</price>
+          <price role="other">4.50</price>
+          <price role="student">2.10</price>
         </meal>
       </category>
       <category name="Beilagen">
@@ -77,6 +113,27 @@
           <price role="student">0.55</price>
         </meal>
         <meal>
+          <name>Kräuterpüree   Ausgabe 2</name>
+          <note>Milch/Milchzucker</note>
+          <note>jodiertes Salz</note>
+          <price role="employee">0.85</price>
+          <price role="other">1.25</price>
+          <price role="student">0.55</price>
+        </meal>
+        <meal>
+          <name>Langkornreis Ausgabe 4</name>
+          <price role="employee">0.85</price>
+          <price role="other">1.25</price>
+          <price role="student">0.55</price>
+        </meal>
+        <meal>
+          <name>Couscous   Ausgabe 3</name>
+          <note>Glutenhaltiges Getreide</note>
+          <price role="employee">0.85</price>
+          <price role="other">1.25</price>
+          <price role="student">0.55</price>
+        </meal>
+        <meal>
           <name>Pommes Frites Ausgabe 5</name>
           <price role="employee">1.15</price>
           <price role="other">1.55</price>
@@ -91,23 +148,21 @@
       </category>
       <category name="Gemüse">
         <meal>
-          <name>Möhrenscheiben mit Petersilie Ausgabe 4</name>
+          <name>Blumenkohl Ausgabe 2, 4</name>
           <price role="employee">0.85</price>
           <price role="other">1.25</price>
           <price role="student">0.55</price>
         </meal>
         <meal>
-          <name>Romanesco Ausgabe 4</name>
+          <name>Wachsbohnen in Rahm   Ausgabe 4</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker</note>
           <price role="employee">1.05</price>
           <price role="other">1.45</price>
           <price role="student">0.75</price>
         </meal>
         <meal>
-          <name>Speckbohnen   Ausgabe 4</name>
-          <note>Schweinefleisch</note>
-          <note>mit Antioxidationsmittel</note>
-          <note>mit Farbstoff</note>
-          <note>mit Konservierungsstoff</note>
+          <name>Europagemüse [gelbe und orange Karottenscheiben, Romanobohnen, Brokkoliröschen] Ausgabe 2, 3</name>
           <price role="employee">1.05</price>
           <price role="other">1.45</price>
           <price role="student">0.75</price>
