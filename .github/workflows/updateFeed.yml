@@ -7,11 +7,6 @@ on:
     paths-ignore:
     - 'docs/**'
     - 'luxembourg/**'
-  pull_request:
-    branches: [ master ]
-    paths-ignore:
-    - 'docs/**'
-    - 'luxembourg/**'
   schedule:
     - cron: "12 6 * * *" # UTC
 jobs:
