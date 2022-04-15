@@ -10,7 +10,7 @@ on:
         type: string
 
 jobs:
-  generateXMLFeeds:
+  testGenerateXMLFeeds:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
@@ -24,7 +24,7 @@ jobs:
         pip install -r requirements.txt
     - name: Run parsers & update xml feeds
       run: |
-        python updateFeeds.py -meta -feed -json -index ${{ inputs.cmdParams }}
+        python updateFeeds.py ${{ inputs.cmdParams }} -meta -feed -json -index
     - name: Test files in github pages
       run: |
         python tests/test_ghpages.py
