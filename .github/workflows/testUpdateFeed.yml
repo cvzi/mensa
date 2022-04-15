@@ -24,7 +24,8 @@ jobs:
         pip install -r requirements.txt
     - name: Run parsers & update xml feeds
       run: |
-        python updateFeeds.py ${{ inputs.cmdParams }} -meta -feed -json -index
+        echo python updateFeeds.py ${{ github.event.inputs.cmdParams }} -meta -feed -json -index
+        python updateFeeds.py ${{ github.event.inputs.cmdParams }} -meta -feed -json -index
     - name: Test files in github pages
       run: |
         python tests/test_ghpages.py
