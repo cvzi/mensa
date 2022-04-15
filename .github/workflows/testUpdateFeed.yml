@@ -7,6 +7,8 @@ on:
         description: 'cmd parameters'
         required: true
         default: '-parser markas'
+        type: string
+
 jobs:
   generateXMLFeeds:
     runs-on: ubuntu-latest
