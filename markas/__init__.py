@@ -30,6 +30,7 @@ class Parser:
             return f"Unkown canteen '{refName}'"
         path = self.canteens[refName]["source"]
         domain = self.canteens[refName]["domain"]
+        pasto = self.canteens[refName].get("pasto", None)
 
         today = nowBerlin()
 
@@ -78,19 +79,30 @@ class Parser:
             dates.append(date)
 
         # Meals
-        table = document.find("div", {"id": "settimana"}).find(
-            "table", {"class": "tabella_menu_settimanale"})
 
-        for tr in table.select("tr"):
-            category = tr.find("th").text.strip()
-            for td in tr.select("td"):
-                day_index = int(td.attrs["data-giorno"]) - 1
-                for p in td.select("p.piatto_inline"):
-                    name = p.text.replace(
-                        " *", "").replace("* ", "").replace("*", "").strip()
-                    for mealText in textwrap.wrap(name, width=250):
-                        lazyBuilder.addMeal(
-                            dates[day_index].date(), category, mealText)
+        settimana = document.find("div", {"id": "settimana"})
+        if settimana:
+            for table in settimana.select("table.tabella_menu_settimanale"):
+
+                if table.find("h5"):
+                    heading = table.find("h5").text.strip().lower()
+                    if heading:
+                        if pasto and heading != pasto.lower():
+                            logging.debug(f"\tSkipping pasto: {heading} (!= {pasto.lower()})")
+                            continue
+                        else:
+                            logging.debug(f"\tUsing pasto: {heading}")
+
+                for tr in table.select("tr"):
+                    category = tr.find("th").text.strip()
+                    for td in tr.select("td"):
+                        day_index = int(td.attrs["data-giorno"]) - 1
+                        for p in td.select("p.piatto_inline"):
+                            name = p.text.replace(
+                                " *", "").replace("* ", "").replace("*", "").strip()
+                            for mealText in textwrap.wrap(name, width=250):
+                                lazyBuilder.addMeal(
+                                    dates[day_index].date(), category, mealText)
 
         return lazyBuilder.toXMLFeed()
 
@@ -165,4 +177,4 @@ def getParser(urlTemplate):
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
-    print(getParser("http://localhost/{metaOrFeed}/markas_{mensaReference}.xml").feed("bolzano"))
+    print(getParser("http://localhost/{metaOrFeed}/markas_{mensaReference}.xml").meta("unibg.pranzo"))
