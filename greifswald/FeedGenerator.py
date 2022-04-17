@@ -40,8 +40,10 @@ def getMealsForDay(mensa: StyledLazyBuilder, day: str, canteen: str):
                     .replace('KENNZEICHNUNGSPFLICHTIGE ZUSATZSTOFFE:', '') \
                     .replace('SONSTIGE KENNZEICHNUNGEN:', '')
                 mensa.setLegendData(text=text, regex='(?P<name>(\d|[a-zA-Z])+)\)\s*(?P<value>([\w/]+)((\s+\w+)*[^0-9)]))')
-        for key in mensa.legendData:
-            mensa.legendData[key] = mensa.legendData[key].strip(',')
+
+        if mensa.legendData:
+            for key in mensa.legendData:
+                mensa.legendData[key] = mensa.legendData[key].strip(',')
 
     for table in soup.find_all('table', {'class': 'table module-food-table'}):
         category = table.find('th').text.strip()
