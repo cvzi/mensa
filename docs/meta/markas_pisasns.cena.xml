@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/basic.css" type="text/css"?>
+<?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
+<openmensa xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
+  <canteen>
+    <name>Pisa, Scuola Normale Superiore (Cena)</name>
+    <address>Piazza dei Cavalieri 7, I-56126 Pisa</address>
+    <city>Pisa (Italien)</city>
+    <phone>+39 050 509111</phone>
+    <location latitude="43.719875282490854" longitude="10.401648466126863" />
+    <times type="opening">
+      <monday open="19:30-20:30" />
+      <tuesday open="19:30-20:30" />
+      <wednesday open="19:30-20:30" />
+      <thursday open="19:30-20:30" />
+      <friday open="19:30-20:30" />
+      <saturday open="19:30-20:30" />
+      <sunday open="19:30-20:30" />
+    </times>
+    <feed name="full" priority="1">
+      <schedule dayOfMonth="*" dayOfWeek="1-5" hour="9" minute="22" retry="65 1 1440" />
+      <url>https://cvzi.github.io/mensa/feed/markas_pisasns.cena.xml</url>
+      <source>https://normale.ristocloud.it/menu/</source>
+    </feed>
+  </canteen>
+</openmensa>

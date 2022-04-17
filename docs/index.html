@@ -37,7 +37,43 @@
   <body>
     <main>
       <article>Parser for <a target="_blank" href="https://openmensa.org">openmensa.org</a>. The parser runs in a <a target="_blank" title="What's a Github action?" href="https://docs.github.com/en/actions">Github action<sup>❓</sup></a> and pushes the XML feeds to this page</article>
-      <article><h3><a href="https://github.com/cvzi/mensa/actions/">🗿 Parser status</a></h3></article>
+      <article><h3><a href="https://github.com/cvzi/mensa/actions/">🗿 Parser status</a></h3>
+<pre>greifswald/mensa-am-berthold-beitz-platz:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 134, in updateFeeds
+    content = getattr(parser, feedMethod)(mensaReference)
+  File "/home/runner/work/mensa/mensa/greifswald/__init__.py", line 35, in feed_all
+    return generateFull(ref)
+  File "/home/runner/work/mensa/mensa/greifswald/FeedGenerator.py", line 77, in generateFull
+    while getMealsForDay(mensa, day.isoformat(), canteen_name):
+  File "/home/runner/work/mensa/mensa/greifswald/FeedGenerator.py", line 43, in getMealsForDay
+    for key in mensa.legendData:
+TypeError: 'NoneType' object is not iterable
+
+greifswald/mensa-am-campus-loefflerstrasse:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 134, in updateFeeds
+    content = getattr(parser, feedMethod)(mensaReference)
+  File "/home/runner/work/mensa/mensa/greifswald/__init__.py", line 35, in feed_all
+    return generateFull(ref)
+  File "/home/runner/work/mensa/mensa/greifswald/FeedGenerator.py", line 77, in generateFull
+    while getMealsForDay(mensa, day.isoformat(), canteen_name):
+  File "/home/runner/work/mensa/mensa/greifswald/FeedGenerator.py", line 43, in getMealsForDay
+    for key in mensa.legendData:
+TypeError: 'NoneType' object is not iterable
+
+greifswald/mensa-neubrandenburg:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 134, in updateFeeds
+    content = getattr(parser, feedMethod)(mensaReference)
+  File "/home/runner/work/mensa/mensa/greifswald/__init__.py", line 35, in feed_all
+    return generateFull(ref)
+  File "/home/runner/work/mensa/mensa/greifswald/FeedGenerator.py", line 77, in generateFull
+    while getMealsForDay(mensa, day.isoformat(), canteen_name):
+  File "/home/runner/work/mensa/mensa/greifswald/FeedGenerator.py", line 43, in getMealsForDay
+    for key in mensa.legendData:
+TypeError: 'NoneType' object is not iterable
+</pre></article>
       <article>
 <ol style="list-style-type:none">
 <li><h3 id="greifswald"><a href="https://cvzi.github.io/mensa/greifswald.json">🐏 greifswald.json</a></h3>
@@ -1509,6 +1545,10 @@
   <li><a href="https://cvzi.github.io/mensa/meta/markas_bolzano.xml">🈺 meta/markas_bolzano.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/markas_bressanone.xml">🍱 feed/markas_bressanone.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/markas_bressanone.xml">🈺 meta/markas_bressanone.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/feed/markas_pisasns.cena.xml">🍱 feed/markas_pisasns.cena.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/meta/markas_pisasns.cena.xml">🈺 meta/markas_pisasns.cena.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/feed/markas_pisasns.pranzo.xml">🍱 feed/markas_pisasns.pranzo.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/meta/markas_pisasns.pranzo.xml">🈺 meta/markas_pisasns.pranzo.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/markas_scuolececina.xml">🍱 feed/markas_scuolececina.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/markas_scuolececina.xml">🈺 meta/markas_scuolececina.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/markas_sulmona.infanzia.xml">🍱 feed/markas_sulmona.infanzia.xml</a></li>
@@ -1517,6 +1557,10 @@
   <li><a href="https://cvzi.github.io/mensa/meta/markas_sulmona.primaria.xml">🈺 meta/markas_sulmona.primaria.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/markas_sulmona.secondaria.xml">🍱 feed/markas_sulmona.secondaria.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/markas_sulmona.secondaria.xml">🈺 meta/markas_sulmona.secondaria.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/feed/markas_unibg.cena.xml">🍱 feed/markas_unibg.cena.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/meta/markas_unibg.cena.xml">🈺 meta/markas_unibg.cena.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/feed/markas_unibg.pranzo.xml">🍱 feed/markas_unibg.pranzo.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/meta/markas_unibg.pranzo.xml">🈺 meta/markas_unibg.pranzo.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/markas_vasto.infanzia.xml">🍱 feed/markas_vasto.infanzia.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/markas_vasto.infanzia.xml">🈺 meta/markas_vasto.infanzia.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/markas_vasto.primaria.xml">🍱 feed/markas_vasto.primaria.xml</a></li>
