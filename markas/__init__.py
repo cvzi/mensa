@@ -177,4 +177,4 @@ def getParser(urlTemplate):
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
-    print(getParser("http://localhost/{metaOrFeed}/markas_{mensaReference}.xml").feed("pisasns.cena"))
+    print(getParser("http://localhost/{metaOrFeed}/markas_{mensaReference}.xml").meta("unibg.pranzo"))
