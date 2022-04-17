@@ -61,6 +61,42 @@ Traceback (most recent call last):
   File "/home/runner/work/mensa/mensa/markas/__init__.py", line 81, in feed
     table = document.find("div", {"id": "settimana"}).find(
 AttributeError: 'NoneType' object has no attribute 'find'
+
+greifswald/mensa-am-berthold-beitz-platz:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 134, in updateFeeds
+    content = getattr(parser, feedMethod)(mensaReference)
+  File "/home/runner/work/mensa/mensa/greifswald/__init__.py", line 35, in feed_all
+    return generateFull(ref)
+  File "/home/runner/work/mensa/mensa/greifswald/FeedGenerator.py", line 77, in generateFull
+    while getMealsForDay(mensa, day.isoformat(), canteen_name):
+  File "/home/runner/work/mensa/mensa/greifswald/FeedGenerator.py", line 43, in getMealsForDay
+    for key in mensa.legendData:
+TypeError: 'NoneType' object is not iterable
+
+greifswald/mensa-am-campus-loefflerstrasse:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 134, in updateFeeds
+    content = getattr(parser, feedMethod)(mensaReference)
+  File "/home/runner/work/mensa/mensa/greifswald/__init__.py", line 35, in feed_all
+    return generateFull(ref)
+  File "/home/runner/work/mensa/mensa/greifswald/FeedGenerator.py", line 77, in generateFull
+    while getMealsForDay(mensa, day.isoformat(), canteen_name):
+  File "/home/runner/work/mensa/mensa/greifswald/FeedGenerator.py", line 43, in getMealsForDay
+    for key in mensa.legendData:
+TypeError: 'NoneType' object is not iterable
+
+greifswald/mensa-neubrandenburg:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 134, in updateFeeds
+    content = getattr(parser, feedMethod)(mensaReference)
+  File "/home/runner/work/mensa/mensa/greifswald/__init__.py", line 35, in feed_all
+    return generateFull(ref)
+  File "/home/runner/work/mensa/mensa/greifswald/FeedGenerator.py", line 77, in generateFull
+    while getMealsForDay(mensa, day.isoformat(), canteen_name):
+  File "/home/runner/work/mensa/mensa/greifswald/FeedGenerator.py", line 43, in getMealsForDay
+    for key in mensa.legendData:
+TypeError: 'NoneType' object is not iterable
 </pre></article>
       <article>
 <ol style="list-style-type:none">
