@@ -79,28 +79,30 @@ class Parser:
             dates.append(date)
 
         # Meals
-        for table in document.find("div", {"id": "settimana"}).select(
-            "table.tabella_menu_settimanale"):
 
-            if table.find("h5"):
-                heading = table.find("h5").text.strip().lower()
-                if heading:
-                    if pasto and heading != pasto.lower():
-                        logging.debug(f"\tSkipping pasto: {heading} (!= {pasto.lower()})")
-                        continue
-                    else:
-                        logging.debug(f"\tUsing pasto: {heading}")
+        settimana = document.find("div", {"id": "settimana"})
+        if settimana:
+            for table in settimana.select("table.tabella_menu_settimanale"):
 
-            for tr in table.select("tr"):
-                category = tr.find("th").text.strip()
-                for td in tr.select("td"):
-                    day_index = int(td.attrs["data-giorno"]) - 1
-                    for p in td.select("p.piatto_inline"):
-                        name = p.text.replace(
-                            " *", "").replace("* ", "").replace("*", "").strip()
-                        for mealText in textwrap.wrap(name, width=250):
-                            lazyBuilder.addMeal(
-                                dates[day_index].date(), category, mealText)
+                if table.find("h5"):
+                    heading = table.find("h5").text.strip().lower()
+                    if heading:
+                        if pasto and heading != pasto.lower():
+                            logging.debug(f"\tSkipping pasto: {heading} (!= {pasto.lower()})")
+                            continue
+                        else:
+                            logging.debug(f"\tUsing pasto: {heading}")
+
+                for tr in table.select("tr"):
+                    category = tr.find("th").text.strip()
+                    for td in tr.select("td"):
+                        day_index = int(td.attrs["data-giorno"]) - 1
+                        for p in td.select("p.piatto_inline"):
+                            name = p.text.replace(
+                                " *", "").replace("* ", "").replace("*", "").strip()
+                            for mealText in textwrap.wrap(name, width=250):
+                                lazyBuilder.addMeal(
+                                    dates[day_index].date(), category, mealText)
 
         return lazyBuilder.toXMLFeed()
 
