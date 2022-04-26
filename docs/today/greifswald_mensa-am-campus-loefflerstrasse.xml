@@ -3,7 +3,7 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2022-04-25">
+    <day date="2022-04-26">
       <category name="Tellergericht">
         <meal>
           <name>Brötchen</name>
@@ -13,10 +13,30 @@
           <price role="student">0.35</price>
         </meal>
         <meal>
+          <name>Käse-Lauch-Suppe mit Hackfleisch, kl. Schüssel</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker</note>
+          <note>Schweinefleisch</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">1.50</price>
+          <price role="other">2.25</price>
+          <price role="student">0.80</price>
+        </meal>
+        <meal>
           <name>Brühnudeln mit Hühnerfleisch, kl. Schüssel (Gefl,A,I)</name>
           <price role="employee">1.50</price>
           <price role="other">2.25</price>
           <price role="student">0.80</price>
+        </meal>
+        <meal>
+          <name>Käse-Lauch-Suppe mit Hackfleisch, Teller</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker</note>
+          <note>Schweinefleisch</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">2.20</price>
+          <price role="other">3.40</price>
+          <price role="student">1.30</price>
         </meal>
         <meal>
           <name>Brühnudeln mit Hühnerfleisch, Teller (Gefl,A,I)</name>
@@ -25,19 +45,53 @@
           <price role="student">1.30</price>
         </meal>
         <meal>
+          <name>Käse-Lauch-Suppe mit Hackfleisch, Terrine</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker</note>
+          <note>Schweinefleisch</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">3.40</price>
+          <price role="other">4.70</price>
+          <price role="student">1.80</price>
+        </meal>
+        <meal>
           <name>Brühnudeln mit Hühnerfleisch, Terrine (Gefl,A,I)</name>
           <price role="employee">3.40</price>
           <price role="other">4.70</price>
           <price role="student">1.80</price>
         </meal>
       </category>
+      <category name="Komponente 2">
+        <meal>
+          <name>Rindergulasch mit Paprikastreifen</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Rindfleisch</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">3.10</price>
+          <price role="other">3.95</price>
+          <price role="student">2.25</price>
+        </meal>
+      </category>
+      <category name="Komponente 3">
+        <meal>
+          <name>Hähnchen-Knusperschnitzel &quot;Frischkäse-Sauerkraut&quot; mit Brezelpanade (Gefl,G,A) mit Geflügelsauce (9,Gefl,A)</name>
+          <price role="employee">2.90</price>
+          <price role="other">3.75</price>
+          <price role="student">2.05</price>
+        </meal>
+        <meal>
+          <name>Hähnchenbruststeak mit Kokos-Curry-Soße, (2,9,Gefl,G,A)</name>
+          <price role="employee">2.90</price>
+          <price role="other">3.75</price>
+          <price role="student">2.05</price>
+        </meal>
+      </category>
       <category name="Vegetarisch oder Vegan">
         <meal>
-          <name>Vegan: 2 Quinoa-Erbsen-Frikadellen mit Gemüse-Tomatensoße  und Vollkornreis</name>
+          <name>Makkaroni-Tomatengratin mit Basilikumsoße</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
-          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
-          <note>jodiertes Salz</note>
-          <note>mit Farbstoff</note>
+          <note>Milch/Milchzucker</note>
           <price role="employee">3.05</price>
           <price role="other">4.35</price>
           <price role="student">1.85</price>
@@ -45,10 +99,16 @@
       </category>
       <category name="Mensa Vital">
         <meal>
-          <name>Hähnchenbruststeak mit Kokos-Curry-Soße, Zuckerschoten, Basmati Reis (2,9,Gefl,G,A)</name>
-          <price role="employee">3.90</price>
-          <price role="other">5.20</price>
-          <price role="student">2.60</price>
+          <name>Vegan: Wok-Gemüse-Reis mit Mungobohnensprossen und geröstete Cashewkerne</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Schalenfrüchte und daraus hergestellte Erzeugnisse</note>
+          <note>Sesamsamen und daraus hergestellte Erzeugnisse</note>
+          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
+          <note>alkoholhaltig</note>
+          <note>mit Antioxidationsmittel</note>
+          <price role="employee">3.60</price>
+          <price role="other">4.90</price>
+          <price role="student">2.30</price>
         </meal>
       </category>
       <category name="Nudeltheke nach Gewicht (Preis pro 100g) Bitte extra Pasta-Teller verwenden">
@@ -60,6 +120,14 @@
           <price role="employee">0.35</price>
           <price role="other">0.50</price>
           <price role="student">0.20</price>
+        </meal>
+        <meal>
+          <name>Gabelspaghetti mit veganem Möhren-Oliven-Pesto</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>geschwärzt</note>
+          <price role="employee">0.70</price>
+          <price role="other">1.05</price>
+          <price role="student">0.45</price>
         </meal>
         <meal>
           <name>Hörnchennudeln mit Korv (Wurst) Stroganoff</name>
@@ -77,12 +145,43 @@
           <price role="student">0.45</price>
         </meal>
       </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Salzkartoffeln   Ausgabe 4</name>
+          <note>geschwefelt</note>
+          <price role="employee">0.85</price>
+          <price role="other">1.25</price>
+          <price role="student">0.55</price>
+        </meal>
+        <meal>
+          <name>Böhmische Knödel   Ausgabe 4</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker</note>
+          <price role="employee">1.15</price>
+          <price role="other">1.55</price>
+          <price role="student">0.85</price>
+        </meal>
+        <meal>
+          <name>Pommes Frites Ausgabe 4</name>
+          <price role="employee">1.15</price>
+          <price role="other">1.55</price>
+          <price role="student">0.85</price>
+        </meal>
+      </category>
       <category name="Gemüse">
         <meal>
-          <name>Europagemüse   (gelbe und orange Karottenscheiben, Romanobohnen, Brokkoliröschen) Ausgabe 2</name>
-          <price role="employee">1.05</price>
-          <price role="other">1.45</price>
-          <price role="student">0.75</price>
+          <name>feine Möhren Ausgabe 5</name>
+          <price role="employee">0.85</price>
+          <price role="other">1.25</price>
+          <price role="student">0.55</price>
+        </meal>
+        <meal>
+          <name>Rotkohl   Ausgabe 5</name>
+          <note>mit Antioxidationsmittel</note>
+          <price role="employee">0.85</price>
+          <price role="other">1.25</price>
+          <price role="student">0.55</price>
         </meal>
       </category>
       <category name="Salate und Desserts">
