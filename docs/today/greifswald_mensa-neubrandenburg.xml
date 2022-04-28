@@ -2,5 +2,69 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/basic.css" type="text/css"?>
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
-  <canteen/>
+  <canteen>
+    <day date="2022-04-28">
+      <category name="Tellergericht">
+        <meal>
+          <name>Mulligatawny-Hühnersuppe mit Kokosmilch und Curry  Teller (1,5,9,12,Gefl,G,C,J,K)</name>
+          <price role="employee">2.15</price>
+          <price role="other">3.10</price>
+          <price role="student">1.30</price>
+        </meal>
+        <meal>
+          <name>Mulligatawny-Hühnersuppe mit Kokosmilch und Curry  Terinne (1,5,9,12,Gefl,G,C,J,K)</name>
+          <price role="employee">2.85</price>
+          <price role="other">4.00</price>
+          <price role="student">1.80</price>
+        </meal>
+      </category>
+      <category name="Komponente 1">
+        <meal>
+          <name>Bolognese</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker</note>
+          <note>Schweinefleisch</note>
+          <note>jodiertes Salz</note>
+          <price role="employee">2.65</price>
+          <price role="other">3.50</price>
+          <price role="student">1.80</price>
+        </meal>
+      </category>
+      <category name="Vegetarisch oder Vegan">
+        <meal>
+          <name>Blumenkohlkäsemedallion mit Tomatensoße und Spätzle  oder Vegan_: Gemüse-Couscous-Pfanne mit Kichererbsenbällchen</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>jodiertes Salz</note>
+          <price role="employee">3.05</price>
+          <price role="other">4.35</price>
+          <price role="student">1.85</price>
+        </meal>
+      </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Spaghetti   Ausgabe 1</name>
+          <note>Glutenhaltiges Getreide</note>
+          <price role="employee">0.85</price>
+          <price role="other">1.25</price>
+          <price role="student">0.55</price>
+        </meal>
+      </category>
+      <category name="Gemüse">
+        <meal>
+          <name>Feine Möhren Ausgabe 1</name>
+          <price role="employee">0.85</price>
+          <price role="other">1.25</price>
+          <price role="student">0.55</price>
+        </meal>
+      </category>
+      <category name="Salate und Desserts">
+        <meal>
+          <name>Frische Salate und verschiedene Desserts stehen zur Auswahl.</name>
+        </meal>
+      </category>
+    </day>
+  </canteen>
 </openmensa>
