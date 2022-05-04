@@ -3,15 +3,8 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2022-05-03">
+    <day date="2022-05-04">
       <category name="Tellergericht">
-        <meal>
-          <name>Brötchen</name>
-          <note>Glutenhaltiges Getreide</note>
-          <price role="employee">0.50</price>
-          <price role="other">0.50</price>
-          <price role="student">0.35</price>
-        </meal>
         <meal>
           <name>eine Wiener zum Eintopf</name>
           <note>Schweinefleisch</note>
@@ -57,32 +50,33 @@
           <price role="student">2.00</price>
         </meal>
       </category>
-      <category name="Komponente 2">
+      <category name="Komponente 1">
         <meal>
-          <name>Paniertes Schweinelachsschnitzel mit Spargelragout</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <name>Schlemmerfilet Broccoli Käse mit Dill-Curry-Honigsoße</name>
+          <note>Fische und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Milch/Milchzucker</note>
-          <note>Schweinefleisch</note>
-          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
-          <price role="employee">3.20</price>
-          <price role="other">4.05</price>
-          <price role="student">2.35</price>
-        </meal>
-      </category>
-      <category name="Komponente 3">
-        <meal>
-          <name>Hühnerfrikassee (1,9,Gefl,G,A,C,I)</name>
           <price role="employee">3.00</price>
           <price role="other">3.85</price>
           <price role="student">2.15</price>
         </meal>
       </category>
+      <category name="Komponente 2">
+        <meal>
+          <name>Geschnetzeltes vom Schwein nach Züricher Art</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker</note>
+          <note>Schweinefleisch</note>
+          <note>jodiertes Salz</note>
+          <price role="employee">3.20</price>
+          <price role="other">4.05</price>
+          <price role="student">2.35</price>
+        </meal>
+      </category>
       <category name="Vegetarisch oder Vegan">
         <meal>
-          <name>Vegan: 8 Kichererbsenbällchen mit Gemüse-Tomatensoße  und Reis</name>
+          <name>Vegan: Avocado-Quinoa-Patty [mit Kürbis, Tomaten, Lauch und Haferflocken] mit Kräuter-Tomatensoße  Reis</name>
           <note>Glutenhaltiges Getreide</note>
-          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
           <note>jodiertes Salz</note>
           <price role="employee">3.15</price>
           <price role="other">4.45</price>
@@ -100,9 +94,9 @@
           <price role="student">0.25</price>
         </meal>
         <meal>
-          <name>Spiralnudeln mit Spinat-Sahnesoße</name>
+          <name>Nudeln mit Rote-Bete-Minz-Pesto</name>
           <note>Glutenhaltiges Getreide</note>
-          <note>Milch/Milchzucker</note>
+          <note>Schalenfrüchte und daraus hergestellte Erzeugnisse</note>
           <note>jodiertes Salz</note>
           <price role="employee">0.75</price>
           <price role="other">1.10</price>
@@ -111,22 +105,24 @@
       </category>
       <category name="Beilagen">
         <meal>
-          <name>Salzkartoffeln   Ausgabe 4</name>
-          <note>geschwefelt</note>
-          <price role="employee">0.90</price>
-          <price role="other">1.30</price>
-          <price role="student">0.60</price>
-        </meal>
-        <meal>
-          <name>Reis   Ausgabe 4</name>
+          <name>Reis</name>
           <note>jodiertes Salz</note>
           <price role="employee">0.90</price>
           <price role="other">1.30</price>
           <price role="student">0.60</price>
         </meal>
         <meal>
-          <name>Kartoffelkroketten   Ausgabe 4</name>
+          <name>Salzkartoffeln</name>
+          <note>geschwefelt</note>
+          <price role="employee">0.90</price>
+          <price role="other">1.30</price>
+          <price role="student">0.60</price>
+        </meal>
+        <meal>
+          <name>Spätzle</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
+          <note>jodiertes Salz</note>
           <price role="employee">1.20</price>
           <price role="other">1.60</price>
           <price role="student">0.90</price>
@@ -134,7 +130,7 @@
       </category>
       <category name="Gemüse">
         <meal>
-          <name>Erbsengemüse Ausgabe 2, 4</name>
+          <name>Mischgemüse   (Karotten und Erbsen)</name>
           <price role="employee">0.90</price>
           <price role="other">1.30</price>
           <price role="student">0.60</price>
