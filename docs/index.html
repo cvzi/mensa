@@ -37,65 +37,7 @@
   <body>
     <main>
       <article>Parser for <a target="_blank" href="https://openmensa.org">openmensa.org</a>. The parser runs in a <a target="_blank" title="What's a Github action?" href="https://docs.github.com/en/actions">Github action<sup>❓</sup></a> and pushes the XML feeds to this page</article>
-      <article><h3><a href="https://github.com/cvzi/mensa/actions/">🗿 Parser status</a></h3>
-<pre>luxembourg:
-Traceback (most recent call last):
-  File "C:\Python310\lib\site-packages\urllib3\response.py", line 438, in _error_catcher
-    yield
-  File "C:\Python310\lib\site-packages\urllib3\response.py", line 767, in read_chunked
-    chunk = self._handle_chunk(amt)
-  File "C:\Python310\lib\site-packages\urllib3\response.py", line 711, in _handle_chunk
-    value = self._fp._safe_read(amt)
-  File "C:\Python310\lib\http\client.py", line 629, in _safe_read
-    data = self.fp.read(amt)
-  File "C:\Python310\lib\socket.py", line 705, in readinto
-    return self._sock.recv_into(b)
-  File "C:\Python310\lib\ssl.py", line 1273, in recv_into
-    return self.read(nbytes, buffer)
-  File "C:\Python310\lib\ssl.py", line 1129, in read
-    return self._sslobj.read(len, buffer)
-TimeoutError: The read operation timed out
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "C:\Python310\lib\site-packages\requests\models.py", line 760, in generate
-    for chunk in self.raw.stream(chunk_size, decode_content=True):
-  File "C:\Python310\lib\site-packages\urllib3\response.py", line 572, in stream
-    for line in self.read_chunked(amt, decode_content=decode_content):
-  File "C:\Python310\lib\site-packages\urllib3\response.py", line 752, in read_chunked
-    with self._error_catcher():
-  File "C:\Python310\lib\contextlib.py", line 153, in __exit__
-    self.gen.throw(typ, value, traceback)
-  File "C:\Python310\lib\site-packages\urllib3\response.py", line 443, in _error_catcher
-    raise ReadTimeoutError(self._pool, None, "Read timed out.")
-urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='ssl.education.lu', port=443): Read timed out.
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "C:\Users\cuzi\github\mensa_github\updateFeeds.py", line 143, in updateFeeds
-    raise e
-  File "C:\Users\cuzi\github\mensa_github\updateFeeds.py", line 134, in updateFeeds
-    content = getattr(parser, feedMethod)(mensaReference)
-  File "C:\Users\cuzi\github\mensa_github\luxembourg\__init__.py", line 35, in feed
-    xml, _, _, _ = getMenu(restaurantId=self.canteens[refName]["id"], serviceIds=self.canteens[refName]["services"], alternativeId=alternativeId, alternativeServiceIds=alternativeServiceIds)
-  File "C:\Users\cuzi\github\mensa_github\luxembourg\tools.py", line 134, in getMenu
-    r = askRestopolis(restaurant=restaurantId,
-  File "C:\Users\cuzi\github\mensa_github\luxembourg\tools.py", line 91, in askRestopolis
-    r = s.get(url, cookies=cookies, timeout=10.0)
-  File "C:\Python310\lib\site-packages\requests\sessions.py", line 542, in get
-    return self.request('GET', url, **kwargs)
-  File "C:\Python310\lib\site-packages\requests\sessions.py", line 529, in request
-    resp = self.send(prep, **send_kwargs)
-  File "C:\Python310\lib\site-packages\requests\sessions.py", line 687, in send
-    r.content
-  File "C:\Python310\lib\site-packages\requests\models.py", line 838, in content
-    self._content = b''.join(self.iter_content(CONTENT_CHUNK_SIZE)) or b''
-  File "C:\Python310\lib\site-packages\requests\models.py", line 767, in generate
-    raise ConnectionError(e)
-requests.exceptions.ConnectionError: HTTPSConnectionPool(host='ssl.education.lu', port=443): Read timed out.
-</pre></article>
+      <article><h3><a href="https://github.com/cvzi/mensa/actions/">🗿 Parser status</a></h3></article>
       <article>
 <ol style="list-style-type:none">
 <li><h3 id="greifswald"><a href="https://cvzi.github.io/mensa/greifswald.json">🐏 greifswald.json</a></h3>
