@@ -89,6 +89,8 @@ def getMenu(mensaId):
     def extractLine(line, data):
         def price(m):
             data['price'] = m[1].replace(',', '.')
+            if len(data['price'].split('.')[1]) == 1:
+                data['price'] += "0"
             return ""
 
         def addi(m):
