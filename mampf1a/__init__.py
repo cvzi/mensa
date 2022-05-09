@@ -187,6 +187,7 @@ class Parser:
                     category = categories[catIndex]
                 else:
                     category = f"Menü {catIndex + 1}"
+                catIndex += 1
 
                 for td in tds:
                     notes = []
