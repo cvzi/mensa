@@ -166,7 +166,9 @@ class Parser:
             logging.warning("No tr found")
             return
 
-        categories = [td.text.strip() for td in trs[0].find_all('td')][1:]
+        categories = [td.text.strip() for td in trs[0].find_all('td', class_="zelleF")][1:]
+        if not categories:
+            categories = [f"Menü {i + 1}" for i in range(100)]
 
         for tr in trs[1:]:
             date = datePattern.search(tr.td.text)[0]
@@ -180,8 +182,12 @@ class Parser:
                     continue
                 tds = child.select('table td')
                 zelle_inhalt = tr.td.next_sibling
-                category = categories[catIndex]
-                catIndex += 1
+
+                if 0 <= catIndex < len(categories) and categories[catIndex]:
+                    category = categories[catIndex]
+                else:
+                    category = f"Menü {catIndex + 1}"
+
                 for td in tds:
                     notes = []
                     if "gruen" in td.a["class"]:
@@ -314,7 +320,7 @@ def getParser(baseurl):
 if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
     p = getParser("http://localhost/{metaOrFeed}/mampf1a_{mensaReference}.xml")
-    k = "lohne"
+    k = "Kreuzschwestern.Theodor-Florentini-Schule"
     print("feed:")
     print(p.feed(k))
     print("meta:")
