@@ -3,144 +3,6 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2022-05-10">
-      <category name="Tellergericht">
-        <meal>
-          <name>Brötchen</name>
-          <note>Glutenhaltiges Getreide</note>
-          <price role="employee">0.50</price>
-          <price role="other">0.50</price>
-          <price role="student">0.35</price>
-        </meal>
-        <meal>
-          <name>Kl. Schüssel: Vegane Reis-Tomatensuppe</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>jodiertes Salz</note>
-          <price role="employee">1.55</price>
-          <price role="other">2.30</price>
-          <price role="student">0.85</price>
-        </meal>
-        <meal>
-          <name>Teller: Vegane Reis-Tomaten-Suppe</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>jodiertes Salz</note>
-          <price role="employee">2.30</price>
-          <price role="other">3.50</price>
-          <price role="student">1.40</price>
-        </meal>
-        <meal>
-          <name>Terrine: Vegane Reis-Tomaten-Suppe</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>jodiertes Salz</note>
-          <price role="employee">3.60</price>
-          <price role="other">4.90</price>
-          <price role="student">2.00</price>
-        </meal>
-      </category>
-      <category name="Komponente 1">
-        <meal>
-          <name>Seelachs in Knusperpanade mit Tomatensoße</name>
-          <note>Fische und daraus hergestellte Erzeugnisse</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>jodiertes Salz</note>
-          <price role="employee">3.00</price>
-          <price role="other">3.85</price>
-          <price role="student">2.15</price>
-        </meal>
-      </category>
-      <category name="Komponente 2">
-        <meal>
-          <name>Big Rib Hacksteak mit Paprikacreme</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Milch/Milchzucker</note>
-          <note>Schweinefleisch</note>
-          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
-          <note>Senf und daraus hergestellte Erzeugnisse</note>
-          <price role="employee">3.00</price>
-          <price role="other">3.85</price>
-          <price role="student">2.15</price>
-        </meal>
-      </category>
-      <category name="Komponente 3">
-        <meal>
-          <name>Hähnchenbrust in Knusperpanade (Gefl,A) mit Geflügelsoße (9,Gefl,A)</name>
-          <price role="employee">3.00</price>
-          <price role="other">3.85</price>
-          <price role="student">2.15</price>
-        </meal>
-      </category>
-      <category name="Vegetarisch oder Vegan">
-        <meal>
-          <name>Vegan: Kichererbsencurry mit Reis</name>
-          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
-          <note>jodiertes Salz</note>
-          <price role="employee">3.15</price>
-          <price role="other">4.45</price>
-          <price role="student">1.95</price>
-        </meal>
-      </category>
-      <category name="Mensa Vital">
-        <meal>
-          <name>Vegan: Orientalische Gemüsepfanne mit gegartem Dinkel und gerösteten Sesam</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Sesamsamen und daraus hergestellte Erzeugnisse</note>
-          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
-          <price role="employee">3.80</price>
-          <price role="other">5.10</price>
-          <price role="student">2.50</price>
-        </meal>
-      </category>
-      <category name="Nudeltheke nach Gewicht (Preis pro 100g) Bitte extra Pasta-Teller verwenden">
-        <meal>
-          <name>Hartkäse gerieben, portioniert (an der Kasse erhältlich)</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
-          <note>Milch/Milchzucker</note>
-          <note>mit Konservierungsstoff</note>
-          <price role="employee">0.40</price>
-          <price role="other">0.55</price>
-          <price role="student">0.25</price>
-        </meal>
-        <meal>
-          <name>Nudeln mit Lauch-Käsesoße</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Milch/Milchzucker</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">0.75</price>
-          <price role="other">1.10</price>
-          <price role="student">0.50</price>
-        </meal>
-      </category>
-      <category name="Beilagen">
-        <meal>
-          <name>Salzkartoffeln</name>
-          <note>geschwefelt</note>
-          <price role="employee">0.90</price>
-          <price role="other">1.30</price>
-          <price role="student">0.60</price>
-        </meal>
-        <meal>
-          <name>Kartoffelkroketten</name>
-          <note>Glutenhaltiges Getreide</note>
-          <price role="employee">1.20</price>
-          <price role="other">1.60</price>
-          <price role="student">0.90</price>
-        </meal>
-      </category>
-      <category name="Gemüse">
-        <meal>
-          <name>Kaisergemüse   (Brokkoli, Blumenkohl, Karottenscheiben)</name>
-          <price role="employee">1.10</price>
-          <price role="other">1.50</price>
-          <price role="student">0.80</price>
-        </meal>
-      </category>
-      <category name="Salate und Desserts">
-        <meal>
-          <name>Frische Salate und verschiedene Desserts stehen zur Auswahl.</name>
-        </meal>
-      </category>
-    </day>
     <day date="2022-05-11">
       <category name="Tellergericht">
         <meal>
@@ -173,7 +35,7 @@
       </category>
       <category name="Komponente 3">
         <meal>
-          <name>Hähnchenbrust gefüllt mit Spinat und Käse (Gefl,G,A) dazu eine Geflügelsoße</name>
+          <name>Hähnchenbrust gefüllt mit Tomate und Käse (1,2,Gefl,G,A) dazu eine Geflügelsoße</name>
           <note>Glutenhaltiges Getreide</note>
           <note>Milch/Milchzucker</note>
           <note>jodiertes Salz</note>
@@ -194,16 +56,27 @@
           <price role="student">1.95</price>
         </meal>
       </category>
+      <category name="Mensa Vital">
+        <meal>
+          <name>Vegan: Orientalische Gemüsepfanne mit Cousous und gerösteten Sesam</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Sesamsamen und daraus hergestellte Erzeugnisse</note>
+          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
+          <price role="employee">3.80</price>
+          <price role="other">5.10</price>
+          <price role="student">2.50</price>
+        </meal>
+      </category>
       <category name="Beilagen">
         <meal>
-          <name>Nudeln</name>
+          <name>Nudeln   Ausgabe 4</name>
           <note>Glutenhaltiges Getreide</note>
           <price role="employee">0.90</price>
           <price role="other">1.30</price>
           <price role="student">0.60</price>
         </meal>
         <meal>
-          <name>Salzkartoffeln</name>
+          <name>Salzkartoffeln   Ausgabe 4</name>
           <note>geschwefelt</note>
           <price role="employee">0.90</price>
           <price role="other">1.30</price>
@@ -212,7 +85,7 @@
       </category>
       <category name="Gemüse">
         <meal>
-          <name>Blumenkohl</name>
+          <name>Blumenkohl Ausgabe 2, 4</name>
           <price role="employee">0.90</price>
           <price role="other">1.30</price>
           <price role="student">0.60</price>
@@ -452,13 +325,6 @@
     <day date="2022-05-16">
       <category name="Tellergericht">
         <meal>
-          <name>Brötchen</name>
-          <note>Glutenhaltiges Getreide</note>
-          <price role="employee">0.50</price>
-          <price role="other">0.50</price>
-          <price role="student">0.35</price>
-        </meal>
-        <meal>
           <name>Kl. Schüssel: Kesselgulasch Ungarische Art</name>
           <note>Glutenhaltiges Getreide</note>
           <note>Rindfleisch</note>
@@ -598,14 +464,14 @@
       </category>
       <category name="Komponente 1">
         <meal>
-          <name>Seelachsfilet in Eihülle mit Petersiliensoße</name>
+          <name>Seelachsfilet in Eihülle mit Dillsauce</name>
           <note>Eier und daraus hergestellte Erzeugnisse</note>
           <note>Fische und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Milch/Milchzucker</note>
           <note>Senf und daraus hergestellte Erzeugnisse</note>
+          <note>gewachst</note>
           <note>jodiertes Salz</note>
-          <note>mit Antioxidationsmittel</note>
           <note>mit Farbstoff</note>
           <price role="employee">3.00</price>
           <price role="other">3.85</price>
@@ -817,14 +683,6 @@
           <price role="other">1.30</price>
           <price role="student">0.60</price>
         </meal>
-        <meal>
-          <name>Couscousgemüse [Karotten, Zucchini, Kichererbsen, weiße Rübchen, Paprika rot/grün,Staudensellerie]</name>
-          <note>Milch/Milchzucker</note>
-          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
-          <price role="employee">1.10</price>
-          <price role="other">1.50</price>
-          <price role="student">0.80</price>
-        </meal>
       </category>
       <category name="Salate und Desserts">
         <meal>
@@ -849,8 +707,12 @@
       </category>
       <category name="Komponente 2">
         <meal>
-          <name>Schweineroulade Rahmsauce mit Speck</name>
+          <name>Balsamico-Senf-Geschnetzeltes</name>
+          <note>Milch/Milchzucker</note>
+          <note>Schwefeldioxid und Sulphite in Konzentration von mehr als 10mg/</note>
           <note>Schweinefleisch</note>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
+          <note>geschwefelt</note>
           <price role="employee">0.00</price>
           <price role="other">0.00</price>
           <price role="student">0.00</price>
@@ -887,6 +749,15 @@
           <price role="other">0.55</price>
           <price role="student">0.25</price>
         </meal>
+        <meal>
+          <name>Hartkäse gerieben, portioniert (an der Kasse erhältlich)</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <note>Milch/Milchzucker</note>
+          <note>mit Konservierungsstoff</note>
+          <price role="employee">0.40</price>
+          <price role="other">0.55</price>
+          <price role="student">0.25</price>
+        </meal>
       </category>
       <category name="Beilagen">
         <meal>
@@ -897,15 +768,7 @@
           <price role="student">0.60</price>
         </meal>
         <meal>
-          <name>Reis</name>
-          <note>jodiertes Salz</note>
-          <price role="employee">0.90</price>
-          <price role="other">1.30</price>
-          <price role="student">0.60</price>
-        </meal>
-        <meal>
           <name>Pommes Frites</name>
-          <note>jodiertes Salz</note>
           <price role="employee">1.20</price>
           <price role="other">1.60</price>
           <price role="student">0.90</price>
@@ -913,8 +776,7 @@
       </category>
       <category name="Gemüse">
         <meal>
-          <name>Rotkohl</name>
-          <note>mit Antioxidationsmittel</note>
+          <name>feine Möhren</name>
           <price role="employee">0.90</price>
           <price role="other">1.30</price>
           <price role="student">0.60</price>
@@ -1013,6 +875,12 @@
         </meal>
       </category>
       <category name="Gemüse">
+        <meal>
+          <name>Buntes Pfannengemüse</name>
+          <price role="employee">1.10</price>
+          <price role="other">1.50</price>
+          <price role="student">0.80</price>
+        </meal>
         <meal>
           <name>Couscousgemüse [Karotten, Zucchini, Kichererbsen, weiße Rübchen, Paprika rot/grün,Staudensellerie]</name>
           <note>Sellerie und daraus hergestellte Erzeugnisse</note>
