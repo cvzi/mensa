@@ -2,5 +2,154 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/basic.css" type="text/css"?>
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
-  <canteen/>
+  <canteen>
+    <day date="2022-05-27">
+      <category name="Tellergericht">
+        <meal>
+          <name>Kl. Schüssel: Milchreis mit Himbeeren</name>
+          <note>Milch/Milchzucker</note>
+          <price role="employee">1.55</price>
+          <price role="other">2.30</price>
+          <price role="student">0.85</price>
+        </meal>
+        <meal>
+          <name>Teller: Milchreis mit Himbeeren</name>
+          <note>Milch/Milchzucker</note>
+          <price role="employee">2.30</price>
+          <price role="other">3.50</price>
+          <price role="student">1.40</price>
+        </meal>
+        <meal>
+          <name>Terrine: Milchreis mit Himbeeren</name>
+          <note>Milch/Milchzucker</note>
+          <price role="employee">3.60</price>
+          <price role="other">4.90</price>
+          <price role="student">2.00</price>
+        </meal>
+      </category>
+      <category name="Komponente 2">
+        <meal>
+          <name>Schweinelachsschnitzel</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Schweinefleisch</note>
+          <note>jodiertes Salz</note>
+          <price role="employee">3.00</price>
+          <price role="other">3.85</price>
+          <price role="student">2.15</price>
+        </meal>
+      </category>
+      <category name="Komponente 3">
+        <meal>
+          <name>Geschmorte Geflügelleber in Apfel-Zwiebelsoße (3,Gefl,A)</name>
+          <price role="employee">3.00</price>
+          <price role="other">3.85</price>
+          <price role="student">2.15</price>
+        </meal>
+      </category>
+      <category name="Vegetarisch oder Vegan">
+        <meal>
+          <name>Tellerrösti mit Tomate und Mozzarella überbacken dazu ein Joghurt-Dip mit Gurke und Knoblauch</name>
+          <note>Milch/Milchzucker</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">3.15</price>
+          <price role="other">4.45</price>
+          <price role="student">1.95</price>
+        </meal>
+      </category>
+      <category name="Mittagsgericht Cafeteria Klinikum (zzgl. 5€ ReBowl-Pfand)">
+        <meal>
+          <name>Geschmorte Geflügelleber in Apfel-Zwiebelsoße (3,Gefl,A) mit Kartoffelpüree</name>
+          <note>Milch/Milchzucker</note>
+          <note>mit Antioxidationsmittel</note>
+          <price role="employee">3.90</price>
+          <price role="other">5.15</price>
+          <price role="student">2.75</price>
+        </meal>
+      </category>
+      <category name="Pasta pro Portion oder nach Gewicht (pro 100g)">
+        <meal>
+          <name>Pastateller: Penne mit veganem Kräuterpesto</name>
+          <note>Glutenhaltiges Getreide</note>
+          <price role="employee">0.75</price>
+          <price role="other">1.10</price>
+          <price role="student">0.50</price>
+        </meal>
+        <meal>
+          <name>Penne mit veganem Kräuterpesto</name>
+          <note>Glutenhaltiges Getreide</note>
+          <price role="employee">3.35</price>
+          <price role="other">4.60</price>
+          <price role="student">2.20</price>
+        </meal>
+      </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Hartkäse gerieben, portioniert</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <note>Milch/Milchzucker</note>
+          <note>mit Konservierungsstoff</note>
+          <price role="employee">0.40</price>
+          <price role="other">0.55</price>
+          <price role="student">0.25</price>
+        </meal>
+        <meal>
+          <name>Salzkartoffeln   Ausgabe 4</name>
+          <note>geschwefelt</note>
+          <note>jodiertes Salz</note>
+          <price role="employee">0.90</price>
+          <price role="other">1.30</price>
+          <price role="student">0.60</price>
+        </meal>
+        <meal>
+          <name>Kartoffelpüree   Ausgabe 2</name>
+          <note>Milch/Milchzucker</note>
+          <note>mit Antioxidationsmittel</note>
+          <price role="employee">0.90</price>
+          <price role="other">1.30</price>
+          <price role="student">0.60</price>
+        </meal>
+        <meal>
+          <name>Pommes Frites Ausgabe 5</name>
+          <price role="employee">1.20</price>
+          <price role="other">1.60</price>
+          <price role="student">0.90</price>
+        </meal>
+        <meal>
+          <name>Pommes Frites MAXI PORTION Ausgabe 5</name>
+          <price role="employee">2.35</price>
+          <price role="other">3.10</price>
+          <price role="student">1.80</price>
+        </meal>
+      </category>
+      <category name="Gemüse">
+        <meal>
+          <name>Balkangemüse [Erbsen, grüne Bohnen, Mais, Paprika]   Ausgabe 2, 4</name>
+          <note>jodiertes Salz</note>
+          <price role="employee">0.90</price>
+          <price role="other">1.30</price>
+          <price role="student">0.60</price>
+        </meal>
+        <meal>
+          <name>Porreegemüse in Rahm   Ausgabe 4</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker</note>
+          <price role="employee">1.10</price>
+          <price role="other">1.50</price>
+          <price role="student">0.80</price>
+        </meal>
+        <meal>
+          <name>Gemüsemix Flandern [gelbe + orange Möhren, Schwarzwurzeln, Romanobohnen]   Ausgabe 2, 4</name>
+          <note>jodiertes Salz</note>
+          <price role="employee">1.10</price>
+          <price role="other">1.50</price>
+          <price role="student">0.80</price>
+        </meal>
+      </category>
+      <category name="Salate und Desserts">
+        <meal>
+          <name>Frische Salate und verschiedene Desserts stehen zur Auswahl.</name>
+        </meal>
+      </category>
+    </day>
+  </canteen>
 </openmensa>
