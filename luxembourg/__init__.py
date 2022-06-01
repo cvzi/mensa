@@ -15,24 +15,32 @@ except ModuleNotFoundError:
     from util import weekdays_map
 
 metaJson = os.path.join(os.path.dirname(__file__), "canteenDict.json")
-metaJsonAlternative = os.path.join(os.path.dirname(__file__), "canteenDictFrupstut.json")
+metaJsonAlternative = os.path.join(os.path.dirname(__file__),
+                                   "canteenDictFrupstut.json")
 
-metaTemplateFile = os.path.join(os.path.dirname(__file__), "metaTemplate_luxembourg.xml")
+metaTemplateFile = os.path.join(os.path.dirname(__file__),
+                                "metaTemplate_luxembourg.xml")
 
 template_sourceURL = r"https://portal.education.lu/restopolis/Language/fr/MENUS/MENU-DU-JOUR/RestaurantId/%d/ServiceId/%d#12691"
 
 
 class Parser:
+
     def feed(self, refName):
-        if "active" in self.canteens[refName] and not self.canteens[refName]["active"]:
+        if "active" in self.canteens[
+                refName] and not self.canteens[refName]["active"]:
             return "Unknown reference or deactivated canteen"
         if "alternativeId" in self.canteens[refName]:
             alternativeId = self.canteens[refName]["alternativeId"]
-            alternativeServiceIds = self.canteens[refName]["alternativeServiceIds"]
+            alternativeServiceIds = self.canteens[refName][
+                "alternativeServiceIds"]
         else:
             alternativeId = None
             alternativeServiceIds = None
-        xml, _, _, _ = getMenu(restaurantId=self.canteens[refName]["id"], serviceIds=self.canteens[refName]["services"], alternativeId=alternativeId, alternativeServiceIds=alternativeServiceIds)
+        xml, _, _, _ = getMenu(restaurantId=self.canteens[refName]["id"],
+                               serviceIds=self.canteens[refName]["services"],
+                               alternativeId=alternativeId,
+                               alternativeServiceIds=alternativeServiceIds)
         return xml
 
     def meta(self, refName):
@@ -46,7 +54,8 @@ class Parser:
             if "source" in restaurant and restaurant["source"]:
                 sourceUrl = restaurant["source"]
             else:
-                sourceUrl = template_sourceURL % (int(restaurant["id"]), int(restaurant["services"][0][0]))
+                sourceUrl = template_sourceURL % (int(
+                    restaurant["id"]), int(restaurant["services"][0][0]))
 
             address = ""
             if restaurant["street"]:
@@ -54,17 +63,30 @@ class Parser:
             if restaurant["zip"]:
                 address += (", " if address else "") + restaurant["zip"]
             if restaurant["city"]:
-                address += ((" " if restaurant["zip"] else ", ") if address else "") + restaurant["city"]
+                address += ((" " if restaurant["zip"] else ", ")
+                            if address else "") + restaurant["city"]
 
             data = {
-                "name": restaurant["name"] + (f" ({restaurant['region']})" if restaurant["region"] else ""),
-                "address": address,
-                "city": restaurant["city"],
-                "phoneXML": f"<phone>{restaurant['phone']}</phone>" if "phone" in restaurant else "",
-                "latitude": restaurant["latitude"],
-                "longitude": restaurant["longitude"],
-                "feed": self.urlTemplate.format(metaOrFeed='feed', mensaReference=urllib.parse.quote(reference)),
-                "source": sourceUrl,
+                "name":
+                restaurant["name"] +
+                (f" ({restaurant['region']})" if restaurant["region"] else ""),
+                "address":
+                address,
+                "city":
+                restaurant["city"],
+                "phoneXML":
+                f"<phone>{restaurant['phone']}</phone>"
+                if "phone" in restaurant else "",
+                "latitude":
+                restaurant["latitude"],
+                "longitude":
+                restaurant["longitude"],
+                "feed":
+                self.urlTemplate.format(
+                    metaOrFeed='feed',
+                    mensaReference=urllib.parse.quote(reference)),
+                "source":
+                sourceUrl,
             }
             openingTimes = ""
             pattern = re.compile("(\d{1,2}):(\d{2}) - (\d{1,2}):(\d{2})")
@@ -72,16 +94,20 @@ class Parser:
             m = re.findall(pattern, serviceStr)
             if len(m) == 2:
                 fromTimeH, fromTimeM, toTimeH, toTimeM = [int(x) for x in m[0]]
-                fromTime2H, fromTime2M, toTime2H, toTime2M = [int(x) for x in m[1]]
+                fromTime2H, fromTime2M, toTime2H, toTime2M = [
+                    int(x) for x in m[1]
+                ]
                 if (fromTime2H - toTimeH) * 60 + fromTime2M - toTimeM < 32:
                     toTimeH, toTimeM = toTime2H, toTime2M
             else:
                 fromTimeH, fromTimeM, toTimeH, toTimeM = [int(x) for x in m[0]]
 
-            openingTimes = "%02d:%02d-%02d:%02d" % (
-                fromTimeH, fromTimeM, toTimeH, toTimeM)
+            openingTimes = "%02d:%02d-%02d:%02d" % (fromTimeH, fromTimeM,
+                                                    toTimeH, toTimeM)
             if "days" in restaurant:
-                fromDay, toDay = [x.strip() for x in restaurant["days"].split("-")]
+                fromDay, toDay = [
+                    x.strip() for x in restaurant["days"].split("-")
+                ]
             else:
                 fromDay, toDay = ['Mo', 'Su']
 
@@ -111,13 +137,17 @@ class Parser:
 
         self.canteens = {}
         for restaurantId, restaurant in canteenDict.items():
-            if "active" in restaurant and restaurant["active"] and "reference" in restaurant:
+            if "active" in restaurant and restaurant[
+                    "active"] and "reference" in restaurant:
                 restaurant["id"] = restaurantId
                 self.canteens[restaurant["reference"]] = restaurant
                 if "alternativeId" in canteenDictAlternative:
-                    if restaurant["reference"] == canteenDictAlternative[alternativeId]["reference"]:
+                    if restaurant["reference"] == canteenDictAlternative[
+                            alternativeId]["reference"]:
                         restaurant["alternativeId"] = alternativeId
-                        restaurant["alternativeServiceIds"] = canteenDictAlternative[alternativeId]["services"]
+                        restaurant[
+                            "alternativeServiceIds"] = canteenDictAlternative[
+                                alternativeId]["services"]
 
     @staticmethod
     def __now():
@@ -129,7 +159,8 @@ class Parser:
         tmp = {}
         for reference in self.canteens:
             tmp[reference] = self.urlTemplate.format(
-                metaOrFeed='meta', mensaReference=urllib.parse.quote(reference))
+                metaOrFeed='meta',
+                mensaReference=urllib.parse.quote(reference))
         return json.dumps(tmp, indent=2)
 
 

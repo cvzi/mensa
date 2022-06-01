@@ -21,8 +21,10 @@ except ModuleNotFoundError:
     from util import StyledLazyBuilder
 
 headers = {
-    'User-Agent': f'{useragentname}/{__version__} ({useragentcomment}) {requests.utils.default_user_agent()}'
+    'User-Agent':
+    f'{useragentname}/{__version__} ({useragentcomment}) {requests.utils.default_user_agent()}'
 }
+
 
 def getMealsForDay(mensa: StyledLazyBuilder, day: str, canteen: str):
 
@@ -30,7 +32,9 @@ def getMealsForDay(mensa: StyledLazyBuilder, day: str, canteen: str):
         mensa.setDayClosed(date.fromisoformat(day))
         return True
 
-    html = requests.get("https://www.stw-greifswald.de/essen/speiseplaene/" + canteen + "/?datum=" + day, headers=headers).text
+    html = requests.get("https://www.stw-greifswald.de/essen/speiseplaene/" +
+                        canteen + "/?datum=" + day,
+                        headers=headers).text
     soup = BeautifulSoup(html, 'html.parser')
 
     if mensa.legendData == None:
@@ -39,7 +43,11 @@ def getMealsForDay(mensa: StyledLazyBuilder, day: str, canteen: str):
                 text = str(div.text).replace('KENNZEICHNUNGSPFLICHTIGE ALLERGENE:', '') \
                     .replace('KENNZEICHNUNGSPFLICHTIGE ZUSATZSTOFFE:', '') \
                     .replace('SONSTIGE KENNZEICHNUNGEN:', '')
-                mensa.setLegendData(text=text, regex='(?P<name>(\d|[a-zA-Z])+)\)\s*(?P<value>([\w/]+)((\s+\w+)*[^0-9)]))')
+                mensa.setLegendData(
+                    text=text,
+                    regex=
+                    '(?P<name>(\d|[a-zA-Z])+)\)\s*(?P<value>([\w/]+)((\s+\w+)*[^0-9)]))'
+                )
 
         if mensa.legendData:
             for key in mensa.legendData:
@@ -56,7 +64,10 @@ def getMealsForDay(mensa: StyledLazyBuilder, day: str, canteen: str):
                     price = string.strip().split('\xa0€')[:3]
                 elif len(string) > 1:
                     meal += (string.strip() + ' ')
-            mensa.addMeal(day, category, meal, prices=price,
+            mensa.addMeal(day,
+                          category,
+                          meal,
+                          prices=price,
                           roles=['student', 'employee', 'other'])
     return mensa.hasMealsFor(date.fromisoformat(day))
 
@@ -82,5 +93,5 @@ def generateFull(canteen_name: str):
     return mensa.toXMLFeed()
 
 
-if __name__=="__main__":
+if __name__ == "__main__":
     print(generateToday("mensa-am-berthold-beitz-platz"))

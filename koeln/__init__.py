@@ -28,8 +28,8 @@ except ModuleNotFoundError:
 
 metaJson = os.path.join(os.path.dirname(__file__), "koeln.json")
 
-metaTemplateFile = os.path.join(
-    os.path.dirname(__file__), "metaTemplate_koeln.xml")
+metaTemplateFile = os.path.join(os.path.dirname(__file__),
+                                "metaTemplate_koeln.xml")
 
 templateSource = r"https://www.kstw.de/speiseplan?l="
 templateMealsUrl = "https://www.kstw.de/speiseplan?l={ids}&t={{date}}"
@@ -40,12 +40,11 @@ with open(metaJson, 'r', encoding='utf8') as f:
 mealsUrl = templateMealsUrl.format(ids=",".join(canteenDict.keys()))
 
 headers = {
-    'User-Agent': f'{useragentname}/{__version__} ({useragentcomment}) {requests.utils.default_user_agent()}'
+    'User-Agent':
+    f'{useragentname}/{__version__} ({useragentcomment}) {requests.utils.default_user_agent()}'
 }
 
-
 rolesOrder = ('student', 'employee', 'other')
-
 
 # Global vars for caching
 cacheMealsLock = Lock()
@@ -58,11 +57,11 @@ def _getMealsURL(url, maxAgeMinutes=30):
     """Download website, if available use a cached version"""
     if url in cacheMealsData:
         ageSeconds = (time.time() - cacheMealsTime[url])
-        if ageSeconds < maxAgeMinutes*60:
+        if ageSeconds < maxAgeMinutes * 60:
             logging.debug(f"From cache: {url} [{round(ageSeconds)}s old]")
             return cacheMealsData[url]
 
-    content = requests.get(url, headers=headers, timeout=10*60).text
+    content = requests.get(url, headers=headers, timeout=10 * 60).text
     with cacheMealsLock:
         cacheMealsData[url] = content
         cacheMealsTime[url] = time.time()
@@ -77,10 +76,12 @@ def _parseMealsUrl(lazyBuilder, mensaId, day=None):
     content = _getMealsURL(mealsUrl.format(date=date))
     document = BeautifulSoup(content, "html.parser")
 
-    mensaDivs = document.find_all(
-        "div", class_="tx-epwerkmenu-menu-location-wrapper")
+    mensaDivs = document.find_all("div",
+                                  class_="tx-epwerkmenu-menu-location-wrapper")
     mensaDivs = [
-        mensaDiv for mensaDiv in mensaDivs if mensaDiv.attrs["data-location"] == str(mensaId)]
+        mensaDiv for mensaDiv in mensaDivs
+        if mensaDiv.attrs["data-location"] == str(mensaId)
+    ]
     if len(mensaDivs) != 1:
         # Check if mensa is in drowndown selector
         checkbox = document.find(id=f"building-id-{mensaId}")
@@ -107,8 +108,10 @@ def _parseMealsUrl(lazyBuilder, mensaId, day=None):
         additives = menuTile.find(class_="tx-epwerkmenu-menu-meal-additives")
         for sup in additives.find_all('sup'):
             sup.extract()
-        notes = [note.strip()
-                 for note in additives.text.split("\n") if note.strip()]
+        notes = [
+            note.strip() for note in additives.text.split("\n")
+            if note.strip()
+        ]
 
         pricesDiv = menuTile.find(
             class_="tx-epwerkmenu-menu-meal-prices-values")
@@ -146,21 +149,37 @@ def _generateCanteenMeta(mensa, urlTemplate):
     template = open(metaTemplateFile).read()
 
     data = {
-        "name": mensa["name"],
-        "adress": "%s %s %s %s" % (mensa["name"], mensa["strasse"], mensa["plz"], mensa["ort"]),
-        "city": mensa["ort"],
-        "phone": mensa["phone"],
-        "latitude": mensa["latitude"],
-        "longitude": mensa["longitude"],
-        "feed_today": urlTemplate.format(metaOrFeed='today', mensaReference=urllib.parse.quote(mensa["reference"])),
-        "feed_full": urlTemplate.format(metaOrFeed='feed', mensaReference=urllib.parse.quote(mensa["reference"])),
-        "source_today": templateSource + mensa["id"],
-        "source_full": templateSource + mensa["id"]
+        "name":
+        mensa["name"],
+        "adress":
+        "%s %s %s %s" %
+        (mensa["name"], mensa["strasse"], mensa["plz"], mensa["ort"]),
+        "city":
+        mensa["ort"],
+        "phone":
+        mensa["phone"],
+        "latitude":
+        mensa["latitude"],
+        "longitude":
+        mensa["longitude"],
+        "feed_today":
+        urlTemplate.format(metaOrFeed='today',
+                           mensaReference=urllib.parse.quote(
+                               mensa["reference"])),
+        "feed_full":
+        urlTemplate.format(metaOrFeed='feed',
+                           mensaReference=urllib.parse.quote(
+                               mensa["reference"])),
+        "source_today":
+        templateSource + mensa["id"],
+        "source_full":
+        templateSource + mensa["id"]
     }
     openingTimes = {}
     infokurz = mensa["infokurz"]
     pattern = re.compile(
-        "([A-Z][a-z])( - ([A-Z][a-z]))? (\d{1,2})\.(\d{2}) - (\d{1,2})\.(\d{2}) Uhr")
+        "([A-Z][a-z])( - ([A-Z][a-z]))? (\d{1,2})\.(\d{2}) - (\d{1,2})\.(\d{2}) Uhr"
+    )
     m = re.findall(pattern, infokurz)
     for result in m:
         fromDay, _, toDay, fromTimeH, fromTimeM, toTimeH, toTimeM = result
@@ -172,8 +191,8 @@ def _generateCanteenMeta(mensa, urlTemplate):
                 if short == fromDay:
                     select = True
                 elif select:
-                    openingTimes[short] = "%02d:%02d-%02d:%02d" % (
-                        int(fromTimeH), int(fromTimeM), int(toTimeH), int(toTimeM))
+                    openingTimes[short] = "%02d:%02d-%02d:%02d" % (int(
+                        fromTimeH), int(fromTimeM), int(toTimeH), int(toTimeM))
                 if short == toDay:
                     select = False
 
@@ -188,6 +207,7 @@ def _generateCanteenMeta(mensa, urlTemplate):
 
 
 class Parser:
+
     def __init__(self, urlTemplate):
         self.urlTemplate = urlTemplate
         self.canteens = {}
@@ -200,7 +220,8 @@ class Parser:
         tmp = {}
         for reference in self.canteens:
             tmp[reference] = self.urlTemplate.format(
-                metaOrFeed='meta', mensaReference=urllib.parse.quote(reference))
+                metaOrFeed='meta',
+                mensaReference=urllib.parse.quote(reference))
         return json.dumps(tmp, indent=2)
 
     def meta(self, name):
@@ -234,26 +255,24 @@ class Parser:
                 # Get this week
                 threads = []
                 while date.weekday() < 5:
-                    t = Thread(target=_parseMealsUrl, args=(
-                        lazyBuilder, mensaId, date.date()))
+                    t = Thread(target=_parseMealsUrl,
+                               args=(lazyBuilder, mensaId, date.date()))
                     t.start()
                     threads.append(t)
                     date += datetime.timedelta(days=1)
                     n += 1
-
 
                 # Skip over weekend
                 date += datetime.timedelta(days=7 - date.weekday())
 
                 # Get next week
                 while date.weekday() < 5 and n < 5:
-                    t = Thread(target=_parseMealsUrl, args=(
-                        lazyBuilder, mensaId, date.date()))
+                    t = Thread(target=_parseMealsUrl,
+                               args=(lazyBuilder, mensaId, date.date()))
                     t.start()
                     threads.append(t)
                     date += datetime.timedelta(days=1)
                     n += 1
-
 
                 for t in threads:
                     t.join()

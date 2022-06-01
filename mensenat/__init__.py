@@ -20,6 +20,7 @@ metaTemplateFile = os.path.join(os.path.dirname(__file__), "metaTemplate.xml")
 
 
 class Parser:
+
     def feed(self, refName):
         return getMenu(self.canteens[refName]["id"])
 
@@ -33,18 +34,29 @@ class Parser:
                 continue
 
             data = {
-                "name": mensa["name"],
-                "address": mensa["address"],
-                "city": mensa["city"],
-                "phone": mensa['phone'],
-                "latitude": mensa["latitude"],
-                "longitude": mensa["longitude"],
-                "feed": self.urlTemplate.format(metaOrFeed='feed', mensaReference=urllib.parse.quote(reference)),
-                "source": mensa["source"],
+                "name":
+                mensa["name"],
+                "address":
+                mensa["address"],
+                "city":
+                mensa["city"],
+                "phone":
+                mensa['phone'],
+                "latitude":
+                mensa["latitude"],
+                "longitude":
+                mensa["longitude"],
+                "feed":
+                self.urlTemplate.format(
+                    metaOrFeed='feed',
+                    mensaReference=urllib.parse.quote(reference)),
+                "source":
+                mensa["source"],
             }
             openingTimes = {}
             pattern = re.compile(
-                r"([A-Z][a-z])(\s*-\s*([A-Z][a-z]))?\s*(\d{1,2}):(\d{2})\s*-\s*(\d{1,2}):(\d{2}) Uhr")
+                r"([A-Z][a-z])(\s*-\s*([A-Z][a-z]))?\s*(\d{1,2}):(\d{2})\s*-\s*(\d{1,2}):(\d{2}) Uhr"
+            )
             m = re.findall(pattern, mensa["times"])
             for result in m:
                 fromDay, _, toDay, fromTimeH, fromTimeM, toTimeH, toTimeM = result
@@ -57,7 +69,8 @@ class Parser:
                             select = True
                         elif select:
                             openingTimes[short] = "%02d:%02d-%02d:%02d" % (
-                                int(fromTimeH), int(fromTimeM), int(toTimeH), int(toTimeM))
+                                int(fromTimeH), int(fromTimeM), int(toTimeH),
+                                int(toTimeM))
                         if short == toDay:
                             select = False
 
@@ -87,7 +100,9 @@ class Parser:
     def json(self):
         tmp = {}
         for reference in self.canteens:
-            tmp[reference] = self.urlTemplate.format(metaOrFeed='meta', mensaReference=urllib.parse.quote(reference))
+            tmp[reference] = self.urlTemplate.format(
+                metaOrFeed='meta',
+                mensaReference=urllib.parse.quote(reference))
         return json.dumps(tmp, indent=2)
 
 
@@ -97,5 +112,7 @@ def getParser(urlTemplate):
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
-    print(getParser("http://localhost/{metaOrFeed}/mensenat_{mensaReference}.xml").feed("KlagenfurtUniMCafe"))
+    print(
+        getParser("http://localhost/{metaOrFeed}/mensenat_{mensaReference}.xml"
+                  ).feed("KlagenfurtUniMCafe"))
     # print(getParser("http://localhost/{metaOrFeed}/mensenat_{mensaReference}.xml").meta("EisenstadtFH"))

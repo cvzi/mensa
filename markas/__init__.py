@@ -25,6 +25,7 @@ metaTemplateFile = os.path.join(os.path.dirname(__file__), "metaTemplate.xml")
 
 
 class Parser:
+
     def feed(self, refName):
         if refName not in self.canteens:
             return f"Unkown canteen '{refName}'"
@@ -43,8 +44,10 @@ class Parser:
             path = path.format(timestamp=int(ts.timestamp()))
         if "change_language" in self.canteens[refName]:
             lang = self.canteens[refName]["change_language"]
-            html = requests.get(f"https://{domain}/change_language/{lang}", headers={
-                                "Referer": f"https://{domain}{path}"}).text
+            html = requests.get(f"https://{domain}/change_language/{lang}",
+                                headers={
+                                    "Referer": f"https://{domain}{path}"
+                                }).text
         else:
             html = requests.get(f"https://{domain}{path}").text
 
@@ -53,7 +56,8 @@ class Parser:
 
         # Log name
         logging.debug(f"\tReference: {refName}")
-        for selected in document.select('#selector_bar_container select option[selected]'):
+        for selected in document.select(
+                '#selector_bar_container select option[selected]'):
             if selected.text:
                 logging.debug(f"\tSelected: {selected.text}")
             else:
@@ -70,12 +74,15 @@ class Parser:
             date = today.replace(day=i)
             if date.day > today.day:
                 try:
-                    date = date.replace(month=date.month - 1 if date.month > 1 else 12)
+                    date = date.replace(month=date.month -
+                                        1 if date.month > 1 else 12)
                 except ValueError:
-                    date = date.replace(month=date.month if date.month > 1 else 12)
+                    date = date.replace(
+                        month=date.month if date.month > 1 else 12)
 
             if dates and date < dates[-1]:
-                date = date.replace(month=date.month + 1 if date.month < 12 else 1)
+                date = date.replace(month=date.month +
+                                    1 if date.month < 12 else 1)
             dates.append(date)
 
         # Meals
@@ -88,7 +95,9 @@ class Parser:
                     heading = table.find("h5").text.strip().lower()
                     if heading:
                         if pasto and heading != pasto.lower():
-                            logging.debug(f"\tSkipping pasto: {heading} (!= {pasto.lower()})")
+                            logging.debug(
+                                f"\tSkipping pasto: {heading} (!= {pasto.lower()})"
+                            )
                             continue
                         else:
                             logging.debug(f"\tUsing pasto: {heading}")
@@ -98,11 +107,11 @@ class Parser:
                     for td in tr.select("td"):
                         day_index = int(td.attrs["data-giorno"]) - 1
                         for p in td.select("p.piatto_inline"):
-                            name = p.text.replace(
-                                " *", "").replace("* ", "").replace("*", "").strip()
+                            name = p.text.replace(" *", "").replace(
+                                "* ", "").replace("*", "").strip()
                             for mealText in textwrap.wrap(name, width=250):
-                                lazyBuilder.addMeal(
-                                    dates[day_index].date(), category, mealText)
+                                lazyBuilder.addMeal(dates[day_index].date(),
+                                                    category, mealText)
 
         return lazyBuilder.toXMLFeed()
 
@@ -117,18 +126,29 @@ class Parser:
 
             path = mensa['source'].replace("{timestamp}", "")
             data = {
-                "name": mensa["name"],
-                "address": mensa["address"],
-                "city": mensa["city"],
-                "phone": mensa['phone'],
-                "latitude": mensa["latitude"],
-                "longitude": mensa["longitude"],
-                "feed": self.urlTemplate.format(metaOrFeed='feed', mensaReference=urllib.parse.quote(reference)),
-                "source": f"https://{mensa['domain']}{path}",
+                "name":
+                mensa["name"],
+                "address":
+                mensa["address"],
+                "city":
+                mensa["city"],
+                "phone":
+                mensa['phone'],
+                "latitude":
+                mensa["latitude"],
+                "longitude":
+                mensa["longitude"],
+                "feed":
+                self.urlTemplate.format(
+                    metaOrFeed='feed',
+                    mensaReference=urllib.parse.quote(reference)),
+                "source":
+                f"https://{mensa['domain']}{path}",
             }
             openingTimes = {}
             pattern = re.compile(
-                r"([A-Z][a-z])(\s*-\s*([A-Z][a-z]))?\s*(\d{1,2}):(\d{2})\s*-\s*(\d{1,2}):(\d{2}) Uhr")
+                r"([A-Z][a-z])(\s*-\s*([A-Z][a-z]))?\s*(\d{1,2}):(\d{2})\s*-\s*(\d{1,2}):(\d{2}) Uhr"
+            )
             m = re.findall(pattern, mensa["times"])
             for result in m:
                 fromDay, _, toDay, fromTimeH, fromTimeM, toTimeH, toTimeM = result
@@ -141,7 +161,8 @@ class Parser:
                             select = True
                         elif select:
                             openingTimes[short] = "%02d:%02d-%02d:%02d" % (
-                                int(fromTimeH), int(fromTimeM), int(toTimeH), int(toTimeM))
+                                int(fromTimeH), int(fromTimeM), int(toTimeH),
+                                int(toTimeM))
                         if short == toDay:
                             select = False
 
@@ -167,7 +188,8 @@ class Parser:
         tmp = {}
         for reference in self.canteens:
             tmp[reference] = self.urlTemplate.format(
-                metaOrFeed='meta', mensaReference=urllib.parse.quote(reference))
+                metaOrFeed='meta',
+                mensaReference=urllib.parse.quote(reference))
         return json.dumps(tmp, indent=2)
 
 
@@ -177,4 +199,6 @@ def getParser(urlTemplate):
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
-    print(getParser("http://localhost/{metaOrFeed}/markas_{mensaReference}.xml").feed("opera4u.cena"))
+    print(
+        getParser("http://localhost/{metaOrFeed}/markas_{mensaReference}.xml").
+        feed("opera4u.cena"))

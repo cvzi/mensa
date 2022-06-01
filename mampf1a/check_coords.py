@@ -1,6 +1,5 @@
 import json
 
-
 with open("mampf1a/canteenDict.json", 'r', encoding='utf8') as f:
     canteens = json.load(f)
 

@@ -23,7 +23,7 @@ metaJson = os.path.join(os.path.dirname(__file__), "canteenDict.json")
 metaTemplateFile = os.path.join(os.path.dirname(__file__), "metaTemplate.xml")
 
 legend = {
-    'A':  'kann Restalkohol enthalten',
+    'A': 'kann Restalkohol enthalten',
     'Bio': 'Bio',
     'Ei': 'Eier und Eierzeugnisse',
     'En': 'Erdnüsse',
@@ -64,16 +64,17 @@ legend = {
 allRoles = ('student', 'employee', 'other')
 allRolesTitles = 'Studenten', 'Bedienstete', 'Gäste'
 
-
 baseUrl = 'https://www.studierendenwerk-kaiserslautern.de/'
 
 s = requests.Session()
 s.headers = {
-    'User-Agent': f'{useragentname}/{__version__} ({useragentcomment}) {requests.utils.default_user_agent()}'
+    'User-Agent':
+    f'{useragentname}/{__version__} ({useragentcomment}) {requests.utils.default_user_agent()}'
 }
 
 
 class Parser:
+
     def feed(self, refName):
         if refName not in self.canteens:
             return f"Unkown canteen '{refName}'"
@@ -96,7 +97,9 @@ class Parser:
                     lazyBuilder.setDayClosed(date)
                 for mealDiv in dayDiv.select(".subcolumns"):
                     category = (
-                        "Ausgabe " + mealDiv.select(".counter-name strong")[0].text.strip()).strip()
+                        "Ausgabe " +
+                        mealDiv.select(".counter-name strong")[0].text.strip()
+                    ).strip()
                     mealNode = mealDiv.select(
                         ".counter-meal strong")[0].extract()
                     mealName = mealNode.text.strip()
@@ -138,8 +141,10 @@ class Parser:
                                         prices = []
                                         roles = []
                                     value = p.split(r)[1]
-                                    value = float(value.replace(
-                                        ",", ".").replace("€", "").strip())
+                                    value = float(
+                                        value.replace(",",
+                                                      ".").replace("€",
+                                                                   "").strip())
                                     prices.append(value)
                                     roles.append(allRoles[i])
                                     break
@@ -153,16 +158,16 @@ class Parser:
                         category = mealCategories[i]
                         prices = mealPrices[i][0]
                         roles = mealPrices[i][1]
-                        for j, productName in enumerate(textwrap.wrap(mealName, width=250)):
+                        for j, productName in enumerate(
+                                textwrap.wrap(mealName, width=250)):
                             notes = None
                             if "V+" in productName:
                                 # pyopenmensa does not understand notes containing "+"
-                                productName = productName.replace(
-                                    ',V+', '').replace('V+', '')
+                                productName = productName.replace(',V+',
+                                                                  '').replace(
+                                                                      'V+', '')
                                 notes = [legend['V+']]
-                            lazyBuilder.addMeal(date,
-                                                category,
-                                                productName,
+                            lazyBuilder.addMeal(date, category, productName,
                                                 notes,
                                                 prices if j == 0 else None,
                                                 roles if j == 0 else None)
@@ -179,18 +184,29 @@ class Parser:
                 continue
 
             data = {
-                "name": mensa["name"],
-                "address": mensa["address"],
-                "city": mensa["city"],
-                "phone": mensa['phone'],
-                "latitude": mensa["latitude"],
-                "longitude": mensa["longitude"],
-                "feed": self.urlTemplate.format(metaOrFeed='feed', mensaReference=urllib.parse.quote(reference)),
-                "source": baseUrl + mensa["source"],
+                "name":
+                mensa["name"],
+                "address":
+                mensa["address"],
+                "city":
+                mensa["city"],
+                "phone":
+                mensa['phone'],
+                "latitude":
+                mensa["latitude"],
+                "longitude":
+                mensa["longitude"],
+                "feed":
+                self.urlTemplate.format(
+                    metaOrFeed='feed',
+                    mensaReference=urllib.parse.quote(reference)),
+                "source":
+                baseUrl + mensa["source"],
             }
             openingTimes = {}
             pattern = re.compile(
-                r"([A-Z][a-z])(\s*-\s*([A-Z][a-z]))?\s*(\d{1,2}):(\d{2})\s*-\s*(\d{1,2}):(\d{2}) Uhr")
+                r"([A-Z][a-z])(\s*-\s*([A-Z][a-z]))?\s*(\d{1,2}):(\d{2})\s*-\s*(\d{1,2}):(\d{2}) Uhr"
+            )
             m = re.findall(pattern, mensa["times"])
             for result in m:
                 fromDay, _, toDay, fromTimeH, fromTimeM, toTimeH, toTimeM = result
@@ -203,7 +219,8 @@ class Parser:
                             select = True
                         elif select:
                             openingTimes[short] = "%02d:%02d-%02d:%02d" % (
-                                int(fromTimeH), int(fromTimeM), int(toTimeH), int(toTimeM))
+                                int(fromTimeH), int(fromTimeM), int(toTimeH),
+                                int(toTimeM))
                         if short == toDay:
                             select = False
 
@@ -229,7 +246,8 @@ class Parser:
         tmp = {}
         for reference in self.canteens:
             tmp[reference] = self.urlTemplate.format(
-                metaOrFeed='meta', mensaReference=urllib.parse.quote(reference))
+                metaOrFeed='meta',
+                mensaReference=urllib.parse.quote(reference))
         return json.dumps(tmp, indent=2)
 
 
@@ -239,5 +257,7 @@ def getParser(urlTemplate):
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
-    print(getParser(
-        "http://localhost/{metaOrFeed}/kaiserslautern_{mensaReference}.xml").feed("tumensa"))
+    print(
+        getParser(
+            "http://localhost/{metaOrFeed}/kaiserslautern_{mensaReference}.xml"
+        ).feed("tumensa"))

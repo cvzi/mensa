@@ -34,7 +34,6 @@ class Parser:
 
         return generateFull(ref)
 
-
     def meta(self, ref):
         """Generate an openmensa XML meta feed using XSLT"""
         if ref not in self.canteens:
@@ -44,14 +43,28 @@ class Parser:
         param = lambda s: lxml.etree.XSLT.strparam(str(s))
 
         data = {
-            "name": param(mensa["name"]),
-            "address": param(mensa["address"]),
-            "city": param(mensa["city"]),
-            "latitude": param(mensa["latitude"]),
-            "longitude": param(mensa["longitude"]),
-            "feed_today": param(self.url_template.format(metaOrFeed='today', mensaReference=urllib.parse.quote(ref))),
-            "feed_full": param(self.url_template.format(metaOrFeed='feed', mensaReference=urllib.parse.quote(ref))),
-            "source": param(f"https://www.stw-greifswald.de/essen/speiseplaene/{ref}"),
+            "name":
+            param(mensa["name"]),
+            "address":
+            param(mensa["address"]),
+            "city":
+            param(mensa["city"]),
+            "latitude":
+            param(mensa["latitude"]),
+            "longitude":
+            param(mensa["longitude"]),
+            "feed_today":
+            param(
+                self.url_template.format(
+                    metaOrFeed='today',
+                    mensaReference=urllib.parse.quote(ref))),
+            "feed_full":
+            param(
+                self.url_template.format(
+                    metaOrFeed='feed',
+                    mensaReference=urllib.parse.quote(ref))),
+            "source":
+            param(f"https://www.stw-greifswald.de/essen/speiseplaene/{ref}"),
         }
 
         if "phone" in mensa:
@@ -61,7 +74,8 @@ class Parser:
             data["times"] = param(True)
             opening_times = {}
             pattern = re.compile(
-                r"([A-Z][a-z])(\s*-\s*([A-Z][a-z]))?\s*(\d{1,2})[:\.](\d{2})\s*[-–]\s*(\d{1,2})[:\.](\d{2}) Uhr")
+                r"([A-Z][a-z])(\s*-\s*([A-Z][a-z]))?\s*(\d{1,2})[:\.](\d{2})\s*[-–]\s*(\d{1,2})[:\.](\d{2}) Uhr"
+            )
             m = re.findall(pattern, mensa["times"])
             for result in m:
                 fromDay, _, toDay, fromTimeH, fromTimeM, toTimeH, toTimeM = result
@@ -74,7 +88,8 @@ class Parser:
                             select = True
                         elif select:
                             opening_times[short] = "%02d:%02d-%02d:%02d" % (
-                                int(fromTimeH), int(fromTimeM), int(toTimeH), int(toTimeM))
+                                int(fromTimeH), int(fromTimeM), int(toTimeH),
+                                int(toTimeM))
                         if short == toDay:
                             select = False
 
@@ -90,7 +105,6 @@ class Parser:
                                    xml_declaration=True,
                                    encoding="utf-8").decode("utf-8")
 
-
     def __init__(self, url_template):
         with open(self.canteen_json, 'r', encoding='utf8') as f:
             self.canteens = json.load(f)
@@ -101,7 +115,8 @@ class Parser:
         tmp = {}
         for reference in self.canteens:
             tmp[reference] = self.url_template.format(
-                metaOrFeed='meta', mensaReference=urllib.parse.quote(reference))
+                metaOrFeed='meta',
+                mensaReference=urllib.parse.quote(reference))
         return json.dumps(tmp, indent=2)
 
 
