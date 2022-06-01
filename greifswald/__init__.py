@@ -34,14 +34,13 @@ class Parser:
 
         return generateFull(ref)
 
-
     def meta(self, ref):
         """Generate an openmensa XML meta feed using XSLT"""
         if ref not in self.canteens:
             return 'Unknown canteen'
         mensa = self.canteens[ref]
 
-        param = lambda s: lxml.etree.XSLT.strparam(str(s))
+        def param(s): return lxml.etree.XSLT.strparam(str(s))
 
         data = {
             "name": param(mensa["name"]),
@@ -90,7 +89,6 @@ class Parser:
                                    xml_declaration=True,
                                    encoding="utf-8").decode("utf-8")
 
-
     def __init__(self, url_template):
         with open(self.canteen_json, 'r', encoding='utf8') as f:
             self.canteens = json.load(f)
@@ -113,5 +111,5 @@ if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
     p = getParser("http://localhost/")
     print(p.feed_today("mensa-am-berthold-beitz-platz"))
-    #print(p.feed_all("mensa-am-berthold-beitz-platz"))
-    #print(p.meta("mensa-am-berthold-beitz-platz"))
+    # print(p.feed_all("mensa-am-berthold-beitz-platz"))
+    # print(p.meta("mensa-am-berthold-beitz-platz"))

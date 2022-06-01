@@ -15,9 +15,11 @@ except ModuleNotFoundError:
     from util import weekdays_map
 
 metaJson = os.path.join(os.path.dirname(__file__), "canteenDict.json")
-metaJsonAlternative = os.path.join(os.path.dirname(__file__), "canteenDictFrupstut.json")
+metaJsonAlternative = os.path.join(
+    os.path.dirname(__file__), "canteenDictFrupstut.json")
 
-metaTemplateFile = os.path.join(os.path.dirname(__file__), "metaTemplate_luxembourg.xml")
+metaTemplateFile = os.path.join(os.path.dirname(
+    __file__), "metaTemplate_luxembourg.xml")
 
 template_sourceURL = r"https://portal.education.lu/restopolis/Language/fr/MENUS/MENU-DU-JOUR/RestaurantId/%d/ServiceId/%d#12691"
 
@@ -32,7 +34,8 @@ class Parser:
         else:
             alternativeId = None
             alternativeServiceIds = None
-        xml, _, _, _ = getMenu(restaurantId=self.canteens[refName]["id"], serviceIds=self.canteens[refName]["services"], alternativeId=alternativeId, alternativeServiceIds=alternativeServiceIds)
+        xml, _, _, _ = getMenu(restaurantId=self.canteens[refName]["id"], serviceIds=self.canteens[refName]
+                               ["services"], alternativeId=alternativeId, alternativeServiceIds=alternativeServiceIds)
         return xml
 
     def meta(self, refName):
@@ -46,7 +49,8 @@ class Parser:
             if "source" in restaurant and restaurant["source"]:
                 sourceUrl = restaurant["source"]
             else:
-                sourceUrl = template_sourceURL % (int(restaurant["id"]), int(restaurant["services"][0][0]))
+                sourceUrl = template_sourceURL % (
+                    int(restaurant["id"]), int(restaurant["services"][0][0]))
 
             address = ""
             if restaurant["street"]:
@@ -54,7 +58,8 @@ class Parser:
             if restaurant["zip"]:
                 address += (", " if address else "") + restaurant["zip"]
             if restaurant["city"]:
-                address += ((" " if restaurant["zip"] else ", ") if address else "") + restaurant["city"]
+                address += ((" " if restaurant["zip"] else ", ")
+                            if address else "") + restaurant["city"]
 
             data = {
                 "name": restaurant["name"] + (f" ({restaurant['region']})" if restaurant["region"] else ""),
@@ -72,7 +77,8 @@ class Parser:
             m = re.findall(pattern, serviceStr)
             if len(m) == 2:
                 fromTimeH, fromTimeM, toTimeH, toTimeM = [int(x) for x in m[0]]
-                fromTime2H, fromTime2M, toTime2H, toTime2M = [int(x) for x in m[1]]
+                fromTime2H, fromTime2M, toTime2H, toTime2M = [
+                    int(x) for x in m[1]]
                 if (fromTime2H - toTimeH) * 60 + fromTime2M - toTimeM < 32:
                     toTimeH, toTimeM = toTime2H, toTime2M
             else:
@@ -81,7 +87,8 @@ class Parser:
             openingTimes = "%02d:%02d-%02d:%02d" % (
                 fromTimeH, fromTimeM, toTimeH, toTimeM)
             if "days" in restaurant:
-                fromDay, toDay = [x.strip() for x in restaurant["days"].split("-")]
+                fromDay, toDay = [x.strip()
+                                  for x in restaurant["days"].split("-")]
             else:
                 fromDay, toDay = ['Mo', 'Su']
 

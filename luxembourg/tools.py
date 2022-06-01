@@ -58,9 +58,9 @@ imgs = {
     "/terroir.png": "produit du Luxembourg",
     "/bio.png": "biologique",
     "/transfair.png": "produit Transfair",
-    "/vegetarian.png" : "végétarien",
-    "/vegan.png" : "végétalien",
-    "/not_vegetarian.png" : "non-végétarien",
+    "/vegetarian.png": "végétarien",
+    "/vegan.png": "végétalien",
+    "/not_vegetarian.png": "non-végétarien",
 }
 
 
@@ -81,12 +81,13 @@ def askRestopolis(restaurant=None, service=None, date=None):
     startTime = time.time()
     cookies = {}
     if restaurant is not None:
-        cookies["CustomerServices.Restopolis.SelectedRestaurant"] = str(restaurant)
+        cookies["CustomerServices.Restopolis.SelectedRestaurant"] = str(
+            restaurant)
     if service is not None:
         cookies["CustomerServices.Restopolis.SelectedService"] = str(service)
     if date is not None:
-        cookies["CustomerServices.Restopolis.SelectedDate"] = date.strftime("%d.%m.%Y")
-
+        cookies["CustomerServices.Restopolis.SelectedDate"] = date.strftime(
+            "%d.%m.%Y")
 
     r = s.get(url, cookies=cookies, timeout=10.0)
 
@@ -101,7 +102,8 @@ def testHeaders():
     global url
     tmp = url
     url = "http://httpbin.org/anything"
-    r = askRestopolis(restaurant=123, service=456, date=datetime.date(1991,8,6))
+    r = askRestopolis(restaurant=123, service=456,
+                      date=datetime.date(1991, 8, 6))
     __import__("pprint").pprint(r.json(), width=102)
     url = tmp
 
@@ -130,7 +132,8 @@ def getMenu(restaurantId, datetimeDay=None, serviceIds=None, alternativeId=None,
     repeatCounter = 0
     mealCounterLast = mealCounter
     for service in serviceIds:
-        serviceSuffix = f"({service[1]})" if service[1] and len(serviceIds) > 1 else ""
+        serviceSuffix = f"({service[1]})" if service[1] and len(
+            serviceIds) > 1 else ""
         r = askRestopolis(restaurant=restaurantId,
                           service=service[0], date=datetimeDay)
         if r.status_code != 200:
@@ -143,7 +146,8 @@ def getMenu(restaurantId, datetimeDay=None, serviceIds=None, alternativeId=None,
             return status, 0, 0, weekdayCounter
 
         if '<' not in r.text:
-            comments.append(f"Restaurant [id={restaurantId}, service={service}]: No HTML in response body: `{r.text}`")
+            comments.append(
+                f"Restaurant [id={restaurantId}, service={service}]: No HTML in response body: `{r.text}`")
             break
 
         document = BeautifulSoup(r.text, "html.parser")
@@ -158,9 +162,11 @@ def getMenu(restaurantId, datetimeDay=None, serviceIds=None, alternativeId=None,
                 dates.append(datetime.datetime.strptime(
                     button.attrs["data-full-date"], '%d.%m.%Y').date())
         else:
-            dateSelector = document.find("div", {"class": "date-selector-mobile-indicator"})
+            dateSelector = document.find(
+                "div", {"class": "date-selector-mobile-indicator"})
             if dateSelector:
-                dateButtons = dateSelector.find_all("div", {"class": "date-selector-mobile-day-bullet"})
+                dateButtons = dateSelector.find_all(
+                    "div", {"class": "date-selector-mobile-day-bullet"})
                 dates = []
                 for button in dateButtons:
                     dates.append(datetime.datetime.strptime(
@@ -177,7 +183,8 @@ def getMenu(restaurantId, datetimeDay=None, serviceIds=None, alternativeId=None,
 
                 elif not dateSelector:
                     logging.warning(f"No div.date-selector-desktop found")
-                    comments.append(f"Restaurant [id={restaurantId}, service={service}] not found")
+                    comments.append(
+                        f"Restaurant [id={restaurantId}, service={service}] not found")
                     break
 
         # Extract menu for each date
@@ -194,7 +201,8 @@ def getMenu(restaurantId, datetimeDay=None, serviceIds=None, alternativeId=None,
             productDescription = ""
             isClosed = False
 
-            oneDayDiv.append(document.new_tag("div", attrs={"class":"fake-last"}))
+            oneDayDiv.append(document.new_tag(
+                "div", attrs={"class": "fake-last"}))
             children = list(oneDayDiv.children)
             for div in children:
                 if not isinstance(div, bs4.element.Tag):
@@ -257,16 +265,22 @@ def getMenu(restaurantId, datetimeDay=None, serviceIds=None, alternativeId=None,
                                 notes.append(imgs[img])
                                 unknownImg = False
                         if unknownImg:
-                            logging.warning(f"Unkown img {div.attrs['src']} [restaurant={restaurantId}]")
-                            comments.append(f"Unkown img {div.attrs['src']} [restaurant={restaurantId}]")
+                            logging.warning(
+                                f"Unkown img {div.attrs['src']} [restaurant={restaurantId}]")
+                            comments.append(
+                                f"Unkown img {div.attrs['src']} [restaurant={restaurantId}]")
                     elif "wrapper-theme-day" in div.attrs["class"]:
-                        logging.info(f"Theme day: {div.text.strip()} [restaurant={restaurantId}]")
-                        comments.append(f"Theme day: {div.text.strip()} [restaurant={restaurantId}]")
+                        logging.info(
+                            f"Theme day: {div.text.strip()} [restaurant={restaurantId}]")
+                        comments.append(
+                            f"Theme day: {div.text.strip()} [restaurant={restaurantId}]")
                     elif "wrapper-category" in div.attrs["class"]:
                         for categoryButton in div.find_all('button'):
                             if "showConstantProducts" not in categoryButton.attrs['class'] and "showFormulae" not in categoryButton.attrs['class']:
-                                logging.info(f"Unknown category button: {categoryButton.attrs['class']}: {categoryButton.text.strip()}")
-                                comments.append(f"Unknown category button: {categoryButton.attrs['class']}: {categoryButton.text.strip()}")
+                                logging.info(
+                                    f"Unknown category button: {categoryButton.attrs['class']}: {categoryButton.text.strip()}")
+                                comments.append(
+                                    f"Unknown category button: {categoryButton.attrs['class']}: {categoryButton.text.strip()}")
                     elif "cb" in div.attrs["class"]:
                         pass
                     elif "formulaeContainer" in div.attrs["class"] or "constantProductContainer" in div.attrs["class"]:
@@ -306,7 +320,7 @@ def getMenu(restaurantId, datetimeDay=None, serviceIds=None, alternativeId=None,
                         f"unknown tag <{div.name}>: oneDayDiv->else")
 
         if hasattr(r, 'duration') and r.duration < 2000 and time.time() - startTime < 7000:
-            if repeat and repeatCounter < 3 and (mealCounter > 0 and mealCounter > mealCounterLast or nowBerlin().weekday() in (5,6)):
+            if repeat and repeatCounter < 3 and (mealCounter > 0 and mealCounter > mealCounterLast or nowBerlin().weekday() in (5, 6)):
                 repeatCounter += 1
                 mealCounterLast = mealCounter
                 serviceIds.append(service)
@@ -315,7 +329,7 @@ def getMenu(restaurantId, datetimeDay=None, serviceIds=None, alternativeId=None,
     if mealCounter == 0 and alternativeId:
         logging.debug("No meals -> trying alternativeId")
         return getMenu(alternativeId, datetimeDay=datetimeDay, serviceIds=alternativeServiceIds, alternativeId=None, alternativeServiceIds=None)
-    
+
     xml = lazyBuilder.toXMLFeed()
     for commentStr in comments:
         xml += f"\n<!-- {commentStr.replace('--', '- -')} -->\n"

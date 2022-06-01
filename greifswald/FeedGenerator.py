@@ -24,13 +24,15 @@ headers = {
     'User-Agent': f'{useragentname}/{__version__} ({useragentcomment}) {requests.utils.default_user_agent()}'
 }
 
+
 def getMealsForDay(mensa: StyledLazyBuilder, day: str, canteen: str):
 
     if date.fromisoformat(day).weekday() > 4:  # Saturday or Sunday
         mensa.setDayClosed(date.fromisoformat(day))
         return True
 
-    html = requests.get("https://www.stw-greifswald.de/essen/speiseplaene/" + canteen + "/?datum=" + day, headers=headers).text
+    html = requests.get("https://www.stw-greifswald.de/essen/speiseplaene/" +
+                        canteen + "/?datum=" + day, headers=headers).text
     soup = BeautifulSoup(html, 'html.parser')
 
     if mensa.legendData == None:
@@ -39,7 +41,8 @@ def getMealsForDay(mensa: StyledLazyBuilder, day: str, canteen: str):
                 text = str(div.text).replace('KENNZEICHNUNGSPFLICHTIGE ALLERGENE:', '') \
                     .replace('KENNZEICHNUNGSPFLICHTIGE ZUSATZSTOFFE:', '') \
                     .replace('SONSTIGE KENNZEICHNUNGEN:', '')
-                mensa.setLegendData(text=text, regex='(?P<name>(\d|[a-zA-Z])+)\)\s*(?P<value>([\w/]+)((\s+\w+)*[^0-9)]))')
+                mensa.setLegendData(
+                    text=text, regex='(?P<name>(\d|[a-zA-Z])+)\)\s*(?P<value>([\w/]+)((\s+\w+)*[^0-9)]))')
 
         if mensa.legendData:
             for key in mensa.legendData:
@@ -82,5 +85,5 @@ def generateFull(canteen_name: str):
     return mensa.toXMLFeed()
 
 
-if __name__=="__main__":
+if __name__ == "__main__":
     print(generateToday("mensa-am-berthold-beitz-platz"))

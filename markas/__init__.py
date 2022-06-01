@@ -70,12 +70,15 @@ class Parser:
             date = today.replace(day=i)
             if date.day > today.day:
                 try:
-                    date = date.replace(month=date.month - 1 if date.month > 1 else 12)
+                    date = date.replace(
+                        month=date.month - 1 if date.month > 1 else 12)
                 except ValueError:
-                    date = date.replace(month=date.month if date.month > 1 else 12)
+                    date = date.replace(
+                        month=date.month if date.month > 1 else 12)
 
             if dates and date < dates[-1]:
-                date = date.replace(month=date.month + 1 if date.month < 12 else 1)
+                date = date.replace(month=date.month +
+                                    1 if date.month < 12 else 1)
             dates.append(date)
 
         # Meals
@@ -88,7 +91,8 @@ class Parser:
                     heading = table.find("h5").text.strip().lower()
                     if heading:
                         if pasto and heading != pasto.lower():
-                            logging.debug(f"\tSkipping pasto: {heading} (!= {pasto.lower()})")
+                            logging.debug(
+                                f"\tSkipping pasto: {heading} (!= {pasto.lower()})")
                             continue
                         else:
                             logging.debug(f"\tUsing pasto: {heading}")
@@ -177,4 +181,5 @@ def getParser(urlTemplate):
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
-    print(getParser("http://localhost/{metaOrFeed}/markas_{mensaReference}.xml").feed("opera4u.cena"))
+    print(getParser(
+        "http://localhost/{metaOrFeed}/markas_{mensaReference}.xml").feed("opera4u.cena"))
