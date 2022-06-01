@@ -38,19 +38,7 @@
     <main>
       <article>Parser for <a target="_blank" href="https://openmensa.org">openmensa.org</a>. The parser runs in a <a target="_blank" title="What's a Github action?" href="https://docs.github.com/en/actions">Github action<sup>❓</sup></a> and pushes the XML feeds to this page</article>
       <article><h3><a href="https://github.com/cvzi/mensa/actions/">🗿 Parser status</a></h3>
-<pre>kaiserslautern/tumensa:
-Traceback (most recent call last):
-  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 134, in updateFeeds
-    content = getattr(parser, feedMethod)(mensaReference)
-  File "/home/runner/work/mensa/mensa/kaiserslautern/__init__.py", line 163, in feed
-    lazyBuilder.addMeal(date,
-  File "/opt/hostedtoolcache/Python/3.10.4/x64/lib/python3.10/site-packages/pyopenmensa/feed.py", line 662, in addMeal
-    super(LazyBuilder, self).addMeal(extractDate(date), category, name,
-  File "/opt/hostedtoolcache/Python/3.10.4/x64/lib/python3.10/site-packages/pyopenmensa/feed.py", line 420, in addMeal
-    if category not in self._days[date]:
-TypeError: argument of type 'bool' is not iterable
-
-markas/bolzano:
+<pre>markas/bolzano:
 Traceback (most recent call last):
   File "/home/runner/work/mensa/mensa/updateFeeds.py", line 134, in updateFeeds
     content = getattr(parser, feedMethod)(mensaReference)
