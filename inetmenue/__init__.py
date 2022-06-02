@@ -68,9 +68,9 @@ class Parser:
                 logging.debug(f"Next week url='{url}'")
                 self.parseMeals(ref, builder, resp.text)
             else:
-                logging.debug(f"No distinct next week url found")
+                logging.debug("No distinct next week url found")
         elif get_next_week:
-            logging.debug(f"No next week url found")
+            logging.debug("No next week url found")
 
         return builder.toXMLFeed()
 
@@ -207,7 +207,7 @@ class Parser:
 
                     if not category_name.strip() or category_name == "*ignore*":
                         category_name = 'Essen %02d' % (category_index,)
-                        logging.info(f"No category found, using default %r" % (category_name,))
+                        logging.info("No category found, using default %r" % (category_name,))
                     elif category_name == "*closed*":
                         builder.setDayClosed(dates[day_index])
                         closedDays.append(dates[day_index])

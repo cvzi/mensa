@@ -176,7 +176,7 @@ def getMenu(restaurantId, datetimeDay=None, serviceIds=None, alternativeId=None,
                             button.attrs["data-date"], '%d.%m.%Y').date())
 
                 elif not dateSelector:
-                    logging.warning(f"No div.date-selector-desktop found")
+                    logging.warning("No div.date-selector-desktop found")
                     comments.append(f"Restaurant [id={restaurantId}, service={service}] not found")
                     break
 
