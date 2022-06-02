@@ -44,7 +44,6 @@ class Parser:
     def feed_today(self, ref: str) -> str:
         return self.feed_all(ref, get_next_week=False)
 
-
     def feed_all(self, ref: str, get_next_week=True) -> str:
         if ref not in self.canteens:
             return f"Unkown canteen with ref='{xmlEscape(ref)}'"
@@ -52,7 +51,8 @@ class Parser:
         builder = StyledLazyBuilder()
 
         # This week
-        url_parts = urllib.parse.urlsplit(self.canteens[ref]['source'], scheme="https")
+        url_parts = urllib.parse.urlsplit(
+            self.canteens[ref]['source'], scheme="https")
         resp = self._get_cached(url_parts.geturl())
         next_week_path = self.parseMeals(ref, builder, resp.text)
 
@@ -74,7 +74,7 @@ class Parser:
 
         return builder.toXMLFeed()
 
-    def parseMeals(self, ref:str, builder: pyopenmensa.feed.LazyBuilder, html: str) -> str:
+    def parseMeals(self, ref: str, builder: pyopenmensa.feed.LazyBuilder, html: str) -> str:
         document = bs4.BeautifulSoup(html, "html.parser")
         if document.find(id='week-content'):
             return self.parseMealsFS(ref, builder, document)
@@ -85,8 +85,7 @@ class Parser:
                 logging.error(document.find(class_='oops').text)
             raise RuntimeError("Unknown page structure")
 
-
-    def parseMealsSF(self, ref:str, builder: pyopenmensa.feed.LazyBuilder, document: bs4.BeautifulSoup) -> str:
+    def parseMealsSF(self, ref: str, builder: pyopenmensa.feed.LazyBuilder, document: bs4.BeautifulSoup) -> str:
         # parse http://{name}.inetmenue.de/sf/index.php
         dates = []
         mealtime = ""
@@ -113,21 +112,23 @@ class Parser:
                         continue
                     menuinfo = menu_box.find(class_='menuinfo')
                     if menuinfo:
-                        category_name = (mealtime + " " + menuinfo.text.strip()).strip()
+                        category_name = (mealtime + " " +
+                                         menuinfo.text.strip()).strip()
                     else:
                         category_name = mealtime
                     if not category_name:
                         category_name = 'Essen %02d' % (meal_row_index,)
 
                     name = menu_box.find("h4").text.strip()
-                    builder.addMeal(dates[day_index], category_name, name.strip())
+                    builder.addMeal(dates[day_index],
+                                    category_name, name.strip())
 
         return next_week_url
 
-
-    def parseMealsFS(self, ref:str, builder: pyopenmensa.feed.LazyBuilder, document: bs4.BeautifulSoup) -> str:
+    def parseMealsFS(self, ref: str, builder: pyopenmensa.feed.LazyBuilder, document: bs4.BeautifulSoup) -> str:
         # parse http://{name}.inetmenue.de/fs/menu/week
-        predefined_categories = self.canteens[ref].get("categories", {}) | self.global_categories
+        predefined_categories = self.canteens[ref].get(
+            "categories", {}) | self.global_categories
 
         category_prefix = ''
         category_index = 0
@@ -188,7 +189,8 @@ class Parser:
                                 category_name = icon["title"].strip()
 
                     elif day_div.select('.product .image') and day_div.select('.product .image')[0]['style']:
-                        category_img = day_div.select('.product .image')[0]['style'].split("url(")[1].split(")")[0]
+                        category_img = day_div.select('.product .image')[
+                            0]['style'].split("url(")[1].split(")")[0]
                         if category_img in predefined_categories:
                             category_name = predefined_categories[category_img]
                         else:
@@ -200,14 +202,16 @@ class Parser:
                                 if query.startswith("*") and query[1:] in category_img:
                                     category_name = predefined_categories[query]
                             if not category_name:
-                                logging.debug(f"Unknown category image: {category_img}")
+                                logging.debug(
+                                    f"Unknown category image: {category_img}")
 
                     if category_name == "*remove*":
                         continue
 
                     if not category_name.strip() or category_name == "*ignore*":
                         category_name = 'Essen %02d' % (category_index,)
-                        logging.info("No category found, using default %r" % (category_name,))
+                        logging.info(
+                            "No category found, using default %r" % (category_name,))
                     elif category_name == "*closed*":
                         builder.setDayClosed(dates[day_index])
                         closedDays.append(dates[day_index])
@@ -221,7 +225,8 @@ class Parser:
                                 additives.add(a)
 
                     try:
-                        prices = [self.price_pattern.search(day_div.select(".price").text).group(0)]
+                        prices = [self.price_pattern.search(
+                            day_div.select(".price").text).group(0)]
                         roles = ("pupil",)
                     except:
                         prices = None
@@ -230,10 +235,10 @@ class Parser:
                     category = category_prefix + category_name
                     full_name = name + name_suffix
 
-                    builder.addMeal(dates[day_index], category.strip(), full_name.strip(), notes=additives, prices=prices, roles=roles)
+                    builder.addMeal(dates[day_index], category.strip(
+                    ), full_name.strip(), notes=additives, prices=prices, roles=roles)
 
         return next_week_url
-
 
     def meta(self, ref):
         """Generate an openmensa XML meta feed using XSLT"""
@@ -241,7 +246,7 @@ class Parser:
             return 'Unknown canteen'
         mensa = self.canteens[ref]
 
-        param = lambda s: lxml.etree.XSLT.strparam(str(s))
+        def param(s): return lxml.etree.XSLT.strparam(str(s))
 
         data = {
             "name": param(mensa["name"]),
@@ -290,7 +295,6 @@ class Parser:
                                    xml_declaration=True,
                                    encoding="utf-8").decode("utf-8")
 
-
     def __init__(self, url_template):
         with open(self.canteen_json, 'r', encoding='utf8') as f:
             self.canteens = json.load(f)
@@ -329,6 +333,6 @@ def getParser(url_template):
 if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
     p = getParser("http://localhost/")
-    #print(p.feed_today("rs-gy-bramsche"))
+    # print(p.feed_today("rs-gy-bramsche"))
     print(p.feed_all("rs-gy-bramsche"))
-    #print(p.meta("rs-gy-bramsche"))
+    # print(p.meta("rs-gy-bramsche"))
