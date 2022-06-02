@@ -128,10 +128,11 @@ class Parser:
     def parseMealsFS(self, ref:str, builder: pyopenmensa.feed.LazyBuilder, document: bs4.BeautifulSoup) -> str:
         # parse http://{name}.inetmenue.de/fs/menu/week
         predefined_categories = self.canteens[ref].get("categories", {}) | self.global_categories
-        
+
         category_prefix = ''
         category_index = 0
         next_week_url = None
+        closedDays = []
 
         for child in document.find(id='week-content').children:
             if not isinstance(child, bs4.element.Tag):
@@ -157,6 +158,11 @@ class Parser:
                 menu_line = child
                 category_name = ""
                 for day_index, day_div in enumerate(menu_line.select('.day')):
+                    if dates[day_index] in closedDays:
+                        # Skip closed dates, otherwise builder.addMeal(date, ...) will raise TypeError
+                        # if the date was already set builder.setDayClosed(date)
+                        continue
+
                     additives = set()
                     name_suffix = ''
                     if 'no-menu' in day_div['class']:
@@ -168,6 +174,7 @@ class Parser:
                     name = day_div.select('.product h4')[0].text.strip()
                     if "Mensa geschlossen" in name or "Heute keine Mittagsverpflegung" in name:
                         builder.setDayClosed(dates[day_index])
+                        closedDays.append(dates[day_index])
                         continue
 
                     header = day_div.find("header")
@@ -203,9 +210,8 @@ class Parser:
                         logging.info(f"No category found, using default %r" % (category_name,))
                     elif category_name == "*closed*":
                         builder.setDayClosed(dates[day_index])
+                        closedDays.append(dates[day_index])
                         continue
-
-
 
                     allergens = day_div.find(class_='allergens')
                     if day_div.find(class_='allergens'):
@@ -323,6 +329,6 @@ def getParser(url_template):
 if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
     p = getParser("http://localhost/")
-    print(p.feed_today("menseria-oesede"))
-    #print(p.feed_all("menseria-oesede"))
-    #print(p.meta("menseria-oesede"))
+    #print(p.feed_today("rs-gy-bramsche"))
+    print(p.feed_all("rs-gy-bramsche"))
+    #print(p.meta("rs-gy-bramsche"))
