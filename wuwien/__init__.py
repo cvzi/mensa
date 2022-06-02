@@ -1,6 +1,5 @@
 import os
 import json
-import datetime
 import requests
 import logging
 
