@@ -241,7 +241,6 @@ class Parser:
                     date += datetime.timedelta(days=1)
                     n += 1
 
-
                 # Skip over weekend
                 date += datetime.timedelta(days=7 - date.weekday())
 
@@ -253,7 +252,6 @@ class Parser:
                     threads.append(t)
                     date += datetime.timedelta(days=1)
                     n += 1
-
 
                 for t in threads:
                     t.join()
