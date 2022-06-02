@@ -318,12 +318,16 @@ def getMenu(restaurantId, datetimeDay=None, serviceIds=None, alternativeId=None,
                     raise RuntimeWarning(
                         f"unknown tag <{div.name}>: oneDayDiv->else")
 
-        if hasattr(r, 'duration') and r.duration < 2000 and time.time() - startTime < 7000:
-            if repeat and repeatCounter < 3 and (mealCounter > 0 and mealCounter > mealCounterLast or nowBerlin().weekday() in (5, 6)):
-                repeatCounter += 1
-                mealCounterLast = mealCounter
-                serviceIds.append(service)
-                datetimeDay += datetime.timedelta(days=7)
+        if (
+            hasattr(r, 'duration') and r.duration < 2000
+            and time.time() - startTime < 7000
+            and repeat and repeatCounter < 3
+            and (mealCounter > 0 and mealCounter > mealCounterLast or nowBerlin().weekday() in (5, 6))
+        ):
+            repeatCounter += 1
+            mealCounterLast = mealCounter
+            serviceIds.append(service)
+            datetimeDay += datetime.timedelta(days=7)
 
     if mealCounter == 0 and alternativeId:
         logging.debug("No meals -> trying alternativeId")
