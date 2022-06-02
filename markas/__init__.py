@@ -11,7 +11,7 @@ import requests
 from bs4 import BeautifulSoup
 
 try:
-    from version import __version__, useragentname, useragentcomment
+    from version import __version__
     from util import StyledLazyBuilder, nowBerlin, weekdays_map
 except ModuleNotFoundError:
     include = os.path.relpath(os.path.join(os.path.dirname(__file__), '..'))

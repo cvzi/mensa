@@ -7,7 +7,7 @@ import re
 import lxml
 
 try:
-    from version import __version__, useragentname, useragentcomment
+    from version import __version__
     from util import xmlEscape, weekdays_map
     from greifswald.FeedGenerator import generateToday, generateFull
 except ModuleNotFoundError:

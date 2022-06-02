@@ -3,7 +3,6 @@ import re
 import time
 import datetime
 import logging
-import threading
 import textwrap
 from collections.abc import Iterable
 
@@ -13,7 +12,7 @@ from bs4 import BeautifulSoup
 
 try:
     from version import __version__, useragentname, useragentcomment
-    from util import xmlEscape, StyledLazyBuilder, nowBerlin
+    from util import StyledLazyBuilder, nowBerlin
 except ModuleNotFoundError:
     import sys
     include = os.path.relpath(os.path.join(os.path.dirname(__file__), '..'))
