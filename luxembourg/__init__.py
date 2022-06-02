@@ -115,6 +115,7 @@ class Parser:
                 restaurant["id"] = restaurantId
                 self.canteens[restaurant["reference"]] = restaurant
                 if "alternativeId" in canteenDictAlternative:
+                    alternativeId = canteenDictAlternative["alternativeId"]
                     if restaurant["reference"] == canteenDictAlternative[alternativeId]["reference"]:
                         restaurant["alternativeId"] = alternativeId
                         restaurant["alternativeServiceIds"] = canteenDictAlternative[alternativeId]["services"]
