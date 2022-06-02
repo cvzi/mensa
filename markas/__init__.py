@@ -71,10 +71,12 @@ class Parser:
             try:
                 date = monday.replace(day=i)
             except ValueError:
-                date = monday.replace(month=monday.month + 1 if monday.month < 12 else 1, day=i)
+                date = monday.replace(
+                    month=monday.month + 1 if monday.month < 12 else 1, day=i)
 
             if dates and date < dates[-1]:
-                date = monday.replace(month=monday.month + 1 if monday.month < 12 else 1, day=i)
+                date = monday.replace(
+                    month=monday.month + 1 if monday.month < 12 else 1, day=i)
 
             dates.append(date)
 
@@ -88,7 +90,8 @@ class Parser:
                     heading = table.find("h5").text.strip().lower()
                     if heading:
                         if pasto and heading != pasto.lower():
-                            logging.debug(f"\tSkipping pasto: {heading} (!= {pasto.lower()})")
+                            logging.debug(
+                                f"\tSkipping pasto: {heading} (!= {pasto.lower()})")
                             continue
                         else:
                             logging.debug(f"\tUsing pasto: {heading}")
