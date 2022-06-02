@@ -212,7 +212,7 @@ class Parser:
                     if not category_name.strip() or category_name == "*ignore*":
                         category_name = 'Essen %02d' % (category_index,)
                         logging.info(
-                            "No category found, using default %r" % (category_name,))
+                            "No category found, using default %r", category_name)
                     elif category_name == "*closed*":
                         builder.setDayClosed(dates[day_index])
                         closedDays.append(dates[day_index])

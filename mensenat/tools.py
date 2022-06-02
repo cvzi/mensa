@@ -138,7 +138,7 @@ def getMenu(mensaId):
                             foundSrc = True
                             break
                     if not foundSrc:
-                        logging.warning("Unkown image found: %r" % (img, ))
+                        logging.warning("Unkown image found: %r", img)
         
         lines = [p.text.strip() for p in menuItem.find_all('p')]
         lines.append('#end')
