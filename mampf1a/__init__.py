@@ -32,6 +32,8 @@ baseUrl = 'https://login.mampf1a.de/{reference}/winEsel5/speiseplan.php?no_cache
 baseUrlMeta = 'https://login.mampf1a.de/{reference}/winEsel5/speiseplan.php?{urlParams}'
 
 spans = []
+
+
 class Parser:
 
     @staticmethod
@@ -42,7 +44,8 @@ class Parser:
 
         refParts = refName.split('.', 1)
         if len(refParts) == 2:
-            reference, urlParams = refParts[0], '&typ=' + refParts[1].strip('?& ')
+            reference, urlParams = refParts[0], '&typ=' + \
+                refParts[1].strip('?& ')
         else:
             reference, urlParams = refParts[0], ''
 
@@ -61,7 +64,7 @@ class Parser:
 
         # Generate legend (unique for each canteen)
         legend = {}
-        for div in document.find_all('div', {"style" : "padding-bottom: 8px;"}):
+        for div in document.find_all('div', {"style": "padding-bottom: 8px;"}):
             m = legendPattern.match(div.text)
             if not m:
                 print("Could not parse legend line: %r" % (div.text,))
@@ -73,12 +76,12 @@ class Parser:
         else:
             self.parseVerticalDates(document, lazyBuilder, legend)
 
-
         return lazyBuilder.toXMLFeed()
 
     @staticmethod
     def parseHorizontalDates(document, lazyBuilder, legend):
-        lazyBuilder.setLegendData(legend) # Useless, because the legends are usually incomplete
+        # Useless, because the legends are usually incomplete
+        lazyBuilder.setLegendData(legend)
         tables = document.select('table.std thead')
         if not tables:
             logging.warning("No tables found")
@@ -123,16 +126,19 @@ class Parser:
                     if "gruen" in td.a["class"]:
                         notes.append("fleischlos")
 
-                    additives = [x.attrs["alt"].strip() for x in td.select('a')[0].select('.additive img[alt]') if x.attrs["alt"].strip()]
+                    additives = [x.attrs["alt"].strip() for x in td.select(
+                        'a')[0].select('.additive img[alt]') if x.attrs["alt"].strip()]
                     for span in td.select('div[style*="font-size:10px"] span'):
                         additive = span.text.strip()
                         if additive not in additives:
                             additives.append(additive)
                         span.clear()
 
-                    notes += [legend[additive] if additive in legend else additive for additive in additives]
+                    notes += [legend[additive]
+                              if additive in legend else additive for additive in additives]
 
-                    mealName = " ".join(x.strip(" ,").strip() for x in td.select('a')[0].strings)
+                    mealName = " ".join(x.strip(" ,").strip()
+                                        for x in td.select('a')[0].strings)
 
                     price = 0
                     for m in pricePattern.findall(mealName):
@@ -148,7 +154,6 @@ class Parser:
                     if not mealName:
                         continue
 
-
                     for j, productName in enumerate(textwrap.wrap(mealName, width=250)):
                         lazyBuilder.addMeal(date,
                                             category,
@@ -157,7 +162,6 @@ class Parser:
                                             prices if j == 0 else None,
                                             roles if j == 0 else None)
 
-
     @staticmethod
     def parseVerticalDates(document, lazyBuilder, legend):
         trs = document.select('table.std>tr')
@@ -165,7 +169,8 @@ class Parser:
             logging.warning("No tr found")
             return
 
-        categories = [td.text.strip() for td in trs[0].find_all('td', class_="zelleF")][1:]
+        categories = [td.text.strip()
+                      for td in trs[0].find_all('td', class_="zelleF")][1:]
         if not categories:
             categories = [f"Menü {i + 1}" for i in range(100)]
 
@@ -192,9 +197,12 @@ class Parser:
                     notes = []
                     if "gruen" in td.a["class"]:
                         notes.append("fleischlos")
-                    mealName = " ".join(x.strip() for x in td.select('.speiseplan__titel')[0].strings)
-                    additives = [x.text.strip() for x in td.select('.speiseplan__zusatzstoffe span') if x.text.strip()]
-                    notes += [legend[additive] if additive in legend else additive for additive in additives]
+                    mealName = " ".join(x.strip() for x in td.select(
+                        '.speiseplan__titel')[0].strings)
+                    additives = [x.text.strip() for x in td.select(
+                        '.speiseplan__zusatzstoffe span') if x.text.strip()]
+                    notes += [legend[additive]
+                              if additive in legend else additive for additive in additives]
 
                     # TODO price
                     mealPrice = td.select('.speiseplan__preis')
@@ -211,8 +219,6 @@ class Parser:
                                             notes if j == 0 else None,
                                             prices if j == 0 else None,
                                             roles if j == 0 else None)
-
-
 
     def meta(self, refName):
         """Generate an openmensa XML meta feed from the static json file using an XML template"""
@@ -239,7 +245,8 @@ class Parser:
 
             if "times" in mensa:
                 openingTimes = {}
-                pattern = re.compile(r"([A-Z][a-z])(\s*-\s*([A-Z][a-z]))?\s*(\d{1,2}):(\d{2})\s*-\s*(\d{1,2}):(\d{2}) Uhr")
+                pattern = re.compile(
+                    r"([A-Z][a-z])(\s*-\s*([A-Z][a-z]))?\s*(\d{1,2}):(\d{2})\s*-\s*(\d{1,2}):(\d{2}) Uhr")
                 m = re.findall(pattern, mensa["times"])
                 for result in m:
                     fromDay, _, toDay, fromTimeH, fromTimeM, toTimeH, toTimeM = result
@@ -314,7 +321,6 @@ class Parser:
 
 def getParser(baseurl):
     return Parser(baseurl)
-
 
 
 if __name__ == "__main__":
