@@ -249,7 +249,7 @@ def getMenu(restaurantId, datetimeDay=None, serviceIds=None, alternativeId=None,
                     elif "product-allergens" in div.attrs["class"]:
                         productAllergensGen = (
                             a.strip() for a in div.text.split(",") if a.strip())
-                        productAllergens += [re.sub("\d+", lambda m: allergen(m[0]), a)
+                        productAllergens += [re.sub(r"\d+", lambda m: allergen(m[0]), a)
                                              for a in productAllergensGen]
                     elif "product-description" in div.attrs["class"]:
                         productDescription = div.text.strip()

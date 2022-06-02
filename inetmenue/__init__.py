@@ -22,7 +22,7 @@ except ModuleNotFoundError:
 class Parser:
     canteen_json = os.path.join(os.path.dirname(__file__), "canteenDict.json")
     meta_xslt = os.path.join(os.path.dirname(__file__), "meta.xsl")
-    price_pattern = re.compile('\d+,\d{2}')
+    price_pattern = re.compile(r'\d+,\d{2}')
     global_categories = {
         "https://cdn.inetmenue.de/media%2F00512471%2Fcdd3290ac929fba511b3d2f5497f4172560ece12.jpg": "*closed*",
         "*schneemann.gif": "*closed*",

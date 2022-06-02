@@ -98,9 +98,9 @@ def getMenu(mensaId):
                                   for x in m.group(0)[1:-1].split(',') if x.strip()]
             return ""
 
-        line = re.sub("€\s+(\d+[,\.]\d+)", price, line)
-        line = re.sub("\(([A-Z],?\s*)+\)", addi, line)
-        line = re.sub("\s+", " ", line).strip().replace(' ,', ',')
+        line = re.sub(r"€\s+(\d+[,\.]\d+)", price, line)
+        line = re.sub(r"\(([A-Z],?\s*)+\)", addi, line)
+        line = re.sub(r"\s+", " ", line).strip().replace(' ,', ',')
         data['text'].append(line)
 
     dates = {}

@@ -42,7 +42,7 @@ def getMealsForDay(mensa: StyledLazyBuilder, day: str, canteen: str):
                     .replace('KENNZEICHNUNGSPFLICHTIGE ZUSATZSTOFFE:', '') \
                     .replace('SONSTIGE KENNZEICHNUNGEN:', '')
                 mensa.setLegendData(
-                    text=text, regex='(?P<name>(\d|[a-zA-Z])+)\)\s*(?P<value>([\w/]+)((\s+\w+)*[^0-9)]))')
+                    text=text, regex=r'(?P<name>(\d|[a-zA-Z])+)\)\s*(?P<value>([\w/]+)((\s+\w+)*[^0-9)]))')
 
         if mensa.legendData:
             for key in mensa.legendData:
