@@ -25,6 +25,7 @@ headers = {
     'User-Agent': f'{useragentname}/{__version__} ({useragentcomment}) {requests.utils.default_user_agent()}'
 }
 
+
 class Parser:
     def feed_today(self, refName):
         """Generate an openmensa XML feed from the source xml using XSLT"""
@@ -48,19 +49,22 @@ class Parser:
             return 'Unknown canteen'
         with open(metaTemplateFile, 'r', encoding='utf-8') as f:
             template = f.read()
-        xml = template.format(source=sourceURL, feed=self.urlTemplate.format(metaOrFeed='today', mensaReference=refName))
+        xml = template.format(source=sourceURL, feed=self.urlTemplate.format(
+            metaOrFeed='today', mensaReference=refName))
         return xml
 
     def __init__(self, urlTemplate):
         self.urlTemplate = urlTemplate
 
-        self.canteens = {'wu0' : None}
+        self.canteens = {'wu0': None}
 
     def json(self):
         tmp = {}
         for reference in self.canteens:
-            tmp[reference] = self.urlTemplate.format(metaOrFeed='meta', mensaReference=reference)
+            tmp[reference] = self.urlTemplate.format(
+                metaOrFeed='meta', mensaReference=reference)
         return json.dumps(tmp, indent=2)
+
 
 def getParser(baseurl):
     return Parser(baseurl)
@@ -70,4 +74,4 @@ if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
     p = getParser("http://localhost/{metaOrFeed}/wuwien_{mensaReference}.xml")
     print(p.feed_today("wu0"))
-    #print(p.meta("wu0"))
+    # print(p.meta("wu0"))
