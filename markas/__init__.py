@@ -61,21 +61,21 @@ class Parser:
 
         # Dates
         dates = []
+        monday = today - datetime.timedelta(days=today.weekday())
         for day in document.select(".days_container .day"):
             try:
                 i = int(day.text)
             except ValueError:
                 continue
 
-            date = today.replace(day=i)
-            if date.day > today.day:
-                try:
-                    date = date.replace(month=date.month - 1 if date.month > 1 else 12)
-                except ValueError:
-                    date = date.replace(month=date.month if date.month > 1 else 12)
+            try:
+                date = monday.replace(day=i)
+            except ValueError:
+                date = monday.replace(month=monday.month + 1 if monday.month < 12 else 1, day=i)
 
             if dates and date < dates[-1]:
-                date = date.replace(month=date.month + 1 if date.month < 12 else 1)
+                date = monday.replace(month=monday.month + 1 if monday.month < 12 else 1, day=i)
+
             dates.append(date)
 
         # Meals
@@ -177,4 +177,5 @@ def getParser(urlTemplate):
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
-    print(getParser("http://localhost/{metaOrFeed}/markas_{mensaReference}.xml").feed("opera4u.cena"))
+    print(getParser("http://localhost/{metaOrFeed}/markas_{mensaReference}.xml")
+          .feed("bolzano"))
