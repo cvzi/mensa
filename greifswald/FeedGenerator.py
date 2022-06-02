@@ -33,7 +33,7 @@ def getMealsForDay(mensa: StyledLazyBuilder, day: str, canteen: str):
     html = requests.get("https://www.stw-greifswald.de/essen/speiseplaene/" + canteen + "/?datum=" + day, headers=headers).text
     soup = BeautifulSoup(html, 'html.parser')
 
-    if mensa.legendData == None:
+    if mensa.legendData is None:
         for div in soup.find_all('div', {'class': 'csc-textpic-text'}):
             if 'KENNZEICHNUNGSPFLICHTIGE ZUSATZSTOFFE' in div.text:
                 text = str(div.text).replace('KENNZEICHNUNGSPFLICHTIGE ALLERGENE:', '') \
