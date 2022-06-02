@@ -160,7 +160,7 @@ def _generateCanteenMeta(mensa, urlTemplate):
     openingTimes = {}
     infokurz = mensa["infokurz"]
     pattern = re.compile(
-        "([A-Z][a-z])( - ([A-Z][a-z]))? (\d{1,2})\.(\d{2}) - (\d{1,2})\.(\d{2}) Uhr")
+        r"([A-Z][a-z])( - ([A-Z][a-z]))? (\d{1,2})\.(\d{2}) - (\d{1,2})\.(\d{2}) Uhr")
     m = re.findall(pattern, infokurz)
     for result in m:
         fromDay, _, toDay, fromTimeH, fromTimeM, toTimeH, toTimeM = result

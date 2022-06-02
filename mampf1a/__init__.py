@@ -26,7 +26,7 @@ metaTemplateFile = os.path.join(os.path.dirname(__file__), "metaTemplate.xml")
 
 datePattern = re.compile(r"\d{1,2}\.\d{1,2}\.\d{0,4}")
 legendPattern = re.compile(r"([-+\w]+)\s+-\s+(.+)")
-pricePattern = re.compile("(\d+(,\d\d)?)\s+(€|eur)", re.IGNORECASE)
+pricePattern = re.compile(r"(\d+(,\d\d)?)\s+(€|eur)", re.IGNORECASE)
 
 baseUrl = 'https://login.mampf1a.de/{reference}/winEsel5/speiseplan.php?no_cache=1{urlParams}'
 baseUrlMeta = 'https://login.mampf1a.de/{reference}/winEsel5/speiseplan.php?{urlParams}'

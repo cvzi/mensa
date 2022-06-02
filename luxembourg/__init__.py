@@ -67,7 +67,7 @@ class Parser:
                 "source": sourceUrl,
             }
             openingTimes = ""
-            pattern = re.compile("(\d{1,2}):(\d{2}) - (\d{1,2}):(\d{2})")
+            pattern = re.compile(r"(\d{1,2}):(\d{2}) - (\d{1,2}):(\d{2})")
             serviceStr = " ## ".join(x[1] for x in restaurant["services"])
             m = re.findall(pattern, serviceStr)
             if len(m) == 2:
