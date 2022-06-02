@@ -85,7 +85,8 @@ class Parser:
                 logging.error(document.find(class_='oops').text)
             raise RuntimeError("Unknown page structure")
 
-    def parseMealsSF(self, ref: str, builder: pyopenmensa.feed.LazyBuilder, document: bs4.BeautifulSoup) -> str:
+    @staticmethod
+    def parseMealsSF(ref: str, builder: pyopenmensa.feed.LazyBuilder, document: bs4.BeautifulSoup) -> str:
         # parse http://{name}.inetmenue.de/sf/index.php
         dates = []
         mealtime = ""
