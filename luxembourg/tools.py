@@ -122,7 +122,7 @@ def getMenu(restaurantId, datetimeDay=None, serviceIds=None, alternativeId=None,
     if isinstance(serviceIds, str) or not isinstance(serviceIds, Iterable):
         serviceIds = [(serviceIds, ""), ]
     for i, service in enumerate(serviceIds):
-        if isinstance(service, str) or isinstance(service, int):
+        if isinstance(service, (str, int)):
             serviceIds[i] = (service, "")
 
     mealCounter = 0
