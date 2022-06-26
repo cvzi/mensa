@@ -3,10 +3,10 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2022-06-20">
+    <day date="2022-06-27">
       <category name="Suppe &amp; Dessert">
         <meal>
-          <name>Suppe klar Klare Gemüsesuppe mit Fadennudeln</name>
+          <name>Suppe klar Klare Gemüsesuppe mit Grießnockerl</name>
           <note>Eier</note>
           <note>Gluten</note>
           <note>Sellerie</note>
@@ -14,226 +14,344 @@
           <price role="student">1.80</price>
         </meal>
         <meal>
-          <name>Suppe Süßkartoffelsuppe mit gerösteten Karotten Vegan</name>
+          <name>Suppe Mais-Kokoscremesuppe mit Chili Vegan</name>
           <note>Gluten</note>
           <note>Schalenfrüchte</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <price role="student">1.80</price>
+        </meal>
+        <meal>
+          <name>Dessert Bananen Joghurt hausgemacht</name>
+          <note>Milch</note>
+          <price role="student">1.20</price>
+        </meal>
+      </category>
+      <category name="Wochenangebot und Grill">
+        <meal>
+          <name>Grill &amp; Gebackenes 1 Berner Würstel dazu Potato Wedges mit Zwiebelsenf</name>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Senf</note>
+          <price role="student">6.90</price>
+        </meal>
+        <meal>
+          <name>Grill &amp; Gebackenes 2Schweinerückensteak aus AT vom Grill dazu Mediterranes Grillgemüse und Rosmarin Erdäpfel mit Kräuterbutter</name>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Sojabohnen</note>
+          <price role="student">7.90</price>
+        </meal>
+        <meal>
+          <name>Tagesangebot Premium Kap Seehecht MSC vom Grill dazu Mediterranes Grillgemüse und Rosmarin Erdäpfel mit Kräuterbutter</name>
+          <note>Fisch</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Sojabohnen</note>
+          <price role="student">9.50</price>
+        </meal>
+      </category>
+      <category name="Tagesangebot, Pasta &amp; WOK">
+        <meal>
+          <name>Tagesangebot Veggie Käsespätzle mit Röstzwiebel und Beilagensalat</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Styria vitalis</note>
+          <note>vegetarisch</note>
+          <price role="student">5.40</price>
+        </meal>
+        <meal>
+          <name>Tagesangebot Herzhaft Paprika Hendl aus AT mit Kräuterreis</name>
+          <note>Milch</note>
+          <note>Österr. Umweltzeichen</note>
+          <price role="student">6.10</price>
+        </meal>
+        <meal>
+          <name>Curry &amp; Asia 1 frischer Gemüse Wok dazu Basmatireis</name>
+          <note>Sellerie</note>
+          <price role="student">6.10</price>
+        </meal>
+        <meal>
+          <name>Curry &amp; Asia 2 Rotes Puten Thai Curry mit Basmatireis</name>
+          <note>Fisch</note>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <note>Weichtiere/Schnecken/Muscheln/Tintenfische</note>
+          <price role="student">6.30</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2022-06-28">
+      <category name="Suppe &amp; Dessert">
+        <meal>
+          <name>Suppe klar Klare Gemüsesuppe mit Kaspressknödel</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <price role="student">1.80</price>
+        </meal>
+        <meal>
+          <name>SuppeKarotten Ingwersuppe</name>
+          <note>Gluten</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <price role="student">1.80</price>
+        </meal>
+        <meal>
+          <name>DessertSchoko Kokos Creme</name>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sojabohnen</note>
+          <price role="student">1.20</price>
+        </meal>
+      </category>
+      <category name="Wochenangebot und Grill">
+        <meal>
+          <name>Grill &amp; Gebackenes 1 Berner Würstel dazu Potato Wedges mit Zwiebelsenf</name>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Senf</note>
+          <price role="student">6.90</price>
+        </meal>
+        <meal>
+          <name>Grill &amp; Gebackenes 2Schweinerückensteak aus AT vom Grill dazu Mediterranes Grillgemüse und Rosmarin Erdäpfel mit Kräuterbutter</name>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Sojabohnen</note>
+          <price role="student">7.90</price>
+        </meal>
+        <meal>
+          <name>Tagesangebot Premium Kap Seehecht MSC vom Grill dazu Mediterranes Grillgemüse und Rosmarin Erdäpfel mit Kräuterbutter</name>
+          <note>Fisch</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Sojabohnen</note>
+          <price role="student">9.50</price>
+        </meal>
+      </category>
+      <category name="Tagesangebot, Pasta &amp; WOK">
+        <meal>
+          <name>Tagesangebot Veggie Champignons á la Creme mit Serviettenknödel</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <note>Styria vitalis</note>
+          <note>vegetarisch</note>
+          <price role="student">5.40</price>
+        </meal>
+        <meal>
+          <name>Tagesangebot Herzhaft Schweinsschnitzel aus AT in der Kürbispanade mit Zitrone und Erdäpfel-Vogerlsalat mit Kernöl</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <note>Sojabohnen</note>
+          <note>Österr. Umweltzeichen</note>
+          <price role="student">6.10</price>
+        </meal>
+        <meal>
+          <name>Curry &amp; Asia 1 frischer Gemüse Wok dazu Basmatireis</name>
+          <note>Sellerie</note>
+          <price role="student">6.10</price>
+        </meal>
+        <meal>
+          <name>Curry &amp; Asia 2 Hühner Wok mit Ginger Garlicsauce dazu Basmatireis</name>
+          <note>Fisch</note>
+          <note>Gluten</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sesam</note>
+          <note>Sojabohnen</note>
+          <note>Weichtiere/Schnecken/Muscheln/Tintenfische</note>
+          <price role="student">6.30</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2022-06-29">
+      <category name="Suppe &amp; Dessert">
+        <meal>
+          <name>Suppe klar Klare Gemüsesuppe mit Frittaten</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <price role="student">1.80</price>
+        </meal>
+        <meal>
+          <name>Suppe Knoblauchcremesuppe</name>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <price role="student">1.80</price>
+        </meal>
+        <meal>
+          <name>Dessert Stracciatella Creme</name>
+          <note>Milch</note>
+          <note>Sojabohnen</note>
+          <price role="student">1.20</price>
+        </meal>
+      </category>
+      <category name="Wochenangebot und Grill">
+        <meal>
+          <name>Grill &amp; Gebackenes 1 Berner Würstel dazu Potato Wedges mit Zwiebelsenf</name>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Senf</note>
+          <price role="student">6.90</price>
+        </meal>
+        <meal>
+          <name>Grill &amp; Gebackenes 2Schweinerückensteak aus AT vom Grill dazu Mediterranes Grillgemüse und Rosmarin Erdäpfel mit Kräuterbutter</name>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Sojabohnen</note>
+          <price role="student">7.90</price>
+        </meal>
+        <meal>
+          <name>Tagesangebot Premium Kap Seehecht MSC vom Grill dazu Mediterranes Grillgemüse und Rosmarin Erdäpfel mit Kräuterbutter</name>
+          <note>Fisch</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Sojabohnen</note>
+          <price role="student">9.50</price>
+        </meal>
+      </category>
+      <category name="Tagesangebot, Pasta &amp; WOK">
+        <meal>
+          <name>Tagesangebot Veggie Gratinierte Polenta-Gemüseschnitte mit Cherrytomaten Sauce und Kräutern</name>
+          <note>Eier</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
+          <note>Styria vitalis</note>
+          <note>vegetarisch</note>
+          <price role="student">5.40</price>
+        </meal>
+        <meal>
+          <name>Tagesangebot Herzhaft Puten Chili con Carne dazu Kaisersemmel</name>
+          <note>Gluten</note>
+          <note>Österr. Umweltzeichen</note>
+          <price role="student">6.10</price>
+        </meal>
+        <meal>
+          <name>Curry &amp; Asia 1 frischer Gemüse Wok dazu Basmatireis</name>
+          <note>Sellerie</note>
+          <price role="student">6.10</price>
+        </meal>
+        <meal>
+          <name>Curry &amp; Asia 2 Putencurry mit Kokosmilch und Ananas dazu Basmatireis</name>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Sesam</note>
+          <note>Sojabohnen</note>
+          <price role="student">6.30</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2022-06-30">
+      <category name="Suppe &amp; Dessert">
+        <meal>
+          <name>Suppe klar Klare Gemüse-Quinoa Suppe Vegan</name>
+          <note>Gluten</note>
           <note>Sellerie</note>
           <note>Sojabohnen</note>
           <note>vegan</note>
           <price role="student">1.80</price>
         </meal>
         <meal>
-          <name>Dessert kalt Beerenjoghurt Hausgemacht</name>
+          <name>Suppe Broccolicremesuppe</name>
           <note>Milch</note>
+          <price role="student">1.80</price>
+        </meal>
+        <meal>
+          <name>Dessert Schokomousse Dunkel</name>
+          <note>Eier</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sojabohnen</note>
           <price role="student">1.20</price>
         </meal>
       </category>
       <category name="Wochenangebot und Grill">
         <meal>
-          <name>Grill &amp; Gebackenes 1 Käsekrainer vom Grill mit Rösterdäpfel dazu Senf und frischer Kren</name>
+          <name>Grill &amp; Gebackenes 1 Berner Würstel dazu Potato Wedges mit Zwiebelsenf</name>
+          <note>Gluten</note>
           <note>Milch</note>
           <note>Schwefeldioxid/Sulfite</note>
           <note>Senf</note>
           <price role="student">6.90</price>
         </meal>
         <meal>
-          <name>Grill &amp; Gebackenes 2 Medaillons vom Schwein gebraten mit Champignonrahmsauce dazu Mediterranes Grillgemüse und Tagliatelle</name>
+          <name>Grill &amp; Gebackenes 2Schweinerückensteak aus AT vom Grill dazu Mediterranes Grillgemüse und Rosmarin Erdäpfel mit Kräuterbutter</name>
           <note>Gluten</note>
           <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
           <note>Sojabohnen</note>
-          <price role="student">8.90</price>
-        </meal>
-      </category>
-      <category name="Tagesangebot, Pasta &amp; WOK">
-        <meal>
-          <name>Tagesangebot Veggie Linsen-Gemüse-Eintopf Kornspitz</name>
-          <note>Gluten</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <note>Styria vitalis</note>
-          <note>vegan</note>
-          <price role="student">5.40</price>
+          <price role="student">7.90</price>
         </meal>
         <meal>
-          <name>Tagesangebot Herzhaft Schweinsnaturschnitzel mit Pfefferrahmsauce und Spinatspätzle</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schalenfrüchte</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-          <note>Österr. Umweltzeichen</note>
-          <price role="student">6.10</price>
-        </meal>
-        <meal>
-          <name>Pasta 1 Penne mit Briesauce und frischer grüner Spargel mit frischem Parmesan</name>
-          <note>Eier</note>
+          <name>Tagesangebot Premium Kap Seehecht MSC vom Grill dazu Mediterranes Grillgemüse und Rosmarin Erdäpfel mit Kräuterbutter</name>
           <note>Fisch</note>
           <note>Gluten</note>
           <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
           <note>Sojabohnen</note>
-          <price role="student">5.10</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2022-06-21">
-      <category name="Suppe &amp; Dessert">
-        <meal>
-          <name>Suppe klar Klare Gemüsesuppe mit Eistich Royal</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <price role="student">1.80</price>
-        </meal>
-        <meal>
-          <name>SuppeGemüsecremesuppe</name>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <price role="student">1.80</price>
-        </meal>
-        <meal>
-          <name>Dessert kalt Vanillepudding</name>
-          <note>Milch</note>
-          <price role="student">1.20</price>
-        </meal>
-      </category>
-      <category name="Wochenangebot und Grill">
-        <meal>
-          <name>Grill &amp; Gebackenes 1 Käsekrainer vom Grill mit Rösterdäpfel dazu Senf und frischer Kren</name>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Senf</note>
-          <price role="student">6.90</price>
-        </meal>
-        <meal>
-          <name>Grill &amp; Gebackenes 2 Medaillons vom Schwein gebraten mit Champignonrahmsauce dazu Mediterranes Grillgemüse und Tagliatelle</name>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <price role="student">8.90</price>
+          <price role="student">9.50</price>
         </meal>
       </category>
       <category name="Tagesangebot, Pasta &amp; WOK">
         <meal>
-          <name>Tagesangebot Veggie Geröstete Knödel mit Ei dazu Beilagensalat</name>
+          <name>Tagesangebot Veggie Gemüsepalatschinken mit Kräuterrahmsauce</name>
           <note>Eier</note>
           <note>Gluten</note>
           <note>Milch</note>
           <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
           <note>Styria vitalis</note>
           <note>vegetarisch</note>
           <price role="student">5.40</price>
         </meal>
         <meal>
-          <name>Tagesangebot Herzhaft Wiener Schnitzel von der Pute mit Erbsenreis und Zitrone</name>
-          <note>Eier</note>
+          <name>Tagesangebot Herzhaft Gyros aus AT von der Pute dazu Kräuterreis mit Tzatziki</name>
           <note>Gluten</note>
           <note>Milch</note>
+          <note>Senf</note>
           <note>Sojabohnen</note>
           <note>Österr. Umweltzeichen</note>
           <price role="student">6.10</price>
         </meal>
         <meal>
-          <name>Pasta 1 Spaghetti mit Sauce Carbonara oder mit Speck</name>
-          <note>Eier</note>
-          <note>Fisch</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
+          <name>Curry &amp; Asia 1 frischer Gemüse Wok dazu Basmatireis</name>
           <note>Sellerie</note>
-          <note>Senf</note>
-          <note>Sojabohnen</note>
-          <note>vegetarisch</note>
-          <price role="student">5.10</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2022-06-22">
-      <category name="Suppe &amp; Dessert">
-        <meal>
-          <name>Suppe klar Klare Gemüsesuppe mit Sternchennudeln</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <price role="student">1.80</price>
-        </meal>
-        <meal>
-          <name>Suppe Sellerie Apfelcremesuppe</name>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <price role="student">1.80</price>
-        </meal>
-        <meal>
-          <name>Dessert kalt Joghurt Honig Walnüsse</name>
-          <note>Milch</note>
-          <note>Schalenfrüchte</note>
-          <price role="student">1.20</price>
-        </meal>
-      </category>
-      <category name="Wochenangebot und Grill">
-        <meal>
-          <name>Grill &amp; Gebackenes 1 Käsekrainer vom Grill mit Rösterdäpfel dazu Senf und frischer Kren</name>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Senf</note>
-          <price role="student">6.90</price>
-        </meal>
-        <meal>
-          <name>Grill &amp; Gebackenes 2 Medaillons vom Schwein gebraten mit Champignonrahmsauce dazu Mediterranes Grillgemüse und Tagliatelle</name>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <price role="student">8.90</price>
-        </meal>
-      </category>
-      <category name="Tagesangebot, Pasta &amp; WOK">
-        <meal>
-          <name>Tagesangebot Veggie Meditterane Eblygemüsepfanne mit Beilagensalat</name>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Styria vitalis</note>
-          <note>vegetarisch</note>
-          <price role="student">5.40</price>
-        </meal>
-        <meal>
-          <name>Tagesangebot Herzhaft Tortelloni Carne in Österkronsauce mit Kräutern und Tomatenwürfel</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <note>Österr. Umweltzeichen</note>
           <price role="student">6.10</price>
         </meal>
         <meal>
-          <name>Pasta 1 Fusilli mit Cherrytomaten Ragout mit Kürbis Oliven und Artischocken</name>
-          <note>Eier</note>
+          <name>Curry &amp; Asia 2 Hühnerstreifen in grüner Thai Curry Sauce dazu Basmatireis</name>
           <note>Fisch</note>
           <note>Gluten</note>
-          <price role="student">5.10</price>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <note>Weichtiere/Schnecken/Muscheln/Tintenfische</note>
+          <price role="student">6.30</price>
         </meal>
       </category>
     </day>
-    <day date="2022-06-23">
+    <day date="2022-07-01">
       <category name="Suppe &amp; Dessert">
         <meal>
-          <name>Suppe klar Klare Gemüsesuppe mit Tarhonya</name>
+          <name>Suppe klarKlare Gemüsesuppe mit Reibteig</name>
           <note>Eier</note>
           <note>Gluten</note>
           <note>Sellerie</note>
@@ -241,7 +359,7 @@
           <price role="student">1.80</price>
         </meal>
         <meal>
-          <name>Suppe Erbsencremesuppe</name>
+          <name>Suppe Paprikacremesuppe</name>
           <note>Gluten</note>
           <note>Milch</note>
           <note>Schwefeldioxid/Sulfite</note>
@@ -250,8 +368,7 @@
           <price role="student">1.80</price>
         </meal>
         <meal>
-          <name>Dessert kalt Sauerrahmmousse mit Weichselragout</name>
-          <note>Eier</note>
+          <name>Dessert Himbeercreme</name>
           <note>Milch</note>
           <note>Schwefeldioxid/Sulfite</note>
           <price role="student">1.20</price>
@@ -259,129 +376,67 @@
       </category>
       <category name="Wochenangebot und Grill">
         <meal>
-          <name>Grill &amp; Gebackenes 1 Käsekrainer vom Grill mit Rösterdäpfel dazu Senf und frischer Kren</name>
+          <name>Grill &amp; Gebackenes 1 Berner Würstel dazu Potato Wedges mit Zwiebelsenf</name>
+          <note>Gluten</note>
           <note>Milch</note>
           <note>Schwefeldioxid/Sulfite</note>
           <note>Senf</note>
           <price role="student">6.90</price>
         </meal>
         <meal>
-          <name>Grill &amp; Gebackenes 2 Medaillons vom Schwein gebraten mit Champignonrahmsauce dazu Mediterranes Grillgemüse und Tagliatelle</name>
+          <name>Grill &amp; Gebackenes 2Schweinerückensteak aus AT vom Grill dazu Mediterranes Grillgemüse und Rosmarin Erdäpfel mit Kräuterbutter</name>
           <note>Gluten</note>
           <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
           <note>Sojabohnen</note>
-          <price role="student">8.90</price>
-        </meal>
-      </category>
-      <category name="Tagesangebot, Pasta &amp; WOK">
-        <meal>
-          <name>Tagesangebot Veggie Bio Penne dazu Zucchini Paprikaragout mit Schafkäse und Rucola</name>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Styria vitalis</note>
-          <note>vegetarisch</note>
-          <price role="student">5.40</price>
+          <price role="student">7.90</price>
         </meal>
         <meal>
-          <name>Tagesangebot Herzhaft Schweineragout &quot;Esterhazy Art&quot; mit Röstinchen</name>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <note>Österr. Umweltzeichen</note>
-          <price role="student">6.10</price>
-        </meal>
-        <meal>
-          <name>Pasta / Italiano Spaghetti mit Sauce Bolognese aus Rindfleisch dazu frischer Parmesan</name>
-          <note>Eier</note>
+          <name>Tagesangebot Premium Kap Seehecht MSC vom Grill dazu Mediterranes Grillgemüse und Rosmarin Erdäpfel mit Kräuterbutter</name>
           <note>Fisch</note>
           <note>Gluten</note>
           <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-          <price role="student">5.60</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2022-06-24">
-      <category name="Suppe &amp; Dessert">
-        <meal>
-          <name>Suppe klar Klare Gemüsesuppe mit Backerbsen</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Sellerie</note>
           <note>Sojabohnen</note>
-          <price role="student">1.80</price>
-        </meal>
-        <meal>
-          <name>SuppePetersilwurzelcremesuppe</name>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <price role="student">1.80</price>
-        </meal>
-        <meal>
-          <name>Dessert kalt Topfencreme</name>
-          <note>Milch</note>
-          <price role="student">1.20</price>
-        </meal>
-      </category>
-      <category name="Wochenangebot und Grill">
-        <meal>
-          <name>Grill &amp; Gebackenes 1 Käsekrainer vom Grill mit Rösterdäpfel dazu Senf und frischer Kren</name>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Senf</note>
-          <price role="student">6.90</price>
-        </meal>
-        <meal>
-          <name>Grill &amp; Gebackenes 2 Medaillons vom Schwein gebraten mit Champignonrahmsauce dazu Mediterranes Grillgemüse und Tagliatelle</name>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <price role="student">8.90</price>
+          <price role="student">9.50</price>
         </meal>
       </category>
       <category name="Tagesangebot, Pasta &amp; WOK">
         <meal>
-          <name>Tagesangebot Veggie Topfen-Hirse Laibchen auf Cous Cous Salat mit Sauerrahm Dip</name>
+          <name>Tagesangebot Veggie Krautfleckerl mit Kresse-Dip und Beilagensalat</name>
           <note>Eier</note>
           <note>Gluten</note>
           <note>Milch</note>
           <note>Schwefeldioxid/Sulfite</note>
-          <note>Sojabohnen</note>
           <note>Styria vitalis</note>
           <note>vegetarisch</note>
           <price role="student">5.40</price>
         </meal>
         <meal>
-          <name>Tagesangebot Herzhaft Alaska Seelachs MSC in der Knusperpanade dazu Kräuterreis mit Sauce Tartare und Zitrone</name>
+          <name>Tagesangebot Herzhaft Alaska Seelachs MSC gebacken mit Zitronenschnitz und Erdäpfel-Mayonnaise Salat</name>
           <note>Eier</note>
           <note>Fisch</note>
           <note>Gluten</note>
           <note>MSC</note>
           <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
           <note>Senf</note>
+          <note>Sojabohnen</note>
           <price role="student">6.10</price>
         </meal>
         <meal>
-          <name>Pasta 1 Farfalle mit Lachs-Zitronen Oberssauce und Rucola</name>
-          <note>Eier</note>
-          <note>Fisch</note>
+          <name>Curry &amp; Asia 1 frischer Gemüse Wok dazu Basmatireis</name>
+          <note>Sellerie</note>
+          <price role="student">6.10</price>
+        </meal>
+        <meal>
+          <name>Curry &amp; Asia 2Hühnerfleisch 8 Schätze dazu Basmatireis</name>
+          <note>Erdnüsse</note>
           <note>Gluten</note>
           <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
           <note>Sellerie</note>
+          <note>Sesam</note>
           <note>Sojabohnen</note>
-          <price role="student">5.10</price>
+          <price role="student">6.30</price>
         </meal>
       </category>
     </day>
