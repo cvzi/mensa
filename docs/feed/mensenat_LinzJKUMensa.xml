@@ -3,12 +3,13 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2022-07-01">
+    <day date="2022-07-04">
       <category name="Menü Classic 1">
         <meal>
-          <name>Klare Gemüsesuppe mit Einlage und/oder Salat und/oder Getränk Krautfleckerl  -für Uni-Angehörige, abzgl. Bonus</name>
+          <name>Klare Gemüsesuppe mit Einlage und/oder Salat und/oder Getränk Erdäpfel-Gemüse-Gröstl mit Feta -für Uni-Angehörige, abzgl. Bonus</name>
           <note>Eier</note>
           <note>Gluten</note>
+          <note>Milch</note>
           <note>Schwefeldioxid/Sulfite</note>
           <note>Sellerie</note>
           <note>vegetarisch</note>
@@ -21,28 +22,181 @@
       </category>
       <category name="Tagesteller">
         <meal>
-          <name>Gemüse-Nudelauflauf mit Knoblauchdip</name>
+          <name>Gemüseschnitzel Petersilerdäpfel / Knoblauchdip</name>
+          <note>Eier</note>
           <note>Gluten</note>
           <note>Milch</note>
+          <note>vegetarisch</note>
+          <price role="student">5.40</price>
+        </meal>
+        <meal>
+          <name>Chicken Tikka Masala vom Bio Huhn mit Basmatireis</name>
+          <note>Austria Bio Garantie</note>
+          <note>Milch</note>
+          <note>Schalenfrüchte</note>
+          <price role="student">6.80</price>
+        </meal>
+      </category>
+      <category name="Menü Classic 2">
+        <meal>
+          <name>Klare Gemüsesuppe mit Einlage und/oder Salat und/oder Getränk Bio Berner Würstel mit Pommes frites -für Uni-Angehörige, abzgl. Bonus</name>
+          <note>Austria Bio Garantie</note>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <price role="student">6.80</price>
+        </meal>
+        <meal>
+          <name>-für externe Gäste</name>
+          <price role="student">7.50</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2022-07-05">
+      <category name="Menü Classic 1">
+        <meal>
+          <name>Erdäpfel-Lauchsuppe und/oder Salat und/oder Getränk Gelbes Thai Gemüsecurry mit Basmatireis -für Uni-Angehörige, abzgl. Bonus</name>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <note>vegetarisch</note>
+          <price role="student">5.40</price>
+        </meal>
+        <meal>
+          <name>-für externe Gäste</name>
+          <price role="student">6.10</price>
+        </meal>
+      </category>
+      <category name="Tagesteller">
+        <meal>
+          <name>Kärntner Kasnudeln mit Braune Butter</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Sojabohnen</note>
+          <note>vegetarisch</note>
+          <price role="student">5.40</price>
+        </meal>
+        <meal>
+          <name>Kalbsrahmgulasch vom Bio Kalb mit Spätzle</name>
+          <note>Bio</note>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <price role="student">6.80</price>
+        </meal>
+      </category>
+      <category name="Menü Classic 2">
+        <meal>
+          <name>Erdäpfel-Lauchsuppe und/oder Salat und/oder Getränk Ritschert mit Bio Fleisch -für Uni-Angehörige, abzgl. Bonus</name>
+          <note>Austria Bio Garantie</note>
+          <note>Gluten</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <price role="student">6.80</price>
+        </meal>
+        <meal>
+          <name>-für externe Gäste</name>
+          <price role="student">7.50</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2022-07-06">
+      <category name="Menü Classic 1">
+        <meal>
+          <name>Klare Gemüsesuppe mit Einlage und/oder Salat und/oder Getränk Überbackener Gemüserösti auf Salatbouquet mit Dip -für Uni-Angehörige, abzgl. Bonus</name>
+          <note>Eier</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <note>vegetarisch</note>
+          <price role="student">5.40</price>
+        </meal>
+        <meal>
+          <name>-für externe Gäste</name>
+          <price role="student">6.10</price>
+        </meal>
+      </category>
+      <category name="Tagesteller">
+        <meal>
+          <name>Überbacken Spinatspätzle</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>vegetarisch</note>
+          <price role="student">5.40</price>
+        </meal>
+        <meal>
+          <name>Gebackener Süßkartoffel mit Räucherlachs auf Salatbouquet mit Dip</name>
+          <note>Fisch</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <price role="student">6.10</price>
+        </meal>
+      </category>
+      <category name="Menü Classic 2">
+        <meal>
+          <name>Klare Gemüsesuppe mit Einlage und/oder Salat und/oder Getränk Teriyaki- Streifen von der Bio Pute mit Basmatireis -für Uni-Angehörige, abzgl. Bonus</name>
+          <note>Austria Bio Garantie</note>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <note>Sesam</note>
+          <note>Sojabohnen</note>
+          <price role="student">6.80</price>
+        </meal>
+        <meal>
+          <name>-für externe Gäste</name>
+          <price role="student">7.50</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2022-07-07">
+      <category name="Menü Classic 1">
+        <meal>
+          <name>Kräutercremesuppe und/oder Salat und/oder Getränk Mediterranes Gemüserisotto dazu frischer Parmesan -für Uni-Angehörige, abzgl. Bonus</name>
+          <note>Eier</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <note>vegetarisch</note>
+          <price role="student">5.40</price>
+        </meal>
+        <meal>
+          <name>-für externe Gäste</name>
+          <price role="student">6.10</price>
+        </meal>
+      </category>
+      <category name="Tagesteller">
+        <meal>
+          <name>Gemüsecurry mit geräuchertem Tofu und Quinoa</name>
           <note>Sellerie</note>
           <note>Sojabohnen</note>
           <note>vegan</note>
           <price role="student">5.40</price>
         </meal>
         <meal>
-          <name>Pizza al Tonno</name>
-          <note>Fisch</note>
+          <name>Mensa Bio Rindsburger dazu Potato Wedges</name>
+          <note>Bio</note>
+          <note>Eier</note>
           <note>Gluten</note>
-          <note>Milch</note>
-          <note>Sojabohnen</note>
-          <price role="student">6.10</price>
+          <note>Schalenfrüchte</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Senf</note>
+          <note>Sesam</note>
+          <price role="student">6.80</price>
         </meal>
       </category>
       <category name="Menü Classic 2">
         <meal>
-          <name>Klare Gemüsesuppe mit Einlage und/oder Salat und/oder Getränk Gebratenes Zanderfilet Petersilerdäpfel/Zitronenbutter -für Uni-Angehörige, abzgl. Bonus</name>
-          <note>Eier</note>
-          <note>Fisch</note>
+          <name>Kräutercremesuppe und/oder Salat und/oder Getränk Tiroler Gröstl mit Bio Fleisch -für Uni-Angehörige, abzgl. Bonus</name>
+          <note>Austria Bio Garantie</note>
           <note>Gluten</note>
           <note>Milch</note>
           <note>Schwefeldioxid/Sulfite</note>
@@ -55,13 +209,12 @@
         </meal>
       </category>
     </day>
-    <day date="2023-06-27">
+    <day date="2022-07-08">
       <category name="Menü Classic 1">
         <meal>
-          <name>Klare Gemüsesuppe mit Einlage und/oder Salat und/oder Getränk Käsespätzle mit Röstzwiebel -für Uni-Angehörige, abzgl. Bonus</name>
+          <name>Klare Gemüsesuppe mit Einlage und/oder Salat und/oder Getränk Gemüse Eintopf mit Reis -für Uni-Angehörige, abzgl. Bonus</name>
           <note>Eier</note>
           <note>Gluten</note>
-          <note>Milch</note>
           <note>Schwefeldioxid/Sulfite</note>
           <note>Sellerie</note>
           <note>vegetarisch</note>
@@ -74,187 +227,35 @@
       </category>
       <category name="Tagesteller">
         <meal>
-          <name>Zucchini-Karotten-Curry mit Ananas und Basmatireis</name>
+          <name>Gemüse Pizza</name>
           <note>Gluten</note>
-          <note>Sellerie</note>
-          <note>Sesam</note>
-          <note>Sojabohnen</note>
+          <note>Milch</note>
           <note>vegetarisch</note>
           <price role="student">5.40</price>
         </meal>
         <meal>
-          <name>Bio Riesenbratwurst vom Grill Rösterdäpfel/Estragon Senf/Kren</name>
-          <note>Austria Bio Garantie</note>
+          <name>Geschnetzeltes &quot;Esterhazy&quot; mit Bio Rindfleisch und Spätzle</name>
+          <note>Bio</note>
+          <note>Eier</note>
+          <note>Gluten</note>
           <note>Milch</note>
           <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
           <note>Senf</note>
           <price role="student">6.80</price>
         </meal>
       </category>
       <category name="Menü Classic 2">
         <meal>
-          <name>Klare Gemüsesuppe mit Einlage und/oder Salat und/oder Getränk Bio Chili con Carne dazu Gebäck -für Uni-Angehörige, abzgl. Bonus</name>
-          <note>Austria Bio Garantie</note>
+          <name>Klare Gemüsesuppe mit Einlage und/oder Salat und/oder Getränk Alaska Seelachs im Backteig Sauce Tyrolienne/Erdäpfelsalat -für Uni-Angehörige, abzgl. Bonus</name>
           <note>Eier</note>
+          <note>Fisch</note>
           <note>Gluten</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-          <price role="student">6.80</price>
-        </meal>
-        <meal>
-          <name>-für externe Gäste</name>
-          <price role="student">7.50</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2023-06-28">
-      <category name="Menü Classic 1">
-        <meal>
-          <name>Karotten-Ingwersuppe und/oder Salat und/oder Getränk Gemüse Curry Indisch mit Soja und Gebäck -für Uni-Angehörige, abzgl. Bonus</name>
-          <note>Gluten</note>
+          <note>MSC</note>
           <note>Milch</note>
           <note>Schwefeldioxid/Sulfite</note>
           <note>Sellerie</note>
-          <note>Sesam</note>
-          <note>Sojabohnen</note>
-          <note>vegetarisch</note>
-          <price role="student">5.40</price>
-        </meal>
-        <meal>
-          <name>-für externe Gäste</name>
-          <price role="student">6.10</price>
-        </meal>
-      </category>
-      <category name="Tagesteller">
-        <meal>
-          <name>Gemüsepalatschinken mit Kräuterrahmsauce</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-          <note>vegetarisch</note>
-          <price role="student">5.40</price>
-        </meal>
-        <meal>
-          <name>Marokkanische Tagine mit Bio Hühnerfleisch dazu Bulgur</name>
-          <note>Bio</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Sellerie</note>
-          <price role="student">6.80</price>
-        </meal>
-      </category>
-      <category name="Menü Classic 2">
-        <meal>
-          <name>Karotten-Ingwersuppe und/oder Salat und/oder Getränk Schinkenfleckerl mit Bio Schinken -für Uni-Angehörige, abzgl. Bonus</name>
-          <note>Austria Bio Garantie</note>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-          <price role="student">6.80</price>
-        </meal>
-        <meal>
-          <name>-für externe Gäste</name>
-          <price role="student">7.50</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2023-06-29">
-      <category name="Menü Classic 1">
-        <meal>
-          <name>Klare Gemüsesuppe mit Einlage und/oder Salat und/oder Getränk Champignons á la Creme dazu Serviettenknödel -für Uni-Angehörige, abzgl. Bonus</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-          <note>vegetarisch</note>
-          <price role="student">5.40</price>
-        </meal>
-        <meal>
-          <name>-für externe Gäste</name>
-          <price role="student">6.10</price>
-        </meal>
-      </category>
-      <category name="Tagesteller">
-        <meal>
-          <name>Gratinierte Polenta-Gemüseschnitte mit Cherrytomaten Sauce</name>
-          <note>Eier</note>
-          <note>Milch</note>
-          <note>Sellerie</note>
-          <note>vegetarisch</note>
-          <price role="student">5.40</price>
-        </meal>
-        <meal>
-          <name>Gekochtes Steirisches BIO Wurzelfleisch mit Bratkartoffeln</name>
-          <note>Bio</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-          <price role="student">6.80</price>
-        </meal>
-      </category>
-      <category name="Menü Classic 2">
-        <meal>
-          <name>Klare Gemüsesuppe mit Einlage und/oder Salat und/oder Getränk Gebratener Bio Leberkäse Mischgemüse/Erdäpfelpurée -für Uni-Angehörige, abzgl. Bonus</name>
-          <note>Austria Bio Garantie</note>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-          <price role="student">6.80</price>
-        </meal>
-        <meal>
-          <name>-für externe Gäste</name>
-          <price role="student">7.50</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2023-06-30">
-      <category name="Menü Classic 1">
-        <meal>
-          <name>Broccolicremesuppe und/oder Salat und/oder Getränk Massaman Süsskartoffel Curry mit Quinoa -für Uni-Angehörige, abzgl. Bonus</name>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sojabohnen</note>
-          <note>vegan</note>
-          <price role="student">5.40</price>
-        </meal>
-        <meal>
-          <name>-für externe Gäste</name>
-          <price role="student">6.10</price>
-        </meal>
-      </category>
-      <category name="Tagesteller">
-        <meal>
-          <name>Gemüse Jambalaya</name>
-          <note>Sellerie</note>
-          <note>vegetarisch</note>
-          <price role="student">5.40</price>
-        </meal>
-        <meal>
-          <name>Bio Rindsburger &quot;Mexiko&quot; dazu Steakhouse Pommes</name>
-          <note>Bio</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sesam</note>
-          <price role="student">6.80</price>
-        </meal>
-      </category>
-      <category name="Menü Classic 2">
-        <meal>
-          <name>Broccolicremesuppe und/oder Salat und/oder Getränk Reisfleisch von der Bio Pute -für Uni-Angehörige, abzgl. Bonus</name>
-          <note>Austria Bio Garantie</note>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
+          <note>Senf</note>
           <price role="student">6.80</price>
         </meal>
         <meal>
