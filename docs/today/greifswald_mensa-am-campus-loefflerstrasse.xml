@@ -4,33 +4,6 @@
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
     <day date="2022-07-18">
-      <category name="Tellergericht">
-        <meal>
-          <name>Brötchen</name>
-          <note>Glutenhaltiges Getreide</note>
-          <price role="employee">0.50</price>
-          <price role="other">0.50</price>
-          <price role="student">0.35</price>
-        </meal>
-        <meal>
-          <name>Brühnudeln mit Hühnerfleisch, kl. Schüssel (Gefl,A,I)</name>
-          <price role="employee">1.55</price>
-          <price role="other">2.30</price>
-          <price role="student">0.85</price>
-        </meal>
-        <meal>
-          <name>Brühnudeln mit Hühnerfleisch, Teller (Gefl,A,I)</name>
-          <price role="employee">2.30</price>
-          <price role="other">3.50</price>
-          <price role="student">1.40</price>
-        </meal>
-        <meal>
-          <name>Brühnudeln mit Hühnerfleisch, Terrine (Gefl,A,I)</name>
-          <price role="employee">3.60</price>
-          <price role="other">4.90</price>
-          <price role="student">2.00</price>
-        </meal>
-      </category>
       <category name="Vegetarisch oder Vegan">
         <meal>
           <name>Vegan: 2 Quinoa-Erbsen-Frikadellen mit Gemüse-Tomatensoße  und Vollkornreis</name>
@@ -52,6 +25,15 @@
         </meal>
       </category>
       <category name="Nudeltheke nach Gewicht (Preis pro 100g) Bitte extra Pasta-Teller verwenden">
+        <meal>
+          <name>Hartkäse gerieben, portioniert (an der Kasse erhältlich)</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <note>Milch/Milchzucker</note>
+          <note>mit Konservierungsstoff</note>
+          <price role="employee">0.40</price>
+          <price role="other">0.55</price>
+          <price role="student">0.25</price>
+        </meal>
         <meal>
           <name>Hörnchennudeln mit Korv (Wurst) Stroganoff</name>
           <note>Glutenhaltiges Getreide</note>
