@@ -3,29 +3,8 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2022-07-11">
-      <closed/>
-    </day>
-    <day date="2022-07-12">
-      <closed/>
-    </day>
-    <day date="2022-07-13">
-      <closed/>
-    </day>
-    <day date="2022-07-14">
-      <closed/>
-    </day>
-    <day date="2022-07-15">
-      <closed/>
-    </day>
-    <day date="2022-07-16">
-      <closed/>
-    </day>
-    <day date="2022-07-17">
-      <closed/>
-    </day>
     <day date="2022-07-18">
-      <category name="Entrée (07:00 - 18:00)">
+      <category name="Entrée">
         <meal>
           <name>Pissaladière</name>
           <note>produit constant</note>
@@ -36,46 +15,53 @@
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Végétarien (07:00 - 18:00)">
+      <category name="Végétarien">
         <meal>
           <name>Moussaka de lentilles au fromage frais de chèvre luxembourgeois</name>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Végan (07:00 - 18:00)">
+      <category name="Végan">
         <meal>
           <name>Galette de pomme de terre, courgettes, carottes, oignons, herbes, sauce pesto vert</name>
           <note>produit constant</note>
           <note>végétalien</note>
         </meal>
       </category>
-      <category name="Pasta (07:00 - 18:00)">
+      <category name="Pasta">
         <meal>
           <name>Tagliatelle ai Funghi, Parmesan, persil plat, poivre noir</name>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Non-végétarien (07:00 - 18:00)">
+      <category name="Non-végétarien">
         <meal>
           <name>Rumsteak de boeuf sauce au poivre</name>
           <note>non-végétarien</note>
           <note>produit constant</note>
         </meal>
         <meal>
-          <name>Blanc de poulé grillé, beurre café de paris</name>
+          <name>Blanc de poulé grillé, beurre café de Paris</name>
           <note>non-végétarien</note>
           <note>produit constant</note>
         </meal>
       </category>
-      <category name="Dessert (07:00 - 18:00)">
+      <category name="Dessert">
         <meal>
           <name>Flan au caramel</name>
           <note>produit constant</note>
         </meal>
+        <meal>
+          <name>Yaourt</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>biologique</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
       </category>
-      <category name="Snack à emporter (07:00 - 18:00)">
+      <category name="Snack à emporter">
         <meal>
           <name>Salade farfalle, tomates et mozzarella</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
@@ -94,7 +80,7 @@
           <note>produit constant</note>
         </meal>
       </category>
-      <category name="01.1 Sandwiches végétariens (07:00 - 18:00)">
+      <category name="01.1 Sandwiches végétariens">
         <meal>
           <name>½ Levain BIO fromage luxembourgeois</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
@@ -185,7 +171,7 @@
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="01.2 Sandwiches végans (07:00 - 18:00)">
+      <category name="01.2 Sandwiches végans">
         <meal>
           <name>½ tranche de pain</name>
           <note>Avoine)</note>
@@ -216,7 +202,7 @@
           <note>végétalien</note>
         </meal>
       </category>
-      <category name="01.3 Sandwiches non-végétariens (07:00 - 18:00)">
+      <category name="01.3 Sandwiches non-végétariens">
         <meal>
           <name>½ Levain BIO &quot;Great César&quot;</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
@@ -314,7 +300,7 @@
           <note>produit du Luxembourg</note>
         </meal>
       </category>
-      <category name="02. Viennoiseries (07:00 - 18:00)">
+      <category name="02. Viennoiseries">
         <meal>
           <name>Boxemännchen 100 g - BIO</name>
           <note>(01 novembre - 15 décembre)</note>
@@ -499,7 +485,7 @@
           <note>produit du Luxembourg</note>
         </meal>
       </category>
-      <category name="03. Gâteaux maison (07:00 - 18:00)">
+      <category name="03. Gâteaux maison">
         <meal>
           <name>Cake au chocolat fairtrade 150 g</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
@@ -524,7 +510,7 @@
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="04. Vitamines à emporter (07:00 - 18:00)">
+      <category name="04. Vitamines à emporter">
         <meal>
           <name>Mini Bunny à emporter</name>
           <note>(01 avril - 31 octobre)</note>
@@ -585,7 +571,7 @@
           <note>végétalien</note>
         </meal>
       </category>
-      <category name="05. Laitages (07:00 - 18:00)">
+      <category name="05. Laitages">
         <meal>
           <name>Fromage frais avec coulis de fruits de saison 200 g</name>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
@@ -699,7 +685,7 @@
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="06. Fruits (07:00 - 18:00)">
+      <category name="06. Fruits">
         <meal>
           <name>Fruit frais entier</name>
           <note>produit constant</note>
@@ -711,7 +697,7 @@
           <note>végétalien</note>
         </meal>
       </category>
-      <category name="07. Glaces (07:00 - 18:00)">
+      <category name="07. Glaces">
         <meal>
           <name>Cornet Luxlait (Chocolat, Fraise, Vanille, Praliné, Mocca-vanille)</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
@@ -748,14 +734,14 @@
           <note>produit du Luxembourg</note>
         </meal>
       </category>
-      <category name="08. Pâtisserie (07:00 - 18:00)">
+      <category name="08. Pâtisserie">
         <meal>
           <name>Dessert du Jour</name>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="09. Confiseries (07:00 - 18:00)">
+      <category name="09. Confiseries">
         <meal>
           <name>Lët'z Chips - Paprika 40 g</name>
           <note>produit constant</note>
@@ -767,7 +753,7 @@
           <note>produit du Luxembourg</note>
         </meal>
       </category>
-      <category name="10.1 Boissons froides - Eau minérale et pétillante (07:00 - 18:00)">
+      <category name="10.1 Boissons froides - Eau minérale et pétillante">
         <meal>
           <name>Rosport Blue 0,25 l btl</name>
           <note>produit constant</note>
@@ -824,7 +810,7 @@
           <note>produit du Luxembourg</note>
         </meal>
       </category>
-      <category name="10.2 Boissons froides - Jus de fruits (07:00 - 18:00)">
+      <category name="10.2 Boissons froides - Jus de fruits">
         <meal>
           <name>Jus d'oranges pressé 0,20 l</name>
           <note>produit constant</note>
@@ -889,7 +875,7 @@
           <note>produit du Luxembourg</note>
         </meal>
       </category>
-      <category name="10.3 Boissons froides - Sodas (07:00 - 18:00)">
+      <category name="10.3 Boissons froides - Sodas">
         <meal>
           <name>Coca Cola 0,20 l btl</name>
           <note>produit constant</note>
@@ -928,7 +914,7 @@
           <note>produit du Luxembourg</note>
         </meal>
       </category>
-      <category name="11. Boissons chaudes (07:00 - 18:00)">
+      <category name="11. Boissons chaudes">
         <meal>
           <name>Café Fairtrade</name>
           <note>produit Transfair</note>
@@ -972,7 +958,7 @@
           <note>produit constant</note>
         </meal>
       </category>
-      <category name="12.1 Emballages et articles réutilisables (07:00 - 18:00)">
+      <category name="12.1 Emballages et articles réutilisables">
         <meal>
           <name>Consigne ECOBOX (1000 ml)</name>
           <note>produit constant</note>
@@ -1011,7 +997,7 @@
           <note>produit constant</note>
         </meal>
       </category>
-      <category name="12.2 Emballages et articles à usage unique (07:00 - 18:00)">
+      <category name="12.2 Emballages et articles à usage unique">
         <meal>
           <name>Boîte à pizza 29 cm</name>
           <note>produit constant</note>
@@ -1061,7 +1047,7 @@
           <note>produit constant</note>
         </meal>
       </category>
-      <category name="13. DayCare (07:00 - 18:00)">
+      <category name="13. DayCare">
         <meal>
           <name>DayCare (gratuit) - Collation du matin</name>
           <note>produit constant</note>
@@ -1077,7 +1063,7 @@
       </category>
     </day>
     <day date="2022-07-19">
-      <category name="Entrée (07:00 - 18:00)">
+      <category name="Entrée">
         <meal>
           <name>Potage asiatique aux légumes</name>
           <note>produit constant</note>
@@ -1089,47 +1075,47 @@
           <note>produit constant</note>
         </meal>
       </category>
-      <category name="Végétarien (07:00 - 18:00)">
+      <category name="Végétarien">
         <meal>
           <name>Tofu Burger, sauce cocktail</name>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Végan (07:00 - 18:00)">
+      <category name="Végan">
         <meal>
           <name>Tofu Burger, sauce tahini</name>
           <note>produit constant</note>
           <note>végétalien</note>
         </meal>
       </category>
-      <category name="Pasta (07:00 - 18:00)">
+      <category name="Pasta">
         <meal>
           <name>Pipe rigate au pesto et jeunes légumes</name>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Non-végétarien (07:00 - 18:00)">
+      <category name="Non-végétarien">
         <meal>
           <name>Paëlla espagnole</name>
           <note>non-végétarien</note>
           <note>produit constant</note>
         </meal>
         <meal>
-          <name>Blanc de poulé grillé, beurre café de paris</name>
+          <name>Blanc de poulé grillé, beurre café de Paris</name>
           <note>non-végétarien</note>
           <note>produit constant</note>
         </meal>
       </category>
-      <category name="Dessert (07:00 - 18:00)">
+      <category name="Dessert">
         <meal>
           <name>Tarte aux abricots</name>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Snack à emporter (07:00 - 18:00)">
+      <category name="Snack à emporter">
         <meal>
           <name>Salade farfalle, tomates et mozzarella</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
@@ -1148,7 +1134,7 @@
           <note>produit constant</note>
         </meal>
       </category>
-      <category name="01.1 Sandwiches végétariens (07:00 - 18:00)">
+      <category name="01.1 Sandwiches végétariens">
         <meal>
           <name>½ Levain BIO fromage luxembourgeois</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
@@ -1239,7 +1225,7 @@
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="01.2 Sandwiches végans (07:00 - 18:00)">
+      <category name="01.2 Sandwiches végans">
         <meal>
           <name>½ tranche de pain</name>
           <note>Avoine)</note>
@@ -1270,7 +1256,7 @@
           <note>végétalien</note>
         </meal>
       </category>
-      <category name="01.3 Sandwiches non-végétariens (07:00 - 18:00)">
+      <category name="01.3 Sandwiches non-végétariens">
         <meal>
           <name>½ Levain BIO &quot;Great César&quot;</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
@@ -1368,7 +1354,7 @@
           <note>produit du Luxembourg</note>
         </meal>
       </category>
-      <category name="02. Viennoiseries (07:00 - 18:00)">
+      <category name="02. Viennoiseries">
         <meal>
           <name>Boxemännchen 100 g - BIO</name>
           <note>(01 novembre - 15 décembre)</note>
@@ -1553,7 +1539,7 @@
           <note>produit du Luxembourg</note>
         </meal>
       </category>
-      <category name="03. Gâteaux maison (07:00 - 18:00)">
+      <category name="03. Gâteaux maison">
         <meal>
           <name>Cake au chocolat fairtrade 150 g</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
@@ -1578,7 +1564,7 @@
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="04. Vitamines à emporter (07:00 - 18:00)">
+      <category name="04. Vitamines à emporter">
         <meal>
           <name>Mini Bunny à emporter</name>
           <note>(01 avril - 31 octobre)</note>
@@ -1639,7 +1625,7 @@
           <note>végétalien</note>
         </meal>
       </category>
-      <category name="05. Laitages (07:00 - 18:00)">
+      <category name="05. Laitages">
         <meal>
           <name>Fromage frais avec coulis de fruits de saison 200 g</name>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
@@ -1753,7 +1739,7 @@
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="06. Fruits (07:00 - 18:00)">
+      <category name="06. Fruits">
         <meal>
           <name>Fruit frais entier</name>
           <note>produit constant</note>
@@ -1765,7 +1751,7 @@
           <note>végétalien</note>
         </meal>
       </category>
-      <category name="07. Glaces (07:00 - 18:00)">
+      <category name="07. Glaces">
         <meal>
           <name>Cornet Luxlait (Chocolat, Fraise, Vanille, Praliné, Mocca-vanille)</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
@@ -1802,14 +1788,14 @@
           <note>produit du Luxembourg</note>
         </meal>
       </category>
-      <category name="08. Pâtisserie (07:00 - 18:00)">
+      <category name="08. Pâtisserie">
         <meal>
           <name>Dessert du Jour</name>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="09. Confiseries (07:00 - 18:00)">
+      <category name="09. Confiseries">
         <meal>
           <name>Lët'z Chips - Paprika 40 g</name>
           <note>produit constant</note>
@@ -1821,7 +1807,7 @@
           <note>produit du Luxembourg</note>
         </meal>
       </category>
-      <category name="10.1 Boissons froides - Eau minérale et pétillante (07:00 - 18:00)">
+      <category name="10.1 Boissons froides - Eau minérale et pétillante">
         <meal>
           <name>Rosport Blue 0,25 l btl</name>
           <note>produit constant</note>
@@ -1878,7 +1864,7 @@
           <note>produit du Luxembourg</note>
         </meal>
       </category>
-      <category name="10.2 Boissons froides - Jus de fruits (07:00 - 18:00)">
+      <category name="10.2 Boissons froides - Jus de fruits">
         <meal>
           <name>Jus d'oranges pressé 0,20 l</name>
           <note>produit constant</note>
@@ -1943,7 +1929,7 @@
           <note>produit du Luxembourg</note>
         </meal>
       </category>
-      <category name="10.3 Boissons froides - Sodas (07:00 - 18:00)">
+      <category name="10.3 Boissons froides - Sodas">
         <meal>
           <name>Coca Cola 0,20 l btl</name>
           <note>produit constant</note>
@@ -1982,7 +1968,7 @@
           <note>produit du Luxembourg</note>
         </meal>
       </category>
-      <category name="11. Boissons chaudes (07:00 - 18:00)">
+      <category name="11. Boissons chaudes">
         <meal>
           <name>Café Fairtrade</name>
           <note>produit Transfair</note>
@@ -2026,7 +2012,7 @@
           <note>produit constant</note>
         </meal>
       </category>
-      <category name="12.1 Emballages et articles réutilisables (07:00 - 18:00)">
+      <category name="12.1 Emballages et articles réutilisables">
         <meal>
           <name>Consigne ECOBOX (1000 ml)</name>
           <note>produit constant</note>
@@ -2065,7 +2051,7 @@
           <note>produit constant</note>
         </meal>
       </category>
-      <category name="12.2 Emballages et articles à usage unique (07:00 - 18:00)">
+      <category name="12.2 Emballages et articles à usage unique">
         <meal>
           <name>Boîte à pizza 29 cm</name>
           <note>produit constant</note>
@@ -2115,7 +2101,7 @@
           <note>produit constant</note>
         </meal>
       </category>
-      <category name="13. DayCare (07:00 - 18:00)">
+      <category name="13. DayCare">
         <meal>
           <name>DayCare (gratuit) - Collation du matin</name>
           <note>produit constant</note>
@@ -2131,7 +2117,7 @@
       </category>
     </day>
     <day date="2022-07-20">
-      <category name="Entrée (07:00 - 18:00)">
+      <category name="Entrée">
         <meal>
           <name>Crème de tomates au basilic</name>
           <note>produit constant</note>
@@ -2144,47 +2130,47 @@
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Végétarien (07:00 - 18:00)">
+      <category name="Végétarien">
         <meal>
-          <name>Quiche végétarienne aux légumes estivaux et feta</name>
+          <name>Quiche végétarienne aux légumes estivaux et Feta</name>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Végan (07:00 - 18:00)">
+      <category name="Végan">
         <meal>
           <name>Empanadas aux haricots rouges et légumes sautés</name>
           <note>produit constant</note>
           <note>végétalien</note>
         </meal>
       </category>
-      <category name="Pasta (07:00 - 18:00)">
+      <category name="Pasta">
         <meal>
           <name>Pasta asciutta</name>
           <note>non-végétarien</note>
           <note>produit constant</note>
         </meal>
       </category>
-      <category name="Non-végétarien (07:00 - 18:00)">
+      <category name="Non-végétarien">
         <meal>
-          <name>Courgette farcie de boeuf, sauce tomate</name>
+          <name>Courgette farcie au boeuf, sauce tomate</name>
           <note>non-végétarien</note>
           <note>produit constant</note>
         </meal>
         <meal>
-          <name>Blanc de poulé grillé, beurre café de paris</name>
+          <name>Blanc de poulé grillé, beurre café de Paris</name>
           <note>non-végétarien</note>
           <note>produit constant</note>
         </meal>
       </category>
-      <category name="Dessert (07:00 - 18:00)">
+      <category name="Dessert">
         <meal>
           <name>Crumble aux pêches</name>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Snack à emporter (07:00 - 18:00)">
+      <category name="Snack à emporter">
         <meal>
           <name>Salade farfalle, tomates et mozzarella</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
@@ -2203,7 +2189,7 @@
           <note>produit constant</note>
         </meal>
       </category>
-      <category name="01.1 Sandwiches végétariens (07:00 - 18:00)">
+      <category name="01.1 Sandwiches végétariens">
         <meal>
           <name>½ Levain BIO fromage luxembourgeois</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
@@ -2294,7 +2280,7 @@
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="01.2 Sandwiches végans (07:00 - 18:00)">
+      <category name="01.2 Sandwiches végans">
         <meal>
           <name>½ tranche de pain</name>
           <note>Avoine)</note>
@@ -2325,7 +2311,7 @@
           <note>végétalien</note>
         </meal>
       </category>
-      <category name="01.3 Sandwiches non-végétariens (07:00 - 18:00)">
+      <category name="01.3 Sandwiches non-végétariens">
         <meal>
           <name>½ Levain BIO &quot;Great César&quot;</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
@@ -2423,7 +2409,7 @@
           <note>produit du Luxembourg</note>
         </meal>
       </category>
-      <category name="02. Viennoiseries (07:00 - 18:00)">
+      <category name="02. Viennoiseries">
         <meal>
           <name>Boxemännchen 100 g - BIO</name>
           <note>(01 novembre - 15 décembre)</note>
@@ -2608,7 +2594,7 @@
           <note>produit du Luxembourg</note>
         </meal>
       </category>
-      <category name="03. Gâteaux maison (07:00 - 18:00)">
+      <category name="03. Gâteaux maison">
         <meal>
           <name>Cake au chocolat fairtrade 150 g</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
@@ -2633,7 +2619,7 @@
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="04. Vitamines à emporter (07:00 - 18:00)">
+      <category name="04. Vitamines à emporter">
         <meal>
           <name>Mini Bunny à emporter</name>
           <note>(01 avril - 31 octobre)</note>
@@ -2694,7 +2680,7 @@
           <note>végétalien</note>
         </meal>
       </category>
-      <category name="05. Laitages (07:00 - 18:00)">
+      <category name="05. Laitages">
         <meal>
           <name>Fromage frais avec coulis de fruits de saison 200 g</name>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
@@ -2808,7 +2794,7 @@
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="06. Fruits (07:00 - 18:00)">
+      <category name="06. Fruits">
         <meal>
           <name>Fruit frais entier</name>
           <note>produit constant</note>
@@ -2820,7 +2806,7 @@
           <note>végétalien</note>
         </meal>
       </category>
-      <category name="07. Glaces (07:00 - 18:00)">
+      <category name="07. Glaces">
         <meal>
           <name>Cornet Luxlait (Chocolat, Fraise, Vanille, Praliné, Mocca-vanille)</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
@@ -2857,14 +2843,14 @@
           <note>produit du Luxembourg</note>
         </meal>
       </category>
-      <category name="08. Pâtisserie (07:00 - 18:00)">
+      <category name="08. Pâtisserie">
         <meal>
           <name>Dessert du Jour</name>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="09. Confiseries (07:00 - 18:00)">
+      <category name="09. Confiseries">
         <meal>
           <name>Lët'z Chips - Paprika 40 g</name>
           <note>produit constant</note>
@@ -2876,7 +2862,7 @@
           <note>produit du Luxembourg</note>
         </meal>
       </category>
-      <category name="10.1 Boissons froides - Eau minérale et pétillante (07:00 - 18:00)">
+      <category name="10.1 Boissons froides - Eau minérale et pétillante">
         <meal>
           <name>Rosport Blue 0,25 l btl</name>
           <note>produit constant</note>
@@ -2933,7 +2919,7 @@
           <note>produit du Luxembourg</note>
         </meal>
       </category>
-      <category name="10.2 Boissons froides - Jus de fruits (07:00 - 18:00)">
+      <category name="10.2 Boissons froides - Jus de fruits">
         <meal>
           <name>Jus d'oranges pressé 0,20 l</name>
           <note>produit constant</note>
@@ -2998,7 +2984,7 @@
           <note>produit du Luxembourg</note>
         </meal>
       </category>
-      <category name="10.3 Boissons froides - Sodas (07:00 - 18:00)">
+      <category name="10.3 Boissons froides - Sodas">
         <meal>
           <name>Coca Cola 0,20 l btl</name>
           <note>produit constant</note>
@@ -3037,7 +3023,7 @@
           <note>produit du Luxembourg</note>
         </meal>
       </category>
-      <category name="11. Boissons chaudes (07:00 - 18:00)">
+      <category name="11. Boissons chaudes">
         <meal>
           <name>Café Fairtrade</name>
           <note>produit Transfair</note>
@@ -3081,7 +3067,7 @@
           <note>produit constant</note>
         </meal>
       </category>
-      <category name="12.1 Emballages et articles réutilisables (07:00 - 18:00)">
+      <category name="12.1 Emballages et articles réutilisables">
         <meal>
           <name>Consigne ECOBOX (1000 ml)</name>
           <note>produit constant</note>
@@ -3120,7 +3106,7 @@
           <note>produit constant</note>
         </meal>
       </category>
-      <category name="12.2 Emballages et articles à usage unique (07:00 - 18:00)">
+      <category name="12.2 Emballages et articles à usage unique">
         <meal>
           <name>Boîte à pizza 29 cm</name>
           <note>produit constant</note>
@@ -3170,7 +3156,7 @@
           <note>produit constant</note>
         </meal>
       </category>
-      <category name="13. DayCare (07:00 - 18:00)">
+      <category name="13. DayCare">
         <meal>
           <name>DayCare (gratuit) - Collation du matin</name>
           <note>produit constant</note>
@@ -3186,7 +3172,7 @@
       </category>
     </day>
     <day date="2022-07-21">
-      <category name="Entrée (07:00 - 18:00)">
+      <category name="Entrée">
         <meal>
           <name>Bouillon estival</name>
           <note>produit constant</note>
@@ -3198,47 +3184,47 @@
           <note>produit constant</note>
         </meal>
       </category>
-      <category name="Végétarien (07:00 - 18:00)">
+      <category name="Végétarien">
         <meal>
           <name>Vöner, sauce Tzatziki</name>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Végan (07:00 - 18:00)">
+      <category name="Végan">
         <meal>
           <name>Vöner, sauce Tahini</name>
           <note>produit constant</note>
           <note>végétalien</note>
         </meal>
       </category>
-      <category name="Pasta (07:00 - 18:00)">
+      <category name="Pasta">
         <meal>
           <name>Spaghetti aux asperges, sauce aneth</name>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Non-végétarien (07:00 - 18:00)">
+      <category name="Non-végétarien">
         <meal>
           <name>Grillwurscht sauce moutarde luxembourgeoise</name>
           <note>non-végétarien</note>
           <note>produit constant</note>
         </meal>
         <meal>
-          <name>Blanc de poulé grillé, beurre café de paris</name>
+          <name>Blanc de poulé grillé, beurre café de Paris</name>
           <note>non-végétarien</note>
           <note>produit constant</note>
         </meal>
       </category>
-      <category name="Dessert (07:00 - 18:00)">
+      <category name="Dessert">
         <meal>
           <name>Carpaccio de melons et sa menthe fraîche</name>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Snack à emporter (07:00 - 18:00)">
+      <category name="Snack à emporter">
         <meal>
           <name>Salade farfalle, tomates et mozzarella</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
@@ -3257,7 +3243,7 @@
           <note>produit constant</note>
         </meal>
       </category>
-      <category name="01.1 Sandwiches végétariens (07:00 - 18:00)">
+      <category name="01.1 Sandwiches végétariens">
         <meal>
           <name>½ Levain BIO fromage luxembourgeois</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
@@ -3348,7 +3334,7 @@
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="01.2 Sandwiches végans (07:00 - 18:00)">
+      <category name="01.2 Sandwiches végans">
         <meal>
           <name>½ tranche de pain</name>
           <note>Avoine)</note>
@@ -3379,7 +3365,7 @@
           <note>végétalien</note>
         </meal>
       </category>
-      <category name="01.3 Sandwiches non-végétariens (07:00 - 18:00)">
+      <category name="01.3 Sandwiches non-végétariens">
         <meal>
           <name>½ Levain BIO &quot;Great César&quot;</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
@@ -3477,7 +3463,7 @@
           <note>produit du Luxembourg</note>
         </meal>
       </category>
-      <category name="02. Viennoiseries (07:00 - 18:00)">
+      <category name="02. Viennoiseries">
         <meal>
           <name>Boxemännchen 100 g - BIO</name>
           <note>(01 novembre - 15 décembre)</note>
@@ -3662,7 +3648,7 @@
           <note>produit du Luxembourg</note>
         </meal>
       </category>
-      <category name="03. Gâteaux maison (07:00 - 18:00)">
+      <category name="03. Gâteaux maison">
         <meal>
           <name>Cake au chocolat fairtrade 150 g</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
@@ -3687,7 +3673,7 @@
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="04. Vitamines à emporter (07:00 - 18:00)">
+      <category name="04. Vitamines à emporter">
         <meal>
           <name>Mini Bunny à emporter</name>
           <note>(01 avril - 31 octobre)</note>
@@ -3748,7 +3734,7 @@
           <note>végétalien</note>
         </meal>
       </category>
-      <category name="05. Laitages (07:00 - 18:00)">
+      <category name="05. Laitages">
         <meal>
           <name>Fromage frais avec coulis de fruits de saison 200 g</name>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
@@ -3862,7 +3848,7 @@
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="06. Fruits (07:00 - 18:00)">
+      <category name="06. Fruits">
         <meal>
           <name>Fruit frais entier</name>
           <note>produit constant</note>
@@ -3874,7 +3860,7 @@
           <note>végétalien</note>
         </meal>
       </category>
-      <category name="07. Glaces (07:00 - 18:00)">
+      <category name="07. Glaces">
         <meal>
           <name>Cornet Luxlait (Chocolat, Fraise, Vanille, Praliné, Mocca-vanille)</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
@@ -3911,14 +3897,14 @@
           <note>produit du Luxembourg</note>
         </meal>
       </category>
-      <category name="08. Pâtisserie (07:00 - 18:00)">
+      <category name="08. Pâtisserie">
         <meal>
           <name>Dessert du Jour</name>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="09. Confiseries (07:00 - 18:00)">
+      <category name="09. Confiseries">
         <meal>
           <name>Lët'z Chips - Paprika 40 g</name>
           <note>produit constant</note>
@@ -3930,7 +3916,7 @@
           <note>produit du Luxembourg</note>
         </meal>
       </category>
-      <category name="10.1 Boissons froides - Eau minérale et pétillante (07:00 - 18:00)">
+      <category name="10.1 Boissons froides - Eau minérale et pétillante">
         <meal>
           <name>Rosport Blue 0,25 l btl</name>
           <note>produit constant</note>
@@ -3987,7 +3973,7 @@
           <note>produit du Luxembourg</note>
         </meal>
       </category>
-      <category name="10.2 Boissons froides - Jus de fruits (07:00 - 18:00)">
+      <category name="10.2 Boissons froides - Jus de fruits">
         <meal>
           <name>Jus d'oranges pressé 0,20 l</name>
           <note>produit constant</note>
@@ -4052,7 +4038,7 @@
           <note>produit du Luxembourg</note>
         </meal>
       </category>
-      <category name="10.3 Boissons froides - Sodas (07:00 - 18:00)">
+      <category name="10.3 Boissons froides - Sodas">
         <meal>
           <name>Coca Cola 0,20 l btl</name>
           <note>produit constant</note>
@@ -4091,7 +4077,7 @@
           <note>produit du Luxembourg</note>
         </meal>
       </category>
-      <category name="11. Boissons chaudes (07:00 - 18:00)">
+      <category name="11. Boissons chaudes">
         <meal>
           <name>Café Fairtrade</name>
           <note>produit Transfair</note>
@@ -4135,7 +4121,7 @@
           <note>produit constant</note>
         </meal>
       </category>
-      <category name="12.1 Emballages et articles réutilisables (07:00 - 18:00)">
+      <category name="12.1 Emballages et articles réutilisables">
         <meal>
           <name>Consigne ECOBOX (1000 ml)</name>
           <note>produit constant</note>
@@ -4174,7 +4160,7 @@
           <note>produit constant</note>
         </meal>
       </category>
-      <category name="12.2 Emballages et articles à usage unique (07:00 - 18:00)">
+      <category name="12.2 Emballages et articles à usage unique">
         <meal>
           <name>Boîte à pizza 29 cm</name>
           <note>produit constant</note>
@@ -4224,7 +4210,7 @@
           <note>produit constant</note>
         </meal>
       </category>
-      <category name="13. DayCare (07:00 - 18:00)">
+      <category name="13. DayCare">
         <meal>
           <name>DayCare (gratuit) - Collation du matin</name>
           <note>produit constant</note>
@@ -4240,7 +4226,7 @@
       </category>
     </day>
     <day date="2022-07-22">
-      <category name="Entrée (07:00 - 18:00)">
+      <category name="Entrée">
         <meal>
           <name>Salade grecque</name>
           <note>produit constant</note>
@@ -4252,28 +4238,28 @@
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Végétarien (07:00 - 18:00)">
+      <category name="Végétarien">
         <meal>
           <name>Légumes farcis au ragoût de pois chiches, sauce provencale</name>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Végan (07:00 - 18:00)">
+      <category name="Végan">
         <meal>
           <name>Légumes farcis au ragoût de pois chiches, sauce provencale</name>
           <note>produit constant</note>
           <note>végétalien</note>
         </meal>
       </category>
-      <category name="Pasta (07:00 - 18:00)">
+      <category name="Pasta">
         <meal>
           <name>Bucatini à la pancetta et aux tomates cerises</name>
           <note>non-végétarien</note>
           <note>produit constant</note>
         </meal>
       </category>
-      <category name="Non-végétarien (07:00 - 18:00)">
+      <category name="Non-végétarien">
         <meal>
           <name>Paschtéit</name>
           <note>Bouchée à la Reine</note>
@@ -4282,19 +4268,19 @@
           <note>produit constant</note>
         </meal>
         <meal>
-          <name>Blanc de poulé grillé, beurre café de paris</name>
+          <name>Blanc de poulé grillé, beurre café de Paris</name>
           <note>non-végétarien</note>
           <note>produit constant</note>
         </meal>
       </category>
-      <category name="Dessert (07:00 - 18:00)">
+      <category name="Dessert">
         <meal>
           <name>Tiramisu aux fraises</name>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Snack à emporter (07:00 - 18:00)">
+      <category name="Snack à emporter">
         <meal>
           <name>Salade farfalle, tomates et mozzarella</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
@@ -4313,7 +4299,7 @@
           <note>produit constant</note>
         </meal>
       </category>
-      <category name="01.1 Sandwiches végétariens (07:00 - 18:00)">
+      <category name="01.1 Sandwiches végétariens">
         <meal>
           <name>½ Levain BIO fromage luxembourgeois</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
@@ -4404,7 +4390,7 @@
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="01.2 Sandwiches végans (07:00 - 18:00)">
+      <category name="01.2 Sandwiches végans">
         <meal>
           <name>½ tranche de pain</name>
           <note>Avoine)</note>
@@ -4435,7 +4421,7 @@
           <note>végétalien</note>
         </meal>
       </category>
-      <category name="01.3 Sandwiches non-végétariens (07:00 - 18:00)">
+      <category name="01.3 Sandwiches non-végétariens">
         <meal>
           <name>½ Levain BIO &quot;Great César&quot;</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
@@ -4533,7 +4519,7 @@
           <note>produit du Luxembourg</note>
         </meal>
       </category>
-      <category name="02. Viennoiseries (07:00 - 18:00)">
+      <category name="02. Viennoiseries">
         <meal>
           <name>Boxemännchen 100 g - BIO</name>
           <note>(01 novembre - 15 décembre)</note>
@@ -4718,7 +4704,7 @@
           <note>produit du Luxembourg</note>
         </meal>
       </category>
-      <category name="03. Gâteaux maison (07:00 - 18:00)">
+      <category name="03. Gâteaux maison">
         <meal>
           <name>Cake au chocolat fairtrade 150 g</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
@@ -4743,7 +4729,7 @@
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="04. Vitamines à emporter (07:00 - 18:00)">
+      <category name="04. Vitamines à emporter">
         <meal>
           <name>Mini Bunny à emporter</name>
           <note>(01 avril - 31 octobre)</note>
@@ -4804,7 +4790,7 @@
           <note>végétalien</note>
         </meal>
       </category>
-      <category name="05. Laitages (07:00 - 18:00)">
+      <category name="05. Laitages">
         <meal>
           <name>Fromage frais avec coulis de fruits de saison 200 g</name>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
@@ -4918,7 +4904,7 @@
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="06. Fruits (07:00 - 18:00)">
+      <category name="06. Fruits">
         <meal>
           <name>Fruit frais entier</name>
           <note>produit constant</note>
@@ -4930,7 +4916,7 @@
           <note>végétalien</note>
         </meal>
       </category>
-      <category name="07. Glaces (07:00 - 18:00)">
+      <category name="07. Glaces">
         <meal>
           <name>Cornet Luxlait (Chocolat, Fraise, Vanille, Praliné, Mocca-vanille)</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
@@ -4967,14 +4953,14 @@
           <note>produit du Luxembourg</note>
         </meal>
       </category>
-      <category name="08. Pâtisserie (07:00 - 18:00)">
+      <category name="08. Pâtisserie">
         <meal>
           <name>Dessert du Jour</name>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="09. Confiseries (07:00 - 18:00)">
+      <category name="09. Confiseries">
         <meal>
           <name>Lët'z Chips - Paprika 40 g</name>
           <note>produit constant</note>
@@ -4986,7 +4972,7 @@
           <note>produit du Luxembourg</note>
         </meal>
       </category>
-      <category name="10.1 Boissons froides - Eau minérale et pétillante (07:00 - 18:00)">
+      <category name="10.1 Boissons froides - Eau minérale et pétillante">
         <meal>
           <name>Rosport Blue 0,25 l btl</name>
           <note>produit constant</note>
@@ -5043,7 +5029,7 @@
           <note>produit du Luxembourg</note>
         </meal>
       </category>
-      <category name="10.2 Boissons froides - Jus de fruits (07:00 - 18:00)">
+      <category name="10.2 Boissons froides - Jus de fruits">
         <meal>
           <name>Jus d'oranges pressé 0,20 l</name>
           <note>produit constant</note>
@@ -5108,7 +5094,7 @@
           <note>produit du Luxembourg</note>
         </meal>
       </category>
-      <category name="10.3 Boissons froides - Sodas (07:00 - 18:00)">
+      <category name="10.3 Boissons froides - Sodas">
         <meal>
           <name>Coca Cola 0,20 l btl</name>
           <note>produit constant</note>
@@ -5147,7 +5133,7 @@
           <note>produit du Luxembourg</note>
         </meal>
       </category>
-      <category name="11. Boissons chaudes (07:00 - 18:00)">
+      <category name="11. Boissons chaudes">
         <meal>
           <name>Café Fairtrade</name>
           <note>produit Transfair</note>
@@ -5191,7 +5177,7 @@
           <note>produit constant</note>
         </meal>
       </category>
-      <category name="12.1 Emballages et articles réutilisables (07:00 - 18:00)">
+      <category name="12.1 Emballages et articles réutilisables">
         <meal>
           <name>Consigne ECOBOX (1000 ml)</name>
           <note>produit constant</note>
@@ -5230,7 +5216,7 @@
           <note>produit constant</note>
         </meal>
       </category>
-      <category name="12.2 Emballages et articles à usage unique (07:00 - 18:00)">
+      <category name="12.2 Emballages et articles à usage unique">
         <meal>
           <name>Boîte à pizza 29 cm</name>
           <note>produit constant</note>
@@ -5280,7 +5266,7 @@
           <note>produit constant</note>
         </meal>
       </category>
-      <category name="13. DayCare (07:00 - 18:00)">
+      <category name="13. DayCare">
         <meal>
           <name>DayCare (gratuit) - Collation du matin</name>
           <note>produit constant</note>
@@ -5337,7 +5323,7 @@
       </category>
       <category name="Non-végétarien (07:00 - 18:00)">
         <meal>
-          <name>Mixed Grill de viandes</name>
+          <name>Mixed grill de viandes</name>
           <note>non-végétarien</note>
           <note>produit constant</note>
           <note>produit du Luxembourg</note>
@@ -7430,14 +7416,14 @@
           <note>végétarien</note>
         </meal>
         <meal>
-          <name>Quiche végétarienne aux légumes estivaux et feta</name>
+          <name>Quiche végétarienne aux légumes estivaux et Feta</name>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Végan (07:00 - 18:00)">
         <meal>
-          <name>Tarte tatin, babaganoush et légumes grillés</name>
+          <name>Tarte tatin, baba ganoush et légumes grillés</name>
           <note>produit constant</note>
           <note>végétalien</note>
         </meal>
@@ -8500,7 +8486,7 @@
       </category>
       <category name="Non-végétarien (07:00 - 18:00)">
         <meal>
-          <name>Steak de boeuf façon &quot;Tagliata&quot;</name>
+          <name>Steak haché de boeuf aux oignons, jus réduit aux herbes</name>
           <note>non-végétarien</note>
           <note>produit constant</note>
         </meal>
@@ -9533,7 +9519,7 @@
       </category>
       <category name="Végétarien (07:00 - 18:00)">
         <meal>
-          <name>Nems aux lentilles, carottes couleur, artichaut, sauce chili douce</name>
+          <name>Nems aux lentilles, carottes couleur, artichauts, sauce chili douce</name>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
