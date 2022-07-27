@@ -8,6 +8,7 @@ on:
 jobs:
   generateXMLFeedsToday:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
     - uses: actions/checkout@v3
     - name: Set up Python 3.10
