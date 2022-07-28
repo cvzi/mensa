@@ -3,7 +3,58 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2022-07-27">
+    <day date="2022-07-28">
+      <category name="Tellergericht">
+        <meal>
+          <name>Brötchen</name>
+          <note>Glutenhaltiges Getreide</note>
+          <price role="employee">0.50</price>
+          <price role="other">0.50</price>
+          <price role="student">0.35</price>
+        </meal>
+        <meal>
+          <name>Kl. Schüssel: Soljanka</name>
+          <note>Milch/Milchzucker</note>
+          <note>Schweinefleisch</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
+          <note>mit Antioxidationsmittel</note>
+          <note>mit Konservierungsstoff</note>
+          <note>mit Phosphat</note>
+          <note>mit Süßungsmittel</note>
+          <price role="employee">1.55</price>
+          <price role="other">2.30</price>
+          <price role="student">0.85</price>
+        </meal>
+        <meal>
+          <name>Teller: Soljanka</name>
+          <note>Milch/Milchzucker</note>
+          <note>Schweinefleisch</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
+          <note>mit Antioxidationsmittel</note>
+          <note>mit Konservierungsstoff</note>
+          <note>mit Phosphat</note>
+          <note>mit Süßungsmittel</note>
+          <price role="employee">2.30</price>
+          <price role="other">3.50</price>
+          <price role="student">1.40</price>
+        </meal>
+        <meal>
+          <name>Terrine: Soljanka</name>
+          <note>Milch/Milchzucker</note>
+          <note>Schweinefleisch</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
+          <note>mit Antioxidationsmittel</note>
+          <note>mit Konservierungsstoff</note>
+          <note>mit Phosphat</note>
+          <note>mit Süßungsmittel</note>
+          <price role="employee">3.60</price>
+          <price role="other">4.90</price>
+          <price role="student">2.00</price>
+        </meal>
+      </category>
       <category name="Komponente 1">
         <meal>
           <name>Schlemmerfilet Broccoli Käse mit Dill-Curry-Honigsoße</name>
@@ -17,9 +68,14 @@
       </category>
       <category name="Komponente 2">
         <meal>
-          <name>Paniertes Schweinelachsschnitzel mit Paprikasauce</name>
+          <name>Schweineschnitzel Art &quot;Cordon bleu&quot; mit Soße &quot;Cafè de Paris&quot;</name>
           <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker</note>
           <note>Schweinefleisch</note>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
+          <note>jodiertes Salz</note>
+          <note>mit Antioxidationsmittel</note>
+          <note>mit Konservierungsstoff</note>
           <price role="employee">3.00</price>
           <price role="other">3.85</price>
           <price role="student">2.15</price>
@@ -27,35 +83,40 @@
       </category>
       <category name="Vegetarisch oder Vegan">
         <meal>
-          <name>Vegan: Avocado-Quinoa-Patty [mit Kürbis, Tomaten, Lauch und Haferflocken] mit Kräuter-Tomatensoße  Reis</name>
+          <name>Eierragout mit Spargel, Erbsen und Karotten dazu Salzkartoffeln</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
-          <note>jodiertes Salz</note>
-          <price role="employee">3.15</price>
-          <price role="other">4.45</price>
-          <price role="student">1.95</price>
-        </meal>
-        <meal>
-          <name>Vegan: 8 Kichererbsenbällchen mit Kräuter-Tomatensoße (9,A,I,) und Reis</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>jodiertes Salz</note>
+          <note>Milch/Milchzucker</note>
+          <note>geschwefelt</note>
           <price role="employee">3.15</price>
           <price role="other">4.45</price>
           <price role="student">1.95</price>
         </meal>
       </category>
+      <category name="Mensa Vital">
+        <meal>
+          <name>Vegan: Aubergine im Haferflockenmantel mit Tomatensoße und Gemüsebulgur</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>jodiertes Salz</note>
+          <price role="employee">3.80</price>
+          <price role="other">5.10</price>
+          <price role="student">2.50</price>
+        </meal>
+      </category>
       <category name="Nudeltheke nach Gewicht (Preis pro 100g) Bitte extra Pasta-Teller verwenden">
         <meal>
-          <name>Hartkäse gerieben, portioniert (an der Kasse erhältlich)</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <name>Spiralnudeln mit Kürbispesto</name>
+          <note>Glutenhaltiges Getreide</note>
           <note>Milch/Milchzucker</note>
-          <note>mit Konservierungsstoff</note>
-          <price role="employee">0.40</price>
-          <price role="other">0.55</price>
-          <price role="student">0.25</price>
+          <note>Schalenfrüchte und daraus hergestellte Erzeugnisse</note>
+          <price role="employee">0.75</price>
+          <price role="other">1.10</price>
+          <price role="student">0.50</price>
         </meal>
         <meal>
-          <name>Vegan:Nudeln mit Rote-Bete-Minz-Pesto</name>
+          <name>Spiralnudeln mit Kürbispesto</name>
           <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker</note>
           <note>Schalenfrüchte und daraus hergestellte Erzeugnisse</note>
           <price role="employee">0.75</price>
           <price role="other">1.10</price>
@@ -64,6 +125,13 @@
       </category>
       <category name="Beilagen">
         <meal>
+          <name>Salzkartoffeln   Ausgabe 4</name>
+          <note>geschwefelt</note>
+          <price role="employee">0.90</price>
+          <price role="other">1.30</price>
+          <price role="student">0.60</price>
+        </meal>
+        <meal>
           <name>Reis   Ausgabe 4</name>
           <note>jodiertes Salz</note>
           <price role="employee">0.90</price>
@@ -71,19 +139,18 @@
           <price role="student">0.60</price>
         </meal>
         <meal>
-          <name>Salzkartoffeln   Ausgabe 4</name>
-          <note>geschwefelt</note>
-          <price role="employee">0.90</price>
-          <price role="other">1.30</price>
-          <price role="student">0.60</price>
+          <name>Pommes Frites Ausgabe 4</name>
+          <price role="employee">1.20</price>
+          <price role="other">1.60</price>
+          <price role="student">0.90</price>
         </meal>
       </category>
       <category name="Gemüse">
         <meal>
-          <name>Kaisergemüse Ausgabe 2, 4</name>
-          <price role="employee">1.10</price>
-          <price role="other">1.50</price>
-          <price role="student">0.80</price>
+          <name>Sommergemüse   (Blumenkohl, Brechbohnen, Karottenstäbchen, Markerbsen) Ausgabe 2, 4</name>
+          <price role="employee">0.90</price>
+          <price role="other">1.30</price>
+          <price role="student">0.60</price>
         </meal>
       </category>
       <category name="Salate und Desserts">
