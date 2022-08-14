@@ -55,6 +55,8 @@ allergens = {
 
 imgs = {
     "/terroir.png": "produit du Luxembourg",
+    "/greater_region.jpg": "Produit du Grand Région",
+    "/benelux.jpg": "Produit du Benelux",
     "/bio.png": "biologique",
     "/transfair.png": "produit Transfair",
     "/vegetarian.png": "végétarien",
