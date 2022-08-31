@@ -3,58 +3,70 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2022-08-30">
+    <day date="2022-08-31">
       <category name="Komponente 1">
         <meal>
-          <name>Fischfilet paniert mit Tomatensoße</name>
-          <note>Fische und daraus hergestellte Erzeugnisse</note>
+          <name>Hühnerfrikassee mit Gemüse (9,Gefl,G,A,C,F,I,J)</name>
+          <price role="employee">3.00</price>
+          <price role="other">3.85</price>
+          <price role="student">2.15</price>
+        </meal>
+      </category>
+      <category name="Komponente 2">
+        <meal>
+          <name>Kohlroulade mit Krautsauce</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker</note>
+          <note>Rindfleisch</note>
+          <note>Schweinefleisch</note>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
           <note>jodiertes Salz</note>
           <price role="employee">3.00</price>
           <price role="other">3.85</price>
           <price role="student">2.15</price>
         </meal>
       </category>
-      <category name="Vegetarisch oder Vegan">
+      <category name="Mensa Vital">
         <meal>
-          <name>Vegan : Broccoli-Nuss-Ecke Soja-Dip  und Salatbeilage</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Schalenfrüchte und daraus hergestellte Erzeugnisse</note>
-          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
-          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
+          <name>Gnocchis mit buntem Gemüse und Salat</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
           <note>jodiertes Salz</note>
-          <note>mit Antioxidationsmittel</note>
           <price role="employee">3.15</price>
           <price role="other">4.45</price>
           <price role="student">1.95</price>
+        </meal>
+      </category>
+      <category name="Nudeltheke nach Gewicht (Preis pro 100 g)">
+        <meal>
+          <name>Vegan: Makkaroni mit fruchtiger Tomatensoße</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>jodiertes Salz</note>
+          <price role="employee">0.75</price>
+          <price role="other">1.10</price>
+          <price role="student">0.50</price>
         </meal>
       </category>
       <category name="Beilagen">
         <meal>
           <name>Salzkartoffeln   Ausgabe 1</name>
           <note>geschwefelt</note>
+          <note>jodiertes Salz</note>
           <price role="employee">0.90</price>
           <price role="other">1.30</price>
           <price role="student">0.60</price>
         </meal>
         <meal>
-          <name>Kräuterreis Ausgabe 1</name>
+          <name>Reis   Ausgabe 1</name>
+          <note>jodiertes Salz</note>
           <price role="employee">0.90</price>
           <price role="other">1.30</price>
           <price role="student">0.60</price>
-        </meal>
-        <meal>
-          <name>Spätzle   Ausgabe 1</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
-          <note>Glutenhaltiges Getreide</note>
-          <price role="employee">1.20</price>
-          <price role="other">1.60</price>
-          <price role="student">0.90</price>
         </meal>
       </category>
       <category name="Gemüse">
         <meal>
-          <name>Leipziger Allerlei   (Erbsen, Karotten, Spargel) Ausgabe 1</name>
+          <name>Sommergemüse   (Blumenkohl, Brechbohnen, Karottenstäbchen, Markerbsen) Ausgabe 1</name>
           <price role="employee">0.90</price>
           <price role="other">1.30</price>
           <price role="student">0.60</price>
