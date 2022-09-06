@@ -132,8 +132,12 @@ def updateFeeds(force=None,
                             log(f"    - 🍱 {filename}", end="", flush=True)
                             os.makedirs(os.path.dirname(filename), exist_ok=True)
                             content = getattr(parser, feedMethod)(mensaReference)
-                            with open(os.path.join(repoPath, filename), 'w', encoding='utf8') as f:
-                                f.write(content)
+                            if type(content) is bytes:
+                                with open(os.path.join(repoPath, filename), 'wb') as f:
+                                    f.write(content)
+                            else:
+                                with open(os.path.join(repoPath, filename), 'w', encoding='utf8') as f:
+                                    f.write(content)
                             log(f"  {greenOk}")
                 except KeyboardInterrupt as e:
                     raise e
