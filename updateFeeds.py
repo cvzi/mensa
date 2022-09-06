@@ -125,7 +125,7 @@ def updateFeeds(force=None,
                             if not feedMethods and not updateMeta:
                                 log("\033[F\033[K", end="")
                         else:
-                            feedMethods = [feedMethod for feedMethod in ["feed", "feed_today", "feed_all"] if hasattr(parser, feedMethod)]
+                            feedMethods = [feedMethod for feedMethod in ["feed", "feed_today", "feed_all", "feed_full"] if hasattr(parser, feedMethod)]
                         for feedMethod in feedMethods:
                             fileTitle = "today" if feedMethod == "feed_today" else "feed"
                             filename = filenameTemplate.format(base=basePath, parserName=parserName).format(metaOrFeed=fileTitle, mensaReference=mensaReference)
