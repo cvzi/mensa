@@ -3,37 +3,22 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2022-09-06">
+    <day date="2022-09-09">
       <category name="Tellergericht">
         <meal>
-          <name>Kl. Schüssel: Linseneintopf mit Rindfleisch</name>
-          <note>Rindfleisch</note>
-          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
-          <note>geschwefelt</note>
-          <note>mit Antioxidationsmittel</note>
-          <note>mit Konservierungsstoff</note>
+          <name>Kl. Schüssel: Vegan: Grüne Kokossuppe mit Spinat und Erbsen</name>
           <price role="employee">1.55</price>
           <price role="other">2.30</price>
           <price role="student">0.85</price>
         </meal>
         <meal>
-          <name>Teller: Linseneintopf mit Rindfleisch</name>
-          <note>Rindfleisch</note>
-          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
-          <note>geschwefelt</note>
-          <note>mit Antioxidationsmittel</note>
-          <note>mit Konservierungsstoff</note>
+          <name>Teller: Vegan: Grüne Kokossuppe mit Spinat und Erbsen</name>
           <price role="employee">2.30</price>
           <price role="other">3.50</price>
           <price role="student">1.40</price>
         </meal>
         <meal>
-          <name>Terrine: Linseneintopf mit Rindfleisch</name>
-          <note>Rindfleisch</note>
-          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
-          <note>geschwefelt</note>
-          <note>mit Antioxidationsmittel</note>
-          <note>mit Konservierungsstoff</note>
+          <name>Terrine: Vegan: Grüne Kokossuppe mit Spinat und Erbsen</name>
           <price role="employee">3.60</price>
           <price role="other">4.90</price>
           <price role="student">2.00</price>
@@ -41,41 +26,66 @@
       </category>
       <category name="Komponente 2">
         <meal>
-          <name>Schweinelachsschnitzel</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <name>Schweinegulasch</name>
           <note>Glutenhaltiges Getreide</note>
           <note>Milch/Milchzucker</note>
           <note>Schweinefleisch</note>
-          <note>jodiertes Salz</note>
+          <price role="employee">2.75</price>
+          <price role="other">3.60</price>
+          <price role="student">1.90</price>
+        </meal>
+      </category>
+      <category name="Komponente 3">
+        <meal>
+          <name>Gebratene Hähnchenkeule (Gefl) mit Majoransoße</name>
+          <note>Glutenhaltiges Getreide</note>
           <price role="employee">3.00</price>
           <price role="other">3.85</price>
           <price role="student">2.15</price>
         </meal>
       </category>
-      <category name="Komponente 3 pro Portion oder nach Gewicht (pro 100g)">
-        <meal>
-          <name>Pastateller: Hühnerfrikassee (Gefl,A) mit Reis</name>
-          <price role="employee">0.86</price>
-          <price role="other">1.21</price>
-          <price role="student">0.61</price>
-        </meal>
-      </category>
       <category name="Vegetarisch oder Vegan">
         <meal>
-          <name>Vegan: 2 Quinoa-Erbsen-Frikadellen dazu CousCous oriental mit Linsen</name>
+          <name>Vegan: Gyros mit Tzaziki [mit Soja+Knoblauch]  und Langkornreis</name>
           <note>Glutenhaltiges Getreide</note>
-          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
-          <price role="employee">3.15</price>
-          <price role="other">4.45</price>
-          <price role="student">1.95</price>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
+          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
+          <note>jodiertes Salz</note>
+          <note>mit Antioxidationsmittel</note>
+          <price role="employee">3.70</price>
+          <price role="other">5.00</price>
+          <price role="student">2.50</price>
         </meal>
       </category>
       <category name="Mittagsgericht Cafeteria Klinikum (zzgl. 5€ ReBowl-Pfand)">
         <meal>
-          <name>Hühnerfrikassee (Gefl,A) mit Langkornreis</name>
-          <price role="employee">3.90</price>
-          <price role="other">5.15</price>
-          <price role="student">2.75</price>
+          <name>Gabelspaghetti mit Bolognesesoße</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Rindfleisch</note>
+          <price role="employee">3.35</price>
+          <price role="other">4.60</price>
+          <price role="student">2.20</price>
+        </meal>
+      </category>
+      <category name="Pasta pro Portion oder nach Gewicht (pro 100g)">
+        <meal>
+          <name>Pastateller: Gabelspaghetti mit Bolognesesoße</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Rindfleisch</note>
+          <price role="employee">0.75</price>
+          <price role="other">1.10</price>
+          <price role="student">0.50</price>
+        </meal>
+        <meal>
+          <name>Gabelspaghetti mit Bolognesesoße</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Rindfleisch</note>
+          <price role="employee">3.35</price>
+          <price role="other">4.60</price>
+          <price role="student">2.20</price>
         </meal>
       </category>
       <category name="Beilagen">
@@ -104,23 +114,15 @@
           <price role="student">0.40</price>
         </meal>
         <meal>
-          <name>Reis Ausgabe 3</name>
+          <name>Langkornreis Ausgabe 2</name>
           <price role="employee">0.90</price>
           <price role="other">1.30</price>
           <price role="student">0.60</price>
         </meal>
         <meal>
-          <name>Kartoffeln Ausgabe 4</name>
+          <name>Kartoffeln Ausgabe 3</name>
           <price role="employee">0.90</price>
           <price role="other">1.30</price>
-          <price role="student">0.60</price>
-        </meal>
-        <meal>
-          <name>Minz-Soja-Dip   Ausgabe 2</name>
-          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
-          <note>mit Antioxidationsmittel</note>
-          <price role="employee">0.75</price>
-          <price role="other">0.90</price>
           <price role="student">0.60</price>
         </meal>
         <meal>
@@ -130,8 +132,15 @@
           <price role="student">0.90</price>
         </meal>
         <meal>
-          <name>CousCous oriental mit Linsen   Ausgabe 2</name>
-          <note>Glutenhaltiges Getreide</note>
+          <name>Süßkartoffelpüree   Ausgabe 4</name>
+          <note>Milch/Milchzucker</note>
+          <note>mit Antioxidationsmittel</note>
+          <price role="employee">1.20</price>
+          <price role="other">1.60</price>
+          <price role="student">0.90</price>
+        </meal>
+        <meal>
+          <name>3 Kartoffelklöße Ausgabe 4</name>
           <price role="employee">1.20</price>
           <price role="other">1.60</price>
           <price role="student">0.90</price>
@@ -145,23 +154,28 @@
       </category>
       <category name="Gemüse">
         <meal>
-          <name>Blumenkohl   Ausgabe 2</name>
-          <note>jodiertes Salz</note>
+          <name>Apfelrotkohl   Ausgabe 4</name>
+          <note>mit Antioxidationsmittel</note>
           <price role="employee">0.90</price>
           <price role="other">1.30</price>
           <price role="student">0.60</price>
         </meal>
         <meal>
-          <name>Pariser Möhren in Rahm   Ausgabe 4</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Milch/Milchzucker</note>
-          <price role="employee">1.10</price>
-          <price role="other">1.50</price>
-          <price role="student">0.80</price>
+          <name>Grüne Bohnen Ausgabe 2, 4</name>
+          <price role="employee">0.90</price>
+          <price role="other">1.30</price>
+          <price role="student">0.60</price>
         </meal>
         <meal>
-          <name>Kaisergemüse [Brokkoli, Blumenkohl, Karottenscheiben]   Ausgabe 2, 4</name>
+          <name>Weisskrautsalat   Ausgabe 2</name>
           <note>jodiertes Salz</note>
+          <note>mit Antioxidationsmittel</note>
+          <price role="employee">0.90</price>
+          <price role="other">1.30</price>
+          <price role="student">0.60</price>
+        </meal>
+        <meal>
+          <name>China-Gemüsemix [Bambus, Bohnenkeimlinge, Paprika, Porree, Weißkohl, Zwiebeln, Pilze] Ausgabe 3</name>
           <price role="employee">1.10</price>
           <price role="other">1.50</price>
           <price role="student">0.80</price>
