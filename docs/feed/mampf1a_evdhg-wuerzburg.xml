@@ -3,34 +3,6 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2022-09-16">
-      <category name="fleischlos">
-        <meal>
-          <name>Indisches Linsen Dal mit Reis 6,30 € Indisches Linsen Dal mit Reis [I,A1]</name>
-          <note>fleischlos</note>
-          <price role="student">6.30</price>
-        </meal>
-      </category>
-      <category name="muslimisch">
-        <meal>
-          <name>Indisches Linsen Dal mit Reis 5,10 € Indisches Linsen Dal mit Reis [I,A1]</name>
-          <price role="student">5.10</price>
-        </meal>
-      </category>
-      <category name="Teenager fleischlos">
-        <meal>
-          <name>veg. Schaschliktopf mit Baguettebrötchen, Pfirsich-Kompott 6,30 € veg. Schaschliktopf mit Baguettebrötchen [10,A,F] Pfirsich-Kompott</name>
-          <note>fleischlos</note>
-          <price role="student">6.30</price>
-        </meal>
-      </category>
-      <category name="Teenager normal">
-        <meal>
-          <name>Schaschliktopf mit Baguettebrötchen, Pfirsich-Kompott 6,30 € Schaschliktopf mit Baguettebrötchen [3,10,A,F,I,J] Pfirsich-Kompott</name>
-          <price role="student">6.30</price>
-        </meal>
-      </category>
-    </day>
     <day date="2022-09-19">
       <category name="muslimisch">
         <meal>
@@ -109,6 +81,12 @@
           <price role="student">5.10</price>
         </meal>
       </category>
+      <category name="normal">
+        <meal>
+          <name>Bratwurst mit Kartoffelpüree und Sauerkraut 5,10 € Bratwurst mit Kartoffelpüree und Sauerkraut [G,I,J]</name>
+          <price role="student">5.10</price>
+        </meal>
+      </category>
       <category name="Teenager fleischlos">
         <meal>
           <name>Semmelkloß mit Waldpilzragout dazu Salat 6,30 € Semmelkloß mit Waldpilzragout dazu Salat [10,A1,C,G]</name>
@@ -120,12 +98,6 @@
         <meal>
           <name>Leberwurst mit Salzkartoffeln und Sauerkraut 6,10 € Leberwurst mit Salzkartoffeln und Sauerkraut [3,4,I,J,]</name>
           <price role="student">6.10</price>
-        </meal>
-      </category>
-      <category name="normal">
-        <meal>
-          <name>Bratwurst mit Kartoffelpüree und Sauerkraut 5,10 € Bratwurst mit Kartoffelpüree und Sauerkraut [G,I,J]</name>
-          <price role="student">5.10</price>
         </meal>
       </category>
     </day>
@@ -172,6 +144,16 @@
           <price role="student">5.10</price>
         </meal>
       </category>
+      <category name="normal">
+        <meal>
+          <name>Fischstäbchen mit Salzkartoffeln dazu hausgemachter Kräuterquark, Karottenrohkostsalat 5,10 € Fischstäbchen mit Salzkartoffeln dazu hausgemachter Kräuterquark [10,A1,G,J] Karottenrohkostsalat</name>
+          <note>fleischlos</note>
+          <note>mit Backtriebmittel</note>
+          <note>mit Milchprodukten (lactosehaltig)</note>
+          <note>mit Senf</note>
+          <price role="student">5.10</price>
+        </meal>
+      </category>
       <category name="Teenager fleischlos">
         <meal>
           <name>Gemüsestäbchen mit Salzkartoffeln und Kräuterquark, Karottenrohkostsalat 5,10 € Gemüsestäbchen mit Salzkartoffeln und Kräuterquark [10,A1,C,G,I] Karottenrohkostsalat</name>
@@ -187,16 +169,6 @@
         <meal>
           <name>Schollenfilet paniert mit Salzkartoffeln dazu hausgemachte Remoulade, Karottenrohkostsalat 6,30 € Schollenfilet paniert mit Salzkartoffeln dazu hausgemachte Remoulade [A1,I,J,D] Karottenrohkostsalat</name>
           <price role="student">6.30</price>
-        </meal>
-      </category>
-      <category name="normal">
-        <meal>
-          <name>Fischstäbchen mit Salzkartoffeln dazu hausgemachter Kräuterquark, Karottenrohkostsalat 5,10 € Fischstäbchen mit Salzkartoffeln dazu hausgemachter Kräuterquark [10,A1,G,J] Karottenrohkostsalat</name>
-          <note>fleischlos</note>
-          <note>mit Backtriebmittel</note>
-          <note>mit Milchprodukten (lactosehaltig)</note>
-          <note>mit Senf</note>
-          <price role="student">5.10</price>
         </meal>
       </category>
     </day>
@@ -216,14 +188,13 @@
       </category>
     </day>
     <day date="2022-09-28">
-      <category name="fleischlos">
+      <category name="muslimisch">
         <meal>
-          <name>Ravioli mit Tomatensoße, fränkische Birnen aus Bibergau 5,10 € Ravioli mit Tomatensoße [1,A1,C,G] fränkische Birnen aus Bibergau</name>
-          <note>fleischlos</note>
+          <name>Ravioli mit Tomatensoße, fränkische Birnen aus Bibergau 5,10 € Ravioli mit Tomatensoße [A1,C,G] fränkische Birnen aus Bibergau</name>
           <price role="student">5.10</price>
         </meal>
       </category>
-      <category name="muslimisch">
+      <category name="normal">
         <meal>
           <name>Ravioli mit Tomatensoße, fränkische Birnen aus Bibergau 5,10 € Ravioli mit Tomatensoße [A1,C,G] fränkische Birnen aus Bibergau</name>
           <price role="student">5.10</price>
@@ -242,9 +213,10 @@
           <price role="student">6.10</price>
         </meal>
       </category>
-      <category name="normal">
+      <category name="fleischlos">
         <meal>
-          <name>Ravioli mit Tomatensoße, fränkische Birnen aus Bibergau 5,10 € Ravioli mit Tomatensoße [A1,C,G] fränkische Birnen aus Bibergau</name>
+          <name>Ravioli mit Tomatensoße, fränkische Birnen aus Bibergau 5,10 € Ravioli mit Tomatensoße [1,A1,C,G] fränkische Birnen aus Bibergau</name>
+          <note>fleischlos</note>
           <price role="student">5.10</price>
         </meal>
       </category>
