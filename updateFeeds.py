@@ -1,6 +1,7 @@
 import importlib
 import sys
 import os
+import io
 import traceback
 import argparse
 import urllib
@@ -74,7 +75,7 @@ def generateIndexHtml(baseUrl, basePath, errors=None):
     if errors:
         status += '\n<pre>' + '\n'.join(errors) + '</pre>'
 
-    with open(os.path.join(repoPath, basePath, 'index.html'), 'w', encoding='utf8') as f:
+    with io.open(os.path.join(repoPath, basePath, 'index.html'), 'w', encoding='utf8', newline='\n') as f:
         f.write(template.substitute(content=content, status=status))
 
 
@@ -107,7 +108,7 @@ def updateFeeds(force=None,
                 log(f" - 🐏 {filename}", end="", flush=True)
                 os.makedirs(os.path.dirname(filename), exist_ok=True)
                 content = parser.json()
-                with open(os.path.join(repoPath, filename), 'w', encoding='utf8') as f:
+                with io.open(os.path.join(repoPath, filename), 'w', encoding='utf8', newline='\n') as f:
                     f.write(content)
                 log(f"  {greenOk}")
 
@@ -123,7 +124,7 @@ def updateFeeds(force=None,
                         log(f"    - 🈺 {filename}", end="", flush=True)
                         os.makedirs(os.path.dirname(filename), exist_ok=True)
                         content = parser.meta(mensaReference)
-                        with open(os.path.join(repoPath, filename), 'w', encoding='utf8') as f:
+                        with io.open(os.path.join(repoPath, filename), 'w', encoding='utf8', newline='\n') as f:
                             f.write(content)
                         log(f"  {greenOk}")
                     if updateFeed or updateToday:
@@ -148,7 +149,7 @@ def updateFeeds(force=None,
                                 with open(os.path.join(repoPath, filename), 'wb') as f:
                                     f.write(content)
                             else:
-                                with open(os.path.join(repoPath, filename), 'w', encoding='utf8') as f:
+                                with io.open(os.path.join(repoPath, filename), 'w', encoding='utf8', newline='\n') as f:
                                     f.write(content)
                             log(f"  {greenOk}")
                 except KeyboardInterrupt as e:
