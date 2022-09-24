@@ -3,43 +3,20 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2022-09-23">
-      <category name="muslimisch">
-        <meal>
-          <name>Linseneintopf mit Spätzle, Gemüse &amp; Putenwiener, fränkische Birnen aus Bibergau 5,10 € Linseneintopf mit Spätzle, Gemüse &amp; Putenwiener [A1,C,I,] fränkische Birnen aus Bibergau</name>
-          <note>mit Ei</note>
-          <note>mit Nitritpökelsalz</note>
-          <note>mit Phosphat</note>
-          <note>mit Sellerie</note>
-          <note>mit Senf</note>
-          <price role="student">5.10</price>
-        </meal>
-      </category>
-      <category name="Teenager fleischlos">
-        <meal>
-          <name>Linseneintopf mit Spätzle &amp; Gemüse, fränkische Birnen aus Bibergau 5,10 € Linseneintopf mit Spätzle &amp; Gemüse [A1,C,I] fränkische Birnen aus Bibergau</name>
-          <note>fleischlos</note>
-          <note>mit Ei</note>
-          <note>mit Sellerie</note>
-          <price role="student">5.10</price>
-        </meal>
-      </category>
-      <category name="Teenager normal">
-        <meal>
-          <name>Linseneintopf mit Spätzle, Gemüse &amp; Putenwiener, fränkische Birnen aus Bibergau 5,10 € Linseneintopf mit Spätzle, Gemüse &amp; Putenwiener [A1,C,I,] fränkische Birnen aus Bibergau</name>
-          <note>mit Ei</note>
-          <note>mit Nitritpökelsalz</note>
-          <note>mit Phosphat</note>
-          <note>mit Sellerie</note>
-          <note>mit Senf</note>
-          <price role="student">5.10</price>
-        </meal>
-      </category>
-    </day>
     <day date="2022-09-26">
       <category name="muslimisch">
         <meal>
           <name>Fischstäbchen mit Salzkartoffeln dazu hausgemachter Kräuterquark, Karottenrohkostsalat 5,10 € Fischstäbchen mit Salzkartoffeln dazu hausgemachter Kräuterquark [10,A1,G,J] Karottenrohkostsalat</name>
+          <note>mit Backtriebmittel</note>
+          <note>mit Milchprodukten (lactosehaltig)</note>
+          <note>mit Senf</note>
+          <price role="student">5.10</price>
+        </meal>
+      </category>
+      <category name="normal">
+        <meal>
+          <name>Fischstäbchen mit Salzkartoffeln dazu hausgemachter Kräuterquark, Karottenrohkostsalat 5,10 € Fischstäbchen mit Salzkartoffeln dazu hausgemachter Kräuterquark [10,A1,G,J] Karottenrohkostsalat</name>
+          <note>fleischlos</note>
           <note>mit Backtriebmittel</note>
           <note>mit Milchprodukten (lactosehaltig)</note>
           <note>mit Senf</note>
@@ -63,16 +40,6 @@
           <price role="student">6.30</price>
         </meal>
       </category>
-      <category name="normal">
-        <meal>
-          <name>Fischstäbchen mit Salzkartoffeln dazu hausgemachter Kräuterquark, Karottenrohkostsalat 5,10 € Fischstäbchen mit Salzkartoffeln dazu hausgemachter Kräuterquark [10,A1,G,J] Karottenrohkostsalat</name>
-          <note>fleischlos</note>
-          <note>mit Backtriebmittel</note>
-          <note>mit Milchprodukten (lactosehaltig)</note>
-          <note>mit Senf</note>
-          <price role="student">5.10</price>
-        </meal>
-      </category>
     </day>
     <day date="2022-09-27">
       <category name="muslimisch">
@@ -90,7 +57,20 @@
       </category>
     </day>
     <day date="2022-09-28">
+      <category name="fleischlos">
+        <meal>
+          <name>Ravioli mit Tomatensoße, fränkische Birnen aus Bibergau 5,10 € Ravioli mit Tomatensoße [1,A1,C,G] fränkische Birnen aus Bibergau</name>
+          <note>fleischlos</note>
+          <price role="student">5.10</price>
+        </meal>
+      </category>
       <category name="muslimisch">
+        <meal>
+          <name>Ravioli mit Tomatensoße, fränkische Birnen aus Bibergau 5,10 € Ravioli mit Tomatensoße [A1,C,G] fränkische Birnen aus Bibergau</name>
+          <price role="student">5.10</price>
+        </meal>
+      </category>
+      <category name="normal">
         <meal>
           <name>Ravioli mit Tomatensoße, fränkische Birnen aus Bibergau 5,10 € Ravioli mit Tomatensoße [A1,C,G] fränkische Birnen aus Bibergau</name>
           <price role="student">5.10</price>
@@ -107,19 +87,6 @@
         <meal>
           <name>Sauerbraten mit Kloß, Soße, Blaukraut 6,10 € Sauerbraten mit Kloß, Soße, Blaukraut [5,A,I]</name>
           <price role="student">6.10</price>
-        </meal>
-      </category>
-      <category name="fleischlos">
-        <meal>
-          <name>Ravioli mit Tomatensoße, fränkische Birnen aus Bibergau 5,10 € Ravioli mit Tomatensoße [1,A1,C,G] fränkische Birnen aus Bibergau</name>
-          <note>fleischlos</note>
-          <price role="student">5.10</price>
-        </meal>
-      </category>
-      <category name="normal">
-        <meal>
-          <name>Ravioli mit Tomatensoße, fränkische Birnen aus Bibergau 5,10 € Ravioli mit Tomatensoße [A1,C,G] fränkische Birnen aus Bibergau</name>
-          <price role="student">5.10</price>
         </meal>
       </category>
     </day>
@@ -211,7 +178,20 @@
       </category>
     </day>
     <day date="2022-10-06">
+      <category name="fleischlos">
+        <meal>
+          <name>Nudeln mit Broccolicremesauce, Blattsalat mit Honig-Senfdressing 5,10 € Nudeln mit Broccolicremesauce [A1,10,G,C] Blattsalat mit Honig-Senfdressing [J,G,I]</name>
+          <note>fleischlos</note>
+          <price role="student">5.10</price>
+        </meal>
+      </category>
       <category name="muslimisch">
+        <meal>
+          <name>Nudeln mit Bolognese Sauce &amp; Reibekäse, Blattsalat mit Honig-Senfdressing 5,10 € Nudeln mit Bolognese Sauce &amp; Reibekäse [1,2,A,C,G] Blattsalat mit Honig-Senfdressing [J,G,I]</name>
+          <price role="student">5.10</price>
+        </meal>
+      </category>
+      <category name="normal">
         <meal>
           <name>Nudeln mit Bolognese Sauce &amp; Reibekäse, Blattsalat mit Honig-Senfdressing 5,10 € Nudeln mit Bolognese Sauce &amp; Reibekäse [1,2,A,C,G] Blattsalat mit Honig-Senfdressing [J,G,I]</name>
           <price role="student">5.10</price>
@@ -228,19 +208,6 @@
         <meal>
           <name>Lasagne mit Rinderhack, Blattsalat mit Honig-Senfdressing 6,30 € Lasagne mit Rinderhack [A1,G,C] Blattsalat mit Honig-Senfdressing [J,G,I]</name>
           <price role="student">6.30</price>
-        </meal>
-      </category>
-      <category name="fleischlos">
-        <meal>
-          <name>Nudeln mit Broccolicremesauce, Blattsalat mit Honig-Senfdressing 5,10 € Nudeln mit Broccolicremesauce [A1,10,G,C] Blattsalat mit Honig-Senfdressing [J,G,I]</name>
-          <note>fleischlos</note>
-          <price role="student">5.10</price>
-        </meal>
-      </category>
-      <category name="normal">
-        <meal>
-          <name>Nudeln mit Bolognese Sauce &amp; Reibekäse, Blattsalat mit Honig-Senfdressing 5,10 € Nudeln mit Bolognese Sauce &amp; Reibekäse [1,2,A,C,G] Blattsalat mit Honig-Senfdressing [J,G,I]</name>
-          <price role="student">5.10</price>
         </meal>
       </category>
     </day>
