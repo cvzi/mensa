@@ -68,7 +68,7 @@ class Parser:
         }
 
         if "phone" in mensa:
-            data["phone"] = mensa["phone"]
+            data["phone"] = xml_str_param(mensa["phone"])
 
         if "times" in mensa:
             data["times"] = mensa["times"]
