@@ -36,9 +36,11 @@ class Parser:
             return f"Unknown canteen with ref='{xmlEscape(ref)}'"
 
         if nowBerlin().weekday() > 4:
-            meals_url = self.meals_current_week.format(ref=urllib.parse.quote(ref))
+            meals_url = self.meals_current_week.format(
+                ref=urllib.parse.quote(ref))
         else:
-            meals_url = self.meals_next_week.format(ref=urllib.parse.quote(ref))
+            meals_url = self.meals_next_week.format(
+                ref=urllib.parse.quote(ref))
 
         source = requests.get(meals_url, headers=self.headers, stream=True).raw
         dom = defusedxml.lxml.parse(source)
@@ -126,4 +128,4 @@ if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
     p = getParser("http://localhost/{metaOrFeed}/wuwien_{mensaReference}.xml")
     print(p.feed("K16510_DEU"))
-    #print(p.meta("K16510_DEU"))
+    # print(p.meta("K16510_DEU"))
