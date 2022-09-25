@@ -264,13 +264,8 @@ class Parser:
         return 'Wrong mensa name'
 
 
-def getParser(urlTemplate):
-    parser = Parser(urlTemplate)
-    return parser
-
-
 if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
-    p = getParser("http://localhost/{metaOrFeed}/koeln_{mensaReference}.xml")
+    p = Parser("http://localhost/{metaOrFeed}/koeln_{mensaReference}.xml")
     # print(p.meta("iwz-deutz"))
     # print(p.feed_all("iwz-deutz"))

@@ -140,7 +140,7 @@ def test_all_modules():
         try:
             print("Module: %s" % mod.__name__)
 
-            parser = mod.getParser('http://localhost/')
+            parser = mod.Parser('http://localhost/')
             canteens = list(parser.canteens.keys())
 
             for canteen in canteens:
@@ -165,7 +165,7 @@ def one_module(name):
 
     print(f" -> {greenOk}.")
 
-    parser = mod.getParser('http://localhost/')
+    parser = mod.Parser('http://localhost/')
     canteens = list(parser.canteens.keys())
 
     for canteen in canteens:

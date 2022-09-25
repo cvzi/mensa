@@ -296,13 +296,9 @@ class Parser:
         return json.dumps(tmp, indent=2)
 
 
-def getParser(url_template):
-    return Parser(url_template)
-
-
 if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
-    p = getParser("http://localhost/")
+    p = Parser("http://localhost/")
     # print(p.feed_today("rs-gy-bramsche"))
     print(p.feed_all("antonianum"))
     print(p.meta("antonianum"))

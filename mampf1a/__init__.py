@@ -319,13 +319,9 @@ class Parser:
         return json.dumps(tmp, indent=2)
 
 
-def getParser(baseurl):
-    return Parser(baseurl)
-
-
 if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
-    p = getParser("http://localhost/{metaOrFeed}/mampf1a_{mensaReference}.xml")
+    p = Parser("http://localhost/{metaOrFeed}/mampf1a_{mensaReference}.xml")
     k = "Kreuzschwestern.Theodor-Florentini-Schule"
     print("feed:")
     print(p.feed(k))

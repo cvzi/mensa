@@ -174,11 +174,7 @@ class Parser:
         return json.dumps(tmp, indent=2)
 
 
-def getParser(urlTemplate):
-    return Parser(urlTemplate)
-
-
 if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
-    print(getParser("http://localhost/{metaOrFeed}/markas_{mensaReference}.xml")
+    print(Parser("http://localhost/{metaOrFeed}/markas_{mensaReference}.xml")
           .feed("bolzano"))

@@ -3,7 +3,6 @@ import os
 import json
 import logging
 import urllib
-import re
 
 try:
     from version import __version__
@@ -72,13 +71,9 @@ class Parser:
         return json.dumps(tmp, indent=2)
 
 
-def getParser(url_template):
-    return Parser(url_template)
-
-
 if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
-    p = getParser("http://localhost/")
+    p = Parser("http://localhost/")
     print(p.feed_today("mensa-am-berthold-beitz-platz"))
     # print(p.feed_all("mensa-am-berthold-beitz-platz"))
     print(p.meta("mensa-am-berthold-beitz-platz"))

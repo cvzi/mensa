@@ -233,11 +233,7 @@ class Parser:
         return json.dumps(tmp, indent=2)
 
 
-def getParser(urlTemplate):
-    return Parser(urlTemplate)
-
-
 if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
-    print(getParser(
+    print(Parser(
         "http://localhost/{metaOrFeed}/kaiserslautern_{mensaReference}.xml").feed("tumensa"))

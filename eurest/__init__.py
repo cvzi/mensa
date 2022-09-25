@@ -89,12 +89,8 @@ class Parser:
         return json.dumps(tmp, indent=2)
 
 
-def getParser(url_template):
-    return Parser(url_template)
-
-
 if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
-    p = getParser("http://localhost/{metaOrFeed}/eurest_{mensaReference}.xml")
+    p = Parser("http://localhost/{metaOrFeed}/eurest_{mensaReference}.xml")
     print(p.feed("wuwien"))
-    print(p.meta("wuwien"))
+    #print(p.meta("wuwien"))

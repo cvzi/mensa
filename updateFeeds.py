@@ -100,7 +100,7 @@ def updateFeeds(force=None,
         log(f"🗳️ {parserName}")
         try:
             module = importlib.import_module(parserName)
-            parser = module.getParser(filenameTemplate.format(
+            parser = module.Parser(filenameTemplate.format(
                 base=baseUrl, parserName=parserName))
 
             if updateJson:
