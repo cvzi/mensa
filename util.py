@@ -54,9 +54,6 @@ def xml_str_param(s):
 def meta_from_xsl(file_name, data):
     """Generate an openmensa XML meta feed using XSLT"""
 
-    if "phone" in data:
-        data["phone"] = xml_str_param(data["phone"])
-
     if "times" in data:
         opening_times = {}
         pattern = re.compile(
