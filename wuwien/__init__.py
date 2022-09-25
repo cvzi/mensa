@@ -1,6 +1,7 @@
 import sys
 import os
 import json
+from unittest.util import strclass
 import requests
 import logging
 import urllib
@@ -11,7 +12,7 @@ import defusedxml.lxml
 
 try:
     from version import __version__, useragentname, useragentcomment
-    from util import nowBerlin, xmlEscape
+    from util import nowBerlin, xmlEscape, weekdays_map
 except ModuleNotFoundError:
     include = os.path.relpath(os.path.join(os.path.dirname(__file__), '..'))
     sys.path.insert(0, include)
@@ -30,7 +31,7 @@ class Parser:
     meals_next_week = 'https://menuplan.eurest.at/NextWeek/{ref}.xml'
     source_url = 'https://menuplan.eurest.at/menu.html?current_url=%2FCurrentWeek%2F{ref}.xml'
 
-    def feed(self, ref: str, get_next_week=True) -> str:
+    def feed(self, ref: str) -> str:
         """Generate an openmensa XML feed from the source xml using XSLT"""
         if ref not in self.canteens:
             return f"Unknown canteen with ref='{xmlEscape(ref)}'"
