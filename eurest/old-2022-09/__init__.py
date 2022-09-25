@@ -72,6 +72,6 @@ def getParser(baseurl):
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
-    p = getParser("http://localhost/{metaOrFeed}/wuwien_{mensaReference}.xml")
+    p = getParser("http://localhost/{metaOrFeed}/eurest_{mensaReference}.xml")
     print(p.feed_today("wu0"))
     # print(p.meta("wu0"))

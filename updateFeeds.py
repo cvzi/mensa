@@ -9,7 +9,7 @@ import urllib3
 import string
 
 allParsers = ['kaiserslautern', 'mensenat', 'koeln',
-              'wuwien', 'markas', 'mampf1a', 'inetmenue', 'greifswald']
+              'eurest', 'markas', 'mampf1a', 'inetmenue', 'greifswald']
 
 repoPath = os.path.dirname(__file__)
 filenameTemplate = "{base}{{metaOrFeed}}/{parserName}_{{mensaReference}}.xml"

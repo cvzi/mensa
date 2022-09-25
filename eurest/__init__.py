@@ -125,6 +125,6 @@ def getParser(url_template):
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
-    p = getParser("http://localhost/{metaOrFeed}/wuwien_{mensaReference}.xml")
+    p = getParser("http://localhost/{metaOrFeed}/eurest_{mensaReference}.xml")
     print(p.feed("K16510_DEU"))
     #print(p.meta("K16510_DEU"))
