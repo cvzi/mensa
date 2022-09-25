@@ -93,4 +93,4 @@ if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
     p = Parser("http://localhost/{metaOrFeed}/eurest_{mensaReference}.xml")
     print(p.feed("wuwien"))
-    #print(p.meta("wuwien"))
+    # print(p.meta("wuwien"))
