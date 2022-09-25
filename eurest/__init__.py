@@ -35,10 +35,10 @@ class Parser:
         id = self.canteens[ref]["id"]
 
         if now_local().weekday() > 4:
-            meals_url = self.meals_current_week.format(
+            meals_url = self.meals_next_week.format(
                 ref=urllib.parse.quote(id))
         else:
-            meals_url = self.meals_next_week.format(
+            meals_url = self.meals_current_week.format(
                 ref=urllib.parse.quote(id))
 
         source = requests.get(meals_url, headers=self.headers, stream=True).raw
