@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-stylesheet type="text/css" href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/basic.css"?>
+<?xml-stylesheet type="text/css" href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css"?>
+<openmensa xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
+  <canteen>
+    <name>Wien, Porr AG (Mittag)</name>
+    <address>Absberggasse 47, A-1100 Wien (Österreich)</address>
+    <city>Wien (Österreich)</city>
+    <location latitude="48.16790866459597" longitude="16.387366726491383"/>
+    <feed name="full" priority="1">
+      <schedule dayOfMonth="*" dayOfWeek="1-5" hour="8" minute="10" retry="65 1 1440"/>
+      <url>https://cvzi.github.io/mensa/feed/eurest_porr.xml</url>
+      <source>https://menuplan.eurest.at/menu.html?current_url=%2FCurrentWeek%2FK15510_DEU.xml</source>
+    </feed>
+  </canteen>
+</openmensa>

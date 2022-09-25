@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-stylesheet type="text/css" href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/basic.css"?>
+<?xml-stylesheet type="text/css" href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css"?>
+<openmensa xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
+  <canteen>
+    <name>Innsbruck, Fly Inn Flughafen Innsbruck (Mittag)</name>
+    <address>Fürstenweg 180, A-6020 Innsbruck (Österreich)</address>
+    <city>Innsbruck (Österreich)</city>
+    <location latitude="47.2577639" longitude="11.3512209"/>
+    <feed name="full" priority="1">
+      <schedule dayOfMonth="*" dayOfWeek="1-5" hour="8" minute="10" retry="65 1 1440"/>
+      <url>https://cvzi.github.io/mensa/feed/eurest_flyinn.xml</url>
+      <source>https://menuplan.eurest.at/menu.html?current_url=%2FCurrentWeek%2FK00110_DEU.xml</source>
+    </feed>
+  </canteen>
+</openmensa>

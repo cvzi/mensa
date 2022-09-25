@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-stylesheet type="text/css" href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/basic.css"?>
+<?xml-stylesheet type="text/css" href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css"?>
+<openmensa xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
+  <canteen>
+    <name>Spittal, Lindner Recyclingtech</name>
+    <address>Manuel-Lindner-Straße 1, A-9800 Spittal an der Drau (Österreich)</address>
+    <city>Spittal/Drau (Österreich)</city>
+    <location latitude="46.79158379931501" longitude="13.50913076841943"/>
+    <feed name="full" priority="1">
+      <schedule dayOfMonth="*" dayOfWeek="1-5" hour="8" minute="10" retry="65 1 1440"/>
+      <url>https://cvzi.github.io/mensa/feed/eurest_lindner.xml</url>
+      <source>https://menuplan.eurest.at/menu.html?current_url=%2FCurrentWeek%2FK28410_DEU.xml</source>
+    </feed>
+  </canteen>
+</openmensa>

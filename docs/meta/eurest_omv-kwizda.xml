@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-stylesheet type="text/css" href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/basic.css"?>
+<?xml-stylesheet type="text/css" href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css"?>
+<openmensa xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
+  <canteen>
+    <name>Schwechat, OMV Kwizda</name>
+    <address>Mannswörther Straße 28, A-2320 Schwechat (Österreich)</address>
+    <city>Schwechat (Österreich)</city>
+    <location latitude="48.148282954125726" longitude="16.493868730943763"/>
+    <feed name="full" priority="1">
+      <schedule dayOfMonth="*" dayOfWeek="1-5" hour="8" minute="10" retry="65 1 1440"/>
+      <url>https://cvzi.github.io/mensa/feed/eurest_omv-kwizda.xml</url>
+      <source>https://menuplan.eurest.at/menu.html?current_url=%2FCurrentWeek%2FK08410_Kwizda_DEU.xml</source>
+    </feed>
+  </canteen>
+</openmensa>
