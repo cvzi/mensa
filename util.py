@@ -7,10 +7,11 @@ import lxml
 from pyopenmensa.feed import LazyBuilder
 
 
-__all__ = ['xml_escape', 'xml_remove_invalid_chars', 'StyledLazyBuilder', 'now_local', 'xml_str_param', 'meta_from_xsl', 'weekdays_map']
+__all__ = ['xml_escape', 'xml_remove_invalid_chars', 'StyledLazyBuilder',
+           'now_local', 'xml_str_param', 'meta_from_xsl', 'weekdays_map']
 
 default_style_sheets = ('https://cdn.jsdelivr.net/npm/om-style@1.0.0/basic.css',
-                      'https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css')
+                        'https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css')
 
 
 def xml_escape(s, escape_double_quotes=False):
@@ -46,7 +47,7 @@ def now_local():
     return now
 
 
-def xml_str_param(s): 
+def xml_str_param(s):
     return lxml.etree.XSLT.strparam(str(s))
 
 
@@ -86,9 +87,9 @@ def meta_from_xsl(file_name, data):
     xslt_tree = lxml.etree.parse(file_name)
     xslt = lxml.etree.XSLT(xslt_tree)
     return lxml.etree.tostring(xslt(lxml.etree.Element("foobar"), **data),
-                                pretty_print=True,
-                                xml_declaration=True,
-                                encoding="utf-8").decode("utf-8")
+                               pretty_print=True,
+                               xml_declaration=True,
+                               encoding="utf-8").decode("utf-8")
 
 
 weekdays_map = [

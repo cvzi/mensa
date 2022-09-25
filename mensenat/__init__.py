@@ -87,7 +87,8 @@ class Parser:
     def json(self):
         tmp = {}
         for reference in self.canteens:
-            tmp[reference] = self.urlTemplate.format(metaOrFeed='meta', mensaReference=urllib.parse.quote(reference))
+            tmp[reference] = self.urlTemplate.format(
+                metaOrFeed='meta', mensaReference=urllib.parse.quote(reference))
         return json.dumps(tmp, indent=2)
 
 
@@ -97,5 +98,6 @@ def getParser(urlTemplate):
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
-    print(getParser("http://localhost/{metaOrFeed}/mensenat_{mensaReference}.xml").feed("KlagenfurtUniMCafe"))
+    print(getParser(
+        "http://localhost/{metaOrFeed}/mensenat_{mensaReference}.xml").feed("KlagenfurtUniMCafe"))
     # print(getParser("http://localhost/{metaOrFeed}/mensenat_{mensaReference}.xml").meta("EisenstadtFH"))
