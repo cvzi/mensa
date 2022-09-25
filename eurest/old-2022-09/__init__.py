@@ -8,13 +8,13 @@ import defusedxml.lxml
 
 try:
     from version import __version__, useragentname, useragentcomment
-    from util import nowBerlin
+    from util import now_local
 except ModuleNotFoundError:
     import sys
     include = os.path.relpath(os.path.join(os.path.dirname(__file__), '..'))
     sys.path.insert(0, include)
     from version import __version__, useragentname, useragentcomment
-    from util import nowBerlin
+    from util import now_local
 
 mealsURL = 'http://www.eurest.at/wumensa/app/app_tagesplan.xml'
 xslFile = os.path.join(os.path.dirname(__file__), 'wuwien.xsl')
@@ -35,7 +35,7 @@ class Parser:
         dom = defusedxml.lxml.parse(source)
         xslt_tree = defusedxml.lxml.parse(xslFile)
         xslt = lxml.etree.XSLT(xslt_tree)
-        now = nowBerlin()
+        now = now_local()
         year = now.year + 1 if now.month == 12 and now.day == 31 else now.year
         newdom = xslt(dom, year=lxml.etree.XSLT.strparam(str(year)))
         return lxml.etree.tostring(newdom,

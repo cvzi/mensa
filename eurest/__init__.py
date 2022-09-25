@@ -1,28 +1,25 @@
 import sys
 import os
 import json
-from unittest.util import strclass
 import requests
 import logging
 import urllib
-import re
-
 import lxml.etree
 import defusedxml.lxml
 
 try:
     from version import __version__, useragentname, useragentcomment
-    from util import nowBerlin, xmlEscape, weekdays_map
+    from util import now_local, xml_escape, meta_from_xsl, xml_str_param
 except ModuleNotFoundError:
     include = os.path.relpath(os.path.join(os.path.dirname(__file__), '..'))
     sys.path.insert(0, include)
     from version import __version__, useragentname, useragentcomment
-    from util import nowBerlin, xmlEscape, weekdays_map
+    from util import now_local, xml_escape, meta_from_xsl, xml_str_param
 
 
 class Parser:
     canteen_json = os.path.join(os.path.dirname(__file__), "canteens.json")
-    meta_xslt = os.path.join(os.path.dirname(__file__), "meta.xsl")
+    meta_xslt = os.path.join(os.path.dirname(__file__), "../meta.xsl")
     feed_xslt = os.path.join(os.path.dirname(__file__), "feed.xsl")
     headers = {
         'User-Agent': f'{useragentname}/{__version__} ({useragentcomment}) {requests.utils.default_user_agent()}'
@@ -34,14 +31,15 @@ class Parser:
     def feed(self, ref: str) -> str:
         """Generate an openmensa XML feed from the source xml using XSLT"""
         if ref not in self.canteens:
-            return f"Unknown canteen with ref='{xmlEscape(ref)}'"
+            return f"Unknown canteen with ref='{xml_escape(ref)}'"
+        id = self.canteens[ref]["id"]
 
-        if nowBerlin().weekday() > 4:
+        if now_local().weekday() > 4:
             meals_url = self.meals_current_week.format(
-                ref=urllib.parse.quote(ref))
+                ref=urllib.parse.quote(id))
         else:
             meals_url = self.meals_next_week.format(
-                ref=urllib.parse.quote(ref))
+                ref=urllib.parse.quote(id))
 
         source = requests.get(meals_url, headers=self.headers, stream=True).raw
         dom = defusedxml.lxml.parse(source)
@@ -56,56 +54,26 @@ class Parser:
     def meta(self, ref):
         """Generate an openmensa XML meta feed using XSLT"""
         if ref not in self.canteens:
-            return f"Unknown canteen with ref='{xmlEscape(ref)}'"
+            return f"Unknown canteen with ref='{xml_escape(ref)}'"
         mensa = self.canteens[ref]
 
-        def param(s): return lxml.etree.XSLT.strparam(str(s))
-
         data = {
-            "name": param(mensa["name"]),
-            "address": param(mensa["address"]),
-            "city": param(mensa["city"]),
-            "latitude": param(mensa["latitude"]),
-            "longitude": param(mensa["longitude"]),
-            "feed": param(self.url_template.format(metaOrFeed='feed', mensaReference=urllib.parse.quote(ref))),
-            "source": param(self.source_url.format(ref=urllib.parse.quote(ref))),
+            "name": xml_str_param(mensa["name"]),
+            "address": xml_str_param(mensa["address"]),
+            "city": xml_str_param(mensa["city"]),
+            "latitude": xml_str_param(mensa["latitude"]),
+            "longitude": xml_str_param(mensa["longitude"]),
+            "feed": xml_str_param(self.url_template.format(metaOrFeed='feed', mensaReference=urllib.parse.quote(ref))),
+            "source": xml_str_param(self.source_url.format(ref=urllib.parse.quote(mensa["id"]))),
         }
 
         if "phone" in mensa:
-            mensa["phone"] = param(mensa["phone"])
+            data["phone"] = mensa["phone"]
 
         if "times" in mensa:
-            data["times"] = param(True)
-            opening_times = {}
-            pattern = re.compile(
-                r"([A-Z][a-z])(\s*-\s*([A-Z][a-z]))?\s*(\d{1,2}):(\d{2})\s*[-–]\s*(\d{1,2}):(\d{2}) Uhr")
-            m = re.findall(pattern, mensa["times"])
-            for result in m:
-                fromDay, _, toDay, fromTimeH, fromTimeM, toTimeH, toTimeM = result
-                opening_times[fromDay] = "%02d:%02d-%02d:%02d" % (
-                    int(fromTimeH), int(fromTimeM), int(toTimeH), int(toTimeM))
-                if toDay:
-                    select = False
-                    for short, long in weekdays_map:
-                        if short == fromDay:
-                            select = True
-                        elif select:
-                            opening_times[short] = "%02d:%02d-%02d:%02d" % (
-                                int(fromTimeH), int(fromTimeM), int(toTimeH), int(toTimeM))
-                        if short == toDay:
-                            select = False
+            data["times"] = mensa["times"]
 
-                for short, long in weekdays_map:
-                    if short in opening_times:
-                        data[long] = param(opening_times[short])
-
-        # Generate xml
-        xslt_tree = lxml.etree.parse(self.meta_xslt)
-        xslt = lxml.etree.XSLT(xslt_tree)
-        return lxml.etree.tostring(xslt(lxml.etree.Element("foobar"), **data),
-                                   pretty_print=True,
-                                   xml_declaration=True,
-                                   encoding="utf-8").decode("utf-8")
+        return meta_from_xsl(self.meta_xslt, data)
 
     def __init__(self, url_template):
         with open(self.canteen_json, 'r', encoding='utf8') as f:
@@ -128,5 +96,5 @@ def getParser(url_template):
 if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
     p = getParser("http://localhost/{metaOrFeed}/eurest_{mensaReference}.xml")
-    print(p.feed("K16510_DEU"))
-    # print(p.meta("K16510_DEU"))
+    print(p.feed("wuwien"))
+    print(p.meta("wuwien"))

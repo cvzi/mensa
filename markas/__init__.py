@@ -12,12 +12,12 @@ from bs4 import BeautifulSoup
 
 try:
     from version import __version__
-    from util import StyledLazyBuilder, nowBerlin, weekdays_map
+    from util import StyledLazyBuilder, now_local, weekdays_map
 except ModuleNotFoundError:
     include = os.path.relpath(os.path.join(os.path.dirname(__file__), '..'))
     sys.path.insert(0, include)
     from version import __version__, useragentname, useragentcomment
-    from util import StyledLazyBuilder, nowBerlin, weekdays_map
+    from util import StyledLazyBuilder, now_local, weekdays_map
 
 metaJson = os.path.join(os.path.dirname(__file__), "canteenDict.json")
 
@@ -32,7 +32,7 @@ class Parser:
         domain = self.canteens[refName]["domain"]
         pasto = self.canteens[refName].get("pasto", None)
 
-        today = nowBerlin()
+        today = now_local()
 
         if "{timestamp}" in path:
             if today.weekday() == 6:

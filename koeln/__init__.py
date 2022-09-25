@@ -16,13 +16,13 @@ from bs4 import BeautifulSoup
 
 try:
     from version import __version__, useragentname, useragentcomment
-    from util import StyledLazyBuilder, nowBerlin, weekdays_map
+    from util import StyledLazyBuilder, now_local, weekdays_map
 except ModuleNotFoundError:
     import sys
     include = os.path.relpath(os.path.join(os.path.dirname(__file__), '..'))
     sys.path.insert(0, include)
     from version import __version__, useragentname, useragentcomment
-    from util import StyledLazyBuilder, nowBerlin, weekdays_map
+    from util import StyledLazyBuilder, now_local, weekdays_map
 
 # Based on https://github.com/mswart/openmensa-parsers/blob/master/magdeburg.py
 
@@ -71,7 +71,7 @@ def _getMealsURL(url, maxAgeMinutes=30):
 
 def _parseMealsUrl(lazyBuilder, mensaId, day=None):
     if day is None:
-        day = nowBerlin().date()
+        day = now_local().date()
     date = day.strftime("%Y-%m-%d")
 
     content = _getMealsURL(mealsUrl.format(date=date))
@@ -210,7 +210,7 @@ class Parser:
 
     def feed_today(self, name):
         if name in self.canteens:
-            today = nowBerlin().date()
+            today = now_local().date()
             lazyBuilder = StyledLazyBuilder()
             mensaId = self.canteens[name]["id"]
             _parseMealsUrl(lazyBuilder, mensaId, today)
@@ -223,7 +223,7 @@ class Parser:
             mensaId = self.canteens[name]["id"]
             lazyBuilder = StyledLazyBuilder()
 
-            date = nowBerlin()
+            date = now_local()
 
             # Get today
             ret = _parseMealsUrl(lazyBuilder, mensaId, date.date())

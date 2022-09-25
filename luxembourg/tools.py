@@ -12,13 +12,13 @@ from bs4 import BeautifulSoup
 
 try:
     from version import __version__, useragentname, useragentcomment
-    from util import StyledLazyBuilder, nowBerlin
+    from util import StyledLazyBuilder, now_local
 except ModuleNotFoundError:
     import sys
     include = os.path.relpath(os.path.join(os.path.dirname(__file__), '..'))
     sys.path.insert(0, include)
     from version import __version__, useragentname, useragentcomment
-    from util import xmlEscape, StyledLazyBuilder, nowBerlin
+    from util import xml_escape, StyledLazyBuilder, now_local
 
 __all__ = ['getMenu', 'askRestopolis']
 
@@ -118,7 +118,7 @@ def getMenu(restaurantId, datetimeDay=None, serviceIds=None, alternativeId=None,
     comments = []
 
     if not datetimeDay:
-        datetimeDay = nowBerlin().date()
+        datetimeDay = now_local().date()
 
     if isinstance(serviceIds, str) or not isinstance(serviceIds, Iterable):
         serviceIds = [(serviceIds, ""), ]
@@ -324,7 +324,7 @@ def getMenu(restaurantId, datetimeDay=None, serviceIds=None, alternativeId=None,
             hasattr(r, 'duration') and r.duration < 2000
             and time.time() - startTime < 7000
             and repeat and repeatCounter < 3
-            and (mealCounter > 0 and mealCounter > mealCounterLast or nowBerlin().weekday() in (5, 6))
+            and (mealCounter > 0 and mealCounter > mealCounterLast or now_local().weekday() in (5, 6))
         ):
             repeatCounter += 1
             mealCounterLast = mealCounter

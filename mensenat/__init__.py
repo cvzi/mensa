@@ -7,12 +7,12 @@ import re
 
 try:
     from mensenat.tools import getMenu
-    from util import xmlEscape, weekdays_map
+    from util import xml_escape, weekdays_map
 except ModuleNotFoundError:
     include = os.path.relpath(os.path.join(os.path.dirname(__file__), '..'))
     sys.path.insert(0, include)
     from tools import getMenu
-    from util import xmlEscape, weekdays_map
+    from util import xml_escape, weekdays_map
 
 metaJson = os.path.join(os.path.dirname(__file__), "canteenDict.json")
 
@@ -67,7 +67,7 @@ class Parser:
                     else:
                         data[long] = 'closed="true"'
             for key in data:
-                data[key] = xmlEscape(data[key])
+                data[key] = xml_escape(data[key])
             xml = template.format(**data)
             return xml
 

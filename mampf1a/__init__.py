@@ -12,12 +12,12 @@ from bs4 import BeautifulSoup
 
 try:
     from version import __version__, useragentname, useragentcomment
-    from util import StyledLazyBuilder, nowBerlin, xmlEscape, weekdays_map
+    from util import StyledLazyBuilder, now_local, xml_escape, weekdays_map
 except ModuleNotFoundError:
     include = os.path.relpath(os.path.join(os.path.dirname(__file__), '..'))
     sys.path.insert(0, include)
     from version import __version__, useragentname, useragentcomment
-    from util import StyledLazyBuilder, nowBerlin, xmlEscape, weekdays_map
+    from util import StyledLazyBuilder, now_local, xml_escape, weekdays_map
 
 metaJson = os.path.join(os.path.dirname(__file__), "canteenDict.json")
 
@@ -89,7 +89,7 @@ class Parser:
 
         for thead in tables:
             dates = []
-            now = nowBerlin()
+            now = now_local()
             dateTexts = [td.text.strip() for td in thead.tr.select('td')]
             for s in dateTexts:
                 m = datePattern.search(s)
@@ -235,8 +235,8 @@ class Parser:
                 "city": mensa["city"],
                 "latitude": mensa["latitude"],
                 "longitude": mensa["longitude"],
-                "feed": xmlEscape(self.urlTemplate.format(metaOrFeed='feed', mensaReference=urllib.parse.quote(ref))),
-                "source": xmlEscape(self.build_url(refName, baseUrlMeta)),
+                "feed": xml_escape(self.urlTemplate.format(metaOrFeed='feed', mensaReference=urllib.parse.quote(ref))),
+                "source": xml_escape(self.build_url(refName, baseUrlMeta)),
             }
             if "phone" in mensa:
                 data["phone"] = f"<phone>{mensa['phone']}</phone>"
