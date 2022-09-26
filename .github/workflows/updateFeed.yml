@@ -9,6 +9,7 @@ on:
     - 'luxembourg/**'
   schedule:
     - cron: "12 6 * * *" # UTC
+    - cron: "59 23 * * 0" # Run once sunday night
     
 concurrency:
   group: parsers-${{ github.ref }}
