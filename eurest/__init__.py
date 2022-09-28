@@ -34,15 +34,22 @@ class Parser:
             return f"Unknown canteen with ref='{xml_escape(ref)}'"
         id = self.canteens[ref]["id"]
 
+        this_week = self.meals_current_week.format(ref=urllib.parse.quote(id))
+        next_week = self.meals_next_week.format(ref=urllib.parse.quote(id))
         if now_local().weekday() > 4:
-            meals_url = self.meals_next_week.format(
-                ref=urllib.parse.quote(id))
+            first_url, second_url = next_week, this_week
         else:
-            meals_url = self.meals_current_week.format(
-                ref=urllib.parse.quote(id))
+            first_url,second_url = this_week, next_week
 
-        source = requests.get(meals_url, headers=self.headers, stream=True).raw
-        dom = defusedxml.lxml.parse(source)
+        source = requests.get(first_url, headers=self.headers, stream=True).raw
+        try:
+            dom = defusedxml.lxml.parse(source)
+        except lxml.etree.XMLSyntaxError as e:
+            logging.debug(e)
+            # try other week if one is empty
+            source = requests.get(second_url, headers=self.headers, stream=True).raw
+            dom = defusedxml.lxml.parse(source)
+
         xslt_tree = defusedxml.lxml.parse(self.feed_xslt)
         xslt = lxml.etree.XSLT(xslt_tree)
         new_dom = xslt(dom)
