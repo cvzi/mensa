@@ -39,7 +39,7 @@ class Parser:
         if now_local().weekday() > 4:
             first_url, second_url = next_week, this_week
         else:
-            first_url,second_url = this_week, next_week
+            first_url, second_url = this_week, next_week
 
         source = requests.get(first_url, headers=self.headers, stream=True).raw
         try:
@@ -47,7 +47,8 @@ class Parser:
         except lxml.etree.XMLSyntaxError as e:
             logging.debug(e)
             # try other week if one is empty
-            source = requests.get(second_url, headers=self.headers, stream=True).raw
+            source = requests.get(
+                second_url, headers=self.headers, stream=True).raw
             dom = defusedxml.lxml.parse(source)
 
         xslt_tree = defusedxml.lxml.parse(self.feed_xslt)
