@@ -3,22 +3,67 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2022-10-04">
+    <day date="2022-10-05">
       <category name="Tellergericht">
         <meal>
-          <name>Brötchen</name>
+          <name>2 Hefeklöße mit Sauerkirschen</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
-          <price role="employee">0.50</price>
-          <price role="other">0.50</price>
-          <price role="student">0.35</price>
+          <note>Milch/Milchzucker</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">1.45</price>
+          <price role="other">2.10</price>
+          <price role="student">0.85</price>
+        </meal>
+        <meal>
+          <name>4 Hefeklöße mit Sauerkirschen</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">2.90</price>
+          <price role="other">4.20</price>
+          <price role="student">1.70</price>
+        </meal>
+      </category>
+      <category name="Komponente 2">
+        <meal>
+          <name>Sahnegulasch mit Champignons</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker</note>
+          <note>Schweinefleisch</note>
+          <price role="employee">2.75</price>
+          <price role="other">3.60</price>
+          <price role="student">1.90</price>
+        </meal>
+      </category>
+      <category name="Komponente 3">
+        <meal>
+          <name>Hähnchenschnitzel Cordon bleu (2,3,Gefl,G,A) mit Soße &quot;Ungarische Art&quot;</name>
+          <note>mit Süßungsmittel</note>
+          <price role="employee">3.00</price>
+          <price role="other">3.85</price>
+          <price role="student">2.15</price>
         </meal>
       </category>
       <category name="Vegetarisch oder Vegan">
         <meal>
-          <name>2 Polenta-Spinat-Käse-Knuspertaschen mit Tomaten-Joghurt-Dip  und Couscous</name>
+          <name>2 Polenta-Spinat-Käse-Knuspertaschen mit Kräuterquark  und Bulgur</name>
           <note>Glutenhaltiges Getreide</note>
           <note>Milch/Milchzucker</note>
+          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
           <note>jodiertes Salz</note>
+          <price role="employee">3.15</price>
+          <price role="other">4.45</price>
+          <price role="student">1.95</price>
+        </meal>
+        <meal>
+          <name>Rahmspinat mit Rührei  und Salzkartoffeln</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker</note>
+          <note>geschwefelt</note>
+          <note>mit Farbstoff</note>
           <price role="employee">3.15</price>
           <price role="other">4.45</price>
           <price role="student">1.95</price>
@@ -26,13 +71,22 @@
       </category>
       <category name="Mensa Vital">
         <meal>
-          <name>Chicken Tikka Masala mit Paprikagemüse und Reis (Gefl,G,A)</name>
-          <price role="employee">4.20</price>
-          <price role="other">5.40</price>
-          <price role="student">2.80</price>
+          <name>Vegan: Süßkartoffel-Kokos-Soja-Curry mit Tomatenbulgur</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
+          <price role="employee">3.80</price>
+          <price role="other">5.10</price>
+          <price role="student">2.50</price>
         </meal>
       </category>
       <category name="Beilagen">
+        <meal>
+          <name>Nudeln   Ausgabe 4</name>
+          <note>Glutenhaltiges Getreide</note>
+          <price role="employee">0.90</price>
+          <price role="other">1.30</price>
+          <price role="student">0.60</price>
+        </meal>
         <meal>
           <name>Salzkartoffeln   Ausgabe 4</name>
           <note>geschwefelt</note>
@@ -41,16 +95,16 @@
           <price role="student">0.60</price>
         </meal>
         <meal>
-          <name>Reis   Ausgabe 4</name>
-          <note>jodiertes Salz</note>
-          <price role="employee">0.90</price>
-          <price role="other">1.30</price>
-          <price role="student">0.60</price>
+          <name>Kartoffelkroketten   Ausgabe 4</name>
+          <note>Glutenhaltiges Getreide</note>
+          <price role="employee">1.20</price>
+          <price role="other">1.60</price>
+          <price role="student">0.90</price>
         </meal>
       </category>
       <category name="Gemüse">
         <meal>
-          <name>Feine Möhren Ausgabe 2, 4</name>
+          <name>Blumenkohlgemüse Ausgabe 4</name>
           <price role="employee">0.90</price>
           <price role="other">1.30</price>
           <price role="student">0.60</price>
