@@ -3,25 +3,49 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2022-10-05">
+    <day date="2022-10-06">
       <category name="Tellergericht">
         <meal>
-          <name>3 Quarkkeulchen mit Apfelmus</name>
+          <name>Vegan : Grüne Erbsensuppe mit Minze Teller</name>
+          <note>Milch/Milchzucker</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
+          <note>geschwefelt</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">2.25</price>
+          <price role="other">3.20</price>
+          <price role="student">1.40</price>
+        </meal>
+        <meal>
+          <name>Vegan: Grüne Erbsensuppe mit Minze Terrine</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
+          <note>geschwefelt</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">3.05</price>
+          <price role="other">4.20</price>
+          <price role="student">2.00</price>
+        </meal>
+      </category>
+      <category name="Komponente 1">
+        <meal>
+          <name>Paniertes Schweineschnitzel mit Rahmsauce</name>
           <note>Eier und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Milch/Milchzucker</note>
-          <note>mit Antioxidationsmittel</note>
-          <price role="employee">2.90</price>
-          <price role="other">4.20</price>
-          <price role="student">1.70</price>
+          <note>Rindfleisch</note>
+          <note>Schweinefleisch</note>
+          <note>jodiertes Salz</note>
+          <price role="employee">3.00</price>
+          <price role="other">3.85</price>
+          <price role="student">2.15</price>
         </meal>
       </category>
       <category name="Komponente 2">
         <meal>
-          <name>Panierte Putenschnitte mit Tomaten-Zwiebel-Soße</name>
-          <note>Glutenhaltiges Getreide</note>
+          <name>fruchtiges Putencurry mit Mango &amp; Gemüse (Gefl,G,A,I)</name>
           <note>Milch/Milchzucker</note>
-          <note>jodiertes Salz</note>
           <price role="employee">3.00</price>
           <price role="other">3.85</price>
           <price role="student">2.15</price>
@@ -29,13 +53,11 @@
       </category>
       <category name="Vegetarisch oder Vegan">
         <meal>
-          <name>Vegan: Chili sin Carne mit Kräuterreis</name>
+          <name>Nudelauflauf</name>
           <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
           <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
-          <note>jodiertes Salz</note>
-          <note>mit Antioxidationsmittel</note>
-          <note>mit Geschmacksverstärker</note>
-          <note>mit Konservierungsstoff</note>
           <price role="employee">3.15</price>
           <price role="other">4.45</price>
           <price role="student">1.95</price>
@@ -43,19 +65,17 @@
       </category>
       <category name="Mensa Vital">
         <meal>
-          <name>Seelachswürfel und Kirschtomaten in Weißwein-Limonensoße mit Pasta</name>
+          <name>Gebratenes Seelachsfilet mit Kartoffel-Gurken-Radischensalat</name>
           <note>Eier und daraus hergestellte Erzeugnisse</note>
           <note>Fische und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Milch/Milchzucker</note>
-          <note>Schwefeldioxid und Sulphite in Konzentration von mehr als 10mg/</note>
           <note>Sellerie und daraus hergestellte Erzeugnisse</note>
           <note>Senf und daraus hergestellte Erzeugnisse</note>
           <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
-          <note>alkoholhaltig</note>
+          <note>geschwefelt</note>
+          <note>gewachst</note>
           <note>jodiertes Salz</note>
-          <note>mit Farbstoff</note>
-          <note>mit Konservierungsstoff</note>
           <price role="employee">4.40</price>
           <price role="other">5.70</price>
           <price role="student">3.10</price>
@@ -65,33 +85,29 @@
         <meal>
           <name>Salzkartoffeln   Ausgabe 1</name>
           <note>geschwefelt</note>
+          <note>jodiertes Salz</note>
           <price role="employee">0.90</price>
           <price role="other">1.30</price>
           <price role="student">0.60</price>
         </meal>
         <meal>
-          <name>Spiralnudeln   Ausgabe 1</name>
+          <name>Spätzle   Ausgabe 1</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
-          <price role="employee">0.90</price>
-          <price role="other">1.30</price>
-          <price role="student">0.60</price>
-        </meal>
-        <meal>
-          <name>Reis Ausgabe 1</name>
-          <price role="employee">0.90</price>
-          <price role="other">1.30</price>
-          <price role="student">0.60</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.60</price>
+          <price role="student">0.90</price>
         </meal>
       </category>
       <category name="Gemüse">
         <meal>
-          <name>Balkangemüse   (Erbsen, grüne Bohnen, Mais, Paprika) Ausgabe 1</name>
+          <name>Mischgemüse   (Karotten und Erbsen) Ausgabe 1</name>
           <price role="employee">0.90</price>
           <price role="other">1.30</price>
           <price role="student">0.60</price>
         </meal>
         <meal>
-          <name>Kaisergemüse   (Brokkoli, Blumenkohl, Karottenscheiben) Ausgabe 1</name>
+          <name>Rosenkohl Ausgabe 1</name>
           <price role="employee">1.10</price>
           <price role="other">1.50</price>
           <price role="student">0.80</price>
