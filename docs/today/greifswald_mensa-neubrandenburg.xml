@@ -3,86 +3,90 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2022-10-06">
+    <day date="2022-10-07">
       <category name="Tellergericht">
         <meal>
-          <name>Vegan: Grüne Erbsensuppe mit Minze / Teller</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>geschwefelt</note>
-          <note>jodiertes Salz</note>
+          <name>Teller: Brühnudeln mit Geflügelfleisch (3,9,Gefl,A,C,I)</name>
           <price role="employee">2.25</price>
           <price role="other">3.20</price>
           <price role="student">1.40</price>
         </meal>
         <meal>
-          <name>Vegan: Grüne Erbsensuppe mit Minze  Terriene</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>geschwefelt</note>
-          <note>jodiertes Salz</note>
+          <name>Terrine: Brühnudeln mit Geflügelfleisch (3,9,Gefl,A,C,I)</name>
           <price role="employee">3.05</price>
           <price role="other">4.20</price>
           <price role="student">2.00</price>
         </meal>
       </category>
-      <category name="Komponente 1">
+      <category name="Komponente 2">
         <meal>
-          <name>Paniertes Schweineschnitzel mit Rahmsauce</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Milch/Milchzucker</note>
-          <note>Rindfleisch</note>
-          <note>Schweinefleisch</note>
-          <note>jodiertes Salz</note>
+          <name>Hähnchen-Gyros mit Paprikaquark (1,9,Gefl,G)</name>
           <price role="employee">3.00</price>
           <price role="other">3.85</price>
           <price role="student">2.15</price>
         </meal>
       </category>
-      <category name="Mensa Vital">
+      <category name="Komponente 5">
         <meal>
-          <name>Gebratenes Seelachsfilet mit Kartoffel-Gurken-Radischensalat</name>
+          <name>veg. Bratwurst mit Kartoffeln und Gemüsesoße oder Boulette mit Kartoffeln und Rahmgemüse</name>
           <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Schweinefleisch</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
+          <note>geschwefelt</note>
+          <note>jodiertes Salz</note>
+          <note>mit Süßungsmittel</note>
+          <price role="employee">3.80</price>
+          <price role="other">5.10</price>
+          <price role="student">2.50</price>
+        </meal>
+        <meal>
+          <name>Feuriges Gemüse-Fischcurry mit Bandnudeln</name>
           <note>Fische und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Milch/Milchzucker</note>
           <note>Sellerie und daraus hergestellte Erzeugnisse</note>
-          <note>Senf und daraus hergestellte Erzeugnisse</note>
           <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
-          <note>geschwefelt</note>
-          <note>gewachst</note>
+          <price role="employee">3.80</price>
+          <price role="other">5.10</price>
+          <price role="student">2.50</price>
+        </meal>
+      </category>
+      <category name="Mensa Vital">
+        <meal>
+          <name>Vegan: Gemüsepaella</name>
           <note>jodiertes Salz</note>
-          <price role="employee">4.40</price>
-          <price role="other">5.70</price>
-          <price role="student">3.10</price>
+          <note>mit Farbstoff</note>
+          <price role="employee">3.80</price>
+          <price role="other">5.10</price>
+          <price role="student">2.50</price>
         </meal>
       </category>
       <category name="Beilagen">
         <meal>
-          <name>Salzkartoffeln   Ausgabe 1</name>
-          <note>geschwefelt</note>
+          <name>Reis   Ausgabe 1</name>
           <note>jodiertes Salz</note>
           <price role="employee">0.90</price>
           <price role="other">1.30</price>
           <price role="student">0.60</price>
         </meal>
         <meal>
-          <name>Spätzle   Ausgabe 1</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <name>Pita-Tasche</name>
           <note>Glutenhaltiges Getreide</note>
-          <price role="employee">1.20</price>
-          <price role="other">1.60</price>
-          <price role="student">0.90</price>
-        </meal>
-      </category>
-      <category name="Gemüse">
-        <meal>
-          <name>Mischgemüse   (Karotten und Erbsen) Ausgabe 1</name>
           <price role="employee">0.90</price>
           <price role="other">1.30</price>
           <price role="student">0.60</price>
         </meal>
+      </category>
+      <category name="Gemüse">
         <meal>
-          <name>Rosenkohl Ausgabe 1</name>
+          <name>Retro-Gemüse-Mix [Pastinaken, Knollensellerie, gelbe+orange Möhren, rote Zwiebeln, Topinambur]   Ausgabe 1</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>jodiertes Salz</note>
           <price role="employee">1.10</price>
           <price role="other">1.50</price>
           <price role="student">0.80</price>
