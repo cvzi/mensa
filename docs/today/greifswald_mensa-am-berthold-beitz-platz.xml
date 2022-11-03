@@ -3,36 +3,30 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2022-11-02">
+    <day date="2022-11-03">
       <category name="Tellergericht">
         <meal>
-          <name>Kl. Schüssel: Vegane Orangen-Thymian-Kürbissuppe</name>
-          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
-          <price role="employee">1.60</price>
-          <price role="other">2.35</price>
+          <name>Halbe Portion: 2 vegane Kartoffelpuffer mit Apfelmus</name>
+          <note>mit Antioxidationsmittel</note>
+          <price role="employee">1.50</price>
+          <price role="other">2.15</price>
           <price role="student">0.90</price>
         </meal>
         <meal>
-          <name>Teller: Vegane Orangen-Thymian-Kürbissuppe</name>
-          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
-          <price role="employee">2.40</price>
-          <price role="other">3.60</price>
-          <price role="student">1.50</price>
-        </meal>
-        <meal>
-          <name>Terrine: Vegane Orangen-Thymian-Kürbissuppe</name>
-          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
-          <price role="employee">3.80</price>
-          <price role="other">5.10</price>
-          <price role="student">2.20</price>
+          <name>Vegan: 4 Kartoffelpuffer mit Apfelmus</name>
+          <note>mit Antioxidationsmittel</note>
+          <price role="employee">3.00</price>
+          <price role="other">4.30</price>
+          <price role="student">1.80</price>
         </meal>
       </category>
       <category name="Komponente 1">
         <meal>
-          <name>Vegan: 1 Backfisch [aus Gemüse und Jackfrucht] mit Remouladensauce</name>
+          <name>Paniertes Schollenfilet mit süß-saurer-Soße</name>
+          <note>Fische und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Senf und daraus hergestellte Erzeugnisse</note>
-          <note>mit Süßungsmittel</note>
+          <note>mit Farbstoff</note>
           <price role="employee">3.10</price>
           <price role="other">3.95</price>
           <price role="student">2.25</price>
@@ -40,21 +34,12 @@
       </category>
       <category name="Komponente 2">
         <meal>
-          <name>Mit Frischkäse gefülltes Hacksteak Croatia</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <name>Kasselernackenbraten mit Kasselersoße</name>
           <note>Glutenhaltiges Getreide</note>
-          <note>Milch/Milchzucker</note>
-          <note>Rindfleisch</note>
           <note>Schweinefleisch</note>
-          <price role="employee">3.20</price>
-          <price role="other">4.05</price>
-          <price role="student">2.35</price>
-        </meal>
-      </category>
-      <category name="Komponente 3">
-        <meal>
-          <name>Marinierte Hähnchenschenkel (Gefl,A) mit Paprikasoße</name>
-          <note>Glutenhaltiges Getreide</note>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
+          <note>mit Antioxidationsmittel</note>
+          <note>mit Konservierungsstoff</note>
           <price role="employee">3.10</price>
           <price role="other">3.95</price>
           <price role="student">2.25</price>
@@ -62,12 +47,15 @@
       </category>
       <category name="Komponente 4">
         <meal>
-          <name>Extra: Szegediner Schweinegulasch</name>
+          <name>Extra: Mit Frischkäse gefülltes Hacksteak Croatia</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker</note>
+          <note>Rindfleisch</note>
           <note>Schweinefleisch</note>
-          <price role="employee">2.65</price>
-          <price role="other">3.50</price>
-          <price role="student">1.80</price>
+          <price role="employee">3.00</price>
+          <price role="other">3.85</price>
+          <price role="student">2.15</price>
         </meal>
       </category>
       <category name="Komponente 5">
@@ -82,7 +70,7 @@
       </category>
       <category name="Komponente 7">
         <meal>
-          <name>Vegan: 6 Plant-Based Nuggets vom Feld [aus Gemüse und Jackfrucht] mit Remouladensauce</name>
+          <name>Extra: 6 vegane Plant-Based Nuggets [aus Gemüse und Jackfrucht] mit Remouladensauce</name>
           <note>Glutenhaltiges Getreide</note>
           <note>Senf und daraus hergestellte Erzeugnisse</note>
           <note>mit Süßungsmittel</note>
@@ -91,24 +79,47 @@
           <price role="student">2.25</price>
         </meal>
       </category>
-      <category name="Vegetarisch/Vegan pro Portion oder nach Gewicht (pro 100g)">
+      <category name="Vegetarisch oder Vegan">
         <meal>
-          <name>Kreolisches Chili mit schwarzen Bohnen und Süßkartoffelpüree</name>
+          <name>8 Gemüseköttbullar mit Gemüsesoße  und Langkornreis</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
           <note>Milch/Milchzucker</note>
-          <note>mit Antioxidationsmittel</note>
-          <price role="employee">3.60</price>
-          <price role="other">4.90</price>
-          <price role="student">2.40</price>
+          <price role="employee">3.30</price>
+          <price role="other">4.60</price>
+          <price role="student">2.10</price>
         </meal>
       </category>
       <category name="Mittagsgericht Cafeteria Klinikum (zzgl. 5€ ReBowl-Pfand)">
         <meal>
-          <name>Steinofenpizza Perfettissima Quattro Formaggi</name>
+          <name>Paniertes Schollenfilet mit süß-saurer-Soße  Möhrenscheiben mit Petersilie und Kartoffelpüree</name>
+          <note>Fische und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Milch/Milchzucker</note>
-          <price role="employee">4.90</price>
-          <price role="other">6.20</price>
-          <price role="student">3.70</price>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
+          <note>mit Antioxidationsmittel</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">5.10</price>
+          <price role="other">6.75</price>
+          <price role="student">3.65</price>
+        </meal>
+      </category>
+      <category name="Vegan pro Portion oder nach Gewicht (pro 100g)">
+        <meal>
+          <name>Pastateller: Vegane Sonnenblumen-Bolognese [regional, aus ökologischem Anbau] mit Hörnchennudeln</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
+          <price role="employee">0.96</price>
+          <price role="other">1.26</price>
+          <price role="student">0.66</price>
+        </meal>
+        <meal>
+          <name>Vegan: Sonnenblumen-Bolognese [regional, aus ökologischem Anbau] mit Hörnchennudeln</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
+          <price role="employee">4.15</price>
+          <price role="other">5.45</price>
+          <price role="student">2.95</price>
         </meal>
       </category>
       <category name="Beilagen">
@@ -122,35 +133,34 @@
           <price role="student">0.30</price>
         </meal>
         <meal>
-          <name>Schrippe   Ausgabe 6</name>
-          <note>Glutenhaltiges Getreide</note>
-          <price role="employee">0.50</price>
-          <price role="other">0.50</price>
-          <price role="student">0.35</price>
-        </meal>
-        <meal>
-          <name>Couscous mit Kurkuma   Ausgabe 1</name>
-          <note>Glutenhaltiges Getreide</note>
+          <name>Langkornreis Ausgabe 1</name>
           <price role="employee">1.00</price>
           <price role="other">1.40</price>
           <price role="student">0.70</price>
         </meal>
         <meal>
-          <name>Kartoffeln Ausgabe 2, 4</name>
+          <name>Kartoffelpüree   Ausgabe 2</name>
+          <note>Milch/Milchzucker</note>
+          <note>mit Antioxidationsmittel</note>
           <price role="employee">1.00</price>
           <price role="other">1.40</price>
           <price role="student">0.70</price>
         </meal>
         <meal>
-          <name>Remouladensauce [vegan]   Ausgabe 2</name>
-          <note>Senf und daraus hergestellte Erzeugnisse</note>
-          <note>mit Süßungsmittel</note>
-          <price role="employee">0.85</price>
-          <price role="other">1.00</price>
+          <name>Kartoffeln Ausgabe 3, 4</name>
+          <price role="employee">1.00</price>
+          <price role="other">1.40</price>
           <price role="student">0.70</price>
         </meal>
         <meal>
-          <name>Nudelsalat Griechische Art mit Feta und Oliven   Ausgabe 4</name>
+          <name>8 Kartoffelkroketten   Ausgabe 4</name>
+          <note>Milch/Milchzucker</note>
+          <price role="employee">1.30</price>
+          <price role="other">1.70</price>
+          <price role="student">1.00</price>
+        </meal>
+        <meal>
+          <name>Nudelsalat Griechische Art mit Feta und Oliven   Ausgabe 2</name>
           <note>Glutenhaltiges Getreide</note>
           <note>Milch/Milchzucker</note>
           <note>geschwärzt</note>
@@ -158,31 +168,26 @@
           <price role="other">1.70</price>
           <price role="student">1.00</price>
         </meal>
-        <meal>
-          <name>Süßkartoffelpüree   Ausgabe 3</name>
-          <note>Milch/Milchzucker</note>
-          <note>mit Antioxidationsmittel</note>
-          <price role="employee">1.30</price>
-          <price role="other">1.70</price>
-          <price role="student">1.00</price>
-        </meal>
-        <meal>
-          <name>Bratkartoffeln [vegan] Ausgabe 2</name>
-          <price role="employee">1.30</price>
-          <price role="other">1.70</price>
-          <price role="student">1.00</price>
-        </meal>
       </category>
       <category name="Gemüse">
         <meal>
-          <name>Grüne Bohnen Ausgabe 2, 4</name>
+          <name>Möhrenscheiben mit Petersilie Ausgabe 2, 4</name>
           <price role="employee">1.00</price>
           <price role="other">1.40</price>
           <price role="student">0.70</price>
         </meal>
         <meal>
-          <name>Rustikales Pfannengemüse [Blumenkohl, Karotten, Bohnen, Romanesco, Zuckerschoten]   Ausgabe 1, 3</name>
-          <note>Milch/Milchzucker</note>
+          <name>Romanesco Ausgabe 1, 2</name>
+          <price role="employee">1.20</price>
+          <price role="other">1.60</price>
+          <price role="student">0.90</price>
+        </meal>
+        <meal>
+          <name>Speckbohnen   Ausgabe 4</name>
+          <note>Schweinefleisch</note>
+          <note>mit Antioxidationsmittel</note>
+          <note>mit Farbstoff</note>
+          <note>mit Konservierungsstoff</note>
           <price role="employee">1.20</price>
           <price role="other">1.60</price>
           <price role="student">0.90</price>
