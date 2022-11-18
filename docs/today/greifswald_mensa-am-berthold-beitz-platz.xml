@@ -3,40 +3,46 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2022-11-17">
-      <category name="Komponente 1">
+    <day date="2022-11-18">
+      <category name="Tellergericht">
         <meal>
-          <name>Paniertes Seelachsfilet mit mediterraner Tomatensoße</name>
-          <note>Fische und daraus hergestellte Erzeugnisse</note>
+          <name>Halbe Portion: 2 Eierkuchen mit Apfelmus</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Milch/Milchzucker</note>
-          <note>Senf und daraus hergestellte Erzeugnisse</note>
-          <price role="employee">3.10</price>
-          <price role="other">3.95</price>
-          <price role="student">2.25</price>
+          <note>mit Antioxidationsmittel</note>
+          <price role="employee">1.50</price>
+          <price role="other">2.15</price>
+          <price role="student">0.90</price>
+        </meal>
+        <meal>
+          <name>4 Eierkuchen mit Apfelmus</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker</note>
+          <note>mit Antioxidationsmittel</note>
+          <price role="employee">3.00</price>
+          <price role="other">4.30</price>
+          <price role="student">1.80</price>
         </meal>
       </category>
       <category name="Komponente 2">
         <meal>
-          <name>Currywurst mit Currysoße</name>
+          <name>Schmorkohl mit Hackfleisch</name>
           <note>Glutenhaltiges Getreide</note>
+          <note>Rindfleisch</note>
           <note>Schweinefleisch</note>
-          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
-          <note>mit Antioxidationsmittel</note>
-          <note>mit Konservierungsstoff</note>
-          <note>mit Phosphat</note>
-          <note>mit Süßungsmittel</note>
-          <price role="employee">3.10</price>
-          <price role="other">3.95</price>
-          <price role="student">2.25</price>
+          <price role="employee">2.85</price>
+          <price role="other">3.70</price>
+          <price role="student">2.00</price>
         </meal>
       </category>
-      <category name="Komponente 4">
+      <category name="Komponente 3">
         <meal>
-          <name>Vegan: 6 Ocean Sticks mit Remouladensauce</name>
+          <name>Gebratene Hähnchenkeule (Gefl) dazu eine Geflügelsoße</name>
           <note>Glutenhaltiges Getreide</note>
-          <note>Senf und daraus hergestellte Erzeugnisse</note>
-          <note>mit Süßungsmittel</note>
+          <note>Milch/Milchzucker</note>
+          <note>jodiertes Salz</note>
           <price role="employee">3.10</price>
           <price role="other">3.95</price>
           <price role="student">2.25</price>
@@ -44,34 +50,49 @@
       </category>
       <category name="Vegetarisch oder Vegan">
         <meal>
-          <name>2 rote Bete Puffer mit Bechamelkartoffeln</name>
+          <name>Vegan: 5 Maultaschen gefüllt mit Blattspinat, Petersilie, Lauch, Zwiebeln und Seitan mit mediterraner Tomatensoße</name>
+          <note>Glutenhaltiges Getreide</note>
+          <price role="employee">3.30</price>
+          <price role="other">4.60</price>
+          <price role="student">2.10</price>
+        </meal>
+        <meal>
+          <name>3 mit Spinat gefüllte Maultaschen mit Schnittlauch-Käsesoße</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Milch/Milchzucker</note>
-          <note>jodiertes Salz</note>
           <price role="employee">3.30</price>
           <price role="other">4.60</price>
           <price role="student">2.10</price>
         </meal>
       </category>
-      <category name="MensaVital pro Portion oder nach Gewicht (pro 100g)">
+      <category name="Mittagsgericht Cafeteria Klinikum (zzgl. 5€ ReBowl-Pfand)">
         <meal>
-          <name>Pastateller: Veganes Möhren-Linsen-Ragout mit Rosenkohl und Haselnusstagliatelle</name>
+          <name>Schmorkohl mit Hackfleisch und Kartoffeln</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Rindfleisch</note>
+          <note>Schweinefleisch</note>
+          <price role="employee">3.85</price>
+          <price role="other">5.10</price>
+          <price role="student">2.70</price>
+        </meal>
+      </category>
+      <category name="Pasta pro Portion oder nach Gewicht (pro 100g)">
+        <meal>
+          <name>Pastateller: Farfalle mit veganem Paprikapesto</name>
           <note>Glutenhaltiges Getreide</note>
           <note>Schalenfrüchte und daraus hergestellte Erzeugnisse</note>
           <price role="employee">0.90</price>
           <price role="other">1.20</price>
           <price role="student">0.60</price>
         </meal>
-      </category>
-      <category name="Mittagsgericht Cafeteria Klinikum (zzgl. 5€ ReBowl-Pfand)">
         <meal>
-          <name>Rindergeschnetzeltes mit Rotkohl  und 3 Kartoffelklößen</name>
+          <name>Farfalle mit veganem Paprikapesto</name>
           <note>Glutenhaltiges Getreide</note>
-          <note>Rindfleisch</note>
-          <note>mit Antioxidationsmittel</note>
-          <price role="employee">5.50</price>
-          <price role="other">7.15</price>
-          <price role="student">4.05</price>
+          <note>Schalenfrüchte und daraus hergestellte Erzeugnisse</note>
+          <price role="employee">3.60</price>
+          <price role="other">4.90</price>
+          <price role="student">2.40</price>
         </meal>
       </category>
       <category name="Beilagen">
@@ -85,88 +106,43 @@
           <price role="student">0.30</price>
         </meal>
         <meal>
-          <name>Schrippe   Ausgabe 6</name>
-          <note>Glutenhaltiges Getreide</note>
-          <price role="employee">0.50</price>
-          <price role="other">0.50</price>
-          <price role="student">0.35</price>
-        </meal>
-        <meal>
-          <name>Mehrkornbrötchen   Ausgabe 6</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Sesamsamen und daraus hergestellte Erzeugnisse</note>
-          <price role="employee">0.55</price>
-          <price role="other">0.55</price>
-          <price role="student">0.40</price>
-        </meal>
-        <meal>
-          <name>Remouladensauce [vegan]</name>
-          <note>Senf und daraus hergestellte Erzeugnisse</note>
-          <note>mit Süßungsmittel</note>
-          <price role="employee">0.85</price>
-          <price role="other">1.00</price>
-          <price role="student">0.70</price>
-        </meal>
-        <meal>
-          <name>Reis Ausgabe 2</name>
+          <name>Kartoffeln Ausgabe 2, 4</name>
           <price role="employee">1.00</price>
           <price role="other">1.40</price>
           <price role="student">0.70</price>
         </meal>
         <meal>
-          <name>Kartoffeln Ausgabe 4</name>
-          <price role="employee">1.00</price>
-          <price role="other">1.40</price>
-          <price role="student">0.70</price>
-        </meal>
-        <meal>
-          <name>Backofen-Pommes Ausgabe 4, 5</name>
+          <name>3 Kartoffelklöße Ausgabe 4</name>
           <price role="employee">1.30</price>
           <price role="other">1.70</price>
           <price role="student">1.00</price>
         </meal>
         <meal>
-          <name>Bechamelkartoffeln   Ausgabe 3</name>
+          <name>Spätzle   Ausgabe 2</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
-          <note>Milch/Milchzucker</note>
           <price role="employee">1.30</price>
           <price role="other">1.70</price>
           <price role="student">1.00</price>
-        </meal>
-        <meal>
-          <name>Bratkartoffeln [vegan] Ausgabe 1</name>
-          <price role="employee">1.30</price>
-          <price role="other">1.70</price>
-          <price role="student">1.00</price>
-        </meal>
-        <meal>
-          <name>Greifswalder Knacker   Ausgabe 2</name>
-          <note>Schweinefleisch</note>
-          <note>jodiertes Salz</note>
-          <note>mit Antioxidationsmittel</note>
-          <note>mit Farbstoff</note>
-          <note>mit Konservierungsstoff</note>
-          <price role="employee">1.85</price>
-          <price role="other">1.85</price>
-          <price role="student">1.70</price>
-        </meal>
-        <meal>
-          <name>Backofen-Pommes MAXI PORTION Ausgabe 4, 5</name>
-          <price role="employee">2.60</price>
-          <price role="other">3.40</price>
-          <price role="student">2.00</price>
         </meal>
       </category>
       <category name="Gemüse">
         <meal>
-          <name>Frühlingsgemüse [Karotten, Erbsen, grüne Bohnen, Blumenkohl, Kohlrabi]   Ausgabe 1, 3</name>
+          <name>Grüne Bohnen   Ausgabe 1, 3</name>
           <note>jodiertes Salz</note>
           <price role="employee">1.00</price>
           <price role="other">1.40</price>
           <price role="student">0.70</price>
         </meal>
         <meal>
-          <name>Brokkoli   Ausgabe 2, 4</name>
+          <name>Apfel-Zimt-Rotkohl   Ausgabe 4</name>
+          <note>mit Antioxidationsmittel</note>
+          <price role="employee">1.00</price>
+          <price role="other">1.40</price>
+          <price role="student">0.70</price>
+        </meal>
+        <meal>
+          <name>Kaisergemüse [Brokkoli, Blumenkohl, Karottenscheiben]   Ausgabe 2, 4</name>
           <note>jodiertes Salz</note>
           <price role="employee">1.20</price>
           <price role="other">1.60</price>
