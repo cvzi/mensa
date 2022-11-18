@@ -127,12 +127,6 @@ class Parser:
                         restaurant["alternativeId"] = alternativeId
                         restaurant["alternativeServiceIds"] = canteenDictAlternative[alternativeId]["services"]
 
-    @staticmethod
-    def __now():
-        berlin = pytz.timezone('Europe/Berlin')
-        now = datetime.datetime.now(berlin)
-        return now
-
     def json(self):
         tmp = {}
         for reference in self.canteens:
