@@ -4,13 +4,40 @@
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
     <day date="2022-11-24">
-      <category name="Komponente 4">
+      <category name="Komponente 2">
+        <meal>
+          <name>Bolognese</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker</note>
+          <note>Schweinefleisch</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>jodiertes Salz</note>
+          <price role="employee">2.85</price>
+          <price role="other">3.70</price>
+          <price role="student">2.00</price>
+        </meal>
+      </category>
+      <category name="Vegetarisch oder Vegan">
         <meal>
           <name>Bunte Paprikapfanne mit Ingwer und Bambus mit Dinkel</name>
           <note>Glutenhaltiges Getreide</note>
           <note>Sesamsamen und daraus hergestellte Erzeugnisse</note>
           <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
           <note>mit Konservierungsstoff</note>
+          <price role="employee">3.30</price>
+          <price role="other">4.60</price>
+          <price role="student">2.10</price>
+        </meal>
+      </category>
+      <category name="Mensa Vital">
+        <meal>
+          <name>Vegan: Gemüse-Couscous-Pfanne mit Soja-Ingwer-Dip</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
+          <note>jodiertes Salz</note>
+          <note>mit Antioxidationsmittel</note>
+          <note>mit Süßungsmittel</note>
           <price role="employee">4.00</price>
           <price role="other">5.30</price>
           <price role="student">2.70</price>
