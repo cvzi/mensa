@@ -3,47 +3,36 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2022-12-07">
-      <category name="Tellergericht">
+    <day date="2022-12-08">
+      <category name="Komponente 1">
         <meal>
-          <name>3 Eierkuchen mit Blaubeerfüllung an Vanillesauce</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <name>Seelachsfilet in Sesampanade mit Petersiliensoße</name>
+          <note>Fische und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Milch/Milchzucker</note>
+          <note>Sesamsamen und daraus hergestellte Erzeugnisse</note>
           <note>jodiertes Salz</note>
-          <price role="employee">3.00</price>
-          <price role="other">4.30</price>
-          <price role="student">1.80</price>
-        </meal>
-      </category>
-      <category name="Komponente 2">
-        <meal>
-          <name>Jägerschnitzel (pan. Jagdwurstscheibe) mit Tomatensoße</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Milch/Milchzucker</note>
-          <note>Schweinefleisch</note>
-          <note>Senf und daraus hergestellte Erzeugnisse</note>
-          <note>jodiertes Salz</note>
-          <note>mit Antioxidationsmittel</note>
-          <note>mit Farbstoff</note>
-          <note>mit Konservierungsstoff</note>
-          <note>mit Phosphat</note>
-          <price role="employee">2.85</price>
-          <price role="other">3.70</price>
-          <price role="student">2.00</price>
-        </meal>
-      </category>
-      <category name="Komponente 3">
-        <meal>
-          <name>Geflügel-Bratwurst (9,Gefl,G,I) mit Soße (9,Gefl,A)</name>
           <price role="employee">3.10</price>
           <price role="other">3.95</price>
           <price role="student">2.25</price>
         </meal>
       </category>
+      <category name="Komponente 2">
+        <meal>
+          <name>Glühweingulasch</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Rindfleisch</note>
+          <note>alkoholhaltig</note>
+          <note>geschwefelt</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">3.20</price>
+          <price role="other">4.05</price>
+          <price role="student">2.35</price>
+        </meal>
+      </category>
       <category name="Vegetarisch oder Vegan">
         <meal>
-          <name>Vegan: 2 Ruccola-Süßkartoffel-Schnitten mit Soja-Sahne-Soße  und Couscous</name>
+          <name>Vegan: 2 Ruccola-Süßkartoffel-Schnitten mit Soja-Sahne-Soße  und Reis</name>
           <note>Glutenhaltiges Getreide</note>
           <note>Sellerie und daraus hergestellte Erzeugnisse</note>
           <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
@@ -52,33 +41,37 @@
           <price role="other">4.60</price>
           <price role="student">2.10</price>
         </meal>
+        <meal>
+          <name>Vegan: Falafel-Kichererbsen-Patty mit Reis  und Tomatensauce</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>jodiertes Salz</note>
+          <price role="employee">3.30</price>
+          <price role="other">4.60</price>
+          <price role="student">2.10</price>
+        </meal>
       </category>
       <category name="Mensa Vital">
         <meal>
-          <name>Vegan: Orientalische Gemüsepfanne mit gegartem Dinkel und gerösteten Sesam</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Sesamsamen und daraus hergestellte Erzeugnisse</note>
-          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
-          <price role="employee">4.00</price>
-          <price role="other">5.30</price>
-          <price role="student">2.70</price>
+          <name>Hähnchenbrust mit Mozzarellakruste, Brokkoli und Curryreis (9,Gefl,G,A)</name>
+          <price role="employee">4.30</price>
+          <price role="other">5.60</price>
+          <price role="student">3.00</price>
         </meal>
       </category>
       <category name="Nudeltheke (Preis pro 100g) Bitte extra Pasta-Teller verwenden">
         <meal>
-          <name>Farfalle mit Gemüse-Sahne-Soße</name>
-          <note>Glutenhaltiges Getreide</note>
+          <name>Hartkäse gerieben, portioniert (an der Kasse erhältlich)</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
           <note>Milch/Milchzucker</note>
-          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
-          <price role="employee">0.90</price>
-          <price role="other">1.20</price>
-          <price role="student">0.60</price>
+          <note>mit Konservierungsstoff</note>
+          <price role="employee">0.45</price>
+          <price role="other">0.60</price>
+          <price role="student">0.30</price>
         </meal>
         <meal>
-          <name>Nudeln mit Lauch-Käsesoße</name>
+          <name>Nudeln mit veganem Rucola-Nusspesto</name>
           <note>Glutenhaltiges Getreide</note>
-          <note>Milch/Milchzucker</note>
-          <note>mit Farbstoff</note>
+          <note>Schalenfrüchte und daraus hergestellte Erzeugnisse</note>
           <price role="employee">0.90</price>
           <price role="other">1.20</price>
           <price role="student">0.60</price>
@@ -86,26 +79,41 @@
       </category>
       <category name="Beilagen">
         <meal>
-          <name>Nudeln   Ausgabe 4</name>
-          <note>Glutenhaltiges Getreide</note>
-          <price role="employee">1.00</price>
-          <price role="other">1.40</price>
-          <price role="student">0.70</price>
-        </meal>
-        <meal>
           <name>Salzkartoffeln   Ausgabe 4</name>
           <note>geschwefelt</note>
           <price role="employee">1.00</price>
           <price role="other">1.40</price>
           <price role="student">0.70</price>
         </meal>
-      </category>
-      <category name="Gemüse">
         <meal>
-          <name>Blumenkohl Ausgabe 2, 4</name>
+          <name>Reis   Ausgabe 4</name>
+          <note>jodiertes Salz</note>
           <price role="employee">1.00</price>
           <price role="other">1.40</price>
           <price role="student">0.70</price>
+        </meal>
+        <meal>
+          <name>Böhmische Knödel   Ausgabe 4</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker</note>
+          <price role="employee">1.30</price>
+          <price role="other">1.70</price>
+          <price role="student">1.00</price>
+        </meal>
+      </category>
+      <category name="Gemüse">
+        <meal>
+          <name>Rosenkohl Ausgabe 4</name>
+          <price role="employee">1.00</price>
+          <price role="other">1.40</price>
+          <price role="student">0.70</price>
+        </meal>
+        <meal>
+          <name>Brokkoli Ausgabe 2, 4</name>
+          <price role="employee">1.20</price>
+          <price role="other">1.60</price>
+          <price role="student">0.90</price>
         </meal>
       </category>
       <category name="Salate und Desserts">
