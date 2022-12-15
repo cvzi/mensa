@@ -3,7 +3,7 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2022-12-14">
+    <day date="2022-12-15">
       <category name="Tellergericht">
         <meal>
           <name>Brötchen</name>
@@ -37,6 +37,31 @@
           <price role="student">2.20</price>
         </meal>
       </category>
+      <category name="Komponente 1">
+        <meal>
+          <name>Gebratenes Schollenfilet süss-saurer Sauce</name>
+          <note>Fische und daraus hergestellte Erzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>jodiertes Salz</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">3.10</price>
+          <price role="other">3.95</price>
+          <price role="student">2.25</price>
+        </meal>
+        <meal>
+          <name>Seelachsfilet in Eihülle mit Dillsauce</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <note>Fische und daraus hergestellte Erzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker</note>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
+          <note>jodiertes Salz</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">3.10</price>
+          <price role="other">3.95</price>
+          <price role="student">2.25</price>
+        </meal>
+      </category>
       <category name="Komponente 2">
         <meal>
           <name>Hirtenrolle mit Pfefferrahmsauce</name>
@@ -52,25 +77,16 @@
           <price role="other">3.95</price>
           <price role="student">2.25</price>
         </meal>
-      </category>
-      <category name="Komponente 3">
         <meal>
-          <name>Putensteak überbacken &quot;Hawaii&quot; (Gefl,G) mit Curry-Zwiebel-Mango Sauce</name>
-          <note>Glutenhaltiges Getreide</note>
+          <name>Balsamico-Senf-Geschnetzeltes</name>
           <note>Milch/Milchzucker</note>
+          <note>Schwefeldioxid und Sulphite in Konzentration von mehr als 10mg/</note>
+          <note>Schweinefleisch</note>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
+          <note>geschwefelt</note>
           <price role="employee">3.10</price>
           <price role="other">3.95</price>
           <price role="student">2.25</price>
-        </meal>
-      </category>
-      <category name="Komponente 4">
-        <meal>
-          <name>Szegediner Schweinegulasch</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Schweinefleisch</note>
-          <price role="employee">2.85</price>
-          <price role="other">3.70</price>
-          <price role="student">2.00</price>
         </meal>
       </category>
       <category name="Vegetarisch oder Vegan">
@@ -82,25 +98,34 @@
           <price role="student">2.10</price>
         </meal>
         <meal>
-          <name>Vegetarische Kohlroulade mit Kohlsoße  und Salzkartoffeln</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <name>Vegan: Sonnenblumen-Bolognese [regional, aus ökologischem Anbau] mit Nudeln</name>
           <note>Glutenhaltiges Getreide</note>
-          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
-          <note>geschwefelt</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">3.30</price>
-          <price role="other">4.60</price>
-          <price role="student">2.10</price>
-        </meal>
-        <meal>
-          <name>Vegan: Chili mit Sonnenblumenhack [regional, aus ökologischem Anbau] mit Kräuterreis</name>
-          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
           <note>Senf und daraus hergestellte Erzeugnisse</note>
-          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
-          <note>jodiertes Salz</note>
           <price role="employee">4.15</price>
           <price role="other">5.45</price>
           <price role="student">2.95</price>
+        </meal>
+      </category>
+      <category name="Mensa Vital">
+        <meal>
+          <name>Gemüsecurry in scharfer Kokossoße mit Couscous</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker</note>
+          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
+          <price role="employee">4.00</price>
+          <price role="other">5.30</price>
+          <price role="student">2.70</price>
+        </meal>
+      </category>
+      <category name="Nudeltheke (Preis pro 100g) Bitte extra Pasta-Teller verwenden">
+        <meal>
+          <name>Hartkäse gerieben, portioniert (an der Kasse erhältlich)</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <note>Milch/Milchzucker</note>
+          <note>mit Konservierungsstoff</note>
+          <price role="employee">0.45</price>
+          <price role="other">0.60</price>
+          <price role="student">0.30</price>
         </meal>
       </category>
       <category name="Beilagen">
@@ -119,8 +144,7 @@
           <price role="student">0.70</price>
         </meal>
         <meal>
-          <name>Pommes Frites Twisters   Ausgabe 4</name>
-          <note>Glutenhaltiges Getreide</note>
+          <name>Pommes Frites Ausgabe 4</name>
           <price role="employee">1.30</price>
           <price role="other">1.70</price>
           <price role="student">1.00</price>
@@ -128,10 +152,11 @@
       </category>
       <category name="Gemüse">
         <meal>
-          <name>Erbsengemüse Ausgabe 4</name>
-          <price role="employee">1.00</price>
-          <price role="other">1.40</price>
-          <price role="student">0.70</price>
+          <name>Europagemüse (gelbe und orange Karottenscheiben, Romanobohnen, Brokkoliröschen)   Ausgabe 5</name>
+          <note>jodiertes Salz</note>
+          <price role="employee">1.20</price>
+          <price role="other">1.60</price>
+          <price role="student">0.90</price>
         </meal>
       </category>
       <category name="Salate und Desserts">
