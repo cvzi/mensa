@@ -3,13 +3,39 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2023-01-05">
+    <day date="2023-01-06">
+      <category name="Tellergericht">
+        <meal>
+          <name>Kartoffelsuppe mit Geflügelwiener   Teller (2,3,5,7,9,Gefl,G,A,F,I,L)</name>
+          <price role="employee">2.35</price>
+          <price role="other">3.30</price>
+          <price role="student">1.50</price>
+        </meal>
+        <meal>
+          <name>Kartoffelsuppe mit Geflügelwiener Terrine (2,3,5,7,9,Gefl,G,A,F,I,L)</name>
+          <price role="employee">3.25</price>
+          <price role="other">4.40</price>
+          <price role="student">2.20</price>
+        </meal>
+      </category>
+      <category name="Komponente 2">
+        <meal>
+          <name>Putenschnitzel (9,Gefl,A) mit Geflügelsoße (9,Gefl,G,A,C)</name>
+          <price role="employee">3.10</price>
+          <price role="other">3.95</price>
+          <price role="student">2.25</price>
+        </meal>
+      </category>
       <category name="Vegetarisch oder Vegan">
         <meal>
-          <name>buntes Backofengemüse mit Hirtenkäse</name>
-          <note>Milch/Milchzucker</note>
+          <name>Vegan: Gemüse-Knusper-Frikadelle Rahm - Gemüse Sauce  Salzkartoffeln</name>
+          <note>Glutenhaltiges Getreide</note>
           <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
+          <note>geschwefelt</note>
           <note>jodiertes Salz</note>
+          <note>mit Farbstoff</note>
+          <note>mit Geschmacksverstärker</note>
           <price role="employee">3.30</price>
           <price role="other">4.60</price>
           <price role="student">2.10</price>
@@ -17,15 +43,15 @@
       </category>
       <category name="Mensa Vital">
         <meal>
-          <name>Bunte Paprikapfanne mit Ingwer und Bambus mit Dinkel</name>
+          <name>Feuriges Gemüse-Fischcurry mit Ingwerreis</name>
+          <note>Fische und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
-          <note>Sesamsamen und daraus hergestellte Erzeugnisse</note>
+          <note>Milch/Milchzucker</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
           <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
-          <note>mit Geschmacksverstärker</note>
-          <note>mit Konservierungsstoff</note>
-          <price role="employee">4.00</price>
-          <price role="other">5.30</price>
-          <price role="student">2.70</price>
+          <price role="employee">4.60</price>
+          <price role="other">5.90</price>
+          <price role="student">3.30</price>
         </meal>
       </category>
       <category name="Beilagen">
@@ -38,17 +64,7 @@
         </meal>
         <meal>
           <name>Reis   Ausgabe 1</name>
-          <note>jodiertes Salz</note>
-          <price role="employee">1.00</price>
-          <price role="other">1.40</price>
-          <price role="student">0.70</price>
-        </meal>
-        <meal>
-          <name>Spaghetti   Ausgabe 1</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
-          <note>Glutenhaltiges Getreide</note>
           <note>Milch/Milchzucker</note>
-          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
           <price role="employee">1.00</price>
           <price role="other">1.40</price>
           <price role="student">0.70</price>
@@ -56,10 +72,17 @@
       </category>
       <category name="Gemüse">
         <meal>
-          <name>Feine Möhren Ausgabe 1</name>
+          <name>Mischgemüse (Karotten und Erbsen)</name>
+          <note>jodiertes Salz</note>
           <price role="employee">1.00</price>
           <price role="other">1.40</price>
           <price role="student">0.70</price>
+        </meal>
+        <meal>
+          <name>Rosenkohl Ausgabe 1</name>
+          <price role="employee">1.20</price>
+          <price role="other">1.60</price>
+          <price role="student">0.90</price>
         </meal>
       </category>
       <category name="Salate und Desserts">
