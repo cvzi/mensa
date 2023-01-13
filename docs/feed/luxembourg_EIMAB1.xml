@@ -3,27 +3,6 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2023-01-02">
-      <closed/>
-    </day>
-    <day date="2023-01-03">
-      <closed/>
-    </day>
-    <day date="2023-01-04">
-      <closed/>
-    </day>
-    <day date="2023-01-05">
-      <closed/>
-    </day>
-    <day date="2023-01-06">
-      <closed/>
-    </day>
-    <day date="2023-01-07">
-      <closed/>
-    </day>
-    <day date="2023-01-08">
-      <closed/>
-    </day>
     <day date="2023-01-09">
       <category name="Petit déjeuner">
         <meal>
@@ -51,7 +30,7 @@
           <name>Thé, café, Bio lait, jus d'agrumes pressé</name>
         </meal>
       </category>
-      <category name="Végétarien (07:00 - 18:00)">
+      <category name="Végétarien">
         <meal>
           <name>Eeër mat wäisser Zooss an gekachte Gromper</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
@@ -77,7 +56,7 @@
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="06. Fruits (07:00 - 18:00)">
+      <category name="06. Fruits">
         <meal>
           <name>Banane Bio Fairtrade</name>
           <note>biologique</note>
@@ -113,7 +92,7 @@
           <name>Thé, café, Bio lait, jus d'agrumes pressé</name>
         </meal>
       </category>
-      <category name="Végétarien (07:00 - 18:00)">
+      <category name="Végétarien">
         <meal>
           <name>Gebeess, Hunneg, Schokolasbotter, Jugurt, Müsli</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
@@ -138,7 +117,7 @@
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Non-végétarien (07:00 - 18:00)">
+      <category name="Non-végétarien">
         <meal>
           <name>Tarte flambée à la luxembourgeoise</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
@@ -148,7 +127,7 @@
           <note>produit du Luxembourg</note>
         </meal>
       </category>
-      <category name="06. Fruits (07:00 - 18:00)">
+      <category name="06. Fruits">
         <meal>
           <name>Banane Bio Fairtrade</name>
           <note>biologique</note>
@@ -211,7 +190,7 @@
           <name>Thé, café, Bio lait, jus d'agrumes pressé</name>
         </meal>
       </category>
-      <category name="Végétarien (07:00 - 18:00)">
+      <category name="Végétarien">
         <meal>
           <name>Gebeess, Hunneg, Schokolasbotter, Jugurt, Müsli</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
@@ -237,7 +216,7 @@
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="06. Fruits (07:00 - 18:00)">
+      <category name="06. Fruits">
         <meal>
           <name>Banane Bio Fairtrade</name>
           <note>biologique</note>
@@ -297,7 +276,7 @@
           <name>Thé, café, Bio lait, jus d'agrumes pressé</name>
         </meal>
       </category>
-      <category name="Végétarien (07:00 - 18:00)">
+      <category name="Végétarien">
         <meal>
           <name>Gebeess, Hunneg, Schokolasbotter, Jugurt, Müsli</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
@@ -324,7 +303,7 @@
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Non-végétarien (07:00 - 18:00)">
+      <category name="Non-végétarien">
         <meal>
           <name>Ierbessebulli mat Wirschtercher</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
@@ -335,7 +314,7 @@
           <note>produit du Luxembourg</note>
         </meal>
       </category>
-      <category name="06. Fruits (07:00 - 18:00)">
+      <category name="06. Fruits">
         <meal>
           <name>Banane Bio Fairtrade</name>
           <note>biologique</note>
@@ -398,7 +377,7 @@
           <name>Thé, café, Bio lait, jus d'agrumes pressé</name>
         </meal>
       </category>
-      <category name="06. Fruits (07:00 - 18:00)">
+      <category name="06. Fruits">
         <meal>
           <name>Banane Bio Fairtrade</name>
           <note>biologique</note>
@@ -448,6 +427,8 @@
       <category name="Végétarien (07:00 - 18:00)">
         <meal>
           <name>Gebeess, Hunneg, Schokolasbotter, Jugurt, Müsli</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit du Grand Région</note>
           <note>biologique</note>
           <note>biologique</note>
@@ -458,7 +439,11 @@
         </meal>
         <meal>
           <name>Nems aux légumes et tofu, sauce piquante</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
           <note>Produit du Grand Région</note>
+          <note>Soja et produits à base de soja</note>
           <note>biologique</note>
           <note>produit constant</note>
           <note>produit du Luxembourg</note>
@@ -504,7 +489,11 @@
       <category name="Végétarien (07:00 - 18:00)">
         <meal>
           <name>Escalope de tofu marinée et panée</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
           <note>Produit du Grand Région</note>
+          <note>Soja et produits à base de soja</note>
           <note>biologique</note>
           <note>biologique</note>
           <note>produit Transfair</note>
@@ -515,6 +504,8 @@
         </meal>
         <meal>
           <name>Gebeess, Hunneg, Schokolasbotter, Jugurt, Müsli</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit du Grand Région</note>
           <note>biologique</note>
           <note>produit constant</note>
@@ -525,6 +516,9 @@
       <category name="Non-végétarien (07:00 - 18:00)">
         <meal>
           <name>Escalope de poulet panée, quartier de citron</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
           <note>non-végétarien</note>
           <note>produit constant</note>
           <note>produit du Luxembourg</note>
@@ -569,6 +563,8 @@
       <category name="Végétarien (07:00 - 18:00)">
         <meal>
           <name>Gebeess, Hunneg, Schokolasbotter, Jugurt, Müsli</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit du Grand Région</note>
           <note>biologique</note>
           <note>biologique</note>
@@ -579,6 +575,8 @@
         </meal>
         <meal>
           <name>Raclette au fromage luxembourgeois</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>produit constant</note>
           <note>produit du Luxembourg</note>
           <note>végétarien</note>
@@ -626,6 +624,8 @@
       <category name="Végétarien (07:00 - 18:00)">
         <meal>
           <name>Gebeess, Hunneg, Schokolasbotter, Jugurt, Müsli</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit du Grand Région</note>
           <note>biologique</note>
           <note>biologique</note>
@@ -638,6 +638,10 @@
       <category name="Pasta (07:00 - 18:00)">
         <meal>
           <name>Spaghetti carbonara de légumes</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit du Grand Région</note>
           <note>produit constant</note>
           <note>produit du Luxembourg</note>
@@ -1090,6 +1094,393 @@
       <closed/>
     </day>
     <day date="2023-01-29">
+      <closed/>
+    </day>
+    <day date="2023-01-30">
+      <category name="Petit déjeuner">
+        <meal>
+          <name>Bio pain en tranches</name>
+        </meal>
+        <meal>
+          <name>Bio flocons d'avoine, Bio muesli</name>
+        </meal>
+        <meal>
+          <name>Bio yaourt nature, Bio yaourt aux fruits</name>
+        </meal>
+        <meal>
+          <name>Fromage</name>
+        </meal>
+        <meal>
+          <name>Beurre, miel, confiture</name>
+        </meal>
+        <meal>
+          <name>Bio pâte à tartiner au chocolat</name>
+        </meal>
+        <meal>
+          <name>Salade de fruits</name>
+        </meal>
+        <meal>
+          <name>Thé, café, Bio lait, jus d'agrumes pressé</name>
+        </meal>
+      </category>
+      <category name="Végétarien (07:00 - 18:00)">
+        <meal>
+          <name>Gebeess, Hunneg, Schokolasbotter, Jugurt, Müsli</name>
+          <note>Produit du Grand Région</note>
+          <note>biologique</note>
+          <note>biologique</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>produit du Luxembourg</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Spigeleeër mat Spinat</name>
+          <note>Oeufs sur la plat, épinards à la crème</note>
+          <note>Produit du Benelux</note>
+          <note>biologique</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="06. Fruits (07:00 - 18:00)">
+        <meal>
+          <name>Banane Bio Fairtrade</name>
+          <note>biologique</note>
+          <note>produit Transfair</note>
+          <note>produit constant</note>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-01-31">
+      <category name="Petit déjeuner">
+        <meal>
+          <name>Bio pain en tranches</name>
+        </meal>
+        <meal>
+          <name>Bio flocons d'avoine, Bio muesli</name>
+        </meal>
+        <meal>
+          <name>Bio yaourt nature, Bio yaourt aux fruits</name>
+        </meal>
+        <meal>
+          <name>Fromage</name>
+        </meal>
+        <meal>
+          <name>Beurre, miel, confiture</name>
+        </meal>
+        <meal>
+          <name>Bio pâte à tartiner au chocolat</name>
+        </meal>
+        <meal>
+          <name>Salade de fruits</name>
+        </meal>
+        <meal>
+          <name>Thé, café, Bio lait, jus d'agrumes pressé</name>
+        </meal>
+        <meal>
+          <name>Bio pain en tranches</name>
+        </meal>
+        <meal>
+          <name>Bio flocons d'avoine, Bio muesli</name>
+        </meal>
+        <meal>
+          <name>Bio yaourt nature, Bio yaourt aux fruits</name>
+        </meal>
+        <meal>
+          <name>Fromage</name>
+        </meal>
+        <meal>
+          <name>Beurre, miel, confiture</name>
+        </meal>
+        <meal>
+          <name>Bio pâte à tartiner au chocolat</name>
+        </meal>
+        <meal>
+          <name>Salade de fruits</name>
+        </meal>
+        <meal>
+          <name>Thé, café, Bio lait, jus d'agrumes pressé</name>
+        </meal>
+      </category>
+      <category name="Végétarien (07:00 - 18:00)">
+        <meal>
+          <name>Gebeess, Hunneg, Schokolasbotter, Jugurt, Müsli</name>
+          <note>Produit du Grand Région</note>
+          <note>biologique</note>
+          <note>biologique</note>
+          <note>biologique</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>produit du Luxembourg</note>
+          <note>produit du Luxembourg</note>
+          <note>végétarien</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Geméiszopp mat Paangecher</name>
+          <note>Potage de légumes et crêpes</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="06. Fruits (07:00 - 18:00)">
+        <meal>
+          <name>Banane Bio Fairtrade</name>
+          <note>biologique</note>
+          <note>produit Transfair</note>
+          <note>produit constant</note>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-02-01">
+      <category name="Petit déjeuner">
+        <meal>
+          <name>Bio pain en tranches</name>
+        </meal>
+        <meal>
+          <name>Bio flocons d'avoine, Bio muesli</name>
+        </meal>
+        <meal>
+          <name>Bio yaourt nature, Bio yaourt aux fruits</name>
+        </meal>
+        <meal>
+          <name>Fromage</name>
+        </meal>
+        <meal>
+          <name>Beurre, miel, confiture</name>
+        </meal>
+        <meal>
+          <name>Bio pâte à tartiner au chocolat</name>
+        </meal>
+        <meal>
+          <name>Bio Streusel</name>
+        </meal>
+        <meal>
+          <name>Salade de fruits</name>
+        </meal>
+        <meal>
+          <name>Thé, café, Bio lait, jus d'agrumes pressé</name>
+        </meal>
+        <meal>
+          <name>Bio pain en tranches</name>
+        </meal>
+        <meal>
+          <name>Bio flocons d'avoine, Bio muesli</name>
+        </meal>
+        <meal>
+          <name>Bio yaourt nature, Bio yaourt aux fruits</name>
+        </meal>
+        <meal>
+          <name>Fromage</name>
+        </meal>
+        <meal>
+          <name>Beurre, miel, confiture</name>
+        </meal>
+        <meal>
+          <name>Bio pâte à tartiner au chocolat</name>
+        </meal>
+        <meal>
+          <name>Salade de fruits</name>
+        </meal>
+        <meal>
+          <name>Thé, café, Bio lait, jus d'agrumes pressé</name>
+        </meal>
+      </category>
+      <category name="Végétarien (07:00 - 18:00)">
+        <meal>
+          <name>Gebeess, Hunneg, Schokolasbotter, Jugurt, Müsli</name>
+          <note>Produit du Grand Région</note>
+          <note>biologique</note>
+          <note>biologique</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>produit du Luxembourg</note>
+          <note>végétarien</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Pizza Margherita</name>
+          <note>Produit du Grand Région</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="06. Fruits (07:00 - 18:00)">
+        <meal>
+          <name>Banane Bio Fairtrade</name>
+          <note>biologique</note>
+          <note>produit Transfair</note>
+          <note>produit constant</note>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-02-02">
+      <category name="Petit déjeuner">
+        <meal>
+          <name>Bio pain en tranches</name>
+        </meal>
+        <meal>
+          <name>Bio flocons d'avoine, Bio muesli</name>
+        </meal>
+        <meal>
+          <name>Bio yaourt nature, Bio yaourt aux fruits</name>
+        </meal>
+        <meal>
+          <name>Fromage</name>
+        </meal>
+        <meal>
+          <name>Beurre, miel, confiture</name>
+        </meal>
+        <meal>
+          <name>Bio pâte à tartiner au chocolat</name>
+        </meal>
+        <meal>
+          <name>Salade de fruits</name>
+        </meal>
+        <meal>
+          <name>Thé, café, Bio lait, jus d'agrumes pressé</name>
+        </meal>
+        <meal>
+          <name>Bio pain en tranches</name>
+        </meal>
+        <meal>
+          <name>Bio flocons d'avoine, Bio muesli</name>
+        </meal>
+        <meal>
+          <name>Bio yaourt nature, Bio yaourt aux fruits</name>
+        </meal>
+        <meal>
+          <name>Fromage</name>
+        </meal>
+        <meal>
+          <name>Gâteau au chocolat maison</name>
+        </meal>
+        <meal>
+          <name>Beurre, miel luxembourgeois, confiture luxembourgeoise, Bio pâte à tartiner au chocolat</name>
+        </meal>
+        <meal>
+          <name>Salade de fruits</name>
+        </meal>
+        <meal>
+          <name>Thé, café, Bio lait, jus d'agrumes pressé</name>
+        </meal>
+      </category>
+      <category name="Végétarien (07:00 - 18:00)">
+        <meal>
+          <name>Escalope de tofu mariné façon Bifana, sauce piquante</name>
+          <note>Produit du Grand Région</note>
+          <note>biologique</note>
+          <note>biologique</note>
+          <note>biologique</note>
+          <note>produit Transfair</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>produit du Luxembourg</note>
+          <note>végétarien</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Gebeess, Hunneg, Schokolasbotter, Jugurt, Müsli</name>
+          <note>Produit du Grand Région</note>
+          <note>biologique</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Non-végétarien (07:00 - 18:00)">
+        <meal>
+          <name>Bifana de boeuf aux oignons, fond réduit</name>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+      </category>
+      <category name="06. Fruits (07:00 - 18:00)">
+        <meal>
+          <name>Banane Bio Fairtrade</name>
+          <note>biologique</note>
+          <note>produit Transfair</note>
+          <note>produit constant</note>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-02-03">
+      <category name="Petit déjeuner">
+        <meal>
+          <name>Bio pain en tranches</name>
+        </meal>
+        <meal>
+          <name>Bio flocons d'avoine, Bio muesli</name>
+        </meal>
+        <meal>
+          <name>Bio yaourt nature, Bio yaourt aux fruits</name>
+        </meal>
+        <meal>
+          <name>Fromage</name>
+        </meal>
+        <meal>
+          <name>Beurre, miel, confiture</name>
+        </meal>
+        <meal>
+          <name>Bio pâte à tartiner au chocolat</name>
+        </meal>
+        <meal>
+          <name>Salade de fruits</name>
+        </meal>
+        <meal>
+          <name>Thé, café, Bio lait, jus d'agrumes pressé</name>
+        </meal>
+        <meal>
+          <name>Bio pain en tranches</name>
+        </meal>
+        <meal>
+          <name>Bio flocons d'avoine, Bio muesli</name>
+        </meal>
+        <meal>
+          <name>Bio yaourt nature, Bio yaourt aux fruits</name>
+        </meal>
+        <meal>
+          <name>Fromage</name>
+        </meal>
+        <meal>
+          <name>Petit pain au chocolat</name>
+        </meal>
+        <meal>
+          <name>Beurre, miel, confiture</name>
+        </meal>
+        <meal>
+          <name>Bio pâte à tartiner au chocolat</name>
+        </meal>
+        <meal>
+          <name>Salade de fruits</name>
+        </meal>
+        <meal>
+          <name>Thé, café, Bio lait, jus d'agrumes pressé</name>
+        </meal>
+      </category>
+      <category name="06. Fruits (07:00 - 18:00)">
+        <meal>
+          <name>Banane Bio Fairtrade</name>
+          <note>biologique</note>
+          <note>biologique</note>
+          <note>biologique</note>
+          <note>produit Transfair</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>produit du Luxembourg</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-02-04">
+      <closed/>
+    </day>
+    <day date="2023-02-05">
       <closed/>
     </day>
   </canteen>
