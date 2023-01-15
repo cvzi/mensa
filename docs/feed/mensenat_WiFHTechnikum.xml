@@ -3,25 +3,17 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2023-01-09">
+    <day date="2023-01-16">
       <category name="Wochengerichte">
         <meal>
-          <name>Montag: Französische Zwiebelsuppe</name>
+          <name>Montag: Minestrone</name>
           <note>Gluten</note>
           <note>Sellerie</note>
           <note>Sojabohnen</note>
           <price role="student">3.90</price>
         </meal>
         <meal>
-          <name>Dienstag: Erbsencremesuppe</name>
-          <note>Gluten</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <note>vegan</note>
-          <price role="student">3.90</price>
-        </meal>
-        <meal>
-          <name>Mittwoch: Lauchcremesuppe</name>
+          <name>Dienstag: Knoblauchcremesuppe</name>
           <note>Gluten</note>
           <note>Sellerie</note>
           <note>Sojabohnen</note>
@@ -29,7 +21,7 @@
           <price role="student">3.90</price>
         </meal>
         <meal>
-          <name>Donnerstag: Zucchinicremesuppe</name>
+          <name>Mittwoch: Fisolencremesuppe</name>
           <note>Gluten</note>
           <note>Sellerie</note>
           <note>Sojabohnen</note>
@@ -37,7 +29,15 @@
           <price role="student">3.90</price>
         </meal>
         <meal>
-          <name>Freitag: Gemüsecremesuppe</name>
+          <name>Donnerstag: Gelbe Rüben-Currycremesuppe</name>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <note>vegetarisch</note>
+          <price role="student">3.90</price>
+        </meal>
+        <meal>
+          <name>Freitag: Champignoncremesuppe</name>
           <note>Gluten</note>
           <note>Sellerie</note>
           <note>Sojabohnen</note>
@@ -92,438 +92,451 @@
       </category>
       <category name="Tagesempfehlungen">
         <meal>
-          <name>Chili con Carne Gebäck</name>
+          <name>Asiatische Eiernudeln Gemüse &amp; BIO Tofu</name>
+          <note>Eier</note>
           <note>Gluten</note>
+          <note>Milch</note>
+          <note>Schalenfrüchte</note>
+          <note>Sellerie</note>
           <note>Senf</note>
           <note>Sesam</note>
-          <price role="student">6.40</price>
+          <note>Sojabohnen</note>
+          <note>vegetarisch</note>
+          <price role="student">5.70</price>
         </meal>
         <meal>
-          <name>Penne Sauce all´arrabbiata</name>
+          <name>Paprika Hendl Spätzle</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Sojabohnen</note>
+          <price role="student">6.40</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-01-17">
+      <category name="Wochengerichte">
+        <meal>
+          <name>Montag: Minestrone</name>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <price role="student">3.90</price>
+        </meal>
+        <meal>
+          <name>Dienstag: Knoblauchcremesuppe</name>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <note>vegetarisch</note>
+          <price role="student">3.90</price>
+        </meal>
+        <meal>
+          <name>Mittwoch: Fisolencremesuppe</name>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <note>vegetarisch</note>
+          <price role="student">3.90</price>
+        </meal>
+        <meal>
+          <name>Donnerstag: Gelbe Rüben-Currycremesuppe</name>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <note>vegetarisch</note>
+          <price role="student">3.90</price>
+        </meal>
+        <meal>
+          <name>Freitag: Champignoncremesuppe</name>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <note>vegetarisch</note>
+          <price role="student">3.90</price>
+        </meal>
+      </category>
+      <category name="Eat up &amp; drink up">
+        <meal>
+          <name>Snack up Ciabatta mit Tomaten, Mozzarella &amp; Rucola</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Schalenfrüchte</note>
+          <note>Senf</note>
+          <price role="student">3.90</price>
+        </meal>
+        <meal>
+          <name>Flagueline mit Falafel, Hummus &amp; Tomaten</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Sesam</note>
+          <note>Sojabohnen</note>
+          <price role="student">4.90</price>
+        </meal>
+        <meal>
+          <name>Mensa Toast (Putenschinken-Käse)</name>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <price role="student">3.20</price>
+        </meal>
+        <meal>
+          <name>Schnitzelsemmel vom Huhn mit Kernöl-Mayonnaise</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Lupinen</note>
+          <note>Milch</note>
+          <note>Schalenfrüchte</note>
+          <note>Senf</note>
+          <note>Sesam</note>
+          <note>Sojabohnen</note>
+          <price role="student">3.20</price>
+        </meal>
+        <meal>
+          <name>Sweet up süße Plunder, Muffins und Blechkuchen erwarten Sie in unserer Vitrine. Illy Kaffee &amp; Eilles Tee Alkoholfreie Getränke, Bier Spritzer Weißer Spritzer, Aperolspritzer, Hugo Weine &amp; Sprudel Gemischter Satz „Fritzi“, Weingut Fritz Gelber</name>
+        </meal>
+        <meal>
+          <name>Muskateller DAC, Weingut Skoff Grüner Veltliner „Gärtling“, Weingut Nigl Blaufränkisch „Classic“, Weingut Hans Igler Cuvée Carnuntum, Weingut Markowitsch Welschriesling Sekt, Weingut Szigeti</name>
+        </meal>
+      </category>
+      <category name="Tagesempfehlungen">
+        <meal>
+          <name>Kichererbsen Ragout BIO-Dinkel Reis</name>
           <note>Gluten</note>
           <note>Sellerie</note>
           <note>Sojabohnen</note>
           <note>vegan</note>
           <price role="student">5.70</price>
         </meal>
-      </category>
-    </day>
-    <day date="2023-01-10">
-      <category name="Wochengerichte">
         <meal>
-          <name>Montag: Französische Zwiebelsuppe</name>
+          <name>Penne Champignon Schinken Obers Sauce</name>
           <note>Gluten</note>
           <note>Sellerie</note>
           <note>Sojabohnen</note>
-          <price role="student">3.90</price>
-        </meal>
-        <meal>
-          <name>Dienstag: Erbsencremesuppe</name>
-          <note>Gluten</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <note>vegan</note>
-          <price role="student">3.90</price>
-        </meal>
-        <meal>
-          <name>Mittwoch: Lauchcremesuppe</name>
-          <note>Gluten</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <note>vegetarisch</note>
-          <price role="student">3.90</price>
-        </meal>
-        <meal>
-          <name>Donnerstag: Zucchinicremesuppe</name>
-          <note>Gluten</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <note>vegetarisch</note>
-          <price role="student">3.90</price>
-        </meal>
-        <meal>
-          <name>Freitag: Gemüsecremesuppe</name>
-          <note>Gluten</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <note>vegetarisch</note>
-          <price role="student">3.90</price>
-        </meal>
-      </category>
-      <category name="Eat up &amp; drink up">
-        <meal>
-          <name>Snack up Ciabatta mit Tomaten, Mozzarella &amp; Rucola</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schalenfrüchte</note>
-          <note>Senf</note>
-          <price role="student">3.90</price>
-        </meal>
-        <meal>
-          <name>Flagueline mit Falafel, Hummus &amp; Tomaten</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Sesam</note>
-          <note>Sojabohnen</note>
-          <price role="student">4.90</price>
-        </meal>
-        <meal>
-          <name>Mensa Toast (Putenschinken-Käse)</name>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <price role="student">3.20</price>
-        </meal>
-        <meal>
-          <name>Schnitzelsemmel vom Huhn mit Kernöl-Mayonnaise</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Lupinen</note>
-          <note>Milch</note>
-          <note>Schalenfrüchte</note>
-          <note>Senf</note>
-          <note>Sesam</note>
-          <note>Sojabohnen</note>
-          <price role="student">3.20</price>
-        </meal>
-        <meal>
-          <name>Sweet up süße Plunder, Muffins und Blechkuchen erwarten Sie in unserer Vitrine. Illy Kaffee &amp; Eilles Tee Alkoholfreie Getränke, Bier Spritzer Weißer Spritzer, Aperolspritzer, Hugo Weine &amp; Sprudel Gemischter Satz „Fritzi“, Weingut Fritz Gelber</name>
-        </meal>
-        <meal>
-          <name>Muskateller DAC, Weingut Skoff Grüner Veltliner „Gärtling“, Weingut Nigl Blaufränkisch „Classic“, Weingut Hans Igler Cuvée Carnuntum, Weingut Markowitsch Welschriesling Sekt, Weingut Szigeti</name>
-        </meal>
-      </category>
-      <category name="Tagesempfehlungen">
-        <meal>
-          <name>Knacker gebraten Dillrahmsauce, Rösterdäpfel</name>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sojabohnen</note>
-          <price role="student">6.40</price>
-        </meal>
-        <meal>
-          <name>Erdäpfel-Gemüse-Gröstl BIO-Tofu</name>
-          <note>Sojabohnen</note>
-          <note>vegan</note>
-          <price role="student">5.70</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2023-01-11">
-      <category name="Wochengerichte">
-        <meal>
-          <name>Montag: Französische Zwiebelsuppe</name>
-          <note>Gluten</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <price role="student">3.90</price>
-        </meal>
-        <meal>
-          <name>Dienstag: Erbsencremesuppe</name>
-          <note>Gluten</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <note>vegan</note>
-          <price role="student">3.90</price>
-        </meal>
-        <meal>
-          <name>Mittwoch: Lauchcremesuppe</name>
-          <note>Gluten</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <note>vegetarisch</note>
-          <price role="student">3.90</price>
-        </meal>
-        <meal>
-          <name>Donnerstag: Zucchinicremesuppe</name>
-          <note>Gluten</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <note>vegetarisch</note>
-          <price role="student">3.90</price>
-        </meal>
-        <meal>
-          <name>Freitag: Gemüsecremesuppe</name>
-          <note>Gluten</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <note>vegetarisch</note>
-          <price role="student">3.90</price>
-        </meal>
-      </category>
-      <category name="Eat up &amp; drink up">
-        <meal>
-          <name>Snack up Ciabatta mit Tomaten, Mozzarella &amp; Rucola</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schalenfrüchte</note>
-          <note>Senf</note>
-          <price role="student">3.90</price>
-        </meal>
-        <meal>
-          <name>Flagueline mit Falafel, Hummus &amp; Tomaten</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Sesam</note>
-          <note>Sojabohnen</note>
-          <price role="student">4.90</price>
-        </meal>
-        <meal>
-          <name>Mensa Toast (Putenschinken-Käse)</name>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <price role="student">3.20</price>
-        </meal>
-        <meal>
-          <name>Schnitzelsemmel vom Huhn mit Kernöl-Mayonnaise</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Lupinen</note>
-          <note>Milch</note>
-          <note>Schalenfrüchte</note>
-          <note>Senf</note>
-          <note>Sesam</note>
-          <note>Sojabohnen</note>
-          <price role="student">3.20</price>
-        </meal>
-        <meal>
-          <name>Sweet up süße Plunder, Muffins und Blechkuchen erwarten Sie in unserer Vitrine. Illy Kaffee &amp; Eilles Tee Alkoholfreie Getränke, Bier Spritzer Weißer Spritzer, Aperolspritzer, Hugo Weine &amp; Sprudel Gemischter Satz „Fritzi“, Weingut Fritz Gelber</name>
-        </meal>
-        <meal>
-          <name>Muskateller DAC, Weingut Skoff Grüner Veltliner „Gärtling“, Weingut Nigl Blaufränkisch „Classic“, Weingut Hans Igler Cuvée Carnuntum, Weingut Markowitsch Welschriesling Sekt, Weingut Szigeti</name>
-        </meal>
-      </category>
-      <category name="Tagesempfehlungen">
-        <meal>
-          <name>Specklinsen Serviettenknödel</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <note>Sojabohnen</note>
-          <price role="student">6.40</price>
-        </meal>
-        <meal>
-          <name>Spinatlasagne Fetakäse, Cherrytomatensauce</name>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>vegetarisch</note>
-          <price role="student">5.70</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2023-01-12">
-      <category name="Wochengerichte">
-        <meal>
-          <name>Montag: Französische Zwiebelsuppe</name>
-          <note>Gluten</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <price role="student">3.90</price>
-        </meal>
-        <meal>
-          <name>Dienstag: Erbsencremesuppe</name>
-          <note>Gluten</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <note>vegan</note>
-          <price role="student">3.90</price>
-        </meal>
-        <meal>
-          <name>Mittwoch: Lauchcremesuppe</name>
-          <note>Gluten</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <note>vegetarisch</note>
-          <price role="student">3.90</price>
-        </meal>
-        <meal>
-          <name>Donnerstag: Zucchinicremesuppe</name>
-          <note>Gluten</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <note>vegetarisch</note>
-          <price role="student">3.90</price>
-        </meal>
-        <meal>
-          <name>Freitag: Gemüsecremesuppe</name>
-          <note>Gluten</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <note>vegetarisch</note>
-          <price role="student">3.90</price>
-        </meal>
-      </category>
-      <category name="Eat up &amp; drink up">
-        <meal>
-          <name>Snack up Ciabatta mit Tomaten, Mozzarella &amp; Rucola</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schalenfrüchte</note>
-          <note>Senf</note>
-          <price role="student">3.90</price>
-        </meal>
-        <meal>
-          <name>Flagueline mit Falafel, Hummus &amp; Tomaten</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Sesam</note>
-          <note>Sojabohnen</note>
-          <price role="student">4.90</price>
-        </meal>
-        <meal>
-          <name>Mensa Toast (Putenschinken-Käse)</name>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <price role="student">3.20</price>
-        </meal>
-        <meal>
-          <name>Schnitzelsemmel vom Huhn mit Kernöl-Mayonnaise</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Lupinen</note>
-          <note>Milch</note>
-          <note>Schalenfrüchte</note>
-          <note>Senf</note>
-          <note>Sesam</note>
-          <note>Sojabohnen</note>
-          <price role="student">3.20</price>
-        </meal>
-        <meal>
-          <name>Sweet up süße Plunder, Muffins und Blechkuchen erwarten Sie in unserer Vitrine. Illy Kaffee &amp; Eilles Tee Alkoholfreie Getränke, Bier Spritzer Weißer Spritzer, Aperolspritzer, Hugo Weine &amp; Sprudel Gemischter Satz „Fritzi“, Weingut Fritz Gelber</name>
-        </meal>
-        <meal>
-          <name>Muskateller DAC, Weingut Skoff Grüner Veltliner „Gärtling“, Weingut Nigl Blaufränkisch „Classic“, Weingut Hans Igler Cuvée Carnuntum, Weingut Markowitsch Welschriesling Sekt, Weingut Szigeti</name>
-        </meal>
-      </category>
-      <category name="Tagesempfehlungen">
-        <meal>
-          <name>Erdäpfelpfanne Hühnerfleisch, Kürbis</name>
-          <price role="student">6.40</price>
-        </meal>
-        <meal>
-          <name>Roter Linsen Eintopf Mediterran Cous Cous</name>
-          <note>Gluten</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <note>vegan</note>
-          <price role="student">5.70</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2023-01-13">
-      <category name="Wochengerichte">
-        <meal>
-          <name>Montag: Französische Zwiebelsuppe</name>
-          <note>Gluten</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <price role="student">3.90</price>
-        </meal>
-        <meal>
-          <name>Dienstag: Erbsencremesuppe</name>
-          <note>Gluten</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <note>vegan</note>
-          <price role="student">3.90</price>
-        </meal>
-        <meal>
-          <name>Mittwoch: Lauchcremesuppe</name>
-          <note>Gluten</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <note>vegetarisch</note>
-          <price role="student">3.90</price>
-        </meal>
-        <meal>
-          <name>Donnerstag: Zucchinicremesuppe</name>
-          <note>Gluten</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <note>vegetarisch</note>
-          <price role="student">3.90</price>
-        </meal>
-        <meal>
-          <name>Freitag: Gemüsecremesuppe</name>
-          <note>Gluten</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <note>vegetarisch</note>
-          <price role="student">3.90</price>
-        </meal>
-      </category>
-      <category name="Eat up &amp; drink up">
-        <meal>
-          <name>Snack up Ciabatta mit Tomaten, Mozzarella &amp; Rucola</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schalenfrüchte</note>
-          <note>Senf</note>
-          <price role="student">3.90</price>
-        </meal>
-        <meal>
-          <name>Flagueline mit Falafel, Hummus &amp; Tomaten</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Sesam</note>
-          <note>Sojabohnen</note>
-          <price role="student">4.90</price>
-        </meal>
-        <meal>
-          <name>Mensa Toast (Putenschinken-Käse)</name>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <price role="student">3.20</price>
-        </meal>
-        <meal>
-          <name>Schnitzelsemmel vom Huhn mit Kernöl-Mayonnaise</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Lupinen</note>
-          <note>Milch</note>
-          <note>Schalenfrüchte</note>
-          <note>Senf</note>
-          <note>Sesam</note>
-          <note>Sojabohnen</note>
-          <price role="student">3.20</price>
-        </meal>
-        <meal>
-          <name>Sweet up süße Plunder, Muffins und Blechkuchen erwarten Sie in unserer Vitrine. Illy Kaffee &amp; Eilles Tee Alkoholfreie Getränke, Bier Spritzer Weißer Spritzer, Aperolspritzer, Hugo Weine &amp; Sprudel Gemischter Satz „Fritzi“, Weingut Fritz Gelber</name>
-        </meal>
-        <meal>
-          <name>Muskateller DAC, Weingut Skoff Grüner Veltliner „Gärtling“, Weingut Nigl Blaufränkisch „Classic“, Weingut Hans Igler Cuvée Carnuntum, Weingut Markowitsch Welschriesling Sekt, Weingut Szigeti</name>
-        </meal>
-      </category>
-      <category name="Tagesempfehlungen">
-        <meal>
-          <name>Spaghetti Sauce Bolognese, frischer Parmesan</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Sellerie</note>
           <price role="student">6.20</price>
         </meal>
+      </category>
+    </day>
+    <day date="2023-01-18">
+      <category name="Wochengerichte">
         <meal>
-          <name>Karotten-Karfiol Curry Basmatireis</name>
+          <name>Montag: Minestrone</name>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <price role="student">3.90</price>
+        </meal>
+        <meal>
+          <name>Dienstag: Knoblauchcremesuppe</name>
           <note>Gluten</note>
           <note>Sellerie</note>
           <note>Sojabohnen</note>
           <note>vegetarisch</note>
+          <price role="student">3.90</price>
+        </meal>
+        <meal>
+          <name>Mittwoch: Fisolencremesuppe</name>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <note>vegetarisch</note>
+          <price role="student">3.90</price>
+        </meal>
+        <meal>
+          <name>Donnerstag: Gelbe Rüben-Currycremesuppe</name>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <note>vegetarisch</note>
+          <price role="student">3.90</price>
+        </meal>
+        <meal>
+          <name>Freitag: Champignoncremesuppe</name>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <note>vegetarisch</note>
+          <price role="student">3.90</price>
+        </meal>
+      </category>
+      <category name="Eat up &amp; drink up">
+        <meal>
+          <name>Snack up Ciabatta mit Tomaten, Mozzarella &amp; Rucola</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Schalenfrüchte</note>
+          <note>Senf</note>
+          <price role="student">3.90</price>
+        </meal>
+        <meal>
+          <name>Flagueline mit Falafel, Hummus &amp; Tomaten</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Sesam</note>
+          <note>Sojabohnen</note>
+          <price role="student">4.90</price>
+        </meal>
+        <meal>
+          <name>Mensa Toast (Putenschinken-Käse)</name>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <price role="student">3.20</price>
+        </meal>
+        <meal>
+          <name>Schnitzelsemmel vom Huhn mit Kernöl-Mayonnaise</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Lupinen</note>
+          <note>Milch</note>
+          <note>Schalenfrüchte</note>
+          <note>Senf</note>
+          <note>Sesam</note>
+          <note>Sojabohnen</note>
+          <price role="student">3.20</price>
+        </meal>
+        <meal>
+          <name>Sweet up süße Plunder, Muffins und Blechkuchen erwarten Sie in unserer Vitrine. Illy Kaffee &amp; Eilles Tee Alkoholfreie Getränke, Bier Spritzer Weißer Spritzer, Aperolspritzer, Hugo Weine &amp; Sprudel Gemischter Satz „Fritzi“, Weingut Fritz Gelber</name>
+        </meal>
+        <meal>
+          <name>Muskateller DAC, Weingut Skoff Grüner Veltliner „Gärtling“, Weingut Nigl Blaufränkisch „Classic“, Weingut Hans Igler Cuvée Carnuntum, Weingut Markowitsch Welschriesling Sekt, Weingut Szigeti</name>
+        </meal>
+      </category>
+      <category name="Tagesempfehlungen">
+        <meal>
+          <name>Kürbisgulasch Käferbohnen, hausgemachte Serviettenknödel</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <note>vegan</note>
           <price role="student">5.70</price>
+        </meal>
+        <meal>
+          <name>Majoranfleisch vom Schwein Petersilerdäpfel</name>
+          <note>Gluten</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <price role="student">6.40</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-01-19">
+      <category name="Wochengerichte">
+        <meal>
+          <name>Montag: Minestrone</name>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <price role="student">3.90</price>
+        </meal>
+        <meal>
+          <name>Dienstag: Knoblauchcremesuppe</name>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <note>vegetarisch</note>
+          <price role="student">3.90</price>
+        </meal>
+        <meal>
+          <name>Mittwoch: Fisolencremesuppe</name>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <note>vegetarisch</note>
+          <price role="student">3.90</price>
+        </meal>
+        <meal>
+          <name>Donnerstag: Gelbe Rüben-Currycremesuppe</name>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <note>vegetarisch</note>
+          <price role="student">3.90</price>
+        </meal>
+        <meal>
+          <name>Freitag: Champignoncremesuppe</name>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <note>vegetarisch</note>
+          <price role="student">3.90</price>
+        </meal>
+      </category>
+      <category name="Eat up &amp; drink up">
+        <meal>
+          <name>Snack up Ciabatta mit Tomaten, Mozzarella &amp; Rucola</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Schalenfrüchte</note>
+          <note>Senf</note>
+          <price role="student">3.90</price>
+        </meal>
+        <meal>
+          <name>Flagueline mit Falafel, Hummus &amp; Tomaten</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Sesam</note>
+          <note>Sojabohnen</note>
+          <price role="student">4.90</price>
+        </meal>
+        <meal>
+          <name>Mensa Toast (Putenschinken-Käse)</name>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <price role="student">3.20</price>
+        </meal>
+        <meal>
+          <name>Schnitzelsemmel vom Huhn mit Kernöl-Mayonnaise</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Lupinen</note>
+          <note>Milch</note>
+          <note>Schalenfrüchte</note>
+          <note>Senf</note>
+          <note>Sesam</note>
+          <note>Sojabohnen</note>
+          <price role="student">3.20</price>
+        </meal>
+        <meal>
+          <name>Sweet up süße Plunder, Muffins und Blechkuchen erwarten Sie in unserer Vitrine. Illy Kaffee &amp; Eilles Tee Alkoholfreie Getränke, Bier Spritzer Weißer Spritzer, Aperolspritzer, Hugo Weine &amp; Sprudel Gemischter Satz „Fritzi“, Weingut Fritz Gelber</name>
+        </meal>
+        <meal>
+          <name>Muskateller DAC, Weingut Skoff Grüner Veltliner „Gärtling“, Weingut Nigl Blaufränkisch „Classic“, Weingut Hans Igler Cuvée Carnuntum, Weingut Markowitsch Welschriesling Sekt, Weingut Szigeti</name>
+        </meal>
+      </category>
+      <category name="Tagesempfehlungen">
+        <meal>
+          <name>Krautstrudel Rösterdäpfel, Beilagensalat</name>
+          <note>Gluten</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>vegetarisch</note>
+          <price role="student">5.70</price>
+        </meal>
+        <meal>
+          <name>Blunzengröstl Kren ( A, F, L)</name>
+          <price role="student">6.40</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-01-20">
+      <category name="Wochengerichte">
+        <meal>
+          <name>Montag: Minestrone</name>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <price role="student">3.90</price>
+        </meal>
+        <meal>
+          <name>Dienstag: Knoblauchcremesuppe</name>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <note>vegetarisch</note>
+          <price role="student">3.90</price>
+        </meal>
+        <meal>
+          <name>Mittwoch: Fisolencremesuppe</name>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <note>vegetarisch</note>
+          <price role="student">3.90</price>
+        </meal>
+        <meal>
+          <name>Donnerstag: Gelbe Rüben-Currycremesuppe</name>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <note>vegetarisch</note>
+          <price role="student">3.90</price>
+        </meal>
+        <meal>
+          <name>Freitag: Champignoncremesuppe</name>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <note>vegetarisch</note>
+          <price role="student">3.90</price>
+        </meal>
+      </category>
+      <category name="Eat up &amp; drink up">
+        <meal>
+          <name>Snack up Ciabatta mit Tomaten, Mozzarella &amp; Rucola</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Schalenfrüchte</note>
+          <note>Senf</note>
+          <price role="student">3.90</price>
+        </meal>
+        <meal>
+          <name>Flagueline mit Falafel, Hummus &amp; Tomaten</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Sesam</note>
+          <note>Sojabohnen</note>
+          <price role="student">4.90</price>
+        </meal>
+        <meal>
+          <name>Mensa Toast (Putenschinken-Käse)</name>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <price role="student">3.20</price>
+        </meal>
+        <meal>
+          <name>Schnitzelsemmel vom Huhn mit Kernöl-Mayonnaise</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Lupinen</note>
+          <note>Milch</note>
+          <note>Schalenfrüchte</note>
+          <note>Senf</note>
+          <note>Sesam</note>
+          <note>Sojabohnen</note>
+          <price role="student">3.20</price>
+        </meal>
+        <meal>
+          <name>Sweet up süße Plunder, Muffins und Blechkuchen erwarten Sie in unserer Vitrine. Illy Kaffee &amp; Eilles Tee Alkoholfreie Getränke, Bier Spritzer Weißer Spritzer, Aperolspritzer, Hugo Weine &amp; Sprudel Gemischter Satz „Fritzi“, Weingut Fritz Gelber</name>
+        </meal>
+        <meal>
+          <name>Muskateller DAC, Weingut Skoff Grüner Veltliner „Gärtling“, Weingut Nigl Blaufränkisch „Classic“, Weingut Hans Igler Cuvée Carnuntum, Weingut Markowitsch Welschriesling Sekt, Weingut Szigeti</name>
+        </meal>
+      </category>
+      <category name="Tagesempfehlungen">
+        <meal>
+          <name>Gebackener Käse Preiselbeeren &amp; Salat</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>vegetarisch</note>
+          <price role="student">5.70</price>
+        </meal>
+        <meal>
+          <name>Fisch Burger Steak Pommes &amp; Dip</name>
+          <note>Eier</note>
+          <note>Fisch</note>
+          <note>Gluten</note>
+          <note>MSC</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <note>Sojabohnen</note>
+          <price role="student">7.20</price>
         </meal>
       </category>
     </day>
