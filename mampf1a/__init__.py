@@ -303,7 +303,7 @@ class Parser:
     def _get_cached(self, url):
         for key, content in self._cache:
             if key == url:
-                logging.debug(f"Retrieved from cache: {url}")
+                logging.debug("Retrieved from cache: %s", url)
                 return content
         content = self.session.get(url)
         self._cache.append((url, content))
