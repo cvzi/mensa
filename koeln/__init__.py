@@ -34,8 +34,8 @@ metaTemplateFile = os.path.join(
 templateSource = r"https://www.kstw.de/speiseplan?l="
 templateMealsUrl = "https://www.kstw.de/speiseplan?l={ids}&t={{date}}"
 
-with open(metaJson, 'r', encoding='utf8') as f:
-    canteenDict = json.load(f)
+with open(metaJson, 'r', encoding='utf8') as meta_file:
+    canteenDict = json.load(meta_file)
 
 mealsUrl = templateMealsUrl.format(ids=",".join(canteenDict.keys()))
 
