@@ -1,27 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/basic.css" type="text/css"?>
-<?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-stylesheet type="text/css" href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/basic.css"?>
+<?xml-stylesheet type="text/css" href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css"?>
 <openmensa xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
     <name>Kaiserslautern, Hochschule Mensa</name>
     <address>Morlauterer Straße 31, 67657 Kaiserslautern</address>
     <city>Kaiserslautern</city>
-    <phone>0631 3724 2400</phone>
-    <location latitude="49.45172" longitude="7.76391" />
-    <!--<availability></availability>-->
+    <phone/>
+    <location latitude="49.45172" longitude="7.76391"/>
     <times type="opening">
-      <monday open="11:00-14:30" />
-      <tuesday open="11:00-14:30" />
-      <wednesday open="11:00-14:30" />
-      <thursday open="11:00-14:30" />
-      <friday open="11:00-14:30" />
-      <saturday closed="true" />
-      <sunday closed="true" />
+      <monday open="11:00-14:30"/>
+      <tuesday open="11:00-14:30"/>
+      <wednesday open="11:00-14:30"/>
+      <thursday open="11:00-14:30"/>
+      <friday open="11:00-14:30"/>
+      <saturday closed="true"/>
+      <sunday closed="true"/>
     </times>
     <feed name="full" priority="1">
-      <schedule dayOfMonth="*" dayOfWeek="1-5" hour="9" minute="10" retry="65 1 1440" />
+      <schedule dayOfMonth="*" dayOfWeek="1-5" hour="8" minute="10" retry="65 1 1440"/>
       <url>https://cvzi.github.io/mensa/feed/kaiserslautern_hska.xml</url>
-      <source>https://www.studierendenwerk-kaiserslautern.de/kaiserslautern/essen-und-trinken/hs-kaiserslautern/mensa/</source>
+      <source>https://www.studierendenwerk-kaiserslautern.de/de/essen/speiseplaene</source>
     </feed>
   </canteen>
 </openmensa>

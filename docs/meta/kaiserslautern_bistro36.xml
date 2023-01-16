@@ -3,23 +3,23 @@
 <?xml-stylesheet type="text/css" href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css"?>
 <openmensa xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <name>Pirmasens, Hochschule Kaiserslautern Mensa</name>
-    <address>Carl-Schurz-Straße 10-16, 66953 Pirmasens</address>
-    <city>Pirmasens</city>
+    <name>Kaiserslautern, TU Bistro 36</name>
+    <address>Paul-Ehrlich-Straße Bau 36, 67663 Kaiserslautern</address>
+    <city>Kaiserslautern</city>
     <phone/>
-    <location latitude="49.21065" longitude="7.60186"/>
+    <location latitude="49.42448215720096" longitude="7.753521508248641"/>
     <times type="opening">
-      <monday open="11:00-14:30"/>
-      <tuesday open="11:00-14:30"/>
-      <wednesday open="11:00-14:30"/>
-      <thursday open="11:00-14:30"/>
-      <friday open="11:00-14:30"/>
-      <saturday closed="true"/>
-      <sunday closed="true"/>
+      <monday open="12:00-17:00"/>
+      <tuesday open="12:00-17:00"/>
+      <wednesday open="12:00-17:00"/>
+      <thursday open="12:00-17:00"/>
+      <friday open="12:00-17:00"/>
+      <saturday open="12:00-17:00"/>
+      <sunday open="12:00-17:00"/>
     </times>
     <feed name="full" priority="1">
       <schedule dayOfMonth="*" dayOfWeek="1-5" hour="8" minute="10" retry="65 1 1440"/>
-      <url>https://cvzi.github.io/mensa/feed/kaiserslautern_hspi.xml</url>
+      <url>https://cvzi.github.io/mensa/feed/kaiserslautern_bistro36.xml</url>
       <source>https://www.studierendenwerk-kaiserslautern.de/de/essen/speiseplaene</source>
     </feed>
   </canteen>
