@@ -4,6 +4,7 @@ import re
 import datetime
 from zoneinfo import ZoneInfo
 import lxml
+import lxml.etree
 from pyopenmensa.feed import LazyBuilder
 
 
