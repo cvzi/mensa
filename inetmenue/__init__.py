@@ -63,8 +63,8 @@ class Parser:
             url = urllib.parse.urlunsplit(url_parts)
             if url != this_week_url:
                 resp = self._get_cached(url)
-                logging.debug(f"This week url='{this_week_url}'")
-                logging.debug(f"Next week url='{url}'")
+                logging.debug("This week url='%s'", this_week_url)
+                logging.debug("Next week url='%s'", url)
                 self.parseMeals(ref, builder, resp.text)
             else:
                 logging.debug("No distinct next week url found")
@@ -280,7 +280,7 @@ class Parser:
     def _get_cached(self, url):
         for key, content in self._cache:
             if key == url:
-                logging.debug(f"Retrieved from cache: {url}")
+                logging.debug("Retrieved from cache: %s", url)
                 return content
         content = self.session.get(url)
         self._cache.append((url, content))

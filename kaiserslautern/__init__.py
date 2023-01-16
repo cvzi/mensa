@@ -1,239 +1,155 @@
 import sys
 import os
 import json
+import json5
 import logging
 import urllib
 import re
-import textwrap
-
 import requests
-from bs4 import BeautifulSoup
 
 try:
     from version import __version__, useragentname, useragentcomment
-    from util import StyledLazyBuilder, weekdays_map
+    from util import StyledLazyBuilder, xml_escape, meta_from_xsl, xml_str_param
 except ModuleNotFoundError:
     include = os.path.relpath(os.path.join(os.path.dirname(__file__), '..'))
     sys.path.insert(0, include)
     from version import __version__, useragentname, useragentcomment
-    from util import StyledLazyBuilder, weekdays_map
-
-metaJson = os.path.join(os.path.dirname(__file__), "canteenDict.json")
-
-metaTemplateFile = os.path.join(os.path.dirname(__file__), "metaTemplate.xml")
-
-legend = {
-    'A':  'kann Restalkohol enthalten',
-    'Bio': 'Bio',
-    'Ei': 'Eier und Eierzeugnisse',
-    'En': 'Erdnüsse',
-    'Fi': 'Fisch',
-    'G': 'Geflügel',
-    'Gl': 'Glutenhaltiges Getreide',
-    'Gt': 'Gelantine',
-    'K': 'Kalb',
-    'Kr': 'Krebstiere (Krusten- und Schalentiere)',
-    'L': 'Lamm',
-    'La': 'Laktose',
-    'LA': 'Laktose',
-    'Lu': 'Lupine',
-    'Nu': 'Schalenfrüchte (Nüsse)',
-    'R': 'Rind',
-    'S': 'Schwein',
-    'Se': 'Sesam',
-    'Sf': 'Senf',
-    'Sl': 'Sellerie',
-    'So': 'Soja',
-    'Sw': 'Schwefeldioxid (SO2) und Sulfite',
-    'V': 'Vegetarisch',
-    'V+': 'Vegan',
-    'W': 'Wild',
-    'Wt': 'Weichtiere',
-    '1': 'Farbstoff',
-    '2': 'Konservierungsstoff',
-    '3': 'Antioxidationsmittel',
-    '4': 'Geschmacksverstärker',
-    '5': 'geschwefelt',
-    '6': 'geschwärzt',
-    '7': 'gewachst',
-    '8': 'Phosphat',
-    '9': 'Süßungsmittel',
-    '10': 'enthält eine Phenylalaninquelle'
-}
-
-allRoles = ('student', 'employee', 'other')
-allRolesTitles = 'Studenten', 'Bedienstete', 'Gäste'
-
-
-baseUrl = 'https://www.studierendenwerk-kaiserslautern.de/'
-
-s = requests.Session()
-s.headers = {
-    'User-Agent': f'{useragentname}/{__version__} ({useragentcomment}) {requests.utils.default_user_agent()}'
-}
+    from util import StyledLazyBuilder, xml_escape, meta_from_xsl, xml_str_param
 
 
 class Parser:
-    def feed(self, refName):
-        if refName not in self.canteens:
-            return f"Unkown canteen '{refName}'"
-        url = baseUrl + self.canteens[refName]["source"]
-        lazyBuilder = StyledLazyBuilder()
-        lazyBuilder.setLegendData(legend)
-        meals = {}
-        for weekSuffix in ['', 'kommendeWoche']:
-            r = s.get(url + weekSuffix)
-            document = BeautifulSoup(r.text, "html.parser")
+    canteen_json = os.path.join(os.path.dirname(__file__), "canteenDict.json")
+    meta_xslt = os.path.join(os.path.dirname(__file__), "../meta.xsl")
+    script_src_pattern = re.compile('<script src="/([^"]+)"></script>')
+    roles = ("student", "employee", "other")
 
-            for dayDiv in document.select(".dailyplan .dailyplan_content"):
-                date = dayDiv.h5.text.strip()
-                meals[date] = meals[date] if date in meals else {}
-                mealNames = []
-                mealCategories = []
-                mealPrices = []
+    def _load_prices(self):
+        # Load prices
+        if self._price_relations is not None:
+            return
 
-                if "geschlossen" in date.lower():
-                    lazyBuilder.setDayClosed(date)
-                for mealDiv in dayDiv.select(".subcolumns"):
-                    category = (
-                        "Ausgabe " + mealDiv.select(".counter-name strong")[0].text.strip()).strip()
-                    mealNode = mealDiv.select(
-                        ".counter-meal strong")[0].extract()
-                    mealName = mealNode.text.strip()
-                    mealNames.append(mealName)
+        html = self._get_cached(
+            "https://www.studierendenwerk-kaiserslautern.de/de/essen/speiseplaene").text
+        # Open all .js files that are listed in <script> tags to find the one that contains the priceRelations variable
+        # At the time of writing the last <script> contains the priceRelations variable, therefore we iterate in reverse order
+        for m in reversed(list(self.script_src_pattern.finditer(html))):
+            url = f"https://www.studierendenwerk-kaiserslautern.de/{m.group(1)}"
+            js = self._get_cached(url).text
+            if "priceRelations =" in js:
+                try:
+                    js_str = js.split("priceRelations =")[1].split("};")[0]
+                    self._price_relations = json5.loads(js_str + "}")
+                    return
+                except (IndexError, ValueError):
+                    logging.exception("Failed to parse priceRelations")
+                    break
+        # In case we can't find or parse the priceRelations variable, we use a default value to prevent reloading the prices every time
+        self._price_relations = {}
 
-                    if len(mealDiv.select(".counter-meal u")) > 1:
-                        while mealDiv.select(".counter-meal u"):
-                            specialName = mealDiv.select(
-                                ".counter-meal u")[0].extract()
-                            if category == "Ausgabe":
-                                category = specialName.text.strip()
-                            else:
-                                category += ' ' + specialName.text.strip()
-                            if category.endswith(":"):
-                                category = category[0:-1]
-                            mealCategories.append(category)
+    def _get_price(self, meal):
+        self._load_prices()
+        p_key = meal["dpartname"] + ' ' + meal["artgebname"]
+        for k, price in self._price_relations.items():
+            if k == p_key:
+                if 'Mittagsmen' in p_key:
+                    return (price['price'], price['price'], price['price'])
+                else:
+                    return (price['stu'], price['bed'], price['gas'])
+        return ("5,55 €", "5,55 €", "5,55 €")
 
-                            if mealDiv.select(".counter-meal strong"):
-                                mealNode = mealDiv.select(
-                                    ".counter-meal strong")[0].extract()
-                                mealName = mealNode.text.strip()
-                                mealNames.append(mealName)
+    def feed(self, ref: str) -> str:
+        if ref not in self.canteens:
+            return f"Unkown canteen with ref='{xml_escape(ref)}'"
 
-                    else:
-                        if category.endswith(":"):
-                            category = category[0:-1]
-                        mealCategories.append(category)
+        builder = StyledLazyBuilder()
 
-                    prices = []
-                    roles = []
-                    pricesText = mealDiv.select(
-                        ".counter-meal")[0].text.strip()
-                    for p in pricesText.replace('€', '€ | ').split(" | "):
-                        if p.strip():
-                            for i, r in enumerate(allRolesTitles):
-                                if r in p:
-                                    if allRoles[i] in roles:
-                                        mealPrices.append((prices, roles))
-                                        prices = []
-                                        roles = []
-                                    value = p.split(r)[1]
-                                    value = float(value.replace(
-                                        ",", ".").replace("€", "").strip())
-                                    prices.append(value)
-                                    roles.append(allRoles[i])
-                                    break
-                    if prices and roles:
-                        mealPrices.append((prices, roles))
+        resp = self._get_cached(
+            "https://www.studierendenwerk-kaiserslautern.de/fileadmin/templates/stw-kl/loadcsv/load_db_speiseplan.php?canteens=1&days=30")
 
-                    for i, mealName in enumerate(mealNames):
-                        if mealName in meals[date]:
-                            continue  # Skip duplicates
-                        meals[date][mealName] = True
-                        category = mealCategories[i]
-                        prices = mealPrices[i][0]
-                        roles = mealPrices[i][1]
-                        for j, productName in enumerate(textwrap.wrap(mealName, width=250)):
-                            notes = None
-                            if "V+" in productName:
-                                # pyopenmensa does not understand notes containing "+"
-                                productName = productName.replace(
-                                    ',V+', '').replace('V+', '')
-                                notes = [legend['V+']]
-                            lazyBuilder.addMeal(date,
-                                                category,
-                                                productName,
-                                                notes,
-                                                prices if j == 0 else None,
-                                                roles if j == 0 else None)
-
-        return lazyBuilder.toXMLFeed()
-
-    def meta(self, refName):
-        """Generate an openmensa XML meta feed from the static json file using an XML template"""
-        with open(metaTemplateFile) as f:
-            template = f.read()
-
-        for reference, mensa in self.canteens.items():
-            if refName != reference:
+        for meal in resp.json():
+            if meal["dportname"] != self.canteens[ref]["dportname"]:
                 continue
 
-            data = {
-                "name": mensa["name"],
-                "address": mensa["address"],
-                "city": mensa["city"],
-                "phone": mensa['phone'],
-                "latitude": mensa["latitude"],
-                "longitude": mensa["longitude"],
-                "feed": self.urlTemplate.format(metaOrFeed='feed', mensaReference=urllib.parse.quote(reference)),
-                "source": baseUrl + mensa["source"],
-            }
-            openingTimes = {}
-            pattern = re.compile(
-                r"([A-Z][a-z])(\s*-\s*([A-Z][a-z]))?\s*(\d{1,2}):(\d{2})\s*-\s*(\d{1,2}):(\d{2}) Uhr")
-            m = re.findall(pattern, mensa["times"])
-            for result in m:
-                fromDay, _, toDay, fromTimeH, fromTimeM, toTimeH, toTimeM = result
-                openingTimes[fromDay] = "%02d:%02d-%02d:%02d" % (
-                    int(fromTimeH), int(fromTimeM), int(toTimeH), int(toTimeM))
-                if toDay:
-                    select = False
-                    for short, long in weekdays_map:
-                        if short == fromDay:
-                            select = True
-                        elif select:
-                            openingTimes[short] = "%02d:%02d-%02d:%02d" % (
-                                int(fromTimeH), int(fromTimeM), int(toTimeH), int(toTimeM))
-                        if short == toDay:
-                            select = False
+            category = meal["artname1"] or meal["dpartname"]
 
-                for short, long in weekdays_map:
-                    if short in openingTimes:
-                        data[long] = 'open="%s"' % openingTimes[short]
-                    else:
-                        data[long] = 'closed="true"'
-            for key in data:
-                data[key] = data[key]
-            xml = template.format(**data)
-            return xml
+            name_key = "atextohnezsz%d"
+            index = 1
+            name = ""
+            while name_key % index in meal:
+                name += " " + meal[name_key % index].strip()
+                index += 1
+            name = name.replace(" ,", ",").strip()
 
-        return '<openmensa xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd"/>'
+            notes = [zs.strip() for zs in meal["zsnamen"].split(",")]
+            notes.append(meal.get("frei1", None))
+            notes.append(meal.get("frei2", None))
+            notes.append(meal.get("frei3", None))
 
-    def __init__(self, urlTemplate):
-        with open(metaJson, 'r', encoding='utf8') as f:
+            prices = self._get_price(meal)
+
+            builder.addMeal(meal["proddatum"], category, name, [
+                            note for note in notes if note], prices, self.roles)
+
+        return builder.toXMLFeed()
+
+    def meta(self, ref):
+        """Generate an openmensa XML meta feed using XSLT"""
+        if ref not in self.canteens:
+            return 'Unknown canteen'
+        mensa = self.canteens[ref]
+
+        data = {
+            "name": xml_str_param(mensa["name"]),
+            "address": xml_str_param(mensa["address"]),
+            "city": xml_str_param(mensa["city"]),
+            "latitude": xml_str_param(mensa["latitude"]),
+            "longitude": xml_str_param(mensa["longitude"]),
+            "feed": xml_str_param(self.url_template.format(metaOrFeed='feed', mensaReference=urllib.parse.quote(ref))),
+            "source": xml_str_param('https://www.studierendenwerk-kaiserslautern.de/de/essen/speiseplaene'),
+        }
+
+        if "phone" in mensa:
+            mensa["phone"] = xml_str_param(mensa["phone"])
+
+        if "times" in mensa:
+            data["times"] = mensa["times"]
+
+        return meta_from_xsl(self.meta_xslt, data)
+
+    def __init__(self, url_template):
+        with open(self.canteen_json, 'r', encoding='utf8') as f:
             self.canteens = json.load(f)
 
-        self.urlTemplate = urlTemplate
+        self.url_template = url_template
+        self.session = requests.Session()
+        self.session.headers = {
+            'User-Agent': f'{useragentname}/{__version__} ({useragentcomment}) {requests.utils.default_user_agent()}',
+            'Accept-Encoding': 'utf-8'
+        }
+        self._cache = []
+        self._price_relations = None
+
+    def _get_cached(self, url):
+        for key, content in self._cache:
+            if key == url:
+                logging.debug("Retrieved from cache: %s", url)
+                return content
+        content = self.session.get(url)
+        self._cache.append((url, content))
+        if len(self._cache) > 20:
+            self._cache.pop(0)
+        return content
 
     def json(self):
         tmp = {}
         for reference in self.canteens:
-            tmp[reference] = self.urlTemplate.format(
+            tmp[reference] = self.url_template.format(
                 metaOrFeed='meta', mensaReference=urllib.parse.quote(reference))
         return json.dumps(tmp, indent=2)
 
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
-    print(Parser(
-        "http://localhost/{metaOrFeed}/kaiserslautern_{mensaReference}.xml").feed("tumensa"))
+    p = Parser("http://localhost/")
+    print(p.feed("tumensa"))
+    # print(p.meta("tumensa"))

@@ -52,12 +52,12 @@ class Parser:
         document = BeautifulSoup(html, "html.parser")
 
         # Log name
-        logging.debug(f"\tReference: {refName}")
+        logging.debug("\tReference: %s", refName)
         for selected in document.select('#selector_bar_container select option[selected]'):
             if selected.text:
-                logging.debug(f"\tSelected: {selected.text}")
+                logging.debug("\tSelected: %s", selected.text)
             else:
-                logging.debug(f"\tSelected: {selected}")
+                logging.debug("\tSelected: %s", selected)
 
         # Dates
         dates = []
@@ -94,7 +94,7 @@ class Parser:
                                 f"\tSkipping pasto: {heading} (!= {pasto.lower()})")
                             continue
                         else:
-                            logging.debug(f"\tUsing pasto: {heading}")
+                            logging.debug("\tUsing pasto: %s", heading)
 
                 for tr in table.select("tr"):
                     category = tr.find("th").text.strip()

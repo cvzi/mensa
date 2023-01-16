@@ -59,7 +59,7 @@ def _getMealsURL(url, maxAgeMinutes=30):
     if url in cacheMealsData:
         ageSeconds = (time.time() - cacheMealsTime[url])
         if ageSeconds < maxAgeMinutes*60:
-            logging.debug(f"From cache: {url} [{round(ageSeconds)}s old]")
+            logging.debug("From cache: %s [%ds old]", url, ageSeconds)
             return cacheMealsData[url]
 
     content = requests.get(url, headers=headers, timeout=10*60).text
@@ -85,11 +85,11 @@ def _parseMealsUrl(lazyBuilder, mensaId, day=None):
         # Check if mensa is in drowndown selector
         checkbox = document.find(id=f"building-id-{mensaId}")
         if checkbox:
-            logging.debug(f"No meals found [id='{mensaId}']")
+            logging.debug("No meals found [id='%s']", mensaId)
             with lazyBuilderLock:
                 lazyBuilder.setDayClosed(date)
         else:
-            logging.error(f"Mensa not found [id='{mensaId}']")
+            logging.error("Mensa not found [id='%s']", mensaId)
         return False
 
     mensaDiv = mensaDivs.pop()
