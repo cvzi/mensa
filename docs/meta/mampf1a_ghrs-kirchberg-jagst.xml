@@ -9,15 +9,15 @@
     
     <location latitude="49.19511931604727" longitude="9.98519883923875" />
     
-    &lt;times type="opening"&gt;
-      &lt;monday open="11:00-13:00" /&gt;
-      &lt;tuesday open="11:00-13:00" /&gt;
-      &lt;wednesday open="11:00-13:00" /&gt;
-      &lt;thursday open="11:00-13:00" /&gt;
-      &lt;friday open="11:00-13:00" /&gt;
-      &lt;saturday closed="true" /&gt;
-      &lt;sunday closed="true" /&gt;
-    &lt;/times&gt;
+    <times type="opening">
+      <monday open="11:00-13:00" />
+      <tuesday open="11:00-13:00" />
+      <wednesday open="11:00-13:00" />
+      <thursday open="11:00-13:00" />
+      <friday open="11:00-13:00" />
+      <saturday closed="true" />
+      <sunday closed="true" />
+    </times>
     <feed name="full" priority="1">
       <schedule dayOfMonth="*" dayOfWeek="1-5" hour="8" minute="50" retry="65 1 1440" />
       <url>https://cvzi.github.io/mensa/feed/mampf1a_ghrs-kirchberg-jagst.xml</url>
