@@ -11,11 +11,11 @@ import string
 allParsers = ['kaiserslautern', 'mensenat', 'koeln',
               'eurest', 'markas', 'mampf1a', 'inetmenue', 'greifswald']
 
-repoPath = os.path.dirname(__file__)
-filenameTemplate = "{base}{{metaOrFeed}}/{parserName}_{{mensaReference}}.xml"
-baseUrl = "https://cvzi.github.io/mensa/"
-baseRepo = "https://github.com/cvzi/mensa/"
-basePath = "docs/"
+repo_path = os.path.dirname(__file__)
+filename_template = "{base}{{metaOrFeed}}/{parserName}_{{mensaReference}}.xml"
+base_url = "https://cvzi.github.io/mensa/"
+base_repo = "https://github.com/cvzi/mensa/"
+base_path = "docs/"
 
 
 log_file = None
@@ -32,15 +32,15 @@ def log(*objects, sep=' ', end='\n', file=sys.stdout, flush=False):
 def generateIndexHtml(baseUrl, basePath, errors=None):
     files = []
 
-    for r, _, f in os.walk(os.path.join(repoPath, basePath)):
-        p = baseUrl + r[len(os.path.join(repoPath, basePath)):]
+    for r, _, f in os.walk(os.path.join(repo_path, basePath)):
+        p = baseUrl + r[len(os.path.join(repo_path, basePath)):]
         if p[-1] != '/':
             p += '/'
         for file in f:
             if file.endswith(('.xml', '.json')):
                 files.append(f"{p}{file}")
 
-    with open(os.path.join(repoPath, 'html/index.html'), 'r', encoding='utf8') as f:
+    with open(os.path.join(repo_path, 'html/index.html'), 'r', encoding='utf8') as f:
         template = string.Template(f.read())
 
     def sortKey(s):
@@ -71,11 +71,11 @@ def generateIndexHtml(baseUrl, basePath, errors=None):
 
     content = f'\n{content}\n'
 
-    status = f'<h3><a href="{baseRepo}actions/">🗿 Parser status</a></h3>'
+    status = f'<h3><a href="{base_repo}actions/">🗿 Parser status</a></h3>'
     if errors:
         status += '\n<pre>' + '\n'.join(errors) + '</pre>'
 
-    with io.open(os.path.join(repoPath, basePath, 'index.html'), 'w', encoding='utf8', newline='\n') as f:
+    with io.open(os.path.join(repo_path, basePath, 'index.html'), 'w', encoding='utf8', newline='\n') as f:
         f.write(template.substitute(content=content, status=status))
 
 
@@ -87,8 +87,8 @@ def updateFeeds(force=None,
                 updateIndex=True,
                 selectedParser='',
                 selectedMensa='',
-                baseUrl=baseUrl,
-                basePath=basePath):
+                baseUrl=base_url,
+                basePath=base_path):
 
     errors = []
 
@@ -100,7 +100,7 @@ def updateFeeds(force=None,
         log(f"🗳️ {parserName}")
         try:
             module = importlib.import_module(parserName)
-            parser = module.Parser(filenameTemplate.format(
+            parser = module.Parser(filename_template.format(
                 base=baseUrl, parserName=parserName))
 
             if updateJson:
@@ -108,7 +108,7 @@ def updateFeeds(force=None,
                 log(f" - 🐏 {filename}", end="", flush=True)
                 os.makedirs(os.path.dirname(filename), exist_ok=True)
                 content = parser.json()
-                with io.open(os.path.join(repoPath, filename), 'w', encoding='utf8', newline='\n') as f:
+                with io.open(os.path.join(repo_path, filename), 'w', encoding='utf8', newline='\n') as f:
                     f.write(content)
                 log(f"  {greenOk}")
 
@@ -119,12 +119,12 @@ def updateFeeds(force=None,
                 log(f"  - 🏫 {mensaReference}")
                 try:
                     if updateMeta:
-                        filename = filenameTemplate.format(base=basePath, parserName=parserName).format(
+                        filename = filename_template.format(base=basePath, parserName=parserName).format(
                             metaOrFeed='meta', mensaReference=mensaReference)
                         log(f"    - 🈺 {filename}", end="", flush=True)
                         os.makedirs(os.path.dirname(filename), exist_ok=True)
                         content = parser.meta(mensaReference)
-                        with io.open(os.path.join(repoPath, filename), 'w', encoding='utf8', newline='\n') as f:
+                        with io.open(os.path.join(repo_path, filename), 'w', encoding='utf8', newline='\n') as f:
                             f.write(content)
                         log(f"  {greenOk}")
                     if updateFeed or updateToday:
@@ -138,7 +138,7 @@ def updateFeeds(force=None,
                                 "feed", "feed_today", "feed_all", "feed_full"] if hasattr(parser, feedMethod)]
                         for feedMethod in feedMethods:
                             fileTitle = "today" if feedMethod == "feed_today" else "feed"
-                            filename = filenameTemplate.format(base=basePath, parserName=parserName).format(
+                            filename = filename_template.format(base=basePath, parserName=parserName).format(
                                 metaOrFeed=fileTitle, mensaReference=mensaReference)
                             log(f"    - 🍱 {filename}", end="", flush=True)
                             os.makedirs(os.path.dirname(
@@ -146,15 +146,15 @@ def updateFeeds(force=None,
                             content = getattr(parser, feedMethod)(
                                 mensaReference)
                             if type(content) is bytes:
-                                with open(os.path.join(repoPath, filename), 'wb') as f:
+                                with open(os.path.join(repo_path, filename), 'wb') as f:
                                     f.write(content)
                             else:
-                                with io.open(os.path.join(repoPath, filename), 'w', encoding='utf8', newline='\n') as f:
+                                with io.open(os.path.join(repo_path, filename), 'w', encoding='utf8', newline='\n') as f:
                                     f.write(content)
                             log(f"  {greenOk}")
                 except KeyboardInterrupt as e:
                     raise e
-                except (IOError, ConnectionError, urllib.error.URLError, urllib3.exceptions.HTTPError) as e:
+                except (IOError, urllib3.exceptions.HTTPError) as e:
                     if canteenCounter == 0:
                         # Assumption: this errors affects the whole parser, skip the whole parser
                         raise e
@@ -244,12 +244,12 @@ def startFromTerminal(exitAfterwards=True):
     parser.add_argument(
         '-url',
         dest='baseUrl',
-        default=baseUrl,
+        default=base_url,
         help='Base URL')
     parser.add_argument(
         '-out',
         dest='basePath',
-        default=basePath,
+        default=base_path,
         help='Output directory')
 
     args = parser.parse_args()

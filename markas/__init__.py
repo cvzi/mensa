@@ -12,12 +12,12 @@ from bs4 import BeautifulSoup
 
 try:
     from version import __version__
-    from util import StyledLazyBuilder, now_local, weekdays_map
+    from util import StyledLazyBuilder, now_local, weekdays_map, xml_escape
 except ModuleNotFoundError:
     include = os.path.relpath(os.path.join(os.path.dirname(__file__), '..'))
     sys.path.insert(0, include)
     from version import __version__, useragentname, useragentcomment
-    from util import StyledLazyBuilder, now_local, weekdays_map
+    from util import StyledLazyBuilder, now_local, weekdays_map, xml_escape
 
 metaJson = os.path.join(os.path.dirname(__file__), "canteenDict.json")
 
@@ -153,8 +153,8 @@ class Parser:
                         data[long] = 'open="%s"' % openingTimes[short]
                     else:
                         data[long] = 'closed="true"'
-            for key in data:
-                data[key] = data[key]
+            for key, value in data.items():
+                data[key] = xml_escape(value)
             xml = template.format(**data)
             return xml
 
