@@ -33,15 +33,14 @@ class Parser:
         # Open all .js files that are listed in <script> tags to find the one that contains the priceRelations variable
         # At the time of writing the last <script> contains the priceRelations variable, therefore we iterate in reverse order
         for m in reversed(list(self.script_src_pattern.finditer(html))):
-            resp = self._get_cached(
-                "https://www.studierendenwerk-kaiserslautern.de/" + m.group(1))
-            if "priceRelations =" in resp.text:
+            url = f"https://www.studierendenwerk-kaiserslautern.de/{m.group(1)}"
+            js = self._get_cached(url).text
+            if "priceRelations =" in js:
                 try:
-                    js_str = resp.text.split("priceRelations =")[
-                        1].split("};")[0]
+                    js_str = js.split("priceRelations =")[1].split("};")[0]
                     self._price_relations = json5.loads(js_str + "}")
                     return
-                except:
+                except (IndexError, ValueError):
                     logging.exception("Failed to parse priceRelations")
                     break
         # In case we can't find or parse the priceRelations variable, we use a default value to prevent reloading the prices every time
