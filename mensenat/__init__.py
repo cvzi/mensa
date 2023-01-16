@@ -66,8 +66,8 @@ class Parser:
                         data[long] = 'open="%s"' % openingTimes[short]
                     else:
                         data[long] = 'closed="true"'
-            for key in data:
-                data[key] = xml_escape(data[key])
+            for key, value in data.items():
+                data[key] = xml_escape(value)
             xml = template.format(**data)
             return xml
 

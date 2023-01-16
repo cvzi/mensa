@@ -185,7 +185,6 @@ class Parser:
                     firstChild = False
                     continue
                 tds = child.select('table td')
-                zelle_inhalt = tr.td.next_sibling
 
                 if 0 <= catIndex < len(categories) and categories[catIndex]:
                     category = categories[catIndex]
@@ -235,8 +234,8 @@ class Parser:
                 "city": mensa["city"],
                 "latitude": mensa["latitude"],
                 "longitude": mensa["longitude"],
-                "feed": xml_escape(self.urlTemplate.format(metaOrFeed='feed', mensaReference=urllib.parse.quote(ref))),
-                "source": xml_escape(self.build_url(refName, baseUrlMeta)),
+                "feed": self.urlTemplate.format(metaOrFeed='feed', mensaReference=urllib.parse.quote(ref)),
+                "source": self.build_url(refName, baseUrlMeta),
             }
             if "phone" in mensa:
                 data["phone"] = f"<phone>{mensa['phone']}</phone>"
@@ -281,8 +280,8 @@ class Parser:
             else:
                 data['times'] = ''
 
-            for key in data:
-                data[key] = data[key]
+            for key, value in data.items():
+                data[key] = xml_escape(value)
             xml = template.format(**data)
             return xml
 

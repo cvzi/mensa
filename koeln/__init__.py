@@ -34,8 +34,8 @@ metaTemplateFile = os.path.join(
 templateSource = r"https://www.kstw.de/speiseplan?l="
 templateMealsUrl = "https://www.kstw.de/speiseplan?l={ids}&t={{date}}"
 
-with open(metaJson, 'r', encoding='utf8') as f:
-    canteenDict = json.load(f)
+with open(metaJson, 'r', encoding='utf8') as meta_file:
+    canteenDict = json.load(meta_file)
 
 mealsUrl = templateMealsUrl.format(ids=",".join(canteenDict.keys()))
 
@@ -126,7 +126,7 @@ def _parseMealsUrl(lazyBuilder, mensaId, day=None):
 
         with lazyBuilderLock:
             for j, mealText in enumerate(textwrap.wrap(mealName, width=250)):
-                lazyBuilder.addMeal(date, category, mealName,
+                lazyBuilder.addMeal(date, category, mealText,
                                     notes if j == 0 else None,
                                     prices if j == 0 else None,
                                     roles if j == 0 else None)
@@ -143,7 +143,8 @@ def _parseMealsUrl(lazyBuilder, mensaId, day=None):
 
 def _generateCanteenMeta(mensa, urlTemplate):
     """Generate an openmensa XML meta feed from the static json file using an XML template"""
-    template = open(metaTemplateFile).read()
+    with open(metaTemplateFile) as f:
+        template = f.read()
 
     data = {
         "name": mensa["name"],

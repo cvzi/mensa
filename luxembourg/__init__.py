@@ -40,7 +40,8 @@ class Parser:
 
     def meta(self, refName):
         """Generate an openmensa XML meta feed from the static json file using an XML template"""
-        template = open(metaTemplateFile).read()
+        with open(metaTemplateFile) as f:
+            template = f.read()
 
         for reference, restaurant in self.canteens.items():
             if refName != reference:
