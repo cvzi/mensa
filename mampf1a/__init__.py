@@ -281,7 +281,7 @@ class Parser:
                 data['times'] = ''
 
             for key, value in data.items():
-                data[key] = xml_escape(value)
+                data[key] = xml_escape(value) if key not in ('times', 'phone') else value
             xml = template.format(**data)
             return xml
 
