@@ -4,7 +4,6 @@ import os
 import io
 import traceback
 import argparse
-import urllib
 import urllib3
 import string
 
