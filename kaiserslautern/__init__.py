@@ -37,7 +37,8 @@ class Parser:
                 "https://www.studierendenwerk-kaiserslautern.de/" + m.group(1))
             if "priceRelations =" in resp.text:
                 try:
-                    js_str = resp.text.split("priceRelations =")[1].split("};")[0]
+                    js_str = resp.text.split("priceRelations =")[
+                        1].split("};")[0]
                     self._price_relations = json5.loads(js_str + "}")
                     return
                 except:
