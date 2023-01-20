@@ -3,39 +3,29 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2023-01-19">
+    <day date="2023-01-20">
       <category name="Tellergericht">
         <meal>
-          <name>Linseneintopf mit Rauchfleischeinlage, Teller</name>
+          <name>4 Eierkuchen mit Apfelmus</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
-          <note>Schweinefleisch</note>
-          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
-          <note>geschwefelt</note>
-          <note>jodiertes Salz</note>
+          <note>Milch/Milchzucker</note>
           <note>mit Antioxidationsmittel</note>
-          <note>mit Konservierungsstoff</note>
-          <note>mit Phosphat</note>
-          <price role="employee">2.35</price>
-          <price role="other">3.30</price>
-          <price role="student">1.50</price>
-        </meal>
-        <meal>
-          <name>Linseneintopf mit Rauchfleischeinlage, Terrine</name>
-          <note>Schweinefleisch</note>
-          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
-          <note>geschwefelt</note>
-          <note>jodiertes Salz</note>
-          <note>mit Antioxidationsmittel</note>
-          <note>mit Konservierungsstoff</note>
-          <note>mit Phosphat</note>
-          <price role="employee">3.25</price>
-          <price role="other">4.40</price>
-          <price role="student">2.20</price>
+          <price role="employee">3.00</price>
+          <price role="other">4.30</price>
+          <price role="student">1.80</price>
         </meal>
       </category>
-      <category name="Komponente 3">
+      <category name="Komponente 1">
         <meal>
-          <name>Hähnchenschnitzel Art &quot; Cordon bleu&quot; (2,Gefl,G,A) dazu eine Geflügelsoße (9,Gefl,G,A,C)</name>
+          <name>Paniertes Seelachsfilet mit Kräutersoße oder Schlemmerfilet Broccoli Käse</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <note>Fische und daraus hergestellte Erzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker</note>
+          <note>Sesamsamen und daraus hergestellte Erzeugnisse</note>
+          <note>gewachst</note>
+          <note>jodiertes Salz</note>
           <price role="employee">3.10</price>
           <price role="other">3.95</price>
           <price role="student">2.25</price>
@@ -43,37 +33,39 @@
       </category>
       <category name="Vegetarisch oder Vegan">
         <meal>
-          <name>2 gekochte Eier in Senfsoße mit Kartoffeln oder</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
-          <note>Glutenhaltiges Getreide</note>
+          <name>Vegan: Lauch - Käse- Hackgratin</name>
           <note>Sellerie und daraus hergestellte Erzeugnisse</note>
           <note>Senf und daraus hergestellte Erzeugnisse</note>
+          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
           <note>geschwefelt</note>
-          <note>jodiertes Salz</note>
-          <price role="employee">3.30</price>
-          <price role="other">4.60</price>
-          <price role="student">2.10</price>
-        </meal>
-        <meal>
-          <name>Vegan: Couscous-Gemüsepfanne (Soja)</name>
-          <note>Glutenhaltiges Getreide</note>
           <note>jodiertes Salz</note>
           <price role="employee">3.30</price>
           <price role="other">4.60</price>
           <price role="student">2.10</price>
         </meal>
       </category>
+      <category name="Pasta nach Gewicht (pro 100g)">
+        <meal>
+          <name>Tortellini mit Spinat-Käsefüllung mit Gemüse-Tomatensoße</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>jodiertes Salz</note>
+          <price role="employee">0.90</price>
+          <price role="other">1.20</price>
+          <price role="student">0.60</price>
+        </meal>
+      </category>
       <category name="Beilagen">
         <meal>
           <name>Salzkartoffeln   Ausgabe 1</name>
           <note>geschwefelt</note>
-          <note>jodiertes Salz</note>
           <price role="employee">1.00</price>
           <price role="other">1.40</price>
           <price role="student">0.70</price>
         </meal>
         <meal>
-          <name>Basmatireis   Ausgabe 1</name>
+          <name>Reis   Ausgabe 1</name>
           <note>jodiertes Salz</note>
           <price role="employee">1.00</price>
           <price role="other">1.40</price>
@@ -82,11 +74,17 @@
       </category>
       <category name="Gemüse">
         <meal>
-          <name>Blumenkohl   Ausgabe 1</name>
+          <name>gelbe Bohnen Ausgabe 1</name>
+          <price role="employee">1.00</price>
+          <price role="other">1.40</price>
+          <price role="student">0.70</price>
+        </meal>
+        <meal>
+          <name>Feine Möhren   Ausgabe 1</name>
           <note>jodiertes Salz</note>
-          <price role="employee">1.20</price>
-          <price role="other">1.60</price>
-          <price role="student">0.90</price>
+          <price role="employee">1.00</price>
+          <price role="other">1.40</price>
+          <price role="student">0.70</price>
         </meal>
       </category>
       <category name="Salate und Desserts">
