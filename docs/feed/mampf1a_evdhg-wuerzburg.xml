@@ -3,29 +3,31 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2023-01-27">
-      <category name="muslimisch">
+    <day date="2023-01-30">
+      <category name="fleischlos">
         <meal>
-          <name>Dampfnudeln mit Vanillesoße und Zimt-Zucker, Tomatensuppe mit Croutons 5,10 € Dampfnudeln mit Vanillesoße und Zimt-Zucker [10,A1,G,C] Tomatensuppe mit Croutons [A1,10]</name>
-          <note>mit Backtriebmittel</note>
-          <note>mit Ei</note>
-          <note>mit Milchprodukten (lactosehaltig)</note>
-          <price role="student">5.10</price>
-        </meal>
-      </category>
-      <category name="Teenager fleischlos">
-        <meal>
-          <name>Dampfnudeln mit Vanillesoße und Zimt-Zucker, Tomatensuppe mit Croutons 6,30 € Dampfnudeln mit Vanillesoße und Zimt-Zucker [10,A1,G,C] Tomatensuppe mit Croutons [A1,10]</name>
+          <name>Gemüseschnitzel mit frischem Kartoffelsalat, fränkische Äpfel aus Bibergau 5,10 € Gemüseschnitzel mit frischem Kartoffelsalat [A1,10,C,G,J,I] fränkische Äpfel aus Bibergau</name>
           <note>fleischlos</note>
           <note>mit Backtriebmittel</note>
           <note>mit Ei</note>
           <note>mit Milchprodukten (lactosehaltig)</note>
-          <price role="student">6.30</price>
+          <note>mit Sellerie</note>
+          <note>mit Senf</note>
+          <price role="student">5.10</price>
         </meal>
       </category>
-    </day>
-    <day date="2023-01-30">
       <category name="muslimisch">
+        <meal>
+          <name>Putenschnitzel paniert mit Kartoffelsalat, fränkische Äpfel aus Bibergau 5,10 € Putenschnitzel paniert mit Kartoffelsalat [A1,10,C,G,I,J] fränkische Äpfel aus Bibergau</name>
+          <note>mit Backtriebmittel</note>
+          <note>mit Ei</note>
+          <note>mit Milchprodukten (lactosehaltig)</note>
+          <note>mit Sellerie</note>
+          <note>mit Senf</note>
+          <price role="student">5.10</price>
+        </meal>
+      </category>
+      <category name="normal">
         <meal>
           <name>Putenschnitzel paniert mit Kartoffelsalat, fränkische Äpfel aus Bibergau 5,10 € Putenschnitzel paniert mit Kartoffelsalat [A1,10,C,G,I,J] fränkische Äpfel aus Bibergau</name>
           <note>mit Backtriebmittel</note>
@@ -45,29 +47,6 @@
           <note>mit Milchprodukten (lactosehaltig)</note>
           <note>mit Senf</note>
           <price role="student">6.30</price>
-        </meal>
-      </category>
-      <category name="fleischlos">
-        <meal>
-          <name>Gemüseschnitzel mit frischem Kartoffelsalat, fränkische Äpfel aus Bibergau 5,10 € Gemüseschnitzel mit frischem Kartoffelsalat [A1,10,C,G,J,I] fränkische Äpfel aus Bibergau</name>
-          <note>fleischlos</note>
-          <note>mit Backtriebmittel</note>
-          <note>mit Ei</note>
-          <note>mit Milchprodukten (lactosehaltig)</note>
-          <note>mit Sellerie</note>
-          <note>mit Senf</note>
-          <price role="student">5.10</price>
-        </meal>
-      </category>
-      <category name="normal">
-        <meal>
-          <name>Putenschnitzel paniert mit Kartoffelsalat, fränkische Äpfel aus Bibergau 5,10 € Putenschnitzel paniert mit Kartoffelsalat [A1,10,C,G,I,J] fränkische Äpfel aus Bibergau</name>
-          <note>mit Backtriebmittel</note>
-          <note>mit Ei</note>
-          <note>mit Milchprodukten (lactosehaltig)</note>
-          <note>mit Sellerie</note>
-          <note>mit Senf</note>
-          <price role="student">5.10</price>
         </meal>
       </category>
       <category name="Teenager normal">
@@ -232,6 +211,17 @@
       </category>
     </day>
     <day date="2023-02-07">
+      <category name="fleischlos">
+        <meal>
+          <name>Maultaschen mit Gemüsefüllung mit Tomatensoße, Buttermilchdessert 5,10 € Maultaschen mit Gemüsefüllung mit Tomatensoße [A1,10,G,C,I] Buttermilchdessert [G]</name>
+          <note>fleischlos</note>
+          <note>mit Backtriebmittel</note>
+          <note>mit Ei</note>
+          <note>mit Milchprodukten (lactosehaltig)</note>
+          <note>mit Sellerie</note>
+          <price role="student">5.10</price>
+        </meal>
+      </category>
       <category name="muslimisch">
         <meal>
           <name>Maultaschen mit Gemüsefüllung mit Tomatensoße, Buttermilchdessert 5,10 € Maultaschen mit Gemüsefüllung mit Tomatensoße [A1,10,G,C,I] Buttermilchdessert [G]</name>
@@ -250,17 +240,6 @@
           <note>mit Milchprodukten (lactosehaltig)</note>
           <note>mit Sellerie</note>
           <price role="student">6.30</price>
-        </meal>
-      </category>
-      <category name="fleischlos">
-        <meal>
-          <name>Maultaschen mit Gemüsefüllung mit Tomatensoße, Buttermilchdessert 5,10 € Maultaschen mit Gemüsefüllung mit Tomatensoße [A1,10,G,C,I] Buttermilchdessert [G]</name>
-          <note>fleischlos</note>
-          <note>mit Backtriebmittel</note>
-          <note>mit Ei</note>
-          <note>mit Milchprodukten (lactosehaltig)</note>
-          <note>mit Sellerie</note>
-          <price role="student">5.10</price>
         </meal>
       </category>
       <category name="Teenager normal">
@@ -332,6 +311,16 @@
       </category>
     </day>
     <day date="2023-02-10">
+      <category name="fleischlos">
+        <meal>
+          <name>Spinatspätzle mit Käsesoße, fränkische Äpfel aus Bibergau 5,10 € Spinatspätzle mit Käsesoße [A1,G,C,I] fränkische Äpfel aus Bibergau</name>
+          <note>fleischlos</note>
+          <note>mit Ei</note>
+          <note>mit Milchprodukten (lactosehaltig)</note>
+          <note>mit Sellerie</note>
+          <price role="student">5.10</price>
+        </meal>
+      </category>
       <category name="muslimisch">
         <meal>
           <name>Spinatspätzle mit Käsesoße, fränkische Äpfel aus Bibergau 5,10 € Spinatspätzle mit Käsesoße [A1,G,C,I] fränkische Äpfel aus Bibergau</name>
@@ -349,16 +338,6 @@
           <note>mit Milchprodukten (lactosehaltig)</note>
           <note>mit Sellerie</note>
           <price role="student">6.30</price>
-        </meal>
-      </category>
-      <category name="fleischlos">
-        <meal>
-          <name>Spinatspätzle mit Käsesoße, fränkische Äpfel aus Bibergau 5,10 € Spinatspätzle mit Käsesoße [A1,G,C,I] fränkische Äpfel aus Bibergau</name>
-          <note>fleischlos</note>
-          <note>mit Ei</note>
-          <note>mit Milchprodukten (lactosehaltig)</note>
-          <note>mit Sellerie</note>
-          <price role="student">5.10</price>
         </meal>
       </category>
     </day>
