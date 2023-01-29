@@ -3,13 +3,73 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2023-01-23">
+    <day date="2023-01-30">
       <category name="Menü veggie">
         <meal>
-          <name>Zur Wahl: Suppe oder Salat Penne all´arrabbiata mit frisch geriebenem Parmesan</name>
+          <name>Zur Wahl: Suppe oder Salat Mediterraner Gemüse Wrap mit Kräuter Dip und Salatbouquet</name>
+          <note>Gluten</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <note>vegan</note>
+          <price role="student">6.80</price>
+        </meal>
+      </category>
+      <category name="Frühstück">
+        <meal>
+          <name>FRÜHSTÜCKSVARIATIONEN Das kleine Italienische</name>
+          <price role="student">4.10</price>
+        </meal>
+        <meal>
+          <name>Das Süße</name>
+          <price role="student">4.80</price>
+        </meal>
+        <meal>
+          <name>Das Pikante</name>
+          <price role="student">6.50</price>
+        </meal>
+        <meal>
+          <name>Das Gesunde</name>
+          <price role="student">5.40</price>
+        </meal>
+        <meal>
+          <name>Das Vielfältige</name>
+          <price role="student">7.90</price>
+        </meal>
+        <meal>
+          <name>dazu Weich gekochtes BIO-Ei / BIO-Rührei / BIO-Ham&amp;Eggs Croissant gefüllt mit BIO-Rührei SNACKS überbackene Brote / Toasts / Würstel... HAUPTSPEISEN Schweinsschnitzel / Gulasch / Krautfleckerl diverse Mensa-Bowls</name>
+        </meal>
+      </category>
+      <category name="Menü herzhaft">
+        <meal>
+          <name>Zur Wahl: Suppe oder Salat Schweinsschopfsteak Holzfäller Art mit Knoblauchjus und Bratkartoffeln</name>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <price role="student">7.80</price>
+        </meal>
+      </category>
+      <category name="Aktuelles">
+        <meal>
+          <name>Gulaschsuppe mit einem Stück Gebäck</name>
+          <note>Gluten</note>
+          <note>Lupinen</note>
+          <note>Milch</note>
+          <note>Schalenfrüchte</note>
+          <note>Sesam</note>
+          <note>Sojabohnen</note>
+          <price role="student">4.70</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-01-31">
+      <category name="Menü veggie">
+        <meal>
+          <name>Zur Wahl: Suppe oder Salat Waldpilzsauce mit hausgemachten Serviettenknödel</name>
           <note>Eier</note>
           <note>Gluten</note>
           <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
           <note>Sellerie</note>
           <note>Sojabohnen</note>
           <note>vegetarisch</note>
@@ -18,206 +78,173 @@
       </category>
       <category name="Frühstück">
         <meal>
-          <name>Das kleine Italienische</name>
-          <note>ACG</note>
+          <name>FRÜHSTÜCKSVARIATIONEN Das kleine Italienische</name>
           <price role="student">4.10</price>
         </meal>
         <meal>
-          <name>Buttercroissant &amp; ein Cappuccino oder Tee Das Süße</name>
-          <note>AG</note>
+          <name>Das Süße</name>
           <price role="student">4.80</price>
         </meal>
         <meal>
-          <name>Semmel, Bio-Butter, Marmelade/Honig Cappuccino oder Tee Das Pikante</name>
-          <note>AFG</note>
+          <name>Das Pikante</name>
           <price role="student">6.50</price>
         </meal>
         <meal>
-          <name>Semmel, Bio-Butter, Schinken &amp; Käse, Gemüse, Cappuccino oder Tee Das Gesunde</name>
-          <note>AG</note>
+          <name>Das Gesunde</name>
           <price role="student">5.40</price>
         </meal>
         <meal>
-          <name>Joghurt mit Früchten &amp; Müsli, Cappuccino oder Tee Das Vielfältige</name>
-          <note>AFG</note>
+          <name>Das Vielfältige</name>
           <price role="student">7.90</price>
         </meal>
         <meal>
-          <name>Semmel, Korngebäck, Bio-Butter, Marmelade/Honig, Schinken &amp; Käse, Gemüse, Cappuccino oder Tee Weich gekochtes BIO-Ei</name>
-          <note>Eier</note>
-          <price role="student">2.20</price>
-        </meal>
-        <meal>
-          <name>BIO-Rührei</name>
-          <note>Eier</note>
-          <price role="student">3.50</price>
-        </meal>
-        <meal>
-          <name>BIO-Ham&amp;Eggs</name>
-          <note>Eier</note>
-          <price role="student">4.10</price>
-        </meal>
-        <meal>
-          <name>Croissant gefüllt mit BIO-Rührei</name>
-          <note>ACG</note>
-          <price role="student">4.80</price>
+          <name>dazu Weich gekochtes BIO-Ei / BIO-Rührei / BIO-Ham&amp;Eggs Croissant gefüllt mit BIO-Rührei SNACKS überbackene Brote / Toasts / Würstel... HAUPTSPEISEN Schweinsschnitzel / Gulasch / Krautfleckerl diverse Mensa-Bowls</name>
         </meal>
       </category>
       <category name="Menü herzhaft">
         <meal>
-          <name>Zur Wahl: Suppe oder Salat Faschierte Laibchen mit Natursauce, Erdäpfelpurée, und Röstzwiebel</name>
-          <note>Eier</note>
+          <name>Zur Wahl: Suppe oder Salat Penne a la Carbonara</name>
+          <note>Gluten</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <note>Sojabohnen</note>
+          <price role="student">7.80</price>
+        </meal>
+      </category>
+      <category name="Aktuelles">
+        <meal>
+          <name>Gulaschsuppe mit einem Stück Gebäck</name>
+          <note>Gluten</note>
+          <note>Lupinen</note>
+          <note>Milch</note>
+          <note>Schalenfrüchte</note>
+          <note>Sesam</note>
+          <note>Sojabohnen</note>
+          <price role="student">4.70</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-02-01">
+      <category name="Menü veggie">
+        <meal>
+          <name>Zur Wahl: Suppe oder Salat Kartoffel Lauchcurry mit Kokos und Curryreis</name>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>vegan</note>
+          <price role="student">6.80</price>
+        </meal>
+      </category>
+      <category name="Frühstück">
+        <meal>
+          <name>FRÜHSTÜCKSVARIATIONEN Das kleine Italienische</name>
+          <price role="student">4.10</price>
+        </meal>
+        <meal>
+          <name>Das Süße</name>
+          <price role="student">4.80</price>
+        </meal>
+        <meal>
+          <name>Das Pikante</name>
+          <price role="student">6.50</price>
+        </meal>
+        <meal>
+          <name>Das Gesunde</name>
+          <price role="student">5.40</price>
+        </meal>
+        <meal>
+          <name>Das Vielfältige</name>
+          <price role="student">7.90</price>
+        </meal>
+        <meal>
+          <name>dazu Weich gekochtes BIO-Ei / BIO-Rührei / BIO-Ham&amp;Eggs Croissant gefüllt mit BIO-Rührei SNACKS überbackene Brote / Toasts / Würstel... HAUPTSPEISEN Schweinsschnitzel / Gulasch / Krautfleckerl diverse Mensa-Bowls</name>
+        </meal>
+      </category>
+      <category name="Menü herzhaft">
+        <meal>
+          <name>Zur Wahl: Suppe oder Salat Würstelspieß mit Pommes frites und Chili-Ketchup-Dip</name>
           <note>Gluten</note>
           <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
           <note>Sellerie</note>
           <note>Senf</note>
           <price role="student">7.80</price>
         </meal>
       </category>
+      <category name="Aktuelles">
+        <meal>
+          <name>Gulaschsuppe mit einem Stück Gebäck</name>
+          <note>Gluten</note>
+          <note>Lupinen</note>
+          <note>Milch</note>
+          <note>Schalenfrüchte</note>
+          <note>Sesam</note>
+          <note>Sojabohnen</note>
+          <price role="student">4.70</price>
+        </meal>
+      </category>
     </day>
-    <day date="2023-01-24">
+    <day date="2023-02-02">
       <category name="Menü veggie">
         <meal>
-          <name>Zur Wahl: Suppe oder Salat Quinoa Gemüsepfanne</name>
+          <name>Zur Wahl: Suppe oder Salat Gebackener Camembert hausgemacht mit Petersilerdäpfeln und Preiselbeeren</name>
+          <note>Eier</note>
           <note>Gluten</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <note>vegan</note>
+          <note>Milch</note>
+          <note>vegetarisch</note>
           <price role="student">6.80</price>
         </meal>
       </category>
       <category name="Frühstück">
         <meal>
-          <name>Das kleine Italienische</name>
-          <note>ACG</note>
+          <name>FRÜHSTÜCKSVARIATIONEN Das kleine Italienische</name>
           <price role="student">4.10</price>
         </meal>
         <meal>
-          <name>Buttercroissant &amp; ein Cappuccino oder Tee Das Süße</name>
-          <note>AG</note>
+          <name>Das Süße</name>
           <price role="student">4.80</price>
         </meal>
         <meal>
-          <name>Semmel, Bio-Butter, Marmelade/Honig Cappuccino oder Tee Das Pikante</name>
-          <note>AFG</note>
+          <name>Das Pikante</name>
           <price role="student">6.50</price>
         </meal>
         <meal>
-          <name>Semmel, Bio-Butter, Schinken &amp; Käse, Gemüse, Cappuccino oder Tee Das Gesunde</name>
-          <note>AG</note>
+          <name>Das Gesunde</name>
           <price role="student">5.40</price>
         </meal>
         <meal>
-          <name>Joghurt mit Früchten &amp; Müsli, Cappuccino oder Tee Das Vielfältige</name>
-          <note>AFG</note>
+          <name>Das Vielfältige</name>
           <price role="student">7.90</price>
         </meal>
         <meal>
-          <name>Semmel, Korngebäck, Bio-Butter, Marmelade/Honig, Schinken &amp; Käse, Gemüse, Cappuccino oder Tee Weich gekochtes BIO-Ei</name>
-          <note>Eier</note>
-          <price role="student">2.20</price>
-        </meal>
-        <meal>
-          <name>BIO-Rührei</name>
-          <note>Eier</note>
-          <price role="student">3.50</price>
-        </meal>
-        <meal>
-          <name>BIO-Ham&amp;Eggs</name>
-          <note>Eier</note>
-          <price role="student">4.10</price>
-        </meal>
-        <meal>
-          <name>Croissant gefüllt mit BIO-Rührei</name>
-          <note>ACG</note>
-          <price role="student">4.80</price>
+          <name>dazu Weich gekochtes BIO-Ei / BIO-Rührei / BIO-Ham&amp;Eggs Croissant gefüllt mit BIO-Rührei SNACKS überbackene Brote / Toasts / Würstel... HAUPTSPEISEN Schweinsschnitzel / Gulasch / Krautfleckerl diverse Mensa-Bowls</name>
         </meal>
       </category>
       <category name="Menü herzhaft">
         <meal>
-          <name>Zur Wahl: Suppe oder Salat Gebratene Hühnerkeule mit Thymianjus, buntem Gemüse und Naturreis</name>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-          <price role="student">7.80</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2023-01-25">
-      <category name="Menü veggie">
-        <meal>
-          <name>Zur Wahl: Suppe oder Salat Bunter Gemüsewok mit Basmatireis</name>
+          <name>Zur Wahl: Suppe oder Salat Polpetti in Tomatensauce mit Bio Fusilli</name>
+          <note>Eier</note>
           <note>Gluten</note>
-          <note>Milch</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <note>vegan</note>
-          <price role="student">6.80</price>
-        </meal>
-      </category>
-      <category name="Frühstück">
-        <meal>
-          <name>Das kleine Italienische</name>
-          <note>ACG</note>
-          <price role="student">4.10</price>
-        </meal>
-        <meal>
-          <name>Buttercroissant &amp; ein Cappuccino oder Tee Das Süße</name>
-          <note>AG</note>
-          <price role="student">4.80</price>
-        </meal>
-        <meal>
-          <name>Semmel, Bio-Butter, Marmelade/Honig Cappuccino oder Tee Das Pikante</name>
-          <note>AFG</note>
-          <price role="student">6.50</price>
-        </meal>
-        <meal>
-          <name>Semmel, Bio-Butter, Schinken &amp; Käse, Gemüse, Cappuccino oder Tee Das Gesunde</name>
-          <note>AG</note>
-          <price role="student">5.40</price>
-        </meal>
-        <meal>
-          <name>Joghurt mit Früchten &amp; Müsli, Cappuccino oder Tee Das Vielfältige</name>
-          <note>AFG</note>
-          <price role="student">7.90</price>
-        </meal>
-        <meal>
-          <name>Semmel, Korngebäck, Bio-Butter, Marmelade/Honig, Schinken &amp; Käse, Gemüse, Cappuccino oder Tee Weich gekochtes BIO-Ei</name>
-          <note>Eier</note>
-          <price role="student">2.20</price>
-        </meal>
-        <meal>
-          <name>BIO-Rührei</name>
-          <note>Eier</note>
-          <price role="student">3.50</price>
-        </meal>
-        <meal>
-          <name>BIO-Ham&amp;Eggs</name>
-          <note>Eier</note>
-          <price role="student">4.10</price>
-        </meal>
-        <meal>
-          <name>Croissant gefüllt mit BIO-Rührei</name>
-          <note>ACG</note>
-          <price role="student">4.80</price>
-        </meal>
-      </category>
-      <category name="Menü herzhaft">
-        <meal>
-          <name>Zur Wahl: Suppe oder Salat Gegrilltes Schweinskotelette mit Waldpilzsauce und Kartoffelkroketten</name>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
           <note>Sojabohnen</note>
           <price role="student">7.80</price>
         </meal>
       </category>
+      <category name="Aktuelles">
+        <meal>
+          <name>Gulaschsuppe mit einem Stück Gebäck</name>
+          <note>Gluten</note>
+          <note>Lupinen</note>
+          <note>Milch</note>
+          <note>Schalenfrüchte</note>
+          <note>Sesam</note>
+          <note>Sojabohnen</note>
+          <price role="student">4.70</price>
+        </meal>
+      </category>
     </day>
-    <day date="2023-01-26">
+    <day date="2023-02-03">
       <category name="Menü veggie">
         <meal>
-          <name>Zur Wahl: Suppe oder Salat Rösti-Ratatouille auf Salatbouquet mit Joghurtdip</name>
+          <name>Zur Wahl: Suppe oder Salat Gnocchi in Sauce Napoletana mit Schafkäse</name>
+          <note>Eier</note>
           <note>Gluten</note>
           <note>Milch</note>
           <note>Schwefeldioxid/Sulfite</note>
@@ -227,132 +254,48 @@
       </category>
       <category name="Frühstück">
         <meal>
-          <name>Das kleine Italienische</name>
-          <note>ACG</note>
+          <name>FRÜHSTÜCKSVARIATIONEN Das kleine Italienische</name>
           <price role="student">4.10</price>
         </meal>
         <meal>
-          <name>Buttercroissant &amp; ein Cappuccino oder Tee Das Süße</name>
-          <note>AG</note>
+          <name>Das Süße</name>
           <price role="student">4.80</price>
         </meal>
         <meal>
-          <name>Semmel, Bio-Butter, Marmelade/Honig Cappuccino oder Tee Das Pikante</name>
-          <note>AFG</note>
+          <name>Das Pikante</name>
           <price role="student">6.50</price>
         </meal>
         <meal>
-          <name>Semmel, Bio-Butter, Schinken &amp; Käse, Gemüse, Cappuccino oder Tee Das Gesunde</name>
-          <note>AG</note>
+          <name>Das Gesunde</name>
           <price role="student">5.40</price>
         </meal>
         <meal>
-          <name>Joghurt mit Früchten &amp; Müsli, Cappuccino oder Tee Das Vielfältige</name>
-          <note>AFG</note>
+          <name>Das Vielfältige</name>
           <price role="student">7.90</price>
         </meal>
         <meal>
-          <name>Semmel, Korngebäck, Bio-Butter, Marmelade/Honig, Schinken &amp; Käse, Gemüse, Cappuccino oder Tee Weich gekochtes BIO-Ei</name>
-          <note>Eier</note>
-          <price role="student">2.20</price>
-        </meal>
-        <meal>
-          <name>BIO-Rührei</name>
-          <note>Eier</note>
-          <price role="student">3.50</price>
-        </meal>
-        <meal>
-          <name>BIO-Ham&amp;Eggs</name>
-          <note>Eier</note>
-          <price role="student">4.10</price>
-        </meal>
-        <meal>
-          <name>Croissant gefüllt mit BIO-Rührei</name>
-          <note>ACG</note>
-          <price role="student">4.80</price>
+          <name>dazu Weich gekochtes BIO-Ei / BIO-Rührei / BIO-Ham&amp;Eggs Croissant gefüllt mit BIO-Rührei SNACKS überbackene Brote / Toasts / Würstel... HAUPTSPEISEN Schweinsschnitzel / Gulasch / Krautfleckerl diverse Mensa-Bowls</name>
         </meal>
       </category>
       <category name="Menü herzhaft">
         <meal>
-          <name>Zur Wahl: Suppe oder Salat Schweine-Ragout nach Jägerart mit Spätzle</name>
-          <note>Eier</note>
+          <name>Zur Wahl: Suppe oder Salat Kokos-Chickenragout mit Kichererbsen und Jasminreis</name>
+          <note>Erdnüsse</note>
           <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <note>Sojabohnen</note>
-          <price role="student">7.80</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2023-01-27">
-      <category name="Menü veggie">
-        <meal>
-          <name>Zur Wahl: Suppe oder Salat Gemüse Jambalaya</name>
-          <note>Gluten</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <note>vegan</note>
-          <price role="student">6.80</price>
-        </meal>
-      </category>
-      <category name="Frühstück">
-        <meal>
-          <name>Das kleine Italienische</name>
-          <note>ACG</note>
-          <price role="student">4.10</price>
-        </meal>
-        <meal>
-          <name>Buttercroissant &amp; ein Cappuccino oder Tee Das Süße</name>
-          <note>AG</note>
-          <price role="student">4.80</price>
-        </meal>
-        <meal>
-          <name>Semmel, Bio-Butter, Marmelade/Honig Cappuccino oder Tee Das Pikante</name>
-          <note>AFG</note>
-          <price role="student">6.50</price>
-        </meal>
-        <meal>
-          <name>Semmel, Bio-Butter, Schinken &amp; Käse, Gemüse, Cappuccino oder Tee Das Gesunde</name>
-          <note>AG</note>
-          <price role="student">5.40</price>
-        </meal>
-        <meal>
-          <name>Joghurt mit Früchten &amp; Müsli, Cappuccino oder Tee Das Vielfältige</name>
-          <note>AFG</note>
-          <price role="student">7.90</price>
-        </meal>
-        <meal>
-          <name>Semmel, Korngebäck, Bio-Butter, Marmelade/Honig, Schinken &amp; Käse, Gemüse, Cappuccino oder Tee Weich gekochtes BIO-Ei</name>
-          <note>Eier</note>
-          <price role="student">2.20</price>
-        </meal>
-        <meal>
-          <name>BIO-Rührei</name>
-          <note>Eier</note>
-          <price role="student">3.50</price>
-        </meal>
-        <meal>
-          <name>BIO-Ham&amp;Eggs</name>
-          <note>Eier</note>
-          <price role="student">4.10</price>
-        </meal>
-        <meal>
-          <name>Croissant gefüllt mit BIO-Rührei</name>
-          <note>ACG</note>
-          <price role="student">4.80</price>
-        </meal>
-      </category>
-      <category name="Menü herzhaft">
-        <meal>
-          <name>Zur Wahl: Suppe oder Salat Gebackener Seehecht mit Petersilerdäpfeln und Sauce Tartare</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>MSC</note>
-          <note>Milch</note>
           <note>Senf</note>
           <price role="student">7.80</price>
+        </meal>
+      </category>
+      <category name="Aktuelles">
+        <meal>
+          <name>Gulaschsuppe mit einem Stück Gebäck</name>
+          <note>Gluten</note>
+          <note>Lupinen</note>
+          <note>Milch</note>
+          <note>Schalenfrüchte</note>
+          <note>Sesam</note>
+          <note>Sojabohnen</note>
+          <price role="student">4.70</price>
         </meal>
       </category>
     </day>
