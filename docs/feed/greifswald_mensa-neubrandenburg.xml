@@ -3,87 +3,6 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2023-01-31">
-      <category name="Tellergericht">
-        <meal>
-          <name>Gemüseeintopf mit Hackfleisch , Teller</name>
-          <note>Schweinefleisch</note>
-          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
-          <note>geschwefelt</note>
-          <note>jodiertes Salz</note>
-          <price role="employee">2.35</price>
-          <price role="other">3.30</price>
-          <price role="student">1.50</price>
-        </meal>
-        <meal>
-          <name>Gemüseeintopf mit Hackfleisch , Terrine</name>
-          <note>Schweinefleisch</note>
-          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
-          <note>geschwefelt</note>
-          <note>jodiertes Salz</note>
-          <price role="employee">3.25</price>
-          <price role="other">4.40</price>
-          <price role="student">2.20</price>
-        </meal>
-      </category>
-      <category name="Komponente 2">
-        <meal>
-          <name>Rindersauerbraten mit Rahmsauce</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Rindfleisch</note>
-          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
-          <note>Senf und daraus hergestellte Erzeugnisse</note>
-          <note>jodiertes Salz</note>
-          <price role="employee">3.20</price>
-          <price role="other">4.05</price>
-          <price role="student">2.35</price>
-        </meal>
-      </category>
-      <category name="Mensa Vital">
-        <meal>
-          <name>Gabelspaghetti mit feurigem Tomaten-Mango-Linsenragout</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>jodiertes Salz</note>
-          <price role="employee">4.00</price>
-          <price role="other">5.30</price>
-          <price role="student">2.70</price>
-        </meal>
-      </category>
-      <category name="Beilagen">
-        <meal>
-          <name>Salzkartoffeln   Ausgabe 1</name>
-          <note>geschwefelt</note>
-          <note>jodiertes Salz</note>
-          <price role="employee">1.00</price>
-          <price role="other">1.40</price>
-          <price role="student">0.70</price>
-        </meal>
-        <meal>
-          <name>Böhmische Knödel   Ausgabe 1</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Milch/Milchzucker</note>
-          <price role="employee">1.30</price>
-          <price role="other">1.70</price>
-          <price role="student">1.00</price>
-        </meal>
-      </category>
-      <category name="Gemüse">
-        <meal>
-          <name>Rotkohl   Ausgabe 1</name>
-          <note>jodiertes Salz</note>
-          <note>mit Antioxidationsmittel</note>
-          <price role="employee">1.00</price>
-          <price role="other">1.40</price>
-          <price role="student">0.70</price>
-        </meal>
-      </category>
-      <category name="Salate und Desserts">
-        <meal>
-          <name>Frische Salate und verschiedene Desserts stehen zur Auswahl.</name>
-        </meal>
-      </category>
-    </day>
     <day date="2023-02-01">
       <category name="Tellergericht">
         <meal>
@@ -133,6 +52,21 @@
           <price role="student">2.00</price>
         </meal>
       </category>
+      <category name="Vegetarisch oder Vegan">
+        <meal>
+          <name>2 Eier in süss-saurer Sauce mit Kartoffeln</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>jodiertes Salz</note>
+          <note>mit Farbstoff</note>
+          <note>mit Geschmacksverstärker</note>
+          <price role="employee">3.30</price>
+          <price role="other">4.60</price>
+          <price role="student">2.10</price>
+        </meal>
+      </category>
       <category name="Mensa Vital">
         <meal>
           <name>Vegan: Tagliatelle mit Grünkohl-Sojasahnesoße und Walnüssen</name>
@@ -154,9 +88,8 @@
           <price role="student">0.70</price>
         </meal>
         <meal>
-          <name>Spätzle   Ausgabe 1</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
-          <note>Glutenhaltiges Getreide</note>
+          <name>und Bratkartoffeln   Ausgabe 1</name>
+          <note>jodiertes Salz</note>
           <price role="employee">1.30</price>
           <price role="other">1.70</price>
           <price role="student">1.00</price>
@@ -164,8 +97,15 @@
       </category>
       <category name="Gemüse">
         <meal>
-          <name>Grüne Bohnen   Ausgabe 1</name>
+          <name>Grüne Bohnen Ausgabe 1</name>
+          <price role="employee">1.00</price>
+          <price role="other">1.40</price>
+          <price role="student">0.70</price>
+        </meal>
+        <meal>
+          <name>Rotkohl</name>
           <note>jodiertes Salz</note>
+          <note>mit Antioxidationsmittel</note>
           <price role="employee">1.00</price>
           <price role="other">1.40</price>
           <price role="student">0.70</price>
@@ -178,18 +118,6 @@
       </category>
     </day>
     <day date="2023-02-02">
-      <category name="Komponente 2">
-        <meal>
-          <name>Hackfleisch- Kartoffelauflauf mit Mozzarella</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Milch/Milchzucker</note>
-          <note>Schweinefleisch</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">2.85</price>
-          <price role="other">3.70</price>
-          <price role="student">2.00</price>
-        </meal>
-      </category>
       <category name="Komponente 3">
         <meal>
           <name>Chicken Nuggets (9,Gefl,A) Orangen - Chili Dip</name>
@@ -260,9 +188,31 @@
       </category>
     </day>
     <day date="2023-02-03">
+      <category name="Tellergericht">
+        <meal>
+          <name>Bauerntopf mit Hackfleisch</name>
+          <note>Rindfleisch</note>
+          <note>Schweinefleisch</note>
+          <note>geschwefelt</note>
+          <note>jodiertes Salz</note>
+          <price role="employee">2.35</price>
+          <price role="other">3.30</price>
+          <price role="student">1.50</price>
+        </meal>
+        <meal>
+          <name>Bauerntopf mit Hackfleisch Terriene</name>
+          <note>Rindfleisch</note>
+          <note>Schweinefleisch</note>
+          <note>geschwefelt</note>
+          <note>jodiertes Salz</note>
+          <price role="employee">3.25</price>
+          <price role="other">4.40</price>
+          <price role="student">2.20</price>
+        </meal>
+      </category>
       <category name="Komponente 1">
         <meal>
-          <name>pan. Seelachfilet mit Broccoli-Käsefüllung Dillsoße</name>
+          <name>Seelachfilet mit Broccoli-Käsetopping Dillsoße</name>
           <note>Fische und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Milch/Milchzucker</note>
@@ -273,6 +223,20 @@
           <price role="student">2.25</price>
         </meal>
       </category>
+      <category name="Komponente 2">
+        <meal>
+          <name>Rindersauerbraten mit Rahmsauce</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Rindfleisch</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
+          <note>jodiertes Salz</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">2.85</price>
+          <price role="other">3.70</price>
+          <price role="student">2.00</price>
+        </meal>
+      </category>
       <category name="Vegetarisch oder Vegan">
         <meal>
           <name>Vegan: Frikadelle mit Saucengemüse und Kartoffeln</name>
@@ -281,14 +245,6 @@
           <price role="employee">3.30</price>
           <price role="other">4.60</price>
           <price role="student">2.10</price>
-        </meal>
-      </category>
-      <category name="Mensa Vital">
-        <meal>
-          <name>Chicken Tikka Masala mit Paprikagemüse und Basmatireis (9,Gefl,G,A,J)</name>
-          <price role="employee">4.30</price>
-          <price role="other">5.60</price>
-          <price role="student">3.00</price>
         </meal>
       </category>
       <category name="Beilagen">
