@@ -3,7 +3,7 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2023-02-06">
+    <day date="2023-02-07">
       <category name="Tellergericht">
         <meal>
           <name>Brötchen</name>
@@ -13,28 +13,37 @@
           <price role="student">0.35</price>
         </meal>
         <meal>
-          <name>Kl. Schüssel: Veganer Gemüseeintopf</name>
-          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
-          <note>geschwefelt</note>
+          <name>Kl. Schüssel: Veganer Kichererbsen-Tomaten-Eintopf</name>
+          <note>mit Antioxidationsmittel</note>
           <price role="employee">1.60</price>
           <price role="other">2.35</price>
           <price role="student">0.90</price>
         </meal>
         <meal>
-          <name>Teller: Veganer Gemüseeintopf</name>
-          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
-          <note>geschwefelt</note>
+          <name>Teller: Veganer Kichererbsen-Tomaten-Eintopf</name>
+          <note>mit Antioxidationsmittel</note>
           <price role="employee">2.40</price>
           <price role="other">3.60</price>
           <price role="student">1.50</price>
         </meal>
         <meal>
-          <name>Terrine: Veganer Gemüseeintopf</name>
-          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
-          <note>geschwefelt</note>
+          <name>Terrine: Veganer Kichererbsen-Tomaten-Eintopf</name>
+          <note>mit Antioxidationsmittel</note>
           <price role="employee">3.80</price>
           <price role="other">5.10</price>
           <price role="student">2.20</price>
+        </meal>
+      </category>
+      <category name="Komponente 1">
+        <meal>
+          <name>Schlemmerfilet Bordelaise mit Zitronenbuttersauce</name>
+          <note>Fische und daraus hergestellte Erzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker</note>
+          <note>jodiertes Salz</note>
+          <price role="employee">3.10</price>
+          <price role="other">3.95</price>
+          <price role="student">2.25</price>
         </meal>
       </category>
       <category name="Komponente 2">
@@ -54,9 +63,14 @@
           <price role="student">2.00</price>
         </meal>
       </category>
-      <category name="Komponente 3">
+      <category name="Komponente 4">
         <meal>
-          <name>Putensteak (Gefl) mit Geflügelsoße (9,Gefl,A)</name>
+          <name>Schweinelachsschnitzel mit Paprikagemüse</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker</note>
+          <note>Schweinefleisch</note>
+          <note>jodiertes Salz</note>
           <price role="employee">3.10</price>
           <price role="other">3.95</price>
           <price role="student">2.25</price>
@@ -64,19 +78,27 @@
       </category>
       <category name="Vegetarisch oder Vegan">
         <meal>
-          <name>Backofengemüse mit Kidneybohnen mit Gerstoni Gemüse Gerste [von heimischen Äckern]</name>
+          <name>2 Polenta-Spinat-Käse-Knuspertaschen mit Tomaten-Joghurt-Dip  und Couscous</name>
           <note>Glutenhaltiges Getreide</note>
           <note>Milch/Milchzucker</note>
-          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>jodiertes Salz</note>
           <price role="employee">3.30</price>
           <price role="other">4.60</price>
           <price role="student">2.10</price>
         </meal>
       </category>
+      <category name="Mensa Vital">
+        <meal>
+          <name>Chicken Tikka Masala mit Paprikagemüse und Reis (Gefl,G,A)</name>
+          <price role="employee">4.30</price>
+          <price role="other">5.60</price>
+          <price role="student">3.00</price>
+        </meal>
+      </category>
       <category name="Beilagen">
         <meal>
-          <name>Makkaroni   Ausgabe 4</name>
-          <note>Glutenhaltiges Getreide</note>
+          <name>Salzkartoffeln   Ausgabe 4</name>
+          <note>geschwefelt</note>
           <price role="employee">1.00</price>
           <price role="other">1.40</price>
           <price role="student">0.70</price>
@@ -89,15 +111,16 @@
           <price role="student">0.70</price>
         </meal>
         <meal>
-          <name>Pommes Frites Ausgabe 4</name>
-          <price role="employee">1.30</price>
-          <price role="other">1.70</price>
-          <price role="student">1.00</price>
+          <name>Nudeln   Ausgabe 5</name>
+          <note>Glutenhaltiges Getreide</note>
+          <price role="employee">1.00</price>
+          <price role="other">1.40</price>
+          <price role="student">0.70</price>
         </meal>
       </category>
       <category name="Gemüse">
         <meal>
-          <name>Mischgemüse Ausgabe 4</name>
+          <name>Feine Möhren Ausgabe 2, 5</name>
           <price role="employee">1.00</price>
           <price role="other">1.40</price>
           <price role="student">0.70</price>
