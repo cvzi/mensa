@@ -3,13 +3,6 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2023-02-08">
-      <category name="Hauptgericht">
-        <meal>
-          <name>Hauptspeise Mittwoch Aushang vor Ort</name>
-        </meal>
-      </category>
-    </day>
     <day date="2023-02-09">
       <category name="Hauptgericht">
         <meal>
@@ -27,6 +20,9 @@
     <day date="2023-02-13">
       <category name="Hauptgericht">
         <meal>
+          <name>Pikanres Schweinspfandl mit Spiralen</name>
+        </meal>
+        <meal>
           <name>Spaghetti Carbonara mit Salat</name>
           <note>Dinkel</note>
           <note>Gerste</note>
@@ -36,6 +32,25 @@
           <note>mit Ei</note>
           <note>mit Milchprodukten (lactosehaltig)</note>
           <note>mit Sulfite</note>
+        </meal>
+      </category>
+      <category name="Vorspeise">
+        <meal>
+          <name>Profiterolsuppe</name>
+          <note>mit Ei</note>
+          <note>mit Milchprodukten (lactosehaltig)</note>
+          <note>mit Sulfite</note>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-02-14">
+      <category name="Hauptgericht">
+        <meal>
+          <name>Hühnerfilet überbacken</name>
+          <note>mit Milchprodukten (lactosehaltig)</note>
+        </meal>
+        <meal>
+          <name>Surbraten mit Erdäpfelknödel und warmer Krautsalat</name>
         </meal>
       </category>
       <category name="Vorspeise">
@@ -52,46 +67,13 @@
         </meal>
       </category>
     </day>
-    <day date="2023-02-14">
-      <category name="Hauptgericht">
-        <meal>
-          <name>Surbraten mit Erdäpfelknödel und warmer Krautsalat</name>
-        </meal>
-      </category>
-      <category name="Vorspeise">
-        <meal>
-          <name>Zwiebelsuppe</name>
-        </meal>
-      </category>
-    </day>
     <day date="2023-02-15">
       <category name="Hauptgericht">
         <meal>
           <name>Hühnerspieß mit Pommes</name>
         </meal>
-      </category>
-      <category name="Vorspeise">
         <meal>
-          <name>Minestrone</name>
-        </meal>
-      </category>
-    </day>
-    <day date="2023-02-16">
-      <category name="Hauptgericht">
-        <meal>
-          <name>Berner Würstel mit Süßkartoffelpommes</name>
-        </meal>
-      </category>
-      <category name="Vorspeise">
-        <meal>
-          <name>Specknockerlsuppe</name>
-        </meal>
-      </category>
-    </day>
-    <day date="2023-02-17">
-      <category name="Hauptgericht">
-        <meal>
-          <name>Krautstrudel mit Joghurtsoße und Salat</name>
+          <name>Kartoffelkäselaibchen mit Joghurtsauce</name>
           <note>Dinkel</note>
           <note>Gerste</note>
           <note>Hafer</note>
@@ -104,29 +86,17 @@
       </category>
       <category name="Vorspeise">
         <meal>
-          <name>Sternchensuppe</name>
+          <name>Sellerie Birnensuppe</name>
         </meal>
       </category>
     </day>
-    <day date="2023-02-20">
+    <day date="2023-02-16">
       <category name="Hauptgericht">
         <meal>
-          <name>Faschierte Laibchen mit Pommes und Gemüse</name>
+          <name>Berner Würstel mit Süßkartoffelpommes</name>
         </meal>
-      </category>
-      <category name="Vorspeise">
         <meal>
-          <name>Nudelsuppe</name>
-          <note>mit Ei</note>
-          <note>mit Milchprodukten (lactosehaltig)</note>
-          <note>mit Sulfite</note>
-        </meal>
-      </category>
-    </day>
-    <day date="2023-02-21">
-      <category name="Hauptgericht">
-        <meal>
-          <name>Hühnergeschnetzeltes mit Spätzle</name>
+          <name>Paprikaschnitzel mit Schupfnudeln</name>
         </meal>
       </category>
       <category name="Vorspeise">
@@ -143,15 +113,75 @@
         </meal>
       </category>
     </day>
+    <day date="2023-02-17">
+      <category name="Hauptgericht">
+        <meal>
+          <name>Krautstrudel mit Joghurtsoße und Salat</name>
+          <note>Dinkel</note>
+          <note>Gerste</note>
+          <note>Hafer</note>
+          <note>Roggen</note>
+          <note>Weizen</note>
+          <note>mit Ei</note>
+          <note>mit Milchprodukten (lactosehaltig)</note>
+          <note>mit Sulfite</note>
+        </meal>
+        <meal>
+          <name>Reisauflauf mit Kompott</name>
+        </meal>
+      </category>
+      <category name="Vorspeise">
+        <meal>
+          <name>Zucchinicreme Suppe</name>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-02-20">
+      <category name="Hauptgericht">
+        <meal>
+          <name>Faschierte Laibchen mit Pommes und Gemüse</name>
+        </meal>
+        <meal>
+          <name>Schinkenfleckerl</name>
+        </meal>
+      </category>
+      <category name="Vorspeise">
+        <meal>
+          <name>Grießnockerlsuppe</name>
+          <note>glutenhaltig</note>
+          <note>mit Ei</note>
+          <note>mit Milchprodukten (lactosehaltig)</note>
+          <note>mit Sellerie</note>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-02-21">
+      <category name="Hauptgericht">
+        <meal>
+          <name>Hühnergeschnetzeltes mit Spätzle</name>
+        </meal>
+        <meal>
+          <name>Hühnerkeule mit Ebly</name>
+        </meal>
+      </category>
+      <category name="Vorspeise">
+        <meal>
+          <name>Jungzwiebelsuppe</name>
+        </meal>
+      </category>
+    </day>
     <day date="2023-02-22">
       <category name="Hauptgericht">
         <meal>
           <name>Kotlett mit Gemüse und Gitterpommes</name>
         </meal>
+        <meal>
+          <name>Schwammerlsauce mit Semmelknödel</name>
+        </meal>
       </category>
       <category name="Vorspeise">
         <meal>
-          <name>Kürbiscremesuppe</name>
+          <name>Teigreissuppe</name>
         </meal>
       </category>
     </day>
@@ -160,10 +190,17 @@
         <meal>
           <name>Jägerfleisch mit Kroketten</name>
         </meal>
+        <meal>
+          <name>Rindsragout mit Kroketten und Gemüse</name>
+        </meal>
       </category>
       <category name="Vorspeise">
         <meal>
-          <name>Kohlrabicremesuppe</name>
+          <name>Kaspressknödelsuppe</name>
+          <note>glutenhaltig</note>
+          <note>mit Ei</note>
+          <note>mit Milchprodukten (lactosehaltig)</note>
+          <note>mit Sellerie</note>
         </meal>
       </category>
     </day>
@@ -172,10 +209,13 @@
         <meal>
           <name>Germknödel mit Vanillesauce</name>
         </meal>
+        <meal>
+          <name>Risotto mit Fischfilet</name>
+        </meal>
       </category>
       <category name="Vorspeise">
         <meal>
-          <name>Kräuter-Cremesuppe</name>
+          <name>Karottensuppe</name>
         </meal>
       </category>
     </day>
@@ -184,22 +224,36 @@
         <meal>
           <name>Putengeschnetzeltes</name>
         </meal>
+        <meal>
+          <name>Spagetthi Bologenese Spagetthi mit Tomatensoße und Faschiertem</name>
+          <note>enthält Schweinefleisch</note>
+        </meal>
       </category>
       <category name="Vorspeise">
         <meal>
-          <name>Fleisch-Strudelsuppe</name>
+          <name>Leberknödelsuppe</name>
         </meal>
       </category>
     </day>
     <day date="2023-02-28">
       <category name="Hauptgericht">
         <meal>
+          <name>Hauspizza</name>
+        </meal>
+        <meal>
           <name>Wurstknödel mit warmen Krautsalat</name>
         </meal>
       </category>
       <category name="Vorspeise">
         <meal>
-          <name>Championcremesuppe</name>
+          <name>Fisolensuppe</name>
+          <note>Dinkel</note>
+          <note>Gerste</note>
+          <note>Roggen</note>
+          <note>Weizen</note>
+          <note>mit Ei</note>
+          <note>mit Milchprodukten (lactosehaltig)</note>
+          <note>mit Sulfite</note>
         </meal>
       </category>
     </day>
@@ -208,22 +262,28 @@
         <meal>
           <name>Gebackener Käselberkäse mit Butterreis</name>
         </meal>
+        <meal>
+          <name>Gemüsestrudel mit Joghurtsauce</name>
+        </meal>
       </category>
       <category name="Vorspeise">
         <meal>
-          <name>Mais-Cremesuppe</name>
+          <name>Specknockerlsuppe</name>
         </meal>
       </category>
     </day>
     <day date="2023-03-02">
       <category name="Hauptgericht">
         <meal>
+          <name>Schweinebr. mit Knödel und Krautsalat</name>
+        </meal>
+        <meal>
           <name>Zwiebelrostbraten mit Braterdäpfel</name>
         </meal>
       </category>
       <category name="Vorspeise">
         <meal>
-          <name>Kräuter-Schöberlsuppe</name>
+          <name>Biskuitschöberlsuppe</name>
         </meal>
       </category>
     </day>
@@ -232,10 +292,25 @@
         <meal>
           <name>Mohnnudeln</name>
         </meal>
+        <meal>
+          <name>Topfenknödel mit Erdbeersauce</name>
+        </meal>
       </category>
       <category name="Vorspeise">
         <meal>
-          <name>Käseschaumsuppe</name>
+          <name>Rote Linsensuppe</name>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-03-06">
+      <category name="Hauptgericht">
+        <meal>
+          <name>Schinkenfleckerl</name>
+        </meal>
+      </category>
+      <category name="Vorspeise">
+        <meal>
+          <name>Backerbsensuppe</name>
         </meal>
       </category>
     </day>
