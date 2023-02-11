@@ -3,63 +3,6 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2023-02-10">
-      <category name="Tellergericht">
-        <meal>
-          <name>Brühnudeln mit Geflügelfleisch, Teller (3,9,Gefl,A,C,I)</name>
-          <price role="employee">2.35</price>
-          <price role="other">3.30</price>
-          <price role="student">1.50</price>
-        </meal>
-        <meal>
-          <name>Brühnudeln mit Geflügelfleisch, Terrine (3,9,Gefl,A,C,I)</name>
-          <price role="employee">3.25</price>
-          <price role="other">4.40</price>
-          <price role="student">2.20</price>
-        </meal>
-      </category>
-      <category name="Komponente 3">
-        <meal>
-          <name>Hähnchen-Gyros mit Paprikaquark (Gefl,G)</name>
-          <price role="employee">3.10</price>
-          <price role="other">3.95</price>
-          <price role="student">2.25</price>
-        </meal>
-      </category>
-      <category name="Mensa Vital">
-        <meal>
-          <name>Gemüsepaella vital</name>
-          <note>jodiertes Salz</note>
-          <price role="employee">4.00</price>
-          <price role="other">5.30</price>
-          <price role="student">2.70</price>
-        </meal>
-      </category>
-      <category name="Beilagen">
-        <meal>
-          <name>Reis   Ausgabe 1</name>
-          <note>jodiertes Salz</note>
-          <price role="employee">1.00</price>
-          <price role="other">1.40</price>
-          <price role="student">0.70</price>
-        </meal>
-      </category>
-      <category name="Gemüse">
-        <meal>
-          <name>Retro-Gemüse-Mix [Pastinaken, Knollensellerie, gelbe+orange Möhren, rote Zwiebeln, Topinambur]   Ausgabe 1</name>
-          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
-          <note>jodiertes Salz</note>
-          <price role="employee">1.20</price>
-          <price role="other">1.60</price>
-          <price role="student">0.90</price>
-        </meal>
-      </category>
-      <category name="Salate und Desserts">
-        <meal>
-          <name>Frische Salate und verschiedene Desserts stehen zur Auswahl.</name>
-        </meal>
-      </category>
-    </day>
     <day date="2023-02-11">
       <closed/>
     </day>
@@ -102,20 +45,12 @@
           <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
           <note>jodiertes Salz</note>
           <note>mit Antioxidationsmittel</note>
-          <note>mit Süßungsmittel</note>
           <price role="employee">4.00</price>
           <price role="other">5.30</price>
           <price role="student">2.70</price>
         </meal>
       </category>
       <category name="Beilagen">
-        <meal>
-          <name>Reis   Ausgabe 1</name>
-          <note>jodiertes Salz</note>
-          <price role="employee">1.00</price>
-          <price role="other">1.40</price>
-          <price role="student">0.70</price>
-        </meal>
         <meal>
           <name>Salzkartoffeln   Ausgabe 1</name>
           <note>geschwefelt</note>
@@ -135,7 +70,8 @@
       </category>
       <category name="Gemüse">
         <meal>
-          <name>Erbsengemüse Ausgabe 1</name>
+          <name>gelbe Bohnen   Ausgabe 1</name>
+          <note>jodiertes Salz</note>
           <price role="employee">1.00</price>
           <price role="other">1.40</price>
           <price role="student">0.70</price>
@@ -227,9 +163,9 @@
       </category>
     </day>
     <day date="2023-02-15">
-      <category name="Komponente 1">
+      <category name="Komponente 3">
         <meal>
-          <name>Hühnerfrikassee mit Gemüse (9,Gefl,G,A,C,F,I,J)</name>
+          <name>Hühnerfrikassee mit Gemüse (3,9,Gefl,G,A,C,F,I,J)</name>
           <price role="employee">3.10</price>
           <price role="other">3.95</price>
           <price role="student">2.25</price>
@@ -249,8 +185,9 @@
       </category>
       <category name="Pasta nach Gewicht (pro 100g)">
         <meal>
-          <name>Vegan:Makkaroni mit fruchtiger Tomatensoße</name>
+          <name>Makkaroni Vegan: vegane Carbonara</name>
           <note>Glutenhaltiges Getreide</note>
+          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
           <note>jodiertes Salz</note>
           <price role="employee">0.90</price>
           <price role="other">1.20</price>
@@ -289,41 +226,51 @@
       </category>
     </day>
     <day date="2023-02-16">
-      <category name="Komponente 1">
+      <category name="Tellergericht">
+        <meal>
+          <name>Vegan:vegane Lauch - Käse- Hacksuppe NB * Teller</name>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
+          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
+          <note>geschwefelt</note>
+          <note>jodiertes Salz</note>
+          <price role="employee">2.35</price>
+          <price role="other">3.30</price>
+          <price role="student">1.50</price>
+        </meal>
+        <meal>
+          <name>Vegan:vegane Lauch - Käse- Hacksuppe Terriene</name>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
+          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
+          <note>geschwefelt</note>
+          <note>jodiertes Salz</note>
+          <price role="employee">3.25</price>
+          <price role="other">4.40</price>
+          <price role="student">2.20</price>
+        </meal>
+      </category>
+      <category name="Komponente 2">
         <meal>
           <name>Bolognese</name>
           <note>Glutenhaltiges Getreide</note>
           <note>Milch/Milchzucker</note>
           <note>Schweinefleisch</note>
-          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
           <note>jodiertes Salz</note>
-          <price role="employee">3.10</price>
-          <price role="other">3.95</price>
-          <price role="student">2.25</price>
+          <price role="employee">2.85</price>
+          <price role="other">3.70</price>
+          <price role="student">2.00</price>
         </meal>
       </category>
       <category name="Vegetarisch oder Vegan">
         <meal>
-          <name>buntes Backofengemüse mit Hirtenkäse</name>
+          <name>buntes Backofengemüse mit Feta</name>
           <note>Milch/Milchzucker</note>
           <note>Sellerie und daraus hergestellte Erzeugnisse</note>
           <note>jodiertes Salz</note>
           <price role="employee">3.30</price>
           <price role="other">4.60</price>
           <price role="student">2.10</price>
-        </meal>
-      </category>
-      <category name="Mensa Vital">
-        <meal>
-          <name>Bunte Paprikapfanne mit Ingwer und Bambus mit Dinkel</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Sesamsamen und daraus hergestellte Erzeugnisse</note>
-          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
-          <note>mit Geschmacksverstärker</note>
-          <note>mit Konservierungsstoff</note>
-          <price role="employee">4.00</price>
-          <price role="other">5.30</price>
-          <price role="student">2.70</price>
         </meal>
       </category>
       <category name="Beilagen">
@@ -335,30 +282,15 @@
           <price role="student">0.70</price>
         </meal>
         <meal>
-          <name>Reis   Ausgabe 1</name>
-          <note>jodiertes Salz</note>
-          <price role="employee">1.00</price>
-          <price role="other">1.40</price>
-          <price role="student">0.70</price>
-        </meal>
-        <meal>
           <name>Spaghetti   Ausgabe 1</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
-          <note>Milch/Milchzucker</note>
-          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>jodiertes Salz</note>
           <price role="employee">1.00</price>
           <price role="other">1.40</price>
           <price role="student">0.70</price>
         </meal>
       </category>
       <category name="Gemüse">
-        <meal>
-          <name>Feine Möhren Ausgabe 1</name>
-          <price role="employee">1.00</price>
-          <price role="other">1.40</price>
-          <price role="student">0.70</price>
-        </meal>
         <meal>
           <name>Kaisergemüse   (Brokkoli, Blumenkohl, Karottenscheiben) Ausgabe 1</name>
           <price role="employee">1.20</price>
@@ -387,24 +319,22 @@
           <price role="student">2.20</price>
         </meal>
       </category>
-      <category name="Komponente 2">
+      <category name="Komponente 3">
         <meal>
           <name>Putenschnitzel (9,Gefl,A) mit Geflügelsoße (9,Gefl,G,A,C)</name>
-          <price role="employee">2.85</price>
-          <price role="other">3.70</price>
-          <price role="student">2.00</price>
+          <price role="employee">3.10</price>
+          <price role="other">3.95</price>
+          <price role="student">2.25</price>
         </meal>
       </category>
       <category name="Vegetarisch oder Vegan">
         <meal>
-          <name>Vegan: Gemüse-Knusper-Frikadelle Rahm - Gemüse Sauce  Salzkartoffeln</name>
+          <name>Veganes Gyros mit veganem Tzaziki [mit Knoblauch und Zwiebel]  Sesamkartoffeln gebacken</name>
           <note>Glutenhaltiges Getreide</note>
-          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
+          <note>Sesamsamen und daraus hergestellte Erzeugnisse</note>
           <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
-          <note>geschwefelt</note>
-          <note>jodiertes Salz</note>
-          <note>mit Farbstoff</note>
-          <note>mit Geschmacksverstärker</note>
+          <note>mit Antioxidationsmittel</note>
           <price role="employee">3.30</price>
           <price role="other">4.60</price>
           <price role="student">2.10</price>
