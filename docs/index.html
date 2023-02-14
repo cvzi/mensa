@@ -37,64 +37,7 @@
   <body>
     <main>
       <article>Parser for <a target="_blank" href="https://openmensa.org">openmensa.org</a>. The parser runs in a <a target="_blank" title="What's a Github action?" href="https://docs.github.com/en/actions">Github action<sup>❓</sup></a> and pushes the XML feeds to this page</article>
-      <article><h3><a href="https://github.com/cvzi/mensa/actions/">🗿 Parser status</a></h3>
-<pre>mampf1a:
-Traceback (most recent call last):
-  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/urllib3/connection.py", line 174, in _new_conn
-    conn = connection.create_connection(
-  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/urllib3/util/connection.py", line 95, in create_connection
-    raise err
-  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
-    sock.connect(sa)
-TimeoutError: [Errno 110] Connection timed out
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 703, in urlopen
-    httplib_response = self._make_request(
-  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 386, in _make_request
-    self._validate_conn(conn)
-  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1042, in _validate_conn
-    conn.connect()
-  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/urllib3/connection.py", line 358, in connect
-    self.sock = conn = self._new_conn()
-  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/urllib3/connection.py", line 179, in _new_conn
-    raise ConnectTimeoutError(
-urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPSConnection object at 0x7fcc2a0cf010>, 'Connection to login.mampf1a.de timed out. (connect timeout=None)')
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/requests/adapters.py", line 489, in send
-    resp = conn.urlopen(
-  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
-    retries = retries.increment(
-  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/urllib3/util/retry.py", line 592, in increment
-    raise MaxRetryError(_pool, url, error or ResponseError(cause))
-urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='login.mampf1a.de', port=443): Max retries exceeded with url: /achern/winEsel5/speiseplan.php?no_cache=1 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fcc2a0cf010>, 'Connection to login.mampf1a.de timed out. (connect timeout=None)'))
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 159, in updateFeeds
-    raise e
-  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 145, in updateFeeds
-    content = getattr(parser, feedMethod)(
-  File "/home/runner/work/mensa/mensa/mampf1a/__init__.py", line 62, in feed
-    r = self._get_cached(url)
-  File "/home/runner/work/mensa/mensa/mampf1a/__init__.py", line 308, in _get_cached
-    content = self.session.get(url)
-  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/requests/sessions.py", line 600, in get
-    return self.request("GET", url, **kwargs)
-  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/requests/sessions.py", line 587, in request
-    resp = self.send(prep, **send_kwargs)
-  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/requests/sessions.py", line 701, in send
-    r = adapter.send(request, **kwargs)
-  File "/opt/hostedtoolcache/Python/3.10.9/x64/lib/python3.10/site-packages/requests/adapters.py", line 553, in send
-    raise ConnectTimeout(e, request=request)
-requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='login.mampf1a.de', port=443): Max retries exceeded with url: /achern/winEsel5/speiseplan.php?no_cache=1 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fcc2a0cf010>, 'Connection to login.mampf1a.de timed out. (connect timeout=None)'))
-</pre></article>
+      <article><h3><a href="https://github.com/cvzi/mensa/actions/">🗿 Parser status</a></h3></article>
       <article>
 <ol style="list-style-type:none">
 <li><h3 id="eurest"><a href="https://cvzi.github.io/mensa/eurest.json">🐏 eurest.json</a></h3>
