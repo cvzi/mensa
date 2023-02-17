@@ -3,7 +3,7 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2023-02-16">
+    <day date="2023-02-17">
       <category name="Tellergericht">
         <meal>
           <name>Brötchen</name>
@@ -21,6 +21,15 @@
           <price role="employee">1.60</price>
           <price role="other">2.35</price>
           <price role="student">0.90</price>
+        </meal>
+        <meal>
+          <name>Kl. Schüssel: Veganer Kartoffel-Erbseneintopf in Sojarahm mit Koriander und Minze</name>
+          <note>Schalenfrüchte und daraus hergestellte Erzeugnisse</note>
+          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
+          <note>geschwefelt</note>
+          <price role="employee">2.10</price>
+          <price role="other">2.85</price>
+          <price role="student">1.40</price>
         </meal>
         <meal>
           <name>Teller: Vegane Soljanka</name>
@@ -42,14 +51,51 @@
           <price role="other">5.10</price>
           <price role="student">2.20</price>
         </meal>
+        <meal>
+          <name>Teller: Veganer Kartoffel-Erbseneintopf in Sojarahm mit Koriander und Minze</name>
+          <note>Schalenfrüchte und daraus hergestellte Erzeugnisse</note>
+          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
+          <note>geschwefelt</note>
+          <price role="employee">3.40</price>
+          <price role="other">4.60</price>
+          <price role="student">2.50</price>
+        </meal>
+        <meal>
+          <name>Terrine: Veganer Kartoffel-Erbseneintopf in Sojarahm mit Koriander und Minze</name>
+          <note>Schalenfrüchte und daraus hergestellte Erzeugnisse</note>
+          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
+          <note>geschwefelt</note>
+          <price role="employee">5.40</price>
+          <price role="other">6.60</price>
+          <price role="student">4.50</price>
+        </meal>
       </category>
       <category name="Komponente 2">
         <meal>
-          <name>Chili con carne</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Rindfleisch</note>
+          <name>Schweinelachssteak mit Letschogemüse</name>
           <note>Schweinefleisch</note>
-          <note>mit Antioxidationsmittel</note>
+          <price role="employee">3.10</price>
+          <price role="other">3.95</price>
+          <price role="student">2.25</price>
+        </meal>
+        <meal>
+          <name>Frisches Schweinekotelett mit Rahmsauce</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker</note>
+          <note>Schweinefleisch</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>jodiertes Salz</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">3.10</price>
+          <price role="other">3.95</price>
+          <price role="student">2.25</price>
+        </meal>
+      </category>
+      <category name="Komponente 3">
+        <meal>
+          <name>8 Chicken Nuggets (7,Gefl,A) mit Asia-Dip (süss-scharf)</name>
+          <note>mit Süßungsmittel</note>
           <price role="employee">3.10</price>
           <price role="other">3.95</price>
           <price role="student">2.25</price>
@@ -57,13 +103,21 @@
       </category>
       <category name="Vegetarisch oder Vegan">
         <meal>
-          <name>Blumenkohl-Käsemedaillon mit Bechamel Sauce  Kräuterreis</name>
+          <name>Blumenkohl-Käsemedaillon mit Soja-Gemüsesauce Sauce  Reis</name>
           <note>Eier und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Milch/Milchzucker</note>
           <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
           <note>jodiertes Salz</note>
-          <note>mit Farbstoff</note>
+          <price role="employee">3.30</price>
+          <price role="other">4.60</price>
+          <price role="student">2.10</price>
+        </meal>
+        <meal>
+          <name>3 Kartoffeltaschen mit Kräuterquark  dazu Blattsalat mit Mais</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker</note>
           <price role="employee">3.30</price>
           <price role="other">4.60</price>
           <price role="student">2.10</price>
@@ -80,9 +134,9 @@
           <price role="student">0.30</price>
         </meal>
         <meal>
-          <name>Vegan: Nudeln mit Zucchini und Tomaten in Olivenöl</name>
+          <name>Gabelspaghetti mit veganem Möhren-Oliven-Pesto</name>
           <note>Glutenhaltiges Getreide</note>
-          <note>jodiertes Salz</note>
+          <note>geschwärzt</note>
           <price role="employee">0.90</price>
           <price role="other">1.20</price>
           <price role="student">0.60</price>
@@ -90,19 +144,32 @@
       </category>
       <category name="Beilagen">
         <meal>
+          <name>Salzkartoffeln   Ausgabe 4</name>
+          <note>geschwefelt</note>
+          <price role="employee">1.00</price>
+          <price role="other">1.40</price>
+          <price role="student">0.70</price>
+        </meal>
+        <meal>
           <name>Reis   Ausgabe 4</name>
           <note>jodiertes Salz</note>
           <price role="employee">1.00</price>
           <price role="other">1.40</price>
           <price role="student">0.70</price>
         </meal>
+        <meal>
+          <name>Pommes Frites Ausgabe 4</name>
+          <price role="employee">1.30</price>
+          <price role="other">1.70</price>
+          <price role="student">1.00</price>
+        </meal>
       </category>
       <category name="Gemüse">
         <meal>
-          <name>Kaisergemüse   (Brokkoli, Blumenkohl, Karottenscheiben) Ausgabe 2, 4</name>
-          <price role="employee">1.20</price>
-          <price role="other">1.60</price>
-          <price role="student">0.90</price>
+          <name>Grüne Bohnen Ausgabe 5</name>
+          <price role="employee">1.00</price>
+          <price role="other">1.40</price>
+          <price role="student">0.70</price>
         </meal>
       </category>
       <category name="Salate und Desserts">
