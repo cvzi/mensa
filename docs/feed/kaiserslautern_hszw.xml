@@ -3,49 +3,6 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2023-03-01">
-      <category name="Essen I Drehkreuz/Ampel">
-        <meal>
-          <name>Frikadelle mit Zucchini-Tomatengemüse, scharfem Curry-Bulgur und Krautsalat</name>
-          <note>Antioxidationsmittel</note>
-          <note>Eier und Eierzeugnisse</note>
-          <note>Farbstoff</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Krebstiere (Krusten- und Schalentiere)</note>
-          <note>Laktose</note>
-          <note>Rind</note>
-          <note>Schwefeldioxid (&quot;SO2&quot;) und Sulfite</note>
-          <note>Schwein</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <note>Süßungsmittel</note>
-          <note>geschwefelt</note>
-          <price role="employee">5.30</price>
-          <price role="other">6.25</price>
-          <price role="student">3.50</price>
-        </meal>
-      </category>
-      <category name="Essen II Drehkreuz/Ampel">
-        <meal>
-          <name>Falafel mit Zucchini-Tomaten-Gemüse, scharfem Curry-Bulgur und Krautsalat</name>
-          <note>Antioxidationsmittel</note>
-          <note>Eier und Eierzeugnisse</note>
-          <note>Farbstoff</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Krebstiere (Krusten- und Schalentiere)</note>
-          <note>Laktose</note>
-          <note>Schwefeldioxid (&quot;SO2&quot;) und Sulfite</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <note>Süßungsmittel</note>
-          <note>Vegetarisches Menü</note>
-          <note>geschwefelt</note>
-          <price role="employee">4.25</price>
-          <price role="other">5.20</price>
-          <price role="student">2.75</price>
-        </meal>
-      </category>
-    </day>
     <day date="2023-03-02">
       <category name="Essen I Drehkreuz/Ampel">
         <meal>
@@ -53,6 +10,8 @@
           <note>Farbstoff</note>
           <note>Geflügel</note>
           <note>Glutenhaltiges Getreide</note>
+          <note>Konservierungsstoff</note>
+          <note>Laktose</note>
           <note>Senf</note>
           <note>Soja</note>
           <price role="employee">5.30</price>
@@ -81,6 +40,136 @@
           <note>Glutenhaltiges Getreide</note>
           <note>Laktose</note>
           <note>Senf</note>
+          <note>Vegetarisches Menü</note>
+          <price role="employee">4.25</price>
+          <price role="other">5.20</price>
+          <price role="student">2.75</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-03-06">
+      <category name="Essen II Drehkreuz/Ampel">
+        <meal>
+          <name>Spaghetti mit Gemüsebolognese, vegan geriebenem Käse und Salat</name>
+          <note>Farbstoff</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Sellerie</note>
+          <note>Veganes Menü</note>
+          <price role="employee">4.25</price>
+          <price role="other">5.20</price>
+          <price role="student">2.75</price>
+        </meal>
+      </category>
+      <category name="Essen I Drehkreuz/Ampel">
+        <meal>
+          <name>Spaghetti mit Rinderhackfleischsoße, geriebenem Käse und Salat</name>
+          <note>Farbstoff</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Laktose</note>
+          <note>Rind</note>
+          <note>Soja</note>
+          <price role="employee">5.30</price>
+          <price role="other">6.25</price>
+          <price role="student">3.50</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-03-07">
+      <category name="Essen I Drehkreuz/Ampel">
+        <meal>
+          <name>Paniertes Schweineschnitzel mit Käsesoße, Bratkartoffeln und Salat</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Laktose</note>
+          <note>Schwein</note>
+          <price role="employee">5.30</price>
+          <price role="other">6.25</price>
+          <price role="student">3.50</price>
+        </meal>
+      </category>
+      <category name="Essen II Drehkreuz/Ampel">
+        <meal>
+          <name>Vollkorn-Pilz-Bratling mit Käsesoße, Bratkartoffeln und Salat</name>
+          <note>Eier und Eierzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Laktose</note>
+          <note>Sellerie</note>
+          <note>Sesam</note>
+          <note>Vegetarisches Menü</note>
+          <price role="employee">4.25</price>
+          <price role="other">5.20</price>
+          <price role="student">2.75</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-03-08">
+      <category name="Essen I Drehkreuz/Ampel">
+        <meal>
+          <name>Putengeschnetzeltes in Champignon-Rahmsoße mit Spätzle und Salat</name>
+          <note>Antioxidationsmittel</note>
+          <note>Eier und Eierzeugnisse</note>
+          <note>Geflügel</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Laktose</note>
+          <note>Sellerie</note>
+          <price role="employee">5.30</price>
+          <price role="other">6.25</price>
+          <price role="student">3.50</price>
+        </meal>
+      </category>
+      <category name="Essen II Drehkreuz/Ampel">
+        <meal>
+          <name>Buntes Rahmgemüse mit Spätzle und Salat</name>
+          <note>Eier und Eierzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Laktose</note>
+          <note>Vegetarisches Menü</note>
+          <price role="employee">4.25</price>
+          <price role="other">5.20</price>
+          <price role="student">2.75</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-03-09">
+      <category name="Essen II Drehkreuz/Ampel">
+        <meal>
+          <name>Chili Cheese Fritten: Große Portion Steakhouse-Fries mit hausgemachtem Gemüse-Chili, geriebenem Cheddar, rote Zwiebeln und Coleslaw</name>
+          <note>Eier und Eierzeugnisse</note>
+          <note>Farbstoff</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Laktose</note>
+          <note>Senf</note>
+          <note>Soja</note>
+          <note>Süßungsmittel</note>
+          <note>Vegetarisches Menü - Crazy friesday</note>
+          <price role="employee">4.25</price>
+          <price role="other">5.20</price>
+          <price role="student">2.75</price>
+        </meal>
+      </category>
+      <category name="Essen I Drehkreuz/Ampel">
+        <meal>
+          <name>Chili Cheese Fritten: Große Portion Steakhouse-Fries mit hausgemachtem Chili con Carne, geriebenem Cheddar, rote Zwiebeln und Coleslaw</name>
+          <note>Farbstoff</note>
+          <note>Laktose</note>
+          <note>Poutine canadian streetfood - Crazy friesday</note>
+          <note>Rind</note>
+          <price role="employee">5.30</price>
+          <price role="other">6.25</price>
+          <price role="student">3.50</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-03-10">
+      <category name="Essen II Drehkreuz/Ampel">
+        <meal>
+          <name>Gemüse-Quinoa-Pfanne mit Gemüsestäbchen, Kräutermayonnaise und Salat</name>
+          <note>Antioxidationsmittel</note>
+          <note>Eier und Eierzeugnisse</note>
+          <note>Farbstoff</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Laktose</note>
+          <note>Sellerie</note>
+          <note>Sesam</note>
           <note>Vegetarisches Menü</note>
           <price role="employee">4.25</price>
           <price role="other">5.20</price>
