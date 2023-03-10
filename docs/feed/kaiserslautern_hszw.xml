@@ -3,41 +3,13 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2023-03-08">
-      <category name="Essen I Drehkreuz/Ampel">
-        <meal>
-          <name>Putengeschnetzeltes in Champignon-Rahmsoße mit Spätzle und Salat</name>
-          <note>Antioxidationsmittel</note>
-          <note>Eier und Eierzeugnisse</note>
-          <note>Farbstoff</note>
-          <note>Geflügel</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Laktose</note>
-          <note>Schwefeldioxid (&quot;SO2&quot;) und Sulfite</note>
-          <note>geschwefelt</note>
-          <price role="employee">5.30</price>
-          <price role="other">6.25</price>
-          <price role="student">3.50</price>
-        </meal>
-      </category>
-      <category name="Essen II Drehkreuz/Ampel">
-        <meal>
-          <name>Buntes Rahmgemüse mit Spätzle und Salat</name>
-          <note>Eier und Eierzeugnisse</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Laktose</note>
-          <note>Vegetarisches Menü</note>
-          <price role="employee">4.25</price>
-          <price role="other">5.20</price>
-          <price role="student">2.75</price>
-        </meal>
-      </category>
-    </day>
     <day date="2023-03-09">
       <category name="Essen II Drehkreuz/Ampel">
         <meal>
-          <name>Chili Cheese Fritten: Große Portion Steakhouse-Fries mit hausgemachtem Gemüse-Chili, geriebenem Cheddar, rote Zwiebeln und Coleslaw</name>
+          <name>Chili Cheese Fritten: Große Portion Steakhouse-Fries oder Spätzle mit hausgemachtem Gemüse-Chili, geriebenem Cheddar, roten Zwiebeln und Coleslaw</name>
+          <note>Eier und Eierzeugnisse</note>
           <note>Farbstoff</note>
+          <note>Glutenhaltiges Getreide</note>
           <note>Laktose</note>
           <note>Vegetarisches Menü - Crazy friesday</note>
           <price role="employee">4.25</price>
@@ -47,11 +19,15 @@
       </category>
       <category name="Essen I Drehkreuz/Ampel">
         <meal>
-          <name>Chili Cheese Fritten: Große Portion Steakhouse-Fries mit hausgemachtem Chili con Carne, geriebenem Cheddar, rote Zwiebeln und Coleslaw</name>
+          <name>Chili Cheese Fritten: Große Portion Steakhouse-Fries oder Spätzle mit hausgemachtem Chili con Carne, geriebenem Cheddar, roten Zwiebeln und Coleslaw</name>
+          <note>Eier und Eierzeugnisse</note>
           <note>Farbstoff</note>
+          <note>Glutenhaltiges Getreide</note>
           <note>Laktose</note>
           <note>Poutine canadian streetfood - Crazy friesday</note>
           <note>Rind</note>
+          <note>Schwefeldioxid (&quot;SO2&quot;) und Sulfite</note>
+          <note>geschwefelt</note>
           <price role="employee">5.30</price>
           <price role="other">6.25</price>
           <price role="student">3.50</price>
@@ -90,7 +66,7 @@
       </category>
       <category name="Essen II Drehkreuz/Ampel">
         <meal>
-          <name>Sojabolognese mit Tomatensoße, bunte Nudeln und Salat</name>
+          <name>Bunte Nudeln mit Sojabolognese und Salat</name>
           <note>Farbstoff</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Soja</note>
@@ -149,18 +125,6 @@
           <price role="other">5.20</price>
           <price role="student">2.75</price>
         </meal>
-        <meal>
-          <name>Gemüsefrikadelle mit Tzatziki, Djuvec-Reis und Salat</name>
-          <note>Antioxidationsmittel</note>
-          <note>Eier und Eierzeugnisse</note>
-          <note>Farbstoff</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Laktose</note>
-          <note>Vegetarisches Menü</note>
-          <price role="employee">4.25</price>
-          <price role="other">5.20</price>
-          <price role="student">2.75</price>
-        </meal>
       </category>
       <category name="Essen I Drehkreuz/Ampel">
         <meal>
@@ -174,9 +138,12 @@
           <price role="other">6.25</price>
           <price role="student">3.50</price>
         </meal>
+      </category>
+    </day>
+    <day date="2023-03-16">
+      <category name="Essen I Drehkreuz/Ampel">
         <meal>
           <name>Hacksteak Croatia mit Tzatziki, Djuvec-Reis und Salat</name>
-          <note>Antioxidationsmittel</note>
           <note>Eier und Eierzeugnisse</note>
           <note>Farbstoff</note>
           <note>Gelantine</note>
@@ -184,9 +151,25 @@
           <note>Laktose</note>
           <note>Rind</note>
           <note>Schwein</note>
+          <note>Senf</note>
+          <note>Süßungsmittel</note>
           <price role="employee">5.30</price>
           <price role="other">6.25</price>
           <price role="student">3.50</price>
+        </meal>
+      </category>
+      <category name="Essen II Drehkreuz/Ampel">
+        <meal>
+          <name>Gemüsefrikadelle mit Tzatziki, Djuvec-Reis und Salat</name>
+          <note>Antioxidationsmittel</note>
+          <note>Eier und Eierzeugnisse</note>
+          <note>Farbstoff</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Laktose</note>
+          <note>Vegetarisches Menü</note>
+          <price role="employee">4.25</price>
+          <price role="other">5.20</price>
+          <price role="student">2.75</price>
         </meal>
       </category>
     </day>
@@ -198,7 +181,6 @@
           <note>Farbstoff</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Laktose</note>
-          <note>Sellerie</note>
           <note>Vegetarisches Menü</note>
           <price role="employee">4.25</price>
           <price role="other">5.20</price>
