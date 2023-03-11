@@ -3,23 +3,31 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2023-03-10">
-      <category name="muslimisch">
+    <day date="2023-03-13">
+      <category name="fleischlos">
         <meal>
-          <name>Mildes Thai-Gemüsecurry, Reis, fränkische Äpfel aus Bibergau 5,10 € Mildes Thai-Gemüsecurry, Reis fränkische Äpfel aus Bibergau</name>
+          <name>Gemüseschnitzel mit frischem Kartoffelsalat, fränkische Äpfel aus Bibergau 5,10 € Gemüseschnitzel mit frischem Kartoffelsalat [A1,10,C,G,J,I] fränkische Äpfel aus Bibergau</name>
+          <note>fleischlos</note>
+          <note>mit Backtriebmittel</note>
+          <note>mit Ei</note>
+          <note>mit Milchprodukten (lactosehaltig)</note>
+          <note>mit Sellerie</note>
+          <note>mit Senf</note>
           <price role="student">5.10</price>
         </meal>
       </category>
-      <category name="Teenager fleischlos">
+      <category name="muslimisch">
         <meal>
-          <name>Mildes Thai-Gemüsecurry, Reis, fränkische Äpfel aus Bibergau 6,30 € Mildes Thai-Gemüsecurry, Reis fränkische Äpfel aus Bibergau</name>
-          <note>fleischlos</note>
-          <price role="student">6.30</price>
+          <name>Putenschnitzel paniert mit Kartoffelsalat, fränkische Äpfel aus Bibergau 5,10 € Putenschnitzel paniert mit Kartoffelsalat [A1,10,C,G,I,J] fränkische Äpfel aus Bibergau</name>
+          <note>mit Backtriebmittel</note>
+          <note>mit Ei</note>
+          <note>mit Milchprodukten (lactosehaltig)</note>
+          <note>mit Sellerie</note>
+          <note>mit Senf</note>
+          <price role="student">5.10</price>
         </meal>
       </category>
-    </day>
-    <day date="2023-03-13">
-      <category name="muslimisch">
+      <category name="normal">
         <meal>
           <name>Putenschnitzel paniert mit Kartoffelsalat, fränkische Äpfel aus Bibergau 5,10 € Putenschnitzel paniert mit Kartoffelsalat [A1,10,C,G,I,J] fränkische Äpfel aus Bibergau</name>
           <note>mit Backtriebmittel</note>
@@ -39,29 +47,6 @@
           <note>mit Milchprodukten (lactosehaltig)</note>
           <note>mit Senf</note>
           <price role="student">6.30</price>
-        </meal>
-      </category>
-      <category name="fleischlos">
-        <meal>
-          <name>Gemüseschnitzel mit frischem Kartoffelsalat, fränkische Äpfel aus Bibergau 5,10 € Gemüseschnitzel mit frischem Kartoffelsalat [A1,10,C,G,J,I] fränkische Äpfel aus Bibergau</name>
-          <note>fleischlos</note>
-          <note>mit Backtriebmittel</note>
-          <note>mit Ei</note>
-          <note>mit Milchprodukten (lactosehaltig)</note>
-          <note>mit Sellerie</note>
-          <note>mit Senf</note>
-          <price role="student">5.10</price>
-        </meal>
-      </category>
-      <category name="normal">
-        <meal>
-          <name>Putenschnitzel paniert mit Kartoffelsalat, fränkische Äpfel aus Bibergau 5,10 € Putenschnitzel paniert mit Kartoffelsalat [A1,10,C,G,I,J] fränkische Äpfel aus Bibergau</name>
-          <note>mit Backtriebmittel</note>
-          <note>mit Ei</note>
-          <note>mit Milchprodukten (lactosehaltig)</note>
-          <note>mit Sellerie</note>
-          <note>mit Senf</note>
-          <price role="student">5.10</price>
         </meal>
       </category>
       <category name="Teenager normal">
@@ -161,7 +146,25 @@
       </category>
     </day>
     <day date="2023-03-17">
+      <category name="fleischlos">
+        <meal>
+          <name>Döner (Käse) mit Rotkraut und Knoblauchsoße 5,10 € Döner (Käse) mit Rotkraut und Knoblauchsoße [A1,10,G,I,J]</name>
+          <note>fleischlos</note>
+          <note>mit Backtriebmittel</note>
+          <note>mit Milchprodukten (lactosehaltig)</note>
+          <note>mit Sellerie</note>
+          <note>mit Senf</note>
+          <price role="student">5.10</price>
+        </meal>
+      </category>
       <category name="muslimisch">
+        <meal>
+          <name>Döner mit Rotkraut und Knoblauchsoße 5,10 € Döner mit Rotkraut und Knoblauchsoße [A1,G]</name>
+          <note>mit Milchprodukten (lactosehaltig)</note>
+          <price role="student">5.10</price>
+        </meal>
+      </category>
+      <category name="normal">
         <meal>
           <name>Döner mit Rotkraut und Knoblauchsoße 5,10 € Döner mit Rotkraut und Knoblauchsoße [A1,G]</name>
           <note>mit Milchprodukten (lactosehaltig)</note>
@@ -179,24 +182,6 @@
           <price role="student">6.30</price>
         </meal>
       </category>
-      <category name="fleischlos">
-        <meal>
-          <name>Döner (Käse) mit Rotkraut und Knoblauchsoße 5,10 € Döner (Käse) mit Rotkraut und Knoblauchsoße [A1,10,G,I,J]</name>
-          <note>fleischlos</note>
-          <note>mit Backtriebmittel</note>
-          <note>mit Milchprodukten (lactosehaltig)</note>
-          <note>mit Sellerie</note>
-          <note>mit Senf</note>
-          <price role="student">5.10</price>
-        </meal>
-      </category>
-      <category name="normal">
-        <meal>
-          <name>Döner mit Rotkraut und Knoblauchsoße 5,10 € Döner mit Rotkraut und Knoblauchsoße [A1,G]</name>
-          <note>mit Milchprodukten (lactosehaltig)</note>
-          <price role="student">5.10</price>
-        </meal>
-      </category>
       <category name="Teenager normal">
         <meal>
           <name>Geflügel-Wirsingroulade mit Püree, Soße 6,10 € Geflügel-Wirsingroulade mit Püree, Soße [10,A1,C,G,I]</name>
@@ -209,7 +194,25 @@
       </category>
     </day>
     <day date="2023-03-20">
+      <category name="fleischlos">
+        <meal>
+          <name>Champignon im Backteig mit Kartoffelpüree und Erbsen, Bohnensalat 5,10 € Champignon im Backteig mit Kartoffelpüree und Erbsen [A1,10,G,C] Bohnensalat</name>
+          <note>fleischlos</note>
+          <note>mit Backtriebmittel</note>
+          <note>mit Ei</note>
+          <note>mit Milchprodukten (lactosehaltig)</note>
+          <price role="student">5.10</price>
+        </meal>
+      </category>
       <category name="muslimisch">
+        <meal>
+          <name>Fischfilet im Backteig mit Kartoffelpüree und Erbsen, Bohnensalat 5,10 € Fischfilet im Backteig mit Kartoffelpüree und Erbsen [A1,10,G,] Bohnensalat</name>
+          <note>mit Backtriebmittel</note>
+          <note>mit Milchprodukten (lactosehaltig)</note>
+          <price role="student">5.10</price>
+        </meal>
+      </category>
+      <category name="normal">
         <meal>
           <name>Fischfilet im Backteig mit Kartoffelpüree und Erbsen, Bohnensalat 5,10 € Fischfilet im Backteig mit Kartoffelpüree und Erbsen [A1,10,G,] Bohnensalat</name>
           <note>mit Backtriebmittel</note>
@@ -226,24 +229,6 @@
           <note>mit Milchprodukten (lactosehaltig)</note>
           <note>mit Sellerie</note>
           <price role="student">6.30</price>
-        </meal>
-      </category>
-      <category name="fleischlos">
-        <meal>
-          <name>Champignon im Backteig mit Kartoffelpüree und Erbsen, Bohnensalat 5,10 € Champignon im Backteig mit Kartoffelpüree und Erbsen [A1,10,G,C] Bohnensalat</name>
-          <note>fleischlos</note>
-          <note>mit Backtriebmittel</note>
-          <note>mit Ei</note>
-          <note>mit Milchprodukten (lactosehaltig)</note>
-          <price role="student">5.10</price>
-        </meal>
-      </category>
-      <category name="normal">
-        <meal>
-          <name>Fischfilet im Backteig mit Kartoffelpüree und Erbsen, Bohnensalat 5,10 € Fischfilet im Backteig mit Kartoffelpüree und Erbsen [A1,10,G,] Bohnensalat</name>
-          <note>mit Backtriebmittel</note>
-          <note>mit Milchprodukten (lactosehaltig)</note>
-          <price role="student">5.10</price>
         </meal>
       </category>
       <category name="Teenager normal">
