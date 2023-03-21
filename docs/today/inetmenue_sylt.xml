@@ -4,11 +4,6 @@
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
     <day date="2023-03-20">
-      <category name="Achtung">
-        <meal>
-          <name>Schulentwicklungstag - Heute bietet die Mensa kein Essen an!⚠️Bestellzeit abgelaufen</name>
-        </meal>
-      </category>
       <category name="Menü 1">
         <meal>
           <name>Chicken Nuggets und Pommes Frites⚠️Bestellzeit abgelaufen</name>
@@ -17,6 +12,11 @@
           <note>Milch</note>
           <note>Milcheiweiß</note>
           <note>Weizen</note>
+        </meal>
+      </category>
+      <category name="Achtung">
+        <meal>
+          <name>Schulentwicklungstag - Heute bietet die Mensa kein Essen an!⚠️Bestellzeit abgelaufen</name>
         </meal>
       </category>
     </day>
@@ -65,14 +65,6 @@
           <note>Weizen</note>
         </meal>
       </category>
-      <category name="Menü 2">
-        <meal>
-          <name>Vollkornnudeln mit Sojabolognese und Parmesan</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Jodsalz</note>
-          <note>Soja</note>
-        </meal>
-      </category>
       <category name="Salat Buffet">
         <meal>
           <name>Salatbuffet Extra, Chicken Nuggets mit Dip</name>
@@ -82,8 +74,23 @@
           <note>Weizen</note>
         </meal>
       </category>
+      <category name="Menü 2">
+        <meal>
+          <name>Vollkornnudeln mit Sojabolognese und Parmesan</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Jodsalz</note>
+          <note>Soja</note>
+        </meal>
+      </category>
     </day>
     <day date="2023-03-23">
+      <category name="Salat Buffet">
+        <meal>
+          <name>Salatbuffet Extra, Tomate-Mozzarella</name>
+          <note>Milch</note>
+          <note>Milcheiweiß</note>
+        </meal>
+      </category>
       <category name="Menü 1">
         <meal>
           <name>Hähnchenspieß mit Kartoffelpüree und Rahmgemüse</name>
@@ -105,25 +112,13 @@
           <note>Weizen</note>
         </meal>
       </category>
-      <category name="Salat Buffet">
-        <meal>
-          <name>Salatbuffet Extra, Tomate-Mozzarella</name>
-          <note>Milch</note>
-          <note>Milcheiweiß</note>
-        </meal>
-      </category>
     </day>
     <day date="2023-03-24">
-      <category name="Menü 1">
+      <category name="Salat Buffet">
         <meal>
-          <name>Unpaniertes Fischfilet mit Salzkartoffeln und Senfsauce</name>
-          <note>Eier</note>
-          <note>Fisch</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Jodsalz</note>
+          <name>Salatbuffet Extra, Puten- und Käsestreifen</name>
           <note>Milch</note>
           <note>Milcheiweiß</note>
-          <note>Weizen</note>
         </meal>
       </category>
       <category name="Menü 2">
@@ -138,11 +133,16 @@
           <note>Weizen</note>
         </meal>
       </category>
-      <category name="Salat Buffet">
+      <category name="Menü 1">
         <meal>
-          <name>Salatbuffet Extra, Puten- und Käsestreifen</name>
+          <name>Unpaniertes Fischfilet mit Salzkartoffeln und Senfsauce</name>
+          <note>Eier</note>
+          <note>Fisch</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Jodsalz</note>
           <note>Milch</note>
           <note>Milcheiweiß</note>
+          <note>Weizen</note>
         </meal>
       </category>
     </day>
