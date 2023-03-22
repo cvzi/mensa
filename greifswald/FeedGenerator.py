@@ -9,6 +9,7 @@ import sys
 import os
 import requests
 from bs4 import BeautifulSoup
+import bs4.element
 from datetime import date, timedelta
 
 try:
@@ -36,31 +37,27 @@ def getMealsForDay(mensa: StyledLazyBuilder, day: str, canteen: str):
     soup = BeautifulSoup(html, 'html.parser')
 
     if mensa.legendData is None:
-        for div in soup.find_all('div', {'class': 'csc-textpic-text'}):
-            if 'KENNZEICHNUNGSPFLICHTIGE ZUSATZSTOFFE' in div.text:
-                text = str(div.text).replace('KENNZEICHNUNGSPFLICHTIGE ALLERGENE:', '') \
-                    .replace('KENNZEICHNUNGSPFLICHTIGE ZUSATZSTOFFE:', '') \
-                    .replace('SONSTIGE KENNZEICHNUNGEN:', '')
-                mensa.setLegendData(
-                    text=text, regex=r'(?P<name>(\d|[a-zA-Z])+)\)\s*(?P<value>([\w/]+)((\s+\w+)*[^0-9)]))')
+        for div in soup.find_all('div', {'class': 'col-12'}):
+            for child in div.children:
+                if type(child) == bs4.element.Tag and child.text == 'Kennzeichnungspflichtige Zusatzstoffe':
+                    mensa.legendData = {}
+                    for item in div.find_all("li"):
+                        mensa.legendData[item.contents[0].text] = item.contents[1].text
 
-        if mensa.legendData:
-            for key in mensa.legendData:
-                mensa.legendData[key] = mensa.legendData[key].strip(',')
-
-    for table in soup.find_all('table', {'class': 'table module-food-table'}):
-        category = table.find('th').text.strip()
-        for tr in table.find('tbody').find_all('tr'):
-            td = tr.find('td').text.strip().split('\n')
-            meal = ''
-            price = ''
-            for string in td:
-                if '€' in string:
-                    price = string.strip().split('\xa0€')[:3]
-                elif len(string) > 1:
-                    meal += (string.strip() + ' ')
-            mensa.addMeal(day, category, meal, prices=price,
-                          roles=['student', 'employee', 'other'])
+    for table in soup.find_all('table', {'class': 'menu-table'}):
+        category = ''
+        for tr in table.find_all('tr'):
+            if 'class' in tr.attrs and "menu-table-row" in tr.attrs['class']:
+                category = tr.find("td").text.strip()
+            else:
+                meal = tr.find("td").text.strip()
+                prices = [_p.text.strip().replace("\xa0", " ")
+                          for _p in tr.find_all("td")[-3:]]
+                if '' in prices:
+                    mensa.addMeal(day, category, meal)
+                else:
+                    mensa.addMeal(day, category, meal, prices=prices, roles=[
+                                  'student', 'employee', 'other'])
     return mensa.hasMealsFor(date.fromisoformat(day))
 
 
