@@ -61,7 +61,7 @@ Traceback (most recent call last):
     self.sock = conn = self._new_conn()
   File "/opt/hostedtoolcache/Python/3.10.10/x64/lib/python3.10/site-packages/urllib3/connection.py", line 179, in _new_conn
     raise ConnectTimeoutError(
-urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPSConnection object at 0x7fec55762320>, 'Connection to www.mensen.at timed out. (connect timeout=None)')
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPSConnection object at 0x7fb6293524d0>, 'Connection to www.mensen.at timed out. (connect timeout=None)')
 
 During handling of the above exception, another exception occurred:
 
@@ -72,7 +72,7 @@ Traceback (most recent call last):
     retries = retries.increment(
   File "/opt/hostedtoolcache/Python/3.10.10/x64/lib/python3.10/site-packages/urllib3/util/retry.py", line 592, in increment
     raise MaxRetryError(_pool, url, error or ResponseError(cause))
-urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.mensen.at', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fec55762320>, 'Connection to www.mensen.at timed out. (connect timeout=None)'))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.mensen.at', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fb6293524d0>, 'Connection to www.mensen.at timed out. (connect timeout=None)'))
 
 During handling of the above exception, another exception occurred:
 
@@ -95,7 +95,7 @@ Traceback (most recent call last):
     r = adapter.send(request, **kwargs)
   File "/opt/hostedtoolcache/Python/3.10.10/x64/lib/python3.10/site-packages/requests/adapters.py", line 553, in send
     raise ConnectTimeout(e, request=request)
-requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='www.mensen.at', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fec55762320>, 'Connection to www.mensen.at timed out. (connect timeout=None)'))
+requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='www.mensen.at', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fb6293524d0>, 'Connection to www.mensen.at timed out. (connect timeout=None)'))
 
 inetmenue/antonianum:
 Traceback (most recent call last):
