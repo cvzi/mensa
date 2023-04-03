@@ -79,6 +79,8 @@ class Parser:
                 name += " " + meal[name_key % index].strip()
                 index += 1
             name = name.replace(" ,", ",").strip()
+            if not name and meal["dpname"]:
+                name = meal["dpname"].strip()
 
             notes = [zs.strip() for zs in meal["zsnamen"].split(",")]
             notes.append(meal.get("frei1", None))
@@ -151,5 +153,5 @@ class Parser:
 if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
     p = Parser("http://localhost/")
-    print(p.feed("tumensa"))
+    print(p.feed("bistro36"))
     # print(p.meta("tumensa"))
