@@ -37,7 +37,31 @@
   <body>
     <main>
       <article>Parser for <a target="_blank" href="https://openmensa.org">openmensa.org</a>. The parser runs in a <a target="_blank" title="What's a Github action?" href="https://docs.github.com/en/actions">Github action<sup>❓</sup></a> and pushes the XML feeds to this page</article>
-      <article><h3><a href="https://github.com/cvzi/mensa/actions/">🗿 Parser status</a></h3></article>
+      <article><h3><a href="https://github.com/cvzi/mensa/actions/">🗿 Parser status</a></h3>
+<pre>inetmenue/antonianum:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 145, in updateFeeds
+    content = getattr(parser, feedMethod)(
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
+    return self.feed_all(ref, get_next_week=False)
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
+    next_week_path = self.parseMeals(ref, builder, resp.text)
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 85, in parseMeals
+    raise RuntimeError("Unknown page structure")
+RuntimeError: Unknown page structure
+
+inetmenue/gymnasium-gruenwald:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 145, in updateFeeds
+    content = getattr(parser, feedMethod)(
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
+    return self.feed_all(ref, get_next_week=False)
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
+    next_week_path = self.parseMeals(ref, builder, resp.text)
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 85, in parseMeals
+    raise RuntimeError("Unknown page structure")
+RuntimeError: Unknown page structure
+</pre></article>
       <article>
 <ol style="list-style-type:none">
 <li><h3 id="eurest"><a href="https://cvzi.github.io/mensa/eurest.json">🐏 eurest.json</a></h3>
