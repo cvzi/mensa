@@ -3,44 +3,48 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2023-04-11">
+    <day date="2023-04-12">
       <category name="Tellergericht">
         <meal>
-          <name>Brötchen</name>
+          <name>3 Eierkuchen mit Blaubeerfüllung an Vanillesauce</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
-          <price role="employee">0.50</price>
-          <price role="other">0.50</price>
-          <price role="student">0.35</price>
-        </meal>
-        <meal>
-          <name>Kl. Schüssel: Vegane Reis-Tomatensuppe</name>
-          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker (Laktose)</note>
           <note>jodiertes Salz</note>
-          <price role="employee">1.60</price>
-          <price role="other">2.35</price>
-          <price role="student">0.90</price>
+          <price role="employee">3.00</price>
+          <price role="other">4.30</price>
+          <price role="student">1.80</price>
         </meal>
+      </category>
+      <category name="Komponente 2">
         <meal>
-          <name>Teller: Vegane Reis-Tomatensuppe</name>
+          <name>panierte Jagdwurstscheibe  
+ mit Tomatensoße</name>
           <note>Glutenhaltiges Getreide</note>
+          <note>Schweinefleisch</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
           <note>jodiertes Salz</note>
-          <price role="employee">2.40</price>
-          <price role="other">3.60</price>
-          <price role="student">1.50</price>
-        </meal>
-        <meal>
-          <name>Terrine: Vegane Reis-Tomatensuppe</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>jodiertes Salz</note>
-          <price role="employee">3.80</price>
-          <price role="other">5.10</price>
-          <price role="student">2.20</price>
+          <note>mit Antioxidationsmittel</note>
+          <note>mit Konservierungsstoff</note>
+          <note>mit Phosphat</note>
+          <note>mit Süßungsmittel</note>
+          <price role="employee">2.85</price>
+          <price role="other">3.70</price>
+          <price role="student">2.00</price>
         </meal>
       </category>
       <category name="Komponente 3">
         <meal>
-          <name>Hähnchenbrust in Knusperpanade (Gefl,A) 
- mit Geflügelsoße (9,Gefl,A)</name>
+          <name>Hähnchenbrust pan. (Gefl,A) 
+ mit Geflügelrahmsauce (9,Gefl,A,G,I)</name>
+          <price role="employee">3.10</price>
+          <price role="other">3.95</price>
+          <price role="student">2.25</price>
+        </meal>
+        <meal>
+          <name>Hähnchenbrust gefüllt mit Spinat und Käse (Gefl,G,A) 
+ mit Geflügelrahmsauce (9,Gefl,G,A,I)</name>
           <price role="employee">3.10</price>
           <price role="other">3.95</price>
           <price role="student">2.25</price>
@@ -49,7 +53,19 @@
       <category name="Vegetarisch oder Vegan">
         <meal>
           <name>Vegan: Kichererbsencurry  
- mit Reis</name>
+ mit Cousous</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
+          <note>jodiertes Salz</note>
+          <price role="employee">3.30</price>
+          <price role="other">4.60</price>
+          <price role="student">2.10</price>
+        </meal>
+        <meal>
+          <name>Vegan: 2 Ruccola-Süßkartoffel-Schnitten  
+ mit Soja-Sahne-Soße  und Couscous</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
           <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
           <note>jodiertes Salz</note>
           <price role="employee">3.30</price>
@@ -57,18 +73,14 @@
           <price role="student">2.10</price>
         </meal>
       </category>
-      <category name="Nudeltheke (Preis pro 100g) Bitte extra Pasta-Teller verwenden">
-        <meal>
-          <name>Hartkäse gerieben, portioniert (an der Kasse erhältlich)</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
-          <note>Milch/Milchzucker (Laktose)</note>
-          <note>mit Konservierungsstoff</note>
-          <price role="employee">0.45</price>
-          <price role="other">0.60</price>
-          <price role="student">0.30</price>
-        </meal>
-      </category>
       <category name="Beilagen">
+        <meal>
+          <name>Nudeln</name>
+          <note>Glutenhaltiges Getreide</note>
+          <price role="employee">1.00</price>
+          <price role="other">1.40</price>
+          <price role="student">0.70</price>
+        </meal>
         <meal>
           <name>Salzkartoffeln</name>
           <note>geschwefelt</note>
@@ -76,20 +88,13 @@
           <price role="other">1.40</price>
           <price role="student">0.70</price>
         </meal>
-        <meal>
-          <name>Kartoffelkroketten</name>
-          <note>Glutenhaltiges Getreide</note>
-          <price role="employee">1.30</price>
-          <price role="other">1.70</price>
-          <price role="student">1.00</price>
-        </meal>
       </category>
       <category name="Gemüse">
         <meal>
-          <name>Europagemüse   (gelbe und orange Karottenscheiben, Romanobohnen, Brokkoliröschen)</name>
-          <price role="employee">1.20</price>
-          <price role="other">1.60</price>
-          <price role="student">0.90</price>
+          <name>Blumenkohl</name>
+          <price role="employee">1.00</price>
+          <price role="other">1.40</price>
+          <price role="student">0.70</price>
         </meal>
       </category>
       <category name="Salate und Desserts">
