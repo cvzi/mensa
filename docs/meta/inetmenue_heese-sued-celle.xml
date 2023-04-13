@@ -8,12 +8,12 @@
     <city>Celle</city>
     <location latitude="52.60523669411917" longitude="10.042968211019495"/>
     <feed name="today" priority="0">
-      <schedule dayOfMonth="*" dayOfWeek="1-5" hour="10-14" retry="5 3"/>
+      <schedule dayOfMonth="*" dayOfWeek="1-5" hour="6-14" retry="5 3"/>
       <url>https://cvzi.github.io/mensa/today/inetmenue_heese-sued-celle.xml</url>
       <source>https://heese-sued-celle.inetmenue.de/fs/menu/week</source>
     </feed>
     <feed name="full" priority="1">
-      <schedule dayOfMonth="*" dayOfWeek="1-5" hour="8" minute="55" retry="60 1 1440"/>
+      <schedule dayOfMonth="*" dayOfWeek="*" hour="7,9" minute="13" retry="60 1 1440"/>
       <url>https://cvzi.github.io/mensa/feed/inetmenue_heese-sued-celle.xml</url>
       <source>https://heese-sued-celle.inetmenue.de/fs/menu/week</source>
     </feed>

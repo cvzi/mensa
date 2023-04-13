@@ -8,12 +8,12 @@
     <city>Greifswald</city>
     <location latitude="54.0825092620849" longitude="13.419506366082516"/>
     <feed name="today" priority="0">
-      <schedule dayOfMonth="*" dayOfWeek="1-5" hour="10-14" retry="5 3"/>
+      <schedule dayOfMonth="*" dayOfWeek="1-5" hour="6-14" retry="5 3"/>
       <url>https://cvzi.github.io/mensa/today/inetmenue_humboldtgymnasium.xml</url>
       <source>https://humboldtgymnasium.inetmenue.de/fs/menu/week</source>
     </feed>
     <feed name="full" priority="1">
-      <schedule dayOfMonth="*" dayOfWeek="1-5" hour="8" minute="55" retry="60 1 1440"/>
+      <schedule dayOfMonth="*" dayOfWeek="*" hour="7,9" minute="13" retry="60 1 1440"/>
       <url>https://cvzi.github.io/mensa/feed/inetmenue_humboldtgymnasium.xml</url>
       <source>https://humboldtgymnasium.inetmenue.de/fs/menu/week</source>
     </feed>

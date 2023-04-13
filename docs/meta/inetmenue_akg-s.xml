@@ -8,12 +8,12 @@
     <city>Schwabach</city>
     <location latitude="49.32672" longitude="11.01888"/>
     <feed name="today" priority="0">
-      <schedule dayOfMonth="*" dayOfWeek="1-5" hour="10-14" retry="5 3"/>
+      <schedule dayOfMonth="*" dayOfWeek="1-5" hour="6-14" retry="5 3"/>
       <url>https://cvzi.github.io/mensa/today/inetmenue_akg-s.xml</url>
       <source>https://akg-s.inetmenue.de/fs/menu/week</source>
     </feed>
     <feed name="full" priority="1">
-      <schedule dayOfMonth="*" dayOfWeek="1-5" hour="8" minute="55" retry="60 1 1440"/>
+      <schedule dayOfMonth="*" dayOfWeek="*" hour="7,9" minute="13" retry="60 1 1440"/>
       <url>https://cvzi.github.io/mensa/feed/inetmenue_akg-s.xml</url>
       <source>https://akg-s.inetmenue.de/fs/menu/week</source>
     </feed>

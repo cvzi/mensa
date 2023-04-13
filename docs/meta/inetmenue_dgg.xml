@@ -8,12 +8,12 @@
     <city>Glückstadt</city>
     <location latitude="53.79206809119464" longitude="9.43349878938644"/>
     <feed name="today" priority="0">
-      <schedule dayOfMonth="*" dayOfWeek="1-5" hour="10-14" retry="5 3"/>
+      <schedule dayOfMonth="*" dayOfWeek="1-5" hour="6-14" retry="5 3"/>
       <url>https://cvzi.github.io/mensa/today/inetmenue_dgg.xml</url>
       <source>https://dgg.inetmenue.de/sf/index.php</source>
     </feed>
     <feed name="full" priority="1">
-      <schedule dayOfMonth="*" dayOfWeek="1-5" hour="8" minute="55" retry="60 1 1440"/>
+      <schedule dayOfMonth="*" dayOfWeek="*" hour="7,9" minute="13" retry="60 1 1440"/>
       <url>https://cvzi.github.io/mensa/feed/inetmenue_dgg.xml</url>
       <source>https://dgg.inetmenue.de/sf/index.php</source>
     </feed>

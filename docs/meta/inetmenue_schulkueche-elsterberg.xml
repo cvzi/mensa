@@ -8,12 +8,12 @@
     <city>Elsterberg</city>
     <location latitude="50.60795195497653" longitude="12.16699167383315"/>
     <feed name="today" priority="0">
-      <schedule dayOfMonth="*" dayOfWeek="1-5" hour="10-14" retry="5 3"/>
+      <schedule dayOfMonth="*" dayOfWeek="1-5" hour="6-14" retry="5 3"/>
       <url>https://cvzi.github.io/mensa/today/inetmenue_schulkueche-elsterberg.xml</url>
       <source>https://schulkueche-elsterberg.inetmenue.de/fs/menu/week</source>
     </feed>
     <feed name="full" priority="1">
-      <schedule dayOfMonth="*" dayOfWeek="1-5" hour="8" minute="55" retry="60 1 1440"/>
+      <schedule dayOfMonth="*" dayOfWeek="*" hour="7,9" minute="13" retry="60 1 1440"/>
       <url>https://cvzi.github.io/mensa/feed/inetmenue_schulkueche-elsterberg.xml</url>
       <source>https://schulkueche-elsterberg.inetmenue.de/fs/menu/week</source>
     </feed>

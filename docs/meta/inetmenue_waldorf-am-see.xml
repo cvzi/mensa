@@ -8,12 +8,12 @@
     <city>Überlingen</city>
     <location latitude="47.7725364676803" longitude="9.199414667095608"/>
     <feed name="today" priority="0">
-      <schedule dayOfMonth="*" dayOfWeek="1-5" hour="10-14" retry="5 3"/>
+      <schedule dayOfMonth="*" dayOfWeek="1-5" hour="6-14" retry="5 3"/>
       <url>https://cvzi.github.io/mensa/today/inetmenue_waldorf-am-see.xml</url>
       <source>https://waldorf-am-see.inetmenue.de/fs/menu/week</source>
     </feed>
     <feed name="full" priority="1">
-      <schedule dayOfMonth="*" dayOfWeek="1-5" hour="8" minute="55" retry="60 1 1440"/>
+      <schedule dayOfMonth="*" dayOfWeek="*" hour="7,9" minute="13" retry="60 1 1440"/>
       <url>https://cvzi.github.io/mensa/feed/inetmenue_waldorf-am-see.xml</url>
       <source>https://waldorf-am-see.inetmenue.de/fs/menu/week</source>
     </feed>
