@@ -3,61 +3,64 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2023-04-24">
-      <category name="Komponente 2">
+    <day date="2023-04-25">
+      <category name="Tellergericht">
         <meal>
-          <name>Bratwurst  
- dazu ein warmer Currydip</name>
-          <note>Schweinefleisch</note>
-          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
-          <note>Senf und daraus hergestellte Erzeugnisse</note>
-          <note>mit Phosphat</note>
-          <note>mit Süßungsmittel</note>
-          <price role="employee">2.85</price>
-          <price role="other">3.70</price>
-          <price role="student">2.00</price>
-        </meal>
-      </category>
-      <category name="Komponente 3 pro Portion oder nach Gewicht (pro 100g)">
-        <meal>
-          <name>Pastateller: Spirelli  
- mit Geflügel-Wurstgulasch (2,3,7,Gefl)</name>
-          <note>Glutenhaltiges Getreide</note>
-          <price role="employee">0.96</price>
-          <price role="other">1.26</price>
-          <price role="student">0.66</price>
-        </meal>
-      </category>
-      <category name="Vegetarisch oder vegan">
-        <meal>
-          <name>2 gekochte Eier in süß-saurer Soße  
- dazu Rote Bete  und Kartoffeln</name>
+          <name>Mit Heidelbeeren gefüllter Germknödel  
+ dazu Vanillesoße</name>
           <note>Eier und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
-          <note>Senf und daraus hergestellte Erzeugnisse</note>
+          <note>Milch/Milchzucker (Laktose)</note>
           <note>mit Farbstoff</note>
-          <note>mit Süßungsmittel</note>
+          <price role="employee">3.00</price>
+          <price role="other">4.30</price>
+          <price role="student">1.80</price>
+        </meal>
+      </category>
+      <category name="Komponente 2 - vegan">
+        <meal>
+          <name>Vegan: 6 Plant-Based Nuggets [aus Gemüse und Jackfrucht]  
+ mit süßem Chili-Dip</name>
+          <note>Glutenhaltiges Getreide</note>
+          <price role="employee">3.10</price>
+          <price role="other">3.95</price>
+          <price role="student">2.25</price>
+        </meal>
+      </category>
+      <category name="Komponente 3">
+        <meal>
+          <name>Hähnchen süß-sauer (9,Gefl)</name>
+          <price role="employee">3.10</price>
+          <price role="other">3.95</price>
+          <price role="student">2.25</price>
+        </meal>
+      </category>
+      <category name="Vegetarische Kost">
+        <meal>
+          <name>Tellerrösti mit Tomate und Mozzarella überbacken  
+ dazu ein Joghurt-Dip mit Gurke und Knoblauch</name>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <note>mit Farbstoff</note>
           <price role="employee">3.30</price>
           <price role="other">4.60</price>
           <price role="student">2.10</price>
         </meal>
+      </category>
+      <category name="Mensa Vital">
         <meal>
-          <name>Eieromelett Spinat-Mozzarella  
- dazu Sahnesoße  und Gemüsebulgur</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <name>Kürbisgemüse mit gebratenem Seelachs und Basmatireis</name>
+          <note>Fische und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
-          <note>Milch/Milchzucker (Laktose)</note>
           <note>Sellerie und daraus hergestellte Erzeugnisse</note>
-          <price role="employee">4.40</price>
-          <price role="other">5.70</price>
-          <price role="student">2.20</price>
+          <price role="employee">4.60</price>
+          <price role="other">5.90</price>
+          <price role="student">3.30</price>
         </meal>
       </category>
       <category name="Mittagsgericht Cafeteria Klinikum (zzgl. 5€ ReBowl-Pfand)">
         <meal>
-          <name>Geflügel-Wurstgulasch (2,3,7,Gefl) 
- mit Spirelli</name>
-          <note>Glutenhaltiges Getreide</note>
+          <name>Hähnchen süß-sauer (9,Gefl) 
+ mit Basmatireis</name>
           <price role="employee">4.10</price>
           <price role="other">5.35</price>
           <price role="student">2.95</price>
@@ -74,36 +77,19 @@
           <price role="student">0.30</price>
         </meal>
         <meal>
-          <name>Mehrkornbrötchen</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Sesamsamen und daraus hergestellte Erzeugnisse</note>
-          <price role="employee">0.55</price>
-          <price role="other">0.55</price>
-          <price role="student">0.40</price>
-        </meal>
-        <meal>
-          <name>Spiralnudeln</name>
-          <note>Glutenhaltiges Getreide</note>
-          <price role="employee">1.00</price>
-          <price role="other">1.40</price>
-          <price role="student">0.70</price>
-        </meal>
-        <meal>
           <name>Kartoffeln</name>
           <price role="employee">1.00</price>
           <price role="other">1.40</price>
           <price role="student">0.70</price>
         </meal>
         <meal>
-          <name>Kartoffelpüree [vegan]</name>
-          <note>mit Antioxidationsmittel</note>
+          <name>Basmatireis</name>
           <price role="employee">1.00</price>
           <price role="other">1.40</price>
           <price role="student">0.70</price>
         </meal>
         <meal>
-          <name>Gemüsebulgur</name>
-          <note>Glutenhaltiges Getreide</note>
+          <name>Bratkartoffeln</name>
           <price role="employee">1.30</price>
           <price role="other">1.70</price>
           <price role="student">1.00</price>
@@ -111,7 +97,13 @@
       </category>
       <category name="Gemüse">
         <meal>
-          <name>Bayrisch Kraut</name>
+          <name>Möhrenmix Rainbow Carrots</name>
+          <price role="employee">1.00</price>
+          <price role="other">1.40</price>
+          <price role="student">0.70</price>
+        </meal>
+        <meal>
+          <name>Extra: Bayrisch Kraut</name>
           <note>Glutenhaltiges Getreide</note>
           <note>Schweinefleisch</note>
           <note>mit Antioxidationsmittel</note>
@@ -121,20 +113,13 @@
           <price role="student">0.70</price>
         </meal>
         <meal>
-          <name>Rote Bete</name>
-          <note>mit Süßungsmittel</note>
-          <price role="employee">1.00</price>
-          <price role="other">1.40</price>
-          <price role="student">0.70</price>
+          <name>Europagemüse [gelbe und orange Karottenscheiben, Romanobohnen, Brokkoliröschen]</name>
+          <price role="employee">1.20</price>
+          <price role="other">1.60</price>
+          <price role="student">0.90</price>
         </meal>
         <meal>
-          <name>Blumenkohl</name>
-          <price role="employee">1.00</price>
-          <price role="other">1.40</price>
-          <price role="student">0.70</price>
-        </meal>
-        <meal>
-          <name>Romanesco</name>
+          <name>Extra: Romanesco</name>
           <price role="employee">1.20</price>
           <price role="other">1.60</price>
           <price role="student">0.90</price>
