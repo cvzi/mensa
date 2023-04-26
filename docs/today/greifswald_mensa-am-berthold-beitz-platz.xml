@@ -3,60 +3,92 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2023-04-25">
-      <category name="Tellergericht">
+    <day date="2023-04-26">
+      <category name="Tellergericht spezial vegan">
         <meal>
-          <name>Mit Heidelbeeren gefüllter Germknödel  
- dazu Vanillesoße</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Milch/Milchzucker (Laktose)</note>
+          <name>Kl. Schüssel: Vegane Süßkartoffelsuppe mit Curry-Kokos-Mango</name>
           <note>mit Farbstoff</note>
-          <price role="employee">3.00</price>
-          <price role="other">4.30</price>
-          <price role="student">1.80</price>
+          <price role="employee">2.10</price>
+          <price role="other">2.85</price>
+          <price role="student">1.40</price>
+        </meal>
+        <meal>
+          <name>Teller: Vegane Süßkartoffelsuppe mit Curry-Kokos-Mango</name>
+          <note>mit Farbstoff</note>
+          <price role="employee">3.40</price>
+          <price role="other">4.60</price>
+          <price role="student">2.50</price>
+        </meal>
+        <meal>
+          <name>Terrine: Vegane Süßkartoffelsuppe mit Curry-Kokos-Mango</name>
+          <note>mit Farbstoff</note>
+          <price role="employee">5.40</price>
+          <price role="other">6.60</price>
+          <price role="student">4.50</price>
         </meal>
       </category>
       <category name="Komponente 3">
         <meal>
-          <name>Hähnchen süß-sauer (9,Gefl)</name>
+          <name>Paniertes Putensteak (Gefl,A) 
+ dazu eine Geflügelsoße</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <note>jodiertes Salz</note>
           <price role="employee">3.10</price>
           <price role="other">3.95</price>
           <price role="student">2.25</price>
         </meal>
       </category>
-      <category name="Vegetarische Kost">
+      <category name="Vegetarisch oder vegan">
         <meal>
-          <name>2 gekochte Eier in süß-saurer Soße  
- dazu Rote Bete  und Kartoffeln</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <name>Tortellinis mit Käse gefüllt  
+ dazu eine Gemüsefrischkäsesoße</name>
           <note>Glutenhaltiges Getreide</note>
-          <note>Senf und daraus hergestellte Erzeugnisse</note>
-          <note>mit Farbstoff</note>
-          <note>mit Süßungsmittel</note>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <price role="employee">3.30</price>
+          <price role="other">4.60</price>
+          <price role="student">2.10</price>
+        </meal>
+        <meal>
+          <name>Vegan: Tortelloni mit Gemüsefüllung  
+ und Kräuter-Tomatensoße</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>jodiertes Salz</note>
           <price role="employee">3.30</price>
           <price role="other">4.60</price>
           <price role="student">2.10</price>
         </meal>
       </category>
-      <category name="Mensa Vital">
-        <meal>
-          <name>Kürbisgemüse mit gebratenem Seelachs und Basmatireis</name>
-          <note>Fische und daraus hergestellte Erzeugnisse</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
-          <price role="employee">4.60</price>
-          <price role="other">5.90</price>
-          <price role="student">3.30</price>
-        </meal>
-      </category>
       <category name="Mittagsgericht Cafeteria Klinikum (zzgl. 5€ ReBowl-Pfand)">
         <meal>
-          <name>Hähnchen süß-sauer (9,Gefl) 
- mit Basmatireis</name>
-          <price role="employee">4.10</price>
-          <price role="other">5.35</price>
-          <price role="student">2.95</price>
+          <name>Gabelspaghetti  
+ mit Bolognesesoße</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Rindfleisch</note>
+          <price role="employee">3.60</price>
+          <price role="other">4.90</price>
+          <price role="student">2.40</price>
+        </meal>
+      </category>
+      <category name="Pasta pro Portion oder nach Gewicht (pro 100g)">
+        <meal>
+          <name>Pastateller: Gabelspaghetti  
+ mit Bolognesesoße</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Rindfleisch</note>
+          <price role="employee">0.90</price>
+          <price role="other">1.20</price>
+          <price role="student">0.60</price>
+        </meal>
+        <meal>
+          <name>Gabelspaghetti  
+ mit Bolognesesoße</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Rindfleisch</note>
+          <price role="employee">3.60</price>
+          <price role="other">4.90</price>
+          <price role="student">2.40</price>
         </meal>
       </category>
       <category name="Beilagen">
@@ -70,27 +102,52 @@
           <price role="student">0.30</price>
         </meal>
         <meal>
+          <name>Schrippe</name>
+          <note>Glutenhaltiges Getreide</note>
+          <price role="employee">0.50</price>
+          <price role="other">0.50</price>
+          <price role="student">0.35</price>
+        </meal>
+        <meal>
+          <name>Mehrkornbrötchen</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Sesamsamen und daraus hergestellte Erzeugnisse</note>
+          <price role="employee">0.55</price>
+          <price role="other">0.55</price>
+          <price role="student">0.40</price>
+        </meal>
+        <meal>
           <name>Kartoffeln</name>
           <price role="employee">1.00</price>
           <price role="other">1.40</price>
           <price role="student">0.70</price>
         </meal>
         <meal>
-          <name>Basmatireis</name>
-          <price role="employee">1.00</price>
-          <price role="other">1.40</price>
-          <price role="student">0.70</price>
+          <name>8 Kartoffelkroketten</name>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <price role="employee">1.30</price>
+          <price role="other">1.70</price>
+          <price role="student">1.00</price>
         </meal>
       </category>
       <category name="Gemüse">
         <meal>
-          <name>Möhrenmix Rainbow Carrots</name>
+          <name>Frühlingsgemüse [Karotten, Erbsen, grüne Bohnen, Blumenkohl, Kohlrabi]</name>
           <price role="employee">1.00</price>
           <price role="other">1.40</price>
           <price role="student">0.70</price>
         </meal>
         <meal>
-          <name>Europagemüse [gelbe und orange Karottenscheiben, Romanobohnen, Brokkoliröschen]</name>
+          <name>Brokkoli</name>
+          <price role="employee">1.20</price>
+          <price role="other">1.60</price>
+          <price role="student">0.90</price>
+        </meal>
+        <meal>
+          <name>Blumenkohl mit Käse überbacken</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
           <price role="employee">1.20</price>
           <price role="other">1.60</price>
           <price role="student">0.90</price>
