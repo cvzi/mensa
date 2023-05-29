@@ -3,32 +3,72 @@
 <?xml-stylesheet type="text/css" href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css"?>
 <openmensa xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2023-05-29">
-      <category name="Suppe Vegan WIRTUAL">
+    <day date="2023-05-22">
+      <category name="fresh@home - International">
         <meal>
-          <name>Klare Gemüsesuppe • 
-Rollgerste • Petersile</name>
+          <name>Oriental Burger • Lammkeule • 
+Salat • Hummus • Babaganoush •
+Tomate • Zitronenerdäpfel
+
+Allergene A • G • L • N</name>
           <note>Glutenhaltiges Getreide (A)</note>
+          <note>Milch oder Laktose (G)</note>
           <note>Sellerie (L)</note>
+          <note>Sesam (N)</note>
+          <note>Sulfite (O)</note>
         </meal>
       </category>
-      <category name="Frisch am Tisch - 1 Fleisch">
+      <category name="fresh@home - Pasta">
         <meal>
-          <name>Gratiniertes Putenfilet • 
-Mozzarella-Tomate-Basilikum • 
-Tomaten-Zitronensauce • Rosmarinreis
+          <name>Ravioli mit Spargelfülle • leichte Weissweinsauce •
+grüne &amp; weiße Spargelspitzen • Wiesenkräuter • Grana
 
-Allergen G
+Allergene A • G • O
 </name>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+      </category>
+      <category name="fresh@home - Pizza">
+        <meal>
+          <name>Pizza • 
+Sardinen • Zucchini • 
+Zitronen-Kräuterpesto
+
+Allergene A • D • G</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
+          <note>Fisch (D)</note>
           <note>Milch oder Laktose (G)</note>
         </meal>
       </category>
-      <category name="Frisch am Tisch - 2 Vegetarisch">
+      <category name="Suppe Vegan WIRTUAL">
         <meal>
-          <name>Überbackene Pilzfleckerl •
-Kräutersauce
+          <name>Jungzwiebelcremesuppe 
+Walnüsse • Erbsen
+
+Allergene H • L
+</name>
+          <note>Schalenfrüchte (H)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+      </category>
+      <category name="fresh@home - Traditonell">
+        <meal>
+          <name>Beiried • Pfeffersauce • 
+Broccoli • Braterdäpfel
+
+Allergene G • L • O</name>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+      </category>
+      <category name="fresh@home - Vegetarisch/Vegan">
+        <meal>
+          <name>Eiernockerl • 
+Schnittlauch • Röstzwiebel 
 
 Allergene A • C • G</name>
           <note>Glutenhaltiges Getreide (A)</note>
@@ -36,35 +76,59 @@ Allergene A • C • G</name>
           <note>Milch oder Laktose (G)</note>
         </meal>
       </category>
-      <category name="Frisch am Tisch - 3 Vegan">
+      <category name="Frisch am Tisch - 1 Fleisch">
         <meal>
-          <name>Biryanireis • 
-Süßkartoffel-Melanzaniragout
+          <name>Steirisches Wurzelfleisch •
+frisch geriebener Kren • 
+Kümmel Erdäpfel
 
-keine Hauptallergene
+Allergene G • L • O
+
 </name>
-          <note>Glutenhaltiges Getreide (A)</note>
           <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
           <note>Sulfite (O)</note>
         </meal>
       </category>
-      <category name="Beilagensalat WIRTUAL">
+      <category name="Frisch am Tisch - 2 Vegetarisch">
         <meal>
-          <name>Beilagensalat • 
-(Mais, Gurke, Linsen, Radicchio)
+          <name>Überbackene Cannelloni 
+Schafkäse-Basilikumfülle • 
+Zucchinisauce • Pinienkerne
 
-Allergene C • G • M
+Allergene A • G
+
 </name>
-          <note>Ei (C)</note>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Milch oder Laktose (G)</note>
+        </meal>
+      </category>
+      <category name="Frisch am Tisch - 3 Vegan">
+        <meal>
+          <name>Gemüse-Süßkartoffelchili • 
+gebratener Reis
+
+Allergen F
+</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
           <note>Milch oder Laktose (G)</note>
           <note>Senf (M)</note>
         </meal>
       </category>
+      <category name="Beilagensalat WIRTUAL">
+        <meal>
+          <name>Beilagensalat •
+(Weißkraut, Karotte, Rote Bohnen, Rucola)
+
+keine Hauptallergene
+</name>
+          <note>Sulfite (O)</note>
+        </meal>
+      </category>
       <category name="Dessert WIRTUAL">
         <meal>
-          <name>Nussobersschnitte
-
-Allergene A • C • F • G • H</name>
+          <name>Mango - Himbeerschnitte</name>
         </meal>
       </category>
       <category name="C&amp;F Früchtebecher WIRTUAL">
@@ -78,63 +142,82 @@ Allergene A • C • F • G • H</name>
           <note>Sulfite (O)</note>
         </meal>
       </category>
+      <category name="f@h Torte">
+        <meal>
+          <name>Trüffeltorte • Ø 16 cm</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Soja (F)</note>
+          <note>Milch oder Laktose (G)</note>
+        </meal>
+      </category>
     </day>
-    <day date="2023-05-30">
+    <day date="2023-05-23">
       <category name="fresh@home - International">
         <meal>
-          <name>"Nua prik thai nahm jim" 
-Thailändischer Rindfleischspieß •
-Jasminreis • Mango-Ananas-Papaya Salat
+          <name>Oriental Burger • Lammkeule • 
+Salat • Hummus • Babaganoush •
+Tomate • Zitronenerdäpfel
 
-Allergene A • E • F • L • N • O
-</name>
+Allergene A • G • L • N</name>
           <note>Glutenhaltiges Getreide (A)</note>
-          <note>Erdnuss (E)</note>
-          <note>Soja (F)</note>
+          <note>Milch oder Laktose (G)</note>
           <note>Sellerie (L)</note>
-          <note>Senf (M)</note>
           <note>Sesam (N)</note>
           <note>Sulfite (O)</note>
         </meal>
       </category>
       <category name="fresh@home - Pasta">
         <meal>
-          <name>Pappardelle • Fenchel • 
-Radieschen • leichte Dillsauce • 
-Kapernbeeren
+          <name>Ravioli mit Spargelfülle • leichte Weissweinsauce •
+grüne &amp; weiße Spargelspitzen • Wiesenkräuter • Grana
 
-Allergene A • L
+Allergene A • G • O
 </name>
-          <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
-          <note>Soja (F)</note>
-          <note>Sellerie (L)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sulfite (O)</note>
         </meal>
       </category>
       <category name="fresh@home - Pizza">
         <meal>
-          <name>Calzone • Grillpaprika •
-Räucherlachs • Basilikum • 
-Käse • Tomaten
+          <name>Pizza • 
+Sardinen • Zucchini • 
+Zitronen-Kräuterpesto
 
 Allergene A • D • G</name>
           <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
           <note>Fisch (D)</note>
           <note>Milch oder Laktose (G)</note>
         </meal>
       </category>
       <category name="Suppe Vegan WIRTUAL">
         <meal>
-          <name>Vietnamesische Reissuppe • Kokosnussmilch</name>
-          <note>Erdnuss (E)</note>
+          <name>Kohlrabi - Apfel Cremesuppe • 
+geröstetes Pumpernickel
+
+Allergene A • L
+</name>
+          <note>Glutenhaltiges Getreide (A)</note>
           <note>Sellerie (L)</note>
-          <note>Sulfite (O)</note>
         </meal>
       </category>
       <category name="fresh@home - Traditonell">
         <meal>
-          <name>Pariser Schnitzel vom Kalb • 
-Spargelreis • Zitrone
+          <name>Beiried • Pfeffersauce • 
+Broccoli • Braterdäpfel
+
+Allergene G • L • O</name>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+      </category>
+      <category name="fresh@home - Vegetarisch/Vegan">
+        <meal>
+          <name>Eiernockerl • 
+Schnittlauch • Röstzwiebel 
 
 Allergene A • C • G</name>
           <note>Glutenhaltiges Getreide (A)</note>
@@ -142,64 +225,59 @@ Allergene A • C • G</name>
           <note>Milch oder Laktose (G)</note>
         </meal>
       </category>
-      <category name="fresh@home - Vegetarisch/Vegan">
-        <meal>
-          <name>Linsenbällchen •
-Frühlingssalat •
-Aroniabeerendressing
-
-Allergen O</name>
-          <note>Senf (M)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-      </category>
       <category name="Frisch am Tisch - 1 Fleisch">
         <meal>
-          <name>Gegrilltes Schweinsschopfsteak •
-Schwammerlsauce •
-kleine Semmelknödel
+          <name>Fiakergulasch • 
+Gurkerl • Ei • Putenwürstel • 
+Salzerdäpfel
 
-Allergene A • C • G • L • O
+Allergene C • M • O
 </name>
-          <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Sellerie (L)</note>
+          <note>Senf (M)</note>
           <note>Sulfite (O)</note>
         </meal>
       </category>
       <category name="Frisch am Tisch - 2 Vegetarisch">
         <meal>
-          <name>"Polenta al Dolcelatte" •
-Provencal Gemüse
+          <name>Ravioli mit Selchkäse &amp; Erbsen • 
+Sugo di lenticcie • Babymozzarella • 
+Cherrytomaten • Grana
 
-Allergen G</name>
+Allergene A • G • L • O
+</name>
+          <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
           <note>Soja (F)</note>
           <note>Milch oder Laktose (G)</note>
+          <note>Schalenfrüchte (H)</note>
+          <note>Sellerie (L)</note>
+          <note>Sesam (N)</note>
+          <note>Sulfite (O)</note>
         </meal>
       </category>
       <category name="Frisch am Tisch - 3 Vegan">
         <meal>
-          <name>"Butter Turka Dal"
-Rotes Linsen Dal • Cashewnüsse •
-Safrantomaten • Oliven • 
-Basmatireis
+          <name>Spaghetti • 
+leichte Kräutersauce •
+Fleischtomaten • grüne Spargelspitzen
 
-Allergene H • L
-
+Allergene A • L
 </name>
-          <note>Schalenfrüchte (H)</note>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
           <note>Sellerie (L)</note>
         </meal>
       </category>
       <category name="Beilagensalat WIRTUAL">
         <meal>
-          <name>Beilagensalat •
-(Kartoffelsalat, Weiße Bohnen, Rotkraut, Eisberg)
+          <name>Beilagensalat • 
+(Mais, Gurke, Linsen, Radicchio)
 
-keine Hauptallergene
+Allergene C • G • M
 </name>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
           <note>Senf (M)</note>
         </meal>
       </category>
@@ -232,98 +310,25 @@ blaue Trauben</name>
         </meal>
       </category>
     </day>
-    <day date="2023-05-31">
+    <day date="2023-05-24">
       <category name="fresh@home - International">
         <meal>
-          <name>"Nua prik thai nahm jim" 
-Thailändischer Rindfleischspieß •
-Jasminreis • Mango-Ananas-Papaya Salat
+          <name>Oriental Burger • Lammkeule • 
+Salat • Hummus • Babaganoush •
+Tomate • Zitronenerdäpfel
 
-Allergene A • E • F • L • N • O
-</name>
+Allergene A • G • L • N</name>
           <note>Glutenhaltiges Getreide (A)</note>
-          <note>Erdnuss (E)</note>
-          <note>Soja (F)</note>
+          <note>Milch oder Laktose (G)</note>
           <note>Sellerie (L)</note>
-          <note>Senf (M)</note>
           <note>Sesam (N)</note>
           <note>Sulfite (O)</note>
         </meal>
       </category>
       <category name="fresh@home - Pasta">
         <meal>
-          <name>Pappardelle • Fenchel • 
-Radieschen • leichte Dillsauce • 
-Kapernbeeren
-
-Allergene A • L
-</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Soja (F)</note>
-          <note>Sellerie (L)</note>
-        </meal>
-      </category>
-      <category name="fresh@home - Pizza">
-        <meal>
-          <name>Calzone • Grillpaprika •
-Räucherlachs • Basilikum • 
-Käse • Tomaten
-
-Allergene A • D • G</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Fisch (D)</note>
-          <note>Milch oder Laktose (G)</note>
-        </meal>
-      </category>
-      <category name="Suppe Vegan WIRTUAL">
-        <meal>
-          <name>Bohnen - Lauchsuppe • 
-Salbei Croutons</name>
-          <note>Sellerie (L)</note>
-        </meal>
-      </category>
-      <category name="fresh@home - Traditonell">
-        <meal>
-          <name>Pariser Schnitzel vom Kalb • 
-Spargelreis • Zitrone
-
-Allergene A • C • G</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Milch oder Laktose (G)</note>
-        </meal>
-      </category>
-      <category name="fresh@home - Vegetarisch/Vegan">
-        <meal>
-          <name>Linsenbällchen •
-Frühlingssalat •
-Aroniabeerendressing
-
-Allergen O</name>
-          <note>Senf (M)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-      </category>
-      <category name="Frisch am Tisch - 1 Fleisch">
-        <meal>
-          <name>Gebackenes Hühnerschnitzel • 
-Petersilienerdäpfel
-
-Allergene A • C • G
-</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Soja (F)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Sesam (N)</note>
-        </meal>
-      </category>
-      <category name="Frisch am Tisch - 2 Vegetarisch">
-        <meal>
-          <name>Tomaten-Gnocchi • gebratene Zucchiniwürfel •
-Babymozzarella • Balsamicoschalotten •
-Oliven-Kräuteröl
+          <name>Ravioli mit Spargelfülle • leichte Weissweinsauce •
+grüne &amp; weiße Spargelspitzen • Wiesenkräuter • Grana
 
 Allergene A • G • O
 </name>
@@ -332,118 +337,46 @@ Allergene A • G • O
           <note>Sulfite (O)</note>
         </meal>
       </category>
-      <category name="Frisch am Tisch - 3 Vegan">
-        <meal>
-          <name>Veganer Kaiserschmarren • 
-Zwetschkenröster
-
-Allergene A • H • P
-</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Soja (F)</note>
-          <note>Schalenfrüchte (H)</note>
-          <note>Lupinen (P)</note>
-        </meal>
-      </category>
-      <category name="Beilagensalat WIRTUAL">
-        <meal>
-          <name>Beilagensalat •
-(Fisolensalat, Rote Rüben, Schwarzwurzel, Chinakohl)
-
-Allergene C • G • M • O
-</name>
-          <note>Ei (C)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Senf (M)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-      </category>
-      <category name="Dessert WIRTUAL">
-        <meal>
-          <name>Zwetschkenkuchen mit Streusel
-
-Allergene A • C
-</name>
-        </meal>
-      </category>
-      <category name="C&amp;F Früchtebecher WIRTUAL">
-        <meal>
-          <name>Früchtebecher 
-Honigmelone</name>
-        </meal>
-      </category>
-      <category name="Obst in KG">
-        <meal>
-          <name>Obst der Saison</name>
-          <note>Sulfite (O)</note>
-        </meal>
-      </category>
-      <category name="f@h Torte">
-        <meal>
-          <name>Trüffeltorte • Ø 16 cm</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Soja (F)</note>
-          <note>Milch oder Laktose (G)</note>
-        </meal>
-      </category>
-    </day>
-    <day date="2023-06-01">
-      <category name="fresh@home - International">
-        <meal>
-          <name>"Nua prik thai nahm jim" 
-Thailändischer Rindfleischspieß •
-Jasminreis • Mango-Ananas-Papaya Salat
-
-Allergene A • E • F • L • N • O
-</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Erdnuss (E)</note>
-          <note>Soja (F)</note>
-          <note>Sellerie (L)</note>
-          <note>Senf (M)</note>
-          <note>Sesam (N)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-      </category>
-      <category name="fresh@home - Pasta">
-        <meal>
-          <name>Pappardelle • Fenchel • 
-Radieschen • leichte Dillsauce • 
-Kapernbeeren
-
-Allergene A • L
-</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Soja (F)</note>
-          <note>Sellerie (L)</note>
-        </meal>
-      </category>
       <category name="fresh@home - Pizza">
         <meal>
-          <name>Calzone • Grillpaprika •
-Räucherlachs • Basilikum • 
-Käse • Tomaten
+          <name>Pizza • 
+Sardinen • Zucchini • 
+Zitronen-Kräuterpesto
 
 Allergene A • D • G</name>
           <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
           <note>Fisch (D)</note>
           <note>Milch oder Laktose (G)</note>
         </meal>
       </category>
       <category name="Suppe Vegan WIRTUAL">
         <meal>
-          <name>Bäuerliche Gerstlsuppe • 
-Saisongemüse</name>
+          <name>Rote Linsensuppe • 
+Kreuzkümmel • Zitrone
+
+Allergen L
+</name>
           <note>Glutenhaltiges Getreide (A)</note>
+          <note>Milch oder Laktose (G)</note>
           <note>Sellerie (L)</note>
         </meal>
       </category>
       <category name="fresh@home - Traditonell">
         <meal>
-          <name>Pariser Schnitzel vom Kalb • 
-Spargelreis • Zitrone
+          <name>Beiried • Pfeffersauce • 
+Broccoli • Braterdäpfel
+
+Allergene G • L • O</name>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+      </category>
+      <category name="fresh@home - Vegetarisch/Vegan">
+        <meal>
+          <name>Eiernockerl • 
+Schnittlauch • Röstzwiebel 
 
 Allergene A • C • G</name>
           <note>Glutenhaltiges Getreide (A)</note>
@@ -451,65 +384,63 @@ Allergene A • C • G</name>
           <note>Milch oder Laktose (G)</note>
         </meal>
       </category>
-      <category name="fresh@home - Vegetarisch/Vegan">
-        <meal>
-          <name>Linsenbällchen •
-Frühlingssalat •
-Aroniabeerendressing
-
-Allergen O</name>
-          <note>Senf (M)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-      </category>
       <category name="Frisch am Tisch - 1 Fleisch">
         <meal>
-          <name>Gratinierte Cannelloni mit Rindfleischfülle •
-Tomatensauce
+          <name>Cordon Bleu vom Schwein • Salami • Pfefferoni •
+Bergkäse • Petersilienerdäpfel
 
-Allergene A • G • L</name>
+Allergene A • C • G
+
+</name>
           <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Soja (F)</note>
           <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+          <note>Senf (M)</note>
+          <note>Sesam (N)</note>
         </meal>
       </category>
       <category name="Frisch am Tisch - 2 Vegetarisch">
         <meal>
-          <name>"Patatas Bravas" • 
-Schafkäse • Oliven • 
-Rote Mojo
+          <name>Tullnerfelder BIO Spargel •
+Butterbrösel • 
+Petersilienerdäpfel
 
-Allergene G • O</name>
+Allergene A • G
+
+</name>
           <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
           <note>Milch oder Laktose (G)</note>
-          <note>Sulfite (O)</note>
+          <note>Sesam (N)</note>
         </meal>
       </category>
       <category name="Frisch am Tisch - 3 Vegan">
         <meal>
-          <name>Planted "Chicken" Tajine •
-Pflaumen &amp; Mandeln • Berberitzenreis
+          <name>Smokey Schwarzaugenbohneneintopf • 
+Basmatireis
 
-Allergen H</name>
-          <note>Soja (F)</note>
-          <note>Schalenfrüchte (H)</note>
+Allergen L
+</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
         </meal>
       </category>
       <category name="Beilagensalat WIRTUAL">
         <meal>
           <name>Beilagensalat •
-(Weißkraut, Karotte, Rote Bohnen, Rucola)
+(Kartoffelsalat, Weiße Bohnen, Rotkraut, Eisberg)
 
 keine Hauptallergene
 </name>
-          <note>Sulfite (O)</note>
+          <note>Senf (M)</note>
         </meal>
       </category>
       <category name="Dessert WIRTUAL">
         <meal>
-          <name>Bananenobersschnitte
-
-Allergene A • C • G
-</name>
+          <name>Mandelobersschnitte</name>
         </meal>
       </category>
       <category name="C&amp;F Früchtebecher WIRTUAL">
@@ -534,137 +465,136 @@ Erdbeeren</name>
         </meal>
       </category>
     </day>
-    <day date="2023-06-02">
+    <day date="2023-05-25">
       <category name="fresh@home - International">
         <meal>
-          <name>"Nua prik thai nahm jim" 
-Thailändischer Rindfleischspieß •
-Jasminreis • Mango-Ananas-Papaya Salat
+          <name>Oriental Burger • Lammkeule • 
+Salat • Hummus • Babaganoush •
+Tomate • Zitronenerdäpfel
 
-Allergene A • E • F • L • N • O
-</name>
+Allergene A • G • L • N</name>
           <note>Glutenhaltiges Getreide (A)</note>
-          <note>Erdnuss (E)</note>
-          <note>Soja (F)</note>
+          <note>Milch oder Laktose (G)</note>
           <note>Sellerie (L)</note>
-          <note>Senf (M)</note>
           <note>Sesam (N)</note>
           <note>Sulfite (O)</note>
         </meal>
       </category>
       <category name="fresh@home - Pasta">
         <meal>
-          <name>Pappardelle • Fenchel • 
-Radieschen • leichte Dillsauce • 
-Kapernbeeren
+          <name>Ravioli mit Spargelfülle • leichte Weissweinsauce •
+grüne &amp; weiße Spargelspitzen • Wiesenkräuter • Grana
 
-Allergene A • L
+Allergene A • G • O
 </name>
-          <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
-          <note>Soja (F)</note>
-          <note>Sellerie (L)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sulfite (O)</note>
         </meal>
       </category>
       <category name="fresh@home - Pizza">
         <meal>
-          <name>Calzone • Grillpaprika •
-Räucherlachs • Basilikum • 
-Käse • Tomaten
+          <name>Pizza • 
+Sardinen • Zucchini • 
+Zitronen-Kräuterpesto
 
 Allergene A • D • G</name>
           <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
           <note>Fisch (D)</note>
           <note>Milch oder Laktose (G)</note>
         </meal>
       </category>
       <category name="Suppe Vegan WIRTUAL">
         <meal>
-          <name>Wiener Erdäpfelsuppe</name>
+          <name>Vegane Fisolencremesuppe • 
+frische Dille • Finnenbrot Croutons
+
+Allergene A • H • L • N
+
+</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Fisch (D)</note>
+          <note>Erdnuss (E)</note>
           <note>Sellerie (L)</note>
         </meal>
       </category>
       <category name="fresh@home - Traditonell">
         <meal>
-          <name>Pariser Schnitzel vom Kalb • 
-Spargelreis • Zitrone
+          <name>Beiried • Pfeffersauce • 
+Broccoli • Braterdäpfel
 
-Allergene A • C • G</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
+Allergene G • L • O</name>
           <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+          <note>Sulfite (O)</note>
         </meal>
       </category>
       <category name="fresh@home - Vegetarisch/Vegan">
         <meal>
-          <name>Linsenbällchen •
-Frühlingssalat •
-Aroniabeerendressing
+          <name>Eiernockerl • 
+Schnittlauch • Röstzwiebel 
 
-Allergen O</name>
-          <note>Senf (M)</note>
-          <note>Sulfite (O)</note>
+Allergene A • C • G</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
         </meal>
       </category>
       <category name="Frisch am Tisch - 1 Fleisch">
         <meal>
-          <name>Schweinefleisch "Bourguignon" •
-cremige Paprikapolenta
+          <name>Chili con Carne •
+ofen-gebratene Babykartoffel
 
-Allergene G • O
+Allergene F • G • L • M • O
 </name>
-          <note>Ei (C)</note>
+          <note>Soja (F)</note>
           <note>Milch oder Laktose (G)</note>
-          <note>Sulfite (O)</note>
+          <note>Sellerie (L)</note>
+          <note>Senf (M)</note>
         </meal>
       </category>
       <category name="Frisch am Tisch - 2 Vegetarisch">
         <meal>
-          <name>Chinesische Sesamnudeln • 
-Sprossen • Jungzwiebel • 
-gebratene Tofuwürfel
+          <name>Geröstete Knödel • 
+Ei • Schnittlauch
 
-Allergene A • F • N
+Allergene A • C • G
 </name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
-          <note>Soja (F)</note>
-          <note>Sesam (N)</note>
+          <note>Fisch (D)</note>
+          <note>Milch oder Laktose (G)</note>
         </meal>
       </category>
       <category name="Frisch am Tisch - 3 Vegan">
         <meal>
-          <name>Spaghetti • Soja-Bolognese • 
-Oliven • Basilikum
+          <name>Planted "Züricher Geschnetzeltes"•
+Rösterdäpfel
 
-Allergene A • F • L</name>
+Allergene A • L • O
+</name>
           <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Soja (F)</note>
-          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+          <note>Sulfite (O)</note>
         </meal>
       </category>
       <category name="Beilagensalat WIRTUAL">
         <meal>
-          <name>Beilagensalat • 
-(Mais, Gurke, Linsen, Radicchio)
+          <name>Beilagensalat •
+(Fisolensalat, Rote Rüben, Schwarzwurzel, Chinakohl)
 
-Allergene C • G • M
+Allergene C • G • M • O
 </name>
           <note>Ei (C)</note>
           <note>Milch oder Laktose (G)</note>
           <note>Senf (M)</note>
+          <note>Sulfite (O)</note>
         </meal>
       </category>
       <category name="Dessert WIRTUAL">
         <meal>
-          <name>Gebackene Topfenschnitte
-
-Allergene A • C • G</name>
-          <note>Fisch (D)</note>
-          <note>Erdnuss (E)</note>
-          <note>Sesam (N)</note>
-          <note>Weichtiere (R)</note>
+          <name>Birnenkuchen</name>
         </meal>
       </category>
       <category name="C&amp;F Früchtebecher WIRTUAL">
@@ -689,53 +619,289 @@ Gemischt</name>
         </meal>
       </category>
     </day>
-    <day date="2023-06-03">
-      <category name="Suppe Vegan WIRTUAL">
+    <day date="2023-05-26">
+      <category name="fresh@home - International">
         <meal>
-          <name>Tomaten - Basilikum Suppe •
-Kichererbsen</name>
+          <name>Oriental Burger • Lammkeule • 
+Salat • Hummus • Babaganoush •
+Tomate • Zitronenerdäpfel
+
+Allergene A • G • L • N</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+          <note>Sesam (N)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+      </category>
+      <category name="fresh@home - Pasta">
+        <meal>
+          <name>Ravioli mit Spargelfülle • leichte Weissweinsauce •
+grüne &amp; weiße Spargelspitzen • Wiesenkräuter • Grana
+
+Allergene A • G • O
+</name>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+      </category>
+      <category name="fresh@home - Pizza">
+        <meal>
+          <name>Pizza • 
+Sardinen • Zucchini • 
+Zitronen-Kräuterpesto
+
+Allergene A • D • G</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Fisch (D)</note>
+          <note>Milch oder Laktose (G)</note>
+        </meal>
+      </category>
+      <category name="Suppe Vegan WIRTUAL">
+        <meal>
+          <name>Spinat Velouté • 
+gebratene Lauchstreifen • Röstbrot
+
+Allergene A • L
+</name>
+          <note>Fisch (D)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+      </category>
+      <category name="fresh@home - Traditonell">
+        <meal>
+          <name>Beiried • Pfeffersauce • 
+Broccoli • Braterdäpfel
+
+Allergene G • L • O</name>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+      </category>
+      <category name="fresh@home - Vegetarisch/Vegan">
+        <meal>
+          <name>Eiernockerl • 
+Schnittlauch • Röstzwiebel 
+
+Allergene A • C • G</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+        </meal>
+      </category>
+      <category name="Frisch am Tisch - 1 Fleisch">
+        <meal>
+          <name>"Saumon au pistou"
+Gegrilltes Lachsfilet • Basilikumpesto •
+Tomatensauce • Tagliatelle
+
+Allergene A • D • G
+</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Fisch (D)</note>
+          <note>Milch oder Laktose (G)</note>
+        </meal>
+      </category>
+      <category name="Frisch am Tisch - 2 Vegetarisch">
+        <meal>
+          <name>Hausgemachte Buchteln • Vanillesauce
+
+Allergene A • C • G
+</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+        </meal>
+      </category>
+      <category name="Frisch am Tisch - 3 Vegan">
+        <meal>
+          <name>Chinesischer gebratener Reis • 
+Jungzwiebel • Shiitakepilze • 
+Süß-sauer Gemüse
+
+Allergene A • F • L • N • O
+</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
+          <note>Sellerie (L)</note>
+          <note>Senf (M)</note>
+          <note>Sesam (N)</note>
+        </meal>
+      </category>
+      <category name="Beilagensalat WIRTUAL">
+        <meal>
+          <name>Beilagensalat •
+(Weißkraut, Karotte, Rote Bohnen, Rucola)
+
+keine Hauptallergene
+</name>
+          <note>Sulfite (O)</note>
+        </meal>
+      </category>
+      <category name="Dessert WIRTUAL">
+        <meal>
+          <name>Böhmische Karottenschnitte</name>
+        </meal>
+      </category>
+      <category name="C&amp;F Früchtebecher WIRTUAL">
+        <meal>
+          <name>Früchtebecher 
+Zuckermelone</name>
+        </meal>
+      </category>
+      <category name="Obst in KG">
+        <meal>
+          <name>Obst der Saison</name>
+          <note>Sulfite (O)</note>
+        </meal>
+      </category>
+      <category name="f@h Torte">
+        <meal>
+          <name>Trüffeltorte • Ø 16 cm</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Soja (F)</note>
+          <note>Milch oder Laktose (G)</note>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-05-27">
+      <category name="Suppe Vegan WIRTUAL">
+        <meal>
+          <name>Haferflockensuppe •
+Gemüse 
+
+Allergene A • L
+</name>
+          <note>Glutenhaltiges Getreide (A)</note>
           <note>Sellerie (L)</note>
         </meal>
       </category>
       <category name="Frisch am Tisch - 1 Fleisch">
         <meal>
-          <name>Königsberger Klöpse - Kalbfleischbällchen •
-Kapern-Gurkerl-Zitronensauce
-Petersilienerdäpfel
+          <name>Indisches Chicken Korma •
+Ingwer, Mandeln •
+Safranreis
 
-Allergene A • C • G • L • M</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
+Allergene G • H
+
+
+</name>
           <note>Milch oder Laktose (G)</note>
-          <note>Sellerie (L)</note>
-          <note>Senf (M)</note>
+          <note>Schalenfrüchte (H)</note>
         </meal>
       </category>
       <category name="Frisch am Tisch - 2 Vegetarisch">
         <meal>
-          <name>Ravioli mit Süßkartoffel-Lauchfülle •
-geröstete Kürbiskerne • Lauchstreifen •
-rauchige Tomatensauce • 
-frittierter Salbei • Grana
+          <name>Gegrillte Reisschnitte • 
+Ratatouille
 
-Allergene A • G</name>
+Allergene A • C • G
+</name>
           <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Soja (F)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sesam (N)</note>
+        </meal>
+      </category>
+      <category name="Frisch am Tisch - 3 Vegan">
+        <meal>
+          <name>Sellerieschnitzel • 
+vegane Sauce Tartare •
+Petersilienerdäpfel
+
+Allergene A • L • M • O
+</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+          <note>Senf (M)</note>
+          <note>Sesam (N)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+      </category>
+      <category name="Beilagensalat WIRTUAL">
+        <meal>
+          <name>Beilagensalat • 
+(Mais, Gurke, Linsen, Radicchio)
+
+Allergene C • G • M
+</name>
           <note>Ei (C)</note>
           <note>Milch oder Laktose (G)</note>
           <note>Senf (M)</note>
         </meal>
       </category>
+      <category name="C&amp;F Früchtebecher WIRTUAL">
+        <meal>
+          <name>Früchtebecher
+Orange &amp; Grapefruit</name>
+        </meal>
+      </category>
+      <category name="Obst in KG">
+        <meal>
+          <name>Obst der Saison</name>
+          <note>Sulfite (O)</note>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-05-28">
+      <category name="Suppe Vegan WIRTUAL">
+        <meal>
+          <name>Rote Paprikacremesuppe •</name>
+          <note>Sellerie (L)</note>
+        </meal>
+        <meal>
+          <name>Knoblauchcroutons</name>
+          <note>Sellerie (L)</note>
+        </meal>
+      </category>
+      <category name="Frisch am Tisch - 1 Fleisch">
+        <meal>
+          <name>Gebackenes Kabeljaufilet •
+Petersilienerdäpfel •
+hausgemachte Sauce Tartare
+
+Allergene A • C • D • G • M • O
+</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Fisch (D)</note>
+          <note>Soja (F)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Senf (M)</note>
+          <note>Sesam (N)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+      </category>
+      <category name="Frisch am Tisch - 2 Vegetarisch">
+        <meal>
+          <name>Kernölrisotto • Kürbiskerne • 
+Käferbohnen • Tomaten • 
+Bergkäse
+
+Allergene G • L
+</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+      </category>
       <category name="Frisch am Tisch - 3 Vegan">
         <meal>
-          <name>Veganes Erdäpfelgulasch • 
-Räuchertofu
+          <name>Paprikaragout • 
+Trauben-Pinienkernreis
 
-Allergen F</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Soja (F)</note>
-          <note>Sellerie (L)</note>
+keine Hauptallergene 
+
+</name>
         </meal>
       </category>
       <category name="Beilagensalat WIRTUAL">
@@ -746,81 +912,6 @@ Allergen F</name>
 keine Hauptallergene
 </name>
           <note>Senf (M)</note>
-        </meal>
-      </category>
-      <category name="C&amp;F Früchtebecher WIRTUAL">
-        <meal>
-          <name>Früchtebecher 
-Pflaume </name>
-        </meal>
-      </category>
-      <category name="Obst in KG">
-        <meal>
-          <name>Obst der Saison</name>
-          <note>Sulfite (O)</note>
-        </meal>
-      </category>
-    </day>
-    <day date="2023-06-04">
-      <category name="Suppe Vegan WIRTUAL">
-        <meal>
-          <name>Klare Gemüsesuppe • 
-Dinkel - Kürbiskern Schöberl</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Sellerie (L)</note>
-        </meal>
-      </category>
-      <category name="Frisch am Tisch - 1 Fleisch">
-        <meal>
-          <name>Buntbarsch - Teppanyaki • 
-Jasminreis
-
-Allergene A • D • F • G • N</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Fisch (D)</note>
-          <note>Soja (F)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Senf (M)</note>
-          <note>Sesam (N)</note>
-        </meal>
-      </category>
-      <category name="Frisch am Tisch - 2 Vegetarisch">
-        <meal>
-          <name>Kantonesische Gemüsepfanne • 
-Eierreis
-
-Allergene A • C • F • N</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Soja (F)</note>
-          <note>Senf (M)</note>
-          <note>Sesam (N)</note>
-        </meal>
-      </category>
-      <category name="Frisch am Tisch - 3 Vegan">
-        <meal>
-          <name>Ofen-gebratene Kartoffeln • 
-Orangenlinsen • veganer Hummus Dip
-
-Allergene L • N</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Soja (F)</note>
-          <note>Schalenfrüchte (H)</note>
-          <note>Sellerie (L)</note>
-          <note>Sesam (N)</note>
-        </meal>
-      </category>
-      <category name="Beilagensalat WIRTUAL">
-        <meal>
-          <name>Beilagensalat •
-(Fisolensalat, Rote Rüben, Schwarzwurzel, Chinakohl)
-
-Allergene C • G • M • O
-</name>
-          <note>Ei (C)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Senf (M)</note>
-          <note>Sulfite (O)</note>
         </meal>
       </category>
       <category name="C&amp;F Früchtebecher WIRTUAL">
