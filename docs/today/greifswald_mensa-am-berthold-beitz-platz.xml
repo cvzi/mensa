@@ -3,65 +3,88 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2023-06-01">
+    <day date="2023-06-02">
       <category name="Tellergericht">
         <meal>
-          <name>Kl. Schüssel: Brühreis mit Hühnerfleisch (Gefl)</name>
-          <price role="employee">1.60</price>
-          <price role="other">2.35</price>
-          <price role="student">0.90</price>
-        </meal>
-        <meal>
-          <name>Halbe Portion: 2 vegane Kartoffelpuffer mit Apfelmus</name>
-          <note>mit Antioxidationsmittel</note>
-          <price role="employee">1.50</price>
-          <price role="other">2.15</price>
-          <price role="student">0.90</price>
-        </meal>
-        <meal>
-          <name>Teller: Brühreis mit Hühnerfleisch (Gefl)</name>
-          <price role="employee">2.40</price>
-          <price role="other">3.60</price>
-          <price role="student">1.50</price>
-        </meal>
-        <meal>
-          <name>Vegan: 4 Kartoffelpuffer mit Apfelmus</name>
-          <note>mit Antioxidationsmittel</note>
+          <name>Apfelstrudel mit Rosinen, Puderzucker  
+ und Vanillesoße</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <note>mit Farbstoff</note>
           <price role="employee">3.00</price>
           <price role="other">4.30</price>
           <price role="student">1.80</price>
         </meal>
         <meal>
-          <name>Terrine: Brühreis mit Hühnerfleisch (Gefl)</name>
-          <price role="employee">3.80</price>
-          <price role="other">5.10</price>
-          <price role="student">2.20</price>
-        </meal>
-      </category>
-      <category name="Komponente 2">
-        <meal>
-          <name>Kasselernackenbraten  
- mit Kasselersoße</name>
+          <name>Vegan: Apfelstrudel mit Puderzucker  
+ und Vanillesoße</name>
           <note>Glutenhaltiges Getreide</note>
-          <note>Schweinefleisch</note>
-          <note>Senf und daraus hergestellte Erzeugnisse</note>
-          <note>mit Antioxidationsmittel</note>
-          <note>mit Konservierungsstoff</note>
-          <price role="employee">2.85</price>
-          <price role="other">3.70</price>
+          <price role="employee">3.20</price>
+          <price role="other">4.50</price>
           <price role="student">2.00</price>
         </meal>
       </category>
-      <category name="Vegetarische Kost">
+      <category name="Komponente 1">
         <meal>
-          <name>8 Gemüseköttbullar  
- mit Gemüsesoße  und Gerstoni Gerste [von heimischen Äckern]</name>
+          <name>Paniertes Schollenfilet  
+ mit Remoulade</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <note>Fische und daraus hergestellte Erzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">3.10</price>
+          <price role="other">3.95</price>
+          <price role="student">2.25</price>
+        </meal>
+      </category>
+      <category name="Komponente 4">
+        <meal>
+          <name>Gegrilltes Hähnchensteak (Gefl) 
+ mit Wachsbohnen in Rahm</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <price role="employee">3.35</price>
+          <price role="other">4.20</price>
+          <price role="student">2.50</price>
+        </meal>
+      </category>
+      <category name="Vegetarisch oder vegan">
+        <meal>
+          <name>Eieromelett Spinat-Mozzarella  
+ dazu Sahnesoße  und Kräuterpüree</name>
           <note>Eier und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Milch/Milchzucker (Laktose)</note>
+          <note>jodiertes Salz</note>
           <price role="employee">3.30</price>
           <price role="other">4.60</price>
           <price role="student">2.10</price>
+        </meal>
+        <meal>
+          <name>Vegan: Paprikaschote gelb mit Couscousfüllung  
+ dazu Paprikasoße  und Gemüsebulgur</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>jodiertes Salz</note>
+          <price role="employee">3.60</price>
+          <price role="other">4.90</price>
+          <price role="student">2.40</price>
+        </meal>
+      </category>
+      <category name="Mittagsgericht Cafeteria Klinikum (zzgl. 5€ ReBowl-Pfand)">
+        <meal>
+          <name>Paniertes Schollenfilet  
+ mit süß-saurer-Soße  und Kräuterpüree</name>
+          <note>Fische und daraus hergestellte Erzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
+          <note>jodiertes Salz</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">4.15</price>
+          <price role="other">5.45</price>
+          <price role="student">2.95</price>
         </meal>
       </category>
       <category name="Beilagen">
@@ -81,14 +104,29 @@
           <price role="student">0.70</price>
         </meal>
         <meal>
-          <name>Gerstoni Gerste [von heimischen Äckern]</name>
-          <note>Glutenhaltiges Getreide</note>
+          <name>Kräuterpüree</name>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <note>jodiertes Salz</note>
           <price role="employee">1.00</price>
           <price role="other">1.40</price>
           <price role="student">0.70</price>
         </meal>
         <meal>
           <name>Pommes Frites</name>
+          <price role="employee">1.30</price>
+          <price role="other">1.70</price>
+          <price role="student">1.00</price>
+        </meal>
+        <meal>
+          <name>8 Kartoffelkroketten</name>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <price role="employee">1.30</price>
+          <price role="other">1.70</price>
+          <price role="student">1.00</price>
+        </meal>
+        <meal>
+          <name>Gemüsebulgur</name>
+          <note>Glutenhaltiges Getreide</note>
           <price role="employee">1.30</price>
           <price role="other">1.70</price>
           <price role="student">1.00</price>
@@ -102,13 +140,27 @@
       </category>
       <category name="Gemüse">
         <meal>
-          <name>Blumenkohl</name>
+          <name>Möhrenscheiben mit Petersilie</name>
           <price role="employee">1.00</price>
           <price role="other">1.40</price>
           <price role="student">0.70</price>
         </meal>
         <meal>
-          <name>Romanesco</name>
+          <name>Wachsbohnen in Rahm</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <price role="employee">1.20</price>
+          <price role="other">1.60</price>
+          <price role="student">0.90</price>
+        </meal>
+        <meal>
+          <name>Europagemüse [gelbe und orange Karottenscheiben, Romanobohnen, Brokkoliröschen]</name>
+          <price role="employee">1.20</price>
+          <price role="other">1.60</price>
+          <price role="student">0.90</price>
+        </meal>
+        <meal>
+          <name>Tomatensalat</name>
           <price role="employee">1.20</price>
           <price role="other">1.60</price>
           <price role="student">0.90</price>
