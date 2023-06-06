@@ -38,7 +38,27 @@
     <main>
       <article>Parser for <a target="_blank" href="https://openmensa.org">openmensa.org</a>. The parser runs in a <a target="_blank" title="What's a Github action?" href="https://docs.github.com/en/actions">Github action<sup>❓</sup></a> and pushes the XML feeds to this page</article>
       <article><h3><a href="https://github.com/cvzi/mensa/actions/">🗿 Parser status</a></h3>
-<pre>mensenat:
+<pre>kaiserslautern/hszw:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 145, in updateFeeds
+    content = getattr(parser, feedMethod)(
+  File "/home/runner/work/mensa/mensa/kaiserslautern/__init__.py", line 90, in feed
+    prices = self._get_price(meal)
+  File "/home/runner/work/mensa/mensa/kaiserslautern/__init__.py", line 57, in _get_price
+    return (price['stu'], price['bed'], price['gas'])
+KeyError: 'stu'
+
+kaiserslautern/bistro36:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 145, in updateFeeds
+    content = getattr(parser, feedMethod)(
+  File "/home/runner/work/mensa/mensa/kaiserslautern/__init__.py", line 90, in feed
+    prices = self._get_price(meal)
+  File "/home/runner/work/mensa/mensa/kaiserslautern/__init__.py", line 57, in _get_price
+    return (price['stu'], price['bed'], price['gas'])
+KeyError: 'stu'
+
+mensenat:
 Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.10.11/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 467, in _make_request
     self._validate_conn(conn)
