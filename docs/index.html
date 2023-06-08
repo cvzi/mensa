@@ -56,11 +56,11 @@ Traceback (most recent call last):
     conn.connect()
   File "/opt/hostedtoolcache/Python/3.10.11/x64/lib/python3.10/site-packages/urllib3/connection.py", line 635, in connect
     sock_and_verified = _ssl_wrap_socket_and_match_hostname(
-  File "/opt/hostedtoolcache/Python/3.10.11/x64/lib/python3.10/site-packages/urllib3/connection.py", line 774, in _ssl_wrap_socket_and_match_hostname
+  File "/opt/hostedtoolcache/Python/3.10.11/x64/lib/python3.10/site-packages/urllib3/connection.py", line 776, in _ssl_wrap_socket_and_match_hostname
     ssl_sock = ssl_wrap_socket(
-  File "/opt/hostedtoolcache/Python/3.10.11/x64/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 459, in ssl_wrap_socket
+  File "/opt/hostedtoolcache/Python/3.10.11/x64/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 466, in ssl_wrap_socket
     ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
-  File "/opt/hostedtoolcache/Python/3.10.11/x64/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 503, in _ssl_wrap_socket_impl
+  File "/opt/hostedtoolcache/Python/3.10.11/x64/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 510, in _ssl_wrap_socket_impl
     return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
   File "/opt/hostedtoolcache/Python/3.10.11/x64/lib/python3.10/ssl.py", line 513, in wrap_socket
     return self.sslsocket_class._create(
@@ -282,6 +282,18 @@ Traceback (most recent call last):
 RuntimeError: Unknown page structure
 
 inetmenue/iks-gym-antonianum:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 145, in updateFeeds
+    content = getattr(parser, feedMethod)(
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
+    return self.feed_all(ref, get_next_week=False)
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
+    next_week_path = self.parseMeals(ref, builder, resp.text)
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 85, in parseMeals
+    raise RuntimeError("Unknown page structure")
+RuntimeError: Unknown page structure
+
+inetmenue/lingg:
 Traceback (most recent call last):
   File "/home/runner/work/mensa/mensa/updateFeeds.py", line 145, in updateFeeds
     content = getattr(parser, feedMethod)(
