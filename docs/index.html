@@ -103,36 +103,6 @@ Traceback (most recent call last):
     raise SSLError(e, request=request)
 requests.exceptions.SSLError: HTTPSConnectionPool(host='www.mensen.at', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1007)')))
 
-inetmenue/akg-s:
-Traceback (most recent call last):
-  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 145, in updateFeeds
-    content = getattr(parser, feedMethod)(
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
-    return self.feed_all(ref, get_next_week=False)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
-    next_week_path = self.parseMeals(ref, builder, resp.text)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
-    raise RuntimeError(oops.text.strip())
-RuntimeError: OOPS
-
-                        da hat sich wohl der
-                        Fehlerteufel eingeschlichen.
-
-inetmenue/altstadt-celle:
-Traceback (most recent call last):
-  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 145, in updateFeeds
-    content = getattr(parser, feedMethod)(
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
-    return self.feed_all(ref, get_next_week=False)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
-    next_week_path = self.parseMeals(ref, builder, resp.text)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
-    raise RuntimeError(oops.text.strip())
-RuntimeError: OOPS
-
-                        da hat sich wohl der
-                        Fehlerteufel eingeschlichen.
-
 inetmenue/antonianum:
 Traceback (most recent call last):
   File "/home/runner/work/mensa/mensa/updateFeeds.py", line 145, in updateFeeds
@@ -145,126 +115,6 @@ Traceback (most recent call last):
     raise RuntimeError(h1.text.strip())
 RuntimeError: 403 | Zugriff verweigert
 
-inetmenue/cfs:
-Traceback (most recent call last):
-  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 145, in updateFeeds
-    content = getattr(parser, feedMethod)(
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
-    return self.feed_all(ref, get_next_week=False)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
-    next_week_path = self.parseMeals(ref, builder, resp.text)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
-    raise RuntimeError(oops.text.strip())
-RuntimeError: OOPS
-
-                        da hat sich wohl der
-                        Fehlerteufel eingeschlichen.
-
-inetmenue/cjt-lauf:
-Traceback (most recent call last):
-  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 145, in updateFeeds
-    content = getattr(parser, feedMethod)(
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
-    return self.feed_all(ref, get_next_week=False)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
-    next_week_path = self.parseMeals(ref, builder, resp.text)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
-    raise RuntimeError(oops.text.strip())
-RuntimeError: OOPS
-
-                        da hat sich wohl der
-                        Fehlerteufel eingeschlichen.
-
-inetmenue/dbgwiehl:
-Traceback (most recent call last):
-  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 145, in updateFeeds
-    content = getattr(parser, feedMethod)(
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
-    return self.feed_all(ref, get_next_week=False)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
-    next_week_path = self.parseMeals(ref, builder, resp.text)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
-    raise RuntimeError(oops.text.strip())
-RuntimeError: OOPS
-
-                        da hat sich wohl der
-                        Fehlerteufel eingeschlichen.
-
-inetmenue/deso:
-Traceback (most recent call last):
-  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 145, in updateFeeds
-    content = getattr(parser, feedMethod)(
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
-    return self.feed_all(ref, get_next_week=False)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
-    next_week_path = self.parseMeals(ref, builder, resp.text)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
-    raise RuntimeError(oops.text.strip())
-RuntimeError: OOPS
-
-                        da hat sich wohl der
-                        Fehlerteufel eingeschlichen.
-
-inetmenue/ets:
-Traceback (most recent call last):
-  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 145, in updateFeeds
-    content = getattr(parser, feedMethod)(
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
-    return self.feed_all(ref, get_next_week=False)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
-    next_week_path = self.parseMeals(ref, builder, resp.text)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
-    raise RuntimeError(oops.text.strip())
-RuntimeError: OOPS
-
-                        da hat sich wohl der
-                        Fehlerteufel eingeschlichen.
-
-inetmenue/gs-schulenburg:
-Traceback (most recent call last):
-  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 145, in updateFeeds
-    content = getattr(parser, feedMethod)(
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
-    return self.feed_all(ref, get_next_week=False)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
-    next_week_path = self.parseMeals(ref, builder, resp.text)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
-    raise RuntimeError(oops.text.strip())
-RuntimeError: OOPS
-
-                        da hat sich wohl der
-                        Fehlerteufel eingeschlichen.
-
-inetmenue/gsg-roethenbach:
-Traceback (most recent call last):
-  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 145, in updateFeeds
-    content = getattr(parser, feedMethod)(
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
-    return self.feed_all(ref, get_next_week=False)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
-    next_week_path = self.parseMeals(ref, builder, resp.text)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
-    raise RuntimeError(oops.text.strip())
-RuntimeError: OOPS
-
-                        da hat sich wohl der
-                        Fehlerteufel eingeschlichen.
-
-inetmenue/gym-neu:
-Traceback (most recent call last):
-  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 145, in updateFeeds
-    content = getattr(parser, feedMethod)(
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
-    return self.feed_all(ref, get_next_week=False)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
-    next_week_path = self.parseMeals(ref, builder, resp.text)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
-    raise RuntimeError(oops.text.strip())
-RuntimeError: OOPS
-
-                        da hat sich wohl der
-                        Fehlerteufel eingeschlichen.
-
 inetmenue/gymnasium-gruenwald:
 Traceback (most recent call last):
   File "/home/runner/work/mensa/mensa/updateFeeds.py", line 145, in updateFeeds
@@ -276,186 +126,6 @@ Traceback (most recent call last):
   File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 87, in parseMeals
     raise RuntimeError(h1.text.strip())
 RuntimeError: 403 | Zugriff verweigert
-
-inetmenue/hsdkb:
-Traceback (most recent call last):
-  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 145, in updateFeeds
-    content = getattr(parser, feedMethod)(
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
-    return self.feed_all(ref, get_next_week=False)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
-    next_week_path = self.parseMeals(ref, builder, resp.text)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
-    raise RuntimeError(oops.text.strip())
-RuntimeError: OOPS
-
-                        da hat sich wohl der
-                        Fehlerteufel eingeschlichen.
-
-inetmenue/humboldt-solingen:
-Traceback (most recent call last):
-  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 145, in updateFeeds
-    content = getattr(parser, feedMethod)(
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
-    return self.feed_all(ref, get_next_week=False)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
-    next_week_path = self.parseMeals(ref, builder, resp.text)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
-    raise RuntimeError(oops.text.strip())
-RuntimeError: OOPS
-
-                        da hat sich wohl der
-                        Fehlerteufel eingeschlichen.
-
-inetmenue/iks-gym-antonianum:
-Traceback (most recent call last):
-  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 145, in updateFeeds
-    content = getattr(parser, feedMethod)(
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
-    return self.feed_all(ref, get_next_week=False)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
-    next_week_path = self.parseMeals(ref, builder, resp.text)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
-    raise RuntimeError(oops.text.strip())
-RuntimeError: OOPS
-
-                        da hat sich wohl der
-                        Fehlerteufel eingeschlichen.
-
-inetmenue/lingg:
-Traceback (most recent call last):
-  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 145, in updateFeeds
-    content = getattr(parser, feedMethod)(
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
-    return self.feed_all(ref, get_next_week=False)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
-    next_week_path = self.parseMeals(ref, builder, resp.text)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
-    raise RuntimeError(oops.text.strip())
-RuntimeError: OOPS
-
-                        da hat sich wohl der
-                        Fehlerteufel eingeschlichen.
-
-inetmenue/ppg-hersbruck:
-Traceback (most recent call last):
-  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 145, in updateFeeds
-    content = getattr(parser, feedMethod)(
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
-    return self.feed_all(ref, get_next_week=False)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
-    next_week_path = self.parseMeals(ref, builder, resp.text)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
-    raise RuntimeError(oops.text.strip())
-RuntimeError: OOPS
-
-                        da hat sich wohl der
-                        Fehlerteufel eingeschlichen.
-
-inetmenue/pprgym:
-Traceback (most recent call last):
-  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 145, in updateFeeds
-    content = getattr(parser, feedMethod)(
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
-    return self.feed_all(ref, get_next_week=False)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
-    next_week_path = self.parseMeals(ref, builder, resp.text)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
-    raise RuntimeError(oops.text.strip())
-RuntimeError: OOPS
-
-                        da hat sich wohl der
-                        Fehlerteufel eingeschlichen.
-
-inetmenue/schulkueche-elsterberg:
-Traceback (most recent call last):
-  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 145, in updateFeeds
-    content = getattr(parser, feedMethod)(
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
-    return self.feed_all(ref, get_next_week=False)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
-    next_week_path = self.parseMeals(ref, builder, resp.text)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
-    raise RuntimeError(oops.text.strip())
-RuntimeError: OOPS
-
-                        da hat sich wohl der
-                        Fehlerteufel eingeschlichen.
-
-inetmenue/schulzentrum-bueren:
-Traceback (most recent call last):
-  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 145, in updateFeeds
-    content = getattr(parser, feedMethod)(
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
-    return self.feed_all(ref, get_next_week=False)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
-    next_week_path = self.parseMeals(ref, builder, resp.text)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
-    raise RuntimeError(oops.text.strip())
-RuntimeError: OOPS
-
-                        da hat sich wohl der
-                        Fehlerteufel eingeschlichen.
-
-inetmenue/schwarmstedt:
-Traceback (most recent call last):
-  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 145, in updateFeeds
-    content = getattr(parser, feedMethod)(
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
-    return self.feed_all(ref, get_next_week=False)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
-    next_week_path = self.parseMeals(ref, builder, resp.text)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
-    raise RuntimeError(oops.text.strip())
-RuntimeError: OOPS
-
-                        da hat sich wohl der
-                        Fehlerteufel eingeschlichen.
-
-inetmenue/sek-radevormwald:
-Traceback (most recent call last):
-  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 145, in updateFeeds
-    content = getattr(parser, feedMethod)(
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
-    return self.feed_all(ref, get_next_week=False)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
-    next_week_path = self.parseMeals(ref, builder, resp.text)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
-    raise RuntimeError(oops.text.strip())
-RuntimeError: OOPS
-
-                        da hat sich wohl der
-                        Fehlerteufel eingeschlichen.
-
-inetmenue/sek-warstein:
-Traceback (most recent call last):
-  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 145, in updateFeeds
-    content = getattr(parser, feedMethod)(
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
-    return self.feed_all(ref, get_next_week=False)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
-    next_week_path = self.parseMeals(ref, builder, resp.text)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
-    raise RuntimeError(oops.text.strip())
-RuntimeError: OOPS
-
-                        da hat sich wohl der
-                        Fehlerteufel eingeschlichen.
-
-inetmenue/vogelsang-solingen:
-Traceback (most recent call last):
-  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 145, in updateFeeds
-    content = getattr(parser, feedMethod)(
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
-    return self.feed_all(ref, get_next_week=False)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
-    next_week_path = self.parseMeals(ref, builder, resp.text)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
-    raise RuntimeError(oops.text.strip())
-RuntimeError: OOPS
-
-                        da hat sich wohl der
-                        Fehlerteufel eingeschlichen.
 </pre></article>
       <article>
 <ol style="list-style-type:none">
@@ -592,9 +262,6 @@ RuntimeError: OOPS
   <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_agw.xml">🍱 feed/inetmenue_agw.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_agw.xml">🈺 meta/inetmenue_agw.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/today/inetmenue_agw.xml">🍱 today/inetmenue_agw.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_akg-s.xml">🍱 feed/inetmenue_akg-s.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_akg-s.xml">🈺 meta/inetmenue_akg-s.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/today/inetmenue_akg-s.xml">🍱 today/inetmenue_akg-s.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_ako.xml">🍱 feed/inetmenue_ako.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_ako.xml">🈺 meta/inetmenue_ako.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/today/inetmenue_ako.xml">🍱 today/inetmenue_ako.xml</a></li>
@@ -610,18 +277,13 @@ RuntimeError: OOPS
   <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_altendorfer-gs-nordhorn.xml">🍱 feed/inetmenue_altendorfer-gs-nordhorn.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_altendorfer-gs-nordhorn.xml">🈺 meta/inetmenue_altendorfer-gs-nordhorn.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/today/inetmenue_altendorfer-gs-nordhorn.xml">🍱 today/inetmenue_altendorfer-gs-nordhorn.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_altstadt-celle.xml">🍱 feed/inetmenue_altstadt-celle.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_altstadt-celle.xml">🈺 meta/inetmenue_altstadt-celle.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/today/inetmenue_altstadt-celle.xml">🍱 today/inetmenue_altstadt-celle.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_amg-r.xml">🍱 feed/inetmenue_amg-r.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_amg-r.xml">🈺 meta/inetmenue_amg-r.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/today/inetmenue_amg-r.xml">🍱 today/inetmenue_amg-r.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_amseegym.xml">🍱 feed/inetmenue_amseegym.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_amseegym.xml">🈺 meta/inetmenue_amseegym.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/today/inetmenue_amseegym.xml">🍱 today/inetmenue_amseegym.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_antonianum.xml">🍱 feed/inetmenue_antonianum.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_antonianum.xml">🈺 meta/inetmenue_antonianum.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/today/inetmenue_antonianum.xml">🍱 today/inetmenue_antonianum.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_arndtschule.xml">🍱 feed/inetmenue_arndtschule.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_arndtschule.xml">🈺 meta/inetmenue_arndtschule.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/today/inetmenue_arndtschule.xml">🍱 today/inetmenue_arndtschule.xml</a></li>
@@ -676,12 +338,6 @@ RuntimeError: OOPS
   <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_carossa.xml">🍱 feed/inetmenue_carossa.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_carossa.xml">🈺 meta/inetmenue_carossa.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/today/inetmenue_carossa.xml">🍱 today/inetmenue_carossa.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_cfs.xml">🍱 feed/inetmenue_cfs.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_cfs.xml">🈺 meta/inetmenue_cfs.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/today/inetmenue_cfs.xml">🍱 today/inetmenue_cfs.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_cjt-lauf.xml">🍱 feed/inetmenue_cjt-lauf.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_cjt-lauf.xml">🈺 meta/inetmenue_cjt-lauf.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/today/inetmenue_cjt-lauf.xml">🍱 today/inetmenue_cjt-lauf.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_cos-diessen.xml">🍱 feed/inetmenue_cos-diessen.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_cos-diessen.xml">🈺 meta/inetmenue_cos-diessen.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/today/inetmenue_cos-diessen.xml">🍱 today/inetmenue_cos-diessen.xml</a></li>
@@ -694,18 +350,12 @@ RuntimeError: OOPS
   <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_dahlmannschule.xml">🍱 feed/inetmenue_dahlmannschule.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_dahlmannschule.xml">🈺 meta/inetmenue_dahlmannschule.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/today/inetmenue_dahlmannschule.xml">🍱 today/inetmenue_dahlmannschule.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_dbgwiehl.xml">🍱 feed/inetmenue_dbgwiehl.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_dbgwiehl.xml">🈺 meta/inetmenue_dbgwiehl.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/today/inetmenue_dbgwiehl.xml">🍱 today/inetmenue_dbgwiehl.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_dbrs-neustadt.xml">🍱 feed/inetmenue_dbrs-neustadt.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_dbrs-neustadt.xml">🈺 meta/inetmenue_dbrs-neustadt.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/today/inetmenue_dbrs-neustadt.xml">🍱 today/inetmenue_dbrs-neustadt.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_deining.xml">🍱 feed/inetmenue_deining.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_deining.xml">🈺 meta/inetmenue_deining.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/today/inetmenue_deining.xml">🍱 today/inetmenue_deining.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_deso.xml">🍱 feed/inetmenue_deso.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_deso.xml">🈺 meta/inetmenue_deso.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/today/inetmenue_deso.xml">🍱 today/inetmenue_deso.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_dg-n.xml">🍱 feed/inetmenue_dg-n.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_dg-n.xml">🈺 meta/inetmenue_dg-n.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/today/inetmenue_dg-n.xml">🍱 today/inetmenue_dg-n.xml</a></li>
@@ -754,9 +404,6 @@ RuntimeError: OOPS
   <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_essen-jugendsozialwerk.xml">🍱 feed/inetmenue_essen-jugendsozialwerk.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_essen-jugendsozialwerk.xml">🈺 meta/inetmenue_essen-jugendsozialwerk.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/today/inetmenue_essen-jugendsozialwerk.xml">🍱 today/inetmenue_essen-jugendsozialwerk.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_ets.xml">🍱 feed/inetmenue_ets.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_ets.xml">🈺 meta/inetmenue_ets.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/today/inetmenue_ets.xml">🍱 today/inetmenue_ets.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_evb-wipperfuerth.xml">🍱 feed/inetmenue_evb-wipperfuerth.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_evb-wipperfuerth.xml">🈺 meta/inetmenue_evb-wipperfuerth.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/today/inetmenue_evb-wipperfuerth.xml">🍱 today/inetmenue_evb-wipperfuerth.xml</a></li>
@@ -892,9 +539,6 @@ RuntimeError: OOPS
   <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_gs-s.xml">🍱 feed/inetmenue_gs-s.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_gs-s.xml">🈺 meta/inetmenue_gs-s.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/today/inetmenue_gs-s.xml">🍱 today/inetmenue_gs-s.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_gs-schulenburg.xml">🍱 feed/inetmenue_gs-schulenburg.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_gs-schulenburg.xml">🈺 meta/inetmenue_gs-schulenburg.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/today/inetmenue_gs-schulenburg.xml">🍱 today/inetmenue_gs-schulenburg.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_gs-suedblanke-nordhorn.xml">🍱 feed/inetmenue_gs-suedblanke-nordhorn.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_gs-suedblanke-nordhorn.xml">🈺 meta/inetmenue_gs-suedblanke-nordhorn.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/today/inetmenue_gs-suedblanke-nordhorn.xml">🍱 today/inetmenue_gs-suedblanke-nordhorn.xml</a></li>
@@ -910,9 +554,6 @@ RuntimeError: OOPS
   <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_gsadelheidsdorf.xml">🍱 feed/inetmenue_gsadelheidsdorf.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_gsadelheidsdorf.xml">🈺 meta/inetmenue_gsadelheidsdorf.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/today/inetmenue_gsadelheidsdorf.xml">🍱 today/inetmenue_gsadelheidsdorf.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_gsg-roethenbach.xml">🍱 feed/inetmenue_gsg-roethenbach.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_gsg-roethenbach.xml">🈺 meta/inetmenue_gsg-roethenbach.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/today/inetmenue_gsg-roethenbach.xml">🍱 today/inetmenue_gsg-roethenbach.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_gsl.xml">🍱 feed/inetmenue_gsl.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_gsl.xml">🈺 meta/inetmenue_gsl.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/today/inetmenue_gsl.xml">🍱 today/inetmenue_gsl.xml</a></li>
@@ -949,9 +590,6 @@ RuntimeError: OOPS
   <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_gym-hoki.xml">🍱 feed/inetmenue_gym-hoki.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_gym-hoki.xml">🈺 meta/inetmenue_gym-hoki.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/today/inetmenue_gym-hoki.xml">🍱 today/inetmenue_gym-hoki.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_gym-neu.xml">🍱 feed/inetmenue_gym-neu.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_gym-neu.xml">🈺 meta/inetmenue_gym-neu.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/today/inetmenue_gym-neu.xml">🍱 today/inetmenue_gym-neu.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_gym-oberasbach.xml">🍱 feed/inetmenue_gym-oberasbach.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_gym-oberasbach.xml">🈺 meta/inetmenue_gym-oberasbach.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/today/inetmenue_gym-oberasbach.xml">🍱 today/inetmenue_gym-oberasbach.xml</a></li>
@@ -973,9 +611,7 @@ RuntimeError: OOPS
   <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_gymnasium-fuessen.xml">🍱 feed/inetmenue_gymnasium-fuessen.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_gymnasium-fuessen.xml">🈺 meta/inetmenue_gymnasium-fuessen.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/today/inetmenue_gymnasium-fuessen.xml">🍱 today/inetmenue_gymnasium-fuessen.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_gymnasium-gruenwald.xml">🍱 feed/inetmenue_gymnasium-gruenwald.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_gymnasium-gruenwald.xml">🈺 meta/inetmenue_gymnasium-gruenwald.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/today/inetmenue_gymnasium-gruenwald.xml">🍱 today/inetmenue_gymnasium-gruenwald.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_gymnasium-stein.xml">🍱 feed/inetmenue_gymnasium-stein.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_gymnasium-stein.xml">🈺 meta/inetmenue_gymnasium-stein.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/today/inetmenue_gymnasium-stein.xml">🍱 today/inetmenue_gymnasium-stein.xml</a></li>
@@ -1012,9 +648,6 @@ RuntimeError: OOPS
   <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_hs-paf.xml">🍱 feed/inetmenue_hs-paf.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_hs-paf.xml">🈺 meta/inetmenue_hs-paf.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/today/inetmenue_hs-paf.xml">🍱 today/inetmenue_hs-paf.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_hsdkb.xml">🍱 feed/inetmenue_hsdkb.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_hsdkb.xml">🈺 meta/inetmenue_hsdkb.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/today/inetmenue_hsdkb.xml">🍱 today/inetmenue_hsdkb.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_hsg-n.xml">🍱 feed/inetmenue_hsg-n.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_hsg-n.xml">🈺 meta/inetmenue_hsg-n.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/today/inetmenue_hsg-n.xml">🍱 today/inetmenue_hsg-n.xml</a></li>
@@ -1024,9 +657,6 @@ RuntimeError: OOPS
   <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_humboldt-gymnasium-ka.xml">🍱 feed/inetmenue_humboldt-gymnasium-ka.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_humboldt-gymnasium-ka.xml">🈺 meta/inetmenue_humboldt-gymnasium-ka.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/today/inetmenue_humboldt-gymnasium-ka.xml">🍱 today/inetmenue_humboldt-gymnasium-ka.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_humboldt-solingen.xml">🍱 feed/inetmenue_humboldt-solingen.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_humboldt-solingen.xml">🈺 meta/inetmenue_humboldt-solingen.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/today/inetmenue_humboldt-solingen.xml">🍱 today/inetmenue_humboldt-solingen.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_humboldtgymnasium.xml">🍱 feed/inetmenue_humboldtgymnasium.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_humboldtgymnasium.xml">🈺 meta/inetmenue_humboldtgymnasium.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/today/inetmenue_humboldtgymnasium.xml">🍱 today/inetmenue_humboldtgymnasium.xml</a></li>
@@ -1039,9 +669,6 @@ RuntimeError: OOPS
   <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_ikg-landsberg.xml">🍱 feed/inetmenue_ikg-landsberg.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_ikg-landsberg.xml">🈺 meta/inetmenue_ikg-landsberg.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/today/inetmenue_ikg-landsberg.xml">🍱 today/inetmenue_ikg-landsberg.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_iks-gym-antonianum.xml">🍱 feed/inetmenue_iks-gym-antonianum.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_iks-gym-antonianum.xml">🈺 meta/inetmenue_iks-gym-antonianum.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/today/inetmenue_iks-gym-antonianum.xml">🍱 today/inetmenue_iks-gym-antonianum.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_jahnschule-suro.xml">🍱 feed/inetmenue_jahnschule-suro.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_jahnschule-suro.xml">🈺 meta/inetmenue_jahnschule-suro.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/today/inetmenue_jahnschule-suro.xml">🍱 today/inetmenue_jahnschule-suro.xml</a></li>
@@ -1138,9 +765,6 @@ RuntimeError: OOPS
   <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_lindenberg.xml">🍱 feed/inetmenue_lindenberg.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_lindenberg.xml">🈺 meta/inetmenue_lindenberg.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/today/inetmenue_lindenberg.xml">🍱 today/inetmenue_lindenberg.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_lingg.xml">🍱 feed/inetmenue_lingg.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_lingg.xml">🈺 meta/inetmenue_lingg.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/today/inetmenue_lingg.xml">🍱 today/inetmenue_lingg.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_ludwig-povel-schule-nordhorn.xml">🍱 feed/inetmenue_ludwig-povel-schule-nordhorn.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_ludwig-povel-schule-nordhorn.xml">🈺 meta/inetmenue_ludwig-povel-schule-nordhorn.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/today/inetmenue_ludwig-povel-schule-nordhorn.xml">🍱 today/inetmenue_ludwig-povel-schule-nordhorn.xml</a></li>
@@ -1321,12 +945,6 @@ RuntimeError: OOPS
   <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_pmhg.xml">🍱 feed/inetmenue_pmhg.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_pmhg.xml">🈺 meta/inetmenue_pmhg.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/today/inetmenue_pmhg.xml">🍱 today/inetmenue_pmhg.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_ppg-hersbruck.xml">🍱 feed/inetmenue_ppg-hersbruck.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_ppg-hersbruck.xml">🈺 meta/inetmenue_ppg-hersbruck.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/today/inetmenue_ppg-hersbruck.xml">🍱 today/inetmenue_ppg-hersbruck.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_pprgym.xml">🍱 feed/inetmenue_pprgym.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_pprgym.xml">🈺 meta/inetmenue_pprgym.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/today/inetmenue_pprgym.xml">🍱 today/inetmenue_pprgym.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_propsteischule.xml">🍱 feed/inetmenue_propsteischule.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_propsteischule.xml">🈺 meta/inetmenue_propsteischule.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/today/inetmenue_propsteischule.xml">🍱 today/inetmenue_propsteischule.xml</a></li>
@@ -1426,21 +1044,12 @@ RuntimeError: OOPS
   <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_schulestellerstrasse.xml">🍱 feed/inetmenue_schulestellerstrasse.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_schulestellerstrasse.xml">🈺 meta/inetmenue_schulestellerstrasse.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/today/inetmenue_schulestellerstrasse.xml">🍱 today/inetmenue_schulestellerstrasse.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_schulkueche-elsterberg.xml">🍱 feed/inetmenue_schulkueche-elsterberg.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_schulkueche-elsterberg.xml">🈺 meta/inetmenue_schulkueche-elsterberg.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/today/inetmenue_schulkueche-elsterberg.xml">🍱 today/inetmenue_schulkueche-elsterberg.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_schulzentrum-bueren.xml">🍱 feed/inetmenue_schulzentrum-bueren.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_schulzentrum-bueren.xml">🈺 meta/inetmenue_schulzentrum-bueren.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/today/inetmenue_schulzentrum-bueren.xml">🍱 today/inetmenue_schulzentrum-bueren.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_schulzentrum-neureut-ka.xml">🍱 feed/inetmenue_schulzentrum-neureut-ka.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_schulzentrum-neureut-ka.xml">🈺 meta/inetmenue_schulzentrum-neureut-ka.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/today/inetmenue_schulzentrum-neureut-ka.xml">🍱 today/inetmenue_schulzentrum-neureut-ka.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_schulzentrumnaila.xml">🍱 feed/inetmenue_schulzentrumnaila.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_schulzentrumnaila.xml">🈺 meta/inetmenue_schulzentrumnaila.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/today/inetmenue_schulzentrumnaila.xml">🍱 today/inetmenue_schulzentrumnaila.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_schwarmstedt.xml">🍱 feed/inetmenue_schwarmstedt.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_schwarmstedt.xml">🈺 meta/inetmenue_schwarmstedt.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/today/inetmenue_schwarmstedt.xml">🍱 today/inetmenue_schwarmstedt.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_scs.xml">🍱 feed/inetmenue_scs.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_scs.xml">🈺 meta/inetmenue_scs.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/today/inetmenue_scs.xml">🍱 today/inetmenue_scs.xml</a></li>
@@ -1450,12 +1059,6 @@ RuntimeError: OOPS
   <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_sek-lev.xml">🍱 feed/inetmenue_sek-lev.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_sek-lev.xml">🈺 meta/inetmenue_sek-lev.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/today/inetmenue_sek-lev.xml">🍱 today/inetmenue_sek-lev.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_sek-radevormwald.xml">🍱 feed/inetmenue_sek-radevormwald.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_sek-radevormwald.xml">🈺 meta/inetmenue_sek-radevormwald.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/today/inetmenue_sek-radevormwald.xml">🍱 today/inetmenue_sek-radevormwald.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_sek-warstein.xml">🍱 feed/inetmenue_sek-warstein.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_sek-warstein.xml">🈺 meta/inetmenue_sek-warstein.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/today/inetmenue_sek-warstein.xml">🍱 today/inetmenue_sek-warstein.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_sek-wk.xml">🍱 feed/inetmenue_sek-wk.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_sek-wk.xml">🈺 meta/inetmenue_sek-wk.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/today/inetmenue_sek-wk.xml">🍱 today/inetmenue_sek-wk.xml</a></li>
@@ -1522,9 +1125,6 @@ RuntimeError: OOPS
   <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_vmg.xml">🍱 feed/inetmenue_vmg.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_vmg.xml">🈺 meta/inetmenue_vmg.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/today/inetmenue_vmg.xml">🍱 today/inetmenue_vmg.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_vogelsang-solingen.xml">🍱 feed/inetmenue_vogelsang-solingen.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_vogelsang-solingen.xml">🈺 meta/inetmenue_vogelsang-solingen.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/today/inetmenue_vogelsang-solingen.xml">🍱 today/inetmenue_vogelsang-solingen.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_vorwerk-celle.xml">🍱 feed/inetmenue_vorwerk-celle.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_vorwerk-celle.xml">🈺 meta/inetmenue_vorwerk-celle.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/today/inetmenue_vorwerk-celle.xml">🍱 today/inetmenue_vorwerk-celle.xml</a></li>
