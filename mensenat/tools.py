@@ -3,8 +3,12 @@ import re
 import datetime
 import logging
 import textwrap
+import ssl
 
 import requests
+from requests.adapters import HTTPAdapter
+from requests.packages.urllib3.poolmanager import PoolManager
+from requests.packages.urllib3.util import ssl_
 from bs4 import BeautifulSoup
 
 try:
@@ -54,6 +58,27 @@ imageLegend = {
 roles = ('student', )
 
 
+class OldInsecureWebsiteAdapter(HTTPAdapter):
+    """
+    Taken from https://stackoverflow.com/a/51713352/
+    """
+    def __init__(self, **kwargs):
+        super(OldInsecureWebsiteAdapter, self).__init__(**kwargs)
+    def init_poolmanager(self, *pool_args, **pool_kwargs):
+        """
+        Add a supported protocal and cipher
+        """
+        context = ssl_.create_urllib3_context(ssl.PROTOCOL_TLSv1_2, ciphers="AES256-SHA")
+
+        """
+        Exclude all other protocols
+        """
+        context.options |= ssl.OP_NO_TLSv1 | ssl.OP_NO_TLSv1_3
+        context.options |= ssl.OP_NO_SSLv3 | ssl.OP_NO_SSLv2
+
+        self.poolmanager = PoolManager(*pool_args, ssl_context=context, **pool_kwargs)
+
+
 def askMensenAt(mensaId=None):
     """
     Fetch raw data from mensen.at
@@ -61,7 +86,12 @@ def askMensenAt(mensaId=None):
     cookies = {}
     if mensaId is not None:
         cookies['mensenExtLocation'] = str(mensaId)
-    return s.get(url, cookies=cookies)
+    try:
+        return s.get(url, cookies=cookies)
+    except requests.exceptions.SSLError as e:
+        logging.warning("Connect with OldInsecureWebsiteAdapter", e)
+        s.mount(url, OldInsecureWebsiteAdapter())
+        return s.get(url, cookies=cookies)
 
 
 def getMenu(mensaId):
