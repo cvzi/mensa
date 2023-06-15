@@ -55,7 +55,7 @@ class Parser:
                     return (price['price'], price['price'], price['price'])
                 if 'stu' in price and 'bed' in price and 'gas' in price:
                     return (price['stu'], price['bed'], price['gas'])
-                if 'stu' in price :
+                if 'stu' in price:
                     return (price['stu'], price['stu'], price['stu'])
         return ("5,55 €", "5,55 €", "5,55 €")
 
