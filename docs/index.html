@@ -38,55 +38,45 @@
     <main>
       <article>Parser for <a target="_blank" href="https://openmensa.org">openmensa.org</a>. The parser runs in a <a target="_blank" title="What's a Github action?" href="https://docs.github.com/en/actions">Github action<sup>❓</sup></a> and pushes the XML feeds to this page</article>
       <article><h3><a href="https://github.com/cvzi/mensa/actions/">🗿 Parser status</a></h3>
-<pre>kaiserslautern/hszw:
+<pre>mensenat:
 Traceback (most recent call last):
-  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 145, in updateFeeds
-    content = getattr(parser, feedMethod)(
-  File "/home/runner/work/mensa/mensa/kaiserslautern/__init__.py", line 90, in feed
-    prices = self._get_price(meal)
-  File "/home/runner/work/mensa/mensa/kaiserslautern/__init__.py", line 57, in _get_price
-    return (price['stu'], price['bed'], price['gas'])
-KeyError: 'stu'
-
-mensenat:
-Traceback (most recent call last):
-  File "/opt/hostedtoolcache/Python/3.10.11/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 467, in _make_request
+  File "/opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 467, in _make_request
     self._validate_conn(conn)
-  File "/opt/hostedtoolcache/Python/3.10.11/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1092, in _validate_conn
+  File "/opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1092, in _validate_conn
     conn.connect()
-  File "/opt/hostedtoolcache/Python/3.10.11/x64/lib/python3.10/site-packages/urllib3/connection.py", line 635, in connect
+  File "/opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/site-packages/urllib3/connection.py", line 635, in connect
     sock_and_verified = _ssl_wrap_socket_and_match_hostname(
-  File "/opt/hostedtoolcache/Python/3.10.11/x64/lib/python3.10/site-packages/urllib3/connection.py", line 776, in _ssl_wrap_socket_and_match_hostname
+  File "/opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/site-packages/urllib3/connection.py", line 776, in _ssl_wrap_socket_and_match_hostname
     ssl_sock = ssl_wrap_socket(
-  File "/opt/hostedtoolcache/Python/3.10.11/x64/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 466, in ssl_wrap_socket
+  File "/opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 466, in ssl_wrap_socket
     ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
-  File "/opt/hostedtoolcache/Python/3.10.11/x64/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 510, in _ssl_wrap_socket_impl
+  File "/opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/site-packages/urllib3/util/ssl_.py", line 510, in _ssl_wrap_socket_impl
     return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
-  File "/opt/hostedtoolcache/Python/3.10.11/x64/lib/python3.10/ssl.py", line 513, in wrap_socket
+  File "/opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/ssl.py", line 513, in wrap_socket
     return self.sslsocket_class._create(
-  File "/opt/hostedtoolcache/Python/3.10.11/x64/lib/python3.10/ssl.py", line 1071, in _create
+  File "/opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/ssl.py", line 1071, in _create
     self.do_handshake()
-  File "/opt/hostedtoolcache/Python/3.10.11/x64/lib/python3.10/ssl.py", line 1342, in do_handshake
+  File "/opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/ssl.py", line 1342, in do_handshake
     self._sslobj.do_handshake()
 ssl.SSLError: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1007)
 
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "/opt/hostedtoolcache/Python/3.10.11/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 790, in urlopen
+  File "/opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 790, in urlopen
     response = self._make_request(
-  File "/opt/hostedtoolcache/Python/3.10.11/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 491, in _make_request
+  File "/opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 491, in _make_request
     raise new_e
 urllib3.exceptions.SSLError: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1007)
 
 The above exception was the direct cause of the following exception:
 
 Traceback (most recent call last):
-  File "/opt/hostedtoolcache/Python/3.10.11/x64/lib/python3.10/site-packages/requests/adapters.py", line 486, in send
+  File "/opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/site-packages/requests/adapters.py", line 486, in send
     resp = conn.urlopen(
-  File "/opt/hostedtoolcache/Python/3.10.11/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 844, in urlopen
+  File "/opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 844, in urlopen
     retries = retries.increment(
-  File "/opt/hostedtoolcache/Python/3.10.11/x64/lib/python3.10/site-packages/urllib3/util/retry.py", line 515, in increment
+  File "/opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/site-packages/urllib3/util/retry.py", line 515, in increment
     raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
 urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.mensen.at', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1007)')))
 
@@ -103,13 +93,13 @@ Traceback (most recent call last):
     r = askMensenAt(mensaId=mensaId)
   File "/home/runner/work/mensa/mensa/mensenat/tools.py", line 64, in askMensenAt
     return s.get(url, cookies=cookies)
-  File "/opt/hostedtoolcache/Python/3.10.11/x64/lib/python3.10/site-packages/requests/sessions.py", line 602, in get
+  File "/opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/site-packages/requests/sessions.py", line 602, in get
     return self.request("GET", url, **kwargs)
-  File "/opt/hostedtoolcache/Python/3.10.11/x64/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+  File "/opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
     resp = self.send(prep, **send_kwargs)
-  File "/opt/hostedtoolcache/Python/3.10.11/x64/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+  File "/opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
     r = adapter.send(request, **kwargs)
-  File "/opt/hostedtoolcache/Python/3.10.11/x64/lib/python3.10/site-packages/requests/adapters.py", line 517, in send
+  File "/opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/site-packages/requests/adapters.py", line 517, in send
     raise SSLError(e, request=request)
 requests.exceptions.SSLError: HTTPSConnectionPool(host='www.mensen.at', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1007)')))
 
@@ -121,9 +111,12 @@ Traceback (most recent call last):
     return self.feed_all(ref, get_next_week=False)
   File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
     next_week_path = self.parseMeals(ref, builder, resp.text)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 85, in parseMeals
-    raise RuntimeError("Unknown page structure")
-RuntimeError: Unknown page structure
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
+    raise RuntimeError(oops.text.strip())
+RuntimeError: OOPS
+
+                        da hat sich wohl der
+                        Fehlerteufel eingeschlichen.
 
 inetmenue/altstadt-celle:
 Traceback (most recent call last):
@@ -133,9 +126,12 @@ Traceback (most recent call last):
     return self.feed_all(ref, get_next_week=False)
   File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
     next_week_path = self.parseMeals(ref, builder, resp.text)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 85, in parseMeals
-    raise RuntimeError("Unknown page structure")
-RuntimeError: Unknown page structure
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
+    raise RuntimeError(oops.text.strip())
+RuntimeError: OOPS
+
+                        da hat sich wohl der
+                        Fehlerteufel eingeschlichen.
 
 inetmenue/antonianum:
 Traceback (most recent call last):
@@ -145,9 +141,9 @@ Traceback (most recent call last):
     return self.feed_all(ref, get_next_week=False)
   File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
     next_week_path = self.parseMeals(ref, builder, resp.text)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 85, in parseMeals
-    raise RuntimeError("Unknown page structure")
-RuntimeError: Unknown page structure
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 87, in parseMeals
+    raise RuntimeError(h1.text.strip())
+RuntimeError: 403 | Zugriff verweigert
 
 inetmenue/cfs:
 Traceback (most recent call last):
@@ -157,9 +153,12 @@ Traceback (most recent call last):
     return self.feed_all(ref, get_next_week=False)
   File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
     next_week_path = self.parseMeals(ref, builder, resp.text)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 85, in parseMeals
-    raise RuntimeError("Unknown page structure")
-RuntimeError: Unknown page structure
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
+    raise RuntimeError(oops.text.strip())
+RuntimeError: OOPS
+
+                        da hat sich wohl der
+                        Fehlerteufel eingeschlichen.
 
 inetmenue/cjt-lauf:
 Traceback (most recent call last):
@@ -169,9 +168,12 @@ Traceback (most recent call last):
     return self.feed_all(ref, get_next_week=False)
   File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
     next_week_path = self.parseMeals(ref, builder, resp.text)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 85, in parseMeals
-    raise RuntimeError("Unknown page structure")
-RuntimeError: Unknown page structure
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
+    raise RuntimeError(oops.text.strip())
+RuntimeError: OOPS
+
+                        da hat sich wohl der
+                        Fehlerteufel eingeschlichen.
 
 inetmenue/dbgwiehl:
 Traceback (most recent call last):
@@ -181,9 +183,12 @@ Traceback (most recent call last):
     return self.feed_all(ref, get_next_week=False)
   File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
     next_week_path = self.parseMeals(ref, builder, resp.text)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 85, in parseMeals
-    raise RuntimeError("Unknown page structure")
-RuntimeError: Unknown page structure
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
+    raise RuntimeError(oops.text.strip())
+RuntimeError: OOPS
+
+                        da hat sich wohl der
+                        Fehlerteufel eingeschlichen.
 
 inetmenue/deso:
 Traceback (most recent call last):
@@ -193,9 +198,12 @@ Traceback (most recent call last):
     return self.feed_all(ref, get_next_week=False)
   File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
     next_week_path = self.parseMeals(ref, builder, resp.text)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 85, in parseMeals
-    raise RuntimeError("Unknown page structure")
-RuntimeError: Unknown page structure
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
+    raise RuntimeError(oops.text.strip())
+RuntimeError: OOPS
+
+                        da hat sich wohl der
+                        Fehlerteufel eingeschlichen.
 
 inetmenue/ets:
 Traceback (most recent call last):
@@ -205,9 +213,12 @@ Traceback (most recent call last):
     return self.feed_all(ref, get_next_week=False)
   File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
     next_week_path = self.parseMeals(ref, builder, resp.text)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 85, in parseMeals
-    raise RuntimeError("Unknown page structure")
-RuntimeError: Unknown page structure
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
+    raise RuntimeError(oops.text.strip())
+RuntimeError: OOPS
+
+                        da hat sich wohl der
+                        Fehlerteufel eingeschlichen.
 
 inetmenue/gs-schulenburg:
 Traceback (most recent call last):
@@ -217,9 +228,12 @@ Traceback (most recent call last):
     return self.feed_all(ref, get_next_week=False)
   File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
     next_week_path = self.parseMeals(ref, builder, resp.text)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 85, in parseMeals
-    raise RuntimeError("Unknown page structure")
-RuntimeError: Unknown page structure
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
+    raise RuntimeError(oops.text.strip())
+RuntimeError: OOPS
+
+                        da hat sich wohl der
+                        Fehlerteufel eingeschlichen.
 
 inetmenue/gsg-roethenbach:
 Traceback (most recent call last):
@@ -229,9 +243,12 @@ Traceback (most recent call last):
     return self.feed_all(ref, get_next_week=False)
   File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
     next_week_path = self.parseMeals(ref, builder, resp.text)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 85, in parseMeals
-    raise RuntimeError("Unknown page structure")
-RuntimeError: Unknown page structure
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
+    raise RuntimeError(oops.text.strip())
+RuntimeError: OOPS
+
+                        da hat sich wohl der
+                        Fehlerteufel eingeschlichen.
 
 inetmenue/gym-neu:
 Traceback (most recent call last):
@@ -241,9 +258,12 @@ Traceback (most recent call last):
     return self.feed_all(ref, get_next_week=False)
   File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
     next_week_path = self.parseMeals(ref, builder, resp.text)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 85, in parseMeals
-    raise RuntimeError("Unknown page structure")
-RuntimeError: Unknown page structure
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
+    raise RuntimeError(oops.text.strip())
+RuntimeError: OOPS
+
+                        da hat sich wohl der
+                        Fehlerteufel eingeschlichen.
 
 inetmenue/gymnasium-gruenwald:
 Traceback (most recent call last):
@@ -253,9 +273,9 @@ Traceback (most recent call last):
     return self.feed_all(ref, get_next_week=False)
   File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
     next_week_path = self.parseMeals(ref, builder, resp.text)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 85, in parseMeals
-    raise RuntimeError("Unknown page structure")
-RuntimeError: Unknown page structure
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 87, in parseMeals
+    raise RuntimeError(h1.text.strip())
+RuntimeError: 403 | Zugriff verweigert
 
 inetmenue/hsdkb:
 Traceback (most recent call last):
@@ -265,9 +285,12 @@ Traceback (most recent call last):
     return self.feed_all(ref, get_next_week=False)
   File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
     next_week_path = self.parseMeals(ref, builder, resp.text)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 85, in parseMeals
-    raise RuntimeError("Unknown page structure")
-RuntimeError: Unknown page structure
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
+    raise RuntimeError(oops.text.strip())
+RuntimeError: OOPS
+
+                        da hat sich wohl der
+                        Fehlerteufel eingeschlichen.
 
 inetmenue/humboldt-solingen:
 Traceback (most recent call last):
@@ -277,9 +300,12 @@ Traceback (most recent call last):
     return self.feed_all(ref, get_next_week=False)
   File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
     next_week_path = self.parseMeals(ref, builder, resp.text)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 85, in parseMeals
-    raise RuntimeError("Unknown page structure")
-RuntimeError: Unknown page structure
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
+    raise RuntimeError(oops.text.strip())
+RuntimeError: OOPS
+
+                        da hat sich wohl der
+                        Fehlerteufel eingeschlichen.
 
 inetmenue/iks-gym-antonianum:
 Traceback (most recent call last):
@@ -289,9 +315,12 @@ Traceback (most recent call last):
     return self.feed_all(ref, get_next_week=False)
   File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
     next_week_path = self.parseMeals(ref, builder, resp.text)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 85, in parseMeals
-    raise RuntimeError("Unknown page structure")
-RuntimeError: Unknown page structure
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
+    raise RuntimeError(oops.text.strip())
+RuntimeError: OOPS
+
+                        da hat sich wohl der
+                        Fehlerteufel eingeschlichen.
 
 inetmenue/lingg:
 Traceback (most recent call last):
@@ -301,9 +330,12 @@ Traceback (most recent call last):
     return self.feed_all(ref, get_next_week=False)
   File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
     next_week_path = self.parseMeals(ref, builder, resp.text)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 85, in parseMeals
-    raise RuntimeError("Unknown page structure")
-RuntimeError: Unknown page structure
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
+    raise RuntimeError(oops.text.strip())
+RuntimeError: OOPS
+
+                        da hat sich wohl der
+                        Fehlerteufel eingeschlichen.
 
 inetmenue/ppg-hersbruck:
 Traceback (most recent call last):
@@ -313,9 +345,12 @@ Traceback (most recent call last):
     return self.feed_all(ref, get_next_week=False)
   File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
     next_week_path = self.parseMeals(ref, builder, resp.text)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 85, in parseMeals
-    raise RuntimeError("Unknown page structure")
-RuntimeError: Unknown page structure
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
+    raise RuntimeError(oops.text.strip())
+RuntimeError: OOPS
+
+                        da hat sich wohl der
+                        Fehlerteufel eingeschlichen.
 
 inetmenue/pprgym:
 Traceback (most recent call last):
@@ -325,9 +360,12 @@ Traceback (most recent call last):
     return self.feed_all(ref, get_next_week=False)
   File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
     next_week_path = self.parseMeals(ref, builder, resp.text)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 85, in parseMeals
-    raise RuntimeError("Unknown page structure")
-RuntimeError: Unknown page structure
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
+    raise RuntimeError(oops.text.strip())
+RuntimeError: OOPS
+
+                        da hat sich wohl der
+                        Fehlerteufel eingeschlichen.
 
 inetmenue/schulkueche-elsterberg:
 Traceback (most recent call last):
@@ -337,9 +375,12 @@ Traceback (most recent call last):
     return self.feed_all(ref, get_next_week=False)
   File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
     next_week_path = self.parseMeals(ref, builder, resp.text)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 85, in parseMeals
-    raise RuntimeError("Unknown page structure")
-RuntimeError: Unknown page structure
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
+    raise RuntimeError(oops.text.strip())
+RuntimeError: OOPS
+
+                        da hat sich wohl der
+                        Fehlerteufel eingeschlichen.
 
 inetmenue/schulzentrum-bueren:
 Traceback (most recent call last):
@@ -349,9 +390,12 @@ Traceback (most recent call last):
     return self.feed_all(ref, get_next_week=False)
   File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
     next_week_path = self.parseMeals(ref, builder, resp.text)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 85, in parseMeals
-    raise RuntimeError("Unknown page structure")
-RuntimeError: Unknown page structure
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
+    raise RuntimeError(oops.text.strip())
+RuntimeError: OOPS
+
+                        da hat sich wohl der
+                        Fehlerteufel eingeschlichen.
 
 inetmenue/schwarmstedt:
 Traceback (most recent call last):
@@ -361,9 +405,12 @@ Traceback (most recent call last):
     return self.feed_all(ref, get_next_week=False)
   File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
     next_week_path = self.parseMeals(ref, builder, resp.text)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 85, in parseMeals
-    raise RuntimeError("Unknown page structure")
-RuntimeError: Unknown page structure
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
+    raise RuntimeError(oops.text.strip())
+RuntimeError: OOPS
+
+                        da hat sich wohl der
+                        Fehlerteufel eingeschlichen.
 
 inetmenue/sek-radevormwald:
 Traceback (most recent call last):
@@ -373,9 +420,12 @@ Traceback (most recent call last):
     return self.feed_all(ref, get_next_week=False)
   File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
     next_week_path = self.parseMeals(ref, builder, resp.text)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 85, in parseMeals
-    raise RuntimeError("Unknown page structure")
-RuntimeError: Unknown page structure
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
+    raise RuntimeError(oops.text.strip())
+RuntimeError: OOPS
+
+                        da hat sich wohl der
+                        Fehlerteufel eingeschlichen.
 
 inetmenue/sek-warstein:
 Traceback (most recent call last):
@@ -385,9 +435,12 @@ Traceback (most recent call last):
     return self.feed_all(ref, get_next_week=False)
   File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
     next_week_path = self.parseMeals(ref, builder, resp.text)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 85, in parseMeals
-    raise RuntimeError("Unknown page structure")
-RuntimeError: Unknown page structure
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
+    raise RuntimeError(oops.text.strip())
+RuntimeError: OOPS
+
+                        da hat sich wohl der
+                        Fehlerteufel eingeschlichen.
 
 inetmenue/vogelsang-solingen:
 Traceback (most recent call last):
@@ -397,9 +450,12 @@ Traceback (most recent call last):
     return self.feed_all(ref, get_next_week=False)
   File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
     next_week_path = self.parseMeals(ref, builder, resp.text)
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 85, in parseMeals
-    raise RuntimeError("Unknown page structure")
-RuntimeError: Unknown page structure
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
+    raise RuntimeError(oops.text.strip())
+RuntimeError: OOPS
+
+                        da hat sich wohl der
+                        Fehlerteufel eingeschlichen.
 </pre></article>
       <article>
 <ol style="list-style-type:none">

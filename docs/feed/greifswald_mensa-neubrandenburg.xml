@@ -8,7 +8,6 @@
         <meal>
           <name>Vegan: Grüne Erbsensuppe mit Minze, Teller</name>
           <note>Glutenhaltiges Getreide</note>
-          <note>Milch/Milchzucker (Laktose)</note>
           <note>Sellerie und daraus hergestellte Erzeugnisse</note>
           <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
           <note>geschwefelt</note>
@@ -30,9 +29,7 @@
         <meal>
           <name>Vegan: Grüne Erbsensuppe mit Minze, Terriene</name>
           <note>Glutenhaltiges Getreide</note>
-          <note>Milch/Milchzucker (Laktose)</note>
           <note>Sellerie und daraus hergestellte Erzeugnisse</note>
-          <note>Sesamsamen und daraus hergestellte Erzeugnisse</note>
           <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
           <note>geschwefelt</note>
           <note>mit Farbstoff</note>
@@ -43,7 +40,7 @@
       </category>
       <category name="Komponente 1">
         <meal>
-          <name>Doradenfilet  
+          <name>Dorade  
  mit Basilikum-Zitronensoße</name>
           <note>Fische und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
@@ -73,7 +70,7 @@
       </category>
       <category name="Mensa Vital">
         <meal>
-          <name>Süßkartoffelpuffer-Puffer mit Mango-Senf-Dip</name>
+          <name>Süßkartoffel-Puffer mit Mango-Senf-Dip</name>
           <note>Eier und daraus hergestellte Erzeugnisse</note>
           <note>Milch/Milchzucker (Laktose)</note>
           <note>Senf und daraus hergestellte Erzeugnisse</note>
@@ -92,9 +89,23 @@
           <price role="student">0.70</price>
         </meal>
         <meal>
-          <name>Kartoffelkroketten</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <name>Reis</name>
           <note>jodiertes Salz</note>
+          <price role="employee">1.00</price>
+          <price role="other">1.40</price>
+          <price role="student">0.70</price>
+        </meal>
+        <meal>
+          <name>Kartoffelsalat</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
+          <note>geschwefelt</note>
+          <note>jodiertes Salz</note>
+          <note>mit Antioxidationsmittel</note>
+          <note>mit Farbstoff</note>
+          <note>mit Süßungsmittel</note>
           <price role="employee">1.30</price>
           <price role="other">1.70</price>
           <price role="student">1.00</price>
@@ -140,7 +151,7 @@
       </category>
       <category name="Vegetarisch oder Vegan">
         <meal>
-          <name>Chili sin Carne mit Kräuterreis</name>
+          <name>Vegan: Chili sin Carne mit Kräuterreis</name>
           <note>Glutenhaltiges Getreide</note>
           <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
           <note>jodiertes Salz</note>
@@ -162,6 +173,17 @@
           <price role="student">2.70</price>
         </meal>
       </category>
+      <category name="Pasta nach Gewicht (pro 100g)">
+        <meal>
+          <name>Vegan: Gabelspaghetti mit Gemüse-Tomatensauce</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>jodiertes Salz</note>
+          <price role="employee">0.90</price>
+          <price role="other">1.20</price>
+          <price role="student">0.60</price>
+        </meal>
+      </category>
       <category name="Beilagen">
         <meal>
           <name>Reis</name>
@@ -171,16 +193,8 @@
           <price role="student">0.70</price>
         </meal>
         <meal>
-          <name>Kartoffelspalten</name>
-          <note>Glutenhaltiges Getreide</note>
-          <price role="employee">1.30</price>
-          <price role="other">1.70</price>
-          <price role="student">1.00</price>
-        </meal>
-        <meal>
-          <name>Spätzle</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
-          <note>Glutenhaltiges Getreide</note>
+          <name>Rosmarinkartoffeln</name>
+          <note>mit Farbstoff</note>
           <price role="employee">1.30</price>
           <price role="other">1.70</price>
           <price role="student">1.00</price>
@@ -343,7 +357,7 @@
           <price role="student">2.25</price>
         </meal>
       </category>
-      <category name="Komponente 3">
+      <category name="Komponente 2">
         <meal>
           <name>Köttbullar  
  mit Rahmsauce  oder Preiselbeermarmelade</name>
@@ -354,9 +368,9 @@
           <note>Schweinefleisch</note>
           <note>jodiertes Salz</note>
           <note>mit Konservierungsstoff</note>
-          <price role="employee">3.10</price>
-          <price role="other">3.95</price>
-          <price role="student">2.25</price>
+          <price role="employee">2.85</price>
+          <price role="other">3.70</price>
+          <price role="student">2.00</price>
         </meal>
       </category>
       <category name="Vegetarisch oder Vegan">
@@ -500,7 +514,7 @@
           <price role="student">2.25</price>
         </meal>
       </category>
-      <category name="Komponente 2">
+      <category name="Komponente 3">
         <meal>
           <name>Frisches Kasselernackensteak  
  mit Basilikum-Pfeffersauce</name>
@@ -510,9 +524,9 @@
           <note>jodiertes Salz</note>
           <note>mit Antioxidationsmittel</note>
           <note>mit Konservierungsstoff</note>
-          <price role="employee">2.85</price>
-          <price role="other">3.70</price>
-          <price role="student">2.00</price>
+          <price role="employee">3.10</price>
+          <price role="other">3.95</price>
+          <price role="student">2.25</price>
         </meal>
       </category>
       <category name="Vegetarisch oder Vegan">
@@ -611,7 +625,7 @@
       <category name="Vegetarisch oder Vegan">
         <meal>
           <name>Vegan: Gemüse-Knusper-Frikadelle  
- Rahm - Gemüse Sauce  Salzkartoffeln</name>
+ mit Rahm-Gemüse Sauce  und Salzkartoffeln</name>
           <note>Glutenhaltiges Getreide</note>
           <note>Sellerie und daraus hergestellte Erzeugnisse</note>
           <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
@@ -725,7 +739,7 @@
       <category name="Vegetarisch oder Vegan">
         <meal>
           <name>Vegan: Frühlingsrolle  
- mit asiatischer Gemüsesoße  Reis</name>
+ mit asiatischer Gemüsesoße  und Reis</name>
           <note>Glutenhaltiges Getreide</note>
           <note>Sellerie und daraus hergestellte Erzeugnisse</note>
           <note>Sesamsamen und daraus hergestellte Erzeugnisse</note>
@@ -804,7 +818,7 @@
       <category name="Vegetarisch oder Vegan">
         <meal>
           <name>3 Kartoffeltaschen  
- Joghurt mit Paprika  und Salatbeilage</name>
+ dazu ein Joghurtdip mit Paprika  und Salatbeilage</name>
           <note>Milch/Milchzucker (Laktose)</note>
           <note>jodiertes Salz</note>
           <price role="employee">3.30</price>
@@ -814,8 +828,8 @@
       </category>
       <category name="Pasta nach Gewicht (pro 100g)">
         <meal>
-          <name>Paprika - Rahmsauce (zu Pasta) Vegan  
- Spiralen</name>
+          <name>Vegan: Spiralen  
+ mit Paprika-Rahmsoße</name>
           <note>Glutenhaltiges Getreide</note>
           <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
           <note>jodiertes Salz</note>
@@ -866,7 +880,7 @@
     <day date="2023-06-28">
       <category name="Tellergericht">
         <meal>
-          <name>vegan: Soljanka Teller</name>
+          <name>Vegan: Soljanka, Teller</name>
           <note>Glutenhaltiges Getreide</note>
           <note>Senf und daraus hergestellte Erzeugnisse</note>
           <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
@@ -878,7 +892,7 @@
           <price role="student">1.50</price>
         </meal>
         <meal>
-          <name>vegan: Soljanka Terrine</name>
+          <name>Vegan: Soljanka, Terrine</name>
           <note>Glutenhaltiges Getreide</note>
           <note>Senf und daraus hergestellte Erzeugnisse</note>
           <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
@@ -974,17 +988,16 @@
     <day date="2023-06-29">
       <category name="Tellergericht">
         <meal>
-          <name>Vegan : Blumenkohlsuppe Teller</name>
+          <name>Vegan: Blumenkohlsuppe, Teller</name>
           <note>Glutenhaltiges Getreide</note>
-          <note>Milch/Milchzucker (Laktose)</note>
-          <note>Sesamsamen und daraus hergestellte Erzeugnisse</note>
           <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
+          <note>jodiertes Salz</note>
           <price role="employee">2.35</price>
           <price role="other">3.30</price>
           <price role="student">1.50</price>
         </meal>
         <meal>
-          <name>Vegan: Blumenkohlsuppe Terrine</name>
+          <name>Vegan: Blumenkohlsuppe, Terrine</name>
           <note>Glutenhaltiges Getreide</note>
           <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
           <note>jodiertes Salz</note>
@@ -1012,7 +1025,7 @@
       </category>
       <category name="Vegetarisch oder Vegan">
         <meal>
-          <name>Bunte Farfalle mit Feldsalatpesto Cherrytomate, Rohkost</name>
+          <name>Bunte Farfalle mit Feldsalatpesto, Cherrytomate und Rohkost</name>
           <note>Glutenhaltiges Getreide</note>
           <note>Milch/Milchzucker (Laktose)</note>
           <note>Schalenfrüchte und daraus hergestellte Erzeugnisse (Mandeln, Haselnuss usw.)</note>
@@ -1026,9 +1039,10 @@
       <category name="Pasta nach Gewicht (pro 100g)">
         <meal>
           <name>Spaghetti  
- Champignon-Sahne-Sauce ( Pastasauce)</name>
+ mit Champignon-Sahne-Sauce</name>
           <note>Glutenhaltiges Getreide</note>
           <note>Milch/Milchzucker (Laktose)</note>
+          <note>jodiertes Salz</note>
           <price role="employee">0.90</price>
           <price role="other">1.20</price>
           <price role="student">0.60</price>
@@ -1096,7 +1110,7 @@
       </category>
       <category name="Komponente 5">
         <meal>
-          <name>2 Jägerschnitten mit Tomatensoße,Nudeln</name>
+          <name>2 Jägerschnitten mit Tomatensoße und Nudeln</name>
           <note>Glutenhaltiges Getreide</note>
           <note>Schweinefleisch</note>
           <note>Senf und daraus hergestellte Erzeugnisse</note>
@@ -1110,11 +1124,13 @@
       </category>
       <category name="Vegetarisch oder Vegan">
         <meal>
-          <name>Vegan:Rosmarinkartoffeln  
-  Sojadip mit Kräuter  Rustikales Pfannengemüse [Blumenkohl, Karotten, Bohnen, Romanesco, Zuckerschoten]</name>
+          <name>Vegan: Rosmarinkartoffeln  
+ dazu ein Sojadip mit Kräuter  und Rustikales Pfannengemüse [Blumenkohl, Karotten, Bohnen, Romanesco, Zuckerschoten]</name>
           <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
+          <note>geschwefelt</note>
           <note>jodiertes Salz</note>
           <note>mit Antioxidationsmittel</note>
+          <note>mit Farbstoff</note>
           <price role="employee">3.30</price>
           <price role="other">4.60</price>
           <price role="student">2.10</price>
