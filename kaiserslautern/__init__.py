@@ -51,10 +51,12 @@ class Parser:
         p_key = meal["dpartname"] + ' ' + meal["artgebname"]
         for k, price in self._price_relations.items():
             if k == p_key:
-                if 'Mittagsmen' in p_key:
+                if 'price' in price:
                     return (price['price'], price['price'], price['price'])
-                else:
+                if 'stu' in price and 'bed' in price and 'gas' in price:
                     return (price['stu'], price['bed'], price['gas'])
+                if 'stu' in price :
+                    return (price['stu'], price['stu'], price['stu'])
         return ("5,55 €", "5,55 €", "5,55 €")
 
     def feed(self, ref: str) -> str:
