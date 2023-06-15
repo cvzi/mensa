@@ -79,9 +79,13 @@ class Parser:
             return self.parseMealsFS(ref, builder, document)
         elif document.find(class_='week_table'):
             return self.parseMealsSF(ref, builder, document)
+        elif document.find(class_='oops'):
+            oops = document.find(class_='oops')
+            raise RuntimeError(oops.text.strip())
+        elif document.select('.page_content h1'):
+            h1 = document.select('.page_content h1')[0]
+            raise RuntimeError(h1.text.strip())
         else:
-            if document.find(class_='oops'):
-                logging.error(document.find(class_='oops').text)
             raise RuntimeError("Unknown page structure")
 
     @staticmethod
