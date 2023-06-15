@@ -62,13 +62,16 @@ class OldInsecureWebsiteAdapter(HTTPAdapter):
     """
     Taken from https://stackoverflow.com/a/51713352/
     """
+
     def __init__(self, **kwargs):
         super(OldInsecureWebsiteAdapter, self).__init__(**kwargs)
+
     def init_poolmanager(self, *pool_args, **pool_kwargs):
         """
         Add a supported protocal and cipher
         """
-        context = ssl_.create_urllib3_context(ssl.PROTOCOL_TLSv1_2, ciphers="AES256-SHA")
+        context = ssl_.create_urllib3_context(
+            ssl.PROTOCOL_TLSv1_2, ciphers="AES256-SHA")
 
         """
         Exclude all other protocols
@@ -76,7 +79,8 @@ class OldInsecureWebsiteAdapter(HTTPAdapter):
         context.options |= ssl.OP_NO_TLSv1 | ssl.OP_NO_TLSv1_3
         context.options |= ssl.OP_NO_SSLv3 | ssl.OP_NO_SSLv2
 
-        self.poolmanager = PoolManager(*pool_args, ssl_context=context, **pool_kwargs)
+        self.poolmanager = PoolManager(
+            *pool_args, ssl_context=context, **pool_kwargs)
 
 
 def askMensenAt(mensaId=None):
