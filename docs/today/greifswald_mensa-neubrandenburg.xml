@@ -3,10 +3,18 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2023-06-21">
+    <day date="2023-06-22">
       <category name="Komponente 1">
         <meal>
-          <name>Hühnerfrikassee mit Gemüse (9,Gefl,G,A,C,F,I,J)</name>
+          <name>Kartoffelsalat mit  
+ Fischfilet in Backteig</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <note>Fische und daraus hergestellte Erzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
+          <note>geschwefelt</note>
+          <note>mit Farbstoff</note>
+          <note>mit Süßungsmittel</note>
           <price role="employee">3.10</price>
           <price role="other">3.95</price>
           <price role="student">2.25</price>
@@ -14,72 +22,60 @@
       </category>
       <category name="Komponente 2">
         <meal>
-          <name>Kohlroulade mit Krautsauce oder  
- Mit Frischkäse gefülltes Hacksteak Croatia</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <name>Bolognese</name>
           <note>Glutenhaltiges Getreide</note>
           <note>Milch/Milchzucker (Laktose)</note>
-          <note>Rindfleisch</note>
           <note>Schweinefleisch</note>
-          <note>Senf und daraus hergestellte Erzeugnisse</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
           <note>jodiertes Salz</note>
           <price role="employee">2.85</price>
           <price role="other">3.70</price>
           <price role="student">2.00</price>
         </meal>
       </category>
-      <category name="Mensa Vital">
+      <category name="Vegetarisch oder Vegan">
         <meal>
-          <name>Gnocchis mit buntem Gemüse und Salat</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
-          <note>jodiertes Salz</note>
-          <price role="employee">4.00</price>
-          <price role="other">5.30</price>
-          <price role="student">2.70</price>
-        </meal>
-      </category>
-      <category name="Pasta nach Gewicht (pro 100g)">
-        <meal>
-          <name>Vegan: Makkaroni  
- mit fruchtiger Tomatensoße</name>
+          <name>Buntes Backofengemüse mit Hirenkäse oder  
+ Gemüse-Couscous-Pfanne  Vegan</name>
           <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
           <note>jodiertes Salz</note>
-          <price role="employee">0.90</price>
-          <price role="other">1.20</price>
-          <price role="student">0.60</price>
+          <price role="employee">3.30</price>
+          <price role="other">4.60</price>
+          <price role="student">2.10</price>
         </meal>
       </category>
       <category name="Beilagen">
         <meal>
           <name>Salzkartoffeln</name>
           <note>geschwefelt</note>
-          <note>jodiertes Salz</note>
           <price role="employee">1.00</price>
           <price role="other">1.40</price>
           <price role="student">0.70</price>
         </meal>
         <meal>
-          <name>Reis</name>
-          <note>jodiertes Salz</note>
-          <price role="employee">1.00</price>
-          <price role="other">1.40</price>
-          <price role="student">0.70</price>
-        </meal>
-        <meal>
-          <name>Spätzle</name>
+          <name>Spaghetti</name>
           <note>Eier und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
-          <price role="employee">1.30</price>
-          <price role="other">1.70</price>
-          <price role="student">1.00</price>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <price role="employee">1.00</price>
+          <price role="other">1.40</price>
+          <price role="student">0.70</price>
         </meal>
       </category>
       <category name="Gemüse">
         <meal>
-          <name>Sommergemüse   (Blumenkohl, Brechbohnen, Karottenstäbchen, Markerbsen)</name>
+          <name>Feine Möhren</name>
           <price role="employee">1.00</price>
           <price role="other">1.40</price>
           <price role="student">0.70</price>
+        </meal>
+        <meal>
+          <name>Kaisergemüse   (Brokkoli, Blumenkohl, Karottenscheiben)</name>
+          <price role="employee">1.20</price>
+          <price role="other">1.60</price>
+          <price role="student">0.90</price>
         </meal>
       </category>
       <category name="Salate und Desserts">

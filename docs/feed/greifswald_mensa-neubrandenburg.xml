@@ -3,10 +3,18 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2023-06-21">
+    <day date="2023-06-22">
       <category name="Komponente 1">
         <meal>
-          <name>Hühnerfrikassee mit Gemüse (9,Gefl,G,A,C,F,I,J)</name>
+          <name>Kartoffelsalat mit  
+ Fischfilet in Backteig</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <note>Fische und daraus hergestellte Erzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
+          <note>geschwefelt</note>
+          <note>mit Farbstoff</note>
+          <note>mit Süßungsmittel</note>
           <price role="employee">3.10</price>
           <price role="other">3.95</price>
           <price role="student">2.25</price>
@@ -14,100 +22,22 @@
       </category>
       <category name="Komponente 2">
         <meal>
-          <name>Kohlroulade mit Krautsauce</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Milch/Milchzucker (Laktose)</note>
-          <note>Rindfleisch</note>
-          <note>Schweinefleisch</note>
-          <note>Senf und daraus hergestellte Erzeugnisse</note>
-          <note>jodiertes Salz</note>
-          <price role="employee">2.85</price>
-          <price role="other">3.70</price>
-          <price role="student">2.00</price>
-        </meal>
-      </category>
-      <category name="Mensa Vital">
-        <meal>
-          <name>Gnocchis mit buntem Gemüse und Salat</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
-          <note>jodiertes Salz</note>
-          <price role="employee">4.00</price>
-          <price role="other">5.30</price>
-          <price role="student">2.70</price>
-        </meal>
-      </category>
-      <category name="Pasta nach Gewicht (pro 100g)">
-        <meal>
-          <name>Vegan: Makkaroni  
- mit fruchtiger Tomatensoße</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>jodiertes Salz</note>
-          <price role="employee">0.90</price>
-          <price role="other">1.20</price>
-          <price role="student">0.60</price>
-        </meal>
-      </category>
-      <category name="Beilagen">
-        <meal>
-          <name>Salzkartoffeln</name>
-          <note>geschwefelt</note>
-          <note>jodiertes Salz</note>
-          <price role="employee">1.00</price>
-          <price role="other">1.40</price>
-          <price role="student">0.70</price>
-        </meal>
-        <meal>
-          <name>Reis</name>
-          <note>jodiertes Salz</note>
-          <price role="employee">1.00</price>
-          <price role="other">1.40</price>
-          <price role="student">0.70</price>
-        </meal>
-      </category>
-      <category name="Gemüse">
-        <meal>
-          <name>Sommergemüse   (Blumenkohl, Brechbohnen, Karottenstäbchen, Markerbsen)</name>
-          <price role="employee">1.00</price>
-          <price role="other">1.40</price>
-          <price role="student">0.70</price>
-        </meal>
-      </category>
-      <category name="Salate und Desserts">
-        <meal>
-          <name>Frische Salate und verschiedene Desserts stehen zur Auswahl.</name>
-        </meal>
-      </category>
-    </day>
-    <day date="2023-06-22">
-      <category name="Komponente 1">
-        <meal>
           <name>Bolognese</name>
           <note>Glutenhaltiges Getreide</note>
           <note>Milch/Milchzucker (Laktose)</note>
           <note>Schweinefleisch</note>
           <note>Sellerie und daraus hergestellte Erzeugnisse</note>
           <note>jodiertes Salz</note>
-          <price role="employee">3.10</price>
-          <price role="other">3.95</price>
-          <price role="student">2.25</price>
-        </meal>
-      </category>
-      <category name="Komponente 4">
-        <meal>
-          <name>Gemüse-Couscous-Pfanne</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Milch/Milchzucker (Laktose)</note>
-          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
-          <note>jodiertes Salz</note>
-          <price role="employee">0.00</price>
-          <price role="other">0.00</price>
-          <price role="student">0.00</price>
+          <price role="employee">2.85</price>
+          <price role="other">3.70</price>
+          <price role="student">2.00</price>
         </meal>
       </category>
       <category name="Vegetarisch oder Vegan">
         <meal>
-          <name>buntes Backofengemüse mit Hirtenkäse</name>
+          <name>Buntes Backofengemüse mit Hirenkäse oder  
+ Gemüse-Couscous-Pfanne  Vegan</name>
+          <note>Glutenhaltiges Getreide</note>
           <note>Milch/Milchzucker (Laktose)</note>
           <note>Sellerie und daraus hergestellte Erzeugnisse</note>
           <note>jodiertes Salz</note>
@@ -125,18 +55,10 @@
           <price role="student">0.70</price>
         </meal>
         <meal>
-          <name>Reis</name>
-          <note>jodiertes Salz</note>
-          <price role="employee">1.00</price>
-          <price role="other">1.40</price>
-          <price role="student">0.70</price>
-        </meal>
-        <meal>
           <name>Spaghetti</name>
           <note>Eier und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Milch/Milchzucker (Laktose)</note>
-          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
           <price role="employee">1.00</price>
           <price role="other">1.40</price>
           <price role="student">0.70</price>
@@ -175,6 +97,18 @@
           <price role="employee">3.25</price>
           <price role="other">4.40</price>
           <price role="student">2.20</price>
+        </meal>
+      </category>
+      <category name="Komponente 2">
+        <meal>
+          <name>Kasslernacken Steak  
+ mit Basilikum- Pfeffersauce</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <note>jodiertes Salz</note>
+          <price role="employee">2.85</price>
+          <price role="other">3.70</price>
+          <price role="student">2.00</price>
         </meal>
       </category>
       <category name="Vegetarisch oder Vegan">
@@ -1174,6 +1108,109 @@
     </day>
     <day date="2023-07-09">
       <closed/>
+    </day>
+    <day date="2023-07-10">
+      <category name="Tellergericht">
+        <meal>
+          <name>Vegane Karotten-Ingwer-Suppe mit Kokosmilch, Teller</name>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
+          <note>geschwefelt</note>
+          <price role="employee">2.35</price>
+          <price role="other">3.30</price>
+          <price role="student">1.50</price>
+        </meal>
+        <meal>
+          <name>Vegane Karotten-Ingwer-Suppe mit Kokosmilch, Teller</name>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
+          <note>geschwefelt</note>
+          <price role="employee">3.25</price>
+          <price role="other">4.40</price>
+          <price role="student">2.20</price>
+        </meal>
+      </category>
+      <category name="Komponente 1">
+        <meal>
+          <name>Seelachsfilet mit Kartoffelpanierung  
+ Basilikum - Zitronensoße</name>
+          <note>Fische und daraus hergestellte Erzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
+          <note>jodiertes Salz</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">3.10</price>
+          <price role="other">3.95</price>
+          <price role="student">2.25</price>
+        </meal>
+      </category>
+      <category name="Komponente 2">
+        <meal>
+          <name>Schweinegulasch</name>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <note>Schweinefleisch</note>
+          <note>mit Farbstoff</note>
+          <note>mit Konservierungsstoff</note>
+          <price role="employee">2.85</price>
+          <price role="other">3.70</price>
+          <price role="student">2.00</price>
+        </meal>
+      </category>
+      <category name="Vegetarisch oder Vegan">
+        <meal>
+          <name>Spinatröstling mit Curryremoulade  
+ Reis</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
+          <note>jodiertes Salz</note>
+          <note>mit Farbstoff</note>
+          <note>mit Geschmacksverstärker</note>
+          <note>mit Süßungsmittel</note>
+          <price role="employee">3.30</price>
+          <price role="other">4.60</price>
+          <price role="student">2.10</price>
+        </meal>
+      </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Reis</name>
+          <note>jodiertes Salz</note>
+          <price role="employee">1.00</price>
+          <price role="other">1.40</price>
+          <price role="student">0.70</price>
+        </meal>
+        <meal>
+          <name>Salzkartoffeln</name>
+          <note>geschwefelt</note>
+          <note>jodiertes Salz</note>
+          <price role="employee">1.00</price>
+          <price role="other">1.40</price>
+          <price role="student">0.70</price>
+        </meal>
+      </category>
+      <category name="Gemüse">
+        <meal>
+          <name>feine Möhren</name>
+          <note>jodiertes Salz</note>
+          <price role="employee">1.00</price>
+          <price role="other">1.40</price>
+          <price role="student">0.70</price>
+        </meal>
+        <meal>
+          <name>Brokkoli</name>
+          <price role="employee">1.20</price>
+          <price role="other">1.60</price>
+          <price role="student">0.90</price>
+        </meal>
+      </category>
+      <category name="Salate und Desserts">
+        <meal>
+          <name>Frische Salate und verschiedene Desserts stehen zur Auswahl.</name>
+        </meal>
+      </category>
     </day>
   </canteen>
 </openmensa>
