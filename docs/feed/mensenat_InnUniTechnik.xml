@@ -3,21 +3,23 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2023-06-19">
+    <day date="2023-06-26">
       <category name="Suppe &amp; Veggie">
         <meal>
-          <name>Gemüsecremesuppe / zu einer Hauptspeise</name>
+          <name>Klare Gemüsesuppe mit Tarhonya / zu einer Hauptspeise</name>
+          <note>Eier</note>
+          <note>Gluten</note>
           <note>Sellerie</note>
           <note>Sojabohnen</note>
-          <note>vegan</note>
+          <note>vegetarisch</note>
           <price role="student">1.00</price>
         </meal>
         <meal>
-          <name>Käsespätzle dazu Röstzwiebel</name>
+          <name>Gnocchi mit Brokkoli-Österkronsauce</name>
           <note>Eier</note>
           <note>Gluten</note>
           <note>Milch</note>
-          <note>Sellerie</note>
+          <note>Schwefeldioxid/Sulfite</note>
           <note>Sojabohnen</note>
           <note>vegetarisch</note>
           <price role="student">5.00</price>
@@ -46,12 +48,63 @@
       </category>
       <category name="Tagesangebot">
         <meal>
-          <name>Massaman Beef Curry / AT mit Basmatireis</name>
-          <price role="student">6.90</price>
+          <name>Fleischkäse / AT gebraten mit Salzkartoffel und Gemüse</name>
+          <note>Milch</note>
+          <note>Sellerie</note>
+          <price role="student">6.40</price>
         </meal>
       </category>
     </day>
-    <day date="2023-06-20">
+    <day date="2023-06-27">
+      <category name="Suppe &amp; Veggie">
+        <meal>
+          <name>Erdäpfel-Lauchsuppe / zu einer Hauptspeise</name>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <note>vegan</note>
+          <price role="student">1.00</price>
+        </meal>
+        <meal>
+          <name>Tortellini Spinat Ricotta mit Tomatensauce</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
+          <note>vegetarisch</note>
+          <price role="student">5.00</price>
+        </meal>
+      </category>
+      <category name="Wochenangebot">
+        <meal>
+          <name>Montag bis Freitag: Pasta mit Sauce Bolognese / Rind AT und frischem Parmesan</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <price role="student">6.20</price>
+        </meal>
+        <meal>
+          <name>Pasta mit Tomatensauce und frischem Parmesan</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <note>vegetarisch</note>
+          <price role="student">5.30</price>
+        </meal>
+      </category>
+      <category name="Tagesangebot">
+        <meal>
+          <name>Gebackenes Schweinsschnitzel / AT mit Pommes und Ketchup</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <price role="student">7.80</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-06-28">
       <category name="Suppe &amp; Veggie">
         <meal>
           <name>Klare Gemüsesuppe mit Grießnockerl / zu einer Hauptspeise</name>
@@ -63,10 +116,64 @@
           <price role="student">1.00</price>
         </meal>
         <meal>
-          <name>Käferbohnen Chili dazu eine Semmel</name>
+          <name>Kartoffeltaschen gefüllt mit Frischkäse und Kräutern auf Salatbouquet</name>
           <note>Gluten</note>
-          <note>vegan</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <note>vegetarisch</note>
           <price role="student">5.00</price>
+        </meal>
+      </category>
+      <category name="Wochenangebot">
+        <meal>
+          <name>Montag bis Freitag: Pasta mit Sauce Bolognese / Rind AT und frischem Parmesan</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <price role="student">6.20</price>
+        </meal>
+        <meal>
+          <name>Pasta mit Tomatensauce und frischem Parmesan</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <note>vegetarisch</note>
+          <price role="student">5.30</price>
+        </meal>
+      </category>
+      <category name="Tagesangebot">
+        <meal>
+          <name>Beef Curry / AT mit Cous Cous</name>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
+          <note>Sesam</note>
+          <note>Sojabohnen</note>
+          <price role="student">6.60</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-06-29">
+      <category name="Suppe &amp; Veggie">
+        <meal>
+          <name>Gemüsecremesuppe / zu einer Hauptspeise</name>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <note>vegan</note>
+          <price role="student">1.00</price>
+        </meal>
+        <meal>
+          <name>Griechischer Bauernsalat mit einer Semmel</name>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>vegetarisch</note>
+          <price role="student">6.20</price>
         </meal>
       </category>
       <category name="Wochenangebot">
@@ -99,60 +206,7 @@
         </meal>
       </category>
     </day>
-    <day date="2023-06-21">
-      <category name="Suppe &amp; Veggie">
-        <meal>
-          <name>Kräutercremesuppe / zu einer Hauptspeise</name>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <note>vegan</note>
-          <price role="student">1.00</price>
-        </meal>
-        <meal>
-          <name>Eintopf mit Frühlingsgemüse und Spargel dazu Nudeln</name>
-          <note>Gluten</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <note>vegetarisch</note>
-          <price role="student">5.00</price>
-        </meal>
-      </category>
-      <category name="Wochenangebot">
-        <meal>
-          <name>Montag bis Freitag: Pasta mit Sauce Bolognese / Rind AT und frischem Parmesan</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-          <price role="student">6.20</price>
-        </meal>
-        <meal>
-          <name>Pasta mit Tomatensauce und frischem Parmesan</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-          <note>vegetarisch</note>
-          <price role="student">5.30</price>
-        </meal>
-      </category>
-      <category name="Tagesangebot">
-        <meal>
-          <name>&quot;Mexico&quot; Wrap / Putenfaschiertes AT mit Avocado Dip</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <note>Sojabohnen</note>
-          <price role="student">6.60</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2023-06-22">
+    <day date="2023-06-30">
       <category name="Suppe &amp; Veggie">
         <meal>
           <name>Klare Gemüsesuppe mit Schöberl / zu einer Hauptspeise</name>
@@ -164,60 +218,12 @@
           <price role="student">1.00</price>
         </meal>
         <meal>
-          <name>Gefüllte Zucchini mit Cous Cous dazu Tomatensalsa</name>
+          <name>Frühlingsrolle auf Salatbouquet dazu Sweet Chili Dip</name>
           <note>Gluten</note>
-          <note>Milch</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <note>Sojabohnen</note>
-          <note>vegetarisch</note>
-          <price role="student">5.70</price>
-        </meal>
-      </category>
-      <category name="Wochenangebot">
-        <meal>
-          <name>Montag bis Freitag: Pasta mit Sauce Bolognese / Rind AT und frischem Parmesan</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Milch</note>
           <note>Schwefeldioxid/Sulfite</note>
           <note>Sellerie</note>
-          <price role="student">6.20</price>
-        </meal>
-        <meal>
-          <name>Pasta mit Tomatensauce und frischem Parmesan</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-          <note>vegetarisch</note>
-          <price role="student">5.30</price>
-        </meal>
-      </category>
-      <category name="Tagesangebot">
-        <meal>
-          <name>Gebackenes Schweinsschnitzel / AT mit Pommes und Ketchup</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <price role="student">7.80</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2023-06-23">
-      <category name="Suppe &amp; Veggie">
-        <meal>
-          <name>Fisolencremesuppe / zu einer Hauptspeise</name>
-          <note>Sellerie</note>
+          <note>Sesam</note>
           <note>Sojabohnen</note>
-          <note>vegan</note>
-          <price role="student">1.00</price>
-        </meal>
-        <meal>
-          <name>Gemüse Cous Cous mit Feta</name>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Senf</note>
           <note>vegetarisch</note>
           <price role="student">5.00</price>
         </meal>
@@ -245,7 +251,7 @@
       </category>
       <category name="Tagesangebot">
         <meal>
-          <name>Gebackenes Alaska Seelachsfilet mit Kartoffeln, Gemüse und Sauce Tartare</name>
+          <name>Gebackenes Alaska Seelachsfilet mit Kartoffelsalat und Sauce Tyrolienne</name>
           <note>Eier</note>
           <note>Fisch</note>
           <note>Gluten</note>
