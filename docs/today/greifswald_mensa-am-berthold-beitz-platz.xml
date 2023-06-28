@@ -4,32 +4,6 @@
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
     <day date="2023-06-28">
-      <category name="Tellergericht">
-        <meal>
-          <name>3 Quarkkeulchen [ohne Rosinen]  
- mit Apfelmus</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Milch/Milchzucker (Laktose)</note>
-          <note>mit Antioxidationsmittel</note>
-          <price role="employee">3.00</price>
-          <price role="other">4.30</price>
-          <price role="student">1.80</price>
-        </meal>
-      </category>
-      <category name="Komponente 1">
-        <meal>
-          <name>Gegrilltes Seelachsfilet  
- mit Dill-Curry-Honigsoße</name>
-          <note>Fische und daraus hergestellte Erzeugnisse</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Milch/Milchzucker (Laktose)</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">3.10</price>
-          <price role="other">3.95</price>
-          <price role="student">2.25</price>
-        </meal>
-      </category>
       <category name="Komponente 3 pro Portion oder nach Gewicht (pro 100g)">
         <meal>
           <name>Pastateller: Hühnerfrikassee (Gefl,A) 
@@ -41,9 +15,15 @@
       </category>
       <category name="Vegetarisch oder vegan">
         <meal>
+          <name>Vegan: Kreolisches Chili mit schwarzen Bohnen  
+ und Reis</name>
+          <price role="employee">3.30</price>
+          <price role="other">4.60</price>
+          <price role="student">2.10</price>
+        </meal>
+        <meal>
           <name>Vegan: 2 Quinoa-Erbsen-Frikadellen  
- dazu CousCous oriental mit Linsen</name>
-          <note>Glutenhaltiges Getreide</note>
+ dazu eine Beilage [z.B. Pommes]</name>
           <note>Sellerie und daraus hergestellte Erzeugnisse</note>
           <price role="employee">3.30</price>
           <price role="other">4.60</price>
@@ -94,28 +74,7 @@
           <price role="student">0.70</price>
         </meal>
         <meal>
-          <name>Minz-Soja-Dip</name>
-          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
-          <note>mit Antioxidationsmittel</note>
-          <price role="employee">0.85</price>
-          <price role="other">1.00</price>
-          <price role="student">0.70</price>
-        </meal>
-        <meal>
           <name>Pommes Frites</name>
-          <price role="employee">1.30</price>
-          <price role="other">1.70</price>
-          <price role="student">1.00</price>
-        </meal>
-        <meal>
-          <name>3 Rösti-Ecken</name>
-          <price role="employee">1.30</price>
-          <price role="other">1.70</price>
-          <price role="student">1.00</price>
-        </meal>
-        <meal>
-          <name>CousCous oriental mit Linsen</name>
-          <note>Glutenhaltiges Getreide</note>
           <price role="employee">1.30</price>
           <price role="other">1.70</price>
           <price role="student">1.00</price>
@@ -133,13 +92,6 @@
           <price role="employee">1.00</price>
           <price role="other">1.40</price>
           <price role="student">0.70</price>
-        </meal>
-        <meal>
-          <name>Brokkoli</name>
-          <note>jodiertes Salz</note>
-          <price role="employee">1.20</price>
-          <price role="other">1.60</price>
-          <price role="student">0.90</price>
         </meal>
       </category>
       <category name="Salate und Desserts">
