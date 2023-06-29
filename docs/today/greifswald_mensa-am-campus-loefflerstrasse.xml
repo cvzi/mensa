@@ -3,7 +3,7 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2023-06-28">
+    <day date="2023-06-29">
       <category name="Tellergericht">
         <meal>
           <name>Brötchen</name>
@@ -12,40 +12,74 @@
           <price role="other">0.50</price>
           <price role="student">0.35</price>
         </meal>
-      </category>
-      <category name="Komponente 1">
         <meal>
-          <name>Schlemmerfilet Broccoli Käse  
- mit Dill-Curry-Honigsoße</name>
-          <note>Fische und daraus hergestellte Erzeugnisse</note>
+          <name>Käse-Lauch-Suppe mit Hackfleisch, Kl. Schüssel</name>
           <note>Glutenhaltiges Getreide</note>
           <note>Milch/Milchzucker (Laktose)</note>
+          <note>Rindfleisch</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">2.10</price>
+          <price role="other">2.85</price>
+          <price role="student">1.40</price>
+        </meal>
+        <meal>
+          <name>Käse-Lauch-Suppe mit Hackfleisch, Teller</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <note>Rindfleisch</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">3.40</price>
+          <price role="other">4.60</price>
+          <price role="student">2.50</price>
+        </meal>
+        <meal>
+          <name>Käse-Lauch-Suppe mit Hackfleisch, Terrine</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <note>Rindfleisch</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">5.40</price>
+          <price role="other">6.60</price>
+          <price role="student">4.50</price>
+        </meal>
+      </category>
+      <category name="Komponente 2">
+        <meal>
+          <name>Schweineschnitzel Art &quot;Cordon bleu&quot;  
+ mit Soße &quot;Cafè de Paris&quot;</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <note>Schweinefleisch</note>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
+          <note>jodiertes Salz</note>
+          <note>mit Antioxidationsmittel</note>
+          <note>mit Konservierungsstoff</note>
           <price role="employee">3.10</price>
           <price role="other">3.95</price>
           <price role="student">2.25</price>
         </meal>
       </category>
-      <category name="Komponente 5">
-        <meal>
-          <name>Rindergulasch mit Paprikastreifen</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Rindfleisch</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">3.20</price>
-          <price role="other">4.05</price>
-          <price role="student">2.35</price>
-        </meal>
-      </category>
       <category name="Vegetarisch oder Vegan">
         <meal>
-          <name>Vegan: Avocado-Quinoa-Patty [mit Kürbis, Tomaten, Lauch und Haferflocken]  
- mit Kräuter-Tomatensoße  und Reis</name>
+          <name>Eierragout mit Spargel und Gemüse  
+ dazu Salzkartoffeln</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
-          <note>jodiertes Salz</note>
+          <note>geschwefelt</note>
           <note>mit Farbstoff</note>
           <price role="employee">3.30</price>
           <price role="other">4.60</price>
           <price role="student">2.10</price>
+        </meal>
+      </category>
+      <category name="Mensa Vital">
+        <meal>
+          <name>Vegan: Aubergine im Haferflockenmantel mit Tomatensoße und Gemüsebulgur</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>jodiertes Salz</note>
+          <price role="employee">4.00</price>
+          <price role="other">5.30</price>
+          <price role="student">2.70</price>
         </meal>
       </category>
       <category name="Nudeltheke (Preis pro 100g) Bitte extra Pasta-Teller verwenden">
@@ -58,15 +92,28 @@
           <price role="other">0.60</price>
           <price role="student">0.30</price>
         </meal>
+        <meal>
+          <name>Spiralnudeln  
+ mit Kürbispesto</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <note>Schalenfrüchte und daraus hergestellte Erzeugnisse (Mandeln, Haselnuss usw.)</note>
+          <price role="employee">0.90</price>
+          <price role="other">1.20</price>
+          <price role="student">0.60</price>
+        </meal>
+        <meal>
+          <name>Spiralnudeln  
+ mit Kürbispesto</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <note>Schalenfrüchte und daraus hergestellte Erzeugnisse (Mandeln, Haselnuss usw.)</note>
+          <price role="employee">0.90</price>
+          <price role="other">1.20</price>
+          <price role="student">0.60</price>
+        </meal>
       </category>
       <category name="Beilagen">
-        <meal>
-          <name>Reis</name>
-          <note>jodiertes Salz</note>
-          <price role="employee">1.00</price>
-          <price role="other">1.40</price>
-          <price role="student">0.70</price>
-        </meal>
         <meal>
           <name>Salzkartoffeln</name>
           <note>geschwefelt</note>
@@ -75,10 +122,7 @@
           <price role="student">0.70</price>
         </meal>
         <meal>
-          <name>Spätzle</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>jodiertes Salz</note>
+          <name>Pommes Frites</name>
           <price role="employee">1.30</price>
           <price role="other">1.70</price>
           <price role="student">1.00</price>
@@ -86,10 +130,10 @@
       </category>
       <category name="Gemüse">
         <meal>
-          <name>Brokkoli</name>
-          <price role="employee">1.20</price>
-          <price role="other">1.60</price>
-          <price role="student">0.90</price>
+          <name>Sommergemüse [Blumenkohl, Brechbohnen, Karottenstäbchen, Markerbsen]</name>
+          <price role="employee">1.00</price>
+          <price role="other">1.40</price>
+          <price role="student">0.70</price>
         </meal>
       </category>
       <category name="Salate und Desserts">
