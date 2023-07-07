@@ -3,33 +3,18 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2023-07-06">
+    <day date="2023-07-10">
       <category name="muslimisch">
         <meal>
-          <name>Pfannkuchen mit Gemüsefüllung, Fruchtjoghurt 5,10 € Pfannkuchen mit Gemüsefüllung [10,A,C,G,I] Fruchtjoghurt [G]</name>
-          <note>glutenhaltig</note>
+          <name>Würstchengulasch mit Baguettebrötchen, Buttermilchdessert 5,10 € Würstchengulasch mit Baguettebrötchen [A1,F,I,10] Buttermilchdessert [G]</name>
           <note>mit Backtriebmittel</note>
-          <note>mit Ei</note>
           <note>mit Milchprodukten (lactosehaltig)</note>
           <note>mit Sellerie</note>
+          <note>mit Soja</note>
           <price role="student">5.10</price>
         </meal>
       </category>
-      <category name="Teenager fleischlos">
-        <meal>
-          <name>Pfannkuchen mit Gemüsefüllung, Fruchtjoghurt_1 6,30 € Pfannkuchen mit Gemüsefüllung [10,A,C,G,I] Fruchtjoghurt [G]</name>
-          <note>fleischlos</note>
-          <note>glutenhaltig</note>
-          <note>mit Backtriebmittel</note>
-          <note>mit Ei</note>
-          <note>mit Milchprodukten (lactosehaltig)</note>
-          <note>mit Sellerie</note>
-          <price role="student">6.30</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2023-07-10">
-      <category name="muslimisch">
+      <category name="normal">
         <meal>
           <name>Würstchengulasch mit Baguettebrötchen, Buttermilchdessert 5,10 € Würstchengulasch mit Baguettebrötchen [A1,F,I,10] Buttermilchdessert [G]</name>
           <note>mit Backtriebmittel</note>
@@ -50,16 +35,6 @@
           <price role="student">6.30</price>
         </meal>
       </category>
-      <category name="normal">
-        <meal>
-          <name>Würstchengulasch mit Baguettebrötchen, Buttermilchdessert 5,10 € Würstchengulasch mit Baguettebrötchen [A1,F,I,10] Buttermilchdessert [G]</name>
-          <note>mit Backtriebmittel</note>
-          <note>mit Milchprodukten (lactosehaltig)</note>
-          <note>mit Sellerie</note>
-          <note>mit Soja</note>
-          <price role="student">5.10</price>
-        </meal>
-      </category>
       <category name="Teenager normal">
         <meal>
           <name>Westernpfanne mit BBQ-Sauce, Buttermilchdessert 6,30 € Westernpfanne mit BBQ-Sauce [A1,10,G,C,] Buttermilchdessert [G]</name>
@@ -71,6 +46,18 @@
       </category>
     </day>
     <day date="2023-07-11">
+      <category name="fleischlos">
+        <meal>
+          <name>Mac n Cheese (Nudelauflauf) mit Semmelbröselkruste, Gurkensalat in Essig/Öl Marinade 5,10 € Mac n Cheese (Nudelauflauf) mit Semmelbröselkruste [A1,10,G,C,I] Gurkensalat in Essig/Öl Marinade [J]</name>
+          <note>fleischlos</note>
+          <note>mit Backtriebmittel</note>
+          <note>mit Ei</note>
+          <note>mit Milchprodukten (lactosehaltig)</note>
+          <note>mit Sellerie</note>
+          <note>mit Senf</note>
+          <price role="student">5.10</price>
+        </meal>
+      </category>
       <category name="muslimisch">
         <meal>
           <name>Mac n Cheese (Nudelauflauf) mit Semmelbröselkruste, Gurkensalat in Essig/Öl Marinade 5,10 € Mac n Cheese (Nudelauflauf) mit Semmelbröselkruste [A1,10,G,C,I] Gurkensalat in Essig/Öl Marinade [J]</name>
@@ -94,21 +81,29 @@
           <price role="student">6.30</price>
         </meal>
       </category>
+    </day>
+    <day date="2023-07-12">
       <category name="fleischlos">
         <meal>
-          <name>Mac n Cheese (Nudelauflauf) mit Semmelbröselkruste, Gurkensalat in Essig/Öl Marinade 5,10 € Mac n Cheese (Nudelauflauf) mit Semmelbröselkruste [A1,10,G,C,I] Gurkensalat in Essig/Öl Marinade [J]</name>
+          <name>Gemüsestäbchen, Kartoffelpüree, Bohnensalat 5,10 € Gemüsestäbchen, Kartoffelpüree [10,A1,C,G,I] Bohnensalat</name>
           <note>fleischlos</note>
           <note>mit Backtriebmittel</note>
           <note>mit Ei</note>
           <note>mit Milchprodukten (lactosehaltig)</note>
           <note>mit Sellerie</note>
+          <price role="student">5.10</price>
+        </meal>
+      </category>
+      <category name="muslimisch">
+        <meal>
+          <name>Fischstäbchen, Kartoffelpüree, Bohnensalat 5,10 € Fischstäbchen, Kartoffelpüree [10,A1,G,J] Bohnensalat</name>
+          <note>mit Backtriebmittel</note>
+          <note>mit Milchprodukten (lactosehaltig)</note>
           <note>mit Senf</note>
           <price role="student">5.10</price>
         </meal>
       </category>
-    </day>
-    <day date="2023-07-12">
-      <category name="muslimisch">
+      <category name="normal">
         <meal>
           <name>Fischstäbchen, Kartoffelpüree, Bohnensalat 5,10 € Fischstäbchen, Kartoffelpüree [10,A1,G,J] Bohnensalat</name>
           <note>mit Backtriebmittel</note>
@@ -130,26 +125,6 @@
           <price role="student">6.30</price>
         </meal>
       </category>
-      <category name="fleischlos">
-        <meal>
-          <name>Gemüsestäbchen, Kartoffelpüree, Bohnensalat 5,10 € Gemüsestäbchen, Kartoffelpüree [10,A1,C,G,I] Bohnensalat</name>
-          <note>fleischlos</note>
-          <note>mit Backtriebmittel</note>
-          <note>mit Ei</note>
-          <note>mit Milchprodukten (lactosehaltig)</note>
-          <note>mit Sellerie</note>
-          <price role="student">5.10</price>
-        </meal>
-      </category>
-      <category name="normal">
-        <meal>
-          <name>Fischstäbchen, Kartoffelpüree, Bohnensalat 5,10 € Fischstäbchen, Kartoffelpüree [10,A1,G,J] Bohnensalat</name>
-          <note>mit Backtriebmittel</note>
-          <note>mit Milchprodukten (lactosehaltig)</note>
-          <note>mit Senf</note>
-          <price role="student">5.10</price>
-        </meal>
-      </category>
       <category name="Teenager normal">
         <meal>
           <name>Schollenfilet paniert mit Salzkartoffeln dazu hausgemachte Remoulade, Blattsalat mit Gartenkräuter-Dressing 6,30 € Schollenfilet paniert mit Salzkartoffeln dazu hausgemachte Remoulade [A1,I,J,D] Blattsalat mit Gartenkräuter-Dressing [J,L]</name>
@@ -162,6 +137,13 @@
       </category>
     </day>
     <day date="2023-07-13">
+      <category name="fleischlos">
+        <meal>
+          <name>Mildes Thai-Gemüsecurry, Reis, Melonenstücke 5,10 € Mildes Thai-Gemüsecurry, Reis Melonenstücke</name>
+          <note>fleischlos</note>
+          <price role="student">5.10</price>
+        </meal>
+      </category>
       <category name="muslimisch">
         <meal>
           <name>Mildes Thai-Gemüsecurry, Reis, Melonenstücke 5,10 € Mildes Thai-Gemüsecurry, Reis Melonenstücke</name>
@@ -177,15 +159,17 @@
           <price role="student">6.30</price>
         </meal>
       </category>
+    </day>
+    <day date="2023-07-17">
       <category name="fleischlos">
         <meal>
-          <name>Mildes Thai-Gemüsecurry, Reis, Melonenstücke 5,10 € Mildes Thai-Gemüsecurry, Reis Melonenstücke</name>
+          <name>Kartoffel-Gnocchi mit cremiger Spinatsoße, Joghurt 5,10 € Kartoffel-Gnocchi mit cremiger Spinatsoße [A1,C,G] Joghurt [G]</name>
           <note>fleischlos</note>
+          <note>mit Ei</note>
+          <note>mit Milchprodukten (lactosehaltig)</note>
           <price role="student">5.10</price>
         </meal>
       </category>
-    </day>
-    <day date="2023-07-17">
       <category name="muslimisch">
         <meal>
           <name>Kartoffel-Gnocchi mit cremiger Spinatsoße, Joghurt 5,10 € Kartoffel-Gnocchi mit cremiger Spinatsoße [A1,C,G] Joghurt [G]</name>
@@ -203,15 +187,6 @@
           <note>mit Milchprodukten (lactosehaltig)</note>
           <note>mit Soja</note>
           <price role="student">6.30</price>
-        </meal>
-      </category>
-      <category name="fleischlos">
-        <meal>
-          <name>Kartoffel-Gnocchi mit cremiger Spinatsoße, Joghurt 5,10 € Kartoffel-Gnocchi mit cremiger Spinatsoße [A1,C,G] Joghurt [G]</name>
-          <note>fleischlos</note>
-          <note>mit Ei</note>
-          <note>mit Milchprodukten (lactosehaltig)</note>
-          <price role="student">5.10</price>
         </meal>
       </category>
     </day>
@@ -249,6 +224,16 @@
           <price role="student">5.10</price>
         </meal>
       </category>
+      <category name="normal">
+        <meal>
+          <name>Putengeschnetzeltes, Spätzle, Tagessalat mit Gartenkräuter-Dressing 5,10 € Putengeschnetzeltes, Spätzle [A1,G,I,C] Tagessalat mit Gartenkräuter-Dressing [G,J]</name>
+          <note>mit Ei</note>
+          <note>mit Milchprodukten (lactosehaltig)</note>
+          <note>mit Sellerie</note>
+          <note>mit Senf</note>
+          <price role="student">5.10</price>
+        </meal>
+      </category>
       <category name="Teenager fleischlos">
         <meal>
           <name>Spätzle mit Lauch-Käsesoße, Tagessalat mit Gartenkräuter-Dressing 6,30 € Spätzle mit Lauch-Käsesoße [A1,C,G,I] Tagessalat mit Gartenkräuter-Dressing [G,J]</name>
@@ -258,16 +243,6 @@
           <note>mit Sellerie</note>
           <note>mit Senf</note>
           <price role="student">6.30</price>
-        </meal>
-      </category>
-      <category name="normal">
-        <meal>
-          <name>Putengeschnetzeltes, Spätzle, Tagessalat mit Gartenkräuter-Dressing 5,10 € Putengeschnetzeltes, Spätzle [A1,G,I,C] Tagessalat mit Gartenkräuter-Dressing [G,J]</name>
-          <note>mit Ei</note>
-          <note>mit Milchprodukten (lactosehaltig)</note>
-          <note>mit Sellerie</note>
-          <note>mit Senf</note>
-          <price role="student">5.10</price>
         </meal>
       </category>
       <category name="Teenager normal">
