@@ -3,8 +3,53 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2023-07-16">
-      <closed/>
+    <day date="2023-07-17">
+      <category name="Komponente 3">
+        <meal>
+          <name>Hähnchenbrust natur gebraten (9,Gefl) 
+ mit Geflügelrahmsauce (3,9,Gefl,G,A,C)</name>
+          <price role="employee">3.10</price>
+          <price role="other">3.95</price>
+          <price role="student">2.25</price>
+        </meal>
+      </category>
+      <category name="Vegetarisch oder Vegan">
+        <meal>
+          <name>Vegan: Paprikaschote  
+ mit Paprikasoße  und Reis</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
+          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
+          <note>jodiertes Salz</note>
+          <price role="employee">3.30</price>
+          <price role="other">4.60</price>
+          <price role="student">2.10</price>
+        </meal>
+      </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Salzkartoffeln</name>
+          <note>geschwefelt</note>
+          <note>jodiertes Salz</note>
+          <price role="employee">1.00</price>
+          <price role="other">1.40</price>
+          <price role="student">0.70</price>
+        </meal>
+      </category>
+      <category name="Gemüse">
+        <meal>
+          <name>Romanesco</name>
+          <price role="employee">1.20</price>
+          <price role="other">1.60</price>
+          <price role="student">0.90</price>
+        </meal>
+      </category>
+      <category name="Salate und Desserts">
+        <meal>
+          <name>Frische Salate und verschiedene Desserts stehen zur Auswahl.</name>
+        </meal>
+      </category>
     </day>
   </canteen>
 </openmensa>
