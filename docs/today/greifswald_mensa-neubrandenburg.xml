@@ -3,49 +3,74 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2023-07-25">
-      <category name="Komponente 5">
+    <day date="2023-07-26">
+      <category name="Tellergericht">
         <meal>
-          <name>Rindergulasch mit Paprikastreifen</name>
+          <name>Deftiger Gemüseeintopf mit Rauchfleisch Teller</name>
+          <note>Schweinefleisch</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>geschwefelt</note>
+          <note>jodiertes Salz</note>
+          <note>mit Antioxidationsmittel</note>
+          <note>mit Konservierungsstoff</note>
+          <price role="employee">2.35</price>
+          <price role="other">3.30</price>
+          <price role="student">1.50</price>
+        </meal>
+        <meal>
+          <name>Deftiger Gemüseeintopf mit Rauchfleisch Terrine</name>
+          <note>Schweinefleisch</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>geschwefelt</note>
+          <note>jodiertes Salz</note>
+          <note>mit Antioxidationsmittel</note>
+          <note>mit Konservierungsstoff</note>
+          <price role="employee">3.25</price>
+          <price role="other">4.40</price>
+          <price role="student">2.20</price>
+        </meal>
+      </category>
+      <category name="Komponente 3">
+        <meal>
+          <name>Gebratenes Putenschnitzel (Gefl,A) 
+ mit Tomaten-Zwiebel-Soße</name>
           <note>Glutenhaltiges Getreide</note>
           <note>Milch/Milchzucker (Laktose)</note>
-          <note>Rindfleisch</note>
-          <note>Schwefeldioxid und Sulphite in Konzentration von mehr als 10mg/kg oder 10mg/l, als SO2 angegeben</note>
-          <note>alkoholhaltig </note>
           <note>jodiertes Salz</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">3.80</price>
-          <price role="other">5.10</price>
-          <price role="student">2.50</price>
+          <price role="employee">3.10</price>
+          <price role="other">3.95</price>
+          <price role="student">2.25</price>
         </meal>
       </category>
       <category name="Vegetarisch oder Vegan">
         <meal>
-          <name>Backkartoffeln mit Quarkdip und Salat</name>
+          <name>Vegan: Hackbällchen mit Kapernsoße und Salzkartoffeln</name>
           <note>Glutenhaltiges Getreide</note>
-          <note>Milch/Milchzucker (Laktose)</note>
-          <note>jodiertes Salz</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
+          <note>geschwefelt</note>
           <price role="employee">3.30</price>
           <price role="other">4.60</price>
           <price role="student">2.10</price>
-        </meal>
-      </category>
-      <category name="Pasta nach Gewicht (pro 100g)">
-        <meal>
-          <name>Vegan: Penne  
- Basilikum - Tomatensoße</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>jodiertes Salz</note>
-          <price role="employee">0.90</price>
-          <price role="other">1.20</price>
-          <price role="student">0.60</price>
         </meal>
       </category>
       <category name="Beilagen">
         <meal>
           <name>Salzkartoffeln</name>
           <note>geschwefelt</note>
-          <note>jodiertes Salz</note>
+          <price role="employee">1.00</price>
+          <price role="other">1.40</price>
+          <price role="student">0.70</price>
+        </meal>
+        <meal>
+          <name>Spiralnudeln</name>
+          <note>Glutenhaltiges Getreide</note>
+          <price role="employee">1.00</price>
+          <price role="other">1.40</price>
+          <price role="student">0.70</price>
+        </meal>
+        <meal>
+          <name>Reis</name>
           <price role="employee">1.00</price>
           <price role="other">1.40</price>
           <price role="student">0.70</price>
@@ -53,10 +78,7 @@
       </category>
       <category name="Gemüse">
         <meal>
-          <name>gelbe Bohnen</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Milch/Milchzucker (Laktose)</note>
-          <note>jodiertes Salz</note>
+          <name>Balkangemüse   (Erbsen, grüne Bohnen, Mais, Paprika)</name>
           <price role="employee">1.00</price>
           <price role="other">1.40</price>
           <price role="student">0.70</price>
