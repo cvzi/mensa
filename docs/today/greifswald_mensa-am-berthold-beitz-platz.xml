@@ -3,32 +3,83 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2023-08-08">
-      <category name="Komponente 2">
+    <day date="2023-08-09">
+      <category name="Tellergericht">
         <meal>
-          <name>Schweinelachsschnitzel</name>
+          <name>3 Quarkkeulchen [mit Rosinen]  
+ mit Apfelmus</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
-          <note>Schweinefleisch</note>
-          <note>jodiertes Salz</note>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <note>mit Antioxidationsmittel</note>
+          <price role="employee">3.00</price>
+          <price role="other">4.30</price>
+          <price role="student">1.80</price>
+        </meal>
+        <meal>
+          <name>3 Quarkkeulchen [ohne Rosinen]  
+ mit Apfelmus</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <note>mit Antioxidationsmittel</note>
+          <price role="employee">3.00</price>
+          <price role="other">4.30</price>
+          <price role="student">1.80</price>
+        </meal>
+      </category>
+      <category name="Komponente 1">
+        <meal>
+          <name>Gegrilltes Seelachsfilet  
+ mit Dill-Curry-Honigsoße</name>
+          <note>Fische und daraus hergestellte Erzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <note>mit Farbstoff</note>
           <price role="employee">3.10</price>
           <price role="other">3.95</price>
           <price role="student">2.25</price>
         </meal>
       </category>
-      <category name="Komponente 4 - vegetarisch">
+      <category name="Komponente 3 pro Portion oder nach Gewicht (pro 100g)">
         <meal>
-          <name>2 Cheese Steaks  
- mit Preiselbeermarmelade</name>
-          <note>Milch/Milchzucker (Laktose)</note>
-          <price role="employee">3.35</price>
-          <price role="other">4.20</price>
-          <price role="student">2.50</price>
+          <name>Pastateller: Hühnerfrikassee (Gefl,A) 
+ mit Reis</name>
+          <price role="employee">0.96</price>
+          <price role="other">1.26</price>
+          <price role="student">0.66</price>
+        </meal>
+        <meal>
+          <name>Hühnerfrikassee (Gefl,A)</name>
+          <price role="employee">3.10</price>
+          <price role="other">3.95</price>
+          <price role="student">2.25</price>
         </meal>
       </category>
-      <category name="Vegan">
+      <category name="Vegetarisch oder vegan">
         <meal>
-          <name>Vegan: 2 Ruccola-Süßkartoffel-Schnitten  
- dazu ein Nudelsalat mit Oliven</name>
+          <name>Vegan: 2 Quinoa-Erbsen-Frikadellen  
+ dazu CousCous oriental mit Linsen</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <price role="employee">3.30</price>
+          <price role="other">4.60</price>
+          <price role="student">2.10</price>
+        </meal>
+        <meal>
+          <name>1 Backkartoffel  
+ mit Kräuterdip  und Möhrensalat</name>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <note>mit Antioxidationsmittel</note>
+          <note>mit Konservierungsstoff</note>
+          <note>mit Süßungsmittel</note>
+          <price role="employee">3.90</price>
+          <price role="other">5.20</price>
+          <price role="student">2.70</price>
+        </meal>
+        <meal>
+          <name>Extra: Vegan: 2 Ruccola-Süßkartoffel-Schnitten  
+ mit Preiselbeermarmelade  dazu ein Nudelsalat mit Oliven</name>
           <note>Glutenhaltiges Getreide</note>
           <note>geschwärzt</note>
           <price role="employee">4.00</price>
@@ -36,15 +87,13 @@
           <price role="student">2.80</price>
         </meal>
       </category>
-      <category name="Pasta pro Portion oder nach Gewicht (pro 100g)">
+      <category name="Mittagsgericht Cafeteria Klinikum (zzgl. 5€ ReBowl-Pfand)">
         <meal>
-          <name>Pastateller: Nudeln  
- mit veganem Rote-Bete-Minz-Pesto</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Schalenfrüchte und daraus hergestellte Erzeugnisse (Mandeln, Haselnuss usw.)</note>
-          <price role="employee">0.90</price>
-          <price role="other">1.20</price>
-          <price role="student">0.60</price>
+          <name>Hühnerfrikassee (Gefl,A) 
+ mit Langkornreis</name>
+          <price role="employee">4.10</price>
+          <price role="other">5.35</price>
+          <price role="student">2.95</price>
         </meal>
       </category>
       <category name="Beilagen">
@@ -58,24 +107,31 @@
           <price role="student">0.30</price>
         </meal>
         <meal>
-          <name>Schrippe</name>
-          <note>Glutenhaltiges Getreide</note>
-          <price role="employee">0.50</price>
-          <price role="other">0.50</price>
-          <price role="student">0.35</price>
-        </meal>
-        <meal>
-          <name>Mehrkornbrötchen</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Sesamsamen und daraus hergestellte Erzeugnisse</note>
-          <price role="employee">0.55</price>
-          <price role="other">0.55</price>
-          <price role="student">0.40</price>
-        </meal>
-        <meal>
           <name>Kartoffeln</name>
           <price role="employee">1.00</price>
           <price role="other">1.40</price>
+          <price role="student">0.70</price>
+        </meal>
+        <meal>
+          <name>Kartoffelpüree</name>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <note>mit Antioxidationsmittel</note>
+          <price role="employee">1.00</price>
+          <price role="other">1.40</price>
+          <price role="student">0.70</price>
+        </meal>
+        <meal>
+          <name>Langkornreis</name>
+          <price role="employee">1.00</price>
+          <price role="other">1.40</price>
+          <price role="student">0.70</price>
+        </meal>
+        <meal>
+          <name>Minz-Soja-Dip</name>
+          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
+          <note>mit Antioxidationsmittel</note>
+          <price role="employee">0.85</price>
+          <price role="other">1.00</price>
           <price role="student">0.70</price>
         </meal>
         <meal>
@@ -85,15 +141,20 @@
           <price role="student">1.00</price>
         </meal>
         <meal>
-          <name>10 Herzoginkartoffeln</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
-          <note>Milch/Milchzucker (Laktose)</note>
+          <name>3 Rösti-Ecken</name>
           <price role="employee">1.30</price>
           <price role="other">1.70</price>
           <price role="student">1.00</price>
         </meal>
         <meal>
-          <name>Nudelsalat mit Oliven [vegan]</name>
+          <name>CousCous oriental mit Linsen</name>
+          <note>Glutenhaltiges Getreide</note>
+          <price role="employee">1.30</price>
+          <price role="other">1.70</price>
+          <price role="student">1.00</price>
+        </meal>
+        <meal>
+          <name>Extra: Nudelsalat mit Oliven [vegan]</name>
           <note>Glutenhaltiges Getreide</note>
           <note>geschwärzt</note>
           <price role="employee">1.30</price>
@@ -109,9 +170,14 @@
       </category>
       <category name="Gemüse">
         <meal>
-          <name>Pariser Möhren in Rahm</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Milch/Milchzucker (Laktose)</note>
+          <name>Möhrenscheiben mit Petersilie</name>
+          <price role="employee">1.00</price>
+          <price role="other">1.40</price>
+          <price role="student">0.70</price>
+        </meal>
+        <meal>
+          <name>Brokkoli</name>
+          <note>jodiertes Salz</note>
           <price role="employee">1.20</price>
           <price role="other">1.60</price>
           <price role="student">0.90</price>
