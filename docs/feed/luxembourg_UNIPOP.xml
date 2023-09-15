@@ -3,27 +3,6 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2023-09-04">
-      <closed/>
-    </day>
-    <day date="2023-09-05">
-      <closed/>
-    </day>
-    <day date="2023-09-06">
-      <closed/>
-    </day>
-    <day date="2023-09-07">
-      <closed/>
-    </day>
-    <day date="2023-09-08">
-      <closed/>
-    </day>
-    <day date="2023-09-09">
-      <closed/>
-    </day>
-    <day date="2023-09-10">
-      <closed/>
-    </day>
     <day date="2023-09-11">
       <closed/>
     </day>
@@ -37,9 +16,10 @@
       <closed/>
     </day>
     <day date="2023-09-15">
-      <category name="Entrée (07:00 - 18:00)">
+      <category name="Entrée">
         <meal>
           <name>Geméiszopp</name>
+          <note>Céleri et produits à base de céleri</note>
           <note>Soupe aux légumes</note>
           <note>produit constant</note>
           <note>produit du Luxembourg</note>
@@ -50,7 +30,7 @@
           <note>produit constant</note>
         </meal>
       </category>
-      <category name="Végétarien (07:00 - 18:00)">
+      <category name="Végétarien">
         <meal>
           <name>Quiche aux épinards, céleri branche et ricotta luxembourgeoise</name>
           <note>Produit du Grand Région</note>
@@ -59,7 +39,7 @@
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Végan (07:00 - 18:00)">
+      <category name="Végan">
         <meal>
           <name>Gratin de pommes de terre aux choux poêlés et seitan sauté</name>
           <note>Produit du Grand Région</note>
@@ -69,7 +49,7 @@
           <note>végétalien</note>
         </meal>
       </category>
-      <category name="Pasta (07:00 - 18:00)">
+      <category name="Pasta">
         <meal>
           <name>Tagliatelle napolitaine à la julienne de carottes et céleri rave</name>
           <note>Produit du Grand Région</note>
@@ -79,7 +59,7 @@
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Non-végétarien (07:00 - 18:00)">
+      <category name="Non-végétarien">
         <meal>
           <name>Chipolatas rôties, jus réduit au romarin</name>
           <note>non-végétarien</note>
@@ -93,7 +73,7 @@
           <note>produit du Luxembourg</note>
         </meal>
       </category>
-      <category name="Dessert (07:00 - 18:00)">
+      <category name="Dessert">
         <meal>
           <name>Gâteau au petit beurre et chocolat</name>
           <note>produit Transfair</note>
@@ -102,7 +82,7 @@
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Snack à emporter (07:00 - 18:00)">
+      <category name="Snack à emporter">
         <meal>
           <name>Salade César à l'escalope de tofu marinée et grillée façon César</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
@@ -124,7 +104,7 @@
           <note>produit du Luxembourg</note>
         </meal>
       </category>
-      <category name="10.3 Boissons froides - Sodas (07:00 - 18:00)">
+      <category name="10.3 Boissons froides - Sodas">
         <meal>
           <name>Ortea Ice Tea BIO 0,50 l btl</name>
           <note>biologique</note>
@@ -132,7 +112,17 @@
           <note>produit du Luxembourg</note>
         </meal>
       </category>
-      <category name="13. DayCare (07:00 - 18:00)">
+      <category name="12.1 Emballages et articles réutilisables">
+        <meal>
+          <name>myBento</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>myBowl</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="13. DayCare">
         <meal>
           <name>DayCare (gratuit) - Collation du matin</name>
           <note>produit constant</note>
@@ -158,22 +148,34 @@
         <meal>
           <name>Geméis Britt mat Eeërtriwwel a Bratzelen</name>
           <note>Bouillon de légumes aux jaunes d'oeufs et ciboulettes</note>
+          <note>Céleri et produits à base de céleri</note>
+          <note>biologique</note>
           <note>produit constant</note>
+          <note>produit du Luxembourg</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Végétarien (07:00 - 18:00)">
         <meal>
           <name>Curry aux pois chiches, pommes de terre et légumes sautés</name>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Soja et produits à base de soja</note>
+          <note>biologique</note>
           <note>produit constant</note>
+          <note>produit du Luxembourg</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Non-végétarien (07:00 - 18:00)">
         <meal>
           <name>Spaghetti bolognaise</name>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>biologique</note>
           <note>non-végétarien</note>
           <note>produit constant</note>
+          <note>produit du Luxembourg</note>
         </meal>
       </category>
       <category name="Snack à emporter (07:00 - 18:00)">
@@ -194,6 +196,16 @@
           <note>biologique</note>
           <note>produit constant</note>
           <note>produit du Luxembourg</note>
+        </meal>
+      </category>
+      <category name="12.1 Emballages et articles réutilisables (07:00 - 18:00)">
+        <meal>
+          <name>myBento</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>myBowl</name>
+          <note>produit constant</note>
         </meal>
       </category>
       <category name="13. DayCare (07:00 - 18:00)">
@@ -215,13 +227,22 @@
       <category name="Entrée (07:00 - 18:00)">
         <meal>
           <name>Grèng Bounenzopp mat Sauerram</name>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Soupe aux haricots verts et crème aigre</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
         <meal>
           <name>Salad'bar</name>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Fruits à coque et produits à base de ces fruits</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Moutarde et produits à base de moutarde</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
           <note>Produit du Grand Région</note>
+          <note>Soja et produits à base de soja</note>
           <note>biologique</note>
           <note>produit constant</note>
           <note>produit du Luxembourg</note>
@@ -231,15 +252,22 @@
       <category name="Végétarien (07:00 - 18:00)">
         <meal>
           <name>Quiche à la ratatouille et fromage de chèvre</name>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>produit constant</note>
+          <note>produit du Luxembourg</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Non-végétarien (07:00 - 18:00)">
         <meal>
           <name>Cordon bleu de porc non pané, sauce crème champignons</name>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>non-végétarien</note>
           <note>produit constant</note>
+          <note>produit du Luxembourg</note>
         </meal>
       </category>
       <category name="Snack à emporter (07:00 - 18:00)">
@@ -260,6 +288,16 @@
           <note>biologique</note>
           <note>produit constant</note>
           <note>produit du Luxembourg</note>
+        </meal>
+      </category>
+      <category name="12.1 Emballages et articles réutilisables (07:00 - 18:00)">
+        <meal>
+          <name>myBento</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>myBowl</name>
+          <note>produit constant</note>
         </meal>
       </category>
       <category name="13. DayCare (07:00 - 18:00)">
@@ -281,20 +319,30 @@
       <category name="Entrée (07:00 - 18:00)">
         <meal>
           <name>Velouté de carottes parfumé au gingembre</name>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>biologique</note>
           <note>produit constant</note>
+          <note>produit du Luxembourg</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Végétarien (07:00 - 18:00)">
         <meal>
           <name>Omelette aux champignons</name>
+          <note>Oeufs et produits à base d‘oeufs</note>
           <note>produit constant</note>
+          <note>produit du Luxembourg</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Non-végétarien (07:00 - 18:00)">
         <meal>
           <name>Hamburger de boeuf aux oignons</name>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Graines de sésame et produits à base de graines de sésame</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Moutarde et produits à base de moutarde</note>
           <note>non-végétarien</note>
           <note>produit constant</note>
         </meal>
@@ -317,6 +365,16 @@
           <note>biologique</note>
           <note>produit constant</note>
           <note>produit du Luxembourg</note>
+        </meal>
+      </category>
+      <category name="12.1 Emballages et articles réutilisables (07:00 - 18:00)">
+        <meal>
+          <name>myBento</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>myBowl</name>
+          <note>produit constant</note>
         </meal>
       </category>
       <category name="13. DayCare (07:00 - 18:00)">
@@ -338,7 +396,15 @@
       <category name="Entrée (07:00 - 18:00)">
         <meal>
           <name>Salad'bar</name>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Fruits à coque et produits à base de ces fruits</note>
+          <note>Graines de sésame et produits à base de graines de sésame</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Moutarde et produits à base de moutarde</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
           <note>Produit du Grand Région</note>
+          <note>Soja et produits à base de soja</note>
           <note>biologique</note>
           <note>produit constant</note>
           <note>produit du Luxembourg</note>
@@ -346,20 +412,25 @@
         </meal>
         <meal>
           <name>Soupe aux poireaux et sa quenelle de crème épaisse au curry</name>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>produit constant</note>
+          <note>produit du Luxembourg</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Végétarien (07:00 - 18:00)">
         <meal>
-          <name>Bouchée végétale aux légumes</name>
+          <name>Risotto aux graines de sarrasin aux légumes de saison rôtis</name>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Non-végétarien (07:00 - 18:00)">
         <meal>
-          <name>Kebab au jeune bovin mariné, sauce Tzatziki</name>
+          <name>Kebab de boeuf mariné, sauce Tzatziki</name>
           <note>non-végétarien</note>
           <note>produit constant</note>
         </meal>
@@ -382,6 +453,16 @@
           <note>biologique</note>
           <note>produit constant</note>
           <note>produit du Luxembourg</note>
+        </meal>
+      </category>
+      <category name="12.1 Emballages et articles réutilisables (07:00 - 18:00)">
+        <meal>
+          <name>myBento</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>myBowl</name>
+          <note>produit constant</note>
         </meal>
       </category>
       <category name="13. DayCare (07:00 - 18:00)">
@@ -403,14 +484,20 @@
       <category name="Entrée (07:00 - 18:00)">
         <meal>
           <name>Geméiszopp</name>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Soupe aux légumes</note>
+          <note>biologique</note>
           <note>produit constant</note>
+          <note>produit du Luxembourg</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Végétarien (07:00 - 18:00)">
         <meal>
           <name>Paëlla végétarienne</name>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit du Benelux</note>
           <note>produit constant</note>
           <note>végétarien</note>
@@ -420,6 +507,10 @@
         <meal>
           <name>Paschtéit</name>
           <note>Bouchée à la Reine</note>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
           <note>non-végétarien</note>
           <note>produit constant</note>
         </meal>
@@ -442,6 +533,16 @@
           <note>biologique</note>
           <note>produit constant</note>
           <note>produit du Luxembourg</note>
+        </meal>
+      </category>
+      <category name="12.1 Emballages et articles réutilisables (07:00 - 18:00)">
+        <meal>
+          <name>myBento</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>myBowl</name>
+          <note>produit constant</note>
         </meal>
       </category>
       <category name="13. DayCare (07:00 - 18:00)">
@@ -466,19 +567,312 @@
       <closed/>
     </day>
     <day date="2023-09-25">
-      <closed/>
+      <category name="Entrée (07:00 - 18:00)">
+        <meal>
+          <name>Kabeszopp</name>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Soupe au chou</note>
+          <note>biologique</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Végétarien (07:00 - 18:00)">
+        <meal>
+          <name>Potiron farci aux lentilles, dip au yaourt</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Non-végétarien (07:00 - 18:00)">
+        <meal>
+          <name>Roulade de jeune bovin braisé, fond réduit persillé</name>
+          <note>Céleri et produits à base de céleri</note>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+      </category>
+      <category name="10.3 Boissons froides - Sodas (07:00 - 18:00)">
+        <meal>
+          <name>Ortea Ice Tea BIO 0,50 l btl</name>
+          <note>biologique</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+      </category>
+      <category name="12.1 Emballages et articles réutilisables (07:00 - 18:00)">
+        <meal>
+          <name>myBento</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>myBowl</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="13. DayCare (07:00 - 18:00)">
+        <meal>
+          <name>DayCare (gratuit) - Collation du matin</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>DayCare (gratuit) - Goûter</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>DayCare (gratuit) - Petit Déjeuner</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
     </day>
     <day date="2023-09-26">
-      <closed/>
+      <category name="Entrée (07:00 - 18:00)">
+        <meal>
+          <name>Velouté de potiron</name>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Végétarien (07:00 - 18:00)">
+        <meal>
+          <name>Boulettes aux haricots blancs et pommes de terre, sauce tomate aux herbes</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Non-végétarien (07:00 - 18:00)">
+        <meal>
+          <name>Emincé de poulet aux saveurs de l'Inde</name>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="10.3 Boissons froides - Sodas (07:00 - 18:00)">
+        <meal>
+          <name>Ortea Ice Tea BIO 0,50 l btl</name>
+          <note>biologique</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+      </category>
+      <category name="12.1 Emballages et articles réutilisables (07:00 - 18:00)">
+        <meal>
+          <name>myBento</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>myBowl</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="13. DayCare (07:00 - 18:00)">
+        <meal>
+          <name>DayCare (gratuit) - Collation du matin</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>DayCare (gratuit) - Goûter</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>DayCare (gratuit) - Petit Déjeuner</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
     </day>
     <day date="2023-09-27">
-      <closed/>
+      <category name="Entrée (07:00 - 18:00)">
+        <meal>
+          <name>Bouillon de légumes aux saveurs de l'Asie</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Végétarien (07:00 - 18:00)">
+        <meal>
+          <name>Gromperekichelcher mat zwee Spigeleeër</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales</note>
+          <note>Galettes de pommes de terre et deux oeufs au plat</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Non-végétarien (07:00 - 18:00)">
+        <meal>
+          <name>Cabillaud rôti, sauce vierge</name>
+          <note>Poissons et produits à base de poissons</note>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="10.3 Boissons froides - Sodas (07:00 - 18:00)">
+        <meal>
+          <name>Ortea Ice Tea BIO 0,50 l btl</name>
+          <note>biologique</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+      </category>
+      <category name="12.1 Emballages et articles réutilisables (07:00 - 18:00)">
+        <meal>
+          <name>myBento</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>myBowl</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="13. DayCare (07:00 - 18:00)">
+        <meal>
+          <name>DayCare (gratuit) - Collation du matin</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>DayCare (gratuit) - Goûter</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>DayCare (gratuit) - Petit Déjeuner</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
     </day>
     <day date="2023-09-28">
-      <closed/>
+      <category name="Entrée (07:00 - 18:00)">
+        <meal>
+          <name>Broutzopp</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Potage au pain</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Végétarien (07:00 - 18:00)">
+        <meal>
+          <name>Penne all'arrabbiata</name>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Non-végétarien (07:00 - 18:00)">
+        <meal>
+          <name>Roastbeef cuit basse température, sauce hollandaise</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="10.3 Boissons froides - Sodas (07:00 - 18:00)">
+        <meal>
+          <name>Ortea Ice Tea BIO 0,50 l btl</name>
+          <note>biologique</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+      </category>
+      <category name="12.1 Emballages et articles réutilisables (07:00 - 18:00)">
+        <meal>
+          <name>myBento</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>myBowl</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="13. DayCare (07:00 - 18:00)">
+        <meal>
+          <name>DayCare (gratuit) - Collation du matin</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>DayCare (gratuit) - Goûter</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>DayCare (gratuit) - Petit Déjeuner</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
     </day>
     <day date="2023-09-29">
-      <closed/>
+      <category name="Entrée (07:00 - 18:00)">
+        <meal>
+          <name>Soupe aux champignons</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Végétarien (07:00 - 18:00)">
+        <meal>
+          <name>Burger végétarien all'italiana, concassé de tomates</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Non-végétarien (07:00 - 18:00)">
+        <meal>
+          <name>Escalope de porc non panée, sauce crème champignons</name>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="10.3 Boissons froides - Sodas (07:00 - 18:00)">
+        <meal>
+          <name>Ortea Ice Tea BIO 0,50 l btl</name>
+          <note>biologique</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+      </category>
+      <category name="12.1 Emballages et articles réutilisables (07:00 - 18:00)">
+        <meal>
+          <name>myBento</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>myBowl</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="13. DayCare (07:00 - 18:00)">
+        <meal>
+          <name>DayCare (gratuit) - Collation du matin</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>DayCare (gratuit) - Goûter</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>DayCare (gratuit) - Petit Déjeuner</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
     </day>
     <day date="2023-09-30">
       <closed/>
@@ -486,18 +880,291 @@
     <day date="2023-10-01">
       <closed/>
     </day>
+    <day date="2023-10-02">
+      <category name="Entrée (07:00 - 18:00)">
+        <meal>
+          <name>Porettenzopp</name>
+          <note>Soupe aux poireaux</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Végétarien (07:00 - 18:00)">
+        <meal>
+          <name>Kebab Seitan style, sauce Tzatziki</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Non-végétarien (07:00 - 18:00)">
+        <meal>
+          <name>Waarm Ham aus dem Uewen mat Moschterzooss</name>
+          <note>Jambon cuit braisé au four, sauce moutarde</note>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="10.3 Boissons froides - Sodas (07:00 - 18:00)">
+        <meal>
+          <name>Ortea Ice Tea BIO 0,50 l btl</name>
+          <note>biologique</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+      </category>
+      <category name="12.1 Emballages et articles réutilisables (07:00 - 18:00)">
+        <meal>
+          <name>myBento</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>myBowl</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="13. DayCare (07:00 - 18:00)">
+        <meal>
+          <name>DayCare (gratuit) - Collation du matin</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>DayCare (gratuit) - Goûter</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>DayCare (gratuit) - Petit Déjeuner</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-10-03">
+      <category name="Entrée (07:00 - 18:00)">
+        <meal>
+          <name>Bouillon de légumes aux vermicelles</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Végétarien (07:00 - 18:00)">
+        <meal>
+          <name>Tortilla mat Kéis an Kraider</name>
+          <note>Tortilla au fromage et herbes fraîches</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Tourte à la ricotta aux oignons rouges et poireaux sautés</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="10.3 Boissons froides - Sodas (07:00 - 18:00)">
+        <meal>
+          <name>Ortea Ice Tea BIO 0,50 l btl</name>
+          <note>biologique</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+      </category>
+      <category name="12.1 Emballages et articles réutilisables (07:00 - 18:00)">
+        <meal>
+          <name>myBento</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>myBowl</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="13. DayCare (07:00 - 18:00)">
+        <meal>
+          <name>DayCare (gratuit) - Collation du matin</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>DayCare (gratuit) - Goûter</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>DayCare (gratuit) - Petit Déjeuner</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-10-04">
+      <category name="Entrée (07:00 - 18:00)">
+        <meal>
+          <name>Gromperenzopp</name>
+          <note>Soupe de pommes de terre</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Végétarien (07:00 - 18:00)">
+        <meal>
+          <name>Légumes et tofu rôtis façon bourguignonne</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Non-végétarien (07:00 - 18:00)">
+        <meal>
+          <name>Boeuf à la zurichoise</name>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="10.3 Boissons froides - Sodas (07:00 - 18:00)">
+        <meal>
+          <name>Ortea Ice Tea BIO 0,50 l btl</name>
+          <note>biologique</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+      </category>
+      <category name="12.1 Emballages et articles réutilisables (07:00 - 18:00)">
+        <meal>
+          <name>myBento</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>myBowl</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="13. DayCare (07:00 - 18:00)">
+        <meal>
+          <name>DayCare (gratuit) - Collation du matin</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>DayCare (gratuit) - Goûter</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>DayCare (gratuit) - Petit Déjeuner</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-10-05">
+      <category name="Entrée (07:00 - 18:00)">
+        <meal>
+          <name>Crème de carottes</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Végétarien (07:00 - 18:00)">
+        <meal>
+          <name>Galettes de pommes de terre et lentilles, sauce pesto au persil maison</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Non-végétarien (07:00 - 18:00)">
+        <meal>
+          <name>Pilons de poulet rôtis aux herbes, jus réduit</name>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="10.3 Boissons froides - Sodas (07:00 - 18:00)">
+        <meal>
+          <name>Ortea Ice Tea BIO 0,50 l btl</name>
+          <note>biologique</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+      </category>
+      <category name="12.1 Emballages et articles réutilisables (07:00 - 18:00)">
+        <meal>
+          <name>myBento</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>myBowl</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="13. DayCare (07:00 - 18:00)">
+        <meal>
+          <name>DayCare (gratuit) - Collation du matin</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>DayCare (gratuit) - Goûter</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>DayCare (gratuit) - Petit Déjeuner</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-10-06">
+      <category name="Entrée (07:00 - 18:00)">
+        <meal>
+          <name>Velouté aux brocolis</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Végétarien (07:00 - 18:00)">
+        <meal>
+          <name>Blanquette de légumes au tofu fumé, fond de céleri réduit</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Non-végétarien (07:00 - 18:00)">
+        <meal>
+          <name>Tex Mex Burger au jeune bovin</name>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="10.3 Boissons froides - Sodas (07:00 - 18:00)">
+        <meal>
+          <name>Ortea Ice Tea BIO 0,50 l btl</name>
+          <note>biologique</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+      </category>
+      <category name="12.1 Emballages et articles réutilisables (07:00 - 18:00)">
+        <meal>
+          <name>myBento</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>myBowl</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="13. DayCare (07:00 - 18:00)">
+        <meal>
+          <name>DayCare (gratuit) - Collation du matin</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>DayCare (gratuit) - Goûter</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>DayCare (gratuit) - Petit Déjeuner</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-10-07">
+      <closed/>
+    </day>
+    <day date="2023-10-08">
+      <closed/>
+    </day>
   </canteen>
 </openmensa>
-
-<!-- Theme day: Fermeture [restaurant=1337] -->
-
-<!-- Theme day: Fermeture [restaurant=1337] -->
-
-<!-- Theme day: Fermeture [restaurant=1337] -->
-
-<!-- Theme day: Fermeture [restaurant=1337] -->
-
-<!-- Theme day: Fermeture [restaurant=1337] -->
 
 <!-- Theme day: Fermeture [restaurant=1337] -->
 
