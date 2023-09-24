@@ -3,50 +3,85 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2023-09-18">
+    <day date="2023-09-25">
       <category name="Suppe &amp; Veggie">
         <meal>
-          <name>Klare Gemüsesuppe mit Fadennudeln Paprika gefüllt mit Cous Cous, Tomatenragout,Petersilerdäpfel</name>
+          <name>Klare Gemüsesuppe mit Reibteig</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <price role="student">2.10</price>
+        </meal>
+        <meal>
+          <name>Käsespätzle, Röstzwiebel</name>
           <note>Eier</note>
           <note>Gluten</note>
           <note>Milch</note>
+          <note>Sojabohnen</note>
+          <price role="student">5.90</price>
+        </meal>
+      </category>
+      <category name="Herzhaft">
+        <meal>
+          <name>Chili con Carne vom Rind, Semmel</name>
+          <note>Gluten</note>
+          <price role="student">6.80</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-09-26">
+      <category name="Suppe &amp; Veggie">
+        <meal>
+          <name>Karotten Ingwersuppe</name>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>vegan</note>
+          <price role="student">2.10</price>
+        </meal>
+        <meal>
+          <name>Vegetarische Frühlingsrolle, Wok- Gemüse,Basmatireis</name>
+          <note>Gluten</note>
           <note>Sellerie</note>
+          <note>Sesam</note>
           <note>Sojabohnen</note>
           <note>vegan</note>
           <price role="student">5.90</price>
         </meal>
       </category>
-      <category name="Herzhaft KIDS">
+      <category name="Herzhaft">
         <meal>
-          <name>Klare Gemüsesuppe mit Fadennudeln Linseneintopf mit Geselchtem und Gemüse, hausgemachte Serviettenknödel</name>
+          <name>Gekochtes Steirisches Wurzelfleisch, Salzerdäpfel, Kren</name>
+          <note>Sellerie</note>
+          <price role="student">6.80</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-09-27">
+      <category name="Suppe &amp; Veggie">
+        <meal>
+          <name>Klare Gemüsesuppe mit Eintropf Hausgemachte Spinatknödel, Österkronsauce mit Kräutern und Tomatenwürfel, Geschmorte Cherrytomaten</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sojabohnen</note>
+          <price role="student">5.90</price>
         </meal>
       </category>
       <category name="Herzhaft">
         <meal>
-          <name>Linseneintopf mit Geselchtem und Gemüse, hausgemachte Serviettenknödel</name>
-          <note>Eier</note>
+          <name>Hühner-Gemüsewrap, mit Reis</name>
           <note>Gluten</note>
           <note>Milch</note>
           <note>Sellerie</note>
           <price role="student">6.80</price>
         </meal>
       </category>
-      <category name="Veggie KIDS">
-        <meal>
-          <name>Klare Gemüsesuppe mit Fadennudeln Paprika gefüllt mit Cous Cous, Tomatenragout</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <note>vegan</note>
-        </meal>
-      </category>
     </day>
-    <day date="2023-09-19">
+    <day date="2023-09-28">
       <category name="Suppe &amp; Veggie">
         <meal>
-          <name>Knoblauchcremesuppe Cremespinat,Rührei, Rösterdäpfel</name>
-          <note>Eier</note>
+          <name>Gemüsecremesuppe Vegetarisches Moussaka, Tomatenragout</name>
           <note>Gluten</note>
           <note>Milch</note>
           <note>Schwefeldioxid/Sulfite</note>
@@ -55,167 +90,35 @@
           <price role="student">5.90</price>
         </meal>
       </category>
-      <category name="Herzhaft KIDS">
-        <meal>
-          <name>Faschierter Braten, Natursauce, Karotten, Erdäpfelpurée Schokopudding</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-        </meal>
-      </category>
       <category name="Herzhaft">
         <meal>
-          <name>Faschierter Braten, Natursauce, Karotten,Erdäpfelpurée</name>
+          <name>Gebackener Leberkäse, Erdäpfelpurée, Zitrone</name>
           <note>Eier</note>
           <note>Gluten</note>
           <note>Milch</note>
           <note>Schwefeldioxid/Sulfite</note>
           <note>Sellerie</note>
-          <note>Senf</note>
           <price role="student">6.80</price>
         </meal>
       </category>
-      <category name="Veggie KIDS">
-        <meal>
-          <name>Cremespinat, Rührei, Rösterdäpfel Schokopudding</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Sojabohnen</note>
-        </meal>
-      </category>
     </day>
-    <day date="2023-09-20">
+    <day date="2023-09-29">
       <category name="Suppe &amp; Veggie">
         <meal>
-          <name>Klare Gemüsesuppe mit Eierflocken Marillen Fruchtknödel in Butterbrösel Apfelmus</name>
-          <note>Eier</note>
+          <name>Klare Gemüsesuppe mit Backerbsen Mediterrane Ebly-Gemüsepfanne</name>
           <note>Gluten</note>
-          <note>Milch</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <price role="student">5.30</price>
-        </meal>
-      </category>
-      <category name="Herzhaft KIDS">
-        <meal>
-          <name>Klare Gemüsesuppe mit Eierflocken Grenadiermarsch</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-        </meal>
-      </category>
-      <category name="Herzhaft">
-        <meal>
-          <name>Rindsgulasch, Hörnchen</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <price role="student">7.20</price>
-        </meal>
-      </category>
-      <category name="Veggie KIDS">
-        <meal>
-          <name>Klare Gemüsesuppe mit Eierflocken Marillen Fruchtknödel in Butterbrösel Apfelmus</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-        </meal>
-      </category>
-    </day>
-    <day date="2023-09-21">
-      <category name="Suppe &amp; Veggie">
-        <meal>
-          <name>Tomatencremesuppe Champignons á la Creme, hausgemachte Serviettenknödel</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sojabohnen</note>
           <note>vegan</note>
           <price role="student">5.90</price>
         </meal>
       </category>
-      <category name="Herzhaft KIDS">
-        <meal>
-          <name>Eintopf mit Hühnerfleisch und Karotten mit Reis</name>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-        </meal>
-      </category>
       <category name="Herzhaft">
         <meal>
-          <name>Eintopf mit Hühnerfleisch und Karotten, Reis</name>
+          <name>Rindergeschnetzeltes Esterhazy, Reis</name>
+          <note>Gluten</note>
           <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <price role="student">7.20</price>
-        </meal>
-      </category>
-      <category name="Veggie KIDS">
-        <meal>
-          <name>Champignons á la Creme, hausgemachte Serviettenknödel</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sojabohnen</note>
-          <note>vegan</note>
-        </meal>
-      </category>
-    </day>
-    <day date="2023-09-22">
-      <category name="Suppe &amp; Veggie">
-        <meal>
-          <name>Klare Gemüsesuppe mit Tarhonya Süßkartoffel Letscho Basmatireis</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <note>vegan</note>
-          <price role="student">5.90</price>
-        </meal>
-      </category>
-      <category name="Tages-Empfehlung">
-        <meal>
-          <name>Alaska Seelachs in der Knusperpanade, Gemüsereis, Sauce Tartare, Zitrone</name>
-          <note>MSC</note>
-          <price role="student">7.60</price>
-        </meal>
-      </category>
-      <category name="Herzhaft KIDS">
-        <meal>
-          <name>Klare Gemüsesuppe mit Tarhonya Majoranfleisch, Bratkartoffeln</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-        </meal>
-      </category>
-      <category name="Herzhaft">
-        <meal>
-          <name>Klare Gemüsesuppe mit Tarhonya Majoranfleisch, Bratkartoffeln</name>
-          <note>Eier</note>
-          <note>Gluten</note>
           <note>Sellerie</note>
           <note>Sojabohnen</note>
           <price role="student">6.80</price>
-        </meal>
-      </category>
-      <category name="Veggie KIDS">
-        <meal>
-          <name>Klare Gemüsesuppe mit Tarhonya Süßkartoffel Letscho, Basmatireis</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <note>vegan</note>
         </meal>
       </category>
     </day>
