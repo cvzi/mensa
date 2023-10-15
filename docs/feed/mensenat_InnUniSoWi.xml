@@ -3,7 +3,58 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2023-10-09">
+    <day date="2023-10-16">
+      <category name="Veggie &amp; Vegan">
+        <meal>
+          <name>Tomaten-Orangensuppe / zu einer Hauptspeise</name>
+          <note>vegan</note>
+          <price role="student">1.05</price>
+        </meal>
+        <meal>
+          <name>Asiatische Eiernudeln mit Gemüse und BIO-Tofu</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Sesam</note>
+          <note>Sojabohnen</note>
+          <note>vegetarisch</note>
+          <price role="student">5.90</price>
+        </meal>
+      </category>
+      <category name="Wochenangebot">
+        <meal>
+          <name>Montag bis Freitag: Wiener Schnitzel vom Schwein / AT mit Pommes Frites oder Kartoffelsalat dazu Ketchup</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Lupinen</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <note>Sesam</note>
+          <price role="student">8.20</price>
+        </meal>
+        <meal>
+          <name>BIO Pasta mit Sauce Bolognese oder Tomatensauce dazu Parmesan /</name>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <note>vegetarisch</note>
+          <price role="student">5.60</price>
+        </meal>
+      </category>
+      <category name="Tagesangebot Herzhaft">
+        <meal>
+          <name>Schweine Geschnetzeltes / AT &quot; Züricher Art&quot; dazu Kartoffelkroketten</name>
+          <note>Gluten</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <price role="student">6.90</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-10-17">
       <category name="Veggie &amp; Vegan">
         <meal>
           <name>Klare Gemüsesuppe mit Schöberl / zu einer Hauptspeise</name>
@@ -12,14 +63,15 @@
           <note>Milch</note>
           <note>Sellerie</note>
           <note>Sojabohnen</note>
+          <note>vegetarisch</note>
           <price role="student">1.05</price>
         </meal>
         <meal>
-          <name>Afrikanischer Gemüse- Eintopf mit Erdnüssen dazu Bulgur</name>
-          <note>Erdnüsse</note>
+          <name>Gnocchi mit Paprikaragout dazu frischer Parmesan</name>
+          <note>Eier</note>
           <note>Gluten</note>
+          <note>Milch</note>
           <note>Schwefeldioxid/Sulfite</note>
-          <note>Senf</note>
           <note>vegetarisch</note>
           <price role="student">5.90</price>
         </meal>
@@ -48,83 +100,33 @@
       </category>
       <category name="Tagesangebot Herzhaft">
         <meal>
-          <name>Hascheehörnchen / Rind AT</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <price role="student">6.20</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2023-10-10">
-      <category name="Veggie &amp; Vegan">
-        <meal>
-          <name>Kürbiscremesuppe / zu einer Hauptspeise</name>
-          <note>Milch</note>
+          <name>Hühnerfleisch Eintopf / AT mit Karotten dazu Basmatireis</name>
           <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
           <note>Sojabohnen</note>
-          <note>vegetarisch</note>
-          <price role="student">1.05</price>
-        </meal>
-        <meal>
-          <name>Kichererbsen Chana Masala mit Ebly</name>
-          <note>Gluten</note>
-          <note>vegan</note>
-          <price role="student">5.90</price>
-        </meal>
-      </category>
-      <category name="Wochenangebot">
-        <meal>
-          <name>Montag bis Freitag: Wiener Schnitzel vom Schwein / AT mit Pommes Frites oder Kartoffelsalat dazu Ketchup</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Lupinen</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <note>Sesam</note>
-          <price role="student">8.20</price>
-        </meal>
-        <meal>
-          <name>BIO Pasta mit Sauce Bolognese oder Tomatensauce dazu Parmesan /</name>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-          <note>vegetarisch</note>
-          <price role="student">5.60</price>
-        </meal>
-      </category>
-      <category name="Tagesangebot Herzhaft">
-        <meal>
-          <name>Pulled Pork / AT mit Reis und Tzatziki</name>
-          <note>Fisch</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Senf</note>
           <price role="student">6.80</price>
         </meal>
       </category>
     </day>
-    <day date="2023-10-11">
+    <day date="2023-10-18">
       <category name="Veggie &amp; Vegan">
         <meal>
-          <name>Klare Gemüsesuppe mit Backerbsen / zu einer Hauptspeise</name>
-          <note>Eier</note>
+          <name>Zucchinicremesuppe / zu einer Hauptspeise</name>
           <note>Gluten</note>
-          <note>Milch</note>
-          <note>Sellerie</note>
+          <note>Schwefeldioxid/Sulfite</note>
           <note>Sojabohnen</note>
-          <note>vegetarisch</note>
+          <note>vegan</note>
           <price role="student">1.05</price>
         </meal>
         <meal>
-          <name>Gemüsefleckerl</name>
+          <name>Gemüserahmspätzle mit Röstzwiebel</name>
           <note>Eier</note>
           <note>Gluten</note>
           <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
           <note>Sojabohnen</note>
           <note>vegetarisch</note>
-          <price role="student">5.30</price>
+          <price role="student">5.90</price>
         </meal>
       </category>
       <category name="Wochenangebot">
@@ -151,7 +153,9 @@
       </category>
       <category name="Tagesangebot Herzhaft">
         <meal>
-          <name>Country Burger / 100% BIO Rindfleisch AT mit Speck, Käse und Zwiebelsenf dazu Pommes</name>
+          <name>Swiss Burger / 100% BIO Rindfleisch AT mit Pommes</name>
+          <note>Eier</note>
+          <note>Fisch</note>
           <note>Gluten</note>
           <note>Milch</note>
           <note>Schwefeldioxid/Sulfite</note>
@@ -161,18 +165,22 @@
         </meal>
       </category>
     </day>
-    <day date="2023-10-12">
+    <day date="2023-10-19">
       <category name="Veggie &amp; Vegan">
         <meal>
-          <name>Karfiolcremesuppe / zu einer Hauptspeise</name>
+          <name>Klare Gemüsesuppe mit Grießnockerl / zu einer Hauptspeise</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Sellerie</note>
           <note>Sojabohnen</note>
-          <note>vegan</note>
           <price role="student">1.05</price>
         </meal>
         <meal>
-          <name>Gebackene Falafel auf buntem Salat mit Joghurtdip</name>
+          <name>Bohnen-Gemüse-Schmortopf mit Pilzen dazu Butterreis</name>
           <note>Gluten</note>
           <note>Milch</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
           <note>vegetarisch</note>
           <price role="student">5.90</price>
         </meal>
@@ -201,32 +209,32 @@
       </category>
       <category name="Tagesangebot Herzhaft">
         <meal>
-          <name>Putencurry / AT mit Ananas und Kokosmilch dazu Jasminreis</name>
+          <name>Rindergeschnetzeltes &quot;Stroganoff&quot; dazu Hörnchen</name>
+          <note>Eier</note>
           <note>Gluten</note>
-          <note>Sesam</note>
+          <note>Milch</note>
+          <note>Schalenfrüchte</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
           <note>Sojabohnen</note>
-          <price role="student">6.80</price>
+          <price role="student">6.90</price>
         </meal>
       </category>
     </day>
-    <day date="2023-10-13">
+    <day date="2023-10-20">
       <category name="Veggie &amp; Vegan">
         <meal>
-          <name>Klare Gemüsesuppe mit Reibteig / zu einer Hauptspeise</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <note>vegetarisch</note>
-          <price role="student">1.05</price>
-        </meal>
-        <meal>
-          <name>Tortelloni Ricotta Spinat mit brauner Butter und Parmesan</name>
+          <name>Gemüsecremesuppe Spaghetti mit Rucola Pesto dazu frischer Parmesan</name>
           <note>Eier</note>
           <note>Gluten</note>
           <note>Milch</note>
+          <note>Schalenfrüchte</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sojabohnen</note>
+          <note>vegan</note>
           <note>vegetarisch</note>
-          <price role="student">5.90</price>
+          <price role="student">5.60</price>
         </meal>
       </category>
       <category name="Wochenangebot">
@@ -253,12 +261,11 @@
       </category>
       <category name="Tagesangebot Herzhaft">
         <meal>
-          <name>Gebackener Alaska Seelachs mit Petersilkartoffel, Gemüse und Sauce Tartare</name>
-          <note>Eier</note>
+          <name>Gebackenes Alaska Seelachsfilet mit Kartoffel- Mayonnaisesalat</name>
           <note>Fisch</note>
           <note>Gluten</note>
           <note>MSC</note>
-          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
           <note>Senf</note>
           <price role="student">7.60</price>
         </meal>
