@@ -3,10 +3,11 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2023-10-26">
+    <day date="2023-10-27">
       <category name="Tellergericht">
         <meal>
-          <name>Vegan:Kartoffel- Karotten -Kürbis-Creme-Suppe, Teller</name>
+          <name>Vegan: Kartoffelsuppe, Teller</name>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
           <note>geschwefelt</note>
           <note>jodiertes Salz</note>
           <price role="employee">2.35</price>
@@ -14,48 +15,70 @@
           <price role="student">1.50</price>
         </meal>
         <meal>
-          <name>Vegan:Kartoffel-Karotten-Kürbis-Creme-Suppe, Terrine</name>
+          <name>Vegan: Kartoffelsuppe, Terrine</name>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
           <note>geschwefelt</note>
           <note>jodiertes Salz</note>
           <price role="employee">3.25</price>
           <price role="other">4.40</price>
           <price role="student">2.20</price>
         </meal>
-        <meal>
-          <name>Kartoffelsalat mit Wiener</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
-          <note>Schweinefleisch</note>
-          <note>Senf und daraus hergestellte Erzeugnisse</note>
-          <note>geschwefelt</note>
-          <note>jodiertes Salz</note>
-          <note>mit Antioxidationsmittel</note>
-          <note>mit Konservierungsstoff</note>
-          <note>mit Süßungsmittel</note>
-          <price role="employee">4.20</price>
-          <price role="other">5.40</price>
-          <price role="student">3.00</price>
-        </meal>
       </category>
-      <category name="Komponente 2">
+      <category name="Komponente 1">
         <meal>
-          <name>Bolognese</name>
+          <name>Paniertes Seelachsfilet mit Kräutersoße</name>
           <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <note>Fische und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Milch/Milchzucker (Laktose)</note>
-          <note>Schweinefleisch</note>
+          <note>gewachst</note>
           <note>jodiertes Salz</note>
           <price role="employee">3.10</price>
           <price role="other">3.95</price>
           <price role="student">2.25</price>
         </meal>
       </category>
-      <category name="Vegetarische Komponente 1">
+      <category name="Komponente 2">
         <meal>
-          <name>Rahmspinat mit Rührei</name>
+          <name>Nudelauflauf mit Pilzen, Hackfleisch</name>
           <note>Eier und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Milch/Milchzucker (Laktose)</note>
+          <note>Schweinefleisch</note>
           <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>jodiertes Salz</note>
+          <price role="employee">3.10</price>
+          <price role="other">3.95</price>
+          <price role="student">2.25</price>
+        </meal>
+      </category>
+      <category name="Komponente 3">
+        <meal>
+          <name>Hühnerfrikassee mit Gemüse (9,Gefl,G,A,C,F,I,J)</name>
+          <price role="employee">3.10</price>
+          <price role="other">3.95</price>
+          <price role="student">2.25</price>
+        </meal>
+      </category>
+      <category name="Vegane Komponente 1">
+        <meal>
+          <name>Broccoli-Nuss-Ecke  
+ Vegan: veganer cremiger Tomaten- Dip</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Schalenfrüchte und daraus hergestellte Erzeugnisse (Mandeln, Haselnuss usw.)</note>
+          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
+          <note>jodiertes Salz</note>
+          <price role="employee">2.60</price>
+          <price role="other">3.45</price>
+          <price role="student">1.75</price>
+        </meal>
+      </category>
+      <category name="Vegetarische Komponente 1">
+        <meal>
+          <name>2 Eier mit Senfsauce</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
           <note>jodiertes Salz</note>
           <price role="employee">2.35</price>
           <price role="other">3.20</price>
@@ -71,17 +94,31 @@
           <price role="student">0.70</price>
         </meal>
         <meal>
-          <name>Spaghetti</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>jodiertes Salz</note>
+          <name>Reis</name>
+          <note>Milch/Milchzucker (Laktose)</note>
           <price role="employee">1.00</price>
           <price role="other">1.40</price>
           <price role="student">0.70</price>
         </meal>
+        <meal>
+          <name>Kartoffelsalat</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
+          <note>geschwefelt</note>
+          <note>jodiertes Salz</note>
+          <note>mit Antioxidationsmittel</note>
+          <note>mit Farbstoff</note>
+          <note>mit Süßungsmittel</note>
+          <price role="employee">1.30</price>
+          <price role="other">1.70</price>
+          <price role="student">1.00</price>
+        </meal>
       </category>
       <category name="Gemüse">
         <meal>
-          <name>Feine Möhren</name>
+          <name>Mischgemüse (Karotten und Erbsen)</name>
           <note>jodiertes Salz</note>
           <price role="employee">1.00</price>
           <price role="other">1.40</price>
