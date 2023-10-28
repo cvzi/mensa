@@ -3,41 +3,6 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2023-10-27">
-      <category name="Essen I Drehkreuz/Ampel">
-        <meal>
-          <name>Fajita Pueblo: Geschnetzeltes Truthahnfleisch mit Paprika, Zucchini und Zwiebeln  mit Sour Cream-Dip , Tortillas und Salat</name>
-          <note>Eier und Eierzeugnisse</note>
-          <note>Farbstoff</note>
-          <note>Geflügel</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Konservierungsstoff</note>
-          <note>Laktose</note>
-          <note>Schalenfrüchte (Nüsse)</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <note>Süßungsmittel</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
-      </category>
-      <category name="Essen Mensa light Drehkreuz/Ampel">
-        <meal>
-          <name>Käsespätzle, dazu bayrischer Krautsalat</name>
-          <note>Eier und Eierzeugnisse</note>
-          <note>Farbstoff</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Laktose</note>
-          <note>Schwefeldioxid (&quot;SO2&quot;) und Sulfite</note>
-          <note>Vegetarisches Menü bei Essen 2</note>
-          <note>geschwefelt</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
-      </category>
-    </day>
     <day date="2023-10-30">
       <category name="Freeflow">
         <meal>
@@ -48,16 +13,6 @@
           <note>Senf</note>
           <note>geschwefelt</note>
           <note>kann Restalkohol enthalten</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
-        <meal>
-          <name>Vollkornreispfanne mit Herbstgemüse und Cashewkerne</name>
-          <note>Mensa light: Veganes Pfannengericht</note>
-          <note>Schalenfrüchte (Nüsse)</note>
-          <note>Senf</note>
-          <note>Sesam</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
           <price role="student">5.55</price>
@@ -96,6 +51,18 @@
           <price role="student">5.55</price>
         </meal>
       </category>
+      <category name="Essen Mensa light Drehkreuz/Ampel">
+        <meal>
+          <name>Vollkornreispfanne mit Herbstgemüse und Cashewkerne</name>
+          <note>Schalenfrüchte (Nüsse)</note>
+          <note>Senf</note>
+          <note>Sesam</note>
+          <note>Veganes Menü bei Essen 2</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+      </category>
     </day>
     <day date="2023-10-31">
       <category name="Freeflow">
@@ -109,10 +76,12 @@
           <price role="other">5.55</price>
           <price role="student">5.55</price>
         </meal>
+      </category>
+      <category name="Essen Mensa light Drehkreuz/Ampel">
         <meal>
           <name>Feuriger Rigatoni Eintopf mit Peperoncino, Tomaten und Rinderhackfleisch</name>
           <note>Glutenhaltiges Getreide</note>
-          <note>Mensa light: One Pot</note>
+          <note>One bei Essen 2</note>
           <note>Rind</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
@@ -166,17 +135,19 @@
           <price role="student">5.55</price>
         </meal>
       </category>
-      <category name="Freeflow">
+      <category name="Essen Mensa light Drehkreuz/Ampel">
         <meal>
           <name>Fusilli mit hausgemachtem Pesto mit Basilikum, Pinienkerne und Hartkäse</name>
           <note>Glutenhaltiges Getreide</note>
           <note>Laktose</note>
-          <note>Mensa light: Vegetarische Pasta</note>
           <note>Schalenfrüchte (Nüsse)</note>
+          <note>Vegetarisches Menü bei Essen 2</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
           <price role="student">5.55</price>
         </meal>
+      </category>
+      <category name="Freeflow">
         <meal>
           <name>Schwenksteak mit Zwiebelsoße, Pommes frites und einen Beilagensalat nach Wahl</name>
           <note>Geschmacksverstärker</note>
@@ -238,13 +209,13 @@
           <price role="student">5.55</price>
         </meal>
       </category>
-      <category name="Freeflow">
+      <category name="Essen Mensa light Drehkreuz/Ampel">
         <meal>
           <name>Gebratene Schupfnudeln mit Spinatsoße</name>
           <note>Eier und Eierzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Laktose</note>
-          <note>Mensa light: Vegetarische Heimatküche</note>
+          <note>Vegetarisches Menü bei Essen 2</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
           <price role="student">5.55</price>
@@ -252,29 +223,13 @@
       </category>
     </day>
     <day date="2023-11-06">
-      <category name="Freeflow">
+      <category name="Essen Mensa light Drehkreuz/Ampel">
         <meal>
           <name>Frische Gemüsereispfanne, dazu Zitronen-Joghurt-Dip</name>
           <note>Glutenhaltiges Getreide</note>
-          <note>Mensa light: Veganes Pfannengericht</note>
           <note>Schalenfrüchte (Nüsse)</note>
           <note>Senf</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
-        <meal>
-          <name>Grillschinken mit Dijonsenf-Dip und Potato-Wedges, dazu einen Beilagensalat nach Wahl</name>
-          <note>Antioxidationsmittel</note>
-          <note>Eier und Eierzeugnisse</note>
-          <note>Farbstoff</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Konservierungsstoff</note>
-          <note>Laktose</note>
-          <note>Phosphat</note>
-          <note>Schwein</note>
-          <note>Senf</note>
-          <note>Süßungsmittel</note>
+          <note>Veganes Menü bei Essen 2</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
           <price role="student">5.55</price>
@@ -299,6 +254,24 @@
           <note>Farbstoff</note>
           <note>Soja</note>
           <note>Veganes Menü im freeflow</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+      </category>
+      <category name="Freeflow">
+        <meal>
+          <name>Grillschinken mit Dijonsenf-Dip und Potato-Wedges, dazu einen Beilagensalat nach Wahl</name>
+          <note>Antioxidationsmittel</note>
+          <note>Eier und Eierzeugnisse</note>
+          <note>Farbstoff</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Konservierungsstoff</note>
+          <note>Laktose</note>
+          <note>Phosphat</note>
+          <note>Schwein</note>
+          <note>Senf</note>
+          <note>Süßungsmittel</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
           <price role="student">5.55</price>
@@ -345,10 +318,12 @@
           <price role="other">5.55</price>
           <price role="student">5.55</price>
         </meal>
+      </category>
+      <category name="Essen Mensa light Drehkreuz/Ampel">
         <meal>
           <name>Kürbis-Pilz-Risotto</name>
           <note>Laktose</note>
-          <note>Mensa light: Vegetarische One Pot</note>
+          <note>Vegetarisches Menü bei Essen 2</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
           <price role="student">5.55</price>
@@ -387,19 +362,21 @@
           <price role="student">5.55</price>
         </meal>
       </category>
-      <category name="Freeflow">
+      <category name="Essen Mensa light Drehkreuz/Ampel">
         <meal>
           <name>Ofen-Schafskäse mit Ragout von Paprika, Zwiebeln, Oliven und Pepperoni, dazu Pita</name>
           <note>Antioxidationsmittel</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Laktose</note>
-          <note>Mensa light: Vegetarisches Ofengericht</note>
           <note>Sesam</note>
+          <note>Vegetarisches Menü bei Essen 2</note>
           <note>geschwärzt</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
           <price role="student">5.55</price>
         </meal>
+      </category>
+      <category name="Freeflow">
         <meal>
           <name>Mariniertes Lammfilet Fetacreme und Bulgur, dazu einen Beilagensalat nach Wahl</name>
           <note>Glutenhaltiges Getreide</note>
@@ -412,24 +389,13 @@
       </category>
     </day>
     <day date="2023-11-09">
-      <category name="Freeflow">
+      <category name="Essen Mensa light Drehkreuz/Ampel">
         <meal>
           <name>Kirchererbsen-Paprika-Pfanne mit Rinderhackfleisch und Feta, dazu Bulgur</name>
+          <note>Bei Essen 2</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Laktose</note>
-          <note>Mensa light: Pfannengericht</note>
           <note>Rind</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
-        <meal>
-          <name>Hähnchenbrust mit Rahmsoße, Spätzle und einen Beilagensalat nach Wahl</name>
-          <note>Eier und Eierzeugnisse</note>
-          <note>Farbstoff</note>
-          <note>Geflügel</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Laktose</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
           <price role="student">5.55</price>
@@ -451,6 +417,19 @@
           <price role="student">5.55</price>
         </meal>
       </category>
+      <category name="Freeflow">
+        <meal>
+          <name>Hähnchenbrust mit Rahmsoße, Spätzle und einen Beilagensalat nach Wahl</name>
+          <note>Eier und Eierzeugnisse</note>
+          <note>Farbstoff</note>
+          <note>Geflügel</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Laktose</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+      </category>
       <category name="Essen II Drehkreuz/Ampel">
         <meal>
           <name>Teriyaki-Gemüse mit Romanesco, Karotten, Tofu und Walnüsse, dazu Limetten-Reis und einen Beilagensalat nach Wahl</name>
@@ -467,14 +446,14 @@
       </category>
     </day>
     <day date="2023-11-10">
-      <category name="Freeflow">
+      <category name="Essen Mensa light Drehkreuz/Ampel">
         <meal>
           <name>Dibbelabbes: Saarländischer Kartoffelauflauf mit Lauch, dazu hausgemachtes Appelmus</name>
           <note>Antioxidationsmittel</note>
           <note>Eier und Eierzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
-          <note>Mensa light: Vegetarische Heimatküche</note>
           <note>Schwefeldioxid (&quot;SO2&quot;) und Sulfite</note>
+          <note>Vegetarisches Menü bei Essen 2</note>
           <note>geschwefelt</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
@@ -527,21 +506,6 @@
           <price role="other">5.55</price>
           <price role="student">5.55</price>
         </meal>
-        <meal>
-          <name>Ofen-Blumenkohl mit Kichererbsen und Zitronen-Kräuter-Dip auf Linsen</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Konservierungsstoff</note>
-          <note>Mensa light: Vegetarisches Ofengericht</note>
-          <note>Schalenfrüchte (Nüsse)</note>
-          <note>Schwefeldioxid (&quot;SO2&quot;) und Sulfite</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <note>Soja</note>
-          <note>geschwefelt</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
       </category>
       <category name="Essen II Drehkreuz/Ampel">
         <meal>
@@ -554,19 +518,38 @@
           <price role="student">5.55</price>
         </meal>
       </category>
-    </day>
-    <day date="2023-11-14">
-      <category name="Freeflow">
+      <category name="Essen Mensa light Drehkreuz/Ampel">
         <meal>
-          <name>Fruchtiges Gemüse Jambalaya mit Naturreis</name>
+          <name>Ofen-Blumenkohl mit Kichererbsen und Zitronen-Kräuter-Dip auf Linsen</name>
           <note>Glutenhaltiges Getreide</note>
-          <note>Mensa light: Vegane One Pot</note>
+          <note>Konservierungsstoff</note>
+          <note>Schalenfrüchte (Nüsse)</note>
+          <note>Schwefeldioxid (&quot;SO2&quot;) und Sulfite</note>
+          <note>Sellerie</note>
           <note>Senf</note>
-          <note>Sesam</note>
+          <note>Soja</note>
+          <note>Vegetarisches Menü bei Essen 2</note>
+          <note>geschwefelt</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
           <price role="student">5.55</price>
         </meal>
+      </category>
+    </day>
+    <day date="2023-11-14">
+      <category name="Essen Mensa light Drehkreuz/Ampel">
+        <meal>
+          <name>Fruchtiges Gemüse Jambalaya mit Naturreis</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Senf</note>
+          <note>Sesam</note>
+          <note>Veganes Menü bei Essen 2</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+      </category>
+      <category name="Freeflow">
         <meal>
           <name>Frikadelle mit Zwiebelsoße und hausgemachtem Karotten-Kartoffelstampf, dazu einen Beilagensalat nach Wahl</name>
           <note> </note>
@@ -648,13 +631,15 @@
           <price role="other">5.55</price>
           <price role="student">5.55</price>
         </meal>
+      </category>
+      <category name="Essen Mensa light Drehkreuz/Ampel">
         <meal>
           <name>Original griechische Nudelpfanne mit Oliven, Peperoni, Tomaten und Paprika, dazu Schafskäse</name>
           <note>Antioxidationsmittel</note>
           <note>Farbstoff</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Laktose</note>
-          <note>Mensa light: Vegetarisches Pfannengericht</note>
+          <note>Vegetarisches Menü bei Essen 2</note>
           <note>geschwärzt</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
@@ -693,18 +678,20 @@
           <price role="student">5.55</price>
         </meal>
       </category>
-      <category name="Freeflow">
+      <category name="Essen Mensa light Drehkreuz/Ampel">
         <meal>
           <name>Hausgemachte Spinatknödel mit Kartoffel-Käse-Soße</name>
           <note>Eier und Eierzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Laktose</note>
-          <note>Mensa light: Vegetrische Heimatküche</note>
           <note>Sellerie</note>
+          <note>Vegetarisches Menü bei Essen 2</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
           <price role="student">5.55</price>
         </meal>
+      </category>
+      <category name="Freeflow">
         <meal>
           <name>Truthahnsteak Down Under mit Honig-Senf-Soße und Pommes-Wedges, dazu einen Beilagensalat nach Wahl</name>
           <note>Geflügel</note>
@@ -729,12 +716,12 @@
           <price role="student">5.55</price>
         </meal>
       </category>
-      <category name="Freeflow">
+      <category name="Essen Mensa light Drehkreuz/Ampel">
         <meal>
           <name>Pasta Calabrese mit Salsiccia-Bolognese</name>
+          <note>Bei Essen 2</note>
           <note>Eier und Eierzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
-          <note>Mensa light: Pasta</note>
           <note>Phosphat</note>
           <note>Schwein</note>
           <note>Sesam</note>
@@ -773,14 +760,6 @@
           <price role="other">5.55</price>
           <price role="student">5.55</price>
         </meal>
-        <meal>
-          <name>Ofenkartoffel mit gebratenen Champignons und Ricotta-Kräuter-Creme</name>
-          <note>Laktose</note>
-          <note>Mensa light: Vegetarisches Ofengericht</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
       </category>
       <category name="Essen II Drehkreuz/Ampel">
         <meal>
@@ -792,19 +771,31 @@
           <price role="student">5.55</price>
         </meal>
       </category>
-    </day>
-    <day date="2023-11-21">
-      <category name="Freeflow">
+      <category name="Essen Mensa light Drehkreuz/Ampel">
         <meal>
-          <name>Original italienischer Erbseneintopf mit Basilikumöl, dazu ein rustikales Baguettebrötchen</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Mensa light: Vegane One Pot</note>
-          <note>Schwefeldioxid (&quot;SO2&quot;) und Sulfite</note>
-          <note>Sellerie</note>
+          <name>Ofenkartoffel mit gebratenen Champignons und Ricotta-Kräuter-Creme</name>
+          <note>Laktose</note>
+          <note>Vegetarisches Menü bei Essen 2</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
           <price role="student">5.55</price>
         </meal>
+      </category>
+    </day>
+    <day date="2023-11-21">
+      <category name="Essen Mensa light Drehkreuz/Ampel">
+        <meal>
+          <name>Original italienischer Erbseneintopf mit Basilikumöl, dazu ein rustikales Baguettebrötchen</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Schwefeldioxid (&quot;SO2&quot;) und Sulfite</note>
+          <note>Sellerie</note>
+          <note>Veganes Menü bei Essen 2</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+      </category>
+      <category name="Freeflow">
         <meal>
           <name>Zanderfilet mit Weißwein-Sahnesoße, dazu Reis mit Wildreis und einen Beilagensalat nach Wahl</name>
           <note>Fisch</note>
@@ -853,17 +844,19 @@
       </category>
     </day>
     <day date="2023-11-22">
-      <category name="Freeflow">
+      <category name="Essen Mensa light Drehkreuz/Ampel">
         <meal>
           <name>Canneloni mit Spinat-Ricottafüllung und fruchtigem Tomatensugo, dazu ein Stück Focaccia</name>
           <note>Eier und Eierzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Laktose</note>
-          <note>Mensa light: Vegetarisches Ofengericht</note>
+          <note>Vegetarisches Menü bei Essen 2</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
           <price role="student">5.55</price>
         </meal>
+      </category>
+      <category name="Freeflow">
         <meal>
           <name>Schweinerückensteak mit Knoblauch-Tomatensugo, dazu Kartoffelrösti und einen Beilagensalat nach Wahl</name>
           <note>Schwein</note>
@@ -901,31 +894,17 @@
       </category>
     </day>
     <day date="2023-11-23">
-      <category name="Freeflow">
+      <category name="Essen Mensa light Drehkreuz/Ampel">
         <meal>
           <name>Herbstliche Pfifferlings-Rigatoni mit Bergkäse, Birne und Pancetta</name>
+          <note>Bei Essen 2</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Konservierungsstoff</note>
           <note>Laktose</note>
-          <note>Mensa light: Pasta</note>
           <note>Schwefeldioxid (&quot;SO2&quot;) und Sulfite</note>
           <note>Schwein</note>
           <note>geschwefelt</note>
           <note>kann Restalkohol enthalten</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
-        <meal>
-          <name>Burger mit Brötchen und verschiedenen Zutaten zum selbst belegen, dazu Pommes frites</name>
-          <note>Eier und Eierzeugnisse</note>
-          <note>Farbstoff</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Rind</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <note>Sesam</note>
-          <note>Süßungsmittel</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
           <price role="student">5.55</price>
@@ -956,6 +935,22 @@
           <price role="student">5.55</price>
         </meal>
       </category>
+      <category name="Freeflow">
+        <meal>
+          <name>Burger mit Brötchen und verschiedenen Zutaten zum selbst belegen, dazu Pommes frites</name>
+          <note>Eier und Eierzeugnisse</note>
+          <note>Farbstoff</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Rind</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <note>Sesam</note>
+          <note>Süßungsmittel</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+      </category>
     </day>
     <day date="2023-11-24">
       <category name="Essen I Drehkreuz/Ampel">
@@ -970,14 +965,67 @@
           <price role="student">5.55</price>
         </meal>
       </category>
-      <category name="Freeflow">
+      <category name="Essen Mensa light Drehkreuz/Ampel">
         <meal>
           <name>Knusprige Kartoffelpuffer wahlweise mit Apfelkompott oder Kräuterquark</name>
           <note>Antioxidationsmittel</note>
           <note>Eier und Eierzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Laktose</note>
-          <note>Mensa light: Vegetarische Heimatküche</note>
+          <note>Vegetarisches Menü bei Essen 2</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-11-27">
+      <category name="Essen I Drehkreuz/Ampel">
+        <meal>
+          <name>Tagliatelle mit Käse-Sahnesoße, Rucola und Kirschtomaten, dazu Salat</name>
+          <note>Eier und Eierzeugnisse</note>
+          <note>Farbstoff</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Konservierungsstoff</note>
+          <note>Laktose</note>
+          <note>Rind</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+      </category>
+      <category name="Freeflow">
+        <meal>
+          <name>Rinderrollbraten mit Bratensoße und Weckknödel, dazu einen Beilagensalat nach Wahl</name>
+          <note>Eier und Eierzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Laktose</note>
+          <note>Rind</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+      </category>
+      <category name="Essen Mensa light Drehkreuz/Ampel">
+        <meal>
+          <name>Saarländische Lyonerpfanne mit Zwiebeln, Gurken und Kartoffelwürfeln</name>
+          <note>Antioxidationsmittel</note>
+          <note>Bei Essen 2</note>
+          <note>Farbstoff</note>
+          <note>Konservierungsstoff</note>
+          <note>Phosphat</note>
+          <note>Schwein</note>
+          <note>Senf</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+      </category>
+      <category name="Essen II Drehkreuz/Ampel">
+        <meal>
+          <name>Penne mit Linsenbolognese, dazu einen Beilagensalat nach Wahl</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Veganes Menü im freeflow</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
           <price role="student">5.55</price>
