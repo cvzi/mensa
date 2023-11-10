@@ -3,35 +3,6 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2023-11-09">
-      <category name="fleischlos">
-        <meal>
-          <name>Mildes Thai-Gemüsecurry, Reis, Schokoladenpudding 5,80 € Mildes Thai-Gemüsecurry, Reis Schokoladenpudding [1,G]</name>
-          <note>fleischlos</note>
-          <note>mit Farbstoff</note>
-          <note>mit Milchprodukten (lactosehaltig)</note>
-          <price role="student">5.80</price>
-        </meal>
-      </category>
-      <category name="muslimisch">
-        <meal>
-          <name>Mildes Thai-Gemüsecurry, Reis, Schokoladenpudding 5,80 € Mildes Thai-Gemüsecurry, Reis Schokoladenpudding [1,G]</name>
-          <note>mit Farbstoff</note>
-          <note>mit Milchprodukten (lactosehaltig)</note>
-          <price role="student">5.80</price>
-        </meal>
-      </category>
-      <category name="Teenager fleischlos">
-        <meal>
-          <name>Gelbes Thai-Gemüsecurry, Reis, Schokoladenpudding 6,80 € Gelbes Thai-Gemüsecurry, Reis [G,I] Schokoladenpudding [1,G]</name>
-          <note>fleischlos</note>
-          <note>mit Farbstoff</note>
-          <note>mit Milchprodukten (lactosehaltig)</note>
-          <note>mit Sellerie</note>
-          <price role="student">6.80</price>
-        </meal>
-      </category>
-    </day>
     <day date="2023-11-13">
       <category name="fleischlos">
         <meal>
@@ -52,6 +23,15 @@
           <price role="student">5.80</price>
         </meal>
       </category>
+      <category name="normal">
+        <meal>
+          <name>Putengeschnetzeltes, Spätzle, Bohnensalat 5,80 € Putengeschnetzeltes, Spätzle [A1,G,I,C] Bohnensalat</name>
+          <note>mit Ei</note>
+          <note>mit Milchprodukten (lactosehaltig)</note>
+          <note>mit Sellerie</note>
+          <price role="student">5.80</price>
+        </meal>
+      </category>
       <category name="Teenager fleischlos">
         <meal>
           <name>Kartoffel-Gnocchi mit Kräuter-Pesto, Reibekäse 6,80 € Kartoffel-Gnocchi mit Kräuter-Pesto, Reibekäse [1,2,C]</name>
@@ -60,15 +40,6 @@
           <note>mit Farbstoff</note>
           <note>mit Konservierungsstoffen</note>
           <price role="student">6.80</price>
-        </meal>
-      </category>
-      <category name="normal">
-        <meal>
-          <name>Putengeschnetzeltes, Spätzle, Bohnensalat 5,80 € Putengeschnetzeltes, Spätzle [A1,G,I,C] Bohnensalat</name>
-          <note>mit Ei</note>
-          <note>mit Milchprodukten (lactosehaltig)</note>
-          <note>mit Sellerie</note>
-          <price role="student">5.80</price>
         </meal>
       </category>
       <category name="Teenager normal">
@@ -92,17 +63,6 @@
           <price role="student">5.80</price>
         </meal>
       </category>
-      <category name="Teenager fleischlos">
-        <meal>
-          <name>Gemüsenuggets mit Kartoffeln, Dipp, Gemüsebouillion mit Backerbsen und Gemüsestreifen 6,80 € Gemüsenuggets mit Kartoffeln, Dipp [A1,C,G,I] Gemüsebouillion mit Backerbsen und Gemüsestreifen [10,A1,C,G,I]</name>
-          <note>fleischlos</note>
-          <note>mit Backtriebmittel</note>
-          <note>mit Ei</note>
-          <note>mit Milchprodukten (lactosehaltig)</note>
-          <note>mit Sellerie</note>
-          <price role="student">6.80</price>
-        </meal>
-      </category>
       <category name="normal">
         <meal>
           <name>Kaiserschmarrn mit Apfelmus, Gemüsebouillion mit Backerbsen und Gemüsestreifen 5,80 € Kaiserschmarrn mit Apfelmus [10,A1,C,G] Gemüsebouillion mit Backerbsen und Gemüsestreifen [10,A1,C,G,I]</name>
@@ -112,6 +72,17 @@
           <note>mit Milchprodukten (lactosehaltig)</note>
           <note>mit Sellerie</note>
           <price role="student">5.80</price>
+        </meal>
+      </category>
+      <category name="Teenager fleischlos">
+        <meal>
+          <name>Gemüsenuggets mit Kartoffeln, Dipp, Gemüsebouillion mit Backerbsen und Gemüsestreifen 6,80 € Gemüsenuggets mit Kartoffeln, Dipp [A1,C,G,I] Gemüsebouillion mit Backerbsen und Gemüsestreifen [10,A1,C,G,I]</name>
+          <note>fleischlos</note>
+          <note>mit Backtriebmittel</note>
+          <note>mit Ei</note>
+          <note>mit Milchprodukten (lactosehaltig)</note>
+          <note>mit Sellerie</note>
+          <price role="student">6.80</price>
         </meal>
       </category>
       <category name="Teenager normal">
@@ -171,19 +142,6 @@
           <price role="student">5.80</price>
         </meal>
       </category>
-      <category name="Teenager fleischlos">
-        <meal>
-          <name>Falaffel (Kicherbsenbällchen) mit Gemüsereis und Minzdip, bunter griechischer Salat mit Gurke, Feta &amp; Oliven 6,80 € Falaffel (Kicherbsenbällchen) mit Gemüsereis und Minzdip [2,8,A1,G,I] bunter griechischer Salat mit Gurke, Feta &amp; Oliven [L,G,J]</name>
-          <note>fleischlos</note>
-          <note>mit Aspartam (Phenylalanin)</note>
-          <note>mit Konservierungsstoffen</note>
-          <note>mit Milchprodukten (lactosehaltig)</note>
-          <note>mit Sellerie</note>
-          <note>mit Senf</note>
-          <note>mit Sulfite</note>
-          <price role="student">6.80</price>
-        </meal>
-      </category>
       <category name="normal">
         <meal>
           <name>Hirtenrolle mit Reis und Ajvar, Gurkensalat in Essig/Öl Marinade 5,80 € Hirtenrolle mit Reis und Ajvar [2,8,10,A1,C,G,I] Gurkensalat in Essig/Öl Marinade [J]</name>
@@ -195,6 +153,19 @@
           <note>mit Sellerie</note>
           <note>mit Senf</note>
           <price role="student">5.80</price>
+        </meal>
+      </category>
+      <category name="Teenager fleischlos">
+        <meal>
+          <name>Falaffel (Kicherbsenbällchen) mit Gemüsereis und Minzdip, bunter griechischer Salat mit Gurke, Feta &amp; Oliven 6,80 € Falaffel (Kicherbsenbällchen) mit Gemüsereis und Minzdip [2,8,A1,G,I] bunter griechischer Salat mit Gurke, Feta &amp; Oliven [L,G,J]</name>
+          <note>fleischlos</note>
+          <note>mit Aspartam (Phenylalanin)</note>
+          <note>mit Konservierungsstoffen</note>
+          <note>mit Milchprodukten (lactosehaltig)</note>
+          <note>mit Sellerie</note>
+          <note>mit Senf</note>
+          <note>mit Sulfite</note>
+          <price role="student">6.80</price>
         </meal>
       </category>
       <category name="Teenager normal">
@@ -265,15 +236,6 @@
           <price role="student">5.80</price>
         </meal>
       </category>
-      <category name="Teenager fleischlos">
-        <meal>
-          <name>Gemüse im Backteig, Rosmarinkartoffeln, Blumenkohlsalat 6,80 € Gemüse im Backteig, Rosmarinkartoffeln [A1,G,C] Blumenkohlsalat</name>
-          <note>fleischlos</note>
-          <note>mit Ei</note>
-          <note>mit Milchprodukten (lactosehaltig)</note>
-          <price role="student">6.80</price>
-        </meal>
-      </category>
       <category name="normal">
         <meal>
           <name>Hähnchennuggets, Wedges, Dipp, Maissalat 5,80 € Hähnchennuggets, Wedges, Dipp [10,A1,C,G] Maissalat [G,J]</name>
@@ -282,6 +244,15 @@
           <note>mit Milchprodukten (lactosehaltig)</note>
           <note>mit Senf</note>
           <price role="student">5.80</price>
+        </meal>
+      </category>
+      <category name="Teenager fleischlos">
+        <meal>
+          <name>Gemüse im Backteig, Rosmarinkartoffeln, Blumenkohlsalat 6,80 € Gemüse im Backteig, Rosmarinkartoffeln [A1,G,C] Blumenkohlsalat</name>
+          <note>fleischlos</note>
+          <note>mit Ei</note>
+          <note>mit Milchprodukten (lactosehaltig)</note>
+          <price role="student">6.80</price>
         </meal>
       </category>
       <category name="Teenager normal">
@@ -316,16 +287,6 @@
           <price role="student">5.80</price>
         </meal>
       </category>
-      <category name="Teenager fleischlos">
-        <meal>
-          <name>Grünkernburger mit Gemüse-Couscous, Ajvar 6,80 € Grünkernburger mit Gemüse-Couscous, Ajvar [A1,10,I,C]</name>
-          <note>fleischlos</note>
-          <note>mit Backtriebmittel</note>
-          <note>mit Ei</note>
-          <note>mit Sellerie</note>
-          <price role="student">6.80</price>
-        </meal>
-      </category>
       <category name="normal">
         <meal>
           <name>Putengyros griechischer Art mit Gemüsereis und Tzaziki 5,80 € Putengyros griechischer Art mit Gemüsereis und Tzaziki [2,8,A1,G,I]</name>
@@ -334,6 +295,16 @@
           <note>mit Milchprodukten (lactosehaltig)</note>
           <note>mit Sellerie</note>
           <price role="student">5.80</price>
+        </meal>
+      </category>
+      <category name="Teenager fleischlos">
+        <meal>
+          <name>Grünkernburger mit Gemüse-Couscous, Ajvar 6,80 € Grünkernburger mit Gemüse-Couscous, Ajvar [A1,10,I,C]</name>
+          <note>fleischlos</note>
+          <note>mit Backtriebmittel</note>
+          <note>mit Ei</note>
+          <note>mit Sellerie</note>
+          <price role="student">6.80</price>
         </meal>
       </category>
       <category name="Teenager normal">
