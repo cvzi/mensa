@@ -3,10 +3,10 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2023-11-20">
+    <day date="2023-11-27">
       <category name="Suppe &amp; Dessert">
         <meal>
-          <name>Suppe klar Klare Gemüsesuppe mit Schöberl</name>
+          <name>Suppe klar Klare Gemüsesuppe mit Frittaten und Schnittlauch</name>
           <note>Eier</note>
           <note>Gluten</note>
           <note>Milch</note>
@@ -15,9 +15,610 @@
           <price role="student">2.10</price>
         </meal>
         <meal>
-          <name>Suppe gebundenKarfiolcremesuppe VEGAN</name>
+          <name>Suppe gebunden Legierte Grießsuppe</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
           <note>Sellerie</note>
           <note>Sojabohnen</note>
+          <price role="student">2.10</price>
+        </meal>
+        <meal>
+          <name>Dessert Schwarzwälder-Creme</name>
+          <note>Milch</note>
+          <price role="student">1.20</price>
+        </meal>
+      </category>
+      <category name="Wochenangebot GRILL">
+        <meal>
+          <name>Frisch vom Grill Riesenbratwurst vom Grill fruchtige Currysauce Potato Wedges</name>
+          <note>Gluten</note>
+          <note>Senf</note>
+          <note>Sojabohnen</note>
+          <price role="student">8.90</price>
+        </meal>
+        <meal>
+          <name>Hühnerfilet gebraten mit mediterranem Grillgemüse und Rosmarin-Erdäpfel dazu Kräuterbutter</name>
+          <note>Fisch</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <price role="student">12.50</price>
+        </meal>
+        <meal>
+          <name>Gebratenes Zanderfilet mit mediterranem Grillgemüse und Rosmarin-Erdäpfel</name>
+          <note>Fisch</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <price role="student">13.50</price>
+        </meal>
+        <meal>
+          <name>Ofenkartoffel Ofenkartoffel mit Sauerrahm</name>
+          <note>Milch</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <price role="student">3.70</price>
+        </meal>
+        <meal>
+          <name>Ofenkartoffel mit mediterranem Gemüse</name>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <price role="student">4.70</price>
+        </meal>
+        <meal>
+          <name>Ofenkartoffel mit Lachs und Sauerrahm</name>
+          <note>Fisch</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <price role="student">6.00</price>
+        </meal>
+        <meal>
+          <name>Ofenkartoffel mit Gemüse und Räucherlachs</name>
+          <note>Fisch</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <price role="student">7.50</price>
+        </meal>
+      </category>
+      <category name="M-Cafe">
+        <meal>
+          <name>Das Kleine Italienische : Buttercroissant &amp; Cappuccino</name>
+          <price role="student">3.40</price>
+        </meal>
+        <meal>
+          <name>Das Süße : 1x Semmel, 1x Bio- Butter, 1x Marmelade oder Honig, 1 Cappuccino od Tee</name>
+          <price role="student">4.20</price>
+        </meal>
+        <meal>
+          <name>Das Pikante : 1x Semmel, 1x Bio- Butter, 1x Schinken- u. Käse, 1x Gemüse, Cappuccino oder Tee</name>
+          <price role="student">5.50</price>
+        </meal>
+        <meal>
+          <name>Das Vielfältige: 1x Semmel,1x Korngebäck, 1x Bio- Butter, 1x Marmelade oder Honig, 1x Schinken- u. Käse, 1x Gemüse, 1/8 l Juice, Cappuccino oder Tee</name>
+          <price role="student">6.60</price>
+        </meal>
+        <meal>
+          <name>Ihr Mensa Cafe - Team</name>
+        </meal>
+      </category>
+      <category name="Tagesangebot, Pasta &amp; WOK">
+        <meal>
+          <name>Tagesangebot Veggie &amp; Vegan Vegetarische Frühlingsrolle mit buntem Wokgemüse in Süß-Saurer-Sauce dazu Sesamreis</name>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Sesam</note>
+          <note>Sojabohnen</note>
+          <note>vegetarisch</note>
+          <price role="student">5.90</price>
+        </meal>
+        <meal>
+          <name>Tagesangebot Herzhaft Spaghetti mit Sauce Bolognese und frischen Parmesan</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
+          <note>Styria vitalis</note>
+          <price role="student">6.80</price>
+        </meal>
+        <meal>
+          <name>WOK Veggie Frisches Wokgemüse mit Basmatireis</name>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Sesam</note>
+          <note>Sojabohnen</note>
+          <note>Weichtiere/Schnecken/Muscheln/Tintenfische</note>
+          <price role="student">6.20</price>
+        </meal>
+        <meal>
+          <name>WOK Herzhaft Putenstreifen in Sweet Chilisauce und Basmatireis</name>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Sesam</note>
+          <note>Sojabohnen</note>
+          <note>Weichtiere/Schnecken/Muscheln/Tintenfische</note>
+          <price role="student">7.20</price>
+        </meal>
+        <meal>
+          <name>Pasta Fusilli dazu Broccoli Mandelsauce oder mit Parmesan</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Schalenfrüchte</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <note>vegan</note>
+          <note>vegetarisch</note>
+          <price role="student">5.90</price>
+        </meal>
+        <meal>
+          <name>Tagesangebot Wiener Schnitzel vom Schwein mit Petersilerdäpfel und Zitronenschnitz</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
+          <price role="student">8.20</price>
+        </meal>
+      </category>
+      <category name="Snacks">
+        <meal>
+          <name>Liebe Gäste, nachfolgend ein Auszug aus unserem tollen Snack Angebot: Käse Weckerl</name>
+          <price role="student">3.80</price>
+        </meal>
+        <meal>
+          <name>Kornspitz mit Gouda</name>
+          <price role="student">3.00</price>
+        </meal>
+        <meal>
+          <name>Kornspitz mit Putenschinken</name>
+          <price role="student">3.00</price>
+        </meal>
+        <meal>
+          <name>Kürbiskernweckerl mit Salami</name>
+          <price role="student">3.40</price>
+        </meal>
+        <meal>
+          <name>Buttercroissant regional</name>
+          <price role="student">1.90</price>
+        </meal>
+        <meal>
+          <name>Muffin Blueberry</name>
+          <price role="student">2.50</price>
+        </meal>
+        <meal>
+          <name>Muffin Double Chocolate</name>
+          <price role="student">2.50</price>
+        </meal>
+        <meal>
+          <name>Nußkrone</name>
+          <price role="student">3.40</price>
+        </meal>
+        <meal>
+          <name>Topfentascherl</name>
+          <price role="student">3.40</price>
+        </meal>
+        <meal>
+          <name>Ihr Mensa Cafè Team</name>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-11-28">
+      <category name="Suppe &amp; Dessert">
+        <meal>
+          <name>Suppe klar Klare Gemüsesuppe mit Schöberl und Schnittlauch</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <price role="student">2.10</price>
+        </meal>
+        <meal>
+          <name>Suppe gebunden Knoblauchcremesuppe VEGAN</name>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <note>vegan</note>
+          <price role="student">2.10</price>
+        </meal>
+        <meal>
+          <name>Dessert Topfencreme mit frischen Früchten</name>
+          <note>Milch</note>
+          <price role="student">1.20</price>
+        </meal>
+      </category>
+      <category name="Wochenangebot GRILL">
+        <meal>
+          <name>Frisch vom Grill Riesenbratwurst vom Grill fruchtige Currysauce Potato Wedges</name>
+          <note>Gluten</note>
+          <note>Senf</note>
+          <note>Sojabohnen</note>
+          <price role="student">8.90</price>
+        </meal>
+        <meal>
+          <name>Hühnerfilet gebraten mit mediterranem Grillgemüse und Rosmarin-Erdäpfel dazu Kräuterbutter</name>
+          <note>Fisch</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <price role="student">12.50</price>
+        </meal>
+        <meal>
+          <name>Gebratenes Zanderfilet mit mediterranem Grillgemüse und Rosmarin-Erdäpfel</name>
+          <note>Fisch</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <price role="student">13.50</price>
+        </meal>
+        <meal>
+          <name>Ofenkartoffel Ofenkartoffel mit Sauerrahm</name>
+          <note>Milch</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <price role="student">3.70</price>
+        </meal>
+        <meal>
+          <name>Ofenkartoffel mit mediterranem Gemüse</name>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <price role="student">4.70</price>
+        </meal>
+        <meal>
+          <name>Ofenkartoffel mit Lachs und Sauerrahm</name>
+          <note>Fisch</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <price role="student">6.00</price>
+        </meal>
+        <meal>
+          <name>Ofenkartoffel mit Gemüse und Räucherlachs</name>
+          <note>Fisch</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <price role="student">7.50</price>
+        </meal>
+      </category>
+      <category name="M-Cafe">
+        <meal>
+          <name>Das Kleine Italienische : Buttercroissant &amp; Cappuccino</name>
+          <price role="student">3.40</price>
+        </meal>
+        <meal>
+          <name>Das Süße : 1x Semmel, 1x Bio- Butter, 1x Marmelade oder Honig, 1 Cappuccino od Tee</name>
+          <price role="student">4.20</price>
+        </meal>
+        <meal>
+          <name>Das Pikante : 1x Semmel, 1x Bio- Butter, 1x Schinken- u. Käse, 1x Gemüse, Cappuccino oder Tee</name>
+          <price role="student">5.50</price>
+        </meal>
+        <meal>
+          <name>Das Vielfältige: 1x Semmel,1x Korngebäck, 1x Bio- Butter, 1x Marmelade oder Honig, 1x Schinken- u. Käse, 1x Gemüse, 1/8 l Juice, Cappuccino oder Tee</name>
+          <price role="student">6.60</price>
+        </meal>
+        <meal>
+          <name>Ihr Mensa Cafe - Team</name>
+        </meal>
+      </category>
+      <category name="Tagesangebot, Pasta &amp; WOK">
+        <meal>
+          <name>Tagesangebot Veggie &amp; Vegan Klimateller Kürbis-Lasagne mit Tomatensauce und Kräutern</name>
+          <note>Gluten</note>
+          <note>Klimateller</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
+          <note>Styria vitalis</note>
+          <note>vegetarisch</note>
+          <price role="student">5.90</price>
+        </meal>
+        <meal>
+          <name>Tagesangebot Herzhaft Reisfleisch von der Pute mit Paprikarahmsauce</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <price role="student">6.80</price>
+        </meal>
+        <meal>
+          <name>Pasta Penne mit mediterraner Tomaten-Gemüsesauce oder frischem Parmesan</name>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
+          <note>vegan</note>
+          <note>vegetarisch</note>
+          <price role="student">5.90</price>
+        </meal>
+        <meal>
+          <name>WOK Veggie Frisches Wokgemüse mit Basmatireis</name>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Sesam</note>
+          <note>Sojabohnen</note>
+          <note>Weichtiere/Schnecken/Muscheln/Tintenfische</note>
+          <price role="student">6.20</price>
+        </meal>
+        <meal>
+          <name>WOK Herzhaft Putencurry mit Ananas &amp; Kokosmilch dazu Basmatitreis</name>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Sesam</note>
+          <note>Sojabohnen</note>
+          <note>Weichtiere/Schnecken/Muscheln/Tintenfische</note>
+          <price role="student">7.20</price>
+        </meal>
+      </category>
+      <category name="Snacks">
+        <meal>
+          <name>Liebe Gäste, nachfolgend ein Auszug aus unserem tollen Snack Angebot: Käse Weckerl</name>
+          <price role="student">3.80</price>
+        </meal>
+        <meal>
+          <name>Kornspitz mit Gouda</name>
+          <price role="student">3.00</price>
+        </meal>
+        <meal>
+          <name>Kornspitz mit Putenschinken</name>
+          <price role="student">3.00</price>
+        </meal>
+        <meal>
+          <name>Kürbiskernweckerl mit Salami</name>
+          <price role="student">3.40</price>
+        </meal>
+        <meal>
+          <name>Buttercroissant regional</name>
+          <price role="student">1.90</price>
+        </meal>
+        <meal>
+          <name>Muffin Blueberry</name>
+          <price role="student">2.50</price>
+        </meal>
+        <meal>
+          <name>Muffin Double Chocolate</name>
+          <price role="student">2.50</price>
+        </meal>
+        <meal>
+          <name>Nußkrone</name>
+          <price role="student">3.40</price>
+        </meal>
+        <meal>
+          <name>Topfentascherl</name>
+          <price role="student">3.40</price>
+        </meal>
+        <meal>
+          <name>Ihr Mensa Cafè Team</name>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-11-29">
+      <category name="Suppe &amp; Dessert">
+        <meal>
+          <name>Suppe klar Klare Gemüsesuppe mit Kaspressknödel und Schnittlauch</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <price role="student">2.10</price>
+        </meal>
+        <meal>
+          <name>Suppe gebunden Zucchinicremesuppe VEGAN</name>
+          <note>Gluten</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <note>vegan</note>
+          <price role="student">2.10</price>
+        </meal>
+        <meal>
+          <name>Dessert Schokomousse Dunkel 1,20 Desert kalt Kaiserschmarren mit Beeren</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <price role="student">5.30</price>
+        </meal>
+      </category>
+      <category name="Wochenangebot GRILL">
+        <meal>
+          <name>Frisch vom Grill Riesenbratwurst vom Grill fruchtige Currysauce Potato Wedges</name>
+          <note>Gluten</note>
+          <note>Senf</note>
+          <note>Sojabohnen</note>
+          <price role="student">8.90</price>
+        </meal>
+        <meal>
+          <name>Hühnerfilet gebraten mit mediterranem Grillgemüse und Rosmarin-Erdäpfel dazu Kräuterbutter</name>
+          <note>Fisch</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <price role="student">12.50</price>
+        </meal>
+        <meal>
+          <name>Gebratenes Zanderfilet mit mediterranem Grillgemüse und Rosmarin-Erdäpfel</name>
+          <note>Fisch</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <price role="student">13.50</price>
+        </meal>
+        <meal>
+          <name>Ofenkartoffel Ofenkartoffel mit Sauerrahm</name>
+          <note>Milch</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <price role="student">3.70</price>
+        </meal>
+        <meal>
+          <name>Ofenkartoffel mit mediterranem Gemüse</name>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <price role="student">4.70</price>
+        </meal>
+        <meal>
+          <name>Ofenkartoffel mit Lachs und Sauerrahm</name>
+          <note>Fisch</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <price role="student">6.00</price>
+        </meal>
+        <meal>
+          <name>Ofenkartoffel mit Gemüse und Räucherlachs</name>
+          <note>Fisch</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <price role="student">7.50</price>
+        </meal>
+      </category>
+      <category name="M-Cafe">
+        <meal>
+          <name>Das Kleine Italienische : Buttercroissant &amp; Cappuccino</name>
+          <price role="student">3.40</price>
+        </meal>
+        <meal>
+          <name>Das Süße : 1x Semmel, 1x Bio- Butter, 1x Marmelade oder Honig, 1 Cappuccino od Tee</name>
+          <price role="student">4.20</price>
+        </meal>
+        <meal>
+          <name>Das Pikante : 1x Semmel, 1x Bio- Butter, 1x Schinken- u. Käse, 1x Gemüse, Cappuccino oder Tee</name>
+          <price role="student">5.50</price>
+        </meal>
+        <meal>
+          <name>Das Vielfältige: 1x Semmel,1x Korngebäck, 1x Bio- Butter, 1x Marmelade oder Honig, 1x Schinken- u. Käse, 1x Gemüse, 1/8 l Juice, Cappuccino oder Tee</name>
+          <price role="student">6.60</price>
+        </meal>
+        <meal>
+          <name>Ihr Mensa Cafe - Team</name>
+        </meal>
+      </category>
+      <category name="Tagesangebot, Pasta &amp; WOK">
+        <meal>
+          <name>Tagesangebot Veggie &amp; Vegan Aloo Masala mit Basmatireis</name>
+          <note>Schalenfrüchte</note>
+          <note>Sellerie</note>
+          <note>Styria vitalis</note>
+          <note>vegan</note>
+          <price role="student">5.90</price>
+        </meal>
+        <meal>
+          <name>Tagesangebot Herzhaft Schweinsnaturschnitzel dazu Pfefferrahmsauce, Babykarotten &amp; Erdäpfelpurée</name>
+          <note>Milch</note>
+          <note>Schalenfrüchte</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <price role="student">6.80</price>
+        </meal>
+        <meal>
+          <name>WOK Veggie Frisches Wokgemüse mit Teriyakisauce und Basmatireis</name>
+          <note>Gluten</note>
+          <note>Schalenfrüchte</note>
+          <note>Sellerie</note>
+          <note>Sesam</note>
+          <note>Sojabohnen</note>
+          <note>Weichtiere/Schnecken/Muscheln/Tintenfische</note>
+          <price role="student">6.20</price>
+        </meal>
+        <meal>
+          <name>WOK Herzhaft Rotes Panang-Thai Hühner-Curry mit Gemüse und Basmatireis</name>
+          <note>Gluten</note>
+          <note>Schalenfrüchte</note>
+          <note>Sellerie</note>
+          <note>Sesam</note>
+          <note>Sojabohnen</note>
+          <note>Weichtiere/Schnecken/Muscheln/Tintenfische</note>
+          <price role="student">7.20</price>
+        </meal>
+        <meal>
+          <name>Pasta Spaghetti mit Sauce all´arrabbiata VEGAN oder Parmesan</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
+          <note>vegan</note>
+          <note>vegetarisch</note>
+          <price role="student">5.90</price>
+        </meal>
+        <meal>
+          <name>Tagesangebot Vegitastic Buger mit Steakhouse Pommes</name>
+          <note>Gluten</note>
+          <note>Schalenfrüchte</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Senf</note>
+          <note>vegan</note>
+          <price role="student">7.90</price>
+        </meal>
+      </category>
+      <category name="Snacks">
+        <meal>
+          <name>Liebe Gäste, nachfolgend ein Auszug aus unserem tollen Snack Angebot: Käse Weckerl</name>
+          <price role="student">3.80</price>
+        </meal>
+        <meal>
+          <name>Kornspitz mit Gouda</name>
+          <price role="student">3.00</price>
+        </meal>
+        <meal>
+          <name>Kornspitz mit Putenschinken</name>
+          <price role="student">3.00</price>
+        </meal>
+        <meal>
+          <name>Kürbiskernweckerl mit Salami</name>
+          <price role="student">3.40</price>
+        </meal>
+        <meal>
+          <name>Buttercroissant regional</name>
+          <price role="student">1.90</price>
+        </meal>
+        <meal>
+          <name>Muffin Blueberry</name>
+          <price role="student">2.50</price>
+        </meal>
+        <meal>
+          <name>Muffin Double Chocolate</name>
+          <price role="student">2.50</price>
+        </meal>
+        <meal>
+          <name>Nußkrone</name>
+          <price role="student">3.40</price>
+        </meal>
+        <meal>
+          <name>Topfentascherl</name>
+          <price role="student">3.40</price>
+        </meal>
+        <meal>
+          <name>Ihr Mensa Cafè Team</name>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-11-30">
+      <category name="Suppe &amp; Dessert">
+        <meal>
+          <name>Suppe klar Klare Gemüsesuppe mit Reibteig und Schnittlauch</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <price role="student">2.10</price>
+        </meal>
+        <meal>
+          <name>Suppe gebunden Erdäpfel-Lauchsuppe VEGAN</name>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <note>vegan</note>
           <price role="student">2.10</price>
         </meal>
         <meal>
@@ -28,32 +629,58 @@
       </category>
       <category name="Wochenangebot GRILL">
         <meal>
-          <name>Frisch vom Grill Berner Würstel mit Pommes frites und Zwiebelsenf-Dip</name>
+          <name>Frisch vom Grill Riesenbratwurst vom Grill fruchtige Currysauce Potato Wedges</name>
           <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
           <note>Senf</note>
+          <note>Sojabohnen</note>
           <price role="student">8.90</price>
         </meal>
         <meal>
-          <name>Hühnerfilet vom Grill dazu Erdäpfelgratin und Grillgemüse</name>
+          <name>Hühnerfilet gebraten mit mediterranem Grillgemüse und Rosmarin-Erdäpfel dazu Kräuterbutter</name>
+          <note>Fisch</note>
           <note>Gluten</note>
-          <note>Lupinen</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <price role="student">12.50</price>
+        </meal>
+        <meal>
+          <name>Gebratenes Zanderfilet mit mediterranem Grillgemüse und Rosmarin-Erdäpfel</name>
+          <note>Fisch</note>
+          <note>Gluten</note>
           <note>Milch</note>
           <note>Sellerie</note>
           <note>Sojabohnen</note>
           <price role="student">13.50</price>
         </meal>
         <meal>
-          <name>Gebratenes Lachsforellenfilet dazu Erdäpfelgratin mit Grillgemüse und hausgemachter Kräuterbutter</name>
-          <note>Fisch</note>
-          <note>Gluten</note>
-          <note>Lupinen</note>
+          <name>Ofenkartoffel Ofenkartoffel mit Sauerrahm</name>
           <note>Milch</note>
           <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <price role="student">14.50</price>
+          <note>Senf</note>
+          <price role="student">3.70</price>
+        </meal>
+        <meal>
+          <name>Ofenkartoffel mit mediterranem Gemüse</name>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <price role="student">4.70</price>
+        </meal>
+        <meal>
+          <name>Ofenkartoffel mit Lachs und Sauerrahm</name>
+          <note>Fisch</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <price role="student">6.00</price>
+        </meal>
+        <meal>
+          <name>Ofenkartoffel mit Gemüse und Räucherlachs</name>
+          <note>Fisch</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <price role="student">7.50</price>
         </meal>
       </category>
       <category name="M-Cafe">
@@ -79,240 +706,45 @@
       </category>
       <category name="Tagesangebot, Pasta &amp; WOK">
         <meal>
-          <name>Tagesangebot Veggie &amp; Vegan Topfen-Hirse Laibchen mit Guacamole Dip und Salatbouquet</name>
+          <name>Tagesangebot Veggie &amp; Vegan Klimateller Käsespätzle dazu Beilagensalat</name>
           <note>Eier</note>
           <note>Gluten</note>
+          <note>Klimateller</note>
           <note>Milch</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <note>Styria vitalis</note>
+          <note>Sojabohnen</note>
           <note>vegetarisch</note>
           <price role="student">5.90</price>
         </meal>
         <meal>
-          <name>Tagesangebot Herzhaft Käseskrainer gebraten mit Rahmgemüse und Rösterdäpfel</name>
+          <name>Tagesangebot Herzhaft Schweinegulasch mit Butterspätzle</name>
+          <note>Eier</note>
           <note>Gluten</note>
           <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
           <note>Sellerie</note>
-          <note>Sojabohnen</note>
           <price role="student">6.80</price>
         </meal>
         <meal>
-          <name>Pasta Spaghetti mit Sauce Bolognese und frischem Parmesan</name>
-          <note>Eier</note>
+          <name>Pasta Vollkorn Pasta mit Linsenbolognese</name>
           <note>Gluten</note>
-          <note>Milch</note>
           <note>Sellerie</note>
-          <price role="student">5.90</price>
-        </meal>
-        <meal>
-          <name>WOK Veggie Gebratenes Wokgemüse und Basmatireis</name>
-          <note>Erdnüsse</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Sellerie</note>
-          <note>Sesam</note>
-          <note>Sojabohnen</note>
-          <note>Weichtiere/Schnecken/Muscheln/Tintenfische</note>
-          <price role="student">6.20</price>
-        </meal>
-        <meal>
-          <name>WOK Herzhaft Asiatisches Putengeschnetzeltes mit Basmatireis und frischem Koriander</name>
-          <note>Erdnüsse</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Sellerie</note>
-          <note>Sesam</note>
-          <note>Sojabohnen</note>
-          <note>Weichtiere/Schnecken/Muscheln/Tintenfische</note>
-          <price role="student">7.20</price>
-        </meal>
-        <meal>
-          <name>Tagesangebot Wiener Schnitzel von der Pute mit Petersilkartoffeln und Zitrone</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Sellerie</note>
-          <price role="student">9.90</price>
-        </meal>
-      </category>
-      <category name="Snacks">
-        <meal>
-          <name>Liebe Gäste, nachfolgend ein Auszug aus unserem tollen Snack Angebot: Käse Weckerl</name>
-          <price role="student">3.80</price>
-        </meal>
-        <meal>
-          <name>Kornspitz mit Gouda</name>
-          <price role="student">3.00</price>
-        </meal>
-        <meal>
-          <name>Kornspitz mit Putenschinken</name>
-          <price role="student">3.00</price>
-        </meal>
-        <meal>
-          <name>Kürbiskernweckerl mit Salami</name>
-          <price role="student">3.40</price>
-        </meal>
-        <meal>
-          <name>Buttercroissant regional</name>
-          <price role="student">1.90</price>
-        </meal>
-        <meal>
-          <name>Muffin Blueberry</name>
-          <price role="student">2.50</price>
-        </meal>
-        <meal>
-          <name>Muffin Double Chocolate</name>
-          <price role="student">2.50</price>
-        </meal>
-        <meal>
-          <name>Nußkrone</name>
-          <price role="student">3.40</price>
-        </meal>
-        <meal>
-          <name>Topfentascherl</name>
-          <price role="student">3.40</price>
-        </meal>
-        <meal>
-          <name>Ihr Mensa Cafè Team</name>
-        </meal>
-      </category>
-    </day>
-    <day date="2023-11-21">
-      <category name="Suppe &amp; Dessert">
-        <meal>
-          <name>Suppe klar Klare Gemüsesuppe mit Grießnockerl</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <price role="student">2.10</price>
-        </meal>
-        <meal>
-          <name>Suppe gebunden Kürbiscremesuppe VEGAN</name>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <price role="student">2.10</price>
-        </meal>
-        <meal>
-          <name>Dessert Himbeercreme</name>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <price role="student">1.20</price>
-        </meal>
-        <meal>
-          <name>Dessert warm Topfenschmarren mit Marillenröster</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <price role="student">5.30</price>
-        </meal>
-      </category>
-      <category name="Wochenangebot GRILL">
-        <meal>
-          <name>Frisch vom Grill Berner Würstel mit Pommes frites und Zwiebelsenf-Dip</name>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <price role="student">8.90</price>
-        </meal>
-        <meal>
-          <name>Hühnerfilet vom Grill dazu Erdäpfelgratin und Grillgemüse</name>
-          <note>Gluten</note>
-          <note>Lupinen</note>
-          <note>Milch</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <price role="student">13.50</price>
-        </meal>
-        <meal>
-          <name>Gebratenes Lachsforellenfilet dazu Erdäpfelgratin mit Grillgemüse und hausgemachter Kräuterbutter</name>
-          <note>Fisch</note>
-          <note>Gluten</note>
-          <note>Lupinen</note>
-          <note>Milch</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <price role="student">14.50</price>
-        </meal>
-      </category>
-      <category name="M-Cafe">
-        <meal>
-          <name>Das Kleine Italienische : Buttercroissant &amp; Cappuccino</name>
-          <price role="student">3.40</price>
-        </meal>
-        <meal>
-          <name>Das Süße : 1x Semmel, 1x Bio- Butter, 1x Marmelade oder Honig, 1 Cappuccino od Tee</name>
-          <price role="student">4.20</price>
-        </meal>
-        <meal>
-          <name>Das Pikante : 1x Semmel, 1x Bio- Butter, 1x Schinken- u. Käse, 1x Gemüse, Cappuccino oder Tee</name>
-          <price role="student">5.50</price>
-        </meal>
-        <meal>
-          <name>Das Vielfältige: 1x Semmel,1x Korngebäck, 1x Bio- Butter, 1x Marmelade oder Honig, 1x Schinken- u. Käse, 1x Gemüse, 1/8 l Juice, Cappuccino oder Tee</name>
-          <price role="student">6.60</price>
-        </meal>
-        <meal>
-          <name>Ihr Mensa Cafe - Team</name>
-        </meal>
-      </category>
-      <category name="Tagesangebot, Pasta &amp; WOK">
-        <meal>
-          <name>Tagesangebot Veggie &amp; Vegan Kartoffel-Pilzstrudel mit Kräuterrahmsauce VEGAN</name>
-          <note>Gluten</note>
-          <note>Klimateller</note>
-          <note>Lupinen</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
+          <note>Styria vitalis</note>
           <note>vegan</note>
           <price role="student">5.90</price>
         </meal>
         <meal>
-          <name>Tagesangebot Herzhaft Putencurry mit Ananas Kokosmilch und Reis</name>
-          <note>Erdnüsse</note>
+          <name>WOK Veggie Frisches Wokgemüse mit Basmatireis</name>
           <note>Gluten</note>
-          <note>Schalenfrüchte</note>
           <note>Sellerie</note>
           <note>Sesam</note>
           <note>Sojabohnen</note>
-          <price role="student">6.80</price>
-        </meal>
-        <meal>
-          <name>PastaSpaghetti mit Knoblauch-Hühnerrahmsauce, Jungzwiebeln, frischem Parmesan und Rucola-Topping</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sojabohnen</note>
-          <price role="student">5.90</price>
-        </meal>
-        <meal>
-          <name>WOK Veggie Gebratenes Wokgemüse mit Basmatireis</name>
-          <note>Erdnüsse</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Sellerie</note>
-          <note>Sesam</note>
-          <note>Sojabohnen</note>
-          <note>Weichtiere/Schnecken/Muscheln/Tintenfische</note>
           <price role="student">6.20</price>
         </meal>
         <meal>
-          <name>WOK Herzhaft Asiatischer Schweine-Wok mit Basmatireis</name>
-          <note>Erdnüsse</note>
+          <name>WOK Herzhaft Pork Sweet-Chili Asia mit Basmatireis</name>
           <note>Gluten</note>
-          <note>Milch</note>
           <note>Sellerie</note>
           <note>Sesam</note>
           <note>Sojabohnen</note>
-          <note>Weichtiere/Schnecken/Muscheln/Tintenfische</note>
           <price role="student">7.20</price>
         </meal>
       </category>
@@ -358,60 +790,81 @@
         </meal>
       </category>
     </day>
-    <day date="2023-11-22">
+    <day date="2023-12-01">
       <category name="Suppe &amp; Dessert">
         <meal>
-          <name>Suppe klar Klare Gemüsesuppe mit Backerbsen</name>
+          <name>Suppe klar Klare Gemüsesuppe mit Tarhonya und Schnittlauch</name>
           <note>Eier</note>
           <note>Gluten</note>
-          <note>Milch</note>
           <note>Sellerie</note>
           <note>Sojabohnen</note>
           <price role="student">2.10</price>
         </meal>
         <meal>
-          <name>Suppe gebunden Fisolencremesuppe VEGAN</name>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <price role="student">2.10</price>
-        </meal>
-        <meal>
-          <name>Dessert Tiramisu hausgemacht</name>
+          <name>Suppe gebunden Gemüsecremesuppe VEGAN Dessert Maroni Mousse</name>
           <note>Eier</note>
-          <note>Gluten</note>
           <note>Milch</note>
           <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <note>vegan</note>
           <price role="student">1.20</price>
         </meal>
       </category>
       <category name="Wochenangebot GRILL">
         <meal>
-          <name>Frisch vom Grill Berner Würstel mit Pommes frites und Zwiebelsenf-Dip</name>
+          <name>Frisch vom Grill Riesenbratwurst vom Grill fruchtige Currysauce Potato Wedges</name>
           <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
           <note>Senf</note>
+          <note>Sojabohnen</note>
           <price role="student">8.90</price>
         </meal>
         <meal>
-          <name>Hühnerfilet vom Grill dazu Erdäpfelgratin und Grillgemüse</name>
+          <name>Hühnerfilet gebraten mit mediterranem Grillgemüse und Rosmarin-Erdäpfel dazu Kräuterbutter</name>
+          <note>Fisch</note>
           <note>Gluten</note>
-          <note>Lupinen</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <price role="student">12.50</price>
+        </meal>
+        <meal>
+          <name>Gebratenes Zanderfilet mit mediterranem Grillgemüse und Rosmarin-Erdäpfel</name>
+          <note>Fisch</note>
+          <note>Gluten</note>
           <note>Milch</note>
           <note>Sellerie</note>
           <note>Sojabohnen</note>
           <price role="student">13.50</price>
         </meal>
         <meal>
-          <name>Gebratenes Lachsforellenfilet dazu Erdäpfelgratin mit Grillgemüse und hausgemachter Kräuterbutter</name>
-          <note>Fisch</note>
-          <note>Gluten</note>
-          <note>Lupinen</note>
+          <name>Ofenkartoffel Ofenkartoffel mit Sauerrahm</name>
           <note>Milch</note>
           <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <price role="student">14.50</price>
+          <note>Senf</note>
+          <price role="student">3.70</price>
+        </meal>
+        <meal>
+          <name>Ofenkartoffel mit mediterranem Gemüse</name>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <price role="student">4.70</price>
+        </meal>
+        <meal>
+          <name>Ofenkartoffel mit Lachs und Sauerrahm</name>
+          <note>Fisch</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <price role="student">6.00</price>
+        </meal>
+        <meal>
+          <name>Ofenkartoffel mit Gemüse und Räucherlachs</name>
+          <note>Fisch</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <price role="student">7.50</price>
         </meal>
       </category>
       <category name="M-Cafe">
@@ -437,360 +890,14 @@
       </category>
       <category name="Tagesangebot, Pasta &amp; WOK">
         <meal>
-          <name>Tagesangebot Veggie &amp; Vegan Erdäpfel-Gemüse-Gröstl mit Aioli und Beilagensalat</name>
-          <note>Eier</note>
-          <note>Milch</note>
+          <name>Tagesangebot Veggie &amp; Vegan Polentaschnitte VEGAN dazu Tomatenragout mit Kräutern &amp; VEGAN Beilagensalat</name>
           <note>Sellerie</note>
-          <note>Senf</note>
-          <note>vegetarisch</note>
-          <price role="student">5.90</price>
-        </meal>
-        <meal>
-          <name>Tagesangebot HerzhaftSchweineragout in Wurzelrahmsauce dazu Erdäpfel mit Schnittlauch</name>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-          <price role="student">6.80</price>
-        </meal>
-        <meal>
-          <name>Pasta Farfalle mit Sauce Carbonara und Speck dazu frischer Parmesan</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sojabohnen</note>
-          <price role="student">5.90</price>
-        </meal>
-        <meal>
-          <name>WOK Veggie Gebratenes Wokgemüse mit Basmatireis</name>
-          <note>Erdnüsse</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Sellerie</note>
-          <note>Sesam</note>
-          <note>Sojabohnen</note>
-          <note>Weichtiere/Schnecken/Muscheln/Tintenfische</note>
-          <price role="student">6.20</price>
-        </meal>
-        <meal>
-          <name>WOK Herzhaft Rotes Panang-Thai Hühner Curry mit Gemüse und Basmatireis</name>
-          <note>Erdnüsse</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Sellerie</note>
-          <note>Sesam</note>
-          <note>Sojabohnen</note>
-          <note>Weichtiere/Schnecken/Muscheln/Tintenfische</note>
-          <price role="student">7.20</price>
-        </meal>
-        <meal>
-          <name>Tagesangebot Vegitastic Buger mit Steakhouse Pommes</name>
-          <note>Gluten</note>
-          <note>Schalenfrüchte</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <note>vegetarisch</note>
-          <price role="student">7.90</price>
-        </meal>
-      </category>
-      <category name="Snacks">
-        <meal>
-          <name>Liebe Gäste, nachfolgend ein Auszug aus unserem tollen Snack Angebot: Käse Weckerl</name>
-          <price role="student">3.80</price>
-        </meal>
-        <meal>
-          <name>Kornspitz mit Gouda</name>
-          <price role="student">3.00</price>
-        </meal>
-        <meal>
-          <name>Kornspitz mit Putenschinken</name>
-          <price role="student">3.00</price>
-        </meal>
-        <meal>
-          <name>Kürbiskernweckerl mit Salami</name>
-          <price role="student">3.40</price>
-        </meal>
-        <meal>
-          <name>Buttercroissant regional</name>
-          <price role="student">1.90</price>
-        </meal>
-        <meal>
-          <name>Muffin Blueberry</name>
-          <price role="student">2.50</price>
-        </meal>
-        <meal>
-          <name>Muffin Double Chocolate</name>
-          <price role="student">2.50</price>
-        </meal>
-        <meal>
-          <name>Nußkrone</name>
-          <price role="student">3.40</price>
-        </meal>
-        <meal>
-          <name>Topfentascherl</name>
-          <price role="student">3.40</price>
-        </meal>
-        <meal>
-          <name>Ihr Mensa Cafè Team</name>
-        </meal>
-      </category>
-    </day>
-    <day date="2023-11-23">
-      <category name="Suppe &amp; Dessert">
-        <meal>
-          <name>Suppe klarKlare Gemüsesuppe mit Polentawürfel</name>
-          <note>Gluten</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <price role="student">2.10</price>
-        </meal>
-        <meal>
-          <name>Suppe gebundenKokoscurrycremesuppe VEGAN</name>
-          <note>Sellerie</note>
-          <price role="student">2.10</price>
-        </meal>
-        <meal>
-          <name>DessertZitronencreme mit Pfirsichstücken</name>
-          <note>Milch</note>
-          <price role="student">1.20</price>
-        </meal>
-      </category>
-      <category name="Wochenangebot GRILL">
-        <meal>
-          <name>Frisch vom Grill Berner Würstel mit Pommes frites und Zwiebelsenf-Dip</name>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <price role="student">8.90</price>
-        </meal>
-        <meal>
-          <name>Hühnerfilet vom Grill dazu Erdäpfelgratin und Grillgemüse</name>
-          <note>Gluten</note>
-          <note>Lupinen</note>
-          <note>Milch</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <price role="student">13.50</price>
-        </meal>
-        <meal>
-          <name>Gebratenes Lachsforellenfilet dazu Erdäpfelgratin mit Grillgemüse und hausgemachter Kräuterbutter</name>
-          <note>Fisch</note>
-          <note>Gluten</note>
-          <note>Lupinen</note>
-          <note>Milch</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <price role="student">14.50</price>
-        </meal>
-      </category>
-      <category name="M-Cafe">
-        <meal>
-          <name>Das Kleine Italienische : Buttercroissant &amp; Cappuccino</name>
-          <price role="student">3.40</price>
-        </meal>
-        <meal>
-          <name>Das Süße : 1x Semmel, 1x Bio- Butter, 1x Marmelade oder Honig, 1 Cappuccino od Tee</name>
-          <price role="student">4.20</price>
-        </meal>
-        <meal>
-          <name>Das Pikante : 1x Semmel, 1x Bio- Butter, 1x Schinken- u. Käse, 1x Gemüse, Cappuccino oder Tee</name>
-          <price role="student">5.50</price>
-        </meal>
-        <meal>
-          <name>Das Vielfältige: 1x Semmel,1x Korngebäck, 1x Bio- Butter, 1x Marmelade oder Honig, 1x Schinken- u. Käse, 1x Gemüse, 1/8 l Juice, Cappuccino oder Tee</name>
-          <price role="student">6.60</price>
-        </meal>
-        <meal>
-          <name>Ihr Mensa Cafe - Team</name>
-        </meal>
-      </category>
-      <category name="Tagesangebot, Pasta &amp; WOK">
-        <meal>
-          <name>Tagesangebot Veggie &amp; Vegan Geröstete Knödel mit Ei und Röstzwiebel</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Klimateller</note>
-          <note>Milch</note>
-          <note>Sojabohnen</note>
           <note>Styria vitalis</note>
+          <note>vegan</note>
           <price role="student">5.90</price>
         </meal>
         <meal>
-          <name>Tagesangebot Herzhaft Jägerbraten mit Natursauce, Babykarotten, Erbsen und Erdäpfelpurée</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <price role="student">6.80</price>
-        </meal>
-        <meal>
-          <name>WOK Veggie Gebratenes Wokgemüse mit Basmatireis</name>
-          <note>Erdnüsse</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Sellerie</note>
-          <note>Sesam</note>
-          <note>Sojabohnen</note>
-          <note>Weichtiere/Schnecken/Muscheln/Tintenfische</note>
-          <price role="student">6.20</price>
-        </meal>
-        <meal>
-          <name>WOK Herzhaft Putencurry mit Kokosmilch und Basmatireis</name>
-          <note>Erdnüsse</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Sellerie</note>
-          <note>Sesam</note>
-          <note>Sojabohnen</note>
-          <note>Weichtiere/Schnecken/Muscheln/Tintenfische</note>
-          <price role="student">7.20</price>
-        </meal>
-        <meal>
-          <name>Pasta Penne mit Pestorahmsauce dazu Cherrytomaten und Rucola-Topping</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schalenfrüchte</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sojabohnen</note>
-          <note>vegetarisch</note>
-          <price role="student">5.90</price>
-        </meal>
-      </category>
-      <category name="Snacks">
-        <meal>
-          <name>Liebe Gäste, nachfolgend ein Auszug aus unserem tollen Snack Angebot: Käse Weckerl</name>
-          <price role="student">3.80</price>
-        </meal>
-        <meal>
-          <name>Kornspitz mit Gouda</name>
-          <price role="student">3.00</price>
-        </meal>
-        <meal>
-          <name>Kornspitz mit Putenschinken</name>
-          <price role="student">3.00</price>
-        </meal>
-        <meal>
-          <name>Kürbiskernweckerl mit Salami</name>
-          <price role="student">3.40</price>
-        </meal>
-        <meal>
-          <name>Buttercroissant regional</name>
-          <price role="student">1.90</price>
-        </meal>
-        <meal>
-          <name>Muffin Blueberry</name>
-          <price role="student">2.50</price>
-        </meal>
-        <meal>
-          <name>Muffin Double Chocolate</name>
-          <price role="student">2.50</price>
-        </meal>
-        <meal>
-          <name>Nußkrone</name>
-          <price role="student">3.40</price>
-        </meal>
-        <meal>
-          <name>Topfentascherl</name>
-          <price role="student">3.40</price>
-        </meal>
-        <meal>
-          <name>Ihr Mensa Cafè Team</name>
-        </meal>
-      </category>
-    </day>
-    <day date="2023-11-24">
-      <category name="Suppe &amp; Dessert">
-        <meal>
-          <name>Suppe klar Klare Gemüsesuppe mit Reibteig</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <price role="student">2.10</price>
-        </meal>
-        <meal>
-          <name>Suppe gebundenTomaten-Grillpaprika-Suppe</name>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <price role="student">2.10</price>
-        </meal>
-        <meal>
-          <name>Dessert Joghurt mit Weichseln</name>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <price role="student">1.20</price>
-        </meal>
-      </category>
-      <category name="Wochenangebot GRILL">
-        <meal>
-          <name>Frisch vom Grill Berner Würstel mit Pommes frites und Zwiebelsenf-Dip</name>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <price role="student">8.90</price>
-        </meal>
-        <meal>
-          <name>Hühnerfilet vom Grill dazu Erdäpfelgratin und Grillgemüse</name>
-          <note>Gluten</note>
-          <note>Lupinen</note>
-          <note>Milch</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <price role="student">13.50</price>
-        </meal>
-        <meal>
-          <name>Gebratenes Lachsforellenfilet dazu Erdäpfelgratin mit Grillgemüse und hausgemachter Kräuterbutter</name>
-          <note>Fisch</note>
-          <note>Gluten</note>
-          <note>Lupinen</note>
-          <note>Milch</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <price role="student">14.50</price>
-        </meal>
-      </category>
-      <category name="M-Cafe">
-        <meal>
-          <name>Das Kleine Italienische : Buttercroissant &amp; Cappuccino</name>
-          <price role="student">3.40</price>
-        </meal>
-        <meal>
-          <name>Das Süße : 1x Semmel, 1x Bio- Butter, 1x Marmelade oder Honig, 1 Cappuccino od Tee</name>
-          <price role="student">4.20</price>
-        </meal>
-        <meal>
-          <name>Das Pikante : 1x Semmel, 1x Bio- Butter, 1x Schinken- u. Käse, 1x Gemüse, Cappuccino oder Tee</name>
-          <price role="student">5.50</price>
-        </meal>
-        <meal>
-          <name>Das Vielfältige: 1x Semmel,1x Korngebäck, 1x Bio- Butter, 1x Marmelade oder Honig, 1x Schinken- u. Käse, 1x Gemüse, 1/8 l Juice, Cappuccino oder Tee</name>
-          <price role="student">6.60</price>
-        </meal>
-        <meal>
-          <name>Ihr Mensa Cafe - Team</name>
-        </meal>
-      </category>
-      <category name="Tagesangebot, Pasta &amp; WOK">
-        <meal>
-          <name>Klimatag Tagesangebot Veggie &amp; Vegan Kürbisauflauf mit Lauch und gelben Rüben</name>
-          <note>Eier</note>
-          <note>Klimateller</note>
-          <note>Sojabohnen</note>
-          <note>Styria vitalis</note>
-          <note>vegetarisch</note>
-          <price role="student">5.90</price>
-        </meal>
-        <meal>
-          <name>Tagesangebot Herzhaft Alaska Seelachs im Backteig mit Reis dazu Sauce Tartare und Zitrone</name>
+          <name>Tagesangebot Herzhaft Alaska Seelachs in der Knusperpanade mit Reis und Sauce Tartare dazu Zitroneschnitz</name>
           <note>Eier</note>
           <note>Fisch</note>
           <note>Gluten</note>
@@ -801,18 +908,8 @@
           <price role="student">6.80</price>
         </meal>
         <meal>
-          <name>Pasta Linguini mit Sauce all´arrabbiata oder mit frischem Parmesan</name>
-          <note>Eier</note>
+          <name>WOK Veggie Frisches Wokgemüse mit Basmatireis</name>
           <note>Gluten</note>
-          <note>Milch</note>
-          <note>vegan</note>
-          <price role="student">5.90</price>
-        </meal>
-        <meal>
-          <name>WOK Veggie Gebratenes Wokgemüse mit Basmatireis</name>
-          <note>Erdnüsse</note>
-          <note>Gluten</note>
-          <note>Milch</note>
           <note>Sellerie</note>
           <note>Sesam</note>
           <note>Sojabohnen</note>
@@ -820,22 +917,25 @@
           <price role="student">6.20</price>
         </meal>
         <meal>
-          <name>WOK Herzhaft Gebratenes Gemüse-Wok mit BIO-Tofu und Basmatireis</name>
-          <note>Erdnüsse</note>
+          <name>WOK Herzhaft Thai Curry Grün mit Hühnerfleisch dazu Basmatireis</name>
           <note>Gluten</note>
-          <note>Milch</note>
+          <note>Schalenfrüchte</note>
           <note>Sellerie</note>
           <note>Sesam</note>
           <note>Sojabohnen</note>
           <note>Weichtiere/Schnecken/Muscheln/Tintenfische</note>
-          <note>vegetarisch</note>
           <price role="student">7.20</price>
         </meal>
         <meal>
-          <name>Tagesangebot Vegitastic Mediterrane Stäbchen dazu mediterranes Grillgemüse und Rosmarin-Erdäpfel</name>
+          <name>Pasta Penne mit Champignon Cremesauce VEGAN oder mit Parmesan</name>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
           <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <note>vegan</note>
           <note>vegetarisch</note>
-          <price role="student">7.90</price>
+          <price role="student">5.90</price>
         </meal>
       </category>
       <category name="Snacks">
