@@ -1,0 +1,918 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/basic.css" type="text/css"?>
+<?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
+<openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
+  <canteen>
+    <day date="2023-12-11">
+      <category name="Suppen &amp; Desserts">
+        <meal>
+          <name>Suppe klar Klare Gemüsesuppe mit Grießnockerl und Schnittlauch</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <note>vegetarisch</note>
+          <price role="student">2.10</price>
+        </meal>
+        <meal>
+          <name>Suppe gebunden Jungzwiebelcremesuppe mit Petersilie</name>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <note>vegan</note>
+          <price role="student">2.10</price>
+        </meal>
+        <meal>
+          <name>Dessert Apfel-Vanillepudding</name>
+          <note>Milch</note>
+          <price role="student">1.20</price>
+        </meal>
+      </category>
+      <category name="Wochenangebot GRILL">
+        <meal>
+          <name>Frisch vom Grill Gegrillter Rotbarsch mit Fenchel-Zitronenrisotto und Kräuterbutter</name>
+          <note>Eier</note>
+          <note>Fisch</note>
+          <note>Gluten</note>
+          <note>MSC</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <price role="student">11.50</price>
+        </meal>
+        <meal>
+          <name>Cevapcici mit Potato Wedges und Zwiebelsenf-Dip</name>
+          <note>Gluten</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <price role="student">12.50</price>
+        </meal>
+        <meal>
+          <name>Putenschnitzel naturgebraten mit Fenchel-Zitronenrisotto und Kräuterbutter</name>
+          <note>Eier</note>
+          <note>Fisch</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <price role="student">13.50</price>
+        </meal>
+      </category>
+      <category name="M-Cafe">
+        <meal>
+          <name>Liebe Gäste, nachfolgend ein Auszug aus unserem tollen Snack Angebot: Käse Weckerl</name>
+          <price role="student">3.80</price>
+        </meal>
+        <meal>
+          <name>Kornspitz mit Gouda</name>
+          <price role="student">3.00</price>
+        </meal>
+        <meal>
+          <name>Kornspitz mit Putenschinken</name>
+          <price role="student">3.00</price>
+        </meal>
+        <meal>
+          <name>Kürbiskernweckerl mit Salami</name>
+          <price role="student">3.40</price>
+        </meal>
+        <meal>
+          <name>Buttercroissant regional</name>
+          <price role="student">1.90</price>
+        </meal>
+        <meal>
+          <name>Muffin Blueberry</name>
+          <price role="student">2.50</price>
+        </meal>
+        <meal>
+          <name>Muffin Double Chocolate</name>
+          <price role="student">2.50</price>
+        </meal>
+        <meal>
+          <name>Nußkrone</name>
+          <price role="student">3.40</price>
+        </meal>
+        <meal>
+          <name>Topfentascherl</name>
+          <price role="student">3.40</price>
+        </meal>
+        <meal>
+          <name>Ihr Mensa Cafè Team</name>
+        </meal>
+      </category>
+      <category name="Tagesangebot, Pasta &amp; WOK">
+        <meal>
+          <name>Tagesangebot Veggie &amp; Vegan Penne mit Gemüsebolognese oder frischem Parmesan dazu Rucola-Topping</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
+          <note>Styria vitalis</note>
+          <note>vegan</note>
+          <note>vegetarisch</note>
+          <price role="student">5.90</price>
+        </meal>
+        <meal>
+          <name>Tagesangebot Herzhaft Hühnergeschnetzeltes in Champignon-Pfeffersauce dazu Kartoffelkroketten</name>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Schalenfrüchte</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <price role="student">6.80</price>
+        </meal>
+        <meal>
+          <name>Wok Veggie Frischer Gemüsewok mit Basmatireis</name>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Sesam</note>
+          <note>Sojabohnen</note>
+          <note>Weichtiere/Schnecken/Muscheln/Tintenfische</note>
+          <note>vegetarisch</note>
+          <price role="student">6.20</price>
+        </meal>
+        <meal>
+          <name>WOK Herzhaft Chicken-Koi-Soi mit Basmatireis</name>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Sesam</note>
+          <note>Sojabohnen</note>
+          <note>Weichtiere/Schnecken/Muscheln/Tintenfische</note>
+          <price role="student">7.20</price>
+        </meal>
+        <meal>
+          <name>Tagesangebot Wiener Schnitzel von der Pute dazu Petersilerdäpfel und Zitrone</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
+          <price role="student">9.90</price>
+        </meal>
+      </category>
+      <category name="Snacks">
+        <meal>
+          <name>Liebe Gäste, nachfolgend ein Auszug aus unserem tollen Snack Angebot: Käse Weckerl</name>
+          <price role="student">3.80</price>
+        </meal>
+        <meal>
+          <name>Kornspitz mit Gouda</name>
+          <price role="student">3.00</price>
+        </meal>
+        <meal>
+          <name>Kornspitz mit Putenschinken</name>
+          <price role="student">3.00</price>
+        </meal>
+        <meal>
+          <name>Kürbiskernweckerl mit Salami</name>
+          <price role="student">3.40</price>
+        </meal>
+        <meal>
+          <name>Buttercroissant regional</name>
+          <price role="student">1.90</price>
+        </meal>
+        <meal>
+          <name>Muffin Blueberry</name>
+          <price role="student">2.50</price>
+        </meal>
+        <meal>
+          <name>Muffin Double Chocolate</name>
+          <price role="student">2.50</price>
+        </meal>
+        <meal>
+          <name>Nußkrone</name>
+          <price role="student">3.40</price>
+        </meal>
+        <meal>
+          <name>Topfentascherl</name>
+          <price role="student">3.40</price>
+        </meal>
+        <meal>
+          <name>Ihr Mensa Cafè Team</name>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-12-12">
+      <category name="Suppen &amp; Desserts">
+        <meal>
+          <name>Suppe klar Klare Gemüsesuppe mit Fadennudeln</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <note>vegetarisch</note>
+          <price role="student">2.10</price>
+        </meal>
+        <meal>
+          <name>Suppe gebunden Paprika-Kürbiscremesuppe</name>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <note>vegan</note>
+          <price role="student">2.10</price>
+        </meal>
+        <meal>
+          <name>Dessert Punsch-Tiramisu</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <price role="student">1.20</price>
+        </meal>
+      </category>
+      <category name="Wochenangebot GRILL">
+        <meal>
+          <name>Frisch vom Grill Gegrillter Rotbarsch mit Fenchel-Zitronenrisotto und Kräuterbutter</name>
+          <note>Eier</note>
+          <note>Fisch</note>
+          <note>Gluten</note>
+          <note>MSC</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <price role="student">11.50</price>
+        </meal>
+        <meal>
+          <name>Cevapcici mit Potato Wedges und Zwiebelsenf-Dip</name>
+          <note>Gluten</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <price role="student">12.50</price>
+        </meal>
+        <meal>
+          <name>Putenschnitzel naturgebraten mit Fenchel-Zitronenrisotto und Kräuterbutter</name>
+          <note>Eier</note>
+          <note>Fisch</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <price role="student">13.50</price>
+        </meal>
+      </category>
+      <category name="M-Cafe">
+        <meal>
+          <name>Liebe Gäste, nachfolgend ein Auszug aus unserem tollen Snack Angebot: Käse Weckerl</name>
+          <price role="student">3.80</price>
+        </meal>
+        <meal>
+          <name>Kornspitz mit Gouda</name>
+          <price role="student">3.00</price>
+        </meal>
+        <meal>
+          <name>Kornspitz mit Putenschinken</name>
+          <price role="student">3.00</price>
+        </meal>
+        <meal>
+          <name>Kürbiskernweckerl mit Salami</name>
+          <price role="student">3.40</price>
+        </meal>
+        <meal>
+          <name>Buttercroissant regional</name>
+          <price role="student">1.90</price>
+        </meal>
+        <meal>
+          <name>Muffin Blueberry</name>
+          <price role="student">2.50</price>
+        </meal>
+        <meal>
+          <name>Muffin Double Chocolate</name>
+          <price role="student">2.50</price>
+        </meal>
+        <meal>
+          <name>Nußkrone</name>
+          <price role="student">3.40</price>
+        </meal>
+        <meal>
+          <name>Topfentascherl</name>
+          <price role="student">3.40</price>
+        </meal>
+        <meal>
+          <name>Ihr Mensa Cafè Team</name>
+        </meal>
+      </category>
+      <category name="Tagesangebot, Pasta &amp; WOK">
+        <meal>
+          <name>Tagesangebot Veggie &amp; Vegan Gemüse-Lasagne mit Tomatenragout</name>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
+          <note>vegetarisch</note>
+          <price role="student">5.90</price>
+        </meal>
+        <meal>
+          <name>Tagesangebot Herzhaft Putengeschnetzeltes Züricher Art mit Erbsenreis</name>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <note>Styria vitalis</note>
+          <price role="student">6.80</price>
+        </meal>
+        <meal>
+          <name>Pasta Fusilli mit Cherrytomaten- Pestorahmsauce</name>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Schalenfrüchte</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <note>vegetarisch</note>
+          <price role="student">5.90</price>
+        </meal>
+      </category>
+      <category name="Snacks">
+        <meal>
+          <name>Liebe Gäste, nachfolgend ein Auszug aus unserem tollen Snack Angebot: Käse Weckerl</name>
+          <price role="student">3.80</price>
+        </meal>
+        <meal>
+          <name>Kornspitz mit Gouda</name>
+          <price role="student">3.00</price>
+        </meal>
+        <meal>
+          <name>Kornspitz mit Putenschinken</name>
+          <price role="student">3.00</price>
+        </meal>
+        <meal>
+          <name>Kürbiskernweckerl mit Salami</name>
+          <price role="student">3.40</price>
+        </meal>
+        <meal>
+          <name>Buttercroissant regional</name>
+          <price role="student">1.90</price>
+        </meal>
+        <meal>
+          <name>Muffin Blueberry</name>
+          <price role="student">2.50</price>
+        </meal>
+        <meal>
+          <name>Muffin Double Chocolate</name>
+          <price role="student">2.50</price>
+        </meal>
+        <meal>
+          <name>Nußkrone</name>
+          <price role="student">3.40</price>
+        </meal>
+        <meal>
+          <name>Topfentascherl</name>
+          <price role="student">3.40</price>
+        </meal>
+        <meal>
+          <name>Ihr Mensa Cafè Team</name>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-12-13">
+      <category name="Suppen &amp; Desserts">
+        <meal>
+          <name>Suppe klar Klare Gemüsesuppe mit Wurzelgemüse Julienne und Muschelnudeln</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <note>vegetarisch</note>
+          <price role="student">2.10</price>
+        </meal>
+        <meal>
+          <name>Suppe gebunden Apfel-Selleriesuppe</name>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <note>vegan</note>
+          <price role="student">2.10</price>
+        </meal>
+        <meal>
+          <name>Dessert Panna Cotta</name>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <price role="student">1.20</price>
+        </meal>
+        <meal>
+          <name>Dessert warm Milchrahmstrudel mit Vanillesauce</name>
+          <price role="student">5.30</price>
+        </meal>
+      </category>
+      <category name="Wochenangebot GRILL">
+        <meal>
+          <name>Frisch vom Grill Gegrillter Rotbarsch mit Fenchel-Zitronenrisotto und Kräuterbutter</name>
+          <note>Eier</note>
+          <note>Fisch</note>
+          <note>Gluten</note>
+          <note>MSC</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <price role="student">11.50</price>
+        </meal>
+        <meal>
+          <name>Cevapcici mit Potato Wedges und Zwiebelsenf-Dip</name>
+          <note>Gluten</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <price role="student">12.50</price>
+        </meal>
+        <meal>
+          <name>Putenschnitzel naturgebraten mit Fenchel-Zitronenrisotto und Kräuterbutter</name>
+          <note>Eier</note>
+          <note>Fisch</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <price role="student">13.50</price>
+        </meal>
+      </category>
+      <category name="M-Cafe">
+        <meal>
+          <name>Liebe Gäste, nachfolgend ein Auszug aus unserem tollen Snack Angebot: Käse Weckerl</name>
+          <price role="student">3.80</price>
+        </meal>
+        <meal>
+          <name>Kornspitz mit Gouda</name>
+          <price role="student">3.00</price>
+        </meal>
+        <meal>
+          <name>Kornspitz mit Putenschinken</name>
+          <price role="student">3.00</price>
+        </meal>
+        <meal>
+          <name>Kürbiskernweckerl mit Salami</name>
+          <price role="student">3.40</price>
+        </meal>
+        <meal>
+          <name>Buttercroissant regional</name>
+          <price role="student">1.90</price>
+        </meal>
+        <meal>
+          <name>Muffin Blueberry</name>
+          <price role="student">2.50</price>
+        </meal>
+        <meal>
+          <name>Muffin Double Chocolate</name>
+          <price role="student">2.50</price>
+        </meal>
+        <meal>
+          <name>Nußkrone</name>
+          <price role="student">3.40</price>
+        </meal>
+        <meal>
+          <name>Topfentascherl</name>
+          <price role="student">3.40</price>
+        </meal>
+        <meal>
+          <name>Ihr Mensa Cafè Team</name>
+        </meal>
+      </category>
+      <category name="Tagesangebot, Pasta &amp; WOK">
+        <meal>
+          <name>Tagesangebot Veggie &amp; Vegan Indische Dal Linsen mit Basmatireis</name>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <note>Styria vitalis</note>
+          <note>vegan</note>
+          <price role="student">5.90</price>
+        </meal>
+        <meal>
+          <name>Tagesangebot Herzhaft Faschierte Laibchen mit Natursauce, Mischgemüse und Erdäpfelpurée</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <price role="student">6.80</price>
+        </meal>
+        <meal>
+          <name>Wok Veggie Frischer Gemüsewok mit Basmatireis</name>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Sesam</note>
+          <note>Sojabohnen</note>
+          <note>Weichtiere/Schnecken/Muscheln/Tintenfische</note>
+          <note>vegetarisch</note>
+          <price role="student">6.20</price>
+        </meal>
+        <meal>
+          <name>WOK Herzhaft Puten-Teriyaki mit Basmatireis</name>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Sesam</note>
+          <note>Sojabohnen</note>
+          <note>Weichtiere/Schnecken/Muscheln/Tintenfische</note>
+          <price role="student">7.20</price>
+        </meal>
+        <meal>
+          <name>Tagesangebot Vegitastic Burger mit Steakhouse Pommes frites und veganer Tomatensalsa</name>
+          <note>Gluten</note>
+          <note>Schalenfrüchte</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <note>vegan</note>
+          <price role="student">8.20</price>
+        </meal>
+      </category>
+      <category name="Snacks">
+        <meal>
+          <name>Liebe Gäste, nachfolgend ein Auszug aus unserem tollen Snack Angebot: Käse Weckerl</name>
+          <price role="student">3.80</price>
+        </meal>
+        <meal>
+          <name>Kornspitz mit Gouda</name>
+          <price role="student">3.00</price>
+        </meal>
+        <meal>
+          <name>Kornspitz mit Putenschinken</name>
+          <price role="student">3.00</price>
+        </meal>
+        <meal>
+          <name>Kürbiskernweckerl mit Salami</name>
+          <price role="student">3.40</price>
+        </meal>
+        <meal>
+          <name>Buttercroissant regional</name>
+          <price role="student">1.90</price>
+        </meal>
+        <meal>
+          <name>Muffin Blueberry</name>
+          <price role="student">2.50</price>
+        </meal>
+        <meal>
+          <name>Muffin Double Chocolate</name>
+          <price role="student">2.50</price>
+        </meal>
+        <meal>
+          <name>Nußkrone</name>
+          <price role="student">3.40</price>
+        </meal>
+        <meal>
+          <name>Topfentascherl</name>
+          <price role="student">3.40</price>
+        </meal>
+        <meal>
+          <name>Ihr Mensa Cafè Team</name>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-12-14">
+      <category name="Suppen &amp; Desserts">
+        <meal>
+          <name>Suppe klar Klare Gemüsesuppe mit Frittaten und Schnittlauch</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <note>vegetarisch</note>
+          <price role="student">2.10</price>
+        </meal>
+        <meal>
+          <name>Suppe gebunden Maiscremesuppe</name>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <note>vegan</note>
+          <price role="student">2.10</price>
+        </meal>
+        <meal>
+          <name>Dessert Kirsch-Topfencreme</name>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <price role="student">1.20</price>
+        </meal>
+      </category>
+      <category name="Wochenangebot GRILL">
+        <meal>
+          <name>Frisch vom Grill Gegrillter Rotbarsch mit Fenchel-Zitronenrisotto und Kräuterbutter</name>
+          <note>Eier</note>
+          <note>Fisch</note>
+          <note>Gluten</note>
+          <note>MSC</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <price role="student">11.50</price>
+        </meal>
+        <meal>
+          <name>Cevapcici mit Potato Wedges und Zwiebelsenf-Dip</name>
+          <note>Gluten</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <price role="student">12.50</price>
+        </meal>
+        <meal>
+          <name>Putenschnitzel naturgebraten mit Fenchel-Zitronenrisotto und Kräuterbutter</name>
+          <note>Eier</note>
+          <note>Fisch</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <price role="student">13.50</price>
+        </meal>
+      </category>
+      <category name="M-Cafe">
+        <meal>
+          <name>Liebe Gäste, nachfolgend ein Auszug aus unserem tollen Snack Angebot: Käse Weckerl</name>
+          <price role="student">3.80</price>
+        </meal>
+        <meal>
+          <name>Kornspitz mit Gouda</name>
+          <price role="student">3.00</price>
+        </meal>
+        <meal>
+          <name>Kornspitz mit Putenschinken</name>
+          <price role="student">3.00</price>
+        </meal>
+        <meal>
+          <name>Kürbiskernweckerl mit Salami</name>
+          <price role="student">3.40</price>
+        </meal>
+        <meal>
+          <name>Buttercroissant regional</name>
+          <price role="student">1.90</price>
+        </meal>
+        <meal>
+          <name>Muffin Blueberry</name>
+          <price role="student">2.50</price>
+        </meal>
+        <meal>
+          <name>Muffin Double Chocolate</name>
+          <price role="student">2.50</price>
+        </meal>
+        <meal>
+          <name>Nußkrone</name>
+          <price role="student">3.40</price>
+        </meal>
+        <meal>
+          <name>Topfentascherl</name>
+          <price role="student">3.40</price>
+        </meal>
+        <meal>
+          <name>Ihr Mensa Cafè Team</name>
+        </meal>
+      </category>
+      <category name="Tagesangebot, Pasta &amp; WOK">
+        <meal>
+          <name>Tagesangebot Veggie &amp; Vegan Pikanter Erdäpfel-Mais Auflauf mit Zucchini und Karotten-Champignonrahmsauce</name>
+          <note>Eier</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <note>Styria vitalis</note>
+          <note>vegetarisch</note>
+          <price role="student">5.90</price>
+        </meal>
+        <meal>
+          <name>Tagesangebot Herzhaft Schinkenrahmspätzle mit Beilagensalat</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <price role="student">6.80</price>
+        </meal>
+        <meal>
+          <name>Pasta Spaghetti mit Sauce Carbonara und Speck</name>
+          <note>Gluten</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <price role="student">5.90</price>
+        </meal>
+      </category>
+      <category name="Snacks">
+        <meal>
+          <name>Liebe Gäste, nachfolgend ein Auszug aus unserem tollen Snack Angebot: Käse Weckerl</name>
+          <price role="student">3.80</price>
+        </meal>
+        <meal>
+          <name>Kornspitz mit Gouda</name>
+          <price role="student">3.00</price>
+        </meal>
+        <meal>
+          <name>Kornspitz mit Putenschinken</name>
+          <price role="student">3.00</price>
+        </meal>
+        <meal>
+          <name>Kürbiskernweckerl mit Salami</name>
+          <price role="student">3.40</price>
+        </meal>
+        <meal>
+          <name>Buttercroissant regional</name>
+          <price role="student">1.90</price>
+        </meal>
+        <meal>
+          <name>Muffin Blueberry</name>
+          <price role="student">2.50</price>
+        </meal>
+        <meal>
+          <name>Muffin Double Chocolate</name>
+          <price role="student">2.50</price>
+        </meal>
+        <meal>
+          <name>Nußkrone</name>
+          <price role="student">3.40</price>
+        </meal>
+        <meal>
+          <name>Topfentascherl</name>
+          <price role="student">3.40</price>
+        </meal>
+        <meal>
+          <name>Ihr Mensa Cafè Team</name>
+        </meal>
+      </category>
+    </day>
+    <day date="2023-12-15">
+      <category name="Suppen &amp; Desserts">
+        <meal>
+          <name>Suppe klar Klare Gemüsesuppe mit Backerbsen</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <note>vegetarisch</note>
+          <price role="student">2.10</price>
+        </meal>
+        <meal>
+          <name>Suppe gebunden Erbsencremesuppe VEGAN</name>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <note>vegan</note>
+          <price role="student">2.10</price>
+        </meal>
+        <meal>
+          <name>Dessert Orangencreme</name>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <price role="student">1.20</price>
+        </meal>
+      </category>
+      <category name="Wochenangebot GRILL">
+        <meal>
+          <name>Frisch vom Grill Gegrillter Rotbarsch mit Fenchel-Zitronenrisotto und Kräuterbutter</name>
+          <note>Eier</note>
+          <note>Fisch</note>
+          <note>Gluten</note>
+          <note>MSC</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <price role="student">11.50</price>
+        </meal>
+        <meal>
+          <name>Cevapcici mit Potato Wedges und Zwiebelsenf-Dip</name>
+          <note>Gluten</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <price role="student">12.50</price>
+        </meal>
+        <meal>
+          <name>Putenschnitzel naturgebraten mit Fenchel-Zitronenrisotto und Kräuterbutter</name>
+          <note>Eier</note>
+          <note>Fisch</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <price role="student">13.50</price>
+        </meal>
+      </category>
+      <category name="M-Cafe">
+        <meal>
+          <name>Liebe Gäste, nachfolgend ein Auszug aus unserem tollen Snack Angebot: Käse Weckerl</name>
+          <price role="student">3.80</price>
+        </meal>
+        <meal>
+          <name>Kornspitz mit Gouda</name>
+          <price role="student">3.00</price>
+        </meal>
+        <meal>
+          <name>Kornspitz mit Putenschinken</name>
+          <price role="student">3.00</price>
+        </meal>
+        <meal>
+          <name>Kürbiskernweckerl mit Salami</name>
+          <price role="student">3.40</price>
+        </meal>
+        <meal>
+          <name>Buttercroissant regional</name>
+          <price role="student">1.90</price>
+        </meal>
+        <meal>
+          <name>Muffin Blueberry</name>
+          <price role="student">2.50</price>
+        </meal>
+        <meal>
+          <name>Muffin Double Chocolate</name>
+          <price role="student">2.50</price>
+        </meal>
+        <meal>
+          <name>Nußkrone</name>
+          <price role="student">3.40</price>
+        </meal>
+        <meal>
+          <name>Topfentascherl</name>
+          <price role="student">3.40</price>
+        </meal>
+        <meal>
+          <name>Ihr Mensa Cafè Team</name>
+        </meal>
+      </category>
+      <category name="Tagesangebot, Pasta &amp; WOK">
+        <meal>
+          <name>Tagesangebot Veggie &amp; Vegan Madras Gemüse Curry mit Basmatireis</name>
+          <note>Schalenfrüchte</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <note>Styria vitalis</note>
+          <note>vegan</note>
+          <price role="student">5.90</price>
+        </meal>
+        <meal>
+          <name>Tagesangebot Herzhaft Scholle MSC gebacken mit Erdäpfel-Mayonnaise Salat und Zitrone</name>
+          <note>Eier</note>
+          <note>Fisch</note>
+          <note>Gluten</note>
+          <note>MSC</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <price role="student">6.80</price>
+        </meal>
+        <meal>
+          <name>Wok Veggie Frischer Gemüsewok mit Basmatireis</name>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Sesam</note>
+          <note>Sojabohnen</note>
+          <note>Weichtiere/Schnecken/Muscheln/Tintenfische</note>
+          <note>vegetarisch</note>
+          <price role="student">6.20</price>
+        </meal>
+        <meal>
+          <name>WOK Herzhaft Hühner Wok mit Ginger Garlicsauce und Basmatireis</name>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Sesam</note>
+          <note>Sojabohnen</note>
+          <note>Weichtiere/Schnecken/Muscheln/Tintenfische</note>
+          <price role="student">7.20</price>
+        </meal>
+      </category>
+      <category name="Snacks">
+        <meal>
+          <name>Liebe Gäste, nachfolgend ein Auszug aus unserem tollen Snack Angebot: Käse Weckerl</name>
+          <price role="student">3.80</price>
+        </meal>
+        <meal>
+          <name>Kornspitz mit Gouda</name>
+          <price role="student">3.00</price>
+        </meal>
+        <meal>
+          <name>Kornspitz mit Putenschinken</name>
+          <price role="student">3.00</price>
+        </meal>
+        <meal>
+          <name>Kürbiskernweckerl mit Salami</name>
+          <price role="student">3.40</price>
+        </meal>
+        <meal>
+          <name>Buttercroissant regional</name>
+          <price role="student">1.90</price>
+        </meal>
+        <meal>
+          <name>Muffin Blueberry</name>
+          <price role="student">2.50</price>
+        </meal>
+        <meal>
+          <name>Muffin Double Chocolate</name>
+          <price role="student">2.50</price>
+        </meal>
+        <meal>
+          <name>Nußkrone</name>
+          <price role="student">3.40</price>
+        </meal>
+        <meal>
+          <name>Topfentascherl</name>
+          <price role="student">3.40</price>
+        </meal>
+        <meal>
+          <name>Ihr Mensa Cafè Team</name>
+        </meal>
+      </category>
+    </day>
+  </canteen>
+</openmensa>
