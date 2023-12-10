@@ -20,7 +20,7 @@ except ModuleNotFoundError:
 class Parser:
     canteen_json = os.path.join(os.path.dirname(__file__), "canteenDict.json")
     meta_xslt = os.path.join(os.path.dirname(__file__), "../meta.xsl")
-    script_src_pattern = re.compile('<script src="/([^"]+)"></script>')
+    script_src_pattern = re.compile(r'<script src="/([^"]+)"></script>')
     roles = ("student", "employee", "other")
 
     def _load_prices(self):
