@@ -74,6 +74,24 @@ RuntimeError: OOPS
                         da hat sich wohl der
                         Fehlerteufel eingeschlichen.
 
+inetmenue/mns:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 145, in updateFeeds
+    content = getattr(parser, feedMethod)(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
+    return self.feed_all(ref, get_next_week=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
+    next_week_path = self.parseMeals(ref, builder, resp.text)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
+    raise RuntimeError(oops.text.strip())
+RuntimeError: OOPS
+
+                        da hat sich wohl der
+                        Fehlerteufel eingeschlichen.
+
 inetmenue/schmecktsdannbassts:
 Traceback (most recent call last):
   File "/home/runner/work/mensa/mensa/updateFeeds.py", line 145, in updateFeeds
