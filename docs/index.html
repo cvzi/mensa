@@ -38,77 +38,73 @@
     <main>
       <article>Parser for <a target="_blank" href="https://openmensa.org">openmensa.org</a>. The parser runs in a <a target="_blank" title="What's a Github action?" href="https://docs.github.com/en/actions">Github action<sup>❓</sup></a> and pushes the XML feeds to this page</article>
       <article><h3><a href="https://github.com/cvzi/mensa/actions/">🗿 Parser status</a></h3>
-<pre>inetmenue/jura-am:
+<pre>luxembourg/ALRint:
 Traceback (most recent call last):
-  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 145, in updateFeeds
+  File "C:\Users\cuzi\github\mensa_github\updateFeeds.py", line 145, in updateFeeds
     content = getattr(parser, feedMethod)(
               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
-    return self.feed_all(ref, get_next_week=False)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
-    next_week_path = self.parseMeals(ref, builder, resp.text)
-                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
-    raise RuntimeError(oops.text.strip())
-RuntimeError: OOPS
+  File "C:\Users\cuzi\github\mensa_github\luxembourg\__init__.py", line 37, in feed
+    xml, _, _, _ = getMenu(restaurantId=self.canteens[refName]["id"], serviceIds=self.canteens[refName]
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\cuzi\github\mensa_github\luxembourg\tools.py", line 313, in getMenu
+    lazyBuilder.addMeal(
+  File "C:\Python312\Lib\site-packages\pyopenmensa\feed.py", line 662, in addMeal
+    super(LazyBuilder, self).addMeal(extractDate(date), category, name,
+  File "C:\Python312\Lib\site-packages\pyopenmensa\feed.py", line 420, in addMeal
+    if category not in self._days[date]:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'bool' is not iterable
 
-                        da hat sich wohl der
-                        Fehlerteufel eingeschlichen.
-
-inetmenue/kernschule:
+luxembourg/SportInt:
 Traceback (most recent call last):
-  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 145, in updateFeeds
+  File "C:\Users\cuzi\github\mensa_github\updateFeeds.py", line 145, in updateFeeds
     content = getattr(parser, feedMethod)(
               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
-    return self.feed_all(ref, get_next_week=False)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
-    next_week_path = self.parseMeals(ref, builder, resp.text)
-                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
-    raise RuntimeError(oops.text.strip())
-RuntimeError: OOPS
+  File "C:\Users\cuzi\github\mensa_github\luxembourg\__init__.py", line 37, in feed
+    xml, _, _, _ = getMenu(restaurantId=self.canteens[refName]["id"], serviceIds=self.canteens[refName]
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\cuzi\github\mensa_github\luxembourg\tools.py", line 313, in getMenu
+    lazyBuilder.addMeal(
+  File "C:\Python312\Lib\site-packages\pyopenmensa\feed.py", line 662, in addMeal
+    super(LazyBuilder, self).addMeal(extractDate(date), category, name,
+  File "C:\Python312\Lib\site-packages\pyopenmensa\feed.py", line 420, in addMeal
+    if category not in self._days[date]:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'bool' is not iterable
 
-                        da hat sich wohl der
-                        Fehlerteufel eingeschlichen.
-
-inetmenue/mns:
+luxembourg/LCEIntDi:
 Traceback (most recent call last):
-  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 145, in updateFeeds
+  File "C:\Users\cuzi\github\mensa_github\updateFeeds.py", line 145, in updateFeeds
     content = getattr(parser, feedMethod)(
               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
-    return self.feed_all(ref, get_next_week=False)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
-    next_week_path = self.parseMeals(ref, builder, resp.text)
-                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
-    raise RuntimeError(oops.text.strip())
-RuntimeError: OOPS
+  File "C:\Users\cuzi\github\mensa_github\luxembourg\__init__.py", line 37, in feed
+    xml, _, _, _ = getMenu(restaurantId=self.canteens[refName]["id"], serviceIds=self.canteens[refName]
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\cuzi\github\mensa_github\luxembourg\tools.py", line 313, in getMenu
+    lazyBuilder.addMeal(
+  File "C:\Python312\Lib\site-packages\pyopenmensa\feed.py", line 662, in addMeal
+    super(LazyBuilder, self).addMeal(extractDate(date), category, name,
+  File "C:\Python312\Lib\site-packages\pyopenmensa\feed.py", line 420, in addMeal
+    if category not in self._days[date]:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'bool' is not iterable
 
-                        da hat sich wohl der
-                        Fehlerteufel eingeschlichen.
-
-inetmenue/schmecktsdannbassts:
+luxembourg/EIMAB1:
 Traceback (most recent call last):
-  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 145, in updateFeeds
+  File "C:\Users\cuzi\github\mensa_github\updateFeeds.py", line 145, in updateFeeds
     content = getattr(parser, feedMethod)(
               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
-    return self.feed_all(ref, get_next_week=False)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
-    next_week_path = self.parseMeals(ref, builder, resp.text)
-                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
-    raise RuntimeError(oops.text.strip())
-RuntimeError: OOPS
-
-                        da hat sich wohl der
-                        Fehlerteufel eingeschlichen.
+  File "C:\Users\cuzi\github\mensa_github\luxembourg\__init__.py", line 37, in feed
+    xml, _, _, _ = getMenu(restaurantId=self.canteens[refName]["id"], serviceIds=self.canteens[refName]
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\cuzi\github\mensa_github\luxembourg\tools.py", line 313, in getMenu
+    lazyBuilder.addMeal(
+  File "C:\Python312\Lib\site-packages\pyopenmensa\feed.py", line 662, in addMeal
+    super(LazyBuilder, self).addMeal(extractDate(date), category, name,
+  File "C:\Python312\Lib\site-packages\pyopenmensa\feed.py", line 420, in addMeal
+    if category not in self._days[date]:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'bool' is not iterable
 </pre></article>
       <article>
 <ol style="list-style-type:none">
