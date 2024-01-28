@@ -3,46 +3,98 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2024-01-22">
+    <day date="2024-01-29">
       <category name="Menü veggie">
         <meal>
-          <name>Zur Wahl: Suppe oder Salat Ratatouille Gemüse mit einer Polentaschnitte (-)</name>
+          <name>Zur Wahl: Suppe oder Salat Waldpilzsauce mit hausgemachten Serviettenknödel</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sojabohnen</note>
+          <note>vegetarisch</note>
+          <price role="student">6.20</price>
+        </meal>
+      </category>
+      <category name="Tagesgericht">
+        <meal>
+          <name>Gemüseschnitzel mit Erdäpfel-Gurkensalat</name>
+          <note>Gluten</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Senf</note>
+          <note>vegan</note>
+          <price role="student">6.90</price>
+        </meal>
+        <meal>
+          <name>Gebackenes Schweinsschnitzel mit Pommes frites</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <price role="student">8.20</price>
+        </meal>
+      </category>
+      <category name="Menü herzhaft">
+        <meal>
+          <name>Zur Wahl: Suppe oder Salat Rindsgulasch mit einer Semmel</name>
+          <note>Gluten</note>
+          <note>Lupinen</note>
+          <note>Milch</note>
+          <note>Schalenfrüchte</note>
+          <note>Sesam</note>
+          <note>Sojabohnen</note>
+          <price role="student">7.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2024-01-30">
+      <category name="Menü veggie">
+        <meal>
+          <name>Zur Wahl: Suppe oder Salat Karfiol-Karottencurry mit Basmatireis (-)</name>
           <note>vegan</note>
           <price role="student">6.20</price>
         </meal>
       </category>
       <category name="Tagesgericht">
         <meal>
-          <name>Gemüseschnitzel mit Petersilerdäpfeln und Knoblauchdip</name>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>vegetarisch</note>
-          <price role="student">6.90</price>
-        </meal>
-        <meal>
-          <name>Gebackenes Hühnerschnitzel mit Erdäpfelsalat</name>
+          <name>Tempura Tofuwürfel auf gebratenem Eierreis mit Gemüse</name>
           <note>Eier</note>
           <note>Gluten</note>
           <note>Schwefeldioxid/Sulfite</note>
           <note>Senf</note>
+          <note>Sesam</note>
+          <note>Sojabohnen</note>
+          <price role="student">7.90</price>
+        </meal>
+        <meal>
+          <name>Tempura Hühnerstreifen auf gebratenem Eierreis mit Gemüse</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Senf</note>
+          <note>Sesam</note>
+          <note>Sojabohnen</note>
           <price role="student">8.90</price>
         </meal>
       </category>
       <category name="Menü herzhaft">
         <meal>
-          <name>Zur Wahl: Suppe oder Salat Schweinsgulasch mit Spätzle</name>
+          <name>Zur Wahl: Suppe oder Salat Grammelknödel mit Kümmelsaftl und Sauerkraut</name>
           <note>Eier</note>
           <note>Gluten</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
           <price role="student">7.20</price>
         </meal>
       </category>
     </day>
-    <day date="2024-01-23">
+    <day date="2024-01-31">
       <category name="Menü veggie">
         <meal>
-          <name>Zur Wahl: Suppe oder Salat Gemüselasagne in Tomaten-Kräutersauce</name>
+          <name>Zur Wahl: Suppe oder Salat Gnocchi mit Gemüsebolognese und frisch geriebenem Parmesan</name>
+          <note>Eier</note>
           <note>Gluten</note>
           <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
           <note>Sellerie</note>
           <note>vegetarisch</note>
           <price role="student">6.20</price>
@@ -50,49 +102,7 @@
       </category>
       <category name="Tagesgericht">
         <meal>
-          <name>Gelbes Thai Gemüsecurry mit Jasminreis</name>
-          <note>Gluten</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <note>vegan</note>
-          <price role="student">5.90</price>
-        </meal>
-        <meal>
-          <name>Grillteller mit Pommes frites, Kräuterbutter u. Dipsauce</name>
-          <note>Eier</note>
-          <note>Fisch</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schalenfrüchte</note>
-          <note>Sojabohnen</note>
-          <price role="student">9.90</price>
-        </meal>
-      </category>
-      <category name="Menü herzhaft">
-        <meal>
-          <name>Zur Wahl: Suppe oder Salat Hühnergeschnetzeltes in Champignon-Pfeffersauce mit Kartoffelkroketten</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schalenfrüchte</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <price role="student">7.20</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2024-01-24">
-      <category name="Menü veggie">
-        <meal>
-          <name>Zur Wahl: Suppe oder Salat Quinoa-Gemüsepfanne</name>
-          <note>Sellerie</note>
-          <note>vegan</note>
-          <price role="student">6.20</price>
-        </meal>
-      </category>
-      <category name="Tagesgericht">
-        <meal>
-          <name>Mensa Vegitastic - Burger von Vegitastic mit Pommes frites</name>
+          <name>Mensa Vegitastic - Burger mit Potato Wedges</name>
           <note>Gluten</note>
           <note>Schalenfrüchte</note>
           <note>Schwefeldioxid/Sulfite</note>
@@ -101,37 +111,44 @@
           <price role="student">8.60</price>
         </meal>
         <meal>
-          <name>BIO Burger &quot;BLT&quot; mit BIO-Rindfleisch, Speck, Salat, Tomate und Pommes frites</name>
-          <note>Eier</note>
+          <name>BBQ Burger mit BIO-Rindfleisch und Potato Wedges</name>
           <note>Gluten</note>
-          <note>Milch</note>
+          <note>Schalenfrüchte</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Senf</note>
+          <note>Sesam</note>
+          <note>Sojabohnen</note>
           <price role="student">9.90</price>
         </meal>
       </category>
       <category name="Menü herzhaft">
         <meal>
-          <name>Zur Wahl: Suppe oder Salat Spaghetti Carbonara mit frisch geriebenem Parmesan</name>
+          <name>Zur Wahl: Suppe oder Salat Knoblauch-Hühnerrahmsauce mit Gemüsehörnchen</name>
           <note>Eier</note>
           <note>Gluten</note>
           <note>Milch</note>
           <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
           <note>Sojabohnen</note>
           <price role="student">7.20</price>
         </meal>
       </category>
     </day>
-    <day date="2024-01-25">
+    <day date="2024-02-01">
       <category name="Menü veggie">
         <meal>
-          <name>Zur Wahl: Suppe oder Salat Indisches Kichererbsen Dal mit Basmatireis</name>
-          <note>Sellerie</note>
-          <note>vegan</note>
+          <name>Zur Wahl: Suppe oder Salat Tagliatelle mit Österkronsauce</name>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sojabohnen</note>
+          <note>vegetarisch</note>
           <price role="student">6.20</price>
         </meal>
       </category>
       <category name="Tagesgericht">
         <meal>
-          <name>Mohnnudeln mit Apfelmus</name>
+          <name>Topfenschmarren mit Marillenröster</name>
           <note>Eier</note>
           <note>Gluten</note>
           <note>Klimateller</note>
@@ -139,59 +156,63 @@
           <price role="student">5.90</price>
         </meal>
         <meal>
-          <name>Pizza Margarita</name>
+          <name>Pizza Funghi</name>
           <note>Gluten</note>
           <note>Milch</note>
+          <note>Sellerie</note>
           <note>vegetarisch</note>
           <price role="student">5.30</price>
         </meal>
         <meal>
-          <name>Pizza Cardinale</name>
+          <name>Pizza Tonno</name>
+          <note>Fisch</note>
           <note>Gluten</note>
           <note>Milch</note>
+          <note>Sojabohnen</note>
           <price role="student">5.60</price>
         </meal>
       </category>
       <category name="Menü herzhaft">
         <meal>
-          <name>Zur Wahl: Suppe oder Salat Gyros von der Pute mit Bratkartoffeln und Tzatziki</name>
+          <name>Zur Wahl: Suppe oder Salat Pulled Pork mit Reis, rote Bohnen und Tzatziki</name>
+          <note>Fisch</note>
           <note>Gluten</note>
           <note>Milch</note>
-          <note>Sojabohnen</note>
+          <note>Senf</note>
           <price role="student">7.20</price>
         </meal>
       </category>
     </day>
-    <day date="2024-01-26">
+    <day date="2024-02-02">
       <category name="Menü veggie">
         <meal>
-          <name>Zur Wahl: Suppe oder Salat Süßkartoffel-Paprika Wrap mit Gemüsereis, Blue Cheese Dip und Coleslaw</name>
-          <note>Eier</note>
+          <name>Zur Wahl: Suppe oder Salat Gemüsepfanne mit BIO Dinkel</name>
           <note>Gluten</note>
           <note>Milch</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
           <note>vegetarisch</note>
           <price role="student">6.20</price>
         </meal>
       </category>
       <category name="Tagesgericht">
         <meal>
-          <name>MSC Alaska Seelachs in der Knusperpanade mit Petersilerdäpfeln und Sauce Tyrolienne</name>
+          <name>MSC Scholle gebacken mit Erdäpfel-Mayonaise Salat</name>
           <note>Eier</note>
           <note>Fisch</note>
           <note>Gluten</note>
           <note>MSC</note>
           <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
           <note>Senf</note>
           <price role="student">7.60</price>
         </meal>
       </category>
       <category name="Menü herzhaft">
         <meal>
-          <name>Zur Wahl: Suppe oder Salat Hascheehörnchen vom Rind</name>
+          <name>Zur Wahl: Suppe oder Salat Penne Bolognese vom Rind mit frisch geriebenem Parmesan</name>
           <note>Eier</note>
           <note>Gluten</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
           <price role="student">7.20</price>
         </meal>
       </category>
