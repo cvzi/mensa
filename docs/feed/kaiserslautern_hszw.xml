@@ -3,43 +3,10 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2024-01-30">
-      <category name="Essen II Drehkreuz/Ampel">
-        <meal>
-          <name>Schupfnudeln mit Gemüse in Rahm und Salat</name>
-          <note>Eier und Eierzeugnisse</note>
-          <note>Farbstoff</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Laktose</note>
-          <note>Schwefeldioxid (&quot;SO2&quot;) und Sulfite</note>
-          <note>Vegetarisches Menü</note>
-          <note>geschwefelt</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
-      </category>
-      <category name="Essen I Drehkreuz/Ampel">
-        <meal>
-          <name>Rindergeschnetzeltes mit Paprika und Zwiebeln, Nudeln und Salat</name>
-          <note>Eier und Eierzeugnisse</note>
-          <note>Farbstoff</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Laktose</note>
-          <note>Rind</note>
-          <note>Senf</note>
-          <note>Soja</note>
-          <note>Süßungsmittel</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
-      </category>
-    </day>
     <day date="2024-01-31">
       <category name="Essen II Drehkreuz/Ampel">
         <meal>
-          <name>Valess Schnitzel mit Pusztasoße, dazu Bratkartoffel und Salat</name>
+          <name>Valess Schnitzel mit Pusztasoße, dazu Bratkartoffel oder Spaghetti und Salat</name>
           <note>Eier und Eierzeugnisse</note>
           <note>Farbstoff</note>
           <note>Glutenhaltiges Getreide</note>
@@ -54,9 +21,10 @@
       </category>
       <category name="Essen I Drehkreuz/Ampel">
         <meal>
-          <name>Paniertes Schweineschnitzel mit Pusztasoße, dazu Bratkartoffel und Salat</name>
+          <name>Paniertes Schweineschnitzel mit Pusztasoße, dazu Bratkartoffel oder Spaghetti und Salat</name>
           <note>Farbstoff</note>
           <note>Glutenhaltiges Getreide</note>
+          <note>Laktose</note>
           <note>Schwein</note>
           <note>Sellerie</note>
           <note>Süßungsmittel</note>
@@ -69,9 +37,10 @@
     <day date="2024-02-01">
       <category name="Essen II Drehkreuz/Ampel">
         <meal>
-          <name>Crunchy-Burger Chicken Style mit BBQ-Soße, Kartoffel Wedges und Salat</name>
+          <name>Crunchy-Burger Chicken Style mit Cocktail-Soße, Kartoffel Wedges und Salat</name>
           <note>Glutenhaltiges Getreide</note>
           <note>Sellerie</note>
+          <note>Senf</note>
           <note>Sesam</note>
           <note>Veganes Menü</note>
           <price role="employee">5.55</price>
@@ -84,12 +53,8 @@
           <name>Pulled Chicken Burger mit BBQ-Soße, Kartoffel Wedges und Salat</name>
           <note>Geflügel</note>
           <note>Glutenhaltiges Getreide</note>
-          <note>Laktose</note>
-          <note>Schwefeldioxid (&quot;SO2&quot;) und Sulfite</note>
           <note>Sellerie</note>
-          <note>Senf</note>
           <note>Sesam</note>
-          <note>geschwefelt</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
           <price role="student">5.55</price>
@@ -129,14 +94,10 @@
         <meal>
           <name>Blumenkohl-Käse-Medaillon mit Rahmsoße, dazu Gemüsereis und Salat</name>
           <note>Eier und Eierzeugnisse</note>
-          <note>Farbstoff</note>
-          <note>Geflügel</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Laktose</note>
-          <note>Schwefeldioxid (&quot;SO2&quot;) und Sulfite</note>
           <note>Sellerie</note>
           <note>Vegetarisches Menü</note>
-          <note>geschwefelt</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
           <price role="student">5.55</price>
@@ -146,12 +107,10 @@
         <meal>
           <name>Hähnchen-Cordon-bleu mit Truthahnschinken und Käse gefüllt, Rahmsoße, Kroketten und Broccoli</name>
           <note>Farbstoff</note>
-          <note>Fisch</note>
           <note>Geflügel</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Konservierungsstoff</note>
           <note>Laktose</note>
-          <note>Soja</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
           <price role="student">5.55</price>
@@ -164,7 +123,6 @@
           <name>Vier Kartoffeltaschen mit Frischkäse gefüllt mit Joghurt-Kräuter-Dip und Gurkensalat</name>
           <note>Eier und Eierzeugnisse</note>
           <note>Farbstoff</note>
-          <note>Geflügel</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Laktose</note>
           <note>Sellerie</note>
@@ -179,13 +137,8 @@
         <meal>
           <name>Ungarisches Rindergulasch mit Zwiebeln und Paprika, Kartoffelknödeln und Rotkohl</name>
           <note>Antioxidationsmittel</note>
-          <note>Eier und Eierzeugnisse</note>
-          <note>Farbstoff</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Laktose</note>
           <note>Rind</note>
           <note>Schwefeldioxid (&quot;SO2&quot;) und Sulfite</note>
-          <note>Sellerie</note>
           <note>geschwefelt</note>
           <note>kann Restalkohol enthalten</note>
           <price role="employee">5.55</price>
@@ -200,6 +153,7 @@
           <name>Gemüsefrikadelle Jäger Art mit Spätzle und Salat</name>
           <note>Antioxidationsmittel</note>
           <note>Eier und Eierzeugnisse</note>
+          <note>Farbstoff</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Vegetarisches Menü</note>
           <price role="employee">5.55</price>
@@ -215,8 +169,6 @@
           <note>Farbstoff</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Schwein</note>
-          <note>Sellerie</note>
-          <note>Soja</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
           <price role="student">5.55</price>
@@ -227,16 +179,13 @@
       <category name="Essen II Drehkreuz/Ampel">
         <meal>
           <name>Sojagyros mit Tzatziki, Dönerbrot und Krautsalat</name>
-          <note>Eier und Eierzeugnisse</note>
           <note>Farbstoff</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Laktose</note>
           <note>Schwefeldioxid (&quot;SO2&quot;) und Sulfite</note>
-          <note>Sellerie</note>
           <note>Senf</note>
           <note>Sesam</note>
           <note>Soja</note>
-          <note>Süßungsmittel</note>
           <note>Vegetarisches Menü</note>
           <note>geschwefelt</note>
           <price role="employee">5.55</price>
@@ -247,16 +196,13 @@
       <category name="Essen I Drehkreuz/Ampel">
         <meal>
           <name>Hähnchengyros mit Tzatziki, Dönerbrot und Krautsalat</name>
-          <note>Eier und Eierzeugnisse</note>
           <note>Farbstoff</note>
           <note>Geflügel</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Laktose</note>
-          <note>Schalenfrüchte (Nüsse)</note>
           <note>Schwefeldioxid (&quot;SO2&quot;) und Sulfite</note>
           <note>Senf</note>
           <note>Sesam</note>
-          <note>Süßungsmittel</note>
           <note>geschwefelt</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
@@ -268,13 +214,12 @@
       <category name="Essen II Drehkreuz/Ampel">
         <meal>
           <name>Gemüsestäbchen mit Remouladensoße, Pommes frites und Salat</name>
-          <note>Antioxidationsmittel</note>
           <note>Eier und Eierzeugnisse</note>
           <note>Farbstoff</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Laktose</note>
           <note>Sellerie</note>
-          <note>Soja</note>
+          <note>Senf</note>
           <note>Süßungsmittel</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
@@ -283,16 +228,13 @@
       </category>
       <category name="Essen I Drehkreuz/Ampel">
         <meal>
-          <name>Kibbeling im Backteig mit Remouladensoße, Pommes frites und Salat</name>
-          <note>Antioxidationsmittel</note>
+          <name>Fischstäbchen mit Remouladensoße, Pommes frites und Salat</name>
           <note>Eier und Eierzeugnisse</note>
           <note>Farbstoff</note>
           <note>Fisch</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Laktose</note>
-          <note>Sellerie</note>
           <note>Senf</note>
-          <note>Soja</note>
           <note>Süßungsmittel</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
