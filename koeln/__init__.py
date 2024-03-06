@@ -45,6 +45,7 @@ cacheMealsLock = Lock()
 cacheMealsData = {}
 cacheMealsTime = {}
 
+
 def _getMealsURL(url, maxAgeMinutes=30):
     """Download website, if available use a cached version"""
     if url in cacheMealsData:
@@ -85,28 +86,33 @@ def _parseMealsUrl(lazyBuilder, mensaId):
                     mealName += " " + beschreibungtext.text.strip()
                 if not mealName:
                     continue
-                
+
                 prices = []
                 preise = meal.find(class_="preise")
                 if preise:
-                    prices = [price.strip() for price in preise.text.split('/')]
+                    prices = [price.strip()
+                              for price in preise.text.split('/')]
                     if len(prices) > 3:
                         prices = prices[:2] + prices[-1:]
 
                 notes = []
                 allerg = meal.find(attrs={"data-allerg": True})
                 if allerg:
-                    notes += [note.strip() for note in allerg.attrs["data-allerg"].split("<br>")]
+                    notes += [note.strip()
+                              for note in allerg.attrs["data-allerg"].split("<br>")]
 
                 zusatz = meal.find(attrs={"data-zusatz"})
                 if zusatz:
-                    notes += [note.strip() for note in zusatz.attrs["data-zusatz"].split("<br>")]
+                    notes += [note.strip()
+                              for note in zusatz.attrs["data-zusatz"].split("<br>")]
 
                 sonst = meal.find(attrs={"data-sonst"})
                 if sonst:
-                    notes += [note.strip() for note in sonst.attrs["data-sonst"].split("<br>")]
+                    notes += [note.strip()
+                              for note in sonst.attrs["data-sonst"].split("<br>")]
 
-                notes = [note.split("=")[-1].strip() for note in notes if note.split("=")[-1].strip()]
+                notes = [note.split("=")[-1].strip()
+                         for note in notes if note.split("=")[-1].strip()]
                 notes = [note for note in notes if note]
 
                 lazyBuilder.addMeal(date, category, mealName,
@@ -145,7 +151,7 @@ class Parser:
             "latitude": xml_str_param(mensa["latitude"]),
             "longitude": xml_str_param(mensa["longitude"]),
             "phone": xml_str_param(mensa["phone"]),
-            "times" : mensa["infokurz"],
+            "times": mensa["infokurz"],
             "feed": xml_str_param(self.urlTemplate.format(metaOrFeed='feed', mensaReference=urllib.parse.quote(mensa["reference"]))),
             "source": xml_str_param(sourceUrl),
         }
@@ -159,6 +165,7 @@ class Parser:
             _parseMealsUrl(lazyBuilder, mensaId)
             return lazyBuilder.toXMLFeed()
         return 'Wrong mensa name'
+
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
