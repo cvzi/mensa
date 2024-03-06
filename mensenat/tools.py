@@ -52,7 +52,9 @@ imageLegend = {
     'logo_msc.png': 'MSC',
     'logo_asc.png': 'ASC',
     'logo_umweltzeichen.png': 'Österr. Umweltzeichen',
-    'logo_st.jpg': 'Styria vitalis'
+    'logo_st.jpg': 'Styria vitalis',
+    'bio_garantie_logo_mit_code_icon_50x50.png': 'Bio',
+    'klimateller_icon_klein_typo.png' : 'Klimateller',
 }
 
 roles = ('student', )
