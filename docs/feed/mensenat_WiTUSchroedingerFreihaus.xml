@@ -3,10 +3,57 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2024-03-04">
+    <day date="2024-03-11">
       <category name="Menü veggie">
         <meal>
-          <name>Zur Wahl: Suppe oder Salat Gnocchi mit Zucchini-Paprikaragout und frisch geriebenem Parmesan</name>
+          <name>Zur Wahl: Suppe oder Salat Erdäpfel-Pilzstrudel mit Sauce Tyrolienne</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Senf</note>
+          <note>vegetarisch</note>
+          <price role="student">7.50</price>
+        </meal>
+      </category>
+      <category name="Frühstück">
+        <meal>
+          <name>FRÜHSTÜCKSVARIATIONEN Das kleine Italienische</name>
+          <price role="student">4.50</price>
+        </meal>
+        <meal>
+          <name>Das Süße</name>
+          <price role="student">5.00</price>
+        </meal>
+        <meal>
+          <name>Das Pikante</name>
+          <price role="student">6.80</price>
+        </meal>
+        <meal>
+          <name>Das Gesunde</name>
+          <price role="student">5.60</price>
+        </meal>
+        <meal>
+          <name>Das Vielfältige</name>
+          <price role="student">8.30</price>
+        </meal>
+        <meal>
+          <name>dazu Weich gekochtes BIO-Ei / BIO-Rührei / Ham &amp; BIO-Eggs Croissant gefüllt mit BIO-Rührei A LA CARTE Snacks, Mensa Bowls, Wiener Küche, Burger</name>
+        </meal>
+      </category>
+      <category name="Menü herzhaft">
+        <meal>
+          <name>Zur Wahl: Suppe oder Salat Chili Chicken mit Cous Cous</name>
+          <note>Gluten</note>
+          <note>Sojabohnen</note>
+          <note>Weichtiere/Schnecken/Muscheln/Tintenfische</note>
+          <price role="student">8.50</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2024-03-12">
+      <category name="Menü veggie">
+        <meal>
+          <name>Zur Wahl: Suppe oder Salat Klassische Krautfleckerl mit Kresse-Sauerrahm Dip</name>
           <note>Eier</note>
           <note>Gluten</note>
           <note>Milch</note>
@@ -42,24 +89,22 @@
       </category>
       <category name="Menü herzhaft">
         <meal>
-          <name>Zur Wahl: Suppe oder Salat Spaghetti Bolognese mit Parmesan und Rucola</name>
+          <name>Zur Wahl: Suppe oder Salat Zwiebelfleisch vom Rind mit Hörnchen</name>
           <note>Eier</note>
           <note>Gluten</note>
-          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
           <note>Sellerie</note>
           <price role="student">8.50</price>
         </meal>
       </category>
     </day>
-    <day date="2024-03-05">
+    <day date="2024-03-13">
       <category name="Menü veggie">
         <meal>
-          <name>Zur Wahl: Suppe oder Salat Farfalle mit Briesauce Kräutern und Gemüse</name>
-          <note>Eier</note>
+          <name>Zur Wahl: Suppe oder Salat Spaghetti mit Broccoli-Mandelsauce und Rucola</name>
           <note>Gluten</note>
           <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
+          <note>Schalenfrüchte</note>
           <note>Sojabohnen</note>
           <note>vegetarisch</note>
           <price role="student">7.50</price>
@@ -92,148 +137,106 @@
       </category>
       <category name="Menü herzhaft">
         <meal>
-          <name>Zur Wahl: Suppe oder Salat Zitronen-Koriander Huhn mit Jasminreis</name>
+          <name>Zur Wahl: Suppe oder Salat Reisfleisch vom Huhn mit einem Essiggurkerl</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <price role="student">8.50</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2024-03-14">
+      <category name="Menü veggie">
+        <meal>
+          <name>Zur Wahl: Suppe oder Salat Cous cous - Pfanne mit Wokgemüse und Feta</name>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
+          <note>vegetarisch</note>
+          <price role="student">7.50</price>
+        </meal>
+      </category>
+      <category name="Frühstück">
+        <meal>
+          <name>FRÜHSTÜCKSVARIATIONEN Das kleine Italienische</name>
+          <price role="student">4.50</price>
+        </meal>
+        <meal>
+          <name>Das Süße</name>
+          <price role="student">5.00</price>
+        </meal>
+        <meal>
+          <name>Das Pikante</name>
+          <price role="student">6.80</price>
+        </meal>
+        <meal>
+          <name>Das Gesunde</name>
+          <price role="student">5.60</price>
+        </meal>
+        <meal>
+          <name>Das Vielfältige</name>
+          <price role="student">8.30</price>
+        </meal>
+        <meal>
+          <name>dazu Weich gekochtes BIO-Ei / BIO-Rührei / Ham &amp; BIO-Eggs Croissant gefüllt mit BIO-Rührei A LA CARTE Snacks, Mensa Bowls, Wiener Küche, Burger</name>
+        </meal>
+      </category>
+      <category name="Menü herzhaft">
+        <meal>
+          <name>Zur Wahl: Suppe oder Salat Gegrilltes Schweinskotelette mit Fisolen Erdäpfelkroketten und Ajvar</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <price role="student">8.50</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2024-03-15">
+      <category name="Menü veggie">
+        <meal>
+          <name>Zur Wahl: Suppe oder Salat Jalfrezi Gemüseragout mit Basmatireis und Sesam</name>
+          <note>Sesam</note>
+          <note>vegan</note>
+          <price role="student">7.50</price>
+        </meal>
+      </category>
+      <category name="Frühstück">
+        <meal>
+          <name>FRÜHSTÜCKSVARIATIONEN Das kleine Italienische</name>
+          <price role="student">4.50</price>
+        </meal>
+        <meal>
+          <name>Das Süße</name>
+          <price role="student">5.00</price>
+        </meal>
+        <meal>
+          <name>Das Pikante</name>
+          <price role="student">6.80</price>
+        </meal>
+        <meal>
+          <name>Das Gesunde</name>
+          <price role="student">5.60</price>
+        </meal>
+        <meal>
+          <name>Das Vielfältige</name>
+          <price role="student">8.30</price>
+        </meal>
+        <meal>
+          <name>dazu Weich gekochtes BIO-Ei / BIO-Rührei / Ham &amp; BIO-Eggs Croissant gefüllt mit BIO-Rührei A LA CARTE Snacks, Mensa Bowls, Wiener Küche, Burger</name>
+        </meal>
+      </category>
+      <category name="Menü herzhaft">
+        <meal>
+          <name>Zur Wahl: Suppe oder Salat Alaska Seelachs im Backteig mit Dill-Erdäpfel und Sauce Tartare</name>
+          <note>Eier</note>
           <note>Fisch</note>
           <note>Gluten</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <price role="student">8.50</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2024-03-06">
-      <category name="Menü veggie">
-        <meal>
-          <name>Zur Wahl: Suppe oder Salat Kürbis süß sauer mit Cous cous und Rucola</name>
-          <note>Gluten</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>vegan</note>
-          <price role="student">7.50</price>
-        </meal>
-      </category>
-      <category name="Frühstück">
-        <meal>
-          <name>FRÜHSTÜCKSVARIATIONEN Das kleine Italienische</name>
-          <price role="student">4.50</price>
-        </meal>
-        <meal>
-          <name>Das Süße</name>
-          <price role="student">5.00</price>
-        </meal>
-        <meal>
-          <name>Das Pikante</name>
-          <price role="student">6.80</price>
-        </meal>
-        <meal>
-          <name>Das Gesunde</name>
-          <price role="student">5.60</price>
-        </meal>
-        <meal>
-          <name>Das Vielfältige</name>
-          <price role="student">8.30</price>
-        </meal>
-        <meal>
-          <name>dazu Weich gekochtes BIO-Ei / BIO-Rührei / Ham &amp; BIO-Eggs Croissant gefüllt mit BIO-Rührei A LA CARTE Snacks, Mensa Bowls, Wiener Küche, Burger</name>
-        </meal>
-      </category>
-      <category name="Menü herzhaft">
-        <meal>
-          <name>Zur Wahl: Suppe oder Salat Krautroulade mit Tomatensauce und Salzerdäpfeln (-)</name>
-          <price role="student">8.50</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2024-03-07">
-      <category name="Menü veggie">
-        <meal>
-          <name>Zur Wahl: Suppe oder Salat Cremige Rahmkohlrabi mit Rösterdäpfeln</name>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sojabohnen</note>
-          <note>vegetarisch</note>
-          <price role="student">7.50</price>
-        </meal>
-      </category>
-      <category name="Frühstück">
-        <meal>
-          <name>FRÜHSTÜCKSVARIATIONEN Das kleine Italienische</name>
-          <price role="student">4.50</price>
-        </meal>
-        <meal>
-          <name>Das Süße</name>
-          <price role="student">5.00</price>
-        </meal>
-        <meal>
-          <name>Das Pikante</name>
-          <price role="student">6.80</price>
-        </meal>
-        <meal>
-          <name>Das Gesunde</name>
-          <price role="student">5.60</price>
-        </meal>
-        <meal>
-          <name>Das Vielfältige</name>
-          <price role="student">8.30</price>
-        </meal>
-        <meal>
-          <name>dazu Weich gekochtes BIO-Ei / BIO-Rührei / Ham &amp; BIO-Eggs Croissant gefüllt mit BIO-Rührei A LA CARTE Snacks, Mensa Bowls, Wiener Küche, Burger</name>
-        </meal>
-      </category>
-      <category name="Menü herzhaft">
-        <meal>
-          <name>Zur Wahl: Suppe oder Salat Kalbsragout in Wurzelrahmsauce und Spätzle</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-          <price role="student">8.50</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2024-03-08">
-      <category name="Menü veggie">
-        <meal>
-          <name>Zur Wahl: Suppe oder Salat Gelbes Thai Gemüsecurry mit Jasminreis</name>
-          <note>Gluten</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <note>vegan</note>
-          <price role="student">7.50</price>
-        </meal>
-      </category>
-      <category name="Frühstück">
-        <meal>
-          <name>FRÜHSTÜCKSVARIATIONEN Das kleine Italienische</name>
-          <price role="student">4.50</price>
-        </meal>
-        <meal>
-          <name>Das Süße</name>
-          <price role="student">5.00</price>
-        </meal>
-        <meal>
-          <name>Das Pikante</name>
-          <price role="student">6.80</price>
-        </meal>
-        <meal>
-          <name>Das Gesunde</name>
-          <price role="student">5.60</price>
-        </meal>
-        <meal>
-          <name>Das Vielfältige</name>
-          <price role="student">8.30</price>
-        </meal>
-        <meal>
-          <name>dazu Weich gekochtes BIO-Ei / BIO-Rührei / Ham &amp; BIO-Eggs Croissant gefüllt mit BIO-Rührei A LA CARTE Snacks, Mensa Bowls, Wiener Küche, Burger</name>
-        </meal>
-      </category>
-      <category name="Menü herzhaft">
-        <meal>
-          <name>Zur Wahl: Suppe oder Salat Gebratenes Rotbarschfilet auf mediterranem Gemüserisotto</name>
-          <note>Eier</note>
           <note>MSC</note>
           <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
+          <note>Senf</note>
           <price role="student">8.50</price>
         </meal>
       </category>
