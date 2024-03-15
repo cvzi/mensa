@@ -3,41 +3,6 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2024-03-14">
-      <category name="Essen I Drehkreuz/Ampel">
-        <meal>
-          <name>Hähnchengyros mit Tzatziki, Dönerbrot und Krautsalat</name>
-          <note>Farbstoff</note>
-          <note>Geflügel</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Laktose</note>
-          <note>Schwefeldioxid (&quot;SO2&quot;) und Sulfite</note>
-          <note>Senf</note>
-          <note>Sesam</note>
-          <note>geschwefelt</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
-      </category>
-      <category name="Essen II Drehkreuz/Ampel">
-        <meal>
-          <name>Sojagyros mit Tzatziki, Dönerbrot und Krautsalat</name>
-          <note>Farbstoff</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Laktose</note>
-          <note>Schwefeldioxid (&quot;SO2&quot;) und Sulfite</note>
-          <note>Senf</note>
-          <note>Sesam</note>
-          <note>Soja</note>
-          <note>Vegetarisches Menü</note>
-          <note>geschwefelt</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
-      </category>
-    </day>
     <day date="2024-03-15">
       <category name="Essen I Drehkreuz/Ampel">
         <meal>
@@ -73,7 +38,6 @@
           <name>Zwei kleine Hähnchenbrustfilets mit Honig-Senfsoße, Potato-Wedges und Salat</name>
           <note>Farbstoff</note>
           <note>Geflügel</note>
-          <note>Glutenhaltiges Getreide</note>
           <note>Senf</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
@@ -82,12 +46,13 @@
       </category>
       <category name="Essen II Drehkreuz/Ampel">
         <meal>
-          <name>Falafel mit Joghurt-Kräuter-Dip, Potato-Wedges und Salat</name>
-          <note>Farbstoff</note>
+          <name>Funky Falafel mit Joghurt-Kräuter-Dip, Potato-Wedges und Salat</name>
           <note>Glutenhaltiges Getreide</note>
-          <note>Laktose</note>
-          <note>Sellerie</note>
-          <note>Vegetarisches Menü</note>
+          <note>Phosphat</note>
+          <note>Schalenfrüchte (Nüsse)</note>
+          <note>Senf</note>
+          <note>Soja</note>
+          <note>Veganes Menü</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
           <price role="student">5.55</price>
@@ -128,6 +93,7 @@
           <note>Glutenhaltiges Getreide</note>
           <note>Konservierungsstoff</note>
           <note>Schalenfrüchte (Nüsse)</note>
+          <note>Senf</note>
           <note>Veganes Menü</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
@@ -150,13 +116,11 @@
     <day date="2024-03-21">
       <category name="Essen I Drehkreuz/Ampel">
         <meal>
-          <name>Pappardelle oder Spaghetti mit Wildlachswürfel, Kräuter-Rahmsoße und Salat</name>
+          <name>Pappardelle mit Wildlachswürfel, Kräuter-Rahmsoße und Salat</name>
           <note>Eier und Eierzeugnisse</note>
-          <note>Farbstoff</note>
           <note>Fisch</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Laktose</note>
-          <note>Sellerie</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
           <price role="student">5.55</price>
@@ -164,12 +128,10 @@
       </category>
       <category name="Essen II Drehkreuz/Ampel">
         <meal>
-          <name>Pappardelle oder Spaghetti mit Linsenbolognese, dazu Veganer Käse und Salat</name>
+          <name>Pappardelle mit Linsenbolognese, dazu Veganer Käse und Salat</name>
           <note>Eier und Eierzeugnisse</note>
           <note>Farbstoff</note>
           <note>Glutenhaltiges Getreide</note>
-          <note>Laktose</note>
-          <note>Sellerie</note>
           <note>Vegetarisches Menü</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
@@ -181,9 +143,10 @@
       <category name="Essen I Drehkreuz/Ampel">
         <meal>
           <name>Tortellini mit Rindfleischfüllung, Tomaten-Mozzarellasoße und Salat</name>
-          <note>Farbstoff</note>
+          <note>Eier und Eierzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
           <note>Laktose</note>
-          <note>Sellerie</note>
+          <note>Rind</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
           <price role="student">5.55</price>
@@ -192,7 +155,8 @@
       <category name="Essen II Drehkreuz/Ampel">
         <meal>
           <name>Tortellini mit Käsefüllung, Tomaten-Mozzarellasoße und Salat</name>
-          <note>Farbstoff</note>
+          <note>Eier und Eierzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
           <note>Laktose</note>
           <note>Vegetarisches Menü</note>
           <price role="employee">5.55</price>
