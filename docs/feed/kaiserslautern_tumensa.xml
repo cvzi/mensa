@@ -3,50 +3,6 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2024-04-01">
-      <category name="Essen I Drehkreuz/Ampel">
-        <meal>
-          <name>Ostermontag geschlossen</name>
-          <note>Eier und Eierzeugnisse</note>
-          <note>Farbstoff</note>
-          <note>Geflügel</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Laktose</note>
-          <note>Schwefeldioxid (&quot;SO2&quot;) und Sulfite</note>
-          <note>Sesam</note>
-          <note>Soja</note>
-          <note>Süßungsmittel</note>
-          <note>geschwefelt</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
-      </category>
-      <category name="Freeflow">
-        <meal>
-          <name>Ostermontag geschlossen</name>
-          <note>Antioxidationsmittel</note>
-          <note>Fisch</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Laktose</note>
-          <note>Sellerie</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
-      </category>
-      <category name="Essen II Drehkreuz/Ampel">
-        <meal>
-          <name>Ostermontag geschlossen</name>
-          <note>Senf</note>
-          <note>Soja</note>
-          <note>Veganes Menü im freeflow</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
-      </category>
-    </day>
     <day date="2024-04-02">
       <category name="Freeflow">
         <meal>
@@ -84,6 +40,40 @@
           <price role="student">5.55</price>
         </meal>
       </category>
+      <category name="Warme Theke">
+        <meal>
+          <name>Hummus-Sesam Stulle</name>
+          <note>Antioxidationsmittel</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Sesam</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+        <meal>
+          <name>Pastrami-Walnuss Stulle</name>
+          <note>Antioxidationsmittel</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Laktose</note>
+          <note>Phosphat</note>
+          <note>Rind</note>
+          <note>Schalenfrüchte (Nüsse)</note>
+          <note>Senf</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+      </category>
+      <category name="Suppen/Eintöpfe">
+        <meal>
+          <name>Kartoffel-Gemüse-Eintopf, dazu eine Scheibe Bauernbrot</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Sellerie</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+      </category>
     </day>
     <day date="2024-04-03">
       <category name="Essen II Drehkreuz/Ampel">
@@ -104,7 +94,7 @@
       </category>
       <category name="Freeflow">
         <meal>
-          <name>Hähnchenbrustfilet mit Rahmsoße, Kroketten, dazu einen Beilagensalat nach Wahl</name>
+          <name>Hähnchenbrustfilet mit Rahmsoße, Röstinchen, dazu einen Beilagensalat nach Wahl</name>
           <note>Geflügel</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Laktose</note>
@@ -533,6 +523,8 @@
           <note>Glutenhaltiges Getreide</note>
           <note>HEALTH WEEK Veganes Menü im freeflow</note>
           <note>Sellerie</note>
+          <note>Sesam</note>
+          <note>Soja</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
           <price role="student">5.55</price>
@@ -952,6 +944,69 @@
           <note>Geflügel</note>
           <note>Laktose</note>
           <note>Mensa feelgood im freeflow</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2024-05-02">
+      <category name="Essen Mensa feelgood">
+        <meal>
+          <name>Lachsfilet mit scharfem Curry-Bulgur und Gurkensalat</name>
+          <note>Farbstoff</note>
+          <note>Fisch</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Krebstiere (Krusten- und Schalentiere)</note>
+          <note>Laktose</note>
+          <note>Mensa feelgood im freeflow</note>
+          <note>Senf</note>
+          <note>Sesam</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+      </category>
+      <category name="Freeflow">
+        <meal>
+          <name>Burger mit Brötchen und verschiedenen Zutaten zum selbst belegen, dazu Pommes frites</name>
+          <note>Eier und Eierzeugnisse</note>
+          <note>Farbstoff</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Rind</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <note>Sesam</note>
+          <note>Süßungsmittel</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+      </category>
+      <category name="Essen II Drehkreuz/Ampel">
+        <meal>
+          <name>Gemüsecurry in Erdnuss-Soße, dazu Reis mit Wildreis und Salat</name>
+          <note>Erdnüsse</note>
+          <note>Farbstoff</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Senf</note>
+          <note>Soja</note>
+          <note>Veganes Menü</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+      </category>
+      <category name="Essen I Drehkreuz/Ampel">
+        <meal>
+          <name>Hähnchen-Cordon-bleu mit Truthahnschinken und Käse gefüllt  mit Bratensoße, Kroketten und Salat</name>
+          <note>Farbstoff</note>
+          <note>Geflügel</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Konservierungsstoff</note>
+          <note>Laktose</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
           <price role="student">5.55</price>
