@@ -3,22 +3,47 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2024-04-10">
+    <day date="2024-04-11">
       <category name="Tellergericht">
         <meal>
-          <name>4 Eierkuchen mit Apfelmark</name>
+          <name>Veganer Bauerntopf, Teller</name>
+          <note>geschwefelt</note>
+          <note>jodiertes Salz</note>
+          <price role="employee">2.35</price>
+          <price role="other">3.30</price>
+          <price role="student">1.50</price>
+        </meal>
+        <meal>
+          <name>Veganer Bauerntopf, Terrine</name>
+          <note>geschwefelt</note>
+          <note>jodiertes Salz</note>
+          <price role="employee">3.25</price>
+          <price role="other">4.40</price>
+          <price role="student">2.20</price>
+        </meal>
+        <meal>
+          <name>Kartoffelsalat mit 2 Wiener</name>
           <note>Eier und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
-          <note>Milch/Milchzucker (Laktose)</note>
+          <note>Schweinefleisch</note>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
+          <note>geschwefelt</note>
+          <note>jodiertes Salz</note>
           <note>mit Antioxidationsmittel</note>
-          <price role="employee">3.00</price>
-          <price role="other">4.30</price>
-          <price role="student">1.80</price>
+          <note>mit Farbstoff</note>
+          <note>mit Konservierungsstoff</note>
+          <note>mit Süßungsmittel</note>
+          <price role="employee">3.70</price>
+          <price role="other">5.00</price>
+          <price role="student">2.50</price>
         </meal>
       </category>
-      <category name="Komponente 3">
+      <category name="Komponente 2">
         <meal>
-          <name>Hühnerfrikassee mit Gemüse (9,Gefl,G,A,C,F,I,J)</name>
+          <name>Bolognese</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Schweinefleisch</note>
+          <note>jodiertes Salz</note>
           <price role="employee">3.10</price>
           <price role="other">3.95</price>
           <price role="student">2.25</price>
@@ -26,14 +51,14 @@
       </category>
       <category name="Komponente 5">
         <meal>
-          <name>deftige &quot;Puszta - Pizza&quot;</name>
+          <name>Kartoffel-Rosenkohl-Schinkenauflauf</name>
           <note>Milch/Milchzucker (Laktose)</note>
+          <note>Rindfleisch</note>
           <note>Schweinefleisch</note>
           <note>Senf und daraus hergestellte Erzeugnisse</note>
-          <note>jodiertes Salz</note>
           <note>mit Antioxidationsmittel</note>
+          <note>mit Farbstoff</note>
           <note>mit Konservierungsstoff</note>
-          <note>mit Phosphat</note>
           <price role="employee">3.35</price>
           <price role="other">4.20</price>
           <price role="student">2.50</price>
@@ -41,24 +66,12 @@
       </category>
       <category name="Vegane Komponente 1">
         <meal>
-          <name>Schmorkohl</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
-          <price role="employee">2.35</price>
-          <price role="other">3.20</price>
-          <price role="student">1.50</price>
-        </meal>
-      </category>
-      <category name="Vegetarische Komponente 1">
-        <meal>
-          <name>Spätzlepfanne mit Valess</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Milch/Milchzucker (Laktose)</note>
+          <name>Kichererbsen-Gemüse-Curry</name>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
           <note>jodiertes Salz</note>
-          <price role="employee">3.85</price>
-          <price role="other">4.70</price>
-          <price role="student">3.00</price>
+          <price role="employee">2.85</price>
+          <price role="other">3.70</price>
+          <price role="student">2.00</price>
         </meal>
       </category>
       <category name="Beilagen">
@@ -77,16 +90,19 @@
           <price role="other">1.40</price>
           <price role="student">0.70</price>
         </meal>
-      </category>
-      <category name="Gemüse">
         <meal>
-          <name>Sommergemüse   (Blumenkohl, Brechbohnen, Karottenstäbchen, Markerbsen)</name>
+          <name>Spaghetti</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>jodiertes Salz</note>
           <price role="employee">1.00</price>
           <price role="other">1.40</price>
           <price role="student">0.70</price>
         </meal>
+      </category>
+      <category name="Gemüse">
         <meal>
-          <name>Möhrensalat</name>
+          <name>Karottenscheiben</name>
+          <note>jodiertes Salz</note>
           <price role="employee">1.00</price>
           <price role="other">1.40</price>
           <price role="student">0.70</price>
