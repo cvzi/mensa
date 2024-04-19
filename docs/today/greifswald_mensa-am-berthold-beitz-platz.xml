@@ -45,6 +45,19 @@
           <price role="student">2.20</price>
         </meal>
       </category>
+      <category name="Komponente 2">
+        <meal>
+          <name>Kasselernackenbraten  
+ mit Kasselersoße</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Schweinefleisch</note>
+          <note>mit Antioxidationsmittel</note>
+          <note>mit Konservierungsstoff</note>
+          <price role="employee">2.65</price>
+          <price role="other">3.50</price>
+          <price role="student">1.80</price>
+        </meal>
+      </category>
       <category name="Komponente 3">
         <meal>
           <name>Gebratene Hähnchenkeule (Gefl) 
@@ -64,26 +77,6 @@
           <note>mit Antioxidationsmittel</note>
           <price role="employee">3.35</price>
           <price role="other">4.20</price>
-          <price role="student">2.50</price>
-        </meal>
-      </category>
-      <category name="Vegane Komponente 2">
-        <meal>
-          <name>2 Quinoa-Erbsen-Frikadellen  
- mit mediterraner Tomatensoße</name>
-          <price role="employee">2.65</price>
-          <price role="other">3.50</price>
-          <price role="student">1.80</price>
-        </meal>
-      </category>
-      <category name="Veganes Essen">
-        <meal>
-          <name>2 Ruccola-Süßkartoffel-Schnitten  
- dazu ein warmer Nudelsalat mit Oliven</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>geschwärzt</note>
-          <price role="employee">3.65</price>
-          <price role="other">4.90</price>
           <price role="student">2.50</price>
         </meal>
       </category>
@@ -176,10 +169,19 @@
           <price role="other">1.70</price>
           <price role="student">1.00</price>
         </meal>
+        <meal>
+          <name>Warmer Nudelsalat mit Oliven [vegan]</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>geschwärzt</note>
+          <price role="employee">1.30</price>
+          <price role="other">1.70</price>
+          <price role="student">1.00</price>
+        </meal>
       </category>
       <category name="Gemüse">
         <meal>
           <name>Rotkohl</name>
+          <note>Milch/Milchzucker (Laktose)</note>
           <note>mit Antioxidationsmittel</note>
           <price role="employee">1.00</price>
           <price role="other">1.40</price>
@@ -193,9 +195,12 @@
         </meal>
         <meal>
           <name>Weisskrautsalat</name>
-          <note>jodiertes Salz</note>
-          <note>mit Antioxidationsmittel</note>
-          <note>mit Süßungsmittel</note>
+          <price role="employee">1.00</price>
+          <price role="other">1.40</price>
+          <price role="student">0.70</price>
+        </meal>
+        <meal>
+          <name>Ananassauerkraut</name>
           <price role="employee">1.00</price>
           <price role="other">1.40</price>
           <price role="student">0.70</price>
