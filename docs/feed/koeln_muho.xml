@@ -3,33 +3,10 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2024-04-23">
-      <category name="QUERBEET">
-        <meal>
-          <name>VEGAN: Graupensuppe 1 Beilage</name>
-          <note>Gluten</note>
-          <note>Sellerie</note>
-          <note>Weizen</note>
-          <price role="employee">3.90</price>
-          <price role="other">7.50</price>
-          <price role="student">1.80</price>
-        </meal>
-      </category>
-      <category name="WORLDWIDE">
-        <meal>
-          <name>White Chicken Chili Koriander-Limetten-Reis,  Salat,  Dessert</name>
-          <note>Laktose</note>
-          <note>Milch</note>
-          <price role="employee">5.50</price>
-          <price role="other">14.80</price>
-          <price role="student">3.25</price>
-        </meal>
-      </category>
-    </day>
     <day date="2024-04-24">
       <category name="HEIMSPIEL">
         <meal>
-          <name>Frische Bratwurst Senf,  Möhrengemüse Bürgerlich,  Salat,  Dessert</name>
+          <name>Frische Bratwurst Pommery-Senfsauce,  3 Beilagen</name>
           <note>Senf</note>
           <price role="employee">5.50</price>
           <price role="other">14.80</price>
@@ -38,20 +15,44 @@
       </category>
       <category name="QUERBEET">
         <meal>
-          <name>VEGAN: Bunte Zucchinicremesuppe Kaiserbrötchen</name>
-          <note>Gluten</note>
+          <name>VEGAN: Bunte Zucchinicremesuppe 1 Beilage</name>
           <note>Soja</note>
           <price role="employee">3.90</price>
           <price role="other">7.50</price>
           <price role="student">1.80</price>
         </meal>
         <meal>
-          <name>VEGAN: Penne Rigate Ratatouillegemüse,  Salat,  Dessert</name>
+          <name>VEGAN: Pasta Ratatouillegemüse,  2 Beilagen</name>
           <note>Gluten</note>
           <note>Weizen</note>
           <price role="employee">5.00</price>
           <price role="other">11.85</price>
           <price role="student">2.60</price>
+        </meal>
+      </category>
+      <category name="MEISTERWERK">
+        <meal>
+          <name>VEGAN: Massaman Curry Reis,  Pad Thai Salat</name>
+          <note>Erdnüsse</note>
+          <note>Gluten</note>
+          <note>Hafer</note>
+          <note>Soja</note>
+          <note>Weizen</note>
+          <price role="employee">7.00</price>
+          <price role="other">21.30</price>
+          <price role="student">4.70</price>
+        </meal>
+        <meal>
+          <name>Miso Ramen Sesam Pudding</name>
+          <note>Gluten</note>
+          <note>Laktose</note>
+          <note>Milch</note>
+          <note>Sesamsamen</note>
+          <note>Soja</note>
+          <note>Weizen</note>
+          <price role="employee">4.60</price>
+          <price role="other">14.40</price>
+          <price role="student">3.20</price>
         </meal>
       </category>
     </day>
@@ -71,6 +72,19 @@
           <price role="employee">5.50</price>
           <price role="other">14.80</price>
           <price role="student">3.25</price>
+        </meal>
+      </category>
+      <category name="MEISTERWERK">
+        <meal>
+          <name>VEGAN: Bulgogi Duftreis,  Chim Chim</name>
+          <note>Gluten</note>
+          <note>Hafer</note>
+          <note>Sesamsamen</note>
+          <note>Soja</note>
+          <note>Weizen</note>
+          <price role="employee">7.35</price>
+          <price role="other">19.15</price>
+          <price role="student">4.20</price>
         </meal>
       </category>
     </day>
@@ -144,12 +158,6 @@
     <day date="2024-04-30">
       <category name="QUERBEET">
         <meal>
-          <name>VEGAN: Marokkanischer Kichererbseneintopf 1 Beilage</name>
-          <price role="employee">3.90</price>
-          <price role="other">7.50</price>
-          <price role="student">1.80</price>
-        </meal>
-        <meal>
           <name>VEGAN: Schnitzel Pilzrahmsauce,  3 Beilagen</name>
           <note>Gluten</note>
           <note>Soja</note>
@@ -157,6 +165,12 @@
           <price role="employee">5.50</price>
           <price role="other">14.80</price>
           <price role="student">3.25</price>
+        </meal>
+        <meal>
+          <name>VEGAN: Marokkanischer Kichererbseneintopf 1 Beilage</name>
+          <price role="employee">3.90</price>
+          <price role="other">7.50</price>
+          <price role="student">1.80</price>
         </meal>
       </category>
       <category name="WORLDWIDE">
@@ -219,18 +233,18 @@
       </category>
       <category name="QUERBEET">
         <meal>
-          <name>VEGETARISCH: Kokos-Süßkartoffelsuppe 1 Beilage</name>
-          <price role="employee">3.90</price>
-          <price role="other">7.50</price>
-          <price role="student">1.80</price>
-        </meal>
-        <meal>
           <name>VEGAN: BackVisch Kräutermayonnaise,  2 Beilagen</name>
           <note>Gluten</note>
           <note>Weizen</note>
           <price role="employee">6.10</price>
           <price role="other">16.95</price>
           <price role="student">3.75</price>
+        </meal>
+        <meal>
+          <name>VEGETARISCH: Kokos-Süßkartoffelsuppe 1 Beilage</name>
+          <price role="employee">3.90</price>
+          <price role="other">7.50</price>
+          <price role="student">1.80</price>
         </meal>
       </category>
     </day>
