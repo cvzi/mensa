@@ -3,124 +3,363 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2024-05-01">
+    <day date="2024-05-06">
       <category name="Menü Veggie">
+        <meal>
+          <name>Champignons á la Creme (*) mit hausgemachten Serviettenknödel und einem Beilagensalat</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sojabohnen</note>
+          <price role="student">6.20</price>
+        </meal>
+      </category>
+      <category name="Wochen-Angebote">
+        <meal>
+          <name>Cordon Bleu vom Schwein mit Petersilerdäpfel und Ketchup</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <price role="student">9.50</price>
+        </meal>
+        <meal>
+          <name>Grillteller (Pute,Schwein,Rind) mit Kräuterbutter, Pommes frites und Dip</name>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Senf</note>
+          <price role="student">13.50</price>
+        </meal>
+        <meal>
+          <name>Penne mit Sauce Carbonara / frischer Parmesan</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sojabohnen</note>
+          <price role="student">6.60</price>
+        </meal>
+        <meal>
+          <name>mit Linsenbolognese / Rucola</name>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>vegan</note>
+          <price role="student">5.60</price>
+        </meal>
+        <meal>
+          <name>&quot;Chef Salat&quot; mit Schinken - Käsestreifen</name>
+          <note>Eier</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
+          <price role="student">6.70</price>
+        </meal>
+        <meal>
+          <name>KLIMATELLER: Di: Krautfleckerl / Kräuterjoghurt Dip</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Klimateller</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sojabohnen</note>
+          <price role="student">5.90</price>
+        </meal>
+        <meal>
+          <name>(*) = der AAU-Teller zu</name>
+          <price role="student">5.20</price>
+        </meal>
+        <meal>
+          <name>ohne Suppe und Salat UNSERE ÖFFNUNGSZEITEN : Montag - Donnerstag: 11:00 - 14:30 Uhr Freitag 11:00 - 14:00 Uhr Gerne auch für Abholungen :-)</name>
+        </meal>
+      </category>
+      <category name="Menü Herzhaft">
+        <meal>
+          <name>Klare Gemüsesuppe mit Grießnockerl Italienisches Schweinsragout mit cremiger Polenta</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <note>Sojabohnen</note>
+          <price role="student">7.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2024-05-07">
+      <category name="Menü Veggie">
+        <meal>
+          <name>Kräutercremesuppe Erdäpfelauflauf mit Karotten und Bärlauch (*) auf Tomatenragout</name>
+          <note>Eier</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sojabohnen</note>
+          <price role="student">6.20</price>
+        </meal>
+      </category>
+      <category name="Wochen-Angebote">
+        <meal>
+          <name>Cordon Bleu vom Schwein mit Petersilerdäpfel und Ketchup</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <price role="student">9.50</price>
+        </meal>
+        <meal>
+          <name>Grillteller (Pute,Schwein,Rind) mit Kräuterbutter, Pommes frites und Dip</name>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Senf</note>
+          <price role="student">13.50</price>
+        </meal>
+        <meal>
+          <name>Penne mit Sauce Carbonara / frischer Parmesan</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sojabohnen</note>
+          <price role="student">6.60</price>
+        </meal>
+        <meal>
+          <name>mit Linsenbolognese / Rucola</name>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>vegan</note>
+          <price role="student">5.60</price>
+        </meal>
+        <meal>
+          <name>&quot;Chef Salat&quot; mit Schinken - Käsestreifen</name>
+          <note>Eier</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
+          <price role="student">6.70</price>
+        </meal>
+        <meal>
+          <name>KLIMATELLER: Di: Krautfleckerl / Kräuterjoghurt Dip</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Klimateller</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sojabohnen</note>
+          <price role="student">5.90</price>
+        </meal>
+        <meal>
+          <name>(*) = der AAU-Teller zu</name>
+          <price role="student">5.20</price>
+        </meal>
+        <meal>
+          <name>ohne Suppe und Salat UNSERE ÖFFNUNGSZEITEN : Montag - Donnerstag: 11:00 - 14:30 Uhr Freitag 11:00 - 14:00 Uhr Gerne auch für Abholungen :-)</name>
+        </meal>
+      </category>
+      <category name="Menü Herzhaft">
+        <meal>
+          <name>Hühnerwürfel in Kräuternrahm mit gedämpftem Langkornreis und einen Beilagensalat</name>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sojabohnen</note>
+          <price role="student">7.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2024-05-08">
+      <category name="Menü Veggie">
+        <meal>
+          <name>Spinatgnocchi (*) in Käsesauce mit Kräutern und Tomatenwürfel Rucola - Topping und einen Beilagensalat</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sojabohnen</note>
+          <price role="student">6.20</price>
+        </meal>
+      </category>
+      <category name="Wochen-Angebote">
+        <meal>
+          <name>Cordon Bleu vom Schwein mit Petersilerdäpfel und Ketchup</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <price role="student">9.50</price>
+        </meal>
+        <meal>
+          <name>Grillteller (Pute,Schwein,Rind) mit Kräuterbutter, Pommes frites und Dip</name>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Senf</note>
+          <price role="student">13.50</price>
+        </meal>
+        <meal>
+          <name>Penne mit Sauce Carbonara / frischer Parmesan</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sojabohnen</note>
+          <price role="student">6.60</price>
+        </meal>
+        <meal>
+          <name>mit Linsenbolognese / Rucola</name>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>vegan</note>
+          <price role="student">5.60</price>
+        </meal>
+        <meal>
+          <name>&quot;Chef Salat&quot; mit Schinken - Käsestreifen</name>
+          <note>Eier</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
+          <price role="student">6.70</price>
+        </meal>
+        <meal>
+          <name>KLIMATELLER: Di: Krautfleckerl / Kräuterjoghurt Dip</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Klimateller</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sojabohnen</note>
+          <price role="student">5.90</price>
+        </meal>
+        <meal>
+          <name>(*) = der AAU-Teller zu</name>
+          <price role="student">5.20</price>
+        </meal>
+        <meal>
+          <name>ohne Suppe und Salat UNSERE ÖFFNUNGSZEITEN : Montag - Donnerstag: 11:00 - 14:30 Uhr Freitag 11:00 - 14:00 Uhr Gerne auch für Abholungen :-)</name>
+        </meal>
+      </category>
+      <category name="Menü Herzhaft">
+        <meal>
+          <name>Gemüsecremesuppe Pikantes Bauerngröstl mit Kartoffel, Zwiebel und Mayoran</name>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <note>Sojabohnen</note>
+          <price role="student">7.20</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2024-05-09">
+      <category name="Menü Veggie">
+        <meal>
+          <name>Wir wünschen einen schönen Feiertag !!!</name>
+        </meal>
+      </category>
+      <category name="Wochen-Angebote">
+        <meal>
+          <name>Cordon Bleu vom Schwein mit Petersilerdäpfel und Ketchup</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <price role="student">9.50</price>
+        </meal>
+        <meal>
+          <name>Grillteller (Pute,Schwein,Rind) mit Kräuterbutter, Pommes frites und Dip</name>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Senf</note>
+          <price role="student">13.50</price>
+        </meal>
+        <meal>
+          <name>Penne mit Sauce Carbonara / frischer Parmesan</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sojabohnen</note>
+          <price role="student">6.60</price>
+        </meal>
+        <meal>
+          <name>mit Linsenbolognese / Rucola</name>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>vegan</note>
+          <price role="student">5.60</price>
+        </meal>
+        <meal>
+          <name>&quot;Chef Salat&quot; mit Schinken - Käsestreifen</name>
+          <note>Eier</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
+          <price role="student">6.70</price>
+        </meal>
+        <meal>
+          <name>KLIMATELLER: Di: Krautfleckerl / Kräuterjoghurt Dip</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Klimateller</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sojabohnen</note>
+          <price role="student">5.90</price>
+        </meal>
+        <meal>
+          <name>(*) = der AAU-Teller zu</name>
+          <price role="student">5.20</price>
+        </meal>
+        <meal>
+          <name>ohne Suppe und Salat UNSERE ÖFFNUNGSZEITEN : Montag - Donnerstag: 11:00 - 14:30 Uhr Freitag 11:00 - 14:00 Uhr Gerne auch für Abholungen :-)</name>
+        </meal>
+      </category>
+      <category name="Menü Herzhaft">
         <meal>
           <name>Wir wünschen einen schönen Feiertag !!</name>
         </meal>
       </category>
-      <category name="Wochen-Angebote">
-        <meal>
-          <name>Gebackenes Hühnerschnitzel mit Erbsenreis und Ketchup</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <price role="student">8.90</price>
-        </meal>
-        <meal>
-          <name>Berner Würstel mit Pommes frites und Ketchup</name>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <price role="student">8.90</price>
-        </meal>
-        <meal>
-          <name>Texanischer Bohnen - Eintopf mit Basmatireis und Rucola - Topping</name>
-          <note>Sellerie</note>
-          <note>vegan</note>
-          <price role="student">5.60</price>
-        </meal>
-        <meal>
-          <name>Cremiger Thunfischsalat fein garniert</name>
-          <note>Eier</note>
-          <note>Fisch</note>
-          <note>Milch</note>
-          <note>Senf</note>
-          <note>Sojabohnen</note>
-          <price role="student">6.70</price>
-        </meal>
-        <meal>
-          <name>KLIMATELLER: Di: Gemüsegulasch / Kaisersemmel</name>
-          <note>Gluten</note>
-          <note>Klimateller</note>
-          <note>Sellerie</note>
-          <note>vegan</note>
-          <price role="student">5.90</price>
-        </meal>
-        <meal>
-          <name>Do: Quinoa Gemüsepfanne / Rucola</name>
-          <note>Klimateller</note>
-          <note>Sellerie</note>
-          <note>vegan</note>
-          <price role="student">5.90</price>
-        </meal>
-        <meal>
-          <name>(*) = der AAU-Teller zu</name>
-          <price role="student">5.20</price>
-        </meal>
-        <meal>
-          <name>ohne Suppe und Salat UNSERE ÖFFNUNGSZEITEN: Mo - Do: 11:00 - 14:30 Uhr, Fr: 11:00 - 14:00 Uhr Gerne auch für Abholungen :-)</name>
-        </meal>
-      </category>
-      <category name="Menü Herzhaft">
-        <meal>
-          <name>Wir wünschen einen schönen Feiertag !!</name>
-        </meal>
-      </category>
     </day>
-    <day date="2024-05-02">
+    <day date="2024-05-10">
       <category name="Menü Veggie">
         <meal>
-          <name>Farfalle mit Bärlauchpesto (*) geschmorten Cherrytomaten, Rucola - Topping und einen Beilagensalat</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schalenfrüchte</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <price role="student">6.20</price>
+          <name>Betrieb geschlossen !!</name>
         </meal>
       </category>
       <category name="Wochen-Angebote">
         <meal>
-          <name>Gebackenes Hühnerschnitzel mit Erbsenreis und Ketchup</name>
+          <name>Cordon Bleu vom Schwein mit Petersilerdäpfel und Ketchup</name>
           <note>Eier</note>
           <note>Gluten</note>
           <note>Milch</note>
-          <price role="student">8.90</price>
+          <price role="student">9.50</price>
         </meal>
         <meal>
-          <name>Berner Würstel mit Pommes frites und Ketchup</name>
+          <name>Grillteller (Pute,Schwein,Rind) mit Kräuterbutter, Pommes frites und Dip</name>
           <note>Gluten</note>
           <note>Milch</note>
-          <price role="student">8.90</price>
+          <note>Senf</note>
+          <price role="student">13.50</price>
         </meal>
         <meal>
-          <name>Texanischer Bohnen - Eintopf mit Basmatireis und Rucola - Topping</name>
+          <name>Penne mit Sauce Carbonara / frischer Parmesan</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sojabohnen</note>
+          <price role="student">6.60</price>
+        </meal>
+        <meal>
+          <name>mit Linsenbolognese / Rucola</name>
+          <note>Gluten</note>
           <note>Sellerie</note>
           <note>vegan</note>
           <price role="student">5.60</price>
         </meal>
         <meal>
-          <name>Cremiger Thunfischsalat fein garniert</name>
+          <name>&quot;Chef Salat&quot; mit Schinken - Käsestreifen</name>
           <note>Eier</note>
-          <note>Fisch</note>
           <note>Milch</note>
-          <note>Senf</note>
-          <note>Sojabohnen</note>
+          <note>Sellerie</note>
           <price role="student">6.70</price>
         </meal>
         <meal>
-          <name>KLIMATELLER: Di: Gemüsegulasch / Kaisersemmel</name>
+          <name>KLIMATELLER: Di: Krautfleckerl / Kräuterjoghurt Dip</name>
+          <note>Eier</note>
           <note>Gluten</note>
           <note>Klimateller</note>
-          <note>Sellerie</note>
-          <note>vegan</note>
-          <price role="student">5.90</price>
-        </meal>
-        <meal>
-          <name>Do: Quinoa Gemüsepfanne / Rucola</name>
-          <note>Klimateller</note>
-          <note>Sellerie</note>
-          <note>vegan</note>
+          <note>Milch</note>
+          <note>Schwefeldioxid/Sulfite</note>
+          <note>Sojabohnen</note>
           <price role="student">5.90</price>
         </meal>
         <meal>
@@ -128,243 +367,12 @@
           <price role="student">5.20</price>
         </meal>
         <meal>
-          <name>ohne Suppe und Salat UNSERE ÖFFNUNGSZEITEN: Mo - Do: 11:00 - 14:30 Uhr, Fr: 11:00 - 14:00 Uhr Gerne auch für Abholungen :-)</name>
+          <name>ohne Suppe und Salat UNSERE ÖFFNUNGSZEITEN : Montag - Donnerstag: 11:00 - 14:30 Uhr Freitag 11:00 - 14:00 Uhr Gerne auch für Abholungen :-)</name>
         </meal>
       </category>
       <category name="Menü Herzhaft">
         <meal>
-          <name>Klare Gemüsesuppe mit Reibteig Schweineragout in Wurzelrahmsauce mit Spätzle</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-          <price role="student">7.20</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2024-05-03">
-      <category name="Menü Veggie">
-        <meal>
-          <name>Karotten - Selleriecremesuppe Rösti Ratatouille (*) mit mariniertem Salatbouquet</name>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <price role="student">6.20</price>
-        </meal>
-      </category>
-      <category name="Wochen-Angebote">
-        <meal>
-          <name>Gebackenes Hühnerschnitzel mit Erbsenreis und Ketchup</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <price role="student">8.90</price>
-        </meal>
-        <meal>
-          <name>Berner Würstel mit Pommes frites und Ketchup</name>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <price role="student">8.90</price>
-        </meal>
-        <meal>
-          <name>Texanischer Bohnen - Eintopf mit Basmatireis und Rucola - Topping</name>
-          <note>Sellerie</note>
-          <note>vegan</note>
-          <price role="student">5.60</price>
-        </meal>
-        <meal>
-          <name>Cremiger Thunfischsalat fein garniert</name>
-          <note>Eier</note>
-          <note>Fisch</note>
-          <note>Milch</note>
-          <note>Senf</note>
-          <note>Sojabohnen</note>
-          <price role="student">6.70</price>
-        </meal>
-        <meal>
-          <name>KLIMATELLER: Di: Gemüsegulasch / Kaisersemmel</name>
-          <note>Gluten</note>
-          <note>Klimateller</note>
-          <note>Sellerie</note>
-          <note>vegan</note>
-          <price role="student">5.90</price>
-        </meal>
-        <meal>
-          <name>Do: Quinoa Gemüsepfanne / Rucola</name>
-          <note>Klimateller</note>
-          <note>Sellerie</note>
-          <note>vegan</note>
-          <price role="student">5.90</price>
-        </meal>
-        <meal>
-          <name>(*) = der AAU-Teller zu</name>
-          <price role="student">5.20</price>
-        </meal>
-        <meal>
-          <name>ohne Suppe und Salat UNSERE ÖFFNUNGSZEITEN: Mo - Do: 11:00 - 14:30 Uhr, Fr: 11:00 - 14:00 Uhr Gerne auch für Abholungen :-)</name>
-        </meal>
-      </category>
-      <category name="Menü Herzhaft">
-        <meal>
-          <name>Alaska Seelachs in der Knusperpanade mit Gemüsereis und Sauce Tartare dazu ein Beilagensalat</name>
-          <note>Eier</note>
-          <note>Fisch</note>
-          <note>Gluten</note>
-          <note>MSC</note>
-          <note>Milch</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <price role="student">7.20</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2025-04-29">
-      <category name="Menü Veggie">
-        <meal>
-          <name>Karfiol-Erdäpfelcurry (*) mit gekochter BIO Hirse dazu ein Beilagensalat</name>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sellerie</note>
-          <note>vegan</note>
-          <price role="student">6.20</price>
-        </meal>
-      </category>
-      <category name="Wochen-Angebote">
-        <meal>
-          <name>Gebackenes Hühnerschnitzel mit Erbsenreis und Ketchup</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <price role="student">8.90</price>
-        </meal>
-        <meal>
-          <name>Berner Würstel mit Pommes frites und Ketchup</name>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <price role="student">8.90</price>
-        </meal>
-        <meal>
-          <name>Texanischer Bohnen - Eintopf mit Basmatireis und Rucola - Topping</name>
-          <note>Sellerie</note>
-          <note>vegan</note>
-          <price role="student">5.60</price>
-        </meal>
-        <meal>
-          <name>Cremiger Thunfischsalat fein garniert</name>
-          <note>Eier</note>
-          <note>Fisch</note>
-          <note>Milch</note>
-          <note>Senf</note>
-          <note>Sojabohnen</note>
-          <price role="student">6.70</price>
-        </meal>
-        <meal>
-          <name>KLIMATELLER: Di: Gemüsegulasch / Kaisersemmel</name>
-          <note>Gluten</note>
-          <note>Klimateller</note>
-          <note>Sellerie</note>
-          <note>vegan</note>
-          <price role="student">5.90</price>
-        </meal>
-        <meal>
-          <name>Do: Quinoa Gemüsepfanne / Rucola</name>
-          <note>Klimateller</note>
-          <note>Sellerie</note>
-          <note>vegan</note>
-          <price role="student">5.90</price>
-        </meal>
-        <meal>
-          <name>(*) = der AAU-Teller zu</name>
-          <price role="student">5.20</price>
-        </meal>
-        <meal>
-          <name>ohne Suppe und Salat UNSERE ÖFFNUNGSZEITEN: Mo - Do: 11:00 - 14:30 Uhr, Fr: 11:00 - 14:00 Uhr Gerne auch für Abholungen :-)</name>
-        </meal>
-      </category>
-      <category name="Menü Herzhaft">
-        <meal>
-          <name>Klare Gemüsesuppe mit Frittaten Pariser Schnitzel vom Schwein mit Petersilerdäpfel und Zitrone</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Sellerie</note>
-          <price role="student">7.20</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2025-04-30">
-      <category name="Menü Veggie">
-        <meal>
-          <name>Erdäpfel - Lauchcremesuppe Vegetarischer Osttiroler Grenadiermarsch (*) mit Bärlauch Dip</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <note>Sellerie</note>
-          <note>Sojabohnen</note>
-          <price role="student">6.20</price>
-        </meal>
-      </category>
-      <category name="Wochen-Angebote">
-        <meal>
-          <name>Gebackenes Hühnerschnitzel mit Erbsenreis und Ketchup</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <price role="student">8.90</price>
-        </meal>
-        <meal>
-          <name>Berner Würstel mit Pommes frites und Ketchup</name>
-          <note>Gluten</note>
-          <note>Milch</note>
-          <price role="student">8.90</price>
-        </meal>
-        <meal>
-          <name>Texanischer Bohnen - Eintopf mit Basmatireis und Rucola - Topping</name>
-          <note>Sellerie</note>
-          <note>vegan</note>
-          <price role="student">5.60</price>
-        </meal>
-        <meal>
-          <name>Cremiger Thunfischsalat fein garniert</name>
-          <note>Eier</note>
-          <note>Fisch</note>
-          <note>Milch</note>
-          <note>Senf</note>
-          <note>Sojabohnen</note>
-          <price role="student">6.70</price>
-        </meal>
-        <meal>
-          <name>KLIMATELLER: Di: Gemüsegulasch / Kaisersemmel</name>
-          <note>Gluten</note>
-          <note>Klimateller</note>
-          <note>Sellerie</note>
-          <note>vegan</note>
-          <price role="student">5.90</price>
-        </meal>
-        <meal>
-          <name>Do: Quinoa Gemüsepfanne / Rucola</name>
-          <note>Klimateller</note>
-          <note>Sellerie</note>
-          <note>vegan</note>
-          <price role="student">5.90</price>
-        </meal>
-        <meal>
-          <name>(*) = der AAU-Teller zu</name>
-          <price role="student">5.20</price>
-        </meal>
-        <meal>
-          <name>ohne Suppe und Salat UNSERE ÖFFNUNGSZEITEN: Mo - Do: 11:00 - 14:30 Uhr, Fr: 11:00 - 14:00 Uhr Gerne auch für Abholungen :-)</name>
-        </meal>
-      </category>
-      <category name="Menü Herzhaft">
-        <meal>
-          <name>Rinderstreifen in Paprikarahmsauce mit gedämpftem Langkornreis dazu ein Beilagensalat</name>
-          <note>Gluten</note>
-          <note>Schwefeldioxid/Sulfite</note>
-          <note>Sojabohnen</note>
-          <price role="student">7.20</price>
+          <name>Betrieb geschlossen !!</name>
         </meal>
       </category>
     </day>
