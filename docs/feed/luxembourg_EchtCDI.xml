@@ -3,65 +3,37 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2024-04-29">
-      <closed/>
-    </day>
-    <day date="2024-04-30">
-      <closed/>
-    </day>
-    <day date="2024-05-01">
-      <closed/>
-    </day>
-    <day date="2024-05-02">
-      <closed/>
-    </day>
-    <day date="2024-05-03">
+    <day date="2024-05-06">
       <category name="Entrée">
         <meal>
-          <name>Crème de pommes de terre à l'émincé de poireaux</name>
-          <note>Céleri et produits à base de céleri</note>
+          <name>Galettes de légumes végétales, crème aigre au persil</name>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
         <meal>
-          <name>Quenelles de fromage blanc aux herbes sur tartare de légumes</name>
-          <note>Céleri et produits à base de céleri</note>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
+          <name>Potage au céleri rave</name>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Végétarien">
         <meal>
-          <name>Gnocchis de pommes de terre, mozzarella et tomates rôties au gratin</name>
-          <note>Céleri et produits à base de céleri</note>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <name>Fajitas façon chili végétal aux haricots rouges, dip crème épaisse aux herbes</name>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Non-végétarien">
         <meal>
-          <name>Paschtéit</name>
-          <note>Bouchée à la Reine</note>
-          <note>Céleri et produits à base de céleri</note>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
+          <name>Salsiccia e friarielli</name>
+          <note>Saucisse italienne, brocolis-rave</note>
           <note>non-végétarien</note>
           <note>produit constant</note>
         </meal>
       </category>
       <category name="Dessert">
         <meal>
-          <name>Kéistaart</name>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
-          <note>Tarte au fromage blanc</note>
+          <name>Mousse aux abricots rôtis</name>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
@@ -71,6 +43,12 @@
           <name>Banane BIO &quot;commerce équitable&quot;</name>
           <note>biologique</note>
           <note>produit Transfair</note>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="10.2 Boissons froides - Jus">
+        <meal>
+          <name>Jus de raisin 0,25 l btl</name>
           <note>produit constant</note>
         </meal>
       </category>
@@ -85,71 +63,11 @@
         </meal>
       </category>
     </day>
-    <day date="2024-05-04">
-      <closed/>
-    </day>
-    <day date="2024-05-05">
-      <closed/>
-    </day>
-    <day date="2024-05-06">
-      <category name="Entrée (07:00 - 15:00)">
-        <meal>
-          <name>Galettes de légumes végétales, crème aigre au persil</name>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-        <meal>
-          <name>Potage au céleri rave</name>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="Végétarien (07:00 - 15:00)">
-        <meal>
-          <name>Fajitas façon chili végétal aux haricots rouges, dip crème épaisse aux herbes</name>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="Non-végétarien (07:00 - 15:00)">
-        <meal>
-          <name>Salsiccia e friarielli</name>
-          <note>Saucisse italienne, brocolis-rave</note>
-          <note>non-végétarien</note>
-          <note>produit constant</note>
-        </meal>
-      </category>
-      <category name="Dessert (07:00 - 15:00)">
-        <meal>
-          <name>Mousse aux abricots rôtis</name>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="06. Fruits (07:00 - 15:00)">
-        <meal>
-          <name>Banane BIO &quot;commerce équitable&quot;</name>
-          <note>biologique</note>
-          <note>produit Transfair</note>
-          <note>produit constant</note>
-        </meal>
-      </category>
-      <category name="16. Actions thématiques (07:00 - 15:00)">
-        <meal>
-          <name>Plats « Antigaspi To-Go »</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Produits constants « Antigaspi To-Go »</name>
-          <note>produit constant</note>
-        </meal>
-      </category>
-    </day>
     <day date="2024-05-07">
       <closed/>
     </day>
     <day date="2024-05-08">
-      <category name="Entrée (07:00 - 15:00)">
+      <category name="Entrée">
         <meal>
           <name>Muertenzopp</name>
           <note>Céleri et produits à base de céleri</note>
@@ -166,7 +84,7 @@
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Végétarien (07:00 - 15:00)">
+      <category name="Végétarien">
         <meal>
           <name>Coquillettes all'arrabiata</name>
           <note>Céleri et produits à base de céleri</note>
@@ -183,7 +101,7 @@
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Dessert (07:00 - 15:00)">
+      <category name="Dessert">
         <meal>
           <name>Tarte aux fruits, chantilly</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
@@ -193,7 +111,7 @@
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="06. Fruits (07:00 - 15:00)">
+      <category name="06. Fruits">
         <meal>
           <name>Banane BIO &quot;commerce équitable&quot;</name>
           <note>biologique</note>
@@ -201,7 +119,13 @@
           <note>produit constant</note>
         </meal>
       </category>
-      <category name="16. Actions thématiques (07:00 - 15:00)">
+      <category name="10.2 Boissons froides - Jus">
+        <meal>
+          <name>Jus de raisin 0,25 l btl</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="16. Actions thématiques">
         <meal>
           <name>Plats « Antigaspi To-Go »</name>
           <note>produit constant</note>
@@ -216,7 +140,7 @@
       <closed/>
     </day>
     <day date="2024-05-10">
-      <category name="Entrée (07:00 - 15:00)">
+      <category name="Entrée">
         <meal>
           <name>Cocktail aux légumes marinés, concassé de tomates</name>
           <note>Céleri et produits à base de céleri</note>
@@ -232,7 +156,7 @@
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Végétarien (07:00 - 15:00)">
+      <category name="Végétarien">
         <meal>
           <name>Tofu steak aux flocons d'avoine, pommes de terre et tomates rôties</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Avoine)</note>
@@ -241,7 +165,7 @@
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Non-végétarien (07:00 - 15:00)">
+      <category name="Non-végétarien">
         <meal>
           <name>Escalope de porc à la viennoise, quartier de citron</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
@@ -250,7 +174,7 @@
           <note>produit constant</note>
         </meal>
       </category>
-      <category name="Dessert (07:00 - 15:00)">
+      <category name="Dessert">
         <meal>
           <name>Gâteau coulant au chocolat</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
@@ -262,7 +186,7 @@
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="06. Fruits (07:00 - 15:00)">
+      <category name="06. Fruits">
         <meal>
           <name>Banane BIO &quot;commerce équitable&quot;</name>
           <note>biologique</note>
@@ -270,7 +194,13 @@
           <note>produit constant</note>
         </meal>
       </category>
-      <category name="16. Actions thématiques (07:00 - 15:00)">
+      <category name="10.2 Boissons froides - Jus">
+        <meal>
+          <name>Jus de raisin 0,25 l btl</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="16. Actions thématiques">
         <meal>
           <name>Plats « Antigaspi To-Go »</name>
           <note>produit constant</note>
@@ -327,6 +257,12 @@
           <name>Banane BIO &quot;commerce équitable&quot;</name>
           <note>biologique</note>
           <note>produit Transfair</note>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="10.2 Boissons froides - Jus (07:00 - 15:00)">
+        <meal>
+          <name>Jus de raisin 0,25 l btl</name>
           <note>produit constant</note>
         </meal>
       </category>
@@ -388,6 +324,12 @@
           <note>produit constant</note>
         </meal>
       </category>
+      <category name="10.2 Boissons froides - Jus (07:00 - 15:00)">
+        <meal>
+          <name>Jus de raisin 0,25 l btl</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
       <category name="16. Actions thématiques (07:00 - 15:00)">
         <meal>
           <name>Plats « Antigaspi To-Go »</name>
@@ -443,6 +385,12 @@
           <name>Banane BIO &quot;commerce équitable&quot;</name>
           <note>biologique</note>
           <note>produit Transfair</note>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="10.2 Boissons froides - Jus (07:00 - 15:00)">
+        <meal>
+          <name>Jus de raisin 0,25 l btl</name>
           <note>produit constant</note>
         </meal>
       </category>
@@ -512,6 +460,12 @@
           <note>produit constant</note>
         </meal>
       </category>
+      <category name="10.2 Boissons froides - Jus (07:00 - 15:00)">
+        <meal>
+          <name>Jus de raisin 0,25 l btl</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
       <category name="16. Actions thématiques (07:00 - 15:00)">
         <meal>
           <name>Plats « Antigaspi To-Go »</name>
@@ -569,6 +523,12 @@
           <note>produit constant</note>
         </meal>
       </category>
+      <category name="10.2 Boissons froides - Jus (07:00 - 15:00)">
+        <meal>
+          <name>Jus de raisin 0,25 l btl</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
       <category name="16. Actions thématiques (07:00 - 15:00)">
         <meal>
           <name>Plats « Antigaspi To-Go »</name>
@@ -586,9 +546,198 @@
     <day date="2024-05-26">
       <closed/>
     </day>
+    <day date="2024-05-27">
+      <category name="Entrée (07:00 - 15:00)">
+        <meal>
+          <name>Geméis Bouillon mat  Deegwueren</name>
+          <note>Bouillon de légumes avec pâtes</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Tomate mozzarella et son pesto maison</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Végétarien (07:00 - 15:00)">
+        <meal>
+          <name>Ravioli ricotta et épinards, sauce crème persillée</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Non-végétarien (07:00 - 15:00)">
+        <meal>
+          <name>Jeune bovin à la zurichoise</name>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="Dessert (07:00 - 15:00)">
+        <meal>
+          <name>Mousse au fromage blanc et coulis de fruits</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="06. Fruits (07:00 - 15:00)">
+        <meal>
+          <name>Banane BIO &quot;commerce équitable&quot;</name>
+          <note>biologique</note>
+          <note>produit Transfair</note>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="10.2 Boissons froides - Jus (07:00 - 15:00)">
+        <meal>
+          <name>Jus de raisin 0,25 l btl</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="16. Actions thématiques (07:00 - 15:00)">
+        <meal>
+          <name>Plats « Antigaspi To-Go »</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Produits constants « Antigaspi To-Go »</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+    </day>
+    <day date="2024-05-28">
+      <closed/>
+    </day>
+    <day date="2024-05-29">
+      <category name="Entrée (07:00 - 15:00)">
+        <meal>
+          <name>Minestrone</name>
+          <note>Produit du Grand Région</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Mini Hamburger végétal</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Végétarien (07:00 - 15:00)">
+        <meal>
+          <name>Burrito végétal, sauce Tzatziki</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Gromperekichelcher mat zwee Spigeleeër</name>
+          <note>Galettes de pommes de terre et deux oeufs au plat</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Dessert (07:00 - 15:00)">
+        <meal>
+          <name>Eclair au chocolat</name>
+          <note>produit Transfair</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="06. Fruits (07:00 - 15:00)">
+        <meal>
+          <name>Banane BIO &quot;commerce équitable&quot;</name>
+          <note>biologique</note>
+          <note>produit Transfair</note>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="10.2 Boissons froides - Jus (07:00 - 15:00)">
+        <meal>
+          <name>Jus de raisin 0,25 l btl</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="16. Actions thématiques (07:00 - 15:00)">
+        <meal>
+          <name>Plats « Antigaspi To-Go »</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Produits constants « Antigaspi To-Go »</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+    </day>
+    <day date="2024-05-30">
+      <closed/>
+    </day>
+    <day date="2024-05-31">
+      <category name="Entrée (07:00 - 15:00)">
+        <meal>
+          <name>Crème de brocolis</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Tempura de légumes de saison, sauce piquante</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Végétarien (07:00 - 15:00)">
+        <meal>
+          <name>Accras aux haricots blancs et petits pois, légumes marinés, coulis de tomates épicé</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Non-végétarien (07:00 - 15:00)">
+        <meal>
+          <name>Cordon bleu pressé pané, quartier de citron</name>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="Dessert (07:00 - 15:00)">
+        <meal>
+          <name>Tarte au citron meringuée</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="06. Fruits (07:00 - 15:00)">
+        <meal>
+          <name>Banane BIO &quot;commerce équitable&quot;</name>
+          <note>biologique</note>
+          <note>produit Transfair</note>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="10.2 Boissons froides - Jus (07:00 - 15:00)">
+        <meal>
+          <name>Jus de raisin 0,25 l btl</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="16. Actions thématiques (07:00 - 15:00)">
+        <meal>
+          <name>Plats « Antigaspi To-Go »</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Produits constants « Antigaspi To-Go »</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+    </day>
+    <day date="2024-06-01">
+      <closed/>
+    </day>
+    <day date="2024-06-02">
+      <closed/>
+    </day>
   </canteen>
 </openmensa>
-
-<!-- Theme day: Premier Mai [restaurant=119] -->
 
 <!-- Theme day: Lundi de Pentecôte [restaurant=119] -->
