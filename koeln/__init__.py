@@ -146,7 +146,7 @@ class Parser:
 
         data = {
             "name": xml_str_param(mensa["name"]),
-            "address": xml_str_param("%s %s %s %s" % (mensa["name"], mensa["strasse"], mensa["plz"], mensa["ort"])),
+            "address": xml_str_param("%s, %s %s" % (mensa["strasse"], mensa["plz"], mensa["ort"])),
             "city": xml_str_param(mensa["ort"]),
             "latitude": xml_str_param(mensa["latitude"]),
             "longitude": xml_str_param(mensa["longitude"]),
