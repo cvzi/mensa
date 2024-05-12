@@ -158,7 +158,7 @@ class Parser:
                         lazyBuilder.addMeal(date,
                                             category,
                                             productName,
-                                            notes if j == 0 else None,
+                                            [note for note in notes if note] if j == 0 else None,
                                             prices if j == 0 else None,
                                             roles if j == 0 else None)
 
