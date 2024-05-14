@@ -3,25 +3,11 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2024-05-13">
+    <day date="2024-05-14">
       <category name="Tellergericht">
         <meal>
-          <name>Bunter Linseneintopf mit Kasselerfleisch, Teller</name>
-          <note>Schweinefleisch</note>
+          <name>Vegan: Grüner Bohneneintopf, Teller</name>
           <note>Sellerie und daraus hergestellte Erzeugnisse</note>
-          <note>geschwefelt</note>
-          <note>jodiertes Salz</note>
-          <note>mit Antioxidationsmittel</note>
-          <note>mit Konservierungsstoff</note>
-          <price role="employee">2.35</price>
-          <price role="other">3.30</price>
-          <price role="student">1.50</price>
-        </meal>
-        <meal>
-          <name>Gemüse- Käsesuppe mit Hackfleisch Teller</name>
-          <note>Milch/Milchzucker (Laktose)</note>
-          <note>Rindfleisch</note>
-          <note>Schweinefleisch</note>
           <note>geschwefelt</note>
           <note>jodiertes Salz</note>
           <price role="employee">2.35</price>
@@ -29,52 +15,26 @@
           <price role="student">1.50</price>
         </meal>
         <meal>
-          <name>Bunter Linseneintopf mit Kasselerfleisch, Terrine</name>
-          <note>Schweinefleisch</note>
+          <name>Vegan: 4 Kartoffelpuffer mit Apfelmus</name>
+          <note>mit Antioxidationsmittel</note>
+          <price role="employee">3.00</price>
+          <price role="other">4.30</price>
+          <price role="student">1.80</price>
+        </meal>
+        <meal>
+          <name>Vegan: Grüner Bohneneintopf, Terrine</name>
           <note>Sellerie und daraus hergestellte Erzeugnisse</note>
           <note>geschwefelt</note>
           <note>jodiertes Salz</note>
-          <note>mit Antioxidationsmittel</note>
-          <note>mit Konservierungsstoff</note>
-          <price role="employee">3.25</price>
-          <price role="other">4.40</price>
-          <price role="student">2.20</price>
-        </meal>
-        <meal>
-          <name>Gemüse- Käsesuppe mit Hackfleisch</name>
-          <note>Milch/Milchzucker (Laktose)</note>
-          <note>Rindfleisch</note>
-          <note>Schweinefleisch</note>
-          <note>geschwefelt</note>
-          <note>jodiertes Salz</note>
           <price role="employee">3.25</price>
           <price role="other">4.40</price>
           <price role="student">2.20</price>
         </meal>
       </category>
-      <category name="Komponente 1">
+      <category name="Komponente 3">
         <meal>
-          <name>Überbackenes Fischfilet &quot;Bordelaise&quot;  
- mit Kräutersauce</name>
-          <note>Fische und daraus hergestellte Erzeugnisse</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Milch/Milchzucker (Laktose)</note>
-          <note>jodiertes Salz</note>
-          <price role="employee">3.10</price>
-          <price role="other">3.95</price>
-          <price role="student">2.25</price>
-        </meal>
-      </category>
-      <category name="Komponente 2">
-        <meal>
-          <name>Currywurst  
- mit Currysoße</name>
-          <note>Schweinefleisch</note>
-          <note>Senf und daraus hergestellte Erzeugnisse</note>
-          <note>jodiertes Salz</note>
-          <note>mit Antioxidationsmittel</note>
-          <note>mit Konservierungsstoff</note>
-          <note>mit Phosphat</note>
+          <name>Hähnchenbrustfilet, paniert, (1,9,Gefl,A) 
+ mit Geflügelrahmsauce (3,9,Gefl,G,A,C)</name>
           <price role="employee">3.10</price>
           <price role="other">3.95</price>
           <price role="student">2.25</price>
@@ -82,12 +42,23 @@
       </category>
       <category name="Vegane Komponente 1">
         <meal>
-          <name>Geschnetzeltes mit Planted Chicken [aus Erbsenprotein], Pilzen, Zucchini und Knoblauch</name>
+          <name>VEGAN: Schmorkohl</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
+          <price role="employee">2.35</price>
+          <price role="other">3.20</price>
+          <price role="student">1.50</price>
+        </meal>
+      </category>
+      <category name="Pasta nach Gewicht (pro 100g)">
+        <meal>
+          <name>Pastateller: Penne  
+ mit Basilikum-Tomatensoße [vegan]</name>
           <note>Glutenhaltiges Getreide</note>
           <note>jodiertes Salz</note>
-          <price role="employee">3.10</price>
-          <price role="other">3.95</price>
-          <price role="student">2.25</price>
+          <price role="employee">0.90</price>
+          <price role="other">1.20</price>
+          <price role="student">0.60</price>
         </meal>
       </category>
       <category name="Beilagen">
@@ -101,14 +72,15 @@
         </meal>
         <meal>
           <name>Reis</name>
-          <note>geschwefelt</note>
           <note>jodiertes Salz</note>
           <price role="employee">1.00</price>
           <price role="other">1.40</price>
           <price role="student">0.70</price>
         </meal>
         <meal>
-          <name>Pommes frites</name>
+          <name>Spätzle</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
           <price role="employee">1.30</price>
           <price role="other">1.70</price>
           <price role="student">1.00</price>
@@ -116,16 +88,18 @@
       </category>
       <category name="Gemüse">
         <meal>
-          <name>Leipziger Allerlei (Erbsen, Karotten, Spargel)</name>
+          <name>Erbsengemüse</name>
           <note>jodiertes Salz</note>
           <price role="employee">1.00</price>
           <price role="other">1.40</price>
           <price role="student">0.70</price>
         </meal>
         <meal>
-          <name>Weisskrautsalat</name>
-          <note>mit Antioxidationsmittel</note>
-          <note>mit Süßungsmittel</note>
+          <name>Kohlrabi- Möhren zum Überfüllen</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <note>jodiertes Salz</note>
           <price role="employee">1.00</price>
           <price role="other">1.40</price>
           <price role="student">0.70</price>
