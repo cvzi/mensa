@@ -3,47 +3,23 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2024-05-21">
+    <day date="2024-05-22">
       <category name="Tellergericht">
         <meal>
-          <name>Kesselgulasch, Teller</name>
-          <note>Rindfleisch</note>
-          <note>Schweinefleisch</note>
-          <note>geschwefelt</note>
-          <note>jodiertes Salz</note>
-          <note>mit Süßungsmittel</note>
-          <price role="employee">2.35</price>
-          <price role="other">3.30</price>
-          <price role="student">1.50</price>
-        </meal>
-        <meal>
-          <name>Kesselgulasch, Terrine</name>
-          <note>Rindfleisch</note>
-          <note>Schweinefleisch</note>
-          <note>geschwefelt</note>
-          <note>jodiertes Salz</note>
-          <note>mit Süßungsmittel</note>
-          <price role="employee">3.25</price>
-          <price role="other">4.40</price>
-          <price role="student">2.20</price>
-        </meal>
-      </category>
-      <category name="Komponente 1">
-        <meal>
-          <name>Fischfilet in Backteig  
- mit Tomatensoße</name>
-          <note>Fische und daraus hergestellte Erzeugnisse</note>
+          <name>4 Eierkuchen mit Apfelmark</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker (Laktose)</note>
           <note>jodiertes Salz</note>
-          <price role="employee">3.10</price>
-          <price role="other">3.95</price>
-          <price role="student">2.25</price>
+          <note>mit Antioxidationsmittel</note>
+          <price role="employee">3.00</price>
+          <price role="other">4.30</price>
+          <price role="student">1.80</price>
         </meal>
       </category>
       <category name="Komponente 3">
         <meal>
-          <name>Hähnchenbrust-Schnitzel &quot;Piccata&quot; (Gefl,G,A) 
- mit Geflügelrahmsauce (3,9,Gefl,G,A)</name>
+          <name>Hühnerfrikassee mit Gemüse (9,Gefl,G,A,C,F,I,J)</name>
           <price role="employee">3.10</price>
           <price role="other">3.95</price>
           <price role="student">2.25</price>
@@ -51,14 +27,44 @@
       </category>
       <category name="Vegane Komponente 1">
         <meal>
-          <name>Gemüse-Knusper-Frikadelle  
- mit Kräutersauce</name>
+          <name>Falafel-Kichererbsen-Patty  
+ mit Basilikum-Tomatensoße</name>
           <note>Glutenhaltiges Getreide</note>
-          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
           <note>jodiertes Salz</note>
+          <price role="employee">2.60</price>
+          <price role="other">3.45</price>
+          <price role="student">1.75</price>
+        </meal>
+      </category>
+      <category name="Vegane Komponente 2">
+        <meal>
+          <name>Backkartoffel  
+ mit Sour-Cream-Dip</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
+          <note>jodiertes Salz</note>
+          <note>mit Antioxidationsmittel</note>
           <price role="employee">2.85</price>
           <price role="other">3.70</price>
           <price role="student">2.00</price>
+        </meal>
+      </category>
+      <category name="Pasta nach Gewicht (pro 100g)">
+        <meal>
+          <name>Pastateller: Jagdwurstgulasch  
+ mit Gabelspaghetti</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Rindfleisch</note>
+          <note>Schweinefleisch</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
+          <note>jodiertes Salz</note>
+          <note>mit Antioxidationsmittel</note>
+          <note>mit Konservierungsstoff</note>
+          <note>mit Phosphat</note>
+          <price role="employee">0.90</price>
+          <price role="other">1.20</price>
+          <price role="student">0.60</price>
         </meal>
       </category>
       <category name="Beilagen">
@@ -71,26 +77,24 @@
           <price role="student">0.70</price>
         </meal>
         <meal>
-          <name>Basmatireis</name>
+          <name>Reis</name>
+          <note>jodiertes Salz</note>
+          <price role="employee">1.00</price>
+          <price role="other">1.40</price>
+          <price role="student">0.70</price>
+        </meal>
+      </category>
+      <category name="Gemüse">
+        <meal>
+          <name>Sommergemüse (Blumenkohl, Brechbohnen, Karottenstäbchen, Markerbsen)</name>
           <note>jodiertes Salz</note>
           <price role="employee">1.00</price>
           <price role="other">1.40</price>
           <price role="student">0.70</price>
         </meal>
         <meal>
-          <name>Spätzle</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>jodiertes Salz</note>
-          <price role="employee">1.30</price>
-          <price role="other">1.70</price>
-          <price role="student">1.00</price>
-        </meal>
-      </category>
-      <category name="Gemüse">
-        <meal>
-          <name>Leipziger Allerlei (Erbsen, Karotten, Spargel)</name>
-          <note>jodiertes Salz</note>
+          <name>Rote Bete</name>
+          <note>mit Süßungsmittel</note>
           <price role="employee">1.00</price>
           <price role="other">1.40</price>
           <price role="student">0.70</price>

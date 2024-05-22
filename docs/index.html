@@ -78,7 +78,7 @@ urllib3.exceptions.SSLError: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert ha
 The above exception was the direct cause of the following exception:
 
 Traceback (most recent call last):
-  File "/opt/hostedtoolcache/Python/3.12.3/x64/lib/python3.12/site-packages/requests/adapters.py", line 564, in send
+  File "/opt/hostedtoolcache/Python/3.12.3/x64/lib/python3.12/site-packages/requests/adapters.py", line 589, in send
     resp = conn.urlopen(
            ^^^^^^^^^^^^^
   File "/opt/hostedtoolcache/Python/3.12.3/x64/lib/python3.12/site-packages/urllib3/connectionpool.py", line 847, in urlopen
@@ -104,7 +104,7 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.12.3/x64/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
     r = adapter.send(request, **kwargs)
         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.3/x64/lib/python3.12/site-packages/requests/adapters.py", line 595, in send
+  File "/opt/hostedtoolcache/Python/3.12.3/x64/lib/python3.12/site-packages/requests/adapters.py", line 620, in send
     raise SSLError(e, request=request)
 requests.exceptions.SSLError: HTTPSConnectionPool(host='www.mensen.at', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000)')))
 
@@ -149,7 +149,7 @@ urllib3.exceptions.SSLError: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert ha
 The above exception was the direct cause of the following exception:
 
 Traceback (most recent call last):
-  File "/opt/hostedtoolcache/Python/3.12.3/x64/lib/python3.12/site-packages/requests/adapters.py", line 564, in send
+  File "/opt/hostedtoolcache/Python/3.12.3/x64/lib/python3.12/site-packages/requests/adapters.py", line 589, in send
     resp = conn.urlopen(
            ^^^^^^^^^^^^^
   File "/opt/hostedtoolcache/Python/3.12.3/x64/lib/python3.12/site-packages/urllib3/connectionpool.py", line 847, in urlopen
@@ -186,7 +186,7 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.12.3/x64/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
     r = adapter.send(request, **kwargs)
         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.3/x64/lib/python3.12/site-packages/requests/adapters.py", line 595, in send
+  File "/opt/hostedtoolcache/Python/3.12.3/x64/lib/python3.12/site-packages/requests/adapters.py", line 620, in send
     raise SSLError(e, request=request)
 requests.exceptions.SSLError: HTTPSConnectionPool(host='www.mensen.at', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000)')))
 
