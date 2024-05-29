@@ -3,47 +3,6 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2024-05-28">
-      <category name="QUERBEET">
-        <meal>
-          <name>Salatbuffet in Selbstbedienung Je 100g(Preis je 100g)</name>
-          <price role="employee">0.95</price>
-          <price role="other">2.85</price>
-          <price role="student">0.75</price>
-        </meal>
-        <meal>
-          <name>VEGAN: Schnitzel Pilzrahmsauce,  Pommes frites,  Salat,  Dessert</name>
-          <note>Gluten</note>
-          <note>Soja</note>
-          <note>Weizen</note>
-          <price role="employee">5.50</price>
-          <price role="other">14.80</price>
-          <price role="student">3.25</price>
-        </meal>
-        <meal>
-          <name>VEGAN: Grießpudding mit heißen Himbeeren</name>
-          <note>Gluten</note>
-          <note>Laktose</note>
-          <note>Milch</note>
-          <note>Weizen</note>
-          <price role="employee">3.90</price>
-          <price role="other">7.50</price>
-          <price role="student">1.80</price>
-        </meal>
-      </category>
-      <category name="WORLDWIDE">
-        <meal>
-          <name>Mie-Nudeln Pikanter Thai-Bolognese,  Salat,  Dessert</name>
-          <note>Sellerie</note>
-          <note>Sesamsamen</note>
-          <note>Soja</note>
-          <note>Weizen</note>
-          <price role="employee">5.20</price>
-          <price role="other">13.80</price>
-          <price role="student">3.05</price>
-        </meal>
-      </category>
-    </day>
     <day date="2024-05-29">
       <category name="HEIMSPIEL">
         <meal>
@@ -56,6 +15,15 @@
         </meal>
       </category>
       <category name="QUERBEET">
+        <meal>
+          <name>VEGAN: No Chicken- Süß-Sauer Reis,  Salat,  Dessert</name>
+          <note>Gluten</note>
+          <note>Hafer</note>
+          <note>Soja</note>
+          <price role="employee">5.50</price>
+          <price role="other">14.80</price>
+          <price role="student">3.25</price>
+        </meal>
         <meal>
           <name>Salatbuffet in Selbstbedienung Je 100g(Preis je 100g)</name>
           <price role="employee">0.95</price>
@@ -71,38 +39,24 @@
           <price role="other">7.50</price>
           <price role="student">1.80</price>
         </meal>
+      </category>
+      <category name="WORLDWIDE">
         <meal>
-          <name>VEGAN: No Chicken- Süß-Sauer Reis,  Salat,  Dessert</name>
+          <name>Thai-Bolognese oder Beef Massamann Pikanter Thai-Bolognese   oder Beef Massamann       Farfalle</name>
+          <note>Erdnüsse</note>
           <note>Gluten</note>
-          <note>Hafer</note>
+          <note>Sellerie</note>
+          <note>Sesamsamen</note>
           <note>Soja</note>
-          <price role="employee">5.50</price>
-          <price role="other">14.80</price>
-          <price role="student">3.25</price>
+          <note>Weizen</note>
+          <price role="employee">3.90</price>
+          <price role="other">5.20</price>
+          <price role="student">2.05</price>
         </meal>
       </category>
     </day>
     <day date="2024-05-31">
       <category name="QUERBEET">
-        <meal>
-          <name>VEGAN: BackVisch Kräutermayonnaise,  Bratkartoffeln,  Salat</name>
-          <note>Gluten</note>
-          <note>Weizen</note>
-          <price role="employee">6.10</price>
-          <price role="other">16.95</price>
-          <price role="student">3.75</price>
-        </meal>
-        <meal>
-          <name>VEGAN: Planted BBQ Burger Pommes Wedges,  Dessert</name>
-          <note>Gluten</note>
-          <note>Hafer</note>
-          <note>Roggen</note>
-          <note>Senf</note>
-          <note>Weizen</note>
-          <price role="employee">6.30</price>
-          <price role="other">18.35</price>
-          <price role="student">4.05</price>
-        </meal>
         <meal>
           <name>Salatbuffet in Selbstbedienung Je 100g(Preis je 100g)</name>
           <price role="employee">0.95</price>
@@ -116,18 +70,29 @@
           <price role="other">7.50</price>
           <price role="student">1.80</price>
         </meal>
-      </category>
-    </day>
-    <day date="2024-06-03">
-      <category name="QUERBEET">
         <meal>
-          <name>VEGAN: Knusper Nuggets Sweet-Chili Dip,  Pommes frites,  Salat,  Dessert</name>
+          <name>VEGAN: Planted BBQ Burger Pommes Wedges,  Dessert</name>
           <note>Gluten</note>
+          <note>Hafer</note>
+          <note>Roggen</note>
+          <note>Senf</note>
           <note>Weizen</note>
           <price role="employee">6.30</price>
           <price role="other">18.35</price>
           <price role="student">4.05</price>
         </meal>
+        <meal>
+          <name>VEGAN: BackVisch Kräutermayonnaise,  Bratkartoffeln,  Salat</name>
+          <note>Gluten</note>
+          <note>Weizen</note>
+          <price role="employee">6.10</price>
+          <price role="other">16.95</price>
+          <price role="student">3.75</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2024-06-03">
+      <category name="QUERBEET">
         <meal>
           <name>VEGAN: Marokkanischer Kichererbseneintopf Fladenbrot</name>
           <note>Gluten</note>
@@ -136,6 +101,14 @@
           <price role="employee">3.90</price>
           <price role="other">7.50</price>
           <price role="student">1.80</price>
+        </meal>
+        <meal>
+          <name>VEGAN: Knusper Nuggets Sweet-Chili Dip,  Pommes frites,  Salat,  Dessert</name>
+          <note>Gluten</note>
+          <note>Weizen</note>
+          <price role="employee">6.30</price>
+          <price role="other">18.35</price>
+          <price role="student">4.05</price>
         </meal>
         <meal>
           <name>Salatbuffet in Selbstbedienung,  je 100g (Preis je 100g)</name>
@@ -168,17 +141,17 @@
       </category>
       <category name="QUERBEET">
         <meal>
+          <name>Salatbuffet in Selbstbedienung,  je 100g (Preis je 100g)</name>
+          <price role="employee">0.95</price>
+          <price role="other">2.85</price>
+          <price role="student">0.75</price>
+        </meal>
+        <meal>
           <name>VEGAN: Indischer Spinat Basmatireis,  Salat,  Dessert</name>
           <note>Soja</note>
           <price role="employee">5.20</price>
           <price role="other">13.80</price>
           <price role="student">3.05</price>
-        </meal>
-        <meal>
-          <name>Salatbuffet in Selbstbedienung,  je 100g (Preis je 100g)</name>
-          <price role="employee">0.95</price>
-          <price role="other">2.85</price>
-          <price role="student">0.75</price>
         </meal>
       </category>
       <category name="WORLDWIDE">
@@ -195,6 +168,16 @@
     <day date="2024-06-05">
       <category name="QUERBEET">
         <meal>
+          <name>VEGAN: Fruchtige Curry-Kokossuppe Fladenbrot</name>
+          <note>Gluten</note>
+          <note>Sesamsamen</note>
+          <note>Soja</note>
+          <note>Weizen</note>
+          <price role="employee">3.90</price>
+          <price role="other">7.50</price>
+          <price role="student">1.80</price>
+        </meal>
+        <meal>
           <name>Salatbuffet in Selbstbedienung,  je 100g (Preis je 100g)</name>
           <price role="employee">0.95</price>
           <price role="other">2.85</price>
@@ -208,16 +191,6 @@
           <price role="employee">5.00</price>
           <price role="other">11.85</price>
           <price role="student">2.60</price>
-        </meal>
-        <meal>
-          <name>VEGAN: Fruchtige Curry-Kokossuppe Fladenbrot</name>
-          <note>Gluten</note>
-          <note>Sesamsamen</note>
-          <note>Soja</note>
-          <note>Weizen</note>
-          <price role="employee">3.90</price>
-          <price role="other">7.50</price>
-          <price role="student">1.80</price>
         </meal>
       </category>
       <category name="WORLDWIDE">
@@ -241,12 +214,6 @@
           <price role="student">1.80</price>
         </meal>
         <meal>
-          <name>Salatbuffet in Selbstbedienung,  je 100g (Preis je 100g)</name>
-          <price role="employee">0.95</price>
-          <price role="other">2.85</price>
-          <price role="student">0.75</price>
-        </meal>
-        <meal>
           <name>VEGAN: Süßkartoffel-Erdnusstopf Gemüse CousCous,  Salat,  Dessert</name>
           <note>Erdnüsse</note>
           <note>Senf</note>
@@ -254,6 +221,12 @@
           <price role="employee">5.00</price>
           <price role="other">12.40</price>
           <price role="student">2.75</price>
+        </meal>
+        <meal>
+          <name>Salatbuffet in Selbstbedienung,  je 100g (Preis je 100g)</name>
+          <price role="employee">0.95</price>
+          <price role="other">2.85</price>
+          <price role="student">0.75</price>
         </meal>
       </category>
       <category name="WORLDWIDE">
@@ -272,6 +245,12 @@
     <day date="2024-06-07">
       <category name="QUERBEET">
         <meal>
+          <name>Salatbuffet in Selbstbedienung,  je 100g (Preis je 100g)</name>
+          <price role="employee">0.95</price>
+          <price role="other">2.85</price>
+          <price role="student">0.75</price>
+        </meal>
+        <meal>
           <name>VEGAN: Tomatencremesuppe Kaiserbrötchen</name>
           <note>Gluten</note>
           <note>Soja</note>
@@ -289,12 +268,6 @@
           <price role="employee">5.50</price>
           <price role="other">14.80</price>
           <price role="student">3.25</price>
-        </meal>
-        <meal>
-          <name>Salatbuffet in Selbstbedienung,  je 100g (Preis je 100g)</name>
-          <price role="employee">0.95</price>
-          <price role="other">2.85</price>
-          <price role="student">0.75</price>
         </meal>
       </category>
       <category name="WORLDWIDE">
@@ -328,6 +301,12 @@
       </category>
       <category name="QUERBEET">
         <meal>
+          <name>Salatbuffet in Selbstbedienung Je 100g(Preis je 100g)</name>
+          <price role="employee">0.95</price>
+          <price role="other">2.85</price>
+          <price role="student">0.75</price>
+        </meal>
+        <meal>
           <name>VEGAN: Minestrone Kaiserbrötchen</name>
           <note>Gluten</note>
           <note>Sellerie</note>
@@ -335,12 +314,6 @@
           <price role="employee">3.90</price>
           <price role="other">7.50</price>
           <price role="student">1.80</price>
-        </meal>
-        <meal>
-          <name>Salatbuffet in Selbstbedienung Je 100g(Preis je 100g)</name>
-          <price role="employee">0.95</price>
-          <price role="other">2.85</price>
-          <price role="student">0.75</price>
         </meal>
         <meal>
           <name>VEGAN: Lahmacun Tomaten-Krautsalat,  Knoblauchsauce,  Dessert</name>
@@ -371,12 +344,6 @@
           <price role="student">1.80</price>
         </meal>
         <meal>
-          <name>Salatbuffet in Selbstbedienung Je 100g(Preis je 100g)</name>
-          <price role="employee">0.95</price>
-          <price role="other">2.85</price>
-          <price role="student">0.75</price>
-        </meal>
-        <meal>
           <name>VEGAN: Tandoori Blumenkohl mit Linsencurry Basmatireis,  Salat,  Dessert</name>
           <note>Gluten</note>
           <note>Senf</note>
@@ -384,6 +351,52 @@
           <price role="employee">5.20</price>
           <price role="other">13.80</price>
           <price role="student">3.05</price>
+        </meal>
+        <meal>
+          <name>Salatbuffet in Selbstbedienung Je 100g(Preis je 100g)</name>
+          <price role="employee">0.95</price>
+          <price role="other">2.85</price>
+          <price role="student">0.75</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2024-06-12">
+      <category name="HEIMSPIEL">
+        <meal>
+          <name>Rindfleisch Bolognese Fusilli,  Salat,  Dessert</name>
+          <note>Sellerie</note>
+          <note>Weizen</note>
+          <price role="employee">5.20</price>
+          <price role="other">13.80</price>
+          <price role="student">3.05</price>
+        </meal>
+      </category>
+      <category name="QUERBEET">
+        <meal>
+          <name>VEGAN: Rigatoni Stroganoff-Art,  Salat,  Dessert</name>
+          <note>Gluten</note>
+          <note>Senf</note>
+          <note>Soja</note>
+          <note>Weizen</note>
+          <price role="employee">5.00</price>
+          <price role="other">11.85</price>
+          <price role="student">2.60</price>
+        </meal>
+        <meal>
+          <name>VEGAN: Kurkuma Kokossuppe mit Reis Kaiserbrötchen</name>
+          <note>Gluten</note>
+          <note>Sesamsamen</note>
+          <note>Soja</note>
+          <note>Weizen</note>
+          <price role="employee">3.90</price>
+          <price role="other">7.50</price>
+          <price role="student">1.80</price>
+        </meal>
+        <meal>
+          <name>Salatbuffet in Selbstbedienung Je 100g(Preis je 100g)</name>
+          <price role="employee">0.95</price>
+          <price role="other">2.85</price>
+          <price role="student">0.75</price>
         </meal>
       </category>
     </day>

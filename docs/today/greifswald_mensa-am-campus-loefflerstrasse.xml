@@ -3,7 +3,7 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2024-05-28">
+    <day date="2024-05-29">
       <category name="Tellergericht">
         <meal>
           <name>Brötchen</name>
@@ -46,37 +46,49 @@
           <price role="student">2.20</price>
         </meal>
       </category>
-      <category name="Komponente 3">
+      <category name="Komponente 1">
         <meal>
-          <name>Hühnerfrikassee (1,9,Gefl,G,A,C,F,I)</name>
+          <name>Schlemmerfilet Brokkoli Käse  
+ mit Dill-Curry-Honigsoße</name>
+          <note>Fische und daraus hergestellte Erzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker (Laktose)</note>
           <price role="employee">3.10</price>
           <price role="other">3.95</price>
           <price role="student">2.25</price>
         </meal>
       </category>
-      <category name="Komponente 4">
+      <category name="Komponente 2">
         <meal>
-          <name>Paniertes Schweinelachsschnitzel  
- mit Pariser Möhren in Rahm</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
-          <note>Glutenhaltiges Getreide</note>
+          <name>Geschnetzeltes vom Schwein nach Züricher Art</name>
           <note>Milch/Milchzucker (Laktose)</note>
           <note>Schweinefleisch</note>
-          <price role="employee">3.35</price>
-          <price role="other">4.20</price>
-          <price role="student">2.50</price>
+          <note>jodiertes Salz</note>
+          <price role="employee">3.10</price>
+          <price role="other">3.95</price>
+          <price role="student">2.25</price>
         </meal>
       </category>
-      <category name="Vegane Komponente 1">
+      <category name="Veganes Essen">
         <meal>
-          <name>Vegan: 8 Kichererbsenbällchen  
- mit Gemüse-Tomatensoße</name>
+          <name>Vegan: Avocado-Quinoa-Patty mit Kürbis  
+ mit Broccoli-Sojasauce  und Reis</name>
           <note>Glutenhaltiges Getreide</note>
-          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
           <note>jodiertes Salz</note>
-          <price role="employee">2.35</price>
-          <price role="other">3.20</price>
-          <price role="student">1.50</price>
+          <price role="employee">3.60</price>
+          <price role="other">4.85</price>
+          <price role="student">2.45</price>
+        </meal>
+      </category>
+      <category name="Mensa Vital">
+        <meal>
+          <name>Vegan: Limettenspaghetti mit Erbsen-Pilz-Ragout</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Schalenfrüchte und daraus hergestellte Erzeugnisse (Mandeln, Haselnuss usw.)</note>
+          <price role="employee">4.00</price>
+          <price role="other">5.30</price>
+          <price role="student">2.70</price>
         </meal>
       </category>
       <category name="Nudeltheke (Preis pro 100g) Bitte extra Pasta-Teller verwenden">
@@ -90,32 +102,16 @@
           <price role="student">0.30</price>
         </meal>
         <meal>
-          <name>Vegan: Nudeln  
- mit Rote-Bete-Minz-Pesto</name>
+          <name>Pastateller: Nudeln  
+ mit 9-Kräuterpesto und Hirtenkäse</name>
           <note>Glutenhaltiges Getreide</note>
-          <note>Schalenfrüchte und daraus hergestellte Erzeugnisse (Mandeln, Haselnuss usw.)</note>
-          <price role="employee">0.90</price>
-          <price role="other">1.20</price>
-          <price role="student">0.60</price>
-        </meal>
-        <meal>
-          <name>Pastateller: Farfalle  
- mit Rote-Bete-Minz-Pesto [vegan]</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Schalenfrüchte und daraus hergestellte Erzeugnisse (Mandeln, Haselnuss usw.)</note>
+          <note>Milch/Milchzucker (Laktose)</note>
           <price role="employee">0.90</price>
           <price role="other">1.20</price>
           <price role="student">0.60</price>
         </meal>
       </category>
       <category name="Beilagen">
-        <meal>
-          <name>Salzkartoffeln</name>
-          <note>geschwefelt</note>
-          <price role="employee">1.00</price>
-          <price role="other">1.40</price>
-          <price role="student">0.70</price>
-        </meal>
         <meal>
           <name>Reis</name>
           <note>jodiertes Salz</note>
@@ -124,8 +120,17 @@
           <price role="student">0.70</price>
         </meal>
         <meal>
-          <name>8 Kartoffelkroketten</name>
+          <name>Salzkartoffeln</name>
+          <note>geschwefelt</note>
+          <price role="employee">1.00</price>
+          <price role="other">1.40</price>
+          <price role="student">0.70</price>
+        </meal>
+        <meal>
+          <name>Spätzle</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
+          <note>jodiertes Salz</note>
           <price role="employee">1.30</price>
           <price role="other">1.70</price>
           <price role="student">1.00</price>
@@ -133,10 +138,10 @@
       </category>
       <category name="Gemüse">
         <meal>
-          <name>Erbsengemüse</name>
-          <price role="employee">1.00</price>
-          <price role="other">1.40</price>
-          <price role="student">0.70</price>
+          <name>Brokkoli</name>
+          <price role="employee">1.20</price>
+          <price role="other">1.60</price>
+          <price role="student">0.90</price>
         </meal>
       </category>
       <category name="Salate und Desserts">
