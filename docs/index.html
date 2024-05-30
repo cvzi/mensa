@@ -78,7 +78,7 @@ urllib3.exceptions.SSLError: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert ha
 The above exception was the direct cause of the following exception:
 
 Traceback (most recent call last):
-  File "/opt/hostedtoolcache/Python/3.12.3/x64/lib/python3.12/site-packages/requests/adapters.py", line 589, in send
+  File "/opt/hostedtoolcache/Python/3.12.3/x64/lib/python3.12/site-packages/requests/adapters.py", line 667, in send
     resp = conn.urlopen(
            ^^^^^^^^^^^^^
   File "/opt/hostedtoolcache/Python/3.12.3/x64/lib/python3.12/site-packages/urllib3/connectionpool.py", line 847, in urlopen
@@ -104,7 +104,7 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.12.3/x64/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
     r = adapter.send(request, **kwargs)
         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.3/x64/lib/python3.12/site-packages/requests/adapters.py", line 620, in send
+  File "/opt/hostedtoolcache/Python/3.12.3/x64/lib/python3.12/site-packages/requests/adapters.py", line 698, in send
     raise SSLError(e, request=request)
 requests.exceptions.SSLError: HTTPSConnectionPool(host='www.mensen.at', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000)')))
 
@@ -134,7 +134,7 @@ Traceback (most recent call last):
     self.do_handshake()
   File "/opt/hostedtoolcache/Python/3.12.3/x64/lib/python3.12/ssl.py", line 1320, in do_handshake
     self._sslobj.do_handshake()
-ssl.SSLError: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000)
+ssl.SSLCertVerificationError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1000)
 
 During handling of the above exception, another exception occurred:
 
@@ -144,12 +144,12 @@ Traceback (most recent call last):
                ^^^^^^^^^^^^^^^^^^^
   File "/opt/hostedtoolcache/Python/3.12.3/x64/lib/python3.12/site-packages/urllib3/connectionpool.py", line 491, in _make_request
     raise new_e
-urllib3.exceptions.SSLError: [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000)
+urllib3.exceptions.SSLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1000)
 
 The above exception was the direct cause of the following exception:
 
 Traceback (most recent call last):
-  File "/opt/hostedtoolcache/Python/3.12.3/x64/lib/python3.12/site-packages/requests/adapters.py", line 589, in send
+  File "/opt/hostedtoolcache/Python/3.12.3/x64/lib/python3.12/site-packages/requests/adapters.py", line 667, in send
     resp = conn.urlopen(
            ^^^^^^^^^^^^^
   File "/opt/hostedtoolcache/Python/3.12.3/x64/lib/python3.12/site-packages/urllib3/connectionpool.py", line 847, in urlopen
@@ -158,7 +158,7 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.12.3/x64/lib/python3.12/site-packages/urllib3/util/retry.py", line 515, in increment
     raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.mensen.at', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000)')))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.mensen.at', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1000)')))
 
 During handling of the above exception, another exception occurred:
 
@@ -186,9 +186,9 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.12.3/x64/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
     r = adapter.send(request, **kwargs)
         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.3/x64/lib/python3.12/site-packages/requests/adapters.py", line 620, in send
+  File "/opt/hostedtoolcache/Python/3.12.3/x64/lib/python3.12/site-packages/requests/adapters.py", line 698, in send
     raise SSLError(e, request=request)
-requests.exceptions.SSLError: HTTPSConnectionPool(host='www.mensen.at', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000)')))
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.mensen.at', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1000)')))
 
 inetmenue/jura-am:
 Traceback (most recent call last):
