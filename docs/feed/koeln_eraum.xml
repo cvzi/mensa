@@ -4,16 +4,6 @@
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
     <day date="2024-05-31">
-      <category name="Essen 3">
-        <meal>
-          <name>Kartoffelgratin Bechamelsauce, Emmentaler(Preis je 100g)</name>
-          <note>Laktose</note>
-          <note>Milch</note>
-          <price role="employee">1.05</price>
-          <price role="other">1.68</price>
-          <price role="student">0.95</price>
-        </meal>
-      </category>
       <category name="Essen 1">
         <meal>
           <name>Seelachs paniert (Preis je 100g)</name>
@@ -35,6 +25,24 @@
       <category name="Essen 5">
         <meal>
           <name>VEGAN: Romanesco (Preis je 100g)</name>
+          <price role="employee">1.05</price>
+          <price role="other">1.68</price>
+          <price role="student">0.95</price>
+        </meal>
+      </category>
+      <category name="Essen 3">
+        <meal>
+          <name>VEGAN: Kartoffeln mit Rosmarin (Preis je 100g)</name>
+          <price role="employee">1.05</price>
+          <price role="other">1.68</price>
+          <price role="student">0.95</price>
+        </meal>
+      </category>
+      <category name="Essen 4">
+        <meal>
+          <name>Helle Sauce Sahne(Preis je 100g)</name>
+          <note>Laktose</note>
+          <note>Milch</note>
           <price role="employee">1.05</price>
           <price role="other">1.68</price>
           <price role="student">0.95</price>
