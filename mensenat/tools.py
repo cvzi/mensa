@@ -4,6 +4,7 @@ import datetime
 import logging
 import textwrap
 import ssl
+from pathlib import Path
 
 import requests
 from requests.adapters import HTTPAdapter
@@ -95,9 +96,10 @@ def askMensenAt(mensaId=None):
     try:
         return s.get(url, cookies=cookies)
     except requests.exceptions.SSLError as e:
-        logging.warning("Connect with OldInsecureWebsiteAdapter", e)
+        logging.debug(e)
+        logging.warning("Connect with OldInsecureWebsiteAdapter")
         s.mount(url, OldInsecureWebsiteAdapter())
-        return s.get(url, cookies=cookies)
+        return s.get(url, cookies=cookies, verify=Path(__file__).with_name('mensen-at-chain.pem'))
 
 
 def getMenu(mensaId):
