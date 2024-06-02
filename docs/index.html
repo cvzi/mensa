@@ -190,42 +190,6 @@ Traceback (most recent call last):
     raise SSLError(e, request=request)
 requests.exceptions.SSLError: HTTPSConnectionPool(host='www.mensen.at', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1000)')))
 
-inetmenue/jura-am:
-Traceback (most recent call last):
-  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 145, in updateFeeds
-    content = getattr(parser, feedMethod)(
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
-    return self.feed_all(ref, get_next_week=False)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
-    next_week_path = self.parseMeals(ref, builder, resp.text)
-                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
-    raise RuntimeError(oops.text.strip())
-RuntimeError: OOPS
-
-                        da hat sich wohl der
-                        Fehlerteufel eingeschlichen.
-
-inetmenue/kernschule:
-Traceback (most recent call last):
-  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 145, in updateFeeds
-    content = getattr(parser, feedMethod)(
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
-    return self.feed_all(ref, get_next_week=False)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
-    next_week_path = self.parseMeals(ref, builder, resp.text)
-                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
-    raise RuntimeError(oops.text.strip())
-RuntimeError: OOPS
-
-                        da hat sich wohl der
-                        Fehlerteufel eingeschlichen.
-
 inetmenue/mns:
 Traceback (most recent call last):
   File "/home/runner/work/mensa/mensa/updateFeeds.py", line 145, in updateFeeds
@@ -829,14 +793,12 @@ RuntimeError: OOPS
   <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_jsbg.xml">🍱 feed/inetmenue_jsbg.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_jsbg.xml">🈺 meta/inetmenue_jsbg.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/today/inetmenue_jsbg.xml">🍱 today/inetmenue_jsbg.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_jura-am.xml">🈺 meta/inetmenue_jura-am.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_kartoffelhof-kunitz.xml">🍱 feed/inetmenue_kartoffelhof-kunitz.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_kartoffelhof-kunitz.xml">🈺 meta/inetmenue_kartoffelhof-kunitz.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/today/inetmenue_kartoffelhof-kunitz.xml">🍱 today/inetmenue_kartoffelhof-kunitz.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_katholische-schule-celle.xml">🍱 feed/inetmenue_katholische-schule-celle.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_katholische-schule-celle.xml">🈺 meta/inetmenue_katholische-schule-celle.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/today/inetmenue_katholische-schule-celle.xml">🍱 today/inetmenue_katholische-schule-celle.xml</a></li>
-  <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_kernschule.xml">🈺 meta/inetmenue_kernschule.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/inetmenue_kgs-w.xml">🍱 feed/inetmenue_kgs-w.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/inetmenue_kgs-w.xml">🈺 meta/inetmenue_kgs-w.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/today/inetmenue_kgs-w.xml">🍱 today/inetmenue_kgs-w.xml</a></li>
