@@ -58,10 +58,11 @@ imgs = {
     "/greater_region.jpg": "Produit du Grand Région",
     "/benelux.jpg": "Produit du Benelux",
     "/bio.png": "biologique",
-    "/transfair.png": "produit Transfair",
+    "/transfair.png": "produit Fairtrade",
     "/vegetarian.png": "végétarien",
-    "/vegan.png": "végétalien",
+    "/vegan.png": "végan",
     "/not_vegetarian.png": "non-végétarien",
+    "/gluten_free.jpg": "Produit sans gluten",
 }
 
 
