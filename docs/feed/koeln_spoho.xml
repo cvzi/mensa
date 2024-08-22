@@ -31,13 +31,6 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Balkangemüse </name>
-          <note>Sellerie</note>
-          <price role="employee">0.95</price>
-          <price role="other">2.95</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
           <name>Dessert </name>
           <price role="employee">0.95</price>
           <price role="other">2.95</price>
@@ -45,6 +38,13 @@
         </meal>
         <meal>
           <name>Salat </name>
+          <price role="employee">0.95</price>
+          <price role="other">2.95</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Balkangemüse </name>
+          <note>Sellerie</note>
           <price role="employee">0.95</price>
           <price role="other">2.95</price>
           <price role="student">0.65</price>
@@ -116,7 +116,7 @@
       </category>
       <category name="Beilage">
         <meal>
-          <name>Salat </name>
+          <name>Erbsen </name>
           <price role="employee">0.95</price>
           <price role="other">2.95</price>
           <price role="student">0.65</price>
@@ -128,7 +128,7 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Erbsen </name>
+          <name>Salat </name>
           <price role="employee">0.95</price>
           <price role="other">2.95</price>
           <price role="student">0.65</price>
@@ -183,16 +183,6 @@
     <day date="2024-08-30">
       <category name="QUERBEET">
         <meal>
-          <name>VEGAN: Planted Gyros Kartoffelsalat,  Tzatziki,  Dessert</name>
-          <note>Gluten</note>
-          <note>Hafer</note>
-          <note>Laktose</note>
-          <note>Milch</note>
-          <price role="employee">6.30</price>
-          <price role="other">18.35</price>
-          <price role="student">4.05</price>
-        </meal>
-        <meal>
           <name>VEGAN: Planted-Gemüsekartoffelpfanne BBQ-Dip,  Coleslaw,  Dessert</name>
           <note>Gluten</note>
           <note>Hafer</note>
@@ -203,6 +193,16 @@
           <price role="other">14.80</price>
           <price role="student">3.25</price>
         </meal>
+        <meal>
+          <name>VEGAN: Planted Gyros Kartoffelsalat,  Tzatziki,  Dessert</name>
+          <note>Gluten</note>
+          <note>Hafer</note>
+          <note>Laktose</note>
+          <note>Milch</note>
+          <price role="employee">6.30</price>
+          <price role="other">18.35</price>
+          <price role="student">4.05</price>
+        </meal>
       </category>
       <category name="Beilage">
         <meal>
@@ -212,13 +212,13 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Salat </name>
+          <name>Dessert </name>
           <price role="employee">0.95</price>
           <price role="other">2.95</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Dessert </name>
+          <name>Salat </name>
           <price role="employee">0.95</price>
           <price role="other">2.95</price>
           <price role="student">0.65</price>
@@ -251,6 +251,12 @@
       </category>
       <category name="Beilage">
         <meal>
+          <name>Möhrengemüse </name>
+          <price role="employee">0.95</price>
+          <price role="other">2.95</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
           <name>Fusilli </name>
           <note>Weizen</note>
           <price role="employee">0.95</price>
@@ -258,19 +264,13 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Möhrengemüse </name>
+          <name>Salat </name>
           <price role="employee">0.95</price>
           <price role="other">2.95</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
           <name>Dessert </name>
-          <price role="employee">0.95</price>
-          <price role="other">2.95</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Salat </name>
           <price role="employee">0.95</price>
           <price role="other">2.95</price>
           <price role="student">0.65</price>
@@ -299,12 +299,6 @@
       </category>
       <category name="Beilage">
         <meal>
-          <name>Dessert </name>
-          <price role="employee">0.95</price>
-          <price role="other">2.95</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
           <name>Salat </name>
           <price role="employee">0.95</price>
           <price role="other">2.95</price>
@@ -312,6 +306,12 @@
         </meal>
         <meal>
           <name>VEGAN: Mischgemüse </name>
+          <price role="employee">0.95</price>
+          <price role="other">2.95</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Dessert </name>
           <price role="employee">0.95</price>
           <price role="other">2.95</price>
           <price role="student">0.65</price>
@@ -357,6 +357,48 @@
         </meal>
         <meal>
           <name>Dessert </name>
+          <price role="employee">0.95</price>
+          <price role="other">2.95</price>
+          <price role="student">0.65</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2024-09-05">
+      <category name="QUERBEET">
+        <meal>
+          <name>VEGAN: Chili sin carne Reis,  Sour Cream,  Salat,  Dessert</name>
+          <note>Gluten</note>
+          <note>Hafer</note>
+          <note>Soja</note>
+          <price role="employee">5.00</price>
+          <price role="other">11.85</price>
+          <price role="student">2.60</price>
+        </meal>
+      </category>
+      <category name="WORLDWIDE">
+        <meal>
+          <name>Fruchtiges Hähnchen-Kokoscurry Duftreis,  Salat,  Dessert</name>
+          <note>Krebstiere (Schalen-/Krusten-/Weichtiere)</note>
+          <price role="employee">5.20</price>
+          <price role="other">13.80</price>
+          <price role="student">3.05</price>
+        </meal>
+      </category>
+      <category name="Beilage">
+        <meal>
+          <name>Dessert </name>
+          <price role="employee">0.95</price>
+          <price role="other">2.95</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Salat </name>
+          <price role="employee">0.95</price>
+          <price role="other">2.95</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>VEGAN: Grüne Bohnen </name>
           <price role="employee">0.95</price>
           <price role="other">2.95</price>
           <price role="student">0.65</price>
