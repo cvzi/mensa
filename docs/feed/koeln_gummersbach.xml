@@ -3,12 +3,14 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2024-09-19">
+    <day date="2024-09-20">
       <category name="HEIMSPIEL">
         <meal>
-          <name>Gebratene Hähnchenbrust Champignonrahmsauce,  Röstitaler,  1 Beilage</name>
+          <name>Schweineschnitzel Zwiebelsauce,  Kartoffelstampf,  2 Beilagen</name>
+          <note>Gluten</note>
           <note>Laktose</note>
           <note>Milch</note>
+          <note>Weizen</note>
           <price role="employee">5.50</price>
           <price role="other">14.80</price>
           <price role="student">3.25</price>
@@ -22,21 +24,19 @@
       </category>
       <category name="QUERBEET">
         <meal>
-          <name>VEGAN: Türkische Linsensuppe Fladenbrot</name>
+          <name>VEGAN: BackVisch Kräutermayonnaise,  Bratkartoffeln,  1 Beilage</name>
           <note>Gluten</note>
-          <note>Sesamsamen</note>
           <note>Weizen</note>
+          <price role="employee">5.50</price>
+          <price role="other">14.80</price>
+          <price role="student">3.25</price>
+        </meal>
+        <meal>
+          <name>VEGAN: Kokos-Süßkartoffelsuppe Kaiserbrötchen</name>
+          <note>Gluten</note>
           <price role="employee">3.90</price>
           <price role="other">7.50</price>
           <price role="student">1.80</price>
-        </meal>
-        <meal>
-          <name>VEGAN: Sojagulasch Fusilli,  2 Beilagen</name>
-          <note>Soja</note>
-          <note>Weizen</note>
-          <price role="employee">5.20</price>
-          <price role="other">13.80</price>
-          <price role="student">3.05</price>
         </meal>
       </category>
       <category name="WORLDWIDE">
@@ -50,43 +50,6 @@
           <price role="employee">5.20</price>
           <price role="other">13.80</price>
           <price role="student">3.05</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2024-09-20">
-      <category name="HEIMSPIEL">
-        <meal>
-          <name>Bratwurst mit Currysauce,  Pommes frites,  2 Beilagen</name>
-          <price role="employee">5.40</price>
-          <price role="other">14.35</price>
-          <price role="student">3.25</price>
-        </meal>
-        <meal>
-          <name>Schweineschnitzel Zwiebelsauce,  Kartoffelstampf,  2 Beilagen</name>
-          <note>Gluten</note>
-          <note>Laktose</note>
-          <note>Milch</note>
-          <note>Weizen</note>
-          <price role="employee">5.50</price>
-          <price role="other">14.80</price>
-          <price role="student">3.25</price>
-        </meal>
-      </category>
-      <category name="QUERBEET">
-        <meal>
-          <name>VEGAN: Kokos-Süßkartoffelsuppe Kaiserbrötchen</name>
-          <note>Gluten</note>
-          <price role="employee">3.90</price>
-          <price role="other">7.50</price>
-          <price role="student">1.80</price>
-        </meal>
-        <meal>
-          <name>VEGAN: BackVisch Kräutermayonnaise,  Bratkartoffeln,  1 Beilage</name>
-          <note>Gluten</note>
-          <note>Weizen</note>
-          <price role="employee">5.50</price>
-          <price role="other">14.80</price>
-          <price role="student">3.25</price>
         </meal>
       </category>
     </day>
@@ -151,6 +114,13 @@
       </category>
       <category name="QUERBEET">
         <meal>
+          <name>VEGAN: Milchreis Mango - Pfirsich Grütze</name>
+          <note>Soja</note>
+          <price role="employee">3.90</price>
+          <price role="other">7.50</price>
+          <price role="student">1.80</price>
+        </meal>
+        <meal>
           <name>VEGAN: Tandoori Blumenkohl mit Linsencurry Basmatireis,  2 Beilagen</name>
           <note>Gluten</note>
           <note>Senf</note>
@@ -159,23 +129,10 @@
           <price role="other">12.40</price>
           <price role="student">2.75</price>
         </meal>
-        <meal>
-          <name>VEGAN: Milchreis Mango - Pfirsich Grütze</name>
-          <note>Soja</note>
-          <price role="employee">3.90</price>
-          <price role="other">7.50</price>
-          <price role="student">1.80</price>
-        </meal>
       </category>
     </day>
     <day date="2024-10-02">
       <category name="HEIMSPIEL">
-        <meal>
-          <name>Bratwurst mit Currysauce,  Pommes frites,  2 Beilagen</name>
-          <price role="employee">5.40</price>
-          <price role="other">14.35</price>
-          <price role="student">3.25</price>
-        </meal>
         <meal>
           <name>Rindfleisch Bolognese Fusilli,  2 Beilagen</name>
           <note>Sellerie</note>
@@ -184,8 +141,24 @@
           <price role="other">11.85</price>
           <price role="student">2.60</price>
         </meal>
+        <meal>
+          <name>Bratwurst mit Currysauce,  Pommes frites,  2 Beilagen</name>
+          <price role="employee">5.40</price>
+          <price role="other">14.35</price>
+          <price role="student">3.25</price>
+        </meal>
       </category>
       <category name="QUERBEET">
+        <meal>
+          <name>VEGAN: Rigatoni Stroganoff-Art,  2 Beilagen</name>
+          <note>Gluten</note>
+          <note>Senf</note>
+          <note>Soja</note>
+          <note>Weizen</note>
+          <price role="employee">5.00</price>
+          <price role="other">11.85</price>
+          <price role="student">2.60</price>
+        </meal>
         <meal>
           <name>VEGAN: Kurkuma Kokossuppe mit Reis Kaiserbrötchen</name>
           <note>Gluten</note>
@@ -196,15 +169,48 @@
           <price role="other">7.50</price>
           <price role="student">1.80</price>
         </meal>
+      </category>
+    </day>
+    <day date="2024-10-04">
+      <category name="HEIMSPIEL">
         <meal>
-          <name>VEGAN: Rigatoni Stroganoff-Art,  2 Beilagen</name>
+          <name>Bratwurst mit Currysauce,  Pommes frites,  2 Beilagen</name>
+          <price role="employee">5.40</price>
+          <price role="other">14.35</price>
+          <price role="student">3.25</price>
+        </meal>
+        <meal>
+          <name>Hähnchen-Crossies Curry-Mayo,  Pommes frites,  2 Beilagen</name>
           <note>Gluten</note>
+          <note>Laktose</note>
+          <note>Milch</note>
           <note>Senf</note>
+          <note>Weizen</note>
+          <price role="employee">5.50</price>
+          <price role="other">14.80</price>
+          <price role="student">3.25</price>
+        </meal>
+      </category>
+      <category name="QUERBEET">
+        <meal>
+          <name>VEGAN: BBQ-Stew Fladenbrot</name>
+          <note>Gluten</note>
+          <note>Hafer</note>
+          <note>Senf</note>
+          <note>Sesamsamen</note>
+          <note>Weizen</note>
+          <price role="employee">3.90</price>
+          <price role="other">7.50</price>
+          <price role="student">1.80</price>
+        </meal>
+        <meal>
+          <name>VEGAN: Schnitzel Kräuterrahmsauce,  Salzkartoffeln,  2 Beilagen</name>
+          <note>Gluten</note>
           <note>Soja</note>
           <note>Weizen</note>
-          <price role="employee">5.00</price>
-          <price role="other">11.85</price>
-          <price role="student">2.60</price>
+          <price role="employee">5.50</price>
+          <price role="other">14.80</price>
+          <price role="student">3.25</price>
         </meal>
       </category>
     </day>
