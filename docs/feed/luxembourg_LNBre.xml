@@ -3,58 +3,70 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2024-09-16">
-      <closed/>
-    </day>
-    <day date="2024-09-17">
+    <day date="2024-09-23">
       <category name="Entrée (11:00 - 12:29)">
         <meal>
-          <name>Gréng Bounenzopp mat Sauerram</name>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Soupe aux haricots verts et sa crème aigre</note>
+          <name>Gréng Bounenzopp</name>
+          <note>Soupe aux haricots verts</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Mini boulettes végétales, sauce tomate</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Végétarien (11:00 - 12:29)">
         <meal>
-          <name>Rotolo quorn aux légumes sautés, sauce béchamel</name>
-          <note>Céleri et produits à base de céleri</note>
+          <name>Kebab Seitan style, sauce Tzatziki</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Soja et produits à base de soja</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Végan (11:00 - 12:29)">
         <meal>
-          <name>Rotolo aux lentilles et légumes sautés, coulis de tomates</name>
-          <note>Céleri et produits à base de céleri</note>
+          <name>Seitan style kebab, sauce piquante</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Soja et produits à base de soja</note>
           <note>produit constant</note>
           <note>végan</note>
         </meal>
       </category>
       <category name="Non-végétarien (11:00 - 12:29)">
         <meal>
-          <name>Cordon bleu de porc non pané, sauce aux champignons</name>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Produit sans gluten</note>
+          <name>Choucroute maison garnie</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
           <note>non-végétarien</note>
           <note>produit constant</note>
-          <note>produit du Luxembourg</note>
         </meal>
         <meal>
-          <name>Mixed grill de viandes, sauce moutarde</name>
-          <note>Moutarde et produits à base de moutarde</note>
+          <name>Mixed grill de viandes, sauce aux échalotes</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>non-végétarien</note>
           <note>produit constant</note>
         </meal>
       </category>
       <category name="Légumes (11:00 - 12:29)">
         <meal>
-          <name>Carottes persillées</name>
+          <name>Chicons braisés</name>
+          <note>En accompagnement de la grillade ou du plat végétarien</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Produit sans gluten</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Choucroute</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
           <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
@@ -62,20 +74,21 @@
       </category>
       <category name="Féculents (11:00 - 12:29)">
         <meal>
-          <name>Pommes de terre rôties</name>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Produit sans gluten</note>
+          <name>Pommes de terre persillées</name>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Dessert (11:00 - 12:29)">
         <meal>
-          <name>Gâteau renversée aux mirabelles caramélisées</name>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <name>Mousse au miel et fromage blanc</name>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Produit sans gluten</note>
+          <note>biologique</note>
           <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>végétarien</note>
         </meal>
       </category>
       <category name="01.1 Sandwiches végétariens (11:00 - 12:29)">
@@ -636,6 +649,10 @@
       </category>
       <category name="12.2 Emballages et articles à usage unique (11:00 - 12:29)">
         <meal>
+          <name>Sachet pour sandwiches</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
           <name>Serviette en papier (à partir de la 2e serviette)</name>
           <note>produit constant</note>
         </meal>
@@ -672,1412 +689,72 @@
       </category>
       <category name="Entrée (12:30 - 15:00)">
         <meal>
-          <name>Gréng Bounenzopp mat Sauerram</name>
-          <note>Soupe aux haricots verts et sa crème aigre</note>
+          <name>Gréng Bounenzopp</name>
+          <note>Soupe aux haricots verts</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Mini boulettes végétales, sauce tomate</name>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Végétarien (12:30 - 15:00)">
         <meal>
-          <name>Rotolo quorn aux légumes sautés, sauce béchamel</name>
+          <name>Kebab Seitan style, sauce Tzatziki</name>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Végan (12:30 - 15:00)">
         <meal>
-          <name>Rotolo aux lentilles et légumes sautés, coulis de tomates</name>
+          <name>Seitan style kebab, sauce piquante</name>
           <note>produit constant</note>
           <note>végan</note>
         </meal>
       </category>
       <category name="Non-végétarien (12:30 - 15:00)">
         <meal>
-          <name>Cordon bleu de porc non pané, sauce aux champignons</name>
-          <note>Produit sans gluten</note>
+          <name>Choucroute maison garnie</name>
           <note>non-végétarien</note>
           <note>produit constant</note>
-          <note>produit du Luxembourg</note>
         </meal>
         <meal>
-          <name>Mixed grill de viandes, sauce moutarde</name>
+          <name>Mixed grill de viandes, sauce aux échalotes</name>
           <note>non-végétarien</note>
           <note>produit constant</note>
         </meal>
       </category>
       <category name="Légumes (12:30 - 15:00)">
         <meal>
-          <name>Carottes persillées</name>
-          <note>Produit sans gluten</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="Féculents (12:30 - 15:00)">
-        <meal>
-          <name>Pommes de terre rôties</name>
-          <note>Produit sans gluten</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="Dessert (12:30 - 15:00)">
-        <meal>
-          <name>Gâteau renversée aux mirabelles caramélisées</name>
-          <note>produit constant</note>
-        </meal>
-      </category>
-      <category name="01.1 Sandwiches végétariens (12:30 - 15:00)">
-        <meal>
-          <name>½ Levain fromage</name>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
-          <note>Orge</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-          <note>Épeautre)</note>
-        </meal>
-        <meal>
-          <name>½ Levain The ultimate egg Sandwich</name>
-          <note>(01 juillet - 30 septembre)</note>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Moutarde et produits à base de moutarde</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
-          <note>Orge</note>
-          <note>produit constant</note>
-          <note>Épeautre)</note>
-        </meal>
-        <meal>
-          <name>½ Levain Tortilla Olé</name>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
-          <note>Orge</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-          <note>Épeautre)</note>
-        </meal>
-        <meal>
-          <name>Ciabatta tomate-mozzarella et pesto</name>
-          <note>Avoine)</note>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Orge</note>
-          <note>Seigle</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-        <meal>
-          <name>Petit pain blanc fromage</name>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Seigle)</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="01.2 Sandwiches végans (12:30 - 15:00)">
-        <meal>
-          <name>½ Levain Humi (houmous aux légumes locaux grillés)</name>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
-          <note>Orge</note>
-          <note>produit constant</note>
-          <note>végan</note>
-          <note>Épeautre)</note>
-        </meal>
-        <meal>
-          <name>½ tranche de pain</name>
-          <note>Avoine)</note>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
-          <note>Graines de sésame et produits à base de graines de sésame</note>
-          <note>Orge</note>
-          <note>Seigle</note>
-          <note>biologique</note>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-          <note>végan</note>
-        </meal>
-        <meal>
-          <name>Petit pain blanc &quot;Schockelasbotter végan&quot;</name>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
-          <note>Fruits à coque et produits à base de ces fruits (Noisettes)</note>
-          <note>Seigle)</note>
-          <note>produit constant</note>
-          <note>végan</note>
-        </meal>
-        <meal>
-          <name>Petit pain blanc nature</name>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
-          <note>Seigle)</note>
-          <note>produit constant</note>
-          <note>végan</note>
-        </meal>
-      </category>
-      <category name="01.3 Sandwiches non-végétariens (12:30 - 15:00)">
-        <meal>
-          <name>½ Levain &quot;Great César&quot;</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Moutarde et produits à base de moutarde</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
-          <note>Orge</note>
-          <note>non-végétarien</note>
-          <note>produit constant</note>
-          <note>Épeautre)</note>
-        </meal>
-        <meal>
-          <name>½ Levain &quot;Pastrami&quot;</name>
-          <note>(01 avril - 31 octobre)</note>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
-          <note>Orge</note>
-          <note>non-végétarien</note>
-          <note>produit constant</note>
-          <note>Épeautre)</note>
-        </meal>
-        <meal>
-          <name>½ Levain jambon cuit</name>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
-          <note>Orge</note>
-          <note>non-végétarien</note>
-          <note>produit constant</note>
-          <note>Épeautre)</note>
-        </meal>
-        <meal>
-          <name>½ Levain salami</name>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Moutarde et produits à base de moutarde</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
-          <note>Orge</note>
-          <note>non-végétarien</note>
-          <note>produit constant</note>
-          <note>Épeautre)</note>
-        </meal>
-        <meal>
-          <name>Petit pain blanc jambon cuit</name>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Seigle)</note>
-          <note>non-végétarien</note>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Petit pain blanc salami</name>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Moutarde et produits à base de moutarde</note>
-          <note>Seigle)</note>
-          <note>non-végétarien</note>
-          <note>produit constant</note>
-        </meal>
-      </category>
-      <category name="02. Viennoiseries (12:30 - 15:00)">
-        <meal>
-          <name>Berliner au chocolat 90 g</name>
-          <note>(01 janvier - 30 avril)</note>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-        <meal>
-          <name>Bretzel salé 80 g</name>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-          <note>végan</note>
-        </meal>
-        <meal>
-          <name>Croissant 50 g</name>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
-          <note>Soja et produits à base de soja</note>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-          <note>végétarien</note>
-        </meal>
-        <meal>
-          <name>Croissant fourré 70 g</name>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
-          <note>Fruits à coque et produits à base de ces fruits (Amandes</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Noisettes)</note>
-          <note>Soja et produits à base de soja</note>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-          <note>végétarien</note>
-        </meal>
-        <meal>
-          <name>Huit 80 g</name>
-          <note>(01 septembre - 31 décembre)</note>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
-          <note>Soja et produits à base de soja</note>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-          <note>végétarien</note>
-        </meal>
-        <meal>
-          <name>Pain au chocolat 70 g</name>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
-          <note>Soja et produits à base de soja</note>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-          <note>végétarien</note>
-        </meal>
-        <meal>
-          <name>Poche aux pommes 80 g</name>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-          <note>végétarien</note>
-        </meal>
-        <meal>
-          <name>Streusel 80 g</name>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="03. Gâteaux et cookies maison (12:30 - 15:00)">
-        <meal>
-          <name>Cake au chocolat &quot;commerce équitable&quot; 100 g</name>
-          <note>(01 septembre - 28 février)</note>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
-          <note>Fruits à coque et produits à base de ces fruits (Amandes)</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
-          <note>Soja et produits à base de soja</note>
-          <note>produit Fairtrade</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-        <meal>
-          <name>Cake au potiron 100 g</name>
-          <note>(01 septembre - 28 février)</note>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
-          <note>Fruits à coque et produits à base de ces fruits (Noisettes)</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-        <meal>
-          <name>Tasty Nuts 140 g (Cookie végan noisette)</name>
-          <note>Avoine)</note>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
-          <note>Fruits à coque et produits à base de ces fruits (Noisettes)</note>
-          <note>produit constant</note>
-          <note>végan</note>
-        </meal>
-      </category>
-      <category name="04. Vitamines à emporter (12:30 - 15:00)">
-        <meal>
-          <name>Mini salades 150 g</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Petit bol de potage</name>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="05. Laitages (12:30 - 15:00)">
-        <meal>
-          <name>Lait chocolaté Luxlait 0,25 l Tétra Pack</name>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-          <note>végétarien</note>
-        </meal>
-        <meal>
-          <name>Lait Luxlait BIO 0,25 l Tétra Pack</name>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>biologique</note>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-          <note>végétarien</note>
-        </meal>
-        <meal>
-          <name>Lait Luxlait BIO 0,25 l Tétra Pack (gratuit)</name>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>biologique</note>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-          <note>végétarien</note>
-        </meal>
-        <meal>
-          <name>Mini fromage frais avec coulis de fruits de saison 150 g</name>
-          <note>produit constant</note>
-          <note>végan</note>
-        </meal>
-        <meal>
-          <name>Mini muesli maison &quot;Douceur d'automne&quot; 150 g</name>
-          <note>(01 septembre - 30 novembre)</note>
-          <note>Fruits à coque et produits à base de ces fruits (Noisettes)</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Produit sans gluten</note>
-          <note>Soja et produits à base de soja</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-        <meal>
-          <name>Yaourt aux fruits Luxlait 125 g</name>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-        <meal>
-          <name>Yaourt nature Luxlait 125 g</name>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="06. Fruits (12:30 - 15:00)">
-        <meal>
-          <name>Banane &quot;commerce équitable&quot;</name>
-          <note>produit Fairtrade</note>
-          <note>produit constant</note>
-          <note>végan</note>
-        </meal>
-        <meal>
-          <name>Fruit frais entier</name>
-          <note>produit constant</note>
-          <note>végan</note>
-        </meal>
-        <meal>
-          <name>Mini fruits découpés mélangés/non-mélangés 150 g</name>
-          <note>produit constant</note>
-          <note>végan</note>
-        </meal>
-      </category>
-      <category name="07. Glaces (12:30 - 15:00)">
-        <meal>
-          <name>Cornet Luxlait 130 ml (Chocolat, Fraise, Vanille, Praliné, Mocca-vanille)</name>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
-          <note>Fruits à coque et produits à base de ces fruits (Noisettes)</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Soja et produits à base de soja</note>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-        </meal>
-        <meal>
-          <name>Dame Blanche Luxlait 200 ml</name>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-        </meal>
-        <meal>
-          <name>Frozen Yogurt Luxlait 200 ml (Fraise, Framboise, Vanille)</name>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-        </meal>
-        <meal>
-          <name>Glace miniature Luxlait 100 ml (Framboise, Praliné, Vanille)</name>
-          <note>Fruits à coque et produits à base de ces fruits (Noisettes)</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Soja et produits à base de soja</note>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-        </meal>
-        <meal>
-          <name>Godet Luxlait 100 ml (Mocca, Vanille, Fraise)</name>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-        </meal>
-      </category>
-      <category name="08. Pâtisserie (12:30 - 15:00)">
-        <meal>
-          <name>Dessert du Jour</name>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="10.1 Boissons froides - Eau minérale et pétillante (12:30 - 15:00)">
-        <meal>
-          <name>Lodyss fine pétillante 0,25 l btl</name>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-        </meal>
-        <meal>
-          <name>Lodyss plate 0,25 l btl</name>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-        </meal>
-        <meal>
-          <name>Rosport Blue 0,25 l btl</name>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-        </meal>
-        <meal>
-          <name>Rosport Blue 0,50 l btl</name>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-        </meal>
-        <meal>
-          <name>Rosport Blue 1,00 l btl</name>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-        </meal>
-        <meal>
-          <name>Viva 0,25 l btl</name>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-        </meal>
-        <meal>
-          <name>Viva 0,50 l btl</name>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-        </meal>
-        <meal>
-          <name>Viva 1,00 l btl</name>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-        </meal>
-      </category>
-      <category name="10.2 Boissons froides - Jus (12:30 - 15:00)">
-        <meal>
-          <name>Lëtzbuerger Drauwejus 0,25 l btl</name>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-        </meal>
-        <meal>
-          <name>Ramborn Apple &amp; Quince Juice 0,33 l btl</name>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-        </meal>
-        <meal>
-          <name>Ramborn Apple Juice 0,33 btl</name>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-        </meal>
-        <meal>
-          <name>Ramborn Apple Soda 0,33 l btl</name>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-        </meal>
-        <meal>
-          <name>Ramborn Pear Apple Juice 0,33 l btl</name>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-        </meal>
-        <meal>
-          <name>Rosport Sunny Citron-Gingembre 0,50 l non consigné</name>
-          <note>produit constant</note>
-        </meal>
-      </category>
-      <category name="10.3 Boissons froides - Sodas (12:30 - 15:00)">
-        <meal>
-          <name>Fuze Tea - Black Tea Pêche/Hibiscus 0,20 l btl</name>
-          <note>produit constant</note>
-        </meal>
-      </category>
-      <category name="11. Boissons chaudes (12:30 - 15:00)">
-        <meal>
-          <name>Café &quot;commerce équitable&quot;</name>
-          <note>produit Fairtrade</note>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Cappuccino</name>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Chocolat chaud &quot;Commerce équitable&quot;</name>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Soja et produits à base de soja</note>
-          <note>produit Fairtrade</note>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Espresso</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Espresso double</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Thé &quot;commerce équitable&quot;</name>
-          <note>produit Fairtrade</note>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Thermo Café 1,00 l</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Thermo Café 1,50 l</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Tisane</name>
-          <note>produit constant</note>
-          <note>végan</note>
-        </meal>
-      </category>
-      <category name="12.1 Emballages et articles réutilisables (12:30 - 15:00)">
-        <meal>
-          <name>Consigne ECOBOX (1000 ml)</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Consigne ECOBOX (500 ml)</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>myBento</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>myBowl</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>myCan</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>myFrupstut</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>myKit</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>myMiniBowl</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>myMug</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>myNapkin</name>
-          <note>produit Fairtrade</note>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Remboursement Consigne ECOBOX (1000 ml)</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Remboursement Consigne ECOBOX (500 ml)</name>
-          <note>produit constant</note>
-        </meal>
-      </category>
-      <category name="12.2 Emballages et articles à usage unique (12:30 - 15:00)">
-        <meal>
-          <name>Serviette en papier (à partir de la 2e serviette)</name>
-          <note>produit constant</note>
-        </meal>
-      </category>
-      <category name="16. Actions thématiques (12:30 - 15:00)">
-        <meal>
-          <name>Plats « Antigaspi To-Go »</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Produits constants « Antigaspi To-Go »</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Repas &quot;Personnel du lot&quot;</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule complète</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule partielle</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule plat</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule snack</name>
-          <note>produit constant</note>
-        </meal>
-      </category>
-    </day>
-    <day date="2024-09-18">
-      <category name="Entrée (11:00 - 12:29)">
-        <meal>
-          <name>Tomate mozzarella, pesto maison</name>
-          <note>Fruits à coque et produits à base de ces fruits (Amandes)</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-        <meal>
-          <name>Velouté de carottes</name>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="Végétarien (11:00 - 12:29)">
-        <meal>
-          <name>Paupiettes aux légumes verts farcies à la ricotta fouettée aux aromates</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
-          <note>Céleri et produits à base de céleri</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Produit sans gluten</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="Végan (11:00 - 12:29)">
-        <meal>
-          <name>Paupiettes aux légumes verts farcies au tofu et aux aromates</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
-          <note>Céleri et produits à base de céleri</note>
-          <note>Produit sans gluten</note>
-          <note>Soja et produits à base de soja</note>
-          <note>produit constant</note>
-          <note>végan</note>
-        </meal>
-      </category>
-      <category name="Non-végétarien (11:00 - 12:29)">
-        <meal>
-          <name>Cheeseburger maison, sauce Andalouse</name>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
-          <note>Graines de sésame et produits à base de graines de sésame</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Moutarde et produits à base de moutarde</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
-          <note>non-végétarien</note>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Mignon de porc grillé, sauce moutarde</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Moutarde et produits à base de moutarde</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
-          <note>non-végétarien</note>
-          <note>produit constant</note>
-        </meal>
-      </category>
-      <category name="Légumes (11:00 - 12:29)">
-        <meal>
-          <name>Bouquetière de légumes frais au beurre d'ail</name>
-          <note>Céleri et produits à base de céleri</note>
+          <name>Chicons braisés</name>
           <note>En accompagnement de la grillade ou du plat végétarien</note>
           <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
         <meal>
-          <name>Salade Coleslaw</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Moutarde et produits à base de moutarde</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="Féculents (11:00 - 12:29)">
-        <meal>
-          <name>Pommes de terre rissolées</name>
+          <name>Choucroute</name>
           <note>Produit sans gluten</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="Dessert (11:00 - 12:29)">
-        <meal>
-          <name>Tiramisu à la ricotta</name>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="01.1 Sandwiches végétariens (11:00 - 12:29)">
-        <meal>
-          <name>½ Levain fromage</name>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
-          <note>Orge</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-          <note>Épeautre)</note>
-        </meal>
-        <meal>
-          <name>½ Levain The ultimate egg Sandwich</name>
-          <note>(01 juillet - 30 septembre)</note>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Moutarde et produits à base de moutarde</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
-          <note>Orge</note>
-          <note>produit constant</note>
-          <note>Épeautre)</note>
-        </meal>
-        <meal>
-          <name>½ Levain Tortilla Olé</name>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
-          <note>Orge</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-          <note>Épeautre)</note>
-        </meal>
-        <meal>
-          <name>Ciabatta tomate-mozzarella et pesto</name>
-          <note>Avoine)</note>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Orge</note>
-          <note>Seigle</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-        <meal>
-          <name>Petit pain blanc fromage</name>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Seigle)</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="01.2 Sandwiches végans (11:00 - 12:29)">
-        <meal>
-          <name>½ Levain Humi (houmous aux légumes locaux grillés)</name>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
-          <note>Orge</note>
-          <note>produit constant</note>
-          <note>végan</note>
-          <note>Épeautre)</note>
-        </meal>
-        <meal>
-          <name>½ tranche de pain</name>
-          <note>Avoine)</note>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
-          <note>Graines de sésame et produits à base de graines de sésame</note>
-          <note>Orge</note>
-          <note>Seigle</note>
-          <note>biologique</note>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-          <note>végan</note>
-        </meal>
-        <meal>
-          <name>Petit pain blanc &quot;Schockelasbotter végan&quot;</name>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
-          <note>Fruits à coque et produits à base de ces fruits (Noisettes)</note>
-          <note>Seigle)</note>
-          <note>produit constant</note>
-          <note>végan</note>
-        </meal>
-        <meal>
-          <name>Petit pain blanc nature</name>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
-          <note>Seigle)</note>
-          <note>produit constant</note>
-          <note>végan</note>
-        </meal>
-      </category>
-      <category name="01.3 Sandwiches non-végétariens (11:00 - 12:29)">
-        <meal>
-          <name>½ Levain &quot;Great César&quot;</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Moutarde et produits à base de moutarde</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
-          <note>Orge</note>
-          <note>non-végétarien</note>
-          <note>produit constant</note>
-          <note>Épeautre)</note>
-        </meal>
-        <meal>
-          <name>½ Levain &quot;Pastrami&quot;</name>
-          <note>(01 avril - 31 octobre)</note>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
-          <note>Orge</note>
-          <note>non-végétarien</note>
-          <note>produit constant</note>
-          <note>Épeautre)</note>
-        </meal>
-        <meal>
-          <name>½ Levain jambon cuit</name>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
-          <note>Orge</note>
-          <note>non-végétarien</note>
-          <note>produit constant</note>
-          <note>Épeautre)</note>
-        </meal>
-        <meal>
-          <name>½ Levain salami</name>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Moutarde et produits à base de moutarde</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
-          <note>Orge</note>
-          <note>non-végétarien</note>
-          <note>produit constant</note>
-          <note>Épeautre)</note>
-        </meal>
-        <meal>
-          <name>Petit pain blanc jambon cuit</name>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Seigle)</note>
-          <note>non-végétarien</note>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Petit pain blanc salami</name>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Moutarde et produits à base de moutarde</note>
-          <note>Seigle)</note>
-          <note>non-végétarien</note>
-          <note>produit constant</note>
-        </meal>
-      </category>
-      <category name="02. Viennoiseries (11:00 - 12:29)">
-        <meal>
-          <name>Berliner au chocolat 90 g</name>
-          <note>(01 janvier - 30 avril)</note>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-        <meal>
-          <name>Bretzel salé 80 g</name>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-          <note>végan</note>
-        </meal>
-        <meal>
-          <name>Croissant 50 g</name>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
-          <note>Soja et produits à base de soja</note>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-          <note>végétarien</note>
-        </meal>
-        <meal>
-          <name>Croissant fourré 70 g</name>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
-          <note>Fruits à coque et produits à base de ces fruits (Amandes</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Noisettes)</note>
-          <note>Soja et produits à base de soja</note>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-          <note>végétarien</note>
-        </meal>
-        <meal>
-          <name>Huit 80 g</name>
-          <note>(01 septembre - 31 décembre)</note>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
-          <note>Soja et produits à base de soja</note>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-          <note>végétarien</note>
-        </meal>
-        <meal>
-          <name>Pain au chocolat 70 g</name>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
-          <note>Soja et produits à base de soja</note>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-          <note>végétarien</note>
-        </meal>
-        <meal>
-          <name>Poche aux pommes 80 g</name>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-          <note>végétarien</note>
-        </meal>
-        <meal>
-          <name>Streusel 80 g</name>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="03. Gâteaux et cookies maison (11:00 - 12:29)">
-        <meal>
-          <name>Cake au chocolat &quot;commerce équitable&quot; 100 g</name>
-          <note>(01 septembre - 28 février)</note>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
-          <note>Fruits à coque et produits à base de ces fruits (Amandes)</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
-          <note>Soja et produits à base de soja</note>
-          <note>produit Fairtrade</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-        <meal>
-          <name>Cake au potiron 100 g</name>
-          <note>(01 septembre - 28 février)</note>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
-          <note>Fruits à coque et produits à base de ces fruits (Noisettes)</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-        <meal>
-          <name>Tasty Nuts 140 g (Cookie végan noisette)</name>
-          <note>Avoine)</note>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
-          <note>Fruits à coque et produits à base de ces fruits (Noisettes)</note>
-          <note>produit constant</note>
-          <note>végan</note>
-        </meal>
-      </category>
-      <category name="04. Vitamines à emporter (11:00 - 12:29)">
-        <meal>
-          <name>Mini salades 150 g</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Petit bol de potage</name>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="05. Laitages (11:00 - 12:29)">
-        <meal>
-          <name>Lait chocolaté Luxlait 0,25 l Tétra Pack</name>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-          <note>végétarien</note>
-        </meal>
-        <meal>
-          <name>Lait Luxlait BIO 0,25 l Tétra Pack</name>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>biologique</note>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-          <note>végétarien</note>
-        </meal>
-        <meal>
-          <name>Lait Luxlait BIO 0,25 l Tétra Pack (gratuit)</name>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>biologique</note>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-          <note>végétarien</note>
-        </meal>
-        <meal>
-          <name>Mini fromage frais avec coulis de fruits de saison 150 g</name>
-          <note>produit constant</note>
-          <note>végan</note>
-        </meal>
-        <meal>
-          <name>Mini muesli maison &quot;Douceur d'automne&quot; 150 g</name>
-          <note>(01 septembre - 30 novembre)</note>
-          <note>Fruits à coque et produits à base de ces fruits (Noisettes)</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Produit sans gluten</note>
-          <note>Soja et produits à base de soja</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-        <meal>
-          <name>Yaourt aux fruits Luxlait 125 g</name>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-        <meal>
-          <name>Yaourt nature Luxlait 125 g</name>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="06. Fruits (11:00 - 12:29)">
-        <meal>
-          <name>Banane &quot;commerce équitable&quot;</name>
-          <note>produit Fairtrade</note>
-          <note>produit constant</note>
-          <note>végan</note>
-        </meal>
-        <meal>
-          <name>Fruit frais entier</name>
-          <note>produit constant</note>
-          <note>végan</note>
-        </meal>
-        <meal>
-          <name>Mini fruits découpés mélangés/non-mélangés 150 g</name>
-          <note>produit constant</note>
-          <note>végan</note>
-        </meal>
-      </category>
-      <category name="07. Glaces (11:00 - 12:29)">
-        <meal>
-          <name>Cornet Luxlait 130 ml (Chocolat, Fraise, Vanille, Praliné, Mocca-vanille)</name>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
-          <note>Fruits à coque et produits à base de ces fruits (Noisettes)</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Soja et produits à base de soja</note>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-        </meal>
-        <meal>
-          <name>Dame Blanche Luxlait 200 ml</name>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-        </meal>
-        <meal>
-          <name>Frozen Yogurt Luxlait 200 ml (Fraise, Framboise, Vanille)</name>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-        </meal>
-        <meal>
-          <name>Glace miniature Luxlait 100 ml (Framboise, Praliné, Vanille)</name>
-          <note>Fruits à coque et produits à base de ces fruits (Noisettes)</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Soja et produits à base de soja</note>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-        </meal>
-        <meal>
-          <name>Godet Luxlait 100 ml (Mocca, Vanille, Fraise)</name>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-        </meal>
-      </category>
-      <category name="08. Pâtisserie (11:00 - 12:29)">
-        <meal>
-          <name>Dessert du Jour</name>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="10.1 Boissons froides - Eau minérale et pétillante (11:00 - 12:29)">
-        <meal>
-          <name>Lodyss fine pétillante 0,25 l btl</name>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-        </meal>
-        <meal>
-          <name>Lodyss plate 0,25 l btl</name>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-        </meal>
-        <meal>
-          <name>Rosport Blue 0,25 l btl</name>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-        </meal>
-        <meal>
-          <name>Rosport Blue 0,50 l btl</name>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-        </meal>
-        <meal>
-          <name>Rosport Blue 1,00 l btl</name>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-        </meal>
-        <meal>
-          <name>Viva 0,25 l btl</name>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-        </meal>
-        <meal>
-          <name>Viva 0,50 l btl</name>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-        </meal>
-        <meal>
-          <name>Viva 1,00 l btl</name>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-        </meal>
-      </category>
-      <category name="10.2 Boissons froides - Jus (11:00 - 12:29)">
-        <meal>
-          <name>Lëtzbuerger Drauwejus 0,25 l btl</name>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-        </meal>
-        <meal>
-          <name>Ramborn Apple &amp; Quince Juice 0,33 l btl</name>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-        </meal>
-        <meal>
-          <name>Ramborn Apple Juice 0,33 btl</name>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-        </meal>
-        <meal>
-          <name>Ramborn Apple Soda 0,33 l btl</name>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-        </meal>
-        <meal>
-          <name>Ramborn Pear Apple Juice 0,33 l btl</name>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-        </meal>
-        <meal>
-          <name>Rosport Sunny Citron-Gingembre 0,50 l non consigné</name>
-          <note>produit constant</note>
-        </meal>
-      </category>
-      <category name="10.3 Boissons froides - Sodas (11:00 - 12:29)">
-        <meal>
-          <name>Fuze Tea - Black Tea Pêche/Hibiscus 0,20 l btl</name>
-          <note>produit constant</note>
-        </meal>
-      </category>
-      <category name="11. Boissons chaudes (11:00 - 12:29)">
-        <meal>
-          <name>Café &quot;commerce équitable&quot;</name>
-          <note>produit Fairtrade</note>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Cappuccino</name>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Chocolat chaud &quot;Commerce équitable&quot;</name>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Soja et produits à base de soja</note>
-          <note>produit Fairtrade</note>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Espresso</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Espresso double</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Thé &quot;commerce équitable&quot;</name>
-          <note>produit Fairtrade</note>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Thermo Café 1,00 l</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Thermo Café 1,50 l</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Tisane</name>
-          <note>produit constant</note>
-          <note>végan</note>
-        </meal>
-      </category>
-      <category name="12.1 Emballages et articles réutilisables (11:00 - 12:29)">
-        <meal>
-          <name>Consigne ECOBOX (1000 ml)</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Consigne ECOBOX (500 ml)</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>myBento</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>myBowl</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>myCan</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>myFrupstut</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>myKit</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>myMiniBowl</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>myMug</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>myNapkin</name>
-          <note>produit Fairtrade</note>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Remboursement Consigne ECOBOX (1000 ml)</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Remboursement Consigne ECOBOX (500 ml)</name>
-          <note>produit constant</note>
-        </meal>
-      </category>
-      <category name="12.2 Emballages et articles à usage unique (11:00 - 12:29)">
-        <meal>
-          <name>Serviette en papier (à partir de la 2e serviette)</name>
-          <note>produit constant</note>
-        </meal>
-      </category>
-      <category name="16. Actions thématiques (11:00 - 12:29)">
-        <meal>
-          <name>Plats « Antigaspi To-Go »</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Produits constants « Antigaspi To-Go »</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Repas &quot;Personnel du lot&quot;</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule complète</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule partielle</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule plat</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule snack</name>
-          <note>produit constant</note>
-        </meal>
-      </category>
-      <category name="Entrée (12:30 - 15:00)">
-        <meal>
-          <name>Tomate mozzarella, pesto maison</name>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-        <meal>
-          <name>Velouté de carottes</name>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="Végétarien (12:30 - 15:00)">
-        <meal>
-          <name>Paupiettes aux légumes verts farcies à la ricotta fouettée aux aromates</name>
-          <note>Produit sans gluten</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="Végan (12:30 - 15:00)">
-        <meal>
-          <name>Paupiettes aux légumes verts farcies au tofu et aux aromates</name>
-          <note>Produit sans gluten</note>
-          <note>produit constant</note>
-          <note>végan</note>
-        </meal>
-      </category>
-      <category name="Non-végétarien (12:30 - 15:00)">
-        <meal>
-          <name>Cheeseburger maison, sauce Andalouse</name>
-          <note>non-végétarien</note>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Mignon de porc grillé, sauce moutarde</name>
-          <note>non-végétarien</note>
-          <note>produit constant</note>
-        </meal>
-      </category>
-      <category name="Légumes (12:30 - 15:00)">
-        <meal>
-          <name>Bouquetière de légumes frais au beurre d'ail</name>
-          <note>En accompagnement de la grillade ou du plat végétarien</note>
-          <note>Produit sans gluten</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-        <meal>
-          <name>Salade Coleslaw</name>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Féculents (12:30 - 15:00)">
         <meal>
-          <name>Pommes de terre rissolées</name>
-          <note>Produit sans gluten</note>
+          <name>Pommes de terre persillées</name>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Dessert (12:30 - 15:00)">
         <meal>
-          <name>Tiramisu à la ricotta</name>
+          <name>Mousse au miel et fromage blanc</name>
+          <note>Produit sans gluten</note>
+          <note>biologique</note>
           <note>produit constant</note>
+          <note>produit du Luxembourg</note>
           <note>végétarien</note>
         </meal>
       </category>
@@ -2639,6 +1316,10 @@
       </category>
       <category name="12.2 Emballages et articles à usage unique (12:30 - 15:00)">
         <meal>
+          <name>Sachet pour sandwiches</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
           <name>Serviette en papier (à partir de la 2e serviette)</name>
           <note>produit constant</note>
         </meal>
@@ -2674,81 +1355,83 @@
         </meal>
       </category>
     </day>
-    <day date="2024-09-19">
+    <day date="2024-09-24">
       <category name="Entrée (11:00 - 12:29)">
         <meal>
-          <name>Soupe aux poireaux et sa quenelle de crème épaisse au curry</name>
+          <name>Crème aux champignons des bois</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Salad'bar</name>
+          <note>non-végétarien</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Végétarien (11:00 - 12:29)">
         <meal>
-          <name>Champignons à l'ail, polenta crémeuse, tomates marinées</name>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Produit sans gluten</note>
+          <name>Epeautre au bouillon corsé, légumes racines et pommes de terre rôties</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Épeautre)</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Végan (11:00 - 12:29)">
         <meal>
-          <name>Champignons à l'ail, polenta moelleuse, tomates marinées</name>
-          <note>Produit sans gluten</note>
+          <name>Epeautre au bouillon corsé, légumes racines et pommes de terre rôties</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Épeautre)</note>
           <note>produit constant</note>
           <note>végan</note>
         </meal>
       </category>
       <category name="Non-végétarien (11:00 - 12:29)">
         <meal>
-          <name>Kebab de boeuf mariné, sauce Tzatziki</name>
+          <name>Chicken plate, chili sauce</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
-          <note>Graines de sésame et produits à base de graines de sésame</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Produit sans gluten</note>
           <note>non-végétarien</note>
           <note>produit constant</note>
         </meal>
         <meal>
-          <name>Mignon de porc grillé, sauce moutarde</name>
+          <name>Mixed grill de viandes, sauce aux échalotes</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Moutarde et produits à base de moutarde</note>
           <note>non-végétarien</note>
           <note>produit constant</note>
         </meal>
       </category>
       <category name="Légumes (11:00 - 12:29)">
         <meal>
-          <name>Légumes kebab</name>
+          <name>Potiron rôti aux épices</name>
           <note>Produit sans gluten</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-        <meal>
-          <name>Tomate grillée</name>
-          <note>En accompagnement du plat végétarien ou grillade</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Féculents (11:00 - 12:29)">
         <meal>
-          <name>Pommes de terre &quot;wedges&quot; maison</name>
+          <name>Riz sauté</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Dessert (11:00 - 12:29)">
         <meal>
-          <name>Crème brûlée aux fruits rouges</name>
+          <name>Äppel am Schäffchen mat Klapp Schmant</name>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Pomme au four, crème chantilly</note>
           <note>Produit sans gluten</note>
           <note>produit constant</note>
+          <note>végétarien</note>
         </meal>
       </category>
       <category name="01.1 Sandwiches végétariens (11:00 - 12:29)">
@@ -3309,6 +1992,10 @@
       </category>
       <category name="12.2 Emballages et articles à usage unique (11:00 - 12:29)">
         <meal>
+          <name>Sachet pour sandwiches</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
           <name>Serviette en papier (à partir de la 2e serviette)</name>
           <note>produit constant</note>
         </meal>
@@ -3345,65 +2032,67 @@
       </category>
       <category name="Entrée (12:30 - 15:00)">
         <meal>
-          <name>Soupe aux poireaux et sa quenelle de crème épaisse au curry</name>
+          <name>Crème aux champignons des bois</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Salad'bar</name>
+          <note>non-végétarien</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Végétarien (12:30 - 15:00)">
         <meal>
-          <name>Champignons à l'ail, polenta crémeuse, tomates marinées</name>
-          <note>Produit sans gluten</note>
+          <name>Epeautre au bouillon corsé, légumes racines et pommes de terre rôties</name>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Végan (12:30 - 15:00)">
         <meal>
-          <name>Champignons à l'ail, polenta moelleuse, tomates marinées</name>
-          <note>Produit sans gluten</note>
+          <name>Epeautre au bouillon corsé, légumes racines et pommes de terre rôties</name>
           <note>produit constant</note>
           <note>végan</note>
         </meal>
       </category>
       <category name="Non-végétarien (12:30 - 15:00)">
         <meal>
-          <name>Kebab de boeuf mariné, sauce Tzatziki</name>
+          <name>Chicken plate, chili sauce</name>
+          <note>Produit sans gluten</note>
           <note>non-végétarien</note>
           <note>produit constant</note>
         </meal>
         <meal>
-          <name>Mignon de porc grillé, sauce moutarde</name>
+          <name>Mixed grill de viandes, sauce aux échalotes</name>
           <note>non-végétarien</note>
           <note>produit constant</note>
         </meal>
       </category>
       <category name="Légumes (12:30 - 15:00)">
         <meal>
-          <name>Légumes kebab</name>
+          <name>Potiron rôti aux épices</name>
           <note>Produit sans gluten</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-        <meal>
-          <name>Tomate grillée</name>
-          <note>En accompagnement du plat végétarien ou grillade</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Féculents (12:30 - 15:00)">
         <meal>
-          <name>Pommes de terre &quot;wedges&quot; maison</name>
+          <name>Riz sauté</name>
+          <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Dessert (12:30 - 15:00)">
         <meal>
-          <name>Crème brûlée aux fruits rouges</name>
+          <name>Äppel am Schäffchen mat Klapp Schmant</name>
+          <note>Pomme au four, crème chantilly</note>
           <note>Produit sans gluten</note>
           <note>produit constant</note>
+          <note>végétarien</note>
         </meal>
       </category>
       <category name="01.1 Sandwiches végétariens (12:30 - 15:00)">
@@ -3964,6 +2653,10 @@
       </category>
       <category name="12.2 Emballages et articles à usage unique (12:30 - 15:00)">
         <meal>
+          <name>Sachet pour sandwiches</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
           <name>Serviette en papier (à partir de la 2e serviette)</name>
           <note>produit constant</note>
         </meal>
@@ -3999,23 +2692,1378 @@
         </meal>
       </category>
     </day>
-    <day date="2024-09-20">
+    <day date="2024-09-25">
       <category name="Entrée (11:00 - 12:29)">
         <meal>
-          <name>Geméiszopp</name>
-          <note>Céleri et produits à base de céleri</note>
+          <name>Beignets de potiron, dip au fromage frais et herbes</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>biologique</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Bouillon de légumes aux saveurs exotiques</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Céleri et produits à base de céleri</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Végétarien (11:00 - 12:29)">
+        <meal>
+          <name>Wok au tofu mariné et légumes croquants</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Produit sans gluten</note>
+          <note>Soja et produits à base de soja</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Végan (11:00 - 12:29)">
+        <meal>
+          <name>Wok au tofu mariné et légumes croquants</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Produit sans gluten</note>
+          <note>Soja et produits à base de soja</note>
+          <note>produit constant</note>
+          <note>végan</note>
+        </meal>
+      </category>
+      <category name="Non-végétarien (11:00 - 12:29)">
+        <meal>
+          <name>Chipolatas rôties, jus réduit</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Céleri et produits à base de céleri</note>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Mixed grill de viandes, sauce aux échalotes</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="Légumes (11:00 - 12:29)">
+        <meal>
+          <name>Chou fleur aux échalotes</name>
+          <note>Produit sans gluten</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Féculents (11:00 - 12:29)">
+        <meal>
+          <name>Gromperegratin</name>
+          <note>Gratin dauphinois</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Produit sans gluten</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Dessert (11:00 - 12:29)">
+        <meal>
+          <name>Tiramisu</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Produit du Benelux</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="01.1 Sandwiches végétariens (11:00 - 12:29)">
+        <meal>
+          <name>½ Levain fromage</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Orge</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+          <note>Épeautre)</note>
+        </meal>
+        <meal>
+          <name>½ Levain The ultimate egg Sandwich</name>
+          <note>(01 juillet - 30 septembre)</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Moutarde et produits à base de moutarde</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Orge</note>
+          <note>produit constant</note>
+          <note>Épeautre)</note>
+        </meal>
+        <meal>
+          <name>½ Levain Tortilla Olé</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Orge</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+          <note>Épeautre)</note>
+        </meal>
+        <meal>
+          <name>Ciabatta tomate-mozzarella et pesto</name>
+          <note>Avoine)</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Orge</note>
+          <note>Seigle</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Petit pain blanc fromage</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Seigle)</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="01.2 Sandwiches végans (11:00 - 12:29)">
+        <meal>
+          <name>½ Levain Humi (houmous aux légumes locaux grillés)</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Orge</note>
+          <note>produit constant</note>
+          <note>végan</note>
+          <note>Épeautre)</note>
+        </meal>
+        <meal>
+          <name>½ tranche de pain</name>
+          <note>Avoine)</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Graines de sésame et produits à base de graines de sésame</note>
+          <note>Orge</note>
+          <note>Seigle</note>
+          <note>biologique</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>végan</note>
+        </meal>
+        <meal>
+          <name>Petit pain blanc &quot;Schockelasbotter végan&quot;</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Fruits à coque et produits à base de ces fruits (Noisettes)</note>
+          <note>Seigle)</note>
+          <note>produit constant</note>
+          <note>végan</note>
+        </meal>
+        <meal>
+          <name>Petit pain blanc nature</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Seigle)</note>
+          <note>produit constant</note>
+          <note>végan</note>
+        </meal>
+      </category>
+      <category name="01.3 Sandwiches non-végétariens (11:00 - 12:29)">
+        <meal>
+          <name>½ Levain &quot;Great César&quot;</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Moutarde et produits à base de moutarde</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Orge</note>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
+          <note>Épeautre)</note>
+        </meal>
+        <meal>
+          <name>½ Levain &quot;Pastrami&quot;</name>
+          <note>(01 avril - 31 octobre)</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Orge</note>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
+          <note>Épeautre)</note>
+        </meal>
+        <meal>
+          <name>½ Levain jambon cuit</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Orge</note>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
+          <note>Épeautre)</note>
+        </meal>
+        <meal>
+          <name>½ Levain salami</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Moutarde et produits à base de moutarde</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Orge</note>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
+          <note>Épeautre)</note>
+        </meal>
+        <meal>
+          <name>Petit pain blanc jambon cuit</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Seigle)</note>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Petit pain blanc salami</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Moutarde et produits à base de moutarde</note>
+          <note>Seigle)</note>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="02. Viennoiseries (11:00 - 12:29)">
+        <meal>
+          <name>Berliner au chocolat 90 g</name>
+          <note>(01 janvier - 30 avril)</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Bretzel salé 80 g</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>végan</note>
+        </meal>
+        <meal>
+          <name>Croissant 50 g</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Soja et produits à base de soja</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Croissant fourré 70 g</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Fruits à coque et produits à base de ces fruits (Amandes</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Noisettes)</note>
+          <note>Soja et produits à base de soja</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Huit 80 g</name>
+          <note>(01 septembre - 31 décembre)</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Soja et produits à base de soja</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Pain au chocolat 70 g</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Soja et produits à base de soja</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Poche aux pommes 80 g</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Streusel 80 g</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="03. Gâteaux et cookies maison (11:00 - 12:29)">
+        <meal>
+          <name>Cake au chocolat &quot;commerce équitable&quot; 100 g</name>
+          <note>(01 septembre - 28 février)</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Fruits à coque et produits à base de ces fruits (Amandes)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Soja et produits à base de soja</note>
+          <note>produit Fairtrade</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Cake au potiron 100 g</name>
+          <note>(01 septembre - 28 février)</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Fruits à coque et produits à base de ces fruits (Noisettes)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Tasty Nuts 140 g (Cookie végan noisette)</name>
+          <note>Avoine)</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Fruits à coque et produits à base de ces fruits (Noisettes)</note>
+          <note>produit constant</note>
+          <note>végan</note>
+        </meal>
+      </category>
+      <category name="04. Vitamines à emporter (11:00 - 12:29)">
+        <meal>
+          <name>Mini salades 150 g</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Petit bol de potage</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="05. Laitages (11:00 - 12:29)">
+        <meal>
+          <name>Lait chocolaté Luxlait 0,25 l Tétra Pack</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Lait Luxlait BIO 0,25 l Tétra Pack</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>biologique</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Lait Luxlait BIO 0,25 l Tétra Pack (gratuit)</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>biologique</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Mini fromage frais avec coulis de fruits de saison 150 g</name>
+          <note>produit constant</note>
+          <note>végan</note>
+        </meal>
+        <meal>
+          <name>Mini muesli maison &quot;Douceur d'automne&quot; 150 g</name>
+          <note>(01 septembre - 30 novembre)</note>
+          <note>Fruits à coque et produits à base de ces fruits (Noisettes)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Produit sans gluten</note>
+          <note>Soja et produits à base de soja</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Yaourt aux fruits Luxlait 125 g</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Yaourt nature Luxlait 125 g</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="06. Fruits (11:00 - 12:29)">
+        <meal>
+          <name>Banane &quot;commerce équitable&quot;</name>
+          <note>produit Fairtrade</note>
+          <note>produit constant</note>
+          <note>végan</note>
+        </meal>
+        <meal>
+          <name>Fruit frais entier</name>
+          <note>produit constant</note>
+          <note>végan</note>
+        </meal>
+        <meal>
+          <name>Mini fruits découpés mélangés/non-mélangés 150 g</name>
+          <note>produit constant</note>
+          <note>végan</note>
+        </meal>
+      </category>
+      <category name="07. Glaces (11:00 - 12:29)">
+        <meal>
+          <name>Cornet Luxlait 130 ml (Chocolat, Fraise, Vanille, Praliné, Mocca-vanille)</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Fruits à coque et produits à base de ces fruits (Noisettes)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Soja et produits à base de soja</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Dame Blanche Luxlait 200 ml</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Frozen Yogurt Luxlait 200 ml (Fraise, Framboise, Vanille)</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Glace miniature Luxlait 100 ml (Framboise, Praliné, Vanille)</name>
+          <note>Fruits à coque et produits à base de ces fruits (Noisettes)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Soja et produits à base de soja</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Godet Luxlait 100 ml (Mocca, Vanille, Fraise)</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+      </category>
+      <category name="08. Pâtisserie (11:00 - 12:29)">
+        <meal>
+          <name>Dessert du Jour</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="10.1 Boissons froides - Eau minérale et pétillante (11:00 - 12:29)">
+        <meal>
+          <name>Lodyss fine pétillante 0,25 l btl</name>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Lodyss plate 0,25 l btl</name>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Rosport Blue 0,25 l btl</name>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Rosport Blue 0,50 l btl</name>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Rosport Blue 1,00 l btl</name>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Viva 0,25 l btl</name>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Viva 0,50 l btl</name>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Viva 1,00 l btl</name>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+      </category>
+      <category name="10.2 Boissons froides - Jus (11:00 - 12:29)">
+        <meal>
+          <name>Lëtzbuerger Drauwejus 0,25 l btl</name>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Ramborn Apple &amp; Quince Juice 0,33 l btl</name>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Ramborn Apple Juice 0,33 btl</name>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Ramborn Apple Soda 0,33 l btl</name>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Ramborn Pear Apple Juice 0,33 l btl</name>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Rosport Sunny Citron-Gingembre 0,50 l non consigné</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="10.3 Boissons froides - Sodas (11:00 - 12:29)">
+        <meal>
+          <name>Fuze Tea - Black Tea Pêche/Hibiscus 0,20 l btl</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="11. Boissons chaudes (11:00 - 12:29)">
+        <meal>
+          <name>Café &quot;commerce équitable&quot;</name>
+          <note>produit Fairtrade</note>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Cappuccino</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Chocolat chaud &quot;Commerce équitable&quot;</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Soja et produits à base de soja</note>
+          <note>produit Fairtrade</note>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Espresso</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Espresso double</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Thé &quot;commerce équitable&quot;</name>
+          <note>produit Fairtrade</note>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Thermo Café 1,00 l</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Thermo Café 1,50 l</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Tisane</name>
+          <note>produit constant</note>
+          <note>végan</note>
+        </meal>
+      </category>
+      <category name="12.1 Emballages et articles réutilisables (11:00 - 12:29)">
+        <meal>
+          <name>Consigne ECOBOX (1000 ml)</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Consigne ECOBOX (500 ml)</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>myBento</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>myBowl</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>myCan</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>myFrupstut</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>myKit</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>myMiniBowl</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>myMug</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>myNapkin</name>
+          <note>produit Fairtrade</note>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Remboursement Consigne ECOBOX (1000 ml)</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Remboursement Consigne ECOBOX (500 ml)</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="12.2 Emballages et articles à usage unique (11:00 - 12:29)">
+        <meal>
+          <name>Sachet pour sandwiches</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Serviette en papier (à partir de la 2e serviette)</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="16. Actions thématiques (11:00 - 12:29)">
+        <meal>
+          <name>Plats « Antigaspi To-Go »</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Produits constants « Antigaspi To-Go »</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Repas &quot;Personnel du lot&quot;</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Responsable hiérarchique - formule complète</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Responsable hiérarchique - formule partielle</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Responsable hiérarchique - formule plat</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Responsable hiérarchique - formule snack</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="Entrée (12:30 - 15:00)">
+        <meal>
+          <name>Beignets de potiron, dip au fromage frais et herbes</name>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Bouillon de légumes aux saveurs exotiques</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Végétarien (12:30 - 15:00)">
+        <meal>
+          <name>Wok au tofu mariné et légumes croquants</name>
+          <note>Produit sans gluten</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Végan (12:30 - 15:00)">
+        <meal>
+          <name>Wok au tofu mariné et légumes croquants</name>
+          <note>Produit sans gluten</note>
+          <note>produit constant</note>
+          <note>végan</note>
+        </meal>
+      </category>
+      <category name="Non-végétarien (12:30 - 15:00)">
+        <meal>
+          <name>Chipolatas rôties, jus réduit</name>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Mixed grill de viandes, sauce aux échalotes</name>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="Légumes (12:30 - 15:00)">
+        <meal>
+          <name>Chou fleur aux échalotes</name>
+          <note>Produit sans gluten</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Féculents (12:30 - 15:00)">
+        <meal>
+          <name>Gromperegratin</name>
+          <note>Gratin dauphinois</note>
+          <note>Produit sans gluten</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Dessert (12:30 - 15:00)">
+        <meal>
+          <name>Tiramisu</name>
+          <note>Produit du Benelux</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="01.1 Sandwiches végétariens (12:30 - 15:00)">
+        <meal>
+          <name>½ Levain fromage</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Orge</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+          <note>Épeautre)</note>
+        </meal>
+        <meal>
+          <name>½ Levain The ultimate egg Sandwich</name>
+          <note>(01 juillet - 30 septembre)</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Moutarde et produits à base de moutarde</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Orge</note>
+          <note>produit constant</note>
+          <note>Épeautre)</note>
+        </meal>
+        <meal>
+          <name>½ Levain Tortilla Olé</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Orge</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+          <note>Épeautre)</note>
+        </meal>
+        <meal>
+          <name>Ciabatta tomate-mozzarella et pesto</name>
+          <note>Avoine)</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Orge</note>
+          <note>Seigle</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Petit pain blanc fromage</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Seigle)</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="01.2 Sandwiches végans (12:30 - 15:00)">
+        <meal>
+          <name>½ Levain Humi (houmous aux légumes locaux grillés)</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Orge</note>
+          <note>produit constant</note>
+          <note>végan</note>
+          <note>Épeautre)</note>
+        </meal>
+        <meal>
+          <name>½ tranche de pain</name>
+          <note>Avoine)</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Graines de sésame et produits à base de graines de sésame</note>
+          <note>Orge</note>
+          <note>Seigle</note>
+          <note>biologique</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>végan</note>
+        </meal>
+        <meal>
+          <name>Petit pain blanc &quot;Schockelasbotter végan&quot;</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Fruits à coque et produits à base de ces fruits (Noisettes)</note>
+          <note>Seigle)</note>
+          <note>produit constant</note>
+          <note>végan</note>
+        </meal>
+        <meal>
+          <name>Petit pain blanc nature</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Seigle)</note>
+          <note>produit constant</note>
+          <note>végan</note>
+        </meal>
+      </category>
+      <category name="01.3 Sandwiches non-végétariens (12:30 - 15:00)">
+        <meal>
+          <name>½ Levain &quot;Great César&quot;</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Moutarde et produits à base de moutarde</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Orge</note>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
+          <note>Épeautre)</note>
+        </meal>
+        <meal>
+          <name>½ Levain &quot;Pastrami&quot;</name>
+          <note>(01 avril - 31 octobre)</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Orge</note>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
+          <note>Épeautre)</note>
+        </meal>
+        <meal>
+          <name>½ Levain jambon cuit</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Orge</note>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
+          <note>Épeautre)</note>
+        </meal>
+        <meal>
+          <name>½ Levain salami</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Moutarde et produits à base de moutarde</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Orge</note>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
+          <note>Épeautre)</note>
+        </meal>
+        <meal>
+          <name>Petit pain blanc jambon cuit</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Seigle)</note>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Petit pain blanc salami</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Moutarde et produits à base de moutarde</note>
+          <note>Seigle)</note>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="02. Viennoiseries (12:30 - 15:00)">
+        <meal>
+          <name>Berliner au chocolat 90 g</name>
+          <note>(01 janvier - 30 avril)</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Bretzel salé 80 g</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>végan</note>
+        </meal>
+        <meal>
+          <name>Croissant 50 g</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Soja et produits à base de soja</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Croissant fourré 70 g</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Fruits à coque et produits à base de ces fruits (Amandes</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Noisettes)</note>
+          <note>Soja et produits à base de soja</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Huit 80 g</name>
+          <note>(01 septembre - 31 décembre)</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Soja et produits à base de soja</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Pain au chocolat 70 g</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Soja et produits à base de soja</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Poche aux pommes 80 g</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Streusel 80 g</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="03. Gâteaux et cookies maison (12:30 - 15:00)">
+        <meal>
+          <name>Cake au chocolat &quot;commerce équitable&quot; 100 g</name>
+          <note>(01 septembre - 28 février)</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Fruits à coque et produits à base de ces fruits (Amandes)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Soja et produits à base de soja</note>
+          <note>produit Fairtrade</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Cake au potiron 100 g</name>
+          <note>(01 septembre - 28 février)</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Fruits à coque et produits à base de ces fruits (Noisettes)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Tasty Nuts 140 g (Cookie végan noisette)</name>
+          <note>Avoine)</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Fruits à coque et produits à base de ces fruits (Noisettes)</note>
+          <note>produit constant</note>
+          <note>végan</note>
+        </meal>
+      </category>
+      <category name="04. Vitamines à emporter (12:30 - 15:00)">
+        <meal>
+          <name>Mini salades 150 g</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Petit bol de potage</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="05. Laitages (12:30 - 15:00)">
+        <meal>
+          <name>Lait chocolaté Luxlait 0,25 l Tétra Pack</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Lait Luxlait BIO 0,25 l Tétra Pack</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>biologique</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Lait Luxlait BIO 0,25 l Tétra Pack (gratuit)</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>biologique</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Mini fromage frais avec coulis de fruits de saison 150 g</name>
+          <note>produit constant</note>
+          <note>végan</note>
+        </meal>
+        <meal>
+          <name>Mini muesli maison &quot;Douceur d'automne&quot; 150 g</name>
+          <note>(01 septembre - 30 novembre)</note>
+          <note>Fruits à coque et produits à base de ces fruits (Noisettes)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Produit sans gluten</note>
+          <note>Soja et produits à base de soja</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Yaourt aux fruits Luxlait 125 g</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Yaourt nature Luxlait 125 g</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="06. Fruits (12:30 - 15:00)">
+        <meal>
+          <name>Banane &quot;commerce équitable&quot;</name>
+          <note>produit Fairtrade</note>
+          <note>produit constant</note>
+          <note>végan</note>
+        </meal>
+        <meal>
+          <name>Fruit frais entier</name>
+          <note>produit constant</note>
+          <note>végan</note>
+        </meal>
+        <meal>
+          <name>Mini fruits découpés mélangés/non-mélangés 150 g</name>
+          <note>produit constant</note>
+          <note>végan</note>
+        </meal>
+      </category>
+      <category name="07. Glaces (12:30 - 15:00)">
+        <meal>
+          <name>Cornet Luxlait 130 ml (Chocolat, Fraise, Vanille, Praliné, Mocca-vanille)</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Fruits à coque et produits à base de ces fruits (Noisettes)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Soja et produits à base de soja</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Dame Blanche Luxlait 200 ml</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Frozen Yogurt Luxlait 200 ml (Fraise, Framboise, Vanille)</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Glace miniature Luxlait 100 ml (Framboise, Praliné, Vanille)</name>
+          <note>Fruits à coque et produits à base de ces fruits (Noisettes)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Soja et produits à base de soja</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Godet Luxlait 100 ml (Mocca, Vanille, Fraise)</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+      </category>
+      <category name="08. Pâtisserie (12:30 - 15:00)">
+        <meal>
+          <name>Dessert du Jour</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="10.1 Boissons froides - Eau minérale et pétillante (12:30 - 15:00)">
+        <meal>
+          <name>Lodyss fine pétillante 0,25 l btl</name>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Lodyss plate 0,25 l btl</name>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Rosport Blue 0,25 l btl</name>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Rosport Blue 0,50 l btl</name>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Rosport Blue 1,00 l btl</name>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Viva 0,25 l btl</name>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Viva 0,50 l btl</name>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Viva 1,00 l btl</name>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+      </category>
+      <category name="10.2 Boissons froides - Jus (12:30 - 15:00)">
+        <meal>
+          <name>Lëtzbuerger Drauwejus 0,25 l btl</name>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Ramborn Apple &amp; Quince Juice 0,33 l btl</name>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Ramborn Apple Juice 0,33 btl</name>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Ramborn Apple Soda 0,33 l btl</name>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Ramborn Pear Apple Juice 0,33 l btl</name>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Rosport Sunny Citron-Gingembre 0,50 l non consigné</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="10.3 Boissons froides - Sodas (12:30 - 15:00)">
+        <meal>
+          <name>Fuze Tea - Black Tea Pêche/Hibiscus 0,20 l btl</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="11. Boissons chaudes (12:30 - 15:00)">
+        <meal>
+          <name>Café &quot;commerce équitable&quot;</name>
+          <note>produit Fairtrade</note>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Cappuccino</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Chocolat chaud &quot;Commerce équitable&quot;</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Soja et produits à base de soja</note>
+          <note>produit Fairtrade</note>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Espresso</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Espresso double</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Thé &quot;commerce équitable&quot;</name>
+          <note>produit Fairtrade</note>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Thermo Café 1,00 l</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Thermo Café 1,50 l</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Tisane</name>
+          <note>produit constant</note>
+          <note>végan</note>
+        </meal>
+      </category>
+      <category name="12.1 Emballages et articles réutilisables (12:30 - 15:00)">
+        <meal>
+          <name>Consigne ECOBOX (1000 ml)</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Consigne ECOBOX (500 ml)</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>myBento</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>myBowl</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>myCan</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>myFrupstut</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>myKit</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>myMiniBowl</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>myMug</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>myNapkin</name>
+          <note>produit Fairtrade</note>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Remboursement Consigne ECOBOX (1000 ml)</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Remboursement Consigne ECOBOX (500 ml)</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="12.2 Emballages et articles à usage unique (12:30 - 15:00)">
+        <meal>
+          <name>Sachet pour sandwiches</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Serviette en papier (à partir de la 2e serviette)</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="16. Actions thématiques (12:30 - 15:00)">
+        <meal>
+          <name>Plats « Antigaspi To-Go »</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Produits constants « Antigaspi To-Go »</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Repas &quot;Personnel du lot&quot;</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Responsable hiérarchique - formule complète</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Responsable hiérarchique - formule partielle</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Responsable hiérarchique - formule plat</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Responsable hiérarchique - formule snack</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+    </day>
+    <day date="2024-09-26">
+      <category name="Entrée (11:00 - 12:29)">
+        <meal>
+          <name>Salad'bar</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Fruits à coque et produits à base de ces fruits (Amandes</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Moutarde et produits à base de moutarde</note>
+          <note>Noix)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Poissons et produits à base de poissons</note>
           <note>Produit du Grand Région</note>
-          <note>Soupe aux légumes</note>
           <note>biologique</note>
+          <note>non-végétarien</note>
           <note>produit constant</note>
           <note>produit du Luxembourg</note>
           <note>végétarien</note>
         </meal>
         <meal>
-          <name>Mélange de salades marinées, oeuf poché</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
-          <note>Moutarde et produits à base de moutarde</note>
+          <name>Velouté à l'ail et ses croûtons</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>biologique</note>
           <note>produit constant</note>
           <note>produit du Luxembourg</note>
@@ -4024,78 +4072,76 @@
       </category>
       <category name="Végétarien (11:00 - 12:29)">
         <meal>
-          <name>Paëlla d'été au tempeh sauté</name>
+          <name>Penne tricolore all'arrabbiata et sa julienne de légumes</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
           <note>Céleri et produits à base de céleri</note>
-          <note>Produit sans gluten</note>
-          <note>Soja et produits à base de soja</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Végan (11:00 - 12:29)">
         <meal>
-          <name>Paëlla d'été au tempeh sauté</name>
+          <name>Penne tricolore all'arrabbiata et sa julienne de légumes</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
           <note>Céleri et produits à base de céleri</note>
-          <note>Produit sans gluten</note>
-          <note>Soja et produits à base de soja</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
           <note>produit constant</note>
           <note>végan</note>
         </meal>
       </category>
       <category name="Non-végétarien (11:00 - 12:29)">
         <meal>
-          <name>Paschtéit</name>
+          <name>Omelette jambon cuit, fromage et herbes</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
-          <note>Bouchée à la Reine</note>
-          <note>Céleri et produits à base de céleri</note>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Produit sans gluten</note>
           <note>non-végétarien</note>
           <note>produit constant</note>
         </meal>
         <meal>
-          <name>Mignon de porc grillé, sauce moutarde</name>
+          <name>Mixed grill de viandes, sauce aux échalotes</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Moutarde et produits à base de moutarde</note>
           <note>non-végétarien</note>
           <note>produit constant</note>
         </meal>
       </category>
       <category name="Légumes (11:00 - 12:29)">
         <meal>
-          <name>Petits pois aux échalotes</name>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <name>Kapp Zalot mat Knuewelek an Péiterséileg Zooss</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Moutarde et produits à base de moutarde</note>
           <note>Produit sans gluten</note>
+          <note>Salade verte, vinaigrette à l'ail et au persil</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Tomate grillée au four</name>
+          <note>En accompagnement de la grillade ou du plat végétarien</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Féculents (11:00 - 12:29)">
         <meal>
-          <name>Fritten - Pommes frites</name>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-        <meal>
-          <name>Polenta moelleuse aux herbes</name>
+          <name>Gebootschte Grompere</name>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Produit sans gluten</note>
+          <note>Pommes de terre sautées</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Dessert (11:00 - 12:29)">
         <meal>
-          <name>Tarte aux quetsches et chantilly vanillée</name>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <name>Crème brûlée aux poires</name>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
@@ -4658,6 +4704,10 @@
       </category>
       <category name="12.2 Emballages et articles à usage unique (11:00 - 12:29)">
         <meal>
+          <name>Sachet pour sandwiches</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
           <name>Serviette en papier (à partir de la 2e serviette)</name>
           <note>produit constant</note>
         </meal>
@@ -4694,70 +4744,73 @@
       </category>
       <category name="Entrée (12:30 - 15:00)">
         <meal>
-          <name>Geméiszopp</name>
-          <note>Soupe aux légumes</note>
+          <name>Salad'bar</name>
+          <note>non-végétarien</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
         <meal>
-          <name>Mélange de salades marinées, oeuf poché</name>
+          <name>Velouté à l'ail et ses croûtons</name>
+          <note>biologique</note>
           <note>produit constant</note>
+          <note>produit du Luxembourg</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Végétarien (12:30 - 15:00)">
         <meal>
-          <name>Paëlla d'été au tempeh sauté</name>
-          <note>Produit sans gluten</note>
+          <name>Penne tricolore all'arrabbiata et sa julienne de légumes</name>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Végan (12:30 - 15:00)">
         <meal>
-          <name>Paëlla d'été au tempeh sauté</name>
-          <note>Produit sans gluten</note>
+          <name>Penne tricolore all'arrabbiata et sa julienne de légumes</name>
           <note>produit constant</note>
           <note>végan</note>
         </meal>
       </category>
       <category name="Non-végétarien (12:30 - 15:00)">
         <meal>
-          <name>Paschtéit</name>
-          <note>Bouchée à la Reine</note>
+          <name>Omelette jambon cuit, fromage et herbes</name>
+          <note>Produit sans gluten</note>
           <note>non-végétarien</note>
           <note>produit constant</note>
         </meal>
         <meal>
-          <name>Mignon de porc grillé, sauce moutarde</name>
+          <name>Mixed grill de viandes, sauce aux échalotes</name>
           <note>non-végétarien</note>
           <note>produit constant</note>
         </meal>
       </category>
       <category name="Légumes (12:30 - 15:00)">
         <meal>
-          <name>Petits pois aux échalotes</name>
+          <name>Kapp Zalot mat Knuewelek an Péiterséileg Zooss</name>
           <note>Produit sans gluten</note>
+          <note>Salade verte, vinaigrette à l'ail et au persil</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Tomate grillée au four</name>
+          <note>En accompagnement de la grillade ou du plat végétarien</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Féculents (12:30 - 15:00)">
         <meal>
-          <name>Fritten - Pommes frites</name>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-        <meal>
-          <name>Polenta moelleuse aux herbes</name>
-          <note>Produit sans gluten</note>
+          <name>Gebootschte Grompere</name>
+          <note>Pommes de terre sautées</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Dessert (12:30 - 15:00)">
         <meal>
-          <name>Tarte aux quetsches et chantilly vanillée</name>
+          <name>Crème brûlée aux poires</name>
+          <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
@@ -5320,6 +5373,10 @@
       </category>
       <category name="12.2 Emballages et articles à usage unique (12:30 - 15:00)">
         <meal>
+          <name>Sachet pour sandwiches</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
           <name>Serviette en papier (à partir de la 2e serviette)</name>
           <note>produit constant</note>
         </meal>
@@ -5355,10 +5412,1361 @@
         </meal>
       </category>
     </day>
-    <day date="2024-09-21">
+    <day date="2024-09-27">
+      <category name="Entrée (11:00 - 12:29)">
+        <meal>
+          <name>Feuilleté au fromage de chèvre rôti</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Fruits à coque et produits à base de ces fruits (Noix)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Moutarde et produits à base de moutarde</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Soupe de poireaux</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Végétarien (11:00 - 12:29)">
+        <meal>
+          <name>Pumpkin Pie, dip au yaourt grec épicé</name>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Végan (11:00 - 12:29)">
+        <meal>
+          <name>Pumpkin Pie, tartinade de betteraves</name>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>produit constant</note>
+          <note>végan</note>
+        </meal>
+      </category>
+      <category name="Non-végétarien (11:00 - 12:29)">
+        <meal>
+          <name>Steak haché épicé, oeuf au plat, jus corsé</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Produit sans gluten</note>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Mixed grill de viandes, sauce aux échalotes</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="Légumes (11:00 - 12:29)">
+        <meal>
+          <name>Salsifis au persil</name>
+          <note>Produit sans gluten</note>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="Féculents (11:00 - 12:29)">
+        <meal>
+          <name>Fritten - Pommes frites</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Polenta</name>
+          <note>Produit sans gluten</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Dessert (11:00 - 12:29)">
+        <meal>
+          <name>Tarte au chocolat</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Fruits à coque et produits à base de ces fruits (Noisettes)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>produit Fairtrade</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="01.1 Sandwiches végétariens (11:00 - 12:29)">
+        <meal>
+          <name>½ Levain fromage</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Orge</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+          <note>Épeautre)</note>
+        </meal>
+        <meal>
+          <name>½ Levain The ultimate egg Sandwich</name>
+          <note>(01 juillet - 30 septembre)</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Moutarde et produits à base de moutarde</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Orge</note>
+          <note>produit constant</note>
+          <note>Épeautre)</note>
+        </meal>
+        <meal>
+          <name>½ Levain Tortilla Olé</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Orge</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+          <note>Épeautre)</note>
+        </meal>
+        <meal>
+          <name>Ciabatta tomate-mozzarella et pesto</name>
+          <note>Avoine)</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Orge</note>
+          <note>Seigle</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Petit pain blanc fromage</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Seigle)</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="01.2 Sandwiches végans (11:00 - 12:29)">
+        <meal>
+          <name>½ Levain Humi (houmous aux légumes locaux grillés)</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Orge</note>
+          <note>produit constant</note>
+          <note>végan</note>
+          <note>Épeautre)</note>
+        </meal>
+        <meal>
+          <name>½ tranche de pain</name>
+          <note>Avoine)</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Graines de sésame et produits à base de graines de sésame</note>
+          <note>Orge</note>
+          <note>Seigle</note>
+          <note>biologique</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>végan</note>
+        </meal>
+        <meal>
+          <name>Petit pain blanc &quot;Schockelasbotter végan&quot;</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Fruits à coque et produits à base de ces fruits (Noisettes)</note>
+          <note>Seigle)</note>
+          <note>produit constant</note>
+          <note>végan</note>
+        </meal>
+        <meal>
+          <name>Petit pain blanc nature</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Seigle)</note>
+          <note>produit constant</note>
+          <note>végan</note>
+        </meal>
+      </category>
+      <category name="01.3 Sandwiches non-végétariens (11:00 - 12:29)">
+        <meal>
+          <name>½ Levain &quot;Great César&quot;</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Moutarde et produits à base de moutarde</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Orge</note>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
+          <note>Épeautre)</note>
+        </meal>
+        <meal>
+          <name>½ Levain &quot;Pastrami&quot;</name>
+          <note>(01 avril - 31 octobre)</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Orge</note>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
+          <note>Épeautre)</note>
+        </meal>
+        <meal>
+          <name>½ Levain jambon cuit</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Orge</note>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
+          <note>Épeautre)</note>
+        </meal>
+        <meal>
+          <name>½ Levain salami</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Moutarde et produits à base de moutarde</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Orge</note>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
+          <note>Épeautre)</note>
+        </meal>
+        <meal>
+          <name>Petit pain blanc jambon cuit</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Seigle)</note>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Petit pain blanc salami</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Moutarde et produits à base de moutarde</note>
+          <note>Seigle)</note>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="02. Viennoiseries (11:00 - 12:29)">
+        <meal>
+          <name>Berliner au chocolat 90 g</name>
+          <note>(01 janvier - 30 avril)</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Bretzel salé 80 g</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>végan</note>
+        </meal>
+        <meal>
+          <name>Croissant 50 g</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Soja et produits à base de soja</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Croissant fourré 70 g</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Fruits à coque et produits à base de ces fruits (Amandes</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Noisettes)</note>
+          <note>Soja et produits à base de soja</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Huit 80 g</name>
+          <note>(01 septembre - 31 décembre)</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Soja et produits à base de soja</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Pain au chocolat 70 g</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Soja et produits à base de soja</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Poche aux pommes 80 g</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Streusel 80 g</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="03. Gâteaux et cookies maison (11:00 - 12:29)">
+        <meal>
+          <name>Cake au chocolat &quot;commerce équitable&quot; 100 g</name>
+          <note>(01 septembre - 28 février)</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Fruits à coque et produits à base de ces fruits (Amandes)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Soja et produits à base de soja</note>
+          <note>produit Fairtrade</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Cake au potiron 100 g</name>
+          <note>(01 septembre - 28 février)</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Fruits à coque et produits à base de ces fruits (Noisettes)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Tasty Nuts 140 g (Cookie végan noisette)</name>
+          <note>Avoine)</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Fruits à coque et produits à base de ces fruits (Noisettes)</note>
+          <note>produit constant</note>
+          <note>végan</note>
+        </meal>
+      </category>
+      <category name="04. Vitamines à emporter (11:00 - 12:29)">
+        <meal>
+          <name>Mini salades 150 g</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Petit bol de potage</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="05. Laitages (11:00 - 12:29)">
+        <meal>
+          <name>Lait chocolaté Luxlait 0,25 l Tétra Pack</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Lait Luxlait BIO 0,25 l Tétra Pack</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>biologique</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Lait Luxlait BIO 0,25 l Tétra Pack (gratuit)</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>biologique</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Mini fromage frais avec coulis de fruits de saison 150 g</name>
+          <note>produit constant</note>
+          <note>végan</note>
+        </meal>
+        <meal>
+          <name>Mini muesli maison &quot;Douceur d'automne&quot; 150 g</name>
+          <note>(01 septembre - 30 novembre)</note>
+          <note>Fruits à coque et produits à base de ces fruits (Noisettes)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Produit sans gluten</note>
+          <note>Soja et produits à base de soja</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Yaourt aux fruits Luxlait 125 g</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Yaourt nature Luxlait 125 g</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="06. Fruits (11:00 - 12:29)">
+        <meal>
+          <name>Banane &quot;commerce équitable&quot;</name>
+          <note>produit Fairtrade</note>
+          <note>produit constant</note>
+          <note>végan</note>
+        </meal>
+        <meal>
+          <name>Fruit frais entier</name>
+          <note>produit constant</note>
+          <note>végan</note>
+        </meal>
+        <meal>
+          <name>Mini fruits découpés mélangés/non-mélangés 150 g</name>
+          <note>produit constant</note>
+          <note>végan</note>
+        </meal>
+      </category>
+      <category name="07. Glaces (11:00 - 12:29)">
+        <meal>
+          <name>Cornet Luxlait 130 ml (Chocolat, Fraise, Vanille, Praliné, Mocca-vanille)</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Fruits à coque et produits à base de ces fruits (Noisettes)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Soja et produits à base de soja</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Dame Blanche Luxlait 200 ml</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Frozen Yogurt Luxlait 200 ml (Fraise, Framboise, Vanille)</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Glace miniature Luxlait 100 ml (Framboise, Praliné, Vanille)</name>
+          <note>Fruits à coque et produits à base de ces fruits (Noisettes)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Soja et produits à base de soja</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Godet Luxlait 100 ml (Mocca, Vanille, Fraise)</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+      </category>
+      <category name="08. Pâtisserie (11:00 - 12:29)">
+        <meal>
+          <name>Dessert du Jour</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="10.1 Boissons froides - Eau minérale et pétillante (11:00 - 12:29)">
+        <meal>
+          <name>Lodyss fine pétillante 0,25 l btl</name>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Lodyss plate 0,25 l btl</name>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Rosport Blue 0,25 l btl</name>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Rosport Blue 0,50 l btl</name>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Rosport Blue 1,00 l btl</name>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Viva 0,25 l btl</name>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Viva 0,50 l btl</name>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Viva 1,00 l btl</name>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+      </category>
+      <category name="10.2 Boissons froides - Jus (11:00 - 12:29)">
+        <meal>
+          <name>Lëtzbuerger Drauwejus 0,25 l btl</name>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Ramborn Apple &amp; Quince Juice 0,33 l btl</name>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Ramborn Apple Juice 0,33 btl</name>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Ramborn Apple Soda 0,33 l btl</name>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Ramborn Pear Apple Juice 0,33 l btl</name>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Rosport Sunny Citron-Gingembre 0,50 l non consigné</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="10.3 Boissons froides - Sodas (11:00 - 12:29)">
+        <meal>
+          <name>Fuze Tea - Black Tea Pêche/Hibiscus 0,20 l btl</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="11. Boissons chaudes (11:00 - 12:29)">
+        <meal>
+          <name>Café &quot;commerce équitable&quot;</name>
+          <note>produit Fairtrade</note>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Cappuccino</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Chocolat chaud &quot;Commerce équitable&quot;</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Soja et produits à base de soja</note>
+          <note>produit Fairtrade</note>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Espresso</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Espresso double</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Thé &quot;commerce équitable&quot;</name>
+          <note>produit Fairtrade</note>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Thermo Café 1,00 l</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Thermo Café 1,50 l</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Tisane</name>
+          <note>produit constant</note>
+          <note>végan</note>
+        </meal>
+      </category>
+      <category name="12.1 Emballages et articles réutilisables (11:00 - 12:29)">
+        <meal>
+          <name>Consigne ECOBOX (1000 ml)</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Consigne ECOBOX (500 ml)</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>myBento</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>myBowl</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>myCan</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>myFrupstut</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>myKit</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>myMiniBowl</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>myMug</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>myNapkin</name>
+          <note>produit Fairtrade</note>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Remboursement Consigne ECOBOX (1000 ml)</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Remboursement Consigne ECOBOX (500 ml)</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="12.2 Emballages et articles à usage unique (11:00 - 12:29)">
+        <meal>
+          <name>Sachet pour sandwiches</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Serviette en papier (à partir de la 2e serviette)</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="16. Actions thématiques (11:00 - 12:29)">
+        <meal>
+          <name>Plats « Antigaspi To-Go »</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Produits constants « Antigaspi To-Go »</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Repas &quot;Personnel du lot&quot;</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Responsable hiérarchique - formule complète</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Responsable hiérarchique - formule partielle</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Responsable hiérarchique - formule plat</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Responsable hiérarchique - formule snack</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="Entrée (12:30 - 15:00)">
+        <meal>
+          <name>Feuilleté au fromage de chèvre rôti</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Soupe de poireaux</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Végétarien (12:30 - 15:00)">
+        <meal>
+          <name>Pumpkin Pie, dip au yaourt grec épicé</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Végan (12:30 - 15:00)">
+        <meal>
+          <name>Pumpkin Pie, tartinade de betteraves</name>
+          <note>produit constant</note>
+          <note>végan</note>
+        </meal>
+      </category>
+      <category name="Non-végétarien (12:30 - 15:00)">
+        <meal>
+          <name>Steak haché épicé, oeuf au plat, jus corsé</name>
+          <note>Produit sans gluten</note>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Mixed grill de viandes, sauce aux échalotes</name>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="Légumes (12:30 - 15:00)">
+        <meal>
+          <name>Salsifis au persil</name>
+          <note>Produit sans gluten</note>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="Féculents (12:30 - 15:00)">
+        <meal>
+          <name>Fritten - Pommes frites</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Polenta</name>
+          <note>Produit sans gluten</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Dessert (12:30 - 15:00)">
+        <meal>
+          <name>Tarte au chocolat</name>
+          <note>produit Fairtrade</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="01.1 Sandwiches végétariens (12:30 - 15:00)">
+        <meal>
+          <name>½ Levain fromage</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Orge</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+          <note>Épeautre)</note>
+        </meal>
+        <meal>
+          <name>½ Levain The ultimate egg Sandwich</name>
+          <note>(01 juillet - 30 septembre)</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Moutarde et produits à base de moutarde</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Orge</note>
+          <note>produit constant</note>
+          <note>Épeautre)</note>
+        </meal>
+        <meal>
+          <name>½ Levain Tortilla Olé</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Orge</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+          <note>Épeautre)</note>
+        </meal>
+        <meal>
+          <name>Ciabatta tomate-mozzarella et pesto</name>
+          <note>Avoine)</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Orge</note>
+          <note>Seigle</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Petit pain blanc fromage</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Seigle)</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="01.2 Sandwiches végans (12:30 - 15:00)">
+        <meal>
+          <name>½ Levain Humi (houmous aux légumes locaux grillés)</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Orge</note>
+          <note>produit constant</note>
+          <note>végan</note>
+          <note>Épeautre)</note>
+        </meal>
+        <meal>
+          <name>½ tranche de pain</name>
+          <note>Avoine)</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Graines de sésame et produits à base de graines de sésame</note>
+          <note>Orge</note>
+          <note>Seigle</note>
+          <note>biologique</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>végan</note>
+        </meal>
+        <meal>
+          <name>Petit pain blanc &quot;Schockelasbotter végan&quot;</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Fruits à coque et produits à base de ces fruits (Noisettes)</note>
+          <note>Seigle)</note>
+          <note>produit constant</note>
+          <note>végan</note>
+        </meal>
+        <meal>
+          <name>Petit pain blanc nature</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Seigle)</note>
+          <note>produit constant</note>
+          <note>végan</note>
+        </meal>
+      </category>
+      <category name="01.3 Sandwiches non-végétariens (12:30 - 15:00)">
+        <meal>
+          <name>½ Levain &quot;Great César&quot;</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Moutarde et produits à base de moutarde</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Orge</note>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
+          <note>Épeautre)</note>
+        </meal>
+        <meal>
+          <name>½ Levain &quot;Pastrami&quot;</name>
+          <note>(01 avril - 31 octobre)</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Orge</note>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
+          <note>Épeautre)</note>
+        </meal>
+        <meal>
+          <name>½ Levain jambon cuit</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Orge</note>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
+          <note>Épeautre)</note>
+        </meal>
+        <meal>
+          <name>½ Levain salami</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Moutarde et produits à base de moutarde</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Orge</note>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
+          <note>Épeautre)</note>
+        </meal>
+        <meal>
+          <name>Petit pain blanc jambon cuit</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Seigle)</note>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Petit pain blanc salami</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Moutarde et produits à base de moutarde</note>
+          <note>Seigle)</note>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="02. Viennoiseries (12:30 - 15:00)">
+        <meal>
+          <name>Berliner au chocolat 90 g</name>
+          <note>(01 janvier - 30 avril)</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Bretzel salé 80 g</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>végan</note>
+        </meal>
+        <meal>
+          <name>Croissant 50 g</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Soja et produits à base de soja</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Croissant fourré 70 g</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Fruits à coque et produits à base de ces fruits (Amandes</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Noisettes)</note>
+          <note>Soja et produits à base de soja</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Huit 80 g</name>
+          <note>(01 septembre - 31 décembre)</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Soja et produits à base de soja</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Pain au chocolat 70 g</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Soja et produits à base de soja</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Poche aux pommes 80 g</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Streusel 80 g</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="03. Gâteaux et cookies maison (12:30 - 15:00)">
+        <meal>
+          <name>Cake au chocolat &quot;commerce équitable&quot; 100 g</name>
+          <note>(01 septembre - 28 février)</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Fruits à coque et produits à base de ces fruits (Amandes)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Soja et produits à base de soja</note>
+          <note>produit Fairtrade</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Cake au potiron 100 g</name>
+          <note>(01 septembre - 28 février)</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Fruits à coque et produits à base de ces fruits (Noisettes)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Tasty Nuts 140 g (Cookie végan noisette)</name>
+          <note>Avoine)</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Fruits à coque et produits à base de ces fruits (Noisettes)</note>
+          <note>produit constant</note>
+          <note>végan</note>
+        </meal>
+      </category>
+      <category name="04. Vitamines à emporter (12:30 - 15:00)">
+        <meal>
+          <name>Mini salades 150 g</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Petit bol de potage</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="05. Laitages (12:30 - 15:00)">
+        <meal>
+          <name>Lait chocolaté Luxlait 0,25 l Tétra Pack</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Lait Luxlait BIO 0,25 l Tétra Pack</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>biologique</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Lait Luxlait BIO 0,25 l Tétra Pack (gratuit)</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>biologique</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Mini fromage frais avec coulis de fruits de saison 150 g</name>
+          <note>produit constant</note>
+          <note>végan</note>
+        </meal>
+        <meal>
+          <name>Mini muesli maison &quot;Douceur d'automne&quot; 150 g</name>
+          <note>(01 septembre - 30 novembre)</note>
+          <note>Fruits à coque et produits à base de ces fruits (Noisettes)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Produit sans gluten</note>
+          <note>Soja et produits à base de soja</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Yaourt aux fruits Luxlait 125 g</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Yaourt nature Luxlait 125 g</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="06. Fruits (12:30 - 15:00)">
+        <meal>
+          <name>Banane &quot;commerce équitable&quot;</name>
+          <note>produit Fairtrade</note>
+          <note>produit constant</note>
+          <note>végan</note>
+        </meal>
+        <meal>
+          <name>Fruit frais entier</name>
+          <note>produit constant</note>
+          <note>végan</note>
+        </meal>
+        <meal>
+          <name>Mini fruits découpés mélangés/non-mélangés 150 g</name>
+          <note>produit constant</note>
+          <note>végan</note>
+        </meal>
+      </category>
+      <category name="07. Glaces (12:30 - 15:00)">
+        <meal>
+          <name>Cornet Luxlait 130 ml (Chocolat, Fraise, Vanille, Praliné, Mocca-vanille)</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Fruits à coque et produits à base de ces fruits (Noisettes)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Soja et produits à base de soja</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Dame Blanche Luxlait 200 ml</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Frozen Yogurt Luxlait 200 ml (Fraise, Framboise, Vanille)</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Glace miniature Luxlait 100 ml (Framboise, Praliné, Vanille)</name>
+          <note>Fruits à coque et produits à base de ces fruits (Noisettes)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Soja et produits à base de soja</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Godet Luxlait 100 ml (Mocca, Vanille, Fraise)</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+      </category>
+      <category name="08. Pâtisserie (12:30 - 15:00)">
+        <meal>
+          <name>Dessert du Jour</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="10.1 Boissons froides - Eau minérale et pétillante (12:30 - 15:00)">
+        <meal>
+          <name>Lodyss fine pétillante 0,25 l btl</name>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Lodyss plate 0,25 l btl</name>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Rosport Blue 0,25 l btl</name>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Rosport Blue 0,50 l btl</name>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Rosport Blue 1,00 l btl</name>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Viva 0,25 l btl</name>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Viva 0,50 l btl</name>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Viva 1,00 l btl</name>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+      </category>
+      <category name="10.2 Boissons froides - Jus (12:30 - 15:00)">
+        <meal>
+          <name>Lëtzbuerger Drauwejus 0,25 l btl</name>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Ramborn Apple &amp; Quince Juice 0,33 l btl</name>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Ramborn Apple Juice 0,33 btl</name>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Ramborn Apple Soda 0,33 l btl</name>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Ramborn Pear Apple Juice 0,33 l btl</name>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+        <meal>
+          <name>Rosport Sunny Citron-Gingembre 0,50 l non consigné</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="10.3 Boissons froides - Sodas (12:30 - 15:00)">
+        <meal>
+          <name>Fuze Tea - Black Tea Pêche/Hibiscus 0,20 l btl</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="11. Boissons chaudes (12:30 - 15:00)">
+        <meal>
+          <name>Café &quot;commerce équitable&quot;</name>
+          <note>produit Fairtrade</note>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Cappuccino</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Chocolat chaud &quot;Commerce équitable&quot;</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Soja et produits à base de soja</note>
+          <note>produit Fairtrade</note>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Espresso</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Espresso double</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Thé &quot;commerce équitable&quot;</name>
+          <note>produit Fairtrade</note>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Thermo Café 1,00 l</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Thermo Café 1,50 l</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Tisane</name>
+          <note>produit constant</note>
+          <note>végan</note>
+        </meal>
+      </category>
+      <category name="12.1 Emballages et articles réutilisables (12:30 - 15:00)">
+        <meal>
+          <name>Consigne ECOBOX (1000 ml)</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Consigne ECOBOX (500 ml)</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>myBento</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>myBowl</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>myCan</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>myFrupstut</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>myKit</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>myMiniBowl</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>myMug</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>myNapkin</name>
+          <note>produit Fairtrade</note>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Remboursement Consigne ECOBOX (1000 ml)</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Remboursement Consigne ECOBOX (500 ml)</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="12.2 Emballages et articles à usage unique (12:30 - 15:00)">
+        <meal>
+          <name>Sachet pour sandwiches</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Serviette en papier (à partir de la 2e serviette)</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="16. Actions thématiques (12:30 - 15:00)">
+        <meal>
+          <name>Plats « Antigaspi To-Go »</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Produits constants « Antigaspi To-Go »</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Repas &quot;Personnel du lot&quot;</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Responsable hiérarchique - formule complète</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Responsable hiérarchique - formule partielle</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Responsable hiérarchique - formule plat</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>Responsable hiérarchique - formule snack</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+    </day>
+    <day date="2024-09-28">
       <closed/>
     </day>
-    <day date="2024-09-22">
+    <day date="2024-09-29">
       <closed/>
     </day>
   </canteen>
