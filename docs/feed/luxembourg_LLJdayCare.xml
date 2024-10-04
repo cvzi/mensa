@@ -3,11 +3,10 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2024-09-23">
+    <day date="2024-09-30">
       <category name="Entrée">
         <meal>
-          <name>Soupe de poireaux et pommes de terre</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <name>Potage aux brocolis</name>
           <note>Céleri et produits à base de céleri</note>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Soja et produits à base de soja</note>
@@ -17,39 +16,30 @@
       </category>
       <category name="Végétarien">
         <meal>
-          <name>Tacos au chili de haricots rouges, crème épaisse</name>
+          <name>Risotto de graines de sarrasin aux petits pois, échalotes, poireaux et carottes rôties</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
           <note>Céleri et produits à base de céleri</note>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Produit sans gluten</note>
+          <note>Soja et produits à base de soja</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Non-végétarien">
         <meal>
-          <name>Boeuf  Bourguignon</name>
+          <name>Emincé de porc aux champignons</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
           <note>Céleri et produits à base de céleri</note>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
-          <note>Produit sans gluten</note>
-          <note>non-végétarien</note>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Tagliatelle d'épeautre al'ragù au jeune bovin</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
-          <note>Céleri et produits à base de céleri</note>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Épeautre)</note>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Produit sans gluten</note>
           <note>non-végétarien</note>
           <note>produit constant</note>
         </meal>
       </category>
       <category name="Légumes">
         <meal>
-          <name>Haricots verts aux oignons</name>
+          <name>Ecrasé de potiron</name>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
           <note>produit constant</note>
@@ -58,18 +48,22 @@
       </category>
       <category name="Féculents">
         <meal>
-          <name>Ecrasé de pommes de terre</name>
+          <name>Polenta crémeuse</name>
+          <note>Céleri et produits à base de céleri</note>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
+          <note>Soja et produits à base de soja</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
         <meal>
-          <name>Tagliatelle d'épeautre au beurre</name>
+          <name>Radiatori au beurre</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Épeautre)</note>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Oeufs et produits à base d‘oeufs</note>
+          <note>biologique</note>
           <note>produit constant</note>
+          <note>végétarien</note>
         </meal>
       </category>
       <category name="Dessert">
@@ -81,11 +75,8 @@
       </category>
       <category name="Collation après-midi">
         <meal>
-          <name>Clafoutis aux pommes, fruits coupés</name>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
-          <note>Fruits à coque et produits à base de ces fruits (Amandes)</note>
+          <name>Yaourt grec au miel et fruits, fruits coupés</name>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
@@ -117,6 +108,12 @@
           <note>produit constant</note>
         </meal>
       </category>
+      <category name="12.2 Emballages et articles à usage unique">
+        <meal>
+          <name>Barquette pour pâtes/salades à emporter</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
       <category name="13. DayCare">
         <meal>
           <name>DayCare (gratuit) - Collation du matin</name>
@@ -131,77 +128,58 @@
           <note>produit constant</note>
         </meal>
       </category>
-      <category name="16. Actions thématiques">
-        <meal>
-          <name>Plats « Antigaspi To-Go »</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Produits constants « Antigaspi To-Go »</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Repas &quot;Personnel du lot&quot;</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule complète</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule partielle</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule plat</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule snack</name>
-          <note>produit constant</note>
-        </meal>
-      </category>
     </day>
-    <day date="2024-09-24">
+    <day date="2024-10-01">
       <category name="Entrée">
         <meal>
-          <name>Potage céleri</name>
+          <name>Soupe au potiron</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
           <note>Céleri et produits à base de céleri</note>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Soja et produits à base de soja</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Végétarien">
         <meal>
-          <name>Parmentier de légumes racines</name>
+          <name>Curry aux pois chiches, pommes de terre et légumes marinés</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
           <note>Céleri et produits à base de céleri</note>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
+          <note>Soja et produits à base de soja</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Non-végétarien">
         <meal>
-          <name>Escalope de porc panée, quartier de citron</name>
+          <name>Lasagne bolognaise</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Céleri et produits à base de céleri</note>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Oeufs et produits à base d‘oeufs</note>
           <note>non-végétarien</note>
           <note>produit constant</note>
+          <note>produit du Luxembourg</note>
         </meal>
       </category>
       <category name="Légumes">
         <meal>
-          <name>Chou-fleur persillade</name>
+          <name>Bouquetière de légumes frais au beurre d'échalotes</name>
+          <note>Céleri et produits à base de céleri</note>
+          <note>En accompagnement de la grillade ou du plat végétarien</note>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Féculents">
         <meal>
-          <name>Pommes de terre rôties</name>
+          <name>Pommes de terre grenailles rôties</name>
           <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
@@ -220,6 +198,7 @@
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
           <note>Avoine</note>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Graines de sésame et produits à base de graines de sésame</note>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Orge</note>
           <note>Seigle</note>
@@ -255,146 +234,9 @@
           <note>produit constant</note>
         </meal>
       </category>
-      <category name="13. DayCare">
+      <category name="12.2 Emballages et articles à usage unique">
         <meal>
-          <name>DayCare (gratuit) - Collation du matin</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>DayCare (gratuit) - Goûter</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>DayCare (gratuit) - Petit Déjeuner</name>
-          <note>produit constant</note>
-        </meal>
-      </category>
-      <category name="16. Actions thématiques">
-        <meal>
-          <name>Plats « Antigaspi To-Go »</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Produits constants « Antigaspi To-Go »</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Repas &quot;Personnel du lot&quot;</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule complète</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule partielle</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule plat</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule snack</name>
-          <note>produit constant</note>
-        </meal>
-      </category>
-    </day>
-    <day date="2024-09-25">
-      <category name="Entrée">
-        <meal>
-          <name>Geméis Britt mat Eeërtriwwel</name>
-          <note>Bouillon de légumes aux jaunes d'oeufs</note>
-          <note>Céleri et produits à base de céleri</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
-          <note>Produit sans gluten</note>
-          <note>Soja et produits à base de soja</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="Végétarien">
-        <meal>
-          <name>Galettes aux légumes marinés, dip à la ricotta</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
-          <note>Céleri et produits à base de céleri</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Produit sans gluten</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="Non-végétarien">
-        <meal>
-          <name>Filet julienne poché aux petits légumes, beurre blanc aux herbes</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
-          <note>Céleri et produits à base de céleri</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Poissons et produits à base de poissons</note>
-          <note>Produit sans gluten</note>
-          <note>non-végétarien</note>
-          <note>produit constant</note>
-        </meal>
-      </category>
-      <category name="Légumes">
-        <meal>
-          <name>Epinards aux échalotes</name>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="Féculents">
-        <meal>
-          <name>Etuvée de quinoa</name>
-          <note>Céleri et produits à base de céleri</note>
-          <note>Produit sans gluten</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="Dessert">
-        <meal>
-          <name>Fruits frais découpés</name>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="Collation après-midi">
-        <meal>
-          <name>Eclair au chocolat, fruits coupés</name>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
-          <note>produit Fairtrade</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="07. Glaces">
-        <meal>
-          <name>Glace miniature Luxlait 100 ml (Framboise, Praliné, Vanille)</name>
-          <note>Fruits à coque et produits à base de ces fruits (Noisettes)</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Soja et produits à base de soja</note>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-        </meal>
-      </category>
-      <category name="11. Boissons chaudes">
-        <meal>
-          <name>Tisane</name>
-          <note>produit constant</note>
-          <note>végan</note>
-        </meal>
-      </category>
-      <category name="12.1 Emballages et articles réutilisables">
-        <meal>
-          <name>myBento</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>myBowl</name>
+          <name>Barquette pour pâtes/salades à emporter</name>
           <note>produit constant</note>
         </meal>
       </category>
@@ -409,623 +251,46 @@
         </meal>
         <meal>
           <name>DayCare (gratuit) - Petit Déjeuner</name>
-          <note>produit constant</note>
-        </meal>
-      </category>
-      <category name="16. Actions thématiques">
-        <meal>
-          <name>Plats « Antigaspi To-Go »</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Produits constants « Antigaspi To-Go »</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Repas &quot;Personnel du lot&quot;</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule complète</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule partielle</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule plat</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule snack</name>
-          <note>produit constant</note>
-        </meal>
-      </category>
-    </day>
-    <day date="2024-09-26">
-      <category name="Entrée">
-        <meal>
-          <name>Soupe au cresson</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
-          <note>Céleri et produits à base de céleri</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Soja et produits à base de soja</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="Végétarien">
-        <meal>
-          <name>Penne all'arrabbiata et sa julienne de légumes</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
-          <note>Céleri et produits à base de céleri</note>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="Non-végétarien">
-        <meal>
-          <name>Hausmaacher Bouletten mat Moschterzooss</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
-          <note>Boulettes de viande, sauce moutarde</note>
-          <note>Céleri et produits à base de céleri</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Moutarde et produits à base de moutarde</note>
-          <note>Produit sans gluten</note>
-          <note>Soja et produits à base de soja</note>
-          <note>non-végétarien</note>
-          <note>produit constant</note>
-        </meal>
-      </category>
-      <category name="Légumes">
-        <meal>
-          <name>Carottes au beurre et persil</name>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Produit sans gluten</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="Féculents">
-        <meal>
-          <name>Fritten - Pommes frites</name>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-        <meal>
-          <name>Gromperepurée</name>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Produit sans gluten</note>
-          <note>Purée de pommes de terre</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="Dessert">
-        <meal>
-          <name>Fruits frais découpés</name>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="Collation après-midi">
-        <meal>
-          <name>Yaourt grec aux fruits (au choix), fruits coupés</name>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="07. Glaces">
-        <meal>
-          <name>Glace miniature Luxlait 100 ml (Framboise, Praliné, Vanille)</name>
-          <note>Fruits à coque et produits à base de ces fruits (Noisettes)</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Soja et produits à base de soja</note>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-        </meal>
-      </category>
-      <category name="11. Boissons chaudes">
-        <meal>
-          <name>Tisane</name>
-          <note>produit constant</note>
-          <note>végan</note>
-        </meal>
-      </category>
-      <category name="12.1 Emballages et articles réutilisables">
-        <meal>
-          <name>myBento</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>myBowl</name>
-          <note>produit constant</note>
-        </meal>
-      </category>
-      <category name="13. DayCare">
-        <meal>
-          <name>DayCare (gratuit) - Collation du matin</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>DayCare (gratuit) - Goûter</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>DayCare (gratuit) - Petit Déjeuner</name>
-          <note>produit constant</note>
-        </meal>
-      </category>
-      <category name="16. Actions thématiques">
-        <meal>
-          <name>Plats « Antigaspi To-Go »</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Produits constants « Antigaspi To-Go »</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Repas &quot;Personnel du lot&quot;</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule complète</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule partielle</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule plat</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule snack</name>
-          <note>produit constant</note>
-        </meal>
-      </category>
-    </day>
-    <day date="2024-09-27">
-      <category name="Entrée">
-        <meal>
-          <name>Potage de carottes</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
-          <note>Céleri et produits à base de céleri</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Soja et produits à base de soja</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="Végétarien">
-        <meal>
-          <name>Bouchée au quorn</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
-          <note>Céleri et produits à base de céleri</note>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
-          <note>Soja et produits à base de soja</note>
-          <note>produit constant</note>
-        </meal>
-      </category>
-      <category name="Non-végétarien">
-        <meal>
-          <name>Cuisse de poulet rôtie au four, jus corsé</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
-          <note>Céleri et produits à base de céleri</note>
-          <note>Produit sans gluten</note>
-          <note>non-végétarien</note>
-          <note>produit constant</note>
-        </meal>
-      </category>
-      <category name="Légumes">
-        <meal>
-          <name>Brocolis à la crème</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Produit sans gluten</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="Féculents">
-        <meal>
-          <name>Semoule épicée</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
-          <note>Céleri et produits à base de céleri</note>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="Dessert">
-        <meal>
-          <name>Fruits frais découpés</name>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="Collation après-midi">
-        <meal>
-          <name>Crêpe roulée au fromage frais et fines herbes, fruits coupés</name>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="07. Glaces">
-        <meal>
-          <name>Glace miniature Luxlait 100 ml (Framboise, Praliné, Vanille)</name>
-          <note>Fruits à coque et produits à base de ces fruits (Noisettes)</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Soja et produits à base de soja</note>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-        </meal>
-      </category>
-      <category name="11. Boissons chaudes">
-        <meal>
-          <name>Tisane</name>
-          <note>produit constant</note>
-          <note>végan</note>
-        </meal>
-      </category>
-      <category name="12.1 Emballages et articles réutilisables">
-        <meal>
-          <name>myBento</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>myBowl</name>
-          <note>produit constant</note>
-        </meal>
-      </category>
-      <category name="13. DayCare">
-        <meal>
-          <name>DayCare (gratuit) - Collation du matin</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>DayCare (gratuit) - Goûter</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>DayCare (gratuit) - Petit Déjeuner</name>
-          <note>produit constant</note>
-        </meal>
-      </category>
-      <category name="16. Actions thématiques">
-        <meal>
-          <name>Plats « Antigaspi To-Go »</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Produits constants « Antigaspi To-Go »</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Repas &quot;Personnel du lot&quot;</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule complète</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule partielle</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule plat</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule snack</name>
-          <note>produit constant</note>
-        </meal>
-      </category>
-    </day>
-    <day date="2024-09-28">
-      <closed/>
-    </day>
-    <day date="2024-09-29">
-      <closed/>
-    </day>
-    <day date="2024-09-30">
-      <category name="Entrée (07:00 - 18:00)">
-        <meal>
-          <name>Potage aux brocolis</name>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="Végétarien (07:00 - 18:00)">
-        <meal>
-          <name>Risotto de graines de sarrasin aux petits pois, échalotes, poireaux et carottes rôties</name>
-          <note>Produit sans gluten</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="Non-végétarien (07:00 - 18:00)">
-        <meal>
-          <name>Emincé de porc aux champignons</name>
-          <note>Produit sans gluten</note>
-          <note>non-végétarien</note>
-          <note>produit constant</note>
-        </meal>
-      </category>
-      <category name="Légumes (07:00 - 18:00)">
-        <meal>
-          <name>Ecrasé de potiron</name>
-          <note>Produit sans gluten</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="Féculents (07:00 - 18:00)">
-        <meal>
-          <name>Polenta crémeuse</name>
-          <note>Produit sans gluten</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-        <meal>
-          <name>Radiatori au beurre</name>
-          <note>biologique</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="Dessert (07:00 - 18:00)">
-        <meal>
-          <name>Fruits frais découpés</name>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="Collation après-midi (07:00 - 18:00)">
-        <meal>
-          <name>Yaourt grec au miel et fruits, fruits coupés</name>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="07. Glaces (07:00 - 18:00)">
-        <meal>
-          <name>Glace miniature Luxlait 100 ml (Framboise, Praliné, Vanille)</name>
-          <note>Fruits à coque et produits à base de ces fruits (Noisettes)</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Soja et produits à base de soja</note>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-        </meal>
-      </category>
-      <category name="11. Boissons chaudes (07:00 - 18:00)">
-        <meal>
-          <name>Tisane</name>
-          <note>produit constant</note>
-          <note>végan</note>
-        </meal>
-      </category>
-      <category name="12.1 Emballages et articles réutilisables (07:00 - 18:00)">
-        <meal>
-          <name>myBento</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>myBowl</name>
-          <note>produit constant</note>
-        </meal>
-      </category>
-      <category name="13. DayCare (07:00 - 18:00)">
-        <meal>
-          <name>DayCare (gratuit) - Collation du matin</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>DayCare (gratuit) - Goûter</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>DayCare (gratuit) - Petit Déjeuner</name>
-          <note>produit constant</note>
-        </meal>
-      </category>
-      <category name="16. Actions thématiques (07:00 - 18:00)">
-        <meal>
-          <name>Plats « Antigaspi To-Go »</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Produits constants « Antigaspi To-Go »</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Repas &quot;Personnel du lot&quot;</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule complète</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule partielle</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule plat</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule snack</name>
-          <note>produit constant</note>
-        </meal>
-      </category>
-    </day>
-    <day date="2024-10-01">
-      <category name="Entrée (07:00 - 18:00)">
-        <meal>
-          <name>Soupe au potiron</name>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="Végétarien (07:00 - 18:00)">
-        <meal>
-          <name>Curry aux pois chiches, pommes de terre et légumes marinés</name>
-          <note>Produit sans gluten</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="Non-végétarien (07:00 - 18:00)">
-        <meal>
-          <name>Lasagne bolognaise</name>
-          <note>non-végétarien</note>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-        </meal>
-      </category>
-      <category name="Légumes (07:00 - 18:00)">
-        <meal>
-          <name>Bouquetière de légumes frais au beurre d'échalotes</name>
-          <note>En accompagnement de la grillade ou du plat végétarien</note>
-          <note>Produit sans gluten</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="Féculents (07:00 - 18:00)">
-        <meal>
-          <name>Pommes de terre grenailles rôties</name>
-          <note>Produit sans gluten</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="Dessert (07:00 - 18:00)">
-        <meal>
-          <name>Fruits frais découpés</name>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="Collation après-midi (07:00 - 18:00)">
-        <meal>
-          <name>Bâtonnet de carottes et concombres, dip fromage blanc aux herbes, pain, fruits coupés</name>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="07. Glaces (07:00 - 18:00)">
-        <meal>
-          <name>Glace miniature Luxlait 100 ml (Framboise, Praliné, Vanille)</name>
-          <note>Fruits à coque et produits à base de ces fruits (Noisettes)</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Soja et produits à base de soja</note>
-          <note>produit constant</note>
-          <note>produit du Luxembourg</note>
-        </meal>
-      </category>
-      <category name="11. Boissons chaudes (07:00 - 18:00)">
-        <meal>
-          <name>Tisane</name>
-          <note>produit constant</note>
-          <note>végan</note>
-        </meal>
-      </category>
-      <category name="12.1 Emballages et articles réutilisables (07:00 - 18:00)">
-        <meal>
-          <name>myBento</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>myBowl</name>
-          <note>produit constant</note>
-        </meal>
-      </category>
-      <category name="13. DayCare (07:00 - 18:00)">
-        <meal>
-          <name>DayCare (gratuit) - Collation du matin</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>DayCare (gratuit) - Goûter</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>DayCare (gratuit) - Petit Déjeuner</name>
-          <note>produit constant</note>
-        </meal>
-      </category>
-      <category name="16. Actions thématiques (07:00 - 18:00)">
-        <meal>
-          <name>Plats « Antigaspi To-Go »</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Produits constants « Antigaspi To-Go »</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Repas &quot;Personnel du lot&quot;</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule complète</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule partielle</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule plat</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule snack</name>
           <note>produit constant</note>
         </meal>
       </category>
     </day>
     <day date="2024-10-02">
-      <category name="Entrée (07:00 - 18:00)">
+      <category name="Entrée">
         <meal>
           <name>Velouté de légumes</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Soja et produits à base de soja</note>
           <note>produit constant</note>
           <note>produit du Luxembourg</note>
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Végétarien (07:00 - 18:00)">
+      <category name="Végétarien">
         <meal>
           <name>Gnocchi aglio, oli, peperoncino e cipolle</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
           <note>Gnocchi à l'ail, à l'huile, au piment et aux oignons</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Non-végétarien (07:00 - 18:00)">
+      <category name="Non-végétarien">
         <meal>
           <name>Bifana de boeuf aux oignons, sauce piquante</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
           <note>non-végétarien</note>
           <note>produit constant</note>
         </meal>
       </category>
-      <category name="Légumes (07:00 - 18:00)">
+      <category name="Légumes">
         <meal>
           <name>Tomate grillée aux herbes</name>
           <note>Produit sans gluten</note>
@@ -1033,31 +298,36 @@
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Féculents (07:00 - 18:00)">
+      <category name="Féculents">
         <meal>
           <name>Gequellte Grompere mat Stoffi a Kraider</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Pommes de terre en robe des champs et fromage blanc aux herbes</note>
           <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Dessert (07:00 - 18:00)">
+      <category name="Dessert">
         <meal>
           <name>Fruits frais découpés</name>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Collation après-midi (07:00 - 18:00)">
+      <category name="Collation après-midi">
         <meal>
           <name>Tarte tatin aux pommes, fruits coupés</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
           <note>produit constant</note>
           <note>produit du Luxembourg</note>
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="07. Glaces (07:00 - 18:00)">
+      <category name="07. Glaces">
         <meal>
           <name>Glace miniature Luxlait 100 ml (Framboise, Praliné, Vanille)</name>
           <note>Fruits à coque et produits à base de ces fruits (Noisettes)</note>
@@ -1067,14 +337,14 @@
           <note>produit du Luxembourg</note>
         </meal>
       </category>
-      <category name="11. Boissons chaudes (07:00 - 18:00)">
+      <category name="11. Boissons chaudes">
         <meal>
           <name>Tisane</name>
           <note>produit constant</note>
           <note>végan</note>
         </meal>
       </category>
-      <category name="12.1 Emballages et articles réutilisables (07:00 - 18:00)">
+      <category name="12.1 Emballages et articles réutilisables">
         <meal>
           <name>myBento</name>
           <note>produit constant</note>
@@ -1084,7 +354,13 @@
           <note>produit constant</note>
         </meal>
       </category>
-      <category name="13. DayCare (07:00 - 18:00)">
+      <category name="12.2 Emballages et articles à usage unique">
+        <meal>
+          <name>Barquette pour pâtes/salades à emporter</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="13. DayCare">
         <meal>
           <name>DayCare (gratuit) - Collation du matin</name>
           <note>produit constant</note>
@@ -1098,69 +374,51 @@
           <note>produit constant</note>
         </meal>
       </category>
-      <category name="16. Actions thématiques (07:00 - 18:00)">
-        <meal>
-          <name>Plats « Antigaspi To-Go »</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Produits constants « Antigaspi To-Go »</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Repas &quot;Personnel du lot&quot;</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule complète</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule partielle</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule plat</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule snack</name>
-          <note>produit constant</note>
-        </meal>
-      </category>
     </day>
     <day date="2024-10-03">
-      <category name="Entrée (07:00 - 18:00)">
+      <category name="Entrée">
         <meal>
           <name>Crème de champignons</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Soja et produits à base de soja</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Végétarien (07:00 - 18:00)">
+      <category name="Végétarien">
         <meal>
           <name>Légumes farcis végétales aux épinards et oignons rouges sautés</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Soja et produits à base de soja</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Non-végétarien (07:00 - 18:00)">
+      <category name="Non-végétarien">
         <meal>
           <name>Emincé de poulet à la luxembourgeoise</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
           <note>non-végétarien</note>
           <note>produit constant</note>
         </meal>
       </category>
-      <category name="Légumes (07:00 - 18:00)">
+      <category name="Légumes">
         <meal>
           <name>Fondue de poireaux au beurre</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Féculents (07:00 - 18:00)">
+      <category name="Féculents">
         <meal>
           <name>Fritten - Pommes frites</name>
           <note>produit constant</note>
@@ -1168,27 +426,30 @@
         </meal>
         <meal>
           <name>Räis</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
           <note>Produit sans gluten</note>
           <note>Riz</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Dessert (07:00 - 18:00)">
+      <category name="Dessert">
         <meal>
           <name>Fruits frais découpés</name>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Collation après-midi (07:00 - 18:00)">
+      <category name="Collation après-midi">
         <meal>
           <name>Wrap au houmous et crudités, fruits coupés</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="07. Glaces (07:00 - 18:00)">
+      <category name="07. Glaces">
         <meal>
           <name>Glace miniature Luxlait 100 ml (Framboise, Praliné, Vanille)</name>
           <note>Fruits à coque et produits à base de ces fruits (Noisettes)</note>
@@ -1198,14 +459,14 @@
           <note>produit du Luxembourg</note>
         </meal>
       </category>
-      <category name="11. Boissons chaudes (07:00 - 18:00)">
+      <category name="11. Boissons chaudes">
         <meal>
           <name>Tisane</name>
           <note>produit constant</note>
           <note>végan</note>
         </meal>
       </category>
-      <category name="12.1 Emballages et articles réutilisables (07:00 - 18:00)">
+      <category name="12.1 Emballages et articles réutilisables">
         <meal>
           <name>myBento</name>
           <note>produit constant</note>
@@ -1215,7 +476,13 @@
           <note>produit constant</note>
         </meal>
       </category>
-      <category name="13. DayCare (07:00 - 18:00)">
+      <category name="12.2 Emballages et articles à usage unique">
+        <meal>
+          <name>Barquette pour pâtes/salades à emporter</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="13. DayCare">
         <meal>
           <name>DayCare (gratuit) - Collation du matin</name>
           <note>produit constant</note>
@@ -1229,39 +496,9 @@
           <note>produit constant</note>
         </meal>
       </category>
-      <category name="16. Actions thématiques (07:00 - 18:00)">
-        <meal>
-          <name>Plats « Antigaspi To-Go »</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Produits constants « Antigaspi To-Go »</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Repas &quot;Personnel du lot&quot;</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule complète</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule partielle</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule plat</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule snack</name>
-          <note>produit constant</note>
-        </meal>
-      </category>
     </day>
     <day date="2024-10-04">
-      <category name="Entrée (07:00 - 18:00)">
+      <category name="Entrée">
         <meal>
           <name>Geméis Brittzopp mat Paangecher</name>
           <note>Consommé de légumes, crêpes aux herbes</note>
@@ -1269,14 +506,14 @@
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Végétarien (07:00 - 18:00)">
+      <category name="Végétarien">
         <meal>
           <name>Tofu croustillant au curry et quinoa aux légumes grillés</name>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Non-végétarien (07:00 - 18:00)">
+      <category name="Non-végétarien">
         <meal>
           <name>Steak haché poêlé, jus réduit aux herbes</name>
           <note>Produit sans gluten</note>
@@ -1284,7 +521,7 @@
           <note>produit constant</note>
         </meal>
       </category>
-      <category name="Légumes (07:00 - 18:00)">
+      <category name="Légumes">
         <meal>
           <name>Chicons braisés</name>
           <note>En accompagnement de la grillade ou du plat végétarien</note>
@@ -1299,7 +536,7 @@
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Féculents (07:00 - 18:00)">
+      <category name="Féculents">
         <meal>
           <name>Quinoa aux épices</name>
           <note>Produit sans gluten</note>
@@ -1307,20 +544,20 @@
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Dessert (07:00 - 18:00)">
+      <category name="Dessert">
         <meal>
           <name>Fruits frais découpés</name>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Collation après-midi (07:00 - 18:00)">
+      <category name="Collation après-midi">
         <meal>
           <name>Moelleux au chocolat Fairtrade, fruits coupés</name>
           <note>produit constant</note>
         </meal>
       </category>
-      <category name="07. Glaces (07:00 - 18:00)">
+      <category name="07. Glaces">
         <meal>
           <name>Glace miniature Luxlait 100 ml (Framboise, Praliné, Vanille)</name>
           <note>Fruits à coque et produits à base de ces fruits (Noisettes)</note>
@@ -1330,14 +567,14 @@
           <note>produit du Luxembourg</note>
         </meal>
       </category>
-      <category name="11. Boissons chaudes (07:00 - 18:00)">
+      <category name="11. Boissons chaudes">
         <meal>
           <name>Tisane</name>
           <note>produit constant</note>
           <note>végan</note>
         </meal>
       </category>
-      <category name="12.1 Emballages et articles réutilisables (07:00 - 18:00)">
+      <category name="12.1 Emballages et articles réutilisables">
         <meal>
           <name>myBento</name>
           <note>produit constant</note>
@@ -1347,7 +584,13 @@
           <note>produit constant</note>
         </meal>
       </category>
-      <category name="13. DayCare (07:00 - 18:00)">
+      <category name="12.2 Emballages et articles à usage unique">
+        <meal>
+          <name>Barquette pour pâtes/salades à emporter</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="13. DayCare">
         <meal>
           <name>DayCare (gratuit) - Collation du matin</name>
           <note>produit constant</note>
@@ -1358,36 +601,6 @@
         </meal>
         <meal>
           <name>DayCare (gratuit) - Petit Déjeuner</name>
-          <note>produit constant</note>
-        </meal>
-      </category>
-      <category name="16. Actions thématiques (07:00 - 18:00)">
-        <meal>
-          <name>Plats « Antigaspi To-Go »</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Produits constants « Antigaspi To-Go »</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Repas &quot;Personnel du lot&quot;</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule complète</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule partielle</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule plat</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule snack</name>
           <note>produit constant</note>
         </meal>
       </category>
@@ -1477,6 +690,12 @@
           <note>produit constant</note>
         </meal>
       </category>
+      <category name="12.2 Emballages et articles à usage unique (07:00 - 18:00)">
+        <meal>
+          <name>Barquette pour pâtes/salades à emporter</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
       <category name="13. DayCare (07:00 - 18:00)">
         <meal>
           <name>DayCare (gratuit) - Collation du matin</name>
@@ -1488,36 +707,6 @@
         </meal>
         <meal>
           <name>DayCare (gratuit) - Petit Déjeuner</name>
-          <note>produit constant</note>
-        </meal>
-      </category>
-      <category name="16. Actions thématiques (07:00 - 18:00)">
-        <meal>
-          <name>Plats « Antigaspi To-Go »</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Produits constants « Antigaspi To-Go »</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Repas &quot;Personnel du lot&quot;</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule complète</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule partielle</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule plat</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule snack</name>
           <note>produit constant</note>
         </meal>
       </category>
@@ -1607,6 +796,12 @@
           <note>produit constant</note>
         </meal>
       </category>
+      <category name="12.2 Emballages et articles à usage unique (07:00 - 18:00)">
+        <meal>
+          <name>Barquette pour pâtes/salades à emporter</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
       <category name="13. DayCare (07:00 - 18:00)">
         <meal>
           <name>DayCare (gratuit) - Collation du matin</name>
@@ -1618,36 +813,6 @@
         </meal>
         <meal>
           <name>DayCare (gratuit) - Petit Déjeuner</name>
-          <note>produit constant</note>
-        </meal>
-      </category>
-      <category name="16. Actions thématiques (07:00 - 18:00)">
-        <meal>
-          <name>Plats « Antigaspi To-Go »</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Produits constants « Antigaspi To-Go »</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Repas &quot;Personnel du lot&quot;</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule complète</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule partielle</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule plat</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule snack</name>
           <note>produit constant</note>
         </meal>
       </category>
@@ -1739,6 +904,12 @@
           <note>produit constant</note>
         </meal>
       </category>
+      <category name="12.2 Emballages et articles à usage unique (07:00 - 18:00)">
+        <meal>
+          <name>Barquette pour pâtes/salades à emporter</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
       <category name="13. DayCare (07:00 - 18:00)">
         <meal>
           <name>DayCare (gratuit) - Collation du matin</name>
@@ -1750,36 +921,6 @@
         </meal>
         <meal>
           <name>DayCare (gratuit) - Petit Déjeuner</name>
-          <note>produit constant</note>
-        </meal>
-      </category>
-      <category name="16. Actions thématiques (07:00 - 18:00)">
-        <meal>
-          <name>Plats « Antigaspi To-Go »</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Produits constants « Antigaspi To-Go »</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Repas &quot;Personnel du lot&quot;</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule complète</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule partielle</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule plat</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule snack</name>
           <note>produit constant</note>
         </meal>
       </category>
@@ -1868,6 +1009,12 @@
           <note>produit constant</note>
         </meal>
       </category>
+      <category name="12.2 Emballages et articles à usage unique (07:00 - 18:00)">
+        <meal>
+          <name>Barquette pour pâtes/salades à emporter</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
       <category name="13. DayCare (07:00 - 18:00)">
         <meal>
           <name>DayCare (gratuit) - Collation du matin</name>
@@ -1879,36 +1026,6 @@
         </meal>
         <meal>
           <name>DayCare (gratuit) - Petit Déjeuner</name>
-          <note>produit constant</note>
-        </meal>
-      </category>
-      <category name="16. Actions thématiques (07:00 - 18:00)">
-        <meal>
-          <name>Plats « Antigaspi To-Go »</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Produits constants « Antigaspi To-Go »</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Repas &quot;Personnel du lot&quot;</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule complète</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule partielle</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule plat</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule snack</name>
           <note>produit constant</note>
         </meal>
       </category>
@@ -1998,6 +1115,12 @@
           <note>produit constant</note>
         </meal>
       </category>
+      <category name="12.2 Emballages et articles à usage unique (07:00 - 18:00)">
+        <meal>
+          <name>Barquette pour pâtes/salades à emporter</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
       <category name="13. DayCare (07:00 - 18:00)">
         <meal>
           <name>DayCare (gratuit) - Collation du matin</name>
@@ -2009,36 +1132,6 @@
         </meal>
         <meal>
           <name>DayCare (gratuit) - Petit Déjeuner</name>
-          <note>produit constant</note>
-        </meal>
-      </category>
-      <category name="16. Actions thématiques (07:00 - 18:00)">
-        <meal>
-          <name>Plats « Antigaspi To-Go »</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Produits constants « Antigaspi To-Go »</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Repas &quot;Personnel du lot&quot;</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule complète</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule partielle</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule plat</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule snack</name>
           <note>produit constant</note>
         </meal>
       </category>
@@ -2135,6 +1228,12 @@
           <note>produit constant</note>
         </meal>
       </category>
+      <category name="12.2 Emballages et articles à usage unique (07:00 - 18:00)">
+        <meal>
+          <name>Barquette pour pâtes/salades à emporter</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
       <category name="13. DayCare (07:00 - 18:00)">
         <meal>
           <name>DayCare (gratuit) - Collation du matin</name>
@@ -2146,36 +1245,6 @@
         </meal>
         <meal>
           <name>DayCare (gratuit) - Petit Déjeuner</name>
-          <note>produit constant</note>
-        </meal>
-      </category>
-      <category name="16. Actions thématiques (07:00 - 18:00)">
-        <meal>
-          <name>Plats « Antigaspi To-Go »</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Produits constants « Antigaspi To-Go »</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Repas &quot;Personnel du lot&quot;</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule complète</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule partielle</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule plat</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule snack</name>
           <note>produit constant</note>
         </meal>
       </category>
@@ -2222,7 +1291,6 @@
         </meal>
         <meal>
           <name>Semoule aux épices</name>
-          <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
@@ -2268,6 +1336,12 @@
           <note>produit constant</note>
         </meal>
       </category>
+      <category name="12.2 Emballages et articles à usage unique (07:00 - 18:00)">
+        <meal>
+          <name>Barquette pour pâtes/salades à emporter</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
       <category name="13. DayCare (07:00 - 18:00)">
         <meal>
           <name>DayCare (gratuit) - Collation du matin</name>
@@ -2279,36 +1353,6 @@
         </meal>
         <meal>
           <name>DayCare (gratuit) - Petit Déjeuner</name>
-          <note>produit constant</note>
-        </meal>
-      </category>
-      <category name="16. Actions thématiques (07:00 - 18:00)">
-        <meal>
-          <name>Plats « Antigaspi To-Go »</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Produits constants « Antigaspi To-Go »</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Repas &quot;Personnel du lot&quot;</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule complète</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule partielle</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule plat</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule snack</name>
           <note>produit constant</note>
         </meal>
       </category>
@@ -2395,6 +1439,12 @@
           <note>produit constant</note>
         </meal>
       </category>
+      <category name="12.2 Emballages et articles à usage unique (07:00 - 18:00)">
+        <meal>
+          <name>Barquette pour pâtes/salades à emporter</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
       <category name="13. DayCare (07:00 - 18:00)">
         <meal>
           <name>DayCare (gratuit) - Collation du matin</name>
@@ -2406,36 +1456,6 @@
         </meal>
         <meal>
           <name>DayCare (gratuit) - Petit Déjeuner</name>
-          <note>produit constant</note>
-        </meal>
-      </category>
-      <category name="16. Actions thématiques (07:00 - 18:00)">
-        <meal>
-          <name>Plats « Antigaspi To-Go »</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Produits constants « Antigaspi To-Go »</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Repas &quot;Personnel du lot&quot;</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule complète</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule partielle</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule plat</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule snack</name>
           <note>produit constant</note>
         </meal>
       </category>
@@ -2529,6 +1549,12 @@
           <note>produit constant</note>
         </meal>
       </category>
+      <category name="12.2 Emballages et articles à usage unique (07:00 - 18:00)">
+        <meal>
+          <name>Barquette pour pâtes/salades à emporter</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
       <category name="13. DayCare (07:00 - 18:00)">
         <meal>
           <name>DayCare (gratuit) - Collation du matin</name>
@@ -2540,36 +1566,6 @@
         </meal>
         <meal>
           <name>DayCare (gratuit) - Petit Déjeuner</name>
-          <note>produit constant</note>
-        </meal>
-      </category>
-      <category name="16. Actions thématiques (07:00 - 18:00)">
-        <meal>
-          <name>Plats « Antigaspi To-Go »</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Produits constants « Antigaspi To-Go »</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Repas &quot;Personnel du lot&quot;</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule complète</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule partielle</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule plat</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule snack</name>
           <note>produit constant</note>
         </meal>
       </category>
@@ -2655,6 +1651,12 @@
           <note>produit constant</note>
         </meal>
       </category>
+      <category name="12.2 Emballages et articles à usage unique (07:00 - 18:00)">
+        <meal>
+          <name>Barquette pour pâtes/salades à emporter</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
       <category name="13. DayCare (07:00 - 18:00)">
         <meal>
           <name>DayCare (gratuit) - Collation du matin</name>
@@ -2669,41 +1671,537 @@
           <note>produit constant</note>
         </meal>
       </category>
-      <category name="16. Actions thématiques (07:00 - 18:00)">
-        <meal>
-          <name>Plats « Antigaspi To-Go »</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Produits constants « Antigaspi To-Go »</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Repas &quot;Personnel du lot&quot;</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule complète</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule partielle</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule plat</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Responsable hiérarchique - formule snack</name>
-          <note>produit constant</note>
-        </meal>
-      </category>
     </day>
     <day date="2024-10-19">
       <closed/>
     </day>
     <day date="2024-10-20">
+      <closed/>
+    </day>
+    <day date="2024-10-21">
+      <category name="Entrée (07:00 - 18:00)">
+        <meal>
+          <name>Crème de champignons</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Végétarien (07:00 - 18:00)">
+        <meal>
+          <name>Tarte flambée, écrasé de pois chiches aux légumes, dip au fromage blanc</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Non-végétarien (07:00 - 18:00)">
+        <meal>
+          <name>Curry de poulet aux légumes de saison</name>
+          <note>Produit sans gluten</note>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="Légumes (07:00 - 18:00)">
+        <meal>
+          <name>Brocolis aux oignons rouges</name>
+          <note>Produit sans gluten</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Féculents (07:00 - 18:00)">
+        <meal>
+          <name>Riz sauté croustillant</name>
+          <note>Produit sans gluten</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Dessert (07:00 - 18:00)">
+        <meal>
+          <name>Fruits frais découpés</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Collation après-midi (07:00 - 18:00)">
+        <meal>
+          <name>Fromage blanc et sa compotée de pommes à la cannelle, fruits coupés</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="07. Glaces (07:00 - 18:00)">
+        <meal>
+          <name>Glace miniature Luxlait 100 ml (Framboise, Praliné, Vanille)</name>
+          <note>Fruits à coque et produits à base de ces fruits (Noisettes)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Soja et produits à base de soja</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+      </category>
+      <category name="11. Boissons chaudes (07:00 - 18:00)">
+        <meal>
+          <name>Tisane</name>
+          <note>produit constant</note>
+          <note>végan</note>
+        </meal>
+      </category>
+      <category name="12.1 Emballages et articles réutilisables (07:00 - 18:00)">
+        <meal>
+          <name>myBento</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>myBowl</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="12.2 Emballages et articles à usage unique (07:00 - 18:00)">
+        <meal>
+          <name>Barquette pour pâtes/salades à emporter</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="13. DayCare (07:00 - 18:00)">
+        <meal>
+          <name>DayCare (gratuit) - Collation du matin</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>DayCare (gratuit) - Goûter</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>DayCare (gratuit) - Petit Déjeuner</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+    </day>
+    <day date="2024-10-22">
+      <category name="Entrée (07:00 - 18:00)">
+        <meal>
+          <name>Ënnenzopp, Toast mat Kéis</name>
+          <note>Soupe à l'oignon, toast au fromage</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Végétarien (07:00 - 18:00)">
+        <meal>
+          <name>Strudel au potiron et épinards, dip au yaourt grec au persil</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Non-végétarien (07:00 - 18:00)">
+        <meal>
+          <name>Mixed grill de viandes, fond réduit aux échalotes</name>
+          <note>Produit sans gluten</note>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="Légumes (07:00 - 18:00)">
+        <meal>
+          <name>Chicons braisés</name>
+          <note>Produit sans gluten</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Féculents (07:00 - 18:00)">
+        <meal>
+          <name>Gromperegratin</name>
+          <note>Gratin dauphinois</note>
+          <note>Produit sans gluten</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Dessert (07:00 - 18:00)">
+        <meal>
+          <name>Fruits frais découpés</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Collation après-midi (07:00 - 18:00)">
+        <meal>
+          <name>Bâtonnets de légumes, dip, fruits coupés</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="07. Glaces (07:00 - 18:00)">
+        <meal>
+          <name>Glace miniature Luxlait 100 ml (Framboise, Praliné, Vanille)</name>
+          <note>Fruits à coque et produits à base de ces fruits (Noisettes)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Soja et produits à base de soja</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+      </category>
+      <category name="11. Boissons chaudes (07:00 - 18:00)">
+        <meal>
+          <name>Tisane</name>
+          <note>produit constant</note>
+          <note>végan</note>
+        </meal>
+      </category>
+      <category name="12.1 Emballages et articles réutilisables (07:00 - 18:00)">
+        <meal>
+          <name>myBento</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>myBowl</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="12.2 Emballages et articles à usage unique (07:00 - 18:00)">
+        <meal>
+          <name>Barquette pour pâtes/salades à emporter</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="13. DayCare (07:00 - 18:00)">
+        <meal>
+          <name>DayCare (gratuit) - Collation du matin</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>DayCare (gratuit) - Goûter</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>DayCare (gratuit) - Petit Déjeuner</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+    </day>
+    <day date="2024-10-23">
+      <category name="Entrée (07:00 - 18:00)">
+        <meal>
+          <name>Porettenzopp</name>
+          <note>Soupe aux poireaux</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Végétarien (07:00 - 18:00)">
+        <meal>
+          <name>Accras de légumes aux haricots rouges, salsa maison</name>
+          <note>Produit sans gluten</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Non-végétarien (07:00 - 18:00)">
+        <meal>
+          <name>Saltimbocca de porc à la romana, jus corsé</name>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="Légumes (07:00 - 18:00)">
+        <meal>
+          <name>Chou romanesco aux écalotes</name>
+          <note>Produit sans gluten</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Féculents (07:00 - 18:00)">
+        <meal>
+          <name>Polenta crémeuse</name>
+          <note>Produit sans gluten</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Dessert (07:00 - 18:00)">
+        <meal>
+          <name>Fruits frais découpés</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Collation après-midi (07:00 - 18:00)">
+        <meal>
+          <name>Tomate cerises, billes de mozzarella, pesto persil, pain, fruits coupés</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="07. Glaces (07:00 - 18:00)">
+        <meal>
+          <name>Glace miniature Luxlait 100 ml (Framboise, Praliné, Vanille)</name>
+          <note>Fruits à coque et produits à base de ces fruits (Noisettes)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Soja et produits à base de soja</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+      </category>
+      <category name="11. Boissons chaudes (07:00 - 18:00)">
+        <meal>
+          <name>Tisane</name>
+          <note>produit constant</note>
+          <note>végan</note>
+        </meal>
+      </category>
+      <category name="12.1 Emballages et articles réutilisables (07:00 - 18:00)">
+        <meal>
+          <name>myBento</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>myBowl</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="12.2 Emballages et articles à usage unique (07:00 - 18:00)">
+        <meal>
+          <name>Barquette pour pâtes/salades à emporter</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="13. DayCare (07:00 - 18:00)">
+        <meal>
+          <name>DayCare (gratuit) - Collation du matin</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>DayCare (gratuit) - Goûter</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>DayCare (gratuit) - Petit Déjeuner</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+    </day>
+    <day date="2024-10-24">
+      <category name="Entrée (07:00 - 18:00)">
+        <meal>
+          <name>Gromperenzopp</name>
+          <note>Produit sans gluten</note>
+          <note>Soupe de pommes de terre</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Végétarien (07:00 - 18:00)">
+        <meal>
+          <name>Wok et sa poêlée de quorn et légumes rôtis</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Non-végétarien (07:00 - 18:00)">
+        <meal>
+          <name>Cheeseburger maison, sauce Samouraï</name>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="Légumes (07:00 - 18:00)">
+        <meal>
+          <name>Julienne de légumes frais à l'ail</name>
+          <note>En accompagenment de la grillade ou du plat végétarien</note>
+          <note>Produit sans gluten</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Salade Coleslaw</name>
+          <note>Produit sans gluten</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Féculents (07:00 - 18:00)">
+        <meal>
+          <name>Fritten - Pommes frites</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Pommes de terre &quot;wedges&quot; maison</name>
+          <note>Produit sans gluten</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Dessert (07:00 - 18:00)">
+        <meal>
+          <name>Fruits frais découpés</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Collation après-midi (07:00 - 18:00)">
+        <meal>
+          <name>Chou à la crème pâtissière et chantilly, fruits coupés</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="07. Glaces (07:00 - 18:00)">
+        <meal>
+          <name>Glace miniature Luxlait 100 ml (Framboise, Praliné, Vanille)</name>
+          <note>Fruits à coque et produits à base de ces fruits (Noisettes)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Soja et produits à base de soja</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+      </category>
+      <category name="11. Boissons chaudes (07:00 - 18:00)">
+        <meal>
+          <name>Tisane</name>
+          <note>produit constant</note>
+          <note>végan</note>
+        </meal>
+      </category>
+      <category name="12.1 Emballages et articles réutilisables (07:00 - 18:00)">
+        <meal>
+          <name>myBento</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>myBowl</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="12.2 Emballages et articles à usage unique (07:00 - 18:00)">
+        <meal>
+          <name>Barquette pour pâtes/salades à emporter</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="13. DayCare (07:00 - 18:00)">
+        <meal>
+          <name>DayCare (gratuit) - Collation du matin</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>DayCare (gratuit) - Goûter</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>DayCare (gratuit) - Petit Déjeuner</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+    </day>
+    <day date="2024-10-25">
+      <category name="Entrée (07:00 - 18:00)">
+        <meal>
+          <name>Soupe aux choux</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Végétarien (07:00 - 18:00)">
+        <meal>
+          <name>Falafel, légumes grillés, concassé de tomates</name>
+          <note>Produit sans gluten</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Non-végétarien (07:00 - 18:00)">
+        <meal>
+          <name>Fish and chips, quartier de citron, sauce rémoulade maison</name>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="Légumes (07:00 - 18:00)">
+        <meal>
+          <name>Ecrasé de petits pois</name>
+          <note>Produit sans gluten</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Féculents (07:00 - 18:00)">
+        <meal>
+          <name>Quinoa à l'étuvée</name>
+          <note>Produit sans gluten</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Dessert (07:00 - 18:00)">
+        <meal>
+          <name>Fruits frais découpés</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Collation après-midi (07:00 - 18:00)">
+        <meal>
+          <name>Cookie géant au chocolat, fruits coupés</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="07. Glaces (07:00 - 18:00)">
+        <meal>
+          <name>Glace miniature Luxlait 100 ml (Framboise, Praliné, Vanille)</name>
+          <note>Fruits à coque et produits à base de ces fruits (Noisettes)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Soja et produits à base de soja</note>
+          <note>produit constant</note>
+          <note>produit du Luxembourg</note>
+        </meal>
+      </category>
+      <category name="11. Boissons chaudes (07:00 - 18:00)">
+        <meal>
+          <name>Tisane</name>
+          <note>produit constant</note>
+          <note>végan</note>
+        </meal>
+      </category>
+      <category name="12.1 Emballages et articles réutilisables (07:00 - 18:00)">
+        <meal>
+          <name>myBento</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>myBowl</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="12.2 Emballages et articles à usage unique (07:00 - 18:00)">
+        <meal>
+          <name>Barquette pour pâtes/salades à emporter</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="13. DayCare (07:00 - 18:00)">
+        <meal>
+          <name>DayCare (gratuit) - Collation du matin</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>DayCare (gratuit) - Goûter</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>DayCare (gratuit) - Petit Déjeuner</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+    </day>
+    <day date="2024-10-26">
+      <closed/>
+    </day>
+    <day date="2024-10-27">
       <closed/>
     </day>
   </canteen>
