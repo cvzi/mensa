@@ -3,24 +3,49 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2024-10-07">
-      <category name="Komponente 1">
+    <day date="2024-10-08">
+      <category name="Tellergericht">
         <meal>
-          <name>Schlemmerfilet Broccoli Käse  
- mit Kräutersauce</name>
-          <note>Fische und daraus hergestellte Erzeugnisse</note>
+          <name>Vegan: Kartoffel-Kürbis-Creme-Suppe, Teller</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>geschwefelt</note>
+          <note>jodiertes Salz</note>
+          <price role="employee">2.35</price>
+          <price role="other">3.30</price>
+          <price role="student">1.50</price>
+        </meal>
+        <meal>
+          <name>3 Pancakes  
+ dazu eine Soße mit Vanillegeschmack</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Milch/Milchzucker (Laktose)</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">3.00</price>
+          <price role="other">4.30</price>
+          <price role="student">1.80</price>
+        </meal>
+        <meal>
+          <name>Vegan: Kartoffel-Kürbis-Creme-Suppe, Teller</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>geschwefelt</note>
           <note>jodiertes Salz</note>
-          <price role="employee">3.10</price>
-          <price role="other">3.95</price>
-          <price role="student">2.25</price>
+          <price role="employee">3.25</price>
+          <price role="other">4.40</price>
+          <price role="student">2.20</price>
         </meal>
       </category>
-      <category name="Komponente 3">
+      <category name="Komponente 2">
         <meal>
-          <name>Hähnchenbrustfilet Milano mit einer Tomaten-Käse-Kräuterfüllung (1,2,Gefl,G,A) 
- mit Geflügelkräutersauce (3,9,Gefl,G,A)</name>
+          <name>Ofenbraten vom Schwein mit deftiger Soße</name>
+          <note>Rindfleisch</note>
+          <note>Schweinefleisch</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
+          <note>jodiertes Salz</note>
+          <note>mit Antioxidationsmittel</note>
           <price role="employee">3.10</price>
           <price role="other">3.95</price>
           <price role="student">2.25</price>
@@ -28,25 +53,24 @@
       </category>
       <category name="Vegane Komponente 1">
         <meal>
-          <name>2 Ruccola-Süßkartoffel-Schnitten  
- mit mediterraner Kräutersauce</name>
-          <note>Glutenhaltiges Getreide</note>
+          <name>Pilzragout</name>
           <note>jodiertes Salz</note>
-          <price role="employee">2.85</price>
-          <price role="other">3.70</price>
-          <price role="student">2.00</price>
+          <note>mit Antioxidationsmittel</note>
+          <price role="employee">2.35</price>
+          <price role="other">3.20</price>
+          <price role="student">1.50</price>
         </meal>
       </category>
-      <category name="Pasta nach Gewicht (pro 100g)">
+      <category name="Vegetarische Komponente 1">
         <meal>
-          <name>Pastateller: Makkaroni  
- mit Tomaten-Basilikum-Soße [vegan]  oder Champignon-Sahne-Sauce</name>
+          <name>Perl Graupen Kürbis Risotto</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
-          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
+          <note>Milch/Milchzucker (Laktose)</note>
           <note>jodiertes Salz</note>
-          <price role="employee">0.90</price>
-          <price role="other">1.20</price>
-          <price role="student">0.60</price>
+          <price role="employee">3.10</price>
+          <price role="other">3.95</price>
+          <price role="student">2.25</price>
         </meal>
       </category>
       <category name="Beilagen">
@@ -60,13 +84,15 @@
         <meal>
           <name>Salzkartoffeln</name>
           <note>geschwefelt</note>
-          <note>jodiertes Salz</note>
           <price role="employee">1.00</price>
           <price role="other">1.40</price>
           <price role="student">0.70</price>
         </meal>
         <meal>
-          <name>Pommes Frites</name>
+          <name>Kartoffelklöße</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>geschwefelt</note>
+          <note>mit Antioxidationsmittel</note>
           <price role="employee">1.30</price>
           <price role="other">1.70</price>
           <price role="student">1.00</price>
@@ -74,8 +100,16 @@
       </category>
       <category name="Gemüse">
         <meal>
-          <name>Brokkoli</name>
+          <name>Bayrisch Kraut</name>
+          <note>Milch/Milchzucker (Laktose)</note>
           <note>jodiertes Salz</note>
+          <price role="employee">1.00</price>
+          <price role="other">1.40</price>
+          <price role="student">0.70</price>
+        </meal>
+        <meal>
+          <name>Schwarzwurzel</name>
+          <note>Glutenhaltiges Getreide</note>
           <price role="employee">1.20</price>
           <price role="other">1.60</price>
           <price role="student">0.90</price>
