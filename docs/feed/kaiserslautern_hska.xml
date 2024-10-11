@@ -3,33 +3,6 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2024-10-10">
-      <category name="Essen I Drehkreuz/Ampel">
-        <meal>
-          <name>Hähnchen-Cordon-bleu mit Truthahnschinken und Käse gefüllt mit Champignon-Sahnesoße, dazu Kroketten und Salat</name>
-          <note>Farbstoff</note>
-          <note>Geflügel</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Konservierungsstoff</note>
-          <note>Laktose</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
-      </category>
-      <category name="Essen II Drehkreuz/Ampel">
-        <meal>
-          <name>Gemüseknusperschnitzel mit Champignon-Sahnesoße mit Kroketten und Salat</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Laktose</note>
-          <note>Sellerie</note>
-          <note>Vegetarisches Menü</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
-      </category>
-    </day>
     <day date="2024-10-11">
       <category name="Essen I Drehkreuz/Ampel">
         <meal>
@@ -81,9 +54,11 @@
       </category>
       <category name="Essen II Drehkreuz/Ampel">
         <meal>
-          <name>Vegane Bratwurst mit Karotten-Kartoffelstampf und Rahmwirsing</name>
+          <name>Gemüsebratling mit Karotten-Kartoffelstampf und Rahmwirsing</name>
+          <note>Glutenhaltiges Getreide</note>
           <note>Laktose</note>
           <note>Schwefeldioxid (&quot;SO2&quot;) und Sulfite</note>
+          <note>Senf</note>
           <note>Vegetarisches Menü</note>
           <note>geschwefelt</note>
           <price role="employee">5.55</price>
@@ -109,7 +84,7 @@
       </category>
       <category name="Essen II Drehkreuz/Ampel">
         <meal>
-          <name>Burger Hong Kong mit feurige Tomatensoße, Spaghetti und Salat</name>
+          <name>Quinoa Burger mit feurige Tomatensoße, Spaghetti und Salat</name>
           <note>Farbstoff</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Sellerie</note>
@@ -122,39 +97,6 @@
       </category>
     </day>
     <day date="2024-10-16">
-      <category name="Essen I Drehkreuz/Ampel">
-        <meal>
-          <name>Gefüllte Klöße mit Hackfleisch, Sauerkraut und Kräuter-Rahmsoße</name>
-          <note>Eier und Eierzeugnisse</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Schwefeldioxid (&quot;SO2&quot;) und Sulfite</note>
-          <note>Schwein</note>
-          <note>Soja</note>
-          <note>geschwefelt</note>
-          <note>kann Restalkohol enthalten</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
-      </category>
-      <category name="Essen II Drehkreuz/Ampel">
-        <meal>
-          <name>Gefüllte Klöße mit Spinat, Sauerkraut und Kräuter-Rahmsoße</name>
-          <note>Eier und Eierzeugnisse</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Schwefeldioxid (&quot;SO2&quot;) und Sulfite</note>
-          <note>Schwein</note>
-          <note>Soja</note>
-          <note>Vegetarisches Menü</note>
-          <note>geschwefelt</note>
-          <note>kann Restalkohol enthalten</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2024-10-17">
       <category name="Essen I Drehkreuz/Ampel">
         <meal>
           <name>Alaska-Seelachsfilet in der Knusperpanade mit Remouladensoße, Bratkartoffeln und Salat</name>
@@ -182,6 +124,39 @@
           <note>Schwein</note>
           <note>Senf</note>
           <note>Vegetarisches Menü</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2024-10-17">
+      <category name="Essen I Drehkreuz/Ampel">
+        <meal>
+          <name>Gefüllte Klöße mit Hackfleisch, Sauerkraut und Kräuter-Rahmsoße</name>
+          <note>Eier und Eierzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Schwefeldioxid (&quot;SO2&quot;) und Sulfite</note>
+          <note>Schwein</note>
+          <note>Soja</note>
+          <note>geschwefelt</note>
+          <note>kann Restalkohol enthalten</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+      </category>
+      <category name="Essen II Drehkreuz/Ampel">
+        <meal>
+          <name>Gefüllte Klöße mit Spinat, Sauerkraut und Kräuter-Rahmsoße</name>
+          <note>Eier und Eierzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Schwefeldioxid (&quot;SO2&quot;) und Sulfite</note>
+          <note>Schwein</note>
+          <note>Soja</note>
+          <note>Vegetarisches Menü</note>
+          <note>geschwefelt</note>
+          <note>kann Restalkohol enthalten</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
           <price role="student">5.55</price>
