@@ -3,76 +3,6 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2024-10-15">
-      <category name="Freeflow">
-        <meal>
-          <name>Ein frischer Pfannkuchen mit Waldbeeren und Holundersahne</name>
-          <note>Eier und Eierzeugnisse</note>
-          <note>Farbstoff</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Konservierungsstoff</note>
-          <note>Laktose</note>
-          <note>Waldküche vegetarisch</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
-        <meal>
-          <name>Gegrilltes Zanderfilet mit Limetten-Dill-Soße, Pasta und ein Beilagensalat nach Wahl</name>
-          <note>Eier und Eierzeugnisse</note>
-          <note>Fisch</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Laktose</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
-      </category>
-      <category name="Essen I Drehkreuz/Ampel">
-        <meal>
-          <name>Paniertes Schweineschnitzel  mit Zwiebel-Sahnesoße, Pommes frites und Salat</name>
-          <note>Eier und Eierzeugnisse</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Laktose</note>
-          <note>Schwein</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
-      </category>
-      <category name="Essen II Drehkreuz/Ampel">
-        <meal>
-          <name>Gemüsemaultaschen mit Zwiebelsoße, dazu ein Beilagensalat nach Wahl</name>
-          <note>Farbstoff</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Senf</note>
-          <note>Veganes Menü</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
-      </category>
-      <category name="Suppen/Eintöpfe">
-        <meal>
-          <name>Veganer Kartoffeleintopf, dazu eine Scheibe Bauernbrot</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Sellerie</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
-      </category>
-      <category name="Warme Theke">
-        <meal>
-          <name>Guacamole-Apfel-Rote Bete Stulle</name>
-          <note>Antioxidationsmittel</note>
-          <note>Glutenhaltiges Getreide</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
-      </category>
-    </day>
     <day date="2024-10-16">
       <category name="Freeflow">
         <meal>
@@ -93,9 +23,12 @@
         <meal>
           <name>Hähnchenbrustfilet mit Rahmsoße, Spätzle, dazu ein Beilagensalat nach Wahl</name>
           <note>Eier und Eierzeugnisse</note>
+          <note>Farbstoff</note>
           <note>Geflügel</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Laktose</note>
+          <note>Schwefeldioxid (&quot;SO2&quot;) und Sulfite</note>
+          <note>geschwefelt</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
           <price role="student">5.55</price>
@@ -104,10 +37,12 @@
       <category name="Essen I Drehkreuz/Ampel">
         <meal>
           <name>Asiatische Reispfanne mit Putengeschnetzeltem und Gemüse , dazu Soße süß-sauer und Salat</name>
+          <note>Farbstoff</note>
           <note>Geflügel</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Schwefeldioxid (&quot;SO2&quot;) und Sulfite</note>
           <note>Sellerie</note>
+          <note>Senf</note>
           <note>Soja</note>
           <note>geschwefelt</note>
           <price role="employee">5.55</price>
@@ -152,28 +87,21 @@
           <price role="student">5.55</price>
         </meal>
         <meal>
-          <name>Pizza Salami</name>
+          <name>Hausgemachte Pizza mit Salami und Schinken</name>
           <note>Antioxidationsmittel</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Konservierungsstoff</note>
-          <note>Laktose</note>
-          <note>Schwein</note>
-          <note>Senf</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
-        <meal>
-          <name>Käse-Schinken Stulle</name>
-          <note>Antioxidationsmittel</note>
-          <note>Eier und Eierzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Konservierungsstoff</note>
           <note>Laktose</note>
           <note>Phosphat</note>
           <note>Schwein</note>
-          <note>Senf</note>
-          <note>Süßungsmittel</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+        <meal>
+          <name>Warmer veganer Fleischkäse im Kaiserbrötchen</name>
+          <note>Farbstoff</note>
+          <note>Glutenhaltiges Getreide</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
           <price role="student">5.55</price>
@@ -186,6 +114,7 @@
           <name>Gegrillte Regenbogenforelle mit einer großen Ofenkartoffel und Sauerampfer-Dip, dazu ein Beilagensalat nach Wahl</name>
           <note>Eier und Eierzeugnisse</note>
           <note>Farbstoff</note>
+          <note>Fisch</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Laktose</note>
           <note>Senf</note>
@@ -197,6 +126,8 @@
         </meal>
         <meal>
           <name>Rinderburger belegt mit Eisberg, Tomaten, Zwiebeln und Gurken im Burgerbrötchen, dazu Pommes frites und ein Beilagensalat nach Wahl</name>
+          <note>Antioxidationsmittel</note>
+          <note>Farbstoff</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Rind</note>
           <note>Schwefeldioxid (&quot;SO2&quot;) und Sulfite</note>
@@ -247,23 +178,6 @@
         </meal>
       </category>
       <category name="Warme Theke">
-        <meal>
-          <name>Bratwurst  mit Currysoße, dazu ein Kaiserbrötchen</name>
-          <note>Antioxidationsmittel</note>
-          <note>Farbstoff</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Konservierungsstoff</note>
-          <note>Lamm</note>
-          <note>Phosphat</note>
-          <note>Rind</note>
-          <note>Schwein</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <note>Süßungsmittel</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
         <meal>
           <name>Hummus Happyner Stulle</name>
           <note>Antioxidationsmittel</note>
@@ -468,6 +382,7 @@
       <category name="Freeflow">
         <meal>
           <name>Gebratener Saibling, Weißwein-Sahnesoße und gewürzte Drillinge mit Wildkräutern, dazu ein Beilagensalat nach Wahl</name>
+          <note>Fisch</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Laktose</note>
           <note>Schwefeldioxid (&quot;SO2&quot;) und Sulfite</note>
@@ -1089,6 +1004,7 @@
           <name>Pfifferlings-Carbonara mit Eiernudeln, Haselnuss-Crunch und Wildkräuteröl, dazu ein Beilagensalat nach Wahl</name>
           <note>Farbstoff</note>
           <note>Laktose</note>
+          <note>Schalenfrüchte (Nüsse)</note>
           <note>Sellerie</note>
           <note>Senf</note>
           <note>Waldküche vegetarisch</note>
@@ -1235,6 +1151,36 @@
           <note>Sellerie</note>
           <note>Senf</note>
           <note>Veganes Menü</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2024-11-15">
+      <category name="Essen II Drehkreuz/Ampel">
+        <meal>
+          <name>Spinatknödel mit Kartoffel-Käse-Soße und Salat</name>
+          <note>Eier und Eierzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Laktose</note>
+          <note>Sellerie</note>
+          <note>Vegetarisches Menü</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+      </category>
+      <category name="Essen I Drehkreuz/Ampel">
+        <meal>
+          <name>Große Portion Steakhouse-Fries mit hausgemachtem Chili con Carne , geriebenem Cheddar , roten Zwiebeln und Coleslaw</name>
+          <note>Farbstoff</note>
+          <note>Laktose</note>
+          <note>Poutine canadian streetfood</note>
+          <note>Rind</note>
+          <note>Schwefeldioxid (&quot;SO2&quot;) und Sulfite</note>
+          <note>Senf</note>
+          <note>geschwefelt</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
           <price role="student">5.55</price>
