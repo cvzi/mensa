@@ -3,41 +3,14 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2024-10-23">
-      <category name="HEIMSPIEL">
-        <meal>
-          <name>Rindfleisch Bolognese Fusilli,  Salat,  Dessert</name>
-          <note>Sellerie</note>
-          <note>Weizen</note>
-          <price role="employee">5.00</price>
-          <price role="other">11.85</price>
-          <price role="student">2.60</price>
-        </meal>
-      </category>
-      <category name="QUERBEET">
-        <meal>
-          <name>VEGETARISCH: Käsespätzle Salat,  Dessert</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Laktose</note>
-          <note>Milch</note>
-          <note>Weizen</note>
-          <price role="employee">5.00</price>
-          <price role="other">12.40</price>
-          <price role="student">2.75</price>
-        </meal>
-        <meal>
-          <name>VEGAN: Erbseneintopf Kaiserbrötchen</name>
-          <note>Gluten</note>
-          <note>Sellerie</note>
-          <price role="employee">3.90</price>
-          <price role="other">7.50</price>
-          <price role="student">1.80</price>
-        </meal>
-      </category>
-    </day>
     <day date="2024-10-24">
       <category name="HEIMSPIEL">
+        <meal>
+          <name>Currywursttopf Pommes frites,  Salat,  Dessert</name>
+          <price role="employee">5.50</price>
+          <price role="other">14.80</price>
+          <price role="student">3.25</price>
+        </meal>
         <meal>
           <name>Rahmgeschnetzeltes vom Schwein Spätzle,  Beilagensalat,  Dessert</name>
           <note>Eier</note>
@@ -57,6 +30,14 @@
           <price role="employee">5.00</price>
           <price role="other">11.85</price>
           <price role="student">2.60</price>
+        </meal>
+        <meal>
+          <name>VEGAN: Erbseneintopf Kaiserbrötchen</name>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <price role="employee">3.90</price>
+          <price role="other">7.50</price>
+          <price role="student">1.80</price>
         </meal>
       </category>
     </day>
@@ -152,19 +133,19 @@
       </category>
       <category name="QUERBEET">
         <meal>
-          <name>VEGAN: Tomatencremesuppe Kaiserbrötchen</name>
-          <note>Gluten</note>
-          <price role="employee">3.90</price>
-          <price role="other">7.50</price>
-          <price role="student">1.80</price>
-        </meal>
-        <meal>
           <name>VEGAN: Kürbis-Falafelbällchen Linsengemüse,  Gartenkräuter-Dip,  Dessert</name>
           <note>Sellerie</note>
           <note>Soja</note>
           <price role="employee">5.50</price>
           <price role="other">14.80</price>
           <price role="student">3.25</price>
+        </meal>
+        <meal>
+          <name>VEGAN: Tomatencremesuppe Kaiserbrötchen</name>
+          <note>Gluten</note>
+          <price role="employee">3.90</price>
+          <price role="other">7.50</price>
+          <price role="student">1.80</price>
         </meal>
       </category>
     </day>
@@ -181,17 +162,17 @@
       </category>
       <category name="QUERBEET">
         <meal>
+          <name>VEGAN: Vegane Bratwurst mit Currysauce,  Pommes frites,  Beilagensalat,  Dessert</name>
+          <price role="employee">6.10</price>
+          <price role="other">16.95</price>
+          <price role="student">3.75</price>
+        </meal>
+        <meal>
           <name>VEGAN: Tomatencremesuppe Kaiserbrötchen</name>
           <note>Gluten</note>
           <price role="employee">3.90</price>
           <price role="other">7.50</price>
           <price role="student">1.80</price>
-        </meal>
-        <meal>
-          <name>VEGAN: Vegane Bratwurst mit Currysauce,  Pommes frites,  Beilagensalat,  Dessert</name>
-          <price role="employee">6.10</price>
-          <price role="other">16.95</price>
-          <price role="student">3.75</price>
         </meal>
       </category>
     </day>
@@ -216,6 +197,36 @@
           <price role="employee">4.75</price>
           <price role="other">11.65</price>
           <price role="student">2.55</price>
+        </meal>
+        <meal>
+          <name>VEGETARISCH: Käse-Lauchcremesuppe Kaiserbrötchen</name>
+          <note>Gluten</note>
+          <note>Laktose</note>
+          <note>Milch</note>
+          <price role="employee">3.90</price>
+          <price role="other">7.50</price>
+          <price role="student">1.80</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2024-11-07">
+      <category name="HEIMSPIEL">
+        <meal>
+          <name>Rindergeschnetzeltes in Pfefferrahmsauce Reis,  Salat,  Dessert</name>
+          <note>Laktose</note>
+          <note>Milch</note>
+          <price role="employee">5.50</price>
+          <price role="other">14.80</price>
+          <price role="student">3.25</price>
+        </meal>
+      </category>
+      <category name="QUERBEET">
+        <meal>
+          <name>VEGAN: Sojagulasch Rotkohl,  Salzkartoffeln,  Dessert</name>
+          <note>Soja</note>
+          <price role="employee">5.20</price>
+          <price role="other">13.80</price>
+          <price role="student">3.05</price>
         </meal>
         <meal>
           <name>VEGETARISCH: Käse-Lauchcremesuppe Kaiserbrötchen</name>
