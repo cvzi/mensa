@@ -3,15 +3,8 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2024-10-24">
+    <day date="2024-10-25">
       <category name="Tellergericht">
-        <meal>
-          <name>Brötchen</name>
-          <note>Glutenhaltiges Getreide</note>
-          <price role="employee">0.50</price>
-          <price role="other">0.50</price>
-          <price role="student">0.35</price>
-        </meal>
         <meal>
           <name>Kl. Schüssel: Soljanka</name>
           <note>Schweinefleisch</note>
@@ -24,6 +17,22 @@
           <price role="employee">1.60</price>
           <price role="other">2.35</price>
           <price role="student">0.90</price>
+        </meal>
+        <meal>
+          <name>Kl. Schüssel: Milchreis  
+ mit Sauerkirschen</name>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <price role="employee">1.60</price>
+          <price role="other">2.35</price>
+          <price role="student">0.90</price>
+        </meal>
+        <meal>
+          <name>Teller: Milchreis  
+ mit Sauerkirschen</name>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <price role="employee">2.40</price>
+          <price role="other">3.60</price>
+          <price role="student">1.50</price>
         </meal>
         <meal>
           <name>Teller: Soljanka</name>
@@ -51,28 +60,56 @@
           <price role="other">5.10</price>
           <price role="student">2.20</price>
         </meal>
-      </category>
-      <category name="Komponente 3">
         <meal>
-          <name>Hähnchenbrust in Parmesanpanade (Gefl,G,A) 
- mit Rahmsauce (9,Gefl,G)</name>
+          <name>Terrine: Milchreis  
+ mit Sauerkirschen</name>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <price role="employee">3.80</price>
+          <price role="other">5.10</price>
+          <price role="student">2.20</price>
+        </meal>
+      </category>
+      <category name="Komponente 2">
+        <meal>
+          <name>Paniertes Schweinelachsschnitzel  
+ mit Orangen-Hollandaisesauce  oder Rahmsauce</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <note>Schweinefleisch</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>jodiertes Salz</note>
           <price role="employee">3.10</price>
           <price role="other">3.95</price>
           <price role="student">2.25</price>
         </meal>
       </category>
-      <category name="Vegetarische Komponente 1">
+      <category name="Komponente 3">
         <meal>
-          <name>2 Valess Schnitzel, paniert [aus Schmelzkäse]  
- mit Mischgemüse zum Überfüllen</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <name>Geflügelspieß (Gefl) 
+ dazu eine Geflügelsoße (9,Gefl,G)</name>
+          <price role="employee">3.10</price>
+          <price role="other">3.95</price>
+          <price role="student">2.25</price>
+        </meal>
+        <meal>
+          <name>Hähnchenbrust in Parmesanpanade (Gefl,G,A) 
+ mit Geflügelsauce (9,Gefl,G)</name>
+          <price role="employee">3.10</price>
+          <price role="other">3.95</price>
+          <price role="student">2.25</price>
+        </meal>
+      </category>
+      <category name="Vegane Komponente 1">
+        <meal>
+          <name>Blumenkohl Knusper Medaillon mit Minz-Soja-Dip</name>
           <note>Glutenhaltiges Getreide</note>
-          <note>Milch/Milchzucker (Laktose)</note>
+          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
           <note>jodiertes Salz</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">2.85</price>
-          <price role="other">3.70</price>
-          <price role="student">2.00</price>
+          <note>mit Antioxidationsmittel</note>
+          <price role="employee">2.65</price>
+          <price role="other">3.50</price>
+          <price role="student">1.80</price>
         </meal>
       </category>
       <category name="Veganes Essen">
@@ -95,6 +132,15 @@
           <price role="other">0.60</price>
           <price role="student">0.30</price>
         </meal>
+        <meal>
+          <name>Pastateller: Nudeln mit Tomaten-Basilikumsoße [vegan]</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>jodiertes Salz</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">0.90</price>
+          <price role="other">1.20</price>
+          <price role="student">0.60</price>
+        </meal>
       </category>
       <category name="Beilagen">
         <meal>
@@ -105,7 +151,15 @@
           <price role="student">0.70</price>
         </meal>
         <meal>
-          <name>Pommes Frites</name>
+          <name>Reis</name>
+          <note>jodiertes Salz</note>
+          <price role="employee">1.00</price>
+          <price role="other">1.40</price>
+          <price role="student">0.70</price>
+        </meal>
+        <meal>
+          <name>Twister [gedrehte Kartoffelspiralen]</name>
+          <note>Glutenhaltiges Getreide</note>
           <price role="employee">1.30</price>
           <price role="other">1.70</price>
           <price role="student">1.00</price>
@@ -113,7 +167,7 @@
       </category>
       <category name="Gemüse">
         <meal>
-          <name>Erbsengemüse</name>
+          <name>Frühlingsgemüse [Karotten, Markerbsen fein, Brechbohnen, Blumenkohl, Kohlrabi]</name>
           <price role="employee">1.00</price>
           <price role="other">1.40</price>
           <price role="student">0.70</price>
