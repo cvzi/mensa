@@ -3,36 +3,6 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2024-11-15">
-      <category name="Essen II Drehkreuz/Ampel">
-        <meal>
-          <name>Spinatknödel mit Kartoffel-Käse-Soße und Salat</name>
-          <note>Eier und Eierzeugnisse</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Laktose</note>
-          <note>Sellerie</note>
-          <note>Vegetarisches Menü</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
-      </category>
-      <category name="Essen I Drehkreuz/Ampel">
-        <meal>
-          <name>Große Portion Steakhouse-Fries mit hausgemachtem Chili con Carne , geriebenem Cheddar , roten Zwiebeln und Coleslaw</name>
-          <note>Farbstoff</note>
-          <note>Laktose</note>
-          <note>Poutine canadian streetfood</note>
-          <note>Rind</note>
-          <note>Schwefeldioxid (&quot;SO2&quot;) und Sulfite</note>
-          <note>Senf</note>
-          <note>geschwefelt</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
-      </category>
-    </day>
     <day date="2024-11-18">
       <category name="Essen I Drehkreuz/Ampel">
         <meal>
@@ -79,6 +49,36 @@
           <price role="student">5.55</price>
         </meal>
       </category>
+      <category name="Suppen/Eintöpfe">
+        <meal>
+          <name>Gemüseeintopf, dazu eine Scheibe Bauernbrot</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Sellerie</note>
+          <note>Veganer Eintopf</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+      </category>
+      <category name="Warme Theke">
+        <meal>
+          <name>Kaiserschmarrn mit Vanillesoße</name>
+          <note>Eier und Eierzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Laktose</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+        <meal>
+          <name>Vegane Bohnen Stulle</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Sellerie</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+      </category>
     </day>
     <day date="2024-11-19">
       <category name="Essen I Drehkreuz/Ampel">
@@ -96,7 +96,7 @@
       </category>
       <category name="Freeflow">
         <meal>
-          <name>Kalbsbraten mit Rahmsoße und Kroketten, dazu ein Beilagensalat nach Wahl</name>
+          <name>Kalbsbraten mit Rahmsoße und Röstinchen, dazu ein Beilagensalat nach Wahl</name>
           <note>Glutenhaltiges Getreide</note>
           <note>Kalb</note>
           <note>Laktose</note>
@@ -122,6 +122,43 @@
           <note>Senf</note>
           <note>Soja</note>
           <note>Veganes Menü</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+      </category>
+      <category name="Suppen/Eintöpfe">
+        <meal>
+          <name>Kürbiscremesuppe</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Soja</note>
+          <note>Veganer Eintopf</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+      </category>
+      <category name="Warme Theke">
+        <meal>
+          <name>Cheeseburger: BIO-Rindfleisch-Burger mit Käsescheibe überbacken, Ketchup und Senf im Brioche Burger Bun</name>
+          <note>BIO Rindfleisch vom Bärenbrunnerhof</note>
+          <note>Eier und Eierzeugnisse</note>
+          <note>Farbstoff</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Laktose</note>
+          <note>Rind</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <note>Süßungsmittel</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+        <meal>
+          <name>Forelle-Spitzkohl Stulle</name>
+          <note>Fisch</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Laktose</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
           <price role="student">5.55</price>
@@ -181,6 +218,53 @@
           <price role="student">5.55</price>
         </meal>
       </category>
+      <category name="Suppen/Eintöpfe">
+        <meal>
+          <name>Kartoffelsuppe zusätzlich 1,90 € mit Wiener Würstchen oder Rindswurst, dazu eine Scheibe Bauernbrot</name>
+          <note>Antioxidationsmittel</note>
+          <note>Farbstoff</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Konservierungsstoff</note>
+          <note>Lamm</note>
+          <note>Phosphat</note>
+          <note>Rind</note>
+          <note>Schwefeldioxid (&quot;SO2&quot;) und Sulfite</note>
+          <note>Schwein</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <note>Süßungsmittel</note>
+          <note>geschwefelt</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+      </category>
+      <category name="Warme Theke">
+        <meal>
+          <name>Pizza mit Oliven</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Laktose</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+        <meal>
+          <name>Pizza Margherita</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Laktose</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+        <meal>
+          <name>Guacamole-Eier Stulle</name>
+          <note>Eier und Eierzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+      </category>
     </day>
     <day date="2024-11-21">
       <category name="Essen I Drehkreuz/Ampel">
@@ -231,6 +315,40 @@
           <note>Glutenhaltiges Getreide</note>
           <note>Senf</note>
           <note>Veganes Menü</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+      </category>
+      <category name="Suppen/Eintöpfe">
+        <meal>
+          <name>Blumenkohl-Curry-Eintopf</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+      </category>
+      <category name="Warme Theke">
+        <meal>
+          <name>Paniertes Hähnchenbrustfilet belegt mit Tomaten, Gurken und Remoulade im Baguettebrötchen</name>
+          <note>Eier und Eierzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Senf</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+        <meal>
+          <name>Pastramie-Bergkäse Stulle</name>
+          <note>Antioxidationsmittel</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Laktose</note>
+          <note>Phosphat</note>
+          <note>Rind</note>
+          <note>Süßungsmittel</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
           <price role="student">5.55</price>
@@ -891,6 +1009,7 @@
           <note>Antioxidationsmittel</note>
           <note>Geflügel</note>
           <note>Laktose</note>
+          <note>Sellerie</note>
           <note>Senf</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
@@ -1010,6 +1129,50 @@
           <note>Senf</note>
           <note>Sesam</note>
           <note>geschwefelt</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2024-12-16">
+      <category name="Freeflow">
+        <meal>
+          <name>Hash Browns mit Petersilien-Karottencreme und gepoppten Amaranth, dazu ein Beilagensalat nach Wahl</name>
+          <note>Waldküche vegan</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+        <meal>
+          <name>Grobe Pfälzer BIO Bratwurst mit Pommes frites, dazu ein Beilagensalat nach Wahl</name>
+          <note>BIO Fleisch vom Bärenbrunnerhof</note>
+          <note>Eier und Eierzeugnisse</note>
+          <note>Rind</note>
+          <note>Schwein</note>
+          <note>Senf</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+      </category>
+      <category name="Essen I Drehkreuz/Ampel">
+        <meal>
+          <name>Putengulasch in Paprikarahmsoße  mit Eiernudeln und Salat</name>
+          <note>Eier und Eierzeugnisse</note>
+          <note>Geflügel</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Laktose</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+      </category>
+      <category name="Essen II Drehkreuz/Ampel">
+        <meal>
+          <name>Süßkartoffel-Curry mit Kürbis und Spinat, dazu Reis und ein Beilagensalat nach Wunsch</name>
+          <note>Senf</note>
+          <note>Veganes Menü</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
           <price role="student">5.55</price>
