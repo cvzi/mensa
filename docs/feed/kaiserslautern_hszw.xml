@@ -3,37 +3,6 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2024-12-11">
-      <category name="Essen I Drehkreuz/Ampel">
-        <meal>
-          <name>Bratwurst mit Currysoße, Pommes frites und Salat</name>
-          <note>Eier und Eierzeugnisse</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Rind</note>
-          <note>Schwein</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
-      </category>
-      <category name="Essen II Drehkreuz/Ampel">
-        <meal>
-          <name>Gemüse-Vollkornbratling mit Currysoße, Pommes frites und Salat</name>
-          <note>Eier und Eierzeugnisse</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <note>Soja</note>
-          <note>Süßungsmittel</note>
-          <note>Veganes Menü</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
-      </category>
-    </day>
     <day date="2024-12-12">
       <category name="Essen I Drehkreuz/Ampel">
         <meal>
@@ -88,7 +57,7 @@
     <day date="2024-12-16">
       <category name="Essen I Drehkreuz/Ampel">
         <meal>
-          <name>Paniertes Hähnchenbrustfilet mit Rahmsoße, Spaghetti und Salat</name>
+          <name>Paniertes Hähnchenbrustfilet mit Rahmsoße, Eiernudeln und Salat</name>
           <note>Glutenhaltiges Getreide</note>
           <note>Laktose</note>
           <price role="employee">5.55</price>
@@ -98,7 +67,7 @@
       </category>
       <category name="Essen II Drehkreuz/Ampel">
         <meal>
-          <name>Gemüseschnitzel mit Rahmsoße, Spaghetti und Salat</name>
+          <name>Gemüseschnitzel mit Rahmsoße, Eiernudeln und Salat</name>
           <note>Glutenhaltiges Getreide</note>
           <note>Laktose</note>
           <note>Sellerie</note>
@@ -110,9 +79,28 @@
       </category>
     </day>
     <day date="2024-12-17">
+      <category name="Essen II Drehkreuz/Ampel">
+        <meal>
+          <name>Gemüse-Pulled mit BBQ-Soße, rote Zwiebeln und Frühlingszwiebeln, Steakhouse-Pommes und Salat</name>
+          <note>Antioxidationsmittel</note>
+          <note>Eier und Eierzeugnisse</note>
+          <note>Farbstoff</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Schwefeldioxid (&quot;SO2&quot;) und Sulfite</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
+          <note>Süßungsmittel</note>
+          <note>Veganes Menü</note>
+          <note>geschwefelt</note>
+          <note>geschwärzt</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+      </category>
       <category name="Essen I Drehkreuz/Ampel">
         <meal>
-          <name>Pulled Turkey mit BBQ-Soße, Zwiebeln, Tomaten, Krautsalat, Pommes frites und Salat</name>
+          <name>Pulled Chicken mit BBQ-Soße, rote Zwiebeln und Frühlingszwiebeln, Steakhouse-Pommes und Salat</name>
           <note>Antioxidationsmittel</note>
           <note>Eier und Eierzeugnisse</note>
           <note>Farbstoff</note>
@@ -120,31 +108,10 @@
           <note>Glutenhaltiges Getreide</note>
           <note>Schwefeldioxid (&quot;SO2&quot;) und Sulfite</note>
           <note>Sellerie</note>
-          <note>Senf</note>
-          <note>Sesam</note>
           <note>Soja</note>
           <note>Süßungsmittel</note>
           <note>geschwefelt</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
-      </category>
-      <category name="Essen II Drehkreuz/Ampel">
-        <meal>
-          <name>Gemüse-Pulled mit BBQ-Soße, Zwiebeln, Tomaten, Krautsalat, Pommes frites und Salat</name>
-          <note>Antioxidationsmittel</note>
-          <note>Eier und Eierzeugnisse</note>
-          <note>Farbstoff</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Schwefeldioxid (&quot;SO2&quot;) und Sulfite</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <note>Sesam</note>
-          <note>Soja</note>
-          <note>Süßungsmittel</note>
-          <note>Veganes Menü</note>
-          <note>geschwefelt</note>
+          <note>geschwärzt</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
           <price role="student">5.55</price>
@@ -259,7 +226,6 @@
       <category name="Essen II Drehkreuz/Ampel">
         <meal>
           <name>Heute wegen Inventur geschlossen</name>
-          <note>Veganes Menü</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
           <price role="student">5.55</price>
