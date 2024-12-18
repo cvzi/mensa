@@ -3,45 +3,54 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2024-12-17">
+    <day date="2024-12-18">
       <category name="Tellergericht">
         <meal>
-          <name>Gyrossuppe, Teller</name>
-          <note>Milch/Milchzucker (Laktose)</note>
-          <note>Schwefeldioxid und Sulphite in Konzentration von mehr als 10mg/kg oder 10mg/l, als SO2 angegeben</note>
-          <note>Schweinefleisch</note>
-          <note>alkoholhaltig </note>
-          <note>jodiertes Salz</note>
+          <name>Vegan: 4 Kartoffelpuffer mit Apfelmus</name>
+          <note>mit Antioxidationsmittel</note>
           <price role="employee">2.35</price>
           <price role="other">3.30</price>
           <price role="student">1.50</price>
         </meal>
         <meal>
-          <name>Milchreis mit gemischten Früchten</name>
-          <note>Milch/Milchzucker (Laktose)</note>
-          <price role="employee">3.25</price>
-          <price role="other">4.40</price>
-          <price role="student">2.20</price>
+          <name>Kohlrübeneintopf mit Rauchfleisch Teller</name>
+          <note>Schweinefleisch</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>geschwefelt</note>
+          <note>jodiertes Salz</note>
+          <note>mit Antioxidationsmittel</note>
+          <note>mit Konservierungsstoff</note>
+          <price role="employee">2.35</price>
+          <price role="other">3.30</price>
+          <price role="student">1.50</price>
         </meal>
         <meal>
-          <name>Gyrossuppe, Terrine</name>
-          <note>Milch/Milchzucker (Laktose)</note>
-          <note>Schwefeldioxid und Sulphite in Konzentration von mehr als 10mg/kg oder 10mg/l, als SO2 angegeben</note>
+          <name>Kohlrübeneintopf mit Rauchfleisch Terrine</name>
           <note>Schweinefleisch</note>
-          <note>alkoholhaltig </note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>geschwefelt</note>
           <note>jodiertes Salz</note>
+          <note>mit Antioxidationsmittel</note>
+          <note>mit Konservierungsstoff</note>
           <price role="employee">3.25</price>
           <price role="other">4.40</price>
           <price role="student">2.20</price>
         </meal>
       </category>
-      <category name="Komponente 1">
+      <category name="Komponente 2">
         <meal>
-          <name>Fischfilet in Backteig  
- mit Tomatensoße</name>
-          <note>Fische und daraus hergestellte Erzeugnisse</note>
+          <name>Schmorkohl mit Hackfleisch</name>
           <note>Glutenhaltiges Getreide</note>
+          <note>Schweinefleisch</note>
           <note>jodiertes Salz</note>
+          <price role="employee">3.10</price>
+          <price role="other">3.95</price>
+          <price role="student">2.25</price>
+        </meal>
+      </category>
+      <category name="Komponente 3">
+        <meal>
+          <name>Hühnerfrikassee mit Gemüse (3,9,Gefl,G,A,C,I)</name>
           <price role="employee">3.10</price>
           <price role="other">3.95</price>
           <price role="student">2.25</price>
@@ -49,14 +58,12 @@
       </category>
       <category name="Vegane Komponente 1">
         <meal>
-          <name>Broccoli-Nuss-Ecke  
- mit Kräutersauce</name>
+          <name>Vollkornspaghetti mit Bolognese von roten Linsen</name>
           <note>Glutenhaltiges Getreide</note>
-          <note>Schalenfrüchte und daraus hergestellte Erzeugnisse (Mandeln, Haselnuss usw.)</note>
-          <note>jodiertes Salz</note>
-          <price role="employee">2.60</price>
-          <price role="other">3.45</price>
-          <price role="student">1.75</price>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <price role="employee">3.10</price>
+          <price role="other">3.95</price>
+          <price role="student">2.25</price>
         </meal>
       </category>
       <category name="Beilagen">
@@ -69,14 +76,16 @@
           <price role="student">0.70</price>
         </meal>
         <meal>
-          <name>Basmatireis</name>
+          <name>Reis</name>
           <note>jodiertes Salz</note>
           <price role="employee">1.00</price>
           <price role="other">1.40</price>
           <price role="student">0.70</price>
         </meal>
         <meal>
-          <name>Pommes Frites</name>
+          <name>Spätzle</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
           <price role="employee">1.30</price>
           <price role="other">1.70</price>
           <price role="student">1.00</price>
@@ -84,11 +93,18 @@
       </category>
       <category name="Gemüse">
         <meal>
-          <name>Fit Gemüse Mix [Karottenscheiben, Pastinaken- und Zucchiniwürfel]</name>
+          <name>feine Möhren</name>
           <note>jodiertes Salz</note>
-          <price role="employee">1.20</price>
-          <price role="other">1.60</price>
-          <price role="student">0.90</price>
+          <price role="employee">1.00</price>
+          <price role="other">1.40</price>
+          <price role="student">0.70</price>
+        </meal>
+        <meal>
+          <name>Möhrensalat</name>
+          <note>jodiertes Salz</note>
+          <price role="employee">1.00</price>
+          <price role="other">1.40</price>
+          <price role="student">0.70</price>
         </meal>
       </category>
       <category name="Salate und Desserts">
