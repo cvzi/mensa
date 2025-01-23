@@ -4,7 +4,6 @@ from gql.transport.requests import RequestsHTTPTransport
 import json
 from pyopenmensa.feed import LazyBuilder
 import re
-import logging
 
 class Canteen:
     def __init__(self, uri: str):
@@ -47,7 +46,7 @@ query Location($locationUri: String!) {
             }
 
         return weekMenus
-    
+
     def generateTotalFeedXml(self) -> str:
         weekMenus = self.fetchWeekMenus()
         self.feed = LazyBuilder()
@@ -83,7 +82,6 @@ query Location($locationUri: String!) {
     def addMealsToFeed(self, category_name, current_date, meals):
         for meal in meals:
             name = meal['title_de']
-            price = meal['price']
             allergens = meal['allergens']
             if isinstance(allergens, dict):
                 allergens = allergens.keys()

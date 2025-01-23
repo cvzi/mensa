@@ -28,7 +28,7 @@ class Parser:
         uri = self.canteens[canteenReference]["source"]
         canteen = Canteen(uri)
         return canteen.generateTotalFeedXml()
-    
+
     def feed_today(self, canteenReference: str):
         uri = self.canteens[canteenReference]["source"]
         canteen = Canteen(uri)
