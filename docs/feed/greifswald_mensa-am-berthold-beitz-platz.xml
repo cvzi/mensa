@@ -4,7 +4,7 @@
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
     <day date="2025-01-24">
-      <category name="Tellergericht vegetarisch">
+      <category name="Tellergericht">
         <meal>
           <name>Halbe Portion: 2 Hefeklöße  
  mit Kirschen</name>
@@ -28,34 +28,26 @@
           <price role="student">1.80</price>
         </meal>
       </category>
-      <category name="Komponente 2 pro Portion oder nach Gewicht (pro 100g)">
+      <category name="Komponente 1">
         <meal>
-          <name>Pastateller: Schweinegeschnetzeltes  
- mit Spätzle</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <name>3 Eingelegte Bratheringe</name>
+          <note>Fische und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
-          <note>Schweinefleisch</note>
-          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
-          <price role="employee">1.09</price>
-          <price role="other">1.49</price>
-          <price role="student">0.74</price>
-        </meal>
-        <meal>
-          <name>Schweinegeschnetzeltes</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Schweinefleisch</note>
-          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>mit Süßungsmittel</note>
           <price role="employee">3.25</price>
           <price role="other">4.25</price>
           <price role="student">2.25</price>
         </meal>
       </category>
-      <category name="Komponente 3">
+      <category name="Komponente 4">
         <meal>
-          <name>Paniertes Putensteak (Gefl,A) 
+          <name>Boulette  
  mit Gemüsefrischkäsesoße</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Milch/Milchzucker (Laktose)</note>
+          <note>Rindfleisch</note>
+          <note>Schweinefleisch</note>
           <note>mit Farbstoff</note>
           <price role="employee">3.25</price>
           <price role="other">4.25</price>
@@ -76,7 +68,7 @@
       </category>
       <category name="Vegane Komponente 2">
         <meal>
-          <name>Möhren-Linsen-Ragout</name>
+          <name>Möhren-Linsen-Ragout mit Rosenkohl</name>
           <note>mit Antioxidationsmittel</note>
           <price role="employee">2.50</price>
           <price role="other">3.50</price>
@@ -112,26 +104,10 @@
           <price role="student">0.80</price>
         </meal>
         <meal>
-          <name>Gemüsebulgur</name>
-          <note>Glutenhaltiges Getreide</note>
-          <price role="employee">1.50</price>
-          <price role="other">1.90</price>
-          <price role="student">1.10</price>
-        </meal>
-        <meal>
-          <name>Bratkartoffeln [mit Speck und Zwiebeln]</name>
-          <note>Schweinefleisch</note>
-          <price role="employee">1.50</price>
-          <price role="other">1.90</price>
-          <price role="student">1.10</price>
-        </meal>
-        <meal>
-          <name>Spätzle [vegetarisch]</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
-          <note>Glutenhaltiges Getreide</note>
-          <price role="employee">1.50</price>
-          <price role="other">1.90</price>
-          <price role="student">1.10</price>
+          <name>Langkornreis</name>
+          <price role="employee">1.20</price>
+          <price role="other">1.60</price>
+          <price role="student">0.80</price>
         </meal>
         <meal>
           <name>Rosmarin-Kartoffeln</name>
@@ -225,6 +201,18 @@
           <price role="employee">3.25</price>
           <price role="other">4.25</price>
           <price role="student">2.25</price>
+        </meal>
+      </category>
+      <category name="Vegane Komponente 4">
+        <meal>
+          <name>Extra: Gemüseschnitzel  
+ mit Tomatensoße</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>jodiertes Salz</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">2.50</price>
+          <price role="other">3.50</price>
+          <price role="student">1.50</price>
         </meal>
       </category>
       <category name="Mittagsgericht Cafeteria Klinikum (zzgl. 5€ ReBowl-Pfand)">

@@ -37,7 +37,158 @@
   <body>
     <main>
       <article>Parser for <a target="_blank" href="https://openmensa.org">openmensa.org</a>. The parser runs in a <a target="_blank" title="What's a Github action?" href="https://docs.github.com/en/actions">Github action<sup>❓</sup></a> and pushes the XML feeds to this page</article>
-      <article><h3><a href="https://github.com/cvzi/mensa/actions/">🗿 Parser status</a></h3></article>
+      <article><h3><a href="https://github.com/cvzi/mensa/actions/">🗿 Parser status</a></h3>
+<pre>inetmenue/cve:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 145, in updateFeeds
+    content = getattr(parser, feedMethod)(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
+    return self.feed_all(ref, get_next_week=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
+    next_week_path = self.parseMeals(ref, builder, resp.text)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 79, in parseMeals
+    return self.parseMealsFS(ref, builder, document)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 242, in parseMealsFS
+    builder.addMeal(dates[day_index], category.strip(
+  File "/opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/pyopenmensa/feed.py", line 662, in addMeal
+    super(LazyBuilder, self).addMeal(extractDate(date), category, name,
+                                     ^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/pyopenmensa/feed.py", line 61, in extractDate
+    raise ValueError('unknown month names: "{0}"'
+ValueError: unknown month names: "/01/20"
+
+inetmenue/hehlentor-celle:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 145, in updateFeeds
+    content = getattr(parser, feedMethod)(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
+    return self.feed_all(ref, get_next_week=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
+    next_week_path = self.parseMeals(ref, builder, resp.text)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 79, in parseMeals
+    return self.parseMealsFS(ref, builder, document)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 242, in parseMealsFS
+    builder.addMeal(dates[day_index], category.strip(
+  File "/opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/pyopenmensa/feed.py", line 662, in addMeal
+    super(LazyBuilder, self).addMeal(extractDate(date), category, name,
+                                     ^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/pyopenmensa/feed.py", line 61, in extractDate
+    raise ValueError('unknown month names: "{0}"'
+ValueError: unknown month names: "/01/20"
+
+inetmenue/kiga-jsw:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 145, in updateFeeds
+    content = getattr(parser, feedMethod)(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
+    return self.feed_all(ref, get_next_week=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
+    next_week_path = self.parseMeals(ref, builder, resp.text)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 79, in parseMeals
+    return self.parseMealsFS(ref, builder, document)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 242, in parseMealsFS
+    builder.addMeal(dates[day_index], category.strip(
+  File "/opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/pyopenmensa/feed.py", line 662, in addMeal
+    super(LazyBuilder, self).addMeal(extractDate(date), category, name,
+                                     ^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/pyopenmensa/feed.py", line 61, in extractDate
+    raise ValueError('unknown month names: "{0}"'
+ValueError: unknown month names: "/01/20"
+
+inetmenue/klein-hehlen-celle:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 145, in updateFeeds
+    content = getattr(parser, feedMethod)(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
+    return self.feed_all(ref, get_next_week=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
+    next_week_path = self.parseMeals(ref, builder, resp.text)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 79, in parseMeals
+    return self.parseMealsFS(ref, builder, document)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 242, in parseMealsFS
+    builder.addMeal(dates[day_index], category.strip(
+  File "/opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/pyopenmensa/feed.py", line 662, in addMeal
+    super(LazyBuilder, self).addMeal(extractDate(date), category, name,
+                                     ^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/pyopenmensa/feed.py", line 61, in extractDate
+    raise ValueError('unknown month names: "{0}"'
+ValueError: unknown month names: "/01/20"
+
+inetmenue/mns:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 145, in updateFeeds
+    content = getattr(parser, feedMethod)(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
+    return self.feed_all(ref, get_next_week=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
+    next_week_path = self.parseMeals(ref, builder, resp.text)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
+    raise RuntimeError(oops.text.strip())
+RuntimeError: OOPS
+
+                        da hat sich wohl der
+                        Fehlerteufel eingeschlichen.
+
+inetmenue/schmecktsdannbassts:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 145, in updateFeeds
+    content = getattr(parser, feedMethod)(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
+    return self.feed_all(ref, get_next_week=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
+    next_week_path = self.parseMeals(ref, builder, resp.text)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
+    raise RuntimeError(oops.text.strip())
+RuntimeError: OOPS
+
+                        da hat sich wohl der
+                        Fehlerteufel eingeschlichen.
+
+inetmenue/wilhelmstadtschulen:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 145, in updateFeeds
+    content = getattr(parser, feedMethod)(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
+    return self.feed_all(ref, get_next_week=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
+    next_week_path = self.parseMeals(ref, builder, resp.text)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 79, in parseMeals
+    return self.parseMealsFS(ref, builder, document)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 242, in parseMealsFS
+    builder.addMeal(dates[day_index], category.strip(
+  File "/opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/pyopenmensa/feed.py", line 662, in addMeal
+    super(LazyBuilder, self).addMeal(extractDate(date), category, name,
+                                     ^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.8/x64/lib/python3.12/site-packages/pyopenmensa/feed.py", line 61, in extractDate
+    raise ValueError('unknown month names: "{0}"'
+ValueError: unknown month names: "/01/20"
+</pre></article>
       <article>
 <ol style="list-style-type:none">
 <li><h3 id="eurest"><a href="https://cvzi.github.io/mensa/eurest.json">🐏 eurest.json</a></h3>
@@ -1584,16 +1735,19 @@
 <ul style="list-style-type:none">
   <li><a href="https://cvzi.github.io/mensa/feed/mensenat_BadenMensaPH.xml">🍱 feed/mensenat_BadenMensaPH.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/mensenat_BadenMensaPH.xml">🈺 meta/mensenat_BadenMensaPH.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/today/mensenat_BadenMensaPH.xml">🍱 today/mensenat_BadenMensaPH.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/mensenat_EisenstadtFH.xml">🍱 feed/mensenat_EisenstadtFH.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/mensenat_EisenstadtFH.xml">🈺 meta/mensenat_EisenstadtFH.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/mensenat_EisenstadtWKO.xml">🍱 feed/mensenat_EisenstadtWKO.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/mensenat_EisenstadtWKO.xml">🈺 meta/mensenat_EisenstadtWKO.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/mensenat_GrazKUGmCafe.xml">🍱 feed/mensenat_GrazKUGmCafe.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/mensenat_GrazKUGmCafe.xml">🈺 meta/mensenat_GrazKUGmCafe.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/today/mensenat_GrazKUGmCafe.xml">🍱 today/mensenat_GrazKUGmCafe.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/mensenat_GrazTUcafeteria.xml">🍱 feed/mensenat_GrazTUcafeteria.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/mensenat_GrazTUcafeteria.xml">🈺 meta/mensenat_GrazTUcafeteria.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/mensenat_GrazTUInffeld.xml">🍱 feed/mensenat_GrazTUInffeld.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/mensenat_GrazTUInffeld.xml">🈺 meta/mensenat_GrazTUInffeld.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/today/mensenat_GrazTUInffeld.xml">🍱 today/mensenat_GrazTUInffeld.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/mensenat_GrazTUrooftop.xml">🍱 feed/mensenat_GrazTUrooftop.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/mensenat_GrazTUrooftop.xml">🈺 meta/mensenat_GrazTUrooftop.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/mensenat_GrazUniReSoWi.xml">🍱 feed/mensenat_GrazUniReSoWi.xml</a></li>
@@ -1622,40 +1776,52 @@
   <li><a href="https://cvzi.github.io/mensa/meta/mensenat_InnUniUSI.xml">🈺 meta/mensenat_InnUniUSI.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/mensenat_KapfenbergFH.xml">🍱 feed/mensenat_KapfenbergFH.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/mensenat_KapfenbergFH.xml">🈺 meta/mensenat_KapfenbergFH.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/today/mensenat_KapfenbergFH.xml">🍱 today/mensenat_KapfenbergFH.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/mensenat_KlagenfurtUniMCafe.xml">🍱 feed/mensenat_KlagenfurtUniMCafe.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/mensenat_KlagenfurtUniMCafe.xml">🈺 meta/mensenat_KlagenfurtUniMCafe.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/mensenat_KlagenfurtUniMensa.xml">🍱 feed/mensenat_KlagenfurtUniMensa.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/mensenat_KlagenfurtUniMensa.xml">🈺 meta/mensenat_KlagenfurtUniMensa.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/mensenat_KremsCampusMensa.xml">🍱 feed/mensenat_KremsCampusMensa.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/mensenat_KremsCampusMensa.xml">🈺 meta/mensenat_KremsCampusMensa.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/today/mensenat_KremsCampusMensa.xml">🍱 today/mensenat_KremsCampusMensa.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/mensenat_KremsCampusVirginier.xml">🍱 feed/mensenat_KremsCampusVirginier.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/mensenat_KremsCampusVirginier.xml">🈺 meta/mensenat_KremsCampusVirginier.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/today/mensenat_KremsCampusVirginier.xml">🍱 today/mensenat_KremsCampusVirginier.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/mensenat_LeobenMontanuni.xml">🍱 feed/mensenat_LeobenMontanuni.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/mensenat_LeobenMontanuni.xml">🈺 meta/mensenat_LeobenMontanuni.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/today/mensenat_LeobenMontanuni.xml">🍱 today/mensenat_LeobenMontanuni.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/mensenat_LinzJKUchatCafe.xml">🍱 feed/mensenat_LinzJKUchatCafe.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/mensenat_LinzJKUchatCafe.xml">🈺 meta/mensenat_LinzJKUchatCafe.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/mensenat_LinzJKUMensa.xml">🍱 feed/mensenat_LinzJKUMensa.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/mensenat_LinzJKUMensa.xml">🈺 meta/mensenat_LinzJKUMensa.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/today/mensenat_LinzJKUMensa.xml">🍱 today/mensenat_LinzJKUMensa.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/mensenat_LinzJKUMensarei.xml">🍱 feed/mensenat_LinzJKUMensarei.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/mensenat_LinzJKUMensarei.xml">🈺 meta/mensenat_LinzJKUMensarei.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/today/mensenat_LinzJKUMensarei.xml">🍱 today/mensenat_LinzJKUMensarei.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/mensenat_LinzJKUscienceCafe.xml">🍱 feed/mensenat_LinzJKUscienceCafe.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/mensenat_LinzJKUscienceCafe.xml">🈺 meta/mensenat_LinzJKUscienceCafe.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/today/mensenat_LinzJKUscienceCafe.xml">🍱 today/mensenat_LinzJKUscienceCafe.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/mensenat_LinzPHDLmensa.xml">🍱 feed/mensenat_LinzPHDLmensa.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/mensenat_LinzPHDLmensa.xml">🈺 meta/mensenat_LinzPHDLmensa.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/today/mensenat_LinzPHDLmensa.xml">🍱 today/mensenat_LinzPHDLmensa.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/mensenat_MariaEnzersdorfBRG.xml">🍱 feed/mensenat_MariaEnzersdorfBRG.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/mensenat_MariaEnzersdorfBRG.xml">🈺 meta/mensenat_MariaEnzersdorfBRG.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/mensenat_SalzBG.xml">🍱 feed/mensenat_SalzBG.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/mensenat_SalzBG.xml">🈺 meta/mensenat_SalzBG.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/today/mensenat_SalzBG.xml">🍱 today/mensenat_SalzBG.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/mensenat_SalzLPD.xml">🍱 feed/mensenat_SalzLPD.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/mensenat_SalzLPD.xml">🈺 meta/mensenat_SalzLPD.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/mensenat_SalzSIAK.xml">🍱 feed/mensenat_SalzSIAK.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/mensenat_SalzSIAK.xml">🈺 meta/mensenat_SalzSIAK.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/today/mensenat_SalzSIAK.xml">🍱 today/mensenat_SalzSIAK.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/mensenat_SalzUniNaWi.xml">🍱 feed/mensenat_SalzUniNaWi.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/mensenat_SalzUniNaWi.xml">🈺 meta/mensenat_SalzUniNaWi.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/today/mensenat_SalzUniNaWi.xml">🍱 today/mensenat_SalzUniNaWi.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/mensenat_SalzUniRudolfskai.xml">🍱 feed/mensenat_SalzUniRudolfskai.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/mensenat_SalzUniRudolfskai.xml">🈺 meta/mensenat_SalzUniRudolfskai.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/mensenat_SalzUniToskanatrakt.xml">🍱 feed/mensenat_SalzUniToskanatrakt.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/mensenat_SalzUniToskanatrakt.xml">🈺 meta/mensenat_SalzUniToskanatrakt.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/today/mensenat_SalzUniToskanatrakt.xml">🍱 today/mensenat_SalzUniToskanatrakt.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/mensenat_StpBSZ.xml">🍱 feed/mensenat_StpBSZ.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/mensenat_StpBSZ.xml">🈺 meta/mensenat_StpBSZ.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/mensenat_StpBundesschulz.xml">🍱 feed/mensenat_StpBundesschulz.xml</a></li>
@@ -1668,28 +1834,34 @@
   <li><a href="https://cvzi.github.io/mensa/meta/mensenat_WiBOKUBioTech.xml">🈺 meta/mensenat_WiBOKUBioTech.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/mensenat_WiBOKUmCafeMendel.xml">🍱 feed/mensenat_WiBOKUmCafeMendel.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/mensenat_WiBOKUmCafeMendel.xml">🈺 meta/mensenat_WiBOKUmCafeMendel.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/today/mensenat_WiBOKUmCafeMendel.xml">🍱 today/mensenat_WiBOKUmCafeMendel.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/mensenat_WiBOKUPeterJordan.xml">🍱 feed/mensenat_WiBOKUPeterJordan.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/mensenat_WiBOKUPeterJordan.xml">🈺 meta/mensenat_WiBOKUPeterJordan.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/mensenat_WiFHTechnikum.xml">🍱 feed/mensenat_WiFHTechnikum.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/mensenat_WiFHTechnikum.xml">🈺 meta/mensenat_WiFHTechnikum.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/mensenat_WiGRG10.xml">🍱 feed/mensenat_WiGRG10.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/mensenat_WiGRG10.xml">🈺 meta/mensenat_WiGRG10.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/today/mensenat_WiGRG10.xml">🍱 today/mensenat_WiGRG10.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/mensenat_WiPHMensaBuffet.xml">🍱 feed/mensenat_WiPHMensaBuffet.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/mensenat_WiPHMensaBuffet.xml">🈺 meta/mensenat_WiPHMensaBuffet.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/mensenat_WiPolRossauer.xml">🍱 feed/mensenat_WiPolRossauer.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/mensenat_WiPolRossauer.xml">🈺 meta/mensenat_WiPolRossauer.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/today/mensenat_WiPolRossauer.xml">🍱 today/mensenat_WiPolRossauer.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/mensenat_WiTGM.xml">🍱 feed/mensenat_WiTGM.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/mensenat_WiTGM.xml">🈺 meta/mensenat_WiTGM.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/mensenat_WiTUBuffetGusshausstr.xml">🍱 feed/mensenat_WiTUBuffetGusshausstr.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/mensenat_WiTUBuffetGusshausstr.xml">🈺 meta/mensenat_WiTUBuffetGusshausstr.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/mensenat_WiTUMensaFreihaus.xml">🍱 feed/mensenat_WiTUMensaFreihaus.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/mensenat_WiTUMensaFreihaus.xml">🈺 meta/mensenat_WiTUMensaFreihaus.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/today/mensenat_WiTUMensaFreihaus.xml">🍱 today/mensenat_WiTUMensaFreihaus.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/mensenat_WiTUSchroedingerFreihaus.xml">🍱 feed/mensenat_WiTUSchroedingerFreihaus.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/mensenat_WiTUSchroedingerFreihaus.xml">🈺 meta/mensenat_WiTUSchroedingerFreihaus.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/today/mensenat_WiTUSchroedingerFreihaus.xml">🍱 today/mensenat_WiTUSchroedingerFreihaus.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/mensenat_WiUniHof8.xml">🍱 feed/mensenat_WiUniHof8.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/mensenat_WiUniHof8.xml">🈺 meta/mensenat_WiUniHof8.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/mensenat_WiUniJuridicum.xml">🍱 feed/mensenat_WiUniJuridicum.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/mensenat_WiUniJuridicum.xml">🈺 meta/mensenat_WiUniJuridicum.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/today/mensenat_WiUniJuridicum.xml">🍱 today/mensenat_WiUniJuridicum.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/mensenat_WiUniNIG.xml">🍱 feed/mensenat_WiUniNIG.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/mensenat_WiUniNIG.xml">🈺 meta/mensenat_WiUniNIG.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/mensenat_WiUniOMP.xml">🍱 feed/mensenat_WiUniOMP.xml</a></li>
@@ -1700,8 +1872,10 @@
   <li><a href="https://cvzi.github.io/mensa/meta/mensenat_WiUnizUZA1.xml">🈺 meta/mensenat_WiUnizUZA1.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/mensenat_WiUnizUZA2.xml">🍱 feed/mensenat_WiUnizUZA2.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/mensenat_WiUnizUZA2.xml">🈺 meta/mensenat_WiUnizUZA2.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/today/mensenat_WiUnizUZA2.xml">🍱 today/mensenat_WiUnizUZA2.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/feed/mensenat_WiVetMedDA.xml">🍱 feed/mensenat_WiVetMedDA.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/mensenat_WiVetMedDA.xml">🈺 meta/mensenat_WiVetMedDA.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/today/mensenat_WiVetMedDA.xml">🍱 today/mensenat_WiVetMedDA.xml</a></li>
 </ul>
 </li>
 </ol>
