@@ -4,15 +4,19 @@ import json
 import logging
 import urllib
 import re
+import json5
+
 
 try:
     from mensenat.tools import getMenu
     from util import xml_escape, weekdays_map
+    from .canteen import Canteen
+
 except ModuleNotFoundError:
     include = os.path.relpath(os.path.join(os.path.dirname(__file__), '..'))
     sys.path.insert(0, include)
-    from tools import getMenu
     from util import xml_escape, weekdays_map
+    from canteen import Canteen
 
 metaJson = os.path.join(os.path.dirname(__file__), "canteenDict.json")
 
@@ -20,8 +24,19 @@ metaTemplateFile = os.path.join(os.path.dirname(__file__), "metaTemplate.xml")
 
 
 class Parser:
-    def feed(self, refName):
-        return getMenu(self.canteens[refName]["id"])
+    def feed(self, canteenReference: str):
+        uri = self.canteens[canteenReference]["source"]
+        canteen = Canteen(uri)
+        return canteen.generateTotalFeedXml()
+
+    def feed_today(self, canteenReference: str):
+        uri = self.canteens[canteenReference]["source"]
+        canteen = Canteen(uri)
+        return canteen.genereateCurrentWeekFeedXml()
+    
+    def feed_all(self, canteenReference: str):
+        return self.feed(canteenReference)
+
 
     def meta(self, refName):
         """Generate an openmensa XML meta feed from the static json file using an XML template"""
@@ -75,7 +90,7 @@ class Parser:
 
     def __init__(self, urlTemplate):
         with open(metaJson, 'r', encoding='utf8') as f:
-            canteenDict = json.load(f)
+            canteenDict = json5.load(f)
 
         self.urlTemplate = urlTemplate
 
@@ -90,10 +105,13 @@ class Parser:
             tmp[reference] = self.urlTemplate.format(
                 metaOrFeed='meta', mensaReference=urllib.parse.quote(reference))
         return json.dumps(tmp, indent=2)
+    
+
+
 
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
     print(Parser(
-        "http://localhost/{metaOrFeed}/mensenat_{mensaReference}.xml").feed("KlagenfurtUniMCafe"))
+        "http://localhost/{metaOrFeed}/mensenat_{mensaReference}.xml").feed("WiTUSchroedingerFreihaus"))
     # print(Parser("http://localhost/{metaOrFeed}/mensenat_{mensaReference}.xml").meta("EisenstadtFH"))
