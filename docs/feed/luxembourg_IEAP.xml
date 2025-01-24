@@ -3,73 +3,8 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2025-01-13">
-      <category name="Entrée">
-        <meal>
-          <name>Soupe aux petits pois</name>
-          <note>Céleri et produits à base de céleri</note>
-          <note>Produit sans gluten</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="Végétarien">
-        <meal>
-          <name>Boulettes végétales, sauce tomate aux herbes</name>
-          <note>Produit sans gluten</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="Non-végétarien">
-        <meal>
-          <name>Kebab de poulet</name>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>non-végétarien</note>
-        </meal>
-      </category>
-      <category name="Légumes">
-        <meal>
-          <name>Champignons aux oignons, ail et persil</name>
-          <note>Produit sans gluten</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="Féculents">
-        <meal>
-          <name>Pommes de terre &quot;wedges&quot; maison</name>
-          <note>Produit sans gluten</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="Dessert">
-        <meal>
-          <name>Pastéis de nata</name>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-    </day>
-    <day date="2025-01-14">
-      <closed/>
-    </day>
-    <day date="2025-01-15">
-      <closed/>
-    </day>
-    <day date="2025-01-16">
-      <closed/>
-    </day>
-    <day date="2025-01-17">
-      <closed/>
-    </day>
-    <day date="2025-01-18">
-      <closed/>
-    </day>
-    <day date="2025-01-19">
-      <closed/>
-    </day>
     <day date="2025-01-20">
-      <category name="Entrée (07:00 - 15:00)">
+      <category name="Entrée">
         <meal>
           <name>Soupe aux oignons</name>
           <note>Céleri et produits à base de céleri</note>
@@ -77,13 +12,13 @@
           <note>végan</note>
         </meal>
       </category>
-      <category name="Végétarien (07:00 - 15:00)">
+      <category name="Végétarien">
         <meal>
           <name>Bouchée au quorn, champignons et épinards</name>
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Non-végétarien (07:00 - 15:00)">
+      <category name="Non-végétarien">
         <meal>
           <name>Boulettes de viande, sauce tomate</name>
           <note>Céleri et produits à base de céleri</note>
@@ -91,14 +26,14 @@
           <note>non-végétarien</note>
         </meal>
       </category>
-      <category name="Légumes (07:00 - 15:00)">
+      <category name="Légumes">
         <meal>
           <name>Haricots verts aux oignons</name>
           <note>Produit sans gluten</note>
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Féculents (07:00 - 15:00)">
+      <category name="Féculents">
         <meal>
           <name>Pommes de terre écrasées</name>
           <note>Produit sans gluten</note>
@@ -111,7 +46,7 @@
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Dessert (07:00 - 15:00)">
+      <category name="Dessert">
         <meal>
           <name>Tiramisu</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
@@ -143,6 +78,8 @@
       <category name="Entrée (07:00 - 15:00)">
         <meal>
           <name>Potage aux petits pois</name>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
           <note>végétarien</note>
         </meal>
@@ -150,12 +87,18 @@
       <category name="Végétarien (07:00 - 15:00)">
         <meal>
           <name>Kebab végétal, fromage blanc aux herbes, chou blanc et crudités marinées</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Soja et produits à base de soja</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Non-végétarien (07:00 - 15:00)">
         <meal>
           <name>Boeuf à la zurichoise</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
           <note>non-végétarien</note>
         </meal>
@@ -163,6 +106,7 @@
       <category name="Légumes (07:00 - 15:00)">
         <meal>
           <name>Chou fleur, beurre, persil</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
           <note>végétarien</note>
         </meal>
@@ -177,6 +121,10 @@
       <category name="Dessert (07:00 - 15:00)">
         <meal>
           <name>Cookie noisettes</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Fruits à coque et produits à base de ces fruits (Noisettes)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
           <note>végétarien</note>
         </meal>
       </category>
@@ -259,6 +207,67 @@
       <closed/>
     </day>
     <day date="2025-02-09">
+      <closed/>
+    </day>
+    <day date="2025-02-10">
+      <category name="Entrée (07:00 - 15:00)">
+        <meal>
+          <name>Velouté au céleri rôti</name>
+          <note>Produit sans gluten</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Végétarien (07:00 - 15:00)">
+        <meal>
+          <name>Chili végétal, crème épaisse</name>
+          <note>Produit sans gluten</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Non-végétarien (07:00 - 15:00)">
+        <meal>
+          <name>Porchetta rôtie au four, jus corsé</name>
+          <note>Produit sans gluten</note>
+          <note>non-végétarien</note>
+        </meal>
+      </category>
+      <category name="Légumes (07:00 - 15:00)">
+        <meal>
+          <name>Chou romanesco à l'ail</name>
+          <note>Produit sans gluten</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Féculents (07:00 - 15:00)">
+        <meal>
+          <name>Pommes de terre en robe des champs, sauce au fromage blanc</name>
+          <note>Produit sans gluten</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Dessert (07:00 - 15:00)">
+        <meal>
+          <name>Mousse praliné, crumble aux noisettes</name>
+          <note>végétarien</note>
+        </meal>
+      </category>
+    </day>
+    <day date="2025-02-11">
+      <closed/>
+    </day>
+    <day date="2025-02-12">
+      <closed/>
+    </day>
+    <day date="2025-02-13">
+      <closed/>
+    </day>
+    <day date="2025-02-14">
+      <closed/>
+    </day>
+    <day date="2025-02-15">
+      <closed/>
+    </day>
+    <day date="2025-02-16">
       <closed/>
     </day>
   </canteen>
