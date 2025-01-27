@@ -7,6 +7,7 @@
       <category name="QUERBEET">
         <meal>
           <name>EG Nord 11:30 - 14:15 UhrVEGETARISCH: Nudelauflauf mit Gemüse Kräuterrahmsauce,  Salat,  Dessert</name>
+          <note>Eier</note>
           <note>Laktose</note>
           <note>Milch</note>
           <note>Weizen</note>
@@ -15,8 +16,13 @@
           <price role="student">2.35</price>
         </meal>
         <meal>
+          <name>EG Nord 11:30 - 14:15 UhrSalat &amp; Gemüsebuffet in Selbstbedienung,  je 100g (Preis je 100g)</name>
+          <price role="employee">0.95</price>
+          <price role="other">2.85</price>
+          <price role="student">0.75</price>
+        </meal>
+        <meal>
           <name>EG Nord 14:30 - 18:00 UhrVEGAN: No Chicken- Süß-Sauer Basmatireis,  Salat,  Dessert</name>
-          <note>Gluten</note>
           <note>Hafer</note>
           <note>Soja</note>
           <price role="employee">5.50</price>
@@ -25,7 +31,6 @@
         </meal>
         <meal>
           <name>EG Süd 11:30 - 14:30 UhrVEGAN: No Chicken- Süß-Sauer Basmatireis,  Salat,  Dessert</name>
-          <note>Gluten</note>
           <note>Hafer</note>
           <note>Soja</note>
           <price role="employee">5.50</price>
@@ -33,10 +38,11 @@
           <price role="student">3.25</price>
         </meal>
         <meal>
-          <name>MG Nord 11:30 - 14:30 UhrVEGAN: Wirsingeintopf Kaiserbrötchen</name>
-          <note>Gluten</note>
+          <name>MG Nord 11:30 - 14:30 UhrVEGAN: Wirsingeintopf  oder Fruchtige Curry-Kokossuppe Brötchen</name>
           <note>Hafer</note>
           <note>Sellerie</note>
+          <note>Soja</note>
+          <note>Weizen</note>
           <price role="employee">3.90</price>
           <price role="other">7.50</price>
           <price role="student">1.80</price>
@@ -51,7 +57,6 @@
       <category name="HEIMSPIEL">
         <meal>
           <name>EG Nord 14:30 - 18:00 UhrPutenschnitzel Pfefferrahmsauce,  Kartoffelstampf,  Salat,  Dessert</name>
-          <note>Gluten</note>
           <note>Laktose</note>
           <note>Milch</note>
           <note>Weizen</note>
@@ -61,7 +66,6 @@
         </meal>
         <meal>
           <name>MG Nord 11:30 - 14:30 UhrPutenschnitzel Pfefferrahmsauce,  Kartoffelstampf,  Salat,  Dessert</name>
-          <note>Gluten</note>
           <note>Laktose</note>
           <note>Milch</note>
           <note>Weizen</note>
@@ -82,8 +86,7 @@
           <price role="student">1.50</price>
         </meal>
         <meal>
-          <name>MG Süd RestaurantPizza Salami: Chorizo </name>
-          <note>Gluten</note>
+          <name>MG Süd RestaurantPizza Salami: Geflügelsalami </name>
           <note>Laktose</note>
           <note>Milch</note>
           <note>Senf</note>
@@ -206,18 +209,18 @@
           <price role="student">3.05</price>
         </meal>
         <meal>
-          <name>MG Nord 11:30 - 14:30 UhrSalatbuffet in Selbstbedienung,  je 100g (Preis je 100g)</name>
-          <price role="employee">0.95</price>
-          <price role="other">2.85</price>
-          <price role="student">0.75</price>
-        </meal>
-        <meal>
           <name>MG Nord 11:30 - 14:30 UhrVEGAN: Erbseneintopf Kaiserbrötchen</name>
           <note>Gluten</note>
           <note>Sellerie</note>
           <price role="employee">3.90</price>
           <price role="other">7.50</price>
           <price role="student">1.80</price>
+        </meal>
+        <meal>
+          <name>MG Nord 11:30 - 14:30 UhrSalatbuffet in Selbstbedienung,  je 100g (Preis je 100g)</name>
+          <price role="employee">0.95</price>
+          <price role="other">2.85</price>
+          <price role="student">0.75</price>
         </meal>
       </category>
       <category name="HEIMSPIEL">
@@ -280,6 +283,12 @@
           <price role="student">2.60</price>
         </meal>
         <meal>
+          <name>MG Nord 11:30 - 14:15 UhrSalatbuffet in Selbstbedienung,  je 100g (Preis je 100g)</name>
+          <price role="employee">0.95</price>
+          <price role="other">2.85</price>
+          <price role="student">0.75</price>
+        </meal>
+        <meal>
           <name>MG Nord 11:30 - 14:15 UhrVEGAN: Kürbiscremesuppe Fladenbrot</name>
           <note>Gluten</note>
           <note>Hafer</note>
@@ -289,12 +298,6 @@
           <price role="employee">3.90</price>
           <price role="other">7.50</price>
           <price role="student">1.80</price>
-        </meal>
-        <meal>
-          <name>MG Nord 11:30 - 14:15 UhrSalatbuffet in Selbstbedienung,  je 100g (Preis je 100g)</name>
-          <price role="employee">0.95</price>
-          <price role="other">2.85</price>
-          <price role="student">0.75</price>
         </meal>
         <meal>
           <name>MG Nord 14:30 - 18:00 UhrVEGAN: Chili sin carne Pommes frites,  Sour Cream,  Salat,  Dessert</name>
@@ -357,15 +360,6 @@
           <price role="student">3.05</price>
         </meal>
         <meal>
-          <name>EG Nord 14:30 - 18:00 UhrVEGAN: Schnitzel Rahmkartoffeln mit Rosenkohl und Karotten,  Dessert</name>
-          <note>Gluten</note>
-          <note>Soja</note>
-          <note>Weizen</note>
-          <price role="employee">5.20</price>
-          <price role="other">13.80</price>
-          <price role="student">3.05</price>
-        </meal>
-        <meal>
           <name>EG Nord 14:30 - 18:00 UhrVEGAN: Rote Beete Sauce Rigatoni,  Salat,  Dessert</name>
           <note>Gluten</note>
           <note>Soja</note>
@@ -375,10 +369,13 @@
           <price role="student">2.60</price>
         </meal>
         <meal>
-          <name>MG Nord 11:30 - 14:30 UhrSalatbuffet in Selbstbedienung,  je 100g (Preis je 100g)</name>
-          <price role="employee">0.95</price>
-          <price role="other">2.85</price>
-          <price role="student">0.75</price>
+          <name>EG Nord 14:30 - 18:00 UhrVEGAN: Schnitzel Rahmkartoffeln mit Rosenkohl und Karotten,  Dessert</name>
+          <note>Gluten</note>
+          <note>Soja</note>
+          <note>Weizen</note>
+          <price role="employee">5.20</price>
+          <price role="other">13.80</price>
+          <price role="student">3.05</price>
         </meal>
         <meal>
           <name>MG Nord 11:30 - 14:30 UhrVEGAN: Linsen Dal Fladenbrot</name>
@@ -389,6 +386,12 @@
           <price role="employee">3.90</price>
           <price role="other">7.50</price>
           <price role="student">1.80</price>
+        </meal>
+        <meal>
+          <name>MG Nord 11:30 - 14:30 UhrSalatbuffet in Selbstbedienung,  je 100g (Preis je 100g)</name>
+          <price role="employee">0.95</price>
+          <price role="other">2.85</price>
+          <price role="student">0.75</price>
         </meal>
         <meal>
           <name>MG Nord 11:30 - 14:30 UhrVEGAN: Rote Beete Sauce Rigatoni,  Salat,  Dessert</name>
@@ -443,18 +446,18 @@
           <price role="student">3.25</price>
         </meal>
         <meal>
+          <name>MG Nord 11:30 - 14:30 UhrSalatbuffet in Selbstbedienung,  je 100g Salat(Preis je 100g)</name>
+          <price role="employee">0.95</price>
+          <price role="other">2.85</price>
+          <price role="student">0.75</price>
+        </meal>
+        <meal>
           <name>MG Nord 11:30 - 14:30 UhrVEGAN: Karotten-Ingwersuppe Kaiserbrötchen</name>
           <note>Gluten</note>
           <note>Soja</note>
           <price role="employee">3.90</price>
           <price role="other">7.50</price>
           <price role="student">1.80</price>
-        </meal>
-        <meal>
-          <name>MG Nord 11:30 - 14:30 UhrSalatbuffet in Selbstbedienung,  je 100g Salat(Preis je 100g)</name>
-          <price role="employee">0.95</price>
-          <price role="other">2.85</price>
-          <price role="student">0.75</price>
         </meal>
       </category>
       <category name="HEIMSPIEL">
@@ -725,6 +728,72 @@
           <note>Gluten</note>
           <note>Laktose</note>
           <note>Milch</note>
+          <note>Weizen</note>
+          <price role="employee">6.35</price>
+          <price role="other">21.30</price>
+          <price role="student">4.70</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2025-02-10">
+      <category name="QUERBEET">
+        <meal>
+          <name>EG Nord 11:30 - 14:30 UhrVEGETARISCH: 2 Gemüsepuffer Gartenkräuter-Dip,  Salat,  Dessert</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Laktose</note>
+          <note>Milch</note>
+          <note>Weizen</note>
+          <price role="employee">4.50</price>
+          <price role="other">10.65</price>
+          <price role="student">2.35</price>
+        </meal>
+        <meal>
+          <name>EG Süd 11:30 - 14:30 UhrVEGAN: Kürbis-Falafelbällchen Gemüse-Bulgur,  Salat,  Dessert,  Gartenkräuter-Dip</name>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
+          <note>Weizen</note>
+          <price role="employee">5.50</price>
+          <price role="other">14.80</price>
+          <price role="student">3.25</price>
+        </meal>
+        <meal>
+          <name>MG Nord 11:30 - 14:30 UhrSalatbuffet in Selbstbedienung,  je 100g Salat(Preis je 100g)</name>
+          <price role="employee">0.95</price>
+          <price role="other">2.85</price>
+          <price role="student">0.75</price>
+        </meal>
+        <meal>
+          <name>MG Nord 11:30 - 14:30 UhrVEGAN: Thailändische Kokos-Suppe Kaiserbrötchen</name>
+          <note>Gluten</note>
+          <note>Sesamsamen</note>
+          <note>Soja</note>
+          <note>Weizen</note>
+          <price role="employee">3.90</price>
+          <price role="other">7.50</price>
+          <price role="student">1.80</price>
+        </meal>
+      </category>
+      <category name="HEIMSPIEL">
+        <meal>
+          <name>MG Nord 11:30 - 14:30 UhrHähnchenschnitzel mit Knusperpanade Paprikarahmsauce,  Pommes frites,  Salat,  Dessert</name>
+          <note>Gluten</note>
+          <note>Laktose</note>
+          <note>Milch</note>
+          <note>Weizen</note>
+          <price role="employee">5.50</price>
+          <price role="other">14.80</price>
+          <price role="student">3.25</price>
+        </meal>
+      </category>
+      <category name="MEISTERWERK">
+        <meal>
+          <name>MG Süd RestaurantPizza Salami: Geflügelsalami </name>
+          <note>Gluten</note>
+          <note>Laktose</note>
+          <note>Milch</note>
+          <note>Senf</note>
           <note>Weizen</note>
           <price role="employee">6.35</price>
           <price role="other">21.30</price>

@@ -6,12 +6,6 @@
     <day date="2025-01-27">
       <category name="HEIMSPIEL">
         <meal>
-          <name>Currywurst Pommes frites,  Salat,  Dessert</name>
-          <price role="employee">5.50</price>
-          <price role="other">14.80</price>
-          <price role="student">3.25</price>
-        </meal>
-        <meal>
           <name>Putenschnitzel Pfefferrahmsauce,  Kartoffelstampf,  Salat,  Dessert</name>
           <note>Gluten</note>
           <note>Laktose</note>
@@ -22,17 +16,14 @@
           <price role="other">14.80</price>
           <price role="student">3.25</price>
         </meal>
+        <meal>
+          <name>Currywurst Pommes frites,  Salat,  Dessert</name>
+          <price role="employee">5.50</price>
+          <price role="other">14.80</price>
+          <price role="student">3.25</price>
+        </meal>
       </category>
       <category name="QUERBEET">
-        <meal>
-          <name>VEGAN: Wirsingeintopf Kaiserbrötchen</name>
-          <note>Gluten</note>
-          <note>Hafer</note>
-          <note>Sellerie</note>
-          <price role="employee">3.90</price>
-          <price role="other">7.50</price>
-          <price role="student">1.80</price>
-        </meal>
         <meal>
           <name>VEGAN: No Chicken- Süß-Sauer Basmatireis,  Salat,  Dessert</name>
           <note>Gluten</note>
@@ -41,6 +32,15 @@
           <price role="employee">5.50</price>
           <price role="other">14.80</price>
           <price role="student">3.25</price>
+        </meal>
+        <meal>
+          <name>VEGAN: Wirsingeintopf Kaiserbrötchen</name>
+          <note>Gluten</note>
+          <note>Hafer</note>
+          <note>Sellerie</note>
+          <price role="employee">3.90</price>
+          <price role="other">7.50</price>
+          <price role="student">1.80</price>
         </meal>
       </category>
     </day>
@@ -88,6 +88,12 @@
     <day date="2025-01-29">
       <category name="HEIMSPIEL">
         <meal>
+          <name>Currywurst Pommes frites,  Salat,  Dessert</name>
+          <price role="employee">5.50</price>
+          <price role="other">14.80</price>
+          <price role="student">3.25</price>
+        </meal>
+        <meal>
           <name>Rindfleisch Bolognese Fusilli,  Salat,  Dessert</name>
           <note>Gluten</note>
           <note>Sellerie</note>
@@ -96,23 +102,8 @@
           <price role="other">11.85</price>
           <price role="student">2.60</price>
         </meal>
-        <meal>
-          <name>Currywurst Pommes frites,  Salat,  Dessert</name>
-          <price role="employee">5.50</price>
-          <price role="other">14.80</price>
-          <price role="student">3.25</price>
-        </meal>
       </category>
       <category name="QUERBEET">
-        <meal>
-          <name>VEGAN: Erbseneintopf Kaiserbrötchen</name>
-          <note>Gluten</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <price role="employee">3.90</price>
-          <price role="other">7.50</price>
-          <price role="student">1.80</price>
-        </meal>
         <meal>
           <name>VEGETARISCH: Käsespätzle Salat,  Dessert</name>
           <note>Eier</note>
@@ -123,6 +114,15 @@
           <price role="employee">5.00</price>
           <price role="other">12.40</price>
           <price role="student">2.75</price>
+        </meal>
+        <meal>
+          <name>VEGAN: Erbseneintopf Kaiserbrötchen</name>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <price role="employee">3.90</price>
+          <price role="other">7.50</price>
+          <price role="student">1.80</price>
         </meal>
       </category>
     </day>
@@ -169,13 +169,15 @@
     <day date="2025-01-31">
       <category name="QUERBEET">
         <meal>
-          <name>VEGAN: Schnitzel Rahmkartoffeln mit Rosenkohl und Karotten,  Dessert</name>
+          <name>VEGAN: Linsen Dal Fladenbrot</name>
           <note>Gluten</note>
-          <note>Soja</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <note>Sesamsamen</note>
           <note>Weizen</note>
-          <price role="employee">5.20</price>
-          <price role="other">13.80</price>
-          <price role="student">3.05</price>
+          <price role="employee">3.90</price>
+          <price role="other">7.50</price>
+          <price role="student">1.80</price>
         </meal>
         <meal>
           <name>VEGAN: Rote Beete Sauce Rigatoni,  Salat,  Dessert</name>
@@ -187,20 +189,24 @@
           <price role="student">2.60</price>
         </meal>
         <meal>
-          <name>VEGAN: Linsen Dal Fladenbrot</name>
+          <name>VEGAN: Schnitzel Rahmkartoffeln mit Rosenkohl und Karotten,  Dessert</name>
           <note>Gluten</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <note>Sesamsamen</note>
+          <note>Soja</note>
           <note>Weizen</note>
-          <price role="employee">3.90</price>
-          <price role="other">7.50</price>
-          <price role="student">1.80</price>
+          <price role="employee">5.20</price>
+          <price role="other">13.80</price>
+          <price role="student">3.05</price>
         </meal>
       </category>
     </day>
     <day date="2025-02-03">
       <category name="HEIMSPIEL">
+        <meal>
+          <name>Bratwurst mit Currysauce,  Pommes frites,  2 Beilagen</name>
+          <price role="employee">5.50</price>
+          <price role="other">14.80</price>
+          <price role="student">3.25</price>
+        </meal>
         <meal>
           <name>Hähnchen-Crossies Curry-Mayo,  Pommes frites,  Salat,  Dessert</name>
           <note>Gluten</note>
@@ -208,12 +214,6 @@
           <note>Milch</note>
           <note>Senf</note>
           <note>Weizen</note>
-          <price role="employee">5.50</price>
-          <price role="other">14.80</price>
-          <price role="student">3.25</price>
-        </meal>
-        <meal>
-          <name>Bratwurst mit Currysauce,  Pommes frites,  2 Beilagen</name>
           <price role="employee">5.50</price>
           <price role="other">14.80</price>
           <price role="student">3.25</price>
@@ -279,20 +279,29 @@
     <day date="2025-02-05">
       <category name="HEIMSPIEL">
         <meal>
+          <name>Bratwurst mit Currysauce,  Pommes frites,  2 Beilagen</name>
+          <price role="employee">5.50</price>
+          <price role="other">14.80</price>
+          <price role="student">3.25</price>
+        </meal>
+        <meal>
           <name>Frische Bratwurst Senf,  Erbsen und Möhren,  Salzkartoffeln,  Dessert</name>
           <note>Senf</note>
           <price role="employee">5.50</price>
           <price role="other">14.80</price>
           <price role="student">3.25</price>
         </meal>
-        <meal>
-          <name>Bratwurst mit Currysauce,  Pommes frites,  2 Beilagen</name>
-          <price role="employee">5.50</price>
-          <price role="other">14.80</price>
-          <price role="student">3.25</price>
-        </meal>
       </category>
       <category name="QUERBEET">
+        <meal>
+          <name>VEGAN: Kartoffel-Lauchcremesuppe Kaiserbrötchen</name>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
+          <price role="employee">3.90</price>
+          <price role="other">7.50</price>
+          <price role="student">1.80</price>
+        </meal>
         <meal>
           <name>VEGETARISCH: Pink Pasta Salat,  Dessert</name>
           <note>Gluten</note>
@@ -302,15 +311,6 @@
           <price role="employee">5.00</price>
           <price role="other">11.85</price>
           <price role="student">2.60</price>
-        </meal>
-        <meal>
-          <name>VEGAN: Kartoffel-Lauchcremesuppe Kaiserbrötchen</name>
-          <note>Gluten</note>
-          <note>Sellerie</note>
-          <note>Soja</note>
-          <price role="employee">3.90</price>
-          <price role="other">7.50</price>
-          <price role="student">1.80</price>
         </meal>
       </category>
     </day>
@@ -366,6 +366,14 @@
       </category>
       <category name="QUERBEET">
         <meal>
+          <name>VEGAN: Tomatencremesuppe Kaiserbrötchen</name>
+          <note>Gluten</note>
+          <note>Soja</note>
+          <price role="employee">3.90</price>
+          <price role="other">7.50</price>
+          <price role="student">1.80</price>
+        </meal>
+        <meal>
           <name>VEGAN: Frikadelle Rahmsauce,  Pommes frites,  Salat,  Dessert</name>
           <note>Gluten</note>
           <note>Senf</note>
@@ -374,14 +382,6 @@
           <price role="employee">5.00</price>
           <price role="other">12.40</price>
           <price role="student">2.75</price>
-        </meal>
-        <meal>
-          <name>VEGAN: Tomatencremesuppe Kaiserbrötchen</name>
-          <note>Gluten</note>
-          <note>Soja</note>
-          <price role="employee">3.90</price>
-          <price role="other">7.50</price>
-          <price role="student">1.80</price>
         </meal>
       </category>
       <category name="WORLDWIDE">
@@ -395,6 +395,47 @@
           <price role="employee">5.65</price>
           <price role="other">16.15</price>
           <price role="student">3.55</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2025-02-10">
+      <category name="HEIMSPIEL">
+        <meal>
+          <name>Currywurst Pommes frites,  Salat,  Dessert</name>
+          <price role="employee">5.50</price>
+          <price role="other">14.80</price>
+          <price role="student">3.25</price>
+        </meal>
+        <meal>
+          <name>Hähnchenschnitzel mit Knusperpanade Paprikarahmsauce,  Pommes frites,  Salat,  Dessert</name>
+          <note>Gluten</note>
+          <note>Laktose</note>
+          <note>Milch</note>
+          <note>Weizen</note>
+          <price role="employee">5.50</price>
+          <price role="other">14.80</price>
+          <price role="student">3.25</price>
+        </meal>
+      </category>
+      <category name="QUERBEET">
+        <meal>
+          <name>VEGAN: Kürbis-Falafelbällchen Linsengemüse,  Gartenkräuter-Dip,  Dessert</name>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <note>Soja</note>
+          <price role="employee">5.50</price>
+          <price role="other">14.80</price>
+          <price role="student">3.25</price>
+        </meal>
+        <meal>
+          <name>VEGAN: Thailändische Kokos-Suppe Kaiserbrötchen</name>
+          <note>Gluten</note>
+          <note>Sesamsamen</note>
+          <note>Soja</note>
+          <note>Weizen</note>
+          <price role="employee">3.90</price>
+          <price role="other">7.50</price>
+          <price role="student">1.80</price>
         </meal>
       </category>
     </day>
