@@ -3,8 +3,17 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2025-01-28">
+    <day date="2025-01-29">
       <category name="HEIMSPIEL">
+        <meal>
+          <name>Rindfleisch Bolognese Pasta,  2 Beilagen</name>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Weizen</note>
+          <price role="employee">5.00</price>
+          <price role="other">11.85</price>
+          <price role="student">2.60</price>
+        </meal>
         <meal>
           <name>Currywurst 3 Beilagen</name>
           <price role="employee">5.50</price>
@@ -13,6 +22,17 @@
         </meal>
       </category>
       <category name="QUERBEET">
+        <meal>
+          <name>VEGETARISCH: Käsespätzle 2 Beilagen</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Laktose</note>
+          <note>Milch</note>
+          <note>Weizen</note>
+          <price role="employee">5.00</price>
+          <price role="other">12.40</price>
+          <price role="student">2.75</price>
+        </meal>
         <meal>
           <name>VEGAN: No Chicken- Süß-Sauer 3 Beilagen</name>
           <note>Gluten</note>
@@ -23,60 +43,17 @@
           <price role="student">3.25</price>
         </meal>
         <meal>
-          <name>VEGAN: Karotten-Ingwersuppe 1 Beilage</name>
-          <note>Senf</note>
-          <note>Soja</note>
-          <price role="employee">3.90</price>
-          <price role="other">7.50</price>
-          <price role="student">1.80</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2025-01-29">
-      <category name="HEIMSPIEL">
-        <meal>
-          <name>Rindfleisch Bolognese Fusilli,  Salat,  Dessert</name>
-          <note>Gluten</note>
-          <note>Sellerie</note>
-          <note>Weizen</note>
-          <price role="employee">5.00</price>
-          <price role="other">11.85</price>
-          <price role="student">2.60</price>
-        </meal>
-      </category>
-      <category name="QUERBEET">
-        <meal>
-          <name>VEGAN: Erbseneintopf Kaiserbrötchen</name>
-          <note>Gluten</note>
+          <name>VEGAN: Erbseneintopf 1 Beilage</name>
           <note>Sellerie</note>
           <note>Senf</note>
           <price role="employee">3.90</price>
           <price role="other">7.50</price>
           <price role="student">1.80</price>
-        </meal>
-        <meal>
-          <name>VEGETARISCH: Käsespätzle Salat,  Dessert</name>
-          <note>Eier</note>
-          <note>Gluten</note>
-          <note>Laktose</note>
-          <note>Milch</note>
-          <note>Weizen</note>
-          <price role="employee">5.00</price>
-          <price role="other">12.40</price>
-          <price role="student">2.75</price>
         </meal>
       </category>
     </day>
     <day date="2025-01-30">
       <category name="QUERBEET">
-        <meal>
-          <name>VEGAN: Chili sin carne Pommes frites,  Sour Cream,  Salat,  Dessert</name>
-          <note>Hafer</note>
-          <note>Soja</note>
-          <price role="employee">5.00</price>
-          <price role="other">11.85</price>
-          <price role="student">2.60</price>
-        </meal>
         <meal>
           <name>VEGAN: Kürbiscremesuppe Fladenbrot</name>
           <note>Gluten</note>
@@ -87,6 +64,14 @@
           <price role="employee">3.90</price>
           <price role="other">7.50</price>
           <price role="student">1.80</price>
+        </meal>
+        <meal>
+          <name>VEGAN: Chili sin carne Pommes frites,  Sour Cream,  Salat,  Dessert</name>
+          <note>Hafer</note>
+          <note>Soja</note>
+          <price role="employee">5.00</price>
+          <price role="other">11.85</price>
+          <price role="student">2.60</price>
         </meal>
       </category>
       <category name="WORLDWIDE">
@@ -102,15 +87,6 @@
     <day date="2025-01-31">
       <category name="QUERBEET">
         <meal>
-          <name>VEGAN: Schnitzel Rahmkartoffeln mit Rosenkohl und Karotten,  Dessert</name>
-          <note>Gluten</note>
-          <note>Soja</note>
-          <note>Weizen</note>
-          <price role="employee">5.20</price>
-          <price role="other">13.80</price>
-          <price role="student">3.05</price>
-        </meal>
-        <meal>
           <name>VEGAN: Rote Beete Sauce Rigatoni,  Salat,  Dessert</name>
           <note>Gluten</note>
           <note>Soja</note>
@@ -118,6 +94,15 @@
           <price role="employee">5.00</price>
           <price role="other">11.85</price>
           <price role="student">2.60</price>
+        </meal>
+        <meal>
+          <name>VEGAN: Schnitzel Rahmkartoffeln mit Rosenkohl und Karotten,  Dessert</name>
+          <note>Gluten</note>
+          <note>Soja</note>
+          <note>Weizen</note>
+          <price role="employee">5.20</price>
+          <price role="other">13.80</price>
+          <price role="student">3.05</price>
         </meal>
         <meal>
           <name>VEGAN: Linsen Dal Fladenbrot</name>
@@ -175,15 +160,6 @@
     <day date="2025-02-04">
       <category name="QUERBEET">
         <meal>
-          <name>VEGAN: Broccolicremesuppe 1 Beilage</name>
-          <note>Laktose</note>
-          <note>Soja</note>
-          <note>Weizen</note>
-          <price role="employee">3.90</price>
-          <price role="other">7.50</price>
-          <price role="student">1.80</price>
-        </meal>
-        <meal>
           <name>VEGAN: Kichererbsen Tikka Masala Basmatireis,  2 Beilagen</name>
           <note>Hafer</note>
           <note>Laktose</note>
@@ -193,6 +169,15 @@
           <price role="employee">5.00</price>
           <price role="other">12.40</price>
           <price role="student">2.75</price>
+        </meal>
+        <meal>
+          <name>VEGAN: Broccolicremesuppe 1 Beilage</name>
+          <note>Laktose</note>
+          <note>Soja</note>
+          <note>Weizen</note>
+          <price role="employee">3.90</price>
+          <price role="other">7.50</price>
+          <price role="student">1.80</price>
         </meal>
       </category>
       <category name="WORLDWIDE">
@@ -284,14 +269,6 @@
     <day date="2025-02-07">
       <category name="QUERBEET">
         <meal>
-          <name>VEGAN: Tomatencremesuppe Kaiserbrötchen</name>
-          <note>Gluten</note>
-          <note>Soja</note>
-          <price role="employee">3.90</price>
-          <price role="other">7.50</price>
-          <price role="student">1.80</price>
-        </meal>
-        <meal>
           <name>VEGAN: Frikadelle Rahmsauce,  Pommes frites,  Salat,  Dessert</name>
           <note>Gluten</note>
           <note>Senf</note>
@@ -300,6 +277,14 @@
           <price role="employee">5.00</price>
           <price role="other">12.40</price>
           <price role="student">2.75</price>
+        </meal>
+        <meal>
+          <name>VEGAN: Tomatencremesuppe Kaiserbrötchen</name>
+          <note>Gluten</note>
+          <note>Soja</note>
+          <price role="employee">3.90</price>
+          <price role="other">7.50</price>
+          <price role="student">1.80</price>
         </meal>
       </category>
       <category name="WORLDWIDE">
