@@ -22,8 +22,9 @@
           <price role="student">2.20</price>
         </meal>
         <meal>
-          <name>Kartoffelsalat mit 2 Wiener Würstchen</name>
+          <name>Kartoffelsalat mit 2 Wiener Würstchen oder Backfisch</name>
           <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <note>Fische und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Schweinefleisch</note>
           <note>Senf und daraus hergestellte Erzeugnisse</note>
@@ -49,15 +50,29 @@
           <price role="student">2.25</price>
         </meal>
       </category>
-      <category name="Vegetarische Komponente 1">
+      <category name="Vegane Komponente 1">
         <meal>
-          <name>Schnittlauch-Quark-Dip</name>
+          <name>Röstialer mit &quot;Tomate &amp; Käse&quot; überbacken</name>
           <note>Milch/Milchzucker (Laktose)</note>
           <note>jodiertes Salz</note>
-          <price role="employee">1.00</price>
-          <price role="other">1.20</price>
-          <price role="student">0.80</price>
+          <note>mit Farbstoff</note>
+          <price role="employee">0.00</price>
+          <price role="other">0.00</price>
+          <price role="student">0.00</price>
         </meal>
+      </category>
+      <category name="Vegane Komponente 2">
+        <meal>
+          <name>Vegan: Sojadip mit Kräuter</name>
+          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
+          <note>jodiertes Salz</note>
+          <note>mit Antioxidationsmittel</note>
+          <price role="employee">2.75</price>
+          <price role="other">3.75</price>
+          <price role="student">1.75</price>
+        </meal>
+      </category>
+      <category name="Vegetarische Komponente 1">
         <meal>
           <name>Röstialer mit &quot;Tomate &amp; Mozzarella&quot; überbacken</name>
           <note>Milch/Milchzucker (Laktose)</note>
@@ -79,11 +94,12 @@
       </category>
       <category name="Gemüse">
         <meal>
-          <name>Europagemüse (gelbe und orange Karottenscheiben, Romanobohnen, Brokkoliröschen)</name>
-          <note>jodiertes Salz</note>
-          <price role="employee">1.40</price>
-          <price role="other">1.80</price>
-          <price role="student">1.00</price>
+          <name>Weisskrautsalat</name>
+          <note>mit Antioxidationsmittel</note>
+          <note>mit Süßungsmittel</note>
+          <price role="employee">1.20</price>
+          <price role="other">1.60</price>
+          <price role="student">0.80</price>
         </meal>
       </category>
       <category name="Salate und Desserts">
