@@ -4,7 +4,7 @@
 <openmensa xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
     <day date="2025-02-03">
-      <category name="Tagessuppe klar">
+      <category name="Suppe 1">
         <meal>
           <name>Klare Hühnersuppe • 
 hausgemachte Sesam Frittaten
@@ -45,7 +45,7 @@ Allergene A • C • G • L • N</name>
           <note>Sesam (N)</note>
         </meal>
       </category>
-      <category name="Tagessuppe vegan">
+      <category name="Suppe 3">
         <meal>
           <name>Curcuma - Kohlrabi Suppe •
 frische Kräuter
@@ -54,7 +54,7 @@ Allergen L</name>
           <note>Sellerie (L)</note>
         </meal>
       </category>
-      <category name="ALL TIME FAVOURITE">
+      <category name="Hauptgericht 1">
         <meal>
           <name>Kebab
 Hühnerfleisch direkt vom Spieß • 
@@ -68,7 +68,7 @@ türkischer Reis </name>
           <note>Sulfite (O)</note>
         </meal>
       </category>
-      <category name="Hauptspeise Traditionell">
+      <category name="Hauptgericht 2">
         <meal>
           <name>Rinderragout "Bourguignonne"
 mit Champignon und Schalotten</name>
@@ -87,13 +87,13 @@ mit Champignon und Schalotten</name>
           <note>Sulfite (O)</note>
         </meal>
       </category>
-      <category name="Hauptspeise Vegetarisch/Vegan">
+      <category name="Hauptgericht 3">
         <meal>
           <name>Kartoffel - Fisolengulasch</name>
           <note>Soja (F)</note>
         </meal>
       </category>
-      <category name="Pasta Station">
+      <category name="Hauptgericht 4">
         <meal>
           <name>Safran Pappardelle •</name>
           <note>Ei (C)</note>
@@ -143,7 +143,7 @@ mit Champignon und Schalotten</name>
           <note>Milch oder Laktose (G)</note>
         </meal>
       </category>
-      <category name="Classic Grill">
+      <category name="Hauptgericht 5">
         <meal>
           <name>Beef Minute Steak • </name>
           <note>Glutenhaltiges Getreide (A)</note>
@@ -197,38 +197,6 @@ Rosmarin • Potato Wedges</name>
           <note>Senf (M)</note>
           <note>Sulfite (O)</note>
         </meal>
-      </category>
-      <category name="Salatecke">
-        <meal>
-          <name>Bunter Salat • Rote Rüben •
-Räucherlachsstreifen •
-Krengervais • Senf-Dill Dressing</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Fisch (D)</note>
-          <note>Soja (F)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Senf (M)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-      </category>
-      <category name="Pizza &amp; Co">
-        <meal>
-          <name>Pizza "Hawaii" • 
-Landschinken • frische Ananas •
-Cheddar</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Milch oder Laktose (G)</note>
-        </meal>
-      </category>
-      <category name="Pizza &amp; Co 2">
-        <meal>
-          <name>Pizza Margherita</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Milch oder Laktose (G)</note>
-        </meal>
-      </category>
-      <category name="Asia Corner">
         <meal>
           <name>Samosa mit Gemüse</name>
           <note>Glutenhaltiges Getreide (A)</note>
@@ -270,23 +238,44 @@ Cheddar</name>
           <note>Sulfite (O)</note>
         </meal>
       </category>
-      <category name="Asia Corner 2">
+      <category name="Hauptgericht 6">
         <meal>
-          <name>Sushi &amp; Maki</name>
-        </meal>
-        <meal>
-          <name>Sushi &amp; Maki</name>
+          <name>Bunter Salat • Rote Rüben •
+Räucherlachsstreifen •
+Krengervais • Senf-Dill Dressing</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Fisch (D)</note>
+          <note>Soja (F)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Senf (M)</note>
+          <note>Sulfite (O)</note>
         </meal>
       </category>
-      <category name="Bowl Station">
+      <category name="Hauptgericht 7">
+        <meal>
+          <name>Pizza "Hawaii" • 
+Landschinken • frische Ananas •
+Cheddar</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Milch oder Laktose (G)</note>
+        </meal>
+        <meal>
+          <name>Pizza Margherita</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Milch oder Laktose (G)</note>
+        </meal>
+      </category>
+      <category name="Hauptgericht 8">
+        <meal>
+          <name>Sushi &amp; Maki</name>
+        </meal>
         <meal>
           <name>Create your own Bowl
 Frischer Nishikireis •
 vegane Trüffelcreme • vegane Sesamsauce • vegane Spicy Korean Sauce
 </name>
         </meal>
-      </category>
-      <category name="Bowl Topping">
         <meal>
           <name>Gekräuterte Hühnerbrust</name>
           <note>Sellerie (L)</note>
@@ -298,7 +287,7 @@ vegane Trüffelcreme • vegane Sesamsauce • vegane Spicy Korean Sauce
           <note>Senf (M)</note>
         </meal>
       </category>
-      <category name="Creme oder Mousse">
+      <category name="Dessert 1">
         <meal>
           <name>Tiramisu im Glas</name>
           <note>Glutenhaltiges Getreide (A)</note>
@@ -315,7 +304,7 @@ vegane Trüffelcreme • vegane Sesamsauce • vegane Spicy Korean Sauce
           <note>Milch oder Laktose (G)</note>
         </meal>
       </category>
-      <category name="Kuchen und Torten">
+      <category name="Dessert 2">
         <meal>
           <name>Kokos Cupcake
 
@@ -337,17 +326,14 @@ Allergene A • F</name>
           <note>Sulfite (O)</note>
         </meal>
       </category>
-      <category name="Obst klein">
-        <meal>
-          <name>Obst der Saison</name>
-        </meal>
+      <category name="Dessert 3">
         <meal>
           <name>Obst der Saison</name>
         </meal>
       </category>
     </day>
     <day date="2025-02-04">
-      <category name="Tagessuppe klar">
+      <category name="Suppe 1">
         <meal>
           <name>Klare Hühnersuppe • 
 hausgemachte Sesam Frittaten
@@ -388,7 +374,7 @@ Allergene A • C • G • L • N</name>
           <note>Sesam (N)</note>
         </meal>
       </category>
-      <category name="Tagessuppe vegan">
+      <category name="Suppe 3">
         <meal>
           <name>Erdäpfelcremesuppe • Morcheln</name>
           <note>Glutenhaltiges Getreide (A)</note>
@@ -400,7 +386,7 @@ Allergene A • C • G • L • N</name>
           <note>Sellerie (L)</note>
         </meal>
       </category>
-      <category name="ALL TIME FAVOURITE">
+      <category name="Hauptgericht 1">
         <meal>
           <name>Gekochtes mageres Meisel</name>
           <note>Glutenhaltiges Getreide (A)</note>
@@ -442,7 +428,7 @@ Allergene A • C • G • L • N</name>
           <note>Sulfite (O)</note>
         </meal>
       </category>
-      <category name="Hauptspeise Traditionell">
+      <category name="Hauptgericht 2">
         <meal>
           <name>Gebackenes Hühnerschnitzel</name>
           <note>Glutenhaltiges Getreide (A)</note>
@@ -456,7 +442,7 @@ Allergene A • C • G • L • N</name>
           <note>Milch oder Laktose (G)</note>
         </meal>
       </category>
-      <category name="Hauptspeise Vegetarisch/Vegan">
+      <category name="Hauptgericht 3">
         <meal>
           <name>"Imam Bayildi" • 
 Gefüllte geschmorte Melanzani</name>
@@ -474,7 +460,7 @@ Gefüllte geschmorte Melanzani</name>
           <note>Sulfite (O)</note>
         </meal>
       </category>
-      <category name="Pasta Station">
+      <category name="Hauptgericht 4">
         <meal>
           <name>Safran Pappardelle •</name>
           <note>Ei (C)</note>
@@ -524,7 +510,7 @@ Gefüllte geschmorte Melanzani</name>
           <note>Milch oder Laktose (G)</note>
         </meal>
       </category>
-      <category name="Classic Grill">
+      <category name="Hauptgericht 5">
         <meal>
           <name>Beef Minute Steak • </name>
           <note>Glutenhaltiges Getreide (A)</note>
@@ -578,32 +564,6 @@ Rosmarin • Potato Wedges</name>
           <note>Senf (M)</note>
           <note>Sulfite (O)</note>
         </meal>
-      </category>
-      <category name="Salatecke">
-        <meal>
-          <name>Salat mit Orangen • Quinoa • Basilikum •
-Büffelmozzarella • Prosciutto </name>
-          <note>Milch oder Laktose (G)</note>
-        </meal>
-      </category>
-      <category name="Pizza &amp; Co">
-        <meal>
-          <name>Pizza
-Hühnergyros • Paprikastreifen • 
-roter Zwiebel • Oliven • Fetawürfel •
-Minzjoghurt</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Milch oder Laktose (G)</note>
-        </meal>
-      </category>
-      <category name="Pizza &amp; Co 2">
-        <meal>
-          <name>Pizza Margherita</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Milch oder Laktose (G)</note>
-        </meal>
-      </category>
-      <category name="Asia Corner">
         <meal>
           <name>Samosa mit Gemüse</name>
           <note>Glutenhaltiges Getreide (A)</note>
@@ -645,23 +605,38 @@ Minzjoghurt</name>
           <note>Sulfite (O)</note>
         </meal>
       </category>
-      <category name="Asia Corner 2">
+      <category name="Hauptgericht 6">
         <meal>
-          <name>Sushi &amp; Maki</name>
-        </meal>
-        <meal>
-          <name>Sushi &amp; Maki</name>
+          <name>Salat mit Orangen • Quinoa • Basilikum •
+Büffelmozzarella • Prosciutto </name>
+          <note>Milch oder Laktose (G)</note>
         </meal>
       </category>
-      <category name="Bowl Station">
+      <category name="Hauptgericht 7">
+        <meal>
+          <name>Pizza
+Hühnergyros • Paprikastreifen • 
+roter Zwiebel • Oliven • Fetawürfel •
+Minzjoghurt</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Milch oder Laktose (G)</note>
+        </meal>
+        <meal>
+          <name>Pizza Margherita</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Milch oder Laktose (G)</note>
+        </meal>
+      </category>
+      <category name="Hauptgericht 8">
+        <meal>
+          <name>Sushi &amp; Maki</name>
+        </meal>
         <meal>
           <name>Create your own Bowl
 Frischer Nishikireis •
 vegane Trüffelcreme • vegane Sesamsauce • vegane Spicy Korean Sauce
 </name>
         </meal>
-      </category>
-      <category name="Bowl Topping">
         <meal>
           <name>Gekräuterte Hühnerbrust</name>
           <note>Sellerie (L)</note>
@@ -673,7 +648,7 @@ vegane Trüffelcreme • vegane Sesamsauce • vegane Spicy Korean Sauce
           <note>Senf (M)</note>
         </meal>
       </category>
-      <category name="Creme oder Mousse">
+      <category name="Dessert 1">
         <meal>
           <name>Veganes Mousse au chocolat •</name>
           <note>Glutenhaltiges Getreide (A)</note>
@@ -689,7 +664,7 @@ vegane Trüffelcreme • vegane Sesamsauce • vegane Spicy Korean Sauce
           <note>Milch oder Laktose (G)</note>
         </meal>
       </category>
-      <category name="Kuchen und Torten">
+      <category name="Dessert 2">
         <meal>
           <name>Topfenstrudel </name>
           <note>Glutenhaltiges Getreide (A)</note>
@@ -705,17 +680,14 @@ Allergene A • O</name>
           <note>Sulfite (O)</note>
         </meal>
       </category>
-      <category name="Obst klein">
-        <meal>
-          <name>Obst der Saison</name>
-        </meal>
+      <category name="Dessert 3">
         <meal>
           <name>Obst der Saison</name>
         </meal>
       </category>
     </day>
     <day date="2025-02-05">
-      <category name="Tagessuppe klar">
+      <category name="Suppe 1">
         <meal>
           <name>Klare Hühnersuppe • 
 hausgemachte Sesam Frittaten
@@ -756,7 +728,7 @@ Allergene A • C • G • L • N</name>
           <note>Sesam (N)</note>
         </meal>
       </category>
-      <category name="Tagessuppe vegan">
+      <category name="Suppe 3">
         <meal>
           <name>Erbsen - Rucola Suppe •</name>
           <note>Glutenhaltiges Getreide (A)</note>
@@ -768,7 +740,7 @@ Allergene A • C • G • L • N</name>
           <note>Sellerie (L)</note>
         </meal>
       </category>
-      <category name="ALL TIME FAVOURITE">
+      <category name="Hauptgericht 1">
         <meal>
           <name>Gekochtes mageres Meisel</name>
           <note>Glutenhaltiges Getreide (A)</note>
@@ -810,7 +782,7 @@ Allergene A • C • G • L • N</name>
           <note>Sulfite (O)</note>
         </meal>
       </category>
-      <category name="Hauptspeise Traditionell">
+      <category name="Hauptgericht 2">
         <meal>
           <name>Im ganzen gebratene Putenbrust</name>
           <note>Glutenhaltiges Getreide (A)</note>
@@ -833,7 +805,7 @@ Allergene A • C • G • L • N</name>
           <note>Sulfite (O)</note>
         </meal>
       </category>
-      <category name="Hauptspeise Vegetarisch/Vegan">
+      <category name="Hauptgericht 3">
         <meal>
           <name>Hummus, gebratene Pilze,  Granatapfelkerne
 Petersilie, Ras-el-hanout</name>
@@ -850,7 +822,7 @@ Petersilie, Ras-el-hanout</name>
           <note>Sulfite (O)</note>
         </meal>
       </category>
-      <category name="Pasta Station">
+      <category name="Hauptgericht 4">
         <meal>
           <name>Safran Pappardelle •</name>
           <note>Ei (C)</note>
@@ -900,7 +872,7 @@ Petersilie, Ras-el-hanout</name>
           <note>Milch oder Laktose (G)</note>
         </meal>
       </category>
-      <category name="Classic Grill">
+      <category name="Hauptgericht 5">
         <meal>
           <name>Beef Minute Steak • </name>
           <note>Glutenhaltiges Getreide (A)</note>
@@ -954,30 +926,6 @@ Rosmarin • Potato Wedges</name>
           <note>Senf (M)</note>
           <note>Sulfite (O)</note>
         </meal>
-      </category>
-      <category name="Salatecke">
-        <meal>
-          <name>Tranchen vom Schweinsfilet • Bunter Blattsalat • Bulgur • glasierte Birnen • Balsamico Dressing</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-      </category>
-      <category name="Pizza &amp; Co">
-        <meal>
-          <name>Pizza, Pecorino, gelbe Tomaten, Pistazien</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Milch oder Laktose (G)</note>
-        </meal>
-      </category>
-      <category name="Pizza &amp; Co 2">
-        <meal>
-          <name>Pizza Margherita</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Milch oder Laktose (G)</note>
-        </meal>
-      </category>
-      <category name="Asia Corner">
         <meal>
           <name>Samosa mit Gemüse</name>
           <note>Glutenhaltiges Getreide (A)</note>
@@ -1019,23 +967,36 @@ Rosmarin • Potato Wedges</name>
           <note>Sulfite (O)</note>
         </meal>
       </category>
-      <category name="Asia Corner 2">
+      <category name="Hauptgericht 6">
         <meal>
-          <name>Sushi &amp; Maki</name>
-        </meal>
-        <meal>
-          <name>Sushi &amp; Maki</name>
+          <name>Tranchen vom Schweinsfilet • Bunter Blattsalat • Bulgur • glasierte Birnen • Balsamico Dressing</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Sulfite (O)</note>
         </meal>
       </category>
-      <category name="Bowl Station">
+      <category name="Hauptgericht 7">
+        <meal>
+          <name>Pizza, Pecorino, gelbe Tomaten, Pistazien</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+        </meal>
+        <meal>
+          <name>Pizza Margherita</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Milch oder Laktose (G)</note>
+        </meal>
+      </category>
+      <category name="Hauptgericht 8">
+        <meal>
+          <name>Sushi &amp; Maki</name>
+        </meal>
         <meal>
           <name>Create your own Bowl
 Frischer Nishikireis •
 vegane Trüffelcreme • vegane Sesamsauce • vegane Spicy Korean Sauce
 </name>
         </meal>
-      </category>
-      <category name="Bowl Topping">
         <meal>
           <name>Gekräuterte Hühnerbrust</name>
           <note>Sellerie (L)</note>
@@ -1047,7 +1008,7 @@ vegane Trüffelcreme • vegane Sesamsauce • vegane Spicy Korean Sauce
           <note>Senf (M)</note>
         </meal>
       </category>
-      <category name="Creme oder Mousse">
+      <category name="Dessert 1">
         <meal>
           <name>Panna Cotta • Himbeerspiegel</name>
           <note>Soja (F)</note>
@@ -1061,7 +1022,7 @@ vegane Trüffelcreme • vegane Sesamsauce • vegane Spicy Korean Sauce
           <note>Sulfite (O)</note>
         </meal>
       </category>
-      <category name="Kuchen und Torten">
+      <category name="Dessert 2">
         <meal>
           <name>Veganer Bananenkuchen •
 Nuss Granola
@@ -1080,17 +1041,14 @@ Allergene A • H
           <note>Schalenfrüchte (H)</note>
         </meal>
       </category>
-      <category name="Obst klein">
-        <meal>
-          <name>Obst der Saison</name>
-        </meal>
+      <category name="Dessert 3">
         <meal>
           <name>Obst der Saison</name>
         </meal>
       </category>
     </day>
     <day date="2025-02-06">
-      <category name="Tagessuppe klar">
+      <category name="Suppe 1">
         <meal>
           <name>Klare Hühnersuppe • 
 hausgemachte Sesam Frittaten
@@ -1131,7 +1089,7 @@ Allergene A • C • G • L • N</name>
           <note>Sesam (N)</note>
         </meal>
       </category>
-      <category name="Tagessuppe vegan">
+      <category name="Suppe 3">
         <meal>
           <name>Rote Paprikacremesuppe •</name>
           <note>Glutenhaltiges Getreide (A)</note>
@@ -1143,7 +1101,7 @@ Allergene A • C • G • L • N</name>
           <note>Sellerie (L)</note>
         </meal>
       </category>
-      <category name="ALL TIME FAVOURITE">
+      <category name="Hauptgericht 1">
         <meal>
           <name>Gekochtes mageres Meisel</name>
           <note>Glutenhaltiges Getreide (A)</note>
@@ -1185,7 +1143,7 @@ Allergene A • C • G • L • N</name>
           <note>Sulfite (O)</note>
         </meal>
       </category>
-      <category name="Hauptspeise Traditionell">
+      <category name="Hauptgericht 2">
         <meal>
           <name>Chili con Carne vom Rinds Faschierten</name>
         </meal>
@@ -1193,7 +1151,7 @@ Allergene A • C • G • L • N</name>
           <name>Babykartoffel-Ofenkartoffel </name>
         </meal>
       </category>
-      <category name="Hauptspeise Vegetarisch/Vegan">
+      <category name="Hauptgericht 3">
         <meal>
           <name>Tofu &amp; Lime Sofritas • Quinoa weiß •
 Wachtelbohnen • Süßkartoffelsalsa
@@ -1205,7 +1163,7 @@ Allergene F • L
           <note>Sellerie (L)</note>
         </meal>
       </category>
-      <category name="Pasta Station">
+      <category name="Hauptgericht 4">
         <meal>
           <name>Safran Pappardelle •</name>
           <note>Ei (C)</note>
@@ -1255,7 +1213,7 @@ Allergene F • L
           <note>Milch oder Laktose (G)</note>
         </meal>
       </category>
-      <category name="Classic Grill">
+      <category name="Hauptgericht 5">
         <meal>
           <name>Beef Minute Steak • </name>
           <note>Glutenhaltiges Getreide (A)</note>
@@ -1309,43 +1267,6 @@ Rosmarin • Potato Wedges</name>
           <note>Senf (M)</note>
           <note>Sulfite (O)</note>
         </meal>
-      </category>
-      <category name="Salatecke">
-        <meal>
-          <name>Süßkartoffel - Chimichuri Wrap gefüllt mit Naturreis und Radicchio
-</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Senf (M)</note>
-        </meal>
-        <meal>
-          <name>Mexikanischer Salat •</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Senf (M)</note>
-        </meal>
-      </category>
-      <category name="Pizza &amp; Co">
-        <meal>
-          <name>Pizza 
-Garnelen • Kürbis • Radicchio • Provolone</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Krebstiere (B)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Schalenfrüchte (H)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-      </category>
-      <category name="Pizza &amp; Co 2">
-        <meal>
-          <name>Pizza Margherita</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Milch oder Laktose (G)</note>
-        </meal>
-      </category>
-      <category name="Asia Corner">
         <meal>
           <name>Samosa mit Gemüse</name>
           <note>Glutenhaltiges Getreide (A)</note>
@@ -1387,23 +1308,49 @@ Garnelen • Kürbis • Radicchio • Provolone</name>
           <note>Sulfite (O)</note>
         </meal>
       </category>
-      <category name="Asia Corner 2">
+      <category name="Hauptgericht 6">
         <meal>
-          <name>Sushi &amp; Maki</name>
+          <name>Süßkartoffel - Chimichuri Wrap gefüllt mit Naturreis und Radicchio
+</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Senf (M)</note>
         </meal>
         <meal>
-          <name>Sushi &amp; Maki</name>
+          <name>Mexikanischer Salat •</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Senf (M)</note>
         </meal>
       </category>
-      <category name="Bowl Station">
+      <category name="Hauptgericht 7">
+        <meal>
+          <name>Pizza 
+Garnelen • Kürbis • Radicchio • Provolone</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Krebstiere (B)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Schalenfrüchte (H)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+        <meal>
+          <name>Pizza Margherita</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Milch oder Laktose (G)</note>
+        </meal>
+      </category>
+      <category name="Hauptgericht 8">
+        <meal>
+          <name>Sushi &amp; Maki</name>
+        </meal>
         <meal>
           <name>Create your own Bowl
 Frischer Nishikireis •
 vegane Trüffelcreme • vegane Sesamsauce • vegane Spicy Korean Sauce
 </name>
         </meal>
-      </category>
-      <category name="Bowl Topping">
         <meal>
           <name>Gekräuterte Hühnerbrust</name>
           <note>Sellerie (L)</note>
@@ -1415,7 +1362,7 @@ vegane Trüffelcreme • vegane Sesamsauce • vegane Spicy Korean Sauce
           <note>Senf (M)</note>
         </meal>
       </category>
-      <category name="Creme oder Mousse">
+      <category name="Dessert 1">
         <meal>
           <name>Grießpudding • Cranberries
 
@@ -1433,7 +1380,7 @@ Allergene A • H</name>
           <note>Sulfite (O)</note>
         </meal>
       </category>
-      <category name="Kuchen und Torten">
+      <category name="Dessert 2">
         <meal>
           <name>Kaffeeschnitte 
 
@@ -1460,17 +1407,14 @@ Allergene A • H
           <note>Sulfite (O)</note>
         </meal>
       </category>
-      <category name="Obst klein">
-        <meal>
-          <name>Obst der Saison</name>
-        </meal>
+      <category name="Dessert 3">
         <meal>
           <name>Obst der Saison</name>
         </meal>
       </category>
     </day>
     <day date="2025-02-07">
-      <category name="Tagessuppe klar">
+      <category name="Suppe 1">
         <meal>
           <name>Klare Hühnersuppe • 
 hausgemachte Sesam Frittaten
@@ -1511,7 +1455,7 @@ Allergene A • C • G • L • N</name>
           <note>Sesam (N)</note>
         </meal>
       </category>
-      <category name="Tagessuppe vegan">
+      <category name="Suppe 3">
         <meal>
           <name>Karfiolcremesuppe •</name>
           <note>Glutenhaltiges Getreide (A)</note>
@@ -1523,7 +1467,7 @@ Allergene A • C • G • L • N</name>
           <note>Sellerie (L)</note>
         </meal>
       </category>
-      <category name="ALL TIME FAVOURITE">
+      <category name="Hauptgericht 1">
         <meal>
           <name>Gekochtes mageres Meisel</name>
           <note>Glutenhaltiges Getreide (A)</note>
@@ -1565,7 +1509,7 @@ Allergene A • C • G • L • N</name>
           <note>Sulfite (O)</note>
         </meal>
       </category>
-      <category name="Hauptspeise Traditionell">
+      <category name="Hauptgericht 2">
         <meal>
           <name>Gegrilltes Zanderfilet •</name>
           <note>Glutenhaltiges Getreide (A)</note>
@@ -1595,7 +1539,7 @@ Allergene A • C • G • L • N</name>
           <note>Sellerie (L)</note>
         </meal>
       </category>
-      <category name="Hauptspeise Vegetarisch/Vegan">
+      <category name="Hauptgericht 3">
         <meal>
           <name>Tajine mit Süßkartoffeln
 Karotten &amp; Aprikosen
@@ -1604,7 +1548,7 @@ Couscous &amp; Granatapfelkerne
           <note>Glutenhaltiges Getreide (A)</note>
         </meal>
       </category>
-      <category name="Pasta Station">
+      <category name="Hauptgericht 4">
         <meal>
           <name>Safran Pappardelle •</name>
           <note>Ei (C)</note>
@@ -1654,32 +1598,10 @@ Couscous &amp; Granatapfelkerne
           <note>Milch oder Laktose (G)</note>
         </meal>
       </category>
-      <category name="Classic Grill">
+      <category name="Hauptgericht 5">
         <meal>
           <name>Station heute geschlossen</name>
         </meal>
-      </category>
-      <category name="Salatecke">
-        <meal>
-          <name>Eisberg • Rucola • Römersalat • 
-Ziegenkäse • Granatapfel • 
-Walnussöl • Weisser Balsamico</name>
-          <note>Milch oder Laktose (G)</note>
-          <note>Schalenfrüchte (H)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-      </category>
-      <category name="Pizza &amp; Co">
-        <meal>
-          <name>Station heute geschlossen</name>
-        </meal>
-      </category>
-      <category name="Pizza &amp; Co 2">
-        <meal>
-          <name>Station heute geschlossen</name>
-        </meal>
-      </category>
-      <category name="Asia Corner">
         <meal>
           <name>Samosa mit Gemüse</name>
           <note>Glutenhaltiges Getreide (A)</note>
@@ -1721,32 +1643,43 @@ Walnussöl • Weisser Balsamico</name>
           <note>Sulfite (O)</note>
         </meal>
       </category>
-      <category name="Asia Corner 2">
+      <category name="Hauptgericht 6">
         <meal>
-          <name>Sushi &amp; Maki</name>
-        </meal>
-        <meal>
-          <name>Sushi &amp; Maki</name>
+          <name>Eisberg • Rucola • Römersalat • 
+Ziegenkäse • Granatapfel • 
+Walnussöl • Weisser Balsamico</name>
+          <note>Milch oder Laktose (G)</note>
+          <note>Schalenfrüchte (H)</note>
+          <note>Sulfite (O)</note>
         </meal>
       </category>
-      <category name="Bowl Station">
+      <category name="Hauptgericht 7">
+        <meal>
+          <name>Station heute geschlossen</name>
+        </meal>
         <meal>
           <name>Station heute geschlossen</name>
         </meal>
       </category>
-      <category name="Bowl Topping">
+      <category name="Hauptgericht 8">
+        <meal>
+          <name>Sushi &amp; Maki</name>
+        </meal>
+        <meal>
+          <name>Station heute geschlossen</name>
+        </meal>
         <meal>
           <name>Station heute geschlossen</name>
         </meal>
       </category>
-      <category name="Creme oder Mousse">
+      <category name="Dessert 1">
         <meal>
           <name>Karamel Creme</name>
           <note>Ei (C)</note>
           <note>Milch oder Laktose (G)</note>
         </meal>
       </category>
-      <category name="Kuchen und Torten">
+      <category name="Dessert 2">
         <meal>
           <name>Veganer Ribiselkuchen
 
@@ -1755,20 +1688,11 @@ Allergene A • F</name>
           <note>Soja (F)</note>
         </meal>
       </category>
-      <category name="Obst klein">
-        <meal>
-          <name>Obst der Saison</name>
-        </meal>
+      <category name="Dessert 3">
         <meal>
           <name>Obst der Saison</name>
         </meal>
       </category>
-    </day>
-    <day date="2025-02-08">
-      <closed/>
-    </day>
-    <day date="2025-02-09">
-      <closed/>
     </day>
   </canteen>
 </openmensa>
