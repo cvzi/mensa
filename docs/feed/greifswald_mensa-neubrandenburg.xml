@@ -3,76 +3,6 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2025-02-07">
-      <category name="Tellergericht">
-        <meal>
-          <name>Selbstgemachte Kartoffelpuffer mit Apfelmus</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>geschwefelt</note>
-          <note>mit Antioxidationsmittel</note>
-          <price role="employee">3.30</price>
-          <price role="other">4.80</price>
-          <price role="student">1.80</price>
-        </meal>
-      </category>
-      <category name="Komponente 2">
-        <meal>
-          <name>Paniertes Schweineschnitzel Rahmsoße</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Milch/Milchzucker (Laktose)</note>
-          <note>Schweinefleisch</note>
-          <note>jodiertes Salz</note>
-          <price role="employee">3.25</price>
-          <price role="other">4.25</price>
-          <price role="student">2.25</price>
-        </meal>
-      </category>
-      <category name="Pasta nach Gewicht (pro 100g)">
-        <meal>
-          <name>Pastateller: Nudeln  
- dazu Tomatenbasilikumsauce mit Kichererbsenbällchen [vegan]</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>jodiertes Salz</note>
-          <price role="employee">1.00</price>
-          <price role="other">1.40</price>
-          <price role="student">0.65</price>
-        </meal>
-      </category>
-      <category name="Beilagen">
-        <meal>
-          <name>Kartoffelpüree</name>
-          <note>Milch/Milchzucker (Laktose)</note>
-          <note>jodiertes Salz</note>
-          <price role="employee">1.20</price>
-          <price role="other">1.60</price>
-          <price role="student">0.80</price>
-        </meal>
-        <meal>
-          <name>Rosmarinkartoffel</name>
-          <note>geschwefelt</note>
-          <note>jodiertes Salz</note>
-          <price role="employee">1.50</price>
-          <price role="other">1.90</price>
-          <price role="student">1.10</price>
-        </meal>
-      </category>
-      <category name="Gemüse">
-        <meal>
-          <name>Mischgemüse [Karotten und Erbsen]</name>
-          <note>jodiertes Salz</note>
-          <price role="employee">1.20</price>
-          <price role="other">1.60</price>
-          <price role="student">0.80</price>
-        </meal>
-      </category>
-      <category name="Salate und Desserts">
-        <meal>
-          <name>Frische Salate und verschiedene Desserts stehen zur Auswahl.</name>
-        </meal>
-      </category>
-    </day>
     <day date="2025-02-08">
       <closed/>
     </day>
@@ -107,6 +37,8 @@
           <name>2 Ruccola-Süßkartoffelschnitten  
  mit Ajvar-Dip</name>
           <note>Glutenhaltiges Getreide</note>
+          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
+          <note>jodiertes Salz</note>
           <price role="employee">3.25</price>
           <price role="other">4.25</price>
           <price role="student">2.25</price>
@@ -115,6 +47,7 @@
       <category name="Beilagen">
         <meal>
           <name>Reis</name>
+          <note>geschwefelt</note>
           <note>jodiertes Salz</note>
           <price role="employee">1.20</price>
           <price role="other">1.60</price>
@@ -129,7 +62,8 @@
           <price role="student">0.80</price>
         </meal>
         <meal>
-          <name>Pommes Frites</name>
+          <name>Bratkartoffeln</name>
+          <note>jodiertes Salz</note>
           <price role="employee">1.50</price>
           <price role="other">1.90</price>
           <price role="student">1.10</price>
@@ -153,7 +87,7 @@
     <day date="2025-02-11">
       <category name="Tellergericht">
         <meal>
-          <name>Vegan:Kartoffel-Kürbis-Creme-Suppe, Teller</name>
+          <name>Teller: Kartoffel-Kürbis-Creme-Suppe [vegan]</name>
           <note>Glutenhaltiges Getreide</note>
           <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
           <note>geschwefelt</note>
@@ -163,10 +97,10 @@
           <price role="student">1.50</price>
         </meal>
         <meal>
-          <name>Vegan.Kartoffel-Kürbis-Creme-Suppe, Terrine</name>
+          <name>Terrine: Kartoffel-Kürbis-Creme-Suppe [vegan]</name>
           <note>Glutenhaltiges Getreide</note>
-          <note>Milch/Milchzucker (Laktose)</note>
           <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
           <note>geschwefelt</note>
           <note>jodiertes Salz</note>
           <price role="employee">3.45</price>
@@ -249,7 +183,7 @@
     <day date="2025-02-12">
       <category name="Tellergericht">
         <meal>
-          <name>Veganer Bauerntopf, Teller</name>
+          <name>Teller: Bauerntopf [vegan]</name>
           <note>geschwefelt</note>
           <note>jodiertes Salz</note>
           <price role="employee">2.45</price>
@@ -257,7 +191,7 @@
           <price role="student">1.50</price>
         </meal>
         <meal>
-          <name>Veganer Bauerntopf, Terrine</name>
+          <name>Terrine: Bauerntopf [vegan]</name>
           <note>geschwefelt</note>
           <note>jodiertes Salz</note>
           <price role="employee">3.45</price>
@@ -285,9 +219,9 @@
  mit Kräuterquark-Dip</name>
           <note>Milch/Milchzucker (Laktose)</note>
           <note>jodiertes Salz</note>
-          <price role="employee">3.25</price>
-          <price role="other">4.25</price>
-          <price role="student">2.25</price>
+          <price role="employee">3.00</price>
+          <price role="other">4.00</price>
+          <price role="student">2.00</price>
         </meal>
       </category>
       <category name="Beilagen">
@@ -301,9 +235,7 @@
         </meal>
         <meal>
           <name>Basmatireis</name>
-          <note>Milch/Milchzucker (Laktose)</note>
           <note>jodiertes Salz</note>
-          <note>mit Farbstoff</note>
           <price role="employee">1.20</price>
           <price role="other">1.60</price>
           <price role="student">0.80</price>
@@ -327,7 +259,7 @@
     <day date="2025-02-13">
       <category name="Tellergericht">
         <meal>
-          <name>Vegan Ungarischer Kartoffeltopf, Teller</name>
+          <name>Teller: Ungarischer Kartoffeltopf [vegan]</name>
           <note>geschwefelt</note>
           <note>jodiertes Salz</note>
           <price role="employee">2.45</price>
@@ -335,7 +267,7 @@
           <price role="student">1.50</price>
         </meal>
         <meal>
-          <name>Vegan Ungarischer Kartoffeltopf, Terrine</name>
+          <name>Terrine: Ungarischer Kartoffeltopf [vegan]</name>
           <note>geschwefelt</note>
           <note>jodiertes Salz</note>
           <price role="employee">3.45</price>
@@ -355,7 +287,7 @@
       <category name="Pasta nach Gewicht (pro 100g)">
         <meal>
           <name>Pastateller: Vegane Sonnenblumen-Bolognese [regional, aus ökologischem Anbau]  
- Gabelspaghetti</name>
+ mit Gabelspaghetti</name>
           <note>Glutenhaltiges Getreide</note>
           <note>Sellerie und daraus hergestellte Erzeugnisse</note>
           <note>Senf und daraus hergestellte Erzeugnisse</note>
@@ -427,10 +359,11 @@
       </category>
       <category name="Komponente 2">
         <meal>
-          <name>Paniertes Schweineschnitzel Rahmsoße</name>
+          <name>Paniertes Schweineschnitzel mit Rahmsoße</name>
           <note>Eier und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Milch/Milchzucker (Laktose)</note>
+          <note>Rindfleisch</note>
           <note>Schweinefleisch</note>
           <note>jodiertes Salz</note>
           <price role="employee">3.25</price>
@@ -1279,6 +1212,22 @@
     <day date="2025-02-28">
       <category name="Tellergericht">
         <meal>
+          <name>Soljanka Teller</name>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <note>Rindfleisch</note>
+          <note>Schweinefleisch</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
+          <note>jodiertes Salz</note>
+          <note>mit Antioxidationsmittel</note>
+          <note>mit Konservierungsstoff</note>
+          <note>mit Phosphat</note>
+          <note>mit Süßungsmittel</note>
+          <price role="employee">2.45</price>
+          <price role="other">3.45</price>
+          <price role="student">1.50</price>
+        </meal>
+        <meal>
           <name>4 Eierkuchen mit Apfelmus</name>
           <note>Eier und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
@@ -1287,6 +1236,22 @@
           <price role="employee">3.30</price>
           <price role="other">4.80</price>
           <price role="student">1.80</price>
+        </meal>
+        <meal>
+          <name>Soljanka, Terrine</name>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <note>Rindfleisch</note>
+          <note>Schweinefleisch</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
+          <note>jodiertes Salz</note>
+          <note>mit Antioxidationsmittel</note>
+          <note>mit Konservierungsstoff</note>
+          <note>mit Phosphat</note>
+          <note>mit Süßungsmittel</note>
+          <price role="employee">3.45</price>
+          <price role="other">4.70</price>
+          <price role="student">2.20</price>
         </meal>
       </category>
       <category name="Komponente 1">
