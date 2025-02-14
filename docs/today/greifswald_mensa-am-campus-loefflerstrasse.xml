@@ -3,7 +3,7 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2025-02-13">
+    <day date="2025-02-14">
       <category name="Tellergericht">
         <meal>
           <name>Brötchen</name>
@@ -12,16 +12,41 @@
           <price role="other">0.70</price>
           <price role="student">0.40</price>
         </meal>
-      </category>
-      <category name="Komponente 1">
         <meal>
-          <name>Seelachsfilet in Sesampanade  
- mit Petersiliensoße</name>
-          <note>Fische und daraus hergestellte Erzeugnisse</note>
+          <name>Kl. Schüssel: Grießbrei  
+ mit Sauerkirschsoße</name>
           <note>Glutenhaltiges Getreide</note>
           <note>Milch/Milchzucker (Laktose)</note>
-          <note>Sesamsamen und daraus hergestellte Erzeugnisse</note>
+          <price role="employee">1.65</price>
+          <price role="other">2.45</price>
+          <price role="student">0.90</price>
+        </meal>
+        <meal>
+          <name>Teller: Grießbrei  
+ mit Sauerkirschsoße</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <price role="employee">2.50</price>
+          <price role="other">3.75</price>
+          <price role="student">1.50</price>
+        </meal>
+        <meal>
+          <name>Terrine: Grießbrei  
+ mit Sauerkirschsoße</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <price role="employee">4.00</price>
+          <price role="other">5.40</price>
+          <price role="student">2.20</price>
+        </meal>
+      </category>
+      <category name="Komponente 2">
+        <meal>
+          <name>Kohlroulade mit Krautsoße</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Schweinefleisch</note>
           <note>jodiertes Salz</note>
+          <note>mit Farbstoff</note>
           <price role="employee">3.25</price>
           <price role="other">4.25</price>
           <price role="student">2.25</price>
@@ -29,14 +54,29 @@
       </category>
       <category name="Komponente 4">
         <meal>
-          <name>Hähnchenbrust mit Mozzarellakruste (9,Gefl,G) 
- mit Geflügelrahmsauce (1,9,Gefl,G,I,A)</name>
+          <name>Hähnchenbruststeak (9,Gefl) 
+ mit Rahmchampignons</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker (Laktose)</note>
           <price role="employee">3.50</price>
           <price role="other">4.50</price>
           <price role="student">2.50</price>
         </meal>
       </category>
       <category name="Vegane Komponente 1">
+        <meal>
+          <name>Vegan: 1 Frühlingsrolle  
+ mit süß-saurer Soße asiatischer Art</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>jodiertes Salz</note>
+          <note>mit Antioxidationsmittel</note>
+          <price role="employee">2.85</price>
+          <price role="other">3.85</price>
+          <price role="student">1.85</price>
+        </meal>
+      </category>
+      <category name="Vegane Komponente 2">
         <meal>
           <name>Falafel-Kichererbsen-Patty  
  mit Tomatensauce</name>
@@ -71,7 +111,6 @@
         <meal>
           <name>Salzkartoffeln</name>
           <note>geschwefelt</note>
-          <note>jodiertes Salz</note>
           <price role="employee">1.20</price>
           <price role="other">1.60</price>
           <price role="student">0.80</price>
@@ -84,7 +123,8 @@
           <price role="student">0.80</price>
         </meal>
         <meal>
-          <name>Pommes Frites</name>
+          <name>8 Kartoffelkroketten</name>
+          <note>Glutenhaltiges Getreide</note>
           <price role="employee">1.50</price>
           <price role="other">1.90</price>
           <price role="student">1.10</price>
@@ -92,10 +132,10 @@
       </category>
       <category name="Gemüse">
         <meal>
-          <name>Brokkoli</name>
-          <price role="employee">1.40</price>
-          <price role="other">1.80</price>
-          <price role="student">1.00</price>
+          <name>Balkangemüse [Erbsen, grüne Bohnen, Mais, Paprika]</name>
+          <price role="employee">1.20</price>
+          <price role="other">1.60</price>
+          <price role="student">0.80</price>
         </meal>
       </category>
       <category name="Salate und Desserts">
