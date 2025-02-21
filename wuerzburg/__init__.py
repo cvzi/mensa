@@ -3,10 +3,8 @@ import locale
 import sys
 import os
 import json
-import json5
 import logging
 import urllib
-import re
 import requests
 from bs4 import BeautifulSoup as parse
 
