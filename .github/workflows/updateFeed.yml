@@ -20,6 +20,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 40
     steps:
+    - run: sudo locale-gen de_DE.UTF-8
     - uses: actions/checkout@v4
     - name: Set up Python 3.12
       uses: actions/setup-python@v5
