@@ -38,31 +38,7 @@
     <main>
       <article>Parser for <a target="_blank" href="https://openmensa.org">openmensa.org</a>. The parser runs in a <a target="_blank" title="What's a Github action?" href="https://docs.github.com/en/actions">Github action<sup>❓</sup></a> and pushes the XML feeds to this page</article>
       <article><h3><a href="https://github.com/cvzi/mensa/actions/">🗿 Parser status</a></h3>
-<pre>mensenat/LinzPHDLmensa:
-Traceback (most recent call last):
-  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
-    content = getattr(parser, feedMethod)(
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/mensa/mensa/mensenat/__init__.py", line 29, in feed
-    return canteen.generateTotalFeedXml()
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 55, in generateTotalFeedXml
-    self.addWeekMenuToFeed(weekMenus["menuplanNextWeek"])
-  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 79, in addWeekMenuToFeed
-    self.addMealsToFeed(category_name, current_date, menu)
-  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 89, in addMealsToFeed
-    self.feed.addMeal(current_date, category_name, name, notes=notes, prices=prices)
-  File "/opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/pyopenmensa/feed.py", line 657, in addMeal
-    prices = buildPrices(prices or {}, roles,
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/pyopenmensa/feed.py", line 154, in buildPrices
-    data = [(item[0], convertPrice(item[1])) for item in data.items()]
-                      ^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/pyopenmensa/feed.py", line 139, in convertPrice
-    raise ValueError('Could not extract price: {0}'.format(variant))
-ValueError: Could not extract price: 
-
-mensenat/GrazTUInffeld:
+<pre>mensenat/GrazTUInffeld:
 Traceback (most recent call last):
   File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
     content = getattr(parser, feedMethod)(
