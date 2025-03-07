@@ -42,7 +42,7 @@ class Parser:
                 try:
                     name = meal.find('h5').text
                     try:
-                        category = meal.find('span', class_='food-icon')['title'] 
+                        category = meal.find('span', class_='food-icon')['title']
                     except BaseException:
                         logging.warning("Meal type of %s (%s) is unknown", name, date)
                         category = "unknown"
