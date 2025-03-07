@@ -29,8 +29,7 @@ class Parser:
         builder = StyledLazyBuilder()
         locale.setlocale(locale.LC_TIME, 'de_DE.UTF-8') 
 
-        document = parse(self._get_cached(
-            "https://www.swerk-wue.de/wuerzburg/essen-trinken/mensen-speiseplaene/"+ref+"/menu").text, 'lxml')
+        document = parse(self._get_cached(self.canteens[ref]["canteen_url"]+"/menu").text, 'lxml')
         
         for day in document.find_all('div', class_='day-menu'):
             try:
@@ -42,13 +41,17 @@ class Parser:
             for meal in day.find(class_='day-menu-entries').find_all('article'):
                 try:
                     name = meal.find('h5').text
-                    category = meal.find('span', class_='food-icon')['title']
+                    try:
+                        category = meal.find('span', class_='food-icon')['title'] 
+                    except BaseException:
+                        logging.warning("Meal type of %s (%s) is unknown", name, date)
+                        category = "unknown"
                     notes = [note.text.strip() for note in meal.find('div', class_='additive-list').find_all('li') if note.text.strip()]
                     priceDiv = meal.find('div', class_='price')
                     prices = [priceDiv.get('data-price-student'), priceDiv.get('data-price-servant'), priceDiv.get('data-price-guest')]
                     logging.debug("%s - Gericht: %s - Category: %s - Notes: %s - Prices: %s", date, name, category, notes, prices)
                     if not name or not category or not date:
-                        raise Exception("Nececarry data missing")
+                        raise Exception("Necessary data missing")
                     else:
                         builder.addMeal(date, category, name, notes, prices, self.roles)
                 except BaseException as e:
@@ -70,7 +73,7 @@ class Parser:
             "latitude": xml_str_param(mensa["latitude"]),
             "longitude": xml_str_param(mensa["longitude"]),
             "feed": xml_str_param(self.url_template.format(metaOrFeed='feed', mensaReference=urllib.parse.quote(ref))),
-            "source": xml_str_param('https://www.swerk-wue.de/wuerzburg/essen-trinken/mensen-speiseplaene'),
+            "source": xml_str_param(mensa["canteen_url"]),
         }
 
         day_mapping = {
@@ -84,8 +87,7 @@ class Parser:
         }
 
         # Fetch opening Times from website
-        document = parse(self._get_cached(
-            "https://www.swerk-wue.de/wuerzburg/essen-trinken/mensen-speiseplaene/"+ref+"/menu").text, 'lxml')
+        document = parse(self._get_cached(self.canteens[ref]["canteen_url"]+"/menu").text, 'lxml')
         times = ""
         openingData = document.find('div', class_='opening-time_listing-all')
         if openingData:
@@ -100,12 +102,15 @@ class Parser:
                     logging.error("Error parsing opening times: %s", e)
                     continue
         data["times"] = times
-        print("Tines", data["times"])
         return meta_from_xsl(self.meta_xslt, data)
 
     def __init__(self, url_template):
         with open(self.canteen_json, 'r', encoding='utf8') as f:
             self.canteens = json.load(f)
+            umlaut_map = {ord('Ä'):'Ae', ord('Ü'):'Ue', ord('Ö'):'Oe', ord('ä'):'ae', ord('ü'):'ue', ord('ö'):'oe', ord('ß'):'ss'}
+            for canteen_reference in self.canteens:
+                canteen_city = self.canteens[canteen_reference]["city"].lower().translate(umlaut_map)
+                self.canteens[canteen_reference]["canteen_url"] = f"https://www.swerk-wue.de/{canteen_city}/essen-trinken/mensen-speiseplaene/{canteen_reference}"
 
         self.url_template = url_template
         self.session = requests.Session()
@@ -135,7 +140,11 @@ class Parser:
 
 
 if __name__ == "__main__":
-    logging.basicConfig(level=logging.DEBUG)
+    logging.basicConfig(level=logging.WARNING)
     p = Parser("http://localhost/")
-    print(p.feed("mensa-am-studentenhaus-wuerzburg"))
-    print(p.meta("mensa-am-studentenhaus-wuerzburg"))
+    for canteen in p.canteens.keys():
+        print(f"{canteen}:")
+        p.feed(canteen)
+        p.meta(canteen)
+        #print(f"{p.feed(canteen)}\n")
+        #print(f"{p.meta(canteen)}\n\n")
