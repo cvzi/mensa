@@ -3,11 +3,17 @@
 <?xml-stylesheet type="text/css" href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css"?>
 <openmensa xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2025-03-10">
+    <day date="2025-03-17">
       <category name="Tagessuppe klar">
         <meal>
-          <name>Klare Gemüsesuppe • 
-Bärlauch - Butternockerl</name>
+          <name>Klare Gemüsesuppe</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+        <meal>
+          <name>Backerbsen</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
           <note>Milch oder Laktose (G)</note>
@@ -16,51 +22,44 @@ Bärlauch - Butternockerl</name>
       </category>
       <category name="Tagessuppe cremig">
         <meal>
-          <name>Vegetarische Grießsuppe</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Soja (F)</note>
+          <name>Schwammerlcremesuppe</name>
+          <note>Milch oder Laktose (G)</note>
           <note>Sellerie (L)</note>
-          <note>Senf (M)</note>
         </meal>
       </category>
       <category name="Menü 1 Traditionell">
         <meal>
-          <name>Hühnergeschnetzeltes mit Frühlingsgemüse</name>
+          <name>Matrosenfleisch vom Rind</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
           <note>Milch oder Laktose (G)</note>
           <note>Sellerie (L)</note>
+          <note>Senf (M)</note>
           <note>Sulfite (O)</note>
         </meal>
         <meal>
-          <name>Langkornreis</name>
+          <name>Kräuternudeln</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
           <note>Milch oder Laktose (G)</note>
           <note>Sellerie (L)</note>
+          <note>Senf (M)</note>
           <note>Sulfite (O)</note>
         </meal>
       </category>
       <category name="Menü 2 Around the World">
         <meal>
-          <name>Selchfleischknödel</name>
+          <name>Hühnerfilet auf cremigem Grünkohl, dazu Naturreis</name>
           <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-        <meal>
-          <name>Zwiebelsauce</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-        <meal>
-          <name>Sauerkraut</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Sulfite (O)</note>
+          <note>Soja (F)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+          <note>Senf (M)</note>
         </meal>
       </category>
       <category name="Menü 3 Gesund &amp; Gschmackig">
         <meal>
-          <name>Frühlingsrolle Vegetarisch mit Sweet Chili Sauce</name>
+          <name>Spinatnockerln</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
           <note>Soja (F)</note>
@@ -69,7 +68,7 @@ Bärlauch - Butternockerl</name>
           <note>Senf (M)</note>
         </meal>
         <meal>
-          <name>Bulgur B.Ch.    -Beilage-</name>
+          <name>Käsesauce</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
           <note>Soja (F)</note>
@@ -80,480 +79,24 @@ Bärlauch - Butternockerl</name>
       </category>
       <category name="Kalter Teller">
         <meal>
-          <name>"Poké Bowl" •
-Thunfisch • Wildreis • Romana - Blätter •
-Honigmelone • Cashewnüsse •  </name>
-          <note>Schalenfrüchte (H)</note>
-        </meal>
-      </category>
-      <category name="Schichtmenü 1">
-        <meal>
-          <name>Eiernudeln</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-        <meal>
-          <name>Champignon Ragout</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-      </category>
-      <category name="Schichtmenü 2">
-        <meal>
-          <name>Blunzengröst'l mit frischen Kren</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-      </category>
-    </day>
-    <day date="2025-03-11">
-      <category name="Tagessuppe klar">
-        <meal>
-          <name>Klare Rindsuppe</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Sellerie (L)</note>
-        </meal>
-        <meal>
-          <name>Leberknödel</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Sellerie (L)</note>
-        </meal>
-        <meal>
-          <name>Schnittlauch</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Sellerie (L)</note>
-        </meal>
-      </category>
-      <category name="Tagessuppe cremig">
-        <meal>
-          <name>Selleriesuppe Fasten</name>
+          <name>"Buddha Bowl"
+Kichererbsen • Babyspinat • Tomaten • Couscous • Gurke •
+Limette • Petersilie • Karotten • Hummus  • Ras-el-hanout</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Soja (F)</note>
-          <note>Sellerie (L)</note>
-          <note>Senf (M)</note>
-        </meal>
-      </category>
-      <category name="Menü 1 Traditionell">
-        <meal>
-          <name>Schinkenfleckerln</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-        </meal>
-      </category>
-      <category name="Menü 2 Around the World">
-        <meal>
-          <name>Putenbrustfilet gebraten</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Soja (F)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Schalenfrüchte (H)</note>
-          <note>Sellerie (L)</note>
-          <note>Senf (M)</note>
-          <note>Sesam (N)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-        <meal>
-          <name>Ratatouille</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Soja (F)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Schalenfrüchte (H)</note>
-          <note>Sellerie (L)</note>
-          <note>Senf (M)</note>
-          <note>Sesam (N)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-        <meal>
-          <name>Polenta Beilage KAssa</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Soja (F)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Schalenfrüchte (H)</note>
-          <note>Sellerie (L)</note>
-          <note>Senf (M)</note>
-          <note>Sesam (N)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-      </category>
-      <category name="Menü 3 Gesund &amp; Gschmackig">
-        <meal>
-          <name>Kichererbseneintopf</name>
-        </meal>
-        <meal>
-          <name>Basmatireis</name>
-        </meal>
-      </category>
-      <category name="Business Menü">
-        <meal>
-          <name>Fischgrillteller</name>
-          <note>Fisch (D)</note>
-          <note>Weichtiere (R)</note>
-        </meal>
-        <meal>
-          <name>Steak House frites</name>
-          <note>Fisch (D)</note>
-          <note>Weichtiere (R)</note>
-        </meal>
-      </category>
-      <category name="Kalter Teller">
-        <meal>
-          <name>Glasnudel - Sojasalat • 
-frische Zuckererbsenschoten •
-Huhn • Limetten - Marinade</name>
-          <note>Soja (F)</note>
-        </meal>
-      </category>
-      <category name="Schichtmenü 1">
-        <meal>
-          <name>Frühlingsrolle Vegetarisch mit Sweet Chili Sauce</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Soja (F)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Sellerie (L)</note>
-          <note>Senf (M)</note>
-        </meal>
-        <meal>
-          <name>Bulgur B.Ch.    -Beilage-</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Soja (F)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Sellerie (L)</note>
-          <note>Senf (M)</note>
-        </meal>
-      </category>
-      <category name="Schichtmenü 2">
-        <meal>
-          <name>Selchfleischknödel</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-        <meal>
-          <name>Zwiebelsauce</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-        <meal>
-          <name>Sauerkraut</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-      </category>
-    </day>
-    <day date="2025-03-12">
-      <category name="Tagessuppe klar">
-        <meal>
-          <name>Französische Fischsuppe</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Fisch (D)</note>
-        </meal>
-      </category>
-      <category name="Tagessuppe cremig">
-        <meal>
-          <name>Bohnen - Lauchsuppe
-Salbei Croutons
-</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Sellerie (L)</note>
-        </meal>
-      </category>
-      <category name="Menü 1 Traditionell">
-        <meal>
-          <name>Gegrilltes Schweinsschopfsteak</name>
-          <note>Milch oder Laktose (G)</note>
-          <note>Sellerie (L)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-        <meal>
-          <name>Knoblauch Jus</name>
-          <note>Milch oder Laktose (G)</note>
-          <note>Sellerie (L)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-        <meal>
-          <name>Röstinchen</name>
-          <note>Milch oder Laktose (G)</note>
-          <note>Sellerie (L)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-        <meal>
-          <name>Speckfisolen</name>
-          <note>Milch oder Laktose (G)</note>
-          <note>Sellerie (L)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-      </category>
-      <category name="Menü 2 Around the World">
-        <meal>
-          <name>"Nua Phad King"
-Thailändische Ingwer - Rinderstreifen •
-</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Soja (F)</note>
-          <note>Sellerie (L)</note>
-          <note>Sesam (N)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-        <meal>
-          <name>Kokosreis</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Soja (F)</note>
-          <note>Sellerie (L)</note>
-          <note>Sesam (N)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-      </category>
-      <category name="Menü 3 Gesund &amp; Gschmackig">
-        <meal>
-          <name>Gnocchi</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Milch oder Laktose (G)</note>
-        </meal>
-        <meal>
-          <name>Bärlauchpesto</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Milch oder Laktose (G)</note>
-        </meal>
-        <meal>
-          <name>frischer Parmesan</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Milch oder Laktose (G)</note>
-        </meal>
-      </category>
-      <category name="Business Menü">
-        <meal>
-          <name>"Greek Burger" • Rindfleisch •  Tomate • Feta • schwarze Oliven •  Oregano •  roter Zwiebel</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Senf (M)</note>
-        </meal>
-        <meal>
-          <name>Braterdäpfeln</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Senf (M)</note>
-        </meal>
-      </category>
-      <category name="Kalter Teller">
-        <meal>
-          <name>Chefsalat - Take Away Salatbox</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Soja (F)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Schalenfrüchte (H)</note>
-          <note>Sellerie (L)</note>
-          <note>Senf (M)</note>
-          <note>Sesam (N)</note>
-        </meal>
-        <meal>
-          <name>Menü Gebäck</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Soja (F)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Schalenfrüchte (H)</note>
-          <note>Sellerie (L)</note>
-          <note>Senf (M)</note>
           <note>Sesam (N)</note>
         </meal>
       </category>
       <category name="Schichtmenü 1">
         <meal>
-          <name>Kichererbseneintopf</name>
-        </meal>
-        <meal>
-          <name>Basmatireis</name>
+          <name>Käsespätzle mit Röstzwiebel</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
         </meal>
       </category>
       <category name="Schichtmenü 2">
-        <meal>
-          <name>Schinkenfleckerln</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-        </meal>
-      </category>
-    </day>
-    <day date="2025-03-13">
-      <category name="Tagessuppe klar">
-        <meal>
-          <name>Hühnersuppe •
-kleine Spinat Tortellini</name>
-          <note>Sellerie (L)</note>
-        </meal>
-      </category>
-      <category name="Tagessuppe cremig">
-        <meal>
-          <name>Marokkanische Gemüsesuppe 
-mit Kichererbsen </name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Sellerie (L)</note>
-        </meal>
-      </category>
-      <category name="Menü 1 Traditionell">
-        <meal>
-          <name>Marillenknödel mit Butterbrösel</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Milch oder Laktose (G)</note>
-        </meal>
-      </category>
-      <category name="Menü 2 Around the World">
-        <meal>
-          <name>Chili con Carne von Rind</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-        </meal>
-        <meal>
-          <name>Semmel</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-        </meal>
-      </category>
-      <category name="Menü 3 Gesund &amp; Gschmackig">
-        <meal>
-          <name>Gemüse Jalfrezi Indisch</name>
-          <note>Soja (F)</note>
-          <note>Senf (M)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-        <meal>
-          <name>Jasminreis</name>
-          <note>Soja (F)</note>
-          <note>Senf (M)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-      </category>
-      <category name="Business Menü">
-        <meal>
-          <name>Barbarieentenbrust • Rotkraut • 
-Erdäpfelknödelscheiben •
-Thymianjus
-
-Allergene A • L • O</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Sellerie (L)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-      </category>
-      <category name="Kalter Teller">
-        <meal>
-          <name>Paradeiser-Mozzarella Caprese</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Soja (F)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Schalenfrüchte (H)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-        <meal>
-          <name>Ciabatta</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Soja (F)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Schalenfrüchte (H)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-      </category>
-      <category name="Schichtmenü 1">
-        <meal>
-          <name>Gnocchi</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Milch oder Laktose (G)</note>
-        </meal>
-        <meal>
-          <name>Bärlauchpesto</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Milch oder Laktose (G)</note>
-        </meal>
-        <meal>
-          <name>frischer Parmesan</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Milch oder Laktose (G)</note>
-        </meal>
-      </category>
-      <category name="Schichtmenü 2">
-        <meal>
-          <name>"Nua Phad King"
-Thailändische Ingwer - Rinderstreifen •
-</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Soja (F)</note>
-          <note>Sellerie (L)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-        <meal>
-          <name>Braterdäpfeln</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Soja (F)</note>
-          <note>Sellerie (L)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-      </category>
-    </day>
-    <day date="2025-03-14">
-      <category name="Tagessuppe klar">
-        <meal>
-          <name>"Ribollita" 
-Italienische Gemüse- &amp; 
-Weißbrotsuppe</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Sellerie (L)</note>
-        </meal>
-      </category>
-      <category name="Tagessuppe cremig">
-        <meal>
-          <name>Wiener Erdäpfelsuppe mit Speck und Pilzen</name>
-          <note>Milch oder Laktose (G)</note>
-          <note>Sellerie (L)</note>
-        </meal>
-      </category>
-      <category name="Menü 1 Traditionell">
-        <meal>
-          <name>Kap-Seehechtfilet gebraten</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Fisch (D)</note>
-          <note>Soja (F)</note>
-          <note>Sellerie (L)</note>
-          <note>Weichtiere (R)</note>
-        </meal>
-        <meal>
-          <name>Spinat - Bulgur</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Fisch (D)</note>
-          <note>Soja (F)</note>
-          <note>Sellerie (L)</note>
-          <note>Weichtiere (R)</note>
-        </meal>
-        <meal>
-          <name>Zitronen Thymian Sauce</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Fisch (D)</note>
-          <note>Soja (F)</note>
-          <note>Sellerie (L)</note>
-          <note>Weichtiere (R)</note>
-        </meal>
-      </category>
-      <category name="Menü 2 Around the World">
         <meal>
           <name>Geröstete Kalbsleber in Majoransauce</name>
           <note>Sellerie (L)</note>
@@ -565,9 +108,91 @@ Weißbrotsuppe</name>
           <note>Sulfite (O)</note>
         </meal>
       </category>
+    </day>
+    <day date="2025-03-18">
+      <category name="Tagessuppe klar">
+        <meal>
+          <name>Klare Rindsuppe</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+        <meal>
+          <name>Frittaten</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+        <meal>
+          <name>Schnittlauch</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+      </category>
+      <category name="Tagessuppe cremig">
+        <meal>
+          <name>Curcuma - Kohlrabi Suppe
+frische Kräuter
+
+Allergen L</name>
+          <note>Sellerie (L)</note>
+        </meal>
+      </category>
+      <category name="Menü 1 Traditionell">
+        <meal>
+          <name>Schweinsrückensteak alla Toscana</name>
+          <note>Milch oder Laktose (G)</note>
+        </meal>
+        <meal>
+          <name>Röstinchen</name>
+          <note>Milch oder Laktose (G)</note>
+        </meal>
+        <meal>
+          <name>Frisches Marktgemüse</name>
+          <note>Milch oder Laktose (G)</note>
+        </meal>
+      </category>
+      <category name="Menü 2 Around the World">
+        <meal>
+          <name>Pastitsio - Griechischer Nudelauflauf mit Rindsfaschiertem</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Soja (F)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+          <note>Senf (M)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+      </category>
       <category name="Menü 3 Gesund &amp; Gschmackig">
         <meal>
-          <name>Käsespätzle mit Röstzwiebel</name>
+          <name>Linseneintopf mit Lauch und Wurzelgemüse • 
+frittierte Süßkartoffelwürfel
+</name>
+          <note>Sellerie (L)</note>
+        </meal>
+      </category>
+      <category name="Business Menü">
+        <meal>
+          <name>Cordon Bleu • klassisch gefüllt</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+        <meal>
+          <name>Petersilien Erdäpfeln</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+        <meal>
+          <name>Preiselbeeren</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
           <note>Milch oder Laktose (G)</note>
@@ -576,45 +201,432 @@ Weißbrotsuppe</name>
       </category>
       <category name="Kalter Teller">
         <meal>
-          <name>Saure Wurst</name>
-          <note>Glutenhaltiges Getreide (A)</note>
+          <name>Thunfischsalat Nizza</name>
+          <note>Fisch (D)</note>
           <note>Sellerie (L)</note>
+        </meal>
+        <meal>
+          <name>Hausbrot</name>
+          <note>Fisch (D)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+      </category>
+      <category name="Schichtmenü 1">
+        <meal>
+          <name>Linseneintopf mit Lauch und Wurzelgemüse • 
+frittierte Süßkartoffelwürfel
+</name>
+          <note>Sellerie (L)</note>
+        </meal>
+      </category>
+      <category name="Schichtmenü 2">
+        <meal>
+          <name>Pastitsio - Griechischer Nudelauflauf mit Rindsfaschiertem</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Soja (F)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+          <note>Senf (M)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+      </category>
+    </day>
+    <day date="2025-03-19">
+      <category name="Tagessuppe klar">
+        <meal>
+          <name>Klare Gemüsesuppe</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+        <meal>
+          <name>Bärlauchknöderl</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+        <meal>
+          <name>Schnittlauch</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+      </category>
+      <category name="Tagessuppe cremig">
+        <meal>
+          <name>Topinamburcremesuppe •</name>
+        </meal>
+      </category>
+      <category name="Menü 1 Traditionell">
+        <meal>
+          <name>Gebackenes Schweinsschnitzel</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+        </meal>
+        <meal>
+          <name>Preiselbeeren</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+        </meal>
+        <meal>
+          <name>Petersilien Erdäpfeln</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+        </meal>
+      </category>
+      <category name="Menü 2 Around the World">
+        <meal>
+          <name>Rindspolpetti</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+          <note>Senf (M)</note>
+        </meal>
+        <meal>
+          <name>Paprikasauce</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+          <note>Senf (M)</note>
+        </meal>
+        <meal>
+          <name>Kräuterreis</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+          <note>Senf (M)</note>
+        </meal>
+      </category>
+      <category name="Menü 3 Gesund &amp; Gschmackig">
+        <meal>
+          <name>Tortellini mit Spinat- Ricottafüllung</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
+          <note>Sellerie (L)</note>
+          <note>Senf (M)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+        <meal>
+          <name>Arrabbiata Sauce</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
+          <note>Sellerie (L)</note>
+          <note>Senf (M)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+      </category>
+      <category name="Business Menü">
+        <meal>
+          <name>Gegrilltes St. Petersfischfilet</name>
+          <note>Ei (C)</note>
+          <note>Fisch (D)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+          <note>Weichtiere (R)</note>
+        </meal>
+        <meal>
+          <name>Bärlauchrisotto •</name>
+          <note>Ei (C)</note>
+          <note>Fisch (D)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+          <note>Weichtiere (R)</note>
+        </meal>
+        <meal>
+          <name>Kräuterbutter</name>
+          <note>Ei (C)</note>
+          <note>Fisch (D)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+          <note>Weichtiere (R)</note>
+        </meal>
+      </category>
+      <category name="Kalter Teller">
+        <meal>
+          <name>Schweizer Wurstsalat</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Milch oder Laktose (G)</note>
           <note>Senf (M)</note>
         </meal>
         <meal>
           <name>Semmel</name>
           <note>Glutenhaltiges Getreide (A)</note>
-          <note>Sellerie (L)</note>
+          <note>Milch oder Laktose (G)</note>
           <note>Senf (M)</note>
         </meal>
       </category>
       <category name="Schichtmenü 1">
         <meal>
-          <name>Gemüse Jalfrezi Indisch</name>
+          <name>Tortellini mit Spinat- Ricottafüllung</name>
+          <note>Glutenhaltiges Getreide (A)</note>
           <note>Soja (F)</note>
+          <note>Sellerie (L)</note>
           <note>Senf (M)</note>
           <note>Sulfite (O)</note>
         </meal>
         <meal>
-          <name>Jasminreis</name>
+          <name>Arrabbiata Sauce</name>
+          <note>Glutenhaltiges Getreide (A)</note>
           <note>Soja (F)</note>
+          <note>Sellerie (L)</note>
           <note>Senf (M)</note>
           <note>Sulfite (O)</note>
         </meal>
       </category>
       <category name="Schichtmenü 2">
         <meal>
-          <name>Chili con Carne von Rind</name>
+          <name>Rindspolpetti</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+          <note>Senf (M)</note>
         </meal>
         <meal>
-          <name>Rösti</name>
+          <name>Paprikasauce</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+          <note>Senf (M)</note>
+        </meal>
+        <meal>
+          <name>Kräuterreis</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+          <note>Senf (M)</note>
         </meal>
       </category>
     </day>
-    <day date="2025-03-15">
+    <day date="2025-03-20">
+      <category name="Tagessuppe klar">
+        <meal>
+          <name>Japanische Misosuppe</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Fisch (D)</note>
+          <note>Soja (F)</note>
+          <note>Sellerie (L)</note>
+          <note>Sesam (N)</note>
+        </meal>
+      </category>
+      <category name="Tagessuppe cremig">
+        <meal>
+          <name>Bärlauchcremesuppe</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+        <meal>
+          <name>geröstete Schwarzbrotstreifen</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+      </category>
+      <category name="Menü 1 Traditionell">
+        <meal>
+          <name>Germknödel mit Mohn und Zucker</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+        </meal>
+        <meal>
+          <name>Vanillesauce</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+        </meal>
+      </category>
+      <category name="Menü 2 Around the World">
+        <meal>
+          <name>Putenspieß</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+        </meal>
+        <meal>
+          <name>Letscho</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+        </meal>
+        <meal>
+          <name>Ebly - Zartweizen</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+        </meal>
+      </category>
+      <category name="Menü 3 Gesund &amp; Gschmackig">
+        <meal>
+          <name>Vegetarisches Chili mit Tofu</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
+          <note>Sellerie (L)</note>
+          <note>Senf (M)</note>
+          <note>Sesam (N)</note>
+        </meal>
+        <meal>
+          <name>Pitabrot</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
+          <note>Sellerie (L)</note>
+          <note>Senf (M)</note>
+          <note>Sesam (N)</note>
+        </meal>
+      </category>
+      <category name="Business Menü">
+        <meal>
+          <name>Ravioli, gefüllt mit Steinpilz</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Milch oder Laktose (G)</note>
+        </meal>
+        <meal>
+          <name>Trüffelbutter</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Milch oder Laktose (G)</note>
+        </meal>
+      </category>
+      <category name="Kalter Teller">
+        <meal>
+          <name>Rindfleischsalat "Art des Hauses"</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Schalenfrüchte (H)</note>
+          <note>Senf (M)</note>
+          <note>Sesam (N)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+        <meal>
+          <name>Menü Gebäck</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Schalenfrüchte (H)</note>
+          <note>Senf (M)</note>
+          <note>Sesam (N)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+      </category>
+      <category name="Schichtmenü 1">
+        <meal>
+          <name>Vegetarisches Chili mit Tofu</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
+          <note>Sellerie (L)</note>
+          <note>Senf (M)</note>
+          <note>Sesam (N)</note>
+        </meal>
+        <meal>
+          <name>Pitabrot</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
+          <note>Sellerie (L)</note>
+          <note>Senf (M)</note>
+          <note>Sesam (N)</note>
+        </meal>
+      </category>
+      <category name="Schichtmenü 2">
+        <meal>
+          <name>Putenspieß</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+        </meal>
+        <meal>
+          <name>Letscho</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+        </meal>
+        <meal>
+          <name>Ebly - Zartweizen</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+        </meal>
+      </category>
+    </day>
+    <day date="2025-03-21">
+      <category name="Tagessuppe klar">
+        <meal>
+          <name>Minestrone</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Soja (F)</note>
+          <note>Sellerie (L)</note>
+          <note>Senf (M)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+      </category>
+      <category name="Tagessuppe cremig">
+        <meal>
+          <name>Petersilwurzel - Kren Suppe
+Sprossen
+
+Allergene L • O</name>
+          <note>Sellerie (L)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+      </category>
+      <category name="Menü 1 Traditionell">
+        <meal>
+          <name>Fischcurry mit Kokosnuss</name>
+          <note>Soja (F)</note>
+          <note>Sesam (N)</note>
+        </meal>
+        <meal>
+          <name>Basmatireis mit Sesam</name>
+          <note>Soja (F)</note>
+          <note>Sesam (N)</note>
+        </meal>
+      </category>
+      <category name="Menü 2 Around the World">
+        <meal>
+          <name>Original Münchner Weißwürstl mit Senf &amp; Brezn -Oktoberfest-</name>
+          <note>Senf (M)</note>
+        </meal>
+      </category>
+      <category name="Menü 3 Gesund &amp; Gschmackig">
+        <meal>
+          <name>Waldviertler Erdäpfelpfanne mit Lauch und Hüttenkäse</name>
+          <note>Milch oder Laktose (G)</note>
+        </meal>
+      </category>
+      <category name="Kalter Teller">
+        <meal>
+          <name>Feta im Speckmantel</name>
+          <note>Milch oder Laktose (G)</note>
+        </meal>
+        <meal>
+          <name>Blattsalat</name>
+          <note>Milch oder Laktose (G)</note>
+        </meal>
+      </category>
+      <category name="Schichtmenü 1">
+        <meal>
+          <name>Waldviertler Erdäpfelpfanne mit Lauch und Hüttenkäse</name>
+          <note>Milch oder Laktose (G)</note>
+        </meal>
+      </category>
+      <category name="Schichtmenü 2">
+        <meal>
+          <name>Fischcurry mit Kokosnuss</name>
+          <note>Soja (F)</note>
+          <note>Sesam (N)</note>
+        </meal>
+        <meal>
+          <name>Basmatireis mit Sesam</name>
+          <note>Soja (F)</note>
+          <note>Sesam (N)</note>
+        </meal>
+      </category>
+    </day>
+    <day date="2025-03-22">
       <closed/>
     </day>
-    <day date="2025-03-16">
+    <day date="2025-03-23">
       <closed/>
     </day>
   </canteen>
