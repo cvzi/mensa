@@ -3,88 +3,6 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2025-03-24">
-      <category name="Komponente 1">
-        <meal>
-          <name>Schlemmerfilet Bordelaise  
- Kräutersauce</name>
-          <note>Fische und daraus hergestellte Erzeugnisse</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Milch/Milchzucker (Laktose)</note>
-          <note>jodiertes Salz</note>
-          <price role="employee">3.25</price>
-          <price role="other">4.25</price>
-          <price role="student">2.25</price>
-        </meal>
-      </category>
-      <category name="Komponente 3">
-        <meal>
-          <name>Hähnchen-Gyros mit Paprikaquark (1,9,Gefl,G)</name>
-          <price role="employee">3.25</price>
-          <price role="other">4.25</price>
-          <price role="student">2.25</price>
-        </meal>
-      </category>
-      <category name="Vegane Komponente 1">
-        <meal>
-          <name>Bunte Paprikapfanne mit Ingwer, Bambus und Dinkel</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Sesamsamen und daraus hergestellte Erzeugnisse</note>
-          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
-          <note>mit Konservierungsstoff</note>
-          <price role="employee">3.00</price>
-          <price role="other">4.00</price>
-          <price role="student">2.00</price>
-        </meal>
-      </category>
-      <category name="Pasta nach Gewicht (pro 100g)">
-        <meal>
-          <name>Pastateller: Spaghetti mit Gemüsecarbonara mit Paprika und Zucchini [vegan]</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
-          <price role="employee">1.00</price>
-          <price role="other">1.40</price>
-          <price role="student">0.65</price>
-        </meal>
-      </category>
-      <category name="Beilagen">
-        <meal>
-          <name>Reis</name>
-          <note>jodiertes Salz</note>
-          <price role="employee">1.20</price>
-          <price role="other">1.60</price>
-          <price role="student">0.80</price>
-        </meal>
-        <meal>
-          <name>Salzkartoffeln</name>
-          <note>geschwefelt</note>
-          <note>jodiertes Salz</note>
-          <price role="employee">1.20</price>
-          <price role="other">1.60</price>
-          <price role="student">0.80</price>
-        </meal>
-        <meal>
-          <name>Pommes Frites</name>
-          <price role="employee">1.50</price>
-          <price role="other">1.90</price>
-          <price role="student">1.10</price>
-        </meal>
-      </category>
-      <category name="Gemüse">
-        <meal>
-          <name>Brokkoli</name>
-          <note>jodiertes Salz</note>
-          <price role="employee">1.40</price>
-          <price role="other">1.80</price>
-          <price role="student">1.00</price>
-        </meal>
-      </category>
-      <category name="Salate und Desserts">
-        <meal>
-          <name>Frische Salate und verschiedene Desserts stehen zur Auswahl.</name>
-        </meal>
-      </category>
-    </day>
     <day date="2025-03-25">
       <category name="Tellergericht">
         <meal>
@@ -418,7 +336,7 @@
       </category>
       <category name="Komponente 2">
         <meal>
-          <name>Paniertes Schweineschnitzel mit Rahmsoße</name>
+          <name>gefüllte Paprikaschote mit Rahmsoße</name>
           <note>Eier und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Milch/Milchzucker (Laktose)</note>
@@ -535,9 +453,9 @@
       </category>
       <category name="Vegetarische Komponente 1">
         <meal>
-          <name>Buntes Backofengemüse mit Hirtenkäse</name>
+          <name>Spaghettipfanne mit Ratatouille-Gemüse und Hirtenkäse</name>
+          <note>Glutenhaltiges Getreide</note>
           <note>Milch/Milchzucker (Laktose)</note>
-          <note>jodiertes Salz</note>
           <price role="employee">0.00</price>
           <price role="other">0.00</price>
           <price role="student">0.00</price>
@@ -601,6 +519,17 @@
           <price role="student">2.20</price>
         </meal>
       </category>
+      <category name="Komponente 1">
+        <meal>
+          <name>Marinierter Brathering mit Zwiebelschmelz</name>
+          <note>Fische und daraus hergestellte Erzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>mit Süßungsmittel</note>
+          <price role="employee">3.25</price>
+          <price role="other">4.25</price>
+          <price role="student">2.25</price>
+        </meal>
+      </category>
       <category name="Komponente 2">
         <meal>
           <name>Jagdwurstgulasch</name>
@@ -617,22 +546,20 @@
           <price role="student">2.25</price>
         </meal>
       </category>
-      <category name="Komponente 5">
+      <category name="Vegane Komponente 1">
         <meal>
-          <name>Pizza Tomate-Mozzarella mit Sonnenblumenhack</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <name>Süßkartoffel-Kokos-Soja-Curry</name>
           <note>Senf und daraus hergestellte Erzeugnisse</note>
+          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
           <note>jodiertes Salz</note>
-          <note>mit Farbstoff</note>
           <price role="employee">0.00</price>
           <price role="other">0.00</price>
           <price role="student">0.00</price>
         </meal>
       </category>
-      <category name="Mensa Vital">
+      <category name="Vegane Komponente 2">
         <meal>
-          <name>Vegan: Vollkornspaghetti mit feurigem Tomaten-Mango-Linsenragout</name>
+          <name>Auberginen im Haferflockenmantel mit Tomatensoße</name>
           <note>Glutenhaltiges Getreide</note>
           <note>jodiertes Salz</note>
           <price role="employee">0.00</price>
@@ -642,8 +569,23 @@
       </category>
       <category name="Beilagen">
         <meal>
-          <name>Salzkartoffeln</name>
-          <note>geschwefelt</note>
+          <name>gedrehte Röhrennudeln</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>jodiertes Salz</note>
+          <price role="employee">1.20</price>
+          <price role="other">1.60</price>
+          <price role="student">0.80</price>
+        </meal>
+        <meal>
+          <name>mit Bulgur</name>
+          <note>Glutenhaltiges Getreide</note>
+          <price role="employee">1.20</price>
+          <price role="other">1.60</price>
+          <price role="student">0.80</price>
+        </meal>
+        <meal>
+          <name>Kartoffelpüree mit Kräutern</name>
+          <note>Milch/Milchzucker (Laktose)</note>
           <note>jodiertes Salz</note>
           <price role="employee">1.20</price>
           <price role="other">1.60</price>
@@ -656,22 +598,14 @@
           <price role="other">1.60</price>
           <price role="student">0.80</price>
         </meal>
+      </category>
+      <category name="Gemüse">
         <meal>
-          <name>Gabelspaghetti</name>
-          <note>Glutenhaltiges Getreide</note>
+          <name>Erbsengemüse</name>
           <note>jodiertes Salz</note>
           <price role="employee">1.20</price>
           <price role="other">1.60</price>
           <price role="student">0.80</price>
-        </meal>
-      </category>
-      <category name="Gemüse">
-        <meal>
-          <name>Europagemüse (gelbe und orange Karottenscheiben, Romanobohnen, Brokkoliröschen)</name>
-          <note>jodiertes Salz</note>
-          <price role="employee">1.40</price>
-          <price role="other">1.80</price>
-          <price role="student">1.00</price>
         </meal>
       </category>
       <category name="Salate und Desserts">
@@ -683,39 +617,30 @@
     <day date="2025-04-02">
       <category name="Tellergericht">
         <meal>
-          <name>Kohlrübeneintopf mit Rauchfleisch, Teller</name>
-          <note>Schweinefleisch</note>
-          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <name>Teller: Grüne Erbsensuppe mit Minze, Teller</name>
+          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
           <note>geschwefelt</note>
           <note>jodiertes Salz</note>
-          <note>mit Antioxidationsmittel</note>
-          <note>mit Konservierungsstoff</note>
           <price role="employee">2.45</price>
           <price role="other">3.45</price>
           <price role="student">1.50</price>
         </meal>
         <meal>
-          <name>Kohlrübeneintopf mit Rauchfleisch, Terrine</name>
-          <note>Schweinefleisch</note>
-          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <name>Terrine: Grüne Erbsensuppe mit Minze, Terrine</name>
+          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
           <note>geschwefelt</note>
           <note>jodiertes Salz</note>
-          <note>mit Antioxidationsmittel</note>
-          <note>mit Konservierungsstoff</note>
           <price role="employee">3.45</price>
           <price role="other">4.70</price>
           <price role="student">2.20</price>
         </meal>
       </category>
-      <category name="Komponente 2">
+      <category name="Komponente 3">
         <meal>
-          <name>Paniertes Schweineschnitzel  
- mit Rahmsauce</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <name>Hähnchen-Knusperschnitzel &quot;Peppadew&quot; gefüllt mit Frischkäsezubereitung und eingelegten Kirschpaprika (3,Gefl,G,A) 
+ mit Basilikum- Pfeffersauce</name>
           <note>Glutenhaltiges Getreide</note>
           <note>Milch/Milchzucker (Laktose)</note>
-          <note>Rindfleisch</note>
-          <note>Schweinefleisch</note>
           <note>jodiertes Salz</note>
           <price role="employee">3.25</price>
           <price role="other">4.25</price>
@@ -725,20 +650,12 @@
       <category name="Vegane Komponente 1">
         <meal>
           <name>Broccoli-Nuss-Ecke  
- mit Gemüse-Bechamelsoße (3,9,Gefl,A,F,I)</name>
+ mit Gemüse-Bechamelsoße</name>
           <note>Glutenhaltiges Getreide</note>
           <note>Schalenfrüchte und daraus hergestellte Erzeugnisse (Mandeln, Haselnuss usw.)</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
           <note>jodiertes Salz</note>
-          <price role="employee">0.00</price>
-          <price role="other">0.00</price>
-          <price role="student">0.00</price>
-        </meal>
-      </category>
-      <category name="Mensa Vital">
-        <meal>
-          <name>Vegan: Bohnen-Zucchini-Chili mit Vollkornreis</name>
-          <note>jodiertes Salz</note>
-          <note>mit Antioxidationsmittel</note>
           <price role="employee">0.00</price>
           <price role="other">0.00</price>
           <price role="student">0.00</price>
@@ -754,6 +671,14 @@
           <price role="student">0.80</price>
         </meal>
         <meal>
+          <name>Vegan: Kartoffelpüree</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>geschwefelt</note>
+          <price role="employee">1.20</price>
+          <price role="other">1.60</price>
+          <price role="student">0.80</price>
+        </meal>
+        <meal>
           <name>Reis</name>
           <note>jodiertes Salz</note>
           <price role="employee">1.20</price>
@@ -761,8 +686,8 @@
           <price role="student">0.80</price>
         </meal>
         <meal>
-          <name>Bratkartoffeln</name>
-          <note>jodiertes Salz</note>
+          <name>Schupfnudeln</name>
+          <note>Glutenhaltiges Getreide</note>
           <price role="employee">1.50</price>
           <price role="other">1.90</price>
           <price role="student">1.10</price>
