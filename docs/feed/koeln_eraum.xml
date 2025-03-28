@@ -2,5 +2,39 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/basic.css" type="text/css"?>
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
-  <canteen/>
+  <canteen>
+    <day date="2025-03-28">
+      <category name="Essen 6">
+        <meal>
+          <name>Chicken-Dog Hot Dog Brötchen, Piccata Schnitzel, Salat, Remoulade</name>
+          <note>Laktose</note>
+          <note>Milch</note>
+          <note>Weizen</note>
+          <price role="employee">3.85</price>
+          <price role="other">6.15</price>
+          <price role="student">3.50</price>
+        </meal>
+      </category>
+      <category name="Essen 1">
+        <meal>
+          <name>VEGAN: Vegan -Hot Dog Hot Dog Brötchen, veganes Schnitzel, Salat, veganer Dip</name>
+          <note>Weizen</note>
+          <price role="employee">3.30</price>
+          <price role="other">5.30</price>
+          <price role="student">3.00</price>
+        </meal>
+      </category>
+      <category name="Essen 3">
+        <meal>
+          <name>Fisch Sandwich Seelachsfilet, Salat, Remoulade, Tomate</name>
+          <note>Fisch</note>
+          <note>Laktose</note>
+          <note>Weizen</note>
+          <price role="employee">3.85</price>
+          <price role="other">6.15</price>
+          <price role="student">3.50</price>
+        </meal>
+      </category>
+    </day>
+  </canteen>
 </openmensa>
