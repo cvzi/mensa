@@ -2,5 +2,49 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/basic.css" type="text/css"?>
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
-  <canteen/>
+  <canteen>
+    <day date="2025-03-31">
+      <category name="Essen 1">
+        <meal>
+          <name>Pizza Margherita Tomate, Käse</name>
+          <note>Laktose</note>
+          <note>Milch</note>
+          <note>Soja</note>
+          <note>Weizen</note>
+          <price role="employee">2.65</price>
+          <price role="other">4.25</price>
+          <price role="student">2.40</price>
+        </meal>
+      </category>
+      <category name="Essen 2">
+        <meal>
+          <name>VEGAN: Pizza Tomate &amp; Rucola Tomatensauce, Rucola, Tomaten</name>
+          <note>Weizen</note>
+          <price role="employee">2.65</price>
+          <price role="other">4.25</price>
+          <price role="student">2.40</price>
+        </meal>
+      </category>
+      <category name="Essen 3">
+        <meal>
+          <name>Pizza Geflügelsalami Tomatensauce, Geflügelsalami, Käse, Oregano</name>
+          <note>Laktose</note>
+          <note>Milch</note>
+          <note>Weizen</note>
+          <price role="employee">2.65</price>
+          <price role="other">4.25</price>
+          <price role="student">2.40</price>
+        </meal>
+      </category>
+      <category name="Essen 4">
+        <meal>
+          <name>VEGAN: Bruschetta Ciabatta, Olivenöl, Knoblauch, Zwiebel, Tomate, Basilikum</name>
+          <note>Weizen</note>
+          <price role="employee">3.00</price>
+          <price role="other">4.75</price>
+          <price role="student">2.70</price>
+        </meal>
+      </category>
+    </day>
+  </canteen>
 </openmensa>
