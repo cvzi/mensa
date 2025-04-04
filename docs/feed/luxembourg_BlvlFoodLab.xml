@@ -3,26 +3,33 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2025-03-24">
+    <day date="2025-03-31">
       <category name="Entrée (11:00 - 16:00)">
         <meal>
-          <name>Salade de lentilles, feta et oignons fanes</name>
-          <note>Céleri et produits à base de céleri</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Produit sans gluten</note>
+          <name>Onion rings, crème aigre</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
         <meal>
-          <name>Soupe aux oignons</name>
+          <name>Potage de potiron</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
           <note>Céleri et produits à base de céleri</note>
           <note>Produit sans gluten</note>
           <note>produit constant</note>
-          <note>végan</note>
+          <note>végétarien</note>
         </meal>
       </category>
       <category name="Végétarien (11:00 - 16:00)">
+        <meal>
+          <name>Dahl aux lentilles, épinards et lait de coco</name>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Produit sans gluten</note>
+          <note>Soja et produits à base de soja</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
         <meal>
           <name>Pizza Margherita</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
@@ -30,7 +37,27 @@
           <note>produit constant</note>
         </meal>
         <meal>
-          <name>Tacos aux lentilles, carottes et champignons, dip au yaourt grec épicé</name>
+          <name>Wok au tempeh mariné, carotte, chou vert, oignon fane et riz</name>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Soja et produits à base de soja</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Végan (11:00 - 16:00)">
+        <meal>
+          <name>Dahl aux lentilles, épinards et lait de coco</name>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Produit sans gluten</note>
+          <note>Soja et produits à base de soja</note>
+          <note>produit constant</note>
+          <note>végan</note>
+        </meal>
+      </category>
+      <category name="Pasta (11:00 - 16:00)">
+        <meal>
+          <name>Penne à la sauce tomate et billes de mozzarella</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
           <note>Céleri et produits à base de céleri</note>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
@@ -38,31 +65,12 @@
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Végan (11:00 - 16:00)">
-        <meal>
-          <name>Tacos aux lentilles, carottes et champignons, sauce aïoli</name>
-          <note>Céleri et produits à base de céleri</note>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
-          <note>produit constant</note>
-          <note>végan</note>
-        </meal>
-      </category>
-      <category name="Pasta (11:00 - 16:00)">
-        <meal>
-          <name>Linguine au poulet et brocolis, sauce crémeuse</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
-          <note>Céleri et produits à base de céleri</note>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Épeautre)</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>non-végétarien</note>
-          <note>produit constant</note>
-        </meal>
-      </category>
       <category name="Non-végétarien (11:00 - 16:00)">
         <meal>
-          <name>Gyros de boeuf mariné, sauce Pita</name>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Produit sans gluten</note>
+          <name>Chili con carne</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
           <note>non-végétarien</note>
           <note>produit constant</note>
         </meal>
@@ -73,14 +81,7 @@
           <note>produit constant</note>
         </meal>
         <meal>
-          <name>Wok de boeuf aux champignons, épinards et nouilles</name>
-          <note>Céleri et produits à base de céleri</note>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
-          <note>non-végétarien</note>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Entrecôte de boeuf, beurre à l'ail des ours</name>
+          <name>Mixed grill de poulet, sauce yaourt aux herbes</name>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
           <note>non-végétarien</note>
@@ -89,16 +90,8 @@
       </category>
       <category name="Légumes (11:00 - 16:00)">
         <meal>
-          <name>Gratin de chou-fleur</name>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <name>Carottes aux échalotes</name>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-        <meal>
-          <name>Salade Coleslaw</name>
-          <note>Moutarde et produits à base de moutarde</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
           <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
@@ -111,8 +104,8 @@
           <note>végétarien</note>
         </meal>
         <meal>
-          <name>Pommes de terre persillées</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <name>Riz aux petits légumes</name>
+          <note>Céleri et produits à base de céleri</note>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
           <note>produit constant</note>
@@ -121,10 +114,10 @@
       </category>
       <category name="Dessert (11:00 - 16:00)">
         <meal>
-          <name>Mousse au caramel beurre salé</name>
+          <name>Tarte feuilletée aux pommes, crème pâtissière</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Oeufs et produits à base d‘oeufs</note>
-          <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
@@ -148,6 +141,15 @@
           <note>Orge</note>
           <note>produit constant</note>
           <note>végétarien</note>
+          <note>Épeautre)</note>
+        </meal>
+        <meal>
+          <name>½ Levain Parmigiana Sandwich</name>
+          <note>(01 avril - 30 juin)</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Orge</note>
+          <note>produit constant</note>
           <note>Épeautre)</note>
         </meal>
         <meal>
@@ -427,6 +429,14 @@
         <meal>
           <name>Mini fromage frais avec coulis de fruits de saison 150 g</name>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Mini muesli maison &quot;Fresh Spring&quot; 150 g</name>
+          <note>(01 avril - 31 mai)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
@@ -792,23 +802,30 @@
       </category>
       <category name="Entrée (16:00 - 23:59)">
         <meal>
-          <name>Salade de lentilles, feta et oignons fanes</name>
-          <note>Céleri et produits à base de céleri</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Produit sans gluten</note>
+          <name>Onion rings, crème aigre</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
         <meal>
-          <name>Soupe aux oignons</name>
+          <name>Potage de potiron</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
           <note>Céleri et produits à base de céleri</note>
           <note>Produit sans gluten</note>
           <note>produit constant</note>
-          <note>végan</note>
+          <note>végétarien</note>
         </meal>
       </category>
       <category name="Végétarien (16:00 - 23:59)">
+        <meal>
+          <name>Dahl aux lentilles, épinards et lait de coco</name>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Produit sans gluten</note>
+          <note>Soja et produits à base de soja</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
         <meal>
           <name>Pizza Margherita</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
@@ -816,7 +833,27 @@
           <note>produit constant</note>
         </meal>
         <meal>
-          <name>Tacos aux lentilles, carottes et champignons, dip au yaourt grec épicé</name>
+          <name>Wok au tempeh mariné, carotte, chou vert, oignon fane et riz</name>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Soja et produits à base de soja</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Végan (16:00 - 23:59)">
+        <meal>
+          <name>Dahl aux lentilles, épinards et lait de coco</name>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Produit sans gluten</note>
+          <note>Soja et produits à base de soja</note>
+          <note>produit constant</note>
+          <note>végan</note>
+        </meal>
+      </category>
+      <category name="Pasta (16:00 - 23:59)">
+        <meal>
+          <name>Penne à la sauce tomate et billes de mozzarella</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
           <note>Céleri et produits à base de céleri</note>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
@@ -824,31 +861,12 @@
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Végan (16:00 - 23:59)">
-        <meal>
-          <name>Tacos aux lentilles, carottes et champignons, sauce aïoli</name>
-          <note>Céleri et produits à base de céleri</note>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
-          <note>produit constant</note>
-          <note>végan</note>
-        </meal>
-      </category>
-      <category name="Pasta (16:00 - 23:59)">
-        <meal>
-          <name>Linguine au poulet et brocolis, sauce crémeuse</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
-          <note>Céleri et produits à base de céleri</note>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Épeautre)</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>non-végétarien</note>
-          <note>produit constant</note>
-        </meal>
-      </category>
       <category name="Non-végétarien (16:00 - 23:59)">
         <meal>
-          <name>Gyros de boeuf mariné, sauce Pita</name>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Produit sans gluten</note>
+          <name>Chili con carne</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
           <note>non-végétarien</note>
           <note>produit constant</note>
         </meal>
@@ -859,14 +877,7 @@
           <note>produit constant</note>
         </meal>
         <meal>
-          <name>Wok de boeuf aux champignons, épinards et nouilles</name>
-          <note>Céleri et produits à base de céleri</note>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
-          <note>non-végétarien</note>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Entrecôte de boeuf, beurre à l'ail des ours</name>
+          <name>Mixed grill de poulet, sauce yaourt aux herbes</name>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
           <note>non-végétarien</note>
@@ -875,16 +886,8 @@
       </category>
       <category name="Légumes (16:00 - 23:59)">
         <meal>
-          <name>Gratin de chou-fleur</name>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <name>Carottes aux échalotes</name>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-        <meal>
-          <name>Salade Coleslaw</name>
-          <note>Moutarde et produits à base de moutarde</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
           <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
@@ -897,8 +900,8 @@
           <note>végétarien</note>
         </meal>
         <meal>
-          <name>Pommes de terre persillées</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <name>Riz aux petits légumes</name>
+          <note>Céleri et produits à base de céleri</note>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
           <note>produit constant</note>
@@ -907,10 +910,10 @@
       </category>
       <category name="Dessert (16:00 - 23:59)">
         <meal>
-          <name>Mousse au caramel beurre salé</name>
+          <name>Tarte feuilletée aux pommes, crème pâtissière</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Oeufs et produits à base d‘oeufs</note>
-          <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
@@ -934,6 +937,15 @@
           <note>Orge</note>
           <note>produit constant</note>
           <note>végétarien</note>
+          <note>Épeautre)</note>
+        </meal>
+        <meal>
+          <name>½ Levain Parmigiana Sandwich</name>
+          <note>(01 avril - 30 juin)</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Orge</note>
+          <note>produit constant</note>
           <note>Épeautre)</note>
         </meal>
         <meal>
@@ -1213,6 +1225,14 @@
         <meal>
           <name>Mini fromage frais avec coulis de fruits de saison 150 g</name>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Mini muesli maison &quot;Fresh Spring&quot; 150 g</name>
+          <note>(01 avril - 31 mai)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
@@ -1577,14 +1597,12 @@
         </meal>
       </category>
     </day>
-    <day date="2025-03-25">
+    <day date="2025-04-01">
       <category name="Entrée (11:00 - 16:00)">
         <meal>
-          <name>Crème de chou-fleur au curry</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <name>Potage aux carottes</name>
           <note>Céleri et produits à base de céleri</note>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Moutarde et produits à base de moutarde</note>
           <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
@@ -1596,7 +1614,7 @@
       </category>
       <category name="Végétarien (11:00 - 16:00)">
         <meal>
-          <name>Paëlla végétarienne au tempeh</name>
+          <name>Beignets au tofu, salsa maison</name>
           <note>Céleri et produits à base de céleri</note>
           <note>Produit sans gluten</note>
           <note>Soja et produits à base de soja</note>
@@ -1618,7 +1636,7 @@
       </category>
       <category name="Végan (11:00 - 16:00)">
         <meal>
-          <name>Paëlla végétarienne au tempeh</name>
+          <name>Beignets au tofu, salsa maison</name>
           <note>Céleri et produits à base de céleri</note>
           <note>Produit sans gluten</note>
           <note>Soja et produits à base de soja</note>
@@ -1628,15 +1646,20 @@
       </category>
       <category name="Pasta (11:00 - 16:00)">
         <meal>
-          <name>Coquillette tomate mozzarella</name>
-          <note>Céleri et produits à base de céleri</note>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <name>Raviolis aux légumes, sauce tomate</name>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Non-végétarien (11:00 - 16:00)">
+        <meal>
+          <name>Chicken Burger, sauce yaourt à l'ail</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Graines de sésame et produits à base de graines de sésame</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
+        </meal>
         <meal>
           <name>Kebab maison, sauce Tzatziki</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
@@ -1646,16 +1669,7 @@
           <note>produit constant</note>
         </meal>
         <meal>
-          <name>Quenelles de farine aux lardons et à la crème</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
-          <note>Céleri et produits à base de céleri</note>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>non-végétarien</note>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Entrecôte de boeuf, beurre à l'ail des ours</name>
+          <name>Mixed grill de poulet, sauce yaourt aux herbes</name>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
           <note>non-végétarien</note>
@@ -1664,9 +1678,8 @@
       </category>
       <category name="Légumes (11:00 - 16:00)">
         <meal>
-          <name>Flan de carottes</name>
+          <name>Champignons à l'ail</name>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
           <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
@@ -1679,7 +1692,7 @@
           <note>végétarien</note>
         </meal>
         <meal>
-          <name>Purée de pommes de terre</name>
+          <name>Pommes de terre sautées</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
@@ -1689,10 +1702,9 @@
       </category>
       <category name="Dessert (11:00 - 16:00)">
         <meal>
-          <name>Crème brûlée à l'orange</name>
+          <name>Duo de mousse au chocolat</name>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
-          <note>Produit sans gluten</note>
+          <note>produit Fairtrade</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
@@ -1716,6 +1728,15 @@
           <note>Orge</note>
           <note>produit constant</note>
           <note>végétarien</note>
+          <note>Épeautre)</note>
+        </meal>
+        <meal>
+          <name>½ Levain Parmigiana Sandwich</name>
+          <note>(01 avril - 30 juin)</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Orge</note>
+          <note>produit constant</note>
           <note>Épeautre)</note>
         </meal>
         <meal>
@@ -1995,6 +2016,14 @@
         <meal>
           <name>Mini fromage frais avec coulis de fruits de saison 150 g</name>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Mini muesli maison &quot;Fresh Spring&quot; 150 g</name>
+          <note>(01 avril - 31 mai)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
@@ -2360,11 +2389,9 @@
       </category>
       <category name="Entrée (16:00 - 23:59)">
         <meal>
-          <name>Crème de chou-fleur au curry</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <name>Potage aux carottes</name>
           <note>Céleri et produits à base de céleri</note>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Moutarde et produits à base de moutarde</note>
           <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
@@ -2376,7 +2403,7 @@
       </category>
       <category name="Végétarien (16:00 - 23:59)">
         <meal>
-          <name>Paëlla végétarienne au tempeh</name>
+          <name>Beignets au tofu, salsa maison</name>
           <note>Céleri et produits à base de céleri</note>
           <note>Produit sans gluten</note>
           <note>Soja et produits à base de soja</note>
@@ -2398,7 +2425,7 @@
       </category>
       <category name="Végan (16:00 - 23:59)">
         <meal>
-          <name>Paëlla végétarienne au tempeh</name>
+          <name>Beignets au tofu, salsa maison</name>
           <note>Céleri et produits à base de céleri</note>
           <note>Produit sans gluten</note>
           <note>Soja et produits à base de soja</note>
@@ -2408,15 +2435,20 @@
       </category>
       <category name="Pasta (16:00 - 23:59)">
         <meal>
-          <name>Coquillette tomate mozzarella</name>
-          <note>Céleri et produits à base de céleri</note>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <name>Raviolis aux légumes, sauce tomate</name>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Non-végétarien (16:00 - 23:59)">
+        <meal>
+          <name>Chicken Burger, sauce yaourt à l'ail</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Graines de sésame et produits à base de graines de sésame</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
+        </meal>
         <meal>
           <name>Kebab maison, sauce Tzatziki</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
@@ -2426,16 +2458,7 @@
           <note>produit constant</note>
         </meal>
         <meal>
-          <name>Quenelles de farine aux lardons et à la crème</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
-          <note>Céleri et produits à base de céleri</note>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>non-végétarien</note>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Entrecôte de boeuf, beurre à l'ail des ours</name>
+          <name>Mixed grill de poulet, sauce yaourt aux herbes</name>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
           <note>non-végétarien</note>
@@ -2444,9 +2467,8 @@
       </category>
       <category name="Légumes (16:00 - 23:59)">
         <meal>
-          <name>Flan de carottes</name>
+          <name>Champignons à l'ail</name>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
           <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
@@ -2459,7 +2481,7 @@
           <note>végétarien</note>
         </meal>
         <meal>
-          <name>Purée de pommes de terre</name>
+          <name>Pommes de terre sautées</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
@@ -2469,10 +2491,9 @@
       </category>
       <category name="Dessert (16:00 - 23:59)">
         <meal>
-          <name>Crème brûlée à l'orange</name>
+          <name>Duo de mousse au chocolat</name>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
-          <note>Produit sans gluten</note>
+          <note>produit Fairtrade</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
@@ -2496,6 +2517,15 @@
           <note>Orge</note>
           <note>produit constant</note>
           <note>végétarien</note>
+          <note>Épeautre)</note>
+        </meal>
+        <meal>
+          <name>½ Levain Parmigiana Sandwich</name>
+          <note>(01 avril - 30 juin)</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Orge</note>
+          <note>produit constant</note>
           <note>Épeautre)</note>
         </meal>
         <meal>
@@ -2775,6 +2805,14 @@
         <meal>
           <name>Mini fromage frais avec coulis de fruits de saison 150 g</name>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Mini muesli maison &quot;Fresh Spring&quot; 150 g</name>
+          <note>(01 avril - 31 mai)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
@@ -3139,19 +3177,18 @@
         </meal>
       </category>
     </day>
-    <day date="2025-03-26">
+    <day date="2025-04-02">
       <category name="Entrée (11:00 - 16:00)">
         <meal>
-          <name>Carré de quiche aux poireaux</name>
+          <name>Bricks croustillants au chèvre et noix</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Fruits à coque et produits à base de ces fruits (Noix)</note>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
         <meal>
-          <name>Potage de carottes et gingembre</name>
-          <note>Céleri et produits à base de céleri</note>
+          <name>Crème aux champignons des bois</name>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
           <note>produit constant</note>
@@ -3160,27 +3197,25 @@
       </category>
       <category name="Végétarien (11:00 - 16:00)">
         <meal>
-          <name>Parmentier végétal, carottes et sauce tomate</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
-          <note>Céleri et produits à base de céleri</note>
-          <note>Produit sans gluten</note>
-          <note>Soja et produits à base de soja</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-        <meal>
           <name>Pizza Margherita</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>produit constant</note>
         </meal>
+        <meal>
+          <name>Seitan sauté aux carottes, brocolis et champignons</name>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Soja et produits à base de soja</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
       </category>
       <category name="Végan (11:00 - 16:00)">
         <meal>
-          <name>Parmentier végétal, carottes et sauce tomate</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <name>Seitan sauté aux carottes, brocolis et champignons</name>
           <note>Céleri et produits à base de céleri</note>
-          <note>Produit sans gluten</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
           <note>Soja et produits à base de soja</note>
           <note>produit constant</note>
           <note>végan</note>
@@ -3188,12 +3223,11 @@
       </category>
       <category name="Pasta (11:00 - 16:00)">
         <meal>
-          <name>Penne aux trois fromages</name>
-          <note>Céleri et produits à base de céleri</note>
+          <name>Gratin de macaroni au jambon cuit et crème fraîche</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>non-végétarien</note>
           <note>produit constant</note>
-          <note>végétarien</note>
         </meal>
       </category>
       <category name="Non-végétarien (11:00 - 16:00)">
@@ -3204,25 +3238,24 @@
           <note>produit constant</note>
         </meal>
         <meal>
-          <name>Roulade de boeuf braisée au four, jus brun</name>
+          <name>Waterzooï de poisson</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
           <note>Céleri et produits à base de céleri</note>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Poissons et produits à base de poissons</note>
           <note>Produit sans gluten</note>
           <note>non-végétarien</note>
           <note>produit constant</note>
         </meal>
         <meal>
-          <name>Wok de porc, champignons, carottes, haricots verts et nouilles</name>
+          <name>Wok de boeuf, carotte, chou romanesco et riz</name>
           <note>Céleri et produits à base de céleri</note>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
           <note>Soja et produits à base de soja</note>
+          <note>non-végétarien</note>
           <note>produit constant</note>
-          <note>végétarien</note>
         </meal>
         <meal>
-          <name>Entrecôte de boeuf, beurre à l'ail des ours</name>
+          <name>Mixed grill de poulet, sauce yaourt aux herbes</name>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
           <note>non-végétarien</note>
@@ -3231,11 +3264,11 @@
       </category>
       <category name="Légumes (11:00 - 16:00)">
         <meal>
-          <name>Chou rouge</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <name>Etuvée de poireaux</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
           <note>produit constant</note>
-          <note>végan</note>
+          <note>végétarien</note>
         </meal>
       </category>
       <category name="Féculents (11:00 - 16:00)">
@@ -3245,27 +3278,18 @@
           <note>végétarien</note>
         </meal>
         <meal>
-          <name>Penne à l'épeautre</name>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Épeautre)</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-        <meal>
-          <name>Polenta crémeuse</name>
-          <note>Céleri et produits à base de céleri</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <name>Pommes de terre vapeur</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
           <note>Produit sans gluten</note>
+          <note>biologique</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Dessert (11:00 - 16:00)">
         <meal>
-          <name>Tarte au chocolat végane</name>
-          <note>Avoine)</note>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
-          <note>Soja et produits à base de soja</note>
-          <note>produit Fairtrade</note>
+          <name>Panna cotta au lait de coco, coulis de cerises</name>
+          <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végan</note>
         </meal>
@@ -3289,6 +3313,15 @@
           <note>Orge</note>
           <note>produit constant</note>
           <note>végétarien</note>
+          <note>Épeautre)</note>
+        </meal>
+        <meal>
+          <name>½ Levain Parmigiana Sandwich</name>
+          <note>(01 avril - 30 juin)</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Orge</note>
+          <note>produit constant</note>
           <note>Épeautre)</note>
         </meal>
         <meal>
@@ -3568,6 +3601,14 @@
         <meal>
           <name>Mini fromage frais avec coulis de fruits de saison 150 g</name>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Mini muesli maison &quot;Fresh Spring&quot; 150 g</name>
+          <note>(01 avril - 31 mai)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
@@ -3933,16 +3974,15 @@
       </category>
       <category name="Entrée (16:00 - 23:59)">
         <meal>
-          <name>Carré de quiche aux poireaux</name>
+          <name>Bricks croustillants au chèvre et noix</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Fruits à coque et produits à base de ces fruits (Noix)</note>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
         <meal>
-          <name>Potage de carottes et gingembre</name>
-          <note>Céleri et produits à base de céleri</note>
+          <name>Crème aux champignons des bois</name>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
           <note>produit constant</note>
@@ -3951,27 +3991,25 @@
       </category>
       <category name="Végétarien (16:00 - 23:59)">
         <meal>
-          <name>Parmentier végétal, carottes et sauce tomate</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
-          <note>Céleri et produits à base de céleri</note>
-          <note>Produit sans gluten</note>
-          <note>Soja et produits à base de soja</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-        <meal>
           <name>Pizza Margherita</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>produit constant</note>
         </meal>
+        <meal>
+          <name>Seitan sauté aux carottes, brocolis et champignons</name>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Soja et produits à base de soja</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
       </category>
       <category name="Végan (16:00 - 23:59)">
         <meal>
-          <name>Parmentier végétal, carottes et sauce tomate</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <name>Seitan sauté aux carottes, brocolis et champignons</name>
           <note>Céleri et produits à base de céleri</note>
-          <note>Produit sans gluten</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
           <note>Soja et produits à base de soja</note>
           <note>produit constant</note>
           <note>végan</note>
@@ -3979,12 +4017,11 @@
       </category>
       <category name="Pasta (16:00 - 23:59)">
         <meal>
-          <name>Penne aux trois fromages</name>
-          <note>Céleri et produits à base de céleri</note>
+          <name>Gratin de macaroni au jambon cuit et crème fraîche</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>non-végétarien</note>
           <note>produit constant</note>
-          <note>végétarien</note>
         </meal>
       </category>
       <category name="Non-végétarien (16:00 - 23:59)">
@@ -3995,25 +4032,24 @@
           <note>produit constant</note>
         </meal>
         <meal>
-          <name>Roulade de boeuf braisée au four, jus brun</name>
+          <name>Waterzooï de poisson</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
           <note>Céleri et produits à base de céleri</note>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Poissons et produits à base de poissons</note>
           <note>Produit sans gluten</note>
           <note>non-végétarien</note>
           <note>produit constant</note>
         </meal>
         <meal>
-          <name>Wok de porc, champignons, carottes, haricots verts et nouilles</name>
+          <name>Wok de boeuf, carotte, chou romanesco et riz</name>
           <note>Céleri et produits à base de céleri</note>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
           <note>Soja et produits à base de soja</note>
+          <note>non-végétarien</note>
           <note>produit constant</note>
-          <note>végétarien</note>
         </meal>
         <meal>
-          <name>Entrecôte de boeuf, beurre à l'ail des ours</name>
+          <name>Mixed grill de poulet, sauce yaourt aux herbes</name>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
           <note>non-végétarien</note>
@@ -4022,11 +4058,11 @@
       </category>
       <category name="Légumes (16:00 - 23:59)">
         <meal>
-          <name>Chou rouge</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <name>Etuvée de poireaux</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
           <note>produit constant</note>
-          <note>végan</note>
+          <note>végétarien</note>
         </meal>
       </category>
       <category name="Féculents (16:00 - 23:59)">
@@ -4036,27 +4072,18 @@
           <note>végétarien</note>
         </meal>
         <meal>
-          <name>Penne à l'épeautre</name>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Épeautre)</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-        <meal>
-          <name>Polenta crémeuse</name>
-          <note>Céleri et produits à base de céleri</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <name>Pommes de terre vapeur</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
           <note>Produit sans gluten</note>
+          <note>biologique</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Dessert (16:00 - 23:59)">
         <meal>
-          <name>Tarte au chocolat végane</name>
-          <note>Avoine)</note>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
-          <note>Soja et produits à base de soja</note>
-          <note>produit Fairtrade</note>
+          <name>Panna cotta au lait de coco, coulis de cerises</name>
+          <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végan</note>
         </meal>
@@ -4080,6 +4107,15 @@
           <note>Orge</note>
           <note>produit constant</note>
           <note>végétarien</note>
+          <note>Épeautre)</note>
+        </meal>
+        <meal>
+          <name>½ Levain Parmigiana Sandwich</name>
+          <note>(01 avril - 30 juin)</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Orge</note>
+          <note>produit constant</note>
           <note>Épeautre)</note>
         </meal>
         <meal>
@@ -4359,6 +4395,14 @@
         <meal>
           <name>Mini fromage frais avec coulis de fruits de saison 150 g</name>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Mini muesli maison &quot;Fresh Spring&quot; 150 g</name>
+          <note>(01 avril - 31 mai)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
@@ -4723,12 +4767,12 @@
         </meal>
       </category>
     </day>
-    <day date="2025-03-27">
+    <day date="2025-04-03">
       <category name="Entrée (11:00 - 16:00)">
         <meal>
-          <name>Potage aux légumes</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <name>Potage aux poireaux</name>
           <note>Céleri et produits à base de céleri</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
@@ -4749,6 +4793,16 @@
           <note>produit constant</note>
         </meal>
         <meal>
+          <name>Mezzés variés, couscous, falafel, flaguette, dip yaourt</name>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Orge)</note>
+          <note>Seigle</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
           <name>Pizza au choix végétarien</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
@@ -4760,28 +4814,22 @@
           <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>produit constant</note>
         </meal>
-        <meal>
-          <name>Tajine aux pois chiches et butternut</name>
-          <note>Céleri et produits à base de céleri</note>
-          <note>Produit sans gluten</note>
-          <note>Soja et produits à base de soja</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
       </category>
       <category name="Végan (11:00 - 16:00)">
         <meal>
-          <name>Tajine aux pois chiches et butternut</name>
+          <name>Mezzés variés, couscous, falafels, sauce aïoli</name>
           <note>Céleri et produits à base de céleri</note>
-          <note>Produit sans gluten</note>
-          <note>Soja et produits à base de soja</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Orge)</note>
+          <note>Seigle</note>
           <note>produit constant</note>
           <note>végan</note>
         </meal>
       </category>
       <category name="Pasta (11:00 - 16:00)">
         <meal>
-          <name>Spätzle aux lardons, fromage et oignons</name>
+          <name>Spaghetti bolognaise au jeune bovin</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
           <note>Céleri et produits à base de céleri</note>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
@@ -4792,15 +4840,15 @@
       </category>
       <category name="Non-végétarien (11:00 - 16:00)">
         <meal>
-          <name>Poitrine de veau farcie, jus corsé</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <name>Boulettes pur boeuf, sauce tomate</name>
           <note>Céleri et produits à base de céleri</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
           <note>non-végétarien</note>
           <note>produit constant</note>
         </meal>
         <meal>
-          <name>Entrecôte de boeuf, beurre à l'ail des ours</name>
+          <name>Mixed grill de poulet, sauce yaourt aux herbes</name>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
           <note>non-végétarien</note>
@@ -4809,9 +4857,9 @@
       </category>
       <category name="Légumes (11:00 - 16:00)">
         <meal>
-          <name>Haricots verts persillés</name>
+          <name>Gratin de broccolis</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
@@ -4823,19 +4871,30 @@
           <note>végétarien</note>
         </meal>
         <meal>
-          <name>Quinoa au bouillon corsé</name>
+          <name>Polenta sticks</name>
           <note>Céleri et produits à base de céleri</note>
-          <note>Produit sans gluten</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Soja et produits à base de soja</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Tagliatelle à l'épeautre</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Épeautre)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Dessert (11:00 - 16:00)">
         <meal>
-          <name>Eclair vanille</name>
+          <name>Chou à la vanille, sauce chocolat</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Oeufs et produits à base d‘oeufs</note>
+          <note>produit Fairtrade</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
@@ -4859,6 +4918,15 @@
           <note>Orge</note>
           <note>produit constant</note>
           <note>végétarien</note>
+          <note>Épeautre)</note>
+        </meal>
+        <meal>
+          <name>½ Levain Parmigiana Sandwich</name>
+          <note>(01 avril - 30 juin)</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Orge</note>
+          <note>produit constant</note>
           <note>Épeautre)</note>
         </meal>
         <meal>
@@ -5138,6 +5206,14 @@
         <meal>
           <name>Mini fromage frais avec coulis de fruits de saison 150 g</name>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Mini muesli maison &quot;Fresh Spring&quot; 150 g</name>
+          <note>(01 avril - 31 mai)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
@@ -5503,9 +5579,9 @@
       </category>
       <category name="Entrée (16:00 - 23:59)">
         <meal>
-          <name>Potage aux légumes</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <name>Potage aux poireaux</name>
           <note>Céleri et produits à base de céleri</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
@@ -5526,6 +5602,16 @@
           <note>produit constant</note>
         </meal>
         <meal>
+          <name>Mezzés variés, couscous, falafel, flaguette, dip yaourt</name>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Orge)</note>
+          <note>Seigle</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
           <name>Pizza au choix végétarien</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
@@ -5537,28 +5623,22 @@
           <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>produit constant</note>
         </meal>
-        <meal>
-          <name>Tajine aux pois chiches et butternut</name>
-          <note>Céleri et produits à base de céleri</note>
-          <note>Produit sans gluten</note>
-          <note>Soja et produits à base de soja</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
       </category>
       <category name="Végan (16:00 - 23:59)">
         <meal>
-          <name>Tajine aux pois chiches et butternut</name>
+          <name>Mezzés variés, couscous, falafels, sauce aïoli</name>
           <note>Céleri et produits à base de céleri</note>
-          <note>Produit sans gluten</note>
-          <note>Soja et produits à base de soja</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Orge)</note>
+          <note>Seigle</note>
           <note>produit constant</note>
           <note>végan</note>
         </meal>
       </category>
       <category name="Pasta (16:00 - 23:59)">
         <meal>
-          <name>Spätzle aux lardons, fromage et oignons</name>
+          <name>Spaghetti bolognaise au jeune bovin</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
           <note>Céleri et produits à base de céleri</note>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
@@ -5569,15 +5649,15 @@
       </category>
       <category name="Non-végétarien (16:00 - 23:59)">
         <meal>
-          <name>Poitrine de veau farcie, jus corsé</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <name>Boulettes pur boeuf, sauce tomate</name>
           <note>Céleri et produits à base de céleri</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
           <note>non-végétarien</note>
           <note>produit constant</note>
         </meal>
         <meal>
-          <name>Entrecôte de boeuf, beurre à l'ail des ours</name>
+          <name>Mixed grill de poulet, sauce yaourt aux herbes</name>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
           <note>non-végétarien</note>
@@ -5586,9 +5666,9 @@
       </category>
       <category name="Légumes (16:00 - 23:59)">
         <meal>
-          <name>Haricots verts persillés</name>
+          <name>Gratin de broccolis</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
@@ -5600,19 +5680,30 @@
           <note>végétarien</note>
         </meal>
         <meal>
-          <name>Quinoa au bouillon corsé</name>
+          <name>Polenta sticks</name>
           <note>Céleri et produits à base de céleri</note>
-          <note>Produit sans gluten</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Soja et produits à base de soja</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Tagliatelle à l'épeautre</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Épeautre)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Dessert (16:00 - 23:59)">
         <meal>
-          <name>Eclair vanille</name>
+          <name>Chou à la vanille, sauce chocolat</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Oeufs et produits à base d‘oeufs</note>
+          <note>produit Fairtrade</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
@@ -5636,6 +5727,15 @@
           <note>Orge</note>
           <note>produit constant</note>
           <note>végétarien</note>
+          <note>Épeautre)</note>
+        </meal>
+        <meal>
+          <name>½ Levain Parmigiana Sandwich</name>
+          <note>(01 avril - 30 juin)</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Orge</note>
+          <note>produit constant</note>
           <note>Épeautre)</note>
         </meal>
         <meal>
@@ -5915,6 +6015,14 @@
         <meal>
           <name>Mini fromage frais avec coulis de fruits de saison 150 g</name>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Mini muesli maison &quot;Fresh Spring&quot; 150 g</name>
+          <note>(01 avril - 31 mai)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
@@ -6279,27 +6387,31 @@
         </meal>
       </category>
     </day>
-    <day date="2025-03-28">
+    <day date="2025-04-04">
       <category name="Entrée (11:00 - 16:00)">
         <meal>
-          <name>Nid au fromage de chèvre et épinards</name>
+          <name>Crème de brocolis</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
         <meal>
-          <name>Velouté de fèves rôties, crème épaisse</name>
-          <note>Produit sans gluten</note>
+          <name>Empanadas aux champignons, fromage Emmental et oignons fanes</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Végétarien (11:00 - 16:00)">
         <meal>
-          <name>Curry d’oeufs mollets au lait de coco</name>
+          <name>Bouchée au quorn</name>
           <note>Céleri et produits à base de céleri</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
           <note>Moutarde et produits à base de moutarde</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
-          <note>Produit sans gluten</note>
+          <note>Soja et produits à base de soja</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
@@ -6312,17 +6424,18 @@
       </category>
       <category name="Végan (11:00 - 16:00)">
         <meal>
-          <name>Croustillant de pois chiches et quinoa, crémeux végan de chou-fleur</name>
+          <name>Bouchée au tofu</name>
           <note>Céleri et produits à base de céleri</note>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Moutarde et produits à base de moutarde</note>
+          <note>Soja et produits à base de soja</note>
           <note>produit constant</note>
           <note>végan</note>
         </meal>
       </category>
       <category name="Pasta (11:00 - 16:00)">
         <meal>
-          <name>Rotolo ricotta et épinards</name>
-          <note>Céleri et produits à base de céleri</note>
+          <name>Fusilli à la ricotta et aux épinards en branches à l'ail</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>produit constant</note>
@@ -6331,9 +6444,10 @@
       </category>
       <category name="Non-végétarien (11:00 - 16:00)">
         <meal>
-          <name>Navarin d'agneau aux saveurs de Pâques</name>
+          <name>Cordon bleu de porc non pané, sauce crème champignons</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
           <note>Céleri et produits à base de céleri</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
           <note>non-végétarien</note>
           <note>produit constant</note>
@@ -6345,14 +6459,14 @@
           <note>produit constant</note>
         </meal>
         <meal>
-          <name>Wok au poulet, carotte, céleri, petits pois et nouilles</name>
+          <name>Wok de porc, champignons, brocolis et riz</name>
           <note>Céleri et produits à base de céleri</note>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Soja et produits à base de soja</note>
           <note>non-végétarien</note>
           <note>produit constant</note>
         </meal>
         <meal>
-          <name>Entrecôte de boeuf, beurre à l'ail des ours</name>
+          <name>Mixed grill de poulet, sauce yaourt aux herbes</name>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
           <note>non-végétarien</note>
@@ -6361,7 +6475,8 @@
       </category>
       <category name="Légumes (11:00 - 16:00)">
         <meal>
-          <name>Duo de flan aux blettes et carottes</name>
+          <name>Haricots verts aux oignons</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
@@ -6369,20 +6484,24 @@
       </category>
       <category name="Féculents (11:00 - 16:00)">
         <meal>
-          <name>Ecrasé de pommes de terre au beurre et à la ciboulette</name>
-          <note>Produit sans gluten</note>
+          <name>Fritten - Pommes frites</name>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
         <meal>
-          <name>Fritten - Pommes frites</name>
+          <name>Quinoa à la ciboulette</name>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Dessert (11:00 - 16:00)">
         <meal>
-          <name>Nid de Pâques au chocolat façon charlotte</name>
+          <name>Flan au caramel</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
@@ -6406,6 +6525,15 @@
           <note>Orge</note>
           <note>produit constant</note>
           <note>végétarien</note>
+          <note>Épeautre)</note>
+        </meal>
+        <meal>
+          <name>½ Levain Parmigiana Sandwich</name>
+          <note>(01 avril - 30 juin)</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Orge</note>
+          <note>produit constant</note>
           <note>Épeautre)</note>
         </meal>
         <meal>
@@ -6685,6 +6813,14 @@
         <meal>
           <name>Mini fromage frais avec coulis de fruits de saison 150 g</name>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Mini muesli maison &quot;Fresh Spring&quot; 150 g</name>
+          <note>(01 avril - 31 mai)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
@@ -7050,24 +7186,28 @@
       </category>
       <category name="Entrée (16:00 - 23:59)">
         <meal>
-          <name>Nid au fromage de chèvre et épinards</name>
+          <name>Crème de brocolis</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
         <meal>
-          <name>Velouté de fèves rôties, crème épaisse</name>
-          <note>Produit sans gluten</note>
+          <name>Empanadas aux champignons, fromage Emmental et oignons fanes</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Végétarien (16:00 - 23:59)">
         <meal>
-          <name>Curry d’oeufs mollets au lait de coco</name>
+          <name>Bouchée au quorn</name>
           <note>Céleri et produits à base de céleri</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
           <note>Moutarde et produits à base de moutarde</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
-          <note>Produit sans gluten</note>
+          <note>Soja et produits à base de soja</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
@@ -7080,17 +7220,18 @@
       </category>
       <category name="Végan (16:00 - 23:59)">
         <meal>
-          <name>Croustillant de pois chiches et quinoa, crémeux végan de chou-fleur</name>
+          <name>Bouchée au tofu</name>
           <note>Céleri et produits à base de céleri</note>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Moutarde et produits à base de moutarde</note>
+          <note>Soja et produits à base de soja</note>
           <note>produit constant</note>
           <note>végan</note>
         </meal>
       </category>
       <category name="Pasta (16:00 - 23:59)">
         <meal>
-          <name>Rotolo ricotta et épinards</name>
-          <note>Céleri et produits à base de céleri</note>
+          <name>Fusilli à la ricotta et aux épinards en branches à l'ail</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>produit constant</note>
@@ -7099,9 +7240,10 @@
       </category>
       <category name="Non-végétarien (16:00 - 23:59)">
         <meal>
-          <name>Navarin d'agneau aux saveurs de Pâques</name>
+          <name>Cordon bleu de porc non pané, sauce crème champignons</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
           <note>Céleri et produits à base de céleri</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
           <note>non-végétarien</note>
           <note>produit constant</note>
@@ -7113,14 +7255,14 @@
           <note>produit constant</note>
         </meal>
         <meal>
-          <name>Wok au poulet, carotte, céleri, petits pois et nouilles</name>
+          <name>Wok de porc, champignons, brocolis et riz</name>
           <note>Céleri et produits à base de céleri</note>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Soja et produits à base de soja</note>
           <note>non-végétarien</note>
           <note>produit constant</note>
         </meal>
         <meal>
-          <name>Entrecôte de boeuf, beurre à l'ail des ours</name>
+          <name>Mixed grill de poulet, sauce yaourt aux herbes</name>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
           <note>non-végétarien</note>
@@ -7129,7 +7271,8 @@
       </category>
       <category name="Légumes (16:00 - 23:59)">
         <meal>
-          <name>Duo de flan aux blettes et carottes</name>
+          <name>Haricots verts aux oignons</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
@@ -7137,20 +7280,24 @@
       </category>
       <category name="Féculents (16:00 - 23:59)">
         <meal>
-          <name>Ecrasé de pommes de terre au beurre et à la ciboulette</name>
-          <note>Produit sans gluten</note>
+          <name>Fritten - Pommes frites</name>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
         <meal>
-          <name>Fritten - Pommes frites</name>
+          <name>Quinoa à la ciboulette</name>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Dessert (16:00 - 23:59)">
         <meal>
-          <name>Nid de Pâques au chocolat façon charlotte</name>
+          <name>Flan au caramel</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
@@ -7174,6 +7321,15 @@
           <note>Orge</note>
           <note>produit constant</note>
           <note>végétarien</note>
+          <note>Épeautre)</note>
+        </meal>
+        <meal>
+          <name>½ Levain Parmigiana Sandwich</name>
+          <note>(01 avril - 30 juin)</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Orge</note>
+          <note>produit constant</note>
           <note>Épeautre)</note>
         </meal>
         <meal>
@@ -7453,6 +7609,14 @@
         <meal>
           <name>Mini fromage frais avec coulis de fruits de saison 150 g</name>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Mini muesli maison &quot;Fresh Spring&quot; 150 g</name>
+          <note>(01 avril - 31 mai)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
@@ -7817,15 +7981,11 @@
         </meal>
       </category>
     </day>
-    <day date="2025-03-29">
+    <day date="2025-04-05">
       <closed/>
     </day>
-    <day date="2025-03-30">
+    <day date="2025-04-06">
       <closed/>
     </day>
   </canteen>
 </openmensa>
-
-<!-- Theme day: Menu de Pâques [restaurant=150] -->
-
-<!-- Theme day: Menu de Pâques [restaurant=150] -->
