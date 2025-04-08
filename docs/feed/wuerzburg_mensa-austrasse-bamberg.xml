@@ -4,6 +4,40 @@
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
     <day date="2025-04-07">
+      <category name="Vegan">
+        <meal>
+          <name>Tomatensuppe</name>
+          <note>Sellerie</note>
+          <price role="employee">0.80</price>
+          <price role="other">0.85</price>
+          <price role="student">0.75</price>
+        </meal>
+        <meal>
+          <name>Süßkartoffel &quot;Hot Pot&quot; mit Gemüse und Erdnuss -Beilage extra-</name>
+          <note>Erdnüsse</note>
+          <note>Sellerie</note>
+          <price role="employee">4.45</price>
+          <price role="other">5.40</price>
+          <price role="student">3.10</price>
+        </meal>
+        <meal>
+          <name>Louisiana Gumbo</name>
+          <note>Erdnüsse</note>
+          <note>Weizen</note>
+          <note>glutenhaltiges Getreide</note>
+          <price role="employee">4.70</price>
+          <price role="other">5.65</price>
+          <price role="student">3.35</price>
+        </meal>
+        <meal>
+          <name>Vegane Gemüsemaultaschen an gebratenem Gemüse</name>
+          <note>Weizen</note>
+          <note>glutenhaltiges Getreide</note>
+          <price role="employee">5.50</price>
+          <price role="other">6.45</price>
+          <price role="student">4.10</price>
+        </meal>
+      </category>
       <category name="Schwein">
         <meal>
           <name>Köttbullar mit Rahmsoße</name>
@@ -24,42 +58,20 @@
           <price role="student">3.65</price>
         </meal>
       </category>
-      <category name="Vegan">
-        <meal>
-          <name>Louisiana Gumbo</name>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <price role="employee">4.70</price>
-          <price role="other">5.65</price>
-          <price role="student">3.35</price>
-        </meal>
-        <meal>
-          <name>Vegane Gemüsemaultaschen an gebratenem Gemüse</name>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <price role="employee">5.50</price>
-          <price role="other">6.45</price>
-          <price role="student">4.10</price>
-        </meal>
-      </category>
     </day>
     <day date="2025-04-08">
-      <category name="Vegan">
-        <meal>
-          <name>Pita mit Gyros - Kichererbsen und Haferdip</name>
-          <note>Hafer</note>
-          <note>Mandeln</note>
-          <note>Schalenfrüchte</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <price role="employee">4.70</price>
-          <price role="other">5.65</price>
-          <price role="student">3.35</price>
-        </meal>
-      </category>
       <category name="Gefluegel">
         <meal>
-          <name>Hähnchenpiccata an Tomatenragout</name>
+          <name>Thai-Suppe mit Huhn</name>
+          <note>Erdnüsse</note>
+          <note>Geflügel</note>
+          <note>Sellerie</note>
+          <price role="employee">0.80</price>
+          <price role="other">0.85</price>
+          <price role="student">0.75</price>
+        </meal>
+        <meal>
+          <name>Hähnchenpiccata an Tomatenragout -Beilage extra-</name>
           <note>Geflügel</note>
           <note>Milch (einschließlich Lactose)</note>
           <note>Sellerie</note>
@@ -68,6 +80,25 @@
           <price role="employee">5.50</price>
           <price role="other">6.45</price>
           <price role="student">4.10</price>
+        </meal>
+      </category>
+      <category name="Vegan">
+        <meal>
+          <name>Tomatensuppe</name>
+          <price role="employee">0.80</price>
+          <price role="other">0.85</price>
+          <price role="student">0.75</price>
+        </meal>
+        <meal>
+          <name>Pita mit Gyros - Kichererbsen und Haferdip -Beilage extra-</name>
+          <note>Hafer</note>
+          <note>Mandeln</note>
+          <note>Schalenfrüchte</note>
+          <note>Weizen</note>
+          <note>glutenhaltiges Getreide</note>
+          <price role="employee">4.70</price>
+          <price role="other">5.65</price>
+          <price role="student">3.35</price>
         </meal>
       </category>
       <category name="Fleischlos">
