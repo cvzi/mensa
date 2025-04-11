@@ -3,50 +3,75 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2025-04-10">
-      <category name="Komponente 1">
+    <day date="2025-04-11">
+      <category name="Komponente 4">
         <meal>
-          <name>Gegrilltes Seelachsfilet  
- mit Honig-Senfsoße</name>
-          <note>Fische und daraus hergestellte Erzeugnisse</note>
-          <note>Milch/Milchzucker (Laktose)</note>
-          <note>Senf und daraus hergestellte Erzeugnisse</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">3.25</price>
-          <price role="other">4.25</price>
-          <price role="student">2.25</price>
-        </meal>
-      </category>
-      <category name="Komponente 3">
-        <meal>
-          <name>Putensteak natur (Gefl) 
- mit Geflügelrahmsoße (Gefl,G,A)</name>
-          <price role="employee">3.25</price>
-          <price role="other">4.25</price>
-          <price role="student">2.25</price>
-        </meal>
-      </category>
-      <category name="Veganes Essen nach Gewicht (pro 100g)">
-        <meal>
-          <name>Pastateller: Mezzalune Spinaci [mit Spinat gefüllte Pasta-Teigtaschen]  
- mit Kräuter-Tomatensoße</name>
+          <name>Hähnchen-Knusperschnitzel &quot;Peppadew&quot; gefüllt mit Frischkäsezubereitung und eingelegten Kirschpaprika (1,3,Gefl,G,A) 
+ dazu eine Käse-Paprika-Sahnesoße</name>
           <note>Glutenhaltiges Getreide</note>
-          <price role="employee">1.03</price>
-          <price role="other">1.43</price>
-          <price role="student">0.68</price>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">3.75</price>
+          <price role="other">4.75</price>
+          <price role="student">2.75</price>
+        </meal>
+      </category>
+      <category name="Vegane Komponente 1">
+        <meal>
+          <name>Paprikaschote mit Couscousfüllung  
+ und fruchtiger Tomatensoße</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>jodiertes Salz</note>
+          <price role="employee">3.25</price>
+          <price role="other">4.25</price>
+          <price role="student">2.25</price>
+        </meal>
+      </category>
+      <category name="Vegane Komponente 2">
+        <meal>
+          <name>Gyros mit Zwiebeln  
+ dazu Tzaziki [mit Knoblauch und Zwiebel]</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Schalenfrüchte und daraus hergestellte Erzeugnisse (Mandeln, Haselnuss usw.)</note>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
+          <note>jodiertes Salz</note>
+          <price role="employee">3.50</price>
+          <price role="other">4.50</price>
+          <price role="student">2.50</price>
         </meal>
       </category>
       <category name="Mittagsgericht Cafeteria Klinikum (zzgl. 5€ ReBowl-Pfand)">
         <meal>
-          <name>Gegrilltes Seelachsfilet  
- mit Honig-Senfsoße  und Kartoffelpüree</name>
-          <note>Fische und daraus hergestellte Erzeugnisse</note>
-          <note>Milch/Milchzucker (Laktose)</note>
-          <note>Senf und daraus hergestellte Erzeugnisse</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">4.95</price>
-          <price role="other">6.55</price>
-          <price role="student">3.35</price>
+          <name>Gabelspaghetti  
+ mit Bolognesesoße</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Rindfleisch</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <price role="employee">5.40</price>
+          <price role="other">7.60</price>
+          <price role="student">3.50</price>
+        </meal>
+      </category>
+      <category name="Pasta pro Portion oder nach Gewicht (pro 100g)">
+        <meal>
+          <name>Pastateller: Gabelspaghetti  
+ mit Bolognesesoße</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Rindfleisch</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <price role="employee">1.00</price>
+          <price role="other">1.40</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Gabelspaghetti  
+ mit Bolognesesoße</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Rindfleisch</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <price role="employee">4.00</price>
+          <price role="other">5.60</price>
+          <price role="student">2.60</price>
         </meal>
       </category>
       <category name="Beilagen - Alle Beilagen sind vegan, sofern nicht anders gekennzeichnet.">
@@ -66,47 +91,58 @@
           <price role="student">0.80</price>
         </meal>
         <meal>
-          <name>Kartoffelpüree [vegetarisch]</name>
-          <note>Milch/Milchzucker (Laktose)</note>
-          <price role="employee">1.20</price>
-          <price role="other">1.60</price>
-          <price role="student">0.80</price>
-        </meal>
-        <meal>
           <name>Langkornreis</name>
           <price role="employee">1.20</price>
           <price role="other">1.60</price>
           <price role="student">0.80</price>
         </meal>
         <meal>
-          <name>Pommes Frites</name>
+          <name>Gabelspaghetti</name>
+          <note>Glutenhaltiges Getreide</note>
+          <price role="employee">1.20</price>
+          <price role="other">1.60</price>
+          <price role="student">0.80</price>
+        </meal>
+        <meal>
+          <name>Tzaziki [mit Knoblauch und Zwiebel]</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Schalenfrüchte und daraus hergestellte Erzeugnisse (Mandeln, Haselnuss usw.)</note>
+          <note>jodiertes Salz</note>
+          <price role="employee">1.00</price>
+          <price role="other">1.20</price>
+          <price role="student">0.80</price>
+        </meal>
+        <meal>
+          <name>Pita Fladenbrot</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>jodiertes Salz</note>
           <price role="employee">1.50</price>
           <price role="other">1.90</price>
           <price role="student">1.10</price>
         </meal>
         <meal>
-          <name>Süßkartoffel-Gnocchi</name>
+          <name>Rosmarin-Kartoffeln</name>
           <price role="employee">1.90</price>
           <price role="other">2.30</price>
           <price role="student">1.50</price>
         </meal>
-        <meal>
-          <name>Pommes Frites MAXI PORTION</name>
-          <price role="employee">3.00</price>
-          <price role="other">3.80</price>
-          <price role="student">2.20</price>
-        </meal>
       </category>
       <category name="Gemüse - Alle Gemüsebeilagen sind vegan, sofern nicht anders gekennzeichnet.">
         <meal>
-          <name>Erbsen</name>
+          <name>Weisskrautsalat</name>
+          <price role="employee">1.20</price>
+          <price role="other">1.60</price>
+          <price role="student">0.80</price>
+        </meal>
+        <meal>
+          <name>Sommergemüse [Blumenkohl, Brechbohnen, Karottenstäbchen, Markerbsen]</name>
           <note>jodiertes Salz</note>
           <price role="employee">1.20</price>
           <price role="other">1.60</price>
           <price role="student">0.80</price>
         </meal>
         <meal>
-          <name>Kaisergemüse [Brokkoli, Blumenkohl, Karottenscheiben]</name>
+          <name>Gemüsemix Excellence [Blumenkohl, Brokkoli, Rosenkohl, mehrfarbige Möhren]</name>
           <note>jodiertes Salz</note>
           <price role="employee">1.40</price>
           <price role="other">1.80</price>
