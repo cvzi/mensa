@@ -63,6 +63,20 @@
       </category>
     </day>
     <day date="2025-04-24">
+      <category name="Gefluegel">
+        <meal>
+          <name>Hähnchen Cordon bleu</name>
+          <note>Geflügel</note>
+          <note>Milch (einschließlich Lactose)</note>
+          <note>Weizen</note>
+          <note>glutenhaltiges Getreide</note>
+          <note>konserviert</note>
+          <note>mit Antioxidationsmittel</note>
+          <price role="employee">5.00</price>
+          <price role="other">5.95</price>
+          <price role="student">3.65</price>
+        </meal>
+      </category>
       <category name="Rind">
         <meal>
           <name>Cevapcici vom Rind mit hausgemachtem Kräuterdip</name>
@@ -128,6 +142,18 @@
       </category>
     </day>
     <day date="2025-04-25">
+      <category name="Vegan">
+        <meal>
+          <name>Falafelbällchen auf Couscous Gemüse</name>
+          <note>Sellerie</note>
+          <note>Weizen</note>
+          <note>glutenhaltiges Getreide</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">4.70</price>
+          <price role="other">5.65</price>
+          <price role="student">3.35</price>
+        </meal>
+      </category>
       <category name="Schwein">
         <meal>
           <name>Gefüllte Hirtenrolle &quot;Mediterran&quot; mit Salsadip und Pommes frites</name>
@@ -161,21 +187,6 @@
           <price role="student">3.80</price>
         </meal>
       </category>
-      <category name="Vegan">
-        <meal>
-          <name>Cremige vegane Champignonsoße mit Pasta</name>
-          <note>Alkohol</note>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>Senf</note>
-          <note>Weizen</note>
-          <note>geschwefelt</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">3.90</price>
-          <price role="other">4.85</price>
-          <price role="student">2.60</price>
-        </meal>
-      </category>
     </day>
     <day date="2025-04-28">
       <category name="Rind">
@@ -186,25 +197,6 @@
           <note>Rind/Kalb</note>
           <note>Sellerie</note>
           <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">5.20</price>
-          <price role="other">6.15</price>
-          <price role="student">3.80</price>
-        </meal>
-        <meal>
-          <name>Hacksteak mit Soße, Kartoffeln und</name>
-          <note>Alkohol</note>
-          <note>Eier</note>
-          <note>Gerste</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Rind/Kalb</note>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>Schwein</note>
-          <note>Sellerie</note>
-          <note>Soja</note>
-          <note>Weizen</note>
-          <note>geschwefelt</note>
           <note>glutenhaltiges Getreide</note>
           <note>mit Farbstoff</note>
           <price role="employee">5.20</price>
@@ -239,14 +231,31 @@
           <price role="other">5.40</price>
           <price role="student">3.10</price>
         </meal>
-      </category>
-      <category name="Fleischlos">
         <meal>
-          <name>Käsespätzle mit Röstzwiebeln</name>
+          <name>Cremige vegane Champignonsoße mit Pasta</name>
+          <note>Alkohol</note>
+          <note>Schwefeldioxid und Sulfite</note>
+          <note>Senf</note>
+          <note>Weizen</note>
+          <note>geschwefelt</note>
+          <note>glutenhaltiges Getreide</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">4.70</price>
+          <price role="other">5.65</price>
+          <price role="student">3.35</price>
+        </meal>
+      </category>
+      <category name="Schwein">
+        <meal>
+          <name>Pasta mit Hackbällchen &amp; Grana Padano</name>
           <note>Eier</note>
           <note>Milch (einschließlich Lactose)</note>
+          <note>Rind/Kalb</note>
+          <note>Schwein</note>
+          <note>Sellerie</note>
           <note>Weizen</note>
           <note>glutenhaltiges Getreide</note>
+          <note>konserviert</note>
           <note>mit Farbstoff</note>
           <price role="employee">5.20</price>
           <price role="other">6.15</price>
@@ -278,6 +287,25 @@
       </category>
       <category name="Rind">
         <meal>
+          <name>Hacksteak mit Soße, Kartoffeln und</name>
+          <note>Alkohol</note>
+          <note>Eier</note>
+          <note>Gerste</note>
+          <note>Milch (einschließlich Lactose)</note>
+          <note>Rind/Kalb</note>
+          <note>Schwefeldioxid und Sulfite</note>
+          <note>Schwein</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
+          <note>Weizen</note>
+          <note>geschwefelt</note>
+          <note>glutenhaltiges Getreide</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">5.20</price>
+          <price role="other">6.15</price>
+          <price role="student">3.80</price>
+        </meal>
+        <meal>
           <name>Cheese Burger</name>
           <note>Eier</note>
           <note>Gerste</note>
@@ -295,17 +323,13 @@
           <price role="student">4.85</price>
         </meal>
       </category>
-      <category name="Schwein">
+      <category name="Fleischlos">
         <meal>
-          <name>Pasta mit Hackbällchen &amp; Grana Padano</name>
+          <name>Käsespätzle mit Röstzwiebeln</name>
           <note>Eier</note>
           <note>Milch (einschließlich Lactose)</note>
-          <note>Rind/Kalb</note>
-          <note>Schwein</note>
-          <note>Sellerie</note>
           <note>Weizen</note>
           <note>glutenhaltiges Getreide</note>
-          <note>konserviert</note>
           <note>mit Farbstoff</note>
           <price role="employee">5.20</price>
           <price role="other">6.15</price>
