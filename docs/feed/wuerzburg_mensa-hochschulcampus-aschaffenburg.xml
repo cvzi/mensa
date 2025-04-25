@@ -63,20 +63,6 @@
       </category>
     </day>
     <day date="2025-04-24">
-      <category name="Gefluegel">
-        <meal>
-          <name>Hähnchen Cordon bleu</name>
-          <note>Geflügel</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>konserviert</note>
-          <note>mit Antioxidationsmittel</note>
-          <price role="employee">5.00</price>
-          <price role="other">5.95</price>
-          <price role="student">3.65</price>
-        </meal>
-      </category>
       <category name="Rind">
         <meal>
           <name>Cevapcici vom Rind mit hausgemachtem Kräuterdip</name>
@@ -144,8 +130,7 @@
     <day date="2025-04-25">
       <category name="Vegan">
         <meal>
-          <name>Falafelbällchen auf Couscous Gemüse</name>
-          <note>Sellerie</note>
+          <name>Vegane Gemüsemaultaschen mit Kürbiscremesoße</name>
           <note>Weizen</note>
           <note>glutenhaltiges Getreide</note>
           <note>mit Farbstoff</note>
@@ -153,10 +138,30 @@
           <price role="other">5.65</price>
           <price role="student">3.35</price>
         </meal>
+        <meal>
+          <name>8 Stück Falafelbällchen mit Sweet - Chili - Dip und Reis</name>
+          <note>Weizen</note>
+          <note>glutenhaltiges Getreide</note>
+          <price role="employee">5.20</price>
+          <price role="other">6.15</price>
+          <price role="student">3.80</price>
+        </meal>
+      </category>
+      <category name="Fleischlos">
+        <meal>
+          <name>Kaiserschmarrn mit Apfelmus</name>
+          <note>Eier</note>
+          <note>Milch (einschließlich Lactose)</note>
+          <note>Weizen</note>
+          <note>glutenhaltiges Getreide</note>
+          <price role="employee">4.70</price>
+          <price role="other">5.65</price>
+          <price role="student">3.35</price>
+        </meal>
       </category>
       <category name="Schwein">
         <meal>
-          <name>Gefüllte Hirtenrolle &quot;Mediterran&quot; mit Salsadip und Pommes frites</name>
+          <name>Gefüllte Hirtenrolle &quot;Mediterran&quot; mit Dip und Pommes frites</name>
           <note>Milch (einschließlich Lactose)</note>
           <note>Schwein</note>
           <note>Senf</note>
@@ -170,7 +175,7 @@
       </category>
       <category name="Fisch">
         <meal>
-          <name>Gebackenes Schollenfilet mit Tatarensoße</name>
+          <name>Gebackenes Schollenfilet mit Tatarensoße und Kartoffelsalat</name>
           <note>Eier</note>
           <note>Fisch</note>
           <note>Fische</note>
@@ -180,48 +185,26 @@
           <note>Senf</note>
           <note>Weizen</note>
           <note>glutenhaltiges Getreide</note>
+          <note>konserviert</note>
           <note>mit Farbstoff</note>
           <note>mit Süßungsmittel</note>
-          <price role="employee">5.20</price>
-          <price role="other">6.15</price>
-          <price role="student">3.80</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2025-04-28">
-      <category name="Rind">
-        <meal>
-          <name>Cannelloni mit Rindfleischfüllung &quot;al forno&quot;</name>
-          <note>Eier</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Rind/Kalb</note>
-          <note>Sellerie</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">5.20</price>
-          <price role="other">6.15</price>
-          <price role="student">3.80</price>
-        </meal>
-      </category>
-      <category name="Gefluegel">
-        <meal>
-          <name>Paniertes Putenschnitzel mit Soße und Kroketten</name>
-          <note>Alkohol</note>
-          <note>Geflügel</note>
-          <note>Gerste</note>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>Sellerie</note>
-          <note>Soja</note>
-          <note>Weizen</note>
-          <note>geschwefelt</note>
-          <note>glutenhaltiges Getreide</note>
           <price role="employee">6.30</price>
           <price role="other">7.25</price>
           <price role="student">4.85</price>
         </meal>
       </category>
+    </day>
+    <day date="2025-04-28">
       <category name="Vegan">
+        <meal>
+          <name>Pasta mit Gemüsebolognese</name>
+          <note>Sellerie</note>
+          <note>Weizen</note>
+          <note>glutenhaltiges Getreide</note>
+          <price role="employee">4.15</price>
+          <price role="other">5.10</price>
+          <price role="student">2.80</price>
+        </meal>
         <meal>
           <name>Vegane Knusperfrikadelle mit Kräutersoße</name>
           <note>Weizen</note>
@@ -245,47 +228,20 @@
           <price role="student">3.35</price>
         </meal>
       </category>
-      <category name="Schwein">
+      <category name="Rind">
         <meal>
-          <name>Pasta mit Hackbällchen &amp; Grana Padano</name>
+          <name>Cannelloni mit Rindfleischfüllung &quot;al forno&quot;</name>
           <note>Eier</note>
           <note>Milch (einschließlich Lactose)</note>
           <note>Rind/Kalb</note>
-          <note>Schwein</note>
           <note>Sellerie</note>
           <note>Weizen</note>
           <note>glutenhaltiges Getreide</note>
-          <note>konserviert</note>
           <note>mit Farbstoff</note>
           <price role="employee">5.20</price>
           <price role="other">6.15</price>
           <price role="student">3.80</price>
         </meal>
-      </category>
-    </day>
-    <day date="2025-04-29">
-      <category name="Vegan">
-        <meal>
-          <name>Vegane Tortelloni mit Gemüsefüllung, Tomatensoße</name>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>Senf</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>mit Antioxidationsmittel</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">5.20</price>
-          <price role="other">6.15</price>
-          <price role="student">3.80</price>
-        </meal>
-        <meal>
-          <name>Süßkartoffel - Amaranth - Bratling mit Tomatensalsa</name>
-          <note>mit Süßungsmittel</note>
-          <price role="employee">4.70</price>
-          <price role="other">5.65</price>
-          <price role="student">3.35</price>
-        </meal>
-      </category>
-      <category name="Rind">
         <meal>
           <name>Hacksteak mit Soße, Kartoffeln und</name>
           <note>Alkohol</note>
@@ -305,6 +261,29 @@
           <price role="other">6.15</price>
           <price role="student">3.80</price>
         </meal>
+      </category>
+    </day>
+    <day date="2025-04-29">
+      <category name="Vegan">
+        <meal>
+          <name>Falafelbällchen auf Couscous Gemüse</name>
+          <note>Sellerie</note>
+          <note>Weizen</note>
+          <note>glutenhaltiges Getreide</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">4.70</price>
+          <price role="other">5.65</price>
+          <price role="student">3.35</price>
+        </meal>
+        <meal>
+          <name>Süßkartoffel - Amaranth - Bratling mit Tomatensalsa</name>
+          <note>mit Süßungsmittel</note>
+          <price role="employee">4.70</price>
+          <price role="other">5.65</price>
+          <price role="student">3.35</price>
+        </meal>
+      </category>
+      <category name="Rind">
         <meal>
           <name>Cheese Burger</name>
           <note>Eier</note>
@@ -323,60 +302,56 @@
           <price role="student">4.85</price>
         </meal>
       </category>
-      <category name="Fleischlos">
+      <category name="Schwein">
         <meal>
-          <name>Käsespätzle mit Röstzwiebeln</name>
-          <note>Eier</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
+          <name>Ein Paar Bratwürste mit Sauerkraut</name>
+          <note>Alkohol</note>
+          <note>Schwefeldioxid und Sulfite</note>
+          <note>Schwein</note>
+          <note>Senf</note>
+          <note>geschwefelt</note>
           <note>mit Farbstoff</note>
-          <price role="employee">5.20</price>
-          <price role="other">6.15</price>
-          <price role="student">3.80</price>
+          <note>mit Phosphat</note>
+          <price role="employee">5.50</price>
+          <price role="other">6.45</price>
+          <price role="student">4.10</price>
         </meal>
       </category>
     </day>
     <day date="2025-04-30">
       <category name="Gefluegel">
         <meal>
-          <name>Geflügelhacksteak mit Champignonsoße</name>
-          <note>Alkohol</note>
-          <note>Eier</note>
+          <name>Chicken Nuggets mit Currysoße und Pommes frites</name>
           <note>Geflügel</note>
-          <note>Gerste</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Schwefeldioxid und Sulfite</note>
           <note>Sellerie</note>
           <note>Senf</note>
-          <note>Soja</note>
           <note>Weizen</note>
-          <note>geschwefelt</note>
           <note>glutenhaltiges Getreide</note>
-          <price role="employee">4.15</price>
-          <price role="other">5.10</price>
-          <price role="student">2.80</price>
+          <note>mit Süßungsmittel</note>
+          <price role="employee">6.30</price>
+          <price role="other">7.25</price>
+          <price role="student">4.85</price>
         </meal>
-      </category>
-      <category name="Rind">
         <meal>
-          <name>2 Bifteki mit Ajvar</name>
-          <note>Rind/Kalb</note>
-          <price role="employee">4.70</price>
-          <price role="other">5.65</price>
-          <price role="student">3.35</price>
+          <name>Geflügelhacksteak mit Barbecuesoße</name>
+          <note>Eier</note>
+          <note>Geflügel</note>
+          <note>Milch (einschließlich Lactose)</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <note>Weizen</note>
+          <note>glutenhaltiges Getreide</note>
+          <note>mit Süßungsmittel</note>
+          <price role="employee">3.90</price>
+          <price role="other">4.85</price>
+          <price role="student">2.60</price>
         </meal>
       </category>
       <category name="Vegan">
         <meal>
-          <name>Falafelbällchen auf Couscous Gemüse</name>
-          <note>Hafer</note>
-          <note>Mandeln</note>
-          <note>Schalenfrüchte</note>
-          <note>Sellerie</note>
+          <name>Vegane Tortelloni mit Gemüsefüllung dazu Tomatensoße</name>
           <note>Weizen</note>
           <note>glutenhaltiges Getreide</note>
-          <note>mit Farbstoff</note>
           <price role="employee">4.70</price>
           <price role="other">5.65</price>
           <price role="student">3.35</price>
@@ -398,17 +373,19 @@
       </category>
       <category name="Schwein">
         <meal>
-          <name>Ein Paar Bratwürste mit Sauerkraut</name>
-          <note>Alkohol</note>
-          <note>Schwefeldioxid und Sulfite</note>
+          <name>Pasta mit Hackbällchen &amp; Grana Padano</name>
+          <note>Eier</note>
+          <note>Milch (einschließlich Lactose)</note>
+          <note>Rind/Kalb</note>
           <note>Schwein</note>
-          <note>Senf</note>
-          <note>geschwefelt</note>
+          <note>Sellerie</note>
+          <note>Weizen</note>
+          <note>glutenhaltiges Getreide</note>
+          <note>konserviert</note>
           <note>mit Farbstoff</note>
-          <note>mit Phosphat</note>
-          <price role="employee">5.50</price>
-          <price role="other">6.45</price>
-          <price role="student">4.10</price>
+          <price role="employee">5.20</price>
+          <price role="other">6.15</price>
+          <price role="student">3.80</price>
         </meal>
       </category>
     </day>
