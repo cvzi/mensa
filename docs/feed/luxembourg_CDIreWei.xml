@@ -3,27 +3,6 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2025-04-14">
-      <closed/>
-    </day>
-    <day date="2025-04-15">
-      <closed/>
-    </day>
-    <day date="2025-04-16">
-      <closed/>
-    </day>
-    <day date="2025-04-17">
-      <closed/>
-    </day>
-    <day date="2025-04-18">
-      <closed/>
-    </day>
-    <day date="2025-04-19">
-      <closed/>
-    </day>
-    <day date="2025-04-20">
-      <closed/>
-    </day>
     <day date="2025-04-21">
       <closed/>
     </day>
@@ -31,7 +10,7 @@
       <closed/>
     </day>
     <day date="2025-04-23">
-      <category name="Entrée (07:00 - 18:00)">
+      <category name="Entrée">
         <meal>
           <name>Potage aux poireaux</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
@@ -42,7 +21,7 @@
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Végétarien (07:00 - 18:00)">
+      <category name="Végétarien">
         <meal>
           <name>Seitan sauté aux carottes, courgettes et tomates</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
@@ -52,7 +31,7 @@
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Non-végétarien (07:00 - 18:00)">
+      <category name="Non-végétarien">
         <meal>
           <name>Mixed grill de viandes, sauce au poivre</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
@@ -61,15 +40,16 @@
           <note>non-végétarien</note>
         </meal>
       </category>
-      <category name="Légumes (07:00 - 18:00)">
+      <category name="Légumes">
         <meal>
           <name>Haricots verts à l'ail</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Féculents (07:00 - 18:00)">
+      <category name="Féculents">
         <meal>
           <name>Pommes de terre au four</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
@@ -77,7 +57,7 @@
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Dessert (07:00 - 18:00)">
+      <category name="Dessert">
         <meal>
           <name>Tarte feuilletée aux abricots, crème pâtissière</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
@@ -91,7 +71,7 @@
       <closed/>
     </day>
     <day date="2025-04-25">
-      <category name="Entrée (07:00 - 18:00)">
+      <category name="Entrée">
         <meal>
           <name>Soupe de carottes</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
@@ -102,7 +82,7 @@
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Végétarien (07:00 - 18:00)">
+      <category name="Végétarien">
         <meal>
           <name>Bouchée au quorn</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
@@ -114,7 +94,7 @@
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Non-végétarien (07:00 - 18:00)">
+      <category name="Non-végétarien">
         <meal>
           <name>Saucisse à griller et saucisse fumée, sauce moutarde</name>
           <note>Moutarde et produits à base de moutarde</note>
@@ -122,7 +102,7 @@
           <note>non-végétarien</note>
         </meal>
       </category>
-      <category name="Légumes (07:00 - 18:00)">
+      <category name="Légumes">
         <meal>
           <name>Carottes persillées</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
@@ -133,7 +113,7 @@
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Féculents (07:00 - 18:00)">
+      <category name="Féculents">
         <meal>
           <name>Riz à l'étuvé</name>
           <note>Céleri et produits à base de céleri</note>
@@ -142,7 +122,7 @@
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Dessert (07:00 - 18:00)">
+      <category name="Dessert">
         <meal>
           <name>Cookie végan au beurre de cacahuètes et pépites de chocolat</name>
           <note>Arachides et produits à base d‘arachides</note>
@@ -471,23 +451,149 @@
     <day date="2025-05-11">
       <closed/>
     </day>
+    <day date="2025-05-12">
+      <category name="Entrée (07:00 - 18:00)">
+        <meal>
+          <name>Potage aux épinards</name>
+          <note>Produit sans gluten</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Végétarien (07:00 - 18:00)">
+        <meal>
+          <name>Mezzé variés (falafels, flaguette, taboulé, houmous, baba ganoush), dip yaourt grec</name>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Non-végétarien (07:00 - 18:00)">
+        <meal>
+          <name>Carré de quiche lorraine</name>
+          <note>non-végétarien</note>
+        </meal>
+      </category>
+      <category name="Légumes (07:00 - 18:00)">
+        <meal>
+          <name>Chou fleur persillé</name>
+          <note>Produit sans gluten</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Féculents (07:00 - 18:00)">
+        <meal>
+          <name>Pommes de terre &quot;wedges&quot; maison</name>
+          <note>Produit sans gluten</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Dessert (07:00 - 18:00)">
+        <meal>
+          <name>Mousse légère au fromage blanc et citron, crumble aux amandes</name>
+          <note>végétarien</note>
+        </meal>
+      </category>
+    </day>
+    <day date="2025-05-13">
+      <closed/>
+    </day>
+    <day date="2025-05-14">
+      <category name="Entrée (07:00 - 18:00)">
+        <meal>
+          <name>Soupe aux haricots verts</name>
+          <note>Produit sans gluten</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Végétarien (07:00 - 18:00)">
+        <meal>
+          <name>Paëlla végétarienne au tempeh</name>
+          <note>Produit sans gluten</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Non-végétarien (07:00 - 18:00)">
+        <meal>
+          <name>Côte de porc marinée et grillée, sauce moutarde</name>
+          <note>Produit sans gluten</note>
+          <note>non-végétarien</note>
+        </meal>
+      </category>
+      <category name="Légumes (07:00 - 18:00)">
+        <meal>
+          <name>Mousseline de céleris</name>
+          <note>Produit sans gluten</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Féculents (07:00 - 18:00)">
+        <meal>
+          <name>Pommes de terre rôties</name>
+          <note>Produit sans gluten</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Dessert (07:00 - 18:00)">
+        <meal>
+          <name>Eclair au praliné</name>
+          <note>végétarien</note>
+        </meal>
+      </category>
+    </day>
+    <day date="2025-05-15">
+      <closed/>
+    </day>
+    <day date="2025-05-16">
+      <category name="Entrée (07:00 - 18:00)">
+        <meal>
+          <name>Crème de laitue</name>
+          <note>Produit sans gluten</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Végétarien (07:00 - 18:00)">
+        <meal>
+          <name>Risotto crémeux aux asperges, petits pois et tomates cerises</name>
+          <note>Produit sans gluten</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Non-végétarien (07:00 - 18:00)">
+        <meal>
+          <name>Curry de boeuf façon Colombo</name>
+          <note>Produit sans gluten</note>
+          <note>non-végétarien</note>
+        </meal>
+      </category>
+      <category name="Légumes (07:00 - 18:00)">
+        <meal>
+          <name>Ecrasé d'aubergines à l'ail doux</name>
+          <note>Produit sans gluten</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Féculents (07:00 - 18:00)">
+        <meal>
+          <name>Steakhouse fries</name>
+          <note>Produit sans gluten</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Dessert (07:00 - 18:00)">
+        <meal>
+          <name>Mousse bavaroise rubanée fraises et rhubarbe</name>
+          <note>Produit sans gluten</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+    </day>
+    <day date="2025-05-17">
+      <closed/>
+    </day>
+    <day date="2025-05-18">
+      <closed/>
+    </day>
   </canteen>
 </openmensa>
 
-<!-- Theme day: Vacances [restaurant=162] -->
-
-<!-- Theme day: Fermeture [restaurant=162] -->
-
-<!-- Theme day: Vacances [restaurant=162] -->
-
-<!-- Theme day: Fermeture [restaurant=162] -->
-
-<!-- Theme day: Vacances [restaurant=162] -->
-
-<!-- Theme day: Vacances [restaurant=162] -->
-
-<!-- Theme day: Vacances [restaurant=162] -->
-
 <!-- Theme day: Jour férié [restaurant=162] -->
 
 <!-- Theme day: Fermeture [restaurant=162] -->
@@ -503,3 +609,9 @@
 <!-- Theme day: Fermeture [restaurant=162] -->
 
 <!-- Theme day: Jour férié [restaurant=162] -->
+
+<!-- Theme day: Fermeture [restaurant=162] -->
+
+<!-- Theme day: Fermeture [restaurant=162] -->
+
+<!-- Theme day: Menu sans gluten [restaurant=162] -->
