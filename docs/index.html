@@ -43,8 +43,12 @@ Traceback (most recent call last):
   File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
     content = getattr(parser, feedMethod)(
               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 68, in feed_all
-    self.parseMeals(ref, builder, resp.text)
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
+    return self.feed_all(ref, get_next_week=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
+    next_week_path = self.parseMeals(ref, builder, resp.text)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 79, in parseMeals
     return self.parseMealsFS(ref, builder, document)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -185,8 +189,12 @@ Traceback (most recent call last):
   File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
     content = getattr(parser, feedMethod)(
               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 68, in feed_all
-    self.parseMeals(ref, builder, resp.text)
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
+    return self.feed_all(ref, get_next_week=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
+    next_week_path = self.parseMeals(ref, builder, resp.text)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 79, in parseMeals
     return self.parseMealsFS(ref, builder, document)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
