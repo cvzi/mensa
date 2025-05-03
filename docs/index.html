@@ -102,29 +102,6 @@ Traceback (most recent call last):
     raise ValueError('unknown month names: "{0}"'
 ValueError: unknown month names: "/04/20"
 
-inetmenue/kiga-jsw:
-Traceback (most recent call last):
-  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
-    content = getattr(parser, feedMethod)(
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
-    return self.feed_all(ref, get_next_week=False)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
-    next_week_path = self.parseMeals(ref, builder, resp.text)
-                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 79, in parseMeals
-    return self.parseMealsFS(ref, builder, document)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 242, in parseMealsFS
-    builder.addMeal(dates[day_index], category.strip(
-  File "/opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/pyopenmensa/feed.py", line 662, in addMeal
-    super(LazyBuilder, self).addMeal(extractDate(date), category, name,
-                                     ^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/pyopenmensa/feed.py", line 61, in extractDate
-    raise ValueError('unknown month names: "{0}"'
-ValueError: unknown month names: "/04/20"
-
 inetmenue/klein-hehlen-celle:
 Traceback (most recent call last):
   File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
