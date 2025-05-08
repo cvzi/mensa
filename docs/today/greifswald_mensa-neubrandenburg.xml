@@ -3,37 +3,90 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2025-05-07">
+    <day date="2025-05-08">
       <category name="Tellergericht">
         <meal>
-          <name>Teller: Bauerntopf [vegan]</name>
+          <name>Teller: Ungarischer Kartoffeltopf</name>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <note>Schweinefleisch</note>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
           <note>geschwefelt</note>
           <note>jodiertes Salz</note>
+          <note>mit Antioxidationsmittel</note>
+          <note>mit Konservierungsstoff</note>
+          <note>mit Phosphat</note>
           <price role="employee">2.45</price>
           <price role="other">3.45</price>
           <price role="student">1.50</price>
         </meal>
         <meal>
-          <name>Terrine: Bauerntopf [vegan]</name>
+          <name>3 Quarkkeulchen mit Apfelmus</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <note>mit Antioxidationsmittel</note>
+          <price role="employee">3.30</price>
+          <price role="other">4.80</price>
+          <price role="student">1.80</price>
+        </meal>
+        <meal>
+          <name>Terrine: Ungarischer Kartoffeltopf</name>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <note>Schweinefleisch</note>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
           <note>geschwefelt</note>
           <note>jodiertes Salz</note>
+          <note>mit Antioxidationsmittel</note>
+          <note>mit Konservierungsstoff</note>
+          <note>mit Phosphat</note>
           <price role="employee">3.45</price>
           <price role="other">4.70</price>
           <price role="student">2.20</price>
         </meal>
       </category>
+      <category name="Komponente 3">
+        <meal>
+          <name>Hähnchenschnitzel Art &quot;Cordon bleu&quot; (2,3,7,9,Gefl,G,A) 
+ mit Geflügelrahmsauce (3,9,Gefl,G,A)</name>
+          <price role="employee">3.25</price>
+          <price role="other">4.25</price>
+          <price role="student">2.25</price>
+        </meal>
+      </category>
       <category name="Vegane Komponente 1">
         <meal>
-          <name>Planted Kebap [aus Erbsenprotein]  
- mit Tzatziki [mit Knoblauch und Zwiebel]</name>
+          <name>Süßkartoffel-Kokos-Curry mit Sojaschnetzeln</name>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
           <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
-          <note>mit Antioxidationsmittel</note>
-          <price role="employee">3.50</price>
-          <price role="other">4.50</price>
-          <price role="student">2.50</price>
+          <note>jodiertes Salz</note>
+          <price role="employee">3.25</price>
+          <price role="other">4.25</price>
+          <price role="student">2.25</price>
+        </meal>
+      </category>
+      <category name="Nudeltheke: Pasta nach Gewicht (pro 100g)">
+        <meal>
+          <name>Pastateller: Vegane Sonnenblumen-Bolognese [regional, aus ökologischem Anbau]  
+ mit Gabelspaghetti</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
+          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
+          <note>jodiertes Salz</note>
+          <price role="employee">1.00</price>
+          <price role="other">1.40</price>
+          <price role="student">0.65</price>
         </meal>
       </category>
       <category name="Beilagen">
+        <meal>
+          <name>Couscous</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>jodiertes Salz</note>
+          <price role="employee">1.20</price>
+          <price role="other">1.60</price>
+          <price role="student">0.80</price>
+        </meal>
         <meal>
           <name>Salzkartoffeln</name>
           <note>geschwefelt</note>
@@ -43,14 +96,9 @@
           <price role="student">0.80</price>
         </meal>
         <meal>
-          <name>Basmatireis</name>
+          <name>Kartoffelkroketten</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
           <note>jodiertes Salz</note>
-          <price role="employee">1.20</price>
-          <price role="other">1.60</price>
-          <price role="student">0.80</price>
-        </meal>
-        <meal>
-          <name>Pommes Frites</name>
           <price role="employee">1.50</price>
           <price role="other">1.90</price>
           <price role="student">1.10</price>
@@ -58,14 +106,14 @@
       </category>
       <category name="Gemüse">
         <meal>
-          <name>feine Möhren</name>
+          <name>Mischgemüse [Karotten und Erbsen]</name>
           <note>jodiertes Salz</note>
           <price role="employee">1.20</price>
           <price role="other">1.60</price>
           <price role="student">0.80</price>
         </meal>
         <meal>
-          <name>Weisskrautsalat</name>
+          <name>Rotkohl</name>
           <note>jodiertes Salz</note>
           <note>mit Antioxidationsmittel</note>
           <price role="employee">1.20</price>
