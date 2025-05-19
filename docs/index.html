@@ -40,7 +40,7 @@
       <article><h3><a href="https://github.com/cvzi/mensa/actions/">🗿 Parser status</a></h3>
 <pre>inetmenue/cve:
 Traceback (most recent call last):
-  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 145, in updateFeeds
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
     content = getattr(parser, feedMethod)(
               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
@@ -54,16 +54,16 @@ Traceback (most recent call last):
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 242, in parseMealsFS
     builder.addMeal(dates[day_index], category.strip(
-  File "/opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/pyopenmensa/feed.py", line 662, in addMeal
+  File "/opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/pyopenmensa/feed.py", line 662, in addMeal
     super(LazyBuilder, self).addMeal(extractDate(date), category, name,
                                      ^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/pyopenmensa/feed.py", line 61, in extractDate
+  File "/opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/pyopenmensa/feed.py", line 61, in extractDate
     raise ValueError('unknown month names: "{0}"'
-ValueError: unknown month names: "/02/20"
+ValueError: unknown month names: "/05/20"
 
 inetmenue/ggs:
 Traceback (most recent call last):
-  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 145, in updateFeeds
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
     content = getattr(parser, feedMethod)(
               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
@@ -81,7 +81,7 @@ RuntimeError: OOPS
 
 inetmenue/hehlentor-celle:
 Traceback (most recent call last):
-  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 145, in updateFeeds
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
     content = getattr(parser, feedMethod)(
               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
@@ -95,39 +95,16 @@ Traceback (most recent call last):
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 242, in parseMealsFS
     builder.addMeal(dates[day_index], category.strip(
-  File "/opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/pyopenmensa/feed.py", line 662, in addMeal
+  File "/opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/pyopenmensa/feed.py", line 662, in addMeal
     super(LazyBuilder, self).addMeal(extractDate(date), category, name,
                                      ^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/pyopenmensa/feed.py", line 61, in extractDate
+  File "/opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/pyopenmensa/feed.py", line 61, in extractDate
     raise ValueError('unknown month names: "{0}"'
-ValueError: unknown month names: "/02/20"
-
-inetmenue/kiga-jsw:
-Traceback (most recent call last):
-  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 145, in updateFeeds
-    content = getattr(parser, feedMethod)(
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
-    return self.feed_all(ref, get_next_week=False)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
-    next_week_path = self.parseMeals(ref, builder, resp.text)
-                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 79, in parseMeals
-    return self.parseMealsFS(ref, builder, document)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 242, in parseMealsFS
-    builder.addMeal(dates[day_index], category.strip(
-  File "/opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/pyopenmensa/feed.py", line 662, in addMeal
-    super(LazyBuilder, self).addMeal(extractDate(date), category, name,
-                                     ^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/pyopenmensa/feed.py", line 61, in extractDate
-    raise ValueError('unknown month names: "{0}"'
-ValueError: unknown month names: "/02/20"
+ValueError: unknown month names: "/05/20"
 
 inetmenue/klein-hehlen-celle:
 Traceback (most recent call last):
-  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 145, in updateFeeds
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
     content = getattr(parser, feedMethod)(
               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
@@ -141,16 +118,16 @@ Traceback (most recent call last):
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 242, in parseMealsFS
     builder.addMeal(dates[day_index], category.strip(
-  File "/opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/pyopenmensa/feed.py", line 662, in addMeal
+  File "/opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/pyopenmensa/feed.py", line 662, in addMeal
     super(LazyBuilder, self).addMeal(extractDate(date), category, name,
                                      ^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/pyopenmensa/feed.py", line 61, in extractDate
+  File "/opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/pyopenmensa/feed.py", line 61, in extractDate
     raise ValueError('unknown month names: "{0}"'
-ValueError: unknown month names: "/02/20"
+ValueError: unknown month names: "/05/20"
 
 inetmenue/mns:
 Traceback (most recent call last):
-  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 145, in updateFeeds
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
     content = getattr(parser, feedMethod)(
               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
@@ -168,7 +145,7 @@ RuntimeError: OOPS
 
 inetmenue/schmecktsdannbassts:
 Traceback (most recent call last):
-  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 145, in updateFeeds
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
     content = getattr(parser, feedMethod)(
               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
@@ -186,7 +163,7 @@ RuntimeError: OOPS
 
 inetmenue/wilhelmstadtschulen:
 Traceback (most recent call last):
-  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 145, in updateFeeds
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
     content = getattr(parser, feedMethod)(
               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
@@ -200,12 +177,12 @@ Traceback (most recent call last):
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 242, in parseMealsFS
     builder.addMeal(dates[day_index], category.strip(
-  File "/opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/pyopenmensa/feed.py", line 662, in addMeal
+  File "/opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/pyopenmensa/feed.py", line 662, in addMeal
     super(LazyBuilder, self).addMeal(extractDate(date), category, name,
                                      ^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.9/x64/lib/python3.12/site-packages/pyopenmensa/feed.py", line 61, in extractDate
+  File "/opt/hostedtoolcache/Python/3.12.10/x64/lib/python3.12/site-packages/pyopenmensa/feed.py", line 61, in extractDate
     raise ValueError('unknown month names: "{0}"'
-ValueError: unknown month names: "/02/20"
+ValueError: unknown month names: "/05/20"
 </pre></article>
       <article>
 <ol style="list-style-type:none">
@@ -1820,6 +1797,25 @@ ValueError: unknown month names: "/02/20"
   <li><a href="https://cvzi.github.io/mensa/feed/mensenat_WiVetMedDA.xml">🍱 feed/mensenat_WiVetMedDA.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/meta/mensenat_WiVetMedDA.xml">🈺 meta/mensenat_WiVetMedDA.xml</a></li>
   <li><a href="https://cvzi.github.io/mensa/today/mensenat_WiVetMedDA.xml">🍱 today/mensenat_WiVetMedDA.xml</a></li>
+</ul>
+<li><h3 id="wuerzburg"><a href="https://cvzi.github.io/mensa/wuerzburg.json">🐏 wuerzburg.json</a></h3>
+<ul style="list-style-type:none">
+  <li><a href="https://cvzi.github.io/mensa/feed/wuerzburg_mensa-am-studentenhaus-wuerzburg.xml">🍱 feed/wuerzburg_mensa-am-studentenhaus-wuerzburg.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/meta/wuerzburg_mensa-am-studentenhaus-wuerzburg.xml">🈺 meta/wuerzburg_mensa-am-studentenhaus-wuerzburg.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/feed/wuerzburg_mensa-austrasse-bamberg.xml">🍱 feed/wuerzburg_mensa-austrasse-bamberg.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/meta/wuerzburg_mensa-austrasse-bamberg.xml">🈺 meta/wuerzburg_mensa-austrasse-bamberg.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/feed/wuerzburg_mensa-feldkirchenstrasse-bamberg.xml">🍱 feed/wuerzburg_mensa-feldkirchenstrasse-bamberg.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/meta/wuerzburg_mensa-feldkirchenstrasse-bamberg.xml">🈺 meta/wuerzburg_mensa-feldkirchenstrasse-bamberg.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/feed/wuerzburg_mensa-hochschulcampus-aschaffenburg.xml">🍱 feed/wuerzburg_mensa-hochschulcampus-aschaffenburg.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/meta/wuerzburg_mensa-hochschulcampus-aschaffenburg.xml">🈺 meta/wuerzburg_mensa-hochschulcampus-aschaffenburg.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/feed/wuerzburg_mensa-josef-schneider-strasse-wuerzburg.xml">🍱 feed/wuerzburg_mensa-josef-schneider-strasse-wuerzburg.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/meta/wuerzburg_mensa-josef-schneider-strasse-wuerzburg.xml">🈺 meta/wuerzburg_mensa-josef-schneider-strasse-wuerzburg.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/feed/wuerzburg_mensa-roentgenring-wuerzburg.xml">🍱 feed/wuerzburg_mensa-roentgenring-wuerzburg.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/meta/wuerzburg_mensa-roentgenring-wuerzburg.xml">🈺 meta/wuerzburg_mensa-roentgenring-wuerzburg.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/feed/wuerzburg_mensa-thws-campus-schweinfurt.xml">🍱 feed/wuerzburg_mensa-thws-campus-schweinfurt.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/meta/wuerzburg_mensa-thws-campus-schweinfurt.xml">🈺 meta/wuerzburg_mensa-thws-campus-schweinfurt.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/feed/wuerzburg_mensateria-campus-hubland-nord-wuerzburg.xml">🍱 feed/wuerzburg_mensateria-campus-hubland-nord-wuerzburg.xml</a></li>
+  <li><a href="https://cvzi.github.io/mensa/meta/wuerzburg_mensateria-campus-hubland-nord-wuerzburg.xml">🈺 meta/wuerzburg_mensateria-campus-hubland-nord-wuerzburg.xml</a></li>
 </ul>
 </li>
 </ol>

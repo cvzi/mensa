@@ -11,6 +11,7 @@ Parsers support:
 *   [mampf1a.de](https://mampf1a.de/)
 *   [inetmenue.de](https://www.inetmenue.de/)
 *   [Studierendenwerk Greifswald](https://www.stw-greifswald.de/essen/speiseplaene/) forked from [github.com/derconno/OpenMensaParserHOST](https://github.com/derconno/OpenMensaParserHOST)
+*   [Studierendenwerk Würzburg](https://www.swerk-wue.de/wuerzburg/essen-trinken/mensen-speiseplaene)
 
 |  Feeds       |                                         Status                                                                                                                  |                     Cron                                                                                                                                      |
 |:------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------:|
