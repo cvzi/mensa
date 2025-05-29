@@ -333,17 +333,6 @@
           <price role="student">1.30</price>
         </meal>
         <meal>
-          <name>Gebratene Mie - Nudelpfanne mit frischem Gemüse</name>
-          <note>Sesamsamen</note>
-          <note>Soja</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>konserviert</note>
-          <price role="employee">5.20</price>
-          <price role="other">6.15</price>
-          <price role="student">3.80</price>
-        </meal>
-        <meal>
           <name>Pasta mit Tomatensoße</name>
           <note>Weizen</note>
           <note>glutenhaltiges Getreide</note>
@@ -359,52 +348,6 @@
           <price role="employee">5.20</price>
           <price role="other">6.15</price>
           <price role="student">3.80</price>
-        </meal>
-      </category>
-      <category name="Gefluegel">
-        <meal>
-          <name>Gebratene Mie - Nudelpfanne mit frischem Gemüse und Hähnchenstreifen</name>
-          <note>Sesamsamen</note>
-          <note>Soja</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>konserviert</note>
-          <price role="employee">6.30</price>
-          <price role="other">7.25</price>
-          <price role="student">4.85</price>
-        </meal>
-        <meal>
-          <name>Lahmacun vom Drehspieß und Minzjoghurt</name>
-          <note>Geflügel</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Soja</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <price role="employee">7.10</price>
-          <price role="other">8.05</price>
-          <price role="student">5.60</price>
-        </meal>
-        <meal>
-          <name>Gegrillte Maishähnchenbrust mit fränkischer Spargelsoße</name>
-          <note>Geflügel</note>
-          <note>Gerste</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Sellerie</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">5.90</price>
-          <price role="other">6.85</price>
-          <price role="student">4.45</price>
-        </meal>
-        <meal>
-          <name>2 Stück Hähnchenschnitzel &quot;Wiener Art&quot;</name>
-          <note>Geflügel</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <price role="employee">5.50</price>
-          <price role="other">6.45</price>
-          <price role="student">4.10</price>
         </meal>
       </category>
       <category name="Rind">
@@ -484,6 +427,30 @@
           <price role="employee">4.45</price>
           <price role="other">5.40</price>
           <price role="student">3.10</price>
+        </meal>
+      </category>
+      <category name="Gefluegel">
+        <meal>
+          <name>Gegrillte Maishähnchenbrust mit fränkischer Spargelsoße</name>
+          <note>Geflügel</note>
+          <note>Gerste</note>
+          <note>Milch (einschließlich Lactose)</note>
+          <note>Sellerie</note>
+          <note>Weizen</note>
+          <note>glutenhaltiges Getreide</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">5.90</price>
+          <price role="other">6.85</price>
+          <price role="student">4.45</price>
+        </meal>
+        <meal>
+          <name>2 Stück Hähnchenschnitzel &quot;Wiener Art&quot;</name>
+          <note>Geflügel</note>
+          <note>Weizen</note>
+          <note>glutenhaltiges Getreide</note>
+          <price role="employee">5.50</price>
+          <price role="other">6.45</price>
+          <price role="student">4.10</price>
         </meal>
       </category>
     </day>
@@ -599,14 +566,17 @@
           <price role="student">4.10</price>
         </meal>
         <meal>
-          <name>Spaghetti &quot;Arrabbiata&quot; - Vegan möglich</name>
+          <name>Spaghetti mit fränkischer Spargelsoße</name>
+          <note>Gerste</note>
           <note>Milch (einschließlich Lactose)</note>
+          <note>Sellerie</note>
           <note>Weizen</note>
           <note>glutenhaltiges Getreide</note>
           <note>konserviert</note>
-          <price role="employee">3.65</price>
-          <price role="other">4.60</price>
-          <price role="student">2.35</price>
+          <note>mit Farbstoff</note>
+          <price role="employee">5.00</price>
+          <price role="other">5.95</price>
+          <price role="student">3.65</price>
         </meal>
       </category>
       <category name="Schwein">
@@ -679,7 +649,7 @@
           <price role="student">3.35</price>
         </meal>
         <meal>
-          <name>Pennenudeln mit Carbonara - Soße</name>
+          <name>Pasta mit Carbonara - Soße</name>
           <note>Milch (einschließlich Lactose)</note>
           <note>Schwein</note>
           <note>Weizen</note>
@@ -693,7 +663,7 @@
           <price role="student">3.65</price>
         </meal>
         <meal>
-          <name>Pennenudeln mit Käsesoße</name>
+          <name>Pasta mit Käsesoße</name>
           <note>Milch (einschließlich Lactose)</note>
           <note>Weizen</note>
           <note>glutenhaltiges Getreide</note>
@@ -704,7 +674,7 @@
           <price role="student">3.10</price>
         </meal>
         <meal>
-          <name>Pennenudeln mit Tomatensoße</name>
+          <name>Pasta mit Tomatensoße</name>
           <note>Weizen</note>
           <note>glutenhaltiges Getreide</note>
           <price role="employee">4.15</price>
@@ -852,7 +822,7 @@
           <price role="student">3.35</price>
         </meal>
         <meal>
-          <name>Pennenudeln mit Tomatensoße</name>
+          <name>Pasta mit Tomatensoße</name>
           <note>Weizen</note>
           <note>glutenhaltiges Getreide</note>
           <price role="employee">4.15</price>
@@ -860,7 +830,7 @@
           <price role="student">2.80</price>
         </meal>
         <meal>
-          <name>Pennenudeln mit Carbonara - Soße</name>
+          <name>Pasta mit Carbonara - Soße</name>
           <note>Milch (einschließlich Lactose)</note>
           <note>Schwein</note>
           <note>Weizen</note>
@@ -874,7 +844,7 @@
           <price role="student">3.65</price>
         </meal>
         <meal>
-          <name>Pennenudeln mit Käsesoße</name>
+          <name>Pasta mit Käsesoße</name>
           <note>Milch (einschließlich Lactose)</note>
           <note>Weizen</note>
           <note>glutenhaltiges Getreide</note>
@@ -1034,7 +1004,7 @@
           <price role="student">3.35</price>
         </meal>
         <meal>
-          <name>Pennenudeln mit Tomatensoße</name>
+          <name>Pasta mit Tomatensoße</name>
           <note>Weizen</note>
           <note>glutenhaltiges Getreide</note>
           <price role="employee">4.15</price>
@@ -1042,7 +1012,7 @@
           <price role="student">2.80</price>
         </meal>
         <meal>
-          <name>Pennenudeln mit Carbonara - Soße</name>
+          <name>Pasta mit Carbonara - Soße</name>
           <note>Milch (einschließlich Lactose)</note>
           <note>Schwein</note>
           <note>Weizen</note>
@@ -1056,7 +1026,7 @@
           <price role="student">3.65</price>
         </meal>
         <meal>
-          <name>Pennenudeln mit Käsesoße</name>
+          <name>Pasta mit Käsesoße</name>
           <note>Milch (einschließlich Lactose)</note>
           <note>Weizen</note>
           <note>glutenhaltiges Getreide</note>
