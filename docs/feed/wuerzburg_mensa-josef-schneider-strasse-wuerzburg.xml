@@ -4,15 +4,17 @@
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
     <day date="2025-06-02">
-      <category name="Vegan">
+      <category name="Fleischlos">
         <meal>
-          <name>Veganer Hotpot &quot;Tandoori Style&quot;</name>
-          <note>Senf</note>
+          <name>Käsespätzle mit Röstzwiebeln</name>
+          <note>Eier</note>
+          <note>Milch (einschließlich Lactose)</note>
           <note>Weizen</note>
           <note>glutenhaltiges Getreide</note>
-          <price role="employee">4.45</price>
-          <price role="other">5.40</price>
-          <price role="student">3.10</price>
+          <note>mit Farbstoff</note>
+          <price role="employee">5.20</price>
+          <price role="other">6.15</price>
+          <price role="student">3.80</price>
         </meal>
       </category>
       <category name="Gefluegel">
@@ -31,6 +33,17 @@
       </category>
     </day>
     <day date="2025-06-03">
+      <category name="Vegan">
+        <meal>
+          <name>Veganer Hotpot &quot;Tandoori Style&quot;</name>
+          <note>Senf</note>
+          <note>Weizen</note>
+          <note>glutenhaltiges Getreide</note>
+          <price role="employee">4.45</price>
+          <price role="other">5.40</price>
+          <price role="student">3.10</price>
+        </meal>
+      </category>
       <category name="Schwein">
         <meal>
           <name>Currywurst</name>
@@ -45,19 +58,6 @@
           <price role="employee">4.45</price>
           <price role="other">5.40</price>
           <price role="student">3.10</price>
-        </meal>
-      </category>
-      <category name="Fleischlos">
-        <meal>
-          <name>Käsespätzle mit Röstzwiebeln</name>
-          <note>Eier</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">5.20</price>
-          <price role="other">6.15</price>
-          <price role="student">3.80</price>
         </meal>
       </category>
     </day>
