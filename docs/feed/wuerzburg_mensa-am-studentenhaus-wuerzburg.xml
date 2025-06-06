@@ -125,10 +125,14 @@
     <day date="2025-06-05">
       <category name="Vegan">
         <meal>
-          <name>mensaVital: Kichererbsen - Gemüse - Curry mit Basmatireis</name>
-          <price role="employee">4.15</price>
-          <price role="other">5.10</price>
-          <price role="student">2.80</price>
+          <name>Gemüseschnitzel mit Kartoffelsalat</name>
+          <note>Weizen</note>
+          <note>glutenhaltiges Getreide</note>
+          <note>konserviert</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">4.45</price>
+          <price role="other">5.40</price>
+          <price role="student">3.10</price>
         </meal>
         <meal>
           <name>Gebackene Kartoffelspiralen dazu Guacamoledip mit Walnüssen ,Zucchini und Tomaten</name>
@@ -153,27 +157,59 @@
           <price role="student">3.65</price>
         </meal>
       </category>
-      <category name="Rind">
+      <category name="Schwein">
         <meal>
-          <name>Cheese Burger</name>
+          <name>Currywurst</name>
+          <note>Rind/Kalb</note>
+          <note>Schwein</note>
+          <note>Senf</note>
+          <note>konserviert</note>
+          <note>mit Antioxidationsmittel</note>
+          <note>mit Farbstoff</note>
+          <note>mit Phosphat</note>
+          <note>mit Süßungsmittel</note>
+          <price role="employee">4.45</price>
+          <price role="other">5.40</price>
+          <price role="student">3.10</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2025-06-06">
+      <category name="Fleischlos">
+        <meal>
+          <name>Eine Portion fränkischer Spargel mit Soße Hollandaise</name>
           <note>Eier</note>
           <note>Gerste</note>
           <note>Milch (einschließlich Lactose)</note>
-          <note>Rind/Kalb</note>
           <note>Sellerie</note>
-          <note>Senf</note>
-          <note>Sesamsamen</note>
           <note>Weizen</note>
           <note>glutenhaltiges Getreide</note>
           <note>mit Farbstoff</note>
-          <note>mit Süßungsmittel</note>
           <price role="employee">6.30</price>
           <price role="other">7.25</price>
           <price role="student">4.85</price>
         </meal>
       </category>
-    </day>
-    <day date="2025-06-06">
+      <category name="Schwein">
+        <meal>
+          <name>Gefüllte Hirtenrolle &quot;Mediterran&quot; mit Metaxasoße</name>
+          <note>Alkohol</note>
+          <note>Gerste</note>
+          <note>Milch (einschließlich Lactose)</note>
+          <note>Schwefeldioxid und Sulfite</note>
+          <note>Schwein</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <note>Soja</note>
+          <note>Weizen</note>
+          <note>geschwefelt</note>
+          <note>glutenhaltiges Getreide</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">5.00</price>
+          <price role="other">5.95</price>
+          <price role="student">3.65</price>
+        </meal>
+      </category>
       <category name="Vegan">
         <meal>
           <name>Vegane Tortelloni mit Gemüsefüllung mit Tomatensoße</name>
@@ -182,19 +218,6 @@
           <price role="employee">4.15</price>
           <price role="other">5.10</price>
           <price role="student">2.80</price>
-        </meal>
-      </category>
-      <category name="Gefluegel">
-        <meal>
-          <name>mensaVital: Gebratene Hähnchenbruststreifen mit Honig und Senf, Kartoffeln und Salat</name>
-          <note>Geflügel</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Schalenfrüchte</note>
-          <note>Senf</note>
-          <note>Walnüsse</note>
-          <price role="employee">5.20</price>
-          <price role="other">6.15</price>
-          <price role="student">3.80</price>
         </meal>
       </category>
       <category name="Fisch">
@@ -213,13 +236,23 @@
       </category>
     </day>
     <day date="2025-06-10">
-      <category name="unknown">
+      <category name="Vegan">
         <meal>
-          <name>Ofenkartoffeln mit hausgemachtem Schnittlauchquark</name>
-          <note>Milch (einschließlich Lactose)</note>
-          <price role="employee">4.45</price>
-          <price role="other">5.40</price>
-          <price role="student">3.10</price>
+          <name>Veganer Riesenrösti &quot;Italia&quot;</name>
+          <note>mit Farbstoff</note>
+          <price role="employee">5.00</price>
+          <price role="other">5.95</price>
+          <price role="student">3.65</price>
+        </meal>
+        <meal>
+          <name>Brokkolinudeln</name>
+          <note>Hafer</note>
+          <note>Weizen</note>
+          <note>glutenhaltiges Getreide</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">3.65</price>
+          <price role="other">4.60</price>
+          <price role="student">2.35</price>
         </meal>
       </category>
       <category name="Gefluegel">
@@ -235,35 +268,15 @@
           <price role="student">4.10</price>
         </meal>
       </category>
-      <category name="Vegan">
-        <meal>
-          <name>Brokkolinudeln</name>
-          <note>Hafer</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <price role="employee">3.65</price>
-          <price role="other">4.60</price>
-          <price role="student">2.35</price>
-        </meal>
-      </category>
     </day>
     <day date="2025-06-11">
-      <category name="Vegan">
+      <category name="unknown">
         <meal>
-          <name>Veganer Riesenrösti &quot;Italia&quot;</name>
-          <note>mit Farbstoff</note>
-          <price role="employee">5.00</price>
-          <price role="other">5.95</price>
-          <price role="student">3.65</price>
-        </meal>
-        <meal>
-          <name>Curry - Tofuwrap mit Linsenaufstrich und Rotkohlslaw</name>
-          <note>Soja</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <price role="employee">4.15</price>
-          <price role="other">5.10</price>
-          <price role="student">2.80</price>
+          <name>Ofenkartoffeln mit hausgemachtem Schnittlauchquark</name>
+          <note>Milch (einschließlich Lactose)</note>
+          <price role="employee">4.45</price>
+          <price role="other">5.40</price>
+          <price role="student">3.10</price>
         </meal>
       </category>
       <category name="Schwein">
@@ -274,6 +287,17 @@
           <price role="employee">4.15</price>
           <price role="other">5.10</price>
           <price role="student">2.80</price>
+        </meal>
+      </category>
+      <category name="Vegan">
+        <meal>
+          <name>mensaVital: Vollkornspaghetti mit Bolognese von roten Linsen</name>
+          <note>Sellerie</note>
+          <note>Weizen</note>
+          <note>glutenhaltiges Getreide</note>
+          <price role="employee">3.65</price>
+          <price role="other">4.60</price>
+          <price role="student">2.35</price>
         </meal>
       </category>
     </day>
