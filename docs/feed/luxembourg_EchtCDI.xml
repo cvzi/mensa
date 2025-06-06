@@ -3,41 +3,212 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2025-05-26">
-      <closed/>
-    </day>
-    <day date="2025-05-27">
-      <closed/>
-    </day>
-    <day date="2025-05-28">
-      <closed/>
-    </day>
-    <day date="2025-05-29">
-      <closed/>
-    </day>
-    <day date="2025-05-30">
-      <closed/>
-    </day>
-    <day date="2025-05-31">
-      <closed/>
-    </day>
-    <day date="2025-06-01">
-      <closed/>
-    </day>
     <day date="2025-06-02">
-      <closed/>
+      <category name="Entrée">
+        <meal>
+          <name>Oeuf macédoine à la mayonnaise</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Moutarde et produits à base de moutarde</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Produit sans gluten</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Potage au chou fleur</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Produit sans gluten</note>
+          <note>Soja et produits à base de soja</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Végétarien">
+        <meal>
+          <name>Feuilles de bricks au tofu, oignons fanes et moutarde, dip Tzatziki</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Soja et produits à base de soja</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Non-végétarien">
+        <meal>
+          <name>Omelette fromage, lardons et herbes fraîches</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Produit sans gluten</note>
+          <note>non-végétarien</note>
+        </meal>
+      </category>
+      <category name="Féculents">
+        <meal>
+          <name>Pommes de terre sautées</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Produit sans gluten</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Légumes">
+        <meal>
+          <name>Laitue Mimosa</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Moutarde et produits à base de moutarde</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Produit sans gluten</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Dessert">
+        <meal>
+          <name>Mousse au chocolat, chantilly à la vanille</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Produit sans gluten</note>
+          <note>Soja et produits à base de soja</note>
+          <note>produit Fairtrade</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
     </day>
     <day date="2025-06-03">
       <closed/>
     </day>
     <day date="2025-06-04">
-      <closed/>
+      <category name="Entrée">
+        <meal>
+          <name>Gaspacho</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Produit sans gluten</note>
+          <note>végan</note>
+        </meal>
+        <meal>
+          <name>Rouleaux de printemps, dip aux cacahuètes</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Arachides et produits à base d‘arachides</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Mollusques et produits à base de mollusques</note>
+          <note>Soja et produits à base de soja</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Végétarien">
+        <meal>
+          <name>Lasagne au quorn</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Soja et produits à base de soja</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Non-végétarien">
+        <meal>
+          <name>Boeuf sauté au gingembre et lait de coco</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Produit sans gluten</note>
+          <note>Soja et produits à base de soja</note>
+          <note>non-végétarien</note>
+        </meal>
+      </category>
+      <category name="Féculents">
+        <meal>
+          <name>Quinoa au bouillon corsé</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Produit sans gluten</note>
+          <note>Soja et produits à base de soja</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Légumes">
+        <meal>
+          <name>Courgettes aux oignons</name>
+          <note>Produit sans gluten</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Dessert">
+        <meal>
+          <name>Mousse de cerises au fromage blanc</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
     </day>
     <day date="2025-06-05">
       <closed/>
     </day>
     <day date="2025-06-06">
-      <closed/>
+      <category name="Entrée">
+        <meal>
+          <name>Salade de lentilles, tomates cerises, feta et menthe</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Moutarde et produits à base de moutarde</note>
+          <note>Produit sans gluten</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Soupe de céleri</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Produit sans gluten</note>
+          <note>Soja et produits à base de soja</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Végétarien">
+        <meal>
+          <name>Boulettes de lentilles tomatées, dip au yaourt citronné</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Moutarde et produits à base de moutarde</note>
+          <note>Produit sans gluten</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Non-végétarien">
+        <meal>
+          <name>Bouchée à la Reine</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>non-végétarien</note>
+        </meal>
+      </category>
+      <category name="Féculents">
+        <meal>
+          <name>Riz pilaf</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Produit sans gluten</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Légumes">
+        <meal>
+          <name>Petits pois aux échalotes</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Produit sans gluten</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Dessert">
+        <meal>
+          <name>Tiramisu à la ricotta, thé Matcha et fraises</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
     </day>
     <day date="2025-06-07">
       <closed/>
@@ -52,13 +223,147 @@
       <closed/>
     </day>
     <day date="2025-06-11">
-      <closed/>
+      <category name="Entrée (07:00 - 15:00)">
+        <meal>
+          <name>Potage aux légumes</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Produit sans gluten</note>
+          <note>Soja et produits à base de soja</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Tapas variés</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Produit sans gluten</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Végétarien (07:00 - 15:00)">
+        <meal>
+          <name>Paëlla aux dés de quorn</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Produit sans gluten</note>
+          <note>Soja et produits à base de soja</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Non-végétarien (07:00 - 15:00)">
+        <meal>
+          <name>Filet de merlan rôti au four à l'huile d'olive, sauce aïoli maison</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Poissons et produits à base de poissons</note>
+          <note>Produit sans gluten</note>
+          <note>non-végétarien</note>
+        </meal>
+      </category>
+      <category name="Féculents (07:00 - 15:00)">
+        <meal>
+          <name>Pommes de terre persillées</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Produit sans gluten</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Légumes (07:00 - 15:00)">
+        <meal>
+          <name>Fondue de poireaux au beurre</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Produit sans gluten</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Dessert (07:00 - 15:00)">
+        <meal>
+          <name>Tarte au fromage blanc</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
     </day>
     <day date="2025-06-12">
       <closed/>
     </day>
     <day date="2025-06-13">
-      <closed/>
+      <category name="Entrée (07:00 - 15:00)">
+        <meal>
+          <name>Mini bouchée au quorn</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Soja et produits à base de soja</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Soupe de carottes</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Produit sans gluten</note>
+          <note>Soja et produits à base de soja</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Végétarien (07:00 - 15:00)">
+        <meal>
+          <name>Gyros de seitan, dip yaourt grec</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Soja et produits à base de soja</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Non-végétarien (07:00 - 15:00)">
+        <meal>
+          <name>Crispy Barbecue Chicken Wings, sauce crème ciboulette</name>
+          <note>Ailerons de poulet croustillants, marinés BBQ</note>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Moutarde et produits à base de moutarde</note>
+          <note>Produit sans gluten</note>
+          <note>Soja et produits à base de soja</note>
+          <note>non-végétarien</note>
+        </meal>
+      </category>
+      <category name="Féculents (07:00 - 15:00)">
+        <meal>
+          <name>Bâtonnets de polenta sautés</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Soja et produits à base de soja</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Légumes (07:00 - 15:00)">
+        <meal>
+          <name>Petits pois aux oignons et persil</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Produit sans gluten</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Dessert (07:00 - 15:00)">
+        <meal>
+          <name>Tarte au chocolat</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Fruits à coque et produits à base de ces fruits (Amandes)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Soja et produits à base de soja</note>
+          <note>produit Fairtrade</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
     </day>
     <day date="2025-06-14">
       <closed/>
@@ -67,13 +372,105 @@
       <closed/>
     </day>
     <day date="2025-06-16">
-      <closed/>
+      <category name="Entrée (07:00 - 15:00)">
+        <meal>
+          <name>Clafoutis aux courgettes et oignons fanes</name>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Soupe aux petits pois</name>
+          <note>Produit sans gluten</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Végétarien (07:00 - 15:00)">
+        <meal>
+          <name>Duo de summerrolls, dip aux cacahuètes et sauce Tamari</name>
+          <note>Produit sans gluten</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Non-végétarien (07:00 - 15:00)">
+        <meal>
+          <name>Chili con carne</name>
+          <note>Produit sans gluten</note>
+          <note>non-végétarien</note>
+        </meal>
+      </category>
+      <category name="Féculents (07:00 - 15:00)">
+        <meal>
+          <name>Riz pilaf</name>
+          <note>Produit sans gluten</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Légumes (07:00 - 15:00)">
+        <meal>
+          <name>Poêlée de poivrons aux oignons</name>
+          <note>Produit sans gluten</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Dessert (07:00 - 15:00)">
+        <meal>
+          <name>Crumble aux abricots et pêches</name>
+          <note>végétarien</note>
+        </meal>
+      </category>
     </day>
     <day date="2025-06-17">
       <closed/>
     </day>
     <day date="2025-06-18">
-      <closed/>
+      <category name="Entrée (07:00 - 15:00)">
+        <meal>
+          <name>Crêpe farcie au fromage frais et ciboulette</name>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Potage de tomates au basilic</name>
+          <note>Produit sans gluten</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Végétarien (07:00 - 15:00)">
+        <meal>
+          <name>Moussaka végétarienne</name>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Non-végétarien (07:00 - 15:00)">
+        <meal>
+          <name>Assiette de Gyros de boeuf</name>
+          <note>Produit sans gluten</note>
+          <note>non-végétarien</note>
+        </meal>
+      </category>
+      <category name="Féculents (07:00 - 15:00)">
+        <meal>
+          <name>Pommes de terre &quot;wedges&quot; maison</name>
+          <note>Produit sans gluten</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Légumes (07:00 - 15:00)">
+        <meal>
+          <name>Champignons bruns persillés</name>
+          <note>Produit sans gluten</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Légumes Gyros</name>
+          <note>Produit sans gluten</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Dessert (07:00 - 15:00)">
+        <meal>
+          <name>Chou façon Saint Honoré</name>
+          <note>végétarien</note>
+        </meal>
+      </category>
     </day>
     <day date="2025-06-19">
       <closed/>
@@ -85,6 +482,72 @@
       <closed/>
     </day>
     <day date="2025-06-22">
+      <closed/>
+    </day>
+    <day date="2025-06-23">
+      <closed/>
+    </day>
+    <day date="2025-06-24">
+      <closed/>
+    </day>
+    <day date="2025-06-25">
+      <category name="Entrée (07:00 - 15:00)">
+        <meal>
+          <name>Potage aux épinards</name>
+          <note>Produit sans gluten</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Sushi concombre et fromage, sauce Tamari</name>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Végétarien (07:00 - 15:00)">
+        <meal>
+          <name>Polenta crémeuse aux aubergines, tomates et courgettes, pesto au persil</name>
+          <note>Produit sans gluten</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Non-végétarien (07:00 - 15:00)">
+        <meal>
+          <name>Korean Chicken Burger, spicy mayo</name>
+          <note>Burger de poulet coréen, mayo épicée</note>
+          <note>non-végétarien</note>
+        </meal>
+      </category>
+      <category name="Féculents (07:00 - 15:00)">
+        <meal>
+          <name>Pommes de terre au four, crème aigre aux herbes</name>
+          <note>Produit sans gluten</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Légumes (07:00 - 15:00)">
+        <meal>
+          <name>Salade asiatique</name>
+          <note>Produit sans gluten</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Dessert (07:00 - 15:00)">
+        <meal>
+          <name>Duo de mousse au chocolat</name>
+          <note>produit Fairtrade</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+    </day>
+    <day date="2025-06-26">
+      <closed/>
+    </day>
+    <day date="2025-06-27">
+      <closed/>
+    </day>
+    <day date="2025-06-28">
+      <closed/>
+    </day>
+    <day date="2025-06-29">
       <closed/>
     </day>
   </canteen>
@@ -112,36 +575,4 @@
 
 <!-- Theme day: Fermeture [restaurant=119] -->
 
-<!-- Theme day: Fermeture [restaurant=119] -->
-
-<!-- Theme day: Fermeture [restaurant=119] -->
-
-<!-- Theme day: Fermeture [restaurant=119] -->
-
-<!-- Theme day: Fermeture [restaurant=119] -->
-
-<!-- Theme day: Fermeture [restaurant=119] -->
-
-<!-- Theme day: Fermeture [restaurant=119] -->
-
-<!-- Theme day: Fermeture [restaurant=119] -->
-
-<!-- Theme day: Fermeture [restaurant=119] -->
-
-<!-- Theme day: Fermeture [restaurant=119] -->
-
-<!-- Theme day: Fermeture [restaurant=119] -->
-
-<!-- Theme day: Fermeture [restaurant=119] -->
-
-<!-- Theme day: Fermeture [restaurant=119] -->
-
-<!-- Theme day: Fermeture [restaurant=119] -->
-
-<!-- Theme day: Fermeture [restaurant=119] -->
-
-<!-- Theme day: Fermeture [restaurant=119] -->
-
-<!-- Theme day: Fermeture [restaurant=119] -->
-
-<!-- Theme day: Fermeture [restaurant=119] -->
+<!-- Theme day: Journée pédagogique [restaurant=119] -->
