@@ -459,7 +459,7 @@
           <price role="student">2.60</price>
         </meal>
         <meal>
-          <name>Falafel mit Hummus, Aubergine und Tomatensalat</name>
+          <name>Falafel mit Hummus, Aubergine und Krautsalat</name>
           <note>Schwefeldioxid und Sulfite</note>
           <note>Senf</note>
           <note>Sesamsamen</note>
@@ -570,14 +570,68 @@
       </category>
     </day>
     <day date="2025-06-13">
+      <category name="Vegan">
+        <meal>
+          <name>mensaVital: Linsen - Kartoffel - Kokos - Pfanne</name>
+          <price role="employee">3.65</price>
+          <price role="other">4.60</price>
+          <price role="student">2.35</price>
+        </meal>
+        <meal>
+          <name>Gebratener Reis mit Asiagemüse, Sprossen, Koriander</name>
+          <note>Sellerie</note>
+          <note>Sesamsamen</note>
+          <note>Soja</note>
+          <note>Weizen</note>
+          <note>glutenhaltiges Getreide</note>
+          <note>konserviert</note>
+          <price role="employee">5.20</price>
+          <price role="other">6.15</price>
+          <price role="student">3.80</price>
+        </meal>
+        <meal>
+          <name>Pasta mit Tomatensoße</name>
+          <note>Weizen</note>
+          <note>glutenhaltiges Getreide</note>
+          <price role="employee">3.90</price>
+          <price role="other">4.85</price>
+          <price role="student">2.60</price>
+        </meal>
+        <meal>
+          <name>Vegane Ravioli &quot;Gemüse Dal&quot; mit Kokos - Karottensoße</name>
+          <note>Soja</note>
+          <note>Weizen</note>
+          <note>glutenhaltiges Getreide</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">5.20</price>
+          <price role="other">6.15</price>
+          <price role="student">3.80</price>
+        </meal>
+      </category>
+      <category name="Fisch">
+        <meal>
+          <name>Seelachsfilet gebacken mit Remouladensoße</name>
+          <note>Eier</note>
+          <note>Fisch</note>
+          <note>Fische</note>
+          <note>Senf</note>
+          <note>Weizen</note>
+          <note>glutenhaltiges Getreide</note>
+          <note>mit Farbstoff</note>
+          <note>mit Süßungsmittel</note>
+          <price role="employee">4.70</price>
+          <price role="other">5.65</price>
+          <price role="student">3.35</price>
+        </meal>
+      </category>
       <category name="Gefluegel">
         <meal>
-          <name>Sommerlicher Salatteller mit Putengyros</name>
+          <name>Sommerlicher Salatteller mit Hähnchnebrust &quot;Gyros Style&quot;</name>
           <note>Eier</note>
+          <note>Geflügel</note>
           <note>Gerste</note>
           <note>Milch (einschließlich Lactose)</note>
           <note>Schwefeldioxid und Sulfite</note>
-          <note>Schwein</note>
           <note>Sellerie</note>
           <note>Senf</note>
           <note>Weizen</note>
@@ -630,46 +684,6 @@
           <price role="employee">6.20</price>
           <price role="other">7.15</price>
           <price role="student">4.75</price>
-        </meal>
-      </category>
-      <category name="Vegan">
-        <meal>
-          <name>Gebratener Reis mit Asiagemüse, Sprossen, Koriander</name>
-          <note>Sellerie</note>
-          <note>Sesamsamen</note>
-          <note>Soja</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>konserviert</note>
-          <price role="employee">5.20</price>
-          <price role="other">6.15</price>
-          <price role="student">3.80</price>
-        </meal>
-        <meal>
-          <name>Pasta mit Tomatensoße</name>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <price role="employee">3.90</price>
-          <price role="other">4.85</price>
-          <price role="student">2.60</price>
-        </meal>
-        <meal>
-          <name>Vegane Ravioli &quot;Gemüse Dal&quot; mit Kokos - Karottensoße</name>
-          <note>Soja</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">5.20</price>
-          <price role="other">6.15</price>
-          <price role="student">3.80</price>
-        </meal>
-        <meal>
-          <name>Gemüsereis &quot;Balkan Art&quot; mit Kokos - Karottensoße</name>
-          <note>Sellerie</note>
-          <note>mit Antioxidationsmittel</note>
-          <price role="employee">3.40</price>
-          <price role="other">4.35</price>
-          <price role="student">2.10</price>
         </meal>
       </category>
       <category name="Schwein">
@@ -741,27 +755,6 @@
           <price role="employee">5.50</price>
           <price role="other">6.45</price>
           <price role="student">4.10</price>
-        </meal>
-      </category>
-      <category name="Fisch">
-        <meal>
-          <name>Fish´n Chips</name>
-          <note>Eier</note>
-          <note>Fisch</note>
-          <note>Fische</note>
-          <note>Gerste</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <note>Weizen</note>
-          <note>geschwefelt</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>mit Farbstoff</note>
-          <note>mit Süßungsmittel</note>
-          <price role="employee">5.90</price>
-          <price role="other">6.85</price>
-          <price role="student">4.45</price>
         </meal>
       </category>
     </day>
