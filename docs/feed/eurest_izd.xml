@@ -3,10 +3,16 @@
 <?xml-stylesheet type="text/css" href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css"?>
 <openmensa xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2025-06-16">
+    <day date="2025-06-23">
       <category name="Suppe 1">
         <meal>
-          <name>Klare Gemüsesuppe</name>
+          <name>Klare Rindsuppe</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+        <meal>
+          <name>Erbsenschöberl</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
           <note>Sellerie (L)</note>
@@ -17,70 +23,78 @@
           <note>Ei (C)</note>
           <note>Sellerie (L)</note>
         </meal>
-        <meal>
-          <name>Sternchen</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Sellerie (L)</note>
-        </meal>
       </category>
       <category name="Suppe 2">
         <meal>
-          <name>Libanesische Rote Linsensuppe
-mit Koriander und Tomaten</name>
+          <name>Tomatencremesuppe</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+        <meal>
+          <name>Blätterteigstangerl mit Oregano</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
           <note>Sellerie (L)</note>
         </meal>
       </category>
       <category name="SCHMANKERL &amp; VITAL 1">
         <meal>
-          <name>Planted Pulled Teriyaki
-mit geschmorten Melanzani</name>
+          <name>Rotes Linsen Dal</name>
           <note>Glutenhaltiges Getreide (A)</note>
-          <note>Soja (F)</note>
-          <note>Sellerie (L)</note>
           <note>Sesam (N)</note>
         </meal>
         <meal>
-          <name>Jasminreis</name>
+          <name>gegrillte Zucchinischeiben</name>
           <note>Glutenhaltiges Getreide (A)</note>
-          <note>Soja (F)</note>
-          <note>Sellerie (L)</note>
+          <note>Sesam (N)</note>
+        </meal>
+        <meal>
+          <name>Fladenbrot</name>
+          <note>Glutenhaltiges Getreide (A)</note>
           <note>Sesam (N)</note>
         </meal>
       </category>
       <category name="SCHMANKERL &amp; VITAL 2">
         <meal>
-          <name>Chili con Carne vom Rinds Faschierten</name>
+          <name>Kalbspolpetti in Tomatensauce</name>
           <note>Glutenhaltiges Getreide (A)</note>
-          <note>Soja (F)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Sesam (N)</note>
+          <note>Ei (C)</note>
+          <note>Sulfite (O)</note>
         </meal>
         <meal>
-          <name>Baguette</name>
+          <name>Spaghetti</name>
           <note>Glutenhaltiges Getreide (A)</note>
-          <note>Soja (F)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Sesam (N)</note>
+          <note>Ei (C)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+        <meal>
+          <name>Tomatensauce</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Sulfite (O)</note>
         </meal>
       </category>
       <category name="SCHMANKERL &amp; VITAL 3">
         <meal>
-          <name>Fish &amp; Chips vom Kabeljau • Steakhouse frites</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Fisch (D)</note>
-          <note>Milch oder Laktose (G)</note>
+          <name>Putenfilet gegrillt</name>
+          <note>Soja (F)</note>
+          <note>Sellerie (L)</note>
         </meal>
         <meal>
-          <name>Erbsenmousse -Beilage-</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Fisch (D)</note>
-          <note>Milch oder Laktose (G)</note>
+          <name>Süsskartoffel - Selleriepüree</name>
+          <note>Soja (F)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+        <meal>
+          <name>Broccoli KdG.   -Beilage-</name>
+          <note>Soja (F)</note>
+          <note>Sellerie (L)</note>
         </meal>
       </category>
-      <category name="Wochenspecial">
+      <category name="Master Bowl">
         <meal>
           <name>Create your own Bowl
 Frischer Nishikireis •
@@ -100,159 +114,8 @@ vegane Trüffelcreme • vegane Sesamsauce • vegane Spicy Korean Sauce
           <note>Soja (F)</note>
         </meal>
       </category>
-      <category name="Master Bowl">
-        <meal>
-          <name>Create your own Bowl
-Frischer Nishikireis •
-vegane Trüffelcreme • vegane Sesamsauce • vegane Spicy Korean Sauce
-</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Krebstiere (B)</note>
-          <note>Soja (F)</note>
-          <note>Sesam (N)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-        <meal>
-          <name>Teriyaki Garnelen Spieß</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Krebstiere (B)</note>
-          <note>Soja (F)</note>
-          <note>Sesam (N)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-        <meal>
-          <name>Falafel</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Krebstiere (B)</note>
-          <note>Soja (F)</note>
-          <note>Sesam (N)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-      </category>
     </day>
-    <day date="2025-06-17">
-      <category name="Suppe 1">
-        <meal>
-          <name>Klare Hühnersuppe</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Sellerie (L)</note>
-        </meal>
-        <meal>
-          <name>Rollgerste</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Sellerie (L)</note>
-        </meal>
-        <meal>
-          <name>und frischem Schnittlauch</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Sellerie (L)</note>
-        </meal>
-      </category>
-      <category name="Suppe 2">
-        <meal>
-          <name>Broccolicremesuppe</name>
-          <note>Schalenfrüchte (H)</note>
-          <note>Sellerie (L)</note>
-        </meal>
-        <meal>
-          <name>geröstete Mandelsplitter</name>
-          <note>Schalenfrüchte (H)</note>
-          <note>Sellerie (L)</note>
-        </meal>
-      </category>
-      <category name="SCHMANKERL &amp; VITAL 1">
-        <meal>
-          <name>Gefüllte Zucchini mit Tempeh</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Soja (F)</note>
-        </meal>
-        <meal>
-          <name>Gurken - Tomaten Raita</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Soja (F)</note>
-        </meal>
-        <meal>
-          <name>Zitronen - Couscous mit Kichererbsen</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Soja (F)</note>
-        </meal>
-      </category>
-      <category name="SCHMANKERL &amp; VITAL 2">
-        <meal>
-          <name>Ungarisches Reisfleisch mit roter Paprikasauce
-und frischem Parmesan</name>
-          <note>Ei (C)</note>
-          <note>Milch oder Laktose (G)</note>
-        </meal>
-      </category>
-      <category name="SCHMANKERL &amp; VITAL 3">
-        <meal>
-          <name>Kebap IZD Komplett </name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-      </category>
-      <category name="Wochenspecial">
-        <meal>
-          <name>Create your own Bowl
-Frischer Nishikireis •
-vegane Trüffelcreme • vegane Sesamsauce • vegane Spicy Korean Sauce
-</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Krebstiere (B)</note>
-          <note>Soja (F)</note>
-          <note>Sesam (N)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-        <meal>
-          <name>Teriyaki Garnelen Spieß</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Krebstiere (B)</note>
-          <note>Soja (F)</note>
-          <note>Sesam (N)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-        <meal>
-          <name>Falafel</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Krebstiere (B)</note>
-          <note>Soja (F)</note>
-          <note>Sesam (N)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-      </category>
-      <category name="Master Bowl">
-        <meal>
-          <name>Create your own Bowl
-Frischer Nishikireis •
-vegane Trüffelcreme • vegane Sesamsauce • vegane Spicy Korean Sauce
-</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Krebstiere (B)</note>
-          <note>Soja (F)</note>
-          <note>Sesam (N)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-        <meal>
-          <name>Teriyaki Garnelen Spieß</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Krebstiere (B)</note>
-          <note>Soja (F)</note>
-          <note>Sesam (N)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-        <meal>
-          <name>Falafel</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Krebstiere (B)</note>
-          <note>Soja (F)</note>
-          <note>Sesam (N)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-      </category>
-    </day>
-    <day date="2025-06-18">
+    <day date="2025-06-24">
       <category name="Suppe 1">
         <meal>
           <name>Klare Gemüsesuppe</name>
@@ -262,14 +125,21 @@ vegane Trüffelcreme • vegane Sesamsauce • vegane Spicy Korean Sauce
           <note>Sellerie (L)</note>
         </meal>
         <meal>
-          <name>und frischem Schnittlauch</name>
+          <name>Parmesan Nockerl</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
           <note>Milch oder Laktose (G)</note>
           <note>Sellerie (L)</note>
         </meal>
         <meal>
-          <name>Frittaten hausgemacht</name>
+          <name>Wurzelgemüse</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+        <meal>
+          <name>und frischem Schnittlauch</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
           <note>Milch oder Laktose (G)</note>
@@ -278,14 +148,119 @@ vegane Trüffelcreme • vegane Sesamsauce • vegane Spicy Korean Sauce
       </category>
       <category name="Suppe 2">
         <meal>
-          <name>Schwammerlcremesuppe</name>
-          <note>Glutenhaltiges Getreide (A)</note>
+          <name>Zucchinicremesuppe</name>
           <note>Milch oder Laktose (G)</note>
           <note>Sellerie (L)</note>
         </meal>
         <meal>
-          <name>tomatisierte Ciabatta Croutons</name>
+          <name>Schlagobers</name>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+      </category>
+      <category name="SCHMANKERL &amp; VITAL 1">
+        <meal>
+          <name>Toskanischer Brotsalat "Panzanella"
+mit Cherrytomaten, roten Zwiebeln und frischen Basilikum</name>
           <note>Glutenhaltiges Getreide (A)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+      </category>
+      <category name="SCHMANKERL &amp; VITAL 2">
+        <meal>
+          <name>Chicken Tikka Masala Indisch</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Schalenfrüchte (H)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+        <meal>
+          <name>Basmatireis</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Schalenfrüchte (H)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+      </category>
+      <category name="SCHMANKERL &amp; VITAL 3">
+        <meal>
+          <name>Cevapcici • Kräuterbutter •
+Djuvec • Ajvar
+
+Allergene G • M
+</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Soja (F)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Senf (M)</note>
+        </meal>
+        <meal>
+          <name>Bratkartoffelscheiben •</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Soja (F)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Senf (M)</note>
+        </meal>
+      </category>
+      <category name="Master Bowl">
+        <meal>
+          <name>Create your own Bowl
+Frischer Nishikireis •
+vegane Trüffelcreme • vegane Sesamsauce • vegane Spicy Korean Sauce
+</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
+        </meal>
+        <meal>
+          <name>Hühner Saté Spieße</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
+        </meal>
+        <meal>
+          <name>gegrillte Zucchinischeiben</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
+        </meal>
+      </category>
+    </day>
+    <day date="2025-06-25">
+      <category name="Suppe 1">
+        <meal>
+          <name>Klare Hühnersuppe</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+        <meal>
+          <name>und frischem Schnittlauch</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+        <meal>
+          <name>Suppennudeln</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+      </category>
+      <category name="Suppe 2">
+        <meal>
+          <name>Champignoncremesuppe</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Soja (F)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+        <meal>
+          <name>Pesto Croutons</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Soja (F)</note>
           <note>Milch oder Laktose (G)</note>
           <note>Sellerie (L)</note>
         </meal>
@@ -298,7 +273,7 @@ vegane Trüffelcreme • vegane Sesamsauce • vegane Spicy Korean Sauce
           <note>Milch oder Laktose (G)</note>
         </meal>
         <meal>
-          <name>Leichte Käsesauce</name>
+          <name>Limonensauce</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
           <note>Milch oder Laktose (G)</note>
@@ -310,7 +285,7 @@ vegane Trüffelcreme • vegane Sesamsauce • vegane Spicy Korean Sauce
           <note>Milch oder Laktose (G)</note>
         </meal>
         <meal>
-          <name>Kresse</name>
+          <name>Rucola Garnitur</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
           <note>Milch oder Laktose (G)</note>
@@ -318,19 +293,19 @@ vegane Trüffelcreme • vegane Sesamsauce • vegane Spicy Korean Sauce
       </category>
       <category name="SCHMANKERL &amp; VITAL 2">
         <meal>
-          <name>Petersilien Erdäpfeln</name>
+          <name>Buttererdäpfeln</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
           <note>Milch oder Laktose (G)</note>
         </meal>
         <meal>
-          <name>Zitrone</name>
+          <name>Preiselbeeren</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
           <note>Milch oder Laktose (G)</note>
         </meal>
         <meal>
-          <name>Cordon Bleu von der Pute • Edamer • Putenschinken</name>
+          <name>Gebackenes Hühnerschnitzel</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
           <note>Milch oder Laktose (G)</note>
@@ -338,40 +313,28 @@ vegane Trüffelcreme • vegane Sesamsauce • vegane Spicy Korean Sauce
       </category>
       <category name="SCHMANKERL &amp; VITAL 3">
         <meal>
-          <name>Blattsalat, Senfdressing
-frische Beeren
-Gegrillte Hühnerbruststreifen</name>
+          <name>Kap Seehechtfilet á la Basilico, mit Zucchini-Erdäpfelpüree B.Ch.</name>
+          <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
+          <note>Fisch (D)</note>
+          <note>Soja (F)</note>
           <note>Milch oder Laktose (G)</note>
+          <note>Schalenfrüchte (H)</note>
+          <note>Sellerie (L)</note>
           <note>Senf (M)</note>
-        </meal>
-      </category>
-      <category name="Wochenspecial">
-        <meal>
-          <name>Create your own Bowl
-Frischer Nishikireis •
-vegane Trüffelcreme • vegane Sesamsauce • vegane Spicy Korean Sauce
-</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Krebstiere (B)</note>
-          <note>Soja (F)</note>
-          <note>Sesam (N)</note>
           <note>Sulfite (O)</note>
         </meal>
         <meal>
-          <name>Teriyaki Garnelen Spieß</name>
+          <name>Linse Taboulè 
+mit Cranberry</name>
           <note>Glutenhaltiges Getreide (A)</note>
-          <note>Krebstiere (B)</note>
+          <note>Ei (C)</note>
+          <note>Fisch (D)</note>
           <note>Soja (F)</note>
-          <note>Sesam (N)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-        <meal>
-          <name>Falafel</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Krebstiere (B)</note>
-          <note>Soja (F)</note>
-          <note>Sesam (N)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Schalenfrüchte (H)</note>
+          <note>Sellerie (L)</note>
+          <note>Senf (M)</note>
           <note>Sulfite (O)</note>
         </meal>
       </category>
@@ -381,85 +344,89 @@ vegane Trüffelcreme • vegane Sesamsauce • vegane Spicy Korean Sauce
 Frischer Nishikireis •
 vegane Trüffelcreme • vegane Sesamsauce • vegane Spicy Korean Sauce
 </name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Soja (F)</note>
+          <note>Sulfite (O)</note>
         </meal>
         <meal>
-          <name>Hühner Saté Spieße</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Soja (F)</note>
+          <name>Planted Gyros</name>
+          <note>Sulfite (O)</note>
         </meal>
         <meal>
-          <name>gegrillte Zucchinischeiben</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Soja (F)</note>
+          <name>Rote Linsen - Kokosbällchen </name>
+          <note>Sulfite (O)</note>
         </meal>
       </category>
     </day>
-    <day date="2025-06-19">
-      <closed/>
-    </day>
-    <day date="2025-06-20">
+    <day date="2025-06-26">
+      <category name="Suppe 1">
+        <meal>
+          <name>Klare Rindsuppe</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+        <meal>
+          <name>Erbsenschöberl</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+        <meal>
+          <name>und frischem Schnittlauch</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+      </category>
       <category name="Suppe 2">
         <meal>
-          <name>Gemüsecremesuppe</name>
+          <name>Minestrone</name>
+          <note>Glutenhaltiges Getreide (A)</note>
           <note>Sellerie (L)</note>
         </meal>
       </category>
       <category name="SCHMANKERL &amp; VITAL 1">
         <meal>
-          <name>Wokgemüse</name>
+          <name>Champignon à la creme</name>
           <note>Glutenhaltiges Getreide (A)</note>
-          <note>Soja (F)</note>
-          <note>Schalenfrüchte (H)</note>
-          <note>Sesam (N)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
           <note>Sulfite (O)</note>
         </meal>
         <meal>
-          <name>Wokgemüse • 
-Jasminreis • Asia Sauce •
-gerösteten Cashewkernen
-
-Allergene F • H • N </name>
+          <name>Serviettenknödel</name>
           <note>Glutenhaltiges Getreide (A)</note>
-          <note>Soja (F)</note>
-          <note>Schalenfrüchte (H)</note>
-          <note>Sesam (N)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-        <meal>
-          <name>Jasminreis</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Soja (F)</note>
-          <note>Schalenfrüchte (H)</note>
-          <note>Sesam (N)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
           <note>Sulfite (O)</note>
         </meal>
       </category>
       <category name="SCHMANKERL &amp; VITAL 2">
         <meal>
-          <name>Buntbarschfilet Gebacken</name>
+          <name>Pulled Pork - Burrito</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
-          <note>Fisch (D)</note>
           <note>Milch oder Laktose (G)</note>
           <note>Senf (M)</note>
+          <note>Sulfite (O)</note>
         </meal>
         <meal>
-          <name>Erdäpfelsalat</name>
+          <name>Ofenkartoffel • Chilibohnen • 
+Cheddar • Sauerrahm • 
+Guacamole</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
-          <note>Fisch (D)</note>
           <note>Milch oder Laktose (G)</note>
           <note>Senf (M)</note>
+          <note>Sulfite (O)</note>
         </meal>
+      </category>
+      <category name="SCHMANKERL &amp; VITAL 3">
         <meal>
-          <name>Sauce Tartare</name>
+          <name>Pinsa Romana mit Prosciutto, Rucola und Grana </name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
-          <note>Fisch (D)</note>
+          <note>Soja (F)</note>
           <note>Milch oder Laktose (G)</note>
-          <note>Senf (M)</note>
         </meal>
       </category>
       <category name="Master Bowl">
@@ -468,25 +435,90 @@ Allergene F • H • N </name>
 Frischer Nishikireis •
 vegane Trüffelcreme • vegane Sesamsauce • vegane Spicy Korean Sauce
 </name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Soja (F)</note>
+          <note>Sulfite (O)</note>
         </meal>
         <meal>
-          <name>Hühner Saté Spieße</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Soja (F)</note>
+          <name>Planted Gyros</name>
+          <note>Sulfite (O)</note>
         </meal>
         <meal>
-          <name>gegrillte Zucchinischeiben</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Soja (F)</note>
+          <name>Rote Linsen - Kokosbällchen </name>
+          <note>Sulfite (O)</note>
         </meal>
       </category>
     </day>
-    <day date="2025-06-21">
+    <day date="2025-06-27">
+      <category name="Suppe 2">
+        <meal>
+          <name>Semmel</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+        </meal>
+      </category>
+      <category name="SCHMANKERL &amp; VITAL 1">
+        <meal>
+          <name>Blattsalat, gegrillter Halloumi, Granatapfel, Haselnüsse
+</name>
+          <note>Milch oder Laktose (G)</note>
+        </meal>
+      </category>
+      <category name="SCHMANKERL &amp; VITAL 2">
+        <meal>
+          <name>Stop Food Waste 
+Bitte HIER eintragen!</name>
+        </meal>
+      </category>
+      <category name="SCHMANKERL &amp; VITAL 3">
+        <meal>
+          <name>Saltimbocca vom Huhn mit Prosciutto und Salbei</name>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+        <meal>
+          <name>Cremige Salbei- Polenta</name>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+        <meal>
+          <name>gegrilltes Gemüse</name>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+        <meal>
+          <name>Hühner Naturjus</name>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+      </category>
+      <category name="Master Bowl">
+        <meal>
+          <name>Create your own Bowl
+Frischer Nishikireis •
+vegane Trüffelcreme • vegane Sesamsauce • vegane Spicy Korean Sauce
+</name>
+          <note>Sulfite (O)</note>
+        </meal>
+        <meal>
+          <name>Planted Gyros</name>
+          <note>Sulfite (O)</note>
+        </meal>
+        <meal>
+          <name>Rote Linsen - Kokosbällchen </name>
+          <note>Sulfite (O)</note>
+        </meal>
+      </category>
+    </day>
+    <day date="2025-06-28">
       <closed/>
     </day>
-    <day date="2025-06-22">
+    <day date="2025-06-29">
       <closed/>
     </day>
   </canteen>
