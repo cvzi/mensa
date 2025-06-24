@@ -3,48 +3,6 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2025-06-23">
-      <category name="HEIMSPIEL">
-        <meal>
-          <name>Putenschnitzel Paprikarahmsauce,  Pommes frites,  Salat,  Dessert</name>
-          <note>Gluten</note>
-          <note>Laktose</note>
-          <note>Milch</note>
-          <note>Weizen</note>
-          <price role="employee">5.60</price>
-          <price role="other">15.10</price>
-          <price role="student">3.30</price>
-        </meal>
-      </category>
-      <category name="QUERBEET">
-        <meal>
-          <name>VEGAN: Creamed corn Fladenbrot</name>
-          <note>Gluten</note>
-          <note>Sesamsamen</note>
-          <note>Weizen</note>
-          <price role="employee">4.00</price>
-          <price role="other">7.65</price>
-          <price role="student">1.85</price>
-        </meal>
-        <meal>
-          <name>Salatbuffet in Selbstbedienung,  je 100g (Preis je 100g)</name>
-          <price role="employee">0.95</price>
-          <price role="other">2.90</price>
-          <price role="student">0.75</price>
-        </meal>
-        <meal>
-          <name>VEGAN: Mediterrane Hackrolle Ratatouillegemüse,  Sellerie-Kartoffelstampf,  Salat,  Dessert</name>
-          <note>Gluten</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <note>Soja</note>
-          <note>Weizen</note>
-          <price role="employee">5.60</price>
-          <price role="other">15.10</price>
-          <price role="student">3.30</price>
-        </meal>
-      </category>
-    </day>
     <day date="2025-06-24">
       <category name="HEIMSPIEL">
         <meal>
@@ -58,13 +16,10 @@
       </category>
       <category name="QUERBEET">
         <meal>
-          <name>VEGAN: Protein Pasta Salat,  Dessert,  Cashewkerne</name>
-          <note>Chashewkerne/Kaschunüsse</note>
-          <note>Gluten</note>
-          <note>Soja</note>
-          <price role="employee">5.10</price>
-          <price role="other">12.65</price>
-          <price role="student">2.80</price>
+          <name>Salatbuffet in Selbstbedienung,  je 100g (Preis je 100g)</name>
+          <price role="employee">0.95</price>
+          <price role="other">2.90</price>
+          <price role="student">0.75</price>
         </meal>
         <meal>
           <name>VEGAN: Milchreis Mango - Pfirsich Grütze</name>
@@ -74,15 +29,33 @@
           <price role="student">1.85</price>
         </meal>
         <meal>
-          <name>Salatbuffet in Selbstbedienung,  je 100g (Preis je 100g)</name>
-          <price role="employee">0.95</price>
-          <price role="other">2.90</price>
-          <price role="student">0.75</price>
+          <name>VEGAN: Protein Pasta Salat,  Dessert,  Cashewkerne</name>
+          <note>Chashewkerne/Kaschunüsse</note>
+          <note>Soja</note>
+          <note>Weizen</note>
+          <price role="employee">5.10</price>
+          <price role="other">12.65</price>
+          <price role="student">2.80</price>
+        </meal>
+      </category>
+      <category name="WORLDWIDE">
+        <meal>
+          <name>Chili con carne Reis,  Salat,  Dessert,  Petersilie</name>
+          <note>Senf</note>
+          <price role="employee">5.30</price>
+          <price role="other">14.10</price>
+          <price role="student">3.10</price>
         </meal>
       </category>
     </day>
     <day date="2025-06-25">
       <category name="QUERBEET">
+        <meal>
+          <name>Salatbuffet in Selbstbedienung,  je 100g (Preis je 100g)</name>
+          <price role="employee">0.95</price>
+          <price role="other">2.90</price>
+          <price role="student">0.75</price>
+        </meal>
         <meal>
           <name>VEGAN: Chili sin carne Pommes frites,  Sour Cream,  Salat,  Dessert</name>
           <note>Hafer</note>
@@ -90,12 +63,6 @@
           <price role="employee">5.10</price>
           <price role="other">12.10</price>
           <price role="student">2.65</price>
-        </meal>
-        <meal>
-          <name>Salatbuffet in Selbstbedienung,  je 100g (Preis je 100g)</name>
-          <price role="employee">0.95</price>
-          <price role="other">2.90</price>
-          <price role="student">0.75</price>
         </meal>
         <meal>
           <name>VEGAN: Marokkanischer Kichererbseneintopf Fladenbrot</name>
@@ -130,16 +97,6 @@
           <price role="student">0.75</price>
         </meal>
         <meal>
-          <name>VEGAN: Thailändische Kokos-Suppe Kaiserbrötchen</name>
-          <note>Gluten</note>
-          <note>Sesamsamen</note>
-          <note>Soja</note>
-          <note>Weizen</note>
-          <price role="employee">4.00</price>
-          <price role="other">7.65</price>
-          <price role="student">1.85</price>
-        </meal>
-        <meal>
           <name>VEGAN: Pink Pasta Rote Beete Sauce Rigatoni,  Salat,  Dessert,  Basilikumöl</name>
           <note>Chashewkerne/Kaschunüsse</note>
           <note>Gluten</note>
@@ -148,6 +105,16 @@
           <price role="employee">5.30</price>
           <price role="other">14.10</price>
           <price role="student">3.10</price>
+        </meal>
+        <meal>
+          <name>VEGAN: Thailändische Kokos-Suppe Kaiserbrötchen</name>
+          <note>Gluten</note>
+          <note>Sesamsamen</note>
+          <note>Soja</note>
+          <note>Weizen</note>
+          <price role="employee">4.00</price>
+          <price role="other">7.65</price>
+          <price role="student">1.85</price>
         </meal>
       </category>
       <category name="WORLDWIDE">
@@ -163,12 +130,10 @@
     <day date="2025-06-27">
       <category name="QUERBEET">
         <meal>
-          <name>VEGAN: Creamy Fajita Pasta mit Paprika Salat,  Dessert</name>
-          <note>Soja</note>
-          <note>Weizen</note>
-          <price role="employee">5.75</price>
-          <price role="other">16.50</price>
-          <price role="student">3.60</price>
+          <name>Salatbuffet in Selbstbedienung,  je 100g (Preis je 100g)</name>
+          <price role="employee">0.95</price>
+          <price role="other">2.90</price>
+          <price role="student">0.75</price>
         </meal>
         <meal>
           <name>VEGAN: Albondigas in Tomatensauce Erbsenreis,  Salat,  Dessert,  Petersilie</name>
@@ -181,10 +146,12 @@
           <price role="student">3.30</price>
         </meal>
         <meal>
-          <name>Salatbuffet in Selbstbedienung,  je 100g (Preis je 100g)</name>
-          <price role="employee">0.95</price>
-          <price role="other">2.90</price>
-          <price role="student">0.75</price>
+          <name>VEGAN: Creamy Fajita Pasta mit Paprika Salat,  Dessert</name>
+          <note>Soja</note>
+          <note>Weizen</note>
+          <price role="employee">5.75</price>
+          <price role="other">16.50</price>
+          <price role="student">3.60</price>
         </meal>
       </category>
     </day>
@@ -264,18 +231,18 @@
     <day date="2025-07-02">
       <category name="QUERBEET">
         <meal>
-          <name>VEGAN: Penne arrabbiata Salat,  Dessert</name>
-          <note>Weizen</note>
-          <price role="employee">5.10</price>
-          <price role="other">12.10</price>
-          <price role="student">2.65</price>
-        </meal>
-        <meal>
           <name>VEGAN: Feuertopf Kaiserbrötchen</name>
           <note>Gluten</note>
           <price role="employee">4.00</price>
           <price role="other">7.65</price>
           <price role="student">1.85</price>
+        </meal>
+        <meal>
+          <name>VEGAN: Penne arrabbiata Salat,  Dessert</name>
+          <note>Weizen</note>
+          <price role="employee">5.10</price>
+          <price role="other">12.10</price>
+          <price role="student">2.65</price>
         </meal>
       </category>
       <category name="MEISTERWERK">
@@ -382,6 +349,37 @@
           <price role="employee">5.60</price>
           <price role="other">15.10</price>
           <price role="student">3.30</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2025-07-08">
+      <category name="QUERBEET">
+        <meal>
+          <name>VEGAN: Rigatoni Florentina Salat,  Dessert</name>
+          <note>Gluten</note>
+          <note>Soja</note>
+          <note>Weizen</note>
+          <price role="employee">4.85</price>
+          <price role="other">11.90</price>
+          <price role="student">2.60</price>
+        </meal>
+        <meal>
+          <name>VEGAN: Grießpudding mit heißen Himbeeren</name>
+          <note>Gluten</note>
+          <note>Soja</note>
+          <note>Weizen</note>
+          <price role="employee">4.00</price>
+          <price role="other">7.65</price>
+          <price role="student">1.85</price>
+        </meal>
+      </category>
+      <category name="WORLDWIDE">
+        <meal>
+          <name>Chili con carne Reis,  Salat,  Dessert,  Petersilie</name>
+          <note>Senf</note>
+          <price role="employee">5.30</price>
+          <price role="other">14.10</price>
+          <price role="student">3.10</price>
         </meal>
       </category>
     </day>
