@@ -1,57 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2025-07-03">
-      <category name="Menü Classic 1 (mit Suppe, Salat und Getränk)">
-        <meal>
-          <name>Klassischer Kaiserschmarren mit Apfelmus und Staubzucker</name>
-          <note>A</note>
-          <note>C</note>
-          <note>G</note>
-          <price role="other">6.20</price>
-        </meal>
-      </category>
-      <category name="Menü Classic 2 (mit Suppe, Salat und Getränk)">
-        <meal>
-          <name>&quot;Österreichischer Klassiker&quot; Fleckerlspeise mit Bio Haschee</name>
-          <note>A</note>
-          <note>C</note>
-          <note>F</note>
-          <note>G</note>
-          <price role="other">7.60</price>
-        </meal>
-      </category>
-      <category name="Tagesgericht Veggie/Vegan">
-        <meal>
-          <name>&quot;everything vegan&quot; Mediterraner Gemüse Wrap dazu knackiges Salatbouquet und hausgemachte Guacamole</name>
-          <note>A</note>
-          <note>F</note>
-          <note>L</note>
-          <note>M</note>
-          <note>O</note>
-          <price role="other">9.90</price>
-        </meal>
-      </category>
-      <category name="Tagesgericht herzhaft">
-        <meal>
-          <name>&quot;schen is im Tirolerland!&quot; Original Tiroler Gröstl vom Bio Schwein und mehr serviert mit Spiegelei</name>
-          <note>A</note>
-          <note>C</note>
-          <note>G</note>
-          <note>L</note>
-          <note>O</note>
-          <price role="other">10.50</price>
-        </meal>
-      </category>
-      <category name="Suppe">
-        <meal>
-          <name>VEGANE Kräutercremesuppe</name>
-          <note>F</note>
-          <note>O</note>
-          <price role="other">2.20</price>
-        </meal>
-      </category>
-    </day>
     <day date="2025-07-04">
       <category name="Menü Classic 1 (mit Suppe, Salat und Getränk)">
         <meal>
@@ -104,7 +53,7 @@
     <day date="2025-07-07">
       <category name="Menü Classic 1 (mit Suppe, Salat und Getränk)">
         <meal>
-          <name>Nudelauflauf mit Broccoli und Käse</name>
+          <name>Ofenfrischer hausgemachter Nudelauflauf mit Brokkoli und Käse überbacken</name>
           <note>A</note>
           <note>C</note>
           <note>G</note>
@@ -114,7 +63,7 @@
       </category>
       <category name="Menü Classic 2 (mit Suppe, Salat und Getränk)">
         <meal>
-          <name>Ostdeutscher Kartoffeleintopf mit Erbsen und Bio Frankfurter</name>
+          <name>Ostdeutscher Kartoffeleintopf nach Art des Hauses mit Erbsen und Bio Frankfurter</name>
           <note>A</note>
           <note>G</note>
           <note>L</note>
@@ -132,12 +81,20 @@
           <price role="other">9.90</price>
         </meal>
       </category>
-      <category name="Suppe">
+      <category name="Tagesgericht herzhaft">
         <meal>
-          <name>Klare Gemüsesuppe mit Einlage</name>
+          <name>Gefüllte Melanzani mit Faschiertem vom Bio Rind serviert mit Jasminreis und Minzjoghurt dazu Fladenbrot und Kräutertopping</name>
           <note>A</note>
           <note>C</note>
-          <note>L</note>
+          <note>G</note>
+          <note>N</note>
+          <note>O</note>
+          <price role="other">10.30</price>
+        </meal>
+      </category>
+      <category name="Suppe">
+        <meal>
+          <name>Vegane klare Gemüsesuppe mit diversen Einlagen</name>
           <price role="other">2.20</price>
         </meal>
       </category>
@@ -145,15 +102,14 @@
     <day date="2025-07-08">
       <category name="Menü Classic 1 (mit Suppe, Salat und Getränk)">
         <meal>
-          <name>Gemüse Paella mit Schafskäse</name>
-          <note>G</note>
+          <name>Hausgemachte Gemüse Paella optional mit Schafskäse (G)</name>
           <note>O</note>
           <price role="other">6.20</price>
         </meal>
       </category>
       <category name="Menü Classic 2 (mit Suppe, Salat und Getränk)">
         <meal>
-          <name>Geschnetzeltes vom Bio Rind in Sauerrahmsauce dazu Fusilli</name>
+          <name>Geschnetzeltes vom Bio Rind in Sauerrahmsauce mit Fusilli</name>
           <note>A</note>
           <note>C</note>
           <note>F</note>
@@ -165,9 +121,9 @@
           <price role="other">7.60</price>
         </meal>
       </category>
-      <category name="Tagesgericht herzhaft">
+      <category name="Tagesgericht Veggie/Vegan">
         <meal>
-          <name>Gegrillter Bio Tofu Teriyaki serviert mit Basmatireis und Wokgemüse garniert mit Koriander und Sojasprossen</name>
+          <name>&quot;everything vegan&quot; Gegrillter Bio Tofu Teriyaki Style serviert mit Basmatireis und frischem Wok Gemüse garniert mit Koriander und Sojasprossen</name>
           <note>A</note>
           <note>F</note>
           <note>L</note>
@@ -175,9 +131,17 @@
           <price role="other">10.50</price>
         </meal>
       </category>
+      <category name="Tagesgericht herzhaft">
+        <meal>
+          <name>Gebratenes Lachsforellenfilet vom Grill serviert auf Tagliatelle in leichter Limetten-Dillsauce garniert mit Grilltomate und frischen Kräutern</name>
+          <note>A</note>
+          <note>F</note>
+          <price role="other">12.90</price>
+        </meal>
+      </category>
       <category name="Suppe">
         <meal>
-          <name>Broccolicremesuppe VEGAN</name>
+          <name>Vegane Brokkoli Cremesuppe</name>
           <note>F</note>
           <note>O</note>
           <price role="other">2.20</price>
@@ -187,7 +151,7 @@
     <day date="2025-07-09">
       <category name="Menü Classic 1 (mit Suppe, Salat und Getränk)">
         <meal>
-          <name>Hausgemachter Gemüsestrudel Vegan dazu Kräuterrahmsauce</name>
+          <name>&quot;everything vegan&quot; Hausgemachter Gemüsestrudel aus frischem Marktgemüse dazu vegane Kräuterrahmsauce</name>
           <note>A</note>
           <note>C</note>
           <note>F</note>
@@ -197,27 +161,33 @@
       </category>
       <category name="Menü Classic 2 (mit Suppe, Salat und Getränk)">
         <meal>
-          <name>Bauerngröstl vom Bio Schwein garniert mit Röstzwiebeln</name>
+          <name>Herzhaftes Bauerngröstl vom Bio Schwein garniert mit Röstzwiebeln</name>
           <note>A</note>
           <note>O</note>
           <price role="other">7.60</price>
         </meal>
       </category>
-      <category name="Tagesgericht herzhaft">
+      <category name="Tagesgericht Veggie/Vegan">
         <meal>
-          <name>Veggie Quesedilla gefüllt mit Blattspinat, Käse, Tomate und Zwiebel serviert mit Tomatenreis, Rucola und Sauerrahmdip</name>
+          <name>Veggie Quesadillas Mensa Style gefüllt mit Blattspinat, Käse, Tomaten und frischen Zwiebeln dazu Tomatenreis, marinierter Rucola und Sauerrahmdip</name>
           <note>A</note>
           <note>G</note>
           <note>O</note>
           <price role="other">10.50</price>
         </meal>
       </category>
+      <category name="Tagesgericht herzhaft">
+        <meal>
+          <name>Beef Mexico Quesadillas mit Bio Rinderfaschiertem gefüllt mit Käse, Paprika, Bohnen und frischen Zwiebeln serviert mit knusprigen Wedges, Sauerrahmdip und Limettenspalte</name>
+          <note>A</note>
+          <note>G</note>
+          <note>O</note>
+          <price role="other">12.90</price>
+        </meal>
+      </category>
       <category name="Suppe">
         <meal>
-          <name>Klare Gemüsesuppe mit Einlage</name>
-          <note>A</note>
-          <note>C</note>
-          <note>L</note>
+          <name>Vegane klare Gemüsesuppe mit diversen Einlagen</name>
           <price role="other">2.20</price>
         </meal>
       </category>
@@ -225,7 +195,7 @@
     <day date="2025-07-10">
       <category name="Menü Classic 1 (mit Suppe, Salat und Getränk)">
         <meal>
-          <name>Erdbeerknödel mit Butterbrösel dazu Vanillesauce und Staubzucker</name>
+          <name>Süße Erdbeerknödel in Butterbröseln dazu Vanillesauce und Staubzucker</name>
           <note>A</note>
           <note>C</note>
           <note>G</note>
@@ -234,7 +204,7 @@
       </category>
       <category name="Menü Classic 2 (mit Suppe, Salat und Getränk)">
         <meal>
-          <name>Jäger geschnetzeltes von der Bio Pute dazu Kräuterreis</name>
+          <name>Jäger Geschnetzeltes von der Bio Pute dazu Kräuterreis und frische Kräuter</name>
           <note>F</note>
           <note>G</note>
           <note>L</note>
@@ -244,7 +214,7 @@
       </category>
       <category name="Tagesgericht Veggie/Vegan">
         <meal>
-          <name>Hausgemachte Kaspressknödel auf Erdäpfelsalat-Vogelsalat dazu Joghurt Dip</name>
+          <name>Hausgemachte Kaspressknödel treffen auf hausgemachten Erdäpfelsalat-Vogelsalat dazu Joghurt Dip und frische Kräuter</name>
           <note>A</note>
           <note>C</note>
           <note>G</note>
@@ -253,9 +223,20 @@
           <price role="other">9.90</price>
         </meal>
       </category>
+      <category name="Tagesgericht herzhaft">
+        <meal>
+          <name>Steirisches Backhendl von der Bio Hühnerbrust auf hausgemachtem Erdäpfel-Vogerlsalat garniert mit geschmorten Cherrytomaten, Zitronenspalte und Kernöl</name>
+          <note>A</note>
+          <note>C</note>
+          <note>L</note>
+          <note>M</note>
+          <note>O</note>
+          <price role="other">12.90</price>
+        </meal>
+      </category>
       <category name="Suppe">
         <meal>
-          <name>Karotten Ingwersuppe VEGAN</name>
+          <name>Vegane Karotten Ingwersuppe</name>
           <note>O</note>
           <price role="other">2.20</price>
         </meal>
@@ -264,7 +245,7 @@
     <day date="2025-07-11">
       <category name="Menü Classic 1 (mit Suppe, Salat und Getränk)">
         <meal>
-          <name>Überbackener Röstitaler mit Blattspinat und Feta dazu Ratatouille Gemüse</name>
+          <name>Überbackener Röstitaler mit Blattspinat und Feta dazu frisches Ratatouille Gemüse</name>
           <note>A</note>
           <note>G</note>
           <note>O</note>
@@ -273,7 +254,7 @@
       </category>
       <category name="Menü Classic 2 (mit Suppe, Salat und Getränk)">
         <meal>
-          <name>Lasagne al Forno mit Bio Rinderfaschiertem dazu Tomatenrahmsauce</name>
+          <name>Ofenfrische Lasagne al Forno mit Bio Rinderfaschiertem serviert auf Tomatenrahmsauce</name>
           <note>A</note>
           <note>F</note>
           <note>G</note>
@@ -284,7 +265,7 @@
       </category>
       <category name="Tagesgericht herzhaft">
         <meal>
-          <name>Seelachsfilet MSC im Backteig dazu Hausgemachter Erdäpfel-Mayonnaise Salat und Zitrone</name>
+          <name>Seelachsfilet MSC im Knusperbackteig dazu Hausgemachter Erdäpfel-Mayonnaise Salat und Zitronenspalte</name>
           <note>A</note>
           <note>C</note>
           <note>D</note>
@@ -293,13 +274,18 @@
           <note>O</note>
           <price role="other">9.30</price>
         </meal>
+        <meal>
+          <name>Tagliatelle in cremiger Ricotta-Spinatrahmsauce garniert mit Rucola und gerösteten Walnüssen</name>
+          <note>A</note>
+          <note>F</note>
+          <note>G</note>
+          <note>O</note>
+          <price role="other">10.30</price>
+        </meal>
       </category>
       <category name="Suppe">
         <meal>
-          <name>Klare Gemüsesuppe mit Einlage</name>
-          <note>A</note>
-          <note>C</note>
-          <note>L</note>
+          <name>Vegane klare Gemüsesuppe mit diversen Einlage</name>
           <price role="other">2.20</price>
         </meal>
       </category>
