@@ -4,42 +4,6 @@
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
     <day date="2025-07-08">
-      <category name="Tellergericht vegetarisch">
-        <meal>
-          <name>Halbe Portion: 2 Eierkuchen  
- mit Apfelmus</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Milch/Milchzucker (Laktose)</note>
-          <note>mit Antioxidationsmittel</note>
-          <price role="employee">1.65</price>
-          <price role="other">2.40</price>
-          <price role="student">0.90</price>
-        </meal>
-        <meal>
-          <name>4 Eierkuchen  
- mit Apfelmus</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Milch/Milchzucker (Laktose)</note>
-          <note>mit Antioxidationsmittel</note>
-          <price role="employee">3.30</price>
-          <price role="other">4.80</price>
-          <price role="student">1.80</price>
-        </meal>
-      </category>
-      <category name="Komponente 1">
-        <meal>
-          <name>Gedünstetes Seelachsfilet  
- mit Petersiliensoße</name>
-          <note>Fische und daraus hergestellte Erzeugnisse</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Milch/Milchzucker (Laktose)</note>
-          <price role="employee">3.25</price>
-          <price role="other">4.25</price>
-          <price role="student">2.25</price>
-        </meal>
-      </category>
       <category name="Komponente 3">
         <meal>
           <name>Hähnchen-Schnitte &quot;Diana&quot; mit Broccoli-Käse-Creme-Füllung (1,Gefl,G,A) 
@@ -49,18 +13,12 @@
           <price role="student">2.25</price>
         </meal>
       </category>
-      <category name="Vegane Komponente 1">
+      <category name="Komponente 4">
         <meal>
-          <name>Brokkoli-Nussecke  
- mit Tomaten-Sojasahnesoße</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Schalenfrüchte und daraus hergestellte Erzeugnisse (Mandeln, Haselnuss usw.)</note>
-          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
-          <note>jodiertes Salz</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">2.75</price>
-          <price role="other">3.75</price>
-          <price role="student">1.75</price>
+          <name>Putengeschnetzeltes (Gefl,A,I)</name>
+          <price role="employee">3.05</price>
+          <price role="other">4.05</price>
+          <price role="student">2.05</price>
         </meal>
       </category>
       <category name="Vegetarische Komponente 1">
@@ -75,6 +33,18 @@
           <price role="student">1.50</price>
         </meal>
       </category>
+      <category name="Vegetarische Komponente 2">
+        <meal>
+          <name>3 Kartoffeltaschen [mit Brokkoli-Frischkäse-Füllung]  
+ mit Tomaten-Sojasahnesoße</name>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
+          <note>jodiertes Salz</note>
+          <price role="employee">2.80</price>
+          <price role="other">3.80</price>
+          <price role="student">1.80</price>
+        </meal>
+      </category>
       <category name="Mittagsgericht Cafeteria Klinikum (zzgl. 5€ ReBowl-Pfand)">
         <meal>
           <name>2 gekochte Eier in Senfsoße  
@@ -86,17 +56,6 @@
           <price role="employee">4.20</price>
           <price role="other">5.80</price>
           <price role="student">2.60</price>
-        </meal>
-      </category>
-      <category name="Pasta pro Portion oder nach Gewicht (pro 100g)">
-        <meal>
-          <name>Pastateller: Farfalle  
- mit Paprikapesto [vegan]</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Schalenfrüchte und daraus hergestellte Erzeugnisse (Mandeln, Haselnuss usw.)</note>
-          <price role="employee">1.00</price>
-          <price role="other">1.40</price>
-          <price role="student">0.65</price>
         </meal>
       </category>
       <category name="Beilagen - Alle Beilagen sind vegan, sofern nicht anders gekennzeichnet.">
@@ -129,24 +88,10 @@
           <price role="student">0.80</price>
         </meal>
         <meal>
-          <name>Pommes Frites</name>
+          <name>3 Rösti-Ecken</name>
           <price role="employee">1.50</price>
           <price role="other">1.90</price>
           <price role="student">1.10</price>
-        </meal>
-        <meal>
-          <name>10 Kartoffelbällchen [vegetarisch]</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
-          <note>Milch/Milchzucker (Laktose)</note>
-          <price role="employee">1.50</price>
-          <price role="other">1.90</price>
-          <price role="student">1.10</price>
-        </meal>
-        <meal>
-          <name>Pommes Frites MAXI PORTION</name>
-          <price role="employee">3.00</price>
-          <price role="other">3.80</price>
-          <price role="student">2.20</price>
         </meal>
       </category>
       <category name="Gemüse - Alle Gemüsebeilagen sind vegan, sofern nicht anders gekennzeichnet.">
@@ -162,12 +107,6 @@
           <price role="employee">1.20</price>
           <price role="other">1.60</price>
           <price role="student">0.80</price>
-        </meal>
-        <meal>
-          <name>Kaisergemüse [Brokkoli, Blumenkohl, Karottenscheiben]</name>
-          <price role="employee">1.40</price>
-          <price role="other">1.80</price>
-          <price role="student">1.00</price>
         </meal>
       </category>
       <category name="Salate und Desserts">
