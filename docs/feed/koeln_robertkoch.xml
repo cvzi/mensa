@@ -3,72 +3,6 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2025-07-08">
-      <category name="HEIMSPIEL">
-        <meal>
-          <name>VEGAN: Süße Schupfnudeln mit heißen Kirschen,  Vanillesauce</name>
-          <note>Gluten</note>
-          <note>Soja</note>
-          <note>Weizen</note>
-          <price role="employee">4.00</price>
-          <price role="other">7.65</price>
-          <price role="student">1.85</price>
-        </meal>
-      </category>
-      <category name="QUERBEET">
-        <meal>
-          <name>VEGAN: Rigatoni Florentina Salat,  Dessert</name>
-          <note>Gluten</note>
-          <note>Soja</note>
-          <note>Weizen</note>
-          <price role="employee">4.85</price>
-          <price role="other">11.90</price>
-          <price role="student">2.60</price>
-        </meal>
-        <meal>
-          <name>Salatbuffet in Selbstbedienung, je 100 g</name>
-          <price role="employee">0.95</price>
-          <price role="other">2.85</price>
-          <price role="student">0.75</price>
-        </meal>
-      </category>
-      <category name="WORLDWIDE">
-        <meal>
-          <name>Chili con carne Reis,  Salat,  Dessert,  Petersilie</name>
-          <note>Senf</note>
-          <price role="employee">5.30</price>
-          <price role="other">14.10</price>
-          <price role="student">3.10</price>
-        </meal>
-      </category>
-      <category name="Beilage">
-        <meal>
-          <name>Reis </name>
-          <price role="employee">0.95</price>
-          <price role="other">2.95</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>VEGETARISCH: Nudeln: Rigatoni </name>
-          <note>Weizen</note>
-          <price role="employee">0.95</price>
-          <price role="other">2.95</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Broccolie </name>
-          <price role="employee">0.95</price>
-          <price role="other">2.95</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Pilze </name>
-          <price role="employee">0.95</price>
-          <price role="other">2.95</price>
-          <price role="student">0.65</price>
-        </meal>
-      </category>
-    </day>
     <day date="2025-07-09">
       <category name="QUERBEET">
         <meal>
@@ -91,6 +25,12 @@
           <price role="other">7.65</price>
           <price role="student">1.85</price>
         </meal>
+        <meal>
+          <name>Salatbuffet in Selbstbedienung, je 100 g</name>
+          <price role="employee">0.95</price>
+          <price role="other">2.85</price>
+          <price role="student">0.75</price>
+        </meal>
       </category>
       <category name="WORLDWIDE">
         <meal>
@@ -103,18 +43,46 @@
           <price role="other">15.10</price>
           <price role="student">3.30</price>
         </meal>
+        <meal>
+          <name>VEGETARISCH: Selbstbedienung: Pasta Theke Pasta mit verschiedenen Saucen.Tomatensauce und Käses Saucedies wird an der Kasse gewogen.(Preis je 100g)</name>
+          <note>Gluten</note>
+          <note>Laktose</note>
+          <note>Milch</note>
+          <note>Weizen</note>
+          <price role="employee">0.95</price>
+          <price role="other">2.85</price>
+          <price role="student">0.75</price>
+        </meal>
+      </category>
+      <category name="Beilage">
+        <meal>
+          <name>VEGETARISCH: Nudeln: Penne </name>
+          <price role="employee">0.95</price>
+          <price role="other">2.95</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>VEGETARISCH: Möhrenscheiben </name>
+          <price role="employee">0.95</price>
+          <price role="other">2.65</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Rosenkohl </name>
+          <price role="employee">0.90</price>
+          <price role="other">1.20</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Cous cous </name>
+          <price role="employee">1.45</price>
+          <price role="other">4.35</price>
+          <price role="student">0.95</price>
+        </meal>
       </category>
     </day>
     <day date="2025-07-10">
       <category name="QUERBEET">
-        <meal>
-          <name>VEGAN: Broccolicremesuppe Kaiserbrötchen</name>
-          <note>Gluten</note>
-          <note>Soja</note>
-          <price role="employee">4.00</price>
-          <price role="other">7.65</price>
-          <price role="student">1.85</price>
-        </meal>
         <meal>
           <name>VEGAN: Sojabolognese Penne Rigate,  Salat,  Dessert</name>
           <note>Sellerie</note>
@@ -123,6 +91,14 @@
           <price role="employee">4.85</price>
           <price role="other">11.90</price>
           <price role="student">2.60</price>
+        </meal>
+        <meal>
+          <name>VEGAN: Broccolicremesuppe Kaiserbrötchen</name>
+          <note>Gluten</note>
+          <note>Soja</note>
+          <price role="employee">4.00</price>
+          <price role="other">7.65</price>
+          <price role="student">1.85</price>
         </meal>
       </category>
       <category name="WORLDWIDE">
@@ -406,6 +382,36 @@
           <price role="employee">6.45</price>
           <price role="other">18.75</price>
           <price role="student">4.15</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2025-07-23">
+      <category name="HEIMSPIEL">
+        <meal>
+          <name>Leichtes Geflügelfrikassee Reis,  Salat,  Dessert,  Petersilie</name>
+          <note>Laktose</note>
+          <note>Milch</note>
+          <price role="employee">6.45</price>
+          <price role="other">18.75</price>
+          <price role="student">4.15</price>
+        </meal>
+      </category>
+      <category name="QUERBEET">
+        <meal>
+          <name>VEGAN: Chili sin carne Pommes frites,  Sour Cream,  Salat,  Dessert</name>
+          <note>Hafer</note>
+          <note>Soja</note>
+          <price role="employee">5.10</price>
+          <price role="other">12.10</price>
+          <price role="student">2.65</price>
+        </meal>
+        <meal>
+          <name>VEGAN: Bunte Zucchinicremesuppe Kaiserbrötchen</name>
+          <note>Gluten</note>
+          <note>Soja</note>
+          <price role="employee">4.00</price>
+          <price role="other">7.65</price>
+          <price role="student">1.85</price>
         </meal>
       </category>
     </day>
