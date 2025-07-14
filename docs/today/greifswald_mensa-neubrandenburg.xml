@@ -3,8 +3,89 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2025-07-13">
-      <closed/>
+    <day date="2025-07-14">
+      <category name="Komponente 2">
+        <meal>
+          <name>Schweinegulasch mit Paprika und Zwiebeln</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <note>Rindfleisch</note>
+          <note>Schweinefleisch</note>
+          <note>jodiertes Salz</note>
+          <price role="employee">3.25</price>
+          <price role="other">4.25</price>
+          <price role="student">2.25</price>
+        </meal>
+      </category>
+      <category name="Vegane Komponente 1">
+        <meal>
+          <name>Kürbis-Falafel mit Salat, Knoblauchsoße</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
+          <note>jodiertes Salz</note>
+          <note>mit Antioxidationsmittel</note>
+          <price role="employee">3.25</price>
+          <price role="other">4.25</price>
+          <price role="student">2.25</price>
+        </meal>
+      </category>
+      <category name="Vegetarische Komponente 1">
+        <meal>
+          <name>Tellerrösti mit Tomate und Broccoli</name>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <note>jodiertes Salz</note>
+          <price role="employee">3.25</price>
+          <price role="other">4.25</price>
+          <price role="student">2.25</price>
+        </meal>
+      </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Makkaroni</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>jodiertes Salz</note>
+          <price role="employee">1.20</price>
+          <price role="other">1.60</price>
+          <price role="student">0.80</price>
+        </meal>
+        <meal>
+          <name>Reis</name>
+          <note>jodiertes Salz</note>
+          <price role="employee">1.20</price>
+          <price role="other">1.60</price>
+          <price role="student">0.80</price>
+        </meal>
+        <meal>
+          <name>Salzkartoffeln</name>
+          <note>geschwefelt</note>
+          <note>jodiertes Salz</note>
+          <price role="employee">1.20</price>
+          <price role="other">1.60</price>
+          <price role="student">0.80</price>
+        </meal>
+        <meal>
+          <name>Pita Fladenbrot</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>jodiertes Salz</note>
+          <price role="employee">1.50</price>
+          <price role="other">1.90</price>
+          <price role="student">1.10</price>
+        </meal>
+      </category>
+      <category name="Gemüse">
+        <meal>
+          <name>Brokkoli</name>
+          <note>jodiertes Salz</note>
+          <price role="employee">1.40</price>
+          <price role="other">1.80</price>
+          <price role="student">1.00</price>
+        </meal>
+      </category>
+      <category name="Salate und Desserts">
+        <meal>
+          <name>Frische Salate und verschiedene Desserts stehen zur Auswahl.</name>
+        </meal>
+      </category>
     </day>
   </canteen>
 </openmensa>
