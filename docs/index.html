@@ -38,50 +38,7 @@
     <main>
       <article>Parser for <a target="_blank" href="https://openmensa.org">openmensa.org</a>. The parser runs in a <a target="_blank" title="What's a Github action?" href="https://docs.github.com/en/actions">Github action<sup>❓</sup></a> and pushes the XML feeds to this page</article>
       <article><h3><a href="https://github.com/cvzi/mensa/actions/">🗿 Parser status</a></h3>
-<pre>eurest:
-Traceback (most recent call last):
-  File "/opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/urllib3/response.py", line 779, in _error_catcher
-    yield
-  File "/opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/urllib3/response.py", line 925, in _raw_read
-    raise IncompleteRead(self._fp_bytes_read, self.length_remaining)
-urllib3.exceptions.IncompleteRead: IncompleteRead(351836 bytes read, 313375 more expected)
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 160, in updateFeeds
-    raise e
-  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
-    content = getattr(parser, feedMethod)(
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/mensa/mensa/eurest/__init__.py", line 46, in feed
-    dom = defusedxml.lxml.parse(source)
-          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/defusedxml/lxml.py", line 135, in parse
-    elementtree = _etree.parse(source, parser, base_url=base_url)
-                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "src/lxml/etree.pyx", line 3711, in lxml.etree.parse
-  File "src/lxml/parser.pxi", line 2040, in lxml.etree._parseDocument
-  File "src/lxml/parser.pxi", line 2058, in lxml.etree._parseFilelikeDocument
-  File "src/lxml/parser.pxi", line 1953, in lxml.etree._parseDocFromFilelike
-  File "src/lxml/parser.pxi", line 1246, in lxml.etree._BaseParser._parseDocFromFilelike
-  File "src/lxml/parser.pxi", line 642, in lxml.etree._ParserContext._handleParseResultDoc
-  File "src/lxml/parser.pxi", line 756, in lxml.etree._handleParseResult
-  File "src/lxml/etree.pyx", line 447, in lxml.etree._ExceptionContext._raise_if_stored
-  File "src/lxml/parser.pxi", line 389, in lxml.etree._FileReaderContext.copyToBuffer
-  File "/opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/urllib3/response.py", line 980, in read
-    data = self._raw_read(amt)
-           ^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/urllib3/response.py", line 903, in _raw_read
-    with self._error_catcher():
-         ^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/contextlib.py", line 158, in __exit__
-    self.gen.throw(value)
-  File "/opt/hostedtoolcache/Python/3.12.11/x64/lib/python3.12/site-packages/urllib3/response.py", line 803, in _error_catcher
-    raise ProtocolError(arg, e) from e
-urllib3.exceptions.ProtocolError: ('Connection broken: IncompleteRead(351836 bytes read, 313375 more expected)', IncompleteRead(351836 bytes read, 313375 more expected))
-
-inetmenue/ggs:
+<pre>inetmenue/ggs:
 Traceback (most recent call last):
   File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
     content = getattr(parser, feedMethod)(
