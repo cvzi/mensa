@@ -3,8 +3,8 @@
 <?xml-stylesheet type="text/css" href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css"?>
 <openmensa xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2025-09-08">
-      <category name="Tagessuppe 1 (Fixpreis)">
+    <day date="2025-09-01">
+      <category name="Tagessuppe klar">
         <meal>
           <name>Rindsuppe • Gemüse-Grießnockerl • Schnittlauch</name>
           <note>Glutenhaltiges Getreide (A)</note>
@@ -13,7 +13,14 @@
           <note>Sellerie (L)</note>
         </meal>
       </category>
-      <category name="Mediterranean 2">
+      <category name="Tagessuppe cremig">
+        <meal>
+          <name>Gelbe Rüben Cremesuppe</name>
+          <note>Sellerie (L)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+      </category>
+      <category name="Hauptspeise1">
         <meal>
           <name>Steirischer Kürbis-Lauchstrudel</name>
           <note>Glutenhaltiges Getreide (A)</note>
@@ -31,44 +38,7 @@
           <note>Sulfite (O)</note>
         </meal>
       </category>
-      <category name="Mediterranean 3">
-        <meal>
-          <name>Süß-Saures Wokgemüse</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Soja (F)</note>
-          <note>Sesam (N)</note>
-        </meal>
-        <meal>
-          <name>Gebratene Hühnerbrust</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Soja (F)</note>
-          <note>Sesam (N)</note>
-        </meal>
-        <meal>
-          <name>Eiernudeln</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Soja (F)</note>
-          <note>Sesam (N)</note>
-        </meal>
-      </category>
-      <category name="Mediterranean 4">
-        <meal>
-          <name>Hausgemachte Pizza Salami</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Senf (M)</note>
-        </meal>
-      </category>
-      <category name="Nature &amp; Vitality 1">
-        <meal>
-          <name>Bunte Gemüse-Eblypfanne</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-        </meal>
-      </category>
-      <category name="Nature &amp; Vitality 3">
+      <category name="Hauptspeise Traditionell">
         <meal>
           <name>Saftiger Schweinsschopfbraten</name>
           <note>Glutenhaltiges Getreide (A)</note>
@@ -85,31 +55,53 @@
           <note>Sulfite (O)</note>
         </meal>
       </category>
+      <category name="Wochenschlager">
+        <meal>
+          <name>Kebap Peram Komplett</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sesam (N)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+      </category>
+      <category name="Creme oder Mousse">
+        <meal>
+          <name>Ameisenkuchen</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+        </meal>
+      </category>
     </day>
-    <day date="2025-09-09">
-      <category name="Tagessuppe 2 (Fixpreis)">
+    <day date="2025-09-02">
+      <category name="Tagessuppe klar">
+        <meal>
+          <name>Weisse Hühnersuppe </name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+        <meal>
+          <name>Leberknödel</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+      </category>
+      <category name="Tagessuppe cremig">
         <meal>
           <name>Kürbiscremesuppe
 geröstete Kürbiskerne, Kernöl</name>
           <note>Milch oder Laktose (G)</note>
           <note>Sellerie (L)</note>
+          <note>Sulfite (O)</note>
         </meal>
       </category>
-      <category name="Mediterranean 1">
-        <meal>
-          <name>Vollkornpenne •</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Sellerie (L)</note>
-        </meal>
-        <meal>
-          <name>Linsen-Bolognese</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Sellerie (L)</note>
-        </meal>
-      </category>
-      <category name="Mediterranean 2">
+      <category name="Hauptspeise1">
         <meal>
           <name>Provencalischer Gemüseeintopf</name>
           <note>Glutenhaltiges Getreide (A)</note>
@@ -125,73 +117,33 @@ geröstete Kürbiskerne, Kernöl</name>
           <note>Sulfite (O)</note>
         </meal>
       </category>
-      <category name="Mediterranean 3">
+      <category name="Hauptspeise Traditionell">
         <meal>
-          <name>Pizza Rustikana</name>
+          <name>Süß-Saures Wokgemüse</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Sellerie (L)</note>
+          <note>Soja (F)</note>
+          <note>Sesam (N)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+        <meal>
+          <name>Gebratene Hühnerbrust</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Soja (F)</note>
+          <note>Sesam (N)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+        <meal>
+          <name>Eiernudeln</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Soja (F)</note>
+          <note>Sesam (N)</note>
+          <note>Sulfite (O)</note>
         </meal>
       </category>
-      <category name="Mediterranean 4">
-        <meal>
-          <name>Pizza Margherita</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Milch oder Laktose (G)</note>
-        </meal>
-      </category>
-      <category name="Nature &amp; Vitality 1">
-        <meal>
-          <name>Scheiterhaufen</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Milch oder Laktose (G)</note>
-        </meal>
-        <meal>
-          <name>Vanillesauce</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Milch oder Laktose (G)</note>
-        </meal>
-      </category>
-      <category name="Nature &amp; Vitality 3">
-        <meal>
-          <name>Cordon Bleu vom Huhn • Edamer • Putenschinken</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Milch oder Laktose (G)</note>
-        </meal>
-        <meal>
-          <name>Risi-Bisi</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Milch oder Laktose (G)</note>
-        </meal>
-      </category>
-    </day>
-    <day date="2025-09-10">
-      <category name="Tagessuppe 1 (Fixpreis)">
-        <meal>
-          <name>Klare Gemüsesuppe</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Sellerie (L)</note>
-        </meal>
-        <meal>
-          <name>und frischem Schnittlauch</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Sellerie (L)</note>
-        </meal>
-        <meal>
-          <name>Suppennudeln</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Sellerie (L)</note>
-        </meal>
-      </category>
-      <category name="Mediterranean 3">
+      <category name="Wochenschlager">
         <meal>
           <name>Kebap Peram Komplett</name>
           <note>Glutenhaltiges Getreide (A)</note>
@@ -200,14 +152,47 @@ geröstete Kürbiskerne, Kernöl</name>
           <note>Sulfite (O)</note>
         </meal>
       </category>
-      <category name="Mediterranean 4">
+      <category name="Creme oder Mousse">
         <meal>
-          <name>Dürüm Komplett</name>
+          <name>Ameisenkuchen</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
           <note>Milch oder Laktose (G)</note>
+        </meal>
+      </category>
+    </day>
+    <day date="2025-09-03">
+      <category name="Tagessuppe klar">
+        <meal>
+          <name>Klare Gemüsesuppe</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Sellerie (L)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+        <meal>
+          <name>und frischem Schnittlauch</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Sellerie (L)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+        <meal>
+          <name>Suppennudeln</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Sellerie (L)</note>
           <note>Sulfite (O)</note>
         </meal>
       </category>
-      <category name="Nature &amp; Vitality 1">
+      <category name="Tagessuppe cremig">
+        <meal>
+          <name>Rein Pflanzliche Selleriecremesuppe</name>
+          <note>Sellerie (L)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+      </category>
+      <category name="Hauptspeise1">
         <meal>
           <name>Kürbisgulasch</name>
           <note>Glutenhaltiges Getreide (A)</note>
@@ -221,69 +206,65 @@ geröstete Kürbiskerne, Kernöl</name>
           <note>Sulfite (O)</note>
         </meal>
       </category>
-      <category name="Nature &amp; Vitality 2">
+      <category name="Hauptspeise Traditionell">
         <meal>
-          <name>Überbackener Broccoli- Karfiolauflauf</name>
+          <name>Cordon Bleu vom Huhn • Edamer • Putenschinken</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
           <note>Milch oder Laktose (G)</note>
           <note>Sulfite (O)</note>
         </meal>
         <meal>
-          <name>Tomatensauce</name>
+          <name>Risi-Bisi</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
           <note>Milch oder Laktose (G)</note>
           <note>Sulfite (O)</note>
         </meal>
       </category>
+      <category name="Wochenschlager">
+        <meal>
+          <name>Kebap Peram Komplett</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sesam (N)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+      </category>
+      <category name="Creme oder Mousse">
+        <meal>
+          <name>Ameisenkuchen</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+        </meal>
+      </category>
     </day>
-    <day date="2025-09-11">
-      <category name="Tagessuppe 2 (Fixpreis)">
+    <day date="2025-09-04">
+      <category name="Tagessuppe klar">
+        <meal>
+          <name>Rindssüppchen mit Frittaten</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+      </category>
+      <category name="Tagessuppe cremig">
         <meal>
           <name>Erbsencremesuppe</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Sellerie (L)</note>
+          <note>Sulfite (O)</note>
         </meal>
         <meal>
           <name>Croutons</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Sellerie (L)</note>
-        </meal>
-      </category>
-      <category name="Mediterranean 1">
-        <meal>
-          <name>Antipasti •</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Soja (F)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Sellerie (L)</note>
-          <note>Senf (M)</note>
-          <note>Sesam (N)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-        <meal>
-          <name>Knoblauch - Joghurt </name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Soja (F)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Sellerie (L)</note>
-          <note>Senf (M)</note>
-          <note>Sesam (N)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-        <meal>
-          <name>Bulgur B.Ch.    -Beilage-</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Soja (F)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Sellerie (L)</note>
-          <note>Senf (M)</note>
-          <note>Sesam (N)</note>
           <note>Sulfite (O)</note>
         </meal>
       </category>
-      <category name="Mediterranean 2">
+      <category name="Hauptspeise1">
         <meal>
           <name>Spinatknödel</name>
           <note>Glutenhaltiges Getreide (A)</note>
@@ -299,45 +280,7 @@ geröstete Kürbiskerne, Kernöl</name>
           <note>Sulfite (O)</note>
         </meal>
       </category>
-      <category name="Mediterranean 3">
-        <meal>
-          <name>Pide Mozzarella ,Tomate, Basilikum 
-schwarze Oliven, Minzjoghurt</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Sellerie (L)</note>
-        </meal>
-        <meal>
-          <name>Beinschinken</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Sellerie (L)</note>
-        </meal>
-      </category>
-      <category name="Mediterranean 4">
-        <meal>
-          <name>Pizza Margherita</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Milch oder Laktose (G)</note>
-        </meal>
-      </category>
-      <category name="Nature &amp; Vitality 1">
-        <meal>
-          <name>Linsen mit Speck</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Sellerie (L)</note>
-          <note>Senf (M)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-        <meal>
-          <name>frisches Bauernbrot</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Sellerie (L)</note>
-          <note>Senf (M)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-      </category>
-      <category name="Nature &amp; Vitality 3">
+      <category name="Hauptspeise Traditionell">
         <meal>
           <name>Faschierter Braten mit Soße</name>
           <note>Glutenhaltiges Getreide (A)</note>
@@ -363,48 +306,47 @@ schwarze Oliven, Minzjoghurt</name>
           <note>Sulfite (O)</note>
         </meal>
       </category>
+      <category name="Wochenschlager">
+        <meal>
+          <name>Kebap Peram Komplett</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sesam (N)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+      </category>
+      <category name="Creme oder Mousse">
+        <meal>
+          <name>Ameisenkuchen</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+        </meal>
+      </category>
     </day>
-    <day date="2025-09-12">
-      <category name="Tagessuppe 2 (Fixpreis)">
+    <day date="2025-09-05">
+      <category name="Tagessuppe cremig">
         <meal>
           <name>Gemüsecremesuppe</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Sellerie (L)</note>
+          <note>Sulfite (O)</note>
         </meal>
         <meal>
           <name>Croutons</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Sellerie (L)</note>
+          <note>Sulfite (O)</note>
         </meal>
       </category>
-      <category name="Mediterranean 1">
+      <category name="Hauptspeise1">
         <meal>
           <name>Krautfleckerln mit Sojajoghurt und Schnittlauch</name>
           <note>Glutenhaltiges Getreide (A)</note>
+          <note>Sulfite (O)</note>
         </meal>
       </category>
-      <category name="Mediterranean 2">
-        <meal>
-          <name>Gefüllte Zucchini nach korsischer Art
-</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Milch oder Laktose (G)</note>
-        </meal>
-        <meal>
-          <name>Tomatensauce</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Milch oder Laktose (G)</note>
-        </meal>
-        <meal>
-          <name>marinierter Rucola</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Milch oder Laktose (G)</note>
-        </meal>
-      </category>
-      <category name="Mediterranean 3">
+      <category name="Hauptspeise Traditionell">
         <meal>
           <name>Fish &amp; Chips vom Seelachs</name>
           <note>Glutenhaltiges Getreide (A)</note>
@@ -433,11 +375,28 @@ schwarze Oliven, Minzjoghurt</name>
           <note>Sulfite (O)</note>
         </meal>
       </category>
+      <category name="Wochenschlager">
+        <meal>
+          <name>Kebap Peram Komplett</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sesam (N)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+      </category>
+      <category name="Creme oder Mousse">
+        <meal>
+          <name>Ameisenkuchen</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+        </meal>
+      </category>
     </day>
-    <day date="2025-09-13">
+    <day date="2025-09-06">
       <closed/>
     </day>
-    <day date="2025-09-14">
+    <day date="2025-09-07">
       <closed/>
     </day>
   </canteen>
