@@ -20,7 +20,7 @@ except ModuleNotFoundError:
 class Parser:
     canteen_json = os.path.join(os.path.dirname(__file__), "canteenDict.json")
     meta_xslt = os.path.join(os.path.dirname(__file__), "../meta.xsl")
-    script_src_pattern = re.compile(r'<script src="/([^"]+)"></script>')
+    script_src_pattern = re.compile(r'<script src="([^"]+)"></script>')
     roles = ("student", "employee", "other")
 
     def _load_prices(self):
@@ -48,7 +48,7 @@ class Parser:
 
     def _get_price(self, meal):
         self._load_prices()
-        p_key = meal["dpartname"] + ' ' + meal["artgebname"]
+        p_key = meal["artgebname"]
         for k, price in self._price_relations.items():
             if k == p_key:
                 if 'price' in price:
@@ -155,5 +155,5 @@ class Parser:
 if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
     p = Parser("http://localhost/")
-    print(p.feed("bistro36"))
+    print(p.feed("tumensa"))
     # print(p.meta("tumensa"))
