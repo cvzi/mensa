@@ -38,42 +38,163 @@
     <main>
       <article>Parser for <a target="_blank" href="https://openmensa.org">openmensa.org</a>. The parser runs in a <a target="_blank" title="What's a Github action?" href="https://docs.github.com/en/actions">Github action<sup>❓</sup></a> and pushes the XML feeds to this page</article>
       <article><h3><a href="https://github.com/cvzi/mensa/actions/">🗿 Parser status</a></h3>
-<pre>luxembourg:
+<pre>mensenat/WiBOKUmCafeMendel:
 Traceback (most recent call last):
-  File "C:\Users\cuzi\github\mensa_github\luxembourg\tools.py", line 15, in <module>
-    from util import StyledLazyBuilder, now_local
-  File "C:\Users\cuzi\github\mensa_github\util.py", line 6, in <module>
-    import lxml
-ModuleNotFoundError: No module named 'lxml'
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
+    content = getattr(parser, feedMethod)(
+        mensaReference)
+  File "/home/runner/work/mensa/mensa/mensenat/__init__.py", line 29, in feed
+    return canteen.generateTotalFeedXml()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 55, in generateTotalFeedXml
+    self.addWeekMenuToFeed(weekMenus["menuplanNextWeek"])
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 79, in addWeekMenuToFeed
+    self.addMealsToFeed(category_name, current_date, menu)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 89, in addMealsToFeed
+    self.feed.addMeal(current_date, category_name, name, notes=notes, prices=prices)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/pyopenmensa/feed.py", line 657, in addMeal
+    prices = buildPrices(prices or {}, roles,
+                         default=self.additionalCharges[0],
+                         additional=self.additionalCharges[1])
+  File "/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/pyopenmensa/feed.py", line 154, in buildPrices
+    data = [(item[0], convertPrice(item[1])) for item in data.items()]
+                      ~~~~~~~~~~~~^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/pyopenmensa/feed.py", line 139, in convertPrice
+    raise ValueError('Could not extract price: {0}'.format(variant))
+ValueError: Could not extract price: 
 
-During handling of the above exception, another exception occurred:
-
+mensenat/GrazKUGmCafe:
 Traceback (most recent call last):
-  File "C:\Users\cuzi\github\mensa_github\luxembourg\__init__.py", line 8, in <module>
-    from luxembourg.tools import getMenu
-  File "C:\Users\cuzi\github\mensa_github\luxembourg\tools.py", line 21, in <module>
-    from util import xml_escape, StyledLazyBuilder, now_local
-  File "C:\Users\cuzi\github\mensa_github\util.py", line 6, in <module>
-    import lxml
-ModuleNotFoundError: No module named 'lxml'
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
+    content = getattr(parser, feedMethod)(
+        mensaReference)
+  File "/home/runner/work/mensa/mensa/mensenat/__init__.py", line 29, in feed
+    return canteen.generateTotalFeedXml()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 55, in generateTotalFeedXml
+    self.addWeekMenuToFeed(weekMenus["menuplanNextWeek"])
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 79, in addWeekMenuToFeed
+    self.addMealsToFeed(category_name, current_date, menu)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 89, in addMealsToFeed
+    self.feed.addMeal(current_date, category_name, name, notes=notes, prices=prices)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/pyopenmensa/feed.py", line 657, in addMeal
+    prices = buildPrices(prices or {}, roles,
+                         default=self.additionalCharges[0],
+                         additional=self.additionalCharges[1])
+  File "/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/pyopenmensa/feed.py", line 154, in buildPrices
+    data = [(item[0], convertPrice(item[1])) for item in data.items()]
+                      ~~~~~~~~~~~~^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/pyopenmensa/feed.py", line 139, in convertPrice
+    raise ValueError('Could not extract price: {0}'.format(variant))
+ValueError: Could not extract price: 
 
-During handling of the above exception, another exception occurred:
-
+inetmenue/bs-ei:
 Traceback (most recent call last):
-  File "C:\Users\cuzi\github\mensa_github\updateFeeds.py", line 102, in updateFeeds
-    module = importlib.import_module(parserName)
-  File "C:\Python313\Lib\importlib\__init__.py", line 88, in import_module
-    return _bootstrap._gcd_import(name[level:], package, level)
-           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
-  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
-  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
-  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
-  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
-  File "C:\Users\cuzi\github\mensa_github\luxembourg\__init__.py", line 14, in <module>
-    from tools import getMenu
-ModuleNotFoundError: No module named 'tools'
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
+    content = getattr(parser, feedMethod)(
+        mensaReference)
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
+    return self.feed_all(ref, get_next_week=False)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
+    next_week_path = self.parseMeals(ref, builder, resp.text)
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
+    raise RuntimeError(oops.text.strip())
+RuntimeError: OOPS
+
+                        da hat sich wohl der
+                        Fehlerteufel eingeschlichen.
+
+inetmenue/ggs:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
+    content = getattr(parser, feedMethod)(
+        mensaReference)
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
+    return self.feed_all(ref, get_next_week=False)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
+    next_week_path = self.parseMeals(ref, builder, resp.text)
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
+    raise RuntimeError(oops.text.strip())
+RuntimeError: OOPS
+
+                        da hat sich wohl der
+                        Fehlerteufel eingeschlichen.
+
+inetmenue/mns:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
+    content = getattr(parser, feedMethod)(
+        mensaReference)
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
+    return self.feed_all(ref, get_next_week=False)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
+    next_week_path = self.parseMeals(ref, builder, resp.text)
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
+    raise RuntimeError(oops.text.strip())
+RuntimeError: OOPS
+
+                        da hat sich wohl der
+                        Fehlerteufel eingeschlichen.
+
+inetmenue/ms-ei:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
+    content = getattr(parser, feedMethod)(
+        mensaReference)
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
+    return self.feed_all(ref, get_next_week=False)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
+    next_week_path = self.parseMeals(ref, builder, resp.text)
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
+    raise RuntimeError(oops.text.strip())
+RuntimeError: OOPS
+
+                        da hat sich wohl der
+                        Fehlerteufel eingeschlichen.
+
+inetmenue/schmecktsdannbassts:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
+    content = getattr(parser, feedMethod)(
+        mensaReference)
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
+    return self.feed_all(ref, get_next_week=False)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
+    next_week_path = self.parseMeals(ref, builder, resp.text)
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
+    raise RuntimeError(oops.text.strip())
+RuntimeError: OOPS
+
+                        da hat sich wohl der
+                        Fehlerteufel eingeschlichen.
+
+inetmenue/sfz-ei:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
+    content = getattr(parser, feedMethod)(
+        mensaReference)
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
+    return self.feed_all(ref, get_next_week=False)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
+    next_week_path = self.parseMeals(ref, builder, resp.text)
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
+    raise RuntimeError(oops.text.strip())
+RuntimeError: OOPS
+
+                        da hat sich wohl der
+                        Fehlerteufel eingeschlichen.
 </pre></article>
       <article>
 <ol style="list-style-type:none">
