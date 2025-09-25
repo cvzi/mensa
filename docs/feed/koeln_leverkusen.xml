@@ -3,72 +3,14 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2025-09-24">
-      <category name="QUERBEET">
-        <meal>
-          <name>VEGAN: Pasta Theke Sojabolognese</name>
-          <note>Eier</note>
-          <note>Fisch</note>
-          <note>Gluten</note>
-          <note>Laktose</note>
-          <note>Milch</note>
-          <note>Roggen</note>
-          <note>Sellerie</note>
-          <note>Soja</note>
-          <note>Weizen</note>
-          <price role="employee">5.75</price>
-          <price role="other">17.15</price>
-          <price role="student">3.75</price>
-        </meal>
-        <meal>
-          <name>VEGETARISCH: Pasta Theke Gorgonzolacremesauce</name>
-          <note>Eier</note>
-          <note>Fisch</note>
-          <note>Gluten</note>
-          <note>Laktose</note>
-          <note>Milch</note>
-          <note>Roggen</note>
-          <note>Sellerie</note>
-          <note>Soja</note>
-          <note>Weizen</note>
-          <price role="employee">5.75</price>
-          <price role="other">17.15</price>
-          <price role="student">3.75</price>
-        </meal>
-        <meal>
-          <name>VEGAN: Vegane Bratwurst mit Currysauce,  Pommes Wedges,  Salat,  Dessert</name>
-          <price role="employee">6.25</price>
-          <price role="other">17.30</price>
-          <price role="student">3.85</price>
-        </meal>
-        <meal>
-          <name>VEGAN: Creamed corn Fladenbrot</name>
-          <note>Gluten</note>
-          <note>Sesamsamen</note>
-          <note>Weizen</note>
-          <price role="employee">4.00</price>
-          <price role="other">7.65</price>
-          <price role="student">1.85</price>
-        </meal>
-      </category>
-      <category name="WORLDWIDE">
-        <meal>
-          <name>Butter Chicken Basmatireis,  Salat,  Dessert,  Koriander</name>
-          <note>Laktose</note>
-          <note>Milch</note>
-          <price role="employee">5.75</price>
-          <price role="other">16.50</price>
-          <price role="student">3.60</price>
-        </meal>
-      </category>
-    </day>
     <day date="2025-09-25">
       <category name="HEIMSPIEL">
         <meal>
-          <name>Schweineschnitzel Zwiebelrahmsauce,  Kartoffelpüree,  Salat,  Dessert</name>
+          <name>Putenschnitzel Pfefferrahmsauce,  Kartoffelstampf,  Salat,  Dessert</name>
           <note>Gluten</note>
           <note>Laktose</note>
           <note>Milch</note>
+          <note>Senf</note>
           <note>Weizen</note>
           <price role="employee">5.60</price>
           <price role="other">15.10</price>
@@ -86,13 +28,23 @@
           <price role="student">1.85</price>
         </meal>
         <meal>
-          <name>VEGAN: Samosaecken Süß-saures Gemüse,  Curryreis,  Salat,  Dessert</name>
+          <name>VEGAN: Samosaecken Süß-saures Gemüse,  Reis,  Salat,  Dessert</name>
           <note>Gluten</note>
           <note>Sellerie</note>
           <note>Senf</note>
           <price role="employee">5.30</price>
           <price role="other">14.10</price>
           <price role="student">3.10</price>
+        </meal>
+      </category>
+      <category name="WORLDWIDE">
+        <meal>
+          <name>Butter Chicken Reis,  Salat,  Dessert,  Koriander</name>
+          <note>Laktose</note>
+          <note>Milch</note>
+          <price role="employee">5.75</price>
+          <price role="other">16.50</price>
+          <price role="student">3.60</price>
         </meal>
       </category>
     </day>
@@ -156,15 +108,6 @@
     <day date="2025-09-30">
       <category name="QUERBEET">
         <meal>
-          <name>VEGAN: Türkische Linsensuppe Fladenbrot</name>
-          <note>Gluten</note>
-          <note>Sesamsamen</note>
-          <note>Weizen</note>
-          <price role="employee">4.00</price>
-          <price role="other">7.65</price>
-          <price role="student">1.85</price>
-        </meal>
-        <meal>
           <name>VEGAN: Rigatoni Florentina Salat,  Dessert</name>
           <note>Gluten</note>
           <note>Soja</note>
@@ -172,6 +115,15 @@
           <price role="employee">4.85</price>
           <price role="other">11.90</price>
           <price role="student">2.60</price>
+        </meal>
+        <meal>
+          <name>VEGAN: Türkische Linsensuppe Fladenbrot</name>
+          <note>Gluten</note>
+          <note>Sesamsamen</note>
+          <note>Weizen</note>
+          <price role="employee">4.00</price>
+          <price role="other">7.65</price>
+          <price role="student">1.85</price>
         </meal>
       </category>
       <category name="WORLDWIDE">
@@ -312,6 +264,29 @@
           <price role="employee">5.10</price>
           <price role="other">12.65</price>
           <price role="student">2.80</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2025-10-09">
+      <category name="QUERBEET">
+        <meal>
+          <name>VEGAN: Gnocchi mit geröst. Paprika und Champignons Salat,  Dessert,  Basilikumöl</name>
+          <note>Chashewkerne/Kaschunüsse</note>
+          <note>Gluten</note>
+          <note>Soja</note>
+          <note>Weizen</note>
+          <price role="employee">5.30</price>
+          <price role="other">14.10</price>
+          <price role="student">3.10</price>
+        </meal>
+      </category>
+      <category name="WORLDWIDE">
+        <meal>
+          <name>Fruchtiges Hähnchen-Kokoscurry Duftreis,  Salat,  Dessert</name>
+          <note>Krebstiere (Schalen-/Krusten-/Weichtiere)</note>
+          <price role="employee">5.30</price>
+          <price role="other">14.10</price>
+          <price role="student">3.10</price>
         </meal>
       </category>
     </day>

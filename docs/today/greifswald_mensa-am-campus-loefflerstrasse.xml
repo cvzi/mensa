@@ -3,7 +3,7 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2025-09-24">
+    <day date="2025-09-25">
       <category name="Tellergericht">
         <meal>
           <name>Brötchen</name>
@@ -77,6 +77,13 @@
       </category>
       <category name="Komponente 3">
         <meal>
+          <name>Hähnchenbrust in Parmesanpanade (Gefl,G,A) 
+ mit Rahmsauce (9,Gefl,G)</name>
+          <price role="employee">3.25</price>
+          <price role="other">4.25</price>
+          <price role="student">2.25</price>
+        </meal>
+        <meal>
           <name>Putensteak paniert (Gefl,A) 
  mit Kokos-Currysauce</name>
           <note>Glutenhaltiges Getreide</note>
@@ -89,14 +96,27 @@
       </category>
       <category name="Veganes Essen">
         <meal>
-          <name>Feurige Pilzpfanne mit Paprika und Mandelstiften  
- mit Couscous</name>
+          <name>Mediterraner Gemüsegulasch mit Räuchertofu  
+ mit Reis</name>
           <note>Glutenhaltiges Getreide</note>
-          <note>Schalenfrüchte und daraus hergestellte Erzeugnisse (Mandeln, Haselnuss usw.)</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
           <note>jodiertes Salz</note>
-          <price role="employee">4.20</price>
-          <price role="other">5.60</price>
-          <price role="student">2.80</price>
+          <price role="employee">3.60</price>
+          <price role="other">5.00</price>
+          <price role="student">2.20</price>
+        </meal>
+        <meal>
+          <name>Orientalische Gemüsepfanne mit Sesamkernen  
+ und Reis</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Sesamsamen und daraus hergestellte Erzeugnisse</note>
+          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
+          <note>jodiertes Salz</note>
+          <note>mit Konservierungsstoff</note>
+          <price role="employee">3.60</price>
+          <price role="other">5.00</price>
+          <price role="student">2.20</price>
         </meal>
       </category>
       <category name="Vegetarisches Essen">
@@ -131,13 +151,6 @@
           <price role="student">0.80</price>
         </meal>
         <meal>
-          <name>Reis</name>
-          <note>jodiertes Salz</note>
-          <price role="employee">1.20</price>
-          <price role="other">1.60</price>
-          <price role="student">0.80</price>
-        </meal>
-        <meal>
           <name>Pommes Frites</name>
           <price role="employee">1.50</price>
           <price role="other">1.90</price>
@@ -146,7 +159,16 @@
       </category>
       <category name="Gemüse">
         <meal>
-          <name>Kaisergemüse</name>
+          <name>Erbsengemüse</name>
+          <price role="employee">1.20</price>
+          <price role="other">1.60</price>
+          <price role="student">0.80</price>
+        </meal>
+        <meal>
+          <name>Mischgemüse zum Überfüllen</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <note>jodiertes Salz</note>
           <price role="employee">1.40</price>
           <price role="other">1.80</price>
           <price role="student">1.00</price>
