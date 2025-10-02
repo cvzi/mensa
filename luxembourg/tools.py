@@ -111,7 +111,7 @@ def testHeaders():
     url = tmp
 
 
-def getMenu(restaurantId, datetimeDay=None, serviceIds=None, alternativeId=None, alternativeServiceIds=None):
+def getMenu(restaurantId, datetimeDay=None, serviceIds=None):
     """
     Create openmensa feed from restopolis website
     """
@@ -332,10 +332,6 @@ def getMenu(restaurantId, datetimeDay=None, serviceIds=None, alternativeId=None,
             mealCounterLast = mealCounter
             serviceIds.append(service)
             datetimeDay += datetime.timedelta(days=7)
-
-    if mealCounter == 0 and alternativeId:
-        logging.debug("No meals -> trying alternativeId")
-        return getMenu(alternativeId, datetimeDay=datetimeDay, serviceIds=alternativeServiceIds, alternativeId=None, alternativeServiceIds=None)
 
     xml = lazyBuilder.toXMLFeed()
     for commentStr in comments:

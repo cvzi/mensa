@@ -15,8 +15,6 @@ except ModuleNotFoundError:
     from util import weekdays_map
 
 metaJson = os.path.join(os.path.dirname(__file__), "canteenDict.json")
-metaJsonAlternative = os.path.join(
-    os.path.dirname(__file__), "canteenDictFrupstut.json")
 
 metaTemplateFile = os.path.join(os.path.dirname(
     __file__), "metaTemplate_luxembourg.xml")
@@ -28,14 +26,7 @@ class Parser:
     def feed(self, refName):
         if "active" in self.canteens[refName] and not self.canteens[refName]["active"]:
             return "Unknown reference or deactivated canteen"
-        if "alternativeId" in self.canteens[refName]:
-            alternativeId = self.canteens[refName]["alternativeId"]
-            alternativeServiceIds = self.canteens[refName]["alternativeServiceIds"]
-        else:
-            alternativeId = None
-            alternativeServiceIds = None
-        xml, _, _, _ = getMenu(restaurantId=self.canteens[refName]["id"], serviceIds=self.canteens[refName]
-                               ["services"], alternativeId=alternativeId, alternativeServiceIds=alternativeServiceIds)
+        xml, _, _, _ = getMenu(restaurantId=self.canteens[refName]["id"], serviceIds=self.canteens[refName]["services"])
         return xml
 
     def meta(self, refName):
@@ -112,8 +103,6 @@ class Parser:
     def __init__(self, urlTemplate):
         with open(metaJson, 'r', encoding='utf8') as f:
             canteenDict = json.load(f)
-        with open(metaJsonAlternative, 'r', encoding='utf8') as f:
-            canteenDictAlternative = json.load(f)
 
         self.urlTemplate = urlTemplate
 
@@ -122,11 +111,6 @@ class Parser:
             if "active" in restaurant and restaurant["active"] and "reference" in restaurant:
                 restaurant["id"] = restaurantId
                 self.canteens[restaurant["reference"]] = restaurant
-                if "alternativeId" in canteenDictAlternative:
-                    alternativeId = canteenDictAlternative["alternativeId"]
-                    if restaurant["reference"] == canteenDictAlternative[alternativeId]["reference"]:
-                        restaurant["alternativeId"] = alternativeId
-                        restaurant["alternativeServiceIds"] = canteenDictAlternative[alternativeId]["services"]
 
     def json(self):
         tmp = {}
@@ -138,5 +122,5 @@ class Parser:
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
-    print(Parser("http://localhost/").feed("LMLweier"))
+    print(Parser("http://localhost/").feed("LTETTA"))
     # print(Parser("http://localhost/").meta("CmpsKiBergAltius"))
