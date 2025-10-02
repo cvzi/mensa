@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/basic.css" type="text/css"?>
+<?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
+<openmensa xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
+  <canteen>
+    <name>Esch-Belval, CNFPC Restaurant (Centre National de Formation Professionnelle Continue)</name>
+    <address>1 Bd Charles de Gaulle, L-4083 Esch-Belval Esch-sur-Alzette (Luxembourg)</address>
+    <city>Esch-Belval Esch-sur-Alzette (Luxembourg)</city>
+    
+    <location latitude="49.49993392" longitude="5.966948529" />
+    <!--<availability></availability>-->
+    <times type="opening">
+      <monday open="11:30-14:30" />
+      <tuesday open="11:30-14:30" />
+      <wednesday open="11:30-14:30" />
+      <thursday open="11:30-14:30" />
+      <friday open="11:30-14:30" />
+      <saturday closed="true" />
+      <sunday closed="true" />
+    </times>
+    <feed name="full" priority="1">
+      <schedule dayOfMonth="*" dayOfWeek="*" hour="3" minute="13" retry="65 1 1440" />
+      <url>https://cvzi.github.io/mensa/feed/luxembourg_CNFPCbel.xml</url>
+      <source>https://portal.education.lu/restopolis/Language/fr/MENUS/MENU-DU-JOUR/RestaurantId/1381/ServiceId/2428#12691</source>
+    </feed>
+  </canteen>
+</openmensa>
