@@ -33,14 +33,15 @@ class Parser:
         pasto = self.canteens[refName].get("pasto", None)
 
         today = now_local()
+        timestamp = today
 
         if "{timestamp}" in path:
             if today.weekday() == 6:
-                ts = today + datetime.timedelta(days=1)
+                timestamp = today + datetime.timedelta(days=1)
             else:
-                ts = today
+                timestamp = today
 
-            path = path.format(timestamp=int(ts.timestamp()))
+            path = path.format(timestamp=int(timestamp.timestamp()))
         if "change_language" in self.canteens[refName]:
             lang = self.canteens[refName]["change_language"]
             html = requests.get(f"https://{domain}/change_language/{lang}", headers={
@@ -61,7 +62,7 @@ class Parser:
 
         # Dates
         dates = []
-        monday = today - datetime.timedelta(days=today.weekday())
+        monday = timestamp - datetime.timedelta(days=timestamp.weekday())
         for day in document.select(".days_container .day"):
             try:
                 i = int(day.text)
