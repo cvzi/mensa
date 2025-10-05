@@ -3,25 +3,25 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <name>Luxembourg, LAML Restaurant (Lycée Aline Mayrisch, Geesseknäppchen)</name>
-    <address>38 Boulevard Pierre Dupong, L-1430 Luxembourg</address>
-    <city>Luxembourg</city>
-    <phone>+352 26043211</phone>
-    <location latitude="49.60071" longitude="6.11121" />
+    <name>Strassen, ENSA Restaurant (Ecole nationale de santé)</name>
+    <address>2 Place Thomas Edison, L-1525 Strassen, (Luxembourg)</address>
+    <city>Strassen, (Luxembourg)</city>
+    
+    <location latitude="49.62181090958419" longitude="6.0976834306048255" />
     <!--<availability></availability>-->
     <times type="opening">
-      <monday open="07:00-14:30" />
-      <tuesday open="07:00-14:30" />
-      <wednesday open="07:00-14:30" />
-      <thursday open="07:00-14:30" />
-      <friday open="07:00-14:30" />
+      <monday open="07:00-18:00" />
+      <tuesday open="07:00-18:00" />
+      <wednesday open="07:00-18:00" />
+      <thursday open="07:00-18:00" />
+      <friday open="07:00-18:00" />
       <saturday closed="true" />
       <sunday closed="true" />
     </times>
     <feed name="full" priority="1">
       <schedule dayOfMonth="*" dayOfWeek="*" hour="3" minute="13" retry="65 1 1440" />
-      <url>https://cvzi.github.io/mensa/feed/luxembourg_LAMLca.xml</url>
-      <source>https://portal.education.lu/restopolis/Language/fr/MENUS/MENU-DU-JOUR/RestaurantId/24/ServiceId/92#12691</source>
+      <url>https://cvzi.github.io/mensa/feed/luxembourg_ENSAre.xml</url>
+      <source>https://portal.education.lu/restopolis/Language/fr/MENUS/MENU-DU-JOUR/RestaurantId/1366/ServiceId/2414#12691</source>
     </feed>
   </canteen>
 </openmensa>
