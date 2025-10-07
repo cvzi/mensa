@@ -3,10 +3,30 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2025-10-06">
+    <day date="2025-10-07">
       <category name="Komponente 3">
         <meal>
-          <name>Hähnchenbruststeak mit Kokos-Curry-Soße (9,Gefl)</name>
+          <name>1 Hähnchen-Knusperschnitzel "Peppadew" gefüllt mit Frischkäsezubereitung und eingelegten Kirschpaprika (3,Gefl,G,A) 
+ mit Geflügelsauce (9,Gefl)</name>
+          <price role="employee">3.25</price>
+          <price role="other">4.25</price>
+          <price role="student">2.25</price>
+        </meal>
+      </category>
+      <category name="Komponente 5">
+        <meal>
+          <name>Rindergulasch mit Paprikastreifen</name>
+          <note>Rindfleisch</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">3.35</price>
+          <price role="other">4.35</price>
+          <price role="student">2.35</price>
+        </meal>
+      </category>
+      <category name="Vegane Komponente 1">
+        <meal>
+          <name>planted.chicken Geschnetzeltes in Currysoße [aus Erbsenprotein)  
+ mit Gemüse [Paprika, Erbsen, Karotten, Lauchzwiebeln]</name>
           <price role="employee">3.25</price>
           <price role="other">4.25</price>
           <price role="student">2.25</price>
@@ -22,26 +42,6 @@
           <price role="student">2.00</price>
         </meal>
       </category>
-      <category name="Nudeltheke (Preis pro 100g) Bitte extra Pasta-Teller verwenden">
-        <meal>
-          <name>Hartkäse gerieben, portioniert (an der Kasse erhältlich)</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
-          <note>Milch/Milchzucker (Laktose)</note>
-          <note>mit Konservierungsstoff</note>
-          <price role="employee">0.50</price>
-          <price role="other">0.70</price>
-          <price role="student">0.30</price>
-        </meal>
-        <meal>
-          <name>Pastateller: Nudeln  
- mit Tomatensoße [vegan]</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">1.00</price>
-          <price role="other">1.40</price>
-          <price role="student">0.65</price>
-        </meal>
-      </category>
       <category name="Beilagen">
         <meal>
           <name>Salzkartoffeln</name>
@@ -51,11 +51,20 @@
           <price role="student">0.80</price>
         </meal>
         <meal>
-          <name>Reis</name>
+          <name>Basmatireis</name>
           <note>jodiertes Salz</note>
           <price role="employee">1.20</price>
           <price role="other">1.60</price>
           <price role="student">0.80</price>
+        </meal>
+        <meal>
+          <name>Böhmische Knödel</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <price role="employee">1.50</price>
+          <price role="other">1.90</price>
+          <price role="student">1.10</price>
         </meal>
         <meal>
           <name>Pommes Frites</name>
@@ -66,10 +75,17 @@
       </category>
       <category name="Gemüse">
         <meal>
-          <name>Brokkoli</name>
-          <price role="employee">1.40</price>
-          <price role="other">1.80</price>
-          <price role="student">1.00</price>
+          <name>Möhren</name>
+          <price role="employee">1.20</price>
+          <price role="other">1.60</price>
+          <price role="student">0.80</price>
+        </meal>
+        <meal>
+          <name>Rotkohl</name>
+          <note>mit Antioxidationsmittel</note>
+          <price role="employee">1.20</price>
+          <price role="other">1.60</price>
+          <price role="student">0.80</price>
         </meal>
       </category>
       <category name="Salate und Desserts">
