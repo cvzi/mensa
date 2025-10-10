@@ -2,7 +2,7 @@
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
     <day date="2025-10-06">
-      <category name="Menü Classic 1 (mit Suppe, Salat und Getränk)">
+      <category name="Menü veggie/vegan (mit Suppe, Salat und Getränk)">
         <meal>
           <name>Gnocchi in cremiger Brie-Kräutersauce dazu frische Kräutergarnitur</name>
           <note>A</note>
@@ -13,7 +13,7 @@
           <price role="other">6.20</price>
         </meal>
       </category>
-      <category name="Menü Classic 2 (mit Suppe, Salat und Getränk)">
+      <category name="Menü herzhaft (mit Suppe, Salat und Getränk)">
         <meal>
           <name>"Sudenten-Semesterstartspecial, nur solange der Vorrat reicht! Gebratener Leberkäse vom Bio Schwein mit Rahmkohlrabi und Erdäpfelpüree</name>
           <note>F</note>
@@ -49,7 +49,7 @@
       </category>
     </day>
     <day date="2025-10-07">
-      <category name="Menü Classic 1 (mit Suppe, Salat und Getränk)">
+      <category name="Menü veggie/vegan (mit Suppe, Salat und Getränk)">
         <meal>
           <name>Gnocchi alla Sorrentina</name>
           <note>A</note>
@@ -58,7 +58,7 @@
           <price role="other">6.20</price>
         </meal>
       </category>
-      <category name="Menü Classic 2 (mit Suppe, Salat und Getränk)">
+      <category name="Menü herzhaft (mit Suppe, Salat und Getränk)">
         <meal>
           <name>Currygeschnetzeltes von der Bio Pute dazu Basmatireis und frische Kräuter</name>
           <note>G</note>
@@ -76,6 +76,14 @@
           <note>O</note>
           <price role="other">10.90</price>
         </meal>
+        <meal>
+          <name>Gold-braun gebackener Emmentaler mit Petersilerdäpfeln und buntem Blattsalatnest (optional mit Preiselbeeren+0,70€)</name>
+          <note>A</note>
+          <note>C</note>
+          <note>G</note>
+          <note>O</note>
+          <price role="other">10.50</price>
+        </meal>
       </category>
       <category name="Suppe">
         <meal>
@@ -87,7 +95,7 @@
       </category>
     </day>
     <day date="2025-10-08">
-      <category name="Menü Classic 1 (mit Suppe, Salat und Getränk)">
+      <category name="Menü veggie/vegan (mit Suppe, Salat und Getränk)">
         <meal>
           <name>Knusprig gebackene Gemüserösti serviert auf Paprikaletscho mit frischen Kräutern</name>
           <note>A</note>
@@ -95,7 +103,7 @@
           <price role="other">6.20</price>
         </meal>
       </category>
-      <category name="Menü Classic 2 (mit Suppe, Salat und Getränk)">
+      <category name="Menü herzhaft (mit Suppe, Salat und Getränk)">
         <meal>
           <name>Szegediner Gulasch vom Bio Schwein dazu Petersilerdäpfeln und Kräutertopping</name>
           <note>L</note>
@@ -130,7 +138,7 @@
       </category>
     </day>
     <day date="2025-10-09">
-      <category name="Menü Classic 1 (mit Suppe, Salat und Getränk)">
+      <category name="Menü veggie/vegan (mit Suppe, Salat und Getränk)">
         <meal>
           <name>Klassischer Kaiserschmarren mit Apfelmus und Staubzucker</name>
           <note>A</note>
@@ -139,7 +147,7 @@
           <price role="other">6.20</price>
         </meal>
       </category>
-      <category name="Menü Classic 2 (mit Suppe, Salat und Getränk)">
+      <category name="Menü herzhaft (mit Suppe, Salat und Getränk)">
         <meal>
           <name>Stroganoff vom Bio Rind dazu Fusilli</name>
           <note>A</note>
@@ -158,6 +166,14 @@
           <note>G</note>
           <price role="other">10.90</price>
         </meal>
+        <meal>
+          <name>"everything vegan" Tom Ka mit frischem Gemüse dazu Jasminduftreis, Koriander</name>
+          <note>A</note>
+          <note>F</note>
+          <note>L</note>
+          <note>N</note>
+          <price role="other">10.50</price>
+        </meal>
       </category>
       <category name="Suppe">
         <meal>
@@ -169,7 +185,7 @@
       </category>
     </day>
     <day date="2025-10-10">
-      <category name="Menü Classic 1 (mit Suppe, Salat und Getränk)">
+      <category name="Menü veggie/vegan (mit Suppe, Salat und Getränk)">
         <meal>
           <name>"everything vegan" Pasta Barilla in Kürbis-Rahmsauce dazu Kräutertopping</name>
           <note>A</note>
@@ -178,7 +194,7 @@
           <price role="other">6.20</price>
         </meal>
       </category>
-      <category name="Menü Classic 2 (mit Suppe, Salat und Getränk)">
+      <category name="Menü herzhaft (mit Suppe, Salat und Getränk)">
         <meal>
           <name>Chinesische Eiernudeln mit Bio Rinderfaschiertem und Kräutergarnitur</name>
           <note>A</note>
@@ -198,16 +214,6 @@
           <note>L</note>
           <note>O</note>
           <price role="other">9.30</price>
-        </meal>
-      </category>
-      <category name="Tagesgericht herzhaft">
-        <meal>
-          <name>Knusprig gebackenes Seelachsfilet MSC mit Risibisi und Sauce Tartare dazu Zitronenspalte</name>
-          <note>A</note>
-          <note>C</note>
-          <note>D</note>
-          <note>O</note>
-          <price role="other">9.90</price>
         </meal>
       </category>
       <category name="Suppe">
