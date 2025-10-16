@@ -3,20 +3,16 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2025-10-15">
+    <day date="2025-10-16">
       <category name="Tellergericht">
         <meal>
-          <name>Teller: Grüner Bohneneintopf [vegan]</name>
-          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
-          <note>geschwefelt</note>
+          <name>Teller: Kartoffelsuppe mit Geflügelwiener (2,3,5,7,9,Gefl,I)</name>
           <price role="employee">2.45</price>
           <price role="other">3.45</price>
           <price role="student">1.50</price>
         </meal>
         <meal>
-          <name>Terrine: Grüner Bohneneintopf [vegan]</name>
-          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
-          <note>geschwefelt</note>
+          <name>Terrine: Kartoffelsuppe mit Geflügelwiener (2,3,5,7,9,Gefl,I)</name>
           <price role="employee">3.45</price>
           <price role="other">4.70</price>
           <price role="student">2.20</price>
@@ -24,8 +20,12 @@
       </category>
       <category name="Komponente 2">
         <meal>
-          <name>Jägerschnitzel (pan. Jagdwurstscheibe) und Tomatensauce</name>
+          <name>Kohlroulade mit Krautsauce</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <note>Schweinefleisch</note>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
           <note>jodiertes Salz</note>
           <price role="employee">3.25</price>
           <price role="other">4.25</price>
@@ -34,45 +34,67 @@
       </category>
       <category name="Vegane Komponente 1">
         <meal>
-          <name>Falafel-Kichererbsen-Patty  
- dazu ein Ajvar-Dip</name>
-          <note>Glutenhaltiges Getreide</note>
-          <price role="employee">3.25</price>
-          <price role="other">4.25</price>
-          <price role="student">2.25</price>
+          <name>planted.kebap  
+ mit Tzaziki [mit Knoblauch und Zwiebel]</name>
+          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
+          <note>mit Antioxidationsmittel</note>
+          <price role="employee">3.50</price>
+          <price role="other">4.50</price>
+          <price role="student">2.50</price>
         </meal>
       </category>
-      <category name="RegioTeller (100% pflanzlich)">
+      <category name="Nudeltheke: Pasta nach Gewicht (pro 100g)">
         <meal>
-          <name>Massaman Curry</name>
-          <note>Erdnüsse und daraus hergestellte Erzeugnisse</note>
+          <name>Pastateller: Penne mit Tomaten-Basilikumsauce [vegan]</name>
           <note>Glutenhaltiges Getreide</note>
-          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
           <note>jodiertes Salz</note>
-          <note>mit Farbstoff</note>
-          <note>mit Konservierungsstoff</note>
-          <price role="employee">3.25</price>
-          <price role="other">4.25</price>
-          <price role="student">2.25</price>
+          <price role="employee">1.00</price>
+          <price role="other">1.40</price>
+          <price role="student">0.65</price>
         </meal>
       </category>
       <category name="Beilagen">
         <meal>
-          <name>Penne</name>
-          <note>Glutenhaltiges Getreide</note>
+          <name>Salzkartoffeln</name>
+          <note>geschwefelt</note>
           <note>jodiertes Salz</note>
           <price role="employee">1.20</price>
           <price role="other">1.60</price>
           <price role="student">0.80</price>
         </meal>
-      </category>
-      <category name="Gemüse">
         <meal>
-          <name>Leipziger Allerlei [Erbsen, Karotten, Spargel]</name>
+          <name>Reis</name>
           <note>jodiertes Salz</note>
           <price role="employee">1.20</price>
           <price role="other">1.60</price>
           <price role="student">0.80</price>
+        </meal>
+        <meal>
+          <name>Pita-Brot</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>jodiertes Salz</note>
+          <price role="employee">1.50</price>
+          <price role="other">1.90</price>
+          <price role="student">1.10</price>
+        </meal>
+      </category>
+      <category name="Gemüse">
+        <meal>
+          <name>Weisskrautsalat</name>
+          <note>jodiertes Salz</note>
+          <note>mit Antioxidationsmittel</note>
+          <price role="employee">1.20</price>
+          <price role="other">1.60</price>
+          <price role="student">0.80</price>
+        </meal>
+        <meal>
+          <name>Cordial Gemüse [Brechbohnen, Möhrenscheiben, Staudensellerie, Schwarzwurzeln]</name>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>jodiertes Salz</note>
+          <price role="employee">1.40</price>
+          <price role="other">1.80</price>
+          <price role="student">1.00</price>
         </meal>
       </category>
       <category name="Salate und Desserts">
