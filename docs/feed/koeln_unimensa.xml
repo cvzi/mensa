@@ -4,7 +4,18 @@
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
     <day date="2025-10-20">
+      <category name="Information">
+        <meal>
+          <name>INFO: Die Suppe kann im EG-Süd nur mit Bon bezahlt werden. Im EG-Süd gibt es die Suppe &amp; das Vegane Gericht. </name>
+        </meal>
+      </category>
       <category name="QUERBEET">
+        <meal>
+          <name>EG Nord 11:30 - 14:30 UhrSalat &amp; Gemüsebuffet in Selbstbedienung,  je 100g (Preis je 100g)</name>
+          <price role="employee">0.95</price>
+          <price role="other">2.90</price>
+          <price role="student">0.75</price>
+        </meal>
         <meal>
           <name>EG Süd 11:30 - 14:30 UhrVEGAN: Indischer Spinat Kichererbsenreis,  Salat,  Dessert</name>
           <note>Soja</note>
@@ -13,9 +24,9 @@
           <price role="student">3.10</price>
         </meal>
         <meal>
-          <name>EG Süd 11:30 - 14:30 UhrVEGAN: Süßkartoffelsuppe mit Salbei Kaiserbrötchen</name>
-          <note>Gluten</note>
+          <name>EG Süd 11:30 - 14:30 UhrVEGAN: Süßkartoffelsuppe mit Salbei Brötchen</name>
           <note>Soja</note>
+          <note>Weizen</note>
           <price role="employee">4.00</price>
           <price role="other">7.65</price>
           <price role="student">1.85</price>
@@ -37,7 +48,6 @@
       <category name="HEIMSPIEL">
         <meal>
           <name>MG Nord 11:30 - 14:15 UhrSchweineschnitzel Zwiebelrahmsauce,  Kroketten,  Salat,  Dessert</name>
-          <note>Gluten</note>
           <note>Laktose</note>
           <note>Milch</note>
           <note>Weizen</note>
@@ -47,7 +57,6 @@
         </meal>
         <meal>
           <name>MG Nord 14:30 - 18:15 UhrSchweineschnitzel Zwiebelrahmsauce,  Kroketten,  Salat,  Dessert</name>
-          <note>Gluten</note>
           <note>Laktose</note>
           <note>Milch</note>
           <note>Weizen</note>
@@ -59,7 +68,6 @@
       <category name="MEISTERWERK">
         <meal>
           <name>MG Nord 11:30 - 14:15 UhrVEGETARISCH: Maccaroni Käsesauce,  Salat</name>
-          <note>Gluten</note>
           <note>Laktose</note>
           <note>Milch</note>
           <note>Weizen</note>
@@ -68,10 +76,11 @@
           <price role="student">3.75</price>
         </meal>
         <meal>
-          <name>MG Nord 11:30 - 14:15 UhrVEGETARISCH: Orecchiette Bio Curry-Kokossauce,  Salat</name>
-          <note>Gluten</note>
-          <note>Laktose</note>
-          <note>Milch</note>
+          <name>MG Nord 11:30 - 14:15 UhrVEGAN: Orecchiette Curry-Kokossauce,  Salat</name>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <note>Soja</note>
+          <note>Weizen</note>
           <price role="employee">5.75</price>
           <price role="other">17.15</price>
           <price role="student">3.75</price>
@@ -641,18 +650,18 @@
       </category>
       <category name="MEISTERWERK">
         <meal>
-          <name>MG Nord 11:30 - 14:15 UhrVEGETARISCH: Tortellini mit Spinat- Käsefüllung Pesto,  Salat</name>
-          <note>Gluten</note>
-          <note>Laktose</note>
-          <note>Milch</note>
+          <name>MG Nord 11:30 - 14:15 UhrVEGETARISCH: Farfalle Gemüsesugo,  Salat</name>
+          <note>Sellerie</note>
           <note>Weizen</note>
           <price role="employee">5.75</price>
           <price role="other">17.15</price>
           <price role="student">3.75</price>
         </meal>
         <meal>
-          <name>MG Nord 11:30 - 14:15 UhrVEGETARISCH: Farfalle Gemüsesugo,  Salat</name>
-          <note>Sellerie</note>
+          <name>MG Nord 11:30 - 14:15 UhrVEGETARISCH: Tortellini mit Spinat- Käsefüllung Pesto,  Salat</name>
+          <note>Gluten</note>
+          <note>Laktose</note>
+          <note>Milch</note>
           <note>Weizen</note>
           <price role="employee">5.75</price>
           <price role="other">17.15</price>
@@ -940,6 +949,100 @@
           <price role="employee">8.95</price>
           <price role="other">28.35</price>
           <price role="student">6.30</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2025-11-03">
+      <category name="QUERBEET">
+        <meal>
+          <name>EG Süd 11:30 - 14:30 UhrVEGAN: Süßkartoffelsuppe mit Salbei Kaiserbrötchen</name>
+          <note>Gluten</note>
+          <note>Soja</note>
+          <price role="employee">4.00</price>
+          <price role="other">7.65</price>
+          <price role="student">1.85</price>
+        </meal>
+        <meal>
+          <name>EG Süd 11:30 - 14:30 UhrVEGAN: Kürbis-Falafelbällchen Süßkartoffel-Rosenkohl Curry,  Salat,  Dessert</name>
+          <note>Sellerie</note>
+          <price role="employee">5.75</price>
+          <price role="other">16.50</price>
+          <price role="student">3.60</price>
+        </meal>
+        <meal>
+          <name>MG Nord 11:30 - 14:15 UhrSalatbuffet in Selbstbedienung,  je 100g (Preis je 100g)</name>
+          <price role="employee">0.95</price>
+          <price role="other">2.90</price>
+          <price role="student">0.75</price>
+        </meal>
+        <meal>
+          <name>MG Nord 14:30 - 18:15 UhrVEGAN: Kürbis-Falafelbällchen Süßkartoffel-Rosenkohl Curry,  Salat,  Dessert</name>
+          <note>Sellerie</note>
+          <price role="employee">5.75</price>
+          <price role="other">16.50</price>
+          <price role="student">3.60</price>
+        </meal>
+      </category>
+      <category name="HEIMSPIEL">
+        <meal>
+          <name>MG Nord 11:30 - 14:15 UhrHähnchen-Crossies Sweet-Chili Dip,  Pommes frites,  Salat,  Dessert</name>
+          <note>Gluten</note>
+          <note>Weizen</note>
+          <price role="employee">5.60</price>
+          <price role="other">15.10</price>
+          <price role="student">3.30</price>
+        </meal>
+        <meal>
+          <name>MG Nord 14:30 - 18:15 UhrHähnchen-Crossies Sweet-Chili Dip,  Pommes frites,  Salat,  Dessert</name>
+          <note>Gluten</note>
+          <note>Weizen</note>
+          <price role="employee">5.60</price>
+          <price role="other">15.10</price>
+          <price role="student">3.30</price>
+        </meal>
+      </category>
+      <category name="MEISTERWERK">
+        <meal>
+          <name>MG Nord 11:30 - 14:15 UhrVEGETARISCH: Ravioli Spinat-Käsefüllung Kräuterrahmsauce,  Salat</name>
+          <note>Gluten</note>
+          <note>Laktose</note>
+          <note>Milch</note>
+          <note>Weizen</note>
+          <price role="employee">5.75</price>
+          <price role="other">17.15</price>
+          <price role="student">3.75</price>
+        </meal>
+        <meal>
+          <name>MG Nord 11:30 - 14:15 UhrPenne Rigate Rindfleisch Bolognese,  Salat</name>
+          <note>Sellerie</note>
+          <note>Weizen</note>
+          <price role="employee">5.75</price>
+          <price role="other">17.15</price>
+          <price role="student">3.75</price>
+        </meal>
+        <meal>
+          <name>MG Süd RestaurantSmash Cheeseburger Classic Pommes Twister</name>
+          <note>Eier</note>
+          <note>Gluten</note>
+          <note>Laktose</note>
+          <note>Milch</note>
+          <note>Senf</note>
+          <note>Sesamsamen</note>
+          <note>Weizen</note>
+          <price role="employee">8.95</price>
+          <price role="other">28.35</price>
+          <price role="student">6.30</price>
+        </meal>
+        <meal>
+          <name>MG Süd RestaurantVEGAN: Planted BBQ Burger Pommes Twister</name>
+          <note>Gluten</note>
+          <note>Hafer</note>
+          <note>Roggen</note>
+          <note>Senf</note>
+          <note>Weizen</note>
+          <price role="employee">7.70</price>
+          <price role="other">23.95</price>
+          <price role="student">5.30</price>
         </meal>
       </category>
     </day>
