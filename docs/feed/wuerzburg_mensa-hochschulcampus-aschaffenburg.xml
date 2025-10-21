@@ -3,36 +3,7 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2025-10-20">
-      <category name="Schwein">
-        <meal>
-          <name>Hacksteak an Pfefferrahmsoße</name>
-          <note>Alkohol</note>
-          <note>Eier</note>
-          <note>Gerste</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Rind/Kalb</note>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>Schwein</note>
-          <note>Sellerie</note>
-          <note>Soja</note>
-          <note>Weizen</note>
-          <note>geschwefelt</note>
-          <note>glutenhaltiges Getreide</note>
-          <price role="employee">4.15</price>
-          <price role="other">5.10</price>
-          <price role="student">2.80</price>
-        </meal>
-        <meal>
-          <name>Knusperschnitzel vom Schwein</name>
-          <note>Schwein</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <price role="employee">5.00</price>
-          <price role="other">5.95</price>
-          <price role="student">3.65</price>
-        </meal>
-      </category>
+    <day date="2025-10-21">
       <category name="Vegan">
         <meal>
           <name>Vegane Tortelloni mit Gemüsefüllung und Kokos - Karottensoße</name>
@@ -42,6 +13,15 @@
           <price role="employee">4.45</price>
           <price role="other">5.40</price>
           <price role="student">3.10</price>
+        </meal>
+        <meal>
+          <name>mensaVital: Vollkornspaghetti mit Ragout von roten Linsen</name>
+          <note>Sellerie</note>
+          <note>Weizen</note>
+          <note>glutenhaltiges Getreide</note>
+          <price role="employee">3.65</price>
+          <price role="other">4.60</price>
+          <price role="student">2.35</price>
         </meal>
       </category>
       <category name="Fleischlos">
@@ -55,58 +35,6 @@
           <price role="other">6.45</price>
           <price role="student">4.10</price>
         </meal>
-      </category>
-      <category name="Gefluegel">
-        <meal>
-          <name>Geflügelhacksteak mit Soße</name>
-          <note>Alkohol</note>
-          <note>Eier</note>
-          <note>Geflügel</note>
-          <note>Gerste</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <note>Soja</note>
-          <note>Weizen</note>
-          <note>geschwefelt</note>
-          <note>glutenhaltiges Getreide</note>
-          <price role="employee">3.90</price>
-          <price role="other">4.85</price>
-          <price role="student">2.60</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2025-10-21">
-      <category name="Vegan">
-        <meal>
-          <name>mensaVital: Vollkornspaghetti mit Ragout von roten Linsen</name>
-          <note>Sellerie</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <price role="employee">3.65</price>
-          <price role="other">4.60</price>
-          <price role="student">2.35</price>
-        </meal>
-      </category>
-      <category name="Schwein">
-        <meal>
-          <name>Ein Paar Bratwürste mit Sauerkraut und Kartoffelpüree</name>
-          <note>Alkohol</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>Schwein</note>
-          <note>Senf</note>
-          <note>geschwefelt</note>
-          <note>mit Antioxidationsmittel</note>
-          <note>mit Farbstoff</note>
-          <note>mit Phosphat</note>
-          <price role="employee">5.90</price>
-          <price role="other">6.85</price>
-          <price role="student">4.45</price>
-        </meal>
-      </category>
-      <category name="Fleischlos">
         <meal>
           <name>Pfannkuchen mit Apfelmus</name>
           <note>Eier</note>
@@ -116,6 +44,26 @@
           <price role="employee">3.40</price>
           <price role="other">4.35</price>
           <price role="student">2.10</price>
+        </meal>
+      </category>
+      <category name="Schwein">
+        <meal>
+          <name>Köttbullar mit Rahmsoße</name>
+          <note>Alkohol</note>
+          <note>Eier</note>
+          <note>Gerste</note>
+          <note>Milch (einschließlich Lactose)</note>
+          <note>Rind/Kalb</note>
+          <note>Schwefeldioxid und Sulfite</note>
+          <note>Schwein</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
+          <note>Weizen</note>
+          <note>geschwefelt</note>
+          <note>glutenhaltiges Getreide</note>
+          <price role="employee">5.00</price>
+          <price role="other">5.95</price>
+          <price role="student">3.65</price>
         </meal>
       </category>
       <category name="Rind">
@@ -153,22 +101,19 @@
       </category>
       <category name="Schwein">
         <meal>
-          <name>Köttbullar mit Rahmsoße</name>
+          <name>Ein Paar Bratwürste mit Sauerkraut und Kartoffelpüree</name>
           <note>Alkohol</note>
-          <note>Eier</note>
-          <note>Gerste</note>
           <note>Milch (einschließlich Lactose)</note>
-          <note>Rind/Kalb</note>
           <note>Schwefeldioxid und Sulfite</note>
           <note>Schwein</note>
-          <note>Sellerie</note>
-          <note>Soja</note>
-          <note>Weizen</note>
+          <note>Senf</note>
           <note>geschwefelt</note>
-          <note>glutenhaltiges Getreide</note>
-          <price role="employee">5.00</price>
-          <price role="other">5.95</price>
-          <price role="student">3.65</price>
+          <note>mit Antioxidationsmittel</note>
+          <note>mit Farbstoff</note>
+          <note>mit Phosphat</note>
+          <price role="employee">5.90</price>
+          <price role="other">6.85</price>
+          <price role="student">4.45</price>
         </meal>
       </category>
       <category name="Gefluegel">
@@ -357,10 +302,13 @@
       </category>
       <category name="Gefluegel">
         <meal>
-          <name>2 Stück Hähnchenschnitzel "Wiener Art"</name>
+          <name>Chicken Nuggets "Honey - B.B.Q."</name>
           <note>Geflügel</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
           <note>Weizen</note>
           <note>glutenhaltiges Getreide</note>
+          <note>mit Süßungsmittel</note>
           <price role="employee">5.20</price>
           <price role="other">6.15</price>
           <price role="student">3.80</price>
@@ -404,20 +352,6 @@
           <price role="employee">6.30</price>
           <price role="other">7.25</price>
           <price role="student">4.85</price>
-        </meal>
-      </category>
-      <category name="Gefluegel">
-        <meal>
-          <name>Chicken Nuggets "Honey - B.B.Q."</name>
-          <note>Geflügel</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>mit Süßungsmittel</note>
-          <price role="employee">5.20</price>
-          <price role="other">6.15</price>
-          <price role="student">3.80</price>
         </meal>
       </category>
     </day>
