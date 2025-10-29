@@ -44,8 +44,13 @@ class Parser:
                     try:
                         category = meal.find('span', class_='food-icon')['title']
                     except BaseException:
-                        logging.warning("Meal type of %s (%s) is unknown", name, date)
-                        category = "unknown"
+                        if "vegan" in name.lower():
+                            category = "Vegan"
+                        elif "veggy" in name.lower():
+                            category = "Fleischlos"
+                        else:
+                            logging.warning("Meal type of %s (%s) is unknown", name, date)
+                            category = "Mensa"
                     notes = [note.text.strip() for note in meal.find('div', class_='additive-list').find_all('li') if note.text.strip()]
                     priceDiv = meal.find('div', class_='price')
                     prices = [priceDiv.get('data-price-student'), priceDiv.get('data-price-servant'), priceDiv.get('data-price-guest')]
@@ -93,8 +98,12 @@ class Parser:
         if openingData:
             for dayData in openingData.find_all('div', class_='opening-time_days'):
                 try:
-                    day = dayData.find('div', class_='opening-time-day-range').text
-                    time = dayData.find('div', class_='opening-times__time').text
+                    dayNode = dayData.find('div', class_='opening-time-day-range')
+                    timeNode = dayData.find('div', class_='opening-times__time')
+                    if not dayNode or not timeNode:
+                        continue
+                    day = dayNode.text
+                    time = timeNode.text
                     for full_day, short_day in day_mapping.items():
                         day = day.replace(full_day, short_day)
                     times += (" " + day + time)
