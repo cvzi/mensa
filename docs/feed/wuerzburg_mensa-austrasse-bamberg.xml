@@ -4,9 +4,38 @@
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
     <day date="2025-10-31">
+      <category name="Mensa">
+        <meal>
+          <name>Halloween Black Beef Burger -Beilage extra-</name>
+          <note>Gerste</note>
+          <note>Milch (einschließlich Lactose)</note>
+          <note>Rind/Kalb</note>
+          <note>Schwein</note>
+          <note>Weizen</note>
+          <note>glutenhaltiges Getreide</note>
+          <note>konserviert</note>
+          <note>mit Antioxidationsmittel</note>
+          <note>mit Farbstoff</note>
+          <note>mit Phosphat</note>
+          <note>mit Süßungsmittel</note>
+          <price role="employee">7.10</price>
+          <price role="other">8.05</price>
+          <price role="student">5.60</price>
+        </meal>
+      </category>
+      <category name="Fleischlos">
+        <meal>
+          <name>Kürbiscremesuppe</name>
+          <note>Milch (einschließlich Lactose)</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">1.60</price>
+          <price role="other">1.80</price>
+          <price role="student">1.50</price>
+        </meal>
+      </category>
       <category name="Vegan">
         <meal>
-          <name>Halloween Black Vegan Burger</name>
+          <name>Halloween Black Vegan Burger -Beilage extra-</name>
           <note>Gerste</note>
           <note>Weizen</note>
           <note>glutenhaltiges Getreide</note>
@@ -31,7 +60,7 @@
       </category>
       <category name="Fisch">
         <meal>
-          <name>Norwegisches Lachsfilet mit Kräutercremesoße</name>
+          <name>Norwegisches Lachsfilet mit Kräutercremesoße -Beilage extra-</name>
           <note>Alkohol</note>
           <note>Fisch</note>
           <note>Fische</note>
@@ -72,7 +101,7 @@
       </category>
       <category name="Gefluegel">
         <meal>
-          <name>Hähnchenfiletspieß mit Kräuterrahmsoße</name>
+          <name>Hähnchenfiletspieß mit Kräuterrahmsoße -Beilage extra-</name>
           <note>Alkohol</note>
           <note>Geflügel</note>
           <note>Gerste</note>
@@ -91,19 +120,18 @@
       </category>
     </day>
     <day date="2025-11-04">
-      <category name="Vegan">
+      <category name="Fleischlos">
         <meal>
-          <name>mensaVital: Bunte Paprikapfanne mit Ingwer und Bambus dazu Zartweizen</name>
-          <note>Sesamsamen</note>
-          <note>Soja</note>
+          <name>Allgäuer Käsespätzle mit hausgemachten Röstzwiebeln</name>
+          <note>Eier</note>
+          <note>Milch (einschließlich Lactose)</note>
           <note>Weizen</note>
           <note>glutenhaltiges Getreide</note>
-          <price role="employee">4.70</price>
-          <price role="other">5.65</price>
-          <price role="student">3.35</price>
+          <note>mit Farbstoff</note>
+          <price role="employee">5.20</price>
+          <price role="other">6.15</price>
+          <price role="student">3.80</price>
         </meal>
-      </category>
-      <category name="Fleischlos">
         <meal>
           <name>Spinatknödel an Bergkäsesoße</name>
           <note>Eier</note>
@@ -115,6 +143,18 @@
           <price role="employee">5.20</price>
           <price role="other">6.15</price>
           <price role="student">3.80</price>
+        </meal>
+      </category>
+      <category name="Vegan">
+        <meal>
+          <name>mensaVital: Bunte Paprikapfanne mit Ingwer und Bambus dazu Zartweizen</name>
+          <note>Sesamsamen</note>
+          <note>Soja</note>
+          <note>Weizen</note>
+          <note>glutenhaltiges Getreide</note>
+          <price role="employee">4.70</price>
+          <price role="other">5.65</price>
+          <price role="student">3.35</price>
         </meal>
       </category>
       <category name="Fisch">
