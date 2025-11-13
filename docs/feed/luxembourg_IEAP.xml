@@ -3,29 +3,8 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2025-11-03">
-      <closed/>
-    </day>
-    <day date="2025-11-04">
-      <closed/>
-    </day>
-    <day date="2025-11-05">
-      <closed/>
-    </day>
-    <day date="2025-11-06">
-      <closed/>
-    </day>
-    <day date="2025-11-07">
-      <closed/>
-    </day>
-    <day date="2025-11-08">
-      <closed/>
-    </day>
-    <day date="2025-11-09">
-      <closed/>
-    </day>
     <day date="2025-11-10">
-      <category name="Entrée (07:00 - 15:00)">
+      <category name="Entrée">
         <meal>
           <name>Potage aux légumes</name>
           <note>Céleri et produits à base de céleri</note>
@@ -35,7 +14,7 @@
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Végétarien (07:00 - 15:00)">
+      <category name="Végétarien">
         <meal>
           <name>Feuilles de bricks au tofu, oignons fanes et moutarde, dip Tzatziki</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
@@ -46,7 +25,7 @@
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Non-végétarien (07:00 - 15:00)">
+      <category name="Non-végétarien">
         <meal>
           <name>Ragoût de boeuf tomaté aux champignons</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
@@ -55,7 +34,7 @@
           <note>non-végétarien</note>
         </meal>
       </category>
-      <category name="Féculents (07:00 - 15:00)">
+      <category name="Féculents">
         <meal>
           <name>Gratin dauphinois</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
@@ -64,14 +43,14 @@
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Légumes (07:00 - 15:00)">
+      <category name="Légumes">
         <meal>
           <name>Céleri braisé aux oignons</name>
           <note>Produit sans gluten</note>
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Dessert (07:00 - 15:00)">
+      <category name="Dessert">
         <meal>
           <name>Samossas aux pommes et poires</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
@@ -103,14 +82,19 @@
       <category name="Entrée (07:00 - 15:00)">
         <meal>
           <name>Soupe aux petits pois</name>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
+          <note>Soja et produits à base de soja</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Végétarien (07:00 - 15:00)">
         <meal>
           <name>Tikka Masala au tofu</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
           <note>Produit sans gluten</note>
+          <note>Soja et produits à base de soja</note>
           <note>végan</note>
           <note>végétarien</note>
         </meal>
@@ -118,27 +102,40 @@
       <category name="Non-végétarien (07:00 - 15:00)">
         <meal>
           <name>Chili con carne, dip crème aigre</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
+          <note>Soja et produits à base de soja</note>
           <note>non-végétarien</note>
         </meal>
       </category>
       <category name="Féculents (07:00 - 15:00)">
         <meal>
           <name>Riz pilaf</name>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
+          <note>Soja et produits à base de soja</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Légumes (07:00 - 15:00)">
         <meal>
           <name>Brocolis aux oignons</name>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
+          <note>Soja et produits à base de soja</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Dessert (07:00 - 15:00)">
         <meal>
           <name>Mousse au pain d'épices et son biscuit</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
           <note>végétarien</note>
         </meal>
       </category>
@@ -202,7 +199,7 @@
       </category>
       <category name="Dessert (07:00 - 15:00)">
         <meal>
-          <name>Yaourt grec fouetté, compotée d'oranges sanguines</name>
+          <name>Yaourt grec fouetté, compotée d'oranges</name>
           <note>Produit sans gluten</note>
           <note>Produit sans sucre</note>
           <note>végétarien</note>
@@ -227,11 +224,77 @@
     <day date="2025-11-30">
       <closed/>
     </day>
+    <day date="2025-12-01">
+      <category name="Entrée (07:00 - 15:00)">
+        <meal>
+          <name>Bouillon de légumes aux pâtes</name>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Végétarien (07:00 - 15:00)">
+        <meal>
+          <name>Potiron farci aux lentilles et fromage de chèvre</name>
+          <note>Produit sans gluten</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Non-végétarien (07:00 - 15:00)">
+        <meal>
+          <name>Roulade de boeuf braisée au four, jus brun</name>
+          <note>Produit sans gluten</note>
+          <note>non-végétarien</note>
+        </meal>
+      </category>
+      <category name="Féculents (07:00 - 15:00)">
+        <meal>
+          <name>Ecrasé de pommes de terre au beurre et ciboulette</name>
+          <note>Produit sans gluten</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Légumes (07:00 - 15:00)">
+        <meal>
+          <name>Chou rouge</name>
+          <note>Produit sans gluten</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Flan de potiron</name>
+          <note>En accompagnement du plat végétarien et/ou grillade</note>
+          <note>Produit sans gluten</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Dessert (07:00 - 15:00)">
+        <meal>
+          <name>Riz au lait, crème de coco et compote de pommes</name>
+          <note>Produit sans gluten</note>
+          <note>Produit sans sucre</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+    </day>
+    <day date="2025-12-02">
+      <closed/>
+    </day>
+    <day date="2025-12-03">
+      <closed/>
+    </day>
+    <day date="2025-12-04">
+      <closed/>
+    </day>
+    <day date="2025-12-05">
+      <closed/>
+    </day>
+    <day date="2025-12-06">
+      <closed/>
+    </day>
+    <day date="2025-12-07">
+      <closed/>
+    </day>
   </canteen>
 </openmensa>
 
-<!-- Theme day: Congé de la Toussaint [restaurant=104] -->
-
 <!-- Theme day: Fermeture [restaurant=104] -->
 
 <!-- Theme day: Fermeture [restaurant=104] -->
@@ -239,10 +302,6 @@
 <!-- Theme day: Fermeture [restaurant=104] -->
 
 <!-- Theme day: Fermeture [restaurant=104] -->
-
-<!-- Theme day: Congé de la Toussaint [restaurant=104] -->
-
-<!-- Theme day: Congé de la Toussaint [restaurant=104] -->
 
 <!-- Theme day: Fermeture [restaurant=104] -->
 
