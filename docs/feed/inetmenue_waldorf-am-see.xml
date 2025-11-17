@@ -4,10 +4,19 @@
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
     <day date="2025-11-17">
-      <category name="Vegetarisch">
+      <category name="Vegan">
         <meal>
           <name>Kartoffelgulasch</name>
+          <note>Vegan</note>
+        </meal>
+      </category>
+      <category name="Vegetarisch">
+        <meal>
+          <name>Zitronen - Wirsing - Pasta</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch</note>
           <note>Vegetarisch</note>
+          <note>Weizen</note>
         </meal>
         <meal>
           <name>Salatteller als Hauptspeise</name>
@@ -15,15 +24,6 @@
           <note>Sellerie</note>
           <note>Senf</note>
           <note>Sesamsamen</note>
-        </meal>
-      </category>
-      <category name="Vegan">
-        <meal>
-          <name>Zitronen - Wirsing - Pasta</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Milch</note>
-          <note>Vegan</note>
-          <note>Weizen</note>
         </meal>
       </category>
       <category name="Essen 03">
@@ -47,12 +47,21 @@
       </category>
     </day>
     <day date="2025-11-18">
-      <category name="Vegetarisch">
+      <category name="Vegan">
         <meal>
           <name>Blumenkohl Mangold Fritatta</name>
           <note>Eier</note>
           <note>Milch</note>
           <note>Vegetarisch</note>
+        </meal>
+      </category>
+      <category name="Vegetarisch">
+        <meal>
+          <name>Bratwurst mit Rotkohl und Bäckerinnenkartoffeln</name>
+          <note>Histamin</note>
+          <note>Schwein</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
         </meal>
         <meal>
           <name>Salatteller als Hauptspeise</name>
@@ -60,15 +69,6 @@
           <note>Sellerie</note>
           <note>Senf</note>
           <note>Sesamsamen</note>
-        </meal>
-      </category>
-      <category name="Vegan">
-        <meal>
-          <name>Bratwurst mit Rotkohl und Bäckerinnenkartoffeln</name>
-          <note>Histamin</note>
-          <note>Schwein</note>
-          <note>Sellerie</note>
-          <note>Soja</note>
         </meal>
       </category>
       <category name="Essen 03">
@@ -92,9 +92,19 @@
       </category>
     </day>
     <day date="2025-11-19">
-      <category name="Vegetarisch">
+      <category name="Vegan">
         <meal>
           <name>Pasta mit Linsenbolognese</name>
+          <note>Vegan</note>
+        </meal>
+      </category>
+      <category name="Vegetarisch">
+        <meal>
+          <name>Spinat - Käse - Knödel mit Tomatensauce</name>
+          <note>Eier</note>
+          <note>Histamin</note>
+          <note>Milch</note>
+          <note>Vegetarisch</note>
         </meal>
         <meal>
           <name>Salatteller als Hauptspeise</name>
@@ -102,15 +112,6 @@
           <note>Sellerie</note>
           <note>Senf</note>
           <note>Sesamsamen</note>
-        </meal>
-      </category>
-      <category name="Vegan">
-        <meal>
-          <name>Spinat - Käse - Knödel mit Tomatensauce</name>
-          <note>Eier</note>
-          <note>Histamin</note>
-          <note>Milch</note>
-          <note>Vegetarisch</note>
         </meal>
       </category>
       <category name="Essen 03">
@@ -134,7 +135,7 @@
       </category>
     </day>
     <day date="2025-11-20">
-      <category name="Vegetarisch">
+      <category name="Vegan">
         <meal>
           <name>Rösti mit Pilzstroganoff</name>
           <note>Glutenhaltiges Getreide</note>
@@ -142,20 +143,20 @@
           <note>Vegetarisch</note>
           <note>Weizen</note>
         </meal>
+      </category>
+      <category name="Vegetarisch">
+        <meal>
+          <name>Exotisches Rosenkohlcurry mit Reis</name>
+          <note>Sellerie</note>
+          <note>Soja</note>
+          <note>Vegan</note>
+        </meal>
         <meal>
           <name>Salatteller als Hauptspeise</name>
           <note>Schalenfrüchte</note>
           <note>Sellerie</note>
           <note>Senf</note>
           <note>Sesamsamen</note>
-        </meal>
-      </category>
-      <category name="Vegan">
-        <meal>
-          <name>Exotisches Rosenkohlcurry mit Reis</name>
-          <note>Sellerie</note>
-          <note>Soja</note>
-          <note>Vegan</note>
         </meal>
       </category>
       <category name="Essen 03">
@@ -187,7 +188,7 @@
           <note>Sellerie</note>
         </meal>
       </category>
-      <category name="Vegan">
+      <category name="Vegetarisch">
         <meal>
           <name>Pizza</name>
           <note>Glutenhaltiges Getreide</note>
@@ -195,6 +196,13 @@
           <note>Milch</note>
           <note>Sellerie</note>
           <note>Vegetarisch</note>
+        </meal>
+        <meal>
+          <name>Salatteller als Hauptspeise</name>
+          <note>Schalenfrüchte</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <note>Sesamsamen</note>
         </meal>
       </category>
       <category name="Essen 03">
@@ -204,15 +212,6 @@
           <note>Milch</note>
           <note>Sellerie</note>
           <note>Senf</note>
-        </meal>
-      </category>
-      <category name="Vegetarisch">
-        <meal>
-          <name>Salatteller als Hauptspeise</name>
-          <note>Schalenfrüchte</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <note>Sesamsamen</note>
         </meal>
       </category>
       <category name="Essen 05">
