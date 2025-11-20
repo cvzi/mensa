@@ -3,63 +3,82 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2025-11-19">
+    <day date="2025-11-20">
       <category name="Tellergericht">
         <meal>
-          <name>Teller: Paprika-Linsen-Suppe [vegan]</name>
-          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
-          <note>geschwefelt</note>
+          <name>Teller: Möhrensuppe mit Kokosmilch [vegan]</name>
+          <note>Glutenhaltiges Getreide</note>
           <note>jodiertes Salz</note>
-          <note>mit Antioxidationsmittel</note>
           <price role="employee">2.45</price>
           <price role="other">3.45</price>
           <price role="student">1.50</price>
         </meal>
         <meal>
-          <name>4 Pancakes mit Vanillesoße</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <name>Terrine: Möhrensuppe mit Kokosmilch [vegan]</name>
           <note>Glutenhaltiges Getreide</note>
-          <note>Milch/Milchzucker (Laktose)</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">3.30</price>
-          <price role="other">4.80</price>
-          <price role="student">1.80</price>
-        </meal>
-        <meal>
-          <name>Terrine: Paprika-Linsen-Suppe [vegan]</name>
           <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
-          <note>geschwefelt</note>
           <note>jodiertes Salz</note>
-          <note>mit Antioxidationsmittel</note>
           <price role="employee">3.45</price>
           <price role="other">4.70</price>
           <price role="student">2.20</price>
         </meal>
-      </category>
-      <category name="Komponente 2">
         <meal>
-          <name>Schweinegeschnetzeltes "Gyros-Art" mit Zwiebeln  
- dazu Tzatziki</name>
-          <note>Milch/Milchzucker (Laktose)</note>
+          <name>Kartoffelsalat mit 2 Wiener Würstchen</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
           <note>Schweinefleisch</note>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
+          <note>geschwefelt</note>
           <note>jodiertes Salz</note>
-          <price role="employee">3.25</price>
-          <price role="other">4.25</price>
-          <price role="student">2.25</price>
+          <note>mit Antioxidationsmittel</note>
+          <note>mit Konservierungsstoff</note>
+          <note>mit Phosphat</note>
+          <note>mit Süßungsmittel</note>
+          <price role="employee">4.00</price>
+          <price role="other">5.50</price>
+          <price role="student">2.50</price>
         </meal>
       </category>
-      <category name="RegioTeller">
+      <category name="Komponente 5">
         <meal>
-          <name>Buttermilch-Kürbis-Curry</name>
-          <note>Milch/Milchzucker (Laktose)</note>
-          <note>Senf und daraus hergestellte Erzeugnisse</note>
+          <name>Hackfleisch-Bolognese</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Rindfleisch</note>
           <note>jodiertes Salz</note>
+          <price role="employee">3.35</price>
+          <price role="other">4.35</price>
+          <price role="student">2.35</price>
+        </meal>
+      </category>
+      <category name="Vegane Komponente 1">
+        <meal>
+          <name>Orientalische Gemüsepfanne mit geröstetem Sesam</name>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
+          <note>Sesamsamen und daraus hergestellte Erzeugnisse</note>
+          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
           <price role="employee">3.00</price>
           <price role="other">4.00</price>
           <price role="student">2.00</price>
         </meal>
       </category>
+      <category name="Vegetarische Komponente 1">
+        <meal>
+          <name>Buntes Backofengemüse mit Hirtenkäse</name>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <price role="employee">3.25</price>
+          <price role="other">4.25</price>
+          <price role="student">2.25</price>
+        </meal>
+      </category>
       <category name="Beilagen">
+        <meal>
+          <name>Spaghetti</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>jodiertes Salz</note>
+          <price role="employee">1.20</price>
+          <price role="other">1.60</price>
+          <price role="student">0.80</price>
+        </meal>
         <meal>
           <name>Salzkartoffeln</name>
           <note>geschwefelt</note>
@@ -68,34 +87,14 @@
           <price role="other">1.60</price>
           <price role="student">0.80</price>
         </meal>
-        <meal>
-          <name>Jasminreis</name>
-          <price role="employee">1.20</price>
-          <price role="other">1.60</price>
-          <price role="student">0.80</price>
-        </meal>
-        <meal>
-          <name>Wedges [aus regionalen Kartoffeln] Sorte Jelly</name>
-          <note>jodiertes Salz</note>
-          <price role="employee">1.50</price>
-          <price role="other">1.90</price>
-          <price role="student">1.10</price>
-        </meal>
       </category>
       <category name="Gemüse">
         <meal>
-          <name>Weisskrautsalat</name>
-          <note>mit Antioxidationsmittel</note>
-          <note>mit Süßungsmittel</note>
-          <price role="employee">1.20</price>
-          <price role="other">1.60</price>
-          <price role="student">0.80</price>
-        </meal>
-        <meal>
-          <name>Wintersalat regional</name>
-          <price role="employee">1.20</price>
-          <price role="other">1.60</price>
-          <price role="student">0.80</price>
+          <name>Europagemüse (gelbe und orange Karottenscheiben, Romanobohnen, Brokkoliröschen)</name>
+          <note>jodiertes Salz</note>
+          <price role="employee">1.40</price>
+          <price role="other">1.80</price>
+          <price role="student">1.00</price>
         </meal>
       </category>
       <category name="Salate und Desserts">
