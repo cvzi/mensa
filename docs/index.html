@@ -38,7 +38,352 @@
     <main>
       <article>Parser for <a target="_blank" href="https://openmensa.org">openmensa.org</a>. The parser runs in a <a target="_blank" title="What's a Github action?" href="https://docs.github.com/en/actions">Github action<sup>❓</sup></a> and pushes the XML feeds to this page</article>
       <article><h3><a href="https://github.com/cvzi/mensa/actions/">🗿 Parser status</a></h3>
-<pre>eurest/oekb:
+<pre>mensenat/LinzJKUMensa:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
+    content = getattr(parser, feedMethod)(
+        mensaReference)
+  File "/home/runner/work/mensa/mensa/mensenat/__init__.py", line 29, in feed
+    return canteen.generateTotalFeedXml()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 52, in generateTotalFeedXml
+    weekMenus = self.fetchWeekMenus()
+  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 42, in fetchWeekMenus
+    menuplanCurrentWeek = json.loads(result["nodeByUri"]["menuplanCurrentWeek"])
+                                     ~~~~~~^^^^^^^^^^^^^
+KeyError: 'nodeByUri'
+
+mensenat/WiBOKUmCafeMendel:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
+    content = getattr(parser, feedMethod)(
+        mensaReference)
+  File "/home/runner/work/mensa/mensa/mensenat/__init__.py", line 29, in feed
+    return canteen.generateTotalFeedXml()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 52, in generateTotalFeedXml
+    weekMenus = self.fetchWeekMenus()
+  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 42, in fetchWeekMenus
+    menuplanCurrentWeek = json.loads(result["nodeByUri"]["menuplanCurrentWeek"])
+                                     ~~~~~~^^^^^^^^^^^^^
+KeyError: 'nodeByUri'
+
+mensenat/WiTUMensaFreihaus:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
+    content = getattr(parser, feedMethod)(
+        mensaReference)
+  File "/home/runner/work/mensa/mensa/mensenat/__init__.py", line 29, in feed
+    return canteen.generateTotalFeedXml()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 52, in generateTotalFeedXml
+    weekMenus = self.fetchWeekMenus()
+  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 42, in fetchWeekMenus
+    menuplanCurrentWeek = json.loads(result["nodeByUri"]["menuplanCurrentWeek"])
+                                     ~~~~~~^^^^^^^^^^^^^
+KeyError: 'nodeByUri'
+
+mensenat/WiGRG10:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
+    content = getattr(parser, feedMethod)(
+        mensaReference)
+  File "/home/runner/work/mensa/mensa/mensenat/__init__.py", line 29, in feed
+    return canteen.generateTotalFeedXml()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 52, in generateTotalFeedXml
+    weekMenus = self.fetchWeekMenus()
+  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 42, in fetchWeekMenus
+    menuplanCurrentWeek = json.loads(result["nodeByUri"]["menuplanCurrentWeek"])
+                                     ~~~~~~^^^^^^^^^^^^^
+KeyError: 'nodeByUri'
+
+mensenat/WiUniJuridicum:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
+    content = getattr(parser, feedMethod)(
+        mensaReference)
+  File "/home/runner/work/mensa/mensa/mensenat/__init__.py", line 29, in feed
+    return canteen.generateTotalFeedXml()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 52, in generateTotalFeedXml
+    weekMenus = self.fetchWeekMenus()
+  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 42, in fetchWeekMenus
+    menuplanCurrentWeek = json.loads(result["nodeByUri"]["menuplanCurrentWeek"])
+                                     ~~~~~~^^^^^^^^^^^^^
+KeyError: 'nodeByUri'
+
+mensenat/WiVetMedDA:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
+    content = getattr(parser, feedMethod)(
+        mensaReference)
+  File "/home/runner/work/mensa/mensa/mensenat/__init__.py", line 29, in feed
+    return canteen.generateTotalFeedXml()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 52, in generateTotalFeedXml
+    weekMenus = self.fetchWeekMenus()
+  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 42, in fetchWeekMenus
+    menuplanCurrentWeek = json.loads(result["nodeByUri"]["menuplanCurrentWeek"])
+                                     ~~~~~~^^^^^^^^^^^^^
+KeyError: 'nodeByUri'
+
+mensenat/WiUnizUZA2:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
+    content = getattr(parser, feedMethod)(
+        mensaReference)
+  File "/home/runner/work/mensa/mensa/mensenat/__init__.py", line 29, in feed
+    return canteen.generateTotalFeedXml()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 52, in generateTotalFeedXml
+    weekMenus = self.fetchWeekMenus()
+  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 42, in fetchWeekMenus
+    menuplanCurrentWeek = json.loads(result["nodeByUri"]["menuplanCurrentWeek"])
+                                     ~~~~~~^^^^^^^^^^^^^
+KeyError: 'nodeByUri'
+
+mensenat/KremsCampusMensa:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
+    content = getattr(parser, feedMethod)(
+        mensaReference)
+  File "/home/runner/work/mensa/mensa/mensenat/__init__.py", line 29, in feed
+    return canteen.generateTotalFeedXml()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 52, in generateTotalFeedXml
+    weekMenus = self.fetchWeekMenus()
+  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 42, in fetchWeekMenus
+    menuplanCurrentWeek = json.loads(result["nodeByUri"]["menuplanCurrentWeek"])
+                                     ~~~~~~^^^^^^^^^^^^^
+KeyError: 'nodeByUri'
+
+mensenat/LinzPHDLmensa:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
+    content = getattr(parser, feedMethod)(
+        mensaReference)
+  File "/home/runner/work/mensa/mensa/mensenat/__init__.py", line 29, in feed
+    return canteen.generateTotalFeedXml()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 52, in generateTotalFeedXml
+    weekMenus = self.fetchWeekMenus()
+  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 42, in fetchWeekMenus
+    menuplanCurrentWeek = json.loads(result["nodeByUri"]["menuplanCurrentWeek"])
+                                     ~~~~~~^^^^^^^^^^^^^
+KeyError: 'nodeByUri'
+
+mensenat/SalzUniNaWi:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
+    content = getattr(parser, feedMethod)(
+        mensaReference)
+  File "/home/runner/work/mensa/mensa/mensenat/__init__.py", line 29, in feed
+    return canteen.generateTotalFeedXml()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 52, in generateTotalFeedXml
+    weekMenus = self.fetchWeekMenus()
+  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 42, in fetchWeekMenus
+    menuplanCurrentWeek = json.loads(result["nodeByUri"]["menuplanCurrentWeek"])
+                                     ~~~~~~^^^^^^^^^^^^^
+KeyError: 'nodeByUri'
+
+mensenat/SalzUniToskanatrakt:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
+    content = getattr(parser, feedMethod)(
+        mensaReference)
+  File "/home/runner/work/mensa/mensa/mensenat/__init__.py", line 29, in feed
+    return canteen.generateTotalFeedXml()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 52, in generateTotalFeedXml
+    weekMenus = self.fetchWeekMenus()
+  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 42, in fetchWeekMenus
+    menuplanCurrentWeek = json.loads(result["nodeByUri"]["menuplanCurrentWeek"])
+                                     ~~~~~~^^^^^^^^^^^^^
+KeyError: 'nodeByUri'
+
+mensenat/GrazTUInffeld:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
+    content = getattr(parser, feedMethod)(
+        mensaReference)
+  File "/home/runner/work/mensa/mensa/mensenat/__init__.py", line 29, in feed
+    return canteen.generateTotalFeedXml()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 52, in generateTotalFeedXml
+    weekMenus = self.fetchWeekMenus()
+  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 42, in fetchWeekMenus
+    menuplanCurrentWeek = json.loads(result["nodeByUri"]["menuplanCurrentWeek"])
+                                     ~~~~~~^^^^^^^^^^^^^
+KeyError: 'nodeByUri'
+
+mensenat/LeobenMontanuni:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
+    content = getattr(parser, feedMethod)(
+        mensaReference)
+  File "/home/runner/work/mensa/mensa/mensenat/__init__.py", line 29, in feed
+    return canteen.generateTotalFeedXml()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 52, in generateTotalFeedXml
+    weekMenus = self.fetchWeekMenus()
+  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 42, in fetchWeekMenus
+    menuplanCurrentWeek = json.loads(result["nodeByUri"]["menuplanCurrentWeek"])
+                                     ~~~~~~^^^^^^^^^^^^^
+KeyError: 'nodeByUri'
+
+mensenat/KapfenbergFH:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
+    content = getattr(parser, feedMethod)(
+        mensaReference)
+  File "/home/runner/work/mensa/mensa/mensenat/__init__.py", line 29, in feed
+    return canteen.generateTotalFeedXml()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 52, in generateTotalFeedXml
+    weekMenus = self.fetchWeekMenus()
+  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 42, in fetchWeekMenus
+    menuplanCurrentWeek = json.loads(result["nodeByUri"]["menuplanCurrentWeek"])
+                                     ~~~~~~^^^^^^^^^^^^^
+KeyError: 'nodeByUri'
+
+mensenat/WiTUSchroedingerFreihaus:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
+    content = getattr(parser, feedMethod)(
+        mensaReference)
+  File "/home/runner/work/mensa/mensa/mensenat/__init__.py", line 29, in feed
+    return canteen.generateTotalFeedXml()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 52, in generateTotalFeedXml
+    weekMenus = self.fetchWeekMenus()
+  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 42, in fetchWeekMenus
+    menuplanCurrentWeek = json.loads(result["nodeByUri"]["menuplanCurrentWeek"])
+                                     ~~~~~~^^^^^^^^^^^^^
+KeyError: 'nodeByUri'
+
+mensenat/LinzJKUscienceCafe:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
+    content = getattr(parser, feedMethod)(
+        mensaReference)
+  File "/home/runner/work/mensa/mensa/mensenat/__init__.py", line 29, in feed
+    return canteen.generateTotalFeedXml()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 52, in generateTotalFeedXml
+    weekMenus = self.fetchWeekMenus()
+  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 42, in fetchWeekMenus
+    menuplanCurrentWeek = json.loads(result["nodeByUri"]["menuplanCurrentWeek"])
+                                     ~~~~~~^^^^^^^^^^^^^
+KeyError: 'nodeByUri'
+
+mensenat/SalzSIAK:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
+    content = getattr(parser, feedMethod)(
+        mensaReference)
+  File "/home/runner/work/mensa/mensa/mensenat/__init__.py", line 29, in feed
+    return canteen.generateTotalFeedXml()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 52, in generateTotalFeedXml
+    weekMenus = self.fetchWeekMenus()
+  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 42, in fetchWeekMenus
+    menuplanCurrentWeek = json.loads(result["nodeByUri"]["menuplanCurrentWeek"])
+                                     ~~~~~~^^^^^^^^^^^^^
+KeyError: 'nodeByUri'
+
+mensenat/SalzBG:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
+    content = getattr(parser, feedMethod)(
+        mensaReference)
+  File "/home/runner/work/mensa/mensa/mensenat/__init__.py", line 29, in feed
+    return canteen.generateTotalFeedXml()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 52, in generateTotalFeedXml
+    weekMenus = self.fetchWeekMenus()
+  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 42, in fetchWeekMenus
+    menuplanCurrentWeek = json.loads(result["nodeByUri"]["menuplanCurrentWeek"])
+                                     ~~~~~~^^^^^^^^^^^^^
+KeyError: 'nodeByUri'
+
+mensenat/GrazKUGmCafe:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
+    content = getattr(parser, feedMethod)(
+        mensaReference)
+  File "/home/runner/work/mensa/mensa/mensenat/__init__.py", line 29, in feed
+    return canteen.generateTotalFeedXml()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 52, in generateTotalFeedXml
+    weekMenus = self.fetchWeekMenus()
+  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 42, in fetchWeekMenus
+    menuplanCurrentWeek = json.loads(result["nodeByUri"]["menuplanCurrentWeek"])
+                                     ~~~~~~^^^^^^^^^^^^^
+KeyError: 'nodeByUri'
+
+mensenat/BadenMensaPH:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
+    content = getattr(parser, feedMethod)(
+        mensaReference)
+  File "/home/runner/work/mensa/mensa/mensenat/__init__.py", line 29, in feed
+    return canteen.generateTotalFeedXml()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 52, in generateTotalFeedXml
+    weekMenus = self.fetchWeekMenus()
+  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 42, in fetchWeekMenus
+    menuplanCurrentWeek = json.loads(result["nodeByUri"]["menuplanCurrentWeek"])
+                                     ~~~~~~^^^^^^^^^^^^^
+KeyError: 'nodeByUri'
+
+mensenat/LinzJKUMensarei:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
+    content = getattr(parser, feedMethod)(
+        mensaReference)
+  File "/home/runner/work/mensa/mensa/mensenat/__init__.py", line 29, in feed
+    return canteen.generateTotalFeedXml()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 52, in generateTotalFeedXml
+    weekMenus = self.fetchWeekMenus()
+  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 42, in fetchWeekMenus
+    menuplanCurrentWeek = json.loads(result["nodeByUri"]["menuplanCurrentWeek"])
+                                     ~~~~~~^^^^^^^^^^^^^
+KeyError: 'nodeByUri'
+
+mensenat/WiPolRossauer:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
+    content = getattr(parser, feedMethod)(
+        mensaReference)
+  File "/home/runner/work/mensa/mensa/mensenat/__init__.py", line 29, in feed
+    return canteen.generateTotalFeedXml()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 52, in generateTotalFeedXml
+    weekMenus = self.fetchWeekMenus()
+  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 42, in fetchWeekMenus
+    menuplanCurrentWeek = json.loads(result["nodeByUri"]["menuplanCurrentWeek"])
+                                     ~~~~~~^^^^^^^^^^^^^
+KeyError: 'nodeByUri'
+
+mensenat/KremsCampusVirginier:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
+    content = getattr(parser, feedMethod)(
+        mensaReference)
+  File "/home/runner/work/mensa/mensa/mensenat/__init__.py", line 29, in feed
+    return canteen.generateTotalFeedXml()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 52, in generateTotalFeedXml
+    weekMenus = self.fetchWeekMenus()
+  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 42, in fetchWeekMenus
+    menuplanCurrentWeek = json.loads(result["nodeByUri"]["menuplanCurrentWeek"])
+                                     ~~~~~~^^^^^^^^^^^^^
+KeyError: 'nodeByUri'
+
+eurest/oekb:
 Traceback (most recent call last):
   File "/home/runner/work/mensa/mensa/eurest/__init__.py", line 46, in feed
     dom = defusedxml.lxml.parse(source)
