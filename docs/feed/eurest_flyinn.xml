@@ -3,434 +3,126 @@
 <?xml-stylesheet type="text/css" href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css"?>
 <openmensa xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2025-12-01">
-      <category name="Master Suppe 1 (klar)">
-        <meal>
-          <name>Klare Rindsuppe</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Sellerie (L)</note>
-        </meal>
-        <meal>
-          <name>Putenschinkenknödel </name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Sellerie (L)</note>
-        </meal>
-        <meal>
-          <name>und frischem Schnittlauch</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Sellerie (L)</note>
-        </meal>
-      </category>
-      <category name="Master Suppe 2 (gebunden)">
-        <meal>
-          <name>Kren- Velouté mit Grünkern</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Sellerie (L)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-        <meal>
-          <name>mit frischer Petersilie</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Sellerie (L)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-      </category>
-      <category name="Master Haupt 1 (ECO)">
-        <meal>
-          <name>Puten-Leberkäse gebraten</name>
-          <note>Ei (C)</note>
-          <note>Milch oder Laktose (G)</note>
-        </meal>
-        <meal>
-          <name>Petersilien Erdäpfeln</name>
-          <note>Ei (C)</note>
-          <note>Milch oder Laktose (G)</note>
-        </meal>
-        <meal>
-          <name>Spiegelei </name>
-          <note>Ei (C)</note>
-          <note>Milch oder Laktose (G)</note>
-        </meal>
-      </category>
-      <category name="Master Haupt 2 (Traditionell)">
-        <meal>
-          <name>Berner Würstel</name>
-          <note>Milch oder Laktose (G)</note>
-          <note>Sellerie (L)</note>
-          <note>Senf (M)</note>
-        </meal>
-        <meal>
-          <name>Pommes Frites</name>
-          <note>Milch oder Laktose (G)</note>
-          <note>Sellerie (L)</note>
-          <note>Senf (M)</note>
-        </meal>
-        <meal>
-          <name>Zwiebelsenf</name>
-          <note>Milch oder Laktose (G)</note>
-          <note>Sellerie (L)</note>
-          <note>Senf (M)</note>
-        </meal>
-        <meal>
-          <name>Pfefferoni</name>
-          <note>Milch oder Laktose (G)</note>
-          <note>Sellerie (L)</note>
-          <note>Senf (M)</note>
-        </meal>
-      </category>
-      <category name="POWERED BY PLANTS">
-        <meal>
-          <name>Indisches Grünes Masala Gemüse</name>
-        </meal>
-        <meal>
-          <name>Gewürzreis</name>
-        </meal>
-        <meal>
-          <name>mit frischem Koriander</name>
-        </meal>
-      </category>
-      <category name="Master Haupt 4 (Pasta)">
-        <meal>
-          <name>Rigatoni</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Soja (F)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Sellerie (L)</note>
-        </meal>
-        <meal>
-          <name>Artischockensauce</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Soja (F)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Sellerie (L)</note>
-        </meal>
-        <meal>
-          <name>Gegrillte Rote Paprikawürfel</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Soja (F)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Sellerie (L)</note>
-        </meal>
-        <meal>
-          <name>frischer Parmesan</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Soja (F)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Sellerie (L)</note>
-        </meal>
-      </category>
-      <category name="Master Bowl">
-        <meal>
-          <name>Create your own Bowl
-Frischer Nishikireis •
-vegane Trüffelcreme • vegane Sesamsauce • vegane Spicy Korean Sauce
-</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Soja (F)</note>
-          <note>Weichtiere (R)</note>
-        </meal>
-        <meal>
-          <name>Antipasti-Spieß</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Soja (F)</note>
-          <note>Weichtiere (R)</note>
-        </meal>
-        <meal>
-          <name>Gebackene Tintenfischringe</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Soja (F)</note>
-          <note>Weichtiere (R)</note>
-        </meal>
-      </category>
-      <category name="Master Dessert 1 (Glas)">
-        <meal>
-          <name>Apfel - Zimt creme •</name>
-          <note>Ei (C)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-        <meal>
-          <name>Schlagobers</name>
-          <note>Ei (C)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-      </category>
-      <category name="Master Dessert 2 (Kuchen)">
-        <meal>
-          <name>Apfel - Streuselkuchen</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-        </meal>
-      </category>
-    </day>
-    <day date="2025-12-02">
-      <category name="Master Suppe 1 (klar)">
-        <meal>
-          <name>Klare Hühnersuppe</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Sellerie (L)</note>
-        </meal>
-        <meal>
-          <name>Markknödel</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Sellerie (L)</note>
-        </meal>
-        <meal>
-          <name>und frischem Schnittlauch</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Sellerie (L)</note>
-        </meal>
-      </category>
-      <category name="Master Suppe 2 (gebunden)">
-        <meal>
-          <name>Artischockencremesuppe</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Sellerie (L)</note>
-        </meal>
-        <meal>
-          <name>geröstete Schwarzbrotstreifen</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Sellerie (L)</note>
-        </meal>
-        <meal>
-          <name>mit frischer Petersilie</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Sellerie (L)</note>
-        </meal>
-      </category>
-      <category name="Master Haupt 1 (ECO)">
-        <meal>
-          <name>"Spanaki sto fourno" 
-Griechisches Spinat- &amp; Reis Gratin</name>
-          <note>Ei (C)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Sellerie (L)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-        <meal>
-          <name>Ratatouille</name>
-          <note>Ei (C)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Sellerie (L)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-        <meal>
-          <name>Tsatsiki</name>
-          <note>Ei (C)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Sellerie (L)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-      </category>
-      <category name="Master Haupt 2 (Traditionell)">
-        <meal>
-          <name>Süß Sauer vom Huhn mit Asiagemüse</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Soja (F)</note>
-          <note>Sesam (N)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-        <meal>
-          <name>Eiernudeln</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Soja (F)</note>
-          <note>Sesam (N)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-      </category>
-      <category name="POWERED BY PLANTS">
-        <meal>
-          <name>Planted Paprikageschnetzeltes</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Soja (F)</note>
-        </meal>
-        <meal>
-          <name>Couscous vegan</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Soja (F)</note>
-        </meal>
-        <meal>
-          <name>mit frischer Petersilie</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Soja (F)</note>
-        </meal>
-      </category>
-      <category name="Master Haupt 4 (Pasta)">
-        <meal>
-          <name>Linguini</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Milch oder Laktose (G)</note>
-        </meal>
-        <meal>
-          <name>Melanzani Ragout</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Milch oder Laktose (G)</note>
-        </meal>
-        <meal>
-          <name>frischer Parmesan</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Milch oder Laktose (G)</note>
-        </meal>
-      </category>
-      <category name="Master Bowl">
-        <meal>
-          <name>Create your own Bowl
-Frischer Nishikireis •
-vegane Trüffelcreme • vegane Sesamsauce • vegane Spicy Korean Sauce
-</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Soja (F)</note>
-          <note>Weichtiere (R)</note>
-        </meal>
-        <meal>
-          <name>Antipasti-Spieß</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Soja (F)</note>
-          <note>Weichtiere (R)</note>
-        </meal>
-        <meal>
-          <name>Gebackene Tintenfischringe</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Soja (F)</note>
-          <note>Weichtiere (R)</note>
-        </meal>
-      </category>
-      <category name="Master Dessert 1 (Glas)">
-        <meal>
-          <name>Zwetschken- Mohnmousse</name>
-          <note>Soja (F)</note>
-          <note>Schalenfrüchte (H)</note>
-        </meal>
-      </category>
-      <category name="Master Dessert 2 (Kuchen)">
-        <meal>
-          <name>Punschschnitte Conv.</name>
-        </meal>
-      </category>
-    </day>
-    <day date="2025-12-03">
+    <day date="2025-11-24">
       <category name="Master Suppe 1 (klar)">
         <meal>
           <name>Klare Gemüsesuppe</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
           <note>Sellerie (L)</note>
         </meal>
         <meal>
-          <name>Sternchen</name>
+          <name>Käseschöberl</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
           <note>Sellerie (L)</note>
         </meal>
         <meal>
           <name>und frischem Schnittlauch</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
           <note>Sellerie (L)</note>
         </meal>
       </category>
       <category name="Master Suppe 2 (gebunden)">
         <meal>
-          <name>Maronicremesuppe</name>
+          <name>Linsencremesuppe</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
           <note>Milch oder Laktose (G)</note>
           <note>Sellerie (L)</note>
-          <note>Sulfite (O)</note>
         </meal>
         <meal>
-          <name>geröstete Speckwürfel</name>
+          <name>Wacholder Croutons</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
           <note>Milch oder Laktose (G)</note>
           <note>Sellerie (L)</note>
-          <note>Sulfite (O)</note>
         </meal>
         <meal>
           <name>und frischem Schnittlauch</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
           <note>Milch oder Laktose (G)</note>
           <note>Sellerie (L)</note>
-          <note>Sulfite (O)</note>
         </meal>
       </category>
       <category name="Master Haupt 1 (ECO)">
         <meal>
-          <name>Waldviertler Erdäpfelpfanne mit Lauch und Landfrischkäse</name>
+          <name>Curry Gemüselaibchen mit Hirse</name>
           <note>Milch oder Laktose (G)</note>
           <note>Senf (M)</note>
-          <note>Sulfite (O)</note>
         </meal>
         <meal>
-          <name>gemischter Beilagensalat</name>
+          <name>Salatgarnitur</name>
           <note>Milch oder Laktose (G)</note>
+          <note>Senf (M)</note>
+        </meal>
+        <meal>
+          <name>Joghurt Dip</name>
+          <note>Milch oder Laktose (G)</note>
+          <note>Senf (M)</note>
+        </meal>
+      </category>
+      <category name="Master Haupt 2 (Traditionell)">
+        <meal>
+          <name>Putengeschnetzeltes "Zürcher Art"</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Schalenfrüchte (H)</note>
+          <note>Sellerie (L)</note>
           <note>Senf (M)</note>
           <note>Sulfite (O)</note>
         </meal>
         <meal>
           <name>mit frischer Petersilie</name>
+          <note>Glutenhaltiges Getreide (A)</note>
           <note>Milch oder Laktose (G)</note>
+          <note>Schalenfrüchte (H)</note>
+          <note>Sellerie (L)</note>
+          <note>Senf (M)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+        <meal>
+          <name>Mandelbällchen</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Schalenfrüchte (H)</note>
+          <note>Sellerie (L)</note>
           <note>Senf (M)</note>
           <note>Sulfite (O)</note>
         </meal>
       </category>
-      <category name="Master Haupt 2 (Traditionell)">
-        <meal>
-          <name>Gebackenes Schweinsschnitzel</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Sellerie (L)</note>
-        </meal>
-        <meal>
-          <name>Gemüsereis</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Sellerie (L)</note>
-        </meal>
-      </category>
       <category name="POWERED BY PLANTS">
         <meal>
-          <name>Pitabrot, Hummus,
-3erlei Möhren, Pistazienpesto, Kerbel</name>
+          <name>Süßkartoffel - Melanzaniragout</name>
           <note>Glutenhaltiges Getreide (A)</note>
-          <note>Schalenfrüchte (H)</note>
-          <note>Sesam (N)</note>
-          <note>Sulfite (O)</note>
+        </meal>
+        <meal>
+          <name>Couscous vegan</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+        </meal>
+        <meal>
+          <name>Feta Käse vegan</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+        </meal>
+        <meal>
+          <name>Kresse</name>
+          <note>Glutenhaltiges Getreide (A)</note>
         </meal>
       </category>
       <category name="Master Haupt 4 (Pasta)">
         <meal>
-          <name>Ravioli gefüllt mit Pastinaken und Kartoffel</name>
+          <name>Pappardelle</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
           <note>Milch oder Laktose (G)</note>
         </meal>
         <meal>
-          <name>Brauner Butter</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Milch oder Laktose (G)</note>
-        </meal>
-        <meal>
-          <name>frittierter Salbei</name>
+          <name>Kohlpesto vegan</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
           <note>Milch oder Laktose (G)</note>
@@ -448,45 +140,57 @@ vegane Trüffelcreme • vegane Sesamsauce • vegane Spicy Korean Sauce
 Frischer Nishikireis •
 vegane Trüffelcreme • vegane Sesamsauce • vegane Spicy Korean Sauce
 </name>
-          <note>Krebstiere (B)</note>
-          <note>Milch oder Laktose (G)</note>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Soja (F)</note>
           <note>Sellerie (L)</note>
-          <note>Senf (M)</note>
+          <note>Sesam (N)</note>
+          <note>Sulfite (O)</note>
         </meal>
         <meal>
-          <name>lauwarmer Ziegenkäse mit Honig &amp; Kräutern</name>
-          <note>Krebstiere (B)</note>
-          <note>Milch oder Laktose (G)</note>
+          <name>Edamame Beilage (vegan)</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Soja (F)</note>
           <note>Sellerie (L)</note>
-          <note>Senf (M)</note>
+          <note>Sesam (N)</note>
+          <note>Sulfite (O)</note>
         </meal>
         <meal>
-          <name>Gegrillter Garnelenspieß</name>
-          <note>Krebstiere (B)</note>
-          <note>Milch oder Laktose (G)</note>
+          <name>Fried Lemon Chicken Strips</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Soja (F)</note>
           <note>Sellerie (L)</note>
-          <note>Senf (M)</note>
+          <note>Sesam (N)</note>
+          <note>Sulfite (O)</note>
         </meal>
       </category>
       <category name="Master Dessert 1 (Glas)">
         <meal>
-          <name>Mandarinencreme</name>
+          <name>mit Himbeersauce</name>
           <note>Milch oder Laktose (G)</note>
-          <note>Schalenfrüchte (H)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+        <meal>
+          <name>Maroni  Mousse
+</name>
+          <note>Milch oder Laktose (G)</note>
           <note>Sulfite (O)</note>
         </meal>
       </category>
       <category name="Master Dessert 2 (Kuchen)">
         <meal>
-          <name>Waldviertler Birnen - Mohnkuchen</name>
+          <name>Tiramisu Schnitte
+
+Allergene A • C • G</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
           <note>Milch oder Laktose (G)</note>
-          <note>Schalenfrüchte (H)</note>
         </meal>
       </category>
     </day>
-    <day date="2025-12-04">
+    <day date="2025-11-25">
       <category name="Master Suppe 1 (klar)">
         <meal>
           <name>Klare Rindsuppe</name>
@@ -495,7 +199,7 @@ vegane Trüffelcreme • vegane Sesamsauce • vegane Spicy Korean Sauce
           <note>Sellerie (L)</note>
         </meal>
         <meal>
-          <name>Gemüsegrießnockerl</name>
+          <name>Leberknödel</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
           <note>Sellerie (L)</note>
@@ -509,13 +213,15 @@ vegane Trüffelcreme • vegane Sesamsauce • vegane Spicy Korean Sauce
       </category>
       <category name="Master Suppe 2 (gebunden)">
         <meal>
-          <name>Ungarische Krautsuppe</name>
+          <name>Rotkrautsuppe</name>
+          <note>Glutenhaltiges Getreide (A)</note>
           <note>Milch oder Laktose (G)</note>
           <note>Sellerie (L)</note>
           <note>Sulfite (O)</note>
         </meal>
         <meal>
-          <name>mit frischer Petersilie</name>
+          <name>glasierte Maroni</name>
+          <note>Glutenhaltiges Getreide (A)</note>
           <note>Milch oder Laktose (G)</note>
           <note>Sellerie (L)</note>
           <note>Sulfite (O)</note>
@@ -523,76 +229,67 @@ vegane Trüffelcreme • vegane Sesamsauce • vegane Spicy Korean Sauce
       </category>
       <category name="Master Haupt 1 (ECO)">
         <meal>
-          <name>"Kolokithokeftedes" Griechische Zucchini-Kartoffel Puffer</name>
+          <name>Rote Rüben Risotto
+glasierte Williamsbirne und Rucola</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
+          <note>Soja (F)</note>
           <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
           <note>Sulfite (O)</note>
         </meal>
         <meal>
-          <name>Kichererbsensalat</name>
+          <name>Gegrillter Räuchertofu</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
+          <note>Soja (F)</note>
           <note>Milch oder Laktose (G)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-        <meal>
-          <name>Knoblauchrahm</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
           <note>Sulfite (O)</note>
         </meal>
       </category>
       <category name="Master Haupt 2 (Traditionell)">
         <meal>
-          <name>Rindergeschnetzeltes nach Esterhazy Art </name>
+          <name>Bifteki me feta
+Griechische faschierte Rinderlaibchen mit Fetafülle</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
-          <note>Soja (F)</note>
-          <note>Sellerie (L)</note>
-          <note>Senf (M)</note>
-          <note>Sulfite (O)</note>
+          <note>Milch oder Laktose (G)</note>
         </meal>
         <meal>
-          <name>Hausgemachte Spätzle </name>
+          <name>Tomatenreis</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
-          <note>Soja (F)</note>
-          <note>Sellerie (L)</note>
-          <note>Senf (M)</note>
-          <note>Sulfite (O)</note>
+          <note>Milch oder Laktose (G)</note>
         </meal>
         <meal>
-          <name>Kresse</name>
+          <name>Tsatsiki</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
-          <note>Soja (F)</note>
-          <note>Sellerie (L)</note>
-          <note>Senf (M)</note>
-          <note>Sulfite (O)</note>
+          <note>Milch oder Laktose (G)</note>
         </meal>
       </category>
       <category name="POWERED BY PLANTS">
         <meal>
-          <name>Cremespinat rein pflanzlich</name>
+          <name>Pilzgulasch</name>
           <note>Glutenhaltiges Getreide (A)</note>
-          <note>Milch oder Laktose (G)</note>
+          <note>Soja (F)</note>
+          <note>Sellerie (L)</note>
+          <note>Sesam (N)</note>
         </meal>
         <meal>
-          <name>Rösterdäpfeln</name>
+          <name>gebratene Polenta</name>
           <note>Glutenhaltiges Getreide (A)</note>
-          <note>Milch oder Laktose (G)</note>
+          <note>Soja (F)</note>
+          <note>Sellerie (L)</note>
+          <note>Sesam (N)</note>
         </meal>
         <meal>
-          <name>geschmortes Wurzelgemüse</name>
+          <name>Gegrillter Tofu</name>
           <note>Glutenhaltiges Getreide (A)</note>
-          <note>Milch oder Laktose (G)</note>
-        </meal>
-        <meal>
-          <name>Sauerrahm</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Milch oder Laktose (G)</note>
+          <note>Soja (F)</note>
+          <note>Sellerie (L)</note>
+          <note>Sesam (N)</note>
         </meal>
       </category>
       <category name="Master Haupt 4 (Pasta)">
@@ -601,17 +298,13 @@ vegane Trüffelcreme • vegane Sesamsauce • vegane Spicy Korean Sauce
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
           <note>Milch oder Laktose (G)</note>
-          <note>Sellerie (L)</note>
-          <note>Senf (M)</note>
           <note>Sulfite (O)</note>
         </meal>
         <meal>
-          <name>Cafè de Paris Sauce</name>
+          <name>Toskanisches Gemüse</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
           <note>Milch oder Laktose (G)</note>
-          <note>Sellerie (L)</note>
-          <note>Senf (M)</note>
           <note>Sulfite (O)</note>
         </meal>
         <meal>
@@ -619,8 +312,13 @@ vegane Trüffelcreme • vegane Sesamsauce • vegane Spicy Korean Sauce
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
           <note>Milch oder Laktose (G)</note>
-          <note>Sellerie (L)</note>
-          <note>Senf (M)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+        <meal>
+          <name>und frischem Schnittlauch</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
           <note>Sulfite (O)</note>
         </meal>
       </category>
@@ -630,39 +328,39 @@ vegane Trüffelcreme • vegane Sesamsauce • vegane Spicy Korean Sauce
 Frischer Nishikireis •
 vegane Trüffelcreme • vegane Sesamsauce • vegane Spicy Korean Sauce
 </name>
-          <note>Krebstiere (B)</note>
-          <note>Milch oder Laktose (G)</note>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Soja (F)</note>
           <note>Sellerie (L)</note>
-          <note>Senf (M)</note>
+          <note>Sesam (N)</note>
+          <note>Sulfite (O)</note>
         </meal>
         <meal>
-          <name>lauwarmer Ziegenkäse mit Honig &amp; Kräutern</name>
-          <note>Krebstiere (B)</note>
-          <note>Milch oder Laktose (G)</note>
+          <name>Edamame Beilage (vegan)</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Soja (F)</note>
           <note>Sellerie (L)</note>
-          <note>Senf (M)</note>
+          <note>Sesam (N)</note>
+          <note>Sulfite (O)</note>
         </meal>
         <meal>
-          <name>Gegrillter Garnelenspieß</name>
-          <note>Krebstiere (B)</note>
-          <note>Milch oder Laktose (G)</note>
+          <name>Fried Lemon Chicken Strips</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Soja (F)</note>
           <note>Sellerie (L)</note>
-          <note>Senf (M)</note>
+          <note>Sesam (N)</note>
+          <note>Sulfite (O)</note>
         </meal>
       </category>
       <category name="Master Dessert 1 (Glas)">
         <meal>
-          <name>Weisses Schokolademousse</name>
-          <note>Ei (C)</note>
-          <note>Soja (F)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-        <meal>
-          <name>Beerenröster</name>
-          <note>Ei (C)</note>
-          <note>Soja (F)</note>
-          <note>Milch oder Laktose (G)</note>
+          <name>Vegane Beerengrütze •
+Nuss-Haferflocken Crumble
+</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Schalenfrüchte (H)</note>
           <note>Sulfite (O)</note>
         </meal>
       </category>
@@ -681,70 +379,207 @@ vegane Trüffelcreme • vegane Sesamsauce • vegane Spicy Korean Sauce
         </meal>
       </category>
     </day>
-    <day date="2025-12-05">
+    <day date="2025-11-26">
       <category name="Master Suppe 1 (klar)">
         <meal>
           <name>Klare Gemüsesuppe</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
           <note>Sellerie (L)</note>
         </meal>
         <meal>
-          <name>Naturreis</name>
-          <note>Sellerie (L)</note>
-        </meal>
-        <meal>
-          <name>Erbsen</name>
+          <name>Kaspressknödel</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
           <note>Sellerie (L)</note>
         </meal>
         <meal>
           <name>und frischem Schnittlauch</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
           <note>Sellerie (L)</note>
         </meal>
       </category>
       <category name="Master Suppe 2 (gebunden)">
         <meal>
-          <name>Pastinakencremesuppe</name>
-          <note>Glutenhaltiges Getreide (A)</note>
+          <name>Wiener Erdäpfelsuppe mit Speck und Pilzen</name>
+          <note>Milch oder Laktose (G)</note>
           <note>Sellerie (L)</note>
         </meal>
         <meal>
-          <name>Vollkorncroutons</name>
-          <note>Glutenhaltiges Getreide (A)</note>
+          <name>mit frischer Petersilie</name>
+          <note>Milch oder Laktose (G)</note>
           <note>Sellerie (L)</note>
         </meal>
       </category>
       <category name="Master Haupt 1 (ECO)">
         <meal>
-          <name>4 Stück Nougatknödel mit Butterbrösel</name>
+          <name>Spinatknödel</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
-          <note>Soja (F)</note>
           <note>Milch oder Laktose (G)</note>
-          <note>Schalenfrüchte (H)</note>
+          <note>Sulfite (O)</note>
         </meal>
         <meal>
-          <name>Vanillesauce</name>
+          <name>Melanzani Ragout</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
-          <note>Soja (F)</note>
           <note>Milch oder Laktose (G)</note>
-          <note>Schalenfrüchte (H)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+        <meal>
+          <name>frischer Parmesan</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+        <meal>
+          <name>Kresse</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sulfite (O)</note>
         </meal>
       </category>
       <category name="Master Haupt 2 (Traditionell)">
         <meal>
-          <name>Gebackenes Schollenfilet</name>
+          <name>Gebackenes Hühnerschnitzel</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
-          <note>Fisch (D)</note>
-          <note>Milch oder Laktose (G)</note>
           <note>Senf (M)</note>
-          <note>Sulfite (O)</note>
         </meal>
         <meal>
-          <name>Kräuterreis</name>
+          <name>Erdäpfel - Vogerlsalat</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
-          <note>Fisch (D)</note>
+          <note>Senf (M)</note>
+        </meal>
+      </category>
+      <category name="POWERED BY PLANTS">
+        <meal>
+          <name>Vietnamesisches "Planted Coconut Chicken"</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
+        </meal>
+        <meal>
+          <name>Basmatireis</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
+        </meal>
+      </category>
+      <category name="Master Haupt 4 (Pasta)">
+        <meal>
+          <name>Schinken-Lauchsauce</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+        <meal>
+          <name>Tagliatelle</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+        <meal>
+          <name>frischer Parmesan</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+        <meal>
+          <name>Kresse</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+      </category>
+      <category name="Master Bowl">
+        <meal>
+          <name>Create your own Bowl
+Frischer Nishikireis •
+vegane Trüffelcreme • vegane Sesamsauce • vegane Spicy Korean Sauce
+</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
+          <note>Weichtiere (R)</note>
+        </meal>
+        <meal>
+          <name>Antipasti-Spieß</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
+          <note>Weichtiere (R)</note>
+        </meal>
+        <meal>
+          <name>Gebackene Tintenfischringe</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
+          <note>Weichtiere (R)</note>
+        </meal>
+      </category>
+      <category name="Master Dessert 1 (Glas)">
+        <meal>
+          <name>Kastanienreis 
+mit Amarenakirsche</name>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+      </category>
+      <category name="Master Dessert 2 (Kuchen)">
+        <meal>
+          <name>Apfel-Nuss-Kuchen
+</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Schalenfrüchte (H)</note>
+        </meal>
+      </category>
+    </day>
+    <day date="2025-11-27">
+      <category name="Master Suppe 1 (klar)">
+        <meal>
+          <name>Klare Hühnersuppe</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+        <meal>
+          <name>Profiteroles</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+        <meal>
+          <name>und frischem Schnittlauch</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+      </category>
+      <category name="Master Suppe 2 (gebunden)">
+        <meal>
+          <name>Scharfe Bohnensuppe</name>
+          <note>Sellerie (L)</note>
+        </meal>
+        <meal>
+          <name>geröstete Speckwürfel</name>
+          <note>Sellerie (L)</note>
+        </meal>
+      </category>
+      <category name="Master Haupt 1 (ECO)">
+        <meal>
+          <name>Gebackener Emmentaler</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
           <note>Milch oder Laktose (G)</note>
           <note>Senf (M)</note>
           <note>Sulfite (O)</note>
@@ -753,57 +588,76 @@ vegane Trüffelcreme • vegane Sesamsauce • vegane Spicy Korean Sauce
           <name>Sauce Tartare</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
-          <note>Fisch (D)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Senf (M)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+        <meal>
+          <name>Petersilien Erdäpfeln</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
           <note>Milch oder Laktose (G)</note>
           <note>Senf (M)</note>
           <note>Sulfite (O)</note>
         </meal>
       </category>
+      <category name="Master Haupt 2 (Traditionell)">
+        <meal>
+          <name>Bratwürstel</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Senf (M)</note>
+        </meal>
+        <meal>
+          <name>Sauerkraut</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Senf (M)</note>
+        </meal>
+        <meal>
+          <name>Zwiebel - Kartoffeln</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Senf (M)</note>
+        </meal>
+      </category>
       <category name="POWERED BY PLANTS">
         <meal>
-          <name>Pflanzliche Picatta Milanese</name>
+          <name>Pflanzlicher Faschierter Braten</name>
           <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
           <note>Schalenfrüchte (H)</note>
-          <note>Sellerie (L)</note>
           <note>Senf (M)</note>
         </meal>
         <meal>
-          <name>Spaghetti</name>
+          <name>Erbsenpürée</name>
           <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
           <note>Schalenfrüchte (H)</note>
-          <note>Sellerie (L)</note>
           <note>Senf (M)</note>
         </meal>
         <meal>
-          <name>Tomatensauce</name>
+          <name>Babykarotten natur</name>
           <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
           <note>Schalenfrüchte (H)</note>
-          <note>Sellerie (L)</note>
+          <note>Senf (M)</note>
+        </meal>
+        <meal>
+          <name>Gurken - Sojajoghurt •</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
+          <note>Schalenfrüchte (H)</note>
           <note>Senf (M)</note>
         </meal>
       </category>
       <category name="Master Haupt 4 (Pasta)">
         <meal>
-          <name>Penne</name>
+          <name>Ravioli gefüllt mit Blattspinat</name>
           <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Fisch (D)</note>
           <note>Milch oder Laktose (G)</note>
           <note>Sulfite (O)</note>
         </meal>
         <meal>
-          <name>ala Puttanesca</name>
+          <name>Champigonsauce</name>
           <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Fisch (D)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-        <meal>
-          <name>frischer Parmesan</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Fisch (D)</note>
           <note>Milch oder Laktose (G)</note>
           <note>Sulfite (O)</note>
         </meal>
@@ -814,45 +668,227 @@ vegane Trüffelcreme • vegane Sesamsauce • vegane Spicy Korean Sauce
 Frischer Nishikireis •
 vegane Trüffelcreme • vegane Sesamsauce • vegane Spicy Korean Sauce
 </name>
-          <note>Krebstiere (B)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Sellerie (L)</note>
-          <note>Senf (M)</note>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
+          <note>Weichtiere (R)</note>
         </meal>
         <meal>
-          <name>lauwarmer Ziegenkäse mit Honig &amp; Kräutern</name>
-          <note>Krebstiere (B)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Sellerie (L)</note>
-          <note>Senf (M)</note>
+          <name>Antipasti-Spieß</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
+          <note>Weichtiere (R)</note>
         </meal>
         <meal>
-          <name>Gegrillter Garnelenspieß</name>
-          <note>Krebstiere (B)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Sellerie (L)</note>
-          <note>Senf (M)</note>
+          <name>Gebackene Tintenfischringe</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
+          <note>Weichtiere (R)</note>
         </meal>
       </category>
       <category name="Master Dessert 1 (Glas)">
         <meal>
-          <name>Joghurt mit Früchten</name>
+          <name>Dunkles Schokolademousse
+mit Erdbeersauce</name>
+          <note>Ei (C)</note>
+          <note>Soja (F)</note>
           <note>Milch oder Laktose (G)</note>
+          <note>Sulfite (O)</note>
         </meal>
       </category>
       <category name="Master Dessert 2 (Kuchen)">
         <meal>
-          <name>Heidelbeer-Topfenstrudel</name>
+          <name>Esterhazyschnitte</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
+          <note>Soja (F)</note>
           <note>Milch oder Laktose (G)</note>
+          <note>Schalenfrüchte (H)</note>
         </meal>
       </category>
     </day>
-    <day date="2025-12-06">
+    <day date="2025-11-28">
+      <category name="Master Suppe 1 (klar)">
+        <meal>
+          <name>Klare Gemüsesuppe</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+        <meal>
+          <name>Karottennockerl</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+        <meal>
+          <name>und frischem Schnittlauch</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+      </category>
+      <category name="Master Suppe 2 (gebunden)">
+        <meal>
+          <name>Gemüsecremesuppe</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+        <meal>
+          <name>Vollkorncroutons</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+        <meal>
+          <name>mit frischer Petersilie</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+      </category>
+      <category name="Master Haupt 1 (ECO)">
+        <meal>
+          <name>Überbackene Zucchini mit Paradeiser- Erdäpfelfülle
+und Feta</name>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+        <meal>
+          <name>Basilikum- Oberssauce</name>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+        <meal>
+          <name>marinierter Rucola</name>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+      </category>
+      <category name="Master Haupt 2 (Traditionell)">
+        <meal>
+          <name>Kap-Seehechtfilet gebraten</name>
+          <note>Fisch (D)</note>
+          <note>Weichtiere (R)</note>
+        </meal>
+        <meal>
+          <name>Kresseerdäpfeln</name>
+          <note>Fisch (D)</note>
+          <note>Weichtiere (R)</note>
+        </meal>
+        <meal>
+          <name>Letscho</name>
+          <note>Fisch (D)</note>
+          <note>Weichtiere (R)</note>
+        </meal>
+      </category>
+      <category name="POWERED BY PLANTS">
+        <meal>
+          <name>Spinatstrudel mit getrockneten Tomaten &amp; Walnüssen</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
+          <note>Schalenfrüchte (H)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+        <meal>
+          <name>Provencalisches Gemüse</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
+          <note>Schalenfrüchte (H)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+        <meal>
+          <name>Kräuter - Sojadip</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
+          <note>Schalenfrüchte (H)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+      </category>
+      <category name="Master Haupt 4 (Pasta)">
+        <meal>
+          <name>Farfalle</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+        <meal>
+          <name>Gemüsesugo</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+        <meal>
+          <name>frischer Parmesan</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+        <meal>
+          <name>mit frischer Petersilie</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+      </category>
+      <category name="Master Bowl">
+        <meal>
+          <name>Create your own Bowl
+Frischer Nishikireis •
+vegane Trüffelcreme • vegane Sesamsauce • vegane Spicy Korean Sauce
+</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
+          <note>Weichtiere (R)</note>
+        </meal>
+        <meal>
+          <name>Antipasti-Spieß</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
+          <note>Weichtiere (R)</note>
+        </meal>
+        <meal>
+          <name>Gebackene Tintenfischringe</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
+          <note>Weichtiere (R)</note>
+        </meal>
+      </category>
+      <category name="Master Dessert 1 (Glas)">
+        <meal>
+          <name>Bayrische Creme</name>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+        <meal>
+          <name>Beerenröster</name>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+      </category>
+      <category name="Master Dessert 2 (Kuchen)">
+        <meal>
+          <name>Topfen - Obersschnitte </name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+      </category>
+    </day>
+    <day date="2025-11-29">
       <closed/>
     </day>
-    <day date="2025-12-07">
+    <day date="2025-11-30">
       <closed/>
     </day>
   </canteen>
