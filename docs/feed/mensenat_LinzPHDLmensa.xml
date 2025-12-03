@@ -1,6 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
+    <day date="2025-12-01">
+      <category name="Tagesgerichte Herzhaft">
+        <meal>
+          <name>Herzhaftes Chili con Carne dazu resche Semmel und Kräutergarnitur</name>
+          <note>A</note>
+          <note>L</note>
+          <price role="other">8.60</price>
+        </meal>
+      </category>
+      <category name="Tagesgerichte Veggie | Vegan">
+        <meal>
+          <name>Gefüllte Kräuter-Frischkäse Kartoffeltaschen dazu Langkornreis und Rucola - Topping</name>
+          <note>A</note>
+          <note>C</note>
+          <note>G</note>
+          <price role="other">7.60</price>
+        </meal>
+      </category>
+      <category name="Tagesteller">
+        <meal>
+          <name>Spaghetti mit Sauce Bolognese vom Bio Rind dazu frisch geriebener Parmesan</name>
+          <note>A</note>
+          <note>C</note>
+          <note>G</note>
+          <note>L</note>
+          <note>O</note>
+          <price role="other">6.90</price>
+        </meal>
+      </category>
+      <category name="Tagesgerichte Schule Herzhaft">
+        <meal>
+          <name>Herzhaftes Chili con Carne dazu resche Semmel und Kräutergarnitur</name>
+          <note>A</note>
+          <note>F</note>
+          <note>G</note>
+          <note>O</note>
+          <price role="other">6.10</price>
+        </meal>
+      </category>
+      <category name="Tagesgerichte Schule Veggie">
+        <meal>
+          <name>Gefüllte Kräuter-Frischkäse Kartoffeltaschen dazu Langkornreis und Rucola - Topping</name>
+          <note>G</note>
+          <price role="other">6.10</price>
+        </meal>
+      </category>
+      <category name="Tagessuppe">
+        <meal>
+          <name>Klare Gemüsesuppe mit Fadennudeln</name>
+          <note>A</note>
+          <note>C</note>
+          <note>L</note>
+          <price role="other">2.30</price>
+        </meal>
+        <meal>
+          <name>Klare Gemüsesuppe mit Fadennudeln</name>
+          <note>A</note>
+          <note>C</note>
+          <note>L</note>
+          <price role="other">3.90</price>
+        </meal>
+      </category>
+    </day>
     <day date="2025-12-02">
       <category name="Tagesgerichte Herzhaft">
         <meal>
@@ -256,25 +319,28 @@
     <day date="2025-12-08">
       <category name="Tagesgerichte Herzhaft">
         <meal>
-          <name>Putengeschnetzeltes mit Sauerrahmsauce dazu Gemüsegnocchi</name>
+          <name>Putengeschnetzeltes Züricher Art dazu Pasta und Salatschüssel</name>
           <note>A</note>
-          <note>C</note>
+          <note>F</note>
+          <note>L</note>
+          <note>O</note>
+          <price role="other">9.90</price>
+        </meal>
+      </category>
+      <category name="Tagesgerichte Veggie | Vegan">
+        <meal>
+          <name>Herzhaftes Fisolengulasch dazu knusprige Semmel</name>
+          <note>A</note>
+          <note>F</note>
           <note>G</note>
           <note>L</note>
           <note>O</note>
-          <price role="other">8.60</price>
+          <price role="other">7.60</price>
         </meal>
       </category>
       <category name="Tagesteller">
         <meal>
-          <name>Hausgemachter Gemüse Eintopf mit Kräutern und Mischsalat</name>
-          <note>A</note>
-          <note>L</note>
-          <note>O</note>
-          <price role="other">6.50</price>
-        </meal>
-        <meal>
-          <name>Fusilli Sauce Bolognese vom Bio Rind dazu frischer Parmesan</name>
+          <name>Spaghetti mit Sauce Bolognese vom Bio Rind dazu frisch geriebener Parmesan</name>
           <note>A</note>
           <note>C</note>
           <note>G</note>
@@ -283,78 +349,133 @@
           <price role="other">6.90</price>
         </meal>
       </category>
-      <category name="Tagesgerichte Schule Herzhaft">
-        <meal>
-          <name>Putengeschnetzeltes mit Sauerrahmsauce dazu Gemüsegnocchi</name>
-          <note>A</note>
-          <note>C</note>
-          <note>G</note>
-          <note>L</note>
-          <note>O</note>
-          <price role="other">6.10</price>
-        </meal>
-      </category>
-      <category name="Tagesgerichte Schule Veggie">
-        <meal>
-          <name>Gemüse Eintopf mit Bärlauch VEGAN Salatmischung Rucola</name>
-          <note>A</note>
-          <note>L</note>
-          <note>O</note>
-          <price role="other">6.10</price>
-        </meal>
-      </category>
       <category name="Tagessuppe">
         <meal>
-          <name>Klare Gemüsesuppe mit Muschelnudeln</name>
+          <name>Klare Gemüsesuppe mit Fadennudeln</name>
           <note>A</note>
           <note>C</note>
           <note>L</note>
-          <price role="other">2.20</price>
+          <price role="other">2.30</price>
         </meal>
         <meal>
-          <name>Klare Gemüsesuppe mit Reibteig</name>
+          <name>Klare Gemüsesuppe mit Fadennudeln</name>
           <note>A</note>
           <note>C</note>
           <note>L</note>
-          <price role="other">3.70</price>
+          <price role="other">3.90</price>
         </meal>
       </category>
     </day>
     <day date="2025-12-09">
       <category name="Tagesgerichte Herzhaft">
         <meal>
-          <name>Gebratene Hühnerkeule mit Langkornreis und Gartengemüse</name>
+          <name>Gekochter Selchschopf mit Semmelknödel dazu Sauerkraut</name>
+          <note>A</note>
+          <note>C</note>
           <note>G</note>
-          <price role="other">9.30</price>
+          <price role="other">9.90</price>
+        </meal>
+      </category>
+      <category name="Tagesgerichte Veggie | Vegan">
+        <meal>
+          <name>Gemüse Eintopf mit Bärlauch dazu Cous Cous</name>
+          <note>A</note>
+          <note>L</note>
+          <note>O</note>
+          <price role="other">7.60</price>
         </meal>
       </category>
       <category name="Tagesteller">
         <meal>
-          <name>Tortelloni tricolore gefüllt mit Käse dazu Rieslingssauce</name>
+          <name>Oma`s Topfen-Heidelbeerstrudel gelegt auf cremiger Vanillesauce</name>
           <note>A</note>
           <note>C</note>
-          <note>F</note>
           <note>G</note>
-          <note>O</note>
           <price role="other">6.50</price>
         </meal>
       </category>
-      <category name="Tagesgerichte Schule Herzhaft">
+      <category name="Tagessuppe">
         <meal>
-          <name>Gebratene Hühnerkeule Mit Langkornreis und Gemüsemischung € 8,60</name>
-          <note>G</note>
-          <price role="other">6.10</price>
+          <name>Gelbe Rüben Currycremesuppe VEGAN</name>
+          <note>F</note>
+          <note>O</note>
+          <price role="other">3.90</price>
         </meal>
       </category>
-      <category name="Tagesgerichte Schule Veggie">
+    </day>
+    <day date="2025-12-10">
+      <category name="Tagesgerichte Herzhaft">
         <meal>
-          <name>Tortelloni tricolore gefüllt mit Käse dazu Rieslingssauce € 6,50</name>
+          <name>Gebratene Hühnerkeule in Paprikasauce mit Langkornreis und Gemüse</name>
+          <note>O</note>
+          <price role="other">9.90</price>
+        </meal>
+      </category>
+      <category name="Tagesgerichte Veggie | Vegan">
+        <meal>
+          <name>Kaspressknödel auf Bunten Blattsalaten der Saison mit Joghurt Dressing</name>
+          <note>A</note>
+          <note>C</note>
+          <note>G</note>
+          <note>O</note>
+          <price role="other">7.60</price>
+        </meal>
+      </category>
+      <category name="Tagesteller">
+        <meal>
+          <name>Pasta al Dente mit Goudasauce dazu frisch geriebener Parmesan</name>
           <note>A</note>
           <note>C</note>
           <note>F</note>
           <note>G</note>
           <note>O</note>
-          <price role="other">6.10</price>
+          <price role="other">6.80</price>
+        </meal>
+      </category>
+      <category name="Tagessuppe">
+        <meal>
+          <name>Klare Gemüsesuppe mit Profiteroles</name>
+          <note>A</note>
+          <note>C</note>
+          <note>L</note>
+          <price role="other">2.30</price>
+        </meal>
+        <meal>
+          <name>Klare Gemüsesuppe mit Profiteroles</name>
+          <note>A</note>
+          <note>C</note>
+          <note>L</note>
+          <price role="other">3.90</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2025-12-11">
+      <category name="Tagesgerichte Herzhaft">
+        <meal>
+          <name>"Herzhaft &amp; knusprig" Gold-braun gebackenes Wiener Schnitzel von der Pute mit Petersilerdäpfeln und Preiselbeeren dazu Zitronenspalte</name>
+          <note>A</note>
+          <note>C</note>
+          <note>G</note>
+          <price role="other">9.90</price>
+        </meal>
+      </category>
+      <category name="Tagesgerichte Veggie | Vegan">
+        <meal>
+          <name>Mediterrane Nudelpfanne aus dem Ofen dazu Feta Käse</name>
+          <note>A</note>
+          <note>G</note>
+          <price role="other">7.60</price>
+        </meal>
+      </category>
+      <category name="Tagesteller">
+        <meal>
+          <name>Nougatknödel cremig gefüllt in Butterbrösel gewälzt</name>
+          <note>A</note>
+          <note>C</note>
+          <note>F</note>
+          <note>G</note>
+          <note>H</note>
+          <price role="other">6.50</price>
         </meal>
       </category>
       <category name="Tagessuppe">
@@ -362,146 +483,41 @@
           <name>Champignoncremesuppe</name>
           <note>F</note>
           <note>O</note>
-          <price role="other">3.70</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2025-12-10">
-      <category name="Tagesteller">
-        <meal>
-          <name>Knusprige Vegetarische Frühlingsrolle auf saisonalen Blattsalaten mit Balsamico Dressing</name>
-          <note>A</note>
-          <note>F</note>
-          <note>L</note>
-          <note>N</note>
-          <price role="other">6.50</price>
-        </meal>
-      </category>
-      <category name="Tagesgerichte Schule Herzhaft">
-        <meal>
-          <name>Herzhaftes Chili con Carne dazu frisch Gebackene Semmel € 8,60</name>
-          <note>A</note>
-          <note>O</note>
-          <price role="other">6.10</price>
-        </meal>
-      </category>
-      <category name="Tagesgerichte Schule Veggie">
-        <meal>
-          <name>Knusprige Vegetarische Frühlingsrolle auf Saisonalen Blattsalaten mit Balsamico Dressing € 6,50</name>
-          <note>A</note>
-          <note>F</note>
-          <note>L</note>
-          <note>N</note>
-          <price role="other">6.10</price>
-        </meal>
-      </category>
-      <category name="Tagessuppe">
-        <meal>
-          <name>Klare Gemüsesuppe mit Reibteig</name>
-          <note>A</note>
-          <note>C</note>
-          <note>L</note>
-          <price role="other">2.20</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2025-12-11">
-      <category name="Tagesgerichte Herzhaft">
-        <meal>
-          <name>Knusprig gebackenes Schweinsschnitzel dazu Petersilerdäpfel, Preiselbeeren und Zitronenspalte</name>
-          <note>A</note>
-          <note>C</note>
-          <note>G</note>
-          <price role="other">9.30</price>
-        </meal>
-      </category>
-      <category name="Tagesteller">
-        <meal>
-          <name>Mediterranes Kürbisragout dazu Ebly Zartweizen</name>
-          <note>A</note>
-          <note>L</note>
-          <note>O</note>
-          <price role="other">6.50</price>
-        </meal>
-      </category>
-      <category name="Tagesgerichte Schule Herzhaft">
-        <meal>
-          <name>Schweinsschnitzel knusprig gebacken dazu Petersilerdäpfel, Preiselbeeren und Zitrone € 8,60</name>
-          <note>A</note>
-          <note>C</note>
-          <note>G</note>
-          <price role="other">6.10</price>
-        </meal>
-      </category>
-      <category name="Tagesgerichte Schule Veggie">
-        <meal>
-          <name>Kürbisragout mediterran VEGAN dazu Ebly Zartweizen € 6,50</name>
-          <note>A</note>
-          <note>L</note>
-          <note>O</note>
-          <price role="other">6.10</price>
-        </meal>
-      </category>
-      <category name="Tagessuppe">
-        <meal>
-          <name>Kürbiscremesuppe VEGAN</name>
-          <note>F</note>
-          <note>O</note>
-          <price role="other">3.70</price>
+          <price role="other">3.90</price>
         </meal>
       </category>
     </day>
     <day date="2025-12-12">
       <category name="Tagesgerichte Herzhaft">
         <meal>
-          <name>Alaska Seelachsfilet MSC im Sesammantel dazu Erdäpfel-Gurkensalat mit Sauce Tartare und Zitronenspalte</name>
+          <name>Currywurst vom Grill dazu Pommes frites und Salatbouquet</name>
           <note>A</note>
-          <note>C</note>
-          <note>D</note>
-          <note>G</note>
+          <note>F</note>
           <note>M</note>
-          <note>N</note>
           <note>O</note>
-          <price role="other">8.60</price>
+          <price role="other">9.90</price>
         </meal>
       </category>
       <category name="Tagesteller">
         <meal>
-          <name>Hausgemachter Gemüsestrudel aus saisonalem Gemüse auf Kräuterrahmsauce</name>
+          <name>Nudeln gekocht gewälzt in Basilikum Pesto dazu frisch geriebener Parmesan</name>
           <note>A</note>
-          <note>C</note>
-          <note>F</note>
-          <note>O</note>
-          <price role="other">6.50</price>
-        </meal>
-      </category>
-      <category name="Tagesgerichte Schule Herzhaft">
-        <meal>
-          <name>Fischstäbchen mit Erdäpfel-Gurkensalat dazu Sauce Tartare und Zitronenspalte €8,60</name>
           <note>C</note>
           <note>G</note>
-          <note>M</note>
-          <note>O</note>
-          <price role="other">6.10</price>
-        </meal>
-      </category>
-      <category name="Tagesgerichte Schule Veggie">
-        <meal>
-          <name>Gemüsestrudel aus Saisonalem Gemüse dazu Kräuterrahmsauce € 6,50</name>
-          <note>A</note>
-          <note>C</note>
-          <note>F</note>
-          <note>O</note>
-          <price role="other">6.10</price>
+          <note>H</note>
+          <price role="other">6.80</price>
         </meal>
       </category>
       <category name="Tagessuppe">
         <meal>
-          <name>Klare Gemüsesuppe mit Einlage</name>
-          <note>A</note>
-          <note>C</note>
+          <name>Klare Gemüsesuppe mit Schöberl</name>
           <note>L</note>
-          <price role="other">2.20</price>
+          <price role="other">2.30</price>
+        </meal>
+        <meal>
+          <name>Klare Gemüsesuppe mit Schöberl</name>
+          <note>L</note>
+          <price role="other">3.90</price>
         </meal>
       </category>
     </day>
