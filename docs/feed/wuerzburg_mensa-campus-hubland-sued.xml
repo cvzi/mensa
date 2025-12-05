@@ -3,380 +3,33 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2025-12-04">
-      <category name="Gefluegel">
-        <meal>
-          <name>Gebratener Reis mit Asiagemüse und Hähnchenstreifen</name>
-          <note>Geflügel</note>
-          <note>Knoblauch</note>
-          <note>Sesamsamen</note>
-          <note>Soja</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>konserviert</note>
-          <price role="employee">6.20</price>
-          <price role="other">7.15</price>
-          <price role="student">4.75</price>
-        </meal>
-        <meal>
-          <name>Kebabteller vom Drehspieß mit gemischtem Salat, Tomatenreis und Soße</name>
-          <note>Geflügel</note>
-          <note>Knoblauch</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <note>mit Antioxidationsmittel</note>
-          <price role="employee">7.10</price>
-          <price role="other">8.05</price>
-          <price role="student">5.60</price>
-        </meal>
-      </category>
-      <category name="Wild">
-        <meal>
-          <name>Hirschgulasch in Waldpilzsoße</name>
-          <note>Alkohol</note>
-          <note>Gerste</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>Sellerie</note>
-          <note>Soja</note>
-          <note>Weizen</note>
-          <note>Wild</note>
-          <note>geschwefelt</note>
-          <note>glutenhaltiges Getreide</note>
-          <price role="employee">7.40</price>
-          <price role="other">8.35</price>
-          <price role="student">5.90</price>
-        </meal>
-      </category>
-      <category name="Vegan">
-        <meal>
-          <name>Gebratener Reis mit Asiagemüse</name>
-          <note>Knoblauch</note>
-          <note>Sesamsamen</note>
-          <note>Soja</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>konserviert</note>
-          <price role="employee">4.70</price>
-          <price role="other">5.65</price>
-          <price role="student">3.35</price>
-        </meal>
-        <meal>
-          <name>Pasta mit Tomatensoße</name>
-          <note>Knoblauch</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <price role="employee">4.15</price>
-          <price role="other">5.10</price>
-          <price role="student">2.80</price>
-        </meal>
-        <meal>
-          <name>Vegane Currywurst "Classic Style"</name>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>mit Farbstoff</note>
-          <note>mit Süßungsmittel</note>
-          <price role="employee">5.20</price>
-          <price role="other">6.15</price>
-          <price role="student">3.80</price>
-        </meal>
-        <meal>
-          <name>mensaVital: Fruchtige Vollkornreis - Gemüsepfanne mit Tomatensoße</name>
-          <note>Knoblauch</note>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>Sellerie</note>
-          <note>geschwefelt</note>
-          <note>konserviert</note>
-          <note>mit Antioxidationsmittel</note>
-          <price role="employee">3.65</price>
-          <price role="other">4.60</price>
-          <price role="student">2.35</price>
-        </meal>
-      </category>
-      <category name="Fisch">
-        <meal>
-          <name>Pasta Krabbensoße</name>
-          <note>Fisch</note>
-          <note>Fische</note>
-          <note>Knoblauch</note>
-          <note>Krebstiere</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>mit Farbstoff</note>
-          <note>mit Phosphat</note>
-          <price role="employee">5.20</price>
-          <price role="other">6.15</price>
-          <price role="student">3.80</price>
-        </meal>
-      </category>
-      <category name="Fleischlos">
-        <meal>
-          <name>Pasta mit Käsesoße</name>
-          <note>Knoblauch</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>konserviert</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">4.45</price>
-          <price role="other">5.40</price>
-          <price role="student">3.10</price>
-        </meal>
-        <meal>
-          <name>Winterlicher Salatteller mit gebackenen Champignonköpfen und Kräuterdip</name>
-          <note>Eier</note>
-          <note>Gerste</note>
-          <note>Knoblauch</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>mit Antioxidationsmittel</note>
-          <note>mit Farbstoff</note>
-          <note>mit Süßungsmittel</note>
-          <price role="employee">6.20</price>
-          <price role="other">7.15</price>
-          <price role="student">4.75</price>
-        </meal>
-        <meal>
-          <name>Pizza "Melanzane" mit gegrillter Aubergine, Mozzarella und Pesto</name>
-          <note>Gerste</note>
-          <note>Mandeln</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Schalenfrüchte</note>
-          <note>Soja</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <price role="employee">5.50</price>
-          <price role="other">6.45</price>
-          <price role="student">4.10</price>
-        </meal>
-        <meal>
-          <name>3 Semmelknödel auf Ragout von Steinpilzchampignons</name>
-          <note>Eier</note>
-          <note>Knoblauch</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">5.00</price>
-          <price role="other">5.95</price>
-          <price role="student">3.65</price>
-        </meal>
-      </category>
-      <category name="Schwein">
-        <meal>
-          <name>Currywurst "Tennessee" mit rauchiger BBQ - Soße</name>
-          <note>Rind/Kalb</note>
-          <note>Schwein</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <note>konserviert</note>
-          <note>mit Antioxidationsmittel</note>
-          <note>mit Farbstoff</note>
-          <note>mit Phosphat</note>
-          <note>mit Süßungsmittel</note>
-          <price role="employee">4.45</price>
-          <price role="other">5.40</price>
-          <price role="student">3.10</price>
-        </meal>
-        <meal>
-          <name>Pizza "Salami"</name>
-          <note>Gerste</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Schwein</note>
-          <note>Senf</note>
-          <note>Soja</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>konserviert</note>
-          <note>mit Antioxidationsmittel</note>
-          <price role="employee">5.80</price>
-          <price role="other">6.75</price>
-          <price role="student">4.35</price>
-        </meal>
-      </category>
+    <day date="2025-12-05">
       <category name="Rind">
         <meal>
-          <name>Hamburger</name>
-          <note>Eier</note>
-          <note>Gerste</note>
-          <note>Rind/Kalb</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <note>Sesamsamen</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>mit Farbstoff</note>
-          <note>mit Süßungsmittel</note>
-          <price role="employee">5.90</price>
-          <price role="other">6.85</price>
-          <price role="student">4.45</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2025-12-05">
-      <category name="Vegan">
-        <meal>
-          <name>Vegane Soja - Lauch - Cremesuppe</name>
-          <note>Soja</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">0.00</price>
-          <price role="other">0.00</price>
-          <price role="student">0.00</price>
-        </meal>
-        <meal>
-          <name>Gebratener Reis mit Asiagemüse</name>
-          <note>Knoblauch</note>
-          <note>Sesamsamen</note>
-          <note>Soja</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>konserviert</note>
-          <price role="employee">4.70</price>
-          <price role="other">5.65</price>
-          <price role="student">3.35</price>
-        </meal>
-        <meal>
-          <name>Pasta mit Tomatensoße</name>
-          <note>Knoblauch</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <price role="employee">4.15</price>
-          <price role="other">5.10</price>
-          <price role="student">2.80</price>
-        </meal>
-        <meal>
-          <name>Vegane Currywurst "Classic Style"</name>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>mit Farbstoff</note>
-          <note>mit Süßungsmittel</note>
-          <price role="employee">5.20</price>
-          <price role="other">6.15</price>
-          <price role="student">3.80</price>
-        </meal>
-        <meal>
-          <name>mensaVital: Tagliatelle mit veganer Lauch - Creme - Soße und gehackten Walnüssen</name>
-          <note>Knoblauch</note>
-          <note>Schalenfrüchte</note>
-          <note>Walnüsse</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">4.45</price>
-          <price role="other">5.40</price>
-          <price role="student">3.10</price>
-        </meal>
-      </category>
-      <category name="Mensa">
-        <meal>
-          <name>Käse - Lauch - Suppe mit Hackfleisch</name>
-          <note>Knoblauch</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Rind/Kalb</note>
-          <price role="employee">0.00</price>
-          <price role="other">0.00</price>
-          <price role="student">0.00</price>
-        </meal>
-      </category>
-      <category name="Gefluegel">
-        <meal>
-          <name>Gebratener Reis mit Asiagemüse und Hähnchenstreifen</name>
-          <note>Geflügel</note>
-          <note>Knoblauch</note>
-          <note>Sesamsamen</note>
-          <note>Soja</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>konserviert</note>
-          <price role="employee">6.20</price>
-          <price role="other">7.15</price>
-          <price role="student">4.75</price>
-        </meal>
-        <meal>
-          <name>Kebabteller vom Drehspieß mit gemischtem Salat, Tomatenreis und Soße</name>
-          <note>Geflügel</note>
-          <note>Knoblauch</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <note>mit Antioxidationsmittel</note>
-          <price role="employee">7.10</price>
-          <price role="other">8.05</price>
-          <price role="student">5.60</price>
-        </meal>
-      </category>
-      <category name="Wild">
-        <meal>
-          <name>Hirschgulasch in Waldpilzsoße</name>
+          <name>Rumpsteak vom Grill mit Pfefferrahmsoße</name>
           <note>Alkohol</note>
           <note>Gerste</note>
           <note>Milch (einschließlich Lactose)</note>
-          <note>Schwefeldioxid und Sulfite</note>
+          <note>Rind/Kalb</note>
           <note>Sellerie</note>
-          <note>Soja</note>
-          <note>Weizen</note>
-          <note>Wild</note>
-          <note>geschwefelt</note>
-          <note>glutenhaltiges Getreide</note>
-          <price role="employee">7.40</price>
-          <price role="other">8.35</price>
-          <price role="student">5.90</price>
-        </meal>
-      </category>
-      <category name="Fisch">
-        <meal>
-          <name>Pasta Krabbensoße</name>
-          <note>Fisch</note>
-          <note>Fische</note>
-          <note>Knoblauch</note>
-          <note>Krebstiere</note>
-          <note>Milch (einschließlich Lactose)</note>
           <note>Weizen</note>
           <note>glutenhaltiges Getreide</note>
-          <note>mit Farbstoff</note>
-          <note>mit Phosphat</note>
-          <price role="employee">5.20</price>
-          <price role="other">6.15</price>
-          <price role="student">3.80</price>
-        </meal>
-        <meal>
-          <name>Gebackenes Schollenfilet mit hausgemachtem Kräuterdip</name>
-          <note>Eier</note>
-          <note>Fisch</note>
-          <note>Fische</note>
-          <note>Gerste</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>mit Farbstoff</note>
-          <note>mit Süßungsmittel</note>
-          <price role="employee">5.00</price>
-          <price role="other">5.95</price>
-          <price role="student">3.65</price>
+          <price role="employee">7.80</price>
+          <price role="other">7.80</price>
+          <price role="student">7.30</price>
         </meal>
       </category>
       <category name="Fleischlos">
         <meal>
-          <name>Pasta mit Käsesoße</name>
-          <note>Knoblauch</note>
+          <name>Pizza "Margherita"</name>
+          <note>Gerste</note>
           <note>Milch (einschließlich Lactose)</note>
+          <note>Soja</note>
           <note>Weizen</note>
           <note>glutenhaltiges Getreide</note>
-          <note>konserviert</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">4.45</price>
-          <price role="other">5.40</price>
-          <price role="student">3.10</price>
+          <price role="employee">5.00</price>
+          <price role="other">5.95</price>
+          <price role="student">3.65</price>
         </meal>
         <meal>
           <name>Winterlicher Salatteller mit gebackenen Champignonköpfen und Kräuterdip</name>
@@ -423,6 +76,88 @@
           <price role="student">3.35</price>
         </meal>
       </category>
+      <category name="Gefluegel">
+        <meal>
+          <name>Gebratener Reis mit Asiagemüse und Hähnchenstreifen</name>
+          <note>Geflügel</note>
+          <note>Knoblauch</note>
+          <note>Sesamsamen</note>
+          <note>Soja</note>
+          <note>Weizen</note>
+          <note>glutenhaltiges Getreide</note>
+          <note>konserviert</note>
+          <price role="employee">6.20</price>
+          <price role="other">7.15</price>
+          <price role="student">4.75</price>
+        </meal>
+        <meal>
+          <name>Kebabteller vom Drehspieß mit gemischtem Salat, Tomatenreis und Soße</name>
+          <note>Geflügel</note>
+          <note>Knoblauch</note>
+          <note>Milch (einschließlich Lactose)</note>
+          <note>Schwefeldioxid und Sulfite</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <note>mit Antioxidationsmittel</note>
+          <price role="employee">7.10</price>
+          <price role="other">8.05</price>
+          <price role="student">5.60</price>
+        </meal>
+      </category>
+      <category name="Wild">
+        <meal>
+          <name>Hirschgulasch in Waldpilzsoße</name>
+          <note>Alkohol</note>
+          <note>Gerste</note>
+          <note>Milch (einschließlich Lactose)</note>
+          <note>Schwefeldioxid und Sulfite</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
+          <note>Weizen</note>
+          <note>Wild</note>
+          <note>geschwefelt</note>
+          <note>glutenhaltiges Getreide</note>
+          <price role="employee">7.40</price>
+          <price role="other">8.35</price>
+          <price role="student">5.90</price>
+        </meal>
+      </category>
+      <category name="Vegan">
+        <meal>
+          <name>Gebratener Reis mit Asiagemüse</name>
+          <note>Knoblauch</note>
+          <note>Sesamsamen</note>
+          <note>Soja</note>
+          <note>Weizen</note>
+          <note>glutenhaltiges Getreide</note>
+          <note>konserviert</note>
+          <price role="employee">4.70</price>
+          <price role="other">5.65</price>
+          <price role="student">3.35</price>
+        </meal>
+        <meal>
+          <name>Vegane Currywurst "Classic Style"</name>
+          <note>Weizen</note>
+          <note>glutenhaltiges Getreide</note>
+          <note>mit Farbstoff</note>
+          <note>mit Süßungsmittel</note>
+          <price role="employee">5.20</price>
+          <price role="other">6.15</price>
+          <price role="student">3.80</price>
+        </meal>
+        <meal>
+          <name>mensaVital: Tagliatelle mit veganer Lauch - Creme - Soße und gehackten Walnüssen</name>
+          <note>Knoblauch</note>
+          <note>Schalenfrüchte</note>
+          <note>Walnüsse</note>
+          <note>Weizen</note>
+          <note>glutenhaltiges Getreide</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">4.45</price>
+          <price role="other">5.40</price>
+          <price role="student">3.10</price>
+        </meal>
+      </category>
       <category name="Schwein">
         <meal>
           <name>Currywurst "Tennessee" mit rauchiger BBQ - Soße</name>
@@ -453,6 +188,25 @@
           <price role="employee">5.80</price>
           <price role="other">6.75</price>
           <price role="student">4.35</price>
+        </meal>
+      </category>
+      <category name="Fisch">
+        <meal>
+          <name>Gebackenes Schollenfilet mit hausgemachtem Kräuterdip</name>
+          <note>Eier</note>
+          <note>Fisch</note>
+          <note>Fische</note>
+          <note>Gerste</note>
+          <note>Milch (einschließlich Lactose)</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <note>Weizen</note>
+          <note>glutenhaltiges Getreide</note>
+          <note>mit Farbstoff</note>
+          <note>mit Süßungsmittel</note>
+          <price role="employee">5.00</price>
+          <price role="other">5.95</price>
+          <price role="student">3.65</price>
         </meal>
       </category>
     </day>
