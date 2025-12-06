@@ -3,57 +3,10 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2025-12-05">
-      <category name="Essen II Drehkreuz/Ampel">
-        <meal>
-          <name>Spinat-Käse-Knödel mit Pilzragout und Frühlingszwiebel, dazu Salat</name>
-          <note>Eier und Eierzeugnisse</note>
-          <note>Farbstoff</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Laktose</note>
-          <note>Senf</note>
-          <note>Vegetarisches Menü</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
-      </category>
-      <category name="Essen I Drehkreuz/Ampel">
-        <meal>
-          <name>Pasta mit Rinderbolognese, geriebenem Hartkäse und Salat</name>
-          <note>  </note>
-          <note>Eier und Eierzeugnisse</note>
-          <note>Farbstoff</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Laktose</note>
-          <note>Rind</note>
-          <note>Sellerie</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
-      </category>
-    </day>
     <day date="2025-12-08">
-      <category name="Essen I Drehkreuz/Ampel">
-        <meal>
-          <name>Paniertes Hähnchenbrustfilet Kräuterrahmsoße, Spätzle und Salat</name>
-          <note>Eier und Eierzeugnisse</note>
-          <note>Farbstoff</note>
-          <note>Geflügel</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Laktose</note>
-          <note>Schwefeldioxid ("SO2") und Sulfite</note>
-          <note>Senf</note>
-          <note>geschwefelt</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
-      </category>
       <category name="Essen II Drehkreuz/Ampel">
         <meal>
-          <name>Blumenkohlbolognese mit Pasta garniert mit Rucola,Cashewkerner und Hartkäse dazu Salat</name>
+          <name>Pasta mit Blumenkohlbolognese garniert mit Rucola, Cashewkernen und Hartkäse, dazu Salat</name>
           <note>Eier und Eierzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Laktose</note>
@@ -65,8 +18,32 @@
           <price role="student">5.55</price>
         </meal>
       </category>
+      <category name="Essen I Drehkreuz/Ampel">
+        <meal>
+          <name>Paniertes Hähnchenbrustfilet mit Kräuterrahmsoße, Spätzle und Salat</name>
+          <note>Eier und Eierzeugnisse</note>
+          <note>Farbstoff</note>
+          <note>Geflügel</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Laktose</note>
+          <note>Senf</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+      </category>
     </day>
     <day date="2025-12-09">
+      <category name="Essen II Drehkreuz/Ampel">
+        <meal>
+          <name>Rosenkohl-Champingnon Pfanne mit Zartweizen Ebly und Salat</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Plant-based Menü</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+      </category>
       <category name="Essen I Drehkreuz/Ampel">
         <meal>
           <name>Paniertes Seelachsfilet mit Joghurt-Remouladen-Dip und gebackene Kartoffeln, dazu Salat</name>
@@ -75,24 +52,8 @@
           <note>Fisch</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Laktose</note>
-          <note>Sellerie</note>
           <note>Senf</note>
           <note>Süßungsmittel</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
-      </category>
-      <category name="Essen II Drehkreuz/Ampel">
-        <meal>
-          <name>Rosenkohl-Champingnon Pfanne mit Zartweizen Ebly und Salat</name>
-          <note>Antioxidationsmittel</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Konservierungsstoff</note>
-          <note>Plant-based Menü</note>
-          <note>Schwefeldioxid ("SO2") und Sulfite</note>
-          <note>Soja</note>
-          <note>geschwefelt</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
           <price role="student">5.55</price>
@@ -116,10 +77,12 @@
       </category>
       <category name="Essen II Drehkreuz/Ampel">
         <meal>
-          <name>Pappardelle mit frischen Kräuterseitlinge, Austernpilze und Steinchampignons in einer Trüffel-Sahne-Soße garniert mit gehobeltem Parmesan, dazu Blattsalat mit Wildkräutern und Himbeer-Vinaigrette</name>
+          <name>Pappardelle  mit frischen Kräuterseitlinge, Austernpilze und Steinchampignons in einer Trüffel-Sahne-Soße  garniert mit gehobeltem Parmesan , dazu Blattsalat mit Wildkräutern und Himbeer-Vinaigrette</name>
+          <note>Eier und Eierzeugnisse</note>
           <note>Farbstoff</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Laktose</note>
+          <note>Schalenfrüchte (Nüsse)</note>
           <note>Senf</note>
           <note>Vegetarisches Menü</note>
           <price role="employee">5.55</price>
@@ -160,33 +123,26 @@
       </category>
     </day>
     <day date="2025-12-12">
-      <category name="Essen I Drehkreuz/Ampel">
+      <category name="Essen II Drehkreuz/Ampel">
         <meal>
-          <name>Tortellini mit Rindfleischfüllung mit Schinken Sahnesoße und geriebenem Hartkäse, dazu Salat</name>
-          <note>Antioxidationsmittel</note>
-          <note>Eier und Eierzeugnisse</note>
-          <note>Farbstoff</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Konservierungsstoff</note>
+          <name>Vier Kartoffeltaschen mit Frischkäse gefüllt, dazu Ratatouille Gemüse und Salat</name>
           <note>Laktose</note>
-          <note>Phosphat</note>
-          <note>Rind</note>
-          <note>Schwefeldioxid ("SO2") und Sulfite</note>
-          <note>Schwein</note>
-          <note>Senf</note>
-          <note>geschwefelt</note>
+          <note>Vegetarisches Menü</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
           <price role="student">5.55</price>
         </meal>
       </category>
-      <category name="Essen II Drehkreuz/Ampel">
+      <category name="Essen I Drehkreuz/Ampel">
         <meal>
-          <name>Vier Kartoffeltaschen mit Frischkäse gefüllt, dazu Ratatouille Gemüse und Salat</name>
+          <name>Tortellini mit Rindfleischfüllung, Schinken-Sahnesoße und geriebenem Hartkäse, dazu Salat</name>
+          <note>Eier und Eierzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Konservierungsstoff</note>
           <note>Laktose</note>
-          <note>Schwefeldioxid ("SO2") und Sulfite</note>
-          <note>Vegetarisches Menü</note>
-          <note>geschwefelt</note>
+          <note>Phosphat</note>
+          <note>Rind</note>
+          <note>Schwein</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
           <price role="student">5.55</price>
@@ -194,17 +150,6 @@
       </category>
     </day>
     <day date="2025-12-15">
-      <category name="Essen I Drehkreuz/Ampel">
-        <meal>
-          <name>Nudelpfanne mit Rinderhackfleisch,Mais,Paprika,Artischocken,Oliven in einem Tomatensahne-Sugo garniert mit Pinienkerner und geriebenem Mozzarella und Salat</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Laktose</note>
-          <note>Rind</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
-      </category>
       <category name="Essen II Drehkreuz/Ampel">
         <meal>
           <name>Kichererbsen-Süßartoffel-Curry mit Reis und Salat</name>
@@ -216,6 +161,17 @@
           <note>Sellerie</note>
           <note>Senf</note>
           <note>geschwefelt</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+      </category>
+      <category name="Essen I Drehkreuz/Ampel">
+        <meal>
+          <name>Nudelpfanne mit Rinderhackfleisch,Mais,Paprika,Artischocken,Oliven in einem Tomatensahne-Sugo garniert mit Pinienkerner und geriebenem Mozzarella und Salat</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Laktose</note>
+          <note>Rind</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
           <price role="student">5.55</price>
@@ -253,19 +209,6 @@
       </category>
     </day>
     <day date="2025-12-17">
-      <category name="Essen II Drehkreuz/Ampel">
-        <meal>
-          <name>Kürbis-Risotto garniert mit gerösteten Walnüssen und Salat</name>
-          <note>Eier und Eierzeugnisse</note>
-          <note>Laktose</note>
-          <note>Schalenfrüchte (Nüsse)</note>
-          <note>Sellerie</note>
-          <note>Vegetarisches Menü</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
-      </category>
       <category name="Essen I Drehkreuz/Ampel">
         <meal>
           <name>Schwäbische Maultaschen mit Röstzwiebeln Käsesahne-Soße und Salat</name>
@@ -283,16 +226,30 @@
           <price role="student">5.55</price>
         </meal>
       </category>
+      <category name="Essen II Drehkreuz/Ampel">
+        <meal>
+          <name>Kürbis-Risotto garniert mit gerösteten Walnüssen und Salat</name>
+          <note>Eier und Eierzeugnisse</note>
+          <note>Laktose</note>
+          <note>Schalenfrüchte (Nüsse)</note>
+          <note>Sellerie</note>
+          <note>Vegetarisches Menü</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+      </category>
     </day>
     <day date="2025-12-18">
       <category name="Essen I Drehkreuz/Ampel">
         <meal>
-          <name>Zwei Frikadellen mit Currysoße, Pommes frites und Salat</name>
+          <name>Zwei Frikadellen dazu Butter-Maiskolben mit Currysoße, Pommes frites</name>
           <note>Antioxidationsmittel</note>
           <note>Eier und Eierzeugnisse</note>
           <note>Farbstoff</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Konservierungsstoff</note>
+          <note>Laktose</note>
           <note>Rind</note>
           <note>Schwein</note>
           <note>Sellerie</note>
@@ -304,6 +261,23 @@
       </category>
     </day>
     <day date="2025-12-19">
+      <category name="Essen II Drehkreuz/Ampel">
+        <meal>
+          <name>Hash Brown Fries mit Kräuter- Dip und Salat</name>
+          <note>Farbstoff</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Konservierungsstoff</note>
+          <note>Plant-based Menü</note>
+          <note>Schwefeldioxid ("SO2") und Sulfite</note>
+          <note>Senf</note>
+          <note>Soja</note>
+          <note>Süßungsmittel</note>
+          <note>geschwefelt</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+      </category>
       <category name="Essen I Drehkreuz/Ampel">
         <meal>
           <name>Lasagne Bolognese mit Rinderhackfleisch, dazu Basilikum-Sahnesoße und Salat</name>
@@ -320,18 +294,27 @@
           <price role="student">5.55</price>
         </meal>
       </category>
+    </day>
+    <day date="2026-01-05">
       <category name="Essen II Drehkreuz/Ampel">
         <meal>
-          <name>Hash Brown Fries mit Kräuter- Dip und Salat</name>
-          <note>Farbstoff</note>
+          <name>Valess Schnitzel mit Tomatensoße, Spaghetti, dazu Salat</name>
+          <note>Eier und Eierzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
-          <note>Konservierungsstoff</note>
-          <note>Plant-based Menü</note>
-          <note>Schwefeldioxid ("SO2") und Sulfite</note>
+          <note>Laktose</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+      </category>
+      <category name="Essen I Drehkreuz/Ampel">
+        <meal>
+          <name>Hähnchenbrustfilet Piccata mit Tomatensoße dazu Pasta und Salat</name>
+          <note>Farbstoff</note>
+          <note>Geflügel</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Laktose</note>
           <note>Senf</note>
-          <note>Soja</note>
-          <note>Süßungsmittel</note>
-          <note>geschwefelt</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
           <price role="student">5.55</price>
