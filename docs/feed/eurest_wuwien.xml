@@ -3,10 +3,7 @@
 <?xml-stylesheet type="text/css" href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css"?>
 <openmensa xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2025-12-08">
-      <closed/>
-    </day>
-    <day date="2025-12-09">
+    <day date="2025-12-01">
       <category name="Tagessuppe 1 (Fixpreis)">
         <meal>
           <name>Gemüsesuppenansatz</name>
@@ -14,6 +11,13 @@
           <note>Soja (F)</note>
           <note>Sellerie (L)</note>
           <note>Senf (M)</note>
+        </meal>
+      </category>
+      <category name="Tagesteller 1 (Fixpreis)">
+        <meal>
+          <name>Ofenerdäpfel gefüllt mit Chilibohnen 
+dazu Gurken- Sojadip</name>
+          <note>Soja (F)</note>
         </meal>
       </category>
       <category name="Tagesteller 1 (Tagespreis)">
@@ -26,9 +30,11 @@
       </category>
       <category name="Tagesteller 2 (Fixpreis)">
         <meal>
-          <name>Bohneneintopf mit geräuchertem Fleisch</name>
+          <name>Chicken Tikka Masala Indisch</name>
           <note>Glutenhaltiges Getreide (A)</note>
-          <note>Sellerie (L)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Schalenfrüchte (H)</note>
+          <note>Sulfite (O)</note>
         </meal>
       </category>
       <category name="Tagesteller 2 (Tagespreis)">
@@ -36,34 +42,6 @@
           <name>Minestrone</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Sellerie (L)</note>
-        </meal>
-      </category>
-      <category name="Tagesteller 3 (Fixpreis)">
-        <meal>
-          <name>Hausgemachte Pizza Margherita</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Milch oder Laktose (G)</note>
-        </meal>
-      </category>
-      <category name="Tagesteller 3 (Tagespreis)">
-        <meal>
-          <name>Hausgemachte "Pizza Verdure"
-Tomaten, Zwiebel, Melanzani
-Champignon, Kichererbsen, Granatapfel</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Milch oder Laktose (G)</note>
-        </meal>
-      </category>
-      <category name="Tagesteller 4 (Fixpreis)">
-        <meal>
-          <name>Flammkuchen 
-Speck, Lauch 
-Rotweinschalotten 
-gerösteter Salbei 
-Crème Fraîche</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Sulfite (O)</note>
         </meal>
       </category>
       <category name="Tagesteller 4 (Tagespreis)">
@@ -132,7 +110,112 @@ Gebratener Reis</name>
         </meal>
       </category>
     </day>
-    <day date="2025-12-10">
+    <day date="2025-12-02">
+      <category name="Tagessuppe 1 (Fixpreis)">
+        <meal>
+          <name>Gemüsesuppenansatz</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
+          <note>Sellerie (L)</note>
+          <note>Senf (M)</note>
+        </meal>
+      </category>
+      <category name="Tagesteller 1 (Fixpreis)">
+        <meal>
+          <name>Ofenerdäpfel gefüllt mit Chilibohnen 
+dazu Gurken- Sojadip</name>
+          <note>Soja (F)</note>
+        </meal>
+      </category>
+      <category name="Tagesteller 1 (Tagespreis)">
+        <meal>
+          <name>Hausgemachte Eiernockerl mit Schnittlauch</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+        </meal>
+      </category>
+      <category name="Tagesteller 2 (Fixpreis)">
+        <meal>
+          <name>Käsekrainer mit Potato Wedges und Zwiebelsenf</name>
+          <note>Milch oder Laktose (G)</note>
+          <note>Senf (M)</note>
+        </meal>
+      </category>
+      <category name="Tagesteller 2 (Tagespreis)">
+        <meal>
+          <name>Minestrone</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+      </category>
+      <category name="Tagesteller 4 (Tagespreis)">
+        <meal>
+          <name>Spaghetti Bolognese • 
+Oliven • Parmesan</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+      </category>
+      <category name="Tagesteller 5 (Fixpreis)">
+        <meal>
+          <name>Tomatensauce </name>
+        </meal>
+        <meal>
+          <name>Spaghetti •</name>
+        </meal>
+      </category>
+      <category name="Tagesteller 5 (Tagespreis)">
+        <meal>
+          <name>Rindfleisch - Lasagne</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+      </category>
+      <category name="Tagesteller 6 (Fixpreis)">
+        <meal>
+          <name>Basis Bowl 2</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+      </category>
+      <category name="Tagesteller 6 (Tagespreis)">
+        <meal>
+          <name>C&amp;F Wrap vegetarisch</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Milch oder Laktose (G)</note>
+        </meal>
+      </category>
+      <category name="Tagesteller 7 (Fixpreis)">
+        <meal>
+          <name>Salatschüssel "leicht" groß</name>
+          <note>Sellerie (L)</note>
+        </meal>
+      </category>
+      <category name="Tagesteller 7 (Tagespreis)">
+        <meal>
+          <name>Chicken Teppanyaki • 
+Asia Gemüse • 
+Gebratener Reis</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
+          <note>Sesam (N)</note>
+        </meal>
+      </category>
+      <category name="gem.Salat">
+        <meal>
+          <name>gemischter Beilagensalat</name>
+          <note>Senf (M)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+      </category>
+    </day>
+    <day date="2025-12-03">
       <category name="Tagessuppe 1 (Fixpreis)">
         <meal>
           <name>Gemüsesuppenansatz</name>
@@ -154,6 +237,16 @@ Gebratener Reis</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Sellerie (L)</note>
           <note>Sulfite (O)</note>
+        </meal>
+      </category>
+      <category name="Tagesteller 1 (Tagespreis)">
+        <meal>
+          <name>Veganer Kaiserschmarren • 
+</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Schalenfrüchte (H)</note>
+          <note>Lupinen (P)</note>
         </meal>
       </category>
       <category name="Tagesteller 2 (Fixpreis)">
@@ -202,21 +295,6 @@ Oliven • Parmesan</name>
           <note>Sellerie (L)</note>
         </meal>
       </category>
-      <category name="Tagesteller 6 (Fixpreis)">
-        <meal>
-          <name>Basis Bowl 2</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Sulfite (O)</note>
-        </meal>
-      </category>
-      <category name="Tagesteller 6 (Tagespreis)">
-        <meal>
-          <name>C&amp;F Wrap vegetarisch</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Milch oder Laktose (G)</note>
-        </meal>
-      </category>
       <category name="Tagesteller 7 (Fixpreis)">
         <meal>
           <name>Salatschüssel "leicht" groß</name>
@@ -241,7 +319,7 @@ Gebratener Reis</name>
         </meal>
       </category>
     </day>
-    <day date="2025-12-11">
+    <day date="2025-12-04">
       <category name="Tagessuppe 1 (Fixpreis)">
         <meal>
           <name>Gemüsesuppenansatz</name>
@@ -249,6 +327,18 @@ Gebratener Reis</name>
           <note>Soja (F)</note>
           <note>Sellerie (L)</note>
           <note>Senf (M)</note>
+        </meal>
+      </category>
+      <category name="Tagesteller 1 (Fixpreis)">
+        <meal>
+          <name>Planted "Züricher Geschnetzeltes"•
+Rösterdäpfel
+
+Allergene A • L • O
+</name>
+          <note>Soja (F)</note>
+          <note>Sellerie (L)</note>
+          <note>Sulfite (O)</note>
         </meal>
       </category>
       <category name="Tagesteller 1 (Tagespreis)">
@@ -270,34 +360,6 @@ Gebratener Reis</name>
           <name>Minestrone</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Sellerie (L)</note>
-        </meal>
-      </category>
-      <category name="Tagesteller 3 (Fixpreis)">
-        <meal>
-          <name>Hausgemachte Pizza Margherita</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Milch oder Laktose (G)</note>
-        </meal>
-      </category>
-      <category name="Tagesteller 3 (Tagespreis)">
-        <meal>
-          <name>Hausgemachte "Pizza Verdure"
-Tomaten, Zwiebel, Melanzani
-Champignon, Kichererbsen, Granatapfel</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Milch oder Laktose (G)</note>
-        </meal>
-      </category>
-      <category name="Tagesteller 4 (Fixpreis)">
-        <meal>
-          <name>Flammkuchen 
-Speck, Lauch 
-Rotweinschalotten 
-gerösteter Salbei 
-Crème Fraîche</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Sulfite (O)</note>
         </meal>
       </category>
       <category name="Tagesteller 4 (Tagespreis)">
@@ -366,7 +428,7 @@ Gebratener Reis</name>
         </meal>
       </category>
     </day>
-    <day date="2025-12-12">
+    <day date="2025-12-05">
       <category name="Tagessuppe 1 (Fixpreis)">
         <meal>
           <name>Gemüsesuppenansatz</name>
@@ -374,6 +436,18 @@ Gebratener Reis</name>
           <note>Soja (F)</note>
           <note>Sellerie (L)</note>
           <note>Senf (M)</note>
+        </meal>
+      </category>
+      <category name="Tagesteller 1 (Fixpreis)">
+        <meal>
+          <name>Planted "Züricher Geschnetzeltes"•
+Rösterdäpfel
+
+Allergene A • L • O
+</name>
+          <note>Soja (F)</note>
+          <note>Sellerie (L)</note>
+          <note>Sulfite (O)</note>
         </meal>
       </category>
       <category name="Tagesteller 1 (Tagespreis)">
@@ -395,34 +469,6 @@ Gebratener Reis</name>
           <name>Minestrone</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Sellerie (L)</note>
-        </meal>
-      </category>
-      <category name="Tagesteller 3 (Fixpreis)">
-        <meal>
-          <name>Hausgemachte Pizza Margherita</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Milch oder Laktose (G)</note>
-        </meal>
-      </category>
-      <category name="Tagesteller 3 (Tagespreis)">
-        <meal>
-          <name>Hausgemachte "Pizza Verdure"
-Tomaten, Zwiebel, Melanzani
-Champignon, Kichererbsen, Granatapfel</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Milch oder Laktose (G)</note>
-        </meal>
-      </category>
-      <category name="Tagesteller 4 (Fixpreis)">
-        <meal>
-          <name>Flammkuchen 
-Speck, Lauch 
-Rotweinschalotten 
-gerösteter Salbei 
-Crème Fraîche</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Sulfite (O)</note>
         </meal>
       </category>
       <category name="Tagesteller 4 (Tagespreis)">
@@ -491,10 +537,10 @@ Gebratener Reis</name>
         </meal>
       </category>
     </day>
-    <day date="2025-12-13">
+    <day date="2025-12-06">
       <closed/>
     </day>
-    <day date="2025-12-14">
+    <day date="2025-12-07">
       <closed/>
     </day>
   </canteen>
