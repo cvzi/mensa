@@ -3,47 +3,27 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2025-12-08">
+    <day date="2025-12-09">
       <category name="Tellergericht">
         <meal>
-          <name>Teller: Kürbis-Suppe mit Kokosmilch [vegan]</name>
-          <note>Senf und daraus hergestellte Erzeugnisse</note>
-          <note>geschwefelt</note>
-          <note>jodiertes Salz</note>
-          <price role="employee">2.45</price>
-          <price role="other">3.45</price>
-          <price role="student">1.50</price>
-        </meal>
-        <meal>
-          <name>Terrine: Kürbissuppe mit Kokosmilch [vegan]</name>
-          <note>Senf und daraus hergestellte Erzeugnisse</note>
-          <note>geschwefelt</note>
-          <note>jodiertes Salz</note>
+          <name>Milchreis mit Apfelmus</name>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <note>Rindfleisch</note>
+          <note>mit Antioxidationsmittel</note>
+          <note>mit Farbstoff</note>
           <price role="employee">3.45</price>
           <price role="other">4.70</price>
           <price role="student">2.20</price>
         </meal>
       </category>
-      <category name="Komponente 1">
-        <meal>
-          <name>Seelachsfilet in Krosspanade  
- mit Remouladensauce</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
-          <note>Fische und daraus hergestellte Erzeugnisse</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Milch/Milchzucker (Laktose)</note>
-          <note>jodiertes Salz</note>
-          <note>mit Süßungsmittel</note>
-          <price role="employee">3.25</price>
-          <price role="other">4.25</price>
-          <price role="student">2.25</price>
-        </meal>
-      </category>
       <category name="Komponente 5">
         <meal>
-          <name>Rindergulasch</name>
+          <name>Lasagne mit Hackfleisch und Gemüse</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
-          <note>Rindfleisch</note>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <note>Schweinefleisch</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
           <note>jodiertes Salz</note>
           <price role="employee">3.50</price>
           <price role="other">4.50</price>
@@ -52,16 +32,38 @@
       </category>
       <category name="Vegane Komponente 1">
         <meal>
-          <name>Kartoffel-Gnocchi  
- mit Rahmgemüse</name>
-          <note>Glutenhaltiges Getreide</note>
+          <name>Chili mit Sonnenblumenhack [regional, aus ökologischem Anbau]</name>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
           <note>jodiertes Salz</note>
+          <note>mit Antioxidationsmittel</note>
+          <note>mit Süßungsmittel</note>
           <price role="employee">3.25</price>
           <price role="other">4.25</price>
           <price role="student">2.25</price>
         </meal>
       </category>
+      <category name="Vegane Komponente 2">
+        <meal>
+          <name>Orientalischer Wrap mit Kichererbsenbällchen  
+ und hausgemachtem Hummus</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
+          <note>Sesamsamen und daraus hergestellte Erzeugnisse</note>
+          <note>jodiertes Salz</note>
+          <price role="employee">5.20</price>
+          <price role="other">5.20</price>
+          <price role="student">3.20</price>
+        </meal>
+      </category>
       <category name="Beilagen">
+        <meal>
+          <name>Basmatireis</name>
+          <note>jodiertes Salz</note>
+          <price role="employee">1.20</price>
+          <price role="other">1.60</price>
+          <price role="student">0.80</price>
+        </meal>
         <meal>
           <name>Salzkartoffeln</name>
           <note>geschwefelt</note>
@@ -71,25 +73,8 @@
           <price role="student">0.80</price>
         </meal>
         <meal>
-          <name>Makkaroni</name>
-          <note>Glutenhaltiges Getreide</note>
+          <name>Wedges [aus regionalen Ackerkartoffeln]</name>
           <note>jodiertes Salz</note>
-          <price role="employee">1.20</price>
-          <price role="other">1.60</price>
-          <price role="student">0.80</price>
-        </meal>
-        <meal>
-          <name>Reis</name>
-          <note>jodiertes Salz</note>
-          <price role="employee">1.20</price>
-          <price role="other">1.60</price>
-          <price role="student">0.80</price>
-        </meal>
-        <meal>
-          <name>Kartoffelklöße</name>
-          <note>geschwefelt</note>
-          <note>jodiertes Salz</note>
-          <note>mit Antioxidationsmittel</note>
           <price role="employee">1.50</price>
           <price role="other">1.90</price>
           <price role="student">1.10</price>
@@ -97,11 +82,11 @@
       </category>
       <category name="Gemüse">
         <meal>
-          <name>Blumenkohlgemüse</name>
+          <name>Erbsengemüse</name>
           <note>jodiertes Salz</note>
-          <price role="employee">1.40</price>
-          <price role="other">1.80</price>
-          <price role="student">1.00</price>
+          <price role="employee">1.20</price>
+          <price role="other">1.60</price>
+          <price role="student">0.80</price>
         </meal>
       </category>
       <category name="Salate und Desserts">
