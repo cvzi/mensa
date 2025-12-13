@@ -3,60 +3,6 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2025-12-12">
-      <category name="HEIMSPIEL">
-        <meal>
-          <name>Hähnchen-Gnocchipfanne mit Kürbis und Pilzragout Salat,  Dessert</name>
-          <note>Gluten</note>
-          <note>Weizen</note>
-          <price role="employee">6.25</price>
-          <price role="other">17.30</price>
-          <price role="student">3.85</price>
-        </meal>
-      </category>
-      <category name="QUERBEET">
-        <meal>
-          <name>VEGETARISCH: Käse-Lauchcremesuppe Kaiserbrötchen</name>
-          <note>Gluten</note>
-          <note>Laktose</note>
-          <note>Milch</note>
-          <price role="employee">4.00</price>
-          <price role="other">7.65</price>
-          <price role="student">1.85</price>
-        </meal>
-        <meal>
-          <name>Salatbuffet in Selbstbedienung,  je 100g (Preis je 100g)</name>
-          <price role="employee">0.95</price>
-          <price role="other">2.90</price>
-          <price role="student">0.75</price>
-        </meal>
-        <meal>
-          <name>VEGAN: Vegane Meatballs Knoblauchsauce,  Pommes frites,  Salat,  Dessert</name>
-          <note>Gluten</note>
-          <note>Hafer</note>
-          <note>Mandeln</note>
-          <note>Senf</note>
-          <note>Weizen</note>
-          <price role="employee">5.60</price>
-          <price role="other">15.10</price>
-          <price role="student">3.30</price>
-        </meal>
-      </category>
-      <category name="WORLDWIDE">
-        <meal>
-          <name>Seelachsfilet im Sesammantel Kräuter-Senf Kartoffeln,  Salat,  Dessert</name>
-          <note>Fisch</note>
-          <note>Gluten</note>
-          <note>Laktose</note>
-          <note>Milch</note>
-          <note>Senf</note>
-          <note>Sesamsamen</note>
-          <price role="employee">6.45</price>
-          <price role="other">18.75</price>
-          <price role="student">4.15</price>
-        </meal>
-      </category>
-    </day>
     <day date="2025-12-15">
       <category name="HEIMSPIEL">
         <meal>
@@ -72,7 +18,9 @@
       </category>
       <category name="QUERBEET">
         <meal>
-          <name>VEGAN: Indischer Spinat Kichererbsenreis,  Salat,  Dessert</name>
+          <name>VEGETARISCH: Indischer Spinat Kichererbsenreis,  Salat,  Dessert</name>
+          <note>Laktose</note>
+          <note>Milch</note>
           <note>Soja</note>
           <price role="employee">5.30</price>
           <price role="other">14.10</price>
@@ -109,10 +57,13 @@
       </category>
       <category name="QUERBEET">
         <meal>
-          <name>VEGAN: Vegane Bratwurst mit Currysauce,  Pommes Wedges,  Salat,  Dessert</name>
-          <price role="employee">6.25</price>
-          <price role="other">17.30</price>
-          <price role="student">3.85</price>
+          <name>VEGAN: Grießpudding mit heißen Himbeeren</name>
+          <note>Gluten</note>
+          <note>Soja</note>
+          <note>Weizen</note>
+          <price role="employee">4.00</price>
+          <price role="other">7.65</price>
+          <price role="student">1.85</price>
         </meal>
         <meal>
           <name>Salatbuffet in Selbstbedienung,  je 100g (Preis je 100g)</name>
@@ -121,13 +72,10 @@
           <price role="student">0.75</price>
         </meal>
         <meal>
-          <name>VEGAN: Grießpudding mit heißen Himbeeren</name>
-          <note>Gluten</note>
-          <note>Soja</note>
-          <note>Weizen</note>
-          <price role="employee">4.00</price>
-          <price role="other">7.65</price>
-          <price role="student">1.85</price>
+          <name>VEGAN: Vegane Bratwurst mit Currysauce,  Pommes Wedges,  Salat,  Dessert</name>
+          <price role="employee">6.25</price>
+          <price role="other">17.30</price>
+          <price role="student">3.85</price>
         </meal>
       </category>
     </day>
@@ -144,13 +92,10 @@
       </category>
       <category name="QUERBEET">
         <meal>
-          <name>VEGAN: Türkische Linsensuppe Fladenbrot</name>
-          <note>Gluten</note>
-          <note>Sesamsamen</note>
-          <note>Weizen</note>
-          <price role="employee">4.00</price>
-          <price role="other">7.65</price>
-          <price role="student">1.85</price>
+          <name>Salatbuffet in Selbstbedienung,  je 100g (Preis je 100g)</name>
+          <price role="employee">0.95</price>
+          <price role="other">2.90</price>
+          <price role="student">0.75</price>
         </meal>
         <meal>
           <name>VEGAN: Kürbis-Linsen Bolognese Vollkorn Spaghetti,  Salat,  Dessert</name>
@@ -162,10 +107,23 @@
           <price role="student">2.60</price>
         </meal>
         <meal>
-          <name>Salatbuffet in Selbstbedienung,  je 100g (Preis je 100g)</name>
-          <price role="employee">0.95</price>
-          <price role="other">2.90</price>
-          <price role="student">0.75</price>
+          <name>VEGAN: Türkische Linsensuppe Fladenbrot</name>
+          <note>Gluten</note>
+          <note>Sesamsamen</note>
+          <note>Weizen</note>
+          <price role="employee">4.00</price>
+          <price role="other">7.65</price>
+          <price role="student">1.85</price>
+        </meal>
+        <meal>
+          <name>VEGAN: Geröstete Paprikasuppe Kaiserbrötchen</name>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
+          <note>Weizen</note>
+          <price role="employee">4.00</price>
+          <price role="other">7.65</price>
+          <price role="student">1.85</price>
         </meal>
       </category>
       <category name="MEISTERWERK">
