@@ -3,26 +3,53 @@
 <?xml-stylesheet type="text/css" href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css"?>
 <openmensa xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2025-12-22">
+    <day date="2025-12-15">
       <category name="Suppe">
         <meal>
-          <name>Rindsuppe • Gemüse-Grießnockerl • Schnittlauch</name>
+          <name>Klare Gemüsesuppe</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
-          <note>Soja (F)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+        <meal>
+          <name>Rucola - Butternockerl</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+        <meal>
+          <name>und frischem Schnittlauch</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+      </category>
+      <category name="Suppe cremig">
+        <meal>
+          <name>Maiscremesuppe</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+        <meal>
+          <name>gerösteter Pumpernickel</name>
+          <note>Glutenhaltiges Getreide (A)</note>
           <note>Milch oder Laktose (G)</note>
           <note>Sellerie (L)</note>
         </meal>
       </category>
       <category name="Tagesteller 1">
         <meal>
-          <name>Topfenpalatschinken Conv.</name>
+          <name>Spinatstrudel</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
           <note>Milch oder Laktose (G)</note>
         </meal>
         <meal>
-          <name>Vanillesauce</name>
+          <name>Petersilien Erdäpfeln</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
           <note>Milch oder Laktose (G)</note>
@@ -30,75 +57,311 @@
       </category>
       <category name="Tagesteller 2">
         <meal>
-          <name>Cheese Burger</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
+          <name>Hühnergeschnetzeltes mit Wurzelgemüse</name>
           <note>Milch oder Laktose (G)</note>
-          <note>Senf (M)</note>
-          <note>Sesam (N)</note>
+          <note>Sellerie (L)</note>
           <note>Sulfite (O)</note>
         </meal>
         <meal>
-          <name>Pommes Frites</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
+          <name>Polentataler</name>
           <note>Milch oder Laktose (G)</note>
-          <note>Senf (M)</note>
-          <note>Sesam (N)</note>
+          <note>Sellerie (L)</note>
           <note>Sulfite (O)</note>
         </meal>
+      </category>
+      <category name="Fitmenü">
         <meal>
-          <name>Cocktailsauce</name>
+          <name>Sommer-Salatteller mit Topping Ihrer Wahl (auf Wunsch vegetarisch)</name>
           <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
+          <note>Fisch (D)</note>
+          <note>Soja (F)</note>
           <note>Milch oder Laktose (G)</note>
-          <note>Senf (M)</note>
+          <note>Schalenfrüchte (H)</note>
           <note>Sesam (N)</note>
           <note>Sulfite (O)</note>
         </meal>
       </category>
       <category name="Wochenspecial">
         <meal>
-          <name>Sodawasser Kassa</name>
+          <name>Chili con Carne (Faschiertes)</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
+          <note>Sellerie (L)</note>
+          <note>Senf (M)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+        <meal>
+          <name>Wachauer Laibchen •</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
+          <note>Sellerie (L)</note>
+          <note>Senf (M)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+      </category>
+      <category name="Sushi&amp;Maki">
+        <meal>
+          <name>Sushi Maki Box groß • 
+6 Lachs Sushi • 4 Maki</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Fisch (D)</note>
+          <note>Soja (F)</note>
+          <note>Senf (M)</note>
+        </meal>
+      </category>
+      <category name="Dessert 1">
+        <meal>
+          <name>Butterkeks Creme</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sulfite (O)</note>
         </meal>
       </category>
       <category name="Dessert 2">
         <meal>
-          <name>Dessertkuchen nach Wahl</name>
+          <name>Schoko Kokos Kuchen </name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Soja (F)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sulfite (O)</note>
         </meal>
       </category>
     </day>
-    <day date="2025-12-23">
+    <day date="2025-12-16">
+      <category name="Suppe">
+        <meal>
+          <name>Rindsuppe
+Leberknödel
+Schnittlauch</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+      </category>
       <category name="Suppe cremig">
         <meal>
-          <name>Kräutercremesuppe</name>
+          <name>Maronicremesuppe</name>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+      </category>
+      <category name="Tagesteller 1">
+        <meal>
+          <name>Ravioli mit Steinpilzfülle</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+        </meal>
+        <meal>
+          <name>frischer Parmesan</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+        </meal>
+      </category>
+      <category name="Tagesteller 2">
+        <meal>
+          <name>Hirschragout</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+        <meal>
+          <name>Rotkraut </name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+        <meal>
+          <name>Erdäpfelknödel</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+      </category>
+      <category name="Wochenspecial">
+        <meal>
+          <name>Gekochter Rindstafelspitz mit Rösti, Schnittlauchsauce und Apfelkren</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Soja (F)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+          <note>Senf (M)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+      </category>
+      <category name="Dessert 1">
+        <meal>
+          <name>Panna Cotta</name>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+      </category>
+      <category name="Dessert 2">
+        <meal>
+          <name>Apfel-Nuss-Kuchen
+</name>
+        </meal>
+      </category>
+    </day>
+    <day date="2025-12-17">
+      <category name="Suppe">
+        <meal>
+          <name>Klare Gemüsesuppe</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+        <meal>
+          <name>Suppennudeln</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+        <meal>
+          <name>und frischem Schnittlauch</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+      </category>
+      <category name="Suppe cremig">
+        <meal>
+          <name>Champignoncremesuppe</name>
           <note>Milch oder Laktose (G)</note>
           <note>Sellerie (L)</note>
         </meal>
         <meal>
-          <name>Sonnenblumenkerne</name>
+          <name>geröstete Speckwürfel</name>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+        <meal>
+          <name>mit frischer Petersilie</name>
           <note>Milch oder Laktose (G)</note>
           <note>Sellerie (L)</note>
         </meal>
       </category>
       <category name="Tagesteller 1">
         <meal>
-          <name>Hausgemachte Eiernockerl mit Schnittlauch</name>
+          <name>Nusspalatschinken mit Schokosauce</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
+          <note>Soja (F)</note>
           <note>Milch oder Laktose (G)</note>
+          <note>Schalenfrüchte (H)</note>
+        </meal>
+      </category>
+      <category name="Tagesteller 2">
+        <meal>
+          <name>Kebap Peram Komplett</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sesam (N)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+      </category>
+      <category name="Fitmenü">
+        <meal>
+          <name>Blattsalat • </name>
+          <note>Sesam (N)</note>
+        </meal>
+        <meal>
+          <name>Falafel HG 5 Stk.</name>
+          <note>Sesam (N)</note>
+        </meal>
+      </category>
+      <category name="Wochenspecial">
+        <meal>
+          <name>Chili con Carne (Faschiertes)</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
+          <note>Sellerie (L)</note>
+          <note>Senf (M)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+        <meal>
+          <name>Wachauer Laibchen •</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
+          <note>Sellerie (L)</note>
+          <note>Senf (M)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+      </category>
+      <category name="Sushi&amp;Maki">
+        <meal>
+          <name>Sushi Maki Box groß • 
+6 Lachs Sushi • 4 Maki</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Fisch (D)</note>
+          <note>Soja (F)</note>
+          <note>Senf (M)</note>
+        </meal>
+      </category>
+      <category name="Dessert 1">
+        <meal>
+          <name>Lebkuchen Mousse
+mit Gewürzbirne</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Soja (F)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Schalenfrüchte (H)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+      </category>
+      <category name="Dessert 2">
+        <meal>
+          <name>Menü-Cremeschnitte</name>
+        </meal>
+      </category>
+    </day>
+    <day date="2025-12-18">
+      <category name="Suppe">
+        <meal>
+          <name>Klare Krautsuppe
+mit Wurzelgemüse und Rollgerstel</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+      </category>
+      <category name="Suppe cremig">
+        <meal>
+          <name>Schwarzbrot Croutons</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+        <meal>
+          <name>Rotkrautsuppe</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+      </category>
+      <category name="Tagesteller 1">
+        <meal>
+          <name>Wiener Krautfleckerl
+
+Allergen A</name>
+          <note>Glutenhaltiges Getreide (A)</note>
         </meal>
         <meal>
           <name>Blattsalat</name>
           <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Milch oder Laktose (G)</note>
-        </meal>
-        <meal>
-          <name>Essig - Öl Marinade</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Milch oder Laktose (G)</note>
         </meal>
       </category>
       <category name="Tagesteller 2">
@@ -107,35 +370,131 @@
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
           <note>Fisch (D)</note>
-          <note>Soja (F)</note>
           <note>Milch oder Laktose (G)</note>
-          <note>Sellerie (L)</note>
           <note>Senf (M)</note>
         </meal>
         <meal>
-          <name>Erdäpfelsalat</name>
+          <name>Langkornreis</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
           <note>Fisch (D)</note>
-          <note>Soja (F)</note>
           <note>Milch oder Laktose (G)</note>
-          <note>Sellerie (L)</note>
           <note>Senf (M)</note>
         </meal>
         <meal>
-          <name>Sauce Tartare</name>
+          <name>Französischer Salat</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
           <note>Fisch (D)</note>
-          <note>Soja (F)</note>
           <note>Milch oder Laktose (G)</note>
-          <note>Sellerie (L)</note>
           <note>Senf (M)</note>
+        </meal>
+      </category>
+      <category name="Fitmenü">
+        <meal>
+          <name>Steirischer Rindfleischsalat mit Kernöl</name>
         </meal>
       </category>
       <category name="Wochenspecial">
         <meal>
-          <name>Sodawasser Kassa</name>
+          <name>Chili con Carne (Faschiertes)</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
+          <note>Sellerie (L)</note>
+          <note>Senf (M)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+        <meal>
+          <name>Wachauer Laibchen •</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
+          <note>Sellerie (L)</note>
+          <note>Senf (M)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+      </category>
+      <category name="Sushi&amp;Maki">
+        <meal>
+          <name>Sushi Maki Box groß • 
+6 Lachs Sushi • 4 Maki</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Fisch (D)</note>
+          <note>Soja (F)</note>
+          <note>Senf (M)</note>
+        </meal>
+      </category>
+      <category name="Dessert 1">
+        <meal>
+          <name>Edelkastanien Tiramisu im Glas</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Soja (F)</note>
+          <note>Milch oder Laktose (G)</note>
+        </meal>
+      </category>
+      <category name="Dessert 2">
+        <meal>
+          <name>Menü-Biskuitroulade</name>
+        </meal>
+      </category>
+    </day>
+    <day date="2025-12-19">
+      <category name="Suppe">
+        <meal>
+          <name>Klare Rindsuppe</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+          <note>Sesam (N)</note>
+        </meal>
+        <meal>
+          <name>Sesam Frittaten</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+          <note>Sesam (N)</note>
+        </meal>
+        <meal>
+          <name>und frischem Schnittlauch</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+          <note>Sesam (N)</note>
+        </meal>
+      </category>
+      <category name="Tagesteller 1">
+        <meal>
+          <name>Chili con Carne (Faschiertes)</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
+          <note>Sellerie (L)</note>
+          <note>Senf (M)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+        <meal>
+          <name>Wachauer Laibchen •</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
+          <note>Sellerie (L)</note>
+          <note>Senf (M)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+      </category>
+      <category name="Tagesteller 2">
+        <meal>
+          <name>Gebackenes Surschnitzel</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+        </meal>
+        <meal>
+          <name>Erbsenreis</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
         </meal>
       </category>
       <category name="Dessert 2">
@@ -144,76 +503,15 @@
         </meal>
       </category>
     </day>
-    <day date="2025-12-24">
-      <category name="Suppe">
+    <day date="2025-12-20">
+      <category name="Tagesteller 1">
         <meal>
-          <name>Sodawasser Kassa</name>
-        </meal>
-      </category>
-      <category name="Tagesteller 2">
-        <meal>
-          <name>Sodawasser Kassa</name>
-        </meal>
-      </category>
-      <category name="Wochenspecial">
-        <meal>
-          <name>Sodawasser Kassa</name>
-        </meal>
-      </category>
-      <category name="Dessert 2">
-        <meal>
-          <name>Sodawasser Kassa</name>
+          <name>Eierspeise mit Speck</name>
+          <note>Ei (C)</note>
         </meal>
       </category>
     </day>
-    <day date="2025-12-25">
-      <category name="Suppe">
-        <meal>
-          <name>Sodawasser Kassa</name>
-        </meal>
-      </category>
-      <category name="Tagesteller 2">
-        <meal>
-          <name>Sodawasser Kassa</name>
-        </meal>
-      </category>
-      <category name="Wochenspecial">
-        <meal>
-          <name>Sodawasser Kassa</name>
-        </meal>
-      </category>
-      <category name="Dessert 2">
-        <meal>
-          <name>Sodawasser Kassa</name>
-        </meal>
-      </category>
-    </day>
-    <day date="2025-12-26">
-      <category name="Suppe">
-        <meal>
-          <name>Sodawasser Kassa</name>
-        </meal>
-      </category>
-      <category name="Tagesteller 2">
-        <meal>
-          <name>Sodawasser Kassa</name>
-        </meal>
-      </category>
-      <category name="Wochenspecial">
-        <meal>
-          <name>Sodawasser Kassa</name>
-        </meal>
-      </category>
-      <category name="Dessert 2">
-        <meal>
-          <name>Sodawasser Kassa</name>
-        </meal>
-      </category>
-    </day>
-    <day date="2025-12-27">
-      <closed/>
-    </day>
-    <day date="2025-12-28">
+    <day date="2025-12-21">
       <closed/>
     </day>
   </canteen>
