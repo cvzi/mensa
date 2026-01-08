@@ -3,23 +3,32 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2026-01-07">
-      <category name="Fleischlos">
+    <day date="2026-01-08">
+      <category name="Vegan">
         <meal>
-          <name>Tortelloni "Tricolore" mit Tomatensoße</name>
-          <note>Eier</note>
+          <name>Frühlingsrolle mit Wokgemüse</name>
           <note>Knoblauch</note>
-          <note>Milch (einschließlich Lactose)</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
           <note>Weizen</note>
           <note>glutenhaltiges Getreide</note>
-          <price role="employee">4.70</price>
-          <price role="other">5.65</price>
-          <price role="student">3.35</price>
+          <price role="employee">5.50</price>
+          <price role="other">6.45</price>
+          <price role="student">4.10</price>
+        </meal>
+        <meal>
+          <name>mensaVital: Vollkornspaghetti mit Bolognese von roten Linsen</name>
+          <note>Sellerie</note>
+          <note>Weizen</note>
+          <note>glutenhaltiges Getreide</note>
+          <price role="employee">2.50</price>
+          <price role="other">4.60</price>
+          <price role="student">2.35</price>
         </meal>
       </category>
       <category name="Gefluegel">
         <meal>
-          <name>Hähnchenpiccata an Tomatenragout</name>
+          <name>Hähnchenpiccata mit Tomatensoße</name>
           <note>Geflügel</note>
           <note>Knoblauch</note>
           <note>Milch (einschließlich Lactose)</note>
@@ -31,40 +40,6 @@
           <price role="student">3.80</price>
         </meal>
       </category>
-      <category name="Vegan">
-        <meal>
-          <name>Frühlingsrolle mit Wokgemüse</name>
-          <note>Knoblauch</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <price role="employee">5.20</price>
-          <price role="other">6.15</price>
-          <price role="student">3.80</price>
-        </meal>
-      </category>
-      <category name="Schwein">
-        <meal>
-          <name>Fleischbällchen mit Rahmsoße</name>
-          <note>Alkohol</note>
-          <note>Eier</note>
-          <note>Gerste</note>
-          <note>Knoblauch</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Rind/Kalb</note>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>Schwein</note>
-          <note>Weizen</note>
-          <note>geschwefelt</note>
-          <note>glutenhaltiges Getreide</note>
-          <price role="employee">4.70</price>
-          <price role="other">5.65</price>
-          <price role="student">3.35</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2026-01-08">
       <category name="Fleischlos">
         <meal>
           <name>Germknödel mit Sauerkirschfüllung &amp; Vanillesoße</name>
@@ -92,12 +67,36 @@
           <price role="student">3.10</price>
         </meal>
       </category>
-      <category name="Gefluegel">
+      <category name="Rind">
         <meal>
-          <name>Hähnchenbrustfilet mit Mango - Chilisoße</name>
-          <note>Geflügel</note>
-          <note>konserviert</note>
-          <note>mit Antioxidationsmittel</note>
+          <name>Cevapcici vom Rind mit Ajvar</name>
+          <note>Eier</note>
+          <note>Milch (einschließlich Lactose)</note>
+          <note>Rind/Kalb</note>
+          <note>Senf</note>
+          <note>Weizen</note>
+          <note>glutenhaltiges Getreide</note>
+          <price role="employee">5.20</price>
+          <price role="other">6.15</price>
+          <price role="student">3.80</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-01-09">
+      <category name="Fisch">
+        <meal>
+          <name>Gebackenes Schollenfilet mit hausgemachtem Kräuterdip</name>
+          <note>Eier</note>
+          <note>Fisch</note>
+          <note>Fische</note>
+          <note>Gerste</note>
+          <note>Milch (einschließlich Lactose)</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <note>Weizen</note>
+          <note>glutenhaltiges Getreide</note>
+          <note>mit Farbstoff</note>
+          <note>mit Süßungsmittel</note>
           <price role="employee">5.20</price>
           <price role="other">6.15</price>
           <price role="student">3.80</price>
@@ -105,26 +104,13 @@
       </category>
       <category name="Vegan">
         <meal>
-          <name>mensaVital: Vollkornspaghetti mit Bolognese von roten Linsen</name>
-          <note>Milch (einschließlich Lactose)</note>
+          <name>Vegane Tortelloni mit Gemüsefüllung und Kürbiscreme Soße</name>
+          <note>Gerste</note>
+          <note>Hafer</note>
           <note>Sellerie</note>
           <note>Weizen</note>
           <note>glutenhaltiges Getreide</note>
-          <note>konserviert</note>
-          <price role="employee">2.50</price>
-          <price role="other">4.60</price>
-          <price role="student">2.35</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2026-01-09">
-      <category name="Vegan">
-        <meal>
-          <name>Vegane Tortelloni mit Gemüsefüllung mit veganer Mango - Chilisoße</name>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>konserviert</note>
-          <note>mit Antioxidationsmittel</note>
+          <note>mit Farbstoff</note>
           <price role="employee">5.20</price>
           <price role="other">6.15</price>
           <price role="student">3.80</price>
@@ -141,75 +127,19 @@
       </category>
       <category name="Rind">
         <meal>
-          <name>Fleischbällchen mit Rahmsoße</name>
+          <name>Rinderhacksteak an Rahmsoße</name>
           <note>Alkohol</note>
           <note>Eier</note>
           <note>Gerste</note>
-          <note>Knoblauch</note>
           <note>Milch (einschließlich Lactose)</note>
           <note>Rind/Kalb</note>
           <note>Schwefeldioxid und Sulfite</note>
-          <note>Schwein</note>
-          <note>Weizen</note>
-          <note>geschwefelt</note>
-          <note>glutenhaltiges Getreide</note>
-          <price role="employee">5.00</price>
-          <price role="other">5.95</price>
-          <price role="student">3.65</price>
-        </meal>
-        <meal>
-          <name>Rinderhacksteak an Pfefferrahmsoße</name>
-          <note>Alkohol</note>
-          <note>Eier</note>
-          <note>Gerste</note>
-          <note>Knoblauch</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Rind/Kalb</note>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>Weizen</note>
-          <note>geschwefelt</note>
-          <note>glutenhaltiges Getreide</note>
-          <price role="employee">4.15</price>
-          <price role="other">5.10</price>
-          <price role="student">2.80</price>
-        </meal>
-      </category>
-      <category name="Fisch">
-        <meal>
-          <name>Gebackenes Schollenfilet</name>
-          <note>Fisch</note>
-          <note>Fische</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <price role="employee">4.15</price>
-          <price role="other">5.10</price>
-          <price role="student">2.80</price>
-        </meal>
-      </category>
-      <category name="Fleischlos">
-        <meal>
-          <name>Gebackene Kartoffeltaschen "Kräuterfrischkäse" mit Kaiserrahmgemüse</name>
-          <note>Gerste</note>
-          <note>Milch (einschließlich Lactose)</note>
           <note>Sellerie</note>
           <note>Weizen</note>
           <note>glutenhaltiges Getreide</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">4.15</price>
-          <price role="other">5.10</price>
-          <price role="student">2.80</price>
-        </meal>
-        <meal>
-          <name>Cannelloni Ricotta "al forno"</name>
-          <note>Knoblauch</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Sellerie</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">5.20</price>
-          <price role="other">6.15</price>
-          <price role="student">3.80</price>
+          <price role="employee">4.70</price>
+          <price role="other">5.65</price>
+          <price role="student">3.35</price>
         </meal>
       </category>
     </day>
@@ -273,6 +203,20 @@
           <price role="student">3.10</price>
         </meal>
       </category>
+      <category name="Fleischlos">
+        <meal>
+          <name>Gebackene Kartoffeltaschen "Kräuterfrischkäse" mit Kaiserrahmgemüse</name>
+          <note>Gerste</note>
+          <note>Milch (einschließlich Lactose)</note>
+          <note>Sellerie</note>
+          <note>Weizen</note>
+          <note>glutenhaltiges Getreide</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">4.15</price>
+          <price role="other">5.10</price>
+          <price role="student">2.80</price>
+        </meal>
+      </category>
     </day>
     <day date="2026-01-13">
       <category name="Vegan">
@@ -286,16 +230,6 @@
           <price role="employee">4.15</price>
           <price role="other">5.10</price>
           <price role="student">2.80</price>
-        </meal>
-        <meal>
-          <name>mensaVital: Chili sin Carne mit Kräuterreis</name>
-          <note>Knoblauch</note>
-          <note>Soja</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <price role="employee">2.50</price>
-          <price role="other">4.60</price>
-          <price role="student">2.35</price>
         </meal>
       </category>
       <category name="Schwein">
@@ -331,6 +265,16 @@
           <price role="employee">5.20</price>
           <price role="other">6.15</price>
           <price role="student">3.80</price>
+        </meal>
+      </category>
+      <category name="Fleischlos">
+        <meal>
+          <name>Dampfkartoffeln mit hausgemachtem Kräuterquark</name>
+          <note>Knoblauch</note>
+          <note>Milch (einschließlich Lactose)</note>
+          <price role="employee">2.80</price>
+          <price role="other">4.85</price>
+          <price role="student">2.60</price>
         </meal>
       </category>
     </day>
@@ -522,16 +466,6 @@
           <price role="employee">4.70</price>
           <price role="other">5.65</price>
           <price role="student">3.35</price>
-        </meal>
-      </category>
-      <category name="Fleischlos">
-        <meal>
-          <name>Dampfkartoffeln mit hausgemachtem Kräuterquark</name>
-          <note>Knoblauch</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <price role="employee">2.80</price>
-          <price role="other">4.85</price>
-          <price role="student">2.60</price>
         </meal>
       </category>
     </day>
