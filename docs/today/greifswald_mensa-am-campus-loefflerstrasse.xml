@@ -3,7 +3,7 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2026-01-21">
+    <day date="2026-01-22">
       <category name="Tellergericht">
         <meal>
           <name>Brötchen</name>
@@ -39,6 +39,16 @@
           <price role="student">1.50</price>
         </meal>
         <meal>
+          <name>Apfelstrudel mit Puderzucker  
+ dazu eine Soße mit Vanillegeschmack</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <price role="employee">3.45</price>
+          <price role="other">5.10</price>
+          <price role="student">1.80</price>
+        </meal>
+        <meal>
           <name>Terrine: Kartoffel-Kürbis-Creme-Suppe [vegan]</name>
           <note>Glutenhaltiges Getreide</note>
           <note>geschwefelt</note>
@@ -48,7 +58,47 @@
           <price role="student">2.20</price>
         </meal>
       </category>
+      <category name="Komponente 1">
+        <meal>
+          <name>1 Gebratenes Schollenfilet  
+ mit Remouladensauce</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <note>Fische und daraus hergestellte Erzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
+          <note>mit Farbstoff</note>
+          <note>mit Süßungsmittel</note>
+          <price role="employee">3.35</price>
+          <price role="other">4.45</price>
+          <price role="student">2.25</price>
+        </meal>
+        <meal>
+          <name>1 Seelachsfilet in Eihülle  
+ mit Dill-Sojasauce</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <note>Fische und daraus hergestellte Erzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
+          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
+          <note>jodiertes Salz</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">3.35</price>
+          <price role="other">4.45</price>
+          <price role="student">2.25</price>
+        </meal>
+      </category>
       <category name="Komponente 2">
+        <meal>
+          <name>Schweinegeschnetzeltes</name>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <note>Rindfleisch</note>
+          <note>Schweinefleisch</note>
+          <note>jodiertes Salz</note>
+          <price role="employee">3.35</price>
+          <price role="other">4.45</price>
+          <price role="student">2.25</price>
+        </meal>
         <meal>
           <name>1 Hirtenrolle mit Frischkäsefüllung  
  mit Bratensauce</name>
@@ -64,24 +114,17 @@
           <price role="student">2.25</price>
         </meal>
       </category>
-      <category name="Komponente 4">
-        <meal>
-          <name>1 Putensteak überbacken (Gefl,G,A) 
- mit Curry-Zwiebel-Mango Sauce</name>
-          <note>Milch/Milchzucker (Laktose)</note>
-          <price role="employee">3.60</price>
-          <price role="other">4.70</price>
-          <price role="student">2.50</price>
-        </meal>
-      </category>
       <category name="Veganes Essen">
         <meal>
-          <name>Kichererbsen-Gemüse-Curry  
- mit Reis</name>
+          <name>Sonnenblumen-Bolognese [regional, aus ökologischem Anbau]  
+ mit Nudeln</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
           <note>jodiertes Salz</note>
-          <price role="employee">4.15</price>
-          <price role="other">5.75</price>
-          <price role="student">2.55</price>
+          <price role="employee">4.65</price>
+          <price role="other">6.25</price>
+          <price role="student">3.05</price>
         </meal>
       </category>
       <category name="Nudeltheke (Preis pro 100g) Bitte extra Pasta-Teller verwenden">
@@ -111,8 +154,7 @@
           <price role="student">0.80</price>
         </meal>
         <meal>
-          <name>Twister [gedrehte Kartoffelspiralen]</name>
-          <note>Glutenhaltiges Getreide</note>
+          <name>Pommes Frites</name>
           <price role="employee">1.60</price>
           <price role="other">2.10</price>
           <price role="student">1.10</price>
@@ -120,10 +162,10 @@
       </category>
       <category name="Gemüse">
         <meal>
-          <name>Erbsengemüse</name>
-          <price role="employee">1.30</price>
-          <price role="other">1.80</price>
-          <price role="student">0.80</price>
+          <name>Europagemüse   (gelbe und orange Karottenscheiben, Romanobohnen, Brokkoliröschen)</name>
+          <price role="employee">1.50</price>
+          <price role="other">2.00</price>
+          <price role="student">1.00</price>
         </meal>
       </category>
       <category name="Salate und Desserts">
