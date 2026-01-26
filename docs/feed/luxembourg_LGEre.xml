@@ -3,15 +3,15 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2026-01-12">
+    <day date="2026-01-26">
       <category name="Entrée (12:30 - 15:00)">
         <meal>
-          <name>Carré de quiche aux oignons et fromage Emmental</name>
+          <name>Bricks aux lentilles et feta mariné</name>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
         <meal>
-          <name>Soupe aux petits pois</name>
+          <name>Potage au potiron</name>
           <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
@@ -19,7 +19,7 @@
       </category>
       <category name="Végétarien (12:30 - 15:00)">
         <meal>
-          <name>Accras végétales, sauce salsa</name>
+          <name>Tajine de pois chiches et butternut</name>
           <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
@@ -27,7 +27,7 @@
       </category>
       <category name="Végan (12:30 - 15:00)">
         <meal>
-          <name>Accras végétales, sauce salsa</name>
+          <name>Tajine de pois chiches et butternut</name>
           <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végan</note>
@@ -35,13 +35,16 @@
       </category>
       <category name="Non-végétarien (12:30 - 15:00)">
         <meal>
-          <name>Biryani de boeuf</name>
+          <name>Faux-filet de boeuf grillé sauce Béarnaise</name>
           <note>Produit sans gluten</note>
           <note>non-végétarien</note>
           <note>produit constant</note>
         </meal>
         <meal>
-          <name>Rumsteak grillé, sauce au poivre</name>
+          <name>Saucisse paysanne, sauce à la moutarde</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Moutarde et produits à base de moutarde</note>
           <note>Produit sans gluten</note>
           <note>non-végétarien</note>
           <note>produit constant</note>
@@ -49,14 +52,17 @@
       </category>
       <category name="Féculents (12:30 - 15:00)">
         <meal>
-          <name>Pommes au four, crème aigre à la ciboulette</name>
+          <name>Purée de pommes de terre au beurre et à la ciboulette</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Légumes (12:30 - 15:00)">
         <meal>
-          <name>Haricots verts à l'ail et au persil</name>
+          <name>Petits pois aux oignons et persil</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
@@ -64,8 +70,7 @@
       </category>
       <category name="Dessert (12:30 - 15:00)">
         <meal>
-          <name>Riz au lait, crème de coco et compote de pommes</name>
-          <note>Produit sans gluten</note>
+          <name>Yaourt grec, pommes au four</name>
           <note>Produit sans sucre</note>
           <note>produit constant</note>
           <note>végétarien</note>
@@ -73,20 +78,22 @@
       </category>
       <category name="Snack à emporter (12:30 - 15:00)">
         <meal>
-          <name>Buddha bowl</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <name>Buddha bowl végétarien</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
           <note>Oeufs et produits à base d‘oeufs</note>
           <note>Soja et produits à base de soja</note>
-          <note>non-végétarien</note>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Salade de lentilles, feta, concombres et tomates</name>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Moutarde et produits à base de moutarde</note>
           <note>produit constant</note>
           <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Salade de pommes de terre et saucisse viennoise</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Moutarde et produits à base de moutarde</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Produit sans gluten</note>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
         </meal>
       </category>
       <category name="01.1 Sandwiches végétariens (12:30 - 15:00)">
@@ -678,65 +685,61 @@
       </category>
       <category name="Entrée (11:00 - 12:29)">
         <meal>
-          <name>Carré de quiche aux oignons et fromage Emmental</name>
+          <name>Bricks aux lentilles et feta mariné</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
         <meal>
-          <name>Soupe aux petits pois</name>
+          <name>Potage au potiron</name>
           <note>Céleri et produits à base de céleri</note>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
           <note>Soja et produits à base de soja</note>
-          <note>biologique</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Végétarien (11:00 - 12:29)">
         <meal>
-          <name>Accras végétales, sauce salsa</name>
+          <name>Tajine de pois chiches et butternut</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
           <note>Céleri et produits à base de céleri</note>
           <note>Produit sans gluten</note>
           <note>Soja et produits à base de soja</note>
-          <note>biologique</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Végan (11:00 - 12:29)">
         <meal>
-          <name>Accras végétales, sauce salsa</name>
+          <name>Tajine de pois chiches et butternut</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
           <note>Céleri et produits à base de céleri</note>
           <note>Produit sans gluten</note>
           <note>Soja et produits à base de soja</note>
-          <note>biologique</note>
           <note>produit constant</note>
           <note>végan</note>
         </meal>
       </category>
       <category name="Non-végétarien (11:00 - 12:29)">
         <meal>
-          <name>Biryani de boeuf</name>
+          <name>Faux-filet de boeuf grillé sauce Béarnaise</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Moutarde et produits à base de moutarde</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
           <note>Produit du Luxembourg</note>
           <note>Produit sans gluten</note>
-          <note>biologique</note>
           <note>non-végétarien</note>
           <note>produit constant</note>
         </meal>
         <meal>
-          <name>Rumsteak grillé, sauce au poivre</name>
+          <name>Saucisse paysanne, sauce à la moutarde</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Produit du Luxembourg</note>
+          <note>Moutarde et produits à base de moutarde</note>
           <note>Produit sans gluten</note>
           <note>non-végétarien</note>
           <note>produit constant</note>
@@ -744,8 +747,10 @@
       </category>
       <category name="Féculents (11:00 - 12:29)">
         <meal>
-          <name>Pommes au four, crème aigre à la ciboulette</name>
+          <name>Purée de pommes de terre au beurre et à la ciboulette</name>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Produit du Luxembourg</note>
+          <note>Produit sans gluten</note>
           <note>biologique</note>
           <note>produit constant</note>
           <note>végétarien</note>
@@ -753,8 +758,7 @@
       </category>
       <category name="Légumes (11:00 - 12:29)">
         <meal>
-          <name>Haricots verts à l'ail et au persil</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <name>Petits pois aux oignons et persil</name>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
           <note>biologique</note>
@@ -764,32 +768,32 @@
       </category>
       <category name="Dessert (11:00 - 12:29)">
         <meal>
-          <name>Riz au lait, crème de coco et compote de pommes</name>
+          <name>Yaourt grec, pommes au four</name>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Produit Fairtrade</note>
-          <note>Produit sans gluten</note>
+          <note>Produit du Luxembourg</note>
           <note>Produit sans sucre</note>
-          <note>biologique</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Snack à emporter (11:00 - 12:29)">
         <meal>
-          <name>Buddha bowl</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <name>Buddha bowl végétarien</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
           <note>Oeufs et produits à base d‘oeufs</note>
           <note>Soja et produits à base de soja</note>
-          <note>non-végétarien</note>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Salade de lentilles, feta, concombres et tomates</name>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Moutarde et produits à base de moutarde</note>
           <note>produit constant</note>
           <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Salade de pommes de terre et saucisse viennoise</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Moutarde et produits à base de moutarde</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Produit sans gluten</note>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
         </meal>
       </category>
       <category name="01.1 Sandwiches végétariens (11:00 - 12:29)">
@@ -1380,10 +1384,10 @@
         </meal>
       </category>
     </day>
-    <day date="2026-01-13">
+    <day date="2026-01-27">
       <category name="Entrée (12:30 - 15:00)">
         <meal>
-          <name>Potage aux haricots verts</name>
+          <name>Soupe aux petits pois</name>
           <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
@@ -1391,7 +1395,7 @@
       </category>
       <category name="Végétarien (12:30 - 15:00)">
         <meal>
-          <name>Curry de potiron et pois chiches</name>
+          <name>Chili sin carne</name>
           <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
@@ -1399,7 +1403,7 @@
       </category>
       <category name="Végan (12:30 - 15:00)">
         <meal>
-          <name>Curry de potiron et pois chiches</name>
+          <name>Chili sin carne</name>
           <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végan</note>
@@ -1407,13 +1411,17 @@
       </category>
       <category name="Non-végétarien (12:30 - 15:00)">
         <meal>
-          <name>Rumsteak grillé, sauce au poivre</name>
+          <name>Emincé de boeuf aux échalotes</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Produit du Luxembourg</note>
           <note>Produit sans gluten</note>
           <note>non-végétarien</note>
           <note>produit constant</note>
         </meal>
         <meal>
-          <name>Spaghetti bolognaise</name>
+          <name>Faux-filet de boeuf grillé sauce Béarnaise</name>
+          <note>Produit sans gluten</note>
           <note>non-végétarien</note>
           <note>produit constant</note>
         </meal>
@@ -1425,15 +1433,19 @@
           <note>végétarien</note>
         </meal>
         <meal>
-          <name>Riz pilaf</name>
+          <name>Quinoa au jus épicé</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Céleri et produits à base de céleri</note>
           <note>Produit sans gluten</note>
+          <note>Soja et produits à base de soja</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Légumes (12:30 - 15:00)">
         <meal>
-          <name>Brocolis aux oignons</name>
+          <name>Chou fleur à la crème et au persil</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
@@ -1441,27 +1453,29 @@
       </category>
       <category name="Dessert (12:30 - 15:00)">
         <meal>
-          <name>Cheesecake au Spéculoos</name>
+          <name>Chou, crème pâtissière, chantilly</name>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Snack à emporter (12:30 - 15:00)">
         <meal>
-          <name>Buddha bowl</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <name>Buddha bowl végétarien</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
           <note>Oeufs et produits à base d‘oeufs</note>
           <note>Soja et produits à base de soja</note>
-          <note>non-végétarien</note>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Salade de lentilles, feta, concombres et tomates</name>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Moutarde et produits à base de moutarde</note>
           <note>produit constant</note>
           <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Salade de pommes de terre et saucisse viennoise</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Moutarde et produits à base de moutarde</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Produit sans gluten</note>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
         </meal>
       </category>
       <category name="01.1 Sandwiches végétariens (12:30 - 15:00)">
@@ -2053,9 +2067,10 @@
       </category>
       <category name="Entrée (11:00 - 12:29)">
         <meal>
-          <name>Potage aux haricots verts</name>
+          <name>Soupe aux petits pois</name>
           <note>Céleri et produits à base de céleri</note>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Produit du Benelux</note>
           <note>Produit sans gluten</note>
           <note>Soja et produits à base de soja</note>
           <note>biologique</note>
@@ -2065,10 +2080,9 @@
       </category>
       <category name="Végétarien (11:00 - 12:29)">
         <meal>
-          <name>Curry de potiron et pois chiches</name>
+          <name>Chili sin carne</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
           <note>Céleri et produits à base de céleri</note>
-          <note>Moutarde et produits à base de moutarde</note>
           <note>Produit sans gluten</note>
           <note>Soja et produits à base de soja</note>
           <note>produit constant</note>
@@ -2077,10 +2091,9 @@
       </category>
       <category name="Végan (11:00 - 12:29)">
         <meal>
-          <name>Curry de potiron et pois chiches</name>
+          <name>Chili sin carne</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
           <note>Céleri et produits à base de céleri</note>
-          <note>Moutarde et produits à base de moutarde</note>
           <note>Produit sans gluten</note>
           <note>Soja et produits à base de soja</note>
           <note>produit constant</note>
@@ -2089,7 +2102,7 @@
       </category>
       <category name="Non-végétarien (11:00 - 12:29)">
         <meal>
-          <name>Rumsteak grillé, sauce au poivre</name>
+          <name>Emincé de boeuf aux échalotes</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit du Luxembourg</note>
@@ -2098,13 +2111,12 @@
           <note>produit constant</note>
         </meal>
         <meal>
-          <name>Spaghetti bolognaise</name>
+          <name>Faux-filet de boeuf grillé sauce Béarnaise</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
-          <note>Céleri et produits à base de céleri</note>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
           <note>Produit du Luxembourg</note>
-          <note>Soja et produits à base de soja</note>
-          <note>biologique</note>
+          <note>Produit sans gluten</note>
           <note>non-végétarien</note>
           <note>produit constant</note>
         </meal>
@@ -2116,13 +2128,18 @@
           <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Oeufs et produits à base d‘oeufs</note>
           <note>Produit du Luxembourg</note>
+          <note>biologique</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
         <meal>
-          <name>Riz pilaf</name>
+          <name>Quinoa au jus épicé</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Céleri et produits à base de céleri</note>
           <note>Produit Fairtrade</note>
+          <note>Produit du Luxembourg</note>
           <note>Produit sans gluten</note>
+          <note>Soja et produits à base de soja</note>
           <note>biologique</note>
           <note>produit constant</note>
           <note>végétarien</note>
@@ -2130,11 +2147,9 @@
       </category>
       <category name="Légumes (11:00 - 12:29)">
         <meal>
-          <name>Brocolis aux oignons</name>
-          <note>Céleri et produits à base de céleri</note>
+          <name>Chou fleur à la crème et au persil</name>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
-          <note>Soja et produits à base de soja</note>
           <note>biologique</note>
           <note>produit constant</note>
           <note>végétarien</note>
@@ -2142,32 +2157,32 @@
       </category>
       <category name="Dessert (11:00 - 12:29)">
         <meal>
-          <name>Cheesecake au Spéculoos</name>
+          <name>Chou, crème pâtissière, chantilly</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Oeufs et produits à base d‘oeufs</note>
-          <note>Produit du Luxembourg</note>
-          <note>Soja et produits à base de soja</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Snack à emporter (11:00 - 12:29)">
         <meal>
-          <name>Buddha bowl</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <name>Buddha bowl végétarien</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
           <note>Oeufs et produits à base d‘oeufs</note>
           <note>Soja et produits à base de soja</note>
-          <note>non-végétarien</note>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Salade de lentilles, feta, concombres et tomates</name>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Moutarde et produits à base de moutarde</note>
           <note>produit constant</note>
           <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Salade de pommes de terre et saucisse viennoise</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Moutarde et produits à base de moutarde</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Produit sans gluten</note>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
         </meal>
       </category>
       <category name="01.1 Sandwiches végétariens (11:00 - 12:29)">
@@ -2758,51 +2773,57 @@
         </meal>
       </category>
     </day>
-    <day date="2026-01-14">
+    <day date="2026-01-28">
       <category name="Entrée (12:30 - 15:00)">
         <meal>
-          <name>Crème de brocolis</name>
+          <name>Crème de chou-fleur au curry</name>
           <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
         <meal>
-          <name>Nuggets de quorn, sauce chili</name>
+          <name>Falafel, dip au tahini</name>
+          <note>Produit sans gluten</note>
           <note>produit constant</note>
-          <note>végétarien</note>
+          <note>végan</note>
         </meal>
       </category>
       <category name="Végétarien (12:30 - 15:00)">
         <meal>
-          <name>Gnocchi aglio, olio, peperoncino et oignons rouges</name>
+          <name>Tarte flambée aux champignons et oignons fanes</name>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Végan (12:30 - 15:00)">
         <meal>
-          <name>Gnocchi aglio, olio, peperoncino et oignons rouges</name>
+          <name>Boulettes véganes, sauce tomate</name>
+          <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végan</note>
         </meal>
       </category>
       <category name="Non-végétarien (12:30 - 15:00)">
         <meal>
-          <name>Assiette de Gyros de boeuf</name>
+          <name>Faux-filet de boeuf grillé sauce Béarnaise</name>
           <note>Produit sans gluten</note>
           <note>non-végétarien</note>
           <note>produit constant</note>
         </meal>
         <meal>
-          <name>Rumsteak grillé, sauce au poivre</name>
-          <note>Produit sans gluten</note>
+          <name>Poulet à la Kiev</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Produit du Luxembourg</note>
           <note>non-végétarien</note>
           <note>produit constant</note>
         </meal>
       </category>
       <category name="Féculents (12:30 - 15:00)">
         <meal>
-          <name>Pommes de terre rôties</name>
+          <name>Pommes de terre grenailles rôties</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
@@ -2810,13 +2831,9 @@
       </category>
       <category name="Légumes (12:30 - 15:00)">
         <meal>
-          <name>Légumes Gyros</name>
-          <note>Produit sans gluten</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-        <meal>
-          <name>Tomate au four</name>
+          <name>Dés de céleri rave à l'ail</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Céleri et produits à base de céleri</note>
           <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
@@ -2824,27 +2841,30 @@
       </category>
       <category name="Dessert (12:30 - 15:00)">
         <meal>
-          <name>Paris - Brest</name>
+          <name>Cookie coco, crème coco</name>
+          <note>Produit sans sucre</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Snack à emporter (12:30 - 15:00)">
         <meal>
-          <name>Buddha bowl</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <name>Buddha bowl végétarien</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
           <note>Oeufs et produits à base d‘oeufs</note>
           <note>Soja et produits à base de soja</note>
-          <note>non-végétarien</note>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Salade de lentilles, feta, concombres et tomates</name>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Moutarde et produits à base de moutarde</note>
           <note>produit constant</note>
           <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Salade de pommes de terre et saucisse viennoise</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Moutarde et produits à base de moutarde</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Produit sans gluten</note>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
         </meal>
       </category>
       <category name="01.1 Sandwiches végétariens (12:30 - 15:00)">
@@ -3436,9 +3456,10 @@
       </category>
       <category name="Entrée (11:00 - 12:29)">
         <meal>
-          <name>Crème de brocolis</name>
+          <name>Crème de chou-fleur au curry</name>
           <note>Céleri et produits à base de céleri</note>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Moutarde et produits à base de moutarde</note>
           <note>Produit sans gluten</note>
           <note>Soja et produits à base de soja</note>
           <note>biologique</note>
@@ -3446,60 +3467,60 @@
           <note>végétarien</note>
         </meal>
         <meal>
-          <name>Nuggets de quorn, sauce chili</name>
+          <name>Falafel, dip au tahini</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
-          <note>Céleri et produits à base de céleri</note>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
-          <note>Moutarde et produits à base de moutarde</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
-          <note>Soja et produits à base de soja</note>
-          <note>biologique</note>
+          <note>Graines de sésame et produits à base de graines de sésame</note>
+          <note>Produit sans gluten</note>
           <note>produit constant</note>
-          <note>végétarien</note>
+          <note>végan</note>
         </meal>
       </category>
       <category name="Végétarien (11:00 - 12:29)">
         <meal>
-          <name>Gnocchi aglio, olio, peperoncino et oignons rouges</name>
+          <name>Tarte flambée aux champignons et oignons fanes</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Végan (11:00 - 12:29)">
         <meal>
-          <name>Gnocchi aglio, olio, peperoncino et oignons rouges</name>
+          <name>Boulettes véganes, sauce tomate</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Avoine)</note>
           <note>produit constant</note>
           <note>végan</note>
         </meal>
       </category>
       <category name="Non-végétarien (11:00 - 12:29)">
         <meal>
-          <name>Assiette de Gyros de boeuf</name>
+          <name>Faux-filet de boeuf grillé sauce Béarnaise</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
           <note>Produit du Luxembourg</note>
           <note>Produit sans gluten</note>
           <note>non-végétarien</note>
           <note>produit constant</note>
         </meal>
         <meal>
-          <name>Rumsteak grillé, sauce au poivre</name>
+          <name>Poulet à la Kiev</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
           <note>Produit du Luxembourg</note>
-          <note>Produit sans gluten</note>
           <note>non-végétarien</note>
           <note>produit constant</note>
         </meal>
       </category>
       <category name="Féculents (11:00 - 12:29)">
         <meal>
-          <name>Pommes de terre rôties</name>
+          <name>Pommes de terre grenailles rôties</name>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Produit du Luxembourg</note>
           <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
@@ -3507,14 +3528,9 @@
       </category>
       <category name="Légumes (11:00 - 12:29)">
         <meal>
-          <name>Légumes Gyros</name>
-          <note>Produit sans gluten</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-        <meal>
-          <name>Tomate au four</name>
+          <name>Dés de céleri rave à l'ail</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Céleri et produits à base de céleri</note>
           <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
@@ -3522,31 +3538,34 @@
       </category>
       <category name="Dessert (11:00 - 12:29)">
         <meal>
-          <name>Paris - Brest</name>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
-          <note>Fruits à coque et produits à base de ces fruits (Noisettes)</note>
+          <name>Cookie coco, crème coco</name>
+          <note>Avoine)</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé</note>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Produit sans sucre</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Snack à emporter (11:00 - 12:29)">
         <meal>
-          <name>Buddha bowl</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <name>Buddha bowl végétarien</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
           <note>Oeufs et produits à base d‘oeufs</note>
           <note>Soja et produits à base de soja</note>
-          <note>non-végétarien</note>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Salade de lentilles, feta, concombres et tomates</name>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Moutarde et produits à base de moutarde</note>
           <note>produit constant</note>
           <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Salade de pommes de terre et saucisse viennoise</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Moutarde et produits à base de moutarde</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Produit sans gluten</note>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
         </meal>
       </category>
       <category name="01.1 Sandwiches végétariens (11:00 - 12:29)">
@@ -4137,38 +4156,42 @@
         </meal>
       </category>
     </day>
-    <day date="2026-01-15">
+    <day date="2026-01-29">
       <category name="Entrée (12:30 - 15:00)">
         <meal>
-          <name>Bouillon de légumes</name>
+          <name>Soupe de céleri</name>
           <note>Produit sans gluten</note>
           <note>produit constant</note>
-          <note>végan</note>
+          <note>végétarien</note>
         </meal>
       </category>
       <category name="Végétarien (12:30 - 15:00)">
         <meal>
-          <name>Samossas aux lentilles et carottes, chutney de tomates</name>
+          <name>Lasagne au quorn</name>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Végan (12:30 - 15:00)">
         <meal>
-          <name>Samossas aux lentilles et carottes, chutney de tomates</name>
+          <name>Quenelles de farine véganes au tofu fumé, sauce crème champignons</name>
           <note>produit constant</note>
           <note>végan</note>
         </meal>
       </category>
       <category name="Non-végétarien (12:30 - 15:00)">
         <meal>
-          <name>Porchetta au four, fond réduit</name>
+          <name>Boeuf sauté, marinade à la sauce Tamari et oignons fanes</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Mollusques et produits à base de mollusques</note>
+          <note>Poissons et produits à base de poissons</note>
           <note>Produit sans gluten</note>
+          <note>Soja et produits à base de soja</note>
           <note>non-végétarien</note>
           <note>produit constant</note>
         </meal>
         <meal>
-          <name>Rumsteak grillé, sauce au poivre</name>
+          <name>Faux-filet de boeuf grillé sauce Béarnaise</name>
           <note>Produit sans gluten</note>
           <note>non-végétarien</note>
           <note>produit constant</note>
@@ -4176,7 +4199,8 @@
       </category>
       <category name="Féculents (12:30 - 15:00)">
         <meal>
-          <name>Ecrasé de pommes de terre</name>
+          <name>Riz basmati</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
@@ -4184,35 +4208,39 @@
       </category>
       <category name="Légumes (12:30 - 15:00)">
         <meal>
-          <name>Choux-fleurs persillade</name>
+          <name>Haricots mungo aux oignons</name>
+          <note>Produit sans gluten</note>
+          <note>Soja et produits à base de soja</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Dessert (12:30 - 15:00)">
         <meal>
-          <name>Yaourt grec aux poires sautées</name>
-          <note>Produit sans sucre</note>
+          <name>Panna cotta au chocolat</name>
+          <note>Produit Fairtrade</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Snack à emporter (12:30 - 15:00)">
         <meal>
-          <name>Buddha bowl</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <name>Buddha bowl végétarien</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
           <note>Oeufs et produits à base d‘oeufs</note>
           <note>Soja et produits à base de soja</note>
-          <note>non-végétarien</note>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Salade de lentilles, feta, concombres et tomates</name>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Moutarde et produits à base de moutarde</note>
           <note>produit constant</note>
           <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Salade de pommes de terre et saucisse viennoise</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Moutarde et produits à base de moutarde</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Produit sans gluten</note>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
         </meal>
       </category>
       <category name="01.1 Sandwiches végétariens (12:30 - 15:00)">
@@ -4804,51 +4832,55 @@
       </category>
       <category name="Entrée (11:00 - 12:29)">
         <meal>
-          <name>Bouillon de légumes</name>
+          <name>Soupe de céleri</name>
           <note>Céleri et produits à base de céleri</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
           <note>Soja et produits à base de soja</note>
           <note>produit constant</note>
-          <note>végan</note>
+          <note>végétarien</note>
         </meal>
       </category>
       <category name="Végétarien (11:00 - 12:29)">
         <meal>
-          <name>Samossas aux lentilles et carottes, chutney de tomates</name>
+          <name>Lasagne au quorn</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
-          <note>Céleri et produits à base de céleri</note>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
-          <note>Soja et produits à base de soja</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>biologique</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Végan (11:00 - 12:29)">
         <meal>
-          <name>Samossas aux lentilles et carottes, chutney de tomates</name>
+          <name>Quenelles de farine véganes au tofu fumé, sauce crème champignons</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
           <note>Céleri et produits à base de céleri</note>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Avoine)</note>
           <note>Soja et produits à base de soja</note>
+          <note>biologique</note>
           <note>produit constant</note>
           <note>végan</note>
         </meal>
       </category>
       <category name="Non-végétarien (11:00 - 12:29)">
         <meal>
-          <name>Porchetta au four, fond réduit</name>
+          <name>Boeuf sauté, marinade à la sauce Tamari et oignons fanes</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Produit du Luxembourg</note>
+          <note>Mollusques et produits à base de mollusques</note>
+          <note>Poissons et produits à base de poissons</note>
           <note>Produit sans gluten</note>
-          <note>biologique</note>
+          <note>Soja et produits à base de soja</note>
           <note>non-végétarien</note>
           <note>produit constant</note>
         </meal>
         <meal>
-          <name>Rumsteak grillé, sauce au poivre</name>
+          <name>Faux-filet de boeuf grillé sauce Béarnaise</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
           <note>Produit du Luxembourg</note>
           <note>Produit sans gluten</note>
           <note>non-végétarien</note>
@@ -4857,9 +4889,9 @@
       </category>
       <category name="Féculents (11:00 - 12:29)">
         <meal>
-          <name>Ecrasé de pommes de terre</name>
+          <name>Riz basmati</name>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Produit du Luxembourg</note>
+          <note>Produit Fairtrade</note>
           <note>Produit sans gluten</note>
           <note>biologique</note>
           <note>produit constant</note>
@@ -4868,42 +4900,40 @@
       </category>
       <category name="Légumes (11:00 - 12:29)">
         <meal>
-          <name>Choux-fleurs persillade</name>
-          <note>Céleri et produits à base de céleri</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <name>Haricots mungo aux oignons</name>
+          <note>Produit sans gluten</note>
           <note>Soja et produits à base de soja</note>
-          <note>biologique</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Dessert (11:00 - 12:29)">
         <meal>
-          <name>Yaourt grec aux poires sautées</name>
-          <note>Fruits à coque et produits à base de ces fruits (Noisettes)</note>
+          <name>Panna cotta au chocolat</name>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Produit du Luxembourg</note>
-          <note>Produit sans sucre</note>
+          <note>Produit Fairtrade</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Snack à emporter (11:00 - 12:29)">
         <meal>
-          <name>Buddha bowl</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <name>Buddha bowl végétarien</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
           <note>Oeufs et produits à base d‘oeufs</note>
           <note>Soja et produits à base de soja</note>
-          <note>non-végétarien</note>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Salade de lentilles, feta, concombres et tomates</name>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Moutarde et produits à base de moutarde</note>
           <note>produit constant</note>
           <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Salade de pommes de terre et saucisse viennoise</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Moutarde et produits à base de moutarde</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Produit sans gluten</note>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
         </meal>
       </category>
       <category name="01.1 Sandwiches végétariens (11:00 - 12:29)">
@@ -5494,23 +5524,24 @@
         </meal>
       </category>
     </day>
-    <day date="2026-01-16">
+    <day date="2026-01-30">
       <category name="Entrée (12:30 - 15:00)">
         <meal>
-          <name>Crêpe farcie au fromage frais et ciboulette</name>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-        <meal>
-          <name>Potage au chou fleur</name>
+          <name>Bouillon de légumes</name>
           <note>Produit sans gluten</note>
           <note>produit constant</note>
-          <note>végétarien</note>
+          <note>végan</note>
+        </meal>
+        <meal>
+          <name>Moules à la crème</name>
+          <note>Produit sans gluten</note>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
         </meal>
       </category>
       <category name="Végétarien (12:30 - 15:00)">
         <meal>
-          <name>Omelette aux champignons, mozzarella et ciboulette</name>
+          <name>Riz sauté à l'omelette, brocolis, oignons fanes et carottes</name>
           <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
@@ -5518,19 +5549,22 @@
       </category>
       <category name="Végan (12:30 - 15:00)">
         <meal>
-          <name>Tofu sticks, sauce rémoulade végane</name>
+          <name>Riz sauté au tofu, brocolis, oignons fanes et carottes</name>
+          <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végan</note>
         </meal>
       </category>
       <category name="Non-végétarien (12:30 - 15:00)">
         <meal>
-          <name>Bouchée à la Reine</name>
+          <name>Cordon bleu de porc non pané, sauce crème champignons</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Produit sans gluten</note>
           <note>non-végétarien</note>
           <note>produit constant</note>
         </meal>
         <meal>
-          <name>Rumsteak grillé, sauce au poivre</name>
+          <name>Faux-filet de boeuf grillé sauce Béarnaise</name>
           <note>Produit sans gluten</note>
           <note>non-végétarien</note>
           <note>produit constant</note>
@@ -5538,8 +5572,11 @@
       </category>
       <category name="Féculents (12:30 - 15:00)">
         <meal>
-          <name>Quinoa aux échalotes</name>
+          <name>Polenta crémeuse</name>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
+          <note>Soja et produits à base de soja</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
@@ -5551,35 +5588,40 @@
       </category>
       <category name="Légumes (12:30 - 15:00)">
         <meal>
-          <name>Petits pois aux échalotes</name>
+          <name>Carottes aux échalotes</name>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
+          <note>Soja et produits à base de soja</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Dessert (12:30 - 15:00)">
         <meal>
-          <name>Brownie, crème anglaise</name>
+          <name>Crumble aux poires et noisettes</name>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Snack à emporter (12:30 - 15:00)">
         <meal>
-          <name>Buddha bowl</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <name>Buddha bowl végétarien</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
           <note>Oeufs et produits à base d‘oeufs</note>
           <note>Soja et produits à base de soja</note>
-          <note>non-végétarien</note>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Salade de lentilles, feta, concombres et tomates</name>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Moutarde et produits à base de moutarde</note>
           <note>produit constant</note>
           <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Salade de pommes de terre et saucisse viennoise</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Moutarde et produits à base de moutarde</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Produit sans gluten</note>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
         </meal>
       </category>
       <category name="01.1 Sandwiches végétariens (12:30 - 15:00)">
@@ -6171,65 +6213,58 @@
       </category>
       <category name="Entrée (11:00 - 12:29)">
         <meal>
-          <name>Crêpe farcie au fromage frais et ciboulette</name>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
-          <note>Produit du Luxembourg</note>
-          <note>biologique</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-        <meal>
-          <name>Potage au chou fleur</name>
+          <name>Bouillon de légumes</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
           <note>Céleri et produits à base de céleri</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
           <note>Soja et produits à base de soja</note>
-          <note>biologique</note>
           <note>produit constant</note>
-          <note>végétarien</note>
+          <note>végan</note>
+        </meal>
+        <meal>
+          <name>Moules à la crème</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Mollusques et produits à base de mollusques</note>
+          <note>Produit sans gluten</note>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
         </meal>
       </category>
       <category name="Végétarien (11:00 - 12:29)">
         <meal>
-          <name>Omelette aux champignons, mozzarella et ciboulette</name>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <name>Riz sauté à l'omelette, brocolis, oignons fanes et carottes</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
           <note>Oeufs et produits à base d‘oeufs</note>
-          <note>Produit du Luxembourg</note>
           <note>Produit sans gluten</note>
-          <note>biologique</note>
+          <note>Soja et produits à base de soja</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Végan (11:00 - 12:29)">
         <meal>
-          <name>Tofu sticks, sauce rémoulade végane</name>
+          <name>Riz sauté au tofu, brocolis, oignons fanes et carottes</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
-          <note>Moutarde et produits à base de moutarde</note>
+          <note>Produit sans gluten</note>
           <note>Soja et produits à base de soja</note>
-          <note>biologique</note>
           <note>produit constant</note>
           <note>végan</note>
         </meal>
       </category>
       <category name="Non-végétarien (11:00 - 12:29)">
         <meal>
-          <name>Bouchée à la Reine</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
-          <note>Céleri et produits à base de céleri</note>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <name>Cordon bleu de porc non pané, sauce crème champignons</name>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Produit du Benelux</note>
+          <note>Produit sans gluten</note>
           <note>non-végétarien</note>
           <note>produit constant</note>
         </meal>
         <meal>
-          <name>Rumsteak grillé, sauce au poivre</name>
+          <name>Faux-filet de boeuf grillé sauce Béarnaise</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
           <note>Produit du Luxembourg</note>
           <note>Produit sans gluten</note>
           <note>non-végétarien</note>
@@ -6238,9 +6273,9 @@
       </category>
       <category name="Féculents (11:00 - 12:29)">
         <meal>
-          <name>Quinoa aux échalotes</name>
+          <name>Polenta crémeuse</name>
           <note>Céleri et produits à base de céleri</note>
-          <note>Produit du Luxembourg</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
           <note>Soja et produits à base de soja</note>
           <note>produit constant</note>
@@ -6255,43 +6290,43 @@
       </category>
       <category name="Légumes (11:00 - 12:29)">
         <meal>
-          <name>Petits pois aux échalotes</name>
+          <name>Carottes aux échalotes</name>
+          <note>Céleri et produits à base de céleri</note>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
-          <note>biologique</note>
+          <note>Soja et produits à base de soja</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Dessert (11:00 - 12:29)">
         <meal>
-          <name>Brownie, crème anglaise</name>
+          <name>Crumble aux poires et noisettes</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Fruits à coque et produits à base de ces fruits (Noisettes)</note>
           <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
-          <note>Produit Fairtrade</note>
-          <note>Produit du Luxembourg</note>
-          <note>biologique</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
       <category name="Snack à emporter (11:00 - 12:29)">
         <meal>
-          <name>Buddha bowl</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <name>Buddha bowl végétarien</name>
           <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
           <note>Oeufs et produits à base d‘oeufs</note>
           <note>Soja et produits à base de soja</note>
-          <note>non-végétarien</note>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>Salade de lentilles, feta, concombres et tomates</name>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Moutarde et produits à base de moutarde</note>
           <note>produit constant</note>
           <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Salade de pommes de terre et saucisse viennoise</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Moutarde et produits à base de moutarde</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Produit sans gluten</note>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
         </meal>
       </category>
       <category name="01.1 Sandwiches végétariens (11:00 - 12:29)">
@@ -6882,10 +6917,10 @@
         </meal>
       </category>
     </day>
-    <day date="2026-01-17">
+    <day date="2026-01-31">
       <closed/>
     </day>
-    <day date="2026-01-18">
+    <day date="2026-02-01">
       <closed/>
     </day>
   </canteen>
