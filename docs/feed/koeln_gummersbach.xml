@@ -3,61 +3,20 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2026-01-28">
-      <category name="HEIMSPIEL">
-        <meal>
-          <name>Hackbällchen Rahmsauce,  Kürbis- Karottenpüree,  Salat,  Dessert</name>
-          <note>Laktose</note>
-          <note>Milch</note>
-          <price role="employee">6.45</price>
-          <price role="other">18.75</price>
-          <price role="student">4.15</price>
-        </meal>
-      </category>
-      <category name="QUERBEET">
-        <meal>
-          <name>VEGAN: Kürbis-Linsen Bolognese Vollkorn Spaghetti,  Salat,  Dessert</name>
-          <note>Gluten</note>
-          <note>Sellerie</note>
-          <note>Weizen</note>
-          <price role="employee">4.85</price>
-          <price role="other">11.90</price>
-          <price role="student">2.60</price>
-        </meal>
-        <meal>
-          <name>VEGAN: Türkische Linsensuppe Fladenbrot</name>
-          <note>Gluten</note>
-          <note>Sesamsamen</note>
-          <note>Weizen</note>
-          <price role="employee">4.00</price>
-          <price role="other">7.65</price>
-          <price role="student">1.85</price>
-        </meal>
-      </category>
-      <category name="MEISTERWERK">
-        <meal>
-          <name>Geschmorter Gänsebraten Bratensauce,  Rotkohl,  Kartoffelklöße,  Dessert</name>
-          <note>Senf</note>
-          <price role="employee">8.95</price>
-          <price role="other">28.35</price>
-          <price role="student">6.30</price>
-        </meal>
-      </category>
-    </day>
     <day date="2026-01-29">
       <category name="HEIMSPIEL">
+        <meal>
+          <name>Currywurst Pommes frites,  Salat,  Dessert</name>
+          <price role="employee">5.60</price>
+          <price role="other">15.10</price>
+          <price role="student">3.30</price>
+        </meal>
         <meal>
           <name>Hähnchenschnitzel mit Knusperpanade Paprikarahmsauce,  Pommes frites,  Salat,  Dessert</name>
           <note>Gluten</note>
           <note>Laktose</note>
           <note>Milch</note>
           <note>Weizen</note>
-          <price role="employee">5.60</price>
-          <price role="other">15.10</price>
-          <price role="student">3.30</price>
-        </meal>
-        <meal>
-          <name>Currywurst Pommes frites,  Salat,  Dessert</name>
           <price role="employee">5.60</price>
           <price role="other">15.10</price>
           <price role="student">3.30</price>
@@ -83,19 +42,16 @@
           <price role="other">15.10</price>
           <price role="student">3.30</price>
         </meal>
+        <meal>
+          <name>Salatbuffet in Selbstbedienung je 100g</name>
+          <price role="employee">0.95</price>
+          <price role="other">2.90</price>
+          <price role="student">0.75</price>
+        </meal>
       </category>
     </day>
     <day date="2026-01-30">
       <category name="QUERBEET">
-        <meal>
-          <name>VEGAN: Karotten-Ingwersuppe Kaiserbrötchen</name>
-          <note>Gluten</note>
-          <note>Senf</note>
-          <note>Soja</note>
-          <price role="employee">4.00</price>
-          <price role="other">7.65</price>
-          <price role="student">1.85</price>
-        </meal>
         <meal>
           <name>VEGAN: Penne arrabbiata Salat,  Dessert</name>
           <note>Weizen</note>
@@ -112,6 +68,15 @@
           <price role="employee">5.30</price>
           <price role="other">14.10</price>
           <price role="student">3.10</price>
+        </meal>
+        <meal>
+          <name>VEGAN: Karotten-Ingwersuppe Kaiserbrötchen</name>
+          <note>Gluten</note>
+          <note>Senf</note>
+          <note>Soja</note>
+          <price role="employee">4.00</price>
+          <price role="other">7.65</price>
+          <price role="student">1.85</price>
         </meal>
       </category>
     </day>
@@ -130,13 +95,6 @@
       </category>
       <category name="QUERBEET">
         <meal>
-          <name>VEGAN: Blumenkohl-Kichererbsencurry Sesamreis,  Salat,  Dessert,  Koriander</name>
-          <note>Sesamsamen</note>
-          <price role="employee">5.10</price>
-          <price role="other">12.65</price>
-          <price role="student">2.80</price>
-        </meal>
-        <meal>
           <name>VEGAN: Linsen Dal Fladenbrot</name>
           <note>Gluten</note>
           <note>Sellerie</note>
@@ -145,6 +103,13 @@
           <price role="employee">4.00</price>
           <price role="other">7.65</price>
           <price role="student">1.85</price>
+        </meal>
+        <meal>
+          <name>VEGAN: Blumenkohl-Kichererbsencurry Sesamreis,  Salat,  Dessert,  Koriander</name>
+          <note>Sesamsamen</note>
+          <price role="employee">5.10</price>
+          <price role="other">12.65</price>
+          <price role="student">2.80</price>
         </meal>
       </category>
     </day>
@@ -246,15 +211,6 @@
       </category>
       <category name="QUERBEET">
         <meal>
-          <name>VEGETARISCH: Käse-Lauchcremesuppe Kaiserbrötchen</name>
-          <note>Gluten</note>
-          <note>Laktose</note>
-          <note>Milch</note>
-          <price role="employee">4.00</price>
-          <price role="other">7.65</price>
-          <price role="student">1.85</price>
-        </meal>
-        <meal>
           <name>VEGAN: No Butter Chicken Basmatireis,  Salat,  Dessert</name>
           <note>Gluten</note>
           <note>Hafer</note>
@@ -263,19 +219,19 @@
           <price role="other">17.30</price>
           <price role="student">3.85</price>
         </meal>
-      </category>
-    </day>
-    <day date="2026-02-06">
-      <category name="QUERBEET">
         <meal>
-          <name>VEGAN: Kartoffel-Lauchcremesuppe Kaiserbrötchen</name>
+          <name>VEGETARISCH: Käse-Lauchcremesuppe Kaiserbrötchen</name>
           <note>Gluten</note>
-          <note>Sellerie</note>
-          <note>Soja</note>
+          <note>Laktose</note>
+          <note>Milch</note>
           <price role="employee">4.00</price>
           <price role="other">7.65</price>
           <price role="student">1.85</price>
         </meal>
+      </category>
+    </day>
+    <day date="2026-02-06">
+      <category name="QUERBEET">
         <meal>
           <name>VEGAN: Cremige Tortellini mit Räuchertofu Salat,  Dessert</name>
           <note>Gluten</note>
@@ -284,6 +240,15 @@
           <price role="employee">5.60</price>
           <price role="other">15.10</price>
           <price role="student">3.30</price>
+        </meal>
+        <meal>
+          <name>VEGAN: Kartoffel-Lauchcremesuppe Kaiserbrötchen</name>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
+          <price role="employee">4.00</price>
+          <price role="other">7.65</price>
+          <price role="student">1.85</price>
         </meal>
       </category>
       <category name="WORLDWIDE">
@@ -313,13 +278,6 @@
       </category>
       <category name="QUERBEET">
         <meal>
-          <name>VEGAN: Kürbis-Falafelbällchen Süßkartoffel-Rosenkohl Curry,  Salat,  Dessert</name>
-          <note>Sellerie</note>
-          <price role="employee">5.75</price>
-          <price role="other">16.50</price>
-          <price role="student">3.60</price>
-        </meal>
-        <meal>
           <name>VEGAN: Cremige Gemüsesuppe Kaiserbrötchen</name>
           <note>Gluten</note>
           <note>Sellerie</note>
@@ -327,6 +285,13 @@
           <price role="employee">4.00</price>
           <price role="other">7.65</price>
           <price role="student">1.85</price>
+        </meal>
+        <meal>
+          <name>VEGAN: Kürbis-Falafelbällchen Süßkartoffel-Rosenkohl Curry,  Salat,  Dessert</name>
+          <note>Sellerie</note>
+          <price role="employee">5.75</price>
+          <price role="other">16.50</price>
+          <price role="student">3.60</price>
         </meal>
       </category>
     </day>
@@ -379,6 +344,16 @@
       </category>
       <category name="QUERBEET">
         <meal>
+          <name>VEGAN: Geröstete Paprikasuppe Kaiserbrötchen</name>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
+          <note>Weizen</note>
+          <price role="employee">4.00</price>
+          <price role="other">7.65</price>
+          <price role="student">1.85</price>
+        </meal>
+        <meal>
           <name>VEGETARISCH: Käsespätzle Salat,  Dessert,  Röstzwiebeln</name>
           <note>Eier</note>
           <note>Gluten</note>
@@ -388,16 +363,6 @@
           <price role="employee">5.10</price>
           <price role="other">12.65</price>
           <price role="student">2.80</price>
-        </meal>
-        <meal>
-          <name>VEGAN: Geröstete Paprikasuppe Kaiserbrötchen</name>
-          <note>Gluten</note>
-          <note>Sellerie</note>
-          <note>Soja</note>
-          <note>Weizen</note>
-          <price role="employee">4.00</price>
-          <price role="other">7.65</price>
-          <price role="student">1.85</price>
         </meal>
       </category>
       <category name="WORLDWIDE">
@@ -409,6 +374,37 @@
           <price role="employee">6.45</price>
           <price role="other">18.75</price>
           <price role="student">4.15</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-02-12">
+      <category name="QUERBEET">
+        <meal>
+          <name>VEGAN: Kürbis-Linsen Bolognese Vollkorn Spaghetti,  Salat,  Dessert</name>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Weizen</note>
+          <price role="employee">4.85</price>
+          <price role="other">11.90</price>
+          <price role="student">2.60</price>
+        </meal>
+        <meal>
+          <name>VEGAN: Linseneintopf Kaiserbrötchen</name>
+          <note>Gluten</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <price role="employee">4.00</price>
+          <price role="other">7.65</price>
+          <price role="student">1.85</price>
+        </meal>
+      </category>
+      <category name="WORLDWIDE">
+        <meal>
+          <name>Chili con carne Reis,  Salat,  Dessert,  Petersilie</name>
+          <note>Senf</note>
+          <price role="employee">5.30</price>
+          <price role="other">14.10</price>
+          <price role="student">3.10</price>
         </meal>
       </category>
     </day>

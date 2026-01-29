@@ -3,7 +3,7 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2026-01-28">
+    <day date="2026-01-29">
       <category name="Tellergericht">
         <meal>
           <name>Brötchen</name>
@@ -20,54 +20,16 @@
           <price role="other">0.85</price>
           <price role="student">0.45</price>
         </meal>
-        <meal>
-          <name>Kl. Schüssel: Soljanka</name>
-          <note>Schweinefleisch</note>
-          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
-          <note>Senf und daraus hergestellte Erzeugnisse</note>
-          <note>mit Antioxidationsmittel</note>
-          <note>mit Konservierungsstoff</note>
-          <note>mit Phosphat</note>
-          <note>mit Süßungsmittel</note>
-          <price role="employee">1.70</price>
-          <price role="other">2.55</price>
-          <price role="student">0.90</price>
-        </meal>
-        <meal>
-          <name>Teller: Soljanka</name>
-          <note>Schweinefleisch</note>
-          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
-          <note>Senf und daraus hergestellte Erzeugnisse</note>
-          <note>mit Antioxidationsmittel</note>
-          <note>mit Konservierungsstoff</note>
-          <note>mit Phosphat</note>
-          <note>mit Süßungsmittel</note>
-          <price role="employee">2.65</price>
-          <price role="other">3.95</price>
-          <price role="student">1.50</price>
-        </meal>
-        <meal>
-          <name>Terrine: Soljanka</name>
-          <note>Schweinefleisch</note>
-          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
-          <note>Senf und daraus hergestellte Erzeugnisse</note>
-          <note>mit Antioxidationsmittel</note>
-          <note>mit Konservierungsstoff</note>
-          <note>mit Phosphat</note>
-          <note>mit Süßungsmittel</note>
-          <price role="employee">4.30</price>
-          <price role="other">5.80</price>
-          <price role="student">2.20</price>
-        </meal>
       </category>
-      <category name="Komponente 1">
+      <category name="Komponente 2">
         <meal>
-          <name>Seelachsfilet "Müllerin Art"  
- mit süss-saurer Sauce</name>
-          <note>Fische und daraus hergestellte Erzeugnisse</note>
+          <name>Boulette  
+ Mischgemüse zum Überfüllen  oder Bratensauce</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Milch/Milchzucker (Laktose)</note>
-          <note>Senf und daraus hergestellte Erzeugnisse</note>
+          <note>Schweinefleisch</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
           <note>jodiertes Salz</note>
           <note>mit Farbstoff</note>
           <price role="employee">3.35</price>
@@ -77,9 +39,23 @@
       </category>
       <category name="Komponente 3">
         <meal>
-          <name>Hähnchensteak paniert (Gefl,A) 
- mit Kokos-Currysauce</name>
+          <name>Hähnchenbrust in Parmesanpanade (Gefl,G,A) 
+ mit Rahmsauce (9,Gefl,G) oder Kokos-Currysauce</name>
           <note>Glutenhaltiges Getreide</note>
+          <note>jodiertes Salz</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">3.35</price>
+          <price role="other">4.45</price>
+          <price role="student">2.25</price>
+        </meal>
+      </category>
+      <category name="Vegetarische Komponente 1">
+        <meal>
+          <name>2 Valess vegetarische Schnitzel, paniert  
+ mit Mischgemüse zum Überfüllen</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker (Laktose)</note>
           <note>jodiertes Salz</note>
           <note>mit Farbstoff</note>
           <price role="employee">3.35</price>
@@ -89,6 +65,14 @@
       </category>
       <category name="Veganes Essen">
         <meal>
+          <name>Süßkartoffel-Gnocchi-Gemüsepfanne</name>
+          <note>jodiertes Salz</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">3.80</price>
+          <price role="other">5.40</price>
+          <price role="student">2.20</price>
+        </meal>
+        <meal>
           <name>Feuriges Pilzragout mit Paprika und Mandelstiften  
  mit Couscous</name>
           <note>Glutenhaltiges Getreide</note>
@@ -97,18 +81,6 @@
           <price role="employee">4.40</price>
           <price role="other">6.00</price>
           <price role="student">2.80</price>
-        </meal>
-      </category>
-      <category name="Vegetarisches Essen">
-        <meal>
-          <name>Tortellini mit Käsefüllung  
- dazu eine Gemüsefrischkäsesoße</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Milch/Milchzucker (Laktose)</note>
-          <price role="employee">3.80</price>
-          <price role="other">5.40</price>
-          <price role="student">2.20</price>
         </meal>
       </category>
       <category name="Nudeltheke (Preis pro 100g) Bitte extra Pasta-Teller verwenden">
@@ -131,13 +103,6 @@
           <price role="student">0.80</price>
         </meal>
         <meal>
-          <name>Reis</name>
-          <note>jodiertes Salz</note>
-          <price role="employee">1.30</price>
-          <price role="other">1.80</price>
-          <price role="student">0.80</price>
-        </meal>
-        <meal>
           <name>Pommes Frites</name>
           <price role="employee">1.60</price>
           <price role="other">2.10</price>
@@ -146,7 +111,17 @@
       </category>
       <category name="Gemüse">
         <meal>
-          <name>Kaisergemüse</name>
+          <name>Erbsengemüse</name>
+          <price role="employee">1.30</price>
+          <price role="other">1.80</price>
+          <price role="student">0.80</price>
+        </meal>
+        <meal>
+          <name>Mischgemüse zum Überfüllen</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <note>jodiertes Salz</note>
+          <note>mit Farbstoff</note>
           <price role="employee">1.50</price>
           <price role="other">2.00</price>
           <price role="student">1.00</price>
