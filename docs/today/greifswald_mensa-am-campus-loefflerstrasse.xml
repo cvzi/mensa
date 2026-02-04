@@ -3,7 +3,7 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2026-02-03">
+    <day date="2026-02-04">
       <category name="Tellergericht">
         <meal>
           <name>Brötchen</name>
@@ -21,34 +21,34 @@
           <price role="student">0.45</price>
         </meal>
         <meal>
-          <name>2 Hefeklöße  
- mit Sauerkirschen</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Milch/Milchzucker (Laktose)</note>
-          <price role="employee">1.72</price>
+          <name>kl. Schüssel: Vegane Kartoffelsuppe</name>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <price role="employee">1.70</price>
           <price role="other">2.55</price>
           <price role="student">0.90</price>
         </meal>
         <meal>
-          <name>4 Hefeklöße  
- mit Sauerkirschen</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Milch/Milchzucker (Laktose)</note>
-          <price role="employee">3.45</price>
-          <price role="other">5.10</price>
-          <price role="student">1.80</price>
+          <name>Teller: Vegane Kartoffelsuppe</name>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <price role="employee">2.65</price>
+          <price role="other">3.95</price>
+          <price role="student">1.50</price>
+        </meal>
+        <meal>
+          <name>Terrine: Vegane Kartoffelsuppe</name>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <price role="employee">4.30</price>
+          <price role="other">5.80</price>
+          <price role="student">2.20</price>
         </meal>
       </category>
-      <category name="Komponente 1">
+      <category name="Komponente 2">
         <meal>
-          <name>1 Schlemmerfilet Bordelaise  
- mit Zitronenbuttersauce</name>
-          <note>Fische und daraus hergestellte Erzeugnisse</note>
-          <note>Glutenhaltiges Getreide</note>
+          <name>Schweinegulasch mit Sahne und Champignons</name>
           <note>Milch/Milchzucker (Laktose)</note>
+          <note>Schweinefleisch</note>
           <note>jodiertes Salz</note>
+          <note>mit Farbstoff</note>
           <price role="employee">3.35</price>
           <price role="other">4.45</price>
           <price role="student">2.25</price>
@@ -56,7 +56,13 @@
       </category>
       <category name="Komponente 4">
         <meal>
-          <name>1 Chicken Tikka Masala mit Paprikagemüse (9,Gefl)</name>
+          <name>1 Hähnchenschnitzel Cordon bleu (2,3,Gefl,G,A) 
+ mit Soße ungarischer Art  oder Paprikagemüse</name>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
+          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
+          <note>jodiertes Salz</note>
+          <note>mit Farbstoff</note>
+          <note>mit Süßungsmittel</note>
           <price role="employee">3.60</price>
           <price role="other">4.70</price>
           <price role="student">2.50</price>
@@ -74,6 +80,31 @@
           <price role="student">2.10</price>
         </meal>
       </category>
+      <category name="Veganes Essen">
+        <meal>
+          <name>Süßkartoffel-Kokos-Soja-Curry  
+ mit Tomaten-Bulgur</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
+          <price role="employee">4.40</price>
+          <price role="other">6.00</price>
+          <price role="student">2.80</price>
+        </meal>
+      </category>
+      <category name="Vegetarisches Essen">
+        <meal>
+          <name>Rahmspinat mit Rührei  
+ und Salzkartoffeln</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
+          <note>geschwefelt</note>
+          <note>jodiertes Salz</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">3.90</price>
+          <price role="other">5.50</price>
+          <price role="student">2.30</price>
+        </meal>
+      </category>
       <category name="Nudeltheke (Preis pro 100g) Bitte extra Pasta-Teller verwenden">
         <meal>
           <name>Hartkäse gerieben, portioniert (an der Kasse erhältlich)</name>
@@ -84,17 +115,15 @@
           <price role="other">0.80</price>
           <price role="student">0.30</price>
         </meal>
-        <meal>
-          <name>Pastateller: Nudeln  
- mit veganem Paprikapesto</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Schalenfrüchte und daraus hergestellte Erzeugnisse (Mandeln, Haselnuss usw.)</note>
-          <price role="employee">1.10</price>
-          <price role="other">1.55</price>
-          <price role="student">0.65</price>
-        </meal>
       </category>
       <category name="Beilagen">
+        <meal>
+          <name>Farfalle</name>
+          <note>Glutenhaltiges Getreide</note>
+          <price role="employee">1.30</price>
+          <price role="other">1.80</price>
+          <price role="student">0.80</price>
+        </meal>
         <meal>
           <name>Salzkartoffeln</name>
           <note>geschwefelt</note>
@@ -103,14 +132,8 @@
           <price role="student">0.80</price>
         </meal>
         <meal>
-          <name>Reis</name>
-          <note>jodiertes Salz</note>
-          <price role="employee">1.30</price>
-          <price role="other">1.80</price>
-          <price role="student">0.80</price>
-        </meal>
-        <meal>
-          <name>Pommes Frites</name>
+          <name>8 Kartoffelkroketten</name>
+          <note>Glutenhaltiges Getreide</note>
           <price role="employee">1.60</price>
           <price role="other">2.10</price>
           <price role="student">1.10</price>
@@ -118,7 +141,7 @@
       </category>
       <category name="Gemüse">
         <meal>
-          <name>Feine Möhren</name>
+          <name>Blumenkohlgemüse</name>
           <price role="employee">1.30</price>
           <price role="other">1.80</price>
           <price role="student">0.80</price>
