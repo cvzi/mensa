@@ -3,389 +3,101 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2026-01-26">
-      <category name="Entrée">
-        <meal>
-          <name>Soupe aux champignons</name>
-          <note>Céleri et produits à base de céleri</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Produit sans gluten</note>
-          <note>Soja et produits à base de soja</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="Végétarien">
-        <meal>
-          <name>Tikka Masala au tofu</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
-          <note>Produit sans gluten</note>
-          <note>Soja et produits à base de soja</note>
-          <note>produit constant</note>
-          <note>végan</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="Non-végétarien">
-        <meal>
-          <name>Chili con carne, dip crème aigre</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
-          <note>Céleri et produits à base de céleri</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
-          <note>Produit sans gluten</note>
-          <note>Soja et produits à base de soja</note>
-          <note>non-végétarien</note>
-          <note>produit constant</note>
-        </meal>
-      </category>
-      <category name="Féculents">
-        <meal>
-          <name>Riz pilaf</name>
-          <note>Céleri et produits à base de céleri</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Produit sans gluten</note>
-          <note>Soja et produits à base de soja</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="Légumes">
-        <meal>
-          <name>Brocolis aux échalotes</name>
-          <note>Céleri et produits à base de céleri</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Produit sans gluten</note>
-          <note>Soja et produits à base de soja</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="Dessert">
-        <meal>
-          <name>Fruits frais découpés</name>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="Collation après-midi">
-        <meal>
-          <name>Empanadas aux champignons et fromage</name>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-        <meal>
-          <name>Pomme au four à la cannelle, raisins secs et amandes</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
-          <note>Fruits à coque et produits à base de ces fruits (Amandes)</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Produit sans sucre</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="12.2 Emballages et articles à usage unique">
-        <meal>
-          <name>Couvercle pour barquette à emporter</name>
-          <note>produit constant</note>
-        </meal>
-      </category>
-      <category name="13. DayCare">
-        <meal>
-          <name>DayCare (gratuit) - Collation du matin</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>DayCare (gratuit) - Goûter</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>DayCare (gratuit) - Petit Déjeuner</name>
-          <note>produit constant</note>
-        </meal>
-      </category>
-    </day>
-    <day date="2026-01-27">
-      <closed/>
-    </day>
-    <day date="2026-01-28">
-      <category name="Entrée">
-        <meal>
-          <name>Velouté de poireaux</name>
-          <note>Céleri et produits à base de céleri</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Produit sans gluten</note>
-          <note>Soja et produits à base de soja</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="Végétarien">
-        <meal>
-          <name>Seitan sauté aux carottes et oignons</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
-          <note>Soja et produits à base de soja</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="Non-végétarien">
-        <meal>
-          <name>Boeuf Tandoori</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Produit sans gluten</note>
-          <note>non-végétarien</note>
-          <note>produit constant</note>
-        </meal>
-      </category>
-      <category name="Féculents">
-        <meal>
-          <name>Quinoa à la ciboulette</name>
-          <note>Produit sans gluten</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="Légumes">
-        <meal>
-          <name>Chou chinois sauté aux oignons</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
-          <note>Produit sans gluten</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="Dessert">
-        <meal>
-          <name>Fruits frais découpés</name>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="Collation après-midi">
-        <meal>
-          <name>Fruits coupés</name>
-          <note>Produit sans gluten</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-        <meal>
-          <name>Omelette roulée au fromage</name>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
-          <note>Produit sans gluten</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="12.2 Emballages et articles à usage unique">
-        <meal>
-          <name>Couvercle pour barquette à emporter</name>
-          <note>produit constant</note>
-        </meal>
-      </category>
-      <category name="13. DayCare">
-        <meal>
-          <name>DayCare (gratuit) - Collation du matin</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>DayCare (gratuit) - Goûter</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>DayCare (gratuit) - Petit Déjeuner</name>
-          <note>produit constant</note>
-        </meal>
-      </category>
-    </day>
-    <day date="2026-01-29">
-      <closed/>
-    </day>
-    <day date="2026-01-30">
-      <category name="Entrée">
-        <meal>
-          <name>Potage aux haricots verts</name>
-          <note>Céleri et produits à base de céleri</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Produit sans gluten</note>
-          <note>Soja et produits à base de soja</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="Végétarien">
-        <meal>
-          <name>Boulettes au quorn, sauce Chimichurri</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
-          <note>Céréales contenant du gluten et produits à base de ces céréales (Avoine)</note>
-          <note>Oeufs et produits à base d‘oeufs</note>
-          <note>Soja et produits à base de soja</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="Non-végétarien">
-        <meal>
-          <name>Cordon bleu pressé non pané, fond réduit</name>
-          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Produit sans gluten</note>
-          <note>non-végétarien</note>
-          <note>produit constant</note>
-        </meal>
-      </category>
-      <category name="Féculents">
-        <meal>
-          <name>Pommes de terre "wedges" maison</name>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Produit sans gluten</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-        <meal>
-          <name>Pommes de terre rissolées</name>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Produit sans gluten</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="Légumes">
-        <meal>
-          <name>Petits pois aux échalotes</name>
-          <note>Lait et produits à base de lait (y compris le lactose)</note>
-          <note>Produit sans gluten</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="Dessert">
-        <meal>
-          <name>Fruits frais découpés</name>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="Collation après-midi">
-        <meal>
-          <name>Feuilleté à l'Emmental</name>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-        <meal>
-          <name>Fruits coupés</name>
-          <note>Produit sans gluten</note>
-          <note>produit constant</note>
-          <note>végétarien</note>
-        </meal>
-      </category>
-      <category name="12.2 Emballages et articles à usage unique">
-        <meal>
-          <name>Couvercle pour barquette à emporter</name>
-          <note>produit constant</note>
-        </meal>
-      </category>
-      <category name="13. DayCare">
-        <meal>
-          <name>DayCare (gratuit) - Collation du matin</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>DayCare (gratuit) - Goûter</name>
-          <note>produit constant</note>
-        </meal>
-        <meal>
-          <name>DayCare (gratuit) - Petit Déjeuner</name>
-          <note>produit constant</note>
-        </meal>
-      </category>
-    </day>
-    <day date="2026-01-31">
-      <closed/>
-    </day>
-    <day date="2026-02-01">
-      <closed/>
-    </day>
     <day date="2026-02-02">
-      <category name="Entrée (07:00 - 18:00)">
+      <category name="Entrée">
         <meal>
           <name>Potage aux légumes</name>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
+          <note>Soja et produits à base de soja</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Végétarien (07:00 - 18:00)">
+      <category name="Végétarien">
         <meal>
           <name>Burger aux lentilles, sauce yaourt grec</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Graines de sésame et produits à base de graines de sésame</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Moutarde et produits à base de moutarde</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
+          <note>Soja et produits à base de soja</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Non-végétarien (07:00 - 18:00)">
+      <category name="Non-végétarien">
         <meal>
           <name>Boeuf bourguignon</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
           <note>non-végétarien</note>
           <note>produit constant</note>
         </meal>
       </category>
-      <category name="Féculents (07:00 - 18:00)">
+      <category name="Féculents">
         <meal>
           <name>Pommes de terre persillées</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
         <meal>
           <name>Tagliatelle à l'épeautre au beurre</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Épeautre)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Légumes (07:00 - 18:00)">
+      <category name="Légumes">
         <meal>
           <name>Chou fleur à la crème et au persil</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Dessert (07:00 - 18:00)">
+      <category name="Dessert">
         <meal>
           <name>Fruits frais découpés</name>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Collation après-midi (07:00 - 18:00)">
+      <category name="Collation après-midi">
         <meal>
           <name>Bâtonnet de carottes et concombres, dip fromage blanc aux herbes</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
         <meal>
           <name>Yaourt grec fouetté, compotée d'oranges sanguines, fruits coupés</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
           <note>Produit sans sucre</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="12.2 Emballages et articles à usage unique (07:00 - 18:00)">
+      <category name="12.2 Emballages et articles à usage unique">
         <meal>
           <name>Couvercle pour barquette à emporter</name>
           <note>produit constant</note>
         </meal>
       </category>
-      <category name="13. DayCare (07:00 - 18:00)">
+      <category name="13. DayCare">
         <meal>
           <name>DayCare (gratuit) - Collation du matin</name>
           <note>produit constant</note>
@@ -404,73 +116,93 @@
       <closed/>
     </day>
     <day date="2026-02-04">
-      <category name="Entrée (07:00 - 18:00)">
+      <category name="Entrée">
         <meal>
           <name>Soupe de carottes au gingembre</name>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
+          <note>Soja et produits à base de soja</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Végétarien (07:00 - 18:00)">
+      <category name="Végétarien">
         <meal>
           <name>Nems aux haricots mungo, champignons, carottes et tofu</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Soja et produits à base de soja</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Non-végétarien (07:00 - 18:00)">
+      <category name="Non-végétarien">
         <meal>
           <name>Poulet, sauce aux cacahuètes</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Arachides et produits à base d‘arachides</note>
+          <note>Céleri et produits à base de céleri</note>
           <note>Produit sans gluten</note>
+          <note>Soja et produits à base de soja</note>
           <note>non-végétarien</note>
           <note>produit constant</note>
         </meal>
       </category>
-      <category name="Féculents (07:00 - 18:00)">
+      <category name="Féculents">
         <meal>
           <name>Riz pilaf</name>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
+          <note>Soja et produits à base de soja</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Légumes (07:00 - 18:00)">
+      <category name="Légumes">
         <meal>
           <name>Chou romanesco à l'ail</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Dessert (07:00 - 18:00)">
+      <category name="Dessert">
         <meal>
           <name>Fruits frais découpés</name>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Collation après-midi (07:00 - 18:00)">
+      <category name="Collation après-midi">
         <meal>
           <name>Mousse bananes et coco, fruits coupés</name>
-          <note>Produit sans gluten</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Fruits à coque et produits à base de ces fruits (Amandes)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans sucre</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
         <meal>
           <name>Tartine oeuf Mimosa</name>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Moutarde et produits à base de moutarde</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="12.2 Emballages et articles à usage unique (07:00 - 18:00)">
+      <category name="12.2 Emballages et articles à usage unique">
         <meal>
           <name>Couvercle pour barquette à emporter</name>
           <note>produit constant</note>
         </meal>
       </category>
-      <category name="13. DayCare (07:00 - 18:00)">
+      <category name="13. DayCare">
         <meal>
           <name>DayCare (gratuit) - Collation du matin</name>
           <note>produit constant</note>
@@ -489,61 +221,83 @@
       <closed/>
     </day>
     <day date="2026-02-06">
-      <category name="Entrée (07:00 - 18:00)">
+      <category name="Entrée">
         <meal>
           <name>Soupe à l'oignon</name>
-          <note>Produit sans gluten</note>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Soja et produits à base de soja</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Végétarien (07:00 - 18:00)">
+      <category name="Végétarien">
         <meal>
           <name>Chili aux haricots rouges, dip fromage blanc</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Moutarde et produits à base de moutarde</note>
           <note>Produit sans gluten</note>
+          <note>Soja et produits à base de soja</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Non-végétarien (07:00 - 18:00)">
+      <category name="Non-végétarien">
         <meal>
           <name>Escalope de porc panée, sauce crème champignons</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Oeufs et produits à base d‘oeufs</note>
           <note>non-végétarien</note>
           <note>produit constant</note>
         </meal>
       </category>
-      <category name="Féculents (07:00 - 18:00)">
+      <category name="Féculents">
         <meal>
           <name>Polenta crémeuse</name>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
+          <note>Soja et produits à base de soja</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
         <meal>
           <name>Pommes de terre "wedges" maison</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Légumes (07:00 - 18:00)">
+      <category name="Légumes">
         <meal>
           <name>Petits pois aux oignons et persil</name>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Dessert (07:00 - 18:00)">
+      <category name="Dessert">
         <meal>
           <name>Fruits frais découpés</name>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Collation après-midi (07:00 - 18:00)">
+      <category name="Collation après-midi">
         <meal>
           <name>Focaccia aux champignons</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Soja et produits à base de soja</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
@@ -554,13 +308,13 @@
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="12.2 Emballages et articles à usage unique (07:00 - 18:00)">
+      <category name="12.2 Emballages et articles à usage unique">
         <meal>
           <name>Couvercle pour barquette à emporter</name>
           <note>produit constant</note>
         </meal>
       </category>
-      <category name="13. DayCare (07:00 - 18:00)">
+      <category name="13. DayCare">
         <meal>
           <name>DayCare (gratuit) - Collation du matin</name>
           <note>produit constant</note>
@@ -585,7 +339,10 @@
       <category name="Entrée (07:00 - 18:00)">
         <meal>
           <name>Soupe aux petits pois</name>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
+          <note>Soja et produits à base de soja</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
@@ -601,6 +358,8 @@
       <category name="Non-végétarien (07:00 - 18:00)">
         <meal>
           <name>Biryani de boeuf</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
           <note>non-végétarien</note>
           <note>produit constant</note>
@@ -1125,6 +884,262 @@
     <day date="2026-02-22">
       <closed/>
     </day>
+    <day date="2026-02-23">
+      <category name="Entrée (07:00 - 18:00)">
+        <meal>
+          <name>Potage au potiron</name>
+          <note>Produit sans gluten</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Végétarien (07:00 - 18:00)">
+        <meal>
+          <name>Tajine de pois chiches et butternut</name>
+          <note>Produit sans gluten</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Non-végétarien (07:00 - 18:00)">
+        <meal>
+          <name>Saucisse paysanne, sauce à la moutarde</name>
+          <note>Produit sans gluten</note>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="Féculents (07:00 - 18:00)">
+        <meal>
+          <name>Purée de pommes de terre au beurre et à la ciboulette</name>
+          <note>Produit sans gluten</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Légumes (07:00 - 18:00)">
+        <meal>
+          <name>Petits pois aux oignons et persil</name>
+          <note>Produit sans gluten</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Dessert (07:00 - 18:00)">
+        <meal>
+          <name>Fruits frais découpés</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Collation après-midi (07:00 - 18:00)">
+        <meal>
+          <name>Flaguette au hoummous et crudités</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Yaourt grec, pommes au four, fruits coupés</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="12.2 Emballages et articles à usage unique (07:00 - 18:00)">
+        <meal>
+          <name>Couvercle pour barquette à emporter</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="13. DayCare (07:00 - 18:00)">
+        <meal>
+          <name>DayCare (gratuit) - Collation du matin</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>DayCare (gratuit) - Goûter</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>DayCare (gratuit) - Petit Déjeuner</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-02-24">
+      <closed/>
+    </day>
+    <day date="2026-02-25">
+      <category name="Entrée (07:00 - 18:00)">
+        <meal>
+          <name>Velouté de poireaux</name>
+          <note>Produit sans gluten</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Végétarien (07:00 - 18:00)">
+        <meal>
+          <name>Tarte flambée aux champignons et oignons fanes</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Non-végétarien (07:00 - 18:00)">
+        <meal>
+          <name>Poulet à la Kiev</name>
+          <note>Produit du Luxembourg</note>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="Féculents (07:00 - 18:00)">
+        <meal>
+          <name>Pommes de terre grenailles rôties</name>
+          <note>Produit sans gluten</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Légumes (07:00 - 18:00)">
+        <meal>
+          <name>Dés de céleri rave à l'ail</name>
+          <note>Produit sans gluten</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Dessert (07:00 - 18:00)">
+        <meal>
+          <name>Fruits frais découpés</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Collation après-midi (07:00 - 18:00)">
+        <meal>
+          <name>Cookie coco, crème coco, fruits coupés</name>
+          <note>Produit sans sucre</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Tartine au fromage</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="12.2 Emballages et articles à usage unique (07:00 - 18:00)">
+        <meal>
+          <name>Couvercle pour barquette à emporter</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="13. DayCare (07:00 - 18:00)">
+        <meal>
+          <name>DayCare (gratuit) - Collation du matin</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>DayCare (gratuit) - Goûter</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>DayCare (gratuit) - Petit Déjeuner</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-02-26">
+      <closed/>
+    </day>
+    <day date="2026-02-27">
+      <category name="Entrée (07:00 - 18:00)">
+        <meal>
+          <name>Bouillon de légumes</name>
+          <note>Produit sans gluten</note>
+          <note>produit constant</note>
+          <note>végan</note>
+        </meal>
+      </category>
+      <category name="Végétarien (07:00 - 18:00)">
+        <meal>
+          <name>Riz sauté à l'omelette, brocolis, oignons fanes et carottes</name>
+          <note>Produit sans gluten</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Non-végétarien (07:00 - 18:00)">
+        <meal>
+          <name>Cordon bleu de porc non pané, sauce crème champignons</name>
+          <note>Produit sans gluten</note>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="Féculents (07:00 - 18:00)">
+        <meal>
+          <name>Polenta crémeuse</name>
+          <note>Produit sans gluten</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Légumes (07:00 - 18:00)">
+        <meal>
+          <name>Carottes aux échalotes</name>
+          <note>Produit sans gluten</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Dessert (07:00 - 18:00)">
+        <meal>
+          <name>Fruits frais découpés</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Collation après-midi (07:00 - 18:00)">
+        <meal>
+          <name>Feuilleté à l'Emmental</name>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Yaourt nature/ aux fruits, fruits coupés</name>
+          <note>Produit sans gluten</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="12.2 Emballages et articles à usage unique (07:00 - 18:00)">
+        <meal>
+          <name>Couvercle pour barquette à emporter</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="13. DayCare (07:00 - 18:00)">
+        <meal>
+          <name>DayCare (gratuit) - Collation du matin</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>DayCare (gratuit) - Goûter</name>
+          <note>produit constant</note>
+        </meal>
+        <meal>
+          <name>DayCare (gratuit) - Petit Déjeuner</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-02-28">
+      <closed/>
+    </day>
+    <day date="2026-03-01">
+      <closed/>
+    </day>
   </canteen>
 </openmensa>
 
@@ -1136,11 +1151,11 @@
 
 <!-- Theme day: Fermeture [restaurant=1346] -->
 
-<!-- Theme day: Fermeture [restaurant=1346] -->
-
-<!-- Theme day: Fermeture [restaurant=1346] -->
-
 <!-- Theme day: Menu Saint-Valentin [restaurant=1346] -->
+
+<!-- Theme day: Fermeture [restaurant=1346] -->
+
+<!-- Theme day: Fermeture [restaurant=1346] -->
 
 <!-- Theme day: Fermeture [restaurant=1346] -->
 
