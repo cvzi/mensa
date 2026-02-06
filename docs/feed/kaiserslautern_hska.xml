@@ -3,49 +3,21 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2026-02-05">
-      <category name="Essen I Drehkreuz/Ampel">
-        <meal>
-          <name>Ungarische Gulaschsuppe, dazu eine Dampfnudel und Vanillesoße</name>
-          <note>Eier und Eierzeugnisse</note>
-          <note>Farbstoff</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Laktose</note>
-          <note>Rind</note>
-          <note>Schwefeldioxid ("SO2") und Sulfite</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <note>geschwefelt</note>
-          <note>kann Restalkohol enthalten</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
-      </category>
-      <category name="Essen II Drehkreuz/Ampel">
-        <meal>
-          <name>Kürbiscremesuppe, garniert mit Creme fraiche und gerösteten Kürbiskernen, dazu eine Dampfnudel und Vanillesoße</name>
-          <note>Eier und Eierzeugnisse</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Laktose</note>
-          <note>Vegetarisches Menü</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
-      </category>
-    </day>
     <day date="2026-02-06">
       <category name="Essen I Drehkreuz/Ampel">
         <meal>
           <name>Feurige Rindfleischstreifen mit Gemüse auf Kräuterreis, garniert mit Wasabi-Creme und Edamame, dazu Salat</name>
+          <note>Antioxidationsmittel</note>
+          <note>Eier und Eierzeugnisse</note>
           <note>Farbstoff</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Krebstiere (Krusten- und Schalentiere)</note>
           <note>Rind</note>
+          <note>Schwefeldioxid ("SO2") und Sulfite</note>
           <note>Senf</note>
           <note>Sesam</note>
           <note>Soja</note>
+          <note>geschwefelt</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
           <price role="student">5.55</price>
@@ -53,9 +25,10 @@
       </category>
       <category name="Essen II Drehkreuz/Ampel">
         <meal>
-          <name>Süßkartoffel-Curry mit Beluga Linsen,Kichererbsen,Paprika, dazu Naanbrot oder Kräuterreis und Salat</name>
+          <name>Süßkartoffel-Curry mit Beluga Linsen,Kichererbsen und Paprika, dazu Naanbrot oder Kräuterreis und Salat</name>
           <note>Plant-based Menü</note>
           <note>Senf</note>
+          <note>Soja</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
           <price role="student">5.55</price>
@@ -90,18 +63,6 @@
       </category>
     </day>
     <day date="2026-02-10">
-      <category name="Essen I Drehkreuz/Ampel">
-        <meal>
-          <name>Pulled-Turkey in BBQ-Soße auf Steakhouse-Fries garniert mit Soure Creme,Paprika,Jalapenos, dazu Salat</name>
-          <note>Geflügel</note>
-          <note>Laktose</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
-      </category>
       <category name="Essen II Drehkreuz/Ampel">
         <meal>
           <name>Buntes Schmorgemüse auf Cremiger Polenta garniert mit Bergkäse und Röstzwiebel und Salat</name>
@@ -114,8 +75,32 @@
           <price role="student">5.55</price>
         </meal>
       </category>
+      <category name="Essen I Drehkreuz/Ampel">
+        <meal>
+          <name>Pulled-Turkey in BBQ-Soße auf Steakhouse-Fries garniert mit Soure Creme,Paprika,Jalapenos, dazu Salat</name>
+          <note>Geflügel</note>
+          <note>Laktose</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+      </category>
     </day>
     <day date="2026-02-11">
+      <category name="Essen II Drehkreuz/Ampel">
+        <meal>
+          <name>Gefüllte Ofenkartoffel mit Feta,Paprika,Oliven,Tomaten,Zwiebeln und Kichererbsen garniert mit Dattel-Hummus und Petersilie dazu Salat</name>
+          <note>Farbstoff</note>
+          <note>Laktose</note>
+          <note>Plant-based Menü</note>
+          <note>Senf</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+      </category>
       <category name="Essen I Drehkreuz/Ampel">
         <meal>
           <name>Hähnchenbrust mit Pesto-Sahne Soße dazu Pasta und Salat</name>
@@ -129,20 +114,20 @@
           <price role="student">5.55</price>
         </meal>
       </category>
+    </day>
+    <day date="2026-02-12">
       <category name="Essen II Drehkreuz/Ampel">
         <meal>
-          <name>Gefüllte Ofenkartoffel mit Feta,Paprika,Oliven,Tomaten,Zwiebeln und Kichererbsen garniert mit Dattel-Hummus und Petersilie dazu Salat</name>
-          <note>Farbstoff</note>
+          <name>Bulgur Gemüse Pfanne mit Broccoli,Erbsen,getrockneten Tomaten und Lauch garniert mit Rote Beete Tzatziki und Röstzwiebel und Salat</name>
+          <note>Glutenhaltiges Getreide</note>
           <note>Laktose</note>
-          <note>Plant-based Menü</note>
+          <note>Sellerie</note>
           <note>Senf</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
           <price role="student">5.55</price>
         </meal>
       </category>
-    </day>
-    <day date="2026-02-12">
       <category name="Essen I Drehkreuz/Ampel">
         <meal>
           <name>Rindergeschnetzeltes Stroganoff mit Zwiebeln, Gewürzgurke, Champignons und Paprika dazu Knöpfle und Salat</name>
@@ -156,18 +141,6 @@
           <note>Senf</note>
           <note>Süßungsmittel</note>
           <note>geschwefelt</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
-      </category>
-      <category name="Essen II Drehkreuz/Ampel">
-        <meal>
-          <name>Bulgur Gemüse Pfanne mit Broccoli,Erbsen,getrockneten Tomaten und Lauch garniert mit Rote Beete Tzatziki und Röstzwiebel und Salat</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Laktose</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
           <price role="student">5.55</price>
@@ -246,6 +219,19 @@
       </category>
     </day>
     <day date="2026-02-19">
+      <category name="Essen II Drehkreuz/Ampel">
+        <meal>
+          <name>Falafel-Bällchen, mit Gemüse Cous Cous und Sesam-Jogurt Dip dazu Salat</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Laktose</note>
+          <note>Sellerie</note>
+          <note>Sesam</note>
+          <note>Vegetarisches Menü</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+      </category>
       <category name="Essen I Drehkreuz/Ampel">
         <meal>
           <name>Putengyros mit Tzatziki und Pommes frites, dazu Salat</name>
@@ -260,33 +246,23 @@
           <price role="student">5.55</price>
         </meal>
       </category>
-      <category name="Essen II Drehkreuz/Ampel">
-        <meal>
-          <name>Falafel-Bällchen, mit Gemüse Cous Cous und Sesam-Jogurt Dip dazu Salat</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Laktose</note>
-          <note>Sellerie</note>
-          <note>Sesam</note>
-          <note>Vegetarisches Menü</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
-      </category>
     </day>
     <day date="2026-02-20">
       <category name="Essen I Drehkreuz/Ampel">
         <meal>
-          <name>Hausgemachte Erbsen Suppe mit Wiener Würstchen und Brötchen dazu Salat</name>
+          <name>Hausgemachte Erbsen Suppe mit Wiener Würstchen oder Rinds Würstchen und Brötchen dazu Salat</name>
           <note>Antioxidationsmittel</note>
           <note>Farbstoff</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Konservierungsstoff</note>
+          <note>Lamm</note>
           <note>Phosphat</note>
+          <note>Rind</note>
           <note>Schwefeldioxid ("SO2") und Sulfite</note>
           <note>Schwein</note>
           <note>Sellerie</note>
           <note>Senf</note>
+          <note>Süßungsmittel</note>
           <note>geschwefelt</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
