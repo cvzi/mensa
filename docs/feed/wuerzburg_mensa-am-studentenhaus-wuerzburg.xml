@@ -3,58 +3,8 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2026-02-16">
-      <category name="Mensa">
-        <meal>
-          <name>Spinatknödel mit Frischkäsesoße</name>
-          <note>Eier</note>
-          <note>Gerste</note>
-          <note>Knoblauch</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Sellerie</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">4.70</price>
-          <price role="other">5.65</price>
-          <price role="student">3.35</price>
-        </meal>
-        <meal>
-          <name>Currywurst vom Grill</name>
-          <note>Rind/Kalb</note>
-          <note>Schwein</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <note>konserviert</note>
-          <note>mit Antioxidationsmittel</note>
-          <note>mit Farbstoff</note>
-          <note>mit Phosphat</note>
-          <note>mit Süßungsmittel</note>
-          <price role="employee">4.15</price>
-          <price role="other">5.10</price>
-          <price role="student">2.80</price>
-        </meal>
-      </category>
-      <category name="Vegan">
-        <meal>
-          <name>mensaVital: Linguine mit hausgemachten veganem Rucola Nusspesto Gurkensalat</name>
-          <note>Cashewnüsse</note>
-          <note>Knoblauch</note>
-          <note>Mandeln</note>
-          <note>Schalenfrüchte</note>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>Senf</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>mit Antioxidationsmittel</note>
-          <price role="employee">4.45</price>
-          <price role="other">5.40</price>
-          <price role="student">3.10</price>
-        </meal>
-      </category>
-    </day>
     <day date="2026-02-17">
-      <category name="Mensa">
+      <category name="Fleischlos">
         <meal>
           <name>Penne "al Arrabbiata" mit Grana Padano</name>
           <note>Knoblauch</note>
@@ -70,6 +20,8 @@
           <price role="other">5.10</price>
           <price role="student">2.80</price>
         </meal>
+      </category>
+      <category name="Vegan">
         <meal>
           <name>Gebratener Reis mit Asiagemüse</name>
           <note>Cashewnüsse</note>
@@ -86,6 +38,8 @@
           <price role="other">5.65</price>
           <price role="student">3.35</price>
         </meal>
+      </category>
+      <category name="Gefluegel">
         <meal>
           <name>Paniertes Putenschnitzel</name>
           <note>Geflügel</note>
@@ -98,7 +52,7 @@
       </category>
     </day>
     <day date="2026-02-18">
-      <category name="Mensa">
+      <category name="Rind">
         <meal>
           <name>Spaghetti "alla Bolognese" aus reinem frischen Rinderhackfleisch &amp; geriebenen Grana Padano</name>
           <note>Knoblauch</note>
@@ -112,6 +66,8 @@
           <price role="other">6.75</price>
           <price role="student">4.35</price>
         </meal>
+      </category>
+      <category name="Fisch">
         <meal>
           <name>Matjesfilet "Hausfrauen Art"</name>
           <note>Eier</note>
@@ -167,7 +123,7 @@
           <price role="student">3.35</price>
         </meal>
       </category>
-      <category name="Mensa">
+      <category name="Fleischlos">
         <meal>
           <name>Rahmspinat mit Rührei und Dampfkartoffeln</name>
           <note>Eier</note>
@@ -181,6 +137,8 @@
           <price role="other">5.95</price>
           <price role="student">3.65</price>
         </meal>
+      </category>
+      <category name="Rind">
         <meal>
           <name>Chili con Carne aus reinem frischen Rinderhack mit Tabasco &amp; Sour Cream</name>
           <note>Milch (einschließlich Lactose)</note>
@@ -195,7 +153,7 @@
       </category>
     </day>
     <day date="2026-02-20">
-      <category name="Mensa">
+      <category name="Schwein">
         <meal>
           <name>Medaillons von der Schweinelende an Rahmsoße</name>
           <note>Alkohol</note>
@@ -213,6 +171,8 @@
           <price role="other">5.95</price>
           <price role="student">3.65</price>
         </meal>
+      </category>
+      <category name="Vegan">
         <meal>
           <name>"Spanische Gemüsepaella" mit mediterranem gegrillten Gemüse und Safran Reis</name>
           <note>Knoblauch</note>
@@ -232,6 +192,8 @@
           <price role="other">5.65</price>
           <price role="student">3.35</price>
         </meal>
+      </category>
+      <category name="Fisch">
         <meal>
           <name>Seelachsfilet gebacken dazu Kartoffelsalat</name>
           <note>Fisch</note>
@@ -247,7 +209,7 @@
       </category>
     </day>
     <day date="2026-02-23">
-      <category name="Mensa">
+      <category name="Fleischlos">
         <meal>
           <name>mensaVital: Schupfnudel - Pfanne mit Gemüse und Pilzen</name>
           <note>Eier</note>
@@ -259,6 +221,17 @@
           <price role="other">5.65</price>
           <price role="student">3.35</price>
         </meal>
+      </category>
+      <category name="Vegan">
+        <meal>
+          <name>Veganer Hotpot "Tandoori Style"</name>
+          <note>Knoblauch</note>
+          <price role="employee">4.15</price>
+          <price role="other">5.10</price>
+          <price role="student">2.80</price>
+        </meal>
+      </category>
+      <category name="Gefluegel">
         <meal>
           <name>Hähnchenfiletspieß mit Erdnusssoße dazu Wildreis</name>
           <note>Erdnüsse</note>
@@ -272,18 +245,9 @@
           <price role="student">3.10</price>
         </meal>
       </category>
-      <category name="Vegan">
-        <meal>
-          <name>Veganer Hotpot "Tandoori Style"</name>
-          <note>Knoblauch</note>
-          <price role="employee">4.15</price>
-          <price role="other">5.10</price>
-          <price role="student">2.80</price>
-        </meal>
-      </category>
     </day>
     <day date="2026-02-24">
-      <category name="Mensa">
+      <category name="Schwein">
         <meal>
           <name>Gyros vom Schwein mit hausgemachtem Tsatsiki und Knoblauchkartoffeln</name>
           <note>Knoblauch</note>
@@ -293,6 +257,8 @@
           <price role="other">5.95</price>
           <price role="student">3.65</price>
         </meal>
+      </category>
+      <category name="Fleischlos">
         <meal>
           <name>Überbackene Cannelloni mit Ricotta &amp; Spinatfüllung</name>
           <note>Gerste</note>
@@ -309,8 +275,6 @@
           <price role="other">5.40</price>
           <price role="student">3.10</price>
         </meal>
-      </category>
-      <category name="Vegan">
         <meal>
           <name>Süßkartoffel - Amaranth - Bratling an veganer Wildkräuterjus mit hausgemachtem Kartoffel - Pastinakenpüree</name>
           <note>Alkohol</note>
@@ -327,7 +291,7 @@
       </category>
     </day>
     <day date="2026-02-25">
-      <category name="Mensa">
+      <category name="Fleischlos">
         <meal>
           <name>Chili sin carne "Texas Style" dazu Crinkle Wedges</name>
           <note>Milch (einschließlich Lactose)</note>
@@ -347,6 +311,8 @@
           <price role="other">5.10</price>
           <price role="student">2.80</price>
         </meal>
+      </category>
+      <category name="Gefluegel">
         <meal>
           <name>Hähnchenpfanne "Musakhan" auf Fladenbrot</name>
           <note>Geflügel</note>
@@ -361,7 +327,7 @@
       </category>
     </day>
     <day date="2026-02-26">
-      <category name="Mensa">
+      <category name="Vegan">
         <meal>
           <name>Gebackene Frühlingsrolle mit Sweet - Chili - Dip</name>
           <note>Sellerie</note>
@@ -372,6 +338,8 @@
           <price role="other">5.65</price>
           <price role="student">3.35</price>
         </meal>
+      </category>
+      <category name="Fleischlos">
         <meal>
           <name>Waldpilzpfanne mit Eierbandnudeln</name>
           <note>Eier</note>
@@ -383,6 +351,8 @@
           <price role="other">6.15</price>
           <price role="student">3.80</price>
         </meal>
+      </category>
+      <category name="Schwein">
         <meal>
           <name>Ofenfrischer Schweinekammbraten in Biersoße</name>
           <note>Gerste</note>
@@ -420,7 +390,7 @@
           <price role="student">3.35</price>
         </meal>
       </category>
-      <category name="Mensa">
+      <category name="Fisch">
         <meal>
           <name>Lachsnudeln in Sahnesoße</name>
           <note>Alkohol</note>
@@ -436,6 +406,8 @@
           <price role="other">7.15</price>
           <price role="student">4.75</price>
         </meal>
+      </category>
+      <category name="Schwein">
         <meal>
           <name>Schweinerückensteak mit Jägersoße &amp; Speckwürfel</name>
           <note>Eier</note>
