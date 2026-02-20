@@ -3,87 +3,34 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2026-02-19">
+    <day date="2026-02-20">
       <category name="Tellergericht">
         <meal>
-          <name>Vegan : bunte Gemüsesuppe Teller</name>
+          <name>Kartoffelsuppe mit Wienerscheiben Teller</name>
+          <note>Schweinefleisch</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>geschwefelt</note>
           <note>jodiertes Salz</note>
+          <note>mit Antioxidationsmittel</note>
+          <note>mit Konservierungsstoff</note>
+          <note>mit Phosphat</note>
           <price role="employee">2.60</price>
           <price role="other">3.65</price>
           <price role="student">1.50</price>
         </meal>
         <meal>
-          <name>Vegan Bunte Gemüsesuppe Terrine</name>
-          <note>jodiertes Salz</note>
+          <name>Kartoffelsuppe mit Wienerscheiben Terrine</name>
+          <note>Schweinefleisch</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>geschwefelt</note>
+          <note>mit Antioxidationsmittel</note>
+          <note>mit Konservierungsstoff</note>
+          <note>mit Phosphat</note>
           <price role="employee">3.75</price>
           <price role="other">5.10</price>
           <price role="student">2.20</price>
         </meal>
       </category>
-      <category name="Komponente 2">
-        <meal>
-          <name>Schmorkohl mit Hackfleisch</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Rindfleisch</note>
-          <note>Schweinefleisch</note>
-          <note>jodiertes Salz</note>
-          <price role="employee">3.35</price>
-          <price role="other">4.45</price>
-          <price role="student">2.25</price>
-        </meal>
-      </category>
-      <category name="Vegane Komponente 1">
-        <meal>
-          <name>planted.kebap [aus Erbsenprotein]  
- mit Tzaziki [mit Knoblauch und Zwiebel]</name>
-          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
-          <note>jodiertes Salz</note>
-          <note>mit Antioxidationsmittel</note>
-          <price role="employee">3.35</price>
-          <price role="other">4.45</price>
-          <price role="student">2.25</price>
-        </meal>
-      </category>
-      <category name="Beilagen">
-        <meal>
-          <name>Salzkartoffeln</name>
-          <note>geschwefelt</note>
-          <note>jodiertes Salz</note>
-          <price role="employee">1.30</price>
-          <price role="other">1.80</price>
-          <price role="student">0.80</price>
-        </meal>
-        <meal>
-          <name>Basmatireis</name>
-          <note>jodiertes Salz</note>
-          <price role="employee">1.30</price>
-          <price role="other">1.80</price>
-          <price role="student">0.80</price>
-        </meal>
-        <meal>
-          <name>Pommes Frites</name>
-          <price role="employee">1.60</price>
-          <price role="other">2.10</price>
-          <price role="student">1.10</price>
-        </meal>
-      </category>
-      <category name="Gemüse">
-        <meal>
-          <name>Weisskrautsalat</name>
-          <note>jodiertes Salz</note>
-          <note>mit Antioxidationsmittel</note>
-          <price role="employee">1.30</price>
-          <price role="other">1.80</price>
-          <price role="student">0.80</price>
-        </meal>
-      </category>
-      <category name="Salate und Desserts">
-        <meal>
-          <name>Frische Salate und verschiedene Desserts stehen zur Auswahl.</name>
-        </meal>
-      </category>
-    </day>
-    <day date="2026-02-20">
       <category name="Komponente 3">
         <meal>
           <name>Hähnchen-Rahmsteak (15,Gefl,G,A)</name>
@@ -92,9 +39,25 @@
           <price role="student">2.25</price>
         </meal>
       </category>
+      <category name="Komponente 5">
+        <meal>
+          <name>Jägerschnitzel (pan. Jagdwurstscheibe) mit Tomatensauce</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Schweinefleisch</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
+          <note>jodiertes Salz</note>
+          <note>mit Antioxidationsmittel</note>
+          <note>mit Konservierungsstoff</note>
+          <note>mit Phosphat</note>
+          <price role="employee">2.15</price>
+          <price role="other">2.25</price>
+          <price role="student">2.05</price>
+        </meal>
+      </category>
       <category name="Vegane Komponente 1">
         <meal>
-          <name>Bami Goreng mit Reis Nudeln</name>
+          <name>Bami Goreng mit Nudeln</name>
           <note>Glutenhaltiges Getreide</note>
           <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
           <note>jodiertes Salz</note>
@@ -107,11 +70,18 @@
       </category>
       <category name="Beilagen">
         <meal>
-          <name>Reis</name>
+          <name>gedrehte Röhrennudeln</name>
+          <note>Glutenhaltiges Getreide</note>
           <note>jodiertes Salz</note>
           <price role="employee">1.30</price>
           <price role="other">1.80</price>
           <price role="student">0.80</price>
+        </meal>
+        <meal>
+          <name>Pommes Frites</name>
+          <price role="employee">1.60</price>
+          <price role="other">2.10</price>
+          <price role="student">1.10</price>
         </meal>
       </category>
       <category name="Gemüse">
@@ -164,19 +134,9 @@
           <note>geschwefelt</note>
           <note>jodiertes Salz</note>
           <note>mit Farbstoff</note>
-          <price role="employee">3.35</price>
+          <price role="employee">3.45</price>
           <price role="other">0.00</price>
-          <price role="student">0.00</price>
-        </meal>
-      </category>
-      <category name="Nudeltheke: Pasta nach Gewicht (pro 100g)">
-        <meal>
-          <name>Pastateller: Spaghetti mit Gemüsecarbonara mit Paprika und Zucchini [vegan]</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
-          <price role="employee">1.10</price>
-          <price role="other">1.55</price>
-          <price role="student">0.65</price>
+          <price role="student">2.25</price>
         </meal>
       </category>
       <category name="Beilagen">
@@ -411,7 +371,14 @@
       </category>
       <category name="Komponente 3">
         <meal>
-          <name>Hähnchenschnitzel Art "Cordon bleu" mit Rahmsoße (2,3,9,Gefl,G,A)</name>
+          <name>pan. Hähnchenbrust Piccata (Gefl,G,A) 
+ mit Basilikum-Käsesauce</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <note>Schwefeldioxid und Sulphite in Konzentration von mehr als 10mg/kg oder 10mg/l, als SO2 angegeben</note>
+          <note>alkoholhaltig </note>
+          <note>jodiertes Salz</note>
           <price role="employee">3.35</price>
           <price role="other">4.45</price>
           <price role="student">2.25</price>
