@@ -29,7 +29,7 @@
           <price role="student">0.75</price>
         </meal>
         <meal>
-          <name>VEGAN: Wirsingeintopf Kaiserbrötchen</name>
+          <name>VEGAN: Krauteintopf Kaiserbrötchen</name>
           <note>Gluten</note>
           <note>Hafer</note>
           <note>Sellerie</note>
@@ -40,8 +40,13 @@
       </category>
       <category name="Beilage">
         <meal>
-          <name>VEGAN: Balkangemüse </name>
-          <note>Sellerie</note>
+          <name>Salat </name>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Dessert </name>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
@@ -53,13 +58,8 @@
           <price role="student">0.95</price>
         </meal>
         <meal>
-          <name>Dessert </name>
-          <price role="employee">0.95</price>
-          <price role="other">3.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Salat </name>
+          <name>VEGAN: Balkangemüse </name>
+          <note>Sellerie</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
@@ -106,21 +106,10 @@
       </category>
       <category name="QUERBEET">
         <meal>
-          <name>VEGAN: Protein Pasta Salat,  Dessert,  Cashewkerne</name>
-          <note>Chashewkerne/Kaschunüsse</note>
-          <note>Gluten</note>
-          <note>Soja</note>
-          <note>Weizen</note>
-          <price role="employee">5.10</price>
-          <price role="other">12.65</price>
-          <price role="student">2.80</price>
-        </meal>
-        <meal>
-          <name>VEGETARISCH: Milchreis </name>
-          <note>Soja</note>
-          <price role="employee">4.00</price>
-          <price role="other">7.65</price>
-          <price role="student">1.85</price>
+          <name>Salatbuffet in Selbstbedienung,  je 100g (Preis je 100g)</name>
+          <price role="employee">0.95</price>
+          <price role="other">2.90</price>
+          <price role="student">0.75</price>
         </meal>
         <meal>
           <name>VEGAN: Kartoffelcremesuppe Kaiserbrötchen</name>
@@ -133,34 +122,26 @@
           <price role="student">1.85</price>
         </meal>
         <meal>
-          <name>Salatbuffet in Selbstbedienung,  je 100g (Preis je 100g)</name>
-          <price role="employee">0.95</price>
-          <price role="other">2.90</price>
-          <price role="student">0.75</price>
+          <name>VEGETARISCH: Milchreis </name>
+          <note>Soja</note>
+          <price role="employee">4.00</price>
+          <price role="other">7.65</price>
+          <price role="student">1.85</price>
+        </meal>
+        <meal>
+          <name>VEGAN: Protein Pasta Salat,  Dessert,  Cashewkerne</name>
+          <note>Chashewkerne/Kaschunüsse</note>
+          <note>Gluten</note>
+          <note>Soja</note>
+          <note>Weizen</note>
+          <price role="employee">5.10</price>
+          <price role="other">12.65</price>
+          <price role="student">2.80</price>
         </meal>
       </category>
       <category name="Beilage">
         <meal>
-          <name>VEGAN: Blumenkohl </name>
-          <price role="employee">0.95</price>
-          <price role="other">3.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>VEGAN: Fusilli </name>
-          <note>Weizen</note>
-          <price role="employee">0.95</price>
-          <price role="other">3.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>VEGAN: Basmatireis </name>
-          <price role="employee">0.95</price>
-          <price role="other">3.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>VEGAN: Mischgemüse </name>
+          <name>Salat </name>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
@@ -172,7 +153,26 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Salat </name>
+          <name>VEGAN: Blumenkohl </name>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>VEGAN: Mischgemüse </name>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>VEGAN: Basmatireis </name>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>VEGAN: Fusilli </name>
+          <note>Weizen</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
@@ -223,12 +223,6 @@
       </category>
       <category name="Beilage">
         <meal>
-          <name>VEGAN: Risoléekartoffeln </name>
-          <price role="employee">1.50</price>
-          <price role="other">4.45</price>
-          <price role="student">0.95</price>
-        </meal>
-        <meal>
           <name>Salat </name>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
@@ -239,6 +233,12 @@
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>VEGAN: Risoléekartoffeln </name>
+          <price role="employee">1.50</price>
+          <price role="other">4.45</price>
+          <price role="student">0.95</price>
         </meal>
         <meal>
           <name>VEGAN: Erbsen </name>
@@ -351,16 +351,6 @@
     <day date="2026-03-13">
       <category name="QUERBEET">
         <meal>
-          <name>VEGAN: Schnitzel Pommes frites,  Ketchup,  Mayonnaise,  Salat</name>
-          <note>Gluten</note>
-          <note>Laktose</note>
-          <note>Senf</note>
-          <note>Weizen</note>
-          <price role="employee">5.30</price>
-          <price role="other">14.10</price>
-          <price role="student">3.10</price>
-        </meal>
-        <meal>
           <name>Salatbuffet in Selbstbedienung,  je 100g (Preis je 100g)</name>
           <price role="employee">0.95</price>
           <price role="other">2.90</price>
@@ -373,6 +363,16 @@
           <price role="employee">4.00</price>
           <price role="other">7.65</price>
           <price role="student">1.85</price>
+        </meal>
+        <meal>
+          <name>VEGAN: Schnitzel Pommes frites,  Ketchup,  Mayonnaise,  Salat</name>
+          <note>Gluten</note>
+          <note>Laktose</note>
+          <note>Senf</note>
+          <note>Weizen</note>
+          <price role="employee">5.30</price>
+          <price role="other">14.10</price>
+          <price role="student">3.10</price>
         </meal>
       </category>
       <category name="WORLDWIDE">
@@ -405,17 +405,16 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>VEGAN: Kaisergemüse </name>
+          <name>Dessert </name>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>VEGAN: Tomatennudeln </name>
-          <note>Weizen</note>
-          <price role="employee">1.50</price>
-          <price role="other">4.45</price>
-          <price role="student">0.95</price>
+          <name>VEGAN: Kaisergemüse </name>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
         </meal>
         <meal>
           <name>VEGAN: Basmatireis </name>
@@ -430,10 +429,11 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Dessert </name>
-          <price role="employee">0.95</price>
-          <price role="other">3.00</price>
-          <price role="student">0.65</price>
+          <name>VEGAN: Tomatennudeln </name>
+          <note>Weizen</note>
+          <price role="employee">1.50</price>
+          <price role="other">4.45</price>
+          <price role="student">0.95</price>
         </meal>
       </category>
     </day>
@@ -571,7 +571,7 @@
           <price role="student">0.95</price>
         </meal>
         <meal>
-          <name>VEGAN: Mischgemüse </name>
+          <name>Salat </name>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
@@ -589,7 +589,7 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Salat </name>
+          <name>VEGAN: Mischgemüse </name>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
@@ -832,6 +832,84 @@
           <name>VEGAN: Fusilli </name>
           <note>Gluten</note>
           <note>Weizen</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-03-23">
+      <category name="HEIMSPIEL">
+        <meal>
+          <name>Schweineschnitzel Zwiebelrahmsauce,  Kroketten,  Salat,  Dessert</name>
+          <note>Gluten</note>
+          <note>Laktose</note>
+          <note>Milch</note>
+          <note>Weizen</note>
+          <price role="employee">5.60</price>
+          <price role="other">15.10</price>
+          <price role="student">3.30</price>
+        </meal>
+      </category>
+      <category name="QUERBEET">
+        <meal>
+          <name>VEGAN: Indischer Spinat Kichererbsenreis,  Salat,  Dessert</name>
+          <note>Soja</note>
+          <price role="employee">5.30</price>
+          <price role="other">14.10</price>
+          <price role="student">3.10</price>
+        </meal>
+        <meal>
+          <name>Salatbuffet in Selbstbedienung,  je 100g (Preis je 100g)</name>
+          <price role="employee">0.95</price>
+          <price role="other">2.90</price>
+          <price role="student">0.75</price>
+        </meal>
+        <meal>
+          <name>VEGAN: Thailändische Kokos-Suppe Kaiserbrötchen</name>
+          <note>Gluten</note>
+          <note>Sesamsamen</note>
+          <note>Soja</note>
+          <note>Weizen</note>
+          <price role="employee">4.00</price>
+          <price role="other">7.65</price>
+          <price role="student">1.85</price>
+        </meal>
+      </category>
+      <category name="Beilage">
+        <meal>
+          <name>Salat </name>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>VEGAN: Fusilli </name>
+          <note>Weizen</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Möhrenscheiben </name>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>VEGAN: Blumenkohl </name>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>VEGAN: Reis </name>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Dessert </name>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
