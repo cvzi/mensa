@@ -3,26 +3,30 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2026-03-12">
-      <category name="Tellergericht">
+    <day date="2026-03-13">
+      <category name="Komponente 1">
         <meal>
-          <name>Kaiserschmarrn  
- mit Vanillesauce</name>
+          <name>Schlemmerfilet Broccoli Käse  
+ mit Kräutersauce</name>
+          <note>Fische und daraus hergestellte Erzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>jodiertes Salz</note>
+          <price role="employee">3.35</price>
+          <price role="other">4.45</price>
+          <price role="student">2.25</price>
+        </meal>
+      </category>
+      <category name="Komponente 2">
+        <meal>
+          <name>Kohlroulade in Krautsoße</name>
           <note>Eier und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Milch/Milchzucker (Laktose)</note>
+          <note>Schweinefleisch</note>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
           <note>jodiertes Salz</note>
-          <price role="employee">3.45</price>
-          <price role="other">5.10</price>
-          <price role="student">1.80</price>
-        </meal>
-      </category>
-      <category name="Komponente 3">
-        <meal>
-          <name>Chicken Nuggets (9,Gefl,A) 
- mit Asia-Dip (süss-scharf)</name>
-          <note>jodiertes Salz</note>
-          <note>mit Süßungsmittel</note>
           <price role="employee">3.35</price>
           <price role="other">4.45</price>
           <price role="student">2.25</price>
@@ -30,34 +34,28 @@
       </category>
       <category name="Vegane Komponente 1">
         <meal>
-          <name>Linsen-Süßkartoffel-Dal</name>
-          <note>Senf und daraus hergestellte Erzeugnisse</note>
-          <note>jodiertes Salz</note>
-          <price role="employee">3.10</price>
-          <price role="other">4.20</price>
-          <price role="student">2.00</price>
-        </meal>
-      </category>
-      <category name="Vegetarische Komponente 1">
-        <meal>
-          <name>Maultaschen  
- mit Pilzrahmsoße</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <name>6 Plant-Based Nuggets vom Feld [aus Gemüse und Jackfrucht]  
+ mit Ajvar-Dip</name>
           <note>Glutenhaltiges Getreide</note>
-          <note>Milch/Milchzucker (Laktose)</note>
-          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
-          <note>jodiertes Salz</note>
-          <note>mit Farbstoff</note>
-          <note>mit Geschmacksverstärker</note>
           <price role="employee">3.35</price>
           <price role="other">4.45</price>
           <price role="student">2.25</price>
         </meal>
       </category>
+      <category name="Nudeltheke: Pasta nach Gewicht (pro 100g)">
+        <meal>
+          <name>Pastateller: Tortelloni Mediterrano mit Tomatensoße</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>jodiertes Salz</note>
+          <price role="employee">1.10</price>
+          <price role="other">1.55</price>
+          <price role="student">0.65</price>
+        </meal>
+      </category>
       <category name="Beilagen">
         <meal>
-          <name>Kartoffelpüree</name>
-          <note>Milch/Milchzucker (Laktose)</note>
+          <name>Salzkartoffeln</name>
+          <note>geschwefelt</note>
           <note>jodiertes Salz</note>
           <price role="employee">1.30</price>
           <price role="other">1.80</price>
@@ -70,25 +68,10 @@
           <price role="other">1.80</price>
           <price role="student">0.80</price>
         </meal>
-        <meal>
-          <name>Wedges [aus regionalen Ackerkartoffeln ]</name>
-          <note>jodiertes Salz</note>
-          <price role="employee">1.60</price>
-          <price role="other">2.10</price>
-          <price role="student">1.10</price>
-        </meal>
-        <meal>
-          <name>Pita Fladenbrot</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>jodiertes Salz</note>
-          <price role="employee">1.60</price>
-          <price role="other">2.10</price>
-          <price role="student">1.10</price>
-        </meal>
       </category>
       <category name="Gemüse">
         <meal>
-          <name>Fit Gemüse Mix [Karottenscheiben, Pastinaken- und Zucchiniwürfel]</name>
+          <name>Rosenkohl</name>
           <note>jodiertes Salz</note>
           <price role="employee">1.50</price>
           <price role="other">2.00</price>
