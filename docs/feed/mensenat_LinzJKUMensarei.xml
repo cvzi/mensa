@@ -1,6 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
+    <day date="2026-03-16">
+      <category name="Menü veggie/vegan (mit Suppe, Salat und Getränk)">
+        <meal>
+          <name>"everything vegan" Bunter Gemüseeintopf mit frischem Gemüse dazu resches Gebäck (A)</name>
+          <note>F</note>
+          <note>L</note>
+          <note>O</note>
+          <price role="other">6.20</price>
+        </meal>
+      </category>
+      <category name="Menü herzhaft (mit Suppe, Salat und Getränk)">
+        <meal>
+          <name>"Essen wie früher'' Herzhafte Frankfurter vom Bio Schwein serviert auf cremigem Linsen - Wirsingeintopf abgerundet mit frischen Kräutern</name>
+          <note>G</note>
+          <note>L</note>
+          <note>O</note>
+          <price role="other">7.60</price>
+        </meal>
+      </category>
+      <category name="Tagesgericht Veggie/Vegan">
+        <meal>
+          <name>"selbst gepflückte Frühlingsgefühle" Ofenfrisches Bärlauch-Kartoffelgratin mit frischem Brokkoli Gemüse und Kräuter Topping</name>
+          <note>G</note>
+          <note>L</note>
+          <price role="other">9.30</price>
+        </meal>
+      </category>
+      <category name="Tagesgericht herzhaft">
+        <meal>
+          <name>gebackene Bio Putenstreifen</name>
+          <note>A</note>
+          <note>C</note>
+          <price role="other">9.90</price>
+        </meal>
+      </category>
+      <category name="Suppe">
+        <meal>
+          <name>Vegane klare Gemüsesuppe (L) mit Frittaten (A,C) vegane Alternative Dinkel (A)</name>
+          <price role="other">2.30</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-03-17">
+      <category name="Menü veggie/vegan (mit Suppe, Salat und Getränk)">
+        <meal>
+          <name>JKU Mensa presents: ''Brain Food'' Ofenfrischer Kartoffelauflauf mit frischem Gemüse, Feta und Nüssen garniert mit feiner Kräutergarnitur</name>
+          <note>C</note>
+          <note>G</note>
+          <note>H</note>
+          <note>L</note>
+          <price role="other">6.20</price>
+        </meal>
+      </category>
+      <category name="Menü herzhaft (mit Suppe, Salat und Getränk)">
+        <meal>
+          <name>"Viva la Mexico" Chili con Carne vom Bio Rind mit reschem Gebäck (A)</name>
+          <note>L</note>
+          <price role="other">7.60</price>
+        </meal>
+      </category>
+      <category name="Tagesgericht Veggie/Vegan">
+        <meal>
+          <name>JKU Mensa presents: ''Brain Food'' Veganes Indisches Gemüsecurry mit Jasminreis und Erdnüssen garniert mit frischem Minzjoghurt und Limettenspalte</name>
+          <note>E</note>
+          <note>F</note>
+          <note>L</note>
+          <price role="other">9.30</price>
+        </meal>
+      </category>
+      <category name="Tagesgericht herzhaft">
+        <meal>
+          <name>"weil`s selbst paniert einfach besser schmeckt!" Gold-braun gebackenes Schnitzel vom Bio Schwein mit Petersilerdäpfel und Butterreis dazu Zitronenspalte (optional mit Preiselbeeren +€ 0,70)</name>
+          <note>A</note>
+          <note>C</note>
+          <note>G</note>
+          <note>O</note>
+          <price role="other">10.90</price>
+        </meal>
+        <meal>
+          <name>gebackene Bio Putenstreifen</name>
+          <note>A</note>
+          <note>C</note>
+          <price role="other">9.90</price>
+        </meal>
+      </category>
+      <category name="Suppe">
+        <meal>
+          <name>Vegane Knoblauchcremesuppe</name>
+          <note>F</note>
+          <note>L</note>
+          <note>O</note>
+          <price role="other">2.30</price>
+        </meal>
+      </category>
+    </day>
     <day date="2026-03-18">
       <category name="Menü veggie/vegan (mit Suppe, Salat und Getränk)">
         <meal>
@@ -13,7 +108,7 @@
       </category>
       <category name="Menü herzhaft (mit Suppe, Salat und Getränk)">
         <meal>
-          <name>"Geschmack der ankommt!" Rahmgeschnetzeltes von der Bio Pute mit frischem Gemüse dazu Fusilli und frisches Kräutertopping</name>
+          <name>"Geschmack der ankommt!" Rahmgeschnetzeltes von der Bio Pute mit frischem Gemüse dazu Pasta und frisches Kräutertopping</name>
           <note>A</note>
           <note>F</note>
           <note>L</note>
@@ -21,7 +116,7 @@
           <price role="other">7.60</price>
         </meal>
       </category>
-      <category name="Tagesgericht Veggie/Vegan">
+      <category name="Tagesgericht herzhaft">
         <meal>
           <name>"It´s all plant based!" Vegan Chicken Burger im fluffigen Brioche Bun mit No-Chicken Patty belegt mit frischen Tomaten, Gurken, Zwiebeln, Salat und hausgemachter veganer Burger Sauce dazu knusprige Steakhouse Pommes</name>
           <note>A</note>
@@ -31,18 +126,9 @@
           <price role="other">13.90</price>
         </meal>
       </category>
-      <category name="Tagesgericht herzhaft">
-        <meal>
-          <name>Cheese Burger im fluffigen Brioche Bun mit rosa gebratenem Patty vom Bio Rind belegt mit Käse, frischen Tomaten, Gurken, roten Zwiebeln, Salat und hausgemachter Burger Sauce dazu knusprige Steakhouse Pommes</name>
-          <note>A</note>
-          <note>G</note>
-          <note>O</note>
-          <price role="other">12.90</price>
-        </meal>
-      </category>
       <category name="Suppe">
         <meal>
-          <name>Vegane klare Gemüsesuppe (L) mit Backerbsen (A,C,G) vegane Alternative CousCous (A)</name>
+          <name>Vegane klare Gemüsesuppe (L) mit Backerbsen (A,C,G) vegane Alternative Bulger (A)</name>
           <price role="other">2.30</price>
         </meal>
       </category>
@@ -148,24 +234,40 @@
     <day date="2026-03-23">
       <category name="Menü veggie/vegan (mit Suppe, Salat und Getränk)">
         <meal>
-          <name>"everything vegan" Indisches Linsen Dal mit fluffigem Fladenbrot und frischer Kräutergarnitur</name>
+          <name>"everything vegan" Indisches Linsen Dal mit fluffigem Fladenbrot (A) und frischer Kräutergarnitur</name>
+          <note>F</note>
+          <note>L</note>
+          <note>O</note>
           <price role="other">6.20</price>
         </meal>
       </category>
       <category name="Menü herzhaft (mit Suppe, Salat und Getränk)">
         <meal>
-          <name>Gulasch vom Bio Rind dazu Butterspätzle</name>
+          <name>"hausgemacht &amp; herzhaft" Kräftiges Gulasch vom Bio Rind mit Butterspätzle und frischen Kräutern</name>
           <note>A</note>
           <note>C</note>
+          <note>G</note>
+          <note>L</note>
           <note>O</note>
           <price role="other">7.60</price>
         </meal>
       </category>
       <category name="Tagesgericht Veggie/Vegan">
         <meal>
-          <name>JKU Mensa presents: ''VEGAN Brain Food'' Fein marinierter Sticky Bio Tofu serviert mit Naturreis, Cashew Nüssen frischen Sprossen und Limettenspalte</name>
+          <name>JKU Mensa presents: ''VEGAN Brain Food'' Würziger Sticky Bio Tofu serviert mit Naturreis, Cashew Nüssen frischen Sprossen und Limettenspalte</name>
           <note>F</note>
+          <note>H</note>
+          <note>N</note>
           <price role="other">10.30</price>
+        </meal>
+      </category>
+      <category name="Tagesgericht herzhaft">
+        <meal>
+          <name>"weil`s selbst paniert einfach besser schmeckt!" Gold-braun gebackenes Schnitzel vom Bio Schwein mit Petersilerdäpfel und Butterreis dazu Zitronenspalte (optional mit Preiselbeeren +€ 0,70)</name>
+          <note>A</note>
+          <note>C</note>
+          <note>G</note>
+          <price role="other">10.90</price>
         </meal>
       </category>
       <category name="Suppe">
@@ -183,16 +285,18 @@
           <note>C</note>
           <note>F</note>
           <note>G</note>
+          <note>L</note>
           <price role="other">6.20</price>
         </meal>
       </category>
       <category name="Menü herzhaft (mit Suppe, Salat und Getränk)">
         <meal>
-          <name>Nudelauflauf mit Gemüse und Bio Schinken vom Schwein</name>
+          <name>"goldbraun &amp; einfach gut" Ofenfrischer Nudelauflauf mit Schinken vom Bio Schwein und frischem Marktgemüse abgerundet mit Kräutergarnitur</name>
           <note>A</note>
           <note>C</note>
           <note>F</note>
           <note>G</note>
+          <note>L</note>
           <price role="other">7.60</price>
         </meal>
       </category>
@@ -200,18 +304,16 @@
         <meal>
           <name>„Fresh &amp; Flavorful Bites“ Mediterrane hausgemachte Bohnenlaibchen mit frischer Zucchini, Melanzani und getrockneten Tomaten serviert auf knackiger Blattsalatmischung abgerundet mit Kräuterdip</name>
           <note>A</note>
-          <note>C</note>
-          <note>G</note>
+          <note>L</note>
           <price role="other">9.30</price>
         </meal>
       </category>
       <category name="Tagesgericht herzhaft">
         <meal>
-          <name>"weil`s selbst paniert einfach besser schmeckt!" Gold-braun gebackenes Schnitzel vom Bio Schwein mit Petersilerdäpfel und Butterreis dazu Zitronenspalte (optional mit Preiselbeeren +€ 0,70)</name>
-          <note>A</note>
-          <note>C</note>
+          <name>"Finally back" Saftiges Gyros von der Bio Pute mit hausgemachtem Tzatziki, frischer Gemüsegarnitur und Salatbouquet dazu knusprige Steakhouse Pommes</name>
           <note>G</note>
-          <price role="other">10.90</price>
+          <note>O</note>
+          <price role="other">11.90</price>
         </meal>
       </category>
       <category name="Suppe">
@@ -227,17 +329,16 @@
       <category name="Menü veggie/vegan (mit Suppe, Salat und Getränk)">
         <meal>
           <name>"pure vegan lifestyle" Spanische Gemüse Paella aus frischem Marktgemüse vom Schoberleitner</name>
+          <note>L</note>
           <note>O</note>
           <price role="other">6.20</price>
         </meal>
       </category>
       <category name="Menü herzhaft (mit Suppe, Salat und Getränk)">
         <meal>
-          <name>Hausgemachter Bauernstrudel vom Bio Rind dazu Kümmelrahmsauce</name>
+          <name>"für den Genussmoment zwischendurch" Hausgemachter Bauernstrudel vom Bio Rind serviert auf feiner Kümmelrahmsauce dazu frisches Kräutertopping</name>
           <note>A</note>
           <note>C</note>
-          <note>F</note>
-          <note>G</note>
           <note>L</note>
           <note>O</note>
           <price role="other">7.60</price>
@@ -245,18 +346,18 @@
       </category>
       <category name="Tagesgericht Veggie/Vegan">
         <meal>
-          <name>"Empfehlung unseres Küchenchefs" Hausgemachte Roulade vom Bio Schwein serviert mit frischem Brokkoli-Karfiol Gemüse und goldbraunen Bratkartoffeln abgerundet mit frischem Kräutertopping</name>
-          <note>G</note>
-          <note>O</note>
-          <price role="other">13.90</price>
-        </meal>
-        <meal>
           <name>"Homemade enjoyment" Veggie Spinat Feta Brownies serviert auf knackigem Salat dazu leichter Sauerrahm Dip und frisches Kräutertopping</name>
+          <note>A</note>
           <note>C</note>
-          <note>F</note>
           <note>G</note>
-          <note>O</note>
+          <note>L</note>
           <price role="other">10.30</price>
+        </meal>
+      </category>
+      <category name="Tagesgericht herzhaft">
+        <meal>
+          <name>"Empfehlung unseres Küchenchefs" Hausgemachte Roulade vom Bio Schwein serviert mit frischem Brokkoli-Karfiol Gemüse und goldbraunen Bratkartoffeln abgerundet mit frischem Kräutertopping</name>
+          <price role="other">13.90</price>
         </meal>
       </category>
       <category name="Suppe">
@@ -273,32 +374,35 @@
           <note>A</note>
           <note>C</note>
           <note>G</note>
+          <note>H</note>
           <price role="other">6.20</price>
         </meal>
       </category>
       <category name="Menü herzhaft (mit Suppe, Salat und Getränk)">
         <meal>
-          <name>Klassische Fleckelspeiß mir Haschee vom Bio Schwein</name>
+          <name>"österreichische Tradition" Klassische Fleckelspeiß mit frischem Haschee vom Bio Schwein und feinem Kräutertopping</name>
           <note>A</note>
           <note>C</note>
+          <note>L</note>
           <note>O</note>
           <price role="other">7.60</price>
         </meal>
       </category>
       <category name="Tagesgericht Veggie/Vegan">
         <meal>
+          <name>„Plant-Powered Perfection“ Zart geschmortes Spitzkraut serviert auf cremigem Bärlauch Püree dazu hausgemachter veganer Jus und frische Kräuter Garnitur</name>
+          <note>F</note>
+          <note>L</note>
+          <note>O</note>
+          <price role="other">10.30</price>
+        </meal>
+      </category>
+      <category name="Tagesgericht herzhaft">
+        <meal>
           <name>''Geschmack aus der Karibik'' Ropa Vieja ein kubanisches Gericht mit gezupftem Bio Rindfleisch, roten Bohnen und Reis garniert mit frischen Kräutern</name>
-          <note>A</note>
-          <note>G</note>
           <note>L</note>
           <note>O</note>
           <price role="other">13.90</price>
-        </meal>
-        <meal>
-          <name>„Plant-Powered Perfection“ Zart geschmortes Spitzkraut serviert auf cremigem Bärlauch Püree dazu hausgemachter veganer Jus und frische Kräuter Garnitur</name>
-          <note>F</note>
-          <note>O</note>
-          <price role="other">10.30</price>
         </meal>
       </category>
       <category name="Suppe">
@@ -313,7 +417,7 @@
     <day date="2026-03-27">
       <category name="Menü veggie/vegan (mit Suppe, Salat und Getränk)">
         <meal>
-          <name>"everything vegan" Pasta Barilla mit Linsenbolognese und frischer Kräutergarnitur</name>
+          <name>"everything vegan" Pasta mit gesunder Linsenbolognese und frischer Kräutergarnitur</name>
           <note>A</note>
           <note>L</note>
           <note>O</note>
@@ -322,29 +426,31 @@
       </category>
       <category name="Menü herzhaft (mit Suppe, Salat und Getränk)">
         <meal>
-          <name>Bio Pute Teriyakisauce frischem Gemüse und Sojasprossen dazu Basmatireis garniert mit frischen Kräuter</name>
+          <name>„Umami Utopia“ Zarte Bio Pute in aromatischer Teriyaki Sauce mit frischem Gemüse, Sojasprossen, und Basmatireis graniert mit frischen Kräuter</name>
           <note>A</note>
           <note>F</note>
+          <note>L</note>
           <note>N</note>
-          <note>O</note>
           <price role="other">7.60</price>
+        </meal>
+      </category>
+      <category name="Tagesgericht Veggie/Vegan">
+        <meal>
+          <name>"Veggie Power auf deinem Teller" Cremiges frisches Pilz Risotto garniert mit Parmesanchips und frischen Kräutern</name>
+          <note>G</note>
+          <note>L</note>
+          <note>O</note>
+          <price role="other">9.30</price>
         </meal>
       </category>
       <category name="Tagesgericht herzhaft">
         <meal>
-          <name>"no Backfisch no cry" Knusprige Forelle "Müllerin" vom Grill mit hausgemachtem Erdäpfelgratin und mediterranem Grillgemüse dazu frische Zitronenbutter und Kräutergarnitur</name>
-          <note>A</note>
-          <note>F</note>
+          <name>"no Backfisch no cry" Knusprige Forelle "Müllerin" vom Grill mit Petersilerdäpfel und buntem Grillgemüse dazu frische Zitronenbutter und Kräutergarnitur</name>
+          <note>D</note>
           <note>G</note>
+          <note>L</note>
           <note>O</note>
           <price role="other">10.90</price>
-        </meal>
-        <meal>
-          <name>"Veggie Power auf deinem Teller" Cremiges frisches Pilz Risotto garniert mit Parmesanchips und frischen Kräutern</name>
-          <note>C</note>
-          <note>G</note>
-          <note>O</note>
-          <price role="other">9.90</price>
         </meal>
       </category>
       <category name="Suppe">
