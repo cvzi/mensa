@@ -3,58 +3,25 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2026-03-19">
-      <category name="Tellergericht">
+    <day date="2026-03-20">
+      <category name="Komponente 1">
         <meal>
-          <name>Gemüsetopf mit Hackfleisch</name>
-          <note>Rindfleisch</note>
-          <note>geschwefelt</note>
-          <note>jodiertes Salz</note>
-          <price role="employee">2.60</price>
-          <price role="other">3.65</price>
-          <price role="student">1.50</price>
-        </meal>
-        <meal>
-          <name>4 Eierkuchen mit Apfelmus</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <name>Seelachsfilet in Krosspanade mit Kräutersoße</name>
+          <note>Fische und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
-          <note>Milch/Milchzucker (Laktose)</note>
-          <note>mit Antioxidationsmittel</note>
-          <price role="employee">3.45</price>
-          <price role="other">5.10</price>
-          <price role="student">1.80</price>
-        </meal>
-        <meal>
-          <name>Gemüsetopf mit Hackfleisch</name>
-          <note>Rindfleisch</note>
-          <note>geschwefelt</note>
           <note>jodiertes Salz</note>
-          <price role="employee">3.75</price>
-          <price role="other">5.10</price>
-          <price role="student">2.20</price>
-        </meal>
-        <meal>
-          <name>Kartoffelsalat mit 2 Wiener Würstchen</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Schweinefleisch</note>
-          <note>Senf und daraus hergestellte Erzeugnisse</note>
-          <note>geschwefelt</note>
-          <note>jodiertes Salz</note>
-          <note>mit Antioxidationsmittel</note>
-          <note>mit Konservierungsstoff</note>
-          <note>mit Phosphat</note>
-          <note>mit Süßungsmittel</note>
-          <price role="employee">4.15</price>
-          <price role="other">5.80</price>
-          <price role="student">2.50</price>
+          <price role="employee">3.35</price>
+          <price role="other">4.45</price>
+          <price role="student">2.25</price>
         </meal>
       </category>
-      <category name="Komponente 2">
+      <category name="Komponente 3">
         <meal>
-          <name>überbackende Schweinesteak"Budapest" Art</name>
-          <note>Milch/Milchzucker (Laktose)</note>
-          <note>Schweinefleisch</note>
+          <name>Chicken Wings (9,Gefl,A) 
+ mit Aioli-Knoblauch-Dip</name>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
+          <note>jodiertes Salz</note>
+          <note>mit Süßungsmittel</note>
           <price role="employee">3.35</price>
           <price role="other">4.45</price>
           <price role="student">2.25</price>
@@ -62,29 +29,32 @@
       </category>
       <category name="Vegane Komponente 1">
         <meal>
-          <name>Wurstgulasch mit Räuchertofu</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Senf und daraus hergestellte Erzeugnisse</note>
+          <name>Veganes Shakshuka mit Soja</name>
           <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
-          <price role="employee">3.10</price>
-          <price role="other">4.20</price>
-          <price role="student">2.00</price>
+          <note>gewachst</note>
+          <price role="employee">3.35</price>
+          <price role="other">4.45</price>
+          <price role="student">2.25</price>
         </meal>
       </category>
-      <category name="Vegetarische Komponente 1">
+      <category name="Nudeltheke: Pasta nach Gewicht (pro 100g)">
         <meal>
-          <name>2 gekochte Eier in Senfsoße</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <name>Pastateller: Spaghetti mit Gemüsecarbonara mit Paprika und Zucchini [vegan]</name>
           <note>Glutenhaltiges Getreide</note>
-          <note>Milch/Milchzucker (Laktose)</note>
-          <note>Senf und daraus hergestellte Erzeugnisse</note>
-          <note>jodiertes Salz</note>
-          <price role="employee">2.85</price>
-          <price role="other">3.95</price>
-          <price role="student">1.75</price>
+          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
+          <price role="employee">1.10</price>
+          <price role="other">1.55</price>
+          <price role="student">0.65</price>
         </meal>
       </category>
       <category name="Beilagen">
+        <meal>
+          <name>Reis</name>
+          <note>jodiertes Salz</note>
+          <price role="employee">1.30</price>
+          <price role="other">1.80</price>
+          <price role="student">0.80</price>
+        </meal>
         <meal>
           <name>Salzkartoffeln</name>
           <note>geschwefelt</note>
@@ -94,16 +64,20 @@
           <price role="student">0.80</price>
         </meal>
         <meal>
-          <name>gedrehte Röhrennudeln</name>
+          <name>Kartoffelsalat</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <note>geschwefelt</note>
           <note>jodiertes Salz</note>
-          <price role="employee">1.30</price>
-          <price role="other">1.80</price>
-          <price role="student">0.80</price>
+          <note>mit Farbstoff</note>
+          <note>mit Süßungsmittel</note>
+          <price role="employee">1.60</price>
+          <price role="other">2.10</price>
+          <price role="student">1.10</price>
         </meal>
         <meal>
-          <name>Bratkartoffeln</name>
-          <note>jodiertes Salz</note>
+          <name>Pommes Sauté</name>
           <price role="employee">1.60</price>
           <price role="other">2.10</price>
           <price role="student">1.10</price>
@@ -111,13 +85,7 @@
       </category>
       <category name="Gemüse">
         <meal>
-          <name>Wintersalat regional</name>
-          <price role="employee">1.30</price>
-          <price role="other">1.80</price>
-          <price role="student">0.80</price>
-        </meal>
-        <meal>
-          <name>Fit Gemüse Mix [Karottenscheiben, Pastinaken- und Zucchiniwürfel]</name>
+          <name>Brokkoli</name>
           <note>jodiertes Salz</note>
           <price role="employee">1.50</price>
           <price role="other">2.00</price>
