@@ -3,64 +3,103 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2026-03-16">
+    <day date="2026-03-23">
+      <category name="vegetarisch">
+        <meal>
+          <name>Käsetortellini mit Tomatensauce a,c,g,i</name>
+          <note>Eier</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
+          <note>Vegetarisch</note>
+          <note>Weizen</note>
+          <note>konserviert</note>
+        </meal>
+        <meal>
+          <name>Beilagensalat</name>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <note>Vegetarisch</note>
+        </meal>
+        <meal>
+          <name>kleine Pizza Margarita</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch</note>
+          <note>Vegetarisch</note>
+          <note>Weizen</note>
+        </meal>
+      </category>
+      <category name="Rind">
+        <meal>
+          <name>Rinderhacksteak ´griechische Art´ mit Bulgur und Tsatsiki a,c,g</name>
+          <note>Eier</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch</note>
+          <note>Rind</note>
+          <note>Weizen</note>
+        </meal>
+        <meal>
+          <name>Markklößchensuppe a,c,i</name>
+          <note>Eier</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Rind</note>
+          <note>Sellerie</note>
+          <note>Weizen</note>
+        </meal>
+      </category>
+      <category name="Geflügel">
+        <meal>
+          <name>Schnitzelsemmel⚠️ausverkauft</name>
+          <note>Eier</note>
+          <note>Geflügel</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch</note>
+          <note>Roggen</note>
+          <note>Weizen</note>
+        </meal>
+      </category>
+      <category name="Schwein">
+        <meal>
+          <name>kleine Pizza Salami</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch</note>
+          <note>Schwein</note>
+          <note>Weizen</note>
+          <note>konserviert</note>
+          <note>mit Antioxidationsmittel</note>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-03-24">
       <category name="vegan">
         <meal>
-          <name>Orientalische Gemüsepfanne mit Kichererbsen und Fladenbrot a,k⚠️Bestellzeit abgelaufen</name>
-          <note>Gerste</note>
+          <name>vegetarisch gefüllte Paprika mit Reis und Tomatensoße a,i</name>
           <note>Glutenhaltiges Getreide</note>
-          <note>Sesamsamen</note>
+          <note>Sellerie</note>
           <note>Vegan</note>
           <note>Weizen</note>
         </meal>
-      </category>
-      <category name="Schwein">
         <meal>
-          <name>Makkaroni Carbonara a,c,g,i⚠️Bestellzeit abgelaufen</name>
-          <note>Eier</note>
+          <name>Frühlingsbowl a,f,j</name>
           <note>Glutenhaltiges Getreide</note>
-          <note>Milch</note>
-          <note>Schwein</note>
-          <note>Sellerie</note>
-          <note>Weizen</note>
-        </meal>
-        <meal>
-          <name>kleine Pizza Salami⚠️ausverkauft</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Milch</note>
-          <note>Schwein</note>
-          <note>Weizen</note>
-          <note>konserviert</note>
-          <note>mit Antioxidationsmittel</note>
-        </meal>
-      </category>
-      <category name="vegetarisch">
-        <meal>
-          <name>Minestrone a,c,g,i⚠️Bestellzeit abgelaufen</name>
-          <note>Eier</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Milch</note>
-          <note>Sellerie</note>
-          <note>Vegetarisch</note>
-          <note>Weizen</note>
-        </meal>
-        <meal>
-          <name>Beilagensalat⚠️Bestellzeit abgelaufen</name>
-          <note>Sellerie</note>
           <note>Senf</note>
-          <note>Vegetarisch</note>
-        </meal>
-        <meal>
-          <name>kleine Pizza Margarita⚠️ausverkauft</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Milch</note>
-          <note>Vegetarisch</note>
+          <note>Soja</note>
+          <note>Vegan</note>
           <note>Weizen</note>
+          <note>unter Schutzatmosphäre verpackt</note>
         </meal>
       </category>
       <category name="Geflügel">
         <meal>
-          <name>Schnitzelsemmel⚠️ausverkauft</name>
+          <name>paniertes Putenschnitzel mit Pommes a,c,g</name>
+          <note>Eier</note>
+          <note>Geflügel</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch</note>
+          <note>Weizen</note>
+        </meal>
+        <meal>
+          <name>Schnitzelsemmel</name>
           <note>Eier</note>
           <note>Geflügel</note>
           <note>Glutenhaltiges Getreide</note>
@@ -69,29 +108,15 @@
           <note>Weizen</note>
         </meal>
       </category>
-    </day>
-    <day date="2026-03-17">
       <category name="vegetarisch">
         <meal>
-          <name>Spinat-Ricotta-Lasagne a,g⚠️Bestellzeit abgelaufen</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Milch</note>
-          <note>Vegetarisch</note>
-          <note>Weizen</note>
-        </meal>
-        <meal>
-          <name>Greek Bowl g⚠️Bestellzeit abgelaufen</name>
-          <note>Milch</note>
-          <note>Vegetarisch</note>
-        </meal>
-        <meal>
-          <name>Beilagensalat⚠️Bestellzeit abgelaufen</name>
+          <name>Beilagensalat</name>
           <note>Sellerie</note>
           <note>Senf</note>
           <note>Vegetarisch</note>
         </meal>
         <meal>
-          <name>kleine Pizza Margarita⚠️Bestellzeit abgelaufen</name>
+          <name>kleine Pizza Margarita</name>
           <note>Glutenhaltiges Getreide</note>
           <note>Milch</note>
           <note>Vegetarisch</note>
@@ -100,22 +125,71 @@
       </category>
       <category name="Schwein">
         <meal>
-          <name>Currywurst mit Pommes i,j⚠️Bestellzeit abgelaufen</name>
+          <name>kleine Pizza Salami</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch</note>
+          <note>Schwein</note>
+          <note>Weizen</note>
+          <note>konserviert</note>
+          <note>mit Antioxidationsmittel</note>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-03-25">
+      <category name="vegetarisch">
+        <meal>
+          <name>Reiberdatschi mit Apfelmus c</name>
+          <note>Eier</note>
+          <note>Vegetarisch</note>
+          <note>mit Antioxidationsmittel</note>
+        </meal>
+        <meal>
+          <name>Gemüsecremesuppe mit Croutons a,c,g,i</name>
           <note>Eier</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Milch</note>
-          <note>Schwefeldioxid und Sulphite</note>
-          <note>Schwein</note>
+          <note>Sellerie</note>
+          <note>Vegetarisch</note>
+          <note>Weizen</note>
+        </meal>
+        <meal>
+          <name>Beilagensalat</name>
           <note>Sellerie</note>
           <note>Senf</note>
+          <note>Vegetarisch</note>
+        </meal>
+        <meal>
+          <name>kleine Pizza Margarita</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch</note>
+          <note>Vegetarisch</note>
+          <note>Weizen</note>
+        </meal>
+      </category>
+      <category name="Geflügel">
+        <meal>
+          <name>Putenrollbraten mit Semmelknödel und Buttermöhrchen a,c,g,i</name>
+          <note>Eier</note>
+          <note>Geflügel</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch</note>
+          <note>Sellerie</note>
           <note>konserviert</note>
-          <note>mit (einer) Zuckerart/en und Süßungsmittel/n</note>
-          <note>mit Antioxidationsmittel</note>
-          <note>mit Phosphat/en</note>
           <note>unter Schutzatmosphäre verpackt</note>
         </meal>
         <meal>
-          <name>kleine Pizza Salami⚠️Bestellzeit abgelaufen</name>
+          <name>Schnitzelsemmel</name>
+          <note>Eier</note>
+          <note>Geflügel</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch</note>
+          <note>Roggen</note>
+          <note>Weizen</note>
+        </meal>
+      </category>
+      <category name="Schwein">
+        <meal>
+          <name>kleine Pizza Salami</name>
           <note>Glutenhaltiges Getreide</note>
           <note>Milch</note>
           <note>Schwein</note>
@@ -124,45 +198,34 @@
           <note>mit Antioxidationsmittel</note>
         </meal>
       </category>
-      <category name="Geflügel">
-        <meal>
-          <name>Schnitzelsemmel⚠️ausverkauft</name>
-          <note>Eier</note>
-          <note>Geflügel</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Milch</note>
-          <note>Roggen</note>
-          <note>Weizen</note>
-        </meal>
-      </category>
     </day>
-    <day date="2026-03-18">
+    <day date="2026-03-26">
       <category name="vegetarisch">
         <meal>
-          <name>Germknödel mit Kirschfüllung und Vanillesoße a,c,g⚠️Bestellzeit abgelaufen</name>
+          <name>Bunte Krautschupfnudeln  a,c,i,j</name>
           <note>Eier</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <note>Vegetarisch</note>
+          <note>Weizen</note>
+        </meal>
+        <meal>
+          <name>Tomate Mozzarella Salat mit Ciabatta a,g</name>
+          <note>Gerste</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Milch</note>
           <note>Vegetarisch</note>
           <note>Weizen</note>
-          <note>konserviert</note>
         </meal>
         <meal>
-          <name>Pilzcremesuppe mit Vollkornbrot a,g,i⚠️Bestellzeit abgelaufen</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Milch</note>
-          <note>Roggen</note>
-          <note>Sellerie</note>
-          <note>Vegetarisch</note>
-        </meal>
-        <meal>
-          <name>Beilagensalat⚠️Bestellzeit abgelaufen</name>
+          <name>Beilagensalat</name>
           <note>Sellerie</note>
           <note>Senf</note>
           <note>Vegetarisch</note>
         </meal>
         <meal>
-          <name>kleine Pizza Margarita⚠️ausverkauft</name>
+          <name>kleine Pizza Margarita</name>
           <note>Glutenhaltiges Getreide</note>
           <note>Milch</note>
           <note>Vegetarisch</note>
@@ -171,11 +234,10 @@
       </category>
       <category name="Geflügel">
         <meal>
-          <name>Hähnchenbrust in Tomatensoße mit Kräutergnocchis a,c,g,i⚠️Bestellzeit abgelaufen</name>
+          <name>Geflügelgeschnetzeltes "mediterraner Art" mit Nudeln a,c,i</name>
           <note>Eier</note>
           <note>Geflügel</note>
           <note>Glutenhaltiges Getreide</note>
-          <note>Milch</note>
           <note>Sellerie</note>
           <note>Weizen</note>
         </meal>
@@ -191,69 +253,7 @@
       </category>
       <category name="Schwein">
         <meal>
-          <name>kleine Pizza Salami⚠️Bestellzeit abgelaufen</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Milch</note>
-          <note>Schwein</note>
-          <note>Weizen</note>
-          <note>konserviert</note>
-          <note>mit Antioxidationsmittel</note>
-        </meal>
-      </category>
-    </day>
-    <day date="2026-03-19">
-      <category name="vegetarisch">
-        <meal>
-          <name>Spätzle mit Rahmsoße a,c,g⚠️Bestellzeit abgelaufen</name>
-          <note>Eier</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Milch</note>
-          <note>Vegetarisch</note>
-          <note>Weizen</note>
-        </meal>
-        <meal>
-          <name>Anti-Pasti-Teller mit Ciabatta a,g,i,j⚠️Bestellzeit abgelaufen</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Milch</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <note>Vegetarisch</note>
-          <note>Weizen</note>
-          <note>geschwärzt</note>
-        </meal>
-        <meal>
-          <name>Beilagensalat⚠️Bestellzeit abgelaufen</name>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <note>Vegetarisch</note>
-        </meal>
-        <meal>
-          <name>kleine Pizza Margarita⚠️ausverkauft</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Milch</note>
-          <note>Vegetarisch</note>
-          <note>Weizen</note>
-        </meal>
-      </category>
-      <category name="Geflügel">
-        <meal>
-          <name>Drumsticks (Hähnchen-Unterkeulen) mit Risi-Bisi i⚠️Bestellzeit abgelaufen</name>
-          <note>Geflügel</note>
-          <note>Sellerie</note>
-        </meal>
-        <meal>
-          <name>Schnitzelsemmel⚠️ausverkauft</name>
-          <note>Eier</note>
-          <note>Geflügel</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Milch</note>
-          <note>Roggen</note>
-          <note>Weizen</note>
-        </meal>
-      </category>
-      <category name="Schwein">
-        <meal>
-          <name>kleine Pizza Salami⚠️ausverkauft</name>
+          <name>kleine Pizza Salami</name>
           <note>Glutenhaltiges Getreide</note>
           <note>Milch</note>
           <note>Schwein</note>
