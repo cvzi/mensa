@@ -3,18 +3,15 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2026-03-24">
+    <day date="2026-03-25">
       <category name="Schwein">
         <meal>
-          <name>Schweinerückensteak mit Schaschliksoße</name>
-          <note>Gerste</note>
-          <note>Rind/Kalb</note>
+          <name>Schweinerückensteak mit Paprikasoße</name>
+          <note>Schwefeldioxid und Sulfite</note>
           <note>Schwein</note>
           <note>Sellerie</note>
           <note>Weizen</note>
           <note>glutenhaltiges Getreide</note>
-          <note>konserviert</note>
-          <note>mit Antioxidationsmittel</note>
           <note>mit Süßungsmittel</note>
           <price role="employee">5.50</price>
           <price role="other">6.45</price>
@@ -38,32 +35,18 @@
       </category>
       <category name="Vegan">
         <meal>
-          <name>mensaVital: Kichererbsen - Kokos - Korma mit Mandelreis</name>
-          <note>Knoblauch</note>
-          <note>Mandeln</note>
-          <note>Schalenfrüchte</note>
-          <price role="employee">4.70</price>
-          <price role="other">5.65</price>
-          <price role="student">3.35</price>
-        </meal>
-      </category>
-      <category name="Gefluegel">
-        <meal>
-          <name>Hähnchenschnitzel "Wiener Art"</name>
-          <note>Geflügel</note>
-          <note>Gerste</note>
+          <name>Frühlingsrolle mit Sweet - Chili - Dip und Mienudeln</name>
+          <note>Sellerie</note>
+          <note>Sesamsamen</note>
+          <note>Soja</note>
           <note>Weizen</note>
           <note>glutenhaltiges Getreide</note>
-          <price role="employee">5.00</price>
-          <price role="other">5.95</price>
-          <price role="student">3.65</price>
+          <price role="employee">5.50</price>
+          <price role="other">6.45</price>
+          <price role="student">4.10</price>
         </meal>
-      </category>
-    </day>
-    <day date="2026-03-25">
-      <category name="Vegan">
         <meal>
-          <name>Falafelbällchen mit Paprika - Auberginen - Dip Bulgur</name>
+          <name>Falafelbällchen mit Paprika - Auberginen - Dip und Bulgur</name>
           <note>Knoblauch</note>
           <note>Sellerie</note>
           <note>Sesamsamen</note>
@@ -73,6 +56,22 @@
           <price role="employee">5.00</price>
           <price role="other">5.95</price>
           <price role="student">3.65</price>
+        </meal>
+      </category>
+      <category name="Gefluegel">
+        <meal>
+          <name>Hähnchen Kebab "Baba Ganoush" mit Reis dazu orientalsicher Minz - Joghurt</name>
+          <note>Geflügel</note>
+          <note>Knoblauch</note>
+          <note>Milch (einschließlich Lactose)</note>
+          <note>Schwefeldioxid und Sulfite</note>
+          <note>Sesamsamen</note>
+          <note>Soja</note>
+          <note>Weizen</note>
+          <note>glutenhaltiges Getreide</note>
+          <price role="employee">6.30</price>
+          <price role="other">7.25</price>
+          <price role="student">4.85</price>
         </meal>
       </category>
       <category name="Rind">
@@ -93,15 +92,33 @@
       </category>
     </day>
     <day date="2026-03-26">
-      <category name="Vegan">
+      <category name="Fleischlos">
         <meal>
-          <name>Gemüse Knusperfrikadelle mit Salsadip</name>
+          <name>Ofenkartoffeln mit hausgemachtem Kräuterdip und Salat</name>
+          <note>Eier</note>
+          <note>Gerste</note>
+          <note>Milch (einschließlich Lactose)</note>
+          <note>Schwefeldioxid und Sulfite</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
           <note>Weizen</note>
           <note>glutenhaltiges Getreide</note>
           <note>mit Antioxidationsmittel</note>
-          <price role="employee">5.00</price>
-          <price role="other">5.95</price>
-          <price role="student">3.65</price>
+          <note>mit Farbstoff</note>
+          <note>mit Süßungsmittel</note>
+          <price role="employee">4.70</price>
+          <price role="other">5.65</price>
+          <price role="student">3.35</price>
+        </meal>
+        <meal>
+          <name>Kaiserschmarrn mit Apfelmus</name>
+          <note>Eier</note>
+          <note>Milch (einschließlich Lactose)</note>
+          <note>Weizen</note>
+          <note>glutenhaltiges Getreide</note>
+          <price role="employee">4.45</price>
+          <price role="other">5.40</price>
+          <price role="student">3.10</price>
         </meal>
       </category>
       <category name="Rind">
@@ -121,18 +138,6 @@
           <price role="employee">6.30</price>
           <price role="other">7.25</price>
           <price role="student">4.85</price>
-        </meal>
-      </category>
-      <category name="Fleischlos">
-        <meal>
-          <name>Kaiserschmarrn mit Apfelmus</name>
-          <note>Eier</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <price role="employee">4.45</price>
-          <price role="other">5.40</price>
-          <price role="student">3.10</price>
         </meal>
       </category>
     </day>
@@ -165,46 +170,74 @@
       </category>
     </day>
     <day date="2026-03-30">
-      <category name="Vegan">
+      <category name="Schwein">
         <meal>
-          <name>Veganer Hotpot "Tandoori Style"</name>
-          <note>Knoblauch</note>
-          <price role="employee">4.15</price>
-          <price role="other">5.10</price>
-          <price role="student">2.80</price>
-        </meal>
-      </category>
-      <category name="Fleischlos">
-        <meal>
-          <name>Penne mit frischen Bärlauchpesto</name>
-          <note>Knoblauch</note>
-          <note>Mandeln</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Schalenfrüchte</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
+          <name>Currywurst</name>
+          <note>Rind/Kalb</note>
+          <note>Schwein</note>
           <note>konserviert</note>
+          <note>mit Antioxidationsmittel</note>
+          <note>mit Farbstoff</note>
+          <note>mit Phosphat</note>
+          <note>mit Süßungsmittel</note>
           <price role="employee">4.45</price>
           <price role="other">5.40</price>
           <price role="student">3.10</price>
         </meal>
       </category>
-      <category name="Gefluegel">
+      <category name="Rind">
         <meal>
-          <name>Hähnchen Cordon bleu Super Crunch Pommes frites</name>
-          <note>Geflügel</note>
+          <name>2 Bifteki mit hausgemachtem Kräuter Knoblauchdip</name>
+          <note>Eier</note>
+          <note>Gerste</note>
+          <note>Knoblauch</note>
           <note>Milch (einschließlich Lactose)</note>
+          <note>Rind/Kalb</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
           <note>Weizen</note>
           <note>glutenhaltiges Getreide</note>
-          <note>konserviert</note>
+          <note>mit Farbstoff</note>
+          <note>mit Süßungsmittel</note>
+          <price role="employee">5.00</price>
+          <price role="other">5.95</price>
+          <price role="student">3.65</price>
+        </meal>
+      </category>
+      <category name="Fleischlos">
+        <meal>
+          <name>Gebackene Kartoffeltaschen "Kräuterfrischkäse" Bunter Blattsalat</name>
+          <note>Milch (einschließlich Lactose)</note>
+          <note>Schwefeldioxid und Sulfite</note>
+          <note>Senf</note>
           <note>mit Antioxidationsmittel</note>
-          <price role="employee">4.70</price>
-          <price role="other">5.65</price>
-          <price role="student">3.35</price>
+          <note>mit Farbstoff</note>
+          <price role="employee">4.45</price>
+          <price role="other">5.40</price>
+          <price role="student">3.10</price>
         </meal>
       </category>
     </day>
     <day date="2026-03-31">
+      <category name="Rind">
+        <meal>
+          <name>Cheese Burger</name>
+          <note>Eier</note>
+          <note>Gerste</note>
+          <note>Milch (einschließlich Lactose)</note>
+          <note>Rind/Kalb</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <note>Sesamsamen</note>
+          <note>Weizen</note>
+          <note>glutenhaltiges Getreide</note>
+          <note>mit Farbstoff</note>
+          <note>mit Süßungsmittel</note>
+          <price role="employee">6.30</price>
+          <price role="other">7.25</price>
+          <price role="student">4.85</price>
+        </meal>
+      </category>
       <category name="Gefluegel">
         <meal>
           <name>Hähnchenbrustfilet mit frischer Bärlauchsoße</name>
@@ -242,21 +275,34 @@
       </category>
     </day>
     <day date="2026-04-01">
-      <category name="Fisch">
+      <category name="Gefluegel">
         <meal>
-          <name>Seelachsfilet mit Dillrahmsoße Blattspinat</name>
-          <note>Alkohol</note>
-          <note>Fisch</note>
-          <note>Fische</note>
+          <name>Hähnchenschnitzel "Wiener Art"</name>
+          <note>Geflügel</note>
           <note>Gerste</note>
+          <note>Weizen</note>
+          <note>glutenhaltiges Getreide</note>
+          <price role="employee">5.00</price>
+          <price role="other">5.95</price>
+          <price role="student">3.65</price>
+        </meal>
+      </category>
+      <category name="Schwein">
+        <meal>
+          <name>Pasta mit Hackbällchen &amp; Grana Padano</name>
+          <note>Eier</note>
+          <note>Knoblauch</note>
           <note>Milch (einschließlich Lactose)</note>
+          <note>Rind/Kalb</note>
+          <note>Schwein</note>
           <note>Sellerie</note>
           <note>Weizen</note>
           <note>glutenhaltiges Getreide</note>
+          <note>konserviert</note>
           <note>mit Farbstoff</note>
-          <price role="employee">4.70</price>
-          <price role="other">5.65</price>
-          <price role="student">3.35</price>
+          <price role="employee">5.20</price>
+          <price role="other">6.15</price>
+          <price role="student">3.80</price>
         </meal>
       </category>
       <category name="Vegan">
