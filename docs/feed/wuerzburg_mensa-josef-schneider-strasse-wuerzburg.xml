@@ -4,9 +4,20 @@
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
     <day date="2026-03-30">
+      <category name="Schwein">
+        <meal>
+          <name>Knusperschnitzel vom Schwein</name>
+          <note>Schwein</note>
+          <note>Weizen</note>
+          <note>glutenhaltiges Getreide</note>
+          <price role="employee">5.00</price>
+          <price role="other">5.95</price>
+          <price role="student">3.65</price>
+        </meal>
+      </category>
       <category name="Gefluegel">
         <meal>
-          <name>Hähnchen Cordon bleu Super Crunch Pommes frites</name>
+          <name>Hähnchen Cordon bleu</name>
           <note>Geflügel</note>
           <note>Milch (einschließlich Lactose)</note>
           <note>Weizen</note>
@@ -44,7 +55,7 @@
       </category>
       <category name="Schwein">
         <meal>
-          <name>Schweinegeschnetzeltes in Champignonrahm dazu Knöpfle aus der Pfanne</name>
+          <name>Schweinegeschnetzeltes in Champignonrahm</name>
           <note>Eier</note>
           <note>Gerste</note>
           <note>Milch (einschließlich Lactose)</note>
