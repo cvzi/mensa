@@ -3,17 +3,40 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2026-03-30">
-      <category name="Vegan">
+    <day date="2026-03-31">
+      <category name="Fleischlos">
         <meal>
-          <name>Nudelpfanne "Mediterrane" mit veganem Reibkäse</name>
+          <name>Fränkische Mostsuppe mit Zimtcroutons</name>
+          <note>Alkohol</note>
+          <note>Gerste</note>
+          <note>Milch (einschließlich Lactose)</note>
+          <note>Schwefeldioxid und Sulfite</note>
+          <note>Sellerie</note>
           <note>Weizen</note>
           <note>glutenhaltiges Getreide</note>
           <note>mit Farbstoff</note>
-          <price role="employee">5.00</price>
-          <price role="other">5.95</price>
-          <price role="student">3.65</price>
+          <price role="employee">1.60</price>
+          <price role="other">1.80</price>
+          <price role="student">1.50</price>
         </meal>
+        <meal>
+          <name>Penne mit frischen Bärlauchpesto an Bärlauchsoße</name>
+          <note>Gerste</note>
+          <note>Knoblauch</note>
+          <note>Mandeln</note>
+          <note>Milch (einschließlich Lactose)</note>
+          <note>Schalenfrüchte</note>
+          <note>Sellerie</note>
+          <note>Weizen</note>
+          <note>glutenhaltiges Getreide</note>
+          <note>konserviert</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">4.70</price>
+          <price role="other">5.65</price>
+          <price role="student">3.35</price>
+        </meal>
+      </category>
+      <category name="Vegan">
         <meal>
           <name>Veganer Hotpot "Tandoori Style"</name>
           <note>Knoblauch</note>
@@ -21,37 +44,18 @@
           <price role="other">5.10</price>
           <price role="student">2.80</price>
         </meal>
-      </category>
-      <category name="Schwein">
         <meal>
-          <name>Schweinerückensteak vom Grill mit Pfefferrahmsoße</name>
-          <note>Alkohol</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Rind/Kalb</note>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>Schwein</note>
+          <name>Soja Gemüsepfanne in feuriger Salsasoße mit Kartoffelspiralen</name>
+          <note>Knoblauch</note>
           <note>Sellerie</note>
-          <price role="employee">4.70</price>
-          <price role="other">5.65</price>
-          <price role="student">3.35</price>
-        </meal>
-      </category>
-      <category name="Gefluegel">
-        <meal>
-          <name>Hähnchen Cordon bleu</name>
-          <note>Geflügel</note>
-          <note>Milch (einschließlich Lactose)</note>
+          <note>Soja</note>
           <note>Weizen</note>
           <note>glutenhaltiges Getreide</note>
-          <note>konserviert</note>
-          <note>mit Antioxidationsmittel</note>
-          <price role="employee">4.70</price>
-          <price role="other">5.65</price>
-          <price role="student">3.35</price>
+          <price role="employee">5.00</price>
+          <price role="other">5.95</price>
+          <price role="student">3.65</price>
         </meal>
       </category>
-    </day>
-    <day date="2026-03-31">
       <category name="Schwein">
         <meal>
           <name>Schweinegeschnetzeltes in Champignonrahm</name>
@@ -69,39 +73,17 @@
           <price role="student">3.80</price>
         </meal>
       </category>
-      <category name="Vegan">
-        <meal>
-          <name>Soja Gemüsepfanne in feuriger Salasasoße mit Kartoffelspiralen</name>
-          <note>Knoblauch</note>
-          <note>Sellerie</note>
-          <note>Soja</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <price role="employee">5.00</price>
-          <price role="other">5.95</price>
-          <price role="student">3.65</price>
-        </meal>
-      </category>
-      <category name="Fleischlos">
-        <meal>
-          <name>Gemüsemaultaschen mit Bärlauchsoße</name>
-          <note>Eier</note>
-          <note>Gerste</note>
-          <note>Mandeln</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Schalenfrüchte</note>
-          <note>Sellerie</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">4.45</price>
-          <price role="other">5.40</price>
-          <price role="student">3.10</price>
-        </meal>
-      </category>
     </day>
     <day date="2026-04-01">
       <category name="Fleischlos">
+        <meal>
+          <name>Kartoffelrahmsüppchen mit Wurzelgemüse</name>
+          <note>Milch (einschließlich Lactose)</note>
+          <note>Sellerie</note>
+          <price role="employee">1.60</price>
+          <price role="other">1.80</price>
+          <price role="student">1.50</price>
+        </meal>
         <meal>
           <name>Spinatknödel mit Kräuterfrischkäsesoße</name>
           <note>Eier</note>
@@ -203,24 +185,15 @@
     <day date="2026-04-07">
       <category name="Vegan">
         <meal>
-          <name>Mildes "Thai Curry" in Kokosmilch mit frischem Gemüse, Lotuswurzeln &amp; Zitronengras dazu Fair Trade Basmati Reis</name>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>Soja</note>
-          <note>konserviert</note>
-          <note>mit Antioxidationsmittel</note>
-          <price role="employee">5.00</price>
-          <price role="other">5.95</price>
-          <price role="student">3.65</price>
-        </meal>
-        <meal>
-          <name>Mildes "Thai Curry" in Kokosmilch mit frischem Gemüse, Lotuswurzeln &amp; Zitronengras dazu Fair Trade Basmati Reis</name>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>Soja</note>
-          <note>konserviert</note>
-          <note>mit Antioxidationsmittel</note>
-          <price role="employee">5.00</price>
-          <price role="other">5.95</price>
-          <price role="student">3.65</price>
+          <name>Karottencremesuppe mit gerösteten Sonnenblumenkernen</name>
+          <note>Gerste</note>
+          <note>Sellerie</note>
+          <note>Weizen</note>
+          <note>glutenhaltiges Getreide</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">1.60</price>
+          <price role="other">1.80</price>
+          <price role="student">1.50</price>
         </meal>
         <meal>
           <name>Mildes "Thai Curry" in Kokosmilch mit frischem Gemüse, Lotuswurzeln &amp; Zitronengras dazu Fair Trade Basmati Reis</name>
@@ -231,38 +204,6 @@
           <price role="employee">5.00</price>
           <price role="other">5.95</price>
           <price role="student">3.65</price>
-        </meal>
-      </category>
-      <category name="Gefluegel">
-        <meal>
-          <name>Hähnchenschnitzel im Knuspermantel mit Super Crunch Pommes frites</name>
-          <note>Geflügel</note>
-          <note>Gerste</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <price role="employee">5.80</price>
-          <price role="other">6.75</price>
-          <price role="student">4.35</price>
-        </meal>
-        <meal>
-          <name>Hähnchenschnitzel im Knuspermantel mit Super Crunch Pommes frites</name>
-          <note>Geflügel</note>
-          <note>Gerste</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <price role="employee">5.80</price>
-          <price role="other">6.75</price>
-          <price role="student">4.35</price>
-        </meal>
-        <meal>
-          <name>Hähnchenschnitzel im Knuspermantel mit Super Crunch Pommes frites</name>
-          <note>Geflügel</note>
-          <note>Gerste</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <price role="employee">5.80</price>
-          <price role="other">6.75</price>
-          <price role="student">4.35</price>
         </meal>
       </category>
       <category name="Fleischlos">
@@ -282,64 +223,32 @@
           <price role="student">2.80</price>
         </meal>
       </category>
-    </day>
-    <day date="2026-04-08">
       <category name="Gefluegel">
         <meal>
-          <name>Hähnchen Kebab mit hausgemachtem Tsatsiki gebackene Patatas</name>
+          <name>Hähnchenschnitzel im Knuspermantel mit Super Crunch Pommes frites</name>
           <note>Geflügel</note>
-          <note>Knoblauch</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Soja</note>
-          <price role="employee">6.30</price>
-          <price role="other">7.25</price>
-          <price role="student">4.85</price>
-        </meal>
-        <meal>
-          <name>Hähnchen Kebab mit hausgemachtem Tsatsiki gebackene Patatas</name>
-          <note>Geflügel</note>
-          <note>Knoblauch</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Soja</note>
-          <price role="employee">6.30</price>
-          <price role="other">7.25</price>
-          <price role="student">4.85</price>
-        </meal>
-        <meal>
-          <name>Hähnchen Kebab mit hausgemachtem Tsatsiki dazu gebackene Patatas</name>
-          <note>Geflügel</note>
-          <note>Knoblauch</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Soja</note>
-          <price role="employee">6.30</price>
-          <price role="other">7.25</price>
-          <price role="student">4.85</price>
+          <note>Gerste</note>
+          <note>Weizen</note>
+          <note>glutenhaltiges Getreide</note>
+          <price role="employee">5.80</price>
+          <price role="other">6.75</price>
+          <price role="student">4.35</price>
         </meal>
       </category>
+    </day>
+    <day date="2026-04-08">
       <category name="Fleischlos">
         <meal>
-          <name>Gebratene Schupfnudeln mit knackigen Gemüse und frischem Bärlauch</name>
-          <note>Eier</note>
+          <name>Cremesuppe mit frischem Bärlauch und Croutons</name>
+          <note>Gerste</note>
+          <note>Milch (einschließlich Lactose)</note>
           <note>Sellerie</note>
           <note>Weizen</note>
           <note>glutenhaltiges Getreide</note>
-          <note>mit Antioxidationsmittel</note>
           <note>mit Farbstoff</note>
-          <price role="employee">5.20</price>
-          <price role="other">6.15</price>
-          <price role="student">3.80</price>
-        </meal>
-        <meal>
-          <name>Gebratene Schupfnudeln mit knackigen Gemüse und frischem Bärlauch</name>
-          <note>Eier</note>
-          <note>Sellerie</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>mit Antioxidationsmittel</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">5.20</price>
-          <price role="other">6.15</price>
-          <price role="student">3.80</price>
+          <price role="employee">1.60</price>
+          <price role="other">1.80</price>
+          <price role="student">1.50</price>
         </meal>
         <meal>
           <name>Gebratene Schupfnudeln mit knackigen Gemüse und frischem Bärlauch</name>
@@ -369,103 +278,21 @@
           <price role="student">3.65</price>
         </meal>
       </category>
-    </day>
-    <day date="2026-04-09">
       <category name="Gefluegel">
         <meal>
-          <name>Geschnetzeltes von der Putenbrust in Champignonrahmsoße Kartoffelkroketten</name>
+          <name>Hähnchen Kebab mit hausgemachtem Tsatsiki dazu gebackene Patatas</name>
           <note>Geflügel</note>
-          <note>Gerste</note>
-          <note>Sellerie</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">8.00</price>
-          <price role="other">8.95</price>
-          <price role="student">6.50</price>
-        </meal>
-        <meal>
-          <name>Geschnetzeltes von der Putenbrust in Champignonrahmsoße Kartoffelkroketten</name>
-          <note>Geflügel</note>
-          <note>Gerste</note>
-          <note>Sellerie</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">8.00</price>
-          <price role="other">8.95</price>
-          <price role="student">6.50</price>
-        </meal>
-        <meal>
-          <name>Geschnetzeltes von der Putenbrust in Champignonrahmsoße dazu Kartoffelkroketten</name>
-          <note>Geflügel</note>
-          <note>Gerste</note>
-          <note>Sellerie</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">8.00</price>
-          <price role="other">8.95</price>
-          <price role="student">6.50</price>
+          <note>Knoblauch</note>
+          <note>Milch (einschließlich Lactose)</note>
+          <note>Soja</note>
+          <price role="employee">6.30</price>
+          <price role="other">7.25</price>
+          <price role="student">4.85</price>
         </meal>
       </category>
+    </day>
+    <day date="2026-04-09">
       <category name="Vegan">
-        <meal>
-          <name>mensaVital: Veganer Kokos - Milchreis mit Mangoragout dazu einen Rote Bete Salat</name>
-          <note>Hafer</note>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>enthält eine Phenylalaninquelle</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>mit Antioxidationsmittel</note>
-          <note>mit Farbstoff</note>
-          <note>mit Süßungsmittel</note>
-          <price role="employee">4.70</price>
-          <price role="other">5.65</price>
-          <price role="student">3.35</price>
-        </meal>
-        <meal>
-          <name>mensaVital: Veganer Kokos - Milchreis mit Mangoragout dazu einen Rote Bete Salat</name>
-          <note>Hafer</note>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>enthält eine Phenylalaninquelle</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>mit Antioxidationsmittel</note>
-          <note>mit Farbstoff</note>
-          <note>mit Süßungsmittel</note>
-          <price role="employee">4.70</price>
-          <price role="other">5.65</price>
-          <price role="student">3.35</price>
-        </meal>
-        <meal>
-          <name>Gebratene Mienudeln "Asia Style" mit frischem Gemüse &amp; Koriander, sweet Chili Dip &amp; Erdnüssen</name>
-          <note>Erdnüsse</note>
-          <note>Knoblauch</note>
-          <note>Sellerie</note>
-          <note>Sesamsamen</note>
-          <note>Soja</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>konserviert</note>
-          <note>mit Antioxidationsmittel</note>
-          <price role="employee">4.70</price>
-          <price role="other">5.65</price>
-          <price role="student">3.35</price>
-        </meal>
-        <meal>
-          <name>Gebratene Mienudeln "Asia Style" mit frischem Gemüse &amp; Koriander, sweet Chili Dip &amp; Erdnüssen</name>
-          <note>Erdnüsse</note>
-          <note>Knoblauch</note>
-          <note>Sellerie</note>
-          <note>Sesamsamen</note>
-          <note>Soja</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>konserviert</note>
-          <note>mit Antioxidationsmittel</note>
-          <price role="employee">4.70</price>
-          <price role="other">5.65</price>
-          <price role="student">3.35</price>
-        </meal>
         <meal>
           <name>mensaVital: Veganer Kokos - Milchreis mit Mangoragout dazu einen Rote Bete Salat</name>
           <note>Hafer</note>
@@ -510,37 +337,49 @@
           <price role="student">3.65</price>
         </meal>
       </category>
+      <category name="Gefluegel">
+        <meal>
+          <name>Geschnetzeltes von der Putenbrust in Champignonrahmsoße dazu Kartoffelkroketten</name>
+          <note>Geflügel</note>
+          <note>Gerste</note>
+          <note>Sellerie</note>
+          <note>Weizen</note>
+          <note>glutenhaltiges Getreide</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">8.00</price>
+          <price role="other">8.95</price>
+          <price role="student">6.50</price>
+        </meal>
+      </category>
     </day>
     <day date="2026-04-10">
+      <category name="Fleischlos">
+        <meal>
+          <name>Blumenkohl Käsecremesuppe</name>
+          <note>Gerste</note>
+          <note>Milch (einschließlich Lactose)</note>
+          <note>Sellerie</note>
+          <note>Weizen</note>
+          <note>glutenhaltiges Getreide</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">1.60</price>
+          <price role="other">1.80</price>
+          <price role="student">1.50</price>
+        </meal>
+        <meal>
+          <name>Tajine von frischen Gemüse, frischem Koriander mit Sumach, Fladenbrot &amp; orientalischer Minz Joghurt Dip</name>
+          <note>Knoblauch</note>
+          <note>Milch (einschließlich Lactose)</note>
+          <note>Schwefeldioxid und Sulfite</note>
+          <note>Sellerie</note>
+          <note>Weizen</note>
+          <note>glutenhaltiges Getreide</note>
+          <price role="employee">5.00</price>
+          <price role="other">5.95</price>
+          <price role="student">3.65</price>
+        </meal>
+      </category>
       <category name="Vegan">
-        <meal>
-          <name>Gebackene Brokkoli - Nuss - Knusperecke mit Tomatenreis</name>
-          <note>Hafer</note>
-          <note>Haselnüsse</note>
-          <note>Knoblauch</note>
-          <note>Mandeln</note>
-          <note>Schalenfrüchte</note>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <price role="employee">4.45</price>
-          <price role="other">5.40</price>
-          <price role="student">3.10</price>
-        </meal>
-        <meal>
-          <name>Gebackene Brokkoli - Nuss - Knusperecke mit Tomatenreis</name>
-          <note>Hafer</note>
-          <note>Haselnüsse</note>
-          <note>Knoblauch</note>
-          <note>Mandeln</note>
-          <note>Schalenfrüchte</note>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <price role="employee">4.45</price>
-          <price role="other">5.40</price>
-          <price role="student">3.10</price>
-        </meal>
         <meal>
           <name>Gebackene Brokkoli - Nuss - Knusperecke mit Tomatenreis</name>
           <note>Hafer</note>
@@ -558,38 +397,6 @@
       </category>
       <category name="Fisch">
         <meal>
-          <name>Gebratenes Filet vom Nordmeerseelachs Bärlauchsoße Kartoffelrösti</name>
-          <note>Fisch</note>
-          <note>Fische</note>
-          <note>Gerste</note>
-          <note>Mandeln</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Schalenfrüchte</note>
-          <note>Sellerie</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">6.60</price>
-          <price role="other">7.55</price>
-          <price role="student">5.15</price>
-        </meal>
-        <meal>
-          <name>Gebratenes Filet vom Nordmeerseelachs Bärlauchsoße Kartoffelrösti</name>
-          <note>Fisch</note>
-          <note>Fische</note>
-          <note>Gerste</note>
-          <note>Mandeln</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Schalenfrüchte</note>
-          <note>Sellerie</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">6.60</price>
-          <price role="other">7.55</price>
-          <price role="student">5.15</price>
-        </meal>
-        <meal>
           <name>Gebratenes Filet vom Nordmeerseelachs an Bärlauchsoße dazu Kartoffelrösti</name>
           <note>Fisch</note>
           <note>Fische</note>
@@ -604,20 +411,6 @@
           <price role="employee">6.60</price>
           <price role="other">7.55</price>
           <price role="student">5.15</price>
-        </meal>
-      </category>
-      <category name="Fleischlos">
-        <meal>
-          <name>Tajine von frischen Gemüse, frischem Koriander mit Sumach, Fladenbrot &amp; orientalischer Minz Joghurt Dip</name>
-          <note>Knoblauch</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>Sellerie</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <price role="employee">5.00</price>
-          <price role="other">5.95</price>
-          <price role="student">3.65</price>
         </meal>
       </category>
     </day>
