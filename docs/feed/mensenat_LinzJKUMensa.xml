@@ -1,6 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
+    <day date="2026-03-30">
+      <category name="Menü veggie/vegan (mit Suppe, Salat und Getränk)">
+        <meal>
+          <name>"everything vegan" Veganes Karfiol-Erdäpfelcurry serviert mit Bio Bulgur und frischen Kräuter</name>
+          <note>A</note>
+          <note>F</note>
+          <note>L</note>
+          <note>N</note>
+          <price role="other">6.20</price>
+        </meal>
+      </category>
+      <category name="Tagesgericht Veggie/Vegan">
+        <meal>
+          <name>"Käsegenuss zum Wochenstart" Gold-braun gebackener Camembert mit Petersilerdäpfel und bunter Blattsalatmischung (optional mit Preiselbeeren +€ 0,70)</name>
+          <note>A</note>
+          <note>C</note>
+          <note>G</note>
+          <note>O</note>
+          <price role="other">10.50</price>
+        </meal>
+      </category>
+      <category name="Tagesgericht herzhaft">
+        <meal>
+          <name>"Herzhaft und geschmackvoll" Gefüllte Zucchini mit Bio Rinderfaschiertem dazu Tomatenragout und Schnittlaucherdäpfel</name>
+          <note>G</note>
+          <price role="other">10.90</price>
+        </meal>
+      </category>
+      <category name="Suppe">
+        <meal>
+          <name>Vegane klare Gemüsesuppe (L) mit Grießnockerl (A,C,G) vegane Alternativ CousCous (A)</name>
+          <price role="other">2.30</price>
+        </meal>
+      </category>
+    </day>
     <day date="2026-03-31">
       <category name="Menü herzhaft (mit Suppe, Salat und Getränk)">
         <meal>
@@ -18,11 +53,6 @@
           <note>N</note>
           <note>O</note>
           <price role="other">10.30</price>
-        </meal>
-        <meal>
-          <name>Glasierter Braten vom Bio Schwein</name>
-          <note>O</note>
-          <price role="other">10.50</price>
         </meal>
       </category>
       <category name="Tagesgericht herzhaft">
@@ -162,97 +192,71 @@
         </meal>
       </category>
     </day>
-    <day date="2026-04-06">
-      <category name="Menü veggie/vegan (mit Suppe, Salat und Getränk)">
-        <meal>
-          <name>Cremige Gemüserahmspätzle mit Käse dazu Röstzwiebel</name>
-          <note>A</note>
-          <note>C</note>
-          <note>F</note>
-          <note>G</note>
-          <note>L</note>
-          <price role="other">6.20</price>
-        </meal>
-      </category>
-      <category name="Menü herzhaft (mit Suppe, Salat und Getränk)">
-        <meal>
-          <name>Chili con Carne vom Bio Rind dazu resches Gebäck</name>
-          <note>A</note>
-          <note>L</note>
-          <price role="other">7.60</price>
-        </meal>
-      </category>
-      <category name="Suppe">
-        <meal>
-          <name>Klare Gemüsesuppe mit Frittaten Schnittlauch geschnitten 2g</name>
-          <note>A</note>
-          <note>C</note>
-          <note>G</note>
-          <note>L</note>
-          <price role="other">2.20</price>
-        </meal>
-      </category>
-    </day>
     <day date="2026-04-07">
       <category name="Menü veggie/vegan (mit Suppe, Salat und Getränk)">
         <meal>
-          <name>Hausgemachter Gemüse Eintopf aus frischem Marktgemüse und mit roten Linsen dazu Petersilerdäpfel</name>
+          <name>"american classic" Cremige Mac and Cheese garniert Röstzwiebel und frischer Kräutergarnitur</name>
           <note>A</note>
           <note>F</note>
+          <note>G</note>
           <note>L</note>
-          <note>O</note>
           <price role="other">6.20</price>
         </meal>
       </category>
       <category name="Menü herzhaft (mit Suppe, Salat und Getränk)">
         <meal>
-          <name>Esterhazy Geschnetzeltes vom Bio Rind dazu Pasta Barilla</name>
+          <name>"herzhaft und traditionell" Schinkenrahmspätzle vom Bio Schwein garniert mit frischen Kräuter</name>
+          <note>A</note>
+          <note>C</note>
+          <note>F</note>
+          <note>G</note>
+          <note>L</note>
+          <price role="other">7.60</price>
+        </meal>
+      </category>
+      <category name="Tagesgericht Veggie/Vegan">
+        <meal>
+          <name>"Plant-Based Fiesta Wrap" Handgedrehter Mexico Wrap mit Sojafaschiertem, Bohnen und Mais serviert mit buntem Blattsalatnest und knusprigen Potato Wedges</name>
           <note>A</note>
           <note>F</note>
           <note>L</note>
-          <note>M</note>
           <note>O</note>
-          <price role="other">7.60</price>
+          <price role="other">10.50</price>
         </meal>
       </category>
       <category name="Tagesgericht herzhaft">
         <meal>
-          <name>"Farmerstyle" Holzfäller Steak vom Bio Schweinskarre dazu Ofenerdäpfel und Champignon-Bohnengemüse mit BIO Speckstreifen</name>
-          <note>G</note>
+          <name>"Street Food vibes" Handgedrehter Warp gefüllt mit saftigem Pulled Pork vom Bio Schwein, frischer Paprika, Zwiebeln und Reis dazu knackiges Blattsalatnest und knusprige Potato Wedges</name>
+          <note>A</note>
           <note>L</note>
           <note>M</note>
-          <note>N</note>
+          <note>O</note>
           <price role="other">11.90</price>
-        </meal>
-        <meal>
-          <name>Gefüllte Ravioli a la Rucola &amp; Ricotta dazu Basilikum Pesto und Parmesan garniert mit Rucola und gerösteten Mandeln</name>
-          <note>A</note>
-          <note>C</note>
-          <note>G</note>
-          <note>H</note>
-          <price role="other">9.90</price>
         </meal>
       </category>
       <category name="Suppe">
         <meal>
-          <name>Knoblauchcremesuppe VEGAN</name>
+          <name>Vegane Bärlauchcremesuppe</name>
           <note>F</note>
-          <note>O</note>
-          <price role="other">2.20</price>
+          <note>L</note>
+          <price role="other">2.30</price>
         </meal>
       </category>
     </day>
     <day date="2026-04-08">
       <category name="Menü veggie/vegan (mit Suppe, Salat und Getränk)">
         <meal>
-          <name>Frisches Ofengemüse vom Schoberleitner mit Minierdäpfel und Kräutergarnitur dazu hausgemachter Sauerrahmdip (G)</name>
+          <name>"everything vegan" Indisches Linsen Makhani serviert mit lauwarmen Pitabrot (A) und frischer Kräutergarnitur</name>
+          <note>E</note>
+          <note>F</note>
           <note>L</note>
+          <note>N</note>
           <price role="other">6.20</price>
         </meal>
       </category>
       <category name="Menü herzhaft (mit Suppe, Salat und Getränk)">
         <meal>
-          <name>Asiatisches Rosmarin-Zitronen Ragout von der Bio Pute mit Basmatireis</name>
+          <name>"erlebe den vollen Geschmack" Geschnetzeltes nach Züricher Art von der Bio Pute mit Reis mit frischem Kräutertopping</name>
           <note>F</note>
           <note>L</note>
           <note>O</note>
@@ -261,101 +265,104 @@
       </category>
       <category name="Tagesgericht Veggie/Vegan">
         <meal>
-          <name>"Schnitzeltag" Gold-braun gebackenes Alt Wiener Backfleisch vom Bio Rind mit Petersilerdäpfel und Butterreis dazu Zitronenspalte (Preiselbeeren +0,60€)</name>
+          <name>"veggie, vital &amp; voi guad" Ofenfrisches Moussaka mit Schafkäse serviert mit buntem Blattsalatnest und abgerundet mit frischen Kräutern</name>
           <note>A</note>
-          <note>C</note>
           <note>G</note>
-          <price role="other">10.50</price>
+          <note>L</note>
+          <price role="other">10.30</price>
         </meal>
       </category>
       <category name="Suppe">
         <meal>
-          <name>Klare Gemüsesuppe mit Frittaten Schnittlauch geschnitten 2g</name>
-          <note>A</note>
-          <note>C</note>
-          <note>G</note>
-          <note>L</note>
-          <price role="other">2.20</price>
+          <name>Vegane klare Gemüsesuppe (L) mit Fadennudeln (A,C) vegane Alternativ Ebly (A)</name>
+          <price role="other">2.30</price>
         </meal>
       </category>
     </day>
     <day date="2026-04-09">
       <category name="Menü veggie/vegan (mit Suppe, Salat und Getränk)">
         <meal>
-          <name>Erdbeerknödel in Butterbröseln dazu Vanillesauce und Staubzucker</name>
+          <name>"einfach und guad" Klassische Krautfleckerl garniert mit frischen Kräuter</name>
           <note>A</note>
-          <note>C</note>
-          <note>G</note>
+          <note>L</note>
           <price role="other">6.20</price>
         </meal>
       </category>
       <category name="Menü herzhaft (mit Suppe, Salat und Getränk)">
         <meal>
-          <name>Spinat-Schinkenrahmspätzle mit Bio Schinken</name>
+          <name>"Hausmannskost für Feinschmecker " Zartes Ragout vom Bio Rind in feiner Wurzelrahmsauce serviert mit Butterspätzle und frischer Kräutergarnitur</name>
           <note>A</note>
           <note>C</note>
-          <note>F</note>
           <note>G</note>
+          <note>L</note>
           <note>O</note>
           <price role="other">7.60</price>
         </meal>
       </category>
       <category name="Tagesgericht Veggie/Vegan">
         <meal>
-          <name>Gegrillte Bio Bratwürstel vom Schwein 3stk. mit Sauerkraut und Erdäpfelschmarren dazu Gewürz-Ketchup</name>
+          <name>"Veganes Brain food in deiner Mensa" Aromatisches Thai Gemüsecurry aus frischem Marktgemüse vom Schoberleitner mit Koriandergarnitur und Cashewnüssen serviert mit Jasmin-Duftreis</name>
+          <note>A</note>
           <note>F</note>
+          <note>H</note>
           <note>L</note>
+          <note>N</note>
+          <price role="other">9.30</price>
+        </meal>
+      </category>
+      <category name="Tagesgericht herzhaft">
+        <meal>
+          <name>"weil`s selbst paniert einfach besser schmeckt!" Gold-braun gebackenes Schnitzel vom Bio Schwein mit Petersilerdäpfel und Butterreis dazu Zitronenspalte (optional mit Preiselbeeren +€ 0,70)</name>
+          <note>A</note>
+          <note>C</note>
+          <note>G</note>
           <note>O</note>
-          <price role="other">10.50</price>
+          <price role="other">10.90</price>
         </meal>
       </category>
       <category name="Suppe">
         <meal>
-          <name>Gemüsecremesuppe VEGAN</name>
+          <name>Vegane Gelbe-Rüben Currycremesuppe VEGAN</name>
           <note>F</note>
-          <note>O</note>
-          <price role="other">2.20</price>
+          <note>L</note>
+          <price role="other">2.30</price>
         </meal>
       </category>
     </day>
     <day date="2026-04-10">
       <category name="Menü veggie/vegan (mit Suppe, Salat und Getränk)">
         <meal>
-          <name>Hausgemachter Gemüsestrudel dazu Dillerdäpfel und veganer Kräuter Dip</name>
-          <note>A</note>
+          <name>"everything vegan" Ofenfisches Kartoffel-Zucchinigratin garniert mit frischen Kräuter</name>
           <note>L</note>
           <price role="other">6.20</price>
         </meal>
       </category>
       <category name="Menü herzhaft (mit Suppe, Salat und Getränk)">
         <meal>
-          <name>Pasta Barilla mit Sauce Alfredo von der Bio Pute</name>
+          <name>"MSC zertifiziert" Pasta in aromatischer Räucherlachs Sauce garniert mit frischen Kräuter</name>
           <note>A</note>
+          <note>D</note>
           <note>F</note>
           <note>L</note>
           <note>O</note>
           <price role="other">7.60</price>
         </meal>
       </category>
-      <category name="Tagesgericht herzhaft">
+      <category name="Tagesgericht Veggie/Vegan">
         <meal>
-          <name>"weil´s selbst paniert einfach besser schmeckt" Knusprig gebackene Champignons mit Petersilerdäpfel und knackigem Salatnest dazu Sauce Tartare</name>
+          <name>"cremig &amp; unwiderstehlich" Champignons á la Creme serviert mit hausgemachtem Serviettenknödel, Obers Haube und frischer Kräutergarnitur</name>
           <note>A</note>
           <note>C</note>
-          <note>F</note>
           <note>G</note>
           <note>L</note>
-          <price role="other">9.90</price>
+          <note>O</note>
+          <price role="other">10.30</price>
         </meal>
       </category>
       <category name="Suppe">
         <meal>
-          <name>Klare Gemüsesuppe mit Frittaten Schnittlauch geschnitten 2g</name>
-          <note>A</note>
-          <note>C</note>
-          <note>G</note>
-          <note>L</note>
-          <price role="other">2.20</price>
+          <name>Vegane klare Gemüsesuppe (L) mit Frittaten (A,C,G) vegane Alternativ Nudeln (A)</name>
+          <price role="other">2.30</price>
         </meal>
       </category>
     </day>
