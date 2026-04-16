@@ -38,42 +38,350 @@
     <main>
       <article>Parser for <a target="_blank" href="https://openmensa.org">openmensa.org</a>. The parser runs in a <a target="_blank" title="What's a Github action?" href="https://docs.github.com/en/actions">Github action<sup>❓</sup></a> and pushes the XML feeds to this page</article>
       <article><h3><a href="https://github.com/cvzi/mensa/actions/">🗿 Parser status</a></h3>
-<pre>luxembourg:
+<pre>mensenat/SalzSIAK:
 Traceback (most recent call last):
-  File "D:\dev\mensa\mensa_github\luxembourg\tools.py", line 15, in <module>
-    from util import StyledLazyBuilder, now_local
-  File "D:\dev\mensa\mensa_github\util.py", line 6, in <module>
-    import lxml
-ModuleNotFoundError: No module named 'lxml'
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
+    content = getattr(parser, feedMethod)(
+        mensaReference)
+  File "/home/runner/work/mensa/mensa/mensenat/__init__.py", line 29, in feed
+    return canteen.generateTotalFeedXml()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 52, in generateTotalFeedXml
+    weekMenus = self.fetchWeekMenus()
+  File "/home/runner/work/mensa/mensa/mensenat/canteen.py", line 42, in fetchWeekMenus
+    menuplanCurrentWeek = json.loads(result["nodeByUri"]["menuplanCurrentWeek"])
+                                     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+
+eurest/oekb:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/eurest/__init__.py", line 46, in feed
+    dom = defusedxml.lxml.parse(source)
+  File "/opt/hostedtoolcache/Python/3.14.3/x64/lib/python3.14/site-packages/defusedxml/lxml.py", line 135, in parse
+    elementtree = _etree.parse(source, parser, base_url=base_url)
+  File "src/lxml/etree.pyx", line 3716, in lxml.etree.parse
+  File "src/lxml/parser.pxi", line 2062, in lxml.etree._parseDocument
+  File "src/lxml/parser.pxi", line 2080, in lxml.etree._parseFilelikeDocument
+  File "src/lxml/parser.pxi", line 1965, in lxml.etree._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 1254, in lxml.etree._BaseParser._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 647, in lxml.etree._ParserContext._handleParseResultDoc
+  File "src/lxml/parser.pxi", line 765, in lxml.etree._handleParseResult
+  File "src/lxml/parser.pxi", line 689, in lxml.etree._raiseParseError
+  File "/CurrentWeek/K02610_DEU.xml", line 1
+lxml.etree.XMLSyntaxError: Space required after the Public Identifier, line 1, column 57
 
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "D:\dev\mensa\mensa_github\luxembourg\__init__.py", line 8, in <module>
-    from luxembourg.tools import getMenu
-  File "D:\dev\mensa\mensa_github\luxembourg\tools.py", line 21, in <module>
-    from util import xml_escape, StyledLazyBuilder, now_local
-  File "D:\dev\mensa\mensa_github\util.py", line 6, in <module>
-    import lxml
-ModuleNotFoundError: No module named 'lxml'
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
+    content = getattr(parser, feedMethod)(
+        mensaReference)
+  File "/home/runner/work/mensa/mensa/eurest/__init__.py", line 52, in feed
+    dom = defusedxml.lxml.parse(source)
+  File "/opt/hostedtoolcache/Python/3.14.3/x64/lib/python3.14/site-packages/defusedxml/lxml.py", line 135, in parse
+    elementtree = _etree.parse(source, parser, base_url=base_url)
+  File "src/lxml/etree.pyx", line 3716, in lxml.etree.parse
+  File "src/lxml/parser.pxi", line 2062, in lxml.etree._parseDocument
+  File "src/lxml/parser.pxi", line 2080, in lxml.etree._parseFilelikeDocument
+  File "src/lxml/parser.pxi", line 1965, in lxml.etree._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 1254, in lxml.etree._BaseParser._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 647, in lxml.etree._ParserContext._handleParseResultDoc
+  File "src/lxml/parser.pxi", line 765, in lxml.etree._handleParseResult
+  File "src/lxml/parser.pxi", line 689, in lxml.etree._raiseParseError
+  File "/NextWeek/K02610_DEU.xml", line 1
+lxml.etree.XMLSyntaxError: Space required after the Public Identifier, line 1, column 57
+
+eurest/amag:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/eurest/__init__.py", line 46, in feed
+    dom = defusedxml.lxml.parse(source)
+  File "/opt/hostedtoolcache/Python/3.14.3/x64/lib/python3.14/site-packages/defusedxml/lxml.py", line 135, in parse
+    elementtree = _etree.parse(source, parser, base_url=base_url)
+  File "src/lxml/etree.pyx", line 3716, in lxml.etree.parse
+  File "src/lxml/parser.pxi", line 2062, in lxml.etree._parseDocument
+  File "src/lxml/parser.pxi", line 2080, in lxml.etree._parseFilelikeDocument
+  File "src/lxml/parser.pxi", line 1965, in lxml.etree._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 1254, in lxml.etree._BaseParser._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 647, in lxml.etree._ParserContext._handleParseResultDoc
+  File "src/lxml/parser.pxi", line 765, in lxml.etree._handleParseResult
+  File "src/lxml/parser.pxi", line 689, in lxml.etree._raiseParseError
+  File "/CurrentWeek/K08110_DEU.xml", line 1
+lxml.etree.XMLSyntaxError: Space required after the Public Identifier, line 1, column 57
 
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "D:\dev\mensa\mensa_github\updateFeeds.py", line 102, in updateFeeds
-    module = importlib.import_module(parserName)
-  File "C:\Users\cuzi\AppData\Local\Programs\Python\Python314\Lib\importlib\__init__.py", line 88, in import_module
-    return _bootstrap._gcd_import(name[level:], package, level)
-           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "<frozen importlib._bootstrap>", line 1406, in _gcd_import
-  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 1342, in _find_and_load_unlocked
-  File "<frozen importlib._bootstrap>", line 938, in _load_unlocked
-  File "<frozen importlib._bootstrap_external>", line 759, in exec_module
-  File "<frozen importlib._bootstrap>", line 491, in _call_with_frames_removed
-  File "D:\dev\mensa\mensa_github\luxembourg\__init__.py", line 14, in <module>
-    from tools import getMenu
-ModuleNotFoundError: No module named 'tools'
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
+    content = getattr(parser, feedMethod)(
+        mensaReference)
+  File "/home/runner/work/mensa/mensa/eurest/__init__.py", line 52, in feed
+    dom = defusedxml.lxml.parse(source)
+  File "/opt/hostedtoolcache/Python/3.14.3/x64/lib/python3.14/site-packages/defusedxml/lxml.py", line 135, in parse
+    elementtree = _etree.parse(source, parser, base_url=base_url)
+  File "src/lxml/etree.pyx", line 3716, in lxml.etree.parse
+  File "src/lxml/parser.pxi", line 2062, in lxml.etree._parseDocument
+  File "src/lxml/parser.pxi", line 2080, in lxml.etree._parseFilelikeDocument
+  File "src/lxml/parser.pxi", line 1965, in lxml.etree._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 1254, in lxml.etree._BaseParser._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 647, in lxml.etree._ParserContext._handleParseResultDoc
+  File "src/lxml/parser.pxi", line 765, in lxml.etree._handleParseResult
+  File "src/lxml/parser.pxi", line 689, in lxml.etree._raiseParseError
+  File "/NextWeek/K08110_DEU.xml", line 1
+lxml.etree.XMLSyntaxError: Space required after the Public Identifier, line 1, column 57
+
+eurest/orf-funkhaus:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/eurest/__init__.py", line 46, in feed
+    dom = defusedxml.lxml.parse(source)
+  File "/opt/hostedtoolcache/Python/3.14.3/x64/lib/python3.14/site-packages/defusedxml/lxml.py", line 135, in parse
+    elementtree = _etree.parse(source, parser, base_url=base_url)
+  File "src/lxml/etree.pyx", line 3716, in lxml.etree.parse
+  File "src/lxml/parser.pxi", line 2062, in lxml.etree._parseDocument
+  File "src/lxml/parser.pxi", line 2080, in lxml.etree._parseFilelikeDocument
+  File "src/lxml/parser.pxi", line 1965, in lxml.etree._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 1254, in lxml.etree._BaseParser._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 647, in lxml.etree._ParserContext._handleParseResultDoc
+  File "src/lxml/parser.pxi", line 765, in lxml.etree._handleParseResult
+  File "src/lxml/parser.pxi", line 689, in lxml.etree._raiseParseError
+  File "/CurrentWeek/K19110_DEU.xml", line 1
+lxml.etree.XMLSyntaxError: Space required after the Public Identifier, line 1, column 57
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
+    content = getattr(parser, feedMethod)(
+        mensaReference)
+  File "/home/runner/work/mensa/mensa/eurest/__init__.py", line 52, in feed
+    dom = defusedxml.lxml.parse(source)
+  File "/opt/hostedtoolcache/Python/3.14.3/x64/lib/python3.14/site-packages/defusedxml/lxml.py", line 135, in parse
+    elementtree = _etree.parse(source, parser, base_url=base_url)
+  File "src/lxml/etree.pyx", line 3716, in lxml.etree.parse
+  File "src/lxml/parser.pxi", line 2062, in lxml.etree._parseDocument
+  File "src/lxml/parser.pxi", line 2080, in lxml.etree._parseFilelikeDocument
+  File "src/lxml/parser.pxi", line 1965, in lxml.etree._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 1254, in lxml.etree._BaseParser._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 647, in lxml.etree._ParserContext._handleParseResultDoc
+  File "src/lxml/parser.pxi", line 765, in lxml.etree._handleParseResult
+  File "src/lxml/parser.pxi", line 689, in lxml.etree._raiseParseError
+  File "/NextWeek/K19110_DEU.xml", line 1
+lxml.etree.XMLSyntaxError: Space required after the Public Identifier, line 1, column 57
+
+eurest/orf-storchen:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/eurest/__init__.py", line 46, in feed
+    dom = defusedxml.lxml.parse(source)
+  File "/opt/hostedtoolcache/Python/3.14.3/x64/lib/python3.14/site-packages/defusedxml/lxml.py", line 135, in parse
+    elementtree = _etree.parse(source, parser, base_url=base_url)
+  File "src/lxml/etree.pyx", line 3716, in lxml.etree.parse
+  File "src/lxml/parser.pxi", line 2062, in lxml.etree._parseDocument
+  File "src/lxml/parser.pxi", line 2080, in lxml.etree._parseFilelikeDocument
+  File "src/lxml/parser.pxi", line 1965, in lxml.etree._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 1254, in lxml.etree._BaseParser._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 647, in lxml.etree._ParserContext._handleParseResultDoc
+  File "src/lxml/parser.pxi", line 765, in lxml.etree._handleParseResult
+  File "src/lxml/parser.pxi", line 689, in lxml.etree._raiseParseError
+  File "/CurrentWeek/K19210_DEU.xml", line 1
+lxml.etree.XMLSyntaxError: Space required after the Public Identifier, line 1, column 57
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
+    content = getattr(parser, feedMethod)(
+        mensaReference)
+  File "/home/runner/work/mensa/mensa/eurest/__init__.py", line 52, in feed
+    dom = defusedxml.lxml.parse(source)
+  File "/opt/hostedtoolcache/Python/3.14.3/x64/lib/python3.14/site-packages/defusedxml/lxml.py", line 135, in parse
+    elementtree = _etree.parse(source, parser, base_url=base_url)
+  File "src/lxml/etree.pyx", line 3716, in lxml.etree.parse
+  File "src/lxml/parser.pxi", line 2062, in lxml.etree._parseDocument
+  File "src/lxml/parser.pxi", line 2080, in lxml.etree._parseFilelikeDocument
+  File "src/lxml/parser.pxi", line 1965, in lxml.etree._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 1254, in lxml.etree._BaseParser._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 647, in lxml.etree._ParserContext._handleParseResultDoc
+  File "src/lxml/parser.pxi", line 765, in lxml.etree._handleParseResult
+  File "src/lxml/parser.pxi", line 689, in lxml.etree._raiseParseError
+  File "/NextWeek/K19210_DEU.xml", line 1
+lxml.etree.XMLSyntaxError: Space required after the Public Identifier, line 1, column 57
+
+eurest/intervet:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/eurest/__init__.py", line 46, in feed
+    dom = defusedxml.lxml.parse(source)
+  File "/opt/hostedtoolcache/Python/3.14.3/x64/lib/python3.14/site-packages/defusedxml/lxml.py", line 135, in parse
+    elementtree = _etree.parse(source, parser, base_url=base_url)
+  File "src/lxml/etree.pyx", line 3716, in lxml.etree.parse
+  File "src/lxml/parser.pxi", line 2062, in lxml.etree._parseDocument
+  File "src/lxml/parser.pxi", line 2080, in lxml.etree._parseFilelikeDocument
+  File "src/lxml/parser.pxi", line 1965, in lxml.etree._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 1254, in lxml.etree._BaseParser._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 647, in lxml.etree._ParserContext._handleParseResultDoc
+  File "src/lxml/parser.pxi", line 765, in lxml.etree._handleParseResult
+  File "src/lxml/parser.pxi", line 689, in lxml.etree._raiseParseError
+  File "/CurrentWeek/K19710_DEU.xml", line 1
+lxml.etree.XMLSyntaxError: Space required after the Public Identifier, line 1, column 57
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
+    content = getattr(parser, feedMethod)(
+        mensaReference)
+  File "/home/runner/work/mensa/mensa/eurest/__init__.py", line 52, in feed
+    dom = defusedxml.lxml.parse(source)
+  File "/opt/hostedtoolcache/Python/3.14.3/x64/lib/python3.14/site-packages/defusedxml/lxml.py", line 135, in parse
+    elementtree = _etree.parse(source, parser, base_url=base_url)
+  File "src/lxml/etree.pyx", line 3716, in lxml.etree.parse
+  File "src/lxml/parser.pxi", line 2062, in lxml.etree._parseDocument
+  File "src/lxml/parser.pxi", line 2080, in lxml.etree._parseFilelikeDocument
+  File "src/lxml/parser.pxi", line 1965, in lxml.etree._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 1254, in lxml.etree._BaseParser._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 647, in lxml.etree._ParserContext._handleParseResultDoc
+  File "src/lxml/parser.pxi", line 765, in lxml.etree._handleParseResult
+  File "src/lxml/parser.pxi", line 689, in lxml.etree._raiseParseError
+  File "/NextWeek/K19710_DEU.xml", line 1
+lxml.etree.XMLSyntaxError: Space required after the Public Identifier, line 1, column 57
+
+eurest/mercedes:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/eurest/__init__.py", line 46, in feed
+    dom = defusedxml.lxml.parse(source)
+  File "/opt/hostedtoolcache/Python/3.14.3/x64/lib/python3.14/site-packages/defusedxml/lxml.py", line 135, in parse
+    elementtree = _etree.parse(source, parser, base_url=base_url)
+  File "src/lxml/etree.pyx", line 3716, in lxml.etree.parse
+  File "src/lxml/parser.pxi", line 2062, in lxml.etree._parseDocument
+  File "src/lxml/parser.pxi", line 2080, in lxml.etree._parseFilelikeDocument
+  File "src/lxml/parser.pxi", line 1965, in lxml.etree._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 1254, in lxml.etree._BaseParser._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 647, in lxml.etree._ParserContext._handleParseResultDoc
+  File "src/lxml/parser.pxi", line 765, in lxml.etree._handleParseResult
+  File "src/lxml/parser.pxi", line 689, in lxml.etree._raiseParseError
+  File "/CurrentWeek/K27510_DEU.xml", line 1
+lxml.etree.XMLSyntaxError: Space required after the Public Identifier, line 1, column 57
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
+    content = getattr(parser, feedMethod)(
+        mensaReference)
+  File "/home/runner/work/mensa/mensa/eurest/__init__.py", line 52, in feed
+    dom = defusedxml.lxml.parse(source)
+  File "/opt/hostedtoolcache/Python/3.14.3/x64/lib/python3.14/site-packages/defusedxml/lxml.py", line 135, in parse
+    elementtree = _etree.parse(source, parser, base_url=base_url)
+  File "src/lxml/etree.pyx", line 3716, in lxml.etree.parse
+  File "src/lxml/parser.pxi", line 2062, in lxml.etree._parseDocument
+  File "src/lxml/parser.pxi", line 2080, in lxml.etree._parseFilelikeDocument
+  File "src/lxml/parser.pxi", line 1965, in lxml.etree._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 1254, in lxml.etree._BaseParser._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 647, in lxml.etree._ParserContext._handleParseResultDoc
+  File "src/lxml/parser.pxi", line 765, in lxml.etree._handleParseResult
+  File "src/lxml/parser.pxi", line 689, in lxml.etree._raiseParseError
+  File "/NextWeek/K27510_DEU.xml", line 1
+lxml.etree.XMLSyntaxError: Space required after the Public Identifier, line 1, column 57
+
+inetmenue/bs-ei:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
+    content = getattr(parser, feedMethod)(
+        mensaReference)
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
+    return self.feed_all(ref, get_next_week=False)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
+    next_week_path = self.parseMeals(ref, builder, resp.text)
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
+    raise RuntimeError(oops.text.strip())
+RuntimeError: OOPS
+
+                        da hat sich wohl der
+                        Fehlerteufel eingeschlichen.
+
+inetmenue/ggs:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
+    content = getattr(parser, feedMethod)(
+        mensaReference)
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
+    return self.feed_all(ref, get_next_week=False)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
+    next_week_path = self.parseMeals(ref, builder, resp.text)
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
+    raise RuntimeError(oops.text.strip())
+RuntimeError: OOPS
+
+                        da hat sich wohl der
+                        Fehlerteufel eingeschlichen.
+
+inetmenue/mns:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
+    content = getattr(parser, feedMethod)(
+        mensaReference)
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
+    return self.feed_all(ref, get_next_week=False)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
+    next_week_path = self.parseMeals(ref, builder, resp.text)
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
+    raise RuntimeError(oops.text.strip())
+RuntimeError: OOPS
+
+                        da hat sich wohl der
+                        Fehlerteufel eingeschlichen.
+
+inetmenue/ms-ei:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
+    content = getattr(parser, feedMethod)(
+        mensaReference)
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
+    return self.feed_all(ref, get_next_week=False)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
+    next_week_path = self.parseMeals(ref, builder, resp.text)
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
+    raise RuntimeError(oops.text.strip())
+RuntimeError: OOPS
+
+                        da hat sich wohl der
+                        Fehlerteufel eingeschlichen.
+
+inetmenue/schmecktsdannbassts:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
+    content = getattr(parser, feedMethod)(
+        mensaReference)
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
+    return self.feed_all(ref, get_next_week=False)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
+    next_week_path = self.parseMeals(ref, builder, resp.text)
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
+    raise RuntimeError(oops.text.strip())
+RuntimeError: OOPS
+
+                        da hat sich wohl der
+                        Fehlerteufel eingeschlichen.
+
+inetmenue/sfz-ei:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
+    content = getattr(parser, feedMethod)(
+        mensaReference)
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 44, in feed_today
+    return self.feed_all(ref, get_next_week=False)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 56, in feed_all
+    next_week_path = self.parseMeals(ref, builder, resp.text)
+  File "/home/runner/work/mensa/mensa/inetmenue/__init__.py", line 84, in parseMeals
+    raise RuntimeError(oops.text.strip())
+RuntimeError: OOPS
+
+                        da hat sich wohl der
+                        Fehlerteufel eingeschlichen.
 </pre></article>
       <article>
 <ol style="list-style-type:none">

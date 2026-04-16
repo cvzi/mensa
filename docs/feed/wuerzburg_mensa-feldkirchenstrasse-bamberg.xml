@@ -4,7 +4,7 @@
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
     <day date="2026-04-16">
-      <category name="Vegan">
+      <category name="Fleischlos">
         <meal>
           <name>Kartoffelrahmsüppchen mit Wurzelgemüse</name>
           <note>Milch (einschließlich Lactose)</note>
@@ -13,6 +13,23 @@
           <price role="other">1.80</price>
           <price role="student">1.50</price>
         </meal>
+        <meal>
+          <name>"Mac and Cheese" überbackene Nudeln in kräftiger Cheddar Käsesoße</name>
+          <note>Gerste</note>
+          <note>Knoblauch</note>
+          <note>Milch (einschließlich Lactose)</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
+          <note>Weizen</note>
+          <note>glutenhaltiges Getreide</note>
+          <note>konserviert</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">4.15</price>
+          <price role="other">5.10</price>
+          <price role="student">2.80</price>
+        </meal>
+      </category>
+      <category name="Vegan">
         <meal>
           <name>Gnocchi aus der Pfanne mit frischem Bärlauch und Kirschtomaten</name>
           <note>Knoblauch</note>
@@ -33,23 +50,6 @@
           <price role="employee">4.45</price>
           <price role="other">5.40</price>
           <price role="student">3.10</price>
-        </meal>
-      </category>
-      <category name="Fleischlos">
-        <meal>
-          <name>"Mac and Cheese" überbackene Nudeln in kräftiger Cheddar Käsesoße</name>
-          <note>Gerste</note>
-          <note>Knoblauch</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Sellerie</note>
-          <note>Soja</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>konserviert</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">4.15</price>
-          <price role="other">5.10</price>
-          <price role="student">2.80</price>
         </meal>
       </category>
     </day>
