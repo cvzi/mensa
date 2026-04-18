@@ -57,33 +57,12 @@ eurest/oekb:
 Traceback (most recent call last):
   File "/home/runner/work/mensa/mensa/eurest/__init__.py", line 46, in feed
     dom = defusedxml.lxml.parse(source)
-  File "/opt/hostedtoolcache/Python/3.14.3/x64/lib/python3.14/site-packages/defusedxml/lxml.py", line 135, in parse
+  File "/opt/hostedtoolcache/Python/3.14.4/x64/lib/python3.14/site-packages/defusedxml/lxml.py", line 135, in parse
     elementtree = _etree.parse(source, parser, base_url=base_url)
   File "src/lxml/etree.pyx", line 3716, in lxml.etree.parse
-  File "src/lxml/parser.pxi", line 2062, in lxml.etree._parseDocument
-  File "src/lxml/parser.pxi", line 2080, in lxml.etree._parseFilelikeDocument
-  File "src/lxml/parser.pxi", line 1965, in lxml.etree._parseDocFromFilelike
-  File "src/lxml/parser.pxi", line 1254, in lxml.etree._BaseParser._parseDocFromFilelike
-  File "src/lxml/parser.pxi", line 647, in lxml.etree._ParserContext._handleParseResultDoc
-  File "src/lxml/parser.pxi", line 765, in lxml.etree._handleParseResult
-  File "src/lxml/parser.pxi", line 689, in lxml.etree._raiseParseError
-  File "/CurrentWeek/K02610_DEU.xml", line 1
-lxml.etree.XMLSyntaxError: Space required after the Public Identifier, line 1, column 57
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
-    content = getattr(parser, feedMethod)(
-        mensaReference)
-  File "/home/runner/work/mensa/mensa/eurest/__init__.py", line 52, in feed
-    dom = defusedxml.lxml.parse(source)
-  File "/opt/hostedtoolcache/Python/3.14.3/x64/lib/python3.14/site-packages/defusedxml/lxml.py", line 135, in parse
-    elementtree = _etree.parse(source, parser, base_url=base_url)
-  File "src/lxml/etree.pyx", line 3716, in lxml.etree.parse
-  File "src/lxml/parser.pxi", line 2062, in lxml.etree._parseDocument
-  File "src/lxml/parser.pxi", line 2080, in lxml.etree._parseFilelikeDocument
-  File "src/lxml/parser.pxi", line 1965, in lxml.etree._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 2065, in lxml.etree._parseDocument
+  File "src/lxml/parser.pxi", line 2083, in lxml.etree._parseFilelikeDocument
+  File "src/lxml/parser.pxi", line 1968, in lxml.etree._parseDocFromFilelike
   File "src/lxml/parser.pxi", line 1254, in lxml.etree._BaseParser._parseDocFromFilelike
   File "src/lxml/parser.pxi", line 647, in lxml.etree._ParserContext._handleParseResultDoc
   File "src/lxml/parser.pxi", line 765, in lxml.etree._handleParseResult
@@ -91,23 +70,6 @@ Traceback (most recent call last):
   File "/NextWeek/K02610_DEU.xml", line 1
 lxml.etree.XMLSyntaxError: Space required after the Public Identifier, line 1, column 57
 
-eurest/amag:
-Traceback (most recent call last):
-  File "/home/runner/work/mensa/mensa/eurest/__init__.py", line 46, in feed
-    dom = defusedxml.lxml.parse(source)
-  File "/opt/hostedtoolcache/Python/3.14.3/x64/lib/python3.14/site-packages/defusedxml/lxml.py", line 135, in parse
-    elementtree = _etree.parse(source, parser, base_url=base_url)
-  File "src/lxml/etree.pyx", line 3716, in lxml.etree.parse
-  File "src/lxml/parser.pxi", line 2062, in lxml.etree._parseDocument
-  File "src/lxml/parser.pxi", line 2080, in lxml.etree._parseFilelikeDocument
-  File "src/lxml/parser.pxi", line 1965, in lxml.etree._parseDocFromFilelike
-  File "src/lxml/parser.pxi", line 1254, in lxml.etree._BaseParser._parseDocFromFilelike
-  File "src/lxml/parser.pxi", line 647, in lxml.etree._ParserContext._handleParseResultDoc
-  File "src/lxml/parser.pxi", line 765, in lxml.etree._handleParseResult
-  File "src/lxml/parser.pxi", line 689, in lxml.etree._raiseParseError
-  File "/CurrentWeek/K08110_DEU.xml", line 1
-lxml.etree.XMLSyntaxError: Space required after the Public Identifier, line 1, column 57
-
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
@@ -116,12 +78,29 @@ Traceback (most recent call last):
         mensaReference)
   File "/home/runner/work/mensa/mensa/eurest/__init__.py", line 52, in feed
     dom = defusedxml.lxml.parse(source)
-  File "/opt/hostedtoolcache/Python/3.14.3/x64/lib/python3.14/site-packages/defusedxml/lxml.py", line 135, in parse
+  File "/opt/hostedtoolcache/Python/3.14.4/x64/lib/python3.14/site-packages/defusedxml/lxml.py", line 135, in parse
     elementtree = _etree.parse(source, parser, base_url=base_url)
   File "src/lxml/etree.pyx", line 3716, in lxml.etree.parse
-  File "src/lxml/parser.pxi", line 2062, in lxml.etree._parseDocument
-  File "src/lxml/parser.pxi", line 2080, in lxml.etree._parseFilelikeDocument
-  File "src/lxml/parser.pxi", line 1965, in lxml.etree._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 2065, in lxml.etree._parseDocument
+  File "src/lxml/parser.pxi", line 2083, in lxml.etree._parseFilelikeDocument
+  File "src/lxml/parser.pxi", line 1968, in lxml.etree._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 1254, in lxml.etree._BaseParser._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 647, in lxml.etree._ParserContext._handleParseResultDoc
+  File "src/lxml/parser.pxi", line 765, in lxml.etree._handleParseResult
+  File "src/lxml/parser.pxi", line 689, in lxml.etree._raiseParseError
+  File "/CurrentWeek/K02610_DEU.xml", line 1
+lxml.etree.XMLSyntaxError: Space required after the Public Identifier, line 1, column 57
+
+eurest/amag:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/eurest/__init__.py", line 46, in feed
+    dom = defusedxml.lxml.parse(source)
+  File "/opt/hostedtoolcache/Python/3.14.4/x64/lib/python3.14/site-packages/defusedxml/lxml.py", line 135, in parse
+    elementtree = _etree.parse(source, parser, base_url=base_url)
+  File "src/lxml/etree.pyx", line 3716, in lxml.etree.parse
+  File "src/lxml/parser.pxi", line 2065, in lxml.etree._parseDocument
+  File "src/lxml/parser.pxi", line 2083, in lxml.etree._parseFilelikeDocument
+  File "src/lxml/parser.pxi", line 1968, in lxml.etree._parseDocFromFilelike
   File "src/lxml/parser.pxi", line 1254, in lxml.etree._BaseParser._parseDocFromFilelike
   File "src/lxml/parser.pxi", line 647, in lxml.etree._ParserContext._handleParseResultDoc
   File "src/lxml/parser.pxi", line 765, in lxml.etree._handleParseResult
@@ -129,23 +108,6 @@ Traceback (most recent call last):
   File "/NextWeek/K08110_DEU.xml", line 1
 lxml.etree.XMLSyntaxError: Space required after the Public Identifier, line 1, column 57
 
-eurest/orf-funkhaus:
-Traceback (most recent call last):
-  File "/home/runner/work/mensa/mensa/eurest/__init__.py", line 46, in feed
-    dom = defusedxml.lxml.parse(source)
-  File "/opt/hostedtoolcache/Python/3.14.3/x64/lib/python3.14/site-packages/defusedxml/lxml.py", line 135, in parse
-    elementtree = _etree.parse(source, parser, base_url=base_url)
-  File "src/lxml/etree.pyx", line 3716, in lxml.etree.parse
-  File "src/lxml/parser.pxi", line 2062, in lxml.etree._parseDocument
-  File "src/lxml/parser.pxi", line 2080, in lxml.etree._parseFilelikeDocument
-  File "src/lxml/parser.pxi", line 1965, in lxml.etree._parseDocFromFilelike
-  File "src/lxml/parser.pxi", line 1254, in lxml.etree._BaseParser._parseDocFromFilelike
-  File "src/lxml/parser.pxi", line 647, in lxml.etree._ParserContext._handleParseResultDoc
-  File "src/lxml/parser.pxi", line 765, in lxml.etree._handleParseResult
-  File "src/lxml/parser.pxi", line 689, in lxml.etree._raiseParseError
-  File "/CurrentWeek/K19110_DEU.xml", line 1
-lxml.etree.XMLSyntaxError: Space required after the Public Identifier, line 1, column 57
-
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
@@ -154,12 +116,29 @@ Traceback (most recent call last):
         mensaReference)
   File "/home/runner/work/mensa/mensa/eurest/__init__.py", line 52, in feed
     dom = defusedxml.lxml.parse(source)
-  File "/opt/hostedtoolcache/Python/3.14.3/x64/lib/python3.14/site-packages/defusedxml/lxml.py", line 135, in parse
+  File "/opt/hostedtoolcache/Python/3.14.4/x64/lib/python3.14/site-packages/defusedxml/lxml.py", line 135, in parse
     elementtree = _etree.parse(source, parser, base_url=base_url)
   File "src/lxml/etree.pyx", line 3716, in lxml.etree.parse
-  File "src/lxml/parser.pxi", line 2062, in lxml.etree._parseDocument
-  File "src/lxml/parser.pxi", line 2080, in lxml.etree._parseFilelikeDocument
-  File "src/lxml/parser.pxi", line 1965, in lxml.etree._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 2065, in lxml.etree._parseDocument
+  File "src/lxml/parser.pxi", line 2083, in lxml.etree._parseFilelikeDocument
+  File "src/lxml/parser.pxi", line 1968, in lxml.etree._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 1254, in lxml.etree._BaseParser._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 647, in lxml.etree._ParserContext._handleParseResultDoc
+  File "src/lxml/parser.pxi", line 765, in lxml.etree._handleParseResult
+  File "src/lxml/parser.pxi", line 689, in lxml.etree._raiseParseError
+  File "/CurrentWeek/K08110_DEU.xml", line 1
+lxml.etree.XMLSyntaxError: Space required after the Public Identifier, line 1, column 57
+
+eurest/orf-funkhaus:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/eurest/__init__.py", line 46, in feed
+    dom = defusedxml.lxml.parse(source)
+  File "/opt/hostedtoolcache/Python/3.14.4/x64/lib/python3.14/site-packages/defusedxml/lxml.py", line 135, in parse
+    elementtree = _etree.parse(source, parser, base_url=base_url)
+  File "src/lxml/etree.pyx", line 3716, in lxml.etree.parse
+  File "src/lxml/parser.pxi", line 2065, in lxml.etree._parseDocument
+  File "src/lxml/parser.pxi", line 2083, in lxml.etree._parseFilelikeDocument
+  File "src/lxml/parser.pxi", line 1968, in lxml.etree._parseDocFromFilelike
   File "src/lxml/parser.pxi", line 1254, in lxml.etree._BaseParser._parseDocFromFilelike
   File "src/lxml/parser.pxi", line 647, in lxml.etree._ParserContext._handleParseResultDoc
   File "src/lxml/parser.pxi", line 765, in lxml.etree._handleParseResult
@@ -167,23 +146,6 @@ Traceback (most recent call last):
   File "/NextWeek/K19110_DEU.xml", line 1
 lxml.etree.XMLSyntaxError: Space required after the Public Identifier, line 1, column 57
 
-eurest/orf-storchen:
-Traceback (most recent call last):
-  File "/home/runner/work/mensa/mensa/eurest/__init__.py", line 46, in feed
-    dom = defusedxml.lxml.parse(source)
-  File "/opt/hostedtoolcache/Python/3.14.3/x64/lib/python3.14/site-packages/defusedxml/lxml.py", line 135, in parse
-    elementtree = _etree.parse(source, parser, base_url=base_url)
-  File "src/lxml/etree.pyx", line 3716, in lxml.etree.parse
-  File "src/lxml/parser.pxi", line 2062, in lxml.etree._parseDocument
-  File "src/lxml/parser.pxi", line 2080, in lxml.etree._parseFilelikeDocument
-  File "src/lxml/parser.pxi", line 1965, in lxml.etree._parseDocFromFilelike
-  File "src/lxml/parser.pxi", line 1254, in lxml.etree._BaseParser._parseDocFromFilelike
-  File "src/lxml/parser.pxi", line 647, in lxml.etree._ParserContext._handleParseResultDoc
-  File "src/lxml/parser.pxi", line 765, in lxml.etree._handleParseResult
-  File "src/lxml/parser.pxi", line 689, in lxml.etree._raiseParseError
-  File "/CurrentWeek/K19210_DEU.xml", line 1
-lxml.etree.XMLSyntaxError: Space required after the Public Identifier, line 1, column 57
-
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
@@ -192,12 +154,29 @@ Traceback (most recent call last):
         mensaReference)
   File "/home/runner/work/mensa/mensa/eurest/__init__.py", line 52, in feed
     dom = defusedxml.lxml.parse(source)
-  File "/opt/hostedtoolcache/Python/3.14.3/x64/lib/python3.14/site-packages/defusedxml/lxml.py", line 135, in parse
+  File "/opt/hostedtoolcache/Python/3.14.4/x64/lib/python3.14/site-packages/defusedxml/lxml.py", line 135, in parse
     elementtree = _etree.parse(source, parser, base_url=base_url)
   File "src/lxml/etree.pyx", line 3716, in lxml.etree.parse
-  File "src/lxml/parser.pxi", line 2062, in lxml.etree._parseDocument
-  File "src/lxml/parser.pxi", line 2080, in lxml.etree._parseFilelikeDocument
-  File "src/lxml/parser.pxi", line 1965, in lxml.etree._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 2065, in lxml.etree._parseDocument
+  File "src/lxml/parser.pxi", line 2083, in lxml.etree._parseFilelikeDocument
+  File "src/lxml/parser.pxi", line 1968, in lxml.etree._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 1254, in lxml.etree._BaseParser._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 647, in lxml.etree._ParserContext._handleParseResultDoc
+  File "src/lxml/parser.pxi", line 765, in lxml.etree._handleParseResult
+  File "src/lxml/parser.pxi", line 689, in lxml.etree._raiseParseError
+  File "/CurrentWeek/K19110_DEU.xml", line 1
+lxml.etree.XMLSyntaxError: Space required after the Public Identifier, line 1, column 57
+
+eurest/orf-storchen:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/eurest/__init__.py", line 46, in feed
+    dom = defusedxml.lxml.parse(source)
+  File "/opt/hostedtoolcache/Python/3.14.4/x64/lib/python3.14/site-packages/defusedxml/lxml.py", line 135, in parse
+    elementtree = _etree.parse(source, parser, base_url=base_url)
+  File "src/lxml/etree.pyx", line 3716, in lxml.etree.parse
+  File "src/lxml/parser.pxi", line 2065, in lxml.etree._parseDocument
+  File "src/lxml/parser.pxi", line 2083, in lxml.etree._parseFilelikeDocument
+  File "src/lxml/parser.pxi", line 1968, in lxml.etree._parseDocFromFilelike
   File "src/lxml/parser.pxi", line 1254, in lxml.etree._BaseParser._parseDocFromFilelike
   File "src/lxml/parser.pxi", line 647, in lxml.etree._ParserContext._handleParseResultDoc
   File "src/lxml/parser.pxi", line 765, in lxml.etree._handleParseResult
@@ -205,23 +184,6 @@ Traceback (most recent call last):
   File "/NextWeek/K19210_DEU.xml", line 1
 lxml.etree.XMLSyntaxError: Space required after the Public Identifier, line 1, column 57
 
-eurest/intervet:
-Traceback (most recent call last):
-  File "/home/runner/work/mensa/mensa/eurest/__init__.py", line 46, in feed
-    dom = defusedxml.lxml.parse(source)
-  File "/opt/hostedtoolcache/Python/3.14.3/x64/lib/python3.14/site-packages/defusedxml/lxml.py", line 135, in parse
-    elementtree = _etree.parse(source, parser, base_url=base_url)
-  File "src/lxml/etree.pyx", line 3716, in lxml.etree.parse
-  File "src/lxml/parser.pxi", line 2062, in lxml.etree._parseDocument
-  File "src/lxml/parser.pxi", line 2080, in lxml.etree._parseFilelikeDocument
-  File "src/lxml/parser.pxi", line 1965, in lxml.etree._parseDocFromFilelike
-  File "src/lxml/parser.pxi", line 1254, in lxml.etree._BaseParser._parseDocFromFilelike
-  File "src/lxml/parser.pxi", line 647, in lxml.etree._ParserContext._handleParseResultDoc
-  File "src/lxml/parser.pxi", line 765, in lxml.etree._handleParseResult
-  File "src/lxml/parser.pxi", line 689, in lxml.etree._raiseParseError
-  File "/CurrentWeek/K19710_DEU.xml", line 1
-lxml.etree.XMLSyntaxError: Space required after the Public Identifier, line 1, column 57
-
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
@@ -230,12 +192,29 @@ Traceback (most recent call last):
         mensaReference)
   File "/home/runner/work/mensa/mensa/eurest/__init__.py", line 52, in feed
     dom = defusedxml.lxml.parse(source)
-  File "/opt/hostedtoolcache/Python/3.14.3/x64/lib/python3.14/site-packages/defusedxml/lxml.py", line 135, in parse
+  File "/opt/hostedtoolcache/Python/3.14.4/x64/lib/python3.14/site-packages/defusedxml/lxml.py", line 135, in parse
     elementtree = _etree.parse(source, parser, base_url=base_url)
   File "src/lxml/etree.pyx", line 3716, in lxml.etree.parse
-  File "src/lxml/parser.pxi", line 2062, in lxml.etree._parseDocument
-  File "src/lxml/parser.pxi", line 2080, in lxml.etree._parseFilelikeDocument
-  File "src/lxml/parser.pxi", line 1965, in lxml.etree._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 2065, in lxml.etree._parseDocument
+  File "src/lxml/parser.pxi", line 2083, in lxml.etree._parseFilelikeDocument
+  File "src/lxml/parser.pxi", line 1968, in lxml.etree._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 1254, in lxml.etree._BaseParser._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 647, in lxml.etree._ParserContext._handleParseResultDoc
+  File "src/lxml/parser.pxi", line 765, in lxml.etree._handleParseResult
+  File "src/lxml/parser.pxi", line 689, in lxml.etree._raiseParseError
+  File "/CurrentWeek/K19210_DEU.xml", line 1
+lxml.etree.XMLSyntaxError: Space required after the Public Identifier, line 1, column 57
+
+eurest/intervet:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/eurest/__init__.py", line 46, in feed
+    dom = defusedxml.lxml.parse(source)
+  File "/opt/hostedtoolcache/Python/3.14.4/x64/lib/python3.14/site-packages/defusedxml/lxml.py", line 135, in parse
+    elementtree = _etree.parse(source, parser, base_url=base_url)
+  File "src/lxml/etree.pyx", line 3716, in lxml.etree.parse
+  File "src/lxml/parser.pxi", line 2065, in lxml.etree._parseDocument
+  File "src/lxml/parser.pxi", line 2083, in lxml.etree._parseFilelikeDocument
+  File "src/lxml/parser.pxi", line 1968, in lxml.etree._parseDocFromFilelike
   File "src/lxml/parser.pxi", line 1254, in lxml.etree._BaseParser._parseDocFromFilelike
   File "src/lxml/parser.pxi", line 647, in lxml.etree._ParserContext._handleParseResultDoc
   File "src/lxml/parser.pxi", line 765, in lxml.etree._handleParseResult
@@ -243,21 +222,42 @@ Traceback (most recent call last):
   File "/NextWeek/K19710_DEU.xml", line 1
 lxml.etree.XMLSyntaxError: Space required after the Public Identifier, line 1, column 57
 
-eurest/mercedes:
+During handling of the above exception, another exception occurred:
+
 Traceback (most recent call last):
-  File "/home/runner/work/mensa/mensa/eurest/__init__.py", line 46, in feed
+  File "/home/runner/work/mensa/mensa/updateFeeds.py", line 146, in updateFeeds
+    content = getattr(parser, feedMethod)(
+        mensaReference)
+  File "/home/runner/work/mensa/mensa/eurest/__init__.py", line 52, in feed
     dom = defusedxml.lxml.parse(source)
-  File "/opt/hostedtoolcache/Python/3.14.3/x64/lib/python3.14/site-packages/defusedxml/lxml.py", line 135, in parse
+  File "/opt/hostedtoolcache/Python/3.14.4/x64/lib/python3.14/site-packages/defusedxml/lxml.py", line 135, in parse
     elementtree = _etree.parse(source, parser, base_url=base_url)
   File "src/lxml/etree.pyx", line 3716, in lxml.etree.parse
-  File "src/lxml/parser.pxi", line 2062, in lxml.etree._parseDocument
-  File "src/lxml/parser.pxi", line 2080, in lxml.etree._parseFilelikeDocument
-  File "src/lxml/parser.pxi", line 1965, in lxml.etree._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 2065, in lxml.etree._parseDocument
+  File "src/lxml/parser.pxi", line 2083, in lxml.etree._parseFilelikeDocument
+  File "src/lxml/parser.pxi", line 1968, in lxml.etree._parseDocFromFilelike
   File "src/lxml/parser.pxi", line 1254, in lxml.etree._BaseParser._parseDocFromFilelike
   File "src/lxml/parser.pxi", line 647, in lxml.etree._ParserContext._handleParseResultDoc
   File "src/lxml/parser.pxi", line 765, in lxml.etree._handleParseResult
   File "src/lxml/parser.pxi", line 689, in lxml.etree._raiseParseError
-  File "/CurrentWeek/K27510_DEU.xml", line 1
+  File "/CurrentWeek/K19710_DEU.xml", line 1
+lxml.etree.XMLSyntaxError: Space required after the Public Identifier, line 1, column 57
+
+eurest/mercedes:
+Traceback (most recent call last):
+  File "/home/runner/work/mensa/mensa/eurest/__init__.py", line 46, in feed
+    dom = defusedxml.lxml.parse(source)
+  File "/opt/hostedtoolcache/Python/3.14.4/x64/lib/python3.14/site-packages/defusedxml/lxml.py", line 135, in parse
+    elementtree = _etree.parse(source, parser, base_url=base_url)
+  File "src/lxml/etree.pyx", line 3716, in lxml.etree.parse
+  File "src/lxml/parser.pxi", line 2065, in lxml.etree._parseDocument
+  File "src/lxml/parser.pxi", line 2083, in lxml.etree._parseFilelikeDocument
+  File "src/lxml/parser.pxi", line 1968, in lxml.etree._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 1254, in lxml.etree._BaseParser._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 647, in lxml.etree._ParserContext._handleParseResultDoc
+  File "src/lxml/parser.pxi", line 765, in lxml.etree._handleParseResult
+  File "src/lxml/parser.pxi", line 689, in lxml.etree._raiseParseError
+  File "/NextWeek/K27510_DEU.xml", line 1
 lxml.etree.XMLSyntaxError: Space required after the Public Identifier, line 1, column 57
 
 During handling of the above exception, another exception occurred:
@@ -268,17 +268,17 @@ Traceback (most recent call last):
         mensaReference)
   File "/home/runner/work/mensa/mensa/eurest/__init__.py", line 52, in feed
     dom = defusedxml.lxml.parse(source)
-  File "/opt/hostedtoolcache/Python/3.14.3/x64/lib/python3.14/site-packages/defusedxml/lxml.py", line 135, in parse
+  File "/opt/hostedtoolcache/Python/3.14.4/x64/lib/python3.14/site-packages/defusedxml/lxml.py", line 135, in parse
     elementtree = _etree.parse(source, parser, base_url=base_url)
   File "src/lxml/etree.pyx", line 3716, in lxml.etree.parse
-  File "src/lxml/parser.pxi", line 2062, in lxml.etree._parseDocument
-  File "src/lxml/parser.pxi", line 2080, in lxml.etree._parseFilelikeDocument
-  File "src/lxml/parser.pxi", line 1965, in lxml.etree._parseDocFromFilelike
+  File "src/lxml/parser.pxi", line 2065, in lxml.etree._parseDocument
+  File "src/lxml/parser.pxi", line 2083, in lxml.etree._parseFilelikeDocument
+  File "src/lxml/parser.pxi", line 1968, in lxml.etree._parseDocFromFilelike
   File "src/lxml/parser.pxi", line 1254, in lxml.etree._BaseParser._parseDocFromFilelike
   File "src/lxml/parser.pxi", line 647, in lxml.etree._ParserContext._handleParseResultDoc
   File "src/lxml/parser.pxi", line 765, in lxml.etree._handleParseResult
   File "src/lxml/parser.pxi", line 689, in lxml.etree._raiseParseError
-  File "/NextWeek/K27510_DEU.xml", line 1
+  File "/CurrentWeek/K27510_DEU.xml", line 1
 lxml.etree.XMLSyntaxError: Space required after the Public Identifier, line 1, column 57
 
 inetmenue/bs-ei:
