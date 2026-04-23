@@ -23,7 +23,7 @@ metaTemplateFile = os.path.join(os.path.dirname(__file__), "metaTemplate.xml")
 
 
 class Parser:
-    def feed(self, canteenReference: str):
+    def feed_all(self, canteenReference: str):
         uri = self.canteens[canteenReference]["source"]
         canteen = Canteen(uri)
         return canteen.generateTotalFeedXml()
@@ -32,9 +32,6 @@ class Parser:
         uri = self.canteens[canteenReference]["source"]
         canteen = Canteen(uri)
         return canteen.genereateCurrentWeekFeedXml()
-
-    def feed_all(self, canteenReference: str):
-        return self.feed(canteenReference)
 
     def meta(self, refName):
         """Generate an openmensa XML meta feed from the static json file using an XML template"""
