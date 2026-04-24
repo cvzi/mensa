@@ -3,44 +3,15 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2026-04-23">
-      <category name="Fleischlos">
+    <day date="2026-04-24">
+      <category name="Vegan">
         <meal>
-          <name>Spargelcremesuppe - aus frischem fränkischen Spargel</name>
-          <note>Eier</note>
-          <note>Gerste</note>
+          <name>Kartoffelrahmsüppchen mit Wurzelgemüse</name>
           <note>Milch (einschließlich Lactose)</note>
           <note>Sellerie</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>mit Farbstoff</note>
           <price role="employee">1.60</price>
           <price role="other">1.80</price>
           <price role="student">1.50</price>
-        </meal>
-        <meal>
-          <name>Pasta mit Champignonrahmsoße</name>
-          <note>Gerste</note>
-          <note>Sellerie</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">4.15</price>
-          <price role="other">5.10</price>
-          <price role="student">2.80</price>
-        </meal>
-      </category>
-      <category name="Vegan">
-        <meal>
-          <name>mensaVital: Bohnen - Gemüse - Ragout mit Sojasprossen, Erdnüssen und Kräuterkartoffeln</name>
-          <note>Erdnüsse</note>
-          <note>Knoblauch</note>
-          <note>Soja</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <price role="employee">4.15</price>
-          <price role="other">5.10</price>
-          <price role="student">2.80</price>
         </meal>
         <meal>
           <name>Pasta mit Basilikum Pestosoße</name>
@@ -77,23 +48,20 @@
           <price role="student">3.35</price>
         </meal>
         <meal>
-          <name>Asia Reispfanne mit marinierten Tofu, frischem Gemüse, Koriander und Soße zur Auswahl Süß-saure Soße Kokoscurrysoße</name>
-          <note>Erdnüsse</note>
-          <note>Hafer</note>
+          <name>Protein - Gemüsepfanne mit weißen &amp; roten Quinoa, Cashewkerne und pikante mauretanische Harissasoße</name>
+          <note>Cashewnüsse</note>
           <note>Knoblauch</note>
+          <note>Schalenfrüchte</note>
           <note>Schwefeldioxid und Sulfite</note>
           <note>Sellerie</note>
-          <note>Sesamsamen</note>
           <note>Soja</note>
           <note>Weizen</note>
           <note>glutenhaltiges Getreide</note>
           <note>konserviert</note>
           <note>mit Antioxidationsmittel</note>
-          <note>mit Farbstoff</note>
-          <note>mit Süßungsmittel</note>
-          <price role="employee">5.80</price>
-          <price role="other">6.75</price>
-          <price role="student">4.35</price>
+          <price role="employee">5.00</price>
+          <price role="other">5.95</price>
+          <price role="student">3.65</price>
         </meal>
         <meal>
           <name>Vegane Currywurst Super Crunch Pommes frites</name>
@@ -108,84 +76,6 @@
           <price role="student">4.85</price>
         </meal>
       </category>
-      <category name="Schwein">
-        <meal>
-          <name>Schweinerückensteak vom Grill mit mit Paprikarahmsoße Kartoffelkroketten</name>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>Schwein</note>
-          <note>Sellerie</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>konserviert</note>
-          <note>mit Antioxidationsmittel</note>
-          <price role="employee">5.50</price>
-          <price role="other">6.45</price>
-          <price role="student">4.10</price>
-        </meal>
-      </category>
-      <category name="Rind">
-        <meal>
-          <name>Pasta mit Tomaten Hackfleischsoße &amp; Grana Padano</name>
-          <note>Knoblauch</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Rind/Kalb</note>
-          <note>Sellerie</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>konserviert</note>
-          <price role="employee">6.30</price>
-          <price role="other">7.25</price>
-          <price role="student">4.85</price>
-        </meal>
-        <meal>
-          <name>Currywurst vom Grill mit Super Crunch Pommes frites</name>
-          <note>Rind/Kalb</note>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>Schwein</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <note>konserviert</note>
-          <note>mit Antioxidationsmittel</note>
-          <note>mit Farbstoff</note>
-          <note>mit Phosphat</note>
-          <note>mit Süßungsmittel</note>
-          <price role="employee">5.50</price>
-          <price role="other">6.45</price>
-          <price role="student">4.10</price>
-        </meal>
-      </category>
-      <category name="Gefluegel">
-        <meal>
-          <name>Kebabteller vom Drehspieß mit hausgemachtem Tsatsiki Weißkrautsalat</name>
-          <note>Geflügel</note>
-          <note>Knoblauch</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <note>Soja</note>
-          <note>mit Antioxidationsmittel</note>
-          <price role="employee">6.30</price>
-          <price role="other">7.25</price>
-          <price role="student">4.85</price>
-        </meal>
-      </category>
-      <category name="Fisch">
-        <meal>
-          <name>Flammkuchen mit Räucherlachs und Lauch</name>
-          <note>Fisch</note>
-          <note>Fische</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <price role="employee">6.60</price>
-          <price role="other">7.55</price>
-          <price role="student">5.15</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2026-04-24">
       <category name="Fleischlos">
         <meal>
           <name>Pasta mit Champignonrahmsoße</name>
@@ -213,119 +103,6 @@
           <price role="other">6.15</price>
           <price role="student">3.80</price>
         </meal>
-        <meal>
-          <name>Burrata mit Strauchtomaten, Rucola, frischem Basilikum, Olivenöl &amp; Balsamico dazu ein Ciabatta</name>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>Sesamsamen</note>
-          <note>Weizen</note>
-          <note>geschwefelt</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>mit Antioxidationsmittel</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">6.30</price>
-          <price role="other">7.25</price>
-          <price role="student">4.85</price>
-        </meal>
-      </category>
-      <category name="Vegan">
-        <meal>
-          <name>Pasta mit Basilikum Pestosoße</name>
-          <note>Cashewnüsse</note>
-          <note>Gerste</note>
-          <note>Hafer</note>
-          <note>Knoblauch</note>
-          <note>Schalenfrüchte</note>
-          <note>Sellerie</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">4.15</price>
-          <price role="other">5.10</price>
-          <price role="student">2.80</price>
-        </meal>
-        <meal>
-          <name>Pikante Indische rote Linsensuppe mit Kichererbsen &amp; frischem Koriander veganer Tandoori Dip</name>
-          <note>Knoblauch</note>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>Sellerie</note>
-          <note>Sesamsamen</note>
-          <note>Soja</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>konserviert</note>
-          <note>mit Antioxidationsmittel</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">5.00</price>
-          <price role="other">5.95</price>
-          <price role="student">3.65</price>
-        </meal>
-        <meal>
-          <name>Asia Reispfanne mit knackigem Gemüse, Koriander und Soße zur Auswahl Asia süß-saure Soße Thai Kokoscurrysoße</name>
-          <note>Erdnüsse</note>
-          <note>Hafer</note>
-          <note>Knoblauch</note>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>Sellerie</note>
-          <note>Sesamsamen</note>
-          <note>Soja</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>konserviert</note>
-          <note>mit Antioxidationsmittel</note>
-          <note>mit Farbstoff</note>
-          <note>mit Süßungsmittel</note>
-          <price role="employee">4.70</price>
-          <price role="other">5.65</price>
-          <price role="student">3.35</price>
-        </meal>
-        <meal>
-          <name>Protein - Gemüsepfanne mit Tofu, weißen &amp; roten Quinoa, Erdnüssen und pikante mauretanische Harissasoße</name>
-          <note>Cashewnüsse</note>
-          <note>Knoblauch</note>
-          <note>Schalenfrüchte</note>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>Sellerie</note>
-          <note>Soja</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>konserviert</note>
-          <note>mit Antioxidationsmittel</note>
-          <price role="employee">5.00</price>
-          <price role="other">5.95</price>
-          <price role="student">3.65</price>
-        </meal>
-        <meal>
-          <name>Vegane Currywurst Super Crunch Pommes frites</name>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>mit Süßungsmittel</note>
-          <price role="employee">6.30</price>
-          <price role="other">7.25</price>
-          <price role="student">4.85</price>
-        </meal>
-        <meal>
-          <name>Asia Reispfanne mit marinierten Tofu, frischem Gemüse, Koriander und Soße zur Auswahl Asia süß-saure Soße Thai Kokoscurrysoße</name>
-          <note>Erdnüsse</note>
-          <note>Hafer</note>
-          <note>Knoblauch</note>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>Sellerie</note>
-          <note>Sesamsamen</note>
-          <note>Soja</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>konserviert</note>
-          <note>mit Antioxidationsmittel</note>
-          <note>mit Farbstoff</note>
-          <note>mit Süßungsmittel</note>
-          <price role="employee">5.80</price>
-          <price role="other">6.75</price>
-          <price role="student">4.35</price>
-        </meal>
       </category>
       <category name="Gefluegel">
         <meal>
@@ -341,6 +118,26 @@
           <price role="employee">6.30</price>
           <price role="other">7.25</price>
           <price role="student">4.85</price>
+        </meal>
+        <meal>
+          <name>Asia Reispfanne mit marinierten Hähnchenstreifen, frischem Gemüse, Koriander und Soße zur Auswahl Süß-saure Soße Kokoscurrysoße</name>
+          <note>Erdnüsse</note>
+          <note>Geflügel</note>
+          <note>Hafer</note>
+          <note>Knoblauch</note>
+          <note>Schwefeldioxid und Sulfite</note>
+          <note>Sellerie</note>
+          <note>Sesamsamen</note>
+          <note>Soja</note>
+          <note>Weizen</note>
+          <note>glutenhaltiges Getreide</note>
+          <note>konserviert</note>
+          <note>mit Antioxidationsmittel</note>
+          <note>mit Farbstoff</note>
+          <note>mit Süßungsmittel</note>
+          <price role="employee">5.80</price>
+          <price role="other">6.75</price>
+          <price role="student">4.35</price>
         </meal>
       </category>
       <category name="Rind">
@@ -406,24 +203,56 @@
           <price role="student">5.15</price>
         </meal>
       </category>
-      <category name="Schwein">
+    </day>
+    <day date="2026-04-27">
+      <category name="Rind">
         <meal>
-          <name>Schweinerückensteak vom Grill mit Spargelgemüsesoße Kartoffelkroketten</name>
+          <name>Ungarische Gulaschsuppe hergestellt aus frischem Rindleisch, Paprika und Sauerrahm mit Brötchen</name>
+          <note>Alkohol</note>
+          <note>Gerste</note>
+          <note>Knoblauch</note>
+          <note>Milch (einschließlich Lactose)</note>
+          <note>Rind/Kalb</note>
+          <note>Schwefeldioxid und Sulfite</note>
+          <note>Weizen</note>
+          <note>glutenhaltiges Getreide</note>
+          <price role="employee">0.00</price>
+          <price role="other">0.00</price>
+          <price role="student">0.00</price>
+        </meal>
+        <meal>
+          <name>Currywurst vom Grill mit Super Crunch Pommes frites</name>
+          <note>Rind/Kalb</note>
+          <note>Schwefeldioxid und Sulfite</note>
+          <note>Schwein</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <note>konserviert</note>
+          <note>mit Antioxidationsmittel</note>
+          <note>mit Farbstoff</note>
+          <note>mit Phosphat</note>
+          <note>mit Süßungsmittel</note>
+          <price role="employee">5.50</price>
+          <price role="other">6.45</price>
+          <price role="student">4.10</price>
+        </meal>
+        <meal>
+          <name>"Köttbullar" feine Hackfleischbällchen mit Preiselbeeren in Rahmsoße Hausgemachtes Kartoffelpüree</name>
+          <note>Alkohol</note>
+          <note>Eier</note>
           <note>Gerste</note>
           <note>Milch (einschließlich Lactose)</note>
+          <note>Rind/Kalb</note>
           <note>Schwefeldioxid und Sulfite</note>
           <note>Schwein</note>
           <note>Sellerie</note>
           <note>Weizen</note>
           <note>glutenhaltiges Getreide</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">6.85</price>
-          <price role="other">7.80</price>
-          <price role="student">5.35</price>
+          <price role="employee">6.30</price>
+          <price role="other">7.25</price>
+          <price role="student">4.85</price>
         </meal>
       </category>
-    </day>
-    <day date="2026-04-27">
       <category name="Vegan">
         <meal>
           <name>Brokkolisuppe mit Tahini</name>
@@ -438,17 +267,6 @@
           <price role="employee">1.60</price>
           <price role="other">1.80</price>
           <price role="student">1.50</price>
-        </meal>
-        <meal>
-          <name>Pasta mit Tomaten Gemüsesugo veganer Reibkäse</name>
-          <note>Knoblauch</note>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">4.15</price>
-          <price role="other">5.10</price>
-          <price role="student">2.80</price>
         </meal>
         <meal>
           <name>Vegane Pizza "Margherita" mit frischen Tomaten, Basilikum &amp; Rucola</name>
@@ -486,72 +304,8 @@
           <price role="other">7.25</price>
           <price role="student">4.85</price>
         </meal>
-        <meal>
-          <name>Mediterranes Grillgemüse mit Pestonudeln</name>
-          <note>Cashewnüsse</note>
-          <note>Schalenfrüchte</note>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>Weizen</note>
-          <note>geschwefelt</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>mit Antioxidationsmittel</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">5.50</price>
-          <price role="other">6.45</price>
-          <price role="student">4.10</price>
-        </meal>
-      </category>
-      <category name="Schwein">
-        <meal>
-          <name>Pasta mit Rahmsoße von frischen Champignons &amp; Speckwürfel</name>
-          <note>Gerste</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Rind/Kalb</note>
-          <note>Schwein</note>
-          <note>Sellerie</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>konserviert</note>
-          <note>mit Antioxidationsmittel</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">4.15</price>
-          <price role="other">5.10</price>
-          <price role="student">2.80</price>
-        </meal>
-        <meal>
-          <name>Knuspriges Schweineschäufele an Bratenjus mit Bayrisch´ Kraut &amp; Speck Kartoffelkloß</name>
-          <note>Gerste</note>
-          <note>Hafer</note>
-          <note>Rind/Kalb</note>
-          <note>Roggen</note>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>Schwein</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <note>Weizen</note>
-          <note>geschwefelt</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>konserviert</note>
-          <note>mit Antioxidationsmittel</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">7.70</price>
-          <price role="other">8.65</price>
-          <price role="student">6.20</price>
-        </meal>
       </category>
       <category name="Fleischlos">
-        <meal>
-          <name>Pasta mit Bergkäsesoße</name>
-          <note>Knoblauch</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">4.15</price>
-          <price role="other">5.10</price>
-          <price role="student">2.80</price>
-        </meal>
         <meal>
           <name>Spaghetti "Pesto alla genovese" mit geriebenem Gran Moravia</name>
           <note>Knoblauch</note>
@@ -582,84 +336,8 @@
           <price role="other">6.15</price>
           <price role="student">3.80</price>
         </meal>
-        <meal>
-          <name>Griechischer Bauernsalat mit Hirtenkäse &amp; Olivenbrötchen Kräuter-Joghurtdressing</name>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>Weizen</note>
-          <note>geschwärzt</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>mit Antioxidationsmittel</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">5.80</price>
-          <price role="other">6.75</price>
-          <price role="student">4.35</price>
-        </meal>
-      </category>
-      <category name="Rind">
-        <meal>
-          <name>Currywurst vom Grill mit Super Crunch Pommes frites</name>
-          <note>Rind/Kalb</note>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>Schwein</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <note>konserviert</note>
-          <note>mit Antioxidationsmittel</note>
-          <note>mit Farbstoff</note>
-          <note>mit Phosphat</note>
-          <note>mit Süßungsmittel</note>
-          <price role="employee">5.50</price>
-          <price role="other">6.45</price>
-          <price role="student">4.10</price>
-        </meal>
-        <meal>
-          <name>Feurige Gulaschsuppe hergestellt aus frischem Rindleisch, Paprika und Sauerrahm mit Brötchen</name>
-          <note>Alkohol</note>
-          <note>Gerste</note>
-          <note>Knoblauch</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Rind/Kalb</note>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <price role="employee">5.90</price>
-          <price role="other">6.85</price>
-          <price role="student">4.45</price>
-        </meal>
-        <meal>
-          <name>"Köttbullar" feine Hackfleischbällchen mit Preiselbeeren in Rahmsoße Hausgemachtes Kartoffelpüree</name>
-          <note>Alkohol</note>
-          <note>Eier</note>
-          <note>Gerste</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Rind/Kalb</note>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>Schwein</note>
-          <note>Sellerie</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <price role="employee">6.30</price>
-          <price role="other">7.25</price>
-          <price role="student">4.85</price>
-        </meal>
       </category>
       <category name="Gefluegel">
-        <meal>
-          <name>Mediterranes Grillgemüse mit Pestonudeln &amp; gegrillter Putenbrust</name>
-          <note>Cashewnüsse</note>
-          <note>Geflügel</note>
-          <note>Schalenfrüchte</note>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>Weizen</note>
-          <note>geschwefelt</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>mit Antioxidationsmittel</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">6.20</price>
-          <price role="other">7.15</price>
-          <price role="student">4.75</price>
-        </meal>
         <meal>
           <name>Levantinisches Fladenbrot mit Hähnchenkebab, pikanten Hummus, Granatapfelkernen, Sumach und orientalisches Linsengemüse</name>
           <note>Geflügel</note>
@@ -688,17 +366,6 @@
           <price role="student">1.50</price>
         </meal>
         <meal>
-          <name>Pasta mit Tomaten Gemüsesugo veganer Reibkäse</name>
-          <note>Knoblauch</note>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">4.15</price>
-          <price role="other">5.10</price>
-          <price role="student">2.80</price>
-        </meal>
-        <meal>
           <name>Vegane Pizza "Margherita" mit frischen Tomaten, Basilikum &amp; Rucola</name>
           <note>Gerste</note>
           <note>Soja</note>
@@ -724,20 +391,6 @@
           <price role="student">3.65</price>
         </meal>
         <meal>
-          <name>Mediterranes Grillgemüse mit Pestonudeln</name>
-          <note>Cashewnüsse</note>
-          <note>Schalenfrüchte</note>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>Weizen</note>
-          <note>geschwefelt</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>mit Antioxidationsmittel</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">5.50</price>
-          <price role="other">6.45</price>
-          <price role="student">4.10</price>
-        </meal>
-        <meal>
           <name>Vegane Currywurst Super Crunch Pommes frites</name>
           <note>Schwefeldioxid und Sulfite</note>
           <note>Sellerie</note>
@@ -751,18 +404,6 @@
         </meal>
       </category>
       <category name="Fleischlos">
-        <meal>
-          <name>Pasta mit Bergkäsesoße</name>
-          <note>Knoblauch</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">4.15</price>
-          <price role="other">5.10</price>
-          <price role="student">2.80</price>
-        </meal>
         <meal>
           <name>Pizza "Funghi" mit frischen Champigons und Mozzarella überbacken</name>
           <note>Gerste</note>
@@ -804,24 +445,6 @@
           <price role="student">4.45</price>
         </meal>
       </category>
-      <category name="Schwein">
-        <meal>
-          <name>Pasta mit Rahmsoße von frischen Champignons &amp; Speckwürfel</name>
-          <note>Gerste</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Rind/Kalb</note>
-          <note>Schwein</note>
-          <note>Sellerie</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>konserviert</note>
-          <note>mit Antioxidationsmittel</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">4.15</price>
-          <price role="other">5.10</price>
-          <price role="student">2.80</price>
-        </meal>
-      </category>
       <category name="Rind">
         <meal>
           <name>Feurige Gulaschsuppe hergestellt aus frischem Rindleisch, Paprika und Sauerrahm mit Brötchen</name>
@@ -856,21 +479,6 @@
       </category>
       <category name="Gefluegel">
         <meal>
-          <name>Mediterranes Grillgemüse mit Pestonudeln &amp; gegrillter Putenbrust</name>
-          <note>Cashewnüsse</note>
-          <note>Geflügel</note>
-          <note>Schalenfrüchte</note>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>Weizen</note>
-          <note>geschwefelt</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>mit Antioxidationsmittel</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">6.20</price>
-          <price role="other">7.15</price>
-          <price role="student">4.75</price>
-        </meal>
-        <meal>
           <name>Gebackene Chicken Nuggets "BBQ Style" mit Ananas &amp; Cranberries Crinkle Wedges</name>
           <note>Geflügel</note>
           <note>Schwefeldioxid und Sulfite</note>
@@ -899,6 +507,28 @@
         </meal>
       </category>
       <category name="Mensa">
+        <meal>
+          <name>Knuspriges Schweineschäufele an Bratenjus mit Bayrisch´ Kraut &amp; Speck Kartoffelkloß</name>
+          <note>Gerste</note>
+          <note>Hafer</note>
+          <note>Rind/Kalb</note>
+          <note>Roggen</note>
+          <note>Schwefeldioxid und Sulfite</note>
+          <note>Schwein</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <note>Weizen</note>
+          <note>geschwefelt</note>
+          <note>glutenhaltiges Getreide</note>
+          <note>konserviert</note>
+          <note>mit Antioxidationsmittel</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">7.70</price>
+          <price role="other">8.65</price>
+          <price role="student">6.20</price>
+        </meal>
+      </category>
+      <category name="Schwein">
         <meal>
           <name>Knuspriges Schweineschäufele an Bratenjus mit Bayrisch´ Kraut &amp; Speck Kartoffelkloß</name>
           <note>Gerste</note>
