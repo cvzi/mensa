@@ -168,6 +168,8 @@ class Parser:
         trs = document.select('table.std>tr')
         if not trs:
             logging.warning("No tr found")
+            if document.select('head title'):
+                logging.debug("Title: %s", document.select('head title')[0].text)
             return
 
         categories = [td.text.strip()
