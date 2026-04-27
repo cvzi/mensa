@@ -64,22 +64,23 @@ class Parser:
 
         # Generate legend (unique for each canteen)
         legend = {}
+        notes = [] # legend entries that can't be parsed, will be added as notes to the meals
         for div in document.find_all('div', {"style": "padding-bottom: 8px;"}):
             m = legendPattern.match(div.text)
             if not m:
-                print("Could not parse legend line: %r" % (div.text,))
+                notes.append(div.text.strip().strip('-').strip())
             else:
                 legend[m[1]] = m[2]
 
         if document.select('table.std thead'):
-            self.parseHorizontalDates(document, lazyBuilder, legend)
+            self.parseHorizontalDates(document, lazyBuilder, legend, notes)
         else:
-            self.parseVerticalDates(document, lazyBuilder, legend)
+            self.parseVerticalDates(document, lazyBuilder, legend, notes)
 
         return lazyBuilder.toXMLFeed()
 
     @staticmethod
-    def parseHorizontalDates(document, lazyBuilder, legend):
+    def parseHorizontalDates(document, lazyBuilder, legend, globalNotes):
         # Useless, because the legends are usually incomplete
         lazyBuilder.setLegendData(legend)
         tables = document.select('table.std thead')
@@ -120,7 +121,7 @@ class Parser:
                     date = dates[dateIndex]
                     dateIndex += 1
 
-                    notes = []
+                    notes = globalNotes[:]
                     if not td.a:
                         continue
                     if "gruen" in td.a["class"]:
@@ -163,7 +164,7 @@ class Parser:
                                             roles if j == 0 else None)
 
     @staticmethod
-    def parseVerticalDates(document, lazyBuilder, legend):
+    def parseVerticalDates(document, lazyBuilder, legend, globalNotes):
         trs = document.select('table.std>tr')
         if not trs:
             logging.warning("No tr found")
@@ -193,7 +194,7 @@ class Parser:
                 catIndex += 1
 
                 for td in tds:
-                    notes = []
+                    notes = globalNotes[:]
                     if "gruen" in td.a["class"]:
                         notes.append("fleischlos")
                     mealName = " ".join(x.strip() for x in td.select(
