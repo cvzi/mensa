@@ -27,7 +27,7 @@ class Parser:
         if ref not in self.canteens:
             return f"Unkown canteen with ref='{xml_escape(ref)}'"
         builder = StyledLazyBuilder()
-        locale.setlocale(locale.LC_TIME, 'de_DE.UTF-8') 
+        locale.setlocale(locale.LC_TIME, 'de_DE.UTF-8')
 
         document = parse(self._get_cached(self.canteens[ref]["canteen_url"]+"/menu").text, 'lxml')
         
@@ -41,6 +41,7 @@ class Parser:
             for meal in day.find(class_='day-menu-entries').find_all('article'):
                 try:
                     name = meal.find('h5').text
+                    category = None
                     try:
                         category = meal.find('span', class_='food-icon')['title']
                     except BaseException:
@@ -48,8 +49,10 @@ class Parser:
                             category = "Vegan"
                         elif "veggy" in name.lower():
                             category = "Fleischlos"
+                        elif category is None:
+                            category = "Mensa"
                         else:
-                            logging.warning("Meal type of %s (%s) is unknown", name, date)
+                            logging.warning("Meal type of %s (%s) is unknown: '%s'", name, date, category)
                             category = "Mensa"
                     notes = [note.text.strip() for note in meal.find('div', class_='additive-list').find_all('li') if note.text.strip()]
                     priceDiv = meal.find('div', class_='price')
