@@ -1,26 +1,42 @@
 #!/usr/bin/env python
 # Python 3
-import time
+import datetime as dt
 import os
 import json
 import urllib
 import logging
 from threading import Lock
+import string
 
-import requests
-from bs4 import BeautifulSoup
+from requests import RequestException
 
 try:
-    from version import __version__, useragentname, useragentcomment
-    from util import StyledLazyBuilder, xml_escape, meta_from_xsl, xml_str_param
+    from util import StyledLazyBuilder, meta_from_xsl, now_local, xml_str_param
+    from koeln.cloudmensa import (
+        get_organization_data,
+        DEFAULT_API_KEY,
+        DEFAULT_DEDUP_FIELDS,
+        DEFAULT_ORGANIZATION_ID,
+        custom_fields_to_dict,
+        fetch_week_menu,
+        monday_for,
+        build_allergens
+    )
 except ModuleNotFoundError:
     import sys
     include = os.path.relpath(os.path.join(os.path.dirname(__file__), '..'))
     sys.path.insert(0, include)
-    from version import __version__, useragentname, useragentcomment
-    from util import StyledLazyBuilder, xml_escape, meta_from_xsl, xml_str_param
-
-# Based on https://github.com/mswart/openmensa-parsers/blob/master/magdeburg.py
+    from util import StyledLazyBuilder, meta_from_xsl, now_local, xml_str_param
+    from cloudmensa import (
+        get_organization_data,
+        DEFAULT_API_KEY,
+        DEFAULT_DEDUP_FIELDS,
+        DEFAULT_ORGANIZATION_ID,
+        custom_fields_to_dict,
+        fetch_week_menu,
+        monday_for,
+        build_allergens
+    )
 
 metaJson = os.path.join(os.path.dirname(__file__), "koeln.json")
 
@@ -32,104 +48,395 @@ with open(metaJson, 'r', encoding='utf8') as meta_file:
     canteenDict = json.load(meta_file)
 
 sourceUrl = "https://www.kstw.de/speiseplan"
-mealsUrl = "https://sw-koeln.maxmanager.xyz/index.php"
 
-headers = {
-    'User-Agent': f'{useragentname}/{__version__} ({useragentcomment}) {requests.utils.default_user_agent()}'
-}
+weekSpanDays = 14
 
 rolesOrder = ('student', 'employee', 'other')
 
-# Global vars for caching
-cacheMealsLock = Lock()
-cacheMealsData = {}
-cacheMealsTime = {}
+genericNames = {
+    "beilage",
+    "dessert",
+    "salat",
+    "tagesrestproduktion",
+}
+
+defaultFoodIconLabels = {
+    "A": "mit Alkohol",
+    "F": "mit Fisch",
+    "G": "mit Gefluegel",
+    "L": "mit Lamm",
+    "NL": "Neuland Fleisch",
+    "R": "mit Rind",
+    "RK": "Rettet die Knolle!",
+    "S": "mit Schwein",
+    "VGN": "Vegan",
+    "VGT": "Vegetarisch",
+    "W": "mit Wild",
+}
+
+allAllergens = {}
+
+_apiConfigLock = Lock()
+_apiConfigCache = None
+
+_menuDataLock = Lock()
+_menuDataCache = {}
 
 
-def _getMealsURL(url, maxAgeMinutes=30):
-    """Download website, if available use a cached version"""
-    if url in cacheMealsData:
-        ageSeconds = (time.time() - cacheMealsTime[url])
-        if ageSeconds < maxAgeMinutes*60:
-            logging.debug("From cache: %s [%ds old]", url, ageSeconds)
-            return cacheMealsData[url]
-
-    content = requests.get(url, headers=headers, timeout=10*60).text
-    with cacheMealsLock:
-        cacheMealsData[url] = content
-        cacheMealsTime[url] = time.time()
-    return content
+def _normalize_text(value):
+    text = str(value or "").strip().lower()
+    return " ".join(text.replace("straße", "strasse").replace("-", " ").split())
 
 
-def _parseMealsUrl(lazyBuilder, mensaId):
-    content = _getMealsURL(mealsUrl)
-    document = BeautifulSoup(content, "html.parser")
+def _normalize_category(menuType, dishInfo=None):
+    value = str(menuType or "").strip()
+    if not value:
+        return "Speiseplan"
 
-    mensaDivs = document.find_all(
-        "div", class_="einrichtungsblock", attrs={"data-einrichtung": mensaId})
+    if value.lower().startswith("x") and len(value) > 1 and value[1].isalpha():
+        value = value[1:]
 
-    if len(mensaDivs) < 2:
-        logging.error("Mensa not found [id='%s']", mensaId)
-        return
+    tokens = value.replace("_", " ").split()
+    while len(tokens) > 1 and tokens[-1].upper() in {"ST", "SOZIAL", "ABENDESSEN", "1", "2"}:
+        tokens.pop()
 
-    for div in mensaDivs:
-        for block in div.find_all("div", class_="essensblock"):
-            date = block.attrs["data-essensdatum"]
-            category = block.attrs["data-menuelinie"]
-            for meal in block.find_all("div", class_="essenfakten"):
-                essenstext = meal.find(class_="essenstext")
-                beschreibungtext = meal.find(class_="beschreibungtext")
-                mealName = ""
-                if essenstext:
-                    mealName += essenstext.text.strip()
-                if beschreibungtext:
-                    mealName += " " + beschreibungtext.text.strip()
-                if not mealName:
-                    continue
+    normalized = " ".join(tokens)
 
-                prices = []
-                preise = meal.find(class_="preise")
-                if preise:
-                    prices = [price.strip()
-                              for price in preise.text.split('/')]
-                    if len(prices) > 3:
-                        prices = prices[:2] + prices[-1:]
+    prefix = "" if not dishInfo or not str(dishInfo).strip() else f"{dishInfo.strip()} - "
 
-                notes = []
-                allerg = meal.find(attrs={"data-allerg": True})
-                if allerg:
-                    notes += [note.strip()
-                              for note in allerg.attrs["data-allerg"].split("<br>")]
+    return prefix + (string.capwords(normalized.lower()) if normalized else "Speiseplan")
 
-                zusatz = meal.find(attrs={"data-zusatz"})
-                if zusatz:
-                    notes += [note.strip()
-                              for note in zusatz.attrs["data-zusatz"].split("<br>")]
 
-                sonst = meal.find(attrs={"data-sonst"})
-                if sonst:
-                    notes += [note.strip()
-                              for note in sonst.attrs["data-sonst"].split("<br>")]
+def _clean_custom_name(name):
+    custom = str(name or "").strip()
+    for prefix in ("extrabeilage/", "extrabeilagen/"):
+        if custom.lower().startswith(prefix):
+            custom = custom[len(prefix):].strip()
+            break
+    return custom
 
-                notes = [note.split("=")[-1].strip()
-                         for note in notes if note.split("=")[-1].strip()]
-                notes = [note for note in notes if note]
 
-                lazyBuilder.addMeal(date, category, mealName,
-                                    notes if notes else None,
-                                    prices if prices else None,
-                                    rolesOrder[0:len(prices)] if prices else None)
+def _pick_meal_name(dish, customFields):
+    nameDe = str(dish.get("name_de") or "").strip()
+    custom = _clean_custom_name(customFields.get("CUSTOM_DPNAME"))
+
+    if not nameDe:
+        return custom
+
+    if nameDe.lower() in genericNames and custom and _normalize_text(custom) != _normalize_text(nameDe):
+        return custom
+
+    return nameDe
+
+
+def _parse_price(value):
+    if value is None:
+        return None
+    text = str(value).strip().replace("€", "").replace(",", ".")
+    if not text:
+        return None
+    try:
+        return round(float(text), 2)
+    except ValueError:
+        return None
+
+
+def _extract_prices(customFields):
+    values = [
+        _parse_price(customFields.get("price_2")),
+        _parse_price(customFields.get("price_3")),
+        _parse_price(customFields.get("price_4")),
+    ]
+    prices = []
+    roles = []
+    for role, value in zip(rolesOrder, values):
+        if value is not None:
+            prices.append(value)
+            roles.append(role)
+    return prices, roles
+
+
+def _parse_allergen_notes(rawAllergens):
+    raw = str(rawAllergens or "").strip()
+    if not raw:
+        return []
+
+    if "=" not in raw:
+        return [raw]
+
+    notes = []
+    for part in raw.split(","):
+        token = part.strip()
+        if "=" not in token:
+            continue
+
+        explanation = token.split("=", 1)[1].strip()
+        if "|" in explanation:
+            explanation = explanation.split("|", 1)[0].strip()
+
+        if explanation:
+            notes.append(explanation)
+
+    return notes if notes else [raw]
+
+
+def _extract_food_icon_notes(customFields, iconLabels):
+    rawIcons = str(customFields.get("food_icon") or "").strip()
+    if not rawIcons:
+        return []
+
+    notes = []
+    for icon in [item.strip() for item in rawIcons.split(",") if item.strip()]:
+        notes.append(iconLabels.get(icon, icon))
+    return notes
+
+
+def _deduplicate_items(values):
+    seen = set()
+    unique = []
+    for value in values:
+        normalized = _normalize_text(value)
+        if not normalized or normalized in seen:
+            continue
+        seen.add(normalized)
+        unique.append(value)
+    return unique
+
+
+def _get_food_icon_labels(settings):
+    labels = dict(defaultFoodIconLabels)
+    for icon in settings.get("public_menu_food_icon_legend", []):
+        iconId = str(icon.get("icon_id") or "").strip()
+        if not iconId:
+            continue
+        label = str(icon.get("label_de") or icon.get("label_en") or "").strip()
+        if label:
+            labels[iconId] = label
+    return labels
+
+
+def _get_api_config():
+    global _apiConfigCache
+
+    if _apiConfigCache is not None:
+        return _apiConfigCache
+
+    with _apiConfigLock:
+        if _apiConfigCache is not None:
+            return _apiConfigCache
+
+        apiKey = os.environ.get("KOELN_SUPABASE_API_KEY")
+        organizationId = os.environ.get("KOELN_ORGANIZATION_ID")
+        dedupFields = list(DEFAULT_DEDUP_FIELDS)
+        foodIconLabels = dict(defaultFoodIconLabels)
+
+        try:
+            org = get_organization_data("kstw")
+            settings = org.get("settings") if isinstance(org, dict) else {}
+
+            apiKey = apiKey or org.get("api_key")
+            organizationId = organizationId or org.get("organization_id")
+
+            if settings:
+                dedupFields = settings.get("public_menu_dedup_custom_fields") or dedupFields
+                foodIconLabels = _get_food_icon_labels(settings)
+        except (RequestException, RuntimeError, ValueError) as exc:
+            logging.warning("Failed to refresh CloudMensa API metadata: %s", exc)
+
+        _apiConfigCache = {
+            "api_key": apiKey or DEFAULT_API_KEY,
+            "organization_id": organizationId or DEFAULT_ORGANIZATION_ID,
+            "dedup_fields": dedupFields,
+            "food_icon_labels": foodIconLabels,
+        }
+        return _apiConfigCache
+
+
+def _get_week_menu_data(startDate, endDate):
+    cfg = _get_api_config()
+    cacheKey = (
+        startDate.isoformat(),
+        endDate.isoformat(),
+        cfg["organization_id"],
+        tuple(cfg["dedup_fields"] or []),
+    )
+
+    with _menuDataLock:
+        if cacheKey in _menuDataCache:
+            return _menuDataCache[cacheKey]
+
+    menuData = fetch_week_menu(
+        start_date=startDate,
+        end_date=endDate,
+        api_key=cfg["api_key"],
+        organization_id=cfg["organization_id"],
+        dedup_fields=cfg["dedup_fields"],
+    )
+
+    # Allergens explanation mapping is not present for all dishes
+    # So we build a global mapping for the week to be able to fill
+    # in missing explanations later when processing individual dishes
+    build_allergens(menuData, allAllergens)
+
+    with _menuDataLock:
+        _menuDataCache[cacheKey] = menuData
+    return menuData
+
+def _canteen_screen_set(c):
+    return {_normalize_text(x) for x in (c.get("screen_locations") or []) if x}
+
+def _dish_screen_set(d, customFields):
+    s = set()
+    for scr in (d.get("screens") or []) or []:
+        loc = scr.get("location")
+        if loc:
+            s.add(_normalize_text(loc))
+    loc_cf = customFields.get("location")
+    if loc_cf:
+        s.add(_normalize_text(loc_cf))
+    return s
+    
+def _dish_matches_canteen(dish, canteen, customFields=None):
+    """Return True if `dish` should be assigned to `canteen`.
+
+    This mirrors the matching logic used by `_add_dish` but is kept
+    side-effect free so callers can test assignment without building
+    meals.
+    """
+    if customFields is None:
+        customFields = custom_fields_to_dict(dish.get("custom_fields"))
+
+    # Match dishes to canteens using ort_id primarily; fall back to screen locations.
+    dishOrtId = str(customFields.get("ort_id") or "").strip()
+    canteenOrdId = str(canteen.get("ort_id") or "").strip()
+
+    # If the dish provides an ort_id consider it authoritative: only match
+    # canteens that have the same ort_id. This prevents matching to canteens
+    # that lack an ort_id (but might share similar screen names)
+    if dishOrtId:
+        if canteenOrdId != dishOrtId:
+            return False
+    else:
+        # Fallback: match dish screen locations
+        canteen_screens = _canteen_screen_set(canteen)
+        dish_screens = _dish_screen_set(dish, customFields)
+        if not (canteen_screens and dish_screens and (canteen_screens & dish_screens)):
+            return False
+
+    # Ensure a meal name exists (other fields like prices/notes don't affect assignment)
+    mealName = _pick_meal_name(dish, customFields)
+    if not mealName:
+        return False
+
+    return True
+def _add_dish(builder, dateValue, canteen, dish):
+    customFields = custom_fields_to_dict(dish.get("custom_fields"))
+    # Use the predicate to determine whether this dish belongs to the canteen
+    if not _dish_matches_canteen(dish, canteen, customFields):
+        return False
+
+    category = _normalize_category(menuType=customFields.get("menu_type") or dish.get("category"), 
+                                   dishInfo=customFields.get("dish_info"))
+    prices, roles = _extract_prices(customFields)
+
+    cfg = _get_api_config()
+    notes = []
+    notes.extend(_parse_allergen_notes(customFields.get("allergens_names")))
+    notes.extend(_extract_food_icon_notes(customFields, cfg["food_icon_labels"]))
+    notes = _deduplicate_items(notes)
+
+    # Extract and remove allergen hints from the meal name
+    if "(" in mealName and ")" in mealName:
+        start = mealName.find("(")
+        end = mealName.find(")", start)
+        if end > start:
+            allergenHints = mealName[start + 1:end].strip()
+            allergens = [hint.strip() for hint in allergenHints.split(",")]
+            allergens_in_notes = []
+            allergens_in_notes = [allergen for allergen in allergens if any(allergen in note for note in notes)]
+            for allergen in allergens:
+                explanation = allAllergens.get(allergen)
+                if explanation: 
+                    if explanation not in notes:
+                        notes.append(explanation),
+                    allergens_in_notes.append(allergen)
+            # remove the remaining allergen hints from the meal name
+            if allergens_in_notes:
+                remainingHints = [hint for hint in allergens if hint not in allergens_in_notes]
+                if remainingHints:
+                    mealName = mealName[:start] + "(" + ", ".join(remainingHints) + ")" + mealName[end + 1:]
+                else:
+                    mealName = mealName[:start] + mealName[end + 1:]
+
+    builder.addMeal(
+        dateValue,
+        category,
+        mealName,
+        notes if notes else None,
+        prices if prices else None,
+        roles if roles else None,
+    )
+    return True
+
+
+def _parse_menu(builder, canteen):
+    today = now_local().date()
+    startDate = monday_for(today)
+    endDate = startDate + dt.timedelta(days=weekSpanDays - 1)
+
+    menuData = _get_week_menu_data(startDate, endDate)
+    hasMealsByDate = set()
+
+    for day in menuData:
+        dayDate = str(day.get("date") or "").strip()
+        if not dayDate:
+            continue
+
+        addedForDate = False
+        for dish in day.get("dishes", []):
+            if _add_dish(builder, dayDate, canteen, dish):
+                addedForDate = True
+
+        if addedForDate:
+            hasMealsByDate.add(dayDate)
+
+    for offset in range((endDate - startDate).days + 1):
+        current = startDate + dt.timedelta(days=offset)
+        if current.weekday() >= 5:
+            continue
+
+        isoDate = current.isoformat()
+        if isoDate not in hasMealsByDate:
+            builder.setDayClosed(isoDate)
 
 
 class Parser:
     def __init__(self, urlTemplate):
         self.urlTemplate = urlTemplate
         self.meta_xslt = os.path.join(os.path.dirname(__file__), "../meta.xsl")
-        self.canteens = {}
-        for mensaId in canteenDict:
-            canteenDict[mensaId]["id"] = mensaId
-            self.canteens[canteenDict[mensaId]
-                          ["reference"]] = canteenDict[mensaId]
+        self.canteens = {key: dict(value) for key, value in canteenDict.items()}
+
+    def verify_menu_usage(self, menuData):
+        """Verify which canteens would consume each dish in `menuData`.
+
+        Returns a dict mapping `dish_id` -> list of canteen keys that match it.
+        `menuData` should be the list of day dicts returned by `fetch_week_menu`.
+        """
+        usage = {}
+        for day in menuData:
+            for dish in day.get("dishes", []):
+                dish_id = dish.get("id") or dish.get("dish_id")
+                if dish_id is None:
+                    # skip unidentifiable
+                    continue
+                usage.setdefault(dish_id, [])
+                for canteen_key, canteen in self.canteens.items():
+                    try:
+                        if _dish_matches_canteen(dish, canteen):
+                            usage[dish_id].append(canteen_key)
+                    except Exception:
+                        logging.exception("Error matching dish %s against canteen %s", dish_id, canteen_key)
+        return usage
 
     def json(self):
         tmp = {}
@@ -158,17 +465,17 @@ class Parser:
 
         return meta_from_xsl(self.meta_xslt, data)
 
-    def feed(self, name):
-        if name in self.canteens:
-            lazyBuilder = StyledLazyBuilder()
-            mensaId = self.canteens[name]["id"]
-            _parseMealsUrl(lazyBuilder, mensaId)
-            return lazyBuilder.toXMLFeed()
-        return 'Wrong mensa name'
+    def feed(self, ref):
+        if ref not in self.canteens:
+            return 'Unknown canteen'
+        mensa = self.canteens[ref]
+        lazyBuilder = StyledLazyBuilder()
+        _parse_menu(lazyBuilder, mensa)
+        return lazyBuilder.toXMLFeed()
 
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
     p = Parser("http://localhost/{metaOrFeed}/koeln_{mensaReference}.xml")
     # print(p.meta("iwz-deutz"))
-    # print(p.feed("iwz-deutz"))
+    print(p.feed("eraum"))
