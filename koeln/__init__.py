@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-# Python 3
 import datetime as dt
 import os
 import json
@@ -296,7 +294,7 @@ def _dish_screen_set(d, customFields):
         s.add(_normalize_text(loc_cf))
     return s
     
-def _dish_matches_canteen(dish, canteen, customFields=None):
+def _dish_matches_canteen(dish, canteen, customFields=None, outName=None):
     """Return True if `dish` should be assigned to `canteen`.
 
     This mirrors the matching logic used by `_add_dish` but is kept
@@ -323,17 +321,22 @@ def _dish_matches_canteen(dish, canteen, customFields=None):
         if not (canteen_screens and dish_screens and (canteen_screens & dish_screens)):
             return False
 
-    # Ensure a meal name exists (other fields like prices/notes don't affect assignment)
     mealName = _pick_meal_name(dish, customFields)
+    if outName is not None:
+        outName.append(mealName)
     if not mealName:
         return False
 
     return True
+
 def _add_dish(builder, dateValue, canteen, dish):
     customFields = custom_fields_to_dict(dish.get("custom_fields"))
+    outName = []
     # Use the predicate to determine whether this dish belongs to the canteen
-    if not _dish_matches_canteen(dish, canteen, customFields):
+    if not _dish_matches_canteen(dish, canteen, customFields, outName):
         return False
+
+    mealName = outName[0]
 
     category = _normalize_category(menuType=customFields.get("menu_type") or dish.get("category"), 
                                    dishInfo=customFields.get("dish_info"))
@@ -459,7 +462,7 @@ class Parser:
             "longitude": xml_str_param(mensa["longitude"]),
             "phone": xml_str_param(mensa["phone"]),
             "times": mensa["infokurz"],
-            "feed": xml_str_param(self.urlTemplate.format(metaOrFeed='feed', mensaReference=urllib.parse.quote(mensa["reference"]))),
+            "feed": xml_str_param(self.urlTemplate.format(metaOrFeed='feed', mensaReference=urllib.parse.quote(ref))),
             "source": xml_str_param(sourceUrl),
         }
 
