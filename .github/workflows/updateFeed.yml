@@ -19,6 +19,8 @@ jobs:
   generateXMLFeeds:
     runs-on: ubuntu-latest
     timeout-minutes: 40
+    env:
+      KOELN_CLOUDMENSA_API_KEY: ${{ secrets.KOELN_CLOUDMENSA_API_KEY }}
     steps:
     - run: sudo locale-gen de_DE.UTF-8
     - uses: actions/checkout@v6
