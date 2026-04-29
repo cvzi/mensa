@@ -115,6 +115,7 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
+          <note>Mit Süßstoff</note>
           <price role="employee">1.05</price>
           <price role="other">2.90</price>
           <price role="student">0.95</price>
@@ -139,7 +140,6 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Mit Süßstoff</note>
           <price role="employee">1.05</price>
           <price role="other">2.90</price>
           <price role="student">0.95</price>
@@ -193,6 +193,7 @@
         <meal>
           <name>Currywurst</name>
           <note>Enthält Gelatine</note>
+          <note>Enthält Gluten</note>
           <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
@@ -208,7 +209,6 @@
         <meal>
           <name>Currywurst</name>
           <note>Enthält Gelatine</note>
-          <note>Enthält Gluten</note>
           <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
@@ -385,6 +385,18 @@
           <price role="student">5.60</price>
         </meal>
       </category>
+      <category name="1 - Heimspiel">
+        <meal>
+          <name>Orientalische Tomatencreme Suppe </name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Soja</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">5.30</price>
+          <price role="other">7.65</price>
+          <price role="student">4.00</price>
+        </meal>
+      </category>
       <category name="VGT - Sonstiges">
         <meal>
           <name>Pasta Theke</name>
@@ -446,28 +458,6 @@
           <price role="employee">6.65</price>
           <price role="other">12.65</price>
           <price role="student">5.10</price>
-        </meal>
-      </category>
-      <category name="1 - Heimspiel">
-        <meal>
-          <name>Süße Schupfnudeln</name>
-          <note>Enthält Gluten</note>
-          <note>Enthält Soja</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Vegan</note>
-          <price role="employee">5.30</price>
-          <price role="other">7.65</price>
-          <price role="student">4.00</price>
-        </meal>
-        <meal>
-          <name>Süße Schupfnudeln</name>
-          <note>Enthält Gluten</note>
-          <note>Enthält Soja</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Vegan</note>
-          <price role="employee">5.30</price>
-          <price role="other">7.65</price>
-          <price role="student">4.00</price>
         </meal>
       </category>
     </day>
