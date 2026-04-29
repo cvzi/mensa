@@ -382,10 +382,16 @@ def _add_dish(builder, dateValue, canteen, dish):
     return True
 
 
-def _parse_menu(builder, canteen):
+def _parse_menu(builder, canteen, days=None):
     today = now_local().date()
-    startDate = monday_for(today)
-    endDate = startDate + dt.timedelta(days=weekSpanDays - 1)
+    if days is None:
+        # Two week range similar to website
+        startDate = monday_for(today)
+        endDate = startDate + dt.timedelta(days=weekSpanDays - 1)
+    else:
+        # Days from today
+        startDate = today
+        endDate = startDate + dt.timedelta(days=days)
 
     menuData = _get_week_menu_data(startDate, endDate)
     hasMealsByDate = set()
@@ -462,13 +468,14 @@ class Parser:
             "longitude": xml_str_param(mensa["longitude"]),
             "phone": xml_str_param(mensa["phone"]),
             "times": mensa["infokurz"],
-            "feed": xml_str_param(self.urlTemplate.format(metaOrFeed='feed', mensaReference=urllib.parse.quote(ref))),
+            "feed_today": xml_str_param(self.urlTemplate.format(metaOrFeed='today', mensaReference=urllib.parse.quote(ref))),
+            "feed_full": xml_str_param(self.urlTemplate.format(metaOrFeed='feed', mensaReference=urllib.parse.quote(ref))),
             "source": xml_str_param(sourceUrl),
         }
 
         return meta_from_xsl(self.meta_xslt, data)
 
-    def feed(self, ref):
+    def feed_all(self, ref):
         if ref not in self.canteens:
             return 'Unknown canteen'
         mensa = self.canteens[ref]
@@ -477,8 +484,17 @@ class Parser:
         return lazyBuilder.toXMLFeed()
 
 
+    def feed_today(self, ref):
+        if ref not in self.canteens:
+            return 'Unknown canteen'
+        mensa = self.canteens[ref]
+        lazyBuilder = StyledLazyBuilder()
+        _parse_menu(lazyBuilder, mensa, days=1) # today and tomorrow
+        return lazyBuilder.toXMLFeed()
+
+
 if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
     p = Parser("http://localhost/{metaOrFeed}/koeln_{mensaReference}.xml")
     # print(p.meta("iwz-deutz"))
-    print(p.feed("eraum"))
+    print(p.feed_today("eraum"))
