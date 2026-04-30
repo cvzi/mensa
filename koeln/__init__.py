@@ -395,6 +395,7 @@ def _parse_menu(builder, canteen, days=None):
 
     menuData = _get_week_menu_data(startDate, endDate)
     hasMealsByDate = set()
+    lastDateWithMeals = None
 
     for day in menuData:
         dayDate = str(day.get("date") or "").strip()
@@ -407,17 +408,21 @@ def _parse_menu(builder, canteen, days=None):
                 addedForDate = True
 
         if addedForDate:
-            hasMealsByDate.add(dayDate)
+            lastDateWithMeals = dayDate
+            if dayDate:
+                hasMealsByDate.add(dayDate)
 
+    # mark days without meals as closed until the last date with meals
+    # don't mark days after the last date with meals as closed
     for offset in range((endDate - startDate).days + 1):
         current = startDate + dt.timedelta(days=offset)
-        if current.weekday() >= 5:
-            continue
-
         isoDate = current.isoformat()
+
+        if isoDate == lastDateWithMeals:
+            break
+
         if isoDate not in hasMealsByDate:
             builder.setDayClosed(isoDate)
-
 
 class Parser:
     def __init__(self, urlTemplate):
@@ -497,4 +502,5 @@ if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
     p = Parser("http://localhost/{metaOrFeed}/koeln_{mensaReference}.xml")
     # print(p.meta("iwz-deutz"))
-    print(p.feed_today("eraum"))
+    # print(p.feed_today("unimensa"))
+    print(p.feed_all("unimensa"))
