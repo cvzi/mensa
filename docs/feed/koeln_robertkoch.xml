@@ -186,6 +186,7 @@
         <meal>
           <name>Currywurst</name>
           <note>Enthält Gelatine</note>
+          <note>Enthält Gluten</note>
           <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
@@ -201,7 +202,6 @@
         <meal>
           <name>Currywurst</name>
           <note>Enthält Gelatine</note>
-          <note>Enthält Gluten</note>
           <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
@@ -487,8 +487,6 @@
         </meal>
         <meal>
           <name>Pommes Wedges</name>
-          <note>Enthält Gluten</note>
-          <note>Enthält Weizen Gluten</note>
           <price role="employee">1.30</price>
           <price role="other">3.00</price>
           <price role="student">0.95</price>
@@ -503,6 +501,14 @@
           <name>Sellerie</name>
           <note>Enthält Sellerie</note>
           <note>Enthält Soja</note>
+          <price role="employee">1.30</price>
+          <price role="other">3.00</price>
+          <price role="student">0.95</price>
+        </meal>
+        <meal>
+          <name>Steakhouse Pommes</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Weizen Gluten</note>
           <price role="employee">1.30</price>
           <price role="other">3.00</price>
           <price role="student">0.95</price>
@@ -588,6 +594,12 @@
       </category>
     </day>
     <day date="2026-05-01">
+      <closed/>
+    </day>
+    <day date="2026-05-02">
+      <closed/>
+    </day>
+    <day date="2026-05-03">
       <closed/>
     </day>
     <day date="2026-05-04">
@@ -1108,6 +1120,9 @@
           <price role="student">0.95</price>
         </meal>
       </category>
+    </day>
+    <day date="2026-05-09">
+      <closed/>
     </day>
     <day date="2026-05-10">
       <category name="Speiseplan">
