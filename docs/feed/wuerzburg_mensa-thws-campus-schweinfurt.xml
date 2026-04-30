@@ -3,19 +3,36 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2026-04-29">
+    <day date="2026-04-30">
       <category name="Fleischlos">
         <meal>
-          <name>Spargelcremesuppe - aus frischem fränkischen Spargel</name>
+          <name>Gemüsecremesuppe</name>
           <note>Gerste</note>
           <note>Milch (einschließlich Lactose)</note>
+          <note>Schwefeldioxid und Sulfite</note>
           <note>Sellerie</note>
-          <note>Weizen</note>
           <note>glutenhaltiges Getreide</note>
           <note>mit Farbstoff</note>
           <price role="employee">1.60</price>
           <price role="other">1.80</price>
           <price role="student">1.50</price>
+        </meal>
+        <meal>
+          <name>Spaghetti "Pesto alla genovese" mit geriebenem Gran Moravia</name>
+          <note>Knoblauch</note>
+          <note>Mandeln</note>
+          <note>Milch (einschließlich Lactose)</note>
+          <note>Schalenfrüchte</note>
+          <note>Schwefeldioxid und Sulfite</note>
+          <note>Weizen</note>
+          <note>geschwefelt</note>
+          <note>glutenhaltiges Getreide</note>
+          <note>konserviert</note>
+          <note>mit Antioxidationsmittel</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">4.15</price>
+          <price role="other">5.10</price>
+          <price role="student">2.80</price>
         </meal>
         <meal>
           <name>Frischer Spargel vom fränkischen Spargelbauer Dampfkartoffeln</name>
@@ -34,15 +51,19 @@
       </category>
       <category name="Vegan">
         <meal>
-          <name>mensaVital: Vegane Pasta mit Favabohnen, frischem Paprika und gerösteten Sonnenblumenkerne</name>
-          <note>Cashewnüsse</note>
-          <note>Erdnüsse</note>
+          <name>Mandelbrokkoli</name>
+          <note>Mandeln</note>
           <note>Schalenfrüchte</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <price role="employee">4.15</price>
-          <price role="other">5.10</price>
-          <price role="student">2.80</price>
+          <note>mit Farbstoff</note>
+          <price role="employee">1.40</price>
+          <price role="other">1.60</price>
+          <price role="student">1.30</price>
+        </meal>
+        <meal>
+          <name>Super Crunch Pommes frites</name>
+          <price role="employee">1.40</price>
+          <price role="other">1.60</price>
+          <price role="student">1.30</price>
         </meal>
         <meal>
           <name>Süßkartoffel "Hot Pot" in Erdnusssoße mit Gemüse, Coconut &amp; Chili</name>
@@ -69,63 +90,6 @@
           <price role="employee">6.85</price>
           <price role="other">7.80</price>
           <price role="student">5.35</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2026-04-30">
-      <category name="Vegan">
-        <meal>
-          <name>Kaisergemüse</name>
-          <note>mit Farbstoff</note>
-          <price role="employee">1.40</price>
-          <price role="other">1.60</price>
-          <price role="student">1.30</price>
-        </meal>
-      </category>
-      <category name="Fleischlos">
-        <meal>
-          <name>Brokkolicremesuppe mit gerösteten Mandeln</name>
-          <note>Gerste</note>
-          <note>Mandeln</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Schalenfrüchte</note>
-          <note>Sellerie</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">1.60</price>
-          <price role="other">1.80</price>
-          <price role="student">1.50</price>
-        </meal>
-        <meal>
-          <name>Frischer Spargel vom fränkischen Spargelbauer Dampfkartoffeln</name>
-          <note>Eier</note>
-          <note>Gerste</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>Sellerie</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">7.80</price>
-          <price role="other">8.75</price>
-          <price role="student">6.30</price>
-        </meal>
-      </category>
-      <category name="Gefluegel">
-        <meal>
-          <name>Ofenfrische Maishähnchenkeule</name>
-          <note>Geflügel</note>
-          <price role="employee">4.15</price>
-          <price role="other">5.10</price>
-          <price role="student">2.80</price>
-        </meal>
-        <meal>
-          <name>Gegrilltes frisches Maishähnchenbrustfilet</name>
-          <note>Geflügel</note>
-          <price role="employee">4.15</price>
-          <price role="other">5.10</price>
-          <price role="student">2.80</price>
         </meal>
       </category>
     </day>
