@@ -4,6 +4,18 @@
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
     <day date="2026-05-04">
+      <category name="Essen II Drehkreuz/Ampel">
+        <meal>
+          <name>Gnocchi Grande mit cremiger Quattro formaggi füllung dazu Tomatensugo und Salat</name>
+          <note>Eier und Eierzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Laktose</note>
+          <note>Vegetarisches Menü</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+      </category>
       <category name="Essen I Drehkreuz/Ampel">
         <meal>
           <name>Putengeschnetzeltes in Pikanter Tomatengemüse Soße dazu Pasta und Salat</name>
@@ -14,18 +26,6 @@
           <note>Glutenhaltiges Getreide</note>
           <note>Konservierungsstoff</note>
           <note>Laktose</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
-      </category>
-      <category name="Essen II Drehkreuz/Ampel">
-        <meal>
-          <name>Gnocchi Grande mit cremiger Quattro formaggi füllung dazu Tomatensugo und Salat</name>
-          <note>Eier und Eierzeugnisse</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Laktose</note>
-          <note>Vegetarisches Menü</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
           <price role="student">5.55</price>
@@ -111,18 +111,6 @@
       </category>
     </day>
     <day date="2026-05-07">
-      <category name="Essen I Drehkreuz/Ampel">
-        <meal>
-          <name>Spareribs mit BBQ-Soße, Pommes frites und Salat</name>
-          <note>Essen 1</note>
-          <note>Schwein</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
-      </category>
       <category name="Essen II Drehkreuz/Ampel">
         <meal>
           <name>Gebackener Schafskäse mit Paprika, Oliven und Peperoni, dazu ein Baguettebrötchen und Salat</name>
@@ -132,6 +120,18 @@
           <note>Laktose</note>
           <note>Vegetarisches Menü</note>
           <note>geschwärzt</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+      </category>
+      <category name="Essen I Drehkreuz/Ampel">
+        <meal>
+          <name>Spareribs mit BBQ-Soße, Pommes frites und Salat</name>
+          <note>Essen 1</note>
+          <note>Schwein</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
           <price role="student">5.55</price>
@@ -168,16 +168,6 @@
       </category>
     </day>
     <day date="2026-05-11">
-      <category name="Essen II Drehkreuz/Ampel">
-        <meal>
-          <name>Bunter Gemüsespieß mit Spicy Paprika-Dip,dazu Röstinchen, und Salat</name>
-          <note>Essen 1</note>
-          <note>Laktose</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
-      </category>
       <category name="Essen I Drehkreuz/Ampel">
         <meal>
           <name>Lasagne "Bolognese" mit Rinderhackfleisch, dazu Tomatensugo und Salat</name>
@@ -192,8 +182,27 @@
           <price role="student">5.55</price>
         </meal>
       </category>
+      <category name="Essen II Drehkreuz/Ampel">
+        <meal>
+          <name>Bunter Gemüsespieß mit Spicy Paprika-Dip,dazu Röstinchen, und Salat</name>
+          <note>Essen 1</note>
+          <note>Laktose</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+      </category>
     </day>
     <day date="2026-05-12">
+      <category name="Essen I Drehkreuz/Ampel">
+        <meal>
+          <name>Chili Cheese Sandwich gefüllt mit Rinderhackfleisch,Paprika,Zwiebel. garniert mit Chili Cheese Dip,Eisbergsalat und Jalapenios dazu Pommes frites dazu Salat</name>
+          <note>Essen 1</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+      </category>
       <category name="Essen II Drehkreuz/Ampel">
         <meal>
           <name>Vegetarisches Chili Cheese Sandwich gefüllt mit Sojahack,Paprika,Zwiebel. garniert mit Chili Cheese Dip,Eisbergsalat und Jalapenios dazu Pommes-frites und Salat</name>
@@ -224,15 +233,6 @@
           <note>Laktose</note>
           <note>Senf</note>
           <note>Soja</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
-      </category>
-      <category name="Essen I Drehkreuz/Ampel">
-        <meal>
-          <name>Chili Cheese Sandwich gefüllt mit Rinderhackfleisch,Paprika,Zwiebel. garniert mit Chili Cheese Dip,Eisbergsalat und Jalapenios dazu Pommes frites dazu Salat</name>
-          <note>Essen 1</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
           <price role="student">5.55</price>
