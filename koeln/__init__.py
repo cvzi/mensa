@@ -5,6 +5,7 @@ import urllib
 import logging
 from threading import Lock
 import string
+import re
 
 from requests import RequestException
 
@@ -113,7 +114,19 @@ def _clean_custom_name(name):
 
 
 def _pick_meal_name(dish, customFields):
-    nameDe = str(dish.get("name_de") or "").strip()
+    nameDe = ""
+    names = [
+        customFields.get("dish_ger_1"),
+        customFields.get("dish_ger_2"),
+        customFields.get("dish_ger_3"),
+        customFields.get("dish_ger_4"),
+        customFields.get("dish_ger_5"),
+    ]
+    for name in names:
+        if name is not None:
+            nameDe = nameDe + re.sub(r'\(.*?\)', '', name).strip() + ", "
+    nameDe = re.sub(r'[,\s]+$', '', nameDe)
+
     custom = _clean_custom_name(customFields.get("CUSTOM_DPNAME"))
 
     if not nameDe:
