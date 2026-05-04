@@ -49,8 +49,6 @@ sourceUrl = "https://www.kstw.de/speiseplan"
 
 weekSpanDays = 14
 
-rolesOrder = ('student', 'employee', 'other')
-
 genericNames = {
     "beilage",
     "dessert",
@@ -139,19 +137,24 @@ def _parse_price(value):
         return None
 
 
-def _extract_prices(customFields):
+def _extract_prices(defaultPrice, customFields):
     values = [
-        _parse_price(customFields.get("price_2")),
-        _parse_price(customFields.get("price_3")),
-        _parse_price(customFields.get("price_4")),
+        defaultPrice, # default price, seems to be used as students price.
+        _parse_price(customFields.get("price_1")), # "Students price"
+        _parse_price(customFields.get("price_2")), # "Employees price"
+        _parse_price(customFields.get("price_4")), # "Externals price"
+        _parse_price(customFields.get("price_3"))  # "Visitors price" -> last so that "price_4" is preferred over "price_3" for openmensa "other" role
     ]
+    rolesOrder = ('student', 'student', 'employee', 'other', 'other')
+
     prices = []
     roles = []
     for role, value in zip(rolesOrder, values):
-        if value is not None:
+        if value is not None and role not in roles:
             prices.append(value)
             roles.append(role)
-    return prices, roles
+
+    return prices[0:3], roles[0:3]
 
 
 def _parse_allergen_notes(rawAllergens):
@@ -340,7 +343,7 @@ def _add_dish(builder, dateValue, canteen, dish):
 
     category = _normalize_category(menuType=customFields.get("menu_type") or dish.get("category"), 
                                    dishInfo=customFields.get("dish_info"))
-    prices, roles = _extract_prices(customFields)
+    prices, roles = _extract_prices(dish.get("price", None), customFields)
 
     cfg = _get_api_config()
     notes = []
