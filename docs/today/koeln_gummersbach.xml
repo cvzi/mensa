@@ -4,6 +4,25 @@
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
     <day date="2026-05-04">
+      <category name="Beilagen">
+        <meal>
+          <name>Blumenkohl</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Sellerie</note>
+          <note>Vegan</note>
+          <price role="employee">1.30</price>
+          <price role="other">3.00</price>
+          <price role="student">0.95</price>
+        </meal>
+        <meal>
+          <name>Reis</name>
+          <note>Vegan</note>
+          <price role="employee">1.30</price>
+          <price role="other">3.00</price>
+          <price role="student">0.95</price>
+        </meal>
+      </category>
       <category name="1 - Querbeet">
         <meal>
           <name>Kokos-Süßkartoffelsuppe</name>
@@ -183,6 +202,15 @@
           <price role="employee">5.30</price>
           <price role="other">7.65</price>
           <price role="student">4.00</price>
+        </meal>
+      </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Mischgemüse</name>
+          <note>Vegan</note>
+          <price role="employee">1.30</price>
+          <price role="other">3.00</price>
+          <price role="student">0.95</price>
         </meal>
       </category>
       <category name="Querbeet">
