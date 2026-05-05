@@ -19,6 +19,14 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
+          <name>Fusilli</name>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
           <name>Fussili Spirelli</name>
           <note>Enthält Weizen Gluten</note>
           <note>Vegan</note>
@@ -73,6 +81,22 @@
           <price role="student">0.65</price>
         </meal>
       </category>
+      <category name="2 - Querbeet Vegan">
+        <meal>
+          <name>Falafel</name>
+          <note>Enthält Gelatine</note>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Mit Farbstoff</note>
+          <note>Vegan</note>
+          <price role="employee">6.25</price>
+          <price role="other">17.30</price>
+          <price role="student">3.85</price>
+        </meal>
+      </category>
       <category name="Querbeet">
         <meal>
           <name>Karotten-Ingwersuppe</name>
@@ -124,26 +148,10 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Rettet die Knolle!</note>
-          <note>mit Geflügel</note>
+          <note>mit Gefluegel</note>
           <price role="employee">5.60</price>
           <price role="other">15.10</price>
           <price role="student">3.30</price>
-        </meal>
-      </category>
-      <category name="2 - Querbeet Vegan">
-        <meal>
-          <name>Tempeh Crispy Balls</name>
-          <note>Enthält Gelatine</note>
-          <note>Enthält Hafer Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Mit Antioxidationsmittel</note>
-          <note>Mit Farbstoff</note>
-          <note>Vegan</note>
-          <price role="employee">6.25</price>
-          <price role="other">17.30</price>
-          <price role="student">3.85</price>
         </meal>
       </category>
     </day>
@@ -187,18 +195,19 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Mischgemüse</name>
+          <name>Reis</name>
           <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Reis</name>
+          <name>Risoléekartoffeln</name>
+          <note>Rettet die Knolle!</note>
           <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">3.00</price>
-          <price role="student">0.65</price>
+          <price role="employee">1.50</price>
+          <price role="other">4.45</price>
+          <price role="student">0.95</price>
         </meal>
         <meal>
           <name>Beilagensalat</name>
@@ -220,6 +229,13 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Sommergemüse</name>
+          <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
@@ -248,7 +264,8 @@
         <meal>
           <name>Grießpudding</name>
           <note>Enthält Gluten</note>
-          <note>Enthält Soja</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
           <note>Enthält Weizen Gluten</note>
           <note>Vegetarisch</note>
           <price role="employee">4.00</price>
@@ -322,6 +339,15 @@
           <note>Enthält Sellerie</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>bunte Spirelli</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Weizen Gluten</note>
           <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
@@ -451,7 +477,7 @@
           <note>Enthält Weizen Gluten</note>
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
-          <note>mit Geflügel</note>
+          <note>mit Gefluegel</note>
           <price role="employee">6.25</price>
           <price role="other">17.30</price>
           <price role="student">3.85</price>
@@ -559,7 +585,7 @@
           <note>Enthält Weizen Gluten</note>
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
-          <note>mit Geflügel</note>
+          <note>mit Gefluegel</note>
           <price role="employee">5.30</price>
           <price role="other">14.10</price>
           <price role="student">3.10</price>
@@ -692,7 +718,6 @@
         </meal>
         <meal>
           <name>Fusilli</name>
-          <note>Enthält Gluten</note>
           <note>Enthält Weizen Gluten</note>
           <note>Vegan</note>
           <price role="employee">0.95</price>
@@ -818,7 +843,6 @@
         </meal>
         <meal>
           <name>Fusilli</name>
-          <note>Enthält Gluten</note>
           <note>Enthält Weizen Gluten</note>
           <note>Vegan</note>
           <price role="employee">0.95</price>
@@ -875,7 +899,7 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Rettet die Knolle!</note>
-          <note>mit Geflügel</note>
+          <note>mit Gefluegel</note>
           <price role="employee">5.60</price>
           <price role="other">15.10</price>
           <price role="student">3.30</price>
@@ -977,7 +1001,6 @@
         </meal>
         <meal>
           <name>Fusilli</name>
-          <note>Enthält Gluten</note>
           <note>Enthält Weizen Gluten</note>
           <note>Vegan</note>
           <price role="employee">0.95</price>
@@ -1032,7 +1055,8 @@
         <meal>
           <name>Grießpudding</name>
           <note>Enthält Gluten</note>
-          <note>Enthält Soja</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
           <note>Enthält Weizen Gluten</note>
           <note>Vegetarisch</note>
           <price role="employee">4.00</price>
@@ -1129,7 +1153,6 @@
         </meal>
         <meal>
           <name>Fusilli</name>
-          <note>Enthält Gluten</note>
           <note>Enthält Weizen Gluten</note>
           <note>Vegan</note>
           <price role="employee">0.95</price>
@@ -1186,7 +1209,7 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Neuland</note>
+          <note>Neuland Fleisch</note>
           <note>mit Rind</note>
           <price role="employee">5.30</price>
           <price role="other">14.10</price>
