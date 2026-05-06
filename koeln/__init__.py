@@ -86,7 +86,13 @@ def _normalize_text(value):
 
 
 def _normalize_category(menuType, dishInfo=None):
-    value = str(menuType or "").strip()
+    if isinstance(menuType, str):
+        value = menuType.strip()
+    elif isinstance(menuType, dict):
+        value = menuType.get("name_de", "").strip()
+    else:
+        value = ""
+
     if not value:
         return "Speiseplan"
 
@@ -110,32 +116,37 @@ def _clean_custom_name(name):
         if custom.lower().startswith(prefix):
             custom = custom[len(prefix):].strip()
             break
-    return custom
+    return custom.strip()
 
 
 def _pick_meal_name(dish, customFields):
-    nameDe = ""
+    # The api offers multiple fields that could be used as meal name
+    # deName is the most reliable field, the other fields may be missing or empty string.
+
+    nameDE = str(dish.get("name_de") or "").strip()  # Name that appears on the website, often with allergen hints in parentheses
+
+    custom = _clean_custom_name(customFields.get("CUSTOM_DPNAME")) # Clean name, sometimes empty.
+
     names = [
-        customFields.get("dish_ger_1"),
-        customFields.get("dish_ger_2"),
-        customFields.get("dish_ger_3"),
+        customFields.get("dish_ger_1"), # main dish, usually same as name_de but without allergen hints
+        customFields.get("dish_ger_2"), # side dishes
+        customFields.get("dish_ger_3"), # ...
         customFields.get("dish_ger_4"),
         customFields.get("dish_ger_5"),
     ]
+    allDishNames = ""
     for name in names:
         if name is not None:
-            nameDe = nameDe + re.sub(r'\(.*?\)', '', name).strip() + ", "
-    nameDe = re.sub(r'[,\s]+$', '', nameDe)
+            allDishNames = allDishNames + re.sub(r'\(.*?\)', '', name).strip() + ", "
+    allDishNames = re.sub(r'[,\s]+$', '', allDishNames)
 
-    custom = _clean_custom_name(customFields.get("CUSTOM_DPNAME"))
+    # Choose a meal name:
+    name = allDishNames or nameDE
 
-    if not nameDe:
+    if name.lower() in genericNames and custom and _normalize_text(custom) != _normalize_text(name):
         return custom
 
-    if nameDe.lower() in genericNames and custom and _normalize_text(custom) != _normalize_text(nameDe):
-        return custom
-
-    return nameDe
+    return name
 
 
 def _parse_price(value):
@@ -356,6 +367,7 @@ def _add_dish(builder, dateValue, canteen, dish):
 
     category = _normalize_category(menuType=customFields.get("menu_type") or dish.get("category"), 
                                    dishInfo=customFields.get("dish_info"))
+
     prices, roles = _extract_prices(dish.get("price", None), customFields)
 
     cfg = _get_api_config()
@@ -364,12 +376,13 @@ def _add_dish(builder, dateValue, canteen, dish):
     notes.extend(_extract_food_icon_notes(customFields, cfg["food_icon_labels"]))
     notes = _deduplicate_items(notes)
 
-    # Extract and remove allergen hints from the meal name
-    if "(" in mealName and ")" in mealName:
-        start = mealName.find("(")
-        end = mealName.find(")", start)
+    # Extract and remove allergen hints
+    allergenName = dish.get("name_de") or allergenName # use raw name_de field as it usually contains the allergen hints
+    if "(" in allergenName and ")" in allergenName:
+        start = allergenName.find("(")
+        end = allergenName.find(")", start)
         if end > start:
-            allergenHints = mealName[start + 1:end].strip()
+            allergenHints = allergenName[start + 1:end].strip()
             allergens = [hint.strip() for hint in allergenHints.split(",")]
             allergens_in_notes = []
             allergens_in_notes = [allergen for allergen in allergens if any(allergen in note for note in notes)]
@@ -379,13 +392,18 @@ def _add_dish(builder, dateValue, canteen, dish):
                     if explanation not in notes:
                         notes.append(explanation),
                     allergens_in_notes.append(allergen)
-            # remove the remaining allergen hints from the meal name
+
+            # remove the allergen hints from the meal name (if they are in the notes)
             if allergens_in_notes:
-                remainingHints = [hint for hint in allergens if hint not in allergens_in_notes]
-                if remainingHints:
-                    mealName = mealName[:start] + "(" + ", ".join(remainingHints) + ")" + mealName[end + 1:]
-                else:
-                    mealName = mealName[:start] + mealName[end + 1:]
+                start = mealName.find("(")
+                end = mealName.find(")", start)
+                if end > start:
+                    remainingHints = [hint for hint in allergens if hint not in allergens_in_notes]
+                    if remainingHints:
+                        mealName = mealName[:start] + "(" + ", ".join(remainingHints) + ")" + mealName[end + 1:]
+                    else:
+                        mealName = mealName[:start] + mealName[end + 1:]
+                mealName = mealName.strip()
 
     builder.addMeal(
         dateValue,
