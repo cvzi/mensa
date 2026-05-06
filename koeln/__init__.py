@@ -377,7 +377,7 @@ def _add_dish(builder, dateValue, canteen, dish):
     notes = _deduplicate_items(notes)
 
     # Extract and remove allergen hints
-    allergenName = dish.get("name_de") or allergenName # use raw name_de field as it usually contains the allergen hints
+    allergenName = dish.get("name_de") or mealName # use raw name_de field as it usually contains the allergen hints
     if "(" in allergenName and ")" in allergenName:
         start = allergenName.find("(")
         end = allergenName.find(")", start)
