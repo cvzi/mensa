@@ -27,6 +27,7 @@
         <meal>
           <name>Kokos-Süßkartoffelsuppe</name>
           <note>Enthält Gluten</note>
+          <note>Enthält Weizen Gluten</note>
           <note>Vegan</note>
           <price role="employee">4.00</price>
           <price role="other">7.65</price>
@@ -48,6 +49,8 @@
         </meal>
         <meal>
           <name>Schokoladenpudding</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
           <note>Enthält Soja</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
@@ -66,7 +69,7 @@
           <note>Enthält Weizen Gluten</note>
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
-          <note>mit Gefluegel</note>
+          <note>mit Geflügel</note>
           <price role="employee">5.60</price>
           <price role="other">15.10</price>
           <price role="student">3.30</price>
@@ -93,9 +96,9 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <price role="employee">0.95</price>
-          <price role="other">2.90</price>
-          <price role="student">0.75</price>
+          <price role="employee">0.97</price>
+          <price role="other">2.91</price>
+          <price role="student">0.77</price>
         </meal>
       </category>
       <category name="2 - Querbeet Vegan">
@@ -119,12 +122,6 @@
     <day date="2026-05-05">
       <category name="Speiseplan">
         <meal>
-          <name>Basmatireis</name>
-          <price role="employee">0.95</price>
-          <price role="other">3.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
           <name>Beerenquark</name>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
@@ -139,6 +136,12 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
+          <name>Reis</name>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
           <name>Beilagensalat Standard</name>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
@@ -146,6 +149,8 @@
         </meal>
         <meal>
           <name>Schokoladenpudding</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
           <note>Enthält Soja</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
@@ -153,6 +158,8 @@
         </meal>
         <meal>
           <name>Vanille Pudding</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
           <note>Enthält Soja</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
@@ -187,7 +194,7 @@
           <note>Enthält Weizen Gluten</note>
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
-          <note>Neuland Fleisch</note>
+          <note>Neuland</note>
           <note>mit Schwein</note>
           <price role="employee">5.60</price>
           <price role="other">15.10</price>
@@ -211,7 +218,7 @@
           <price role="student">3.60</price>
         </meal>
       </category>
-      <category name="1 - Querbeet">
+      <category name="Querbeet">
         <meal>
           <name>Kaiserschmarrn</name>
           <note>Enthält Eier</note>
@@ -224,25 +231,6 @@
           <price role="other">7.65</price>
           <price role="student">1.85</price>
         </meal>
-        <meal>
-          <name>Kokos-Süßkartoffelsuppe</name>
-          <note>Enthält Gluten</note>
-          <note>Vegan</note>
-          <price role="employee">4.00</price>
-          <price role="other">7.65</price>
-          <price role="student">1.85</price>
-        </meal>
-      </category>
-      <category name="Beilagen">
-        <meal>
-          <name>Mischgemüse</name>
-          <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">3.00</price>
-          <price role="student">0.65</price>
-        </meal>
-      </category>
-      <category name="Querbeet">
         <meal>
           <name>Salatbuffet in Selbstbedienung, je 100g</name>
           <note>Enthält Eier</note>
@@ -263,9 +251,36 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
+          <price role="employee">0.97</price>
+          <price role="other">2.91</price>
+          <price role="student">0.77</price>
+        </meal>
+      </category>
+      <category name="1 - Querbeet">
+        <meal>
+          <name>Kokos-Süßkartoffelsuppe</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">4.00</price>
+          <price role="other">7.65</price>
+          <price role="student">1.85</price>
+        </meal>
+      </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Reis</name>
+          <note>Vegan</note>
           <price role="employee">0.95</price>
-          <price role="other">2.90</price>
-          <price role="student">0.75</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Sommergemüse</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
         </meal>
       </category>
     </day>
@@ -280,9 +295,7 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Gemüse CousCous</name>
-          <note>Enthält Gluten</note>
-          <note>Enthält Weizen Gluten</note>
+          <name>Reis</name>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
@@ -295,6 +308,8 @@
         </meal>
         <meal>
           <name>Vanille Pudding</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
           <note>Enthält Soja</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
@@ -311,7 +326,7 @@
           <note>Mit Farbstoff</note>
           <note>Mit Geschmacksverstärker</note>
           <note>Mit Konservierungsstoff</note>
-          <note>mit Gefluegel</note>
+          <note>mit Geflügel</note>
           <price role="employee">4.85</price>
           <price role="other">11.90</price>
           <price role="student">2.60</price>
@@ -320,6 +335,13 @@
       <category name="Beilagen">
         <meal>
           <name>Kaisergemüse</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Reisnudeln tomatisiert</name>
           <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
@@ -337,7 +359,7 @@
           <note>Enthält Weizen Gluten</note>
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
-          <note>mit Gefluegel</note>
+          <note>mit Geflügel</note>
           <price role="employee">6.25</price>
           <price role="other">17.30</price>
           <price role="student">3.85</price>
@@ -394,9 +416,9 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <price role="employee">0.95</price>
-          <price role="other">2.90</price>
-          <price role="student">0.75</price>
+          <price role="employee">0.97</price>
+          <price role="other">2.91</price>
+          <price role="student">0.77</price>
         </meal>
       </category>
     </day>
@@ -425,7 +447,7 @@
           <note>Enthält Weizen Gluten</note>
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
-          <note>Neuland Fleisch</note>
+          <note>Neuland</note>
           <note>mit Schwein</note>
           <price role="employee">5.60</price>
           <price role="other">15.10</price>
@@ -465,7 +487,7 @@
           <note>Enthält Weizen Gluten</note>
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
-          <note>mit Gefluegel</note>
+          <note>mit Geflügel</note>
           <price role="employee">5.30</price>
           <price role="other">14.10</price>
           <price role="student">3.10</price>
@@ -512,9 +534,9 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <price role="employee">0.95</price>
-          <price role="other">2.90</price>
-          <price role="student">0.75</price>
+          <price role="employee">0.97</price>
+          <price role="other">2.91</price>
+          <price role="student">0.77</price>
         </meal>
       </category>
     </day>
@@ -620,7 +642,7 @@
           <note>Enthält Weizen Gluten</note>
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
-          <note>mit Gefluegel</note>
+          <note>mit Geflügel</note>
           <price role="employee">5.60</price>
           <price role="other">15.10</price>
           <price role="student">3.30</price>
@@ -685,9 +707,9 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <price role="employee">0.95</price>
-          <price role="other">2.90</price>
-          <price role="student">0.75</price>
+          <price role="employee">0.97</price>
+          <price role="other">2.91</price>
+          <price role="student">0.77</price>
         </meal>
       </category>
     </day>
@@ -702,7 +724,7 @@
           <note>Enthält Weizen Gluten</note>
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
-          <note>Neuland Fleisch</note>
+          <note>Neuland</note>
           <note>mit Schwein</note>
           <price role="employee">5.60</price>
           <price role="other">15.10</price>
@@ -718,7 +740,7 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>mit Gefluegel</note>
+          <note>mit Geflügel</note>
           <price role="employee">5.60</price>
           <price role="other">15.10</price>
           <price role="student">3.30</price>
@@ -793,9 +815,9 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <price role="employee">0.95</price>
-          <price role="other">2.90</price>
-          <price role="student">0.75</price>
+          <price role="employee">0.97</price>
+          <price role="other">2.91</price>
+          <price role="student">0.77</price>
         </meal>
       </category>
       <category name="2 - Querbeet Vegan">
@@ -828,7 +850,7 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Neuland Fleisch</note>
+          <note>Neuland</note>
           <note>mit Rind</note>
           <price role="employee">5.30</price>
           <price role="other">14.10</price>
@@ -845,7 +867,7 @@
           <note>Mit Farbstoff</note>
           <note>Mit Geschmacksverstärker</note>
           <note>Mit Konservierungsstoff</note>
-          <note>mit Gefluegel</note>
+          <note>mit Geflügel</note>
           <price role="employee">4.85</price>
           <price role="other">11.90</price>
           <price role="student">2.60</price>
@@ -903,9 +925,9 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <price role="employee">0.95</price>
-          <price role="other">2.90</price>
-          <price role="student">0.75</price>
+          <price role="employee">0.97</price>
+          <price role="other">2.91</price>
+          <price role="student">0.77</price>
         </meal>
       </category>
       <category name="1 - Querbeet">
