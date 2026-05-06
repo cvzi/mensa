@@ -390,7 +390,7 @@ def _add_dish(builder, dateValue, canteen, dish):
                 explanation = allAllergens.get(allergen)
                 if explanation: 
                     if explanation not in notes:
-                        notes.append(explanation),
+                        notes.append(explanation)
                     allergens_in_notes.append(allergen)
 
             # remove the allergen hints from the meal name (if they are in the notes)
@@ -501,7 +501,7 @@ class Parser:
 
         data = {
             "name": xml_str_param(mensa["name"]),
-            "address": xml_str_param("%s, %s %s" % (mensa["strasse"], mensa["plz"], mensa["ort"])),
+            "address": xml_str_param(f"{mensa['strasse']}, {mensa['plz']} {mensa['ort']}"),
             "city": xml_str_param(mensa["ort"]),
             "latitude": xml_str_param(mensa["latitude"]),
             "longitude": xml_str_param(mensa["longitude"]),
