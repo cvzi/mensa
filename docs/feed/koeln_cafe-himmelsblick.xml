@@ -156,9 +156,9 @@
           <price role="student">2.65</price>
         </meal>
       </category>
-      <category name="2 - Heimspiel">
+      <category name="2 - Querbeet">
         <meal>
-          <name>Hirtenrolle mit Frischkäsefüllung, Quarkdip, Reisnudeln, Salat, Dessert</name>
+          <name>Hackrolle mit Tomatenfüllung, Aioli, Reisnudeln, Salat, Dessert</name>
           <note>Enthält Eier</note>
           <note>Enthält Gelatine</note>
           <note>Enthält Gluten</note>
@@ -205,9 +205,28 @@
     <day date="2026-05-06">
       <category name="Speiseplan">
         <meal>
+          <name>Apfeljoghurt</name>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Schalenfrüchte Mandeln</note>
+          <note>Enthält Soja</note>
+          <note>Mit Antioxidationsmittel</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
           <name>Gemüse CousCous</name>
           <note>Enthält Gluten</note>
+          <note>Enthält Sellerie</note>
           <note>Enthält Weizen Gluten</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Kirschquark</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
@@ -243,6 +262,7 @@
           <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
+          <note>Enthält Sellerie</note>
           <note>Enthält Weizen Gluten</note>
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
@@ -327,10 +347,17 @@
           <price role="other">3.00</price>
           <price role="student">0.65</price>
         </meal>
+        <meal>
+          <name>Schokoladenpudding</name>
+          <note>Enthält Soja</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
       </category>
       <category name="2 - Worldwide">
         <meal>
-          <name>Fruchtiges Hähnchen-Kokoscurry, Duftreis, Salat, Dessert</name>
+          <name>Fruchtiges Hähnchen-Kokoscurry, Reis, Salat, Dessert</name>
           <note>Enthält Gelatine</note>
           <note>Enthält Hafer Gluten</note>
           <note>Enthält Krebstiere (Schalen-/ Krusten-/Weichtiere)</note>
@@ -366,7 +393,37 @@
           <price role="student">3.10</price>
         </meal>
       </category>
+      <category name="2 - Querbeet">
+        <meal>
+          <name>Hackrolle mit Tomatenfüllung, Aioli, Reisnudeln, Salat, Dessert</name>
+          <note>Enthält Eier</note>
+          <note>Enthält Gelatine</note>
+          <note>Enthält Gluten</note>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Soja</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Mit Farbstoff</note>
+          <note>mit Rind</note>
+          <price role="employee">5.75</price>
+          <price role="other">16.50</price>
+          <price role="student">3.60</price>
+        </meal>
+      </category>
       <category name="Querbeet">
+        <meal>
+          <name>Kartoffelcremesuppe</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Senf</note>
+          <note>Mit Farbstoff</note>
+          <note>Vegetarisch</note>
+          <price role="employee">4.00</price>
+          <price role="other">7.65</price>
+          <price role="student">1.85</price>
+        </meal>
         <meal>
           <name>Salatbuffet in Selbstbedienung, je 100g</name>
           <note>Enthält Eier</note>
@@ -390,22 +447,6 @@
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
-        </meal>
-      </category>
-      <category name="1 - Querbeet">
-        <meal>
-          <name>Thailändische Kokos-Suppe, Kaiserbrötchen</name>
-          <note>Enthält Gluten</note>
-          <note>Enthält Sesamsamen</note>
-          <note>Enthält Soja</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Mit Farbstoff</note>
-          <note>Mit Geschmacksverstärker</note>
-          <note>Mit Konservierungsstoff</note>
-          <note>Vegan</note>
-          <price role="employee">4.00</price>
-          <price role="other">7.65</price>
-          <price role="student">1.85</price>
         </meal>
       </category>
     </day>
@@ -439,14 +480,11 @@
       <category name="2 - Worldwide">
         <meal>
           <name>Schnitzel, Senf-Dill Dip, Salzkartoffeln, Gurkensalat, Dessert</name>
-          <note>Enthält Gelatine</note>
           <note>Enthält Gluten</note>
-          <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
           <note>Enthält Senf</note>
           <note>Enthält Weizen Gluten</note>
-          <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
           <note>Rettet die Knolle!</note>
@@ -458,14 +496,11 @@
         <meal>
           <name>Seelachs in Kartoffelpanade, Senf-Dill Dip, Salzkartoffeln, Gurkensalat, Dessert</name>
           <note>Enthält Fisch</note>
-          <note>Enthält Gelatine</note>
           <note>Enthält Gluten</note>
-          <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
           <note>Enthält Senf</note>
           <note>Enthält Weizen Gluten</note>
-          <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
           <note>Rettet die Knolle!</note>
