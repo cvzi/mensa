@@ -102,24 +102,6 @@
           <price role="student">4.30</price>
         </meal>
       </category>
-      <category name="MG Nord 11.30 - 14.15 Uhr - Heimspiel">
-        <meal>
-          <name>Putenschnitzel, Champignonrahmsauce, Pommes frites, Salat, Dessert</name>
-          <note>Enthält Gelatine</note>
-          <note>Enthält Gluten</note>
-          <note>Enthält Hafer Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Senf</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Mit Antioxidationsmittel</note>
-          <note>Mit Farbstoff</note>
-          <note>mit Geflügel</note>
-          <price role="employee">5.60</price>
-          <price role="other">15.10</price>
-          <price role="student">3.30</price>
-        </meal>
-      </category>
       <category name="Heimspiel">
         <meal>
           <name>Putenschnitzel, Champignonrahmsauce, Wedges, Salat, Dessert</name>
@@ -132,13 +114,31 @@
           <note>Enthält Weizen Gluten</note>
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
-          <note>mit Geflügel</note>
+          <note>mit Gefluegel</note>
           <price role="employee">5.60</price>
           <price role="other">15.10</price>
           <price role="student">3.30</price>
         </meal>
       </category>
-      <category name="EG Nord &amp; MG Nord 11.30 - 14.15 Uhr - Querbeet">
+      <category name="MG Nord 11.30 - 14.15 Uhr - Heimspiel">
+        <meal>
+          <name>Putenschnitzel, Champignonrahmsauce, Pommes frites, Salat, Dessert</name>
+          <note>Enthält Gelatine</note>
+          <note>Enthält Gluten</note>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Senf</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Mit Farbstoff</note>
+          <note>mit Gefluegel</note>
+          <price role="employee">5.60</price>
+          <price role="other">15.10</price>
+          <price role="student">3.30</price>
+        </meal>
+      </category>
+      <category name="MG Nord 11.30 - 14.15 Uhr - Querbeet">
         <meal>
           <name>Salatbuffet in Selbstbedienung, je 100g</name>
           <note>Enthält Eier</note>
@@ -307,7 +307,7 @@
           <price role="student">0.65</price>
         </meal>
       </category>
-      <category name="MG Nord 14.30 - 18.15 Uhr - Heimspiel">
+      <category name="Heimspiel">
         <meal>
           <name>Hirtenrolle mit Frischkäsefüllung, Quarkdip, Reisnudeln, Salat, Dessert</name>
           <note>Enthält Eier</note>
@@ -326,7 +326,7 @@
           <price role="student">3.60</price>
         </meal>
       </category>
-      <category name="Heimspiel">
+      <category name="MG Nord 14.30 - 18.15 Uhr - Heimspiel">
         <meal>
           <name>Hirtenrolle mit Frischkäsefüllung, Quarkdip, Reisnudeln, Salat, Dessert</name>
           <note>Enthält Eier</note>
@@ -360,7 +360,7 @@
           <price role="student">4.80</price>
         </meal>
       </category>
-      <category name="EG Nord &amp; MG Nord 11.30 - 14.15 Uhr - Querbeet">
+      <category name="MG Nord 11.30 - 14.15 Uhr - Querbeet">
         <meal>
           <name>Salatbuffet in Selbstbedienung, je 100g</name>
           <note>Enthält Eier</note>
@@ -471,7 +471,7 @@
           <note>Enthält Weizen Gluten</note>
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
-          <note>mit Geflügel</note>
+          <note>mit Gefluegel</note>
           <price role="employee">6.25</price>
           <price role="other">17.30</price>
           <price role="student">3.85</price>
@@ -492,7 +492,7 @@
           <price role="student">1.85</price>
         </meal>
       </category>
-      <category name="Querbeet Vegan">
+      <category name="EG Süd &amp; EG Nord 11:30 - 14:30 Uhr - Querbeet Vegan">
         <meal>
           <name>Linsenbolognese, Vollkorn Spaghetti, Salat, Dessert</name>
           <note>Enthält Gelatine</note>
@@ -528,7 +528,7 @@
           <price role="student">2.60</price>
         </meal>
       </category>
-      <category name="EG Süd &amp; EG Nord 11:30 - 14:30 Uhr - Querbeet Vegan">
+      <category name="Querbeet Vegan">
         <meal>
           <name>Linsenbolognese, Vollkorn Spaghetti, Salat, Dessert</name>
           <note>Enthält Gelatine</note>
@@ -546,7 +546,7 @@
           <price role="student">2.60</price>
         </meal>
       </category>
-      <category name="EG Nord &amp; MG Nord 11.30 - 14.15 Uhr - Querbeet">
+      <category name="MG Nord 11.30 - 14.15 Uhr - Querbeet">
         <meal>
           <name>Salatbuffet in Selbstbedienung, je 100g</name>
           <note>Enthält Eier</note>
@@ -594,6 +594,7 @@
         </meal>
         <meal>
           <name>Duftreis</name>
+          <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
@@ -627,23 +628,6 @@
           <price role="student">0.65</price>
         </meal>
       </category>
-      <category name="MG Nord 14.30 - 18.15 Uhr - Worldwide">
-        <meal>
-          <name>Fruchtiges Hähnchen-Kokoscurry, Duftreis, Salat, Dessert</name>
-          <note>Enthält Gelatine</note>
-          <note>Enthält Hafer Gluten</note>
-          <note>Enthält Krebstiere (Schalen-/ Krusten-/Weichtiere)</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Mit Antioxidationsmittel</note>
-          <note>Mit Farbstoff</note>
-          <note>mit Geflügel</note>
-          <price role="employee">5.30</price>
-          <price role="other">14.10</price>
-          <price role="student">3.10</price>
-        </meal>
-      </category>
       <category name="Worldwide">
         <meal>
           <name>Fruchtiges Hähnchen-Kokoscurry, Duftreis, Salat, Dessert</name>
@@ -655,13 +639,30 @@
           <note>Enthält Weizen Gluten</note>
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
-          <note>mit Geflügel</note>
+          <note>mit Gefluegel</note>
           <price role="employee">5.30</price>
           <price role="other">14.10</price>
           <price role="student">3.10</price>
         </meal>
       </category>
-      <category name="MG Nord 14.30 - 18.15 Uhr - Querbeet">
+      <category name="MG Nord 14.30 - 18.15 Uhr - Worldwide">
+        <meal>
+          <name>Fruchtiges Hähnchen-Kokoscurry, Duftreis, Salat, Dessert</name>
+          <note>Enthält Gelatine</note>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Krebstiere (Schalen-/ Krusten-/Weichtiere)</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Mit Farbstoff</note>
+          <note>mit Gefluegel</note>
+          <price role="employee">5.30</price>
+          <price role="other">14.10</price>
+          <price role="student">3.10</price>
+        </meal>
+      </category>
+      <category name="Querbeet">
         <meal>
           <name>Gnocchi mit geröst. Paprika und Champignons, Salat, Dessert</name>
           <note>Enthält Gelatine</note>
@@ -681,7 +682,7 @@
           <price role="student">3.10</price>
         </meal>
       </category>
-      <category name="Querbeet">
+      <category name="MG Nord 14.30 - 18.15 Uhr - Querbeet">
         <meal>
           <name>Gnocchi mit geröst. Paprika und Champignons, Salat, Dessert</name>
           <note>Enthält Gelatine</note>
@@ -777,7 +778,7 @@
       </category>
     </day>
     <day date="2026-05-08">
-      <category name="MG Nord 11.30 - 14.15 Uhr - Worldwide">
+      <category name="Worldwide">
         <meal>
           <name>Alaska Polardorschfilet, Rahmspinat, Salzkartoffeln, Salat, Dessert</name>
           <note>Enthält Fisch</note>
@@ -796,9 +797,10 @@
           <price role="student">4.35</price>
         </meal>
       </category>
-      <category name="MG Nord 14.30 - 18.15 Uhr - Querbeet">
+      <category name="MG Nord 14.30 - 18.15 Uhr - Worldwide">
         <meal>
-          <name>High Protein Kuschari, Tomatensauce, Salat, Dessert</name>
+          <name>Alaska Polardorschfilet, Rahmspinat, Salzkartoffeln, Salat, Dessert</name>
+          <note>Enthält Fisch</note>
           <note>Enthält Gelatine</note>
           <note>Enthält Gluten</note>
           <note>Enthält Hafer Gluten</note>
@@ -807,10 +809,53 @@
           <note>Enthält Weizen Gluten</note>
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
+          <note>mit Fisch</note>
+          <price role="employee">6.65</price>
+          <price role="other">19.70</price>
+          <price role="student">4.35</price>
+        </meal>
+      </category>
+      <category name="EG Nord 11.30 - 14.30 Uhr - Beilagen">
+        <meal>
+          <name>Erdbeer Rhabarbar Grütze</name>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Mango - Pfirsich Grütze</name>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Rahmspinat</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Beilagensalat Standard</name>
           <note>Vegan</note>
-          <price role="employee">4.85</price>
-          <price role="other">11.90</price>
-          <price role="student">2.60</price>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Salzkartoffeln</name>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Vanille Creme</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
         </meal>
       </category>
       <category name="Querbeet Vegan">
@@ -830,31 +875,24 @@
           <price role="student">2.60</price>
         </meal>
       </category>
-      <category name="EG Nord &amp; MG Nord 11.30 - 14.15 Uhr - Querbeet">
+      <category name="MG Nord 14.30 - 18.15 Uhr - Querbeet">
         <meal>
-          <name>Salat &amp; Gemüsebuffet in Selbstbedienung, je 100g</name>
-          <note>Enthält Eier</note>
-          <note>Enthält Gerste Gluten</note>
+          <name>High Protein Kuschari, Tomatensauce, Salat, Dessert</name>
+          <note>Enthält Gelatine</note>
           <note>Enthält Gluten</note>
+          <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
-          <note>Enthält Schalenfrüchte (Nüsse)</note>
-          <note>Enthält Schalenfrüchte Kaschunuss</note>
-          <note>Enthält Schalenfrüchte Mandeln</note>
-          <note>Enthält Schalenfrüchte Walnuss</note>
-          <note>Enthält Sellerie</note>
-          <note>Enthält Senf</note>
-          <note>Enthält Sesamsamen</note>
-          <note>Enthält Soja</note>
           <note>Enthält Weizen Gluten</note>
-          <note>Geschwefelt</note>
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
-          <note>Mit Konservierungsstoff</note>
-          <price role="employee">0.97</price>
-          <price role="other">2.91</price>
-          <price role="student">0.77</price>
+          <note>Vegan</note>
+          <price role="employee">4.85</price>
+          <price role="other">11.90</price>
+          <price role="student">2.60</price>
         </meal>
+      </category>
+      <category name="MG Nord 11.30 - 14.15 Uhr - Querbeet">
         <meal>
           <name>Salatbuffet in Selbstbedienung, je 100g</name>
           <note>Enthält Eier</note>
@@ -891,6 +929,14 @@
           <price role="student">1.85</price>
         </meal>
       </category>
+      <category name="Speiseplan">
+        <meal>
+          <name>Tagesrestproduktion</name>
+          <price role="employee">0.80</price>
+          <price role="other">2.85</price>
+          <price role="student">0.60</price>
+        </meal>
+      </category>
     </day>
     <day date="2026-05-09">
       <closed/>
@@ -899,6 +945,34 @@
       <closed/>
     </day>
     <day date="2026-05-11">
+      <category name="MG Süd Restaurant 2 - Meisterwerk">
+        <meal>
+          <name>Flammkuchen Elsässer Art: Schmand, Speck und Zwiebeln</name>
+          <note>Enthält Eier</note>
+          <note>Enthält Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Mit Konservierungsstoff</note>
+          <note>mit Schwein</note>
+          <price role="employee">7.10</price>
+          <price role="other">21.75</price>
+          <price role="student">4.80</price>
+        </meal>
+        <meal>
+          <name>Pizza Salami</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Mit Farbstoff</note>
+          <note>Mit Konservierungsstoff</note>
+          <note>mit Gefluegel</note>
+          <price role="employee">6.50</price>
+          <price role="other">19.55</price>
+          <price role="student">4.30</price>
+        </meal>
+      </category>
       <category name="MG Nord 11.30 - 14.15 Uhr - Worldwide">
         <meal>
           <name>Hähnchen-Crossies, Sweet-Chili Dip, Pommes Wedges, Salat, Dessert</name>
@@ -910,7 +984,7 @@
           <note>Enthält Weizen Gluten</note>
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
-          <note>mit Geflügel</note>
+          <note>mit Gefluegel</note>
           <price role="employee">5.60</price>
           <price role="other">15.10</price>
           <price role="student">3.30</price>
@@ -1043,23 +1117,7 @@
           <price role="student">2.65</price>
         </meal>
       </category>
-      <category name="MG Süd Restaurant 2 - Meisterwerk">
-        <meal>
-          <name>Pizza Salami</name>
-          <note>Enthält Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Mit Antioxidationsmittel</note>
-          <note>Mit Farbstoff</note>
-          <note>Mit Konservierungsstoff</note>
-          <note>mit Geflügel</note>
-          <price role="employee">6.50</price>
-          <price role="other">19.55</price>
-          <price role="student">4.30</price>
-        </meal>
-      </category>
-      <category name="EG Nord &amp; MG Nord 11.30 - 14.15 Uhr - Querbeet">
+      <category name="MG Nord 11.30 - 14.15 Uhr - Querbeet">
         <meal>
           <name>Salatbuffet in Selbstbedienung, je 100g</name>
           <note>Enthält Eier</note>
@@ -1222,19 +1280,19 @@
           <price role="student">3.75</price>
         </meal>
       </category>
-      <category name="EG Süd - 11:30 - 14:30 Uhr Ampelcounter - Querbeet">
+      <category name="Querbeet">
         <meal>
           <name>Milchreis, Heisse Kirschen</name>
           <note>Enthält Alkohol</note>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
-          <note>Vegetarisch</note>
+          <note>Vegan</note>
           <price role="employee">4.00</price>
           <price role="other">7.65</price>
           <price role="student">1.85</price>
         </meal>
       </category>
-      <category name="EG Süd - 11:30 - 14:30 Uhr Ampelcounter - Querbeet Vegan">
+      <category name="Querbeet Vegan">
         <meal>
           <name>Penne arrabbiata, Salat, Dessert</name>
           <note>Enthält Gelatine</note>
@@ -1251,7 +1309,7 @@
           <price role="student">2.65</price>
         </meal>
       </category>
-      <category name="EG Nord &amp; MG Nord 11.30 - 14.15 Uhr - Querbeet">
+      <category name="MG Nord 11.30 - 14.15 Uhr - Querbeet">
         <meal>
           <name>Salatbuffet in Selbstbedienung, je 100g</name>
           <note>Enthält Eier</note>
@@ -1277,7 +1335,24 @@
           <price role="student">0.77</price>
         </meal>
       </category>
-      <category name="MG Nord 11.30 - 14.15 Uhr - Heimspiel">
+      <category name="Heimspiel">
+        <meal>
+          <name>Schweineschnitzel, Pommes Twister, Paprikarahmsauce, Salat, Dessert</name>
+          <note>Enthält Gelatine</note>
+          <note>Enthält Gluten</note>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Mit Farbstoff</note>
+          <note>mit Schwein</note>
+          <price role="employee">5.60</price>
+          <price role="other">15.10</price>
+          <price role="student">3.30</price>
+        </meal>
+      </category>
+      <category name="MG Nord 14.30 - 18.15 Uhr - Heimspiel">
         <meal>
           <name>Schweineschnitzel, Pommes Twister, Paprikarahmsauce, Salat, Dessert</name>
           <note>Enthält Gelatine</note>
@@ -1316,7 +1391,7 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Neuland</note>
+          <note>Neuland Fleisch</note>
           <note>mit Rind</note>
           <price role="employee">5.30</price>
           <price role="other">14.10</price>
@@ -1327,6 +1402,12 @@
         <meal>
           <name>China Wok- Gemüse</name>
           <note>Mit Antioxidationsmittel</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Erdbeer Rhabarbar Grütze</name>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
@@ -1375,14 +1456,6 @@
           <price role="student">0.65</price>
         </meal>
       </category>
-      <category name="MG Nord 11.30 - 14.15 Uhr - Beilagen">
-        <meal>
-          <name>Erdbeer Rhabarbar Grütze</name>
-          <price role="employee">0.95</price>
-          <price role="other">3.00</price>
-          <price role="student">0.65</price>
-        </meal>
-      </category>
       <category name="EG Süd - 11:30 - 14:30 Uhr Ampelcounter - Querbeet">
         <meal>
           <name>Frühlingssuppe, Kaiserbrötchen</name>
@@ -1406,10 +1479,23 @@
           <price role="other">19.55</price>
           <price role="student">4.30</price>
         </meal>
+        <meal>
+          <name>Quesadilla gefüllt mit Rinderhackfleisch, Cheddar, Tomaten, Mais &amp; Bohnen</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Mit Farbstoff</note>
+          <note>Mit Phosphat</note>
+          <note>mit Rind</note>
+          <price role="employee">7.10</price>
+          <price role="other">21.75</price>
+          <price role="student">4.80</price>
+        </meal>
       </category>
       <category name="MG Nord 11.30 - 14.15 Uhr - Meisterwerk">
         <meal>
-          <name>Ravioli Spinat-Käsefüllung, Carbonara, Salat</name>
+          <name>Ravioli Spinat-Käsefüllung, Kräuterrahmsauce, Salat</name>
           <note>Enthält Eier</note>
           <note>Enthält Gerste Gluten</note>
           <note>Enthält Gluten</note>
@@ -1428,14 +1514,13 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Mit Phosphat</note>
-          <note>mit Schwein</note>
+          <note>Vegetarisch</note>
           <price role="employee">5.75</price>
           <price role="other">17.15</price>
           <price role="student">3.75</price>
         </meal>
       </category>
-      <category name="EG Nord &amp; MG Nord 11.30 - 14.15 Uhr - Querbeet">
+      <category name="MG Nord 11.30 - 14.15 Uhr - Querbeet">
         <meal>
           <name>Salatbuffet in Selbstbedienung, je 100g</name>
           <note>Enthält Eier</note>
@@ -1469,7 +1554,7 @@
           <price role="student">0.60</price>
         </meal>
       </category>
-      <category name="MG Nord 14.30 - 18.15 Uhr - Querbeet">
+      <category name="EG Süd - 11:30 - 14:30 Uhr Ampelcounter - Querbeet Vegan">
         <meal>
           <name>Vegane Bratwurst, mit Currysauce, Pommes frites, Salat, Dessert</name>
           <note>Enthält Gelatine</note>
@@ -1493,6 +1578,12 @@
       <category name="EG Nord 11.30 - 14.30 Uhr - Beilagen">
         <meal>
           <name>Broccoli</name>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Erdbeer Rhabarbar Grütze</name>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
@@ -1536,14 +1627,6 @@
           <price role="student">0.65</price>
         </meal>
       </category>
-      <category name="MG Nord 11.30 - 14.15 Uhr - Beilagen">
-        <meal>
-          <name>Erdbeer Rhabarbar Grütze</name>
-          <price role="employee">0.95</price>
-          <price role="other">3.00</price>
-          <price role="student">0.65</price>
-        </meal>
-      </category>
       <category name="Speiseplan">
         <meal>
           <name>Geschlossen</name>
@@ -1560,7 +1643,7 @@
       </category>
       <category name="MG Nord 11.30 - 14.15 Uhr - Meisterwerk">
         <meal>
-          <name>Pasta Mista, Tomatensauce, Sojarahm, Salat</name>
+          <name>Pasta Mista, Basilikumsauce, Tomatensauce, Salat</name>
           <note>Enthält Eier</note>
           <note>Enthält Gerste Gluten</note>
           <note>Enthält Gluten</note>
@@ -1579,7 +1662,7 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Vegan</note>
+          <note>Vegetarisch</note>
           <price role="employee">5.75</price>
           <price role="other">17.15</price>
           <price role="student">3.75</price>
@@ -1598,7 +1681,7 @@
           <price role="student">3.75</price>
         </meal>
       </category>
-      <category name="EG Nord &amp; MG Nord 11.30 - 14.15 Uhr - Querbeet">
+      <category name="MG Nord 11.30 - 14.15 Uhr - Querbeet">
         <meal>
           <name>Salatbuffet in Selbstbedienung, je 100g</name>
           <note>Enthält Eier</note>
@@ -1624,7 +1707,7 @@
           <price role="student">0.77</price>
         </meal>
       </category>
-      <category name="EG Süd - 11:30 - 14:30 Uhr Ampelcounter - Querbeet Vegan">
+      <category name="MG Nord 14.30 - 18.15 Uhr - Querbeet">
         <meal>
           <name>Schnitzel, Kräuter-Aioli, Pommes Cubes, Salat, Dessert</name>
           <note>Enthält Gelatine</note>
@@ -1642,7 +1725,7 @@
           <price role="student">3.10</price>
         </meal>
       </category>
-      <category name="MG Nord 11.30 - 14.15 Uhr - Worldwide">
+      <category name="MG Nord 14.30 - 18.15 Uhr - Worldwide">
         <meal>
           <name>Seelachs Meuniere, Limetten-Dillrahmsauce, Salzkartoffeln, Salat, Dessert</name>
           <note>Enthält Fisch</note>
