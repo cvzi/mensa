@@ -174,6 +174,15 @@ def make_markdown_body(start: dt.date, end: dt.date, summary: dict, occ_index: D
             logging.exception("Failed to embed full report in issue body")
     return "\n".join(lines)
 
+def printMenuById(id):
+    menuData = _get_week_menu_data(monday_for(now_local().date()), monday_for(now_local().date()) + dt.timedelta(days=weekSpanDays - 1))
+    for day in menuData:
+        for idx, dish in enumerate(day.get("dishes", [])):
+            if dish.get("id") == id:
+                print(json.dumps(dish, indent=2, ensure_ascii=False))
+                return
+    print(f"Dish with id {id} not found")
+
 
 def run(argv=None) -> int:
     p = argparse.ArgumentParser(description="Koeln live menu verifier and GitHub reporter")
@@ -209,11 +218,24 @@ def run(argv=None) -> int:
 
     summary = {
         "checked_dishes": total_dishes,
-        "unused_count": len(unused),
         "duplicates_count": len(duplicates),
         "unused": unused,
         "duplicates": duplicates,
+        "unused_count_unfiltered": len(unused),
     }
+
+    # check if unused dishes have either ort_id or screen locations
+    # otherwise we can't match them to a canteen anyway, so we ignore them.
+    filtered_unused = []
+    for occ_id in unused:
+        entry = occ_index.get(occ_id)
+        dish = entry[2]
+        ort_id = dish.get("ort_id", "").strip()
+        screens = dish.get("screens", [])
+        if ort_id or (screens and any(screens)):
+            filtered_unused.append(occ_id)
+
+    summary["unused_count"] = len(filtered_unused)
 
     print("Koeln live verification summary:")
     print(json.dumps(summary, indent=2, ensure_ascii=False))
@@ -230,6 +252,8 @@ def run(argv=None) -> int:
 
     issues_present = bool(summary["unused_count"] or summary["duplicates_count"])
     if not issues_present:
+        if summary["unused_count_unfiltered"] > 0:
+            print(f"{summary['unused_count_unfiltered']} unused dishes were ignored because they lack both ort_id and screen location")
         print("All dishes used exactly once")
         return 0
 
