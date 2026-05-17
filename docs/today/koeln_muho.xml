@@ -3,11 +3,35 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2026-05-16">
-      <closed/>
-    </day>
     <day date="2026-05-17">
       <closed/>
+    </day>
+    <day date="2026-05-18">
+      <category name="2 - Worldwide">
+        <meal>
+          <name>Hähnchenschnitzel Piccata Milanese, 2 Beilagen, Tomatensauce, Penne Rigate</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>mit Geflügel</note>
+          <price role="employee">5.60</price>
+          <price role="other">15.10</price>
+          <price role="student">3.30</price>
+        </meal>
+      </category>
+      <category name="2 - Querbeet Vegan">
+        <meal>
+          <name>Knusper Nuggets, 2 Beilagen, Sweet-Chili Dip, Pommes Wedges</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Rettet die Knolle!</note>
+          <note>Vegan</note>
+          <price role="employee">5.60</price>
+          <price role="other">15.10</price>
+          <price role="student">3.30</price>
+        </meal>
+      </category>
     </day>
   </canteen>
 </openmensa>
