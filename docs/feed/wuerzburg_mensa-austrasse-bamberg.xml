@@ -3,20 +3,8 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2026-05-27">
+    <day date="2026-05-28">
       <category name="Fleischlos">
-        <meal>
-          <name>Champignoncremesuppe</name>
-          <note>Gerste</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Sellerie</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">1.60</price>
-          <price role="other">1.80</price>
-          <price role="student">1.50</price>
-        </meal>
         <meal>
           <name>Kartoffelrahmsüppchen mit Wurzelgemüse</name>
           <note>Milch (einschließlich Lactose)</note>
@@ -25,73 +13,6 @@
           <price role="other">1.80</price>
           <price role="student">1.50</price>
         </meal>
-        <meal>
-          <name>Risotto vom frischem fränkischen weißen &amp; grünen Spargel mit Gran Moravia &amp; Nüssen</name>
-          <note>Alkohol</note>
-          <note>Cashewnüsse</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Schalenfrüchte</note>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>geschwefelt</note>
-          <note>konserviert</note>
-          <note>mit Antioxidationsmittel</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">5.00</price>
-          <price role="other">5.95</price>
-          <price role="student">3.65</price>
-        </meal>
-      </category>
-      <category name="Vegan">
-        <meal>
-          <name>mensaVital: Vegane Kichererbsen Gemüsepfanne in milder grüner Currycreme &amp; Fair Trade Basmatireis</name>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>Soja</note>
-          <note>mit Antioxidationsmittel</note>
-          <price role="employee">4.15</price>
-          <price role="other">5.10</price>
-          <price role="student">2.80</price>
-        </meal>
-        <meal>
-          <name>Soja Gemüsepfanne mit Bohnen &amp; Mais in feuriger Salsa dazu "Twisters" Kartoffelspiralen</name>
-          <note>Knoblauch</note>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>Sellerie</note>
-          <note>Soja</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <price role="employee">5.50</price>
-          <price role="other">6.45</price>
-          <price role="student">4.10</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2026-05-28">
-      <category name="Vegan">
-        <meal>
-          <name>Leicht scharfe Süßkartoffelsuppe mit Erdnußbutter</name>
-          <note>Erdnüsse</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">1.60</price>
-          <price role="other">1.80</price>
-          <price role="student">1.50</price>
-        </meal>
-        <meal>
-          <name>Gebratene Mienudeln "Asia Style" mit frischem Gemüse &amp; Koriander, sweet Chili Dip &amp; Erdnüssen</name>
-          <note>Erdnüsse</note>
-          <note>Knoblauch</note>
-          <note>Sellerie</note>
-          <note>Sesamsamen</note>
-          <note>Soja</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>konserviert</note>
-          <note>mit Antioxidationsmittel</note>
-          <price role="employee">4.70</price>
-          <price role="other">5.65</price>
-          <price role="student">3.35</price>
-        </meal>
-      </category>
-      <category name="Fleischlos">
         <meal>
           <name>Gebackene Champignonköpfe mit Sauce Tartar Schwenkkartoffeln</name>
           <note>Eier</note>
@@ -108,9 +29,55 @@
           <price role="student">4.85</price>
         </meal>
       </category>
+      <category name="Vegan">
+        <meal>
+          <name>Leicht scharfe Süßkartoffelsuppe mit Erdnußbutter</name>
+          <note>Erdnüsse</note>
+          <note>Knoblauch</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">1.60</price>
+          <price role="other">1.80</price>
+          <price role="student">1.50</price>
+        </meal>
+        <meal>
+          <name>Hot Pot "Tandoori Style" mit viel frischem Gemüse &amp; roten Linsen</name>
+          <note>Knoblauch</note>
+          <price role="employee">4.15</price>
+          <price role="other">5.10</price>
+          <price role="student">2.80</price>
+        </meal>
+        <meal>
+          <name>Mienudeln "Asia Style" mit frischem Gemüse &amp; Koriander, sweet Chili &amp; Erdnüssen</name>
+          <note>Erdnüsse</note>
+          <note>Knoblauch</note>
+          <note>Sellerie</note>
+          <note>Sesamsamen</note>
+          <note>Soja</note>
+          <note>Weizen</note>
+          <note>glutenhaltiges Getreide</note>
+          <note>konserviert</note>
+          <note>mit Antioxidationsmittel</note>
+          <price role="employee">4.70</price>
+          <price role="other">5.65</price>
+          <price role="student">3.35</price>
+        </meal>
+      </category>
       <category name="Gefluegel">
         <meal>
-          <name>Putenbruststeak vom Grill mit Spargelgemüsesoße Wildreis</name>
+          <name>Hähnchen Cordon bleu gefüllt mit Putenschinken &amp; Edamer dazu Dampfkartoffeln</name>
+          <note>Geflügel</note>
+          <note>Milch (einschließlich Lactose)</note>
+          <note>Weizen</note>
+          <note>glutenhaltiges Getreide</note>
+          <note>konserviert</note>
+          <note>mit Antioxidationsmittel</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">6.30</price>
+          <price role="other">7.25</price>
+          <price role="student">4.85</price>
+        </meal>
+        <meal>
+          <name>Putenbruststeak vom Grill mit Spargelgemüsesoße Reis</name>
           <note>Geflügel</note>
           <note>Gerste</note>
           <note>Milch (einschließlich Lactose)</note>
