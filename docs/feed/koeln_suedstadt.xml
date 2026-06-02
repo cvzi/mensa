@@ -4,35 +4,21 @@
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
     <day date="2026-06-01">
-      <category name="1 - Querbeet">
-        <meal>
-          <name>Bunte Zucchinicremesuppe, Kaiserbrötchen</name>
-          <note>Enthält Gluten</note>
-          <note>Enthält Soja</note>
-          <note>Vegetarisch</note>
-          <price role="employee">4.00</price>
-          <price role="other">7.65</price>
-          <price role="student">1.85</price>
-        </meal>
-      </category>
-      <category name="2 - Querbeet Vegan">
-        <meal>
-          <name>Falafelbällchen, Tomatenreis, Salat, Dessert</name>
-          <note>Enthält Gelatine</note>
-          <note>Enthält Hafer Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Lupinen</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Mit Antioxidationsmittel</note>
-          <note>Mit Farbstoff</note>
-          <note>Vegan</note>
-          <price role="employee">6.25</price>
-          <price role="other">17.30</price>
-          <price role="student">3.85</price>
-        </meal>
-      </category>
       <category name="Speiseplan">
+        <meal>
+          <name>Apfelpudding</name>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Mangojoghurt</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
         <meal>
           <name>Pommes frites</name>
           <price role="employee">0.95</price>
@@ -46,10 +32,40 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
+          <name>Schokoladen Pudding</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
           <name>Tomatenreis</name>
           <price role="employee">1.50</price>
           <price role="other">4.45</price>
           <price role="student">0.95</price>
+        </meal>
+      </category>
+      <category name="1 - Querbeet">
+        <meal>
+          <name>Bunte Zucchinicremesuppe, Kaiserbrötchen</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Soja</note>
+          <note>Vegetarisch</note>
+          <price role="employee">4.00</price>
+          <price role="other">7.65</price>
+          <price role="student">1.85</price>
+        </meal>
+        <meal>
+          <name>Bunte Zucchini-Kartoffelcremesuppe, Kaiserbrötchen</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Soja</note>
+          <note>Vegetarisch</note>
+          <price role="employee">4.00</price>
+          <price role="other">7.65</price>
+          <price role="student">1.85</price>
         </meal>
       </category>
       <category name="2 - Heimspiel">
@@ -97,19 +113,26 @@
           <price role="student">0.77</price>
         </meal>
       </category>
-    </day>
-    <day date="2026-06-02">
-      <category name="1 - Querbeet">
+      <category name="2 - Querbeet Vegan">
         <meal>
-          <name>Bunte Zucchinicremesuppe, Kaiserbrötchen</name>
-          <note>Enthält Gluten</note>
-          <note>Enthält Soja</note>
+          <name>Tempeh Crispy Balls, Tomatenreis, Salat, Dessert</name>
+          <note>Enthält Gelatine</note>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Lupinen</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Schalenfrüchte Mandeln</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Mit Farbstoff</note>
           <note>Vegan</note>
-          <price role="employee">4.00</price>
-          <price role="other">7.65</price>
-          <price role="student">1.85</price>
+          <price role="employee">6.25</price>
+          <price role="other">17.30</price>
+          <price role="student">3.85</price>
         </meal>
       </category>
+    </day>
+    <day date="2026-06-02">
       <category name="2 - Querbeet Vegan">
         <meal>
           <name>Chili sin carne, Pommes frites, Sour Cream, Salat, Dessert</name>
@@ -127,6 +150,18 @@
           <price role="employee">5.10</price>
           <price role="other">12.10</price>
           <price role="student">2.65</price>
+        </meal>
+      </category>
+      <category name="1 - Querbeet">
+        <meal>
+          <name>Grießpudding, mit heißen Himbeeren</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Soja</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">4.00</price>
+          <price role="other">7.65</price>
+          <price role="student">1.85</price>
         </meal>
       </category>
       <category name="2 - Heimspiel">
