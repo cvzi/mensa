@@ -4,26 +4,6 @@
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
     <day date="2026-06-01">
-      <category name="1 - Querbeet">
-        <meal>
-          <name>Zucchini-Kartoffelcremesuppe, Kaiserbrötchen</name>
-          <note>Enthält Gluten</note>
-          <note>Enthält Soja</note>
-          <note>Vegetarisch</note>
-          <price role="employee">4.00</price>
-          <price role="other">7.65</price>
-          <price role="student">1.85</price>
-        </meal>
-        <meal>
-          <name>Bunte Zucchinicremesuppe, Kaiserbrötchen</name>
-          <note>Enthält Gluten</note>
-          <note>Enthält Soja</note>
-          <note>Vegetarisch</note>
-          <price role="employee">4.00</price>
-          <price role="other">7.65</price>
-          <price role="student">1.85</price>
-        </meal>
-      </category>
       <category name="Speiseplan">
         <meal>
           <name>Apfelpudding</name>
@@ -64,6 +44,26 @@
           <price role="employee">1.50</price>
           <price role="other">4.45</price>
           <price role="student">0.95</price>
+        </meal>
+      </category>
+      <category name="1 - Querbeet">
+        <meal>
+          <name>Bunte Zucchinicremesuppe, Kaiserbrötchen</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Soja</note>
+          <note>Vegetarisch</note>
+          <price role="employee">4.00</price>
+          <price role="other">7.65</price>
+          <price role="student">1.85</price>
+        </meal>
+        <meal>
+          <name>Bunte Zucchinicremesuppe, Kaiserbrötchen</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Soja</note>
+          <note>Vegetarisch</note>
+          <price role="employee">4.00</price>
+          <price role="other">7.65</price>
+          <price role="student">1.85</price>
         </meal>
       </category>
       <category name="2 - Heimspiel">
@@ -193,7 +193,7 @@
           <price role="student">2.65</price>
         </meal>
       </category>
-      <category name="1 - Querbeet">
+      <category name="Querbeet">
         <meal>
           <name>Grießpudding, mit heißen Himbeeren</name>
           <note>Enthält Gluten</note>
@@ -203,6 +203,30 @@
           <price role="employee">4.00</price>
           <price role="other">7.65</price>
           <price role="student">1.85</price>
+        </meal>
+        <meal>
+          <name>Salatbuffet in Selbstbedienung, je 100g</name>
+          <note>Enthält Eier</note>
+          <note>Enthält Gerste Gluten</note>
+          <note>Enthält Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Schalenfrüchte (Nüsse)</note>
+          <note>Enthält Schalenfrüchte Kaschunuss</note>
+          <note>Enthält Schalenfrüchte Mandeln</note>
+          <note>Enthält Schalenfrüchte Walnuss</note>
+          <note>Enthält Sellerie</note>
+          <note>Enthält Senf</note>
+          <note>Enthält Sesamsamen</note>
+          <note>Enthält Soja</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Geschwefelt</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Mit Farbstoff</note>
+          <note>Mit Konservierungsstoff</note>
+          <price role="employee">0.97</price>
+          <price role="other">2.91</price>
+          <price role="student">0.77</price>
         </meal>
       </category>
       <category name="2 - Heimspiel">
@@ -241,37 +265,11 @@
           <price role="student">3.30</price>
         </meal>
       </category>
-      <category name="Querbeet">
-        <meal>
-          <name>Salatbuffet in Selbstbedienung, je 100g</name>
-          <note>Enthält Eier</note>
-          <note>Enthält Gerste Gluten</note>
-          <note>Enthält Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Schalenfrüchte (Nüsse)</note>
-          <note>Enthält Schalenfrüchte Kaschunuss</note>
-          <note>Enthält Schalenfrüchte Mandeln</note>
-          <note>Enthält Schalenfrüchte Walnuss</note>
-          <note>Enthält Sellerie</note>
-          <note>Enthält Senf</note>
-          <note>Enthält Sesamsamen</note>
-          <note>Enthält Soja</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Geschwefelt</note>
-          <note>Mit Antioxidationsmittel</note>
-          <note>Mit Farbstoff</note>
-          <note>Mit Konservierungsstoff</note>
-          <price role="employee">0.97</price>
-          <price role="other">2.91</price>
-          <price role="student">0.77</price>
-        </meal>
-      </category>
     </day>
     <day date="2026-06-03">
       <category name="1 - Querbeet">
         <meal>
-          <name>Zucchini-Kartoffelcremesuppe, Kaiserbrötchen</name>
+          <name>Bunte Zucchinicremesuppe, Kaiserbrötchen</name>
           <note>Enthält Gluten</note>
           <note>Enthält Soja</note>
           <note>Vegetarisch</note>
@@ -290,7 +288,30 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
+          <name>Grießpudding</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Soja</note>
+          <note>Enthält Weizen Gluten</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Mandelpudding Vegan</name>
+          <note>Enthält Soja</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
           <name>Beilagensalat Standard</name>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Schokoladenpudding</name>
+          <note>Enthält Soja</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
