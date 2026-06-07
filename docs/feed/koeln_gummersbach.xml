@@ -449,13 +449,27 @@
       <closed/>
     </day>
     <day date="2026-06-05">
-      <category name="Speiseplan">
+      <category name="Beilagen">
         <meal>
           <name>Broccoli</name>
+          <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
         </meal>
+      </category>
+      <category name="1 - Querbeet">
+        <meal>
+          <name>Broccolicremesuppe, Kaiserbrötchen</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Soja</note>
+          <note>Vegan</note>
+          <price role="employee">4.00</price>
+          <price role="other">7.65</price>
+          <price role="student">1.85</price>
+        </meal>
+      </category>
+      <category name="Speiseplan">
         <meal>
           <name>Basmatireis</name>
           <price role="employee">0.95</price>
@@ -473,17 +487,6 @@
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
-        </meal>
-      </category>
-      <category name="1 - Querbeet">
-        <meal>
-          <name>Broccolicremesuppe, Kaiserbrötchen</name>
-          <note>Enthält Gluten</note>
-          <note>Enthält Soja</note>
-          <note>Vegan</note>
-          <price role="employee">4.00</price>
-          <price role="other">7.65</price>
-          <price role="student">1.85</price>
         </meal>
       </category>
       <category name="2 - Querbeet Vegan">
@@ -515,7 +518,6 @@
           <note>Enthält Weizen Gluten</note>
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
-          <note>Rettet die Knolle!</note>
           <note>Vegan</note>
           <price role="employee">5.30</price>
           <price role="other">14.10</price>
@@ -1028,21 +1030,10 @@
       </category>
     </day>
     <day date="2026-06-12">
-      <category name="Speiseplan">
+      <category name="Beilagen">
         <meal>
           <name>Broccoli</name>
-          <price role="employee">0.95</price>
-          <price role="other">3.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Beilagensalat Standard</name>
-          <price role="employee">0.95</price>
-          <price role="other">3.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Salzkartoffeln</name>
+          <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
@@ -1059,6 +1050,20 @@
           <price role="employee">4.00</price>
           <price role="other">7.65</price>
           <price role="student">1.85</price>
+        </meal>
+      </category>
+      <category name="Speiseplan">
+        <meal>
+          <name>Beilagensalat Standard</name>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Salzkartoffeln</name>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
         </meal>
       </category>
       <category name="2 - Querbeet Vegan">
