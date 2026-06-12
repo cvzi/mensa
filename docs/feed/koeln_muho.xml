@@ -13,7 +13,7 @@
           <note>Enthält Senf</note>
           <note>Enthält Soja</note>
           <note>Enthält Weizen Gluten</note>
-          <note>mit Gefluegel</note>
+          <note>mit Geflügel</note>
           <price role="employee">5.60</price>
           <price role="other">15.10</price>
           <price role="student">3.30</price>
@@ -57,7 +57,7 @@
           <name>Hähnchen-Crossies, Sweet-Chili Dip, 3 Beilagen</name>
           <note>Enthält Gluten</note>
           <note>Enthält Weizen Gluten</note>
-          <note>mit Gefluegel</note>
+          <note>mit Geflügel</note>
           <price role="employee">5.60</price>
           <price role="other">15.10</price>
           <price role="student">3.30</price>
@@ -72,7 +72,7 @@
           <note>Enthält Senf</note>
           <note>Enthält Soja</note>
           <note>Enthält Weizen Gluten</note>
-          <note>mit Gefluegel</note>
+          <note>mit Geflügel</note>
           <price role="employee">5.60</price>
           <price role="other">15.10</price>
           <price role="student">3.30</price>
@@ -199,7 +199,7 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Neuland Fleisch</note>
+          <note>Neuland</note>
           <note>mit Rind</note>
           <price role="employee">5.30</price>
           <price role="other">14.10</price>
@@ -270,28 +270,44 @@
     <day date="2026-06-11">
       <category name="2 - Worldwide">
         <meal>
-          <name>Cajun Chicken Pasta, Salat, Dessert</name>
-          <note>Enthält Gelatine</note>
-          <note>Enthält Gluten</note>
-          <note>Enthält Hafer Gluten</note>
+          <name>Cajun Chicken Pasta, 2 Beilagen</name>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
           <note>Enthält Sellerie</note>
           <note>Enthält Soja</note>
           <note>Enthält Weizen Gluten</note>
-          <note>Mit Antioxidationsmittel</note>
-          <note>Mit Farbstoff</note>
-          <note>mit Gefluegel</note>
+          <note>mit Geflügel</note>
           <price role="employee">5.75</price>
           <price role="other">16.50</price>
           <price role="student">3.60</price>
+        </meal>
+        <meal>
+          <name>Chili con carne, Reis, Salat, Dessert</name>
+          <note>Enthält Gelatine</note>
+          <note>Enthält Gerste Gluten</note>
+          <note>Enthält Gluten</note>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Sellerie</note>
+          <note>Enthält Senf</note>
+          <note>Enthält Soja</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Mit Farbstoff</note>
+          <note>Mit Konservierungsstoff</note>
+          <note>Neuland</note>
+          <note>mit Rind</note>
+          <price role="employee">5.30</price>
+          <price role="other">14.10</price>
+          <price role="student">3.10</price>
         </meal>
         <meal>
           <name>Chili con carne, 3 Beilagen</name>
           <note>Enthält Senf</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Neuland Fleisch</note>
+          <note>Neuland</note>
           <note>mit Rind</note>
           <price role="employee">5.30</price>
           <price role="other">14.10</price>
@@ -339,9 +355,47 @@
           <price role="other">14.10</price>
           <price role="student">3.10</price>
         </meal>
+        <meal>
+          <name>Vegane Bratwurst, mit Currysauce, 3 Beilagen</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Sellerie</note>
+          <note>Enthält Senf</note>
+          <note>Enthält Soja</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">6.25</price>
+          <price role="other">17.30</price>
+          <price role="student">3.85</price>
+        </meal>
       </category>
     </day>
     <day date="2026-06-12">
+      <category name="2 - Worldwide">
+        <meal>
+          <name>Cajun Chicken Pasta, 2 Beilagen</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Sellerie</note>
+          <note>Enthält Soja</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>mit Geflügel</note>
+          <price role="employee">5.75</price>
+          <price role="other">16.50</price>
+          <price role="student">3.60</price>
+        </meal>
+      </category>
+      <category name="1 - Querbeet">
+        <meal>
+          <name>Fruchtige Curry-Kokossuppe, 1 Beilage</name>
+          <note>Enthält Soja</note>
+          <note>Vegan</note>
+          <price role="employee">4.00</price>
+          <price role="other">7.65</price>
+          <price role="student">1.85</price>
+        </meal>
+      </category>
       <category name="2 - Querbeet Vegan">
         <meal>
           <name>Schnitzel, Rahmsauce, 3 Beilagen</name>
@@ -359,7 +413,7 @@
       </category>
       <category name="F - Worldwide">
         <meal>
-          <name>Seelachs Meuniere, Limetten-Dillrahmsauce, 3 Beilagen</name>
+          <name>Seelachs, Gartenkräuterdip, 3 Beilagen</name>
           <note>Enthält Fisch</note>
           <note>Enthält Gluten</note>
           <note>Enthält Hafer Gluten</note>
@@ -393,7 +447,7 @@
           <note>Enthält Milch</note>
           <note>Enthält Soja</note>
           <note>Enthält Weizen Gluten</note>
-          <note>mit Gefluegel</note>
+          <note>mit Geflügel</note>
           <price role="employee">5.60</price>
           <price role="other">15.10</price>
           <price role="student">3.30</price>
@@ -431,7 +485,7 @@
           <note>Enthält Soja</note>
           <note>Enthält Weizen Gluten</note>
           <note>Mit Antioxidationsmittel</note>
-          <note>mit Gefluegel</note>
+          <note>mit Geflügel</note>
           <price role="employee">5.75</price>
           <price role="other">16.50</price>
           <price role="student">3.60</price>
@@ -509,7 +563,7 @@
           <note>Enthält Milch</note>
           <note>Enthält Soja</note>
           <note>Enthält Weizen Gluten</note>
-          <note>mit Gefluegel</note>
+          <note>mit Geflügel</note>
           <price role="employee">6.45</price>
           <price role="other">18.75</price>
           <price role="student">4.15</price>
