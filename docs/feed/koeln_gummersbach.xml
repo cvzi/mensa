@@ -4,6 +4,35 @@
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
     <day date="2026-06-15">
+      <category name="Speiseplan">
+        <meal>
+          <name>Basmatireis</name>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Mandarinenjoghurt</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <price role="employee">0.95</price>
+          <price role="other">2.95</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Penne Rigate</name>
+          <note>Enthält Weizen Gluten</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Beilagensalat Standard</name>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+      </category>
       <category name="Beilagen">
         <meal>
           <name>Blumenkohl, Gemüserahmsauce</name>
@@ -48,36 +77,6 @@
           <price role="employee">5.60</price>
           <price role="other">15.10</price>
           <price role="student">3.30</price>
-        </meal>
-      </category>
-      <category name="1 - Querbeet">
-        <meal>
-          <name>Linsen Dal, Fladenbrot</name>
-          <note>Enthält Gluten</note>
-          <note>Enthält Sellerie</note>
-          <note>Enthält Sesamsamen</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Mit Farbstoff</note>
-          <note>Mit Konservierungsstoff</note>
-          <note>Vegan</note>
-          <price role="employee">4.00</price>
-          <price role="other">7.65</price>
-          <price role="student">1.85</price>
-        </meal>
-      </category>
-      <category name="Speiseplan">
-        <meal>
-          <name>Penne Rigate</name>
-          <note>Enthält Weizen Gluten</note>
-          <price role="employee">0.95</price>
-          <price role="other">3.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Beilagensalat Standard</name>
-          <price role="employee">0.95</price>
-          <price role="other">3.00</price>
-          <price role="student">0.65</price>
         </meal>
       </category>
       <category name="Querbeet">
