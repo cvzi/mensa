@@ -18,7 +18,7 @@ jobs:
       KOELN_CLOUDMENSA_API_KEY: ${{ secrets.KOELN_CLOUDMENSA_API_KEY }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Set up Python
         uses: actions/setup-python@v6
