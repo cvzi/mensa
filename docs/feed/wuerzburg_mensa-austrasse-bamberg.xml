@@ -3,30 +3,7 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2026-06-22">
-      <category name="Fleischlos">
-        <meal>
-          <name>Spargelcremesuppe - aus frischem fränkischen Spargel</name>
-          <note>Gerste</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Sellerie</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">1.60</price>
-          <price role="other">1.80</price>
-          <price role="student">1.50</price>
-        </meal>
-        <meal>
-          <name>Hausgemachter mediterraner Quark mit Gemüse &amp; frischen Kräutern Rosmarinkartoffeln</name>
-          <note>Knoblauch</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Sellerie</note>
-          <price role="employee">5.20</price>
-          <price role="other">6.15</price>
-          <price role="student">3.80</price>
-        </meal>
-      </category>
+    <day date="2026-06-23">
       <category name="Vegan">
         <meal>
           <name>Brokkolisuppe mit Tahini</name>
@@ -37,6 +14,14 @@
           <note>Sesamsamen</note>
           <note>Weizen</note>
           <note>glutenhaltiges Getreide</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">1.60</price>
+          <price role="other">1.80</price>
+          <price role="student">1.50</price>
+        </meal>
+        <meal>
+          <name>Leicht scharfe Süßkartoffelsuppe mit Erdnußbutter</name>
+          <note>Erdnüsse</note>
           <note>mit Farbstoff</note>
           <price role="employee">1.60</price>
           <price role="other">1.80</price>
@@ -54,36 +39,6 @@
           <price role="student">2.80</price>
         </meal>
         <meal>
-          <name>Gnocchi aus der Pfanne Tomaten Pestosoße</name>
-          <note>Cashewnüsse</note>
-          <note>Gerste</note>
-          <note>Hafer</note>
-          <note>Knoblauch</note>
-          <note>Schalenfrüchte</note>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>Sellerie</note>
-          <note>Weizen</note>
-          <note>geschwefelt</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>mit Antioxidationsmittel</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">4.70</price>
-          <price role="other">5.65</price>
-          <price role="student">3.35</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2026-06-23">
-      <category name="Vegan">
-        <meal>
-          <name>Leicht scharfe Süßkartoffelsuppe mit Erdnußbutter</name>
-          <note>Erdnüsse</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">1.60</price>
-          <price role="other">1.80</price>
-          <price role="student">1.50</price>
-        </meal>
-        <meal>
           <name>Spaghetti "Aglio Olio" mit veganem Reibkäse</name>
           <note>Knoblauch</note>
           <note>Schwefeldioxid und Sulfite</note>
@@ -97,9 +52,23 @@
           <price role="student">2.80</price>
         </meal>
       </category>
+      <category name="Fleischlos">
+        <meal>
+          <name>Gemüsefrikadelle an persischem "Melanzani" Auberginengemüse mit Sauerdornbeeren</name>
+          <note>Eier</note>
+          <note>Knoblauch</note>
+          <note>Schwefeldioxid und Sulfite</note>
+          <note>Sesamsamen</note>
+          <note>Weizen</note>
+          <note>glutenhaltiges Getreide</note>
+          <price role="employee">5.20</price>
+          <price role="other">6.15</price>
+          <price role="student">3.80</price>
+        </meal>
+      </category>
       <category name="Gefluegel">
         <meal>
-          <name>Gebackene Chicken Nuggets "BBQ Style" mit Ananas &amp; Cranberries Crinkle Wedges</name>
+          <name>Gebackene Chicken Nuggets "BBQ Style" mit Ananas &amp; Cranberries Super Crunch Pommes frites</name>
           <note>Geflügel</note>
           <note>Schwefeldioxid und Sulfite</note>
           <note>Sellerie</note>
@@ -109,22 +78,6 @@
           <price role="employee">6.30</price>
           <price role="other">7.25</price>
           <price role="student">4.85</price>
-        </meal>
-      </category>
-      <category name="Fleischlos">
-        <meal>
-          <name>Linsentaler an persischen "Melanzani" Auberginengemüse mit Sauerdornbeeren</name>
-          <note>Dinkel</note>
-          <note>Knoblauch</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>Sellerie</note>
-          <note>Sesamsamen</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <price role="employee">5.90</price>
-          <price role="other">6.85</price>
-          <price role="student">4.45</price>
         </meal>
       </category>
     </day>
@@ -312,9 +265,9 @@
           <note>Weizen</note>
           <note>glutenhaltiges Getreide</note>
           <note>mit Farbstoff</note>
-          <price role="employee">6.20</price>
-          <price role="other">7.15</price>
-          <price role="student">4.75</price>
+          <price role="employee">6.30</price>
+          <price role="other">7.25</price>
+          <price role="student">4.85</price>
         </meal>
       </category>
     </day>
@@ -442,9 +395,9 @@
           <note>Weizen</note>
           <note>glutenhaltiges Getreide</note>
           <note>mit Farbstoff</note>
-          <price role="employee">5.90</price>
-          <price role="other">6.85</price>
-          <price role="student">4.45</price>
+          <price role="employee">6.30</price>
+          <price role="other">7.25</price>
+          <price role="student">4.85</price>
         </meal>
       </category>
     </day>
