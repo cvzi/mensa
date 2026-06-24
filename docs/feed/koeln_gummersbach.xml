@@ -136,6 +136,13 @@
           <price role="other">3.00</price>
           <price role="student">0.65</price>
         </meal>
+        <meal>
+          <name>Vanille Pudding</name>
+          <note>Enthält Soja</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
       </category>
       <category name="2 - Querbeet Vegan">
         <meal>
@@ -155,6 +162,27 @@
           <price role="employee">5.30</price>
           <price role="other">14.10</price>
           <price role="student">3.10</price>
+        </meal>
+      </category>
+      <category name="1 - Querbeet">
+        <meal>
+          <name>Cremige Gemüsesuppe, Kaiserbrötchen</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Sellerie</note>
+          <note>Enthält Soja</note>
+          <note>Vegan</note>
+          <price role="employee">4.00</price>
+          <price role="other">7.65</price>
+          <price role="student">1.85</price>
+        </meal>
+        <meal>
+          <name>Milchreis, Beerengrütze</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Vegetarisch</note>
+          <price role="employee">4.00</price>
+          <price role="other">7.65</price>
+          <price role="student">1.85</price>
         </meal>
       </category>
       <category name="2 - Heimspiel">
@@ -190,20 +218,16 @@
           <price role="student">3.30</price>
         </meal>
       </category>
-      <category name="1 - Querbeet">
-        <meal>
-          <name>Milchreis, Beerengrütze</name>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Vegetarisch</note>
-          <price role="employee">4.00</price>
-          <price role="other">7.65</price>
-          <price role="student">1.85</price>
-        </meal>
-      </category>
       <category name="Beilagen">
         <meal>
           <name>Mischgemüse</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Reis</name>
           <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
@@ -246,7 +270,23 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
+          <name>Milchreis</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Soja</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
           <name>Beilagensalat Standard</name>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Vanille Pudding</name>
+          <note>Enthält Soja</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
@@ -254,7 +294,7 @@
       </category>
       <category name="Meisterwerk Aktion">
         <meal>
-          <name>Bratwurst-Pita ""Greek-Style"", Tzatziki</name>
+          <name>Bratwurst-Pita  Greek-Style, Tzatziki</name>
           <note>Enthält Gluten</note>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
@@ -263,6 +303,36 @@
           <price role="employee">6.45</price>
           <price role="other">18.75</price>
           <price role="student">4.15</price>
+        </meal>
+        <meal>
+          <name>Bratwurst-Pita Greek-Style, Tzatziki</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Neuland</note>
+          <note>mit Schwein</note>
+          <price role="employee">6.45</price>
+          <price role="other">18.75</price>
+          <price role="student">4.15</price>
+        </meal>
+      </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Bulgur orientalisch</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Schalenfrüchte Mandeln</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Kaisergemüse</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
         </meal>
       </category>
       <category name="2 - Worldwide">
@@ -282,25 +352,13 @@
           <price role="student">3.30</price>
         </meal>
       </category>
-      <category name="Beilagen">
-        <meal>
-          <name>Kaisergemüse</name>
-          <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">3.00</price>
-          <price role="student">0.65</price>
-        </meal>
-      </category>
       <category name="1 - Querbeet">
         <meal>
-          <name>, Fladenbrot</name>
+          <name>Linseneintopf, Kaiserbrötchen</name>
           <note>Enthält Gluten</note>
-          <note>Enthält Sesamsamen</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Geschwefelt</note>
+          <note>Enthält Sellerie</note>
+          <note>Enthält Senf</note>
           <note>Mit Antioxidationsmittel</note>
-          <note>Mit Farbstoff</note>
-          <note>Mit Konservierungsstoff</note>
           <note>Vegan</note>
           <price role="employee">4.00</price>
           <price role="other">7.65</price>
@@ -486,6 +544,15 @@
         </meal>
       </category>
       <category name="1 - Querbeet">
+        <meal>
+          <name>Broccolicremesuppe, Kaiserbrötchen</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Soja</note>
+          <note>Vegan</note>
+          <price role="employee">4.00</price>
+          <price role="other">7.65</price>
+          <price role="student">1.85</price>
+        </meal>
         <meal>
           <name>Möhren-Mangosuppe, Kaiserbrötchen</name>
           <note>Enthält Gluten</note>
@@ -848,7 +915,7 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Vanille Pudding Vegan</name>
+          <name>Vanille Pudding</name>
           <note>Enthält Soja</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
