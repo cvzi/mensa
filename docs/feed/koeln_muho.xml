@@ -4,6 +4,19 @@
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
     <day date="2026-06-29">
+      <category name="Querbeet">
+        <meal>
+          <name>Ofenkartoffel, Spargelragout, 1 Beilage</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Mit Farbstoff</note>
+          <note>Vegetarisch</note>
+          <price role="employee">6.25</price>
+          <price role="other">17.30</price>
+          <price role="student">3.85</price>
+        </meal>
+      </category>
       <category name="2 - Heimspiel">
         <meal>
           <name>Putenschnitzel, Champignonrahmsauce, 3 Beilagen</name>
@@ -14,7 +27,7 @@
           <note>Enthält Weizen Gluten</note>
           <note>Mit Farbstoff</note>
           <note>Rettet die Knolle!</note>
-          <note>mit Geflügel</note>
+          <note>mit Gefluegel</note>
           <price role="employee">5.60</price>
           <price role="other">15.10</price>
           <price role="student">3.30</price>
@@ -31,6 +44,16 @@
           <price role="employee">6.25</price>
           <price role="other">17.30</price>
           <price role="student">3.85</price>
+        </meal>
+      </category>
+      <category name="1 - Querbeet">
+        <meal>
+          <name>Tomatencremesuppe, 1 Beilage</name>
+          <note>Enthält Soja</note>
+          <note>Vegan</note>
+          <price role="employee">4.00</price>
+          <price role="other">7.65</price>
+          <price role="student">1.85</price>
         </meal>
       </category>
     </day>
@@ -76,11 +99,44 @@
           <note>Mit Farbstoff</note>
           <note>Mit Geschmacksverstärker</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Neuland</note>
+          <note>Neuland Fleisch</note>
           <note>mit Schwein</note>
           <price role="employee">6.45</price>
           <price role="other">18.75</price>
           <price role="student">4.15</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-07-01">
+      <category name="Meisterwerk Aktion">
+        <meal>
+          <name>Käsebratwurst, mit Currysauce, Pommes frites, 2 Beilagen</name>
+          <note>Neuland Fleisch</note>
+          <note>mit Schwein</note>
+          <price role="employee">6.45</price>
+          <price role="other">18.75</price>
+          <price role="student">4.15</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-07-02">
+      <closed/>
+    </day>
+    <day date="2026-07-03">
+      <category name="2 - Querbeet">
+        <meal>
+          <name>Broccoli Nuggets, Gartenkräuter-Dip, 3 Beilagen</name>
+          <note>Enthält Eier</note>
+          <note>Enthält Gerste Gluten</note>
+          <note>Enthält Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Soja</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegetarisch</note>
+          <price role="employee">5.75</price>
+          <price role="other">16.50</price>
+          <price role="student">3.60</price>
         </meal>
       </category>
     </day>
