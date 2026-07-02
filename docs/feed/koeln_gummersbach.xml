@@ -95,12 +95,14 @@
         </meal>
         <meal>
           <name>Reis</name>
+          <note>Mit Konservierungsstoff</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
           <name>Beilagensalat Standard</name>
+          <note>Mit Konservierungsstoff</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
@@ -126,7 +128,7 @@
           <note>Enthält Weizen Gluten</note>
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
-          <note>mit Gefluegel</note>
+          <note>mit Geflügel</note>
           <price role="employee">5.60</price>
           <price role="other">15.10</price>
           <price role="student">3.30</price>
@@ -228,19 +230,24 @@
         </meal>
         <meal>
           <name>Reis</name>
+          <note>Mit Konservierungsstoff</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
           <name>Beilagensalat Standard</name>
+          <note>Mit Konservierungsstoff</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
           <name>Schokoladenpudding</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
           <note>Enthält Soja</note>
+          <note>Mit Konservierungsstoff</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
@@ -267,7 +274,7 @@
           <note>Mit Farbstoff</note>
           <note>Mit Geschmacksverstärker</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Neuland Fleisch</note>
+          <note>Neuland</note>
           <note>mit Schwein</note>
           <price role="employee">6.45</price>
           <price role="other">18.75</price>
@@ -311,6 +318,35 @@
       </category>
     </day>
     <day date="2026-07-01">
+      <category name="Beilagen">
+        <meal>
+          <name>Bulgur orientalisch</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Schalenfrüchte Mandeln</note>
+          <note>Enthält Sellerie</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Mit Konservierungsstoff</note>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Kaisergemüse</name>
+          <note>Mit Konservierungsstoff</note>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Basmatireis</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+      </category>
       <category name="Speiseplan">
         <meal>
           <name>Vanille Creme</name>
@@ -338,7 +374,15 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
+          <name>Reis</name>
+          <note>Mit Konservierungsstoff</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
           <name>Beilagensalat Standard</name>
+          <note>Mit Konservierungsstoff</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
@@ -351,7 +395,7 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Vanille Pudding Vegan</name>
+          <name>Vanille Pudding</name>
           <note>Enthält Soja</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
@@ -360,22 +404,6 @@
         <meal>
           <name>Wassermelone</name>
           <note>Enthält Weizen Gluten</note>
-          <price role="employee">0.95</price>
-          <price role="other">3.00</price>
-          <price role="student">0.65</price>
-        </meal>
-      </category>
-      <category name="Beilagen">
-        <meal>
-          <name>Kaisergemüse</name>
-          <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">3.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Basmatireis</name>
-          <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
@@ -391,7 +419,7 @@
           <note>Enthält Weizen Gluten</note>
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
-          <note>Neuland Fleisch</note>
+          <note>Neuland</note>
           <note>mit Schwein</note>
           <price role="employee">6.45</price>
           <price role="other">18.75</price>
@@ -406,10 +434,12 @@
           <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
+          <note>Enthält Sellerie</note>
           <note>Enthält Weizen Gluten</note>
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
-          <note>mit Gefluegel</note>
+          <note>Mit Konservierungsstoff</note>
+          <note>mit Geflügel</note>
           <price role="employee">6.25</price>
           <price role="other">17.30</price>
           <price role="student">3.85</price>
@@ -462,6 +492,8 @@
           <name>Spargelcremesuppe Vegan, Kaiserbrötchen</name>
           <note>Enthält Gluten</note>
           <note>Enthält Soja</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Mit Konservierungsstoff</note>
           <note>Vegan</note>
           <price role="employee">4.00</price>
           <price role="other">7.65</price>
@@ -482,6 +514,27 @@
       </category>
     </day>
     <day date="2026-07-02">
+      <category name="Beilagen">
+        <meal>
+          <name>Bulgur orientalisch</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Schalenfrüchte Mandeln</note>
+          <note>Enthält Sellerie</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Mit Konservierungsstoff</note>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Mischgemüse</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+      </category>
       <category name="2 - Heimspiel">
         <meal>
           <name>Currywurst, Pommes frites, Salat, Dessert</name>
@@ -492,7 +545,7 @@
           <note>Enthält Weizen Gluten</note>
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
-          <note>Neuland Fleisch</note>
+          <note>Neuland</note>
           <note>mit Schwein</note>
           <price role="employee">5.60</price>
           <price role="other">15.10</price>
@@ -507,13 +560,23 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Beilagensalat Standard</name>
+          <name>Beerenquark</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Mit Konservierungsstoff</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Vanille Pudding Vegan</name>
+          <name>Beilagensalat Standard</name>
+          <note>Mit Konservierungsstoff</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Vanille Pudding</name>
           <note>Enthält Soja</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
@@ -531,10 +594,27 @@
           <note>Enthält Weizen Gluten</note>
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
-          <note>mit Gefluegel</note>
+          <note>mit Geflügel</note>
           <price role="employee">5.30</price>
           <price role="other">14.10</price>
           <price role="student">3.10</price>
+        </meal>
+        <meal>
+          <name>Lemon cream chicken, Gemüse CousCous, Salat, Dessert</name>
+          <note>Enthält Gelatine</note>
+          <note>Enthält Gluten</note>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Sellerie</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Mit Farbstoff</note>
+          <note>Mit Konservierungsstoff</note>
+          <note>mit Geflügel</note>
+          <price role="employee">6.25</price>
+          <price role="other">17.30</price>
+          <price role="student">3.85</price>
         </meal>
       </category>
       <category name="2 - Querbeet Vegan">
@@ -555,15 +635,6 @@
           <price role="employee">5.30</price>
           <price role="other">14.10</price>
           <price role="student">3.10</price>
-        </meal>
-      </category>
-      <category name="Beilagen">
-        <meal>
-          <name>Mischgemüse</name>
-          <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">3.00</price>
-          <price role="student">0.65</price>
         </meal>
       </category>
       <category name="Querbeet">
@@ -669,6 +740,7 @@
       <category name="Speiseplan">
         <meal>
           <name>Beilagensalat Standard</name>
+          <note>Mit Konservierungsstoff</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
@@ -736,7 +808,7 @@
           <note>Enthält Weizen Gluten</note>
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
-          <note>mit Gefluegel</note>
+          <note>mit Geflügel</note>
           <price role="employee">5.60</price>
           <price role="other">15.10</price>
           <price role="student">3.30</price>
@@ -767,6 +839,7 @@
       <category name="Speiseplan">
         <meal>
           <name>Beilagensalat Standard</name>
+          <note>Mit Konservierungsstoff</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
@@ -824,7 +897,7 @@
           <note>Enthält Weizen Gluten</note>
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
-          <note>Neuland Fleisch</note>
+          <note>Neuland</note>
           <note>mit Schwein</note>
           <price role="employee">5.60</price>
           <price role="other">15.10</price>
@@ -883,6 +956,7 @@
         </meal>
         <meal>
           <name>Beilagensalat Standard</name>
+          <note>Mit Konservierungsstoff</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
@@ -958,7 +1032,7 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Neuland Fleisch</note>
+          <note>Neuland</note>
           <note>mit Rind</note>
           <price role="employee">5.30</price>
           <price role="other">14.10</price>
@@ -968,6 +1042,7 @@
       <category name="Beilagen">
         <meal>
           <name>Kaisergemüse</name>
+          <note>Mit Konservierungsstoff</note>
           <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
@@ -1000,12 +1075,14 @@
         </meal>
         <meal>
           <name>Reis</name>
+          <note>Mit Konservierungsstoff</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
           <name>Beilagensalat Standard</name>
+          <note>Mit Konservierungsstoff</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
@@ -1062,7 +1139,7 @@
           <note>Enthält Weizen Gluten</note>
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
-          <note>mit Gefluegel</note>
+          <note>mit Geflügel</note>
           <price role="employee">5.75</price>
           <price role="other">16.50</price>
           <price role="student">3.60</price>
@@ -1090,6 +1167,7 @@
         </meal>
         <meal>
           <name>Beilagensalat Standard</name>
+          <note>Mit Konservierungsstoff</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
@@ -1105,7 +1183,7 @@
           <note>Enthält Weizen Gluten</note>
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
-          <note>Neuland Fleisch</note>
+          <note>Neuland</note>
           <note>mit Schwein</note>
           <price role="employee">5.60</price>
           <price role="other">15.10</price>
@@ -1204,6 +1282,7 @@
       <category name="Speiseplan">
         <meal>
           <name>Beilagensalat Standard</name>
+          <note>Mit Konservierungsstoff</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
