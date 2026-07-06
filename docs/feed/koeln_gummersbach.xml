@@ -4,26 +4,28 @@
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
     <day date="2026-07-06">
-      <category name="1 - Heimspiel">
-        <meal>
-          <name>BBQ Rindfleisch Burger, Pommes frites, Coleslaw</name>
-          <note>Enthält Eier</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Senf</note>
-          <note>Mit Antioxidationsmittel</note>
-          <note>Mit Konservierungsstoff</note>
-          <note>mit Rind</note>
-          <price role="employee">8.30</price>
-          <price role="other">26.15</price>
-          <price role="student">5.80</price>
-        </meal>
-      </category>
       <category name="Beilagen">
         <meal>
-          <name>Blumenkohl, Gemüserahmsauce</name>
+          <name>Basmatireis</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Blumenkohl</name>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
           <note>Enthält Sellerie</note>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Rahmspinat</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
           <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
@@ -83,6 +85,16 @@
       <category name="Speiseplan">
         <meal>
           <name>Beilagensalat Standard</name>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Schokoladenpudding</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Soja</note>
+          <note>Mit Konservierungsstoff</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
@@ -281,15 +293,6 @@
           <price role="student">3.10</price>
         </meal>
       </category>
-      <category name="Beilagen">
-        <meal>
-          <name>Kaisergemüse</name>
-          <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">3.00</price>
-          <price role="student">0.65</price>
-        </meal>
-      </category>
       <category name="2 - Querbeet Vegan">
         <meal>
           <name>Penne arrabbiata, Salat, Dessert</name>
@@ -322,6 +325,15 @@
         </meal>
         <meal>
           <name>Beilagensalat Standard</name>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+      </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Kaisergemüse</name>
+          <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
@@ -844,10 +856,15 @@
           <price role="student">1.85</price>
         </meal>
       </category>
-      <category name="Beilagen">
+      <category name="Speiseplan">
         <meal>
-          <name>Kaisergemüse</name>
-          <note>Vegan</note>
+          <name>Pommes frites</name>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Beilagensalat Standard</name>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
@@ -872,15 +889,10 @@
           <price role="student">4.30</price>
         </meal>
       </category>
-      <category name="Speiseplan">
+      <category name="Beilagen">
         <meal>
-          <name>Pommes frites</name>
-          <price role="employee">0.95</price>
-          <price role="other">3.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Beilagensalat Standard</name>
+          <name>Kaisergemüse</name>
+          <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
