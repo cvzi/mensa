@@ -4,22 +4,6 @@
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
     <day date="2026-07-06">
-      <category name="Querbeet">
-        <meal>
-          <name>Asiatische Gemüsepfanne mit Mienudeln</name>
-          <note>Enthält Gluten</note>
-          <note>Enthält Sesamsamen</note>
-          <note>Enthält Soja</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Mit Farbstoff</note>
-          <note>Mit Geschmacksverstärker</note>
-          <note>Mit Konservierungsstoff</note>
-          <note>Vegan</note>
-          <price role="employee">5.60</price>
-          <price role="other">15.10</price>
-          <price role="student">3.30</price>
-        </meal>
-      </category>
       <category name="Beilagen">
         <meal>
           <name>Dessert Sammelrezeptur</name>
@@ -77,6 +61,17 @@
           <price role="student">3.30</price>
         </meal>
       </category>
+      <category name="Worldwide">
+        <meal>
+          <name>Paella</name>
+          <note>Enthält Fisch</note>
+          <note>Enthält Krebstiere (Schalen-/ Krusten-/Weichtiere)</note>
+          <note>mit Fisch</note>
+          <price role="employee">6.45</price>
+          <price role="other">18.75</price>
+          <price role="student">4.15</price>
+        </meal>
+      </category>
       <category name="2 - Querbeet Vegan">
         <meal>
           <name>Pikante Thai-Bolognese, Gelbe Spaghetti, Salat, Dessert</name>
@@ -97,6 +92,17 @@
           <price role="employee">5.10</price>
           <price role="other">12.10</price>
           <price role="student">2.65</price>
+        </meal>
+      </category>
+      <category name="1 - Querbeet">
+        <meal>
+          <name>Tomatencremesuppe, Kaiserbrötchen</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Soja</note>
+          <note>Vegan</note>
+          <price role="employee">4.00</price>
+          <price role="other">7.65</price>
+          <price role="student">1.85</price>
         </meal>
       </category>
     </day>
