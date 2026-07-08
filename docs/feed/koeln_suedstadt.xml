@@ -53,8 +53,6 @@
         </meal>
         <meal>
           <name>Pommes Wedges</name>
-          <note>Enthält Gluten</note>
-          <note>Enthält Weizen Gluten</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
@@ -156,12 +154,37 @@
           <price role="other">14.10</price>
           <price role="student">3.10</price>
         </meal>
+        <meal>
+          <name>Fruchtiges Hähnchen-Kokoscurry, Duftreis, Salat, Dessert</name>
+          <note>Enthält Gelatine</note>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Krebstiere (Schalen-/ Krusten-/Weichtiere)</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Soja</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Mit Farbstoff</note>
+          <note>mit Gefluegel</note>
+          <price role="employee">5.30</price>
+          <price role="other">14.10</price>
+          <price role="student">3.10</price>
+        </meal>
       </category>
       <category name="Speiseplan">
         <meal>
           <name>Kartoffelpüree</name>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Kirschjoghurt</name>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Schalenfrüchte Mandeln</note>
+          <note>Enthält Soja</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
@@ -174,7 +197,31 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
+          <name>Pfirsichjoghurt</name>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Schalenfrüchte Mandeln</note>
+          <note>Enthält Soja</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
           <name>Beilagensalat Standard</name>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Schokoladenpudding</name>
+          <note>Enthält Soja</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Vanille Pudding</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
@@ -182,7 +229,7 @@
       </category>
       <category name="Querbeet">
         <meal>
-          <name>Milchreis, Mango - Pfirsich Grütze</name>
+          <name>Milchreis, Beerengrütze</name>
           <note>Enthält Soja</note>
           <note>Vegan</note>
           <price role="employee">4.00</price>
@@ -251,6 +298,34 @@
       </category>
     </day>
     <day date="2026-07-08">
+      <category name="Speiseplan">
+        <meal>
+          <name>Beerenquark</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Pommes frites</name>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Reis</name>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Beilagensalat Standard</name>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+      </category>
       <category name="2 - Worldwide">
         <meal>
           <name>Chili con carne, Reis, Salat, Dessert</name>
@@ -269,6 +344,21 @@
           <price role="other">14.10</price>
           <price role="student">3.10</price>
         </meal>
+        <meal>
+          <name>Hähnchen-Crossies, Sweet-Chili Dip, Pommes Frites, Salat, Dessert</name>
+          <note>Enthält Gelatine</note>
+          <note>Enthält Gluten</note>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Mit Farbstoff</note>
+          <note>mit Gefluegel</note>
+          <price role="employee">5.60</price>
+          <price role="other">15.10</price>
+          <price role="student">3.30</price>
+        </meal>
       </category>
       <category name="1 - Querbeet">
         <meal>
@@ -280,26 +370,6 @@
           <price role="employee">4.00</price>
           <price role="other">7.65</price>
           <price role="student">1.85</price>
-        </meal>
-      </category>
-      <category name="Speiseplan">
-        <meal>
-          <name>Pommes frites</name>
-          <price role="employee">0.95</price>
-          <price role="other">3.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Reis</name>
-          <price role="employee">0.95</price>
-          <price role="other">3.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Beilagensalat Standard</name>
-          <price role="employee">0.95</price>
-          <price role="other">3.00</price>
-          <price role="student">0.65</price>
         </meal>
       </category>
       <category name="Querbeet">
@@ -601,8 +671,6 @@
         </meal>
         <meal>
           <name>Pommes Wedges</name>
-          <note>Enthält Gluten</note>
-          <note>Enthält Weizen Gluten</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
@@ -960,8 +1028,6 @@
       <category name="Speiseplan">
         <meal>
           <name>Pommes Wedges</name>
-          <note>Enthält Gluten</note>
-          <note>Enthält Weizen Gluten</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
