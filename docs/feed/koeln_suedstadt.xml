@@ -81,7 +81,7 @@
           <note>Enthält Weizen Gluten</note>
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
-          <note>mit Gefluegel</note>
+          <note>mit Geflügel</note>
           <price role="employee">5.60</price>
           <price role="other">15.10</price>
           <price role="student">3.30</price>
@@ -149,7 +149,7 @@
           <note>Enthält Weizen Gluten</note>
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
-          <note>mit Gefluegel</note>
+          <note>mit Geflügel</note>
           <price role="employee">5.30</price>
           <price role="other">14.10</price>
           <price role="student">3.10</price>
@@ -165,7 +165,7 @@
           <note>Enthält Weizen Gluten</note>
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
-          <note>mit Gefluegel</note>
+          <note>mit Geflügel</note>
           <price role="employee">5.30</price>
           <price role="other">14.10</price>
           <price role="student">3.10</price>
@@ -300,6 +300,12 @@
     <day date="2026-07-08">
       <category name="Speiseplan">
         <meal>
+          <name>Apfelpudding</name>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
           <name>Beerenquark</name>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
@@ -325,6 +331,21 @@
           <price role="other">3.00</price>
           <price role="student">0.65</price>
         </meal>
+        <meal>
+          <name>Schokoladenpudding</name>
+          <note>Enthält Soja</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Vanille Pudding</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
       </category>
       <category name="2 - Worldwide">
         <meal>
@@ -338,7 +359,7 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Neuland Fleisch</note>
+          <note>Neuland</note>
           <note>mit Rind</note>
           <price role="employee">5.30</price>
           <price role="other">14.10</price>
@@ -354,7 +375,7 @@
           <note>Enthält Weizen Gluten</note>
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
-          <note>mit Gefluegel</note>
+          <note>mit Geflügel</note>
           <price role="employee">5.60</price>
           <price role="other">15.10</price>
           <price role="student">3.30</price>
@@ -417,26 +438,30 @@
       </category>
     </day>
     <day date="2026-07-09">
-      <category name="2 - Worldwide">
-        <meal>
-          <name>Cajun Chicken Pasta, Salat, Dessert</name>
-          <note>Enthält Gelatine</note>
-          <note>Enthält Hafer Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Soja</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Mit Antioxidationsmittel</note>
-          <note>Mit Farbstoff</note>
-          <note>mit Gefluegel</note>
-          <price role="employee">5.75</price>
-          <price role="other">16.50</price>
-          <price role="student">3.60</price>
-        </meal>
-      </category>
       <category name="Speiseplan">
         <meal>
+          <name>Apfelpudding</name>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Beerenquark</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
           <name>Curryreis</name>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Milchreis Vegan</name>
+          <note>Enthält Soja</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
@@ -457,14 +482,30 @@
       </category>
       <category name="1 - Querbeet">
         <meal>
-          <name>Kartoffel-Lauchcremesuppe, Kaiserbrötchen</name>
+          <name>Broccolicremesuppe, Kaiserbrötchen</name>
           <note>Enthält Gluten</note>
-          <note>Enthält Sellerie</note>
           <note>Enthält Soja</note>
           <note>Vegan</note>
           <price role="employee">4.00</price>
           <price role="other">7.65</price>
           <price role="student">1.85</price>
+        </meal>
+      </category>
+      <category name="2 - Worldwide">
+        <meal>
+          <name>Cajun Chicken Pasta, Salat, Dessert</name>
+          <note>Enthält Gelatine</note>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Soja</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Mit Farbstoff</note>
+          <note>mit Geflügel</note>
+          <price role="employee">5.75</price>
+          <price role="other">16.50</price>
+          <price role="student">3.60</price>
         </meal>
       </category>
       <category name="Querbeet">
@@ -514,7 +555,45 @@
       </category>
     </day>
     <day date="2026-07-10">
+      <category name="1 - Querbeet">
+        <meal>
+          <name>Broccolicremesuppe, Kaiserbrötchen</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Soja</note>
+          <note>Vegan</note>
+          <price role="employee">4.00</price>
+          <price role="other">7.65</price>
+          <price role="student">1.85</price>
+        </meal>
+      </category>
+      <category name="Querbeet Vegan">
+        <meal>
+          <name>HotDog, Pommes Wedges, Salat, Dessert</name>
+          <note>Enthält Gelatine</note>
+          <note>Enthält Gluten</note>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Senf</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Mit Farbstoff</note>
+          <note>Mit Süßstoff</note>
+          <note>Vegan</note>
+          <price role="employee">7.50</price>
+          <price role="other">21.75</price>
+          <price role="student">4.80</price>
+        </meal>
+      </category>
       <category name="Speiseplan">
+        <meal>
+          <name>Karamell Pudding</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
         <meal>
           <name>Pommes Cubes</name>
           <note>Enthält Gluten</note>
@@ -564,6 +643,23 @@
         </meal>
       </category>
       <category name="2 - Querbeet Vegan">
+        <meal>
+          <name>Samosaecken, Süß-saures Gemüse, Curryreis, Salat, Dessert</name>
+          <note>Enthält Gelatine</note>
+          <note>Enthält Gluten</note>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Sellerie</note>
+          <note>Enthält Senf</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Mit Farbstoff</note>
+          <note>Vegan</note>
+          <price role="employee">5.30</price>
+          <price role="other">14.10</price>
+          <price role="student">3.10</price>
+        </meal>
         <meal>
           <name>Schnitzel, Kräuter-Aioli, Pommes Cubes, Salat, Dessert</name>
           <note>Enthält Gelatine</note>
@@ -620,7 +716,7 @@
           <note>Enthält Weizen Gluten</note>
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
-          <note>mit Gefluegel</note>
+          <note>mit Geflügel</note>
           <price role="employee">5.60</price>
           <price role="other">15.10</price>
           <price role="student">3.30</price>
@@ -742,7 +838,7 @@
           <note>Enthält Weizen Gluten</note>
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
-          <note>mit Gefluegel</note>
+          <note>mit Geflügel</note>
           <price role="employee">5.75</price>
           <price role="other">16.50</price>
           <price role="student">3.60</price>
@@ -823,6 +919,25 @@
           <price role="student">3.85</price>
         </meal>
       </category>
+      <category name="2 - Meisterwerk">
+        <meal>
+          <name>Brew Bit Pita, Tzatziki, Pommes frites, Salat, Dessert</name>
+          <note>Enthält Gelatine</note>
+          <note>Enthält Gerste Gluten</note>
+          <note>Enthält Gluten</note>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Schalenfrüchte Mandeln</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Mit Farbstoff</note>
+          <note>Vegan</note>
+          <price role="employee">6.65</price>
+          <price role="other">19.70</price>
+          <price role="student">4.35</price>
+        </meal>
+      </category>
       <category name="1 - Querbeet">
         <meal>
           <name>Linsen Dal, Fladenbrot</name>
@@ -836,6 +951,26 @@
           <price role="employee">4.00</price>
           <price role="other">7.65</price>
           <price role="student">1.85</price>
+        </meal>
+      </category>
+      <category name="2 - Querbeet Vegan">
+        <meal>
+          <name>Pommes frites, Veganes Gyros, Knoblauchsauce, Bunter Krautsalat, Dessert</name>
+          <note>Enthält Gelatine</note>
+          <note>Enthält Gerste Gluten</note>
+          <note>Enthält Gluten</note>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Schalenfrüchte Mandeln</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Mit Farbstoff</note>
+          <note>Rettet die Knolle!</note>
+          <note>Vegan</note>
+          <price role="employee">6.50</price>
+          <price role="other">19.55</price>
+          <price role="student">4.30</price>
         </meal>
       </category>
       <category name="Speiseplan">
@@ -859,26 +994,6 @@
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
-        </meal>
-      </category>
-      <category name="2 - Querbeet Vegan">
-        <meal>
-          <name>Pommes frites, Veganes Gyros, Knoblauchsauce, Bunter Krautsalat, Dessert</name>
-          <note>Enthält Gelatine</note>
-          <note>Enthält Gerste Gluten</note>
-          <note>Enthält Gluten</note>
-          <note>Enthält Hafer Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Schalenfrüchte Mandeln</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Mit Antioxidationsmittel</note>
-          <note>Mit Farbstoff</note>
-          <note>Rettet die Knolle!</note>
-          <note>Vegan</note>
-          <price role="employee">6.50</price>
-          <price role="other">19.55</price>
-          <price role="student">4.30</price>
         </meal>
       </category>
       <category name="Querbeet">
@@ -933,7 +1048,7 @@
           <note>Enthält Weizen Gluten</note>
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
-          <note>mit Gefluegel</note>
+          <note>mit Geflügel</note>
           <price role="employee">6.45</price>
           <price role="other">18.75</price>
           <price role="student">4.15</price>
