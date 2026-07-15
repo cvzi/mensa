@@ -44,7 +44,6 @@
         </meal>
         <meal>
           <name>Reis</name>
-          <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
@@ -92,7 +91,7 @@
           <note>Enthält Weizen Gluten</note>
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
-          <note>mit Gefluegel</note>
+          <note>mit Geflügel</note>
           <price role="employee">5.60</price>
           <price role="other">15.10</price>
           <price role="student">3.30</price>
@@ -154,7 +153,6 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -162,23 +160,14 @@
       </category>
     </day>
     <day date="2026-07-14">
-      <category name="2 - Worldwide">
-        <meal>
-          <name>Butter Chicken, Basmatireis, Salat, Dessert</name>
-          <note>Enthält Gelatine</note>
-          <note>Enthält Hafer Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Mit Antioxidationsmittel</note>
-          <note>Mit Farbstoff</note>
-          <note>mit Gefluegel</note>
-          <price role="employee">5.75</price>
-          <price role="other">16.50</price>
-          <price role="student">3.60</price>
-        </meal>
-      </category>
       <category name="Beilagen">
+        <meal>
+          <name>Blumenkohl</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
         <meal>
           <name>Dessert</name>
           <note>Enthält Gelatine</note>
@@ -242,6 +231,22 @@
           <price role="student">0.65</price>
         </meal>
       </category>
+      <category name="2 - Worldwide">
+        <meal>
+          <name>Butter Chicken, Basmatireis, Salat, Dessert</name>
+          <note>Enthält Gelatine</note>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Mit Farbstoff</note>
+          <note>mit Geflügel</note>
+          <price role="employee">5.75</price>
+          <price role="other">16.50</price>
+          <price role="student">3.60</price>
+        </meal>
+      </category>
       <category name="Querbeet">
         <meal>
           <name>Gemüsesuppe, Kaiserbrötchen</name>
@@ -283,7 +288,6 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -362,6 +366,13 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
+          <name>Basmatireis</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
           <name>Beilagensalat</name>
           <note>Enthält Eier</note>
           <note>Enthält Gerste Gluten</note>
@@ -381,14 +392,6 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <price role="employee">0.95</price>
-          <price role="other">3.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Salzkartoffeln</name>
-          <note>Rettet die Knolle!</note>
-          <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
@@ -434,13 +437,28 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
         </meal>
       </category>
       <category name="1 - Querbeet Vegan">
+        <meal>
+          <name>High Protein Gulasch, Rotkohl, Salzkartoffeln, Salat, Dessert</name>
+          <note>Enthält Gelatine</note>
+          <note>Enthält Gerste Gluten</note>
+          <note>Enthält Gluten</note>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Mit Farbstoff</note>
+          <note>Vegan</note>
+          <price role="employee">6.45</price>
+          <price role="other">18.75</price>
+          <price role="student">4.15</price>
+        </meal>
         <meal>
           <name>Pommes frites, Veganes Gyros, Knoblauchsauce, Bunter Krautsalat, Dessert</name>
           <note>Enthält Gelatine</note>
@@ -461,23 +479,6 @@
         </meal>
       </category>
       <category name="Meisterwerk">
-        <meal>
-          <name>Sate Spieße, Erdnußsauce, Wokgemüse, Sojasprossen, Basmatireis</name>
-          <note>Enthält Alkohol</note>
-          <note>Enthält Erdnüsse</note>
-          <note>Enthält Gluten</note>
-          <note>Enthält Schalenfrüchte (Nüsse)</note>
-          <note>Enthält Sesamsamen</note>
-          <note>Enthält Soja</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Mit Farbstoff</note>
-          <note>Mit Geschmacksverstärker</note>
-          <note>Mit Konservierungsstoff</note>
-          <note>mit Gefluegel</note>
-          <price role="employee">7.70</price>
-          <price role="other">23.95</price>
-          <price role="student">5.30</price>
-        </meal>
         <meal>
           <name>Schweizer Leckerli, Riesenrösti, Champignons, Sauce Hollandaise</name>
           <note>Enthält Eier</note>
@@ -604,7 +605,6 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -621,7 +621,7 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>mit Gefluegel</note>
+          <note>mit Geflügel</note>
           <price role="employee">6.45</price>
           <price role="other">18.75</price>
           <price role="student">4.15</price>
@@ -640,7 +640,7 @@
           <note>Mit Farbstoff</note>
           <note>Mit Geschmacksverstärker</note>
           <note>Mit Konservierungsstoff</note>
-          <note>mit Gefluegel</note>
+          <note>mit Geflügel</note>
           <price role="employee">7.70</price>
           <price role="other">23.95</price>
           <price role="student">5.30</price>
@@ -710,7 +710,6 @@
         </meal>
         <meal>
           <name>Reis</name>
-          <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
@@ -791,7 +790,6 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -946,7 +944,7 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>mit Gefluegel</note>
+          <note>mit Geflügel</note>
           <price role="employee">5.60</price>
           <price role="other">15.10</price>
           <price role="student">3.30</price>
@@ -983,7 +981,6 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -1071,7 +1068,7 @@
           <note>Enthält Weizen Gluten</note>
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
-          <note>Neuland Fleisch</note>
+          <note>Neuland</note>
           <note>Rettet die Knolle!</note>
           <note>mit Schwein</note>
           <price role="employee">5.60</price>
@@ -1141,7 +1138,6 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -1155,7 +1151,7 @@
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
           <note>Enthält Sellerie</note>
-          <note>Neuland Fleisch</note>
+          <note>Neuland</note>
           <note>Rettet die Knolle!</note>
           <note>mit Schwein</note>
           <price role="employee">6.50</price>
@@ -1276,7 +1272,6 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -1293,7 +1288,7 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>mit Gefluegel</note>
+          <note>mit Geflügel</note>
           <price role="employee">5.60</price>
           <price role="other">15.10</price>
           <price role="student">3.30</price>
@@ -1370,7 +1365,6 @@
         </meal>
         <meal>
           <name>Reis</name>
-          <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
@@ -1448,7 +1442,6 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -1465,7 +1458,7 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Rettet die Knolle!</note>
-          <note>mit Gefluegel</note>
+          <note>mit Geflügel</note>
           <price role="employee">6.25</price>
           <price role="other">17.30</price>
           <price role="student">3.85</price>
@@ -1513,7 +1506,6 @@
         </meal>
         <meal>
           <name>Reis</name>
-          <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
@@ -1577,7 +1569,6 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
