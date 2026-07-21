@@ -3,70 +3,6 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2026-07-20">
-      <category name="Vegan">
-        <meal>
-          <name>"Spanische Gemüsepaella" mit mediterranem gegrillten Gemüse und Safran Reis dazu Salat</name>
-          <note>Knoblauch</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>Sesamsamen</note>
-          <note>mit Antioxidationsmittel</note>
-          <price role="employee">5.20</price>
-          <price role="other">6.15</price>
-          <price role="student">3.80</price>
-        </meal>
-        <meal>
-          <name>Teigtaschen "Mezzelune Spinaci" Tomatensoße</name>
-          <note>Knoblauch</note>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>Weizen</note>
-          <note>geschwefelt</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>mit Antioxidationsmittel</note>
-          <note>mit Farbstoff</note>
-          <price role="employee">5.20</price>
-          <price role="other">6.15</price>
-          <price role="student">3.80</price>
-        </meal>
-      </category>
-      <category name="Fisch">
-        <meal>
-          <name>Seelachsfilet gebacken mit hausgemachter Remouladensoße Kartoffelsalat</name>
-          <note>Eier</note>
-          <note>Fisch</note>
-          <note>Fische</note>
-          <note>Gerste</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>konserviert</note>
-          <note>mit Farbstoff</note>
-          <note>mit Süßungsmittel</note>
-          <price role="employee">5.80</price>
-          <price role="other">6.75</price>
-          <price role="student">4.35</price>
-        </meal>
-      </category>
-      <category name="Rind">
-        <meal>
-          <name>Makkaroni "Bolognese" mit Grana Padano</name>
-          <note>Gerste</note>
-          <note>Knoblauch</note>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Rind/Kalb</note>
-          <note>Sellerie</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>konserviert</note>
-          <price role="employee">6.20</price>
-          <price role="other">7.15</price>
-          <price role="student">4.75</price>
-        </meal>
-      </category>
-    </day>
     <day date="2026-07-21">
       <category name="Vegan">
         <meal>
@@ -82,30 +18,75 @@
           <price role="other">5.10</price>
           <price role="student">2.80</price>
         </meal>
+      </category>
+      <category name="Fleischlos">
         <meal>
-          <name>mensaVital: Vegane Kichererbsen Gemüsepfanne in milder grüner Currycreme &amp; Fair Trade Basmatireis</name>
+          <name>Vegetarisches Schnitzel mit Kokos - Karottensoße und Salat</name>
+          <note>Eier</note>
+          <note>Hafer</note>
+          <note>Milch (einschließlich Lactose)</note>
           <note>Schwefeldioxid und Sulfite</note>
-          <note>Soja</note>
-          <note>mit Antioxidationsmittel</note>
-          <price role="employee">4.15</price>
-          <price role="other">5.10</price>
-          <price role="student">2.80</price>
-        </meal>
-        <meal>
-          <name>Schwäbische Gemüsemaultaschen mit Tomatensoße und veganem Reibkäse</name>
-          <note>Knoblauch</note>
-          <note>Schwefeldioxid und Sulfite</note>
+          <note>Senf</note>
           <note>Weizen</note>
           <note>glutenhaltiges Getreide</note>
+          <note>mit Antioxidationsmittel</note>
           <note>mit Farbstoff</note>
-          <price role="employee">5.00</price>
-          <price role="other">5.95</price>
-          <price role="student">3.65</price>
+          <price role="employee">5.20</price>
+          <price role="other">6.15</price>
+          <price role="student">3.80</price>
+        </meal>
+      </category>
+      <category name="Rind">
+        <meal>
+          <name>Cevapcici vom Rind mit hausgemachtem Kräuterdip und Gemüsereis "Balkan Art"</name>
+          <note>Eier</note>
+          <note>Gerste</note>
+          <note>Knoblauch</note>
+          <note>Milch (einschließlich Lactose)</note>
+          <note>Rind/Kalb</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <note>Sesamsamen</note>
+          <note>Weizen</note>
+          <note>glutenhaltiges Getreide</note>
+          <note>mit Antioxidationsmittel</note>
+          <note>mit Farbstoff</note>
+          <note>mit Süßungsmittel</note>
+          <price role="employee">6.30</price>
+          <price role="other">7.25</price>
+          <price role="student">4.85</price>
+        </meal>
+      </category>
+      <category name="Gefluegel">
+        <meal>
+          <name>Hähnchen Cordon bleu gefüllt mit Putenschinken &amp; Edamer dazu Super Crunch Pommes frites</name>
+          <note>Geflügel</note>
+          <note>Milch (einschließlich Lactose)</note>
+          <note>Weizen</note>
+          <note>glutenhaltiges Getreide</note>
+          <note>konserviert</note>
+          <note>mit Antioxidationsmittel</note>
+          <price role="employee">6.30</price>
+          <price role="other">7.25</price>
+          <price role="student">4.85</price>
         </meal>
       </category>
     </day>
     <day date="2026-07-22">
       <category name="Vegan">
+        <meal>
+          <name>Teigtaschen "Mezzelune Spinaci" Tomatensoße</name>
+          <note>Knoblauch</note>
+          <note>Schwefeldioxid und Sulfite</note>
+          <note>Weizen</note>
+          <note>geschwefelt</note>
+          <note>glutenhaltiges Getreide</note>
+          <note>mit Antioxidationsmittel</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">5.20</price>
+          <price role="other">6.15</price>
+          <price role="student">3.80</price>
+        </meal>
         <meal>
           <name>Asia Reispfanne mit mariniertem Tofu, frischem Gemüse, Koriander und Thai Kokoscurrysoße</name>
           <note>Knoblauch</note>
@@ -140,6 +121,21 @@
           <price role="other">7.25</price>
           <price role="student">4.85</price>
         </meal>
+        <meal>
+          <name>"Köttbullar" feine Hackfleischbällchen mit Preiselbeeren in Rahmsoße dazu Nudeln</name>
+          <note>Eier</note>
+          <note>Gerste</note>
+          <note>Milch (einschließlich Lactose)</note>
+          <note>Rind/Kalb</note>
+          <note>Schwefeldioxid und Sulfite</note>
+          <note>Schwein</note>
+          <note>Sellerie</note>
+          <note>Weizen</note>
+          <note>glutenhaltiges Getreide</note>
+          <price role="employee">6.30</price>
+          <price role="other">7.25</price>
+          <price role="student">4.85</price>
+        </meal>
       </category>
     </day>
     <day date="2026-07-23">
@@ -162,7 +158,7 @@
       </category>
       <category name="Schwein">
         <meal>
-          <name>Ein Paar fränkische Bratwürste mit Bratenjus Hausgemachtes Kartoffel Selleriepüree</name>
+          <name>Ein Paar fränkische Bratwürste mit Bratenjus, Kartoffelpüree</name>
           <note>Alkohol</note>
           <note>Gerste</note>
           <note>Milch (einschließlich Lactose)</note>
@@ -172,7 +168,10 @@
           <note>Sellerie</note>
           <note>Senf</note>
           <note>Weizen</note>
+          <note>geschwefelt</note>
           <note>glutenhaltiges Getreide</note>
+          <note>mit Antioxidationsmittel</note>
+          <note>mit Farbstoff</note>
           <note>mit Phosphat</note>
           <price role="employee">7.20</price>
           <price role="other">8.15</price>
@@ -181,29 +180,43 @@
       </category>
     </day>
     <day date="2026-07-24">
-      <category name="Mensa">
+      <category name="Fleischlos">
         <meal>
-          <name>Siehe Tagesaushang!</name>
-          <price role="employee">0.00</price>
-          <price role="other">0.00</price>
-          <price role="student">0.00</price>
+          <name>Käsetortelloni in Sahnesoße mit frischen mediterranen Kräutern und geriebenem Gran Moravia dazu Salat</name>
+          <note>Eier</note>
+          <note>Milch (einschließlich Lactose)</note>
+          <note>Schwefeldioxid und Sulfite</note>
+          <note>Weizen</note>
+          <note>geschwefelt</note>
+          <note>glutenhaltiges Getreide</note>
+          <note>konserviert</note>
+          <note>mit Antioxidationsmittel</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">4.15</price>
+          <price role="other">5.10</price>
+          <price role="student">2.80</price>
         </meal>
+      </category>
+      <category name="Vegan">
         <meal>
-          <name>Siehe Tagesaushang!</name>
-          <price role="employee">0.00</price>
-          <price role="other">0.00</price>
-          <price role="student">0.00</price>
-        </meal>
-        <meal>
-          <name>Siehe Tagesaushang!</name>
-          <price role="employee">0.00</price>
-          <price role="other">0.00</price>
-          <price role="student">0.00</price>
+          <name>Rotes Linsen Dal mit Gemüse und Ingwer, veganer Joghutsoße &amp; Fladenbrot veganer Tandoori Dip</name>
+          <note>Knoblauch</note>
+          <note>Schwefeldioxid und Sulfite</note>
+          <note>Sellerie</note>
+          <note>Sesamsamen</note>
+          <note>Soja</note>
+          <note>Weizen</note>
+          <note>glutenhaltiges Getreide</note>
+          <note>konserviert</note>
+          <note>mit Antioxidationsmittel</note>
+          <price role="employee">5.00</price>
+          <price role="other">5.95</price>
+          <price role="student">3.65</price>
         </meal>
       </category>
       <category name="Fisch">
         <meal>
-          <name>Gebackenes Schollenfilet mit hausgemachter Remouladensoße, dazu Kartoffelsalat</name>
+          <name>Gebackenes Schollenfilet mit hausgemachter Remouladensoße Schwenkkartoffeln</name>
           <note>Eier</note>
           <note>Fisch</note>
           <note>Fische</note>
@@ -216,9 +229,9 @@
           <note>konserviert</note>
           <note>mit Farbstoff</note>
           <note>mit Süßungsmittel</note>
-          <price role="employee">5.50</price>
-          <price role="other">6.45</price>
-          <price role="student">4.10</price>
+          <price role="employee">5.90</price>
+          <price role="other">6.85</price>
+          <price role="student">4.45</price>
         </meal>
       </category>
     </day>
@@ -379,6 +392,20 @@
           <price role="employee">1.60</price>
           <price role="other">1.80</price>
           <price role="student">1.50</price>
+        </meal>
+        <meal>
+          <name>Pasta "Neapolitana" mit Tomatensoße und Parmesan dazu Salat</name>
+          <note>Knoblauch</note>
+          <note>Milch (einschließlich Lactose)</note>
+          <note>Schwefeldioxid und Sulfite</note>
+          <note>Weizen</note>
+          <note>geschwefelt</note>
+          <note>glutenhaltiges Getreide</note>
+          <note>mit Antioxidationsmittel</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">5.00</price>
+          <price role="other">5.95</price>
+          <price role="student">3.65</price>
         </meal>
         <meal>
           <name>Gebackene Frühlingsrolle mit Sweet Chili Soße Gebratene Mienudeln "Asia Style"</name>
