@@ -70,8 +70,6 @@
         </meal>
         <meal>
           <name>Salzkartoffeln</name>
-          <note>Rettet die Knolle!</note>
-          <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
@@ -233,7 +231,7 @@
       </category>
       <category name="2 - Heimspiel">
         <meal>
-          <name>Currywurst, Pommes frites, Salat, Dessert</name>
+          <name>Currywurst, Pommes Wedges, Salat, Dessert</name>
           <note>Enthält Gelatine</note>
           <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
@@ -251,7 +249,7 @@
           <price role="student">3.30</price>
         </meal>
         <meal>
-          <name>Currywurst, Pommes Wedges, Salat, Dessert</name>
+          <name>Currywurst, Pommes frites, Salat, Dessert</name>
           <note>Enthält Gelatine</note>
           <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
@@ -401,7 +399,9 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Gabelspaghetti</name>
+          <name>Fusilli</name>
+          <note>Enthält Eier</note>
+          <note>Enthält Gluten</note>
           <note>Enthält Weizen Gluten</note>
           <note>Vegan</note>
           <price role="employee">0.95</price>
@@ -465,10 +465,23 @@
           <price role="student">3.30</price>
         </meal>
       </category>
+      <category name="1 - Querbeet">
+        <meal>
+          <name>Karotten-Ingwersuppe, Brötchen, 11, 11w</name>
+          <note>Enthält Senf</note>
+          <note>Enthält Soja</note>
+          <note>Mit Farbstoff</note>
+          <note>Vegan</note>
+          <price role="employee">4.00</price>
+          <price role="other">7.65</price>
+          <price role="student">1.85</price>
+        </meal>
+      </category>
       <category name="Querbeet">
         <meal>
           <name>Karotten-Ingwersuppe, Kaiserbrötchen</name>
           <note>Enthält Gluten</note>
+          <note>Enthält Hafer Gluten</note>
           <note>Enthält Senf</note>
           <note>Enthält Soja</note>
           <note>Mit Farbstoff</note>
@@ -500,18 +513,6 @@
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
-        </meal>
-      </category>
-      <category name="1 - Querbeet">
-        <meal>
-          <name>Karotten-Ingwersuppe, Brötchen, 11, 11w</name>
-          <note>Enthält Senf</note>
-          <note>Enthält Soja</note>
-          <note>Mit Farbstoff</note>
-          <note>Vegan</note>
-          <price role="employee">4.00</price>
-          <price role="other">7.65</price>
-          <price role="student">1.85</price>
         </meal>
       </category>
       <category name="2 - Querbeet Vegan">
@@ -647,8 +648,6 @@
         </meal>
         <meal>
           <name>Salzkartoffeln</name>
-          <note>Rettet die Knolle!</note>
-          <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
@@ -710,9 +709,32 @@
       </category>
     </day>
     <day date="2026-07-24">
+      <category name="1 - Querbeet Vegan">
+        <meal>
+          <name>Schnitzel, Kräuterrahmsauce, Broccoli, Salzkartoffeln, Salat</name>
+          <note>Enthält Gelatine</note>
+          <note>Enthält Gluten</note>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Soja</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Mit Farbstoff</note>
+          <note>Rettet die Knolle!</note>
+          <note>Vegan</note>
+          <price role="employee">5.30</price>
+          <price role="other">14.10</price>
+          <price role="student">3.10</price>
+        </meal>
+      </category>
       <category name="Beilagen">
         <meal>
-          <name>Broccoli</name>
+          <name>Blumenkohl, Gemüserahmsauce</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Sellerie</note>
+          <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
@@ -817,25 +839,6 @@
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
-        </meal>
-      </category>
-      <category name="2 - Querbeet Vegan">
-        <meal>
-          <name>Schnitzel, Kräuterrahmsauce, Broccoli, Salzkartoffeln, Salat</name>
-          <note>Enthält Gelatine</note>
-          <note>Enthält Gluten</note>
-          <note>Enthält Hafer Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Soja</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Mit Antioxidationsmittel</note>
-          <note>Mit Farbstoff</note>
-          <note>Rettet die Knolle!</note>
-          <note>Vegan</note>
-          <price role="employee">5.30</price>
-          <price role="other">14.10</price>
-          <price role="student">3.10</price>
         </meal>
       </category>
       <category name="2 - Worldwide">
@@ -952,6 +955,7 @@
         <meal>
           <name>Karotten-Ingwersuppe, Kaiserbrötchen</name>
           <note>Enthält Gluten</note>
+          <note>Enthält Hafer Gluten</note>
           <note>Enthält Senf</note>
           <note>Enthält Soja</note>
           <note>Mit Farbstoff</note>
@@ -1381,8 +1385,6 @@
         </meal>
         <meal>
           <name>Salzkartoffeln</name>
-          <note>Rettet die Knolle!</note>
-          <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
@@ -1586,9 +1588,7 @@
         <meal>
           <name>Tomatencremesuppe, Kaiserbrötchen</name>
           <note>Enthält Gluten</note>
-          <note>Enthält Sesamsamen</note>
           <note>Enthält Soja</note>
-          <note>Enthält Weizen Gluten</note>
           <note>Vegan</note>
           <price role="employee">4.00</price>
           <price role="other">7.65</price>

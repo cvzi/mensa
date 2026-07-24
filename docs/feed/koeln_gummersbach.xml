@@ -493,7 +493,21 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
+          <name>Pommes frites</name>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
           <name>Beilagensalat Standard</name>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Vanille Creme</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
@@ -532,7 +546,8 @@
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
           <note>Enthält Sellerie</note>
-          <note>Vegetarisch</note>
+          <note>Rettet die Knolle!</note>
+          <note>Vegan</note>
           <price role="employee">4.00</price>
           <price role="other">7.65</price>
           <price role="student">1.85</price>
@@ -584,7 +599,32 @@
     <day date="2026-07-24">
       <category name="Speiseplan">
         <meal>
+          <name>Beerenquark</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
           <name>Broccoli</name>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Vanille Creme</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <price role="employee">0.95</price>
+          <price role="other">2.95</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Gemüse-Bulgur</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Sellerie</note>
+          <note>Enthält Weizen Gluten</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
@@ -602,14 +642,38 @@
           <price role="student">0.65</price>
         </meal>
       </category>
-      <category name="1 - Querbeet">
+      <category name="2 - Worldwide">
         <meal>
-          <name>Möhren-Mangosuppe, Kaiserbrötchen</name>
+          <name>Indisches Hähnchen-Curry, Basmatireis, Salat, Dessert</name>
+          <note>Enthält Gelatine</note>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Mit Farbstoff</note>
+          <note>Mit Konservierungsstoff</note>
+          <note>mit Geflügel</note>
+          <price role="employee">5.60</price>
+          <price role="other">15.10</price>
+          <price role="student">3.30</price>
+        </meal>
+        <meal>
+          <name>Seelachs Meuniere, Kräuter-Mayonnaise, Kartoffelsalat, Salat, Dessert</name>
+          <note>Enthält Fisch</note>
+          <note>Enthält Gelatine</note>
           <note>Enthält Gluten</note>
-          <note>Vegan</note>
-          <price role="employee">4.00</price>
-          <price role="other">7.65</price>
-          <price role="student">1.85</price>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Senf</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Mit Farbstoff</note>
+          <note>mit Fisch</note>
+          <price role="employee">6.45</price>
+          <price role="other">18.75</price>
+          <price role="student">4.15</price>
         </meal>
       </category>
       <category name="2 - Querbeet Vegan">
@@ -630,23 +694,16 @@
           <price role="student">3.10</price>
         </meal>
       </category>
-      <category name="2 - Worldwide">
+      <category name="1 - Querbeet">
         <meal>
-          <name>Seelachs Meuniere, Kräuter-Aioli, Kartoffelsalat, Salat, Dessert</name>
-          <note>Enthält Fisch</note>
-          <note>Enthält Gelatine</note>
+          <name>Türkische Linsensuppe, Fladenbrot</name>
           <note>Enthält Gluten</note>
-          <note>Enthält Hafer Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Senf</note>
+          <note>Enthält Sesamsamen</note>
           <note>Enthält Weizen Gluten</note>
-          <note>Mit Antioxidationsmittel</note>
-          <note>Mit Farbstoff</note>
-          <note>mit Fisch</note>
-          <price role="employee">6.45</price>
-          <price role="other">18.75</price>
-          <price role="student">4.15</price>
+          <note>Vegan</note>
+          <price role="employee">4.00</price>
+          <price role="other">7.65</price>
+          <price role="student">1.85</price>
         </meal>
       </category>
     </day>
@@ -1037,7 +1094,6 @@
           <note>Enthält Krebstiere (Schalen-/ Krusten-/Weichtiere)</note>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
-          <note>Enthält Soja</note>
           <note>Enthält Weizen Gluten</note>
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>

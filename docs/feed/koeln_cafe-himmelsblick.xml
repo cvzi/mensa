@@ -385,7 +385,7 @@
     <day date="2026-07-23">
       <category name="2 - Querbeet Vegan">
         <meal>
-          <name>Aloo Gobi indisches Blumenkohl Kartoffel Curry, Basmatireis, Salat, Dessert</name>
+          <name>Aloo Gobi indisches Blumenkohl Kartoffel Curry, Reis, Salat, Dessert</name>
           <note>Enthält Gelatine</note>
           <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
@@ -434,6 +434,14 @@
         </meal>
         <meal>
           <name>Beilagensalat Standard</name>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Schokoladen Pudding</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
@@ -492,12 +500,32 @@
           <price role="other">7.65</price>
           <price role="student">1.85</price>
         </meal>
+        <meal>
+          <name>Türkische Linsensuppe, Fladenbrot</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Sesamsamen</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">4.00</price>
+          <price role="other">7.65</price>
+          <price role="student">1.85</price>
+        </meal>
+        <meal>
+          <name>Türkische Linsensuppe, Fladenbrot</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Sesamsamen</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">4.00</price>
+          <price role="other">7.65</price>
+          <price role="student">1.85</price>
+        </meal>
       </category>
     </day>
     <day date="2026-07-24">
       <category name="Meisterwerk">
         <meal>
-          <name>2 Fischfrikadellen, Sweet Chilisauce, Reis, Salat, Dessert</name>
+          <name>2 Fischfrikadellen, Remoulade, Reis, Salat, Dessert</name>
           <note>Enthält Fisch</note>
           <note>Enthält Gelatine</note>
           <note>Enthält Gluten</note>
@@ -514,23 +542,33 @@
           <price role="student">3.30</price>
         </meal>
       </category>
-      <category name="Worldwide">
+      <category name="Speiseplan">
         <meal>
-          <name>Paella, Gebratenes Hähncheninnenfilet, Salat, Dessert</name>
-          <note>Enthält Gelatine</note>
-          <note>Enthält Hafer Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
+          <name>Frühlingsrolle, Sweet-Chili Dip, Reis</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Sellerie</note>
+          <note>Enthält Sesamsamen</note>
           <note>Enthält Weizen Gluten</note>
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
+          <note>Mit Konservierungsstoff</note>
           <note>Vegan</note>
-          <price role="employee">6.45</price>
-          <price role="other">18.75</price>
-          <price role="student">4.15</price>
+          <price role="employee">5.75</price>
+          <price role="other">16.50</price>
+          <price role="student">3.60</price>
         </meal>
       </category>
       <category name="Querbeet">
+        <meal>
+          <name>Germknödel mit Kirschfüllung, Vanillesauce</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Soja</note>
+          <note>Mit Konservierungsstoff</note>
+          <note>Vegetarisch</note>
+          <price role="employee">4.00</price>
+          <price role="other">7.65</price>
+          <price role="student">1.85</price>
+        </meal>
         <meal>
           <name>Salatbuffet in Selbstbedienung, je 100g</name>
           <note>Enthält Eier</note>
@@ -554,6 +592,33 @@
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
+        </meal>
+      </category>
+      <category name="Worldwide">
+        <meal>
+          <name>Paella, Gebratenes Hähncheninnenfilet, Salat, Dessert</name>
+          <note>Enthält Gelatine</note>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Mit Farbstoff</note>
+          <note>Vegan</note>
+          <price role="employee">6.45</price>
+          <price role="other">18.75</price>
+          <price role="student">4.15</price>
+        </meal>
+      </category>
+      <category name="1 - Querbeet">
+        <meal>
+          <name>Tomatencremesuppe, Kaiserbrötchen</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Soja</note>
+          <note>Vegan</note>
+          <price role="employee">4.00</price>
+          <price role="other">7.65</price>
+          <price role="student">1.85</price>
         </meal>
       </category>
     </day>
