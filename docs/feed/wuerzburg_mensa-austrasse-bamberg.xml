@@ -3,15 +3,11 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2026-07-27">
+    <day date="2026-07-28">
       <category name="Vegan">
         <meal>
-          <name>Tomatensuppe mit frischem Basilikum</name>
+          <name>Orientalische Linsensuppe mit Harissa &amp; frischem Koriander</name>
           <note>Knoblauch</note>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>mit Farbstoff</note>
           <price role="employee">1.60</price>
           <price role="other">1.80</price>
           <price role="student">1.50</price>
@@ -24,58 +20,6 @@
           <price role="employee">4.15</price>
           <price role="other">5.10</price>
           <price role="student">2.80</price>
-        </meal>
-        <meal>
-          <name>mensaVital: Linguine mit hausgemachtem veganem Rucola Nusspesto, dazu Tomaten Gemüsesugo und Gurkensalat</name>
-          <note>Cashewnüsse</note>
-          <note>Knoblauch</note>
-          <note>Mandeln</note>
-          <note>Schalenfrüchte</note>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>Senf</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>mit Antioxidationsmittel</note>
-          <price role="employee">5.00</price>
-          <price role="other">5.95</price>
-          <price role="student">3.65</price>
-        </meal>
-        <meal>
-          <name>Orientalische Gemüspfanne mit Okraschoten &amp; Berberitzen auf Fladenbrot, dazu veganer Tandoori Dip</name>
-          <note>Knoblauch</note>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>Sesamsamen</note>
-          <note>Weizen</note>
-          <note>glutenhaltiges Getreide</note>
-          <note>konserviert</note>
-          <note>mit Antioxidationsmittel</note>
-          <price role="employee">5.80</price>
-          <price role="other">6.75</price>
-          <price role="student">4.35</price>
-        </meal>
-      </category>
-      <category name="Fleischlos">
-        <meal>
-          <name>Kartoffeltaschen gefüllt mit Tomaten &amp; Mozzarella, dazu mediterraner Nudelsalat</name>
-          <note>Milch (einschließlich Lactose)</note>
-          <note>Schwefeldioxid und Sulfite</note>
-          <note>Weizen</note>
-          <note>geschwefelt</note>
-          <note>glutenhaltiges Getreide</note>
-          <price role="employee">5.20</price>
-          <price role="other">6.15</price>
-          <price role="student">3.80</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2026-07-28">
-      <category name="Vegan">
-        <meal>
-          <name>Orientalische Linsensuppe mit Harissa &amp; frischem Koriander</name>
-          <note>Knoblauch</note>
-          <price role="employee">1.60</price>
-          <price role="other">1.80</price>
-          <price role="student">1.50</price>
         </meal>
         <meal>
           <name>Gebratener Reis mit frischen Wokgemüse, Cashewnuts, Koriander &amp; Chili</name>
@@ -94,10 +38,11 @@
           <price role="student">3.35</price>
         </meal>
         <meal>
-          <name>mensaVital: Veganes mediterranes Bohnen-Zucchini-Ragout dazu gekräuterte Polenta</name>
+          <name>mensaVital: Veganes mediterranes Bohnen Zucchini Ragout dazu gekräuterte Polenta</name>
           <note>Hafer</note>
           <note>Knoblauch</note>
           <note>Schwefeldioxid und Sulfite</note>
+          <note>Sesamsamen</note>
           <note>geschwefelt</note>
           <note>glutenhaltiges Getreide</note>
           <note>mit Antioxidationsmittel</note>
@@ -108,6 +53,30 @@
         </meal>
       </category>
       <category name="Fleischlos">
+        <meal>
+          <name>Kartoffeltaschen gefüllt mit Tomaten &amp; Mozzarella, dazu mediterraner Nudelsalat</name>
+          <note>Milch (einschließlich Lactose)</note>
+          <note>Schwefeldioxid und Sulfite</note>
+          <note>Weizen</note>
+          <note>geschwefelt</note>
+          <note>glutenhaltiges Getreide</note>
+          <price role="employee">5.20</price>
+          <price role="other">6.15</price>
+          <price role="student">3.80</price>
+        </meal>
+        <meal>
+          <name>"Allgäuer Käsespätzle" mit Emmentaler &amp; Bergkäse überbacken dazu Röstzwiebeln</name>
+          <note>Eier</note>
+          <note>Gerste</note>
+          <note>Milch (einschließlich Lactose)</note>
+          <note>Sellerie</note>
+          <note>Weizen</note>
+          <note>glutenhaltiges Getreide</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">5.00</price>
+          <price role="other">5.95</price>
+          <price role="student">3.65</price>
+        </meal>
         <meal>
           <name>Frische Pfifferlinge in Kräuterahm mit Semmelknödel</name>
           <note>Eier</note>
@@ -178,6 +147,20 @@
         </meal>
       </category>
       <category name="Schwein">
+        <meal>
+          <name>Schweinerückensteak mit Rahmsoße -Beilage extra-</name>
+          <note>Gerste</note>
+          <note>Knoblauch</note>
+          <note>Milch (einschließlich Lactose)</note>
+          <note>Schwein</note>
+          <note>Sellerie</note>
+          <note>Soja</note>
+          <note>Weizen</note>
+          <note>glutenhaltiges Getreide</note>
+          <price role="employee">5.20</price>
+          <price role="other">6.15</price>
+          <price role="student">3.80</price>
+        </meal>
         <meal>
           <name>Ofenfrischer Spießbraten an Kümmeljus Kartoffelkloß</name>
           <note>Gerste</note>
