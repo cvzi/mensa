@@ -4,13 +4,13 @@
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
     <day date="2026-08-05">
-      <category name="Fleisch">
+      <category name="Heimspiel">
         <meal>
           <name>Chili con carne</name>
           <note>Enthält Senf</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Neuland Fleisch</note>
+          <note>Neuland</note>
           <note>mit Rind</note>
           <price role="employee">4.20</price>
           <price role="other">0.00</price>
@@ -56,13 +56,6 @@
           <price role="student">0.95</price>
         </meal>
         <meal>
-          <name>Reis</name>
-          <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
           <name>Beilagensalat Standard MM</name>
           <note>Vegan</note>
           <price role="employee">0.95</price>
@@ -79,7 +72,14 @@
           <price role="student">0.65</price>
         </meal>
       </category>
-      <category name="Speiseplan">
+      <category name="Querbeet">
+        <meal>
+          <name>Reis</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
         <meal>
           <name>Salatbuffet in Selbstbedienung, je 100g</name>
           <note>Enthält Eier</note>
@@ -104,8 +104,6 @@
           <price role="other">2.91</price>
           <price role="student">0.77</price>
         </meal>
-      </category>
-      <category name="Vegan/vegetarisch">
         <meal>
           <name>Vegane Bratwurst, mit Currysauce</name>
           <note>Vegan</note>
@@ -122,7 +120,7 @@
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
           <note>Enthält Weizen Gluten</note>
-          <note>mit Gefluegel</note>
+          <note>mit Geflügel</note>
           <price role="employee">4.45</price>
           <price role="other">0.00</price>
           <price role="student">2.60</price>
