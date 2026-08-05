@@ -3,41 +3,60 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2026-08-04">
+    <day date="2026-08-05">
+      <category name="Fleisch">
+        <meal>
+          <name>Chili con carne</name>
+          <note>Enthält Senf</note>
+          <note>Mit Farbstoff</note>
+          <note>Mit Konservierungsstoff</note>
+          <note>Neuland</note>
+          <note>mit Rind</note>
+          <price role="employee">4.20</price>
+          <price role="other">0.00</price>
+          <price role="student">2.45</price>
+        </meal>
+      </category>
       <category name="1 - Querbeet">
         <meal>
-          <name>Broccolicremesuppe, Kaiserbrötchen</name>
+          <name>Feuertopf, Fladenbrot</name>
           <note>Enthält Gluten</note>
-          <note>Enthält Soja</note>
+          <note>Enthält Sesamsamen</note>
+          <note>Enthält Weizen Gluten</note>
           <note>Vegan</note>
-          <price role="employee">4.00</price>
+          <price role="employee">3.95</price>
           <price role="other">7.65</price>
           <price role="student">1.85</price>
         </meal>
       </category>
       <category name="Beilagen">
         <meal>
-          <name>Kartoffelpüree</name>
+          <name>Käsekuchen</name>
+          <note>Enthält Eier</note>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
           <note>Vegetarisch</note>
+          <price role="employee">2.05</price>
+          <price role="other">0.00</price>
+          <price role="student">1.25</price>
+        </meal>
+        <meal>
+          <name>Mandelpudding Vegan, Dessert Topping</name>
+          <note>Enthält Soja</note>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Pommes frites</name>
+          <note>Vegan</note>
           <price role="employee">1.50</price>
           <price role="other">0.00</price>
           <price role="student">0.95</price>
         </meal>
         <meal>
-          <name>Kirschjoghurt, Dessert Topping</name>
-          <note>Enthält Hafer Gluten</note>
-          <note>Enthält Schalenfrüchte Mandeln</note>
-          <note>Enthält Soja</note>
-          <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Penne Rigate</name>
-          <note>Enthält Weizen Gluten</note>
+          <name>Reis</name>
           <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
@@ -47,7 +66,7 @@
           <name>Beilagensalat Standard MM</name>
           <note>Vegan</note>
           <price role="employee">0.95</price>
-          <price role="other">3.00</price>
+          <price role="other">0.00</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
@@ -56,20 +75,8 @@
           <note>Enthält Milch</note>
           <note>Vegetarisch</note>
           <price role="employee">0.95</price>
-          <price role="other">3.00</price>
-          <price role="student">0.65</price>
-        </meal>
-      </category>
-      <category name="Vegan/vegetarisch">
-        <meal>
-          <name>Penne arrabbiata</name>
-          <note>Enthält Weizen Gluten</note>
-          <note>Mit Farbstoff</note>
-          <note>Mit Konservierungsstoff</note>
-          <note>Vegan</note>
-          <price role="employee">2.10</price>
           <price role="other">0.00</price>
-          <price role="student">1.25</price>
+          <price role="student">0.65</price>
         </meal>
       </category>
       <category name="Speiseplan">
@@ -98,93 +105,62 @@
           <price role="student">0.77</price>
         </meal>
       </category>
-      <category name="Fleisch">
+      <category name="Vegan/vegetarisch">
         <meal>
-          <name>Schweineschnitzel, Paprikarahmsauce</name>
-          <note>Enthält Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>mit Schwein</note>
-          <price role="employee">4.30</price>
+          <name>Vegane Bratwurst, mit Currysauce</name>
+          <note>Vegan</note>
+          <price role="employee">3.55</price>
           <price role="other">0.00</price>
-          <price role="student">2.55</price>
+          <price role="student">2.10</price>
         </meal>
       </category>
     </day>
-    <day date="2026-08-05">
-      <category name="2 - Worldwide">
-        <meal>
-          <name>Chili con carne, Reis, Salat, Dessert</name>
-          <note>Enthält Gelatine</note>
-          <note>Enthält Hafer Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Senf</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Mit Antioxidationsmittel</note>
-          <note>Mit Farbstoff</note>
-          <note>Mit Konservierungsstoff</note>
-          <note>Neuland</note>
-          <note>mit Rind</note>
-          <price role="employee">5.30</price>
-          <price role="other">14.10</price>
-          <price role="student">3.10</price>
-        </meal>
-      </category>
+    <day date="2026-08-06">
       <category name="Fleisch">
         <meal>
-          <name>Chili con carne, Reis</name>
-          <note>Enthält Senf</note>
-          <note>Mit Farbstoff</note>
-          <note>Mit Konservierungsstoff</note>
-          <note>Neuland</note>
-          <note>mit Rind</note>
-          <price role="employee">5.30</price>
-          <price role="other">14.10</price>
-          <price role="student">3.10</price>
-        </meal>
-      </category>
-      <category name="1 - Querbeet">
-        <meal>
-          <name>Feuertopf, Kaiserbrötchen</name>
-          <note>Enthält Gluten</note>
-          <note>Vegan</note>
-          <price role="employee">4.00</price>
-          <price role="other">7.65</price>
-          <price role="student">1.85</price>
-        </meal>
-      </category>
-      <category name="1 - Vegan/vegetarisch">
-        <meal>
-          <name>Linsen Dal, Fladenbrot</name>
-          <note>Enthält Gluten</note>
-          <note>Enthält Sellerie</note>
-          <note>Enthält Sesamsamen</note>
+          <name>Cajun Chicken Pasta</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
           <note>Enthält Weizen Gluten</note>
-          <note>Mit Farbstoff</note>
-          <note>Mit Konservierungsstoff</note>
-          <note>Vegan</note>
-          <price role="employee">4.00</price>
-          <price role="other">7.65</price>
-          <price role="student">1.85</price>
+          <note>mit Geflügel</note>
+          <price role="employee">4.45</price>
+          <price role="other">0.00</price>
+          <price role="student">2.60</price>
         </meal>
       </category>
       <category name="Beilagen">
         <meal>
-          <name>Pommes frites</name>
+          <name>Curryreis</name>
+          <note>Vegan</note>
           <price role="employee">0.95</price>
-          <price role="other">3.00</price>
+          <price role="other">0.00</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Reis</name>
+          <name>Beilagensalat Standard MM</name>
+          <note>Vegan</note>
           <price role="employee">0.95</price>
-          <price role="other">3.00</price>
+          <price role="other">0.00</price>
           <price role="student">0.65</price>
         </meal>
+      </category>
+      <category name="1 - Vegan/vegetarisch">
         <meal>
-          <name>Beilagensalat Standard</name>
+          <name>Karotten-Ingwersuppe, Kaiserbrötchen</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Senf</note>
+          <note>Enthält Soja</note>
+          <note>Mit Farbstoff</note>
+          <note>Vegan</note>
+          <price role="employee">4.10</price>
+          <price role="other">7.80</price>
+          <price role="student">1.90</price>
+        </meal>
+      </category>
+      <category name="Querbeet">
+        <meal>
+          <name>Penne Rigate</name>
+          <note>Enthält Weizen Gluten</note>
           <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
@@ -219,28 +195,15 @@
       </category>
       <category name="Vegan/vegetarisch">
         <meal>
-          <name>Vegane Bratwurst, mit Currysauce, Pommes frites</name>
-          <note>Vegan</note>
-          <price role="employee">6.25</price>
-          <price role="other">17.30</price>
-          <price role="student">3.85</price>
-        </meal>
-      </category>
-      <category name="2 - Querbeet Vegan">
-        <meal>
-          <name>Vegane Bratwurst, mit Currysauce, Pommes frites, Salat, Dessert</name>
-          <note>Enthält Gelatine</note>
-          <note>Enthält Hafer Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Weizen Gluten</note>
+          <name>Samosaecken, Süß-saures Gemüse</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Sellerie</note>
+          <note>Enthält Senf</note>
           <note>Mit Antioxidationsmittel</note>
-          <note>Mit Farbstoff</note>
-          <note>Rettet die Knolle!</note>
           <note>Vegan</note>
-          <price role="employee">6.25</price>
-          <price role="other">17.30</price>
-          <price role="student">3.85</price>
+          <price role="employee">4.85</price>
+          <price role="other">0.00</price>
+          <price role="student">2.85</price>
         </meal>
       </category>
     </day>
