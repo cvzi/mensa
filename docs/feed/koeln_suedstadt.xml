@@ -4,6 +4,45 @@
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
     <day date="2026-08-03">
+      <category name="Beilagen">
+        <meal>
+          <name>Gelbe Spaghetti</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Kirschjoghurt, Dessert Topping</name>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Schalenfrüchte Mandeln</note>
+          <note>Enthält Soja</note>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Kirschquark</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Vegetarisch</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Pommes Wedges</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">1.55</price>
+          <price role="other">0.00</price>
+          <price role="student">0.95</price>
+        </meal>
+      </category>
       <category name="Speiseplan">
         <meal>
           <name>Gelbe Spaghetti</name>
@@ -50,43 +89,15 @@
           <price role="student">0.77</price>
         </meal>
       </category>
-      <category name="Beilagen">
+      <category name="Fleisch">
         <meal>
-          <name>Gelbe Spaghetti</name>
+          <name>Hähnchen-Crossies, Sweet-Chili Dip</name>
           <note>Enthält Gluten</note>
           <note>Enthält Weizen Gluten</note>
-          <note>Vegan</note>
-          <price role="employee">0.95</price>
+          <note>mit Geflügel</note>
+          <price role="employee">4.05</price>
           <price role="other">0.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Kirschjoghurt, Dessert Topping</name>
-          <note>Enthält Hafer Gluten</note>
-          <note>Enthält Schalenfrüchte Mandeln</note>
-          <note>Enthält Soja</note>
-          <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">3.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Kirschquark</name>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Vegetarisch</note>
-          <price role="employee">0.95</price>
-          <price role="other">3.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Pommes Wedges</name>
-          <note>Enthält Gluten</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Vegan</note>
-          <price role="employee">1.55</price>
-          <price role="other">0.00</price>
-          <price role="student">0.95</price>
+          <price role="student">2.35</price>
         </meal>
       </category>
       <category name="0 - Worldwide">
@@ -104,17 +115,6 @@
           <price role="employee">3.95</price>
           <price role="other">0.00</price>
           <price role="student">2.30</price>
-        </meal>
-      </category>
-      <category name="Fleisch">
-        <meal>
-          <name>Hähnchen-Crossies, Sweet-Chili Dip</name>
-          <note>Enthält Gluten</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>mit Geflügel</note>
-          <price role="employee">4.05</price>
-          <price role="other">0.00</price>
-          <price role="student">2.35</price>
         </meal>
       </category>
       <category name="Vegan/vegetarisch">
@@ -174,18 +174,18 @@
           <note>Enthält Gluten</note>
           <note>Enthält Soja</note>
           <note>Vegan</note>
-          <price role="employee">4.10</price>
-          <price role="other">7.80</price>
-          <price role="student">1.90</price>
+          <price role="employee">4.00</price>
+          <price role="other">7.65</price>
+          <price role="student">1.85</price>
         </meal>
         <meal>
           <name>Broccolicremesuppe, Kaiserbrötchen</name>
           <note>Enthält Gluten</note>
           <note>Enthält Soja</note>
           <note>Vegan</note>
-          <price role="employee">4.00</price>
-          <price role="other">7.65</price>
-          <price role="student">1.85</price>
+          <price role="employee">4.10</price>
+          <price role="other">7.80</price>
+          <price role="student">1.90</price>
         </meal>
       </category>
       <category name="Beilagen">
@@ -229,7 +229,7 @@
           <name>Beilagensalat Standard MM</name>
           <note>Vegan</note>
           <price role="employee">0.95</price>
-          <price role="other">0.00</price>
+          <price role="other">3.00</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
@@ -340,13 +340,6 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Pommes frites</name>
-          <note>Vegan</note>
-          <price role="employee">1.50</price>
-          <price role="other">0.00</price>
-          <price role="student">0.95</price>
-        </meal>
-        <meal>
           <name>Beilagensalat Standard MM</name>
           <note>Vegan</note>
           <price role="employee">0.95</price>
@@ -364,6 +357,13 @@
         </meal>
       </category>
       <category name="Querbeet">
+        <meal>
+          <name>Pommes frites</name>
+          <note>Vegan</note>
+          <price role="employee">1.50</price>
+          <price role="other">2.10</price>
+          <price role="student">0.95</price>
+        </meal>
         <meal>
           <name>Reis</name>
           <note>Vegan</note>
@@ -426,14 +426,22 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
+          <name>Mandelpudding Vegan, Dessert Topping</name>
+          <note>Enthält Soja</note>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
           <name>Beilagensalat Standard MM</name>
           <note>Vegan</note>
           <price role="employee">0.95</price>
-          <price role="other">0.00</price>
+          <price role="other">3.00</price>
           <price role="student">0.65</price>
         </meal>
       </category>
-      <category name="1 - Vegan/vegetarisch">
+      <category name="1 - Querbeet">
         <meal>
           <name>Karotten-Ingwersuppe, Kaiserbrötchen</name>
           <note>Enthält Gluten</note>
@@ -441,9 +449,20 @@
           <note>Enthält Soja</note>
           <note>Mit Farbstoff</note>
           <note>Vegan</note>
-          <price role="employee">4.10</price>
-          <price role="other">7.80</price>
-          <price role="student">1.90</price>
+          <price role="employee">4.00</price>
+          <price role="other">7.65</price>
+          <price role="student">1.85</price>
+        </meal>
+      </category>
+      <category name="Speiseplan">
+        <meal>
+          <name>Käsekuchen</name>
+          <note>Enthält Eier</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <price role="employee">1.50</price>
+          <price role="other">4.45</price>
+          <price role="student">0.95</price>
         </meal>
       </category>
       <category name="Querbeet">
@@ -455,8 +474,6 @@
           <price role="other">0.00</price>
           <price role="student">0.65</price>
         </meal>
-      </category>
-      <category name="Speiseplan">
         <meal>
           <name>Salatbuffet in Selbstbedienung, je 100g</name>
           <note>Enthält Eier</note>
@@ -492,7 +509,7 @@
           <note>Vegan</note>
           <price role="employee">4.85</price>
           <price role="other">0.00</price>
-          <price role="student">2.85</price>
+          <price role="student">2.60</price>
         </meal>
       </category>
     </day>
@@ -560,7 +577,7 @@
           <name>Beilagensalat Standard MM</name>
           <note>Vegan</note>
           <price role="employee">0.95</price>
-          <price role="other">0.00</price>
+          <price role="other">3.00</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
@@ -569,6 +586,18 @@
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
+        </meal>
+      </category>
+      <category name="Vegan/vegetarisch">
+        <meal>
+          <name>Schnitzel, Kräuter-Aioli</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Senf</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">3.35</price>
+          <price role="other">0.00</price>
+          <price role="student">2.00</price>
         </meal>
       </category>
       <category name="2 - Querbeet Vegan">
@@ -590,16 +619,18 @@
           <price role="student">3.10</price>
         </meal>
       </category>
-      <category name="Vegan/vegetarisch">
+      <category name="Fisch">
         <meal>
-          <name>Schnitzel, Kräuter-Aioli</name>
+          <name>Seelachs Meuniere, Zitronen-Dillrahmsauce</name>
+          <note>Enthält Fisch</note>
           <note>Enthält Gluten</note>
-          <note>Enthält Senf</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
           <note>Enthält Weizen Gluten</note>
-          <note>Vegan</note>
-          <price role="employee">3.35</price>
+          <note>mit Fisch</note>
+          <price role="employee">4.95</price>
           <price role="other">0.00</price>
-          <price role="student">2.00</price>
+          <price role="student">2.90</price>
         </meal>
       </category>
       <category name="2 - Worldwide">
@@ -619,20 +650,6 @@
           <price role="employee">6.45</price>
           <price role="other">18.75</price>
           <price role="student">4.15</price>
-        </meal>
-      </category>
-      <category name="Fisch">
-        <meal>
-          <name>Seelachs Meuniere, Zitronen-Dillrahmsauce</name>
-          <note>Enthält Fisch</note>
-          <note>Enthält Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>mit Fisch</note>
-          <price role="employee">4.95</price>
-          <price role="other">0.00</price>
-          <price role="student">2.90</price>
         </meal>
       </category>
     </day>
@@ -778,26 +795,6 @@
           <price role="student">3.85</price>
         </meal>
       </category>
-      <category name="2 - Querbeet Vegan">
-        <meal>
-          <name>Pommes frites, Veganes Gyros, Knoblauchsauce, Bunter Krautsalat, Dessert</name>
-          <note>Enthält Gelatine</note>
-          <note>Enthält Gerste Gluten</note>
-          <note>Enthält Gluten</note>
-          <note>Enthält Hafer Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Schalenfrüchte Mandeln</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Mit Antioxidationsmittel</note>
-          <note>Mit Farbstoff</note>
-          <note>Rettet die Knolle!</note>
-          <note>Vegan</note>
-          <price role="employee">6.50</price>
-          <price role="other">19.55</price>
-          <price role="student">4.30</price>
-        </meal>
-      </category>
       <category name="Speiseplan">
         <meal>
           <name>Pommes frites</name>
@@ -819,6 +816,26 @@
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
+        </meal>
+      </category>
+      <category name="2 - Querbeet Vegan">
+        <meal>
+          <name>Pommes frites, Veganes Gyros, Knoblauchsauce, Bunter Krautsalat, Dessert</name>
+          <note>Enthält Gelatine</note>
+          <note>Enthält Gerste Gluten</note>
+          <note>Enthält Gluten</note>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Schalenfrüchte Mandeln</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Mit Farbstoff</note>
+          <note>Rettet die Knolle!</note>
+          <note>Vegan</note>
+          <price role="employee">6.50</price>
+          <price role="other">19.55</price>
+          <price role="student">4.30</price>
         </meal>
       </category>
     </day>
