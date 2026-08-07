@@ -4,7 +4,7 @@
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
     <day date="2026-08-07">
-      <category name="Beilagen">
+      <category name="Querbeet - Beilagen">
         <meal>
           <name>Gelbe Spaghetti</name>
           <note>Enthält Gluten</note>
@@ -14,41 +14,8 @@
           <price role="other">0.00</price>
           <price role="student">0.65</price>
         </meal>
-        <meal>
-          <name>Kartoffelpüree</name>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Vegetarisch</note>
-          <price role="employee">1.50</price>
-          <price role="other">4.35</price>
-          <price role="student">0.95</price>
-        </meal>
-        <meal>
-          <name>Pommes Cubes</name>
-          <note>Enthält Gluten</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Mit Farbstoff</note>
-          <note>Vegan</note>
-          <price role="employee">1.50</price>
-          <price role="other">4.35</price>
-          <price role="student">0.95</price>
-        </meal>
-        <meal>
-          <name>Beilagensalat Standard MM</name>
-          <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">2.95</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Salzkartoffeln</name>
-          <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">2.95</price>
-          <price role="student">0.65</price>
-        </meal>
       </category>
-      <category name="1 - Vegan/vegetarisch">
+      <category name="1 - Querbeet">
         <meal>
           <name>Karotten-Ingwersuppe, Kaiserbrötchen</name>
           <note>Enthält Gluten</note>
@@ -63,6 +30,15 @@
       </category>
       <category name="Querbeet">
         <meal>
+          <name>Kartoffelpüree</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Vegetarisch</note>
+          <price role="employee">1.50</price>
+          <price role="other">2.10</price>
+          <price role="student">0.95</price>
+        </meal>
+        <meal>
           <name>Kirschjoghurt, Dessert Topping</name>
           <note>Enthält Hafer Gluten</note>
           <note>Enthält Schalenfrüchte Mandeln</note>
@@ -72,8 +48,13 @@
           <price role="other">2.95</price>
           <price role="student">0.65</price>
         </meal>
-      </category>
-      <category name="Speiseplan">
+        <meal>
+          <name>Beilagensalat Standard MM</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">1.30</price>
+          <price role="student">0.65</price>
+        </meal>
         <meal>
           <name>Salatbuffet in Selbstbedienung, je 100g</name>
           <note>Enthält Eier</note>
@@ -98,8 +79,6 @@
           <price role="other">2.91</price>
           <price role="student">0.77</price>
         </meal>
-      </category>
-      <category name="Vegan/vegetarisch">
         <meal>
           <name>Schnitzel, Kräuter-Aioli</name>
           <note>Enthält Gluten</note>
@@ -107,7 +86,7 @@
           <note>Enthält Weizen Gluten</note>
           <note>Vegan</note>
           <price role="employee">3.30</price>
-          <price role="other">0.00</price>
+          <price role="other">4.15</price>
           <price role="student">1.95</price>
         </meal>
         <meal>
@@ -116,6 +95,32 @@
           <price role="employee">3.55</price>
           <price role="other">0.00</price>
           <price role="student">2.10</price>
+        </meal>
+        <meal>
+          <name>Vegane Bratwurst, mit Currysauce</name>
+          <note>Vegan</note>
+          <price role="employee">3.55</price>
+          <price role="other">0.00</price>
+          <price role="student">2.10</price>
+        </meal>
+      </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Pommes Cubes</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Mit Farbstoff</note>
+          <note>Vegan</note>
+          <price role="employee">1.50</price>
+          <price role="other">4.35</price>
+          <price role="student">0.95</price>
+        </meal>
+        <meal>
+          <name>Salzkartoffeln</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">1.30</price>
+          <price role="student">0.65</price>
         </meal>
       </category>
       <category name="Heimspiel">
@@ -131,7 +136,7 @@
           <price role="student">2.55</price>
         </meal>
       </category>
-      <category name="Fisch">
+      <category name="Worldwide">
         <meal>
           <name>Seelachs Meuniere, Zitronen-Dillrahmsauce</name>
           <note>Enthält Fisch</note>
@@ -141,7 +146,7 @@
           <note>Enthält Weizen Gluten</note>
           <note>mit Fisch</note>
           <price role="employee">4.85</price>
-          <price role="other">0.00</price>
+          <price role="other">6.15</price>
           <price role="student">2.85</price>
         </meal>
       </category>
