@@ -24,22 +24,6 @@
           <price role="student">1.85</price>
         </meal>
       </category>
-      <category name="Speiseplan">
-        <meal>
-          <name>Gelbe Spaghetti</name>
-          <note>Enthält Gluten</note>
-          <note>Enthält Weizen Gluten</note>
-          <price role="employee">0.95</price>
-          <price role="other">3.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Beilagensalat Standard</name>
-          <price role="employee">0.95</price>
-          <price role="other">3.00</price>
-          <price role="student">0.65</price>
-        </meal>
-      </category>
       <category name="2 - Querbeet Vegan">
         <meal>
           <name>Pikante Thai-Bolognese, Spaghetti, Salat, Dessert, Sesam</name>
@@ -60,6 +44,22 @@
           <price role="employee">5.10</price>
           <price role="other">12.10</price>
           <price role="student">2.65</price>
+        </meal>
+      </category>
+      <category name="Speiseplan">
+        <meal>
+          <name>Rigatoni</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Weizen Gluten</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Beilagensalat Standard</name>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
         </meal>
       </category>
       <category name="Querbeet">
@@ -92,7 +92,7 @@
     <day date="2026-08-04">
       <category name="Meisterwerk Aktion">
         <meal>
-          <name>, Käse-Bratwurst  Currysauce, Krautsalat, Pommes Frites, Tzatziki</name>
+          <name>Gyros vom Schwein, Käse-Bratwurst  Currysauce, Krautsalat, Pommes Frites, Tzatziki</name>
           <note>Enthält Hafer Gluten</note>
           <note>Enthält Schalenfrüchte Mandeln</note>
           <note>Enthält Sellerie</note>
@@ -173,7 +173,7 @@
       </category>
       <category name="Speiseplan">
         <meal>
-          <name>Pommes Frites</name>
+          <name>Pommes frites</name>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
@@ -187,7 +187,7 @@
       </category>
     </day>
     <day date="2026-08-05">
-      <category name="Speiseplan">
+      <category name="Querbeet">
         <meal>
           <name>Chili sin carne Suppe, Brötchen</name>
           <note>Vegan</note>
@@ -195,20 +195,6 @@
           <price role="other">7.65</price>
           <price role="student">1.85</price>
         </meal>
-        <meal>
-          <name>Pommes frites</name>
-          <price role="employee">0.95</price>
-          <price role="other">3.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Beilagensalat Standard</name>
-          <price role="employee">0.95</price>
-          <price role="other">3.00</price>
-          <price role="student">0.65</price>
-        </meal>
-      </category>
-      <category name="Querbeet">
         <meal>
           <name>Chili sin Carne Suppe, Reis, Brötchen</name>
           <note>Enthält Gluten</note>
@@ -244,6 +230,20 @@
           <price role="student">0.77</price>
         </meal>
       </category>
+      <category name="Speiseplan">
+        <meal>
+          <name>Pommes frites</name>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Beilagensalat Standard</name>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+      </category>
       <category name="2 - Querbeet Vegan">
         <meal>
           <name>Vegane Bratwurst, mit Currysauce, Pommes frites, Salat, Dessert</name>
@@ -265,7 +265,7 @@
     <day date="2026-08-06">
       <category name="Speiseplan">
         <meal>
-          <name>Curryreis</name>
+          <name>Basmatireis</name>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
@@ -298,7 +298,10 @@
       <category name="Querbeet">
         <meal>
           <name>Orientalische Linsensuppe, Brötchen</name>
-          <note>Enthält Gluten</note>
+          <note>Enthält Sellerie</note>
+          <note>Enthält Senf</note>
+          <note>Mit Farbstoff</note>
+          <note>Mit Konservierungsstoff</note>
           <note>Vegan</note>
           <price role="employee">4.00</price>
           <price role="other">7.65</price>
@@ -306,10 +309,7 @@
         </meal>
         <meal>
           <name>Orientalische Linsensuppe, Brötchen</name>
-          <note>Enthält Sellerie</note>
-          <note>Enthält Senf</note>
-          <note>Mit Farbstoff</note>
-          <note>Mit Konservierungsstoff</note>
+          <note>Enthält Gluten</note>
           <note>Vegan</note>
           <price role="employee">4.00</price>
           <price role="other">7.65</price>
@@ -499,6 +499,47 @@
       </category>
     </day>
     <day date="2026-08-11">
+      <category name="Querbeet">
+        <meal>
+          <name>Ofenkartoffel, Kräuterquark, Röstzwiebeln, Salat, Dessert</name>
+          <note>Enthält Gelatine</note>
+          <note>Enthält Gluten</note>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Mit Farbstoff</note>
+          <note>Vegetarisch</note>
+          <price role="employee">5.30</price>
+          <price role="other">14.10</price>
+          <price role="student">3.10</price>
+        </meal>
+        <meal>
+          <name>Salatbuffet in Selbstbedienung, je 100g</name>
+          <note>Enthält Eier</note>
+          <note>Enthält Gerste Gluten</note>
+          <note>Enthält Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Schalenfrüchte (Nüsse)</note>
+          <note>Enthält Schalenfrüchte Kaschunuss</note>
+          <note>Enthält Schalenfrüchte Mandeln</note>
+          <note>Enthält Schalenfrüchte Walnuss</note>
+          <note>Enthält Sellerie</note>
+          <note>Enthält Senf</note>
+          <note>Enthält Sesamsamen</note>
+          <note>Enthält Soja</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Geschwefelt</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Mit Farbstoff</note>
+          <note>Mit Konservierungsstoff</note>
+          <price role="employee">0.97</price>
+          <price role="other">2.91</price>
+          <price role="student">0.77</price>
+        </meal>
+      </category>
       <category name="Speiseplan">
         <meal>
           <name>Rigatoni</name>
@@ -531,32 +572,6 @@
           <price role="employee">4.85</price>
           <price role="other">11.90</price>
           <price role="student">2.60</price>
-        </meal>
-      </category>
-      <category name="Querbeet">
-        <meal>
-          <name>Salatbuffet in Selbstbedienung, je 100g</name>
-          <note>Enthält Eier</note>
-          <note>Enthält Gerste Gluten</note>
-          <note>Enthält Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Schalenfrüchte (Nüsse)</note>
-          <note>Enthält Schalenfrüchte Kaschunuss</note>
-          <note>Enthält Schalenfrüchte Mandeln</note>
-          <note>Enthält Schalenfrüchte Walnuss</note>
-          <note>Enthält Sellerie</note>
-          <note>Enthält Senf</note>
-          <note>Enthält Sesamsamen</note>
-          <note>Enthält Soja</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Geschwefelt</note>
-          <note>Mit Antioxidationsmittel</note>
-          <note>Mit Farbstoff</note>
-          <note>Mit Konservierungsstoff</note>
-          <price role="employee">0.97</price>
-          <price role="other">2.91</price>
-          <price role="student">0.77</price>
         </meal>
       </category>
     </day>
@@ -645,6 +660,24 @@
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
+        </meal>
+      </category>
+      <category name="Worldwide">
+        <meal>
+          <name>Lasagne Bolognese mit Rindfleisch, Salat, Dessert</name>
+          <note>Enthält Gelatine</note>
+          <note>Enthält Gluten</note>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Sellerie</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Mit Farbstoff</note>
+          <note>mit Rind</note>
+          <price role="employee">6.25</price>
+          <price role="other">17.30</price>
+          <price role="student">3.85</price>
         </meal>
       </category>
       <category name="Querbeet">
