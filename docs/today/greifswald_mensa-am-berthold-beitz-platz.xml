@@ -3,36 +3,79 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2026-08-13">
-      <category name="Komponente 1">
+    <day date="2026-08-14">
+      <category name="Tellergericht vegetarisch">
         <meal>
-          <name>Paniertes Schollenfilet  
- mit Remoulade</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
-          <note>Fische und daraus hergestellte Erzeugnisse</note>
+          <name>ReBowl [Preis pro 100g]: Grießbrei  
+ mit Beerenobst</name>
           <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker (Laktose)</note>
           <note>mit Farbstoff</note>
-          <note>mit Süßungsmittel</note>
+          <price role="employee">0.59</price>
+          <price role="other">0.88</price>
+          <price role="student">0.33</price>
+        </meal>
+        <meal>
+          <name>Kl. Schüssel: Grießbrei  
+ mit Beerenobst</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">1.70</price>
+          <price role="other">2.55</price>
+          <price role="student">0.90</price>
+        </meal>
+        <meal>
+          <name>Teller: Grießbrei  
+ mit Beerenobst</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">2.65</price>
+          <price role="other">3.95</price>
+          <price role="student">1.50</price>
+        </meal>
+        <meal>
+          <name>Terrine: Grießbrei  
+ mit Beerenobst</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">4.30</price>
+          <price role="other">5.80</price>
+          <price role="student">2.20</price>
+        </meal>
+      </category>
+      <category name="Komponente 2">
+        <meal>
+          <name>8 Schwedische Köttbullar  
+ mit Rahmsoße</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <note>Rindfleisch</note>
+          <note>Schweinefleisch</note>
           <price role="employee">3.35</price>
           <price role="other">4.45</price>
           <price role="student">2.25</price>
         </meal>
       </category>
-      <category name="Komponente 2">
+      <category name="Komponente 3">
         <meal>
-          <name>Hackbraten  
- mit Bratensoße</name>
-          <note>Rindfleisch</note>
-          <note>Schweinefleisch</note>
-          <price role="employee">3.60</price>
-          <price role="other">4.70</price>
-          <price role="student">2.50</price>
+          <name>Geflügelbratwurst (R,Gefl) 
+ mit Möhren-Erbsen-Gemüse in Rahm</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <price role="employee">3.35</price>
+          <price role="other">4.45</price>
+          <price role="student">2.25</price>
         </meal>
       </category>
       <category name="Vegane Komponente 1">
         <meal>
-          <name>Waldpilzgeschnetzeltes mit planted.chicken [aus Erbsenprotein]</name>
-          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
+          <name>Hausgemachtes Auberginenschnitzel im Haferflockenmantel  
+ mit Tomatensoße</name>
+          <note>Glutenhaltiges Getreide</note>
           <price role="employee">3.10</price>
           <price role="other">4.20</price>
           <price role="student">2.00</price>
@@ -40,64 +83,37 @@
       </category>
       <category name="Vegane Komponente 2">
         <meal>
-          <name>Jackfruit-Burger BBQ Patty  
- mit Barbecuedip</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <name>planted.steak [aus Sojaprotein]</name>
           <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
-          <price role="employee">3.10</price>
-          <price role="other">4.20</price>
-          <price role="student">2.00</price>
-        </meal>
-      </category>
-      <category name="Veganes Essen">
-        <meal>
-          <name>Bratwurst mit Gemüsefüllung  
- und Barbecuedip</name>
-          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
-          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
-          <price role="employee">3.35</price>
-          <price role="other">4.45</price>
-          <price role="student">2.25</price>
+          <price role="employee">4.60</price>
+          <price role="other">5.70</price>
+          <price role="student">3.50</price>
         </meal>
       </category>
       <category name="Mittagsgericht Mensa-Café Klinikum (zzgl. 5€ ReBowl-Pfand)">
         <meal>
-          <name>Hackbraten  
- mit Bratensoße  dazu Bratkartoffeln [mit Speck und Zwiebeln]</name>
-          <note>Rindfleisch</note>
-          <note>Schweinefleisch</note>
-          <price role="employee">5.75</price>
-          <price role="other">7.60</price>
-          <price role="student">3.90</price>
-        </meal>
-      </category>
-      <category name="Pasta pro Portion oder nach Gewicht (pro 100g)">
-        <meal>
-          <name>Pastateller: Farfalle  
- mit Rucola-Nusspesto [vegan]</name>
+          <name>Geflügelbratwurst (R,Gefl) 
+ mit Rahm-Mischgemüse  und Kartoffelkroketten</name>
           <note>Glutenhaltiges Getreide</note>
-          <note>Schalenfrüchte und daraus hergestellte Erzeugnisse (Mandeln, Haselnuss usw.)</note>
-          <price role="employee">1.10</price>
-          <price role="other">1.55</price>
-          <price role="student">0.65</price>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <price role="employee">5.70</price>
+          <price role="other">7.55</price>
+          <price role="student">3.85</price>
         </meal>
       </category>
       <category name="Beilagen - Alle Beilagen sind vegan, sofern nicht anders gekennzeichnet.">
         <meal>
-          <name>Schrippe</name>
-          <note>Glutenhaltiges Getreide</note>
-          <price role="employee">0.60</price>
+          <name>Kräuterbutter [vegetarisch, portioniert]</name>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <price role="employee">0.55</price>
           <price role="other">0.80</price>
-          <price role="student">0.40</price>
+          <price role="student">0.30</price>
         </meal>
         <meal>
-          <name>Mehrkornbrötchen</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Sesamsamen und daraus hergestellte Erzeugnisse</note>
-          <price role="employee">0.65</price>
-          <price role="other">0.85</price>
-          <price role="student">0.45</price>
+          <name>Preiselbeermarmelade</name>
+          <price role="employee">1.10</price>
+          <price role="other">1.40</price>
+          <price role="student">0.80</price>
         </meal>
         <meal>
           <name>Kartoffeln</name>
@@ -106,52 +122,63 @@
           <price role="student">0.80</price>
         </meal>
         <meal>
-          <name>Remoulade [vegetarisch]</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>mit Süßungsmittel</note>
-          <price role="employee">1.10</price>
-          <price role="other">1.40</price>
+          <name>Langkornreis</name>
+          <price role="employee">1.30</price>
+          <price role="other">1.80</price>
           <price role="student">0.80</price>
         </meal>
         <meal>
-          <name>Gitterkartoffeln [Criss Cuts]</name>
-          <note>Glutenhaltiges Getreide</note>
-          <price role="employee">1.60</price>
-          <price role="other">2.10</price>
-          <price role="student">1.10</price>
-        </meal>
-        <meal>
-          <name>Schnittlauch-Sahnekartoffeln [vegetarisch]</name>
+          <name>8 Kartoffelkroketten [vegetarisch]</name>
           <note>Milch/Milchzucker (Laktose)</note>
           <price role="employee">1.60</price>
           <price role="other">2.10</price>
           <price role="student">1.10</price>
         </meal>
         <meal>
-          <name>Bratkartoffeln [mit Speck und Zwiebeln]</name>
-          <note>Schweinefleisch</note>
+          <name>Gemüse-Couscous</name>
+          <note>Glutenhaltiges Getreide</note>
           <price role="employee">1.60</price>
           <price role="other">2.10</price>
           <price role="student">1.10</price>
         </meal>
         <meal>
-          <name>Gitterkartoffeln MAXI PORTION [Criss Cuts]</name>
-          <note>Glutenhaltiges Getreide</note>
-          <price role="employee">3.25</price>
-          <price role="other">4.30</price>
-          <price role="student">2.20</price>
+          <name>Bratkartoffeln</name>
+          <price role="employee">1.60</price>
+          <price role="other">2.10</price>
+          <price role="student">1.10</price>
+        </meal>
+        <meal>
+          <name>Extra: Schnittlauch-Sahnekartoffeln</name>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <price role="employee">1.60</price>
+          <price role="other">2.10</price>
+          <price role="student">1.10</price>
+        </meal>
+        <meal>
+          <name>Extra: Bratkartoffeln [mit Speck und Zwiebeln]</name>
+          <note>Schweinefleisch</note>
+          <price role="employee">1.60</price>
+          <price role="other">2.10</price>
+          <price role="student">1.10</price>
         </meal>
       </category>
       <category name="Gemüse - Alle Gemüsebeilagen sind vegan, sofern nicht anders gekennzeichnet.">
         <meal>
-          <name>Sommergemüse [Blumenkohl, Brechbohnen, Karottenstäbchen, Markerbsen]</name>
-          <price role="employee">1.30</price>
-          <price role="other">1.80</price>
-          <price role="student">0.80</price>
+          <name>Möhren-Erbsen-Gemüse in Rahm [vegetarisch]</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <price role="employee">1.50</price>
+          <price role="other">2.00</price>
+          <price role="student">1.00</price>
         </meal>
         <meal>
-          <name>Gemüsemix Excellence [Blumenkohl, Brokkoli, Rosenkohl, mehrfarbige Möhren]</name>
+          <name>Europagemüse [gelbe und orange Karottenscheiben, Romanobohnen, Brokkoliröschen]</name>
+          <price role="employee">1.50</price>
+          <price role="other">2.00</price>
+          <price role="student">1.00</price>
+        </meal>
+        <meal>
+          <name>Zuckererbsenschoten</name>
           <price role="employee">1.50</price>
           <price role="other">2.00</price>
           <price role="student">1.00</price>
