@@ -363,13 +363,36 @@
           <price role="student">3.10</price>
         </meal>
       </category>
-      <category name="Speiseplan">
+      <category name="Beilagen">
         <meal>
           <name>Basmatireis</name>
+          <note>Vegan</note>
           <price role="employee">0.95</price>
-          <price role="other">3.00</price>
+          <price role="other">0.00</price>
           <price role="student">0.65</price>
         </meal>
+        <meal>
+          <name>Pommes Wedges</name>
+          <note>Vegan</note>
+          <price role="employee">1.55</price>
+          <price role="other">0.00</price>
+          <price role="student">0.95</price>
+        </meal>
+      </category>
+      <category name="1 - Querbeet">
+        <meal>
+          <name>Fruchtige Curry-Kokossuppe, Fladenbrot</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Sesamsamen</note>
+          <note>Enthält Soja</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">4.00</price>
+          <price role="other">7.65</price>
+          <price role="student">1.85</price>
+        </meal>
+      </category>
+      <category name="Speiseplan">
         <meal>
           <name>Krautsalat</name>
           <price role="employee">0.95</price>
@@ -378,12 +401,6 @@
         </meal>
         <meal>
           <name>Möhrenscheiben</name>
-          <price role="employee">0.95</price>
-          <price role="other">3.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Pommes Wedges</name>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
@@ -408,19 +425,6 @@
           <price role="employee">0.80</price>
           <price role="other">2.85</price>
           <price role="student">0.60</price>
-        </meal>
-      </category>
-      <category name="1 - Querbeet">
-        <meal>
-          <name>Fruchtige Curry-Kokossuppe, Fladenbrot</name>
-          <note>Enthält Gluten</note>
-          <note>Enthält Sesamsamen</note>
-          <note>Enthält Soja</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Vegan</note>
-          <price role="employee">4.00</price>
-          <price role="other">7.65</price>
-          <price role="student">1.85</price>
         </meal>
       </category>
       <category name="VGT - Sonstiges">
@@ -540,7 +544,7 @@
           <price role="student">0.77</price>
         </meal>
       </category>
-      <category name="Querbeet Vegan">
+      <category name="2 - Querbeet Vegan">
         <meal>
           <name>Schnitzel, Rahmsauce, Kürbis- Karottenpüree, Salat, Dessert</name>
           <note>Enthält Gelatine</note>
@@ -790,7 +794,6 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -885,7 +888,6 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -988,7 +990,6 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -1092,12 +1093,6 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Salzkartoffeln</name>
-          <price role="employee">0.95</price>
-          <price role="other">3.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
           <name>Tagesrestproduktion</name>
           <note>Mit Antioxidationsmittel</note>
           <price role="employee">0.80</price>
@@ -1126,10 +1121,18 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
+        </meal>
+      </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Salzkartoffeln</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
         </meal>
       </category>
     </day>

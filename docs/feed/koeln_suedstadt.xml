@@ -556,12 +556,6 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Pommes Wedges</name>
-          <price role="employee">0.95</price>
-          <price role="other">3.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
           <name>Beilagensalat Standard</name>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
@@ -585,6 +579,13 @@
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Pommes Wedges</name>
+          <note>Vegan</note>
+          <price role="employee">1.50</price>
+          <price role="other">4.45</price>
+          <price role="student">0.95</price>
         </meal>
         <meal>
           <name>Spaghetti</name>
@@ -683,6 +684,35 @@
       </category>
     </day>
     <day date="2026-08-21">
+      <category name="Beilagen">
+        <meal>
+          <name>Bananenbrot</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Soja</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Beerenquark</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Vegetarisch</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Mandelpudding Vegan, Dessert Topping</name>
+          <note>Enthält Soja</note>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+      </category>
       <category name="Speiseplan">
         <meal>
           <name>Broccoli</name>
@@ -707,6 +737,19 @@
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
+        </meal>
+      </category>
+      <category name="1 - Vegan/vegetarisch">
+        <meal>
+          <name>Fruchtige Curry-Kokossuppe, Fladenbrot</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Sesamsamen</note>
+          <note>Enthält Soja</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">4.10</price>
+          <price role="other">7.80</price>
+          <price role="student">1.90</price>
         </meal>
       </category>
       <category name="1 - Querbeet">
@@ -750,7 +793,7 @@
       </category>
       <category name="2 - Querbeet Vegan">
         <meal>
-          <name>Schnitzel, Kräuterrahmsauce, Broccoli, Salzkartoffeln, Salat</name>
+          <name>Schnitzel, Kräuterrahmsauce, Broccoli, Kartoffelsalat, Salat</name>
           <note>Enthält Gelatine</note>
           <note>Enthält Gluten</note>
           <note>Enthält Hafer Gluten</note>
