@@ -243,22 +243,27 @@
           <price role="student">0.77</price>
         </meal>
       </category>
-    </day>
-    <day date="2026-08-27">
-      <category name="Meisterwerk Aktion">
+      <category name="Speiseplan">
         <meal>
-          <name>Beef Burger, Pommes frites</name>
-          <note>Enthält Senf</note>
-          <note>Mit Süßstoff</note>
-          <note>mit Rind</note>
-          <price role="employee">7.50</price>
-          <price role="other">21.75</price>
-          <price role="student">4.80</price>
+          <name>Beilagensalat Standard</name>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Vollkorn Spaghetti</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Weizen Gluten</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
         </meal>
       </category>
+    </day>
+    <day date="2026-08-27">
       <category name="2 - Querbeet Vegan">
         <meal>
-          <name>Gnocchi mit geröst. Paprika und Champignons, Salat, Dessert</name>
+          <name>Gnocchi mit geröst. Paprika und Champignons, Sour Creme, Salat, Dessert</name>
           <note>Enthält Gelatine</note>
           <note>Enthält Gluten</note>
           <note>Enthält Hafer Gluten</note>
@@ -277,15 +282,19 @@
           <price role="student">3.10</price>
         </meal>
       </category>
-      <category name="Speiseplan">
-        <meal>
-          <name>Beilagensalat Standard</name>
-          <price role="employee">0.95</price>
-          <price role="other">3.00</price>
-          <price role="student">0.65</price>
-        </meal>
-      </category>
       <category name="Querbeet">
+        <meal>
+          <name>Kartoffelcremesuppe, Brötchen</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Senf</note>
+          <note>Mit Farbstoff</note>
+          <note>Vegan</note>
+          <price role="employee">4.00</price>
+          <price role="other">7.65</price>
+          <price role="student">1.85</price>
+        </meal>
         <meal>
           <name>Salatbuffet in Selbstbedienung, je 100g</name>
           <note>Enthält Eier</note>
@@ -404,7 +413,7 @@
     <day date="2026-08-30">
       <category name="2 - Querbeet Vegan">
         <meal>
-          <name>Gnocchi mit geröst. Paprika und Champignons, Salat, Dessert</name>
+          <name>Gnocchi mit geröst. Paprika und Champignons, Sour Creme, Salat, Dessert</name>
           <note>Enthält Gelatine</note>
           <note>Enthält Gluten</note>
           <note>Enthält Hafer Gluten</note>
@@ -528,7 +537,7 @@
         <meal>
           <name>Erbsen und Möhren</name>
           <price role="employee">0.95</price>
-          <price role="other">0.00</price>
+          <price role="other">3.00</price>
           <price role="student">0.65</price>
         </meal>
       </category>
@@ -551,8 +560,8 @@
         <meal>
           <name>Pommes Wedges</name>
           <note>Vegan</note>
-          <price role="employee">1.55</price>
-          <price role="other">0.00</price>
+          <price role="employee">1.50</price>
+          <price role="other">4.45</price>
           <price role="student">0.95</price>
         </meal>
         <meal>
@@ -607,7 +616,7 @@
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
           <price role="employee">0.95</price>
-          <price role="other">0.00</price>
+          <price role="other">3.00</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
@@ -621,8 +630,17 @@
           <note>Enthält Gluten</note>
           <note>Enthält Weizen Gluten</note>
           <price role="employee">0.95</price>
-          <price role="other">0.00</price>
+          <price role="other">3.00</price>
           <price role="student">0.65</price>
+        </meal>
+      </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Pommes frites</name>
+          <note>Vegan</note>
+          <price role="employee">1.50</price>
+          <price role="other">4.45</price>
+          <price role="student">0.95</price>
         </meal>
       </category>
       <category name="Querbeet">
@@ -711,7 +729,7 @@
         <meal>
           <name>Broccoli</name>
           <price role="employee">0.95</price>
-          <price role="other">0.00</price>
+          <price role="other">3.00</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
@@ -719,7 +737,7 @@
           <note>Enthält Gluten</note>
           <note>Enthält Weizen Gluten</note>
           <price role="employee">0.95</price>
-          <price role="other">0.00</price>
+          <price role="other">3.00</price>
           <price role="student">0.65</price>
         </meal>
       </category>
@@ -728,8 +746,8 @@
           <name>Kartoffel-Blumenkohlstampf</name>
           <note>Enthält Soja</note>
           <note>Vegan</note>
-          <price role="employee">1.55</price>
-          <price role="other">0.00</price>
+          <price role="employee">1.50</price>
+          <price role="other">4.45</price>
           <price role="student">0.95</price>
         </meal>
       </category>
@@ -778,7 +796,7 @@
         <meal>
           <name>Kaisergemüse</name>
           <price role="employee">0.95</price>
-          <price role="other">0.00</price>
+          <price role="other">3.00</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
@@ -786,7 +804,7 @@
           <note>Enthält Gluten</note>
           <note>Enthält Weizen Gluten</note>
           <price role="employee">0.95</price>
-          <price role="other">0.00</price>
+          <price role="other">3.00</price>
           <price role="student">0.65</price>
         </meal>
       </category>
@@ -833,7 +851,7 @@
           <name>Salzkartoffeln</name>
           <note>Vegan</note>
           <price role="employee">0.95</price>
-          <price role="other">0.00</price>
+          <price role="other">3.00</price>
           <price role="student">0.65</price>
         </meal>
       </category>

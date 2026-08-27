@@ -93,7 +93,7 @@ Traceback (most recent call last):
     raise ConnectTimeoutError(
     ...<2 lines>...
     ) from e
-urllib3.exceptions.ConnectTimeoutError: (<HTTPSConnection(host='abg.inetmenue.de', port=443) at 0x7fb324066850>, 'Connection to abg.inetmenue.de timed out. (connect timeout=None)')
+urllib3.exceptions.ConnectTimeoutError: (<HTTPSConnection(host='abg.inetmenue.de', port=443) at 0x7f99517d4f50>, 'Connection to abg.inetmenue.de timed out. (connect timeout=None)')
 
 The above exception was the direct cause of the following exception:
 
@@ -111,7 +111,7 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.14.7/x64/lib/python3.14/site-packages/urllib3/util/retry.py", line 543, in increment
     raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='abg.inetmenue.de', port=443): Max retries exceeded with url: /fs/menu/week (Caused by ConnectTimeoutError(<HTTPSConnection(host='abg.inetmenue.de', port=443) at 0x7fb324066850>, 'Connection to abg.inetmenue.de timed out. (connect timeout=None)'))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='abg.inetmenue.de', port=443): Max retries exceeded with url: /fs/menu/week (Caused by ConnectTimeoutError(<HTTPSConnection(host='abg.inetmenue.de', port=443) at 0x7f99517d4f50>, 'Connection to abg.inetmenue.de timed out. (connect timeout=None)'))
 
 During handling of the above exception, another exception occurred:
 
@@ -137,7 +137,7 @@ Traceback (most recent call last):
     r = adapter.send(request, **kwargs)
   File "/opt/hostedtoolcache/Python/3.14.7/x64/lib/python3.14/site-packages/requests/adapters.py", line 717, in send
     raise ConnectTimeout(e, request=request)
-requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='abg.inetmenue.de', port=443): Max retries exceeded with url: /fs/menu/week (Caused by ConnectTimeoutError(<HTTPSConnection(host='abg.inetmenue.de', port=443) at 0x7fb324066850>, 'Connection to abg.inetmenue.de timed out. (connect timeout=None)'))
+requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='abg.inetmenue.de', port=443): Max retries exceeded with url: /fs/menu/week (Caused by ConnectTimeoutError(<HTTPSConnection(host='abg.inetmenue.de', port=443) at 0x7f99517d4f50>, 'Connection to abg.inetmenue.de timed out. (connect timeout=None)'))
 </pre></article>
       <article>
 <ol style="list-style-type:none">
