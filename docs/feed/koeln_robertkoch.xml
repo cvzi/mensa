@@ -22,9 +22,9 @@
         <meal>
           <name>Pommes frites</name>
           <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">3.00</price>
-          <price role="student">0.65</price>
+          <price role="employee">1.55</price>
+          <price role="other">0.00</price>
+          <price role="student">0.95</price>
         </meal>
       </category>
       <category name="2 - Heimspiel">
@@ -54,9 +54,6 @@
         </meal>
         <meal>
           <name>Tagesrestproduktion</name>
-          <note>Mit Antioxidationsmittel</note>
-          <note>Mit Farbstoff</note>
-          <note>Mit Konservierungsstoff</note>
           <price role="employee">0.80</price>
           <price role="other">2.85</price>
           <price role="student">0.60</price>
@@ -167,9 +164,9 @@
         <meal>
           <name>Pommes frites</name>
           <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">3.00</price>
-          <price role="student">0.65</price>
+          <price role="employee">1.55</price>
+          <price role="other">0.00</price>
+          <price role="student">0.95</price>
         </meal>
       </category>
       <category name="Speiseplan">
@@ -189,9 +186,6 @@
         </meal>
         <meal>
           <name>Tagesrestproduktion</name>
-          <note>Mit Antioxidationsmittel</note>
-          <note>Mit Farbstoff</note>
-          <note>Mit Konservierungsstoff</note>
           <price role="employee">0.80</price>
           <price role="other">2.85</price>
           <price role="student">0.60</price>
@@ -242,9 +236,6 @@
         </meal>
         <meal>
           <name>Tagesrestproduktion</name>
-          <note>Mit Antioxidationsmittel</note>
-          <note>Mit Farbstoff</note>
-          <note>Mit Konservierungsstoff</note>
           <price role="employee">0.80</price>
           <price role="other">2.85</price>
           <price role="student">0.60</price>
@@ -357,28 +348,13 @@
       </category>
     </day>
     <day date="2026-08-27">
-      <category name="Speiseplan">
+      <category name="Beilagen">
         <meal>
           <name>Duftreis</name>
+          <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Beilagensalat Standard</name>
-          <note>v</note>
-          <price role="employee">0.95</price>
-          <price role="other">3.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Tagesrestproduktion</name>
-          <note>Mit Antioxidationsmittel</note>
-          <note>Mit Farbstoff</note>
-          <note>Mit Konservierungsstoff</note>
-          <price role="employee">0.80</price>
-          <price role="other">2.85</price>
-          <price role="student">0.60</price>
         </meal>
       </category>
       <category name="2 - Worldwide">
@@ -416,6 +392,21 @@
           <price role="employee">5.30</price>
           <price role="other">14.10</price>
           <price role="student">3.10</price>
+        </meal>
+      </category>
+      <category name="Speiseplan">
+        <meal>
+          <name>Beilagensalat Standard</name>
+          <note>v</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Tagesrestproduktion</name>
+          <price role="employee">0.80</price>
+          <price role="other">2.85</price>
+          <price role="student">0.60</price>
         </meal>
       </category>
       <category name="Querbeet">
@@ -535,9 +526,6 @@
         </meal>
         <meal>
           <name>Tagesrestproduktion</name>
-          <note>Mit Antioxidationsmittel</note>
-          <note>Mit Farbstoff</note>
-          <note>Mit Konservierungsstoff</note>
           <price role="employee">0.80</price>
           <price role="other">2.85</price>
           <price role="student">0.60</price>
@@ -577,6 +565,47 @@
       <closed/>
     </day>
     <day date="2026-08-31">
+      <category name="Speiseplan">
+        <meal>
+          <name>Apfel</name>
+          <price role="employee">0.00</price>
+          <price role="other">0.00</price>
+          <price role="student">0.00</price>
+        </meal>
+        <meal>
+          <name>Banane STK</name>
+          <price role="employee">0.65</price>
+          <price role="other">1.05</price>
+          <price role="student">0.60</price>
+        </meal>
+        <meal>
+          <name>Mischgemüse</name>
+          <price role="employee">2.90</price>
+          <price role="other">0.00</price>
+          <price role="student">2.00</price>
+        </meal>
+        <meal>
+          <name>Blumenkohl, Gemüserahmsauce</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Sellerie</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Nektarine</name>
+          <price role="employee">0.00</price>
+          <price role="other">0.00</price>
+          <price role="student">0.00</price>
+        </meal>
+        <meal>
+          <name>Tagesrestproduktion</name>
+          <price role="employee">0.80</price>
+          <price role="other">2.85</price>
+          <price role="student">0.60</price>
+        </meal>
+      </category>
       <category name="Beilagen">
         <meal>
           <name>Dessertbecher</name>
@@ -631,32 +660,6 @@
           <price role="employee">2.60</price>
           <price role="other">0.00</price>
           <price role="student">1.55</price>
-        </meal>
-      </category>
-      <category name="Speiseplan">
-        <meal>
-          <name>Blumenkohl, Gemüserahmsauce</name>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Sellerie</note>
-          <price role="employee">0.95</price>
-          <price role="other">3.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Mischgemüse</name>
-          <price role="employee">2.90</price>
-          <price role="other">0.00</price>
-          <price role="student">2.00</price>
-        </meal>
-        <meal>
-          <name>Tagesrestproduktion</name>
-          <note>Mit Antioxidationsmittel</note>
-          <note>Mit Farbstoff</note>
-          <note>Mit Konservierungsstoff</note>
-          <price role="employee">0.80</price>
-          <price role="other">2.85</price>
-          <price role="student">0.60</price>
         </meal>
       </category>
       <category name="Fleisch">
@@ -725,6 +728,13 @@
         <meal>
           <name>Pommes Wedges</name>
           <note>Vegan</note>
+          <price role="employee">1.50</price>
+          <price role="other">4.45</price>
+          <price role="student">0.95</price>
+        </meal>
+        <meal>
+          <name>Pommes Wedges</name>
+          <note>Vegan</note>
           <price role="employee">1.55</price>
           <price role="other">0.00</price>
           <price role="student">0.95</price>
@@ -764,9 +774,6 @@
         </meal>
         <meal>
           <name>Tagesrestproduktion</name>
-          <note>Mit Antioxidationsmittel</note>
-          <note>Mit Farbstoff</note>
-          <note>Mit Konservierungsstoff</note>
           <price role="employee">0.80</price>
           <price role="other">2.85</price>
           <price role="student">0.60</price>
@@ -838,6 +845,32 @@
       </category>
     </day>
     <day date="2026-09-02">
+      <category name="Speiseplan">
+        <meal>
+          <name>Apfel</name>
+          <price role="employee">0.00</price>
+          <price role="other">0.00</price>
+          <price role="student">0.00</price>
+        </meal>
+        <meal>
+          <name>Banane STK</name>
+          <price role="employee">0.65</price>
+          <price role="other">1.05</price>
+          <price role="student">0.60</price>
+        </meal>
+        <meal>
+          <name>Nektarine</name>
+          <price role="employee">0.00</price>
+          <price role="other">0.00</price>
+          <price role="student">0.00</price>
+        </meal>
+        <meal>
+          <name>Tagesrestproduktion</name>
+          <price role="employee">0.80</price>
+          <price role="other">2.85</price>
+          <price role="student">0.60</price>
+        </meal>
+      </category>
       <category name="Beilagen">
         <meal>
           <name>Dessertbecher</name>
@@ -853,7 +886,7 @@
         <meal>
           <name>Kleine Schale salat</name>
           <price role="employee">0.95</price>
-          <price role="other">3.00</price>
+          <price role="other">0.00</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
@@ -918,17 +951,6 @@
           <price role="student">0.77</price>
         </meal>
       </category>
-      <category name="Speiseplan">
-        <meal>
-          <name>Tagesrestproduktion</name>
-          <note>Mit Antioxidationsmittel</note>
-          <note>Mit Farbstoff</note>
-          <note>Mit Konservierungsstoff</note>
-          <price role="employee">0.80</price>
-          <price role="other">2.85</price>
-          <price role="student">0.60</price>
-        </meal>
-      </category>
       <category name="Fleisch">
         <meal>
           <name>Weisskohl-Hackfleischpfanne mit Schupfnudeln</name>
@@ -971,6 +993,32 @@
           <price role="student">3.05</price>
         </meal>
       </category>
+      <category name="Speiseplan">
+        <meal>
+          <name>Apfel</name>
+          <price role="employee">0.00</price>
+          <price role="other">0.00</price>
+          <price role="student">0.00</price>
+        </meal>
+        <meal>
+          <name>Banane STK</name>
+          <price role="employee">0.65</price>
+          <price role="other">1.05</price>
+          <price role="student">0.60</price>
+        </meal>
+        <meal>
+          <name>Nektarine</name>
+          <price role="employee">0.00</price>
+          <price role="other">0.00</price>
+          <price role="student">0.00</price>
+        </meal>
+        <meal>
+          <name>Tagesrestproduktion</name>
+          <price role="employee">0.80</price>
+          <price role="other">2.85</price>
+          <price role="student">0.60</price>
+        </meal>
+      </category>
       <category name="Beilagen">
         <meal>
           <name>Dessertbecher</name>
@@ -994,7 +1042,7 @@
         <meal>
           <name>Kleine Schale salat</name>
           <price role="employee">0.95</price>
-          <price role="other">3.00</price>
+          <price role="other">0.00</price>
           <price role="student">0.65</price>
         </meal>
       </category>
@@ -1037,17 +1085,6 @@
           <price role="student">0.77</price>
         </meal>
       </category>
-      <category name="Speiseplan">
-        <meal>
-          <name>Tagesrestproduktion</name>
-          <note>Mit Antioxidationsmittel</note>
-          <note>Mit Farbstoff</note>
-          <note>Mit Konservierungsstoff</note>
-          <price role="employee">0.80</price>
-          <price role="other">2.85</price>
-          <price role="student">0.60</price>
-        </meal>
-      </category>
     </day>
     <day date="2026-09-04">
       <category name="Fisch">
@@ -1061,6 +1098,32 @@
           <price role="employee">5.10</price>
           <price role="other">0.00</price>
           <price role="student">3.00</price>
+        </meal>
+      </category>
+      <category name="Speiseplan">
+        <meal>
+          <name>Apfel</name>
+          <price role="employee">0.00</price>
+          <price role="other">0.00</price>
+          <price role="student">0.00</price>
+        </meal>
+        <meal>
+          <name>Banane STK</name>
+          <price role="employee">0.65</price>
+          <price role="other">1.05</price>
+          <price role="student">0.60</price>
+        </meal>
+        <meal>
+          <name>Nektarine</name>
+          <price role="employee">0.00</price>
+          <price role="other">0.00</price>
+          <price role="student">0.00</price>
+        </meal>
+        <meal>
+          <name>Tagesrestproduktion</name>
+          <price role="employee">0.80</price>
+          <price role="other">2.85</price>
+          <price role="student">0.60</price>
         </meal>
       </category>
       <category name="Beilagen">
@@ -1078,14 +1141,14 @@
         <meal>
           <name>Pommes frites</name>
           <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">3.00</price>
-          <price role="student">0.65</price>
+          <price role="employee">1.55</price>
+          <price role="other">0.00</price>
+          <price role="student">0.95</price>
         </meal>
         <meal>
           <name>Kleine Schale salat</name>
           <price role="employee">0.95</price>
-          <price role="other">3.00</price>
+          <price role="other">0.00</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
@@ -1134,17 +1197,6 @@
           <price role="employee">3.35</price>
           <price role="other">0.00</price>
           <price role="student">2.00</price>
-        </meal>
-      </category>
-      <category name="Speiseplan">
-        <meal>
-          <name>Tagesrestproduktion</name>
-          <note>Mit Antioxidationsmittel</note>
-          <note>Mit Farbstoff</note>
-          <note>Mit Konservierungsstoff</note>
-          <price role="employee">0.80</price>
-          <price role="other">2.85</price>
-          <price role="student">0.60</price>
         </meal>
       </category>
       <category name="1 - Vegan/vegetarisch">
