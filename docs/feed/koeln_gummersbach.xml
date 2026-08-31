@@ -4,6 +4,28 @@
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
     <day date="2026-08-31">
+      <category name="Speiseplan">
+        <meal>
+          <name>Beerenquark</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Pommes Wedges</name>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Beilagensalat Standard</name>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+      </category>
       <category name="Beilagen">
         <meal>
           <name>Blumenkohl, Gemüserahmsauce</name>
@@ -34,32 +56,10 @@
           <note>Enthält Weizen Gluten</note>
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
-          <note>mit Geflügel</note>
+          <note>mit Gefluegel</note>
           <price role="employee">5.60</price>
           <price role="other">15.10</price>
           <price role="student">3.30</price>
-        </meal>
-      </category>
-      <category name="Speiseplan">
-        <meal>
-          <name>Pommes Wedges</name>
-          <price role="employee">0.95</price>
-          <price role="other">3.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Beilagensalat Standard</name>
-          <price role="employee">0.95</price>
-          <price role="other">3.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Vanille Creme, Dessert Topping</name>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <price role="employee">0.95</price>
-          <price role="other">3.00</price>
-          <price role="student">0.65</price>
         </meal>
       </category>
       <category name="2 - Querbeet Vegan">
@@ -101,7 +101,7 @@
           <note>Mit Farbstoff</note>
           <note>Mit Geschmacksverstärker</note>
           <note>Mit Konservierungsstoff</note>
-          <note>mit Geflügel</note>
+          <note>mit Gefluegel</note>
           <price role="employee">4.05</price>
           <price role="other">0.00</price>
           <price role="student">2.35</price>
@@ -216,7 +216,7 @@
           <name>Weisskohl-Hackfleischpfanne mit Schupfnudeln</name>
           <note>Enthält Gluten</note>
           <note>Enthält Weizen Gluten</note>
-          <note>Neuland</note>
+          <note>Neuland Fleisch</note>
           <note>mit Rind</note>
           <price role="employee">5.85</price>
           <price role="other">0.00</price>
@@ -397,7 +397,7 @@
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
           <note>Mit Phosphat</note>
-          <note>mit Geflügel</note>
+          <note>mit Gefluegel</note>
           <price role="employee">3.90</price>
           <price role="other">0.00</price>
           <price role="student">2.30</price>
@@ -460,7 +460,7 @@
       <category name="Fleisch">
         <meal>
           <name>Currywurst</name>
-          <note>Neuland</note>
+          <note>Neuland Fleisch</note>
           <note>mit Schwein</note>
           <price role="employee">3.60</price>
           <price role="other">0.00</price>
@@ -470,7 +470,7 @@
           <name>Rindfleisch Bolognese, Fusilli</name>
           <note>Enthält Sellerie</note>
           <note>Enthält Weizen Gluten</note>
-          <note>Neuland</note>
+          <note>Neuland Fleisch</note>
           <note>mit Rind</note>
           <price role="employee">4.05</price>
           <price role="other">0.00</price>
@@ -533,7 +533,7 @@
           <note>Mit Farbstoff</note>
           <note>Mit Geschmacksverstärker</note>
           <note>Mit Konservierungsstoff</note>
-          <note>mit Geflügel</note>
+          <note>mit Gefluegel</note>
           <price role="employee">4.70</price>
           <price role="other">0.00</price>
           <price role="student">2.75</price>
@@ -665,7 +665,7 @@
           <note>Enthält Gluten</note>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
-          <note>mit Geflügel</note>
+          <note>mit Gefluegel</note>
           <price role="employee">4.95</price>
           <price role="other">0.00</price>
           <price role="student">2.90</price>
@@ -676,7 +676,7 @@
           <name>Rindergeschnetzeltes in Pfefferrahmsauce</name>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
-          <note>Neuland</note>
+          <note>Neuland Fleisch</note>
           <note>mit Rind</note>
           <price role="employee">7.10</price>
           <price role="other">0.00</price>

@@ -4,40 +4,74 @@
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
     <day date="2026-08-31">
-      <category name="Speiseplan">
+      <category name="Querbeet">
         <meal>
-          <name>Apfel</name>
-          <price role="employee">0.00</price>
-          <price role="other">0.00</price>
-          <price role="student">0.00</price>
+          <name>Cremige Gemüsesuppe, Kaiserbrötchen</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Sellerie</note>
+          <note>Enthält Soja</note>
+          <note>Vegan</note>
+          <price role="employee">4.00</price>
+          <price role="other">7.65</price>
+          <price role="student">1.85</price>
         </meal>
+      </category>
+      <category name="Beilagen">
         <meal>
-          <name>Banane STK</name>
-          <price role="employee">0.65</price>
-          <price role="other">1.05</price>
-          <price role="student">0.60</price>
-        </meal>
-        <meal>
-          <name>Mischgemüse</name>
-          <price role="employee">2.90</price>
-          <price role="other">0.00</price>
-          <price role="student">2.00</price>
-        </meal>
-        <meal>
-          <name>Blumenkohl, Gemüserahmsauce</name>
+          <name>Dessertbecher</name>
+          <note>Enthält Gelatine</note>
+          <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
-          <note>Enthält Sellerie</note>
+          <note>Enthält Weizen Gluten</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Nektarine</name>
-          <price role="employee">0.00</price>
-          <price role="other">0.00</price>
-          <price role="student">0.00</price>
+          <name>Kichererbsenreis</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
         </meal>
+        <meal>
+          <name>Pommes frites</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+      </category>
+      <category name="Vegan/vegetarisch">
+        <meal>
+          <name>Indischer Spinat</name>
+          <note>Enthält Soja</note>
+          <note>Vegan</note>
+          <price role="employee">2.60</price>
+          <price role="other">0.00</price>
+          <price role="student">1.55</price>
+        </meal>
+      </category>
+      <category name="2 - Heimspiel">
+        <meal>
+          <name>Putenschnitzel, Paprikarahmsauce, Pommes frites, Salat, Dessert</name>
+          <note>Enthält Gelatine</note>
+          <note>Enthält Gluten</note>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Senf</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Mit Farbstoff</note>
+          <note>mit Gefluegel</note>
+          <price role="employee">5.60</price>
+          <price role="other">15.10</price>
+          <price role="student">3.30</price>
+        </meal>
+      </category>
+      <category name="Speiseplan">
         <meal>
           <name>Salatbuffet in Selbstbedienung, je 100g</name>
           <note>Enthält Eier</note>
@@ -69,74 +103,6 @@
           <price role="student">0.60</price>
         </meal>
       </category>
-      <category name="Beilagen">
-        <meal>
-          <name>Dessertbecher</name>
-          <note>Enthält Gelatine</note>
-          <note>Enthält Hafer Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Weizen Gluten</note>
-          <price role="employee">0.95</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Kichererbsenreis</name>
-          <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Pommes frites</name>
-          <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">3.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Kleine Schale salat</name>
-          <price role="employee">0.95</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
-        </meal>
-      </category>
-      <category name="1 - Vegan/vegetarisch">
-        <meal>
-          <name>Geröstete Paprikasuppe, Kaiserbrötchen</name>
-          <note>Enthält Gluten</note>
-          <note>Enthält Sellerie</note>
-          <note>Enthält Soja</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Vegan</note>
-          <price role="employee">4.40</price>
-          <price role="other">0.00</price>
-          <price role="student">2.05</price>
-        </meal>
-      </category>
-      <category name="Vegan/vegetarisch">
-        <meal>
-          <name>Indischer Spinat</name>
-          <note>Enthält Soja</note>
-          <note>Vegan</note>
-          <price role="employee">2.60</price>
-          <price role="other">0.00</price>
-          <price role="student">1.55</price>
-        </meal>
-      </category>
-      <category name="Fleisch">
-        <meal>
-          <name>Putenschnitzel, Paprikarahmsauce</name>
-          <note>Enthält Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>mit Geflügel</note>
-          <price role="employee">4.95</price>
-          <price role="other">0.00</price>
-          <price role="student">2.90</price>
-        </meal>
-      </category>
     </day>
     <day date="2026-09-01">
       <category name="Beilagen">
@@ -151,23 +117,15 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Dessertbecher verschiedene Sorten</name>
+          <name>Dessertbecher</name>
           <note>Enthält Gelatine</note>
           <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
           <note>Enthält Weizen Gluten</note>
-          <note>Vegetarisch</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Pommes Wedges</name>
-          <note>Vegan</note>
-          <price role="employee">1.55</price>
-          <price role="other">0.00</price>
-          <price role="student">0.95</price>
         </meal>
         <meal>
           <name>Pommes Wedges</name>
@@ -180,40 +138,15 @@
           <name>Reis</name>
           <note>Vegan</note>
           <price role="employee">0.95</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Kleine Schale salat</name>
-          <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
         </meal>
-      </category>
-      <category name="Speiseplan">
         <meal>
-          <name>Apfel</name>
-          <price role="employee">0.00</price>
-          <price role="other">0.00</price>
-          <price role="student">0.00</price>
-        </meal>
-        <meal>
-          <name>Banane STK</name>
-          <price role="employee">0.65</price>
-          <price role="other">1.05</price>
-          <price role="student">0.60</price>
-        </meal>
-        <meal>
-          <name>Nektarine</name>
-          <price role="employee">0.00</price>
-          <price role="other">0.00</price>
-          <price role="student">0.00</price>
-        </meal>
-        <meal>
-          <name>Tagesrestproduktion</name>
-          <price role="employee">0.80</price>
-          <price role="other">2.85</price>
-          <price role="student">0.60</price>
+          <name>Beilagensalat Standard</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
         </meal>
       </category>
       <category name="1 - Vegan/vegetarisch">
@@ -238,7 +171,7 @@
           <note>Mit Farbstoff</note>
           <note>Mit Geschmacksverstärker</note>
           <note>Mit Konservierungsstoff</note>
-          <note>mit Geflügel</note>
+          <note>mit Gefluegel</note>
           <price role="employee">4.05</price>
           <price role="other">0.00</price>
           <price role="student">2.35</price>
@@ -269,6 +202,14 @@
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
+        </meal>
+      </category>
+      <category name="Speiseplan">
+        <meal>
+          <name>Tagesrestproduktion</name>
+          <price role="employee">0.80</price>
+          <price role="other">2.85</price>
+          <price role="student">0.60</price>
         </meal>
       </category>
       <category name="Vegan/vegetarisch">
@@ -341,7 +282,7 @@
           <note>Enthält Milch</note>
           <note>Enthält Weizen Gluten</note>
           <price role="employee">0.95</price>
-          <price role="other">0.00</price>
+          <price role="other">3.00</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
@@ -391,7 +332,7 @@
           <name>Weisskohl-Hackfleischpfanne mit Schupfnudeln</name>
           <note>Enthält Gluten</note>
           <note>Enthält Weizen Gluten</note>
-          <note>Neuland</note>
+          <note>Neuland Fleisch</note>
           <note>mit Rind</note>
           <price role="employee">5.85</price>
           <price role="other">0.00</price>
@@ -487,7 +428,7 @@
           <note>Enthält Milch</note>
           <note>Enthält Weizen Gluten</note>
           <price role="employee">0.95</price>
-          <price role="other">0.00</price>
+          <price role="other">3.00</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
@@ -592,15 +533,15 @@
           <note>Enthält Milch</note>
           <note>Enthält Weizen Gluten</note>
           <price role="employee">0.95</price>
-          <price role="other">0.00</price>
+          <price role="other">3.00</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
           <name>Pommes frites</name>
           <note>Vegan</note>
-          <price role="employee">1.55</price>
-          <price role="other">0.00</price>
-          <price role="student">0.95</price>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
         </meal>
         <meal>
           <name>Kleine Schale salat</name>
@@ -721,7 +662,7 @@
           <note>Enthält Milch</note>
           <note>Enthält Weizen Gluten</note>
           <price role="employee">0.95</price>
-          <price role="other">0.00</price>
+          <price role="other">3.00</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
@@ -772,7 +713,7 @@
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
           <note>Mit Phosphat</note>
-          <note>mit Geflügel</note>
+          <note>mit Gefluegel</note>
           <price role="employee">3.90</price>
           <price role="other">0.00</price>
           <price role="student">2.30</price>
@@ -884,7 +825,7 @@
           <note>Enthält Milch</note>
           <note>Enthält Weizen Gluten</note>
           <price role="employee">0.95</price>
-          <price role="other">0.00</price>
+          <price role="other">3.00</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
@@ -920,7 +861,7 @@
           <name>Rindfleisch Bolognese, Fusilli</name>
           <note>Enthält Sellerie</note>
           <note>Enthält Weizen Gluten</note>
-          <note>Neuland</note>
+          <note>Neuland Fleisch</note>
           <note>mit Rind</note>
           <price role="employee">4.05</price>
           <price role="other">0.00</price>
@@ -988,7 +929,7 @@
           <note>Enthält Milch</note>
           <note>Enthält Weizen Gluten</note>
           <price role="employee">0.95</price>
-          <price role="other">0.00</price>
+          <price role="other">3.00</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
@@ -1125,7 +1066,7 @@
           <note>Enthält Milch</note>
           <note>Enthält Weizen Gluten</note>
           <price role="employee">0.95</price>
-          <price role="other">0.00</price>
+          <price role="other">3.00</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
@@ -1175,7 +1116,7 @@
           <name>Paprika-Hähnchengulasch</name>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>mit Geflügel</note>
+          <note>mit Gefluegel</note>
           <price role="employee">3.60</price>
           <price role="other">0.00</price>
           <price role="student">2.15</price>
@@ -1254,7 +1195,7 @@
           <note>Enthält Milch</note>
           <note>Enthält Weizen Gluten</note>
           <price role="employee">0.95</price>
-          <price role="other">0.00</price>
+          <price role="other">3.00</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
