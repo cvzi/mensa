@@ -16,6 +16,18 @@
           <price role="student">1.85</price>
         </meal>
       </category>
+      <category name="1 - Querbeet">
+        <meal>
+          <name>Cremige Gemüsesuppe, 1 Beilage</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Sellerie</note>
+          <note>Enthält Soja</note>
+          <note>Vegan</note>
+          <price role="employee">3.90</price>
+          <price role="other">7.50</price>
+          <price role="student">1.80</price>
+        </meal>
+      </category>
       <category name="Beilagen">
         <meal>
           <name>Dessertbecher</name>
@@ -53,6 +65,24 @@
           <price role="student">1.55</price>
         </meal>
       </category>
+      <category name="2 - Fleisch">
+        <meal>
+          <name>Putenschnitzel, Champignonrahmsauce, Pommes frites, Salat, Dessert</name>
+          <note>Enthält Gelatine</note>
+          <note>Enthält Gluten</note>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Senf</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Mit Farbstoff</note>
+          <note>mit Geflügel</note>
+          <price role="employee">5.50</price>
+          <price role="other">14.80</price>
+          <price role="student">3.25</price>
+        </meal>
+      </category>
       <category name="2 - Heimspiel">
         <meal>
           <name>Putenschnitzel, Paprikarahmsauce, Pommes frites, Salat, Dessert</name>
@@ -65,7 +95,7 @@
           <note>Enthält Weizen Gluten</note>
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
-          <note>mit Gefluegel</note>
+          <note>mit Geflügel</note>
           <price role="employee">5.60</price>
           <price role="other">15.10</price>
           <price role="student">3.30</price>
@@ -92,6 +122,7 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
+          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -99,7 +130,7 @@
         <meal>
           <name>Tagesrestproduktion</name>
           <price role="employee">0.80</price>
-          <price role="other">2.85</price>
+          <price role="other">2.80</price>
           <price role="student">0.60</price>
         </meal>
       </category>
@@ -112,75 +143,80 @@
           <note>Enthält Milch</note>
           <note>Enthält Sellerie</note>
           <note>Vegan</note>
-          <price role="employee">0.00</price>
-          <price role="other">0.00</price>
+          <price role="employee">0.95</price>
+          <price role="other">2.95</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Dessertbecher</name>
+          <name>Dessertbecher verschiedene Sorten</name>
           <note>Enthält Gelatine</note>
           <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
           <note>Enthält Weizen Gluten</note>
+          <note>Vegetarisch</note>
           <price role="employee">0.95</price>
-          <price role="other">3.00</price>
+          <price role="other">2.95</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Vegane Dessertbecher verschiedene Sorten</name>
+          <note>Enthält Hafer Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">2.95</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Erbsen und Möhren</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">2.95</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
           <name>Pommes Wedges</name>
           <note>Vegan</note>
-          <price role="employee">1.50</price>
-          <price role="other">4.45</price>
-          <price role="student">0.95</price>
+          <price role="employee">0.95</price>
+          <price role="other">2.95</price>
+          <price role="student">0.65</price>
         </meal>
         <meal>
           <name>Reis</name>
           <note>Vegan</note>
           <price role="employee">0.95</price>
-          <price role="other">3.00</price>
+          <price role="other">2.95</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
           <name>Beilagensalat Standard</name>
           <note>Vegan</note>
           <price role="employee">0.95</price>
-          <price role="other">3.00</price>
+          <price role="other">2.95</price>
           <price role="student">0.65</price>
         </meal>
       </category>
-      <category name="1 - Vegan/vegetarisch">
+      <category name="Speiseplan">
         <meal>
-          <name>Erbseneintopf, Kaiserbrötchen</name>
-          <note>Enthält Gluten</note>
-          <note>Enthält Sellerie</note>
-          <note>Enthält Senf</note>
-          <note>Mit Farbstoff</note>
-          <note>Vegan</note>
-          <price role="employee">4.40</price>
+          <name>Apfel</name>
+          <price role="employee">0.00</price>
           <price role="other">0.00</price>
-          <price role="student">2.05</price>
+          <price role="student">0.00</price>
         </meal>
-      </category>
-      <category name="Fleisch">
         <meal>
-          <name>Hähnchengeschnetzeltes Süß-Sauer</name>
-          <note>Enthält Gluten</note>
-          <note>Enthält Soja</note>
-          <note>Mit Antioxidationsmittel</note>
-          <note>Mit Farbstoff</note>
-          <note>Mit Geschmacksverstärker</note>
-          <note>Mit Konservierungsstoff</note>
-          <note>mit Gefluegel</note>
-          <price role="employee">4.05</price>
-          <price role="other">0.00</price>
-          <price role="student">2.35</price>
+          <name>Dessert,Banane Fair Trade</name>
+          <price role="employee">0.95</price>
+          <price role="other">2.95</price>
+          <price role="student">0.65</price>
         </meal>
-      </category>
-      <category name="Querbeet">
+        <meal>
+          <name>Nektarine</name>
+          <price role="employee">0.00</price>
+          <price role="other">0.00</price>
+          <price role="student">0.00</price>
+        </meal>
         <meal>
           <name>Salatbuffet in Selbstbedienung, je 100g</name>
-          <note>62</note>
           <note>Enthält Eier</note>
           <note>Enthält Gerste Gluten</note>
           <note>Enthält Gluten</note>
@@ -199,26 +235,53 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
+          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
         </meal>
-      </category>
-      <category name="Speiseplan">
         <meal>
           <name>Tagesrestproduktion</name>
           <price role="employee">0.80</price>
-          <price role="other">2.85</price>
+          <price role="other">2.80</price>
           <price role="student">0.60</price>
+        </meal>
+      </category>
+      <category name="1 - Vegan/vegetarisch">
+        <meal>
+          <name>Erbseneintopf, Kaiserbrötchen</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Sellerie</note>
+          <note>Enthält Senf</note>
+          <note>Mit Farbstoff</note>
+          <note>Vegan</note>
+          <price role="employee">4.30</price>
+          <price role="other">0.00</price>
+          <price role="student">2.00</price>
+        </meal>
+      </category>
+      <category name="Fleisch">
+        <meal>
+          <name>Hähnchengeschnetzeltes Süß-Sauer</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Soja</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Mit Farbstoff</note>
+          <note>Mit Geschmacksverstärker</note>
+          <note>Mit Konservierungsstoff</note>
+          <note>mit Geflügel</note>
+          <price role="employee">3.95</price>
+          <price role="other">0.00</price>
+          <price role="student">2.30</price>
         </meal>
       </category>
       <category name="Vegan/vegetarisch">
         <meal>
           <name>Vegane Bratwurst, mit Currysauce</name>
           <note>Vegan</note>
-          <price role="employee">3.60</price>
+          <price role="employee">3.55</price>
           <price role="other">0.00</price>
-          <price role="student">2.15</price>
+          <price role="student">2.10</price>
         </meal>
       </category>
     </day>
@@ -237,6 +300,19 @@
           <price role="student">0.60</price>
         </meal>
         <meal>
+          <name>Dessert,Banane Fair Trade</name>
+          <price role="employee">0.95</price>
+          <price role="other">2.95</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Grüne Bohnen</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">2.95</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
           <name>Nektarine</name>
           <price role="employee">0.00</price>
           <price role="other">0.00</price>
@@ -262,6 +338,7 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
+          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -269,20 +346,34 @@
         <meal>
           <name>Tagesrestproduktion</name>
           <price role="employee">0.80</price>
-          <price role="other">2.85</price>
+          <price role="other">2.80</price>
           <price role="student">0.60</price>
         </meal>
       </category>
       <category name="Beilagen">
+        <meal>
+          <name>Dessertbecher verschiedene Sorten</name>
+          <note>Enthält Gelatine</note>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegetarisch</note>
+          <price role="employee">0.95</price>
+          <price role="other">2.95</price>
+          <price role="student">0.65</price>
+        </meal>
         <meal>
           <name>Dessertbecher</name>
           <note>Enthält Gelatine</note>
           <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
+          <note>Enthält Schalenfrüchte (Nüsse)</note>
+          <note>Enthält Schalenfrüchte Haselnuss</note>
           <note>Enthält Weizen Gluten</note>
           <price role="employee">0.95</price>
-          <price role="other">3.00</price>
+          <price role="other">0.00</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
@@ -296,9 +387,9 @@
           <note>Enthält Gluten</note>
           <note>Enthält Weizen Gluten</note>
           <note>Vegan</note>
-          <price role="employee">2.10</price>
-          <price role="other">0.00</price>
-          <price role="student">1.25</price>
+          <price role="employee">1.45</price>
+          <price role="other">4.35</price>
+          <price role="student">0.95</price>
         </meal>
       </category>
       <category name="1 - Vegan/vegetarisch">
@@ -310,9 +401,9 @@
           <note>Enthält Soja</note>
           <note>Enthält Weizen Gluten</note>
           <note>Vegan</note>
-          <price role="employee">4.40</price>
+          <price role="employee">4.30</price>
           <price role="other">0.00</price>
-          <price role="student">2.05</price>
+          <price role="student">2.00</price>
         </meal>
       </category>
       <category name="Vegan/vegetarisch">
@@ -322,9 +413,9 @@
           <note>Enthält Sellerie</note>
           <note>Enthält Weizen Gluten</note>
           <note>Vegan</note>
-          <price role="employee">3.35</price>
+          <price role="employee">3.30</price>
           <price role="other">0.00</price>
-          <price role="student">2.00</price>
+          <price role="student">1.95</price>
         </meal>
       </category>
       <category name="Fleisch">
@@ -332,11 +423,11 @@
           <name>Weisskohl-Hackfleischpfanne mit Schupfnudeln</name>
           <note>Enthält Gluten</note>
           <note>Enthält Weizen Gluten</note>
-          <note>Neuland Fleisch</note>
+          <note>Neuland</note>
           <note>mit Rind</note>
-          <price role="employee">5.85</price>
+          <price role="employee">5.75</price>
           <price role="other">0.00</price>
-          <price role="student">3.45</price>
+          <price role="student">3.40</price>
         </meal>
       </category>
     </day>
@@ -351,9 +442,9 @@
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
           <note>Vegan</note>
-          <price role="employee">3.60</price>
+          <price role="employee">3.55</price>
           <price role="other">0.00</price>
-          <price role="student">2.15</price>
+          <price role="student">2.10</price>
         </meal>
         <meal>
           <name>Rote Beete Gnocchi mit Pesto</name>
@@ -364,111 +455,6 @@
           <note>Enthält Soja</note>
           <note>Enthält Weizen Gluten</note>
           <note>Vegetarisch</note>
-          <price role="employee">5.20</price>
-          <price role="other">0.00</price>
-          <price role="student">3.05</price>
-        </meal>
-      </category>
-      <category name="Speiseplan">
-        <meal>
-          <name>Apfel</name>
-          <price role="employee">0.00</price>
-          <price role="other">0.00</price>
-          <price role="student">0.00</price>
-        </meal>
-        <meal>
-          <name>Banane STK</name>
-          <price role="employee">0.65</price>
-          <price role="other">1.05</price>
-          <price role="student">0.60</price>
-        </meal>
-        <meal>
-          <name>Nektarine</name>
-          <price role="employee">0.00</price>
-          <price role="other">0.00</price>
-          <price role="student">0.00</price>
-        </meal>
-        <meal>
-          <name>Salatbuffet in Selbstbedienung, je 100g</name>
-          <note>Enthält Eier</note>
-          <note>Enthält Gerste Gluten</note>
-          <note>Enthält Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Schalenfrüchte (Nüsse)</note>
-          <note>Enthält Schalenfrüchte Kaschunuss</note>
-          <note>Enthält Schalenfrüchte Mandeln</note>
-          <note>Enthält Schalenfrüchte Walnuss</note>
-          <note>Enthält Sellerie</note>
-          <note>Enthält Senf</note>
-          <note>Enthält Sesamsamen</note>
-          <note>Enthält Soja</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Geschwefelt</note>
-          <note>Mit Antioxidationsmittel</note>
-          <note>Mit Farbstoff</note>
-          <note>Mit Konservierungsstoff</note>
-          <price role="employee">0.97</price>
-          <price role="other">2.91</price>
-          <price role="student">0.77</price>
-        </meal>
-        <meal>
-          <name>Tagesrestproduktion</name>
-          <price role="employee">0.80</price>
-          <price role="other">2.85</price>
-          <price role="student">0.60</price>
-        </meal>
-      </category>
-      <category name="Beilagen">
-        <meal>
-          <name>Dessertbecher</name>
-          <note>Enthält Gelatine</note>
-          <note>Enthält Hafer Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Weizen Gluten</note>
-          <price role="employee">0.95</price>
-          <price role="other">3.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Kartoffel-Blumenkohlstampf</name>
-          <note>Enthält Soja</note>
-          <note>Vegan</note>
-          <price role="employee">1.55</price>
-          <price role="other">0.00</price>
-          <price role="student">0.95</price>
-        </meal>
-        <meal>
-          <name>Kleine Schale salat</name>
-          <price role="employee">0.95</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
-        </meal>
-      </category>
-      <category name="1 - Vegan/vegetarisch">
-        <meal>
-          <name>Linseneintopf, Kaiserbrötchen</name>
-          <note>Enthält Gluten</note>
-          <note>Enthält Sellerie</note>
-          <note>Enthält Senf</note>
-          <note>Mit Antioxidationsmittel</note>
-          <note>Vegan</note>
-          <price role="employee">4.40</price>
-          <price role="other">0.00</price>
-          <price role="student">2.05</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2026-09-04">
-      <category name="Fisch">
-        <meal>
-          <name>Alaska Polardorschfilet, Blattspinatsauce</name>
-          <note>Enthält Fisch</note>
-          <note>Enthält Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>mit Fisch</note>
           <price role="employee">5.10</price>
           <price role="other">0.00</price>
           <price role="student">3.00</price>
@@ -513,6 +499,7 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
+          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -520,7 +507,7 @@
         <meal>
           <name>Tagesrestproduktion</name>
           <price role="employee">0.80</price>
-          <price role="other">2.85</price>
+          <price role="other">2.80</price>
           <price role="student">0.60</price>
         </meal>
       </category>
@@ -531,17 +518,127 @@
           <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
+          <note>Enthält Schalenfrüchte (Nüsse)</note>
+          <note>Enthält Schalenfrüchte Haselnuss</note>
           <note>Enthält Weizen Gluten</note>
           <price role="employee">0.95</price>
-          <price role="other">3.00</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Kartoffel-Blumenkohlstampf</name>
+          <note>Enthält Soja</note>
+          <note>Vegan</note>
+          <price role="employee">1.45</price>
+          <price role="other">4.35</price>
+          <price role="student">0.95</price>
+        </meal>
+        <meal>
+          <name>Kleine Schale salat</name>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+      </category>
+      <category name="1 - Vegan/vegetarisch">
+        <meal>
+          <name>Linseneintopf, Kaiserbrötchen</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Sellerie</note>
+          <note>Enthält Senf</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Vegan</note>
+          <price role="employee">4.30</price>
+          <price role="other">0.00</price>
+          <price role="student">2.00</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-09-04">
+      <category name="Fisch">
+        <meal>
+          <name>Alaska Polardorschfilet, Blattspinatsauce</name>
+          <note>Enthält Fisch</note>
+          <note>Enthält Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>mit Fisch</note>
+          <price role="employee">5.00</price>
+          <price role="other">0.00</price>
+          <price role="student">2.95</price>
+        </meal>
+      </category>
+      <category name="Speiseplan">
+        <meal>
+          <name>Apfel</name>
+          <price role="employee">0.00</price>
+          <price role="other">0.00</price>
+          <price role="student">0.00</price>
+        </meal>
+        <meal>
+          <name>Banane STK</name>
+          <price role="employee">0.65</price>
+          <price role="other">1.05</price>
+          <price role="student">0.60</price>
+        </meal>
+        <meal>
+          <name>Nektarine</name>
+          <price role="employee">0.00</price>
+          <price role="other">0.00</price>
+          <price role="student">0.00</price>
+        </meal>
+        <meal>
+          <name>Salatbuffet in Selbstbedienung, je 100g</name>
+          <note>Enthält Eier</note>
+          <note>Enthält Gerste Gluten</note>
+          <note>Enthält Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Schalenfrüchte (Nüsse)</note>
+          <note>Enthält Schalenfrüchte Kaschunuss</note>
+          <note>Enthält Schalenfrüchte Mandeln</note>
+          <note>Enthält Schalenfrüchte Walnuss</note>
+          <note>Enthält Sellerie</note>
+          <note>Enthält Senf</note>
+          <note>Enthält Sesamsamen</note>
+          <note>Enthält Soja</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Geschwefelt</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Mit Farbstoff</note>
+          <note>Mit Konservierungsstoff</note>
+          <note>Mit Süßstoff</note>
+          <price role="employee">0.97</price>
+          <price role="other">2.91</price>
+          <price role="student">0.77</price>
+        </meal>
+        <meal>
+          <name>Tagesrestproduktion</name>
+          <price role="employee">0.80</price>
+          <price role="other">2.80</price>
+          <price role="student">0.60</price>
+        </meal>
+      </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Dessertbecher</name>
+          <note>Enthält Gelatine</note>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Schalenfrüchte (Nüsse)</note>
+          <note>Enthält Schalenfrüchte Haselnuss</note>
+          <note>Enthält Weizen Gluten</note>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
           <name>Pommes frites</name>
           <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">3.00</price>
-          <price role="student">0.65</price>
+          <price role="employee">1.45</price>
+          <price role="other">4.35</price>
+          <price role="student">0.95</price>
         </meal>
         <meal>
           <name>Kleine Schale salat</name>
@@ -553,7 +650,7 @@
           <name>Salzkartoffeln</name>
           <note>Vegan</note>
           <price role="employee">0.95</price>
-          <price role="other">0.00</price>
+          <price role="other">2.95</price>
           <price role="student">0.65</price>
         </meal>
       </category>
@@ -566,9 +663,9 @@
           <note>Enthält Weizen Gluten</note>
           <note>Mit Farbstoff</note>
           <note>Vegan</note>
-          <price role="employee">3.35</price>
+          <price role="employee">3.30</price>
           <price role="other">0.00</price>
-          <price role="student">2.00</price>
+          <price role="student">1.95</price>
         </meal>
       </category>
       <category name="1 - Vegan/vegetarisch">
@@ -580,9 +677,9 @@
           <note>Enthält Senf</note>
           <note>Mit Farbstoff</note>
           <note>Vegetarisch</note>
-          <price role="employee">4.40</price>
+          <price role="employee">4.30</price>
           <price role="other">0.00</price>
-          <price role="student">2.05</price>
+          <price role="student">2.00</price>
         </meal>
       </category>
     </day>
@@ -632,6 +729,7 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
+          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -639,7 +737,7 @@
         <meal>
           <name>Tagesrestproduktion</name>
           <price role="employee">0.80</price>
-          <price role="other">2.85</price>
+          <price role="other">2.80</price>
           <price role="student">0.60</price>
         </meal>
       </category>
@@ -648,9 +746,9 @@
           <name>Blumenkohl-Kichererbsencurry</name>
           <note>Enthält Sesamsamen</note>
           <note>Vegan</note>
-          <price role="employee">2.60</price>
+          <price role="employee">2.55</price>
           <price role="other">0.00</price>
-          <price role="student">1.55</price>
+          <price role="student">1.50</price>
         </meal>
       </category>
       <category name="Beilagen">
@@ -660,9 +758,11 @@
           <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
+          <note>Enthält Schalenfrüchte (Nüsse)</note>
+          <note>Enthält Schalenfrüchte Haselnuss</note>
           <note>Enthält Weizen Gluten</note>
           <price role="employee">0.95</price>
-          <price role="other">3.00</price>
+          <price role="other">0.00</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
@@ -676,7 +776,7 @@
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
           <note>Vegetarisch</note>
-          <price role="employee">1.55</price>
+          <price role="employee">1.50</price>
           <price role="other">0.00</price>
           <price role="student">0.95</price>
         </meal>
@@ -690,7 +790,7 @@
           <name>Salzkartoffeln</name>
           <note>Vegan</note>
           <price role="employee">0.95</price>
-          <price role="other">0.00</price>
+          <price role="other">2.95</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
@@ -713,10 +813,10 @@
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
           <note>Mit Phosphat</note>
-          <note>mit Gefluegel</note>
-          <price role="employee">3.90</price>
+          <note>mit Geflügel</note>
+          <price role="employee">3.80</price>
           <price role="other">0.00</price>
-          <price role="student">2.30</price>
+          <price role="student">2.25</price>
         </meal>
       </category>
       <category name="1 - Vegan/vegetarisch">
@@ -730,9 +830,9 @@
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
           <note>Vegan</note>
-          <price role="employee">4.40</price>
+          <price role="employee">4.30</price>
           <price role="other">0.00</price>
-          <price role="student">2.05</price>
+          <price role="student">2.00</price>
         </meal>
       </category>
     </day>
@@ -776,6 +876,7 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
+          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -783,7 +884,7 @@
         <meal>
           <name>Tagesrestproduktion</name>
           <price role="employee">0.80</price>
-          <price role="other">2.85</price>
+          <price role="other">2.80</price>
           <price role="student">0.60</price>
         </meal>
       </category>
@@ -800,9 +901,9 @@
           <note>Mit Farbstoff</note>
           <note>Mit Phosphat</note>
           <note>Vegetarisch</note>
-          <price role="employee">4.05</price>
+          <price role="employee">3.95</price>
           <price role="other">0.00</price>
-          <price role="student">2.35</price>
+          <price role="student">2.30</price>
         </meal>
       </category>
       <category name="1 - Vegan/vegetarisch">
@@ -811,9 +912,9 @@
           <note>Enthält Gluten</note>
           <note>Enthält Soja</note>
           <note>Vegan</note>
-          <price role="employee">4.40</price>
+          <price role="employee">4.30</price>
           <price role="other">0.00</price>
-          <price role="student">2.05</price>
+          <price role="student">2.00</price>
         </meal>
       </category>
       <category name="Beilagen">
@@ -823,9 +924,11 @@
           <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
+          <note>Enthält Schalenfrüchte (Nüsse)</note>
+          <note>Enthält Schalenfrüchte Haselnuss</note>
           <note>Enthält Weizen Gluten</note>
           <price role="employee">0.95</price>
-          <price role="other">3.00</price>
+          <price role="other">0.00</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
@@ -852,7 +955,7 @@
           <name>Salzkartoffeln</name>
           <note>Vegan</note>
           <price role="employee">0.95</price>
-          <price role="other">0.00</price>
+          <price role="other">2.95</price>
           <price role="student">0.65</price>
         </meal>
       </category>
@@ -861,11 +964,11 @@
           <name>Rindfleisch Bolognese, Fusilli</name>
           <note>Enthält Sellerie</note>
           <note>Enthält Weizen Gluten</note>
-          <note>Neuland Fleisch</note>
+          <note>Neuland</note>
           <note>mit Rind</note>
-          <price role="employee">4.05</price>
+          <price role="employee">3.95</price>
           <price role="other">0.00</price>
-          <price role="student">2.35</price>
+          <price role="student">2.30</price>
         </meal>
       </category>
     </day>
@@ -909,6 +1012,7 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
+          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -916,7 +1020,7 @@
         <meal>
           <name>Tagesrestproduktion</name>
           <price role="employee">0.80</price>
-          <price role="other">2.85</price>
+          <price role="other">2.80</price>
           <price role="student">0.60</price>
         </meal>
       </category>
@@ -927,9 +1031,11 @@
           <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
+          <note>Enthält Schalenfrüchte (Nüsse)</note>
+          <note>Enthält Schalenfrüchte Haselnuss</note>
           <note>Enthält Weizen Gluten</note>
           <price role="employee">0.95</price>
-          <price role="other">3.00</price>
+          <price role="other">0.00</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
@@ -937,7 +1043,7 @@
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
           <note>Vegetarisch</note>
-          <price role="employee">1.55</price>
+          <price role="employee">1.50</price>
           <price role="other">0.00</price>
           <price role="student">0.95</price>
         </meal>
@@ -970,9 +1076,9 @@
           <note>Enthält Grünkern Gluten</note>
           <note>Enthält Weizen Gluten</note>
           <note>Vegan</note>
-          <price role="employee">2.60</price>
+          <price role="employee">2.55</price>
           <price role="other">0.00</price>
-          <price role="student">1.55</price>
+          <price role="student">1.50</price>
         </meal>
       </category>
       <category name="Fleisch">
@@ -982,9 +1088,9 @@
           <note>Mit Farbstoff</note>
           <note>mit Rind</note>
           <note>mit Schwein</note>
-          <price role="employee">4.30</price>
+          <price role="employee">4.20</price>
           <price role="other">0.00</price>
-          <price role="student">2.50</price>
+          <price role="student">2.45</price>
         </meal>
       </category>
       <category name="1 - Vegan/vegetarisch">
@@ -993,9 +1099,9 @@
           <note>Enthält Gluten</note>
           <note>Enthält Soja</note>
           <note>Vegan</note>
-          <price role="employee">4.40</price>
+          <price role="employee">4.30</price>
           <price role="other">0.00</price>
-          <price role="student">2.05</price>
+          <price role="student">2.00</price>
         </meal>
       </category>
     </day>
@@ -1039,6 +1145,7 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
+          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -1046,7 +1153,7 @@
         <meal>
           <name>Tagesrestproduktion</name>
           <price role="employee">0.80</price>
-          <price role="other">2.85</price>
+          <price role="other">2.80</price>
           <price role="student">0.60</price>
         </meal>
       </category>
@@ -1064,9 +1171,11 @@
           <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
+          <note>Enthält Schalenfrüchte (Nüsse)</note>
+          <note>Enthält Schalenfrüchte Haselnuss</note>
           <note>Enthält Weizen Gluten</note>
           <price role="employee">0.95</price>
-          <price role="other">3.00</price>
+          <price role="other">0.00</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
@@ -1094,9 +1203,9 @@
           <note>Mit Geschmacksverstärker</note>
           <note>Mit Konservierungsstoff</note>
           <note>Vegan</note>
-          <price role="employee">4.40</price>
+          <price role="employee">4.30</price>
           <price role="other">0.00</price>
-          <price role="student">2.05</price>
+          <price role="student">2.00</price>
         </meal>
       </category>
       <category name="Vegan/vegetarisch">
@@ -1106,9 +1215,9 @@
           <note>Enthält Hafer Gluten</note>
           <note>Enthält Soja</note>
           <note>Vegan</note>
-          <price role="employee">3.90</price>
+          <price role="employee">3.80</price>
           <price role="other">0.00</price>
-          <price role="student">2.30</price>
+          <price role="student">2.25</price>
         </meal>
       </category>
       <category name="Fleisch">
@@ -1116,10 +1225,10 @@
           <name>Paprika-Hähnchengulasch</name>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>mit Gefluegel</note>
-          <price role="employee">3.60</price>
+          <note>mit Geflügel</note>
+          <price role="employee">3.55</price>
           <price role="other">0.00</price>
-          <price role="student">2.15</price>
+          <price role="student">2.10</price>
         </meal>
       </category>
     </day>
@@ -1163,6 +1272,7 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
+          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -1170,7 +1280,7 @@
         <meal>
           <name>Tagesrestproduktion</name>
           <price role="employee">0.80</price>
-          <price role="other">2.85</price>
+          <price role="other">2.80</price>
           <price role="student">0.60</price>
         </meal>
       </category>
@@ -1181,9 +1291,9 @@
           <note>Enthält Soja</note>
           <note>Enthält Weizen Gluten</note>
           <note>Vegan</note>
-          <price role="employee">4.80</price>
+          <price role="employee">4.70</price>
           <price role="other">0.00</price>
-          <price role="student">2.80</price>
+          <price role="student">2.75</price>
         </meal>
       </category>
       <category name="Beilagen">
@@ -1193,9 +1303,11 @@
           <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
+          <note>Enthält Schalenfrüchte (Nüsse)</note>
+          <note>Enthält Schalenfrüchte Haselnuss</note>
           <note>Enthält Weizen Gluten</note>
           <price role="employee">0.95</price>
-          <price role="other">3.00</price>
+          <price role="other">0.00</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
@@ -1208,7 +1320,7 @@
           <name>Pommes Wedges</name>
           <note>Vegan</note>
           <price role="employee">1.50</price>
-          <price role="other">4.45</price>
+          <price role="other">0.00</price>
           <price role="student">0.95</price>
         </meal>
         <meal>
@@ -1232,9 +1344,9 @@
           <note>Mit Konservierungsstoff</note>
           <note>Mit Süßstoff</note>
           <note>mit Fisch</note>
-          <price role="employee">4.40</price>
+          <price role="employee">4.30</price>
           <price role="other">0.00</price>
-          <price role="student">2.60</price>
+          <price role="student">2.55</price>
         </meal>
       </category>
       <category name="1 - Vegan/vegetarisch">
@@ -1245,9 +1357,9 @@
           <note>Enthält Soja</note>
           <note>Mit Farbstoff</note>
           <note>Vegan</note>
-          <price role="employee">4.40</price>
+          <price role="employee">4.30</price>
           <price role="other">0.00</price>
-          <price role="student">2.05</price>
+          <price role="student">2.00</price>
         </meal>
       </category>
     </day>
