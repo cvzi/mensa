@@ -3,8 +3,22 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2026-09-01">
+    <day date="2026-09-02">
       <category name="Beilagen">
+        <meal>
+          <name>Bohnensalat, Krautsalat, Kartoffelsalat natur</name>
+          <note>Vegan</note>
+          <price role="employee">1.45</price>
+          <price role="other">4.35</price>
+          <price role="student">0.95</price>
+        </meal>
+        <meal>
+          <name>Broccoli</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">2.95</price>
+          <price role="student">0.65</price>
+        </meal>
         <meal>
           <name>Dessertbecher verschiedene Sorten</name>
           <note>Enthält Gelatine</note>
@@ -14,57 +28,45 @@
           <note>Enthält Weizen Gluten</note>
           <note>Vegetarisch</note>
           <price role="employee">0.95</price>
-          <price role="other">3.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Kaisergemüse</name>
-          <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">3.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Pommes frites</name>
-          <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">3.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Pommes frites</name>
-          <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">3.00</price>
+          <price role="other">2.95</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
           <name>Reis</name>
           <note>Vegan</note>
           <price role="employee">0.95</price>
-          <price role="other">3.00</price>
+          <price role="other">2.95</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
           <name>Beilagensalat Standard</name>
           <note>Vegan</note>
           <price role="employee">0.95</price>
-          <price role="other">3.00</price>
+          <price role="other">2.95</price>
           <price role="student">0.65</price>
         </meal>
       </category>
-      <category name="Fleisch">
+      <category name="1 - Querbeet">
         <meal>
-          <name>Hähnchen-Crossies, Mango Curry-Mayo</name>
-          <note>Enthält Gerste Gluten</note>
-          <note>Enthält Gluten</note>
-          <note>Enthält Senf</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>mit Geflügel</note>
-          <price role="employee">3.90</price>
-          <price role="other">0.00</price>
-          <price role="student">2.30</price>
+          <name>Cremige Gemüsesuppe, 1 Beilage</name>
+          <note>Enthält Sellerie</note>
+          <note>Enthält Soja</note>
+          <note>Vegan</note>
+          <price role="employee">4.00</price>
+          <price role="other">7.65</price>
+          <price role="student">2.00</price>
         </meal>
+        <meal>
+          <name>Cremige Gemüsesuppe, Brötchen</name>
+          <note>Enthält Sellerie</note>
+          <note>Enthält Soja</note>
+          <note>Vegan</note>
+          <price role="employee">4.00</price>
+          <price role="other">7.65</price>
+          <price role="student">0.02</price>
+        </meal>
+      </category>
+      <category name="Fleisch">
         <meal>
           <name>Hähnchengeschnetzeltes Süß-Sauer</name>
           <note>Enthält Gluten</note>
@@ -74,50 +76,69 @@
           <note>Mit Geschmacksverstärker</note>
           <note>Mit Konservierungsstoff</note>
           <note>mit Geflügel</note>
-          <price role="employee">4.05</price>
+          <price role="employee">3.95</price>
           <price role="other">0.00</price>
           <price role="student">2.30</price>
         </meal>
-      </category>
-      <category name="Speiseplan">
         <meal>
-          <name>Krautsalat, Möhrensalat, Gurkensalat, Gurkensalat in Sahne, Bohnensalat</name>
-          <note>Enthält Laktose</note>
-          <price role="employee">1.50</price>
-          <price role="other">4.45</price>
-          <price role="student">0.95</price>
-        </meal>
-      </category>
-      <category name="1 - Vegan/vegetarisch">
-        <meal>
-          <name>Kürbiscremesuppe, Brötchen</name>
+          <name>Weisskohl-Hackfleischpfanne mit Schupfnudeln</name>
           <note>Enthält Gluten</note>
-          <note>Enthält Hafer Gluten</note>
-          <note>Enthält Soja</note>
-          <note>Vegan</note>
-          <price role="employee">4.40</price>
+          <note>Enthält Weizen Gluten</note>
+          <note>Neuland</note>
+          <note>mit Rind</note>
+          <price role="employee">5.75</price>
           <price role="other">0.00</price>
-          <price role="student">0.02</price>
+          <price role="student">3.40</price>
         </meal>
       </category>
       <category name="Vegan/vegetarisch">
         <meal>
-          <name>Vegane Bratwurst, mit Currysauce</name>
+          <name>Linsen Bolognese, Fusilli</name>
+          <note>Enthält Sellerie</note>
+          <note>Enthält Weizen Gluten</note>
           <note>Vegan</note>
-          <price role="employee">3.60</price>
+          <price role="employee">3.30</price>
           <price role="other">0.00</price>
-          <price role="student">2.10</price>
+          <price role="student">1.95</price>
         </meal>
       </category>
     </day>
-    <day date="2026-09-02">
+    <day date="2026-09-03">
+      <category name="Vegan/vegetarisch">
+        <meal>
+          <name>2 Karotten Knusperstick in Sesampanade, Tahini-Mayo</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Senf</note>
+          <note>Enthält Sesamsamen</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Mit Farbstoff</note>
+          <note>Mit Konservierungsstoff</note>
+          <note>Vegan</note>
+          <price role="employee">3.55</price>
+          <price role="other">0.00</price>
+          <price role="student">2.10</price>
+        </meal>
+        <meal>
+          <name>Rote Beete Gnocchi mit Pesto</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Schalenfrüchte Walnuss</note>
+          <note>Enthält Soja</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegetarisch</note>
+          <price role="employee">5.10</price>
+          <price role="other">0.00</price>
+          <price role="student">3.00</price>
+        </meal>
+      </category>
       <category name="Beilagen">
         <meal>
-          <name>Broccoli</name>
+          <name>Bohnensalat, Krautsalat, Kartoffelsalat natur</name>
           <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">3.00</price>
-          <price role="student">0.65</price>
+          <price role="employee">1.45</price>
+          <price role="other">4.35</price>
+          <price role="student">0.95</price>
         </meal>
         <meal>
           <name>Dessertbecher verschiedene Sorten</name>
@@ -128,87 +149,51 @@
           <note>Enthält Weizen Gluten</note>
           <note>Vegetarisch</note>
           <price role="employee">0.95</price>
-          <price role="other">3.00</price>
+          <price role="other">2.95</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Pommes frites</name>
+          <name>Kartoffel-Blumenkohlstampf</name>
+          <note>Enthält Soja</note>
           <note>Vegan</note>
-          <price role="employee">1.50</price>
-          <price role="other">4.45</price>
+          <price role="employee">1.45</price>
+          <price role="other">4.35</price>
           <price role="student">0.95</price>
         </meal>
         <meal>
           <name>Reis</name>
           <note>Vegan</note>
           <price role="employee">0.95</price>
-          <price role="other">3.00</price>
+          <price role="other">2.95</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
           <name>Beilagensalat Standard</name>
           <note>Vegan</note>
           <price role="employee">0.95</price>
-          <price role="other">3.00</price>
+          <price role="other">2.95</price>
           <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Spätzle</name>
-          <note>Enthält Gluten</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Vegan</note>
-          <price role="employee">1.50</price>
-          <price role="other">4.45</price>
-          <price role="student">0.95</price>
         </meal>
       </category>
       <category name="Speiseplan">
         <meal>
-          <name>Krautsalat, Möhrensalat, Gurkensalat, Gurkensalat in Sahne, Bohnensalat</name>
-          <note>Enthält Laktose</note>
-          <price role="employee">1.50</price>
-          <price role="other">4.45</price>
-          <price role="student">0.95</price>
+          <name>Leipzigerallerlei</name>
+          <price role="employee">0.95</price>
+          <price role="other">2.95</price>
+          <price role="student">0.65</price>
         </meal>
       </category>
-      <category name="Vegan/vegetarisch">
+      <category name="1 - Vegan/vegetarisch">
         <meal>
-          <name>Linsen Bolognese, Spätzle</name>
+          <name>Linseneintopf, Kaiserbrötchen</name>
           <note>Enthält Gluten</note>
           <note>Enthält Sellerie</note>
-          <note>Enthält Weizen Gluten</note>
+          <note>Enthält Senf</note>
+          <note>Mit Antioxidationsmittel</note>
           <note>Vegan</note>
-          <price role="employee">3.35</price>
+          <price role="employee">4.30</price>
           <price role="other">0.00</price>
           <price role="student">2.00</price>
-        </meal>
-      </category>
-      <category name="Querbeet">
-        <meal>
-          <name>Thailändische Kokos-Suppe, 1 Beilage</name>
-          <note>Enthält Gluten</note>
-          <note>Enthält Sesamsamen</note>
-          <note>Enthält Soja</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Mit Farbstoff</note>
-          <note>Mit Geschmacksverstärker</note>
-          <note>Mit Konservierungsstoff</note>
-          <note>Vegan</note>
-          <price role="employee">4.00</price>
-          <price role="other">7.65</price>
-          <price role="student">1.85</price>
-        </meal>
-      </category>
-      <category name="Fleisch">
-        <meal>
-          <name>Weisskohl-Hackfleischpfanne mit Schupfnudeln</name>
-          <note>Enthält Gluten</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Neuland</note>
-          <note>mit Rind</note>
-          <price role="employee">5.85</price>
-          <price role="other">0.00</price>
-          <price role="student">3.45</price>
         </meal>
       </category>
     </day>

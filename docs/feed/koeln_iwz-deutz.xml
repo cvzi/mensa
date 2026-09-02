@@ -15,6 +15,23 @@
           <price role="other">7.65</price>
           <price role="student">1.80</price>
         </meal>
+      </category>
+      <category name="Speiseplan">
+        <meal>
+          <name>Gelbe Spaghetti</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Weizen Gluten</note>
+          <price role="employee">0.95</price>
+          <price role="other">2.95</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Beilagensalat Standard</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">2.95</price>
+          <price role="student">0.65</price>
+        </meal>
         <meal>
           <name>Salatbuffet in Selbstbedienung, je 100g</name>
           <note>Enthält Eier</note>
@@ -36,32 +53,8 @@
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
           <price role="employee">0.97</price>
-          <price role="other">2.91</price>
+          <price role="other">1.07</price>
           <price role="student">0.77</price>
-        </meal>
-      </category>
-      <category name="Speiseplan">
-        <meal>
-          <name>Gelbe Spaghetti</name>
-          <note>Enthält Gluten</note>
-          <note>Enthält Weizen Gluten</note>
-          <price role="employee">0.95</price>
-          <price role="other">2.95</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Pommes Wedges</name>
-          <note>Enthält Gluten</note>
-          <note>Enthält Weizen Gluten</note>
-          <price role="employee">0.95</price>
-          <price role="other">2.95</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Beilagensalat Standard</name>
-          <price role="employee">0.95</price>
-          <price role="other">2.95</price>
-          <price role="student">0.65</price>
         </meal>
       </category>
       <category name="2 - Worldwide">
@@ -103,13 +96,22 @@
           <price role="student">2.60</price>
         </meal>
       </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Pommes Wedges</name>
+          <note>Vegan</note>
+          <price role="employee">1.50</price>
+          <price role="other">0.00</price>
+          <price role="student">0.95</price>
+        </meal>
+      </category>
     </day>
     <day date="2026-09-01">
       <category name="Speiseplan">
         <meal>
           <name>Banane</name>
           <price role="employee">0.95</price>
-          <price role="other">2.95</price>
+          <price role="other">1.30</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
@@ -120,7 +122,7 @@
           <note>Enthält Milch</note>
           <note>Enthält Weizen Gluten</note>
           <price role="employee">0.95</price>
-          <price role="other">2.95</price>
+          <price role="other">1.30</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
@@ -136,11 +138,35 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
+          <name>Salatbuffet in Selbstbedienung, je 100g</name>
+          <note>Enthält Eier</note>
+          <note>Enthält Gerste Gluten</note>
+          <note>Enthält Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Schalenfrüchte (Nüsse)</note>
+          <note>Enthält Schalenfrüchte Kaschunuss</note>
+          <note>Enthält Schalenfrüchte Mandeln</note>
+          <note>Enthält Schalenfrüchte Walnuss</note>
+          <note>Enthält Sellerie</note>
+          <note>Enthält Senf</note>
+          <note>Enthält Sesamsamen</note>
+          <note>Enthält Soja</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Geschwefelt</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Mit Farbstoff</note>
+          <note>Mit Konservierungsstoff</note>
+          <price role="employee">0.97</price>
+          <price role="other">1.07</price>
+          <price role="student">0.77</price>
+        </meal>
+        <meal>
           <name>Vegane Dessertbecher verschiedene Sorten</name>
           <note>Enthält Hafer Gluten</note>
           <note>Vegetarisch</note>
           <price role="employee">0.95</price>
-          <price role="other">2.95</price>
+          <price role="other">1.30</price>
           <price role="student">0.65</price>
         </meal>
       </category>
@@ -159,17 +185,7 @@
           <price role="student">2.30</price>
         </meal>
       </category>
-      <category name="Querbeet">
-        <meal>
-          <name>Linseneintopf, Brötchen</name>
-          <note>Enthält Sellerie</note>
-          <note>Enthält Senf</note>
-          <note>Mit Antioxidationsmittel</note>
-          <note>Vegan</note>
-          <price role="employee">4.30</price>
-          <price role="other">0.00</price>
-          <price role="student">0.02</price>
-        </meal>
+      <category name="Vegan/vegetarisch">
         <meal>
           <name>Linseneintopf, Brötchen</name>
           <note>Enthält Sellerie</note>
@@ -181,28 +197,30 @@
           <price role="student">2.00</price>
         </meal>
         <meal>
-          <name>Salatbuffet in Selbstbedienung, je 100g</name>
-          <note>Enthält Eier</note>
-          <note>Enthält Gerste Gluten</note>
-          <note>Enthält Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Schalenfrüchte (Nüsse)</note>
-          <note>Enthält Schalenfrüchte Kaschunuss</note>
-          <note>Enthält Schalenfrüchte Mandeln</note>
-          <note>Enthält Schalenfrüchte Walnuss</note>
+          <name>Vegane Bratwurst, mit Currysauce, Pommes Wedges</name>
+          <note>Vegan</note>
+          <price role="employee">4.70</price>
+          <price role="other">0.00</price>
+          <price role="student">2.75</price>
+        </meal>
+        <meal>
+          <name>Vegane Bratwurst, mit Currysauce, Pommes Wedges</name>
+          <note>Vegan</note>
+          <price role="employee">4.60</price>
+          <price role="other">0.00</price>
+          <price role="student">2.75</price>
+        </meal>
+      </category>
+      <category name="Querbeet">
+        <meal>
+          <name>Linseneintopf, Brötchen</name>
           <note>Enthält Sellerie</note>
           <note>Enthält Senf</note>
-          <note>Enthält Sesamsamen</note>
-          <note>Enthält Soja</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Geschwefelt</note>
           <note>Mit Antioxidationsmittel</note>
-          <note>Mit Farbstoff</note>
-          <note>Mit Konservierungsstoff</note>
-          <price role="employee">0.97</price>
-          <price role="other">2.91</price>
-          <price role="student">0.77</price>
+          <note>Vegan</note>
+          <price role="employee">4.30</price>
+          <price role="other">0.00</price>
+          <price role="student">0.02</price>
         </meal>
       </category>
       <category name="Beilagen">
@@ -214,27 +232,18 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
+          <name>Pommes Wedges</name>
+          <note>Vegan</note>
+          <price role="employee">1.45</price>
+          <price role="other">4.35</price>
+          <price role="student">0.95</price>
+        </meal>
+        <meal>
           <name>Reis</name>
           <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">2.95</price>
           <price role="student">0.65</price>
-        </meal>
-      </category>
-      <category name="Vegan/vegetarisch">
-        <meal>
-          <name>Vegane Bratwurst, mit Currysauce, Pommes Wedges</name>
-          <note>Vegan</note>
-          <price role="employee">4.60</price>
-          <price role="other">0.00</price>
-          <price role="student">2.75</price>
-        </meal>
-        <meal>
-          <name>Vegane Bratwurst, mit Currysauce, Pommes Wedges</name>
-          <note>Vegan</note>
-          <price role="employee">5.10</price>
-          <price role="other">0.00</price>
-          <price role="student">3.00</price>
         </meal>
       </category>
     </day>
@@ -245,29 +254,51 @@
           <note>Enthält Sellerie</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
+          <note>Vegan</note>
           <price role="employee">0.95</price>
-          <price role="other">2.95</price>
+          <price role="other">1.25</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Schupfnudeln</name>
+          <name>Banane</name>
+          <price role="employee">0.95</price>
+          <price role="other">1.30</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Salat</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">1.30</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Curry-Kokossuppe, Brötchen</name>
           <note>Enthält Gluten</note>
+          <note>Enthält Soja</note>
+          <note>Vegetarisch</note>
+          <price role="employee">4.30</price>
+          <price role="other">0.00</price>
+          <price role="student">2.00</price>
+        </meal>
+        <meal>
+          <name>Dessertbecher verschiedene Sorten</name>
+          <note>Enthält Gelatine</note>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
           <note>Enthält Weizen Gluten</note>
           <price role="employee">0.95</price>
-          <price role="other">2.95</price>
+          <price role="other">1.30</price>
           <price role="student">0.65</price>
         </meal>
-      </category>
-      <category name="Beilagen">
         <meal>
-          <name>Pommes frites</name>
+          <name>Obst</name>
           <note>Vegan</note>
-          <price role="employee">1.45</price>
-          <price role="other">4.35</price>
-          <price role="student">0.95</price>
+          <price role="employee">0.95</price>
+          <price role="other">1.30</price>
+          <price role="student">0.65</price>
         </meal>
-      </category>
-      <category name="Querbeet">
         <meal>
           <name>Salatbuffet in Selbstbedienung, je 100g</name>
           <note>Enthält Eier</note>
@@ -289,8 +320,61 @@
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
           <price role="employee">0.97</price>
-          <price role="other">2.91</price>
+          <price role="other">1.07</price>
           <price role="student">0.77</price>
+        </meal>
+        <meal>
+          <name>Schupfnudeln</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Weizen Gluten</note>
+          <price role="employee">0.95</price>
+          <price role="other">1.30</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Spaghetti</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">1.30</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Vegane Dessertbecher verschiedene Sorten</name>
+          <note>Enthält Hafer Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">1.30</price>
+          <price role="student">0.65</price>
+        </meal>
+      </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Pommes frites</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">1.30</price>
+          <price role="student">0.65</price>
+        </meal>
+      </category>
+      <category name="2 - Querbeet Vegan">
+        <meal>
+          <name>Schnitzel, Kräuter-Aioli, Pommes Cubes, Salat, Dessert</name>
+          <note>Enthält Gelatine</note>
+          <note>Enthält Gluten</note>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Senf</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Mit Farbstoff</note>
+          <note>Rettet die Knolle!</note>
+          <note>Vegan</note>
+          <price role="employee">5.30</price>
+          <price role="other">14.10</price>
+          <price role="student">3.10</price>
         </meal>
       </category>
       <category name="Vegan/vegetarisch">
@@ -305,6 +389,22 @@
           <price role="employee">3.30</price>
           <price role="other">0.00</price>
           <price role="student">1.95</price>
+        </meal>
+      </category>
+      <category name="Querbeet">
+        <meal>
+          <name>Thailändische Kokos-Suppe, Brötchen</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Sesamsamen</note>
+          <note>Enthält Soja</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Mit Farbstoff</note>
+          <note>Mit Geschmacksverstärker</note>
+          <note>Mit Konservierungsstoff</note>
+          <note>Vegetarisch</note>
+          <price role="employee">4.30</price>
+          <price role="other">5.70</price>
+          <price role="student">2.00</price>
         </meal>
       </category>
       <category name="Fleisch">
@@ -351,9 +451,33 @@
       </category>
       <category name="Speiseplan">
         <meal>
+          <name>Asia-Soya-Eintopf, Brötchen</name>
+          <note>Vegan</note>
+          <price role="employee">4.30</price>
+          <price role="other">0.00</price>
+          <price role="student">2.00</price>
+        </meal>
+        <meal>
+          <name>Banane</name>
+          <price role="employee">0.95</price>
+          <price role="other">1.30</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
           <name>Broccoli</name>
           <price role="employee">0.95</price>
           <price role="other">2.95</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Dessertbecher verschiedene Sorten</name>
+          <note>Enthält Gelatine</note>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Weizen Gluten</note>
+          <price role="employee">0.95</price>
+          <price role="other">1.30</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
@@ -364,18 +488,12 @@
           <price role="other">2.95</price>
           <price role="student">0.65</price>
         </meal>
-      </category>
-      <category name="Beilagen">
         <meal>
-          <name>Kartoffel-Blumenkohlstampf</name>
-          <note>Enthält Soja</note>
-          <note>Vegan</note>
-          <price role="employee">1.45</price>
-          <price role="other">4.35</price>
-          <price role="student">0.95</price>
+          <name>Obst</name>
+          <price role="employee">0.95</price>
+          <price role="other">1.30</price>
+          <price role="student">0.65</price>
         </meal>
-      </category>
-      <category name="Querbeet">
         <meal>
           <name>Salatbuffet in Selbstbedienung, je 100g</name>
           <note>Enthält Eier</note>
@@ -397,8 +515,18 @@
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
           <price role="employee">0.97</price>
-          <price role="other">2.91</price>
+          <price role="other">1.07</price>
           <price role="student">0.77</price>
+        </meal>
+      </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Kartoffel-Blumenkohlstampf</name>
+          <note>Enthält Soja</note>
+          <note>Vegan</note>
+          <price role="employee">1.45</price>
+          <price role="other">4.35</price>
+          <price role="student">0.95</price>
         </meal>
       </category>
     </day>
@@ -411,9 +539,9 @@
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
           <note>mit Fisch</note>
-          <price role="employee">5.10</price>
+          <price role="employee">5.00</price>
           <price role="other">0.00</price>
-          <price role="student">3.00</price>
+          <price role="student">2.95</price>
         </meal>
         <meal>
           <name>Alaska Polardorschfilet, Blattspinatsauce</name>
@@ -422,9 +550,9 @@
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
           <note>mit Fisch</note>
-          <price role="employee">5.00</price>
+          <price role="employee">5.10</price>
           <price role="other">0.00</price>
-          <price role="student">2.95</price>
+          <price role="student">3.00</price>
         </meal>
       </category>
       <category name="Speiseplan">
@@ -433,6 +561,30 @@
           <price role="employee">0.95</price>
           <price role="other">2.95</price>
           <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Salatbuffet in Selbstbedienung, je 100g</name>
+          <note>Enthält Eier</note>
+          <note>Enthält Gerste Gluten</note>
+          <note>Enthält Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Schalenfrüchte (Nüsse)</note>
+          <note>Enthält Schalenfrüchte Kaschunuss</note>
+          <note>Enthält Schalenfrüchte Mandeln</note>
+          <note>Enthält Schalenfrüchte Walnuss</note>
+          <note>Enthält Sellerie</note>
+          <note>Enthält Senf</note>
+          <note>Enthält Sesamsamen</note>
+          <note>Enthält Soja</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Geschwefelt</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Mit Farbstoff</note>
+          <note>Mit Konservierungsstoff</note>
+          <price role="employee">0.97</price>
+          <price role="other">1.07</price>
+          <price role="student">0.77</price>
         </meal>
         <meal>
           <name>Spätzle vegan</name>
@@ -453,32 +605,6 @@
           <price role="employee">3.30</price>
           <price role="other">0.00</price>
           <price role="student">1.95</price>
-        </meal>
-      </category>
-      <category name="Querbeet">
-        <meal>
-          <name>Salatbuffet in Selbstbedienung, je 100g</name>
-          <note>Enthält Eier</note>
-          <note>Enthält Gerste Gluten</note>
-          <note>Enthält Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Schalenfrüchte (Nüsse)</note>
-          <note>Enthält Schalenfrüchte Kaschunuss</note>
-          <note>Enthält Schalenfrüchte Mandeln</note>
-          <note>Enthält Schalenfrüchte Walnuss</note>
-          <note>Enthält Sellerie</note>
-          <note>Enthält Senf</note>
-          <note>Enthält Sesamsamen</note>
-          <note>Enthält Soja</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Geschwefelt</note>
-          <note>Mit Antioxidationsmittel</note>
-          <note>Mit Farbstoff</note>
-          <note>Mit Konservierungsstoff</note>
-          <price role="employee">0.97</price>
-          <price role="other">2.91</price>
-          <price role="student">0.77</price>
         </meal>
       </category>
       <category name="Beilagen">
@@ -551,7 +677,7 @@
           <price role="student">0.65</price>
         </meal>
       </category>
-      <category name="Querbeet">
+      <category name="Speiseplan">
         <meal>
           <name>Salatbuffet in Selbstbedienung, je 100g</name>
           <note>Enthält Eier</note>
@@ -573,7 +699,7 @@
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
           <price role="employee">0.97</price>
-          <price role="other">2.91</price>
+          <price role="other">1.07</price>
           <price role="student">0.77</price>
         </meal>
       </category>
@@ -626,7 +752,7 @@
           <price role="student">2.30</price>
         </meal>
       </category>
-      <category name="Querbeet">
+      <category name="Speiseplan">
         <meal>
           <name>Salatbuffet in Selbstbedienung, je 100g</name>
           <note>Enthält Eier</note>
@@ -648,7 +774,7 @@
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
           <price role="employee">0.97</price>
-          <price role="other">2.91</price>
+          <price role="other">1.07</price>
           <price role="student">0.77</price>
         </meal>
       </category>
@@ -668,6 +794,30 @@
           <price role="employee">0.95</price>
           <price role="other">2.95</price>
           <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Salatbuffet in Selbstbedienung, je 100g</name>
+          <note>Enthält Eier</note>
+          <note>Enthält Gerste Gluten</note>
+          <note>Enthält Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Schalenfrüchte (Nüsse)</note>
+          <note>Enthält Schalenfrüchte Kaschunuss</note>
+          <note>Enthält Schalenfrüchte Mandeln</note>
+          <note>Enthält Schalenfrüchte Walnuss</note>
+          <note>Enthält Sellerie</note>
+          <note>Enthält Senf</note>
+          <note>Enthält Sesamsamen</note>
+          <note>Enthält Soja</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Geschwefelt</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Mit Farbstoff</note>
+          <note>Mit Konservierungsstoff</note>
+          <price role="employee">0.97</price>
+          <price role="other">1.07</price>
+          <price role="student">0.77</price>
         </meal>
         <meal>
           <name>Vollkorn Spaghetti</name>
@@ -713,32 +863,6 @@
           <price role="student">0.95</price>
         </meal>
       </category>
-      <category name="Querbeet">
-        <meal>
-          <name>Salatbuffet in Selbstbedienung, je 100g</name>
-          <note>Enthält Eier</note>
-          <note>Enthält Gerste Gluten</note>
-          <note>Enthält Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Schalenfrüchte (Nüsse)</note>
-          <note>Enthält Schalenfrüchte Kaschunuss</note>
-          <note>Enthält Schalenfrüchte Mandeln</note>
-          <note>Enthält Schalenfrüchte Walnuss</note>
-          <note>Enthält Sellerie</note>
-          <note>Enthält Senf</note>
-          <note>Enthält Sesamsamen</note>
-          <note>Enthält Soja</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Geschwefelt</note>
-          <note>Mit Antioxidationsmittel</note>
-          <note>Mit Farbstoff</note>
-          <note>Mit Konservierungsstoff</note>
-          <price role="employee">0.97</price>
-          <price role="other">2.91</price>
-          <price role="student">0.77</price>
-        </meal>
-      </category>
     </day>
     <day date="2026-09-10">
       <category name="Speiseplan">
@@ -762,6 +886,30 @@
           <price role="other">2.95</price>
           <price role="student">0.65</price>
         </meal>
+        <meal>
+          <name>Salatbuffet in Selbstbedienung, je 100g</name>
+          <note>Enthält Eier</note>
+          <note>Enthält Gerste Gluten</note>
+          <note>Enthält Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Schalenfrüchte (Nüsse)</note>
+          <note>Enthält Schalenfrüchte Kaschunuss</note>
+          <note>Enthält Schalenfrüchte Mandeln</note>
+          <note>Enthält Schalenfrüchte Walnuss</note>
+          <note>Enthält Sellerie</note>
+          <note>Enthält Senf</note>
+          <note>Enthält Sesamsamen</note>
+          <note>Enthält Soja</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Geschwefelt</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Mit Farbstoff</note>
+          <note>Mit Konservierungsstoff</note>
+          <price role="employee">0.97</price>
+          <price role="other">1.07</price>
+          <price role="student">0.77</price>
+        </meal>
       </category>
       <category name="Vegan/vegetarisch">
         <meal>
@@ -784,32 +932,6 @@
           <price role="employee">3.55</price>
           <price role="other">0.00</price>
           <price role="student">2.10</price>
-        </meal>
-      </category>
-      <category name="Querbeet">
-        <meal>
-          <name>Salatbuffet in Selbstbedienung, je 100g</name>
-          <note>Enthält Eier</note>
-          <note>Enthält Gerste Gluten</note>
-          <note>Enthält Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Schalenfrüchte (Nüsse)</note>
-          <note>Enthält Schalenfrüchte Kaschunuss</note>
-          <note>Enthält Schalenfrüchte Mandeln</note>
-          <note>Enthält Schalenfrüchte Walnuss</note>
-          <note>Enthält Sellerie</note>
-          <note>Enthält Senf</note>
-          <note>Enthält Sesamsamen</note>
-          <note>Enthält Soja</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Geschwefelt</note>
-          <note>Mit Antioxidationsmittel</note>
-          <note>Mit Farbstoff</note>
-          <note>Mit Konservierungsstoff</note>
-          <price role="employee">0.97</price>
-          <price role="other">2.91</price>
-          <price role="student">0.77</price>
         </meal>
       </category>
     </day>
@@ -854,16 +976,6 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Pommes Wedges</name>
-          <note>Enthält Gluten</note>
-          <note>Enthält Weizen Gluten</note>
-          <price role="employee">0.95</price>
-          <price role="other">2.95</price>
-          <price role="student">0.65</price>
-        </meal>
-      </category>
-      <category name="Querbeet">
-        <meal>
           <name>Salatbuffet in Selbstbedienung, je 100g</name>
           <note>Enthält Eier</note>
           <note>Enthält Gerste Gluten</note>
@@ -884,8 +996,17 @@
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
           <price role="employee">0.97</price>
-          <price role="other">2.91</price>
+          <price role="other">1.07</price>
           <price role="student">0.77</price>
+        </meal>
+      </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Pommes Wedges</name>
+          <note>Vegan</note>
+          <price role="employee">1.50</price>
+          <price role="other">0.00</price>
+          <price role="student">0.95</price>
         </meal>
       </category>
     </day>
