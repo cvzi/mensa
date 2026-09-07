@@ -6,7 +6,8 @@
     <day date="2026-09-07">
       <category name="Essen I Drehkreuz/Ampel">
         <meal>
-          <name>Tortellini mit Rindfleischfüllung,mit al arrabiata, pikante Tomatengemüse Soße garniert mit geriebenen Hartkäse, und Salat</name>
+          <name>Tortellini mit Rindfleischfüllung, pikante Tomaten-Gemüsesoße, geriebener Hartkäse und Salat</name>
+          <note>Antioxidationsmittel</note>
           <note>Eier und Eierzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Laktose</note>
@@ -21,6 +22,7 @@
           <name>Tomaten-Gemüse Curry auf Reis, dazu Salat</name>
           <note>Farbstoff</note>
           <note>Konservierungsstoff</note>
+          <note>Laktose</note>
           <note>Plant-based Menü</note>
           <note>Sellerie</note>
           <note>Senf</note>
@@ -32,6 +34,18 @@
       </category>
     </day>
     <day date="2026-09-08">
+      <category name="Essen II Drehkreuz/Ampel">
+        <meal>
+          <name>Chili Cheese Fritten: Große Portion Steakhouse-Fries mit hausgemachtem Gemüse-Chili,mit Sour Cream-Dip und Nachos Chips dazu Salat</name>
+          <note>Farbstoff</note>
+          <note>Geschmacksverstärker</note>
+          <note>Laktose</note>
+          <note>Senf</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+      </category>
       <category name="Essen I Drehkreuz/Ampel">
         <meal>
           <name>Chili Cheese Fritten: Große Portion Steakhouse-Fries mit hausgemachtem Chili con Carne, Sour Cream-Dip, Tortilla Chips und Salat</name>
@@ -44,22 +58,21 @@
           <price role="student">5.55</price>
         </meal>
       </category>
+    </day>
+    <day date="2026-09-09">
       <category name="Essen II Drehkreuz/Ampel">
         <meal>
-          <name>Canneloni mit Spinat und Ricotta gefüllt mit einer Erbsen-Parmesan Soße und Salat</name>
+          <name>Pilzgulasch,mit Spätzle, dazu Salat</name>
           <note>Eier und Eierzeugnisse</note>
-          <note>Farbstoff</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Laktose</note>
-          <note>Senf</note>
+          <note>Sellerie</note>
           <note>Vegetarisches Menü</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
           <price role="student">5.55</price>
         </meal>
       </category>
-    </day>
-    <day date="2026-09-09">
       <category name="Essen I Drehkreuz/Ampel">
         <meal>
           <name>Rindersaftgulasch mit Spätzle und Salat</name>
@@ -72,19 +85,6 @@
           <note>Senf</note>
           <note>geschwefelt</note>
           <note>kann Restalkohol enthalten</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
-      </category>
-      <category name="Essen II Drehkreuz/Ampel">
-        <meal>
-          <name>Pilzgulasch,mit Spätzle, dazu Salat</name>
-          <note>Eier und Eierzeugnisse</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Laktose</note>
-          <note>Sellerie</note>
-          <note>Vegetarisches Menü</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
           <price role="student">5.55</price>
@@ -114,18 +114,6 @@
       </category>
     </day>
     <day date="2026-09-11">
-      <category name="Essen II Drehkreuz/Ampel">
-        <meal>
-          <name>Gebackener Hirtenkäse mit Kräuter-Dip,und Pommes-Chips dazu Salat</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Laktose</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
-      </category>
       <category name="Essen I Drehkreuz/Ampel">
         <meal>
           <name>Paniertes Seelachsfilet mit Joghurt-Remouladen-Dip, und Pommes-Chips, dazu Salat</name>
@@ -138,6 +126,18 @@
           <note>Laktose</note>
           <note>Senf</note>
           <note>Süßungsmittel</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+      </category>
+      <category name="Essen II Drehkreuz/Ampel">
+        <meal>
+          <name>Gebackener Hirtenkäse mit Kräuter-Dip,und Pommes-Chips dazu Salat</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Laktose</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
           <price role="student">5.55</price>
@@ -255,17 +255,6 @@
       </category>
     </day>
     <day date="2026-09-18">
-      <category name="Essen II Drehkreuz/Ampel">
-        <meal>
-          <name>Vegane Currywurst, mit Pommes frites und Salat</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Plant-based Menü</note>
-          <note>Sellerie</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
-      </category>
       <category name="Essen I Drehkreuz/Ampel">
         <meal>
           <name>Geflügel-Currywurst, mit Pommes frites und Salat</name>
@@ -279,6 +268,17 @@
           <note>Soja</note>
           <note>geschwefelt</note>
           <note>kann Restalkohol enthalten</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+      </category>
+      <category name="Essen II Drehkreuz/Ampel">
+        <meal>
+          <name>Vegane Currywurst, mit Pommes frites und Salat</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Plant-based Menü</note>
+          <note>Sellerie</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
           <price role="student">5.55</price>
@@ -317,18 +317,6 @@
       </category>
     </day>
     <day date="2026-09-22">
-      <category name="Essen II Drehkreuz/Ampel">
-        <meal>
-          <name>Linsen-Bolognese mit Pasta garniert mit Rucola und Pinienkernen, dazu Salat</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Plant-based Menü</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
-      </category>
       <category name="Essen I Drehkreuz/Ampel">
         <meal>
           <name>Pasta mit Bolognesesoße und geriebenem Hartkäse, dazu Salat</name>
@@ -337,6 +325,18 @@
           <note>Glutenhaltiges Getreide</note>
           <note>Laktose</note>
           <note>Rind</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+      </category>
+      <category name="Essen II Drehkreuz/Ampel">
+        <meal>
+          <name>Linsen-Bolognese mit Pasta garniert mit Rucola und Pinienkernen, dazu Salat</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Plant-based Menü</note>
           <note>Sellerie</note>
           <note>Senf</note>
           <price role="employee">5.55</price>
@@ -408,6 +408,14 @@
       </category>
     </day>
     <day date="2026-09-25">
+      <category name="Essen I Drehkreuz/Ampel">
+        <meal>
+          <name>Lasagne Bolognese mit Rinderhackfleisch,dazu Basilikum-Tomatensugo und Salat</name>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+      </category>
       <category name="Essen II Drehkreuz/Ampel">
         <meal>
           <name>Spinat-Käse-Knödel mit Käse-Sahnesoße und Frühlingszwiebel, dazu Salat</name>
@@ -422,28 +430,9 @@
           <price role="student">5.55</price>
         </meal>
       </category>
-      <category name="Essen I Drehkreuz/Ampel">
-        <meal>
-          <name>Lasagne Bolognese mit Rinderhackfleisch,dazu Basilikum-Tomatensugo und Salat</name>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
-      </category>
     </day>
     <day date="2026-09-29">
       <category name="Essen I Drehkreuz/Ampel">
-        <meal>
-          <name>Hähnchenbrust mit Frischkäsekräutersoße, dazu Pasta und Salat</name>
-          <note>Geflügel</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Konservierungsstoff</note>
-          <note>Laktose</note>
-          <note>Senf</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
         <meal>
           <name>Spätzlepfanne mit Rinderhackfleisch,Käse und Lauch, auf Wunsch auch mit Röstzwiebel, dazu Salat</name>
           <note>Eier und Eierzeugnisse</note>
@@ -452,6 +441,17 @@
           <note>Laktose</note>
           <note>Rind</note>
           <note>Schalenfrüchte (Nüsse)</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+        <meal>
+          <name>Hähnchenbrust mit Frischkäsekräutersoße, dazu Pasta und Salat</name>
+          <note>Geflügel</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Konservierungsstoff</note>
+          <note>Laktose</note>
+          <note>Senf</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
           <price role="student">5.55</price>
@@ -476,6 +476,22 @@
     <day date="2026-09-30">
       <category name="Essen I Drehkreuz/Ampel">
         <meal>
+          <name>Burrito: Tortilla mit feuriger Rinderhackfleisch-Gemüsefüllung, dazu Sour Cream-Dip und Salat</name>
+          <note>Farbstoff</note>
+          <note>Geschmacksverstärker</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Konservierungsstoff</note>
+          <note>Laktose</note>
+          <note>Rind</note>
+          <note>Schwefeldioxid ("SO2") und Sulfite</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
+          <note>geschwefelt</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+        <meal>
           <name>Hähnchenbrustfilet mit Pfefferrahmsoße und Kroketten, dazu Salat</name>
           <note>Antioxidationsmittel</note>
           <note>Farbstoff</note>
@@ -487,22 +503,6 @@
           <note>Sellerie</note>
           <note>Senf</note>
           <note>Soja</note>
-          <note>geschwefelt</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
-        <meal>
-          <name>Burrito: Tortilla mit feuriger Rinderhackfleisch-Gemüsefüllung, dazu Sour Cream-Dip und Salat</name>
-          <note>Farbstoff</note>
-          <note>Geschmacksverstärker</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Konservierungsstoff</note>
-          <note>Laktose</note>
-          <note>Rind</note>
-          <note>Schwefeldioxid ("SO2") und Sulfite</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
           <note>geschwefelt</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
@@ -529,21 +529,21 @@
     <day date="2026-10-02">
       <category name="Essen II Drehkreuz/Ampel">
         <meal>
+          <name>Hash Brown Fries mit Sriracha-Mayo-Dip und Salat</name>
+          <note>Geschmacksverstärker</note>
+          <note>Plant-based Menü</note>
+          <note>Senf</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+        <meal>
           <name>Kartoffel-Kürbiskern-Rösti mit Kräuterquark und Salat</name>
           <note>Glutenhaltiges Getreide</note>
           <note>Laktose</note>
           <note>Sellerie</note>
           <note>Soja</note>
           <note>Vegetarisches Menü</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
-        <meal>
-          <name>Hash Brown Fries mit Sriracha-Mayo-Dip und Salat</name>
-          <note>Geschmacksverstärker</note>
-          <note>Plant-based Menü</note>
-          <note>Senf</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
           <price role="student">5.55</price>

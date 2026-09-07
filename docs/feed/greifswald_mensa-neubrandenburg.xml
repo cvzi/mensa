@@ -34,32 +34,6 @@
           <price role="student">2.25</price>
         </meal>
       </category>
-      <category name="Vegetarische Komponente 1">
-        <meal>
-          <name>5 Mozzarella Sticks  
- mit Asia-Dip [süss-scharf]</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Milch/Milchzucker (Laktose)</note>
-          <note>jodiertes Salz</note>
-          <note>mit Süßungsmittel</note>
-          <price role="employee">3.35</price>
-          <price role="other">4.45</price>
-          <price role="student">2.25</price>
-        </meal>
-      </category>
-      <category name="Nudeltheke: Pasta nach Gewicht (pro 100g)">
-        <meal>
-          <name>Pastateller: Spiralen mit Knoblauch, Olivenöl und Kräutern</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Milch/Milchzucker (Laktose)</note>
-          <note>Schalenfrüchte und daraus hergestellte Erzeugnisse (Mandeln, Haselnuss usw.)</note>
-          <note>jodiertes Salz</note>
-          <price role="employee">1.10</price>
-          <price role="other">1.55</price>
-          <price role="student">0.65</price>
-        </meal>
-      </category>
       <category name="Beilagen">
         <meal>
           <name>Makkaroni</name>
@@ -532,9 +506,31 @@
           <price role="student">0.00</price>
         </meal>
       </category>
+      <category name="Nudeltheke: Pasta nach Gewicht (pro 100g)">
+        <meal>
+          <name>Rigtoni mit Kürbis-Pesto (Nudeltheke)</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <note>Schalenfrüchte und daraus hergestellte Erzeugnisse (Mandeln, Haselnuss usw.)</note>
+          <note>jodiertes Salz</note>
+          <price role="employee">1.10</price>
+          <price role="other">1.55</price>
+          <price role="student">0.65</price>
+        </meal>
+      </category>
       <category name="Beilagen">
         <meal>
           <name>Salzkartoffeln</name>
+          <note>geschwefelt</note>
+          <note>jodiertes Salz</note>
+          <price role="employee">1.30</price>
+          <price role="other">1.80</price>
+          <price role="student">0.80</price>
+        </meal>
+        <meal>
+          <name>Vegan.Kürbiskartoffelpüree</name>
+          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
           <note>geschwefelt</note>
           <note>jodiertes Salz</note>
           <price role="employee">1.30</price>
@@ -576,7 +572,7 @@
     <day date="2026-09-15">
       <category name="Tellergericht">
         <meal>
-          <name>Mango - Süßkartoffelsuppe</name>
+          <name>Teller:Mango- Kürbis Suppe</name>
           <price role="employee">2.60</price>
           <price role="other">3.65</price>
           <price role="student">1.50</price>
@@ -589,7 +585,7 @@
           <price role="student">1.80</price>
         </meal>
         <meal>
-          <name>Mango - Süßkartoffelsuppe Terrine</name>
+          <name>Terrine: Mango- Kürbis Suppe</name>
           <price role="employee">3.75</price>
           <price role="other">5.10</price>
           <price role="student">2.20</price>
@@ -681,19 +677,21 @@
     <day date="2026-09-16">
       <category name="Tellergericht">
         <meal>
-          <name>Teller: Möhrensuppe mit Kokosmilch [vegan]</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
-          <note>jodiertes Salz</note>
+          <name>Brühnudeln mit Geflügelfleisch (9,Gefl,A,I)</name>
           <price role="employee">2.60</price>
           <price role="other">3.65</price>
           <price role="student">1.50</price>
         </meal>
         <meal>
-          <name>Terrine: Möhrensuppe mit Kokosmilch [vegan]</name>
+          <name>Vegan: Apfelstrudel mit Vanillasoße</name>
           <note>Glutenhaltiges Getreide</note>
-          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
-          <note>jodiertes Salz</note>
+          <note>mit Farbstoff</note>
+          <price role="employee">3.45</price>
+          <price role="other">5.10</price>
+          <price role="student">1.80</price>
+        </meal>
+        <meal>
+          <name>Brühnudeln mit Geflügelfleisch Terrine (9,Gefl,A,I)</name>
           <price role="employee">3.75</price>
           <price role="other">5.10</price>
           <price role="student">2.20</price>
@@ -732,8 +730,9 @@
       </category>
       <category name="Vegetarische Komponente 1">
         <meal>
-          <name>Quetschkartoffeln aus Neustrelitz  
- mit Kräuterquark-Dip</name>
+          <name>Schupfnudel-Kürbis-Karotten-Pfanne  
+ Kräutersauce</name>
+          <note>Glutenhaltiges Getreide</note>
           <note>Milch/Milchzucker (Laktose)</note>
           <note>jodiertes Salz</note>
           <price role="employee">0.00</price>
