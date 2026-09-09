@@ -38,7 +38,7 @@
           <note>Enthält Weizen Gluten</note>
           <note>Vegetarisch</note>
           <price role="employee">0.95</price>
-          <price role="other">2.95</price>
+          <price role="other">0.00</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
@@ -60,7 +60,7 @@
           <name>Krautsalat</name>
           <note>Vegan</note>
           <price role="employee">1.45</price>
-          <price role="other">4.35</price>
+          <price role="other">0.00</price>
           <price role="student">0.95</price>
         </meal>
         <meal>
@@ -74,7 +74,7 @@
           <name>Beilagensalat Standard</name>
           <note>Vegan</note>
           <price role="employee">0.95</price>
-          <price role="other">2.95</price>
+          <price role="other">0.00</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
@@ -82,7 +82,7 @@
           <note>Enthält Sesamsamen</note>
           <note>Vegan</note>
           <price role="employee">0.95</price>
-          <price role="other">2.95</price>
+          <price role="other">0.00</price>
           <price role="student">0.65</price>
         </meal>
       </category>
@@ -105,14 +105,18 @@
       </category>
     </day>
     <day date="2026-09-08">
-      <category name="Beilagen">
+      <category name="Speiseplan">
         <meal>
-          <name>Blumenkohl</name>
-          <note>Vegan</note>
+          <name>Blumenkohl, Gemüserahmsauce</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Sellerie</note>
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
           <price role="student">0.65</price>
         </meal>
+      </category>
+      <category name="Beilagen">
         <meal>
           <name>Dessertbecher verschiedene Sorten</name>
           <note>Enthält Gelatine</note>
@@ -122,7 +126,7 @@
           <note>Enthält Weizen Gluten</note>
           <note>Vegetarisch</note>
           <price role="employee">0.95</price>
-          <price role="other">2.95</price>
+          <price role="other">0.00</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
@@ -137,7 +141,7 @@
           <name>Krautsalat</name>
           <note>Vegan</note>
           <price role="employee">1.45</price>
-          <price role="other">4.35</price>
+          <price role="other">0.00</price>
           <price role="student">0.95</price>
         </meal>
         <meal>
@@ -151,7 +155,7 @@
           <name>Beilagensalat Standard</name>
           <note>Vegan</note>
           <price role="employee">0.95</price>
-          <price role="other">2.95</price>
+          <price role="other">0.00</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
@@ -159,7 +163,7 @@
           <note>Enthält Sesamsamen</note>
           <note>Vegan</note>
           <price role="employee">0.95</price>
-          <price role="other">2.95</price>
+          <price role="other">0.00</price>
           <price role="student">0.65</price>
         </meal>
       </category>
@@ -232,17 +236,14 @@
       </category>
     </day>
     <day date="2026-09-09">
-      <category name="Fleisch">
-        <meal>
-          <name>Currywurst</name>
-          <note>Neuland</note>
-          <note>mit Schwein</note>
-          <price role="employee">3.55</price>
-          <price role="other">0.00</price>
-          <price role="student">2.10</price>
-        </meal>
-      </category>
       <category name="Beilagen">
+        <meal>
+          <name>Basmatireis</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
         <meal>
           <name>Dessertbecher verschiedene Sorten</name>
           <note>Enthält Gelatine</note>
@@ -252,7 +253,15 @@
           <note>Enthält Weizen Gluten</note>
           <note>Vegetarisch</note>
           <price role="employee">0.95</price>
-          <price role="other">2.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Fusilli</name>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
@@ -266,7 +275,7 @@
           <name>Krautsalat</name>
           <note>Vegan</note>
           <price role="employee">1.45</price>
-          <price role="other">4.35</price>
+          <price role="other">0.00</price>
           <price role="student">0.95</price>
         </meal>
         <meal>
@@ -280,13 +289,44 @@
           <name>Beilagensalat Standard</name>
           <note>Vegan</note>
           <price role="employee">0.95</price>
-          <price role="other">2.95</price>
+          <price role="other">0.00</price>
           <price role="student">0.65</price>
+        </meal>
+      </category>
+      <category name="1 - Querbeet">
+        <meal>
+          <name>Blumenkohlcremésuppe, 1 Beilage</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Vegan</note>
+          <price role="employee">4.00</price>
+          <price role="other">7.65</price>
+          <price role="student">0.02</price>
+        </meal>
+      </category>
+      <category name="Fleisch">
+        <meal>
+          <name>Currywurst</name>
+          <note>Neuland</note>
+          <note>mit Schwein</note>
+          <price role="employee">3.55</price>
+          <price role="other">0.00</price>
+          <price role="student">2.10</price>
+        </meal>
+        <meal>
+          <name>Rindfleisch Bolognese, Fusilli</name>
+          <note>Enthält Sellerie</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Neuland</note>
+          <note>mit Rind</note>
+          <price role="employee">3.95</price>
+          <price role="other">0.00</price>
+          <price role="student">2.30</price>
         </meal>
       </category>
       <category name="Vegan/vegetarisch">
         <meal>
-          <name>Grünkernbolognese, Vollkorn Penne</name>
+          <name>Grünkernbolognese, Pasta</name>
           <note>Enthält Gluten</note>
           <note>Enthält Grünkern Gluten</note>
           <note>Enthält Weizen Gluten</note>
@@ -308,14 +348,14 @@
           <note>Enthält Weizen Gluten</note>
           <note>Vegetarisch</note>
           <price role="employee">0.95</price>
-          <price role="other">2.95</price>
+          <price role="other">0.00</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
           <name>Beilagensalat Standard</name>
           <note>Vegan</note>
           <price role="employee">0.95</price>
-          <price role="other">2.95</price>
+          <price role="other">0.00</price>
           <price role="student">0.65</price>
         </meal>
       </category>
@@ -361,14 +401,14 @@
           <note>Enthält Weizen Gluten</note>
           <note>Vegetarisch</note>
           <price role="employee">0.95</price>
-          <price role="other">2.95</price>
+          <price role="other">0.00</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
           <name>Beilagensalat Standard</name>
           <note>Vegan</note>
           <price role="employee">0.95</price>
-          <price role="other">2.95</price>
+          <price role="other">0.00</price>
           <price role="student">0.65</price>
         </meal>
       </category>
@@ -445,7 +485,7 @@
           <name>Beilagensalat Standard</name>
           <note>Vegan</note>
           <price role="employee">0.95</price>
-          <price role="other">2.95</price>
+          <price role="other">0.00</price>
           <price role="student">0.65</price>
         </meal>
       </category>

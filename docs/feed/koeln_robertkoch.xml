@@ -4,20 +4,16 @@
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
     <day date="2026-09-07">
-      <category name="Vegan/vegetarisch">
-        <meal>
-          <name>Blumenkohl-Kichererbsencurry</name>
-          <note>Enthält Sesamsamen</note>
-          <note>Vegan</note>
-          <price role="employee">2.55</price>
-          <price role="other">0.00</price>
-          <price role="student">1.50</price>
-        </meal>
-      </category>
       <category name="Beilagen">
         <meal>
+          <name>Beilagensalat</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
           <name>Dessertbecher</name>
-          <note>D</note>
           <note>Enthält Gelatine</note>
           <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
@@ -49,13 +45,6 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Beilagensalat</name>
-          <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
           <name>Salzkartoffeln</name>
           <note>Vegan</note>
           <price role="employee">0.95</price>
@@ -69,6 +58,16 @@
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
           <price role="student">0.65</price>
+        </meal>
+      </category>
+      <category name="Vegan/vegetarisch">
+        <meal>
+          <name>Blumenkohl-Kichererbsencurry</name>
+          <note>Enthält Sesamsamen</note>
+          <note>Vegan</note>
+          <price role="employee">2.55</price>
+          <price role="other">0.00</price>
+          <price role="student">1.50</price>
         </meal>
       </category>
       <category name="Fleisch">
@@ -229,7 +228,6 @@
       <category name="Beilagen">
         <meal>
           <name>Dessertbecher</name>
-          <note>D</note>
           <note>Enthält Gelatine</note>
           <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
@@ -259,6 +257,15 @@
           <note>Enthält Milch</note>
           <note>Vegetarisch</note>
           <price role="employee">1.45</price>
+          <price role="other">0.00</price>
+          <price role="student">0.95</price>
+        </meal>
+        <meal>
+          <name>Rahmwirsing</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Vegetarisch</note>
+          <price role="employee">1.45</price>
           <price role="other">4.35</price>
           <price role="student">0.95</price>
         </meal>
@@ -270,7 +277,6 @@
         </meal>
         <meal>
           <name>Salzkartoffeln</name>
-          <note>Rettet die Knolle!</note>
           <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">2.95</price>
@@ -345,7 +351,6 @@
       <category name="Beilagen">
         <meal>
           <name>Dessertbecher</name>
-          <note>D</note>
           <note>Enthält Gelatine</note>
           <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
@@ -412,10 +417,13 @@
       </category>
       <category name="1 - Vegan/vegetarisch">
         <meal>
-          <name>Tomatencremesuppe, Kaiserbrötchen</name>
+          <name>Käse-Lauchcremesuppe, Kaiserbrötchen</name>
           <note>Enthält Gluten</note>
-          <note>Enthält Soja</note>
-          <note>Vegan</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Mit Farbstoff</note>
+          <note>Mit Phosphat</note>
+          <note>Vegetarisch</note>
           <price role="employee">4.30</price>
           <price role="other">0.00</price>
           <price role="student">2.00</price>
@@ -483,8 +491,14 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
+          <name>Beilagensalat</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
           <name>Dessertbecher</name>
-          <note>D</note>
           <note>Enthält Gelatine</note>
           <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
@@ -504,13 +518,6 @@
           <name>Kleine Schale salat</name>
           <price role="employee">0.95</price>
           <price role="other">2.95</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Beilagensalat</name>
-          <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">0.00</price>
           <price role="student">0.65</price>
         </meal>
       </category>
@@ -607,22 +614,16 @@
           <price role="student">0.60</price>
         </meal>
       </category>
-      <category name="Vegan/vegetarisch">
-        <meal>
-          <name>Cremige Tortellini mit Räuchertofu</name>
-          <note>Enthält Gluten</note>
-          <note>Enthält Soja</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Vegan</note>
-          <price role="employee">4.70</price>
-          <price role="other">0.00</price>
-          <price role="student">2.75</price>
-        </meal>
-      </category>
       <category name="Beilagen">
         <meal>
+          <name>Beilagensalat</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
           <name>Dessertbecher</name>
-          <note>D</note>
           <note>Enthält Gelatine</note>
           <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
@@ -651,12 +652,17 @@
           <price role="other">2.95</price>
           <price role="student">0.65</price>
         </meal>
+      </category>
+      <category name="Vegan/vegetarisch">
         <meal>
-          <name>Beilagensalat</name>
+          <name>Cremige Tortellini mit Räuchertofu</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Soja</note>
+          <note>Enthält Weizen Gluten</note>
           <note>Vegan</note>
-          <price role="employee">0.95</price>
+          <price role="employee">4.70</price>
           <price role="other">0.00</price>
-          <price role="student">0.65</price>
+          <price role="student">2.75</price>
         </meal>
       </category>
       <category name="Fisch">
@@ -753,7 +759,6 @@
       <category name="Beilagen">
         <meal>
           <name>Dessertbecher</name>
-          <note>D</note>
           <note>Enthält Gelatine</note>
           <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
@@ -913,7 +918,6 @@
       <category name="Beilagen">
         <meal>
           <name>Dessertbecher</name>
-          <note>D</note>
           <note>Enthält Gelatine</note>
           <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
@@ -1027,7 +1031,6 @@
       <category name="Beilagen">
         <meal>
           <name>Dessertbecher</name>
-          <note>D</note>
           <note>Enthält Gelatine</note>
           <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
@@ -1142,7 +1145,6 @@
       <category name="Beilagen">
         <meal>
           <name>Dessertbecher</name>
-          <note>D</note>
           <note>Enthält Gelatine</note>
           <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
@@ -1282,7 +1284,6 @@
       <category name="Beilagen">
         <meal>
           <name>Dessertbecher</name>
-          <note>D</note>
           <note>Enthält Gelatine</note>
           <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
@@ -1310,7 +1311,7 @@
           <name>Salzkartoffeln</name>
           <note>Vegan</note>
           <price role="employee">0.95</price>
-          <price role="other">2.95</price>
+          <price role="other">0.00</price>
           <price role="student">0.65</price>
         </meal>
       </category>
