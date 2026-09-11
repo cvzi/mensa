@@ -17,6 +17,7 @@
       <category name="Beilagen">
         <meal>
           <name>Beilagensalat</name>
+          <note>Enthält Laktose</note>
           <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
@@ -110,6 +111,7 @@
         </meal>
         <meal>
           <name>Beilagensalat</name>
+          <note>Enthält Laktose</note>
           <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
@@ -261,6 +263,7 @@
         </meal>
         <meal>
           <name>Beilagensalat</name>
+          <note>Enthält Laktose</note>
           <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
@@ -380,6 +383,7 @@
         </meal>
         <meal>
           <name>Beilagensalat</name>
+          <note>Enthält Laktose</note>
           <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
@@ -425,6 +429,7 @@
         </meal>
         <meal>
           <name>Spätzle</name>
+          <note>Enthält Eier</note>
           <note>Enthält Gluten</note>
           <note>Enthält Weizen Gluten</note>
           <note>Vegan</note>
@@ -460,50 +465,90 @@
       </category>
     </day>
     <day date="2026-09-11">
+      <category name="Vegan/vegetarisch">
+        <meal>
+          <name>Aloo Gobi indisches Blumenkohl Kartoffel Curry</name>
+          <note>Vegan</note>
+          <price role="employee">2.55</price>
+          <price role="other">0.00</price>
+          <price role="student">1.50</price>
+        </meal>
+        <meal>
+          <name>Rote Beete Gnocchi mit Pesto</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Schalenfrüchte Walnuss</note>
+          <note>Enthält Soja</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegetarisch</note>
+          <price role="employee">5.10</price>
+          <price role="other">0.00</price>
+          <price role="student">3.00</price>
+        </meal>
+      </category>
       <category name="Beilagen">
         <meal>
+          <name>Basmatireis</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
           <name>Beilagensalat</name>
+          <note>Enthält Laktose</note>
           <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Pommes Wedges</name>
+          <name>Broccoli</name>
           <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
+          <name>Erdbeerquark</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Vegetarisch</note>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
           <name>Pommes Wedges</name>
+          <note>Rettet die Knolle!</note>
           <note>Vegan</note>
           <price role="employee">1.50</price>
           <price role="other">0.00</price>
           <price role="student">0.95</price>
         </meal>
-      </category>
-      <category name="1 - Vegan/vegetarisch">
         <meal>
-          <name>Broccolicremesuppe, Kaiserbrötchen</name>
-          <note>Enthält Gluten</note>
-          <note>Enthält Soja</note>
+          <name>Salzkartoffeln</name>
+          <note>Rettet die Knolle!</note>
           <note>Vegan</note>
-          <price role="employee">4.30</price>
-          <price role="other">0.00</price>
-          <price role="student">2.00</price>
+          <price role="employee">0.95</price>
+          <price role="other">1.30</price>
+          <price role="student">0.65</price>
         </meal>
-      </category>
-      <category name="Vegan/vegetarisch">
         <meal>
-          <name>Cremige Tortellini mit Räuchertofu</name>
-          <note>Enthält Gluten</note>
-          <note>Enthält Soja</note>
-          <note>Enthält Weizen Gluten</note>
+          <name>Salzkartoffeln</name>
           <note>Vegan</note>
-          <price role="employee">4.70</price>
+          <price role="employee">0.95</price>
           <price role="other">0.00</price>
-          <price role="student">2.75</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Schokoladenpudding</name>
+          <note>Enthält Soja</note>
+          <note>Vegetarisch</note>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
         </meal>
       </category>
       <category name="Fisch">
@@ -525,6 +570,19 @@
           <price role="student">2.55</price>
         </meal>
       </category>
+      <category name="1 - Vegan/vegetarisch">
+        <meal>
+          <name>Karotten-Ingwersuppe, Brötchen</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Senf</note>
+          <note>Enthält Soja</note>
+          <note>Mit Farbstoff</note>
+          <note>Vegetarisch</note>
+          <price role="employee">4.30</price>
+          <price role="other">0.00</price>
+          <price role="student">0.02</price>
+        </meal>
+      </category>
     </day>
     <day date="2026-09-12">
       <closed/>
@@ -536,6 +594,7 @@
       <category name="Beilagen">
         <meal>
           <name>Beilagensalat</name>
+          <note>Enthält Laktose</note>
           <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
@@ -594,6 +653,7 @@
       <category name="Beilagen">
         <meal>
           <name>Beilagensalat</name>
+          <note>Enthält Laktose</note>
           <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
@@ -695,6 +755,7 @@
       <category name="Beilagen">
         <meal>
           <name>Beilagensalat</name>
+          <note>Enthält Laktose</note>
           <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
@@ -779,6 +840,7 @@
         </meal>
         <meal>
           <name>Beilagensalat</name>
+          <note>Enthält Laktose</note>
           <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
@@ -850,6 +912,7 @@
       <category name="Beilagen">
         <meal>
           <name>Beilagensalat</name>
+          <note>Enthält Laktose</note>
           <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
