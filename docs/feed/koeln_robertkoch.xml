@@ -24,6 +24,13 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
+          <name>Fingermöhren</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
           <name>Nektarine</name>
           <price role="employee">0.00</price>
           <price role="other">0.00</price>
@@ -45,17 +52,6 @@
           <note>Enthält Milch</note>
           <note>Enthält Weizen Gluten</note>
           <note>Vegetarisch</note>
-          <price role="employee">0.95</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Dessertbecher</name>
-          <note>Enthält Gelatine</note>
-          <note>Enthält Hafer Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Weizen Gluten</note>
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
           <price role="student">0.65</price>
@@ -170,7 +166,7 @@
           <note>Enthält Milch</note>
           <note>Enthält Sellerie</note>
           <price role="employee">0.95</price>
-          <price role="other">3.00</price>
+          <price role="other">1.25</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
@@ -183,7 +179,7 @@
           <name>Penne Rigate</name>
           <note>Enthält Weizen Gluten</note>
           <price role="employee">0.95</price>
-          <price role="other">3.00</price>
+          <price role="other">1.25</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
@@ -193,53 +189,21 @@
           <price role="student">0.60</price>
         </meal>
       </category>
-      <category name="Beilagen">
+      <category name="Vegan/vegetarisch">
         <meal>
-          <name>Dessertbecher</name>
-          <note>Enthält Gelatine</note>
-          <note>Enthält Hafer Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Weizen Gluten</note>
-          <price role="employee">0.95</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Drillinge</name>
-          <note>Vegan</note>
-          <price role="employee">1.45</price>
-          <price role="other">0.00</price>
-          <price role="student">0.95</price>
-        </meal>
-        <meal>
-          <name>Obst</name>
-          <price role="employee">0.95</price>
-          <price role="other">2.95</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Beilagensalat Standard</name>
-          <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
-        </meal>
-      </category>
-      <category name="1 - Vegan/vegetarisch">
-        <meal>
-          <name>Fruchtige Curry-Kokossuppe, Fladenbrot</name>
+          <name>Blumenkohlschnitzel, BBQ-Sauce</name>
           <note>Enthält Gluten</note>
-          <note>Enthält Sesamsamen</note>
+          <note>Enthält Hafer Gluten</note>
           <note>Enthält Soja</note>
           <note>Enthält Weizen Gluten</note>
+          <note>Mit Farbstoff</note>
+          <note>Mit Geschmacksverstärker</note>
+          <note>Mit Konservierungsstoff</note>
           <note>Vegan</note>
-          <price role="employee">4.30</price>
+          <price role="employee">3.65</price>
           <price role="other">0.00</price>
-          <price role="student">2.00</price>
+          <price role="student">2.15</price>
         </meal>
-      </category>
-      <category name="Vegan/vegetarisch">
         <meal>
           <name>Protein Pasta</name>
           <note>Enthält Gluten</note>
@@ -273,9 +237,77 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
+          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
+        </meal>
+      </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Dessertbecher</name>
+          <note>Enthält Gelatine</note>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Schalenfrüchte (Nüsse)</note>
+          <note>Enthält Schalenfrüchte Haselnuss</note>
+          <note>Enthält Weizen Gluten</note>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Drillinge</name>
+          <note>Vegan</note>
+          <price role="employee">1.45</price>
+          <price role="other">0.00</price>
+          <price role="student">0.95</price>
+        </meal>
+        <meal>
+          <name>Obst</name>
+          <price role="employee">0.95</price>
+          <price role="other">2.95</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Beilagensalat Standard</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+      </category>
+      <category name="1 - Vegan/vegetarisch">
+        <meal>
+          <name>Kurkuma Kokossuppe, Kaiserbrötchen</name>
+          <note>Enthält Alkohol</note>
+          <note>Enthält Gluten</note>
+          <note>Enthält Sesamsamen</note>
+          <note>Enthält Soja</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Mit Farbstoff</note>
+          <note>Mit Geschmacksverstärker</note>
+          <note>Mit Konservierungsstoff</note>
+          <note>Vegan</note>
+          <price role="employee">4.30</price>
+          <price role="other">0.00</price>
+          <price role="student">0.02</price>
+        </meal>
+        <meal>
+          <name>Kurkuma Kokossuppe mit Reis, Kaiserbrötchen</name>
+          <note>Enthält Alkohol</note>
+          <note>Enthält Gluten</note>
+          <note>Enthält Sesamsamen</note>
+          <note>Enthält Soja</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Mit Farbstoff</note>
+          <note>Mit Geschmacksverstärker</note>
+          <note>Mit Konservierungsstoff</note>
+          <note>Vegan</note>
+          <price role="employee">4.30</price>
+          <price role="other">0.00</price>
+          <price role="student">0.02</price>
         </meal>
       </category>
     </day>
@@ -327,7 +359,16 @@
           <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
+          <note>Enthält Schalenfrüchte (Nüsse)</note>
+          <note>Enthält Schalenfrüchte Haselnuss</note>
           <note>Enthält Weizen Gluten</note>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Erbsen und Möhren</name>
+          <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
           <price role="student">0.65</price>
@@ -395,6 +436,7 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
+          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -447,6 +489,8 @@
           <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
+          <note>Enthält Schalenfrüchte (Nüsse)</note>
+          <note>Enthält Schalenfrüchte Haselnuss</note>
           <note>Enthält Weizen Gluten</note>
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
@@ -467,6 +511,13 @@
         </meal>
         <meal>
           <name>Beilagensalat Standard</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Salzkartoffeln</name>
           <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
@@ -517,6 +568,7 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
+          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -585,10 +637,19 @@
           <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
+          <note>Enthält Schalenfrüchte (Nüsse)</note>
+          <note>Enthält Schalenfrüchte Haselnuss</note>
           <note>Enthält Weizen Gluten</note>
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
           <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Pommes frites</name>
+          <note>Vegan</note>
+          <price role="employee">1.45</price>
+          <price role="other">0.00</price>
+          <price role="student">0.95</price>
         </meal>
         <meal>
           <name>Pommes frites</name>
@@ -633,6 +694,7 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
+          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -678,6 +740,8 @@
           <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
+          <note>Enthält Schalenfrüchte (Nüsse)</note>
+          <note>Enthält Schalenfrüchte Haselnuss</note>
           <note>Enthält Weizen Gluten</note>
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
@@ -758,6 +822,7 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
+          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -801,6 +866,8 @@
           <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
+          <note>Enthält Schalenfrüchte (Nüsse)</note>
+          <note>Enthält Schalenfrüchte Haselnuss</note>
           <note>Enthält Weizen Gluten</note>
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
@@ -866,6 +933,7 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
+          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -899,6 +967,8 @@
           <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
+          <note>Enthält Schalenfrüchte (Nüsse)</note>
+          <note>Enthält Schalenfrüchte Haselnuss</note>
           <note>Enthält Weizen Gluten</note>
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
@@ -967,6 +1037,7 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
+          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -1001,6 +1072,8 @@
           <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
+          <note>Enthält Schalenfrüchte (Nüsse)</note>
+          <note>Enthält Schalenfrüchte Haselnuss</note>
           <note>Enthält Weizen Gluten</note>
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
@@ -1071,6 +1144,7 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
+          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -1106,6 +1180,8 @@
           <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
+          <note>Enthält Schalenfrüchte (Nüsse)</note>
+          <note>Enthält Schalenfrüchte Haselnuss</note>
           <note>Enthält Weizen Gluten</note>
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
@@ -1172,6 +1248,7 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
+          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>

@@ -13,13 +13,6 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Basmatireis Vegan</name>
-          <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">1.30</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
           <name>Beilagensalat</name>
           <note>Vegan</note>
           <price role="employee">0.95</price>
@@ -103,6 +96,63 @@
       </category>
     </day>
     <day date="2026-09-15">
+      <category name="Speiseplan">
+        <meal>
+          <name>Beilagensalat</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">1.30</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Linsen Dal, Brötchen</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Sellerie</note>
+          <note>Mit Farbstoff</note>
+          <note>Mit Konservierungsstoff</note>
+          <note>Vegan</note>
+          <price role="employee">4.30</price>
+          <price role="other">0.00</price>
+          <price role="student">2.00</price>
+        </meal>
+        <meal>
+          <name>Penne Nudeln trocken</name>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Penne Nudeln trocken</name>
+          <note>Enthält Weizen Gluten</note>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Paprikagemüse</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">1.30</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Vanille Pudding</name>
+          <note>Enthält Laktose</note>
+          <note>Vegetarisch</note>
+          <price role="employee">0.95</price>
+          <price role="other">1.30</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Vegane Dessertbecher verschiedene Sorten</name>
+          <note>Enthält Hafer Gluten</note>
+          <price role="employee">2.85</price>
+          <price role="other">0.00</price>
+          <price role="student">1.95</price>
+        </meal>
+      </category>
       <category name="Vegan/vegetarisch">
         <meal>
           <name>Blumenkohlschnitzel, BBQ-Sauce</name>
@@ -160,24 +210,22 @@
         <meal>
           <name>Drillinge</name>
           <note>Vegan</note>
-          <price role="employee">1.45</price>
-          <price role="other">0.00</price>
-          <price role="student">0.95</price>
+          <price role="employee">0.95</price>
+          <price role="other">1.30</price>
+          <price role="student">0.65</price>
         </meal>
       </category>
-      <category name="Speiseplan">
+      <category name="Querbeet">
         <meal>
-          <name>Paprikagemüse</name>
-          <price role="employee">1.45</price>
+          <name>Linsen Dal, Brötchen</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Sellerie</note>
+          <note>Mit Farbstoff</note>
+          <note>Mit Konservierungsstoff</note>
+          <note>Vegan</note>
+          <price role="employee">4.30</price>
           <price role="other">0.00</price>
-          <price role="student">0.95</price>
-        </meal>
-        <meal>
-          <name>Penne Nudeln trocken</name>
-          <note>Enthält Weizen Gluten</note>
-          <price role="employee">1.45</price>
-          <price role="other">0.00</price>
-          <price role="student">0.95</price>
+          <price role="student">0.02</price>
         </meal>
       </category>
     </day>
@@ -221,12 +269,11 @@
           <price role="student">2.70</price>
         </meal>
         <meal>
-          <name>Kürbis-Falafelbällchen, Hummus, Karotten-Rosenkohl-Curry</name>
-          <note>Enthält Sellerie</note>
+          <name>Kürbis-Falafelbällchen, Hummus</name>
           <note>Vegan</note>
-          <price role="employee">4.20</price>
+          <price role="employee">2.60</price>
           <price role="other">0.00</price>
-          <price role="student">2.45</price>
+          <price role="student">1.55</price>
         </meal>
         <meal>
           <name>Salatbuffet in Selbstbedienung, je 100g</name>
@@ -348,11 +395,20 @@
           <price role="other">1.30</price>
           <price role="student">0.65</price>
         </meal>
+      </category>
+      <category name="Beilagen">
         <meal>
-          <name>Pommes frites 8 mm frisch</name>
+          <name>Pommes frites</name>
+          <note>Vegan</note>
+          <price role="employee">1.45</price>
+          <price role="other">0.00</price>
+          <price role="student">0.95</price>
+        </meal>
+        <meal>
+          <name>Salzkartoffeln</name>
           <note>Vegan</note>
           <price role="employee">0.95</price>
-          <price role="other">1.30</price>
+          <price role="other">0.00</price>
           <price role="student">0.65</price>
         </meal>
       </category>
@@ -391,15 +447,6 @@
           <price role="employee">4.85</price>
           <price role="other">0.00</price>
           <price role="student">2.85</price>
-        </meal>
-      </category>
-      <category name="Beilagen">
-        <meal>
-          <name>Salzkartoffeln</name>
-          <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
         </meal>
       </category>
       <category name="Fisch">
@@ -466,6 +513,13 @@
           <price role="student">0.95</price>
         </meal>
         <meal>
+          <name>Pommes frites</name>
+          <note>Vegan</note>
+          <price role="employee">1.45</price>
+          <price role="other">0.00</price>
+          <price role="student">0.95</price>
+        </meal>
+        <meal>
           <name>Süßkartoffel-Rosenkohl Curry</name>
           <note>Enthält Sellerie</note>
           <note>Vegan</note>
@@ -476,12 +530,11 @@
       </category>
       <category name="Vegan/vegetarisch">
         <meal>
-          <name>Kürbis-Falafelbällchen, Hummus, Karotten-Rosenkohl-Curry</name>
-          <note>Enthält Sellerie</note>
+          <name>Kürbis-Falafelbällchen, Hummus</name>
           <note>Vegan</note>
-          <price role="employee">4.20</price>
+          <price role="employee">2.60</price>
           <price role="other">0.00</price>
-          <price role="student">2.45</price>
+          <price role="student">1.55</price>
         </meal>
         <meal>
           <name>Riesenrösti mit Champignons</name>
@@ -517,13 +570,6 @@
         </meal>
       </category>
       <category name="Speiseplan">
-        <meal>
-          <name>Pommes frites 8 mm frisch</name>
-          <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">1.30</price>
-          <price role="student">0.65</price>
-        </meal>
         <meal>
           <name>Beilagensalat Standard</name>
           <note>Vegan</note>
@@ -592,14 +638,31 @@
           <price role="student">0.77</price>
         </meal>
       </category>
-      <category name="Speiseplan">
+      <category name="Beilagen">
         <meal>
-          <name>Pommes frites 8 mm frisch</name>
+          <name>Pommes frites</name>
+          <note>Vegan</note>
+          <price role="employee">1.45</price>
+          <price role="other">0.00</price>
+          <price role="student">0.95</price>
+        </meal>
+        <meal>
+          <name>Rotkohl</name>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Vegan</note>
+          <price role="employee">1.45</price>
+          <price role="other">0.00</price>
+          <price role="student">0.95</price>
+        </meal>
+        <meal>
+          <name>Salzkartoffeln</name>
           <note>Vegan</note>
           <price role="employee">0.95</price>
-          <price role="other">1.30</price>
+          <price role="other">0.00</price>
           <price role="student">0.65</price>
         </meal>
+      </category>
+      <category name="Speiseplan">
         <meal>
           <name>Rahmkartoffeln mit Rosenkohl und Karotten</name>
           <note>Enthält Laktose</note>
@@ -611,23 +674,6 @@
         </meal>
         <meal>
           <name>Beilagensalat Standard</name>
-          <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
-        </meal>
-      </category>
-      <category name="Beilagen">
-        <meal>
-          <name>Rotkohl</name>
-          <note>Mit Antioxidationsmittel</note>
-          <note>Vegan</note>
-          <price role="employee">1.45</price>
-          <price role="other">0.00</price>
-          <price role="student">0.95</price>
-        </meal>
-        <meal>
-          <name>Salzkartoffeln</name>
           <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
@@ -851,6 +897,13 @@
           <price role="student">0.95</price>
         </meal>
         <meal>
+          <name>Pommes frites</name>
+          <note>Vegan</note>
+          <price role="employee">1.45</price>
+          <price role="other">0.00</price>
+          <price role="student">0.95</price>
+        </meal>
+        <meal>
           <name>Salzkartoffeln</name>
           <note>Vegan</note>
           <price role="employee">0.95</price>
@@ -868,13 +921,6 @@
         </meal>
       </category>
       <category name="Speiseplan">
-        <meal>
-          <name>Pommes frites 8 mm frisch</name>
-          <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">1.30</price>
-          <price role="student">0.65</price>
-        </meal>
         <meal>
           <name>Beilagensalat Standard</name>
           <note>Vegan</note>

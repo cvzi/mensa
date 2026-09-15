@@ -104,6 +104,16 @@
           <price role="student">0.95</price>
         </meal>
         <meal>
+          <name>Griechischer Bauernsalat</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Vegetarisch</note>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
           <name>Kaisergemüse</name>
           <note>Vegan</note>
           <price role="employee">0.95</price>
@@ -111,8 +121,10 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Pommes frites</name>
-          <note>Vegan</note>
+          <name>Mandarinenjoghurt</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Vegetarisch</note>
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
           <price role="student">0.65</price>
@@ -121,8 +133,16 @@
           <name>Salzkartoffeln</name>
           <note>Vegan</note>
           <price role="employee">0.95</price>
-          <price role="other">3.00</price>
+          <price role="other">0.00</price>
           <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Süßkartoffel-Rosenkohl Curry</name>
+          <note>Enthält Sellerie</note>
+          <note>Vegan</note>
+          <price role="employee">1.45</price>
+          <price role="other">0.00</price>
+          <price role="student">0.95</price>
         </meal>
       </category>
       <category name="Vegan/vegetarisch">
@@ -154,19 +174,9 @@
           <price role="student">3.15</price>
         </meal>
       </category>
-      <category name="Fleisch">
-        <meal>
-          <name>Currywurst</name>
-          <note>Neuland</note>
-          <note>mit Schwein</note>
-          <price role="employee">3.55</price>
-          <price role="other">0.00</price>
-          <price role="student">2.10</price>
-        </meal>
-      </category>
       <category name="1 - Vegan/vegetarisch">
         <meal>
-          <name>Kürbiscremesuppe, Fladenbrot</name>
+          <name>Kürbiscremesuppe, Brötchen</name>
           <note>Enthält Gluten</note>
           <note>Enthält Hafer Gluten</note>
           <note>Enthält Sesamsamen</note>
@@ -175,7 +185,7 @@
           <note>Vegan</note>
           <price role="employee">4.30</price>
           <price role="other">0.00</price>
-          <price role="student">2.00</price>
+          <price role="student">0.02</price>
         </meal>
       </category>
     </day>
@@ -425,10 +435,7 @@
     <day date="2026-09-21">
       <category name="Beilagen">
         <meal>
-          <name>Blumenkohl, Gemüserahmsauce</name>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Sellerie</note>
+          <name>Blumenkohl</name>
           <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
