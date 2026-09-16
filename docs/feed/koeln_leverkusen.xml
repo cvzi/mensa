@@ -4,16 +4,31 @@
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
     <day date="2026-09-14">
+      <category name="Fleisch">
+        <meal>
+          <name>Hähnchen-Crossies, Mango Curry-Mayo</name>
+          <note>Enthält Gerste Gluten</note>
+          <note>Enthält Gluten</note>
+          <note>Enthält Senf</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>mit Geflügel</note>
+          <price role="employee">3.80</price>
+          <price role="other">0.00</price>
+          <price role="student">2.25</price>
+        </meal>
+      </category>
+      <category name="Vegan/vegetarisch">
+        <meal>
+          <name>Kürbis-Falafelbällchen, Hummus</name>
+          <note>Vegan</note>
+          <price role="employee">2.60</price>
+          <price role="other">0.00</price>
+          <price role="student">1.55</price>
+        </meal>
+      </category>
       <category name="Beilagen">
         <meal>
-          <name>Beilagensalat</name>
-          <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Fruchtjoghurt</name>
+          <name>Mandarinenjoghurt</name>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
           <note>Vegetarisch</note>
@@ -38,6 +53,13 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
+          <name>Beilagensalat Standard</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
           <name>Schokoladen Pudding, Dessert Topping</name>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
@@ -53,28 +75,6 @@
           <price role="employee">1.45</price>
           <price role="other">0.00</price>
           <price role="student">0.95</price>
-        </meal>
-      </category>
-      <category name="Fleisch">
-        <meal>
-          <name>Hähnchen-Crossies, Mango Curry-Mayo</name>
-          <note>Enthält Gerste Gluten</note>
-          <note>Enthält Gluten</note>
-          <note>Enthält Senf</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>mit Geflügel</note>
-          <price role="employee">3.80</price>
-          <price role="other">0.00</price>
-          <price role="student">2.25</price>
-        </meal>
-      </category>
-      <category name="Vegan/vegetarisch">
-        <meal>
-          <name>Kürbis-Falafelbällchen, Hummus</name>
-          <note>Vegan</note>
-          <price role="employee">2.60</price>
-          <price role="other">0.00</price>
-          <price role="student">1.55</price>
         </meal>
       </category>
       <category name="1 - Vegan/vegetarisch">
@@ -117,14 +117,16 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Beilagensalat</name>
+          <name>Drillinge</name>
           <note>Vegan</note>
-          <price role="employee">0.95</price>
+          <price role="employee">1.45</price>
           <price role="other">0.00</price>
-          <price role="student">0.65</price>
+          <price role="student">0.95</price>
         </meal>
         <meal>
-          <name>Drillinge</name>
+          <name>Feinkostsalat, Krautsalat, Kartoffelsalat, Kartoffelsalat mit Mayo, Gurkensalat</name>
+          <note>Enthält Gerste Gluten</note>
+          <note>Enthält Laktose</note>
           <note>Vegan</note>
           <price role="employee">1.45</price>
           <price role="other">0.00</price>
@@ -140,10 +142,17 @@
           <price role="student">0.95</price>
         </meal>
         <meal>
-          <name>Fruchtjoghurt</name>
+          <name>Mandarinenjoghurt</name>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
           <note>Vegetarisch</note>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Beilagensalat Standard</name>
+          <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
           <price role="student">0.65</price>
@@ -307,24 +316,6 @@
       <closed/>
     </day>
     <day date="2026-09-21">
-      <category name="Beilagen">
-        <meal>
-          <name>Beilagensalat</name>
-          <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Kartoffelstampf</name>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Vegetarisch</note>
-          <price role="employee">1.45</price>
-          <price role="other">0.00</price>
-          <price role="student">0.95</price>
-        </meal>
-      </category>
       <category name="Fleisch">
         <meal>
           <name>Hähnchenschnitzel mit Knusperpanade, Pfefferrahmsauce</name>
@@ -339,6 +330,24 @@
           <price role="student">1.95</price>
         </meal>
       </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Kartoffelstampf</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Vegetarisch</note>
+          <price role="employee">1.45</price>
+          <price role="other">0.00</price>
+          <price role="student">0.95</price>
+        </meal>
+        <meal>
+          <name>Beilagensalat Standard</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+      </category>
       <category name="Vegan/vegetarisch">
         <meal>
           <name>Riesenrösti mit Champignons</name>
@@ -351,37 +360,6 @@
       </category>
     </day>
     <day date="2026-09-22">
-      <category name="Beilagen">
-        <meal>
-          <name>Beilagensalat</name>
-          <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Pommes frites</name>
-          <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Rotkohl</name>
-          <note>Mit Antioxidationsmittel</note>
-          <note>Vegan</note>
-          <price role="employee">1.45</price>
-          <price role="other">0.00</price>
-          <price role="student">0.95</price>
-        </meal>
-        <meal>
-          <name>Salzkartoffeln</name>
-          <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
-        </meal>
-      </category>
       <category name="Fleisch">
         <meal>
           <name>Currywurst</name>
@@ -403,6 +381,37 @@
           <price role="student">1.75</price>
         </meal>
       </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Pommes frites</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Rotkohl</name>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Vegan</note>
+          <price role="employee">1.45</price>
+          <price role="other">0.00</price>
+          <price role="student">0.95</price>
+        </meal>
+        <meal>
+          <name>Beilagensalat Standard</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Salzkartoffeln</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+      </category>
     </day>
     <day date="2026-09-23">
       <category name="Fleisch">
@@ -416,34 +425,30 @@
           <price role="student">1.95</price>
         </meal>
       </category>
-      <category name="Meisterwerk Aktion">
+      <category name="Aktion">
         <meal>
-          <name>AKTION ""Frittwoch"": Pommes frites, Chili con carne mit Rindfleisch, Nachos, Sour Cream, Jalapenos</name>
-          <note>Enthält Gelatine</note>
-          <note>Enthält Hafer Gluten</note>
+          <name>AKTION ""Frittwoch"": Pommes frites, Chili con carne mit Rindfleisch, Sour Cream</name>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
-          <note>Enthält Schalenfrüchte (Nüsse)</note>
-          <note>Enthält Schalenfrüchte Haselnuss</note>
-          <note>Enthält Soja</note>
-          <note>Enthält Weizen Gluten</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
           <note>Neuland</note>
           <note>mit Rind</note>
-          <price role="employee">6.50</price>
-          <price role="other">19.55</price>
-          <price role="student">4.30</price>
+          <price role="employee">6.10</price>
+          <price role="other">0.00</price>
+          <price role="student">3.75</price>
+        </meal>
+        <meal>
+          <name>Kichererbsen Tikka Masala, Pommes frites</name>
+          <note>Mit Farbstoff</note>
+          <note>Mit Konservierungsstoff</note>
+          <note>Vegan</note>
+          <price role="employee">6.10</price>
+          <price role="other">0.00</price>
+          <price role="student">3.75</price>
         </meal>
       </category>
       <category name="Beilagen">
-        <meal>
-          <name>Beilagensalat</name>
-          <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
-        </meal>
         <meal>
           <name>Kartoffelstampf</name>
           <note>Enthält Laktose</note>
@@ -461,22 +466,18 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Sauerkraut</name>
+          <name>Beilagensalat Standard</name>
           <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
           <price role="student">0.65</price>
         </meal>
-      </category>
-      <category name="Aktion">
         <meal>
-          <name>Kichererbsen Tikka Masala, Pommes frites</name>
-          <note>Mit Farbstoff</note>
-          <note>Mit Konservierungsstoff</note>
+          <name>Sauerkraut</name>
           <note>Vegan</note>
-          <price role="employee">6.10</price>
+          <price role="employee">0.95</price>
           <price role="other">0.00</price>
-          <price role="student">3.75</price>
+          <price role="student">0.65</price>
         </meal>
       </category>
     </day>
@@ -521,13 +522,6 @@
     <day date="2026-09-25">
       <category name="Beilagen">
         <meal>
-          <name>Beilagensalat</name>
-          <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
           <name>Mie-Nudeln</name>
           <note>Enthält Gluten</note>
           <note>Enthält Soja</note>
@@ -539,6 +533,13 @@
           <price role="employee">1.45</price>
           <price role="other">0.00</price>
           <price role="student">0.95</price>
+        </meal>
+        <meal>
+          <name>Beilagensalat Standard</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
         </meal>
         <meal>
           <name>Spaghetti</name>

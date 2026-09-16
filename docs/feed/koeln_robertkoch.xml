@@ -38,6 +38,7 @@
         </meal>
         <meal>
           <name>Tagesrestproduktion</name>
+          <note>Mit Antioxidationsmittel</note>
           <price role="employee">0.80</price>
           <price role="other">2.80</price>
           <price role="student">0.60</price>
@@ -184,6 +185,7 @@
         </meal>
         <meal>
           <name>Tagesrestproduktion</name>
+          <note>Mit Antioxidationsmittel</note>
           <price role="employee">0.80</price>
           <price role="other">2.80</price>
           <price role="student">0.60</price>
@@ -326,6 +328,12 @@
           <price role="student">0.60</price>
         </meal>
         <meal>
+          <name>Erbsen und Möhren</name>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
           <name>Nektarine</name>
           <price role="employee">0.00</price>
           <price role="other">0.00</price>
@@ -333,6 +341,7 @@
         </meal>
         <meal>
           <name>Tagesrestproduktion</name>
+          <note>Mit Antioxidationsmittel</note>
           <price role="employee">0.80</price>
           <price role="other">2.80</price>
           <price role="student">0.60</price>
@@ -346,6 +355,7 @@
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
           <note>Neuland</note>
+          <note>Rettet die Knolle!</note>
           <note>mit Rind</note>
           <price role="employee">6.10</price>
           <price role="other">0.00</price>
@@ -367,13 +377,6 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Erbsen und Möhren</name>
-          <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
           <name>Obst</name>
           <price role="employee">0.95</price>
           <price role="other">2.95</price>
@@ -381,10 +384,11 @@
         </meal>
         <meal>
           <name>Pommes frites</name>
+          <note>Rettet die Knolle!</note>
           <note>Vegan</note>
-          <price role="employee">1.45</price>
+          <price role="employee">0.95</price>
           <price role="other">0.00</price>
-          <price role="student">0.95</price>
+          <price role="student">0.65</price>
         </meal>
         <meal>
           <name>Beilagensalat Standard</name>
@@ -395,6 +399,7 @@
         </meal>
         <meal>
           <name>Salzkartoffeln</name>
+          <note>Rettet die Knolle!</note>
           <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
@@ -436,7 +441,6 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -451,7 +455,7 @@
           <note>Vegan</note>
           <price role="employee">4.30</price>
           <price role="other">0.00</price>
-          <price role="student">2.00</price>
+          <price role="student">0.02</price>
         </meal>
       </category>
     </day>
@@ -477,6 +481,7 @@
         </meal>
         <meal>
           <name>Tagesrestproduktion</name>
+          <note>Mit Antioxidationsmittel</note>
           <price role="employee">0.80</price>
           <price role="other">2.80</price>
           <price role="student">0.60</price>
@@ -524,6 +529,31 @@
           <price role="student">0.65</price>
         </meal>
       </category>
+      <category name="1 - Vegan/vegetarisch">
+        <meal>
+          <name>Fruchtige Curry-Kokossuppe, Fladenbrot</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Sesamsamen</note>
+          <note>Enthält Soja</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">4.30</price>
+          <price role="other">0.00</price>
+          <price role="student">2.00</price>
+        </meal>
+        <meal>
+          <name>Käse-Lauchcremesuppe, Kaiserbrötchen</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Mit Farbstoff</note>
+          <note>Mit Phosphat</note>
+          <note>Vegetarisch</note>
+          <price role="employee">4.30</price>
+          <price role="other">0.00</price>
+          <price role="student">2.00</price>
+        </meal>
+      </category>
       <category name="Fleisch">
         <meal>
           <name>Fruchtiges Hähnchen-Kokoscurry</name>
@@ -568,24 +598,9 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
-        </meal>
-      </category>
-      <category name="1 - Vegan/vegetarisch">
-        <meal>
-          <name>Käse-Lauchcremesuppe, Kaiserbrötchen</name>
-          <note>Enthält Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Mit Farbstoff</note>
-          <note>Mit Phosphat</note>
-          <note>Vegetarisch</note>
-          <price role="employee">4.30</price>
-          <price role="other">0.00</price>
-          <price role="student">2.00</price>
         </meal>
       </category>
     </day>
@@ -611,6 +626,7 @@
         </meal>
         <meal>
           <name>Tagesrestproduktion</name>
+          <note>Mit Antioxidationsmittel</note>
           <price role="employee">0.80</price>
           <price role="other">2.80</price>
           <price role="student">0.60</price>
@@ -646,17 +662,18 @@
         </meal>
         <meal>
           <name>Pommes frites</name>
-          <note>Vegan</note>
-          <price role="employee">1.45</price>
-          <price role="other">0.00</price>
-          <price role="student">0.95</price>
-        </meal>
-        <meal>
-          <name>Pommes frites</name>
+          <note>Rettet die Knolle!</note>
           <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
           <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Pommes frites</name>
+          <note>Vegan</note>
+          <price role="employee">1.45</price>
+          <price role="other">0.00</price>
+          <price role="student">0.95</price>
         </meal>
         <meal>
           <name>Beilagensalat Standard</name>
@@ -667,6 +684,7 @@
         </meal>
         <meal>
           <name>Salzkartoffeln</name>
+          <note>Rettet die Knolle!</note>
           <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
@@ -694,7 +712,6 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -822,7 +839,6 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -831,6 +847,7 @@
       <category name="Speiseplan">
         <meal>
           <name>Tagesrestproduktion</name>
+          <note>Mit Antioxidationsmittel</note>
           <price role="employee">0.80</price>
           <price role="other">2.80</price>
           <price role="student">0.60</price>
@@ -876,9 +893,9 @@
         <meal>
           <name>Pommes frites</name>
           <note>Vegan</note>
-          <price role="employee">0.95</price>
+          <price role="employee">1.45</price>
           <price role="other">0.00</price>
-          <price role="student">0.65</price>
+          <price role="student">0.95</price>
         </meal>
         <meal>
           <name>Rotkohl</name>
@@ -897,6 +914,7 @@
         </meal>
         <meal>
           <name>Salzkartoffeln</name>
+          <note>Rettet die Knolle!</note>
           <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
@@ -933,7 +951,6 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -942,6 +959,7 @@
       <category name="Speiseplan">
         <meal>
           <name>Tagesrestproduktion</name>
+          <note>Mit Antioxidationsmittel</note>
           <price role="employee">0.80</price>
           <price role="other">2.80</price>
           <price role="student">0.60</price>
@@ -1037,7 +1055,6 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -1046,6 +1063,7 @@
       <category name="Speiseplan">
         <meal>
           <name>Tagesrestproduktion</name>
+          <note>Mit Antioxidationsmittel</note>
           <price role="employee">0.80</price>
           <price role="other">2.80</price>
           <price role="student">0.60</price>
@@ -1144,7 +1162,6 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -1166,6 +1183,7 @@
       <category name="Speiseplan">
         <meal>
           <name>Tagesrestproduktion</name>
+          <note>Mit Antioxidationsmittel</note>
           <price role="employee">0.80</price>
           <price role="other">2.80</price>
           <price role="student">0.60</price>
@@ -1248,7 +1266,6 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -1281,6 +1298,7 @@
       <category name="Speiseplan">
         <meal>
           <name>Tagesrestproduktion</name>
+          <note>Mit Antioxidationsmittel</note>
           <price role="employee">0.80</price>
           <price role="other">2.80</price>
           <price role="student">0.60</price>
