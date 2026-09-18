@@ -436,6 +436,17 @@
           <note>Mit Farbstoff</note>
           <note>Vegan</note>
           <price role="employee">4.30</price>
+          <price role="other">5.70</price>
+          <price role="student">0.02</price>
+        </meal>
+        <meal>
+          <name>Kartoffelcremesuppe, Brötchen</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Senf</note>
+          <note>Mit Farbstoff</note>
+          <note>Vegan</note>
+          <price role="employee">4.30</price>
           <price role="other">0.00</price>
           <price role="student">2.00</price>
         </meal>
@@ -449,17 +460,6 @@
           <price role="employee">4.30</price>
           <price role="other">5.70</price>
           <price role="student">2.00</price>
-        </meal>
-        <meal>
-          <name>Kartoffelcremesuppe, Brötchen</name>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Senf</note>
-          <note>Mit Farbstoff</note>
-          <note>Vegan</note>
-          <price role="employee">4.30</price>
-          <price role="other">5.70</price>
-          <price role="student">0.02</price>
         </meal>
       </category>
       <category name="Beilagen">
@@ -473,28 +473,62 @@
       </category>
     </day>
     <day date="2026-09-18">
+      <category name="Fisch">
+        <meal>
+          <name>Polardorsch, Zitronen-Dillrahmsauce</name>
+          <note>Enthält Fisch</note>
+          <note>Enthält Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>mit Fisch</note>
+          <price role="employee">4.85</price>
+          <price role="other">6.15</price>
+          <price role="student">2.85</price>
+        </meal>
+      </category>
       <category name="Speiseplan">
         <meal>
-          <name>Basmatireis Vegan</name>
+          <name>Beilagensalat</name>
+          <note>Vegan</note>
           <price role="employee">0.95</price>
-          <price role="other">0.00</price>
+          <price role="other">1.30</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Broccoli</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">1.30</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Fruchtquark vegan</name>
+          <note>Enthält Hafer Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">1.30</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Reis</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">1.30</price>
           <price role="student">0.65</price>
         </meal>
       </category>
-      <category name="Beilagen">
+      <category name="Querbeet">
         <meal>
-          <name>Pommes frites</name>
+          <name>Kartoffel-Möhren-Eintopf, Brötchen</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Sellerie</note>
           <note>Vegan</note>
-          <price role="employee">1.45</price>
+          <price role="employee">4.30</price>
           <price role="other">0.00</price>
-          <price role="student">0.95</price>
-        </meal>
-        <meal>
-          <name>Salzkartoffeln</name>
-          <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
+          <price role="student">0.02</price>
         </meal>
       </category>
       <category name="Vegan/vegetarisch">
@@ -534,18 +568,13 @@
           <price role="student">2.85</price>
         </meal>
       </category>
-      <category name="Fisch">
+      <category name="Beilagen">
         <meal>
-          <name>Seelachs Meuniere, Zitronen-Dillrahmsauce</name>
-          <note>Enthält Fisch</note>
-          <note>Enthält Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>mit Fisch</note>
-          <price role="employee">4.85</price>
-          <price role="other">0.00</price>
-          <price role="student">2.85</price>
+          <name>Salzkartoffeln</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">1.30</price>
+          <price role="student">0.65</price>
         </meal>
       </category>
     </day>
@@ -743,7 +772,7 @@
           <name>Salzkartoffeln</name>
           <note>Vegan</note>
           <price role="employee">0.95</price>
-          <price role="other">0.00</price>
+          <price role="other">1.30</price>
           <price role="student">0.65</price>
         </meal>
       </category>
@@ -874,7 +903,7 @@
           <note>Enthält Krebstiere (Schalen-/ Krusten-/Weichtiere)</note>
           <note>mit Geflügel</note>
           <price role="employee">3.00</price>
-          <price role="other">3.85</price>
+          <price role="other">0.00</price>
           <price role="student">1.75</price>
         </meal>
         <meal>
@@ -898,7 +927,7 @@
           <note>Mit Konservierungsstoff</note>
           <note>Vegan</note>
           <price role="employee">4.60</price>
-          <price role="other">5.85</price>
+          <price role="other">0.00</price>
           <price role="student">2.70</price>
         </meal>
         <meal>
@@ -967,6 +996,32 @@
       </category>
     </day>
     <day date="2026-09-25">
+      <category name="Fisch">
+        <meal>
+          <name>Polardorsch, Zitronen-Dillrahmsauce</name>
+          <note>Enthält Fisch</note>
+          <note>Enthält Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>mit Fisch</note>
+          <price role="employee">4.85</price>
+          <price role="other">6.15</price>
+          <price role="student">2.85</price>
+        </meal>
+        <meal>
+          <name>Seelachsfilet im Sesammantel, Teriyakisauce</name>
+          <note>Enthält Alkohol</note>
+          <note>Enthält Fisch</note>
+          <note>Enthält Gluten</note>
+          <note>Enthält Sesamsamen</note>
+          <note>Enthält Soja</note>
+          <note>mit Fisch</note>
+          <price role="employee">5.65</price>
+          <price role="other">0.00</price>
+          <price role="student">3.30</price>
+        </meal>
+      </category>
       <category name="Beilagen">
         <meal>
           <name>Mie-Nudeln</name>
@@ -992,7 +1047,7 @@
           <name>Salzkartoffeln</name>
           <note>Vegan</note>
           <price role="employee">0.95</price>
-          <price role="other">0.00</price>
+          <price role="other">1.30</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
@@ -1066,32 +1121,6 @@
           <price role="employee">5.20</price>
           <price role="other">13.80</price>
           <price role="student">3.05</price>
-        </meal>
-      </category>
-      <category name="Fisch">
-        <meal>
-          <name>Seelachs Meuniere, Zitronen-Dillrahmsauce</name>
-          <note>Enthält Fisch</note>
-          <note>Enthält Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>mit Fisch</note>
-          <price role="employee">4.85</price>
-          <price role="other">0.00</price>
-          <price role="student">2.85</price>
-        </meal>
-        <meal>
-          <name>Seelachsfilet im Sesammantel, Teriyakisauce</name>
-          <note>Enthält Alkohol</note>
-          <note>Enthält Fisch</note>
-          <note>Enthält Gluten</note>
-          <note>Enthält Sesamsamen</note>
-          <note>Enthält Soja</note>
-          <note>mit Fisch</note>
-          <price role="employee">5.65</price>
-          <price role="other">0.00</price>
-          <price role="student">3.30</price>
         </meal>
       </category>
     </day>
