@@ -269,22 +269,6 @@
           <price role="other">0.00</price>
           <price role="student">0.65</price>
         </meal>
-        <meal>
-          <name>Pommes Wedges</name>
-          <note>Enthält Gluten</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Reis</name>
-          <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
-        </meal>
       </category>
       <category name="Aktion">
         <meal>
@@ -364,6 +348,24 @@
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
+        </meal>
+      </category>
+      <category name="Speiseplan">
+        <meal>
+          <name>Pommes Wedges</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Reis</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
         </meal>
       </category>
     </day>
@@ -523,20 +525,6 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Reis</name>
-          <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Salzkartoffeln</name>
-          <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
           <name>Schoko Pudding vegan</name>
           <note>Vegan</note>
           <price role="employee">0.95</price>
@@ -578,24 +566,13 @@
           <price role="other">2.91</price>
           <price role="student">0.77</price>
         </meal>
-        <meal>
-          <name>Schnitzel, Ketchup, Mayonnaise</name>
-          <note>Enthält Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Senf</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Vegan</note>
-          <price role="employee">3.30</price>
-          <price role="other">0.00</price>
-          <price role="student">1.95</price>
-        </meal>
       </category>
       <category name="Speiseplan">
         <meal>
           <name>Schokoladen Pudding, Dessert Topping</name>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
-          <note>Vegetarisch</note>
+          <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
           <price role="student">0.65</price>
@@ -718,18 +695,6 @@
           <price role="student">1.75</price>
         </meal>
         <meal>
-          <name>Käse-Lauchcremesuppe, Kaiserbrötchen</name>
-          <note>Enthält Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Mit Farbstoff</note>
-          <note>Mit Phosphat</note>
-          <note>Vegetarisch</note>
-          <price role="employee">4.30</price>
-          <price role="other">0.00</price>
-          <price role="student">2.00</price>
-        </meal>
-        <meal>
           <name>Salatbuffet in Selbstbedienung, je 100g</name>
           <note>Enthält Eier</note>
           <note>Enthält Gerste Gluten</note>
@@ -752,6 +717,20 @@
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
+        </meal>
+      </category>
+      <category name="EG Süd - 11:30 - 14:30 Uhr - Vegan/vegetarisch">
+        <meal>
+          <name>Käse-Lauchcremesuppe, Kaiserbrötchen</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Mit Farbstoff</note>
+          <note>Mit Phosphat</note>
+          <note>Vegetarisch</note>
+          <price role="employee">4.30</price>
+          <price role="other">0.00</price>
+          <price role="student">2.00</price>
         </meal>
       </category>
       <category name="Beilagen">
@@ -829,8 +808,10 @@
       </category>
       <category name="EG Süd - 11:30 - 14:30 Uhr - Vegan/vegetarisch">
         <meal>
-          <name>, Kaiserbrötchen</name>
+          <name>, Fladenbrot</name>
           <note>Enthält Gluten</note>
+          <note>Enthält Sesamsamen</note>
+          <note>Enthält Weizen Gluten</note>
           <note>Geschwefelt</note>
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
