@@ -4,6 +4,23 @@
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
     <day date="2026-09-21">
+      <category name="Beilagen">
+        <meal>
+          <name>Fruchtjoghurt</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <price role="employee">0.95</price>
+          <price role="other">2.95</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Pommes frites</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+      </category>
       <category name="Vegan/vegetarisch">
         <meal>
           <name>Frühlingssuppe, Kaiserbrötchen</name>
@@ -12,7 +29,7 @@
           <note>Vegan</note>
           <price role="employee">4.30</price>
           <price role="other">0.00</price>
-          <price role="student">2.00</price>
+          <price role="student">0.02</price>
         </meal>
         <meal>
           <name>Riesenrösti mit Champignons</name>
@@ -35,17 +52,6 @@
           <price role="employee">3.30</price>
           <price role="other">0.00</price>
           <price role="student">1.95</price>
-        </meal>
-      </category>
-      <category name="494 - Beilagen">
-        <meal>
-          <name>Kartoffelstampf</name>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Vegetarisch</note>
-          <price role="employee">1.45</price>
-          <price role="other">0.00</price>
-          <price role="student">0.95</price>
         </meal>
       </category>
       <category name="1136 - Beilagen">
