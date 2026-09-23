@@ -3,26 +3,50 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2026-09-22">
+    <day date="2026-09-23">
       <category name="Fleisch">
         <meal>
-          <name>Currywurst</name>
+          <name>5 Nürnberger Rostbratwürstchen, Senf</name>
+          <note>Enthält Senf</note>
           <note>Neuland</note>
           <note>mit Schwein</note>
-          <price role="employee">3.55</price>
+          <price role="employee">3.30</price>
           <price role="other">0.00</price>
-          <price role="student">2.10</price>
+          <price role="student">1.95</price>
         </meal>
       </category>
-      <category name="Vegan/vegetarisch">
+      <category name="Aktion">
         <meal>
-          <name>High Protein Gulasch</name>
-          <note>Enthält Gerste Gluten</note>
-          <note>Enthält Gluten</note>
-          <note>Vegan</note>
-          <price role="employee">3.00</price>
+          <name>Pommes frites, Chili con carne mit Rindfleisch, Sour Cream</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Mit Farbstoff</note>
+          <note>Mit Konservierungsstoff</note>
+          <note>Neuland</note>
+          <note>mit Rind</note>
+          <price role="employee">6.10</price>
           <price role="other">0.00</price>
-          <price role="student">1.75</price>
+          <price role="student">3.75</price>
+        </meal>
+        <meal>
+          <name>veganes Kichererbsen Tikka Masala, Pommes frites</name>
+          <note>Mit Farbstoff</note>
+          <note>Mit Konservierungsstoff</note>
+          <note>Vegan</note>
+          <price role="employee">6.10</price>
+          <price role="other">0.00</price>
+          <price role="student">3.75</price>
+        </meal>
+      </category>
+      <category name="494 - Beilagen">
+        <meal>
+          <name>Kartoffelstampf</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Vegetarisch</note>
+          <price role="employee">1.45</price>
+          <price role="other">0.00</price>
+          <price role="student">0.95</price>
         </meal>
       </category>
       <category name="1 - Vegan/vegetarisch">
@@ -37,98 +61,16 @@
           <price role="other">0.00</price>
           <price role="student">2.00</price>
         </meal>
-      </category>
-      <category name="707 - Beilagen">
         <meal>
-          <name>Pommes frites</name>
-          <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
-        </meal>
-      </category>
-      <category name="Beilagen">
-        <meal>
-          <name>Rotkohl</name>
+          <name>Linseneintopf, Kaiserbrötchen</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Sellerie</note>
+          <note>Enthält Senf</note>
           <note>Mit Antioxidationsmittel</note>
           <note>Vegan</note>
-          <price role="employee">1.45</price>
+          <price role="employee">4.30</price>
           <price role="other">0.00</price>
-          <price role="student">0.95</price>
-        </meal>
-        <meal>
-          <name>Schokoladen Pudding, Dessert Topping</name>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Vegetarisch</note>
-          <price role="employee">0.95</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
-        </meal>
-      </category>
-      <category name="1136 - Beilagen">
-        <meal>
-          <name>Beilagensalat Standard</name>
-          <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
-        </meal>
-      </category>
-      <category name="1282 - Beilagen">
-        <meal>
-          <name>Salzkartoffeln</name>
-          <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2026-09-23">
-      <category name="Fleisch">
-        <meal>
-          <name>5 Nürnberger Rostbratwürstchen, Senf</name>
-          <note>Enthält Senf</note>
-          <note>Neuland</note>
-          <note>mit Schwein</note>
-          <price role="employee">3.30</price>
-          <price role="other">0.00</price>
-          <price role="student">1.95</price>
-        </meal>
-      </category>
-      <category name="494 - Beilagen">
-        <meal>
-          <name>Kartoffelstampf</name>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Vegetarisch</note>
-          <price role="employee">1.45</price>
-          <price role="other">0.00</price>
-          <price role="student">0.95</price>
-        </meal>
-      </category>
-      <category name="Aktion">
-        <meal>
-          <name>Kichererbsen Tikka Masala, Pommes frites</name>
-          <note>Mit Farbstoff</note>
-          <note>Mit Konservierungsstoff</note>
-          <note>Vegan</note>
-          <price role="employee">6.10</price>
-          <price role="other">0.00</price>
-          <price role="student">3.75</price>
-        </meal>
-        <meal>
-          <name>Pommes frites, Chili con carne mit Rindfleisch, Sour Cream</name>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Mit Farbstoff</note>
-          <note>Mit Konservierungsstoff</note>
-          <note>Neuland</note>
-          <note>mit Rind</note>
-          <price role="employee">6.10</price>
-          <price role="other">0.00</price>
-          <price role="student">3.75</price>
+          <price role="student">0.02</price>
         </meal>
       </category>
       <category name="707 - Beilagen">
@@ -158,13 +100,80 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Schokoladen Pudding, Dessert Topping</name>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Vegetarisch</note>
+          <name>Schokoladenpudding, Dessert Topping</name>
+          <note>Enthält Soja</note>
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
           <price role="student">0.65</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-09-24">
+      <category name="Fleisch">
+        <meal>
+          <name>Hähnchen-Gnocchipfanne mit Kürbis und Pilzragout</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>mit Geflügel</note>
+          <price role="employee">6.15</price>
+          <price role="other">0.00</price>
+          <price role="student">3.60</price>
+        </meal>
+      </category>
+      <category name="1 - Vegan/vegetarisch">
+        <meal>
+          <name>Linseneintopf, Kaiserbrötchen</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Sellerie</note>
+          <note>Enthält Senf</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Vegan</note>
+          <price role="employee">4.30</price>
+          <price role="other">0.00</price>
+          <price role="student">2.00</price>
+        </meal>
+      </category>
+      <category name="Vegan/vegetarisch">
+        <meal>
+          <name>Riesenrösti mit Champignons</name>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Soja</note>
+          <note>Vegan</note>
+          <price role="employee">6.95</price>
+          <price role="other">0.00</price>
+          <price role="student">4.10</price>
+        </meal>
+        <meal>
+          <name>Vegane Meatballs, Knoblauchsauce</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Schalenfrüchte Mandeln</note>
+          <note>Enthält Senf</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Vegan</note>
+          <price role="employee">3.30</price>
+          <price role="other">0.00</price>
+          <price role="student">1.95</price>
+        </meal>
+      </category>
+      <category name="1136 - Beilagen">
+        <meal>
+          <name>Beilagensalat Standard</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+      </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Twister Pommes</name>
+          <note>Enthält Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">1.45</price>
+          <price role="other">0.00</price>
+          <price role="student">0.95</price>
         </meal>
       </category>
     </day>
