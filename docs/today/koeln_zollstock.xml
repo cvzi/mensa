@@ -3,89 +3,16 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2026-09-22">
-      <category name="Dessert">
+    <day date="2026-09-23">
+      <category name="Beilage">
         <meal>
-          <name>Dessert</name>
-          <note>Vgn</note>
+          <name>Feinkostsalate</name>
           <note>vgt</note>
-          <price role="employee">0.95</price>
-          <price role="other">1.25</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Obst</name>
-          <price role="employee">0.95</price>
-          <price role="other">1.30</price>
-          <price role="student">0.65</price>
-        </meal>
-      </category>
-      <category name="Fleisch">
-        <meal>
-          <name>Currywurst</name>
-          <note>Neuland</note>
-          <note>mit Schwein</note>
-          <price role="employee">3.55</price>
-          <price role="other">0.00</price>
-          <price role="student">2.10</price>
-        </meal>
-      </category>
-      <category name="Vegan/vegetarisch">
-        <meal>
-          <name>High Protein Gulasch</name>
-          <note>Enthält Gerste Gluten</note>
-          <note>Enthält Gluten</note>
-          <note>Vegan</note>
-          <price role="employee">3.00</price>
-          <price role="other">0.00</price>
-          <price role="student">1.75</price>
-        </meal>
-        <meal>
-          <name>Käse-Lauchcremesuppe, Kaiserbrötchen</name>
-          <note>Enthält Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Mit Farbstoff</note>
-          <note>Mit Phosphat</note>
-          <note>Vegetarisch</note>
-          <price role="employee">4.30</price>
-          <price role="other">0.00</price>
-          <price role="student">0.02</price>
-        </meal>
-      </category>
-      <category name="Beilagen">
-        <meal>
-          <name>Pommes Wedges</name>
-          <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Rotkohl</name>
-          <note>Mit Antioxidationsmittel</note>
-          <note>Vegan</note>
           <price role="employee">1.45</price>
-          <price role="other">0.00</price>
+          <price role="other">2.05</price>
           <price role="student">0.95</price>
         </meal>
-        <meal>
-          <name>Beilagensalat Standard</name>
-          <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Salzkartoffeln</name>
-          <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
-        </meal>
       </category>
-    </day>
-    <day date="2026-09-23">
       <category name="Dessert">
         <meal>
           <name>Dessert</name>
@@ -132,7 +59,7 @@
         </meal>
         <meal>
           <name>Sauerkraut</name>
-          <note>Vegan</note>
+          <note>mit Schwein</note>
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
           <price role="student">0.65</price>
@@ -162,7 +89,7 @@
           <note>Vegan</note>
           <price role="employee">4.30</price>
           <price role="other">0.00</price>
-          <price role="student">2.00</price>
+          <price role="student">0.02</price>
         </meal>
       </category>
       <category name="Speiseplan">
@@ -173,6 +100,77 @@
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-09-24">
+      <category name="Dessert">
+        <meal>
+          <name>Dessert</name>
+          <note>Vgn</note>
+          <note>vgt</note>
+          <price role="employee">0.95</price>
+          <price role="other">1.25</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Obst</name>
+          <price role="employee">0.95</price>
+          <price role="other">1.30</price>
+          <price role="student">0.65</price>
+        </meal>
+      </category>
+      <category name="Fleisch">
+        <meal>
+          <name>Hähnchen-Gnocchipfanne mit Kürbis und Pilzragout</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>mit Geflügel</note>
+          <price role="employee">6.15</price>
+          <price role="other">0.00</price>
+          <price role="student">3.60</price>
+        </meal>
+      </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Beilagensalat Standard</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Twister Pommes</name>
+          <note>Enthält Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+      </category>
+      <category name="Vegan/vegetarisch">
+        <meal>
+          <name>Türkische Linsensuppe, Fladenbrot</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Sesamsamen</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">4.30</price>
+          <price role="other">0.00</price>
+          <price role="student">0.02</price>
+        </meal>
+        <meal>
+          <name>Vegane Meatballs, Knoblauchsauce</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Schalenfrüchte Mandeln</note>
+          <note>Enthält Senf</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Vegan</note>
+          <price role="employee">3.30</price>
+          <price role="other">0.00</price>
+          <price role="student">1.95</price>
         </meal>
       </category>
     </day>
