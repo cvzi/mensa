@@ -3,29 +3,8 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2026-09-14">
-      <closed/>
-    </day>
-    <day date="2026-09-15">
-      <closed/>
-    </day>
-    <day date="2026-09-16">
-      <closed/>
-    </day>
-    <day date="2026-09-17">
-      <closed/>
-    </day>
-    <day date="2026-09-18">
-      <closed/>
-    </day>
-    <day date="2026-09-19">
-      <closed/>
-    </day>
-    <day date="2026-09-20">
-      <closed/>
-    </day>
     <day date="2026-09-21">
-      <category name="Entrée (07:00 - 15:00)">
+      <category name="Entrée">
         <meal>
           <name>Potage aux haricots verts</name>
           <note>Céleri et produits à base de céleri</note>
@@ -36,7 +15,7 @@
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Végétarien (07:00 - 15:00)">
+      <category name="Végétarien">
         <meal>
           <name>Gyros de seitan, dip yaourt grec</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
@@ -47,7 +26,7 @@
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Non-végétarien (07:00 - 15:00)">
+      <category name="Non-végétarien">
         <meal>
           <name>Köttbullar, fond réduit crémé</name>
           <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
@@ -57,7 +36,7 @@
           <note>produit constant</note>
         </meal>
       </category>
-      <category name="Féculents (07:00 - 15:00)">
+      <category name="Féculents">
         <meal>
           <name>Pommes de terre sautées</name>
           <note>Produit sans gluten</note>
@@ -65,10 +44,9 @@
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Légumes (07:00 - 15:00)">
+      <category name="Légumes">
         <meal>
-          <name>Chou romanesco à l'ail</name>
-          <note>Produit sans gluten</note>
+          <name>Brocolis à l'ail</name>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
@@ -79,14 +57,14 @@
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="Dessert (07:00 - 15:00)">
+      <category name="Dessert">
         <meal>
           <name>Mousse légère au fromage blanc et citron, financier aux amandes</name>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
       </category>
-      <category name="12.2 Emballages et articles à usage unique (07:00 - 15:00)">
+      <category name="12.2 Emballages et articles à usage unique">
         <meal>
           <name>Couvercle pour barquette à emporter</name>
           <note>produit constant</note>
@@ -115,7 +93,11 @@
       <category name="Entrée (07:00 - 15:00)">
         <meal>
           <name>Minestrone</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
+          <note>Soja et produits à base de soja</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
@@ -123,6 +105,9 @@
       <category name="Végétarien (07:00 - 15:00)">
         <meal>
           <name>Linguine, sauce tomate et basilic</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Céréales contenant du gluten et produits à base de ces céréales (Blé)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
@@ -130,6 +115,8 @@
       <category name="Non-végétarien (07:00 - 15:00)">
         <meal>
           <name>Emincé de boeuf aux échalotes</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit du Luxembourg</note>
           <note>Produit sans gluten</note>
           <note>non-végétarien</note>
@@ -139,7 +126,10 @@
       <category name="Féculents (07:00 - 15:00)">
         <meal>
           <name>Riz pilaf</name>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans gluten</note>
+          <note>Soja et produits à base de soja</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
@@ -147,6 +137,9 @@
       <category name="Légumes (07:00 - 15:00)">
         <meal>
           <name>Choux-fleurs persillade</name>
+          <note>Céleri et produits à base de céleri</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
+          <note>Soja et produits à base de soja</note>
           <note>produit constant</note>
           <note>végétarien</note>
         </meal>
@@ -154,6 +147,9 @@
       <category name="Dessert (07:00 - 15:00)">
         <meal>
           <name>Yaourt grec fouetté, poire pochée aux épices</name>
+          <note>Anhydride sulfureux et sulfites en concentrations de plus de 10mg/kg ou 10mg/litre</note>
+          <note>Fruits à coque et produits à base de ces fruits (Noisettes)</note>
+          <note>Lait et produits à base de lait (y compris le lactose)</note>
           <note>Produit sans sucre</note>
           <note>produit constant</note>
           <note>végétarien</note>
@@ -257,7 +253,85 @@
     <day date="2026-10-11">
       <closed/>
     </day>
+    <day date="2026-10-12">
+      <category name="Entrée (07:00 - 15:00)">
+        <meal>
+          <name>Velouté de courgettes</name>
+          <note>Produit sans gluten</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Végétarien (07:00 - 15:00)">
+        <meal>
+          <name>Omelette aux champignons, mozzarella et ciboulette</name>
+          <note>Produit sans gluten</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Non-végétarien (07:00 - 15:00)">
+        <meal>
+          <name>Omelette au fromage, jambon cuit et herbes fraîches</name>
+          <note>Produit sans gluten</note>
+          <note>non-végétarien</note>
+          <note>produit constant</note>
+        </meal>
+      </category>
+      <category name="Féculents (07:00 - 15:00)">
+        <meal>
+          <name>Pommes de terre rôties aux oignons</name>
+          <note>Produit sans gluten</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Légumes (07:00 - 15:00)">
+        <meal>
+          <name>Laitue Mimosa</name>
+          <note>Produit sans gluten</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+        <meal>
+          <name>Tomate grillée aux herbes</name>
+          <note>Produit sans gluten</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="Dessert (07:00 - 15:00)">
+        <meal>
+          <name>Crème catalane</name>
+          <note>Produit sans gluten</note>
+          <note>produit constant</note>
+          <note>végétarien</note>
+        </meal>
+      </category>
+      <category name="12.2 Emballages et articles à usage unique (07:00 - 15:00)">
+        <meal>
+          <name>Couvercle pour barquette à emporter</name>
+          <note>produit constant</note>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-10-13">
+      <closed/>
+    </day>
+    <day date="2026-10-14">
+      <closed/>
+    </day>
+    <day date="2026-10-15">
+      <closed/>
+    </day>
+    <day date="2026-10-16">
+      <closed/>
+    </day>
+    <day date="2026-10-17">
+      <closed/>
+    </day>
+    <day date="2026-10-18">
+      <closed/>
+    </day>
   </canteen>
 </openmensa>
-
-<!-- Theme day: Vacances d'été [restaurant=104] -->
