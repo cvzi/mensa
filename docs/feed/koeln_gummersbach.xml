@@ -82,14 +82,6 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Beilagensalat</name>
-          <note>Enthält Laktose</note>
-          <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
           <name>Mettwurst</name>
           <note>mit Schwein</note>
           <price role="employee">2.05</price>
@@ -118,6 +110,14 @@
           <price role="employee">1.45</price>
           <price role="other">0.00</price>
           <price role="student">0.95</price>
+        </meal>
+        <meal>
+          <name>Beilagensalat</name>
+          <note>Enthält Laktose</note>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
         </meal>
         <meal>
           <name>Salzkartoffeln</name>
@@ -306,14 +306,6 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Beilagensalat</name>
-          <note>Enthält Laktose</note>
-          <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
           <name>Dessertbecher verschiedene Sorten</name>
           <note>Enthält Gelatine</note>
           <note>Enthält Hafer Gluten</note>
@@ -345,6 +337,13 @@
         </meal>
         <meal>
           <name>Reis</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Beilagensalat Standard</name>
           <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
@@ -416,7 +415,7 @@
     <day date="2026-09-25">
       <category name="Beilagen">
         <meal>
-          <name>Broccoli</name>
+          <name>Brokkoli</name>
           <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
@@ -429,6 +428,24 @@
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
           <note>Enthält Weizen Gluten</note>
+          <note>Vegetarisch</note>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Kartoffelstampf</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Vegetarisch</note>
+          <price role="employee">1.45</price>
+          <price role="other">0.00</price>
+          <price role="student">0.95</price>
+        </meal>
+        <meal>
+          <name>Mandarinenjoghurt</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
           <note>Vegetarisch</note>
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
@@ -448,6 +465,22 @@
           <price role="student">0.95</price>
         </meal>
         <meal>
+          <name>Reis</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Schokoladen Creme</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Vegetarisch</note>
+          <price role="employee">1.45</price>
+          <price role="other">0.00</price>
+          <price role="student">0.95</price>
+        </meal>
+        <meal>
           <name>Spaghetti</name>
           <note>Enthält Gluten</note>
           <note>Enthält Weizen Gluten</note>
@@ -459,13 +492,24 @@
       </category>
       <category name="1 - Vegan/vegetarisch">
         <meal>
-          <name>Broccolicremesuppe, Kaiserbrötchen</name>
+          <name>Brokkolicremesuppe, Brötchen</name>
           <note>Enthält Gluten</note>
           <note>Enthält Soja</note>
           <note>Vegan</note>
           <price role="employee">4.30</price>
           <price role="other">0.00</price>
-          <price role="student">2.00</price>
+          <price role="student">0.02</price>
+        </meal>
+      </category>
+      <category name="Fleisch">
+        <meal>
+          <name>Hähnchen-Gnocchipfanne mit Kürbis und Pilzragout</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>mit Geflügel</note>
+          <price role="employee">6.15</price>
+          <price role="other">0.00</price>
+          <price role="student">3.60</price>
         </meal>
       </category>
       <category name="Fisch">
@@ -560,6 +604,20 @@
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
+        </meal>
+      </category>
+      <category name="1 - Heimspiel">
+        <meal>
+          <name>Kartoffeleintopf, Kaiserbrötchen</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Sellerie</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegetarisch</note>
+          <price role="employee">4.00</price>
+          <price role="other">7.65</price>
+          <price role="student">1.85</price>
         </meal>
       </category>
       <category name="Fleisch">
@@ -906,7 +964,7 @@
       </category>
       <category name="Beilagen">
         <meal>
-          <name>Broccoli</name>
+          <name>Brokkoli</name>
           <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
