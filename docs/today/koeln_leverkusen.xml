@@ -4,6 +4,18 @@
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
     <day date="2026-09-28">
+      <category name="Fleisch">
+        <meal>
+          <name>Rinderköfte, Paprikarahmsauce</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>mit Rind</note>
+          <price role="employee">4.85</price>
+          <price role="other">0.00</price>
+          <price role="student">2.85</price>
+        </meal>
+      </category>
       <category name="Beilagen">
         <meal>
           <name>Beilagensalat</name>
@@ -37,16 +49,27 @@
           <price role="student">1.50</price>
         </meal>
       </category>
-      <category name="Fleisch">
+      <category name="Speiseplan">
         <meal>
-          <name>Putenschnitzel, Paprikarahmsauce</name>
-          <note>Enthält Gluten</note>
+          <name>Kirschjoghurt</name>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
-          <note>mit Geflügel</note>
-          <price role="employee">4.85</price>
+          <price role="employee">0.95</price>
           <price role="other">0.00</price>
-          <price role="student">2.85</price>
+          <price role="student">0.65</price>
+        </meal>
+      </category>
+      <category name="1 - Vegan/vegetarisch">
+        <meal>
+          <name>Tomatencremesuppe, Kaiserbrötchen</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Sesamsamen</note>
+          <note>Enthält Soja</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">4.30</price>
+          <price role="other">0.00</price>
+          <price role="student">0.02</price>
         </meal>
       </category>
     </day>
@@ -87,6 +110,29 @@
           <price role="employee">3.95</price>
           <price role="other">0.00</price>
           <price role="student">2.30</price>
+        </meal>
+      </category>
+      <category name="Speiseplan">
+        <meal>
+          <name>Kirschjoghurt</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+      </category>
+      <category name="1 - Vegan/vegetarisch">
+        <meal>
+          <name>Tomatencremesuppe, Kaiserbrötchen</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Sesamsamen</note>
+          <note>Enthält Soja</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">4.30</price>
+          <price role="other">0.00</price>
+          <price role="student">2.00</price>
         </meal>
       </category>
       <category name="Vegan/vegetarisch">
