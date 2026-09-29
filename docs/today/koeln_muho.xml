@@ -3,7 +3,7 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2026-09-28">
+    <day date="2026-09-29">
       <category name="Beilagen">
         <meal>
           <name>Bohnensalat, Krautsalat, Kartoffelsalat natur</name>
@@ -15,13 +15,6 @@
           <price role="student">0.95</price>
         </meal>
         <meal>
-          <name>Broccoli</name>
-          <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
           <name>Dessertbecher verschiedene Sorten</name>
           <note>Enthält Gelatine</note>
           <note>Enthält Hafer Gluten</note>
@@ -29,6 +22,13 @@
           <note>Enthält Milch</note>
           <note>Enthält Weizen Gluten</note>
           <note>Vegetarisch</note>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Kaisergemüse</name>
+          <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
           <price role="student">0.65</price>
@@ -55,28 +55,31 @@
           <price role="student">0.65</price>
         </meal>
       </category>
-      <category name="Vegan/vegetarisch">
+      <category name="1 - Querbeet">
         <meal>
-          <name>Indischer Spinat</name>
+          <name>Broccolicremesuppe, 1 Beilage</name>
           <note>Enthält Soja</note>
           <note>Vegan</note>
-          <price role="employee">2.55</price>
-          <price role="other">0.00</price>
-          <price role="student">1.50</price>
-        </meal>
-      </category>
-      <category name="1 - Vegan/vegetarisch">
-        <meal>
-          <name>Kürbiscremesuppe, 1 Beilage</name>
-          <note>Enthält Hafer Gluten</note>
-          <note>Enthält Soja</note>
-          <note>Vegan</note>
-          <price role="employee">4.30</price>
-          <price role="other">0.00</price>
-          <price role="student">2.00</price>
+          <price role="employee">4.00</price>
+          <price role="other">7.65</price>
+          <price role="student">1.85</price>
         </meal>
       </category>
       <category name="Fleisch">
+        <meal>
+          <name>Hähnchengeschnetzeltes Süß-Sauer</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Sellerie</note>
+          <note>Enthält Soja</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Mit Farbstoff</note>
+          <note>Mit Geschmacksverstärker</note>
+          <note>Mit Konservierungsstoff</note>
+          <note>mit Geflügel</note>
+          <price role="employee">3.95</price>
+          <price role="other">0.00</price>
+          <price role="student">2.30</price>
+        </meal>
         <meal>
           <name>Putenschnitzel, Paprikarahmsauce</name>
           <note>Enthält Gluten</note>
@@ -88,8 +91,26 @@
           <price role="student">2.85</price>
         </meal>
       </category>
+      <category name="Vegan/vegetarisch">
+        <meal>
+          <name>Indischer Spinat</name>
+          <note>Enthält Soja</note>
+          <note>Vegan</note>
+          <price role="employee">2.55</price>
+          <price role="other">0.00</price>
+          <price role="student">1.50</price>
+        </meal>
+        <meal>
+          <name>Vegane Bratwurst, mit Currysauce</name>
+          <note>Enthält Sellerie</note>
+          <note>Vegan</note>
+          <price role="employee">3.55</price>
+          <price role="other">0.00</price>
+          <price role="student">2.10</price>
+        </meal>
+      </category>
     </day>
-    <day date="2026-09-29">
+    <day date="2026-09-30">
       <category name="Beilagen">
         <meal>
           <name>Bohnensalat, Krautsalat, Kartoffelsalat natur</name>
@@ -108,30 +129,29 @@
           <price role="student">0.65</price>
         </meal>
       </category>
-      <category name="Fleisch">
-        <meal>
-          <name>Hähnchengeschnetzeltes Süß-Sauer</name>
-          <note>Enthält Gluten</note>
-          <note>Enthält Sellerie</note>
-          <note>Enthält Soja</note>
-          <note>Mit Antioxidationsmittel</note>
-          <note>Mit Farbstoff</note>
-          <note>Mit Geschmacksverstärker</note>
-          <note>Mit Konservierungsstoff</note>
-          <note>mit Geflügel</note>
-          <price role="employee">3.95</price>
-          <price role="other">0.00</price>
-          <price role="student">2.30</price>
-        </meal>
-      </category>
       <category name="Vegan/vegetarisch">
         <meal>
-          <name>Vegane Bratwurst, mit Currysauce</name>
+          <name>Linsen Bolognese, Fusilli</name>
           <note>Enthält Sellerie</note>
+          <note>Enthält Soja</note>
+          <note>Enthält Weizen Gluten</note>
           <note>Vegan</note>
-          <price role="employee">3.55</price>
+          <price role="employee">3.30</price>
           <price role="other">0.00</price>
-          <price role="student">2.10</price>
+          <price role="student">1.95</price>
+        </meal>
+      </category>
+      <category name="Fleisch">
+        <meal>
+          <name>Weisskohl-Hackfleischpfanne mit Schupfnudeln</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Soja</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Neuland</note>
+          <note>mit Rind</note>
+          <price role="employee">5.75</price>
+          <price role="other">0.00</price>
+          <price role="student">3.40</price>
         </meal>
       </category>
     </day>

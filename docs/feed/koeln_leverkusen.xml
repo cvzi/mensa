@@ -4,6 +4,16 @@
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
     <day date="2026-09-28">
+      <category name="Dessert">
+        <meal>
+          <name>Kirschjoghurt</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+      </category>
       <category name="Fleisch">
         <meal>
           <name>Rinderköfte, Paprikarahmsauce</name>
@@ -49,16 +59,6 @@
           <price role="student">1.50</price>
         </meal>
       </category>
-      <category name="Speiseplan">
-        <meal>
-          <name>Kirschjoghurt</name>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <price role="employee">0.95</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
-        </meal>
-      </category>
       <category name="1 - Vegan/vegetarisch">
         <meal>
           <name>Tomatencremesuppe, Kaiserbrötchen</name>
@@ -74,16 +74,38 @@
       </category>
     </day>
     <day date="2026-09-29">
+      <category name="Dessert">
+        <meal>
+          <name>Kirschjoghurt, Dessert Topping</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Vegetarisch</note>
+          <price role="employee">0.95</price>
+          <price role="other">1.25</price>
+          <price role="student">0.65</price>
+        </meal>
+      </category>
       <category name="Beilagen">
         <meal>
           <name>Beilagensalat</name>
+          <note>Enthält Senf</note>
           <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Pommes Wedges</name>
+          <name>Pistazien Pudding</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Schalenfrüchte (Nüsse)</note>
+          <note>Vegetarisch</note>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Pommes frites</name>
           <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
@@ -95,6 +117,18 @@
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
           <price role="student">0.65</price>
+        </meal>
+      </category>
+      <category name="Querbeet">
+        <meal>
+          <name>Graupensuppe, Kaiserbrötchen</name>
+          <note>Enthält Gerste Gluten</note>
+          <note>Enthält Gluten</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">4.30</price>
+          <price role="other">0.00</price>
+          <price role="student">0.02</price>
         </meal>
       </category>
       <category name="Fleisch">
@@ -112,32 +146,12 @@
           <price role="student">2.30</price>
         </meal>
       </category>
-      <category name="Speiseplan">
-        <meal>
-          <name>Kirschjoghurt</name>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <price role="employee">0.95</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
-        </meal>
-      </category>
-      <category name="1 - Vegan/vegetarisch">
-        <meal>
-          <name>Tomatencremesuppe, Kaiserbrötchen</name>
-          <note>Enthält Gluten</note>
-          <note>Enthält Sesamsamen</note>
-          <note>Enthält Soja</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Vegan</note>
-          <price role="employee">4.30</price>
-          <price role="other">0.00</price>
-          <price role="student">2.00</price>
-        </meal>
-      </category>
       <category name="Vegan/vegetarisch">
         <meal>
-          <name>Vegane Bratwurst, mit Currysauce</name>
+          <name>vegane Frikadelle, mit Currysauce</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Senf</note>
+          <note>Enthält Weizen Gluten</note>
           <note>Vegan</note>
           <price role="employee">3.55</price>
           <price role="other">0.00</price>
@@ -149,14 +163,18 @@
       <category name="Beilagen">
         <meal>
           <name>Beilagensalat</name>
+          <note>Enthält Senf</note>
           <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Kichererbsenreis</name>
-          <note>Vegan</note>
+          <name>Pistazien Pudding</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Schalenfrüchte (Nüsse)</note>
+          <note>Vegetarisch</note>
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
           <price role="student">0.65</price>
@@ -169,6 +187,18 @@
           <price role="employee">1.45</price>
           <price role="other">0.00</price>
           <price role="student">0.95</price>
+        </meal>
+      </category>
+      <category name="Querbeet">
+        <meal>
+          <name>Graupensuppe, Kaiserbrötchen</name>
+          <note>Enthält Gerste Gluten</note>
+          <note>Enthält Gluten</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">4.30</price>
+          <price role="other">0.00</price>
+          <price role="student">2.00</price>
         </meal>
       </category>
       <category name="Vegan/vegetarisch">
@@ -228,6 +258,7 @@
       <category name="Beilagen">
         <meal>
           <name>Beilagensalat</name>
+          <note>Enthält Senf</note>
           <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
@@ -260,6 +291,7 @@
       <category name="Beilagen">
         <meal>
           <name>Beilagensalat</name>
+          <note>Enthält Senf</note>
           <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
