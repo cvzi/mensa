@@ -21,6 +21,29 @@
           <price role="student">0.65</price>
         </meal>
       </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Beilagensalat Standard</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Kichererbsenreis</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Pommes Wedges</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+      </category>
       <category name="Vegan/vegetarisch">
         <meal>
           <name>Feuertopf, Brötchen</name>
@@ -37,29 +60,6 @@
           <price role="employee">2.55</price>
           <price role="other">0.00</price>
           <price role="student">1.50</price>
-        </meal>
-      </category>
-      <category name="Beilagen">
-        <meal>
-          <name>Kichererbsenreis</name>
-          <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Pommes Wedges</name>
-          <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Beilagensalat Standard</name>
-          <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
         </meal>
       </category>
       <category name="Fleisch">
@@ -335,7 +335,7 @@
           <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
-          <price role="student">0.65</price>
+          <price role="student">0.55</price>
         </meal>
         <meal>
           <name>Beilagensalat Standard</name>
@@ -347,9 +347,9 @@
         <meal>
           <name>Salzkartoffeln</name>
           <note>Vegan</note>
-          <price role="employee">0.95</price>
+          <price role="employee">0.70</price>
           <price role="other">0.00</price>
-          <price role="student">0.65</price>
+          <price role="student">0.40</price>
         </meal>
       </category>
       <category name="Vegan/vegetarisch">
@@ -371,9 +371,157 @@
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
           <note>Vegetarisch</note>
+          <price role="employee">2.45</price>
+          <price role="other">0.00</price>
+          <price role="student">1.45</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-10-03">
+      <closed/>
+    </day>
+    <day date="2026-10-04">
+      <closed/>
+    </day>
+    <day date="2026-10-05">
+      <category name="Beilage">
+        <meal>
+          <name>Pommes Wedges</name>
+          <note>vgn</note>
+          <price role="employee">0.95</price>
+          <price role="other">1.20</price>
+          <price role="student">0.55</price>
+        </meal>
+      </category>
+      <category name="Vegan/vegetarisch">
+        <meal>
+          <name>Blumenkohl-Kichererbsencurry</name>
+          <note>Enthält Sesamsamen</note>
+          <note>Vegan</note>
+          <price role="employee">2.55</price>
+          <price role="other">0.00</price>
+          <price role="student">1.50</price>
+        </meal>
+        <meal>
+          <name>Linseneintopf, Kaiserbrötchen</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Sellerie</note>
+          <note>Enthält Senf</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Vegan</note>
+          <price role="employee">2.05</price>
+          <price role="other">0.00</price>
+          <price role="student">1.20</price>
+        </meal>
+      </category>
+      <category name="Fleisch">
+        <meal>
+          <name>Hähnchen Cordon bleu, Bratensauce</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Senf</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Mit Farbstoff</note>
+          <note>Mit Konservierungsstoff</note>
+          <note>Mit Phosphat</note>
+          <note>mit Geflügel</note>
+          <price role="employee">3.80</price>
+          <price role="other">0.00</price>
+          <price role="student">2.25</price>
+        </meal>
+      </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Rahmwirsing</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Vegetarisch</note>
+          <price role="employee">1.45</price>
+          <price role="other">0.00</price>
+          <price role="student">0.95</price>
+        </meal>
+        <meal>
+          <name>Beilagensalat Standard</name>
+          <note>Vegan</note>
+          <price role="employee">1.10</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Sesamreis</name>
+          <note>Enthält Sesamsamen</note>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-10-06">
+      <category name="Vegan/vegetarisch">
+        <meal>
+          <name>Broccoli Nuggets, Käsesauce</name>
+          <note>Enthält Eier</note>
+          <note>Enthält Gerste Gluten</note>
+          <note>Enthält Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Soja</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Mit Farbstoff</note>
+          <note>Mit Phosphat</note>
+          <note>Vegetarisch</note>
+          <price role="employee">3.95</price>
+          <price role="other">0.00</price>
+          <price role="student">2.30</price>
+        </meal>
+      </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Fusilli</name>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">0.45</price>
+          <price role="other">0.00</price>
+          <price role="student">0.25</price>
+        </meal>
+      </category>
+      <category name="EG Süd - 11:30 - 14:30 Uhr - Vegan/vegetarisch">
+        <meal>
+          <name>, Fladenbrot</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Sesamsamen</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Geschwefelt</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Mit Farbstoff</note>
+          <note>Mit Konservierungsstoff</note>
+          <note>Vegan</note>
           <price role="employee">4.30</price>
           <price role="other">0.00</price>
-          <price role="student">0.02</price>
+          <price role="student">2.00</price>
+        </meal>
+      </category>
+      <category name="EG Süd - 11:30 - 14:30 Uhr - Fleisch">
+        <meal>
+          <name>Rindfleisch Bolognese, Fusilli</name>
+          <note>Enthält Sellerie</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Neuland</note>
+          <note>mit Rind</note>
+          <price role="employee">3.95</price>
+          <price role="other">0.00</price>
+          <price role="student">2.30</price>
+        </meal>
+      </category>
+      <category name="EG Nord + MG Nord 11.30 - 14.30 Uhr - Beilagen">
+        <meal>
+          <name>Salzkartoffeln</name>
+          <note>Vegan</note>
+          <price role="employee">0.70</price>
+          <price role="other">0.00</price>
+          <price role="student">0.40</price>
         </meal>
       </category>
     </day>
