@@ -459,6 +459,16 @@
       </category>
     </day>
     <day date="2026-10-06">
+      <category name="Dessert">
+        <meal>
+          <name>Dessert</name>
+          <note>Vgn</note>
+          <note>vgt</note>
+          <price role="employee">0.95</price>
+          <price role="other">1.25</price>
+          <price role="student">0.65</price>
+        </meal>
+      </category>
       <category name="Vegan/vegetarisch">
         <meal>
           <name>Broccoli Nuggets, Käsesauce</name>
@@ -476,18 +486,6 @@
           <price role="other">0.00</price>
           <price role="student">2.30</price>
         </meal>
-      </category>
-      <category name="Beilagen">
-        <meal>
-          <name>Fusilli</name>
-          <note>Enthält Weizen Gluten</note>
-          <note>Vegan</note>
-          <price role="employee">0.45</price>
-          <price role="other">0.00</price>
-          <price role="student">0.25</price>
-        </meal>
-      </category>
-      <category name="EG Süd - 11:30 - 14:30 Uhr - Vegan/vegetarisch">
         <meal>
           <name>, Fladenbrot</name>
           <note>Enthält Gluten</note>
@@ -500,10 +498,34 @@
           <note>Vegan</note>
           <price role="employee">4.30</price>
           <price role="other">0.00</price>
-          <price role="student">2.00</price>
+          <price role="student">0.02</price>
         </meal>
       </category>
-      <category name="EG Süd - 11:30 - 14:30 Uhr - Fleisch">
+      <category name="Beilagen">
+        <meal>
+          <name>Fusilli</name>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">0.45</price>
+          <price role="other">0.00</price>
+          <price role="student">0.25</price>
+        </meal>
+        <meal>
+          <name>Beilagensalat Standard</name>
+          <note>Vegan</note>
+          <price role="employee">1.10</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Salzkartoffeln</name>
+          <note>Vegan</note>
+          <price role="employee">0.70</price>
+          <price role="other">0.00</price>
+          <price role="student">0.40</price>
+        </meal>
+      </category>
+      <category name="Fleisch">
         <meal>
           <name>Rindfleisch Bolognese, Fusilli</name>
           <note>Enthält Sellerie</note>
@@ -513,15 +535,6 @@
           <price role="employee">3.95</price>
           <price role="other">0.00</price>
           <price role="student">2.30</price>
-        </meal>
-      </category>
-      <category name="EG Nord + MG Nord 11.30 - 14.30 Uhr - Beilagen">
-        <meal>
-          <name>Salzkartoffeln</name>
-          <note>Vegan</note>
-          <price role="employee">0.70</price>
-          <price role="other">0.00</price>
-          <price role="student">0.40</price>
         </meal>
       </category>
     </day>
