@@ -13,6 +13,15 @@
           <price role="student">0.30</price>
         </meal>
         <meal>
+          <name>Bohnensalat, Krautsalat, Kartoffelsalat natur</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">1.45</price>
+          <price role="other">0.00</price>
+          <price role="student">0.95</price>
+        </meal>
+        <meal>
           <name>Dessertbecher verschiedene Sorten</name>
           <note>Enthält Gelatine</note>
           <note>Enthält Hafer Gluten</note>
@@ -20,7 +29,7 @@
           <note>Enthält Milch</note>
           <note>Enthält Weizen Gluten</note>
           <note>Vegetarisch</note>
-          <price role="employee">1.10</price>
+          <price role="employee">0.95</price>
           <price role="other">0.00</price>
           <price role="student">0.65</price>
         </meal>
@@ -38,13 +47,6 @@
           <price role="employee">0.75</price>
           <price role="other">0.00</price>
           <price role="student">0.45</price>
-        </meal>
-        <meal>
-          <name>Krautsalat</name>
-          <note>Vegan</note>
-          <price role="employee">1.45</price>
-          <price role="other">0.00</price>
-          <price role="student">0.95</price>
         </meal>
         <meal>
           <name>Leipzigerallerlei</name>
@@ -85,6 +87,7 @@
         <meal>
           <name>Spätzle</name>
           <note>Enthält Gluten</note>
+          <note>Enthält Laktose</note>
           <note>Enthält Weizen Gluten</note>
           <note>Vegan</note>
           <price role="employee">1.70</price>
@@ -145,9 +148,84 @@
       </category>
     </day>
     <day date="2026-10-06">
+      <category name="Speiseplan">
+        <meal>
+          <name>Blumenkohl</name>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+      </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Bohnensalat, Krautsalat, Kartoffelsalat natur</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">1.45</price>
+          <price role="other">0.00</price>
+          <price role="student">0.95</price>
+        </meal>
+        <meal>
+          <name>Dessertbecher verschiedene Sorten</name>
+          <note>Enthält Gelatine</note>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegetarisch</note>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Dessert Vegan</name>
+          <note>Enthält Hafer Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">1.30</price>
+          <price role="other">0.00</price>
+          <price role="student">0.75</price>
+        </meal>
+        <meal>
+          <name>Drillinge</name>
+          <note>Vegan</note>
+          <price role="employee">1.45</price>
+          <price role="other">0.00</price>
+          <price role="student">0.85</price>
+        </meal>
+        <meal>
+          <name>Fusilli</name>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Pommes frites</name>
+          <note>Vegan</note>
+          <price role="employee">0.70</price>
+          <price role="other">0.00</price>
+          <price role="student">0.40</price>
+        </meal>
+        <meal>
+          <name>Reis</name>
+          <note>Vegan</note>
+          <price role="employee">0.35</price>
+          <price role="other">0.00</price>
+          <price role="student">0.20</price>
+        </meal>
+        <meal>
+          <name>Beilagensalat Standard</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+      </category>
       <category name="Vegan/vegetarisch">
         <meal>
-          <name>Broccoli Nuggets, Käsesauce</name>
+          <name>Gemüse Nuggets, Sweet Chili Dip</name>
           <note>Enthält Eier</note>
           <note>Enthält Gerste Gluten</note>
           <note>Enthält Gluten</note>
@@ -163,6 +241,19 @@
           <price role="student">2.30</price>
         </meal>
       </category>
+      <category name="1 - Vegan/vegetarisch">
+        <meal>
+          <name>Marokkanischer Kichererbseneintopf, 1 Beilage</name>
+          <note>Geschwefelt</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Mit Farbstoff</note>
+          <note>Mit Konservierungsstoff</note>
+          <note>Vegan</note>
+          <price role="employee">4.30</price>
+          <price role="other">0.00</price>
+          <price role="student">1.40</price>
+        </meal>
+      </category>
       <category name="Fleisch">
         <meal>
           <name>Rindfleisch Bolognese, Fusilli</name>
@@ -173,6 +264,156 @@
           <price role="employee">3.95</price>
           <price role="other">0.00</price>
           <price role="student">2.30</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-10-07">
+      <category name="Beilagen">
+        <meal>
+          <name>Bohnensalat, Krautsalat, Kartoffelsalat natur</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">1.45</price>
+          <price role="other">0.00</price>
+          <price role="student">0.95</price>
+        </meal>
+        <meal>
+          <name>Dessertbecher verschiedene Sorten</name>
+          <note>Enthält Gelatine</note>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegetarisch</note>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Dessert Vegan</name>
+          <note>Enthält Hafer Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">1.30</price>
+          <price role="other">0.00</price>
+          <price role="student">0.75</price>
+        </meal>
+        <meal>
+          <name>Penne Rigate</name>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">0.45</price>
+          <price role="other">0.00</price>
+          <price role="student">0.25</price>
+        </meal>
+        <meal>
+          <name>Reis</name>
+          <note>Vegan</note>
+          <price role="employee">0.35</price>
+          <price role="other">0.00</price>
+          <price role="student">0.20</price>
+        </meal>
+        <meal>
+          <name>Beilagensalat Standard</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+      </category>
+      <category name="Vegan/vegetarisch">
+        <meal>
+          <name>Broccoli Nuggets, Gartenkräuter-Dip</name>
+          <note>Enthält Eier</note>
+          <note>Enthält Gerste Gluten</note>
+          <note>Enthält Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Soja</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegetarisch</note>
+          <price role="employee">3.95</price>
+          <price role="other">0.00</price>
+          <price role="student">2.30</price>
+        </meal>
+        <meal>
+          <name>Grünkernbolognese, Penne Rigate</name>
+          <note>Enthält Grünkern Gluten</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">2.55</price>
+          <price role="other">0.00</price>
+          <price role="student">1.50</price>
+        </meal>
+      </category>
+      <category name="Fleisch">
+        <meal>
+          <name>Hackbällchen, Bratensauce</name>
+          <note>Enthält Senf</note>
+          <note>Mit Farbstoff</note>
+          <note>mit Rind</note>
+          <note>mit Schwein</note>
+          <price role="employee">4.20</price>
+          <price role="other">0.00</price>
+          <price role="student">2.45</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-10-08">
+      <category name="Vegan/vegetarisch">
+        <meal>
+          <name>No Butter Chicken</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Soja</note>
+          <note>Vegan</note>
+          <price role="employee">3.80</price>
+          <price role="other">0.00</price>
+          <price role="student">2.25</price>
+        </meal>
+      </category>
+      <category name="Fleisch">
+        <meal>
+          <name>Paprika-Hähnchengulasch</name>
+          <note>Mit Farbstoff</note>
+          <note>Mit Konservierungsstoff</note>
+          <note>mit Geflügel</note>
+          <price role="employee">3.55</price>
+          <price role="other">0.00</price>
+          <price role="student">2.10</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-10-09">
+      <category name="Vegan/vegetarisch">
+        <meal>
+          <name>Cremige Tortellini mit Räuchertofu und Tomate</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Soja</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">4.70</price>
+          <price role="other">0.00</price>
+          <price role="student">2.75</price>
+        </meal>
+      </category>
+      <category name="Fisch">
+        <meal>
+          <name>Fisch-Nuggets, Joppiesauce</name>
+          <note>Enthält Eier</note>
+          <note>Enthält Fisch</note>
+          <note>Enthält Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Senf</note>
+          <note>Enthält Soja</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Mit Konservierungsstoff</note>
+          <note>Mit Süßstoff</note>
+          <note>mit Fisch</note>
+          <price role="employee">4.30</price>
+          <price role="other">0.00</price>
+          <price role="student">2.55</price>
         </meal>
       </category>
     </day>
