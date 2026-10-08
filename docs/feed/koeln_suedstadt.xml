@@ -63,7 +63,7 @@
           <name>Sesamreis</name>
           <note>Enthält Sesamsamen</note>
           <note>Vegan</note>
-          <price role="employee">0.65</price>
+          <price role="employee">0.50</price>
           <price role="other">0.00</price>
           <price role="student">0.30</price>
         </meal>
@@ -160,6 +160,14 @@
           <price role="student">0.25</price>
         </meal>
         <meal>
+          <name>Fusilli</name>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">0.45</price>
+          <price role="other">0.00</price>
+          <price role="student">0.25</price>
+        </meal>
+        <meal>
           <name>Karamell Pudding</name>
           <note>Enthält Laktose</note>
           <note>Vegetarisch</note>
@@ -197,7 +205,7 @@
           <name>Sesamreis</name>
           <note>Enthält Sesamsamen</note>
           <note>Vegan</note>
-          <price role="employee">0.65</price>
+          <price role="employee">0.50</price>
           <price role="other">0.00</price>
           <price role="student">0.30</price>
         </meal>
@@ -289,7 +297,7 @@
         <meal>
           <name>Basmatireis</name>
           <note>Vegan</note>
-          <price role="employee">0.65</price>
+          <price role="employee">0.50</price>
           <price role="other">0.00</price>
           <price role="student">0.30</price>
         </meal>
@@ -297,9 +305,9 @@
           <name>Beerenquark</name>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
-          <note>Vegetarisch</note>
-          <price role="employee">0.95</price>
-          <price role="other">3.00</price>
+          <note>Vegan</note>
+          <price role="employee">1.10</price>
+          <price role="other">0.00</price>
           <price role="student">0.65</price>
         </meal>
         <meal>
@@ -324,7 +332,7 @@
           <name>Kürbis- Karottenpüree</name>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
-          <note>Vegan</note>
+          <note>Vegetarisch</note>
           <price role="employee">0.75</price>
           <price role="other">0.00</price>
           <price role="student">0.45</price>
@@ -333,9 +341,19 @@
           <name>Nusspudding</name>
           <note>Enthält Laktose</note>
           <note>Vegetarisch</note>
+          <price role="employee">1.20</price>
+          <price role="other">0.00</price>
+          <price role="student">0.70</price>
+        </meal>
+        <meal>
+          <name>Pfirsichquark, Dessert Topping</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Schalenfrüchte Haselnuss</note>
+          <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
-          <price role="student">0.65</price>
+          <price role="student">0.55</price>
         </meal>
         <meal>
           <name>Pommes Wedges</name>
@@ -348,10 +366,21 @@
           <name>Schokoladen Pudding, Dessert Topping</name>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
+          <note>Enthält Schalenfrüchte Haselnuss</note>
           <note>Vegetarisch</note>
-          <price role="employee">0.95</price>
-          <price role="other">3.00</price>
-          <price role="student">0.65</price>
+          <price role="employee">0.75</price>
+          <price role="other">0.00</price>
+          <price role="student">0.45</price>
+        </meal>
+        <meal>
+          <name>Vanille Creme, Dessert Topping</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Schalenfrüchte Haselnuss</note>
+          <note>Vegetarisch</note>
+          <price role="employee">0.85</price>
+          <price role="other">0.00</price>
+          <price role="student">0.50</price>
         </meal>
         <meal>
           <name>Vollkorn Spaghetti</name>
@@ -413,7 +442,7 @@
           <price role="student">2.30</price>
         </meal>
         <meal>
-          <name>Grünkernbolognese, Vollkorn Spaghetti</name>
+          <name>Grünkern-Pilz-Bolognese, Vollkorn Spaghetti</name>
           <note>Enthält Gluten</note>
           <note>Enthält Grünkern Gluten</note>
           <note>Enthält Weizen Gluten</note>
@@ -458,6 +487,16 @@
           <price role="other">0.00</price>
           <price role="student">2.45</price>
         </meal>
+        <meal>
+          <name>Hackbällchen, Bratensauce</name>
+          <note>Enthält Senf</note>
+          <note>Mit Farbstoff</note>
+          <note>mit Rind</note>
+          <note>mit Schwein</note>
+          <price role="employee">4.20</price>
+          <price role="other">0.00</price>
+          <price role="student">2.45</price>
+        </meal>
       </category>
       <category name="1 - Vegan/vegetarisch">
         <meal>
@@ -479,24 +518,6 @@
           <price role="employee">2.05</price>
           <price role="other">0.00</price>
           <price role="student">1.20</price>
-        </meal>
-      </category>
-      <category name="Speiseplan">
-        <meal>
-          <name>Pfirsichquark</name>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <price role="employee">0.95</price>
-          <price role="other">3.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Vanille Creme</name>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <price role="employee">0.95</price>
-          <price role="other">3.00</price>
-          <price role="student">0.65</price>
         </meal>
       </category>
     </day>
@@ -505,26 +526,65 @@
         <meal>
           <name>Basmatireis</name>
           <note>Vegan</note>
-          <price role="employee">0.65</price>
+          <price role="employee">0.50</price>
+          <price role="other">0.00</price>
+          <price role="student">0.30</price>
+        </meal>
+        <meal>
+          <name>Basmatireis</name>
+          <note>Vegan</note>
+          <price role="employee">0.50</price>
+          <price role="other">0.00</price>
+          <price role="student">0.30</price>
+        </meal>
+        <meal>
+          <name>Beilagensalat</name>
+          <note>Enthält Eier</note>
+          <note>Enthält Sellerie</note>
+          <note>Enthält Senf</note>
+          <note>Vegan</note>
+          <price role="employee">1.10</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Kürbis- Karottenpüree</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Vegan</note>
+          <price role="employee">0.75</price>
+          <price role="other">0.00</price>
+          <price role="student">0.45</price>
+        </meal>
+        <meal>
+          <name>Orecchiette</name>
+          <note>Enthält Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">0.75</price>
+          <price role="other">0.00</price>
+          <price role="student">0.45</price>
+        </meal>
+        <meal>
+          <name>Vollkorn Spaghetti</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">0.50</price>
           <price role="other">0.00</price>
           <price role="student">0.30</price>
         </meal>
       </category>
-      <category name="1 - Vegan/vegetarisch">
+      <category name="Vegan/vegetarisch">
         <meal>
-          <name>Kürbiscremesuppe, Fladenbrot</name>
+          <name>Grünkern-Pilz-Bolognese, Vollkorn Spaghetti</name>
           <note>Enthält Gluten</note>
-          <note>Enthält Hafer Gluten</note>
-          <note>Enthält Sesamsamen</note>
-          <note>Enthält Soja</note>
+          <note>Enthält Grünkern Gluten</note>
           <note>Enthält Weizen Gluten</note>
           <note>Vegan</note>
-          <price role="employee">2.15</price>
+          <price role="employee">2.55</price>
           <price role="other">0.00</price>
-          <price role="student">1.25</price>
+          <price role="student">1.50</price>
         </meal>
-      </category>
-      <category name="Vegan/vegetarisch">
         <meal>
           <name>No Butter Chicken</name>
           <note>Enthält Gluten</note>
@@ -568,6 +628,55 @@
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
+        </meal>
+      </category>
+      <category name="2 - Querbeet Vegan">
+        <meal>
+          <name>Grünkernbolognese, Vollkorn Spaghetti, Salat, Dessert</name>
+          <note>Enthält Gelatine</note>
+          <note>Enthält Gluten</note>
+          <note>Enthält Grünkern Gluten</note>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Mit Farbstoff</note>
+          <note>Vegan</note>
+          <price role="employee">5.10</price>
+          <price role="other">12.10</price>
+          <price role="student">2.65</price>
+        </meal>
+      </category>
+      <category name="Heimspiel">
+        <meal>
+          <name>Hackbällchen, Rahmsauce, Kürbis- Karottenpüree, Salat, Dessert</name>
+          <note>Enthält Gelatine</note>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Mit Farbstoff</note>
+          <note>mit Rind</note>
+          <note>mit Schwein</note>
+          <price role="employee">6.45</price>
+          <price role="other">18.75</price>
+          <price role="student">4.15</price>
+        </meal>
+      </category>
+      <category name="1 - Vegan/vegetarisch">
+        <meal>
+          <name>Kürbiscremesuppe, Fladenbrot</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Sesamsamen</note>
+          <note>Enthält Soja</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">2.15</price>
+          <price role="other">0.00</price>
+          <price role="student">1.25</price>
         </meal>
       </category>
       <category name="Fleisch">
@@ -916,7 +1025,7 @@
         <meal>
           <name>Duftreis</name>
           <note>Vegan</note>
-          <price role="employee">0.65</price>
+          <price role="employee">0.50</price>
           <price role="other">0.00</price>
           <price role="student">0.30</price>
         </meal>

@@ -230,9 +230,9 @@
         <meal>
           <name>Kaisergemüse</name>
           <note>Vegan</note>
-          <price role="employee">1.10</price>
+          <price role="employee">0.85</price>
           <price role="other">0.00</price>
-          <price role="student">0.65</price>
+          <price role="student">0.50</price>
         </meal>
         <meal>
           <name>Krautsalat</name>
@@ -430,6 +430,13 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
+          <name>Mischgemüse</name>
+          <note>Vegan</note>
+          <price role="employee">0.85</price>
+          <price role="other">0.00</price>
+          <price role="student">0.50</price>
+        </meal>
+        <meal>
           <name>Salzkartoffeln</name>
           <note>Vegan</note>
           <price role="employee">0.70</price>
@@ -445,18 +452,11 @@
           <price role="student">0.45</price>
         </meal>
         <meal>
-          <name>Mischgemüse</name>
-          <note>Vegan</note>
-          <price role="employee">0.85</price>
-          <price role="other">0.00</price>
-          <price role="student">0.50</price>
-        </meal>
-        <meal>
           <name>Vollkorn Spaghetti</name>
           <note>Enthält Gluten</note>
           <note>Enthält Weizen Gluten</note>
           <note>Vegan</note>
-          <price role="employee">0.65</price>
+          <price role="employee">0.50</price>
           <price role="other">0.00</price>
           <price role="student">0.30</price>
         </meal>
@@ -523,6 +523,16 @@
       </category>
     </day>
     <day date="2026-10-08">
+      <category name="Beilage">
+        <meal>
+          <name>Apfelmus</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <price role="employee">0.70</price>
+          <price role="other">0.85</price>
+          <price role="student">0.40</price>
+        </meal>
+      </category>
       <category name="Beilagen">
         <meal>
           <name>Balkangemüse</name>
@@ -537,7 +547,7 @@
         <meal>
           <name>Basmatireis</name>
           <note>Vegan</note>
-          <price role="employee">0.65</price>
+          <price role="employee">0.50</price>
           <price role="other">0.00</price>
           <price role="student">0.30</price>
         </meal>
@@ -583,13 +593,6 @@
           <price role="student">1.15</price>
         </meal>
         <meal>
-          <name>Krautsalat</name>
-          <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">0.00</price>
-          <price role="student">0.55</price>
-        </meal>
-        <meal>
           <name>Mandarinenquark</name>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
@@ -614,14 +617,6 @@
           <price role="other">0.00</price>
           <price role="student">0.40</price>
         </meal>
-        <meal>
-          <name>Schokoladenpudding</name>
-          <note>Enthält Schalenfrüchte Haselnuss</note>
-          <note>Enthält Soja</note>
-          <price role="employee">0.75</price>
-          <price role="other">0.00</price>
-          <price role="student">0.45</price>
-        </meal>
       </category>
       <category name="Fleisch">
         <meal>
@@ -644,7 +639,7 @@
       </category>
       <category name="1 - Vegan/vegetarisch">
         <meal>
-          <name>Miso Ramen, Fladenbrot</name>
+          <name>Miso Ramen, Brötchen</name>
           <note>Enthält Alkohol</note>
           <note>Enthält Gluten</note>
           <note>Enthält Sesamsamen</note>
@@ -671,6 +666,21 @@
           <price role="student">2.25</price>
         </meal>
         <meal>
+          <name>Pikante Thai-Bolognese, Gelbe Spaghetti</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Sellerie</note>
+          <note>Enthält Sesamsamen</note>
+          <note>Enthält Soja</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Mit Farbstoff</note>
+          <note>Mit Geschmacksverstärker</note>
+          <note>Mit Konservierungsstoff</note>
+          <note>Vegan</note>
+          <price role="employee">2.55</price>
+          <price role="other">0.00</price>
+          <price role="student">1.50</price>
+        </meal>
+        <meal>
           <name>Salatbuffet in Selbstbedienung, je 100g</name>
           <note>Enthält Eier</note>
           <note>Enthält Gerste Gluten</note>
@@ -693,28 +703,6 @@
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
-        </meal>
-      </category>
-      <category name="2 - Querbeet Vegan">
-        <meal>
-          <name>Pikante Thai-Bolognese, Gelbe Spaghetti, Salat, Dessert</name>
-          <note>Enthält Gelatine</note>
-          <note>Enthält Gluten</note>
-          <note>Enthält Hafer Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Sellerie</note>
-          <note>Enthält Sesamsamen</note>
-          <note>Enthält Soja</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Mit Antioxidationsmittel</note>
-          <note>Mit Farbstoff</note>
-          <note>Mit Geschmacksverstärker</note>
-          <note>Mit Konservierungsstoff</note>
-          <note>Vegan</note>
-          <price role="employee">5.10</price>
-          <price role="other">12.10</price>
-          <price role="student">2.65</price>
         </meal>
       </category>
     </day>
@@ -1137,9 +1125,9 @@
         <meal>
           <name>Kaisergemüse</name>
           <note>Vegan</note>
-          <price role="employee">1.10</price>
+          <price role="employee">0.85</price>
           <price role="other">0.00</price>
-          <price role="student">0.65</price>
+          <price role="student">0.50</price>
         </meal>
         <meal>
           <name>Pommes frites</name>
@@ -1236,7 +1224,7 @@
         <meal>
           <name>Duftreis</name>
           <note>Vegan</note>
-          <price role="employee">0.65</price>
+          <price role="employee">0.50</price>
           <price role="other">0.00</price>
           <price role="student">0.30</price>
         </meal>

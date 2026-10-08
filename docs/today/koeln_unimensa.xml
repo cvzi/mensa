@@ -3,18 +3,36 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2026-10-07">
-      <category name="EG Nord 11.30 - 14.30 Uhr - Beilagen">
+    <day date="2026-10-08">
+      <category name="11.30 - 14.30 Uhr - Aktion">
         <meal>
-          <name>Bananen Pudding Vegan, Dessert Topping</name>
-          <note>Enthält Soja</note>
+          <name>Balkangemüse</name>
+          <note>Enthält Sellerie</note>
+          <note>Mit Farbstoff</note>
+          <note>Mit Konservierungsstoff</note>
           <note>Vegan</note>
-          <price role="employee">0.70</price>
+          <price role="employee">1.00</price>
           <price role="other">0.00</price>
-          <price role="student">0.40</price>
+          <price role="student">0.60</price>
         </meal>
       </category>
       <category name="11.30 - 14.30 Uhr - Beilagen">
+        <meal>
+          <name>Schokoladen Pudding, Dessert Topping</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Vegan</note>
+          <price role="employee">0.75</price>
+          <price role="other">0.00</price>
+          <price role="student">0.45</price>
+        </meal>
+        <meal>
+          <name>Basmatireis</name>
+          <note>Vegan</note>
+          <price role="employee">0.50</price>
+          <price role="other">0.00</price>
+          <price role="student">0.30</price>
+        </meal>
         <meal>
           <name>Beilagensalat</name>
           <note>Vegan</note>
@@ -23,40 +41,54 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Blumenkohl</name>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Sellerie</note>
-          <note>Vegan</note>
-          <price role="employee">0.85</price>
-          <price role="other">0.00</price>
-          <price role="student">0.50</price>
-        </meal>
-        <meal>
-          <name>Fruchtjoghurt</name>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Vegetarisch</note>
-          <price role="employee">0.95</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Kirsch Grütze</name>
+          <name>Kirschgrütze</name>
           <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
           <price role="student">0.55</price>
         </meal>
         <meal>
-          <name>Pistazien Pudding</name>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Schalenfrüchte (Nüsse)</note>
+          <name>Pflaumen Grütze</name>
           <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
-          <price role="student">0.65</price>
+          <price role="student">0.55</price>
+        </meal>
+      </category>
+      <category name="EG Süd - 11:30 - 14:30 Uhr - Vegan/vegetarisch">
+        <meal>
+          <name>No Butter Chicken, Basmatireis</name>
+          <note>Enthält Gelatine</note>
+          <note>Enthält Gluten</note>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Soja</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">7.60</price>
+          <price role="other">0.00</price>
+          <price role="student">4.45</price>
+        </meal>
+        <meal>
+          <name>Türkische Linsensuppe, Fladenbrot</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Sesamsamen</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">2.15</price>
+          <price role="other">0.00</price>
+          <price role="student">1.25</price>
+        </meal>
+      </category>
+      <category name="EG Nord+MG Nord 11.30 - 14.30 Uhr - Beilagen">
+        <meal>
+          <name>Orecchiette</name>
+          <note>Enthält Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">0.75</price>
+          <price role="other">0.00</price>
+          <price role="student">0.45</price>
         </meal>
         <meal>
           <name>Salzkartoffeln</name>
@@ -65,56 +97,19 @@
           <price role="other">0.00</price>
           <price role="student">0.40</price>
         </meal>
-        <meal>
-          <name>Vollkorn Penne</name>
-          <note>Enthält Gluten</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Vegan</note>
-          <price role="employee">0.65</price>
-          <price role="other">0.00</price>
-          <price role="student">0.30</price>
-        </meal>
-      </category>
-      <category name="EG Süd - 11:30 - 14:30 Uhr - Vegan/vegetarisch">
-        <meal>
-          <name>Grünkernbolognese, , Vollkorn Penne</name>
-          <note>Enthält Eier</note>
-          <note>Enthält Gluten</note>
-          <note>Enthält Grünkern Gluten</note>
-          <note>Enthält Sellerie</note>
-          <note>Enthält Senf</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Vegan</note>
-          <price role="employee">3.65</price>
-          <price role="other">0.00</price>
-          <price role="student">2.15</price>
-        </meal>
-        <meal>
-          <name>Käse-Lauchcremesuppe, Brötchen</name>
-          <note>Enthält Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Mit Farbstoff</note>
-          <note>Mit Phosphat</note>
-          <note>Vegetarisch</note>
-          <price role="employee">2.55</price>
-          <price role="other">0.00</price>
-          <price role="student">1.50</price>
-        </meal>
       </category>
       <category name="MG Nord &amp; EG Nord 11.30 - 14.30 Uhr - Fleisch">
         <meal>
-          <name>Hackbällchen, Bratensauce</name>
-          <note>Enthält Senf</note>
+          <name>Paprika-Hähnchengulasch</name>
           <note>Mit Farbstoff</note>
-          <note>mit Rind</note>
-          <note>mit Schwein</note>
-          <price role="employee">4.20</price>
+          <note>Mit Konservierungsstoff</note>
+          <note>mit Geflügel</note>
+          <price role="employee">3.55</price>
           <price role="other">0.00</price>
-          <price role="student">2.45</price>
+          <price role="student">2.10</price>
         </meal>
       </category>
-      <category name="EG Nord+MG Nord 11.30 - 14.30 Uhr - Vegan/vegetarisch">
+      <category name="EG NOrd+MG Nord 11.30 - 14.30 Uhr - Vegan/vegetarisch">
         <meal>
           <name>Salatbuffet in Selbstbedienung, je 100g</name>
           <note>Enthält Eier</note>
@@ -149,69 +144,7 @@
         </meal>
       </category>
     </day>
-    <day date="2026-10-08">
-      <category name="EG Nord 11.30 - 14.30 Uhr - Aktion">
-        <meal>
-          <name>Balkangemüse</name>
-          <note>Enthält Sellerie</note>
-          <note>Mit Farbstoff</note>
-          <note>Mit Konservierungsstoff</note>
-          <note>Vegan</note>
-          <price role="employee">1.00</price>
-          <price role="other">0.00</price>
-          <price role="student">0.60</price>
-        </meal>
-      </category>
-      <category name="EG Nord 11.30 - 14.30 Uhr - Beilagen">
-        <meal>
-          <name>Basmatireis</name>
-          <note>Vegan</note>
-          <price role="employee">0.65</price>
-          <price role="other">0.00</price>
-          <price role="student">0.30</price>
-        </meal>
-        <meal>
-          <name>Himbeerjoghurt</name>
-          <note>Enthält Hafer Gluten</note>
-          <note>Enthält Schalenfrüchte Mandeln</note>
-          <note>Enthält Soja</note>
-          <note>Vegan</note>
-          <price role="employee">1.10</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Mango - Pfirsich Grütze</name>
-          <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">0.00</price>
-          <price role="student">0.55</price>
-        </meal>
-        <meal>
-          <name>Orecchiette</name>
-          <note>Enthält Gluten</note>
-          <note>Vegan</note>
-          <price role="employee">0.75</price>
-          <price role="other">0.00</price>
-          <price role="student">0.45</price>
-        </meal>
-        <meal>
-          <name>Pflaumen Grütze</name>
-          <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">0.00</price>
-          <price role="student">0.55</price>
-        </meal>
-        <meal>
-          <name>Schokoladen Pudding, Dessert Topping</name>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Vegetarisch</note>
-          <price role="employee">0.75</price>
-          <price role="other">0.00</price>
-          <price role="student">0.45</price>
-        </meal>
-      </category>
+    <day date="2026-10-09">
       <category name="11.30 - 14.30 Uhr - Beilagen">
         <meal>
           <name>Beilagensalat</name>
@@ -220,87 +153,120 @@
           <price role="other">0.00</price>
           <price role="student">0.65</price>
         </meal>
+      </category>
+      <category name="EG Nord 11.30 - 14.30 Uhr - Beilagen">
         <meal>
-          <name>Salzkartoffeln</name>
+          <name>Bratkartoffeln</name>
           <note>Vegan</note>
-          <price role="employee">0.70</price>
+          <price role="employee">1.00</price>
           <price role="other">0.00</price>
-          <price role="student">0.40</price>
+          <price role="student">0.60</price>
+        </meal>
+        <meal>
+          <name>Broccoli</name>
+          <note>Vegan</note>
+          <price role="employee">1.10</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Erdbeer Rhabarbar Grütze</name>
+          <price role="employee">1.10</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Milchreis Vegan, Dessert Topping</name>
+          <note>Enthält Soja</note>
+          <price role="employee">0.75</price>
+          <price role="other">0.00</price>
+          <price role="student">0.45</price>
+        </meal>
+        <meal>
+          <name>Pommes Wedges</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.55</price>
+        </meal>
+        <meal>
+          <name>Straciatellajoghurt, Dessert Topping</name>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Schalenfrüchte Haselnuss</note>
+          <note>Enthält Schalenfrüchte Mandeln</note>
+          <note>Enthält Soja</note>
+          <price role="employee">1.55</price>
+          <price role="other">0.00</price>
+          <price role="student">0.90</price>
         </meal>
       </category>
       <category name="EG Süd - 11:30 - 14:30 Uhr - Vegan/vegetarisch">
         <meal>
-          <name>No Butter Chicken, Basmatireis, Beilagensalat, Dessert</name>
-          <note>Enthält Gelatine</note>
+          <name>Cremige Tortellini mit Räuchertofu</name>
           <note>Enthält Gluten</note>
-          <note>Enthält Hafer Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
           <note>Enthält Soja</note>
           <note>Enthält Weizen Gluten</note>
           <note>Vegan</note>
-          <price role="employee">7.60</price>
+          <price role="employee">4.70</price>
           <price role="other">0.00</price>
-          <price role="student">4.45</price>
+          <price role="student">2.75</price>
         </meal>
         <meal>
-          <name>Türkische Linsensuppe, Fladenbrot</name>
+          <name>Karotten-Ingwersuppe, Kaiserbrötchen</name>
           <note>Enthält Gluten</note>
-          <note>Enthält Sesamsamen</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Vegan</note>
-          <price role="employee">2.15</price>
-          <price role="other">0.00</price>
-          <price role="student">1.25</price>
-        </meal>
-      </category>
-      <category name="MG Nord &amp; EG Nord 11.30 - 14.30 Uhr - Fleisch">
-        <meal>
-          <name>Paprika-Hähnchengulasch</name>
+          <note>Enthält Senf</note>
+          <note>Enthält Soja</note>
           <note>Mit Farbstoff</note>
-          <note>Mit Konservierungsstoff</note>
-          <note>mit Geflügel</note>
-          <price role="employee">3.55</price>
+          <note>Vegan</note>
+          <price role="employee">1.70</price>
           <price role="other">0.00</price>
-          <price role="student">2.10</price>
+          <price role="student">1.00</price>
         </meal>
       </category>
-      <category name="MG Süd 11:30 - 14:30 Uhr - Aktion">
+      <category name="MG Nord &amp; EG Nord 11.30 - 14.30 Uhr - Fisch">
         <meal>
-          <name>Pizza Gyros</name>
+          <name>Fisch-Nuggets, Joppiesauce</name>
+          <note>Enthält Eier</note>
+          <note>Enthält Fisch</note>
           <note>Enthält Gluten</note>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>mit Geflügel</note>
-          <price role="employee">6.50</price>
+          <note>Enthält Senf</note>
+          <note>Enthält Soja</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Mit Konservierungsstoff</note>
+          <note>Mit Süßstoff</note>
+          <note>mit Fisch</note>
+          <price role="employee">4.30</price>
           <price role="other">0.00</price>
-          <price role="student">4.30</price>
+          <price role="student">2.55</price>
+        </meal>
+      </category>
+      <category name="MG Süd Restaurant 2 - Aktion">
+        <meal>
+          <name>Flammkuchen mit Mediterranem Gemüse</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Vegan</note>
+          <price role="employee">7.10</price>
+          <price role="other">0.00</price>
+          <price role="student">4.80</price>
         </meal>
       </category>
       <category name="MG Nord 11.30 - 14.15 Uhr - Aktion">
         <meal>
-          <name>Rigatoni, Paprika-Tomatenragout</name>
-          <note>Enthält Gluten</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Vegetarisch</note>
-          <price role="employee">6.10</price>
-          <price role="other">0.00</price>
-          <price role="student">3.75</price>
-        </meal>
-        <meal>
-          <name>Spaghetti, Sojabolognese</name>
-          <note>Enthält Gluten</note>
-          <note>Enthält Sellerie</note>
+          <name>Pasta Mista, Tomatensauce, Sojarahm</name>
+          <note>Enthält Senf</note>
           <note>Enthält Soja</note>
-          <note>Enthält Weizen Gluten</note>
+          <note>Mit Farbstoff</note>
           <note>Vegetarisch</note>
           <price role="employee">6.10</price>
           <price role="other">0.00</price>
           <price role="student">3.75</price>
         </meal>
       </category>
-      <category name="EG Nord+MG Nord 11.30 - 14.30 Uhr - Vegan/vegetarisch">
+      <category name="EG NOrd+MG Nord 11.30 - 14.30 Uhr - Vegan/vegetarisch">
         <meal>
           <name>Salatbuffet in Selbstbedienung, je 100g</name>
           <note>Enthält Eier</note>
