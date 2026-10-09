@@ -316,6 +316,14 @@
       </category>
     </day>
     <day date="2026-10-09">
+      <category name="Beilage">
+        <meal>
+          <name>Broccoli</name>
+          <price role="employee">0.95</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
+        </meal>
+      </category>
       <category name="Dessert">
         <meal>
           <name>Dessert</name>
@@ -324,22 +332,6 @@
           <price role="employee">0.95</price>
           <price role="other">1.25</price>
           <price role="student">0.65</price>
-        </meal>
-      </category>
-      <category name="Beilagen">
-        <meal>
-          <name>Beilagensalat</name>
-          <note>Vegan</note>
-          <price role="employee">1.10</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Pommes Wedges</name>
-          <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">0.00</price>
-          <price role="student">0.55</price>
         </meal>
       </category>
       <category name="Vegan/vegetarisch">
@@ -352,17 +344,6 @@
           <price role="employee">4.70</price>
           <price role="other">0.00</price>
           <price role="student">2.75</price>
-        </meal>
-        <meal>
-          <name>Karotten-Ingwersuppe, Kaiserbrötchen</name>
-          <note>Enthält Gluten</note>
-          <note>Enthält Senf</note>
-          <note>Enthält Soja</note>
-          <note>Mit Farbstoff</note>
-          <note>Vegan</note>
-          <price role="employee">1.70</price>
-          <price role="other">0.00</price>
-          <price role="student">0.01</price>
         </meal>
       </category>
       <category name="Fisch">
@@ -382,6 +363,29 @@
           <price role="employee">4.30</price>
           <price role="other">0.00</price>
           <price role="student">2.55</price>
+        </meal>
+      </category>
+      <category name="1 - Vegan/vegetarisch">
+        <meal>
+          <name>Käse-Lauchcremesuppe, Kaiserbrötchen</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Mit Farbstoff</note>
+          <note>Mit Phosphat</note>
+          <note>Vegetarisch</note>
+          <price role="employee">2.55</price>
+          <price role="other">0.00</price>
+          <price role="student">1.50</price>
+        </meal>
+      </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Pommes Wedges</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.55</price>
         </meal>
       </category>
     </day>
@@ -522,6 +526,79 @@
           <price role="employee">5.35</price>
           <price role="other">0.00</price>
           <price role="student">3.15</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-10-14">
+      <closed/>
+    </day>
+    <day date="2026-10-15">
+      <closed/>
+    </day>
+    <day date="2026-10-16">
+      <category name="Beilage">
+        <meal>
+          <name>Pommes Wedges</name>
+          <note>vgn</note>
+          <price role="employee">0.95</price>
+          <price role="other">1.20</price>
+          <price role="student">0.55</price>
+        </meal>
+      </category>
+      <category name="Dessert">
+        <meal>
+          <name>Dessert</name>
+          <note>Vgn</note>
+          <note>vgt</note>
+          <price role="employee">0.95</price>
+          <price role="other">1.25</price>
+          <price role="student">0.65</price>
+        </meal>
+      </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Salzkartoffeln</name>
+          <note>Vegan</note>
+          <price role="employee">0.70</price>
+          <price role="other">0.00</price>
+          <price role="student">0.40</price>
+        </meal>
+      </category>
+      <category name="Vegan/vegetarisch">
+        <meal>
+          <name>Schnitzel, Ketchup, Mayonnaise</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Senf</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">3.30</price>
+          <price role="other">0.00</price>
+          <price role="student">1.95</price>
+        </meal>
+        <meal>
+          <name>Waldpilzcremesuppe, Kaiserbrötchen</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Vegetarisch</note>
+          <price role="employee">4.30</price>
+          <price role="other">0.00</price>
+          <price role="student">0.02</price>
+        </meal>
+      </category>
+      <category name="Fisch">
+        <meal>
+          <name>Seelachs Meuniere, Zitronen-Dillrahmsauce</name>
+          <note>Enthält Fisch</note>
+          <note>Enthält Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>mit Fisch</note>
+          <price role="employee">4.85</price>
+          <price role="other">0.00</price>
+          <price role="student">2.85</price>
         </meal>
       </category>
     </day>
