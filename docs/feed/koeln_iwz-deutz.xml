@@ -70,7 +70,7 @@
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
           <price role="employee">0.97</price>
-          <price role="other">1.07</price>
+          <price role="other">2.91</price>
           <price role="student">0.77</price>
         </meal>
       </category>
@@ -138,6 +138,7 @@
         </meal>
         <meal>
           <name>Basmatireis</name>
+          <note>Vegan</note>
           <price role="employee">0.50</price>
           <price role="other">0.65</price>
           <price role="student">0.30</price>
@@ -539,6 +540,25 @@
           <price role="student">1.35</price>
         </meal>
       </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Beilagensalat</name>
+          <note>Enthält Eier</note>
+          <note>Enthält Sellerie</note>
+          <note>Enthält Senf</note>
+          <note>Vegan</note>
+          <price role="employee">1.10</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Pommes Wedges</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">1.20</price>
+          <price role="student">0.55</price>
+        </meal>
+      </category>
       <category name="Speiseplan">
         <meal>
           <name>Beilagensalat</name>
@@ -576,7 +596,6 @@
           <name>Pirsich-Haferjoghurt vegan</name>
           <note>Enthält Hafer Gluten</note>
           <note>Enthält Schalenfrüchte Mandeln</note>
-          <note>Enthält Soja</note>
           <note>Vegan</note>
           <price role="employee">1.10</price>
           <price role="other">0.00</price>
@@ -591,25 +610,6 @@
           <price role="student">0.75</price>
         </meal>
       </category>
-      <category name="Beilagen">
-        <meal>
-          <name>Beilagensalat</name>
-          <note>Enthält Eier</note>
-          <note>Enthält Sellerie</note>
-          <note>Enthält Senf</note>
-          <note>Vegan</note>
-          <price role="employee">1.10</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Pommes Wedges</name>
-          <note>Vegan</note>
-          <price role="employee">0.95</price>
-          <price role="other">1.20</price>
-          <price role="student">0.55</price>
-        </meal>
-      </category>
       <category name="Vegan/vegetarisch">
         <meal>
           <name>Cremige Schupfnudeln mit Räuchertofu</name>
@@ -618,7 +618,7 @@
           <note>Enthält Weizen Gluten</note>
           <note>Vegan</note>
           <price role="employee">4.70</price>
-          <price role="other">0.00</price>
+          <price role="other">6.00</price>
           <price role="student">2.75</price>
         </meal>
         <meal>
@@ -628,7 +628,7 @@
           <note>Enthält Weizen Gluten</note>
           <note>Vegan</note>
           <price role="employee">4.70</price>
-          <price role="other">6.00</price>
+          <price role="other">0.00</price>
           <price role="student">2.75</price>
         </meal>
         <meal>
@@ -710,17 +710,16 @@
           <price role="student">0.55</price>
         </meal>
       </category>
-      <category name="Speiseplan">
+      <category name="1 - Vegan/vegetarisch">
         <meal>
-          <name>Graupensuppe mit Gemüse, Kaiserbrötchen</name>
+          <name>Graupensuppe, Kaiserbrötchen</name>
           <note>Enthält Gerste Gluten</note>
           <note>Enthält Gluten</note>
-          <note>Enthält Sellerie</note>
           <note>Enthält Weizen Gluten</note>
           <note>Vegan</note>
-          <price role="employee">4.00</price>
-          <price role="other">7.65</price>
-          <price role="student">1.85</price>
+          <price role="employee">1.85</price>
+          <price role="other">0.00</price>
+          <price role="student">1.10</price>
         </meal>
       </category>
       <category name="Fleisch">
@@ -752,7 +751,8 @@
           <price role="student">2.70</price>
         </meal>
         <meal>
-          <name>Kürbis-Falafelbällchen, Hummus</name>
+          <name>Kürbis-Falafelbällchen, Hummus, Süßkartoffel-Rosenkohl Curry</name>
+          <note>Enthält Sellerie</note>
           <note>Vegan</note>
           <price role="employee">2.60</price>
           <price role="other">0.00</price>
@@ -779,7 +779,7 @@
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
           <price role="employee">0.97</price>
-          <price role="other">1.07</price>
+          <price role="other">2.91</price>
           <price role="student">0.77</price>
         </meal>
       </category>
@@ -853,22 +853,22 @@
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
           <price role="employee">0.97</price>
-          <price role="other">1.07</price>
+          <price role="other">2.91</price>
           <price role="student">0.77</price>
         </meal>
       </category>
-      <category name="Speiseplan">
+      <category name="1 - Vegan/vegetarisch">
         <meal>
-          <name>Käse-Lauchcremesuppe, Brötchen</name>
+          <name>Käse-Lauchcremesuppe, Kaiserbrötchen</name>
           <note>Enthält Gluten</note>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
           <note>Mit Farbstoff</note>
           <note>Mit Phosphat</note>
           <note>Vegetarisch</note>
-          <price role="employee">4.30</price>
+          <price role="employee">2.55</price>
           <price role="other">0.00</price>
-          <price role="student">2.00</price>
+          <price role="student">1.50</price>
         </meal>
       </category>
     </day>
@@ -928,16 +928,16 @@
           <price role="student">2.10</price>
         </meal>
       </category>
-      <category name="Querbeet">
+      <category name="1 - Vegan/vegetarisch">
         <meal>
-          <name>Geröstete Paprikasuppe, Brötchen</name>
+          <name>Geröstete Paprikasuppe, Kaiserbrötchen</name>
           <note>Enthält Gluten</note>
           <note>Enthält Sellerie</note>
           <note>Enthält Soja</note>
-          <note>Vegetarisch</note>
-          <price role="employee">4.30</price>
+          <note>Vegan</note>
+          <price role="employee">2.15</price>
           <price role="other">0.00</price>
-          <price role="student">2.00</price>
+          <price role="student">1.25</price>
         </meal>
       </category>
       <category name="Vegan/vegetarisch">
@@ -956,7 +956,8 @@
           <price role="student">2.70</price>
         </meal>
         <meal>
-          <name>Kürbis-Falafelbällchen, Hummus</name>
+          <name>Kürbis-Falafelbällchen, Hummus, Süßkartoffel-Rosenkohl Curry</name>
+          <note>Enthält Sellerie</note>
           <note>Vegan</note>
           <price role="employee">2.60</price>
           <price role="other">0.00</price>
@@ -983,7 +984,7 @@
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
           <price role="employee">0.97</price>
-          <price role="other">1.07</price>
+          <price role="other">2.91</price>
           <price role="student">0.77</price>
         </meal>
       </category>
@@ -1008,16 +1009,16 @@
           <price role="student">0.30</price>
         </meal>
       </category>
-      <category name="Speiseplan">
+      <category name="1 - Vegan/vegetarisch">
         <meal>
           <name>Cremige Gemüsesuppe, Kaiserbrötchen</name>
           <note>Enthält Gluten</note>
           <note>Enthält Sellerie</note>
           <note>Enthält Soja</note>
           <note>Vegan</note>
-          <price role="employee">4.00</price>
-          <price role="other">7.65</price>
-          <price role="student">1.85</price>
+          <price role="employee">2.75</price>
+          <price role="other">0.00</price>
+          <price role="student">1.60</price>
         </meal>
       </category>
       <category name="Fleisch">
@@ -1065,7 +1066,7 @@
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
           <price role="employee">0.97</price>
-          <price role="other">1.07</price>
+          <price role="other">2.91</price>
           <price role="student">0.77</price>
         </meal>
       </category>
@@ -1097,15 +1098,17 @@
           <price role="student">0.40</price>
         </meal>
       </category>
-      <category name="Querbeet">
+      <category name="1 - Vegan/vegetarisch">
         <meal>
-          <name>Fruchtige Curry-Kokossuppe, Brötchen</name>
+          <name>Fruchtige Curry-Kokossuppe, Fladenbrot</name>
           <note>Enthält Gluten</note>
+          <note>Enthält Sesamsamen</note>
           <note>Enthält Soja</note>
-          <note>Vegetarisch</note>
-          <price role="employee">4.00</price>
-          <price role="other">7.65</price>
-          <price role="student">1.85</price>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">2.60</price>
+          <price role="other">0.00</price>
+          <price role="student">1.55</price>
         </meal>
       </category>
       <category name="Vegan/vegetarisch">
@@ -1130,7 +1133,7 @@
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
           <price role="employee">0.97</price>
-          <price role="other">1.07</price>
+          <price role="other">2.91</price>
           <price role="student">0.77</price>
         </meal>
         <meal>
