@@ -4,6 +4,63 @@
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
     <day date="2026-10-12">
+      <category name="Beilagen">
+        <meal>
+          <name>Beilagensalat</name>
+          <note>Enthält Eier</note>
+          <note>Enthält Sellerie</note>
+          <note>Enthält Senf</note>
+          <note>Vegan</note>
+          <price role="employee">1.10</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Kirschquark, Dessert Topping</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Schalenfrüchte Haselnuss</note>
+          <note>Vegetarisch</note>
+          <price role="employee">1.20</price>
+          <price role="other">0.00</price>
+          <price role="student">0.70</price>
+        </meal>
+        <meal>
+          <name>Pommes Cubes</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Mit Farbstoff</note>
+          <note>Vegan</note>
+          <price role="employee">1.60</price>
+          <price role="other">0.00</price>
+          <price role="student">0.95</price>
+        </meal>
+        <meal>
+          <name>Pommes Cubes</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Mit Farbstoff</note>
+          <note>Vegan</note>
+          <price role="employee">1.60</price>
+          <price role="other">0.00</price>
+          <price role="student">0.95</price>
+        </meal>
+        <meal>
+          <name>Pommes frites</name>
+          <note>Vegan</note>
+          <price role="employee">0.70</price>
+          <price role="other">0.00</price>
+          <price role="student">0.40</price>
+        </meal>
+        <meal>
+          <name>Süßkartoffel-Rosenkohl Curry</name>
+          <note>Enthält Sellerie</note>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.55</price>
+        </meal>
+      </category>
       <category name="1 - Vegan/vegetarisch">
         <meal>
           <name>Feuertopf, Kaiserbrötchen</name>
@@ -12,6 +69,25 @@
           <price role="employee">1.80</price>
           <price role="other">0.00</price>
           <price role="student">1.05</price>
+        </meal>
+      </category>
+      <category name="Fisch">
+        <meal>
+          <name>Fisch-Nuggets, Joppiesauce</name>
+          <note>Enthält Eier</note>
+          <note>Enthält Fisch</note>
+          <note>Enthält Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Senf</note>
+          <note>Enthält Soja</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Mit Konservierungsstoff</note>
+          <note>Mit Süßstoff</note>
+          <note>mit Fisch</note>
+          <price role="employee">4.30</price>
+          <price role="other">0.00</price>
+          <price role="student">2.55</price>
         </meal>
       </category>
       <category name="Fleisch">
@@ -60,25 +136,36 @@
           <price role="student">0.77</price>
         </meal>
       </category>
-      <category name="Beilagen">
+      <category name="Speiseplan">
         <meal>
-          <name>Pommes frites</name>
-          <note>Vegan</note>
-          <price role="employee">0.70</price>
-          <price role="other">0.00</price>
-          <price role="student">0.40</price>
-        </meal>
-        <meal>
-          <name>Süßkartoffel-Rosenkohl Curry</name>
-          <note>Enthält Sellerie</note>
-          <note>Vegan</note>
+          <name>Schokoladenpudding</name>
+          <note>Enthält Soja</note>
           <price role="employee">0.95</price>
-          <price role="other">0.00</price>
-          <price role="student">0.55</price>
+          <price role="other">3.00</price>
+          <price role="student">0.65</price>
         </meal>
       </category>
     </day>
     <day date="2026-10-13">
+      <category name="Beilagen">
+        <meal>
+          <name>Beilagensalat</name>
+          <note>Enthält Eier</note>
+          <note>Enthält Sellerie</note>
+          <note>Enthält Senf</note>
+          <note>Vegan</note>
+          <price role="employee">1.10</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Drillinge</name>
+          <note>Vegan</note>
+          <price role="employee">1.45</price>
+          <price role="other">0.00</price>
+          <price role="student">0.85</price>
+        </meal>
+      </category>
       <category name="Vegan/vegetarisch">
         <meal>
           <name>Blumenkohlschnitzel, BBQ-Sauce</name>
@@ -130,15 +217,6 @@
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
-        </meal>
-      </category>
-      <category name="Beilagen">
-        <meal>
-          <name>Drillinge</name>
-          <note>Vegan</note>
-          <price role="employee">1.45</price>
-          <price role="other">0.00</price>
-          <price role="student">0.85</price>
         </meal>
       </category>
       <category name="1 - Vegan/vegetarisch">

@@ -28,23 +28,25 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Dessertbecher</name>
-          <note>D</note>
-          <note>Enthält Gelatine</note>
-          <note>Enthält Hafer Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Weizen Gluten</note>
-          <price role="employee">1.10</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
           <name>Erbsen und Möhren</name>
           <note>Vegan</note>
           <price role="employee">0.75</price>
           <price role="other">0.00</price>
           <price role="student">0.45</price>
+        </meal>
+        <meal>
+          <name>Erdbeer Quark</name>
+          <note>Vegetarisch</note>
+          <price role="employee">1.10</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Obst</name>
+          <note>Vegan</note>
+          <price role="employee">0.80</price>
+          <price role="other">2.80</price>
+          <price role="student">0.60</price>
         </meal>
         <meal>
           <name>Pommes frites</name>
@@ -61,21 +63,6 @@
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
           <price role="student">0.55</price>
-        </meal>
-      </category>
-      <category name="Fleisch">
-        <meal>
-          <name>Hähnchen-Crossies, Mango Curry-Mayo</name>
-          <note>Curry Mayonaisse Fan Club</note>
-          <note>Enthält Gerste Gluten</note>
-          <note>Enthält Gluten</note>
-          <note>Enthält Senf</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Rettet die Knolle!</note>
-          <note>mit Geflügel</note>
-          <price role="employee">3.80</price>
-          <price role="other">0.00</price>
-          <price role="student">2.25</price>
         </meal>
       </category>
       <category name="Vegan/vegetarisch">
@@ -125,6 +112,38 @@
           <price role="student">1.25</price>
         </meal>
       </category>
+      <category name="VGT - Sonstiges">
+        <meal>
+          <name>Pasta Theke</name>
+          <note>Enthält Eier</note>
+          <note>Enthält Fisch</note>
+          <note>Enthält Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Roggen Gluten</note>
+          <note>Enthält Sellerie</note>
+          <note>Enthält Soja</note>
+          <note>Enthält Weizen Gluten</note>
+          <price role="employee">0.95</price>
+          <price role="other">2.90</price>
+          <price role="student">0.75</price>
+        </meal>
+        <meal>
+          <name>Pasta Theke</name>
+          <note>Enthält Eier</note>
+          <note>Enthält Fisch</note>
+          <note>Enthält Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Roggen Gluten</note>
+          <note>Enthält Sellerie</note>
+          <note>Enthält Soja</note>
+          <note>Enthält Weizen Gluten</note>
+          <price role="employee">0.97</price>
+          <price role="other">2.91</price>
+          <price role="student">0.77</price>
+        </meal>
+      </category>
       <category name="Speiseplan">
         <meal>
           <name>Tagesrestproduktion</name>
@@ -141,6 +160,13 @@
           <note>Enthält Eier</note>
           <note>Enthält Sellerie</note>
           <note>Enthält Senf</note>
+          <note>Vegan</note>
+          <price role="employee">1.10</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Broccoli</name>
           <note>Vegan</note>
           <price role="employee">1.10</price>
           <price role="other">0.00</price>
@@ -164,6 +190,27 @@
           <price role="employee">1.45</price>
           <price role="other">0.00</price>
           <price role="student">0.85</price>
+        </meal>
+        <meal>
+          <name>Erdbeer Quark</name>
+          <note>Vegetarisch</note>
+          <price role="employee">1.10</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Grüne Bohnen</name>
+          <note>Vegan</note>
+          <price role="employee">0.50</price>
+          <price role="other">0.00</price>
+          <price role="student">0.30</price>
+        </meal>
+        <meal>
+          <name>Obst</name>
+          <note>Vegan</note>
+          <price role="employee">0.80</price>
+          <price role="other">2.80</price>
+          <price role="student">0.60</price>
         </meal>
       </category>
       <category name="Vegan/vegetarisch">
@@ -230,6 +277,23 @@
           <price role="employee">2.60</price>
           <price role="other">0.00</price>
           <price role="student">1.55</price>
+        </meal>
+      </category>
+      <category name="VGT - Sonstiges">
+        <meal>
+          <name>Pasta Theke</name>
+          <note>Enthält Eier</note>
+          <note>Enthält Fisch</note>
+          <note>Enthält Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Roggen Gluten</note>
+          <note>Enthält Sellerie</note>
+          <note>Enthält Soja</note>
+          <note>Enthält Weizen Gluten</note>
+          <price role="employee">0.97</price>
+          <price role="other">2.91</price>
+          <price role="student">0.77</price>
         </meal>
       </category>
       <category name="Speiseplan">

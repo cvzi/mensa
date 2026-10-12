@@ -4,17 +4,18 @@
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
     <day date="2026-10-12">
-      <category name="Beilagen">
+      <category name="1 - Vegan/vegetarisch">
         <meal>
-          <name>Blumenkohl, Gemüserahmsauce</name>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Sellerie</note>
+          <name>BBQ-Stew, Brötchen</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Hafer Gluten</note>
           <note>Vegan</note>
-          <price role="employee">0.85</price>
+          <price role="employee">2.30</price>
           <price role="other">0.00</price>
-          <price role="student">0.50</price>
+          <price role="student">1.35</price>
         </meal>
+      </category>
+      <category name="Beilagen">
         <meal>
           <name>Dessertbecher Vegan</name>
           <note>Enthält Gelatine</note>
@@ -35,6 +36,13 @@
           <note>Enthält Milch</note>
           <note>Enthält Weizen Gluten</note>
           <note>Vegetarisch</note>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Mischgemüse</name>
+          <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
           <price role="student">0.65</price>
