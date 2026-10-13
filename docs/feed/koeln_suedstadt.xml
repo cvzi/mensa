@@ -7,11 +7,13 @@
       <category name="Beilagen">
         <meal>
           <name>Apfelpudding, Dessert Topping</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
           <note>Enthält Schalenfrüchte Haselnuss</note>
           <note>Vegan</note>
-          <price role="employee">0.95</price>
+          <price role="employee">1.20</price>
           <price role="other">0.00</price>
-          <price role="student">0.65</price>
+          <price role="student">0.70</price>
         </meal>
         <meal>
           <name>Beilagensalat</name>
@@ -29,7 +31,7 @@
           <note>Enthält Milch</note>
           <note>Enthält Schalenfrüchte Haselnuss</note>
           <note>Vegetarisch</note>
-          <price role="employee">1.50</price>
+          <price role="employee">1.20</price>
           <price role="other">0.00</price>
           <price role="student">0.70</price>
         </meal>
@@ -67,7 +69,12 @@
       <category name="1 - Vegan/vegetarisch">
         <meal>
           <name>Feuertopf, Kaiserbrötchen</name>
+          <note>Enthält Gerste Gluten</note>
           <note>Enthält Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Roggen Gluten</note>
+          <note>Enthält Sesamsamen</note>
+          <note>Enthält Weizen Gluten</note>
           <note>Vegan</note>
           <price role="employee">1.80</price>
           <price role="other">0.00</price>
@@ -148,6 +155,7 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
+          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -166,12 +174,11 @@
       <category name="Beilagen">
         <meal>
           <name>Beerenquark</name>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
+          <note>Enthält Soja</note>
           <note>Vegan</note>
-          <price role="employee">1.10</price>
+          <price role="employee">0.95</price>
           <price role="other">0.00</price>
-          <price role="student">0.65</price>
+          <price role="student">0.55</price>
         </meal>
         <meal>
           <name>Beilagensalat</name>
@@ -197,6 +204,15 @@
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
           <price role="student">0.55</price>
+        </meal>
+        <meal>
+          <name>Schoko Pudding, Dessert Topping</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Schalenfrüchte Haselnuss</note>
+          <note>Vegetarisch</note>
+          <price role="employee">1.00</price>
+          <price role="other">0.00</price>
+          <price role="student">0.60</price>
         </meal>
         <meal>
           <name>Süßkartoffel-Rosenkohl Curry</name>
@@ -230,19 +246,6 @@
           <price role="student">1.55</price>
         </meal>
         <meal>
-          <name>Protein Pasta</name>
-          <note>Enthält Gluten</note>
-          <note>Enthält Hafer Gluten</note>
-          <note>Enthält Soja</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Mit Antioxidationsmittel</note>
-          <note>Mit Farbstoff</note>
-          <note>Vegan</note>
-          <price role="employee">5.35</price>
-          <price role="other">0.00</price>
-          <price role="student">3.15</price>
-        </meal>
-        <meal>
           <name>Salatbuffet in Selbstbedienung, je 100g</name>
           <note>Enthält Eier</note>
           <note>Enthält Gerste Gluten</note>
@@ -262,6 +265,7 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
+          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -282,13 +286,44 @@
           <price role="student">1.20</price>
         </meal>
       </category>
+      <category name="2 - Querbeet Vegan">
+        <meal>
+          <name>Protein Pasta</name>
+          <note>Enthält Gelatine</note>
+          <note>Enthält Gluten</note>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Schalenfrüchte Kaschunuss</note>
+          <note>Enthält Soja</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Mit Farbstoff</note>
+          <note>Vegan</note>
+          <price role="employee">5.10</price>
+          <price role="other">12.65</price>
+          <price role="student">2.80</price>
+        </meal>
+      </category>
       <category name="Speiseplan">
         <meal>
-          <name>Schoko Pudding</name>
-          <note>Enthält Laktose</note>
+          <name>Schokoladenpudding</name>
+          <note>Enthält Soja</note>
           <price role="employee">0.95</price>
           <price role="other">3.00</price>
           <price role="student">0.65</price>
+        </meal>
+      </category>
+      <category name="Querbeet">
+        <meal>
+          <name>Süßkartoffel Curry Stampf</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Mit Farbstoff</note>
+          <note>Vegetarisch</note>
+          <price role="employee">1.50</price>
+          <price role="other">4.35</price>
+          <price role="student">0.95</price>
         </meal>
       </category>
     </day>
@@ -360,6 +395,7 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
+          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -430,6 +466,7 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
+          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -496,6 +533,7 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
+          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -604,6 +642,7 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
+          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -651,6 +690,7 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
+          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -793,6 +833,7 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
+          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -845,6 +886,7 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
+          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -920,6 +962,7 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
+          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
