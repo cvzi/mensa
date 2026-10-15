@@ -19,6 +19,8 @@
         <meal>
           <name>Beilagensalat</name>
           <note>Enthält Eier</note>
+          <note>Enthält Gerste Gluten</note>
+          <note>Enthält Laktose</note>
           <note>Enthält Sellerie</note>
           <note>Enthält Senf</note>
           <note>Vegan</note>
@@ -27,21 +29,8 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Dessertbecher Vegan</name>
-          <note>Enthält Gelatine</note>
-          <note>Enthält Hafer Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Vegan</note>
-          <price role="employee">1.30</price>
-          <price role="other">0.00</price>
-          <price role="student">0.75</price>
-        </meal>
-        <meal>
           <name>Dessertbecher verschiedene Sorten</name>
           <note>Enthält Gelatine</note>
-          <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
           <note>Enthält Weizen Gluten</note>
@@ -49,6 +38,14 @@
           <price role="employee">1.10</price>
           <price role="other">0.00</price>
           <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Dessert Vegan</name>
+          <note>Enthält Hafer Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">1.30</price>
+          <price role="other">0.00</price>
+          <price role="student">0.75</price>
         </meal>
         <meal>
           <name>Mischgemüse</name>
@@ -100,6 +97,8 @@
         <meal>
           <name>Beilagensalat</name>
           <note>Enthält Eier</note>
+          <note>Enthält Gerste Gluten</note>
+          <note>Enthält Laktose</note>
           <note>Enthält Sellerie</note>
           <note>Enthält Senf</note>
           <note>Vegan</note>
@@ -108,21 +107,8 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Dessertbecher Vegan</name>
-          <note>Enthält Gelatine</note>
-          <note>Enthält Hafer Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Vegan</note>
-          <price role="employee">1.30</price>
-          <price role="other">0.00</price>
-          <price role="student">0.75</price>
-        </meal>
-        <meal>
           <name>Dessertbecher verschiedene Sorten</name>
           <note>Enthält Gelatine</note>
-          <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
           <note>Enthält Weizen Gluten</note>
@@ -130,6 +116,14 @@
           <price role="employee">1.10</price>
           <price role="other">0.00</price>
           <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Dessert Vegan</name>
+          <note>Enthält Hafer Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">1.30</price>
+          <price role="other">0.00</price>
+          <price role="student">0.75</price>
         </meal>
         <meal>
           <name>Drillinge</name>
@@ -206,6 +200,8 @@
         <meal>
           <name>Beilagensalat</name>
           <note>Enthält Eier</note>
+          <note>Enthält Gerste Gluten</note>
+          <note>Enthält Laktose</note>
           <note>Enthält Sellerie</note>
           <note>Enthält Senf</note>
           <note>Vegan</note>
@@ -216,7 +212,6 @@
         <meal>
           <name>Dessertbecher verschiedene Sorten</name>
           <note>Enthält Gelatine</note>
-          <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
           <note>Enthält Weizen Gluten</note>
@@ -226,12 +221,8 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Dessertbecher Vegan</name>
-          <note>Enthält Gelatine</note>
+          <name>Dessert Vegan</name>
           <note>Enthält Hafer Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Weizen Gluten</note>
           <note>Vegan</note>
           <price role="employee">1.30</price>
           <price role="other">0.00</price>
@@ -262,7 +253,7 @@
       </category>
       <category name="1 - Vegan/vegetarisch">
         <meal>
-          <name>Cremige Gemüsesuppe, Kaiserbrötchen</name>
+          <name>Cremige Gemüsesuppe, Brötchen</name>
           <note>Enthält Gluten</note>
           <note>Enthält Sellerie</note>
           <note>Enthält Soja</note>
@@ -283,6 +274,13 @@
         </meal>
       </category>
       <category name="Vegan/vegetarisch">
+        <meal>
+          <name>Gefüllte Paprikaschote</name>
+          <note>Vegan</note>
+          <price role="employee">3.65</price>
+          <price role="other">0.00</price>
+          <price role="student">2.15</price>
+        </meal>
         <meal>
           <name>Käsespätzle, Röstzwiebeln</name>
           <note>Enthält Eier</note>
@@ -311,12 +309,25 @@
           <price role="student">3.15</price>
         </meal>
       </category>
+      <category name="2 - Querbeet Vegan">
+        <meal>
+          <name>Gefüllte Paprikaschote, indische Tomatensauce, 3 Beilagen</name>
+          <note>Mit Farbstoff</note>
+          <note>Mit Konservierungsstoff</note>
+          <note>Vegan</note>
+          <price role="employee">6.65</price>
+          <price role="other">19.70</price>
+          <price role="student">4.35</price>
+        </meal>
+      </category>
     </day>
     <day date="2026-10-15">
       <category name="Beilagen">
         <meal>
           <name>Beilagensalat</name>
           <note>Enthält Eier</note>
+          <note>Enthält Gerste Gluten</note>
+          <note>Enthält Laktose</note>
           <note>Enthält Sellerie</note>
           <note>Enthält Senf</note>
           <note>Vegan</note>
@@ -327,7 +338,6 @@
         <meal>
           <name>Dessertbecher verschiedene Sorten</name>
           <note>Enthält Gelatine</note>
-          <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
           <note>Enthält Weizen Gluten</note>
@@ -337,12 +347,8 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Dessertbecher Vegan</name>
-          <note>Enthält Gelatine</note>
+          <name>Dessert Vegan</name>
           <note>Enthält Hafer Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Weizen Gluten</note>
           <note>Vegan</note>
           <price role="employee">1.30</price>
           <price role="other">0.00</price>
@@ -356,15 +362,31 @@
           <price role="student">0.30</price>
         </meal>
         <meal>
-          <name>Mandel-Broccoli</name>
-          <note>Enthält Schalenfrüchte Mandeln</note>
+          <name>Fusilli</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Weizen Gluten</note>
           <note>Vegan</note>
-          <price role="employee">1.30</price>
+          <price role="employee">0.45</price>
           <price role="other">0.00</price>
-          <price role="student">0.75</price>
+          <price role="student">0.25</price>
+        </meal>
+        <meal>
+          <name>Mischgemüse</name>
+          <note>Vegan</note>
+          <price role="employee">0.85</price>
+          <price role="other">0.00</price>
+          <price role="student">0.50</price>
         </meal>
       </category>
       <category name="Fleisch">
+        <meal>
+          <name>Currywurst</name>
+          <note>Neuland</note>
+          <note>mit Schwein</note>
+          <price role="employee">3.55</price>
+          <price role="other">0.00</price>
+          <price role="student">2.10</price>
+        </meal>
         <meal>
           <name>Fruchtiges Hähnchen-Kokoscurry</name>
           <note>Enthält Krebstiere (Schalen-/ Krusten-/Weichtiere)</note>
@@ -375,6 +397,13 @@
         </meal>
       </category>
       <category name="Vegan/vegetarisch">
+        <meal>
+          <name>Gefüllte Paprikaschote</name>
+          <note>Vegan</note>
+          <price role="employee">3.65</price>
+          <price role="other">0.00</price>
+          <price role="student">2.15</price>
+        </meal>
         <meal>
           <name>Gnocchi mit geröst. Paprika und Champignons</name>
           <note>Enthält Gluten</note>
@@ -389,12 +418,27 @@
           <price role="student">2.70</price>
         </meal>
       </category>
+      <category name="1 - Vegan/vegetarisch">
+        <meal>
+          <name>Linseneintopf, Kaiserbrötchen</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Sellerie</note>
+          <note>Enthält Senf</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Vegan</note>
+          <price role="employee">2.05</price>
+          <price role="other">0.00</price>
+          <price role="student">1.20</price>
+        </meal>
+      </category>
     </day>
     <day date="2026-10-16">
       <category name="Beilagen">
         <meal>
           <name>Beilagensalat</name>
           <note>Enthält Eier</note>
+          <note>Enthält Gerste Gluten</note>
+          <note>Enthält Laktose</note>
           <note>Enthält Sellerie</note>
           <note>Enthält Senf</note>
           <note>Vegan</note>
@@ -403,21 +447,8 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Dessertbecher Vegan</name>
-          <note>Enthält Gelatine</note>
-          <note>Enthält Hafer Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Vegan</note>
-          <price role="employee">1.30</price>
-          <price role="other">0.00</price>
-          <price role="student">0.75</price>
-        </meal>
-        <meal>
           <name>Dessertbecher verschiedene Sorten</name>
           <note>Enthält Gelatine</note>
-          <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
           <note>Enthält Weizen Gluten</note>
@@ -425,6 +456,14 @@
           <price role="employee">1.10</price>
           <price role="other">0.00</price>
           <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Dessert Vegan</name>
+          <note>Enthält Hafer Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">1.30</price>
+          <price role="other">0.00</price>
+          <price role="student">0.75</price>
         </meal>
         <meal>
           <name>Pommes frites</name>
@@ -459,6 +498,72 @@
           <price role="employee">4.85</price>
           <price role="other">0.00</price>
           <price role="student">2.85</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-10-17">
+      <closed/>
+    </day>
+    <day date="2026-10-18">
+      <closed/>
+    </day>
+    <day date="2026-10-19">
+      <category name="Beilagen">
+        <meal>
+          <name>Beilagensalat</name>
+          <note>Enthält Eier</note>
+          <note>Enthält Gerste Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Sellerie</note>
+          <note>Enthält Senf</note>
+          <note>Vegan</note>
+          <price role="employee">1.10</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Dessertbecher verschiedene Sorten</name>
+          <note>Enthält Gelatine</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegetarisch</note>
+          <price role="employee">1.10</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Kartoffelstampf</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Vegetarisch</note>
+          <price role="employee">1.45</price>
+          <price role="other">0.00</price>
+          <price role="student">0.95</price>
+        </meal>
+      </category>
+      <category name="Fleisch">
+        <meal>
+          <name>Hähnchenschnitzel mit Knusperpanade, Pfefferrahmsauce</name>
+          <note>Enthält Gerste Gluten</note>
+          <note>Enthält Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>mit Geflügel</note>
+          <price role="employee">3.30</price>
+          <price role="other">0.00</price>
+          <price role="student">1.95</price>
+        </meal>
+      </category>
+      <category name="Vegan/vegetarisch">
+        <meal>
+          <name>Riesenrösti mit Champignons</name>
+          <note>Enthält Hafer Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">6.95</price>
+          <price role="other">0.00</price>
+          <price role="student">4.10</price>
         </meal>
       </category>
     </day>
