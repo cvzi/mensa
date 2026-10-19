@@ -3,9 +3,6 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2026-10-18">
-      <closed/>
-    </day>
     <day date="2026-10-19">
       <category name="Beilagen">
         <meal>
@@ -14,6 +11,13 @@
           <price role="employee">1.10</price>
           <price role="other">1.40</price>
           <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Feinkostsalate</name>
+          <note>vgt</note>
+          <price role="employee">1.45</price>
+          <price role="other">2.05</price>
+          <price role="student">0.00</price>
         </meal>
         <meal>
           <name>Dessert</name>
@@ -31,15 +35,6 @@
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
           <price role="student">0.55</price>
-        </meal>
-      </category>
-      <category name="Beilage">
-        <meal>
-          <name>Feinkostsalate</name>
-          <note>vgt</note>
-          <price role="employee">1.45</price>
-          <price role="other">2.05</price>
-          <price role="student">0.00</price>
         </meal>
       </category>
       <category name="Fleisch">
@@ -74,6 +69,84 @@
           <price role="employee">6.95</price>
           <price role="other">0.00</price>
           <price role="student">4.10</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-10-20">
+      <category name="Beilagen">
+        <meal>
+          <name>Beilagensalat</name>
+          <note>vgn</note>
+          <price role="employee">1.10</price>
+          <price role="other">1.40</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Pommes Wedges</name>
+          <note>vgn</note>
+          <price role="employee">0.95</price>
+          <price role="other">1.20</price>
+          <price role="student">0.55</price>
+        </meal>
+        <meal>
+          <name>Dessert</name>
+          <note>Vgn</note>
+          <note>vgt</note>
+          <price role="employee">0.95</price>
+          <price role="other">1.25</price>
+          <price role="student">0.65</price>
+        </meal>
+      </category>
+      <category name="Fleisch">
+        <meal>
+          <name>Currywurst</name>
+          <note>Neuland</note>
+          <note>mit Schwein</note>
+          <price role="employee">3.55</price>
+          <price role="other">0.00</price>
+          <price role="student">2.10</price>
+        </meal>
+      </category>
+      <category name="Vegan/vegetarisch">
+        <meal>
+          <name>High Protein Gulasch</name>
+          <note>Enthält Gerste Gluten</note>
+          <note>Enthält Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">3.00</price>
+          <price role="other">0.00</price>
+          <price role="student">1.75</price>
+        </meal>
+        <meal>
+          <name>Käse-Lauchcremesuppe, Kaiserbrötchen</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Mit Farbstoff</note>
+          <note>Mit Phosphat</note>
+          <note>Vegetarisch</note>
+          <price role="employee">2.55</price>
+          <price role="other">0.00</price>
+          <price role="student">1.50</price>
+        </meal>
+      </category>
+      <category name="EG Nord 11.30 - 14.30 Uhr - Beilagen">
+        <meal>
+          <name>Rotkohl</name>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Vegan</note>
+          <price role="employee">1.00</price>
+          <price role="other">0.00</price>
+          <price role="student">0.60</price>
+        </meal>
+      </category>
+      <category name="11.30 - 18.15 Uhr - Beilagen">
+        <meal>
+          <name>Salzkartoffeln</name>
+          <note>Vegan</note>
+          <price role="employee">0.70</price>
+          <price role="other">0.00</price>
+          <price role="student">0.40</price>
         </meal>
       </category>
     </day>
