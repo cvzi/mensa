@@ -12,10 +12,13 @@ try:
     from .canteen import Canteen
 
 except ModuleNotFoundError:
+    # Only "util" lives in the project root; canteen.py sits in this package,
+    # so importing it without the dot failed whenever this branch was taken -
+    # and hid the real cause behind a ModuleNotFoundError for "canteen".
     include = os.path.relpath(os.path.join(os.path.dirname(__file__), ".."))
     sys.path.insert(0, include)
     from util import xml_escape, weekdays_map
-    from canteen import Canteen
+    from .canteen import Canteen
 
 metaJson = os.path.join(os.path.dirname(__file__), "canteenDict.json")
 

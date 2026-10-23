@@ -39,14 +39,30 @@ query Location($locationUri: String!) {
 
         result = client.execute(query, variable_values=params)
 
-        menuplanCurrentWeek = json.loads(result["nodeByUri"]["menuplanCurrentWeek"])
-        menuPlanNextWeek = json.loads(result["nodeByUri"]["menuplanNextWeek"])
-        weekMenus = {
-            "menuplanCurrentWeek": menuplanCurrentWeek,
-            "menuplanNextWeek": menuPlanNextWeek,
+        node = (result or {}).get("nodeByUri") or {}
+        return {
+            "menuplanCurrentWeek": self.parseMenuplan(node.get("menuplanCurrentWeek")),
+            "menuplanNextWeek": self.parseMenuplan(node.get("menuplanNextWeek")),
         }
 
-        return weekMenus
+    @staticmethod
+    def parseMenuplan(raw):
+        """Turn one menuplan field into a dict.
+
+        The API hands the plan over as a JSON string. It returns null for a
+        week it has no plan for, and nodeByUri itself is null for an unknown
+        location. Both used to reach json.loads and raise, which aborted the
+        whole feed. An empty dict lets the other week still be written.
+        """
+        if not raw:
+            return {}
+        if isinstance(raw, dict):
+            return raw
+        try:
+            parsed = json.loads(raw)
+        except (TypeError, ValueError):
+            return {}
+        return parsed if isinstance(parsed, dict) else {}
 
     def generateTotalFeedXml(self) -> str:
         weekMenus = self.fetchWeekMenus()
@@ -64,29 +80,60 @@ query Location($locationUri: String!) {
         return self.feed.toXMLFeed()
 
     def addWeekMenuToFeed(self, weekMenu) -> str:
-        if weekMenu["available"] == False:
+        """Add one week to the feed.
+
+        Everything is read defensively. A location can report itself as
+        available and still come without a "menus" key - that is what the
+        Vienna M-Cafe (mensenat/WiVetMed) does, and reading the key straight
+        raised KeyError for the whole run. A week, a category or a single day
+        that does not fit the expected shape is skipped instead.
+        """
+        if not isinstance(weekMenu, dict) or weekMenu.get("available") is False:
             return
 
-        firstDayOfTheWeek = weekMenu["first_day"]
+        firstDayOfTheWeek = weekMenu.get("first_day")
+        if not firstDayOfTheWeek:
+            return
 
-        for category in weekMenu["menus"]:
-            category_name = self.strip_html(category["name"])
-            if category_name == "" or not "menus" in category:
+        for category in weekMenu.get("menus") or []:
+            if not isinstance(category, dict):
                 continue
 
-            for weekday, menu in category["menus"].items():
-                current_date = self.calculateDateFromWeekdayNumberGiven(firstDayOfTheWeek, weekday)
+            category_name = self.strip_html(category.get("name"))
+            days = category.get("menus")
+            if category_name == "" or not isinstance(days, dict):
+                continue
+
+            for weekday, menu in days.items():
+                try:
+                    current_date = self.calculateDateFromWeekdayNumberGiven(firstDayOfTheWeek, weekday)
+                except ValueError:
+                    continue
                 self.addMealsToFeed(category_name, current_date, menu)
 
     def addMealsToFeed(self, category_name, current_date, meals):
+        if not isinstance(meals, list):
+            return
+
         for meal in meals:
-            name = self.strip_html(meal['title_de'])
-            allergens = meal['allergens']
+            if not isinstance(meal, dict):
+                continue
+
+            name = self.strip_html(meal.get("title_de"))
+            price = meal.get("price")
+            if name == "" or price in (None, ""):
+                continue
+
+            allergens = meal.get("allergens")
             if isinstance(allergens, dict):
-                allergens = allergens.keys()
-            notes = allergens
-            prices = {"other": meal["price"]}
-            self.feed.addMeal(current_date, category_name, name, notes=notes, prices=prices)
+                notes = list(allergens.keys())
+            elif isinstance(allergens, (list, tuple)):
+                notes = list(allergens)
+            else:
+                notes = []
+
+            self.feed.addMeal(current_date, category_name, name,
+                              notes=notes, prices={"other": price})
 
     # for some reason, mensen.at doesnt provide the concrete date of the menu but the number of the week day of the current week.
     # To get the correct date we need to calculate the date again
@@ -100,4 +147,6 @@ query Location($locationUri: String!) {
             raise ValueError(f"Failed to generate week day date: {e}") from e
 
     def strip_html(self, text):
+        if not text:
+            return ""
         return re.sub(" +", " ", re.sub("<[^<]+?>|\\n", " ", text)).strip()
