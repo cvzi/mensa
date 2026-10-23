@@ -31,18 +31,18 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
+          <name>Trauben</name>
+          <price role="employee">1.10</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
           <name>Dessertbecher</name>
           <note>Enthält Gelatine</note>
           <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
           <note>Enthält Weizen Gluten</note>
-          <price role="employee">1.10</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
-          <name>Trauben</name>
           <price role="employee">1.10</price>
           <price role="other">0.00</price>
           <price role="student">0.65</price>
@@ -466,6 +466,7 @@
         </meal>
         <meal>
           <name>Grüne Bohnen</name>
+          <note>Vegan</note>
           <price role="employee">0.50</price>
           <price role="other">0.00</price>
           <price role="student">0.30</price>
@@ -491,9 +492,9 @@
           <note>Enthält Gluten</note>
           <note>Enthält Weizen Gluten</note>
           <note>Mit Farbstoff</note>
-          <price role="employee">0.95</price>
-          <price role="other">3.00</price>
-          <price role="student">0.65</price>
+          <price role="employee">1.60</price>
+          <price role="other">0.00</price>
+          <price role="student">0.95</price>
         </meal>
         <meal>
           <name>Reis</name>
@@ -613,6 +614,16 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
+          <name>Blumenkohl, Gemüserahmsauce</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Sellerie</note>
+          <note>Vegetarisch</note>
+          <price role="employee">0.85</price>
+          <price role="other">0.00</price>
+          <price role="student">0.50</price>
+        </meal>
+        <meal>
           <name>Dessertbecher</name>
           <note>Enthält Gelatine</note>
           <note>Enthält Hafer Gluten</note>
@@ -624,23 +635,16 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Gnocchi</name>
-          <note>Enthält Gluten</note>
-          <note>Enthält Weizen Gluten</note>
+          <name>Erbsen und Möhren</name>
           <note>Vegan</note>
-          <price role="employee">1.30</price>
+          <price role="employee">0.75</price>
           <price role="other">0.00</price>
-          <price role="student">0.75</price>
-        </meal>
-        <meal>
-          <name>Grüne Bohnen</name>
-          <price role="employee">0.50</price>
-          <price role="other">0.00</price>
-          <price role="student">0.30</price>
+          <price role="student">0.45</price>
         </meal>
         <meal>
           <name>Mie-Nudeln</name>
           <note>Enthält Gluten</note>
+          <note>Enthält Sesamsamen</note>
           <note>Enthält Soja</note>
           <note>Enthält Weizen Gluten</note>
           <note>Mit Farbstoff</note>
@@ -676,23 +680,6 @@
           <price role="employee">1.80</price>
           <price role="other">0.00</price>
           <price role="student">1.05</price>
-        </meal>
-      </category>
-      <category name="VGT - Vegan/vegetarisch">
-        <meal>
-          <name>Pasta Theke</name>
-          <note>Enthält Eier</note>
-          <note>Enthält Fisch</note>
-          <note>Enthält Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Roggen Gluten</note>
-          <note>Enthält Sellerie</note>
-          <note>Enthält Soja</note>
-          <note>Enthält Weizen Gluten</note>
-          <price role="employee">0.97</price>
-          <price role="other">2.91</price>
-          <price role="student">0.77</price>
         </meal>
       </category>
       <category name="Querbeet">
@@ -829,7 +816,7 @@
           <price role="student">1.50</price>
         </meal>
       </category>
-      <category name="VGT - Vegan/vegetarisch">
+      <category name="VGT - Sonstiges">
         <meal>
           <name>Pasta Theke</name>
           <note>Enthält Eier</note>
@@ -856,6 +843,32 @@
           <price role="employee">4.85</price>
           <price role="other">0.00</price>
           <price role="student">2.85</price>
+        </meal>
+      </category>
+      <category name="Querbeet">
+        <meal>
+          <name>Salatbuffet in Selbstbedienung, je 100g</name>
+          <note>Enthält Eier</note>
+          <note>Enthält Gerste Gluten</note>
+          <note>Enthält Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Schalenfrüchte (Nüsse)</note>
+          <note>Enthält Schalenfrüchte Kaschunuss</note>
+          <note>Enthält Schalenfrüchte Mandeln</note>
+          <note>Enthält Schalenfrüchte Walnuss</note>
+          <note>Enthält Sellerie</note>
+          <note>Enthält Senf</note>
+          <note>Enthält Sesamsamen</note>
+          <note>Enthält Soja</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Geschwefelt</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Mit Farbstoff</note>
+          <note>Mit Konservierungsstoff</note>
+          <price role="employee">0.97</price>
+          <price role="other">2.91</price>
+          <price role="student">0.77</price>
         </meal>
       </category>
     </day>
@@ -932,7 +945,7 @@
           <price role="student">2.30</price>
         </meal>
       </category>
-      <category name="VGT - Vegan/vegetarisch">
+      <category name="VGT - Sonstiges">
         <meal>
           <name>Pasta Theke</name>
           <note>Enthält Eier</note>
@@ -1039,7 +1052,7 @@
           <price role="student">1.25</price>
         </meal>
       </category>
-      <category name="VGT - Vegan/vegetarisch">
+      <category name="VGT - Sonstiges">
         <meal>
           <name>Pasta Theke</name>
           <note>Enthält Eier</note>
@@ -1148,7 +1161,7 @@
           <price role="student">1.20</price>
         </meal>
       </category>
-      <category name="VGT - Vegan/vegetarisch">
+      <category name="VGT - Sonstiges">
         <meal>
           <name>Pasta Theke</name>
           <note>Enthält Eier</note>
@@ -1224,7 +1237,7 @@
           <price role="student">0.40</price>
         </meal>
       </category>
-      <category name="VGT - Vegan/vegetarisch">
+      <category name="VGT - Sonstiges">
         <meal>
           <name>Pasta Theke</name>
           <note>Enthält Eier</note>
