@@ -104,5 +104,5 @@ class Parser:
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
-    print(Parser("http://localhost/{metaOrFeed}/mensenat_{mensaReference}.xml").feed("WiTUSchroedingerFreihaus"))
+    print(Parser("http://localhost/{metaOrFeed}/mensenat_{mensaReference}.xml").feed_today("WiTUSchroedingerFreihaus"))
     # print(Parser("http://localhost/{metaOrFeed}/mensenat_{mensaReference}.xml").meta("EisenstadtFH"))

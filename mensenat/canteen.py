@@ -3,7 +3,7 @@ from gql import gql, Client
 from gql.transport.requests import RequestsHTTPTransport
 import html
 import json
-from pyopenmensa.feed import LazyBuilder
+from util import StyledLazyBuilder as LazyBuilder
 import re
 
 
