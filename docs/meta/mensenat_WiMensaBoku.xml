@@ -1,25 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/basic.css" type="text/css"?>
-<?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-stylesheet type="text/css" href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/basic.css"?>
+<?xml-stylesheet type="text/css" href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css"?>
 <openmensa xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
     <name>Wien, Mensa Boku</name>
     <address>Peter-Jordan-Straße 76, 1190 Wien (Österreich)</address>
     <city>Wien (Österreich)</city>
-    <phone></phone>
-    <location latitude="48.2373765" longitude="16.3348756" />
-    <!--<availability></availability>-->
+    <location latitude="48.2373765" longitude="16.3348756"/>
     <times type="opening">
-      <monday open="08:30-14:30" />
-      <tuesday open="08:30-14:30" />
-      <wednesday open="08:30-14:30" />
-      <thursday open="08:30-14:30" />
-      <friday open="08:30-14:00" />
-      <saturday open="08:30-14:30" />
-      <sunday open="08:30-14:30" />
+      <monday open="08:30-14:30"/>
+      <tuesday open="08:30-14:30"/>
+      <wednesday open="08:30-14:30"/>
+      <thursday open="08:30-14:30"/>
+      <friday open="08:30-14:00"/>
+      <saturday open="08:30-14:30"/>
+      <sunday open="08:30-14:30"/>
     </times>
+    <feed name="today" priority="0">
+      <schedule dayOfMonth="*" dayOfWeek="1-5" hour="6-14" retry="5 3"/>
+      <url>https://cvzi.github.io/mensa/today/mensenat_WiMensaBoku.xml</url>
+      <source>https://www.mensen.at/standort/mensa-m-cafe-boku</source>
+    </feed>
     <feed name="full" priority="1">
-      <schedule dayOfMonth="*" dayOfWeek="1-5" hour="6-14" minute="34" retry="65 1 1440" />
+      <schedule dayOfMonth="*" dayOfWeek="*" hour="7,9" minute="13" retry="60 1 1440"/>
       <url>https://cvzi.github.io/mensa/feed/mensenat_WiMensaBoku.xml</url>
       <source>https://www.mensen.at/standort/mensa-m-cafe-boku</source>
     </feed>
