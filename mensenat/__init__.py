@@ -3,23 +3,22 @@ import os
 import json
 import logging
 import urllib
-import re
 import json5
 
 
 try:
-    from util import xml_escape, weekdays_map
+    from util import meta_from_xsl, xml_str_param
     from .canteen import Canteen
 
 except ModuleNotFoundError:
     include = os.path.relpath(os.path.join(os.path.dirname(__file__), ".."))
     sys.path.insert(0, include)
-    from util import xml_escape, weekdays_map
+    from util import meta_from_xsl, xml_str_param
     from canteen import Canteen
 
 metaJson = os.path.join(os.path.dirname(__file__), "canteenDict.json")
 
-metaTemplateFile = os.path.join(os.path.dirname(__file__), "metaTemplate.xml")
+metaXslt = os.path.join(os.path.dirname(__file__), "../meta.xsl")
 
 
 class Parser:
@@ -33,62 +32,34 @@ class Parser:
         canteen = Canteen(uri)
         return canteen.genereateCurrentWeekFeedXml()
 
-    def meta(self, refName):
-        """Generate an openmensa XML meta feed from the static json file using an XML template"""
-        with open(metaTemplateFile) as f:
-            template = f.read()
+    def meta(self, ref):
+        """Generate an openmensa XML meta feed using XSLT"""
+        if ref not in self.canteens:
+            return "Unknown canteen"
+        mensa = self.canteens[ref]
 
-        for reference, mensa in self.canteens.items():
-            if refName != reference:
-                continue
+        data = {
+            "name": xml_str_param(mensa["name"]),
+            "address": xml_str_param(f"{mensa['address']}"),
+            "city": xml_str_param(mensa["city"]),
+            "latitude": xml_str_param(mensa["latitude"]),
+            "longitude": xml_str_param(mensa["longitude"]),
+            "phone": xml_str_param(mensa["phone"]),
+            "times": mensa["times"],
+            "feed_today": xml_str_param(self.urlTemplate.format(metaOrFeed='today', mensaReference=urllib.parse.quote(ref))),
+            "feed_full": xml_str_param(self.urlTemplate.format(metaOrFeed='feed', mensaReference=urllib.parse.quote(ref))),
+            "source": xml_str_param(mensa["source"]),
+        }
 
-            data = {
-                "name": mensa["name"],
-                "address": mensa["address"],
-                "city": mensa["city"],
-                "phone": mensa["phone"],
-                "latitude": mensa["latitude"],
-                "longitude": mensa["longitude"],
-                "feed": self.urlTemplate.format(metaOrFeed="feed", mensaReference=urllib.parse.quote(reference)),
-                "source": mensa["source"],
-            }
-            openingTimes = {}
-            pattern = re.compile(
-                r"([A-Z][a-z])(\s*-\s*([A-Z][a-z]))?\s*(\d{1,2}):(\d{2})\s*-\s*(\d{1,2}):(\d{2}) Uhr"
-            )
-            m = re.findall(pattern, mensa["times"])
-            for result in m:
-                fromDay, _, toDay, fromTimeH, fromTimeM, toTimeH, toTimeM = result
-                openingTimes[fromDay] = "%02d:%02d-%02d:%02d" % (
-                    int(fromTimeH), int(fromTimeM), int(toTimeH), int(toTimeM))
-                if toDay:
-                    select = False
-                    for short, long in weekdays_map:
-                        if short == fromDay:
-                            select = True
-                        elif select:
-                            openingTimes[short] = "%02d:%02d-%02d:%02d" % (
-                                int(fromTimeH), int(fromTimeM), int(toTimeH), int(toTimeM))
-                        if short == toDay:
-                            select = False
+        return meta_from_xsl(self.meta_xslt, data)
 
-                for short, long in weekdays_map:
-                    if short in openingTimes:
-                        data[long] = 'open="%s"' % openingTimes[short]
-                    else:
-                        data[long] = 'closed="true"'
-            for key, value in data.items():
-                data[key] = xml_escape(value)
-            xml = template.format(**data)
-            return xml
-
-        return '<openmensa xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd"/>'
 
     def __init__(self, urlTemplate):
         with open(metaJson, "r", encoding="utf8") as f:
             canteenDict = json5.load(f)
 
         self.urlTemplate = urlTemplate
+        self.meta_xslt = os.path.join(os.path.dirname(__file__), "../meta.xsl")
 
         self.canteens = {}
         for mensaId, mensa in canteenDict.items():
@@ -104,5 +75,5 @@ class Parser:
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.DEBUG)
-    print(Parser("http://localhost/{metaOrFeed}/mensenat_{mensaReference}.xml").feed_today("WiTUSchroedingerFreihaus"))
-    # print(Parser("http://localhost/{metaOrFeed}/mensenat_{mensaReference}.xml").meta("EisenstadtFH"))
+    #print(Parser("http://localhost/{metaOrFeed}/mensenat_{mensaReference}.xml").feed_today("WiTUSchroedingerFreihaus"))
+    print(Parser("http://localhost/{metaOrFeed}/mensenat_{mensaReference}.xml").meta("WiTUSchroedingerFreihaus"))

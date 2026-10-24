@@ -41,7 +41,7 @@
     <name><xsl:value-of select="$name" /></name>
     <address><xsl:value-of select="$address" /></address>
     <city><xsl:value-of select="$city" /></city>
-    <xsl:if test="$times">
+    <xsl:if test="$phone">
       <phone><xsl:value-of select="$phone" /></phone>
     </xsl:if>
     <location>
