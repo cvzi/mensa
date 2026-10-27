@@ -6,13 +6,6 @@
     <day date="2026-10-26">
       <category name="Beilagen">
         <meal>
-          <name>Basmatireis</name>
-          <note>Vegan</note>
-          <price role="employee">0.50</price>
-          <price role="other">0.00</price>
-          <price role="student">0.30</price>
-        </meal>
-        <meal>
           <name>Beilagensalat</name>
           <note>Enthält Eier</note>
           <note>Enthält Sellerie</note>
@@ -47,6 +40,13 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
+          <name>Duftreis</name>
+          <note>Vegan</note>
+          <price role="employee">0.50</price>
+          <price role="other">0.00</price>
+          <price role="student">0.20</price>
+        </meal>
+        <meal>
           <name>Erbsen</name>
           <note>Vegan</note>
           <price role="employee">0.75</price>
@@ -66,6 +66,13 @@
           <price role="employee">0.70</price>
           <price role="other">0.00</price>
           <price role="student">0.40</price>
+        </meal>
+        <meal>
+          <name>Reis</name>
+          <note>Vegan</note>
+          <price role="employee">0.35</price>
+          <price role="other">0.00</price>
+          <price role="student">0.20</price>
         </meal>
       </category>
       <category name="Vegan/vegetarisch">
@@ -105,6 +112,16 @@
       <category name="Fleisch">
         <meal>
           <name>Putenschnitzel, Paprikarahmsauce, Pommes frites</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>mit Geflügel</note>
+          <price role="employee">5.65</price>
+          <price role="other">0.00</price>
+          <price role="student">3.30</price>
+        </meal>
+        <meal>
+          <name>Putenschnitzel, Paprikarahmsauce, Reis</name>
           <note>Enthält Gluten</note>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
@@ -215,6 +232,19 @@
           <price role="other">0.00</price>
           <price role="student">2.30</price>
         </meal>
+        <meal>
+          <name>Hähnchengeschnetzeltes Süß-Sauer</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Soja</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Mit Farbstoff</note>
+          <note>Mit Geschmacksverstärker</note>
+          <note>Mit Konservierungsstoff</note>
+          <note>mit Geflügel</note>
+          <price role="employee">3.95</price>
+          <price role="other">0.00</price>
+          <price role="student">2.30</price>
+        </meal>
       </category>
       <category name="Vegan/vegetarisch">
         <meal>
@@ -242,6 +272,13 @@
           <price role="student">0.77</price>
         </meal>
         <meal>
+          <name>Vegane Bratwurst, mit Currysauce, Reis</name>
+          <note>Vegan</note>
+          <price role="employee">4.60</price>
+          <price role="other">0.00</price>
+          <price role="student">2.70</price>
+        </meal>
+        <meal>
           <name>Vegane Bratwurst, mit Currysauce, Pommes Wedges</name>
           <note>Vegan</note>
           <price role="employee">4.60</price>
@@ -263,18 +300,6 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Dessertbecher verschiedene Sorten</name>
-          <note>Enthält Gelatine</note>
-          <note>Enthält Hafer Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Vegetarisch</note>
-          <price role="employee">1.10</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
           <name>Dessertbecher Vegan</name>
           <note>Enthält Gelatine</note>
           <note>Enthält Hafer Gluten</note>
@@ -285,6 +310,18 @@
           <price role="employee">1.30</price>
           <price role="other">0.00</price>
           <price role="student">0.75</price>
+        </meal>
+        <meal>
+          <name>Dessertbecher verschiedene Sorten</name>
+          <note>Enthält Gelatine</note>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegetarisch</note>
+          <price role="employee">1.10</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
         </meal>
         <meal>
           <name>Kaisergemüse</name>
@@ -918,18 +955,6 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Dessertbecher verschiedene Sorten</name>
-          <note>Enthält Gelatine</note>
-          <note>Enthält Hafer Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Vegetarisch</note>
-          <price role="employee">1.10</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
           <name>Dessertbecher Vegan</name>
           <note>Enthält Gelatine</note>
           <note>Enthält Hafer Gluten</note>
@@ -940,6 +965,18 @@
           <price role="employee">1.30</price>
           <price role="other">0.00</price>
           <price role="student">0.75</price>
+        </meal>
+        <meal>
+          <name>Dessertbecher verschiedene Sorten</name>
+          <note>Enthält Gelatine</note>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegetarisch</note>
+          <price role="employee">1.10</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
         </meal>
         <meal>
           <name>Kaisergemüse</name>
@@ -1214,18 +1251,6 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Dessertbecher verschiedene Sorten</name>
-          <note>Enthält Gelatine</note>
-          <note>Enthält Hafer Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Vegetarisch</note>
-          <price role="employee">1.10</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
           <name>Dessertbecher Vegan</name>
           <note>Enthält Gelatine</note>
           <note>Enthält Hafer Gluten</note>
@@ -1236,6 +1261,18 @@
           <price role="employee">1.30</price>
           <price role="other">0.00</price>
           <price role="student">0.75</price>
+        </meal>
+        <meal>
+          <name>Dessertbecher verschiedene Sorten</name>
+          <note>Enthält Gelatine</note>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegetarisch</note>
+          <price role="employee">1.10</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
         </meal>
         <meal>
           <name>Mandel-Broccoli</name>
