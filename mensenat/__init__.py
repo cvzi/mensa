@@ -11,10 +11,13 @@ try:
     from .canteen import Canteen
 
 except ModuleNotFoundError:
+    # Only "util" lives in the project root; canteen.py sits in this package,
+    # so importing it without the dot fails whenever this branch is taken -
+    # and hides the real cause behind a ModuleNotFoundError for "canteen".
     include = os.path.relpath(os.path.join(os.path.dirname(__file__), ".."))
     sys.path.insert(0, include)
     from util import meta_from_xsl, xml_str_param
-    from canteen import Canteen
+    from .canteen import Canteen
 
 metaJson = os.path.join(os.path.dirname(__file__), "canteenDict.json")
 
