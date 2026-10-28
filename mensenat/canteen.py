@@ -159,6 +159,20 @@ query Location($locationUri: String!) {
         text = re.sub(r"<[^<]+?>|\n", " ", text)
         text = html.unescape(text)
         text = re.sub(r"\s+", " ", text)
-        # A trailing <br /> is common and would leave a dangling comma.
-        text = re.sub(r"\s*,(\s*,)*\s*", ", ", text)
+        return self.tidyCommas(text)
+
+    @staticmethod
+    def tidyCommas(text):
+        """
+        Collapse repeated commas and the whitespace around them.
+
+        A line that already ends in a comma, or a trailing <br />, would
+        otherwise leave two. A comma between digits is a decimal separator
+        and stays untouched: several locations put a price in the category
+        name ("Study Teller € 5,20"), and normalising every comma turned
+        that into "€ 5, 20".
+        """
+        text = re.sub(r",(?:\s*,)+", ",", text)
+        text = re.sub(r"\s+,", ",", text)
+        text = re.sub(r",(?!\s)(?<!\d,)", ", ", text)
         return text.strip().strip(",").strip()
