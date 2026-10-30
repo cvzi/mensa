@@ -3,57 +3,6 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2026-10-29">
-      <category name="a.Menü 1">
-        <meal>
-          <name>Menü 1 = Suppe, Hauptgericht 1 und Nachtisch</name>
-          <note>fleischlos</note>
-        </meal>
-      </category>
-      <category name="b.Hauptgericht 1">
-        <meal>
-          <name>kürbispizza Pizza belegt mit Kürbis und Käse</name>
-          <note>fleischlos</note>
-          <note>glutenhaltig</note>
-          <note>mit Ei</note>
-          <note>mit Milchprodukten (lactosehaltig)</note>
-        </meal>
-        <meal>
-          <name>Pizza Margaritha mit Salat Hefeteig mit Tomatensoße und Käse überbacken und Salat vom Buffett</name>
-          <note>fleischlos</note>
-          <note>glutenhaltig</note>
-          <note>mit Milchprodukten (lactosehaltig)</note>
-        </meal>
-      </category>
-      <category name="c.Menü 2">
-        <meal>
-          <name>Menü 2 = Suppe, Hauptgericht 2 und Nachtisch</name>
-        </meal>
-      </category>
-      <category name="d.Hauptgericht 2">
-        <meal>
-          <name>Currywurst mit Kartoffelbrei und  Salat Currywurst mit Kartoffelbrei und Salat vom Buffet</name>
-          <note>enthält Schweinefleisch</note>
-          <note>glutenhaltig</note>
-          <note>mit Milchprodukten (lactosehaltig)</note>
-          <note>mit Phosphat</note>
-        </meal>
-      </category>
-      <category name="e.Salatteller">
-        <meal>
-          <name>Salatteller groß Salatauswahl vom abwechslungsreichen Bufett mit Brötchen oder Brot</name>
-        </meal>
-      </category>
-      <category name="f.Tagessuppe">
-        <meal>
-          <name>Glasnudelsuppe Klare Gemüsebrühe mit Glasnudeln und kleingeschnittenem Gemüse dazu Brötchen oder Brot</name>
-          <note>fleischlos</note>
-          <note>mit Sellerie</note>
-          <note>mit Soja</note>
-          <note>vegan</note>
-        </meal>
-      </category>
-    </day>
     <day date="2026-11-09">
       <category name="a.Menü 1">
         <meal>
@@ -86,6 +35,14 @@
       <category name="e.Salatteller">
         <meal>
           <name>Salatteller groß Salatauswahl vom abwechslungsreichen Bufett mit Brötchen oder Brot</name>
+        </meal>
+      </category>
+      <category name="f.Tagessuppe">
+        <meal>
+          <name>Blumenkohlsuppe gebundene Blumenkohlsuppe dazu Brötchen oder Brot</name>
+          <note>fleischlos</note>
+          <note>mit Milchprodukten (lactosehaltig)</note>
+          <note>mit Sellerie</note>
         </meal>
       </category>
     </day>
@@ -137,6 +94,15 @@
           <name>Salatteller groß Salatauswahl vom abwechslungsreichen Bufett mit Brötchen oder Brot</name>
         </meal>
       </category>
+      <category name="f.Tagessuppe">
+        <meal>
+          <name>Nudelsuppe Klare Gemüsebrühe mit Eiernudeln</name>
+          <note>Weizen</note>
+          <note>fleischlos</note>
+          <note>mit Ei</note>
+          <note>mit Sellerie</note>
+        </meal>
+      </category>
     </day>
     <day date="2026-11-11">
       <category name="a.Menü 1">
@@ -173,6 +139,12 @@
           <name>Salatteller groß Salatauswahl vom abwechslungsreichen Bufett mit Brötchen oder Brot</name>
         </meal>
       </category>
+      <category name="f.Tagessuppe">
+        <meal>
+          <name>Geröstete Grießsuppe</name>
+          <note>fleischlos</note>
+        </meal>
+      </category>
     </day>
     <day date="2026-11-12">
       <category name="a.Menü 1">
@@ -195,9 +167,23 @@
           <name>Menü 2 = Suppe, Hauptgericht 2 und Nachtisch</name>
         </meal>
       </category>
+      <category name="d.Hauptgericht 2">
+        <meal>
+          <name>Hähnchenschenkel  mit Couscous und Salat vom Buffett Hähnchenschenkel mit Couscous und Salat vom Buffett</name>
+          <note>mit Hühnereiweiß</note>
+        </meal>
+      </category>
       <category name="e.Salatteller">
         <meal>
           <name>Salatteller groß Salatauswahl vom abwechslungsreichen Bufett mit Brötchen oder Brot</name>
+        </meal>
+      </category>
+      <category name="f.Tagessuppe">
+        <meal>
+          <name>Schwarzwurzelsuppe</name>
+          <note>fleischlos</note>
+          <note>mit Milchprodukten (lactosehaltig)</note>
+          <note>mit Sellerie</note>
         </meal>
       </category>
     </day>
@@ -208,14 +194,48 @@
           <note>fleischlos</note>
         </meal>
       </category>
+      <category name="b.Hauptgericht 1">
+        <meal>
+          <name>Gemüsefrühlingsrolle mit Asiasauce und Salat Mit Karotten, Lauch, Paprika und Sojabohnen gefüllte Frühlingsrolle mit Asiasauce und Salat vom Buffet</name>
+          <note>fleischlos</note>
+          <note>glutenhaltig</note>
+          <note>mit Ei</note>
+          <note>mit Sellerie</note>
+          <note>mit Sesam</note>
+          <note>mit Soja</note>
+        </meal>
+        <meal>
+          <name>Kürbislasagne mit Salat Lasagne mit Kürbisfleisch und Mozzarella</name>
+          <note>Weizen</note>
+          <note>fleischlos</note>
+          <note>mit Ei</note>
+          <note>mit Milchprodukten (lactosehaltig)</note>
+        </meal>
+      </category>
       <category name="c.Menü 2">
         <meal>
           <name>Menü 2 = Suppe, Hauptgericht 2 und Nachtisch</name>
         </meal>
       </category>
+      <category name="d.Hauptgericht 2">
+        <meal>
+          <name>Chilli Con Carne mit Vollkornbaguette und Salat Scharfes Hackfleisch mit roten Bohnen, Mais und Salat vom Buffett</name>
+          <note>Weizen</note>
+          <note>enthält Rindfleisch</note>
+          <note>enthält Schweinefleisch</note>
+          <note>glutenhaltig</note>
+          <note>mit Sellerie</note>
+        </meal>
+      </category>
       <category name="e.Salatteller">
         <meal>
           <name>Salatteller groß Salatauswahl vom abwechslungsreichen Bufett mit Brötchen oder Brot</name>
+        </meal>
+      </category>
+      <category name="f.Tagessuppe">
+        <meal>
+          <name>Tomatensuppe als Beilage ein Brötchen oder Brot</name>
+          <note>fleischlos</note>
         </meal>
       </category>
     </day>
@@ -226,14 +246,54 @@
           <note>fleischlos</note>
         </meal>
       </category>
+      <category name="b.Hauptgericht 1">
+        <meal>
+          <name>Apfelstrudel mit Vanillesoße Apfelstrudel  mit  Vanillesoße  Achtung !!! Ohne Salat,</name>
+          <note>Haselnüsse</note>
+          <note>Walnüsse</note>
+          <note>Weizen</note>
+          <note>fleischlos</note>
+          <note>mit Ei</note>
+          <note>mit Milchprodukten (lactosehaltig)</note>
+          <note>mit Senf</note>
+        </meal>
+      </category>
       <category name="c.Menü 2">
         <meal>
           <name>Menü 2 = Suppe, Hauptgericht 2 und Nachtisch</name>
         </meal>
       </category>
+      <category name="d.Hauptgericht 2">
+        <meal>
+          <name>Döner Hähnchenfleisch Brotasche mit Hähnchenfleisch, Tomate, Gurke, Salat und Joghurtsoße  ohne Salatteller!</name>
+          <note>Gerste</note>
+          <note>Roggen</note>
+          <note>Weizen</note>
+          <note>mit Ei</note>
+          <note>mit Milchprodukten (lactosehaltig)</note>
+          <note>mit Soja</note>
+        </meal>
+        <meal>
+          <name>Döner vegetarisch Brotasche mit Tomaten,Gurken,Blaukraut.... und Joghurtsoße  ohne Salatteller</name>
+          <note>Gerste</note>
+          <note>Roggen</note>
+          <note>Weizen</note>
+          <note>fleischlos</note>
+          <note>mit Ei</note>
+          <note>mit Milchprodukten (lactosehaltig)</note>
+          <note>mit Soja</note>
+        </meal>
+      </category>
       <category name="e.Salatteller">
         <meal>
           <name>Salatteller groß Salatauswahl vom abwechslungsreichen Bufett mit Brötchen oder Brot</name>
+        </meal>
+      </category>
+      <category name="f.Tagessuppe">
+        <meal>
+          <name>Kürbissuppe gebundene Kürbissuppe mit Brötchen oder Brot</name>
+          <note>fleischlos</note>
+          <note>mit Milchprodukten (lactosehaltig)</note>
         </meal>
       </category>
     </day>
@@ -256,14 +316,49 @@
           <note>fleischlos</note>
         </meal>
       </category>
+      <category name="b.Hauptgericht 1">
+        <meal>
+          <name>Röstzwiebelbratlinge mit Kartoffelstampf und Salat von Bufett Würzige Bratlinge mit Rostzwiebeln, Kartoffelstampf mit Soße</name>
+          <note>fleischlos</note>
+          <note>glutenhaltig</note>
+          <note>mit Ei</note>
+          <note>mit Sesam</note>
+        </meal>
+      </category>
       <category name="c.Menü 2">
         <meal>
           <name>Menü 2 = Suppe, Hauptgericht 2 und Nachtisch</name>
         </meal>
       </category>
+      <category name="d.Hauptgericht 2">
+        <meal>
+          <name>Blaukraut Schweinebraten mit Nudeln</name>
+          <note>Gerste</note>
+          <note>Roggen</note>
+          <note>Weizen</note>
+          <note>enthält Schweinefleisch</note>
+          <note>mit Ei</note>
+          <note>mit Sellerie</note>
+          <note>mit Senf</note>
+        </meal>
+        <meal>
+          <name>Schweinebraten mit Nudeln und Salat Schweinebraten mit Nudeln und Salat vom Büffet.</name>
+          <note>enthält Schweinefleisch</note>
+          <note>glutenhaltig</note>
+          <note>mit Ei</note>
+          <note>mit Sellerie</note>
+          <note>mit Senf</note>
+        </meal>
+      </category>
       <category name="e.Salatteller">
         <meal>
           <name>Salatteller groß Salatauswahl vom abwechslungsreichen Bufett mit Brötchen oder Brot</name>
+        </meal>
+      </category>
+      <category name="f.Tagessuppe">
+        <meal>
+          <name>Flädlesuppe Gemüsebrühe mit Pfannkuchenstreifen</name>
+          <note>fleischlos</note>
         </meal>
       </category>
     </day>

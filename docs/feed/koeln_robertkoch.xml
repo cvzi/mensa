@@ -17,6 +17,7 @@
         </meal>
         <meal>
           <name>Dessertbecher</name>
+          <note>D</note>
           <note>Enthält Gelatine</note>
           <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
@@ -153,6 +154,7 @@
         </meal>
         <meal>
           <name>Dessertbecher</name>
+          <note>D</note>
           <note>Enthält Gelatine</note>
           <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
@@ -256,7 +258,6 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Vegan</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -284,6 +285,7 @@
         </meal>
         <meal>
           <name>Dessertbecher</name>
+          <note>D</note>
           <note>Enthält Gelatine</note>
           <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
@@ -368,13 +370,12 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Vegan</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
         </meal>
       </category>
-      <category name="VGT - Vegan/vegetarisch">
+      <category name="VGT - Sonstiges">
         <meal>
           <name>Pasta Theke</name>
           <note>Enthält Eier</note>
@@ -452,7 +453,6 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Vegan</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -471,6 +471,7 @@
         </meal>
         <meal>
           <name>Dessertbecher</name>
+          <note>D</note>
           <note>Enthält Gelatine</note>
           <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
@@ -482,14 +483,15 @@
         </meal>
         <meal>
           <name>Kaisergemüse</name>
-          <note>Vegetarisch</note>
+          <note>Vegan</note>
           <price role="employee">0.85</price>
           <price role="other">0.00</price>
           <price role="student">0.50</price>
         </meal>
         <meal>
           <name>Kartoffel-Blumenkohlstampf</name>
-          <note>Enthält Soja</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
           <note>Vegan</note>
           <price role="employee">1.00</price>
           <price role="other">0.00</price>
@@ -532,8 +534,13 @@
       <category name="1 - Vegan/vegetarisch">
         <meal>
           <name>Linseneintopf, Kaiserbrötchen</name>
+          <note>Enthält Gerste Gluten</note>
           <note>Enthält Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Roggen Gluten</note>
+          <note>Enthält Sellerie</note>
           <note>Enthält Senf</note>
+          <note>Enthält Weizen Gluten</note>
           <note>Mit Antioxidationsmittel</note>
           <note>Vegan</note>
           <price role="employee">2.05</price>
@@ -541,7 +548,7 @@
           <price role="student">1.20</price>
         </meal>
       </category>
-      <category name="VGT - Vegan/vegetarisch">
+      <category name="VGT - Sonstiges">
         <meal>
           <name>Pasta Theke</name>
           <note>Enthält Eier</note>
@@ -585,7 +592,18 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
+          <name>Blumenkohl, Gemüserahmsauce</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Sellerie</note>
+          <note>Vegetarisch</note>
+          <price role="employee">0.85</price>
+          <price role="other">0.00</price>
+          <price role="student">0.50</price>
+        </meal>
+        <meal>
           <name>Dessertbecher</name>
+          <note>D</note>
           <note>Enthält Gelatine</note>
           <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
@@ -596,18 +614,18 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Obst</name>
-          <note>Vegan</note>
-          <price role="employee">0.80</price>
-          <price role="other">2.80</price>
-          <price role="student">0.60</price>
-        </meal>
-        <meal>
           <name>Pommes frites</name>
           <note>Vegan</note>
           <price role="employee">0.70</price>
           <price role="other">0.00</price>
           <price role="student">0.40</price>
+        </meal>
+        <meal>
+          <name>Rosenkohl</name>
+          <note>Vegan</note>
+          <price role="employee">1.00</price>
+          <price role="other">0.00</price>
+          <price role="student">0.60</price>
         </meal>
         <meal>
           <name>Salzkartoffeln</name>
@@ -617,7 +635,7 @@
           <price role="student">0.40</price>
         </meal>
       </category>
-      <category name="VGT - Vegan/vegetarisch">
+      <category name="VGT - Sonstiges">
         <meal>
           <name>Pasta Theke</name>
           <note>Enthält Eier</note>
@@ -629,32 +647,6 @@
           <note>Enthält Sellerie</note>
           <note>Enthält Soja</note>
           <note>Enthält Weizen Gluten</note>
-          <price role="employee">0.97</price>
-          <price role="other">2.91</price>
-          <price role="student">0.77</price>
-        </meal>
-      </category>
-      <category name="Querbeet">
-        <meal>
-          <name>Salat- und Gemüsebuffet in Selbstbedienung, je 100g, Salat</name>
-          <note>Enthält Eier</note>
-          <note>Enthält Gerste Gluten</note>
-          <note>Enthält Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Schalenfrüchte (Nüsse)</note>
-          <note>Enthält Schalenfrüchte Kaschunuss</note>
-          <note>Enthält Schalenfrüchte Mandeln</note>
-          <note>Enthält Schalenfrüchte Walnuss</note>
-          <note>Enthält Sellerie</note>
-          <note>Enthält Senf</note>
-          <note>Enthält Sesamsamen</note>
-          <note>Enthält Soja</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Geschwefelt</note>
-          <note>Mit Antioxidationsmittel</note>
-          <note>Mit Farbstoff</note>
-          <note>Mit Konservierungsstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -681,7 +673,6 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Vegan</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -731,7 +722,14 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
+          <name>Broccoli</name>
+          <price role="employee">1.10</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
           <name>Dessertbecher</name>
+          <note>D</note>
           <note>Enthält Gelatine</note>
           <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
@@ -795,7 +793,6 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Vegan</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -834,6 +831,32 @@
           <price role="student">1.40</price>
         </meal>
       </category>
+      <category name="Querbeet">
+        <meal>
+          <name>Salat- und Gemüsebuffet in Selbstbedienung, je 100g, Salat</name>
+          <note>Enthält Eier</note>
+          <note>Enthält Gerste Gluten</note>
+          <note>Enthält Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Schalenfrüchte (Nüsse)</note>
+          <note>Enthält Schalenfrüchte Kaschunuss</note>
+          <note>Enthält Schalenfrüchte Mandeln</note>
+          <note>Enthält Schalenfrüchte Walnuss</note>
+          <note>Enthält Sellerie</note>
+          <note>Enthält Senf</note>
+          <note>Enthält Sesamsamen</note>
+          <note>Enthält Soja</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Geschwefelt</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Mit Farbstoff</note>
+          <note>Mit Konservierungsstoff</note>
+          <price role="employee">0.97</price>
+          <price role="other">2.91</price>
+          <price role="student">0.77</price>
+        </meal>
+      </category>
       <category name="Speiseplan">
         <meal>
           <name>Tagesrestproduktion</name>
@@ -857,6 +880,7 @@
         </meal>
         <meal>
           <name>Dessertbecher</name>
+          <note>D</note>
           <note>Enthält Gelatine</note>
           <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
@@ -919,7 +943,6 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Vegan</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -948,6 +971,32 @@
           <price role="student">2.30</price>
         </meal>
       </category>
+      <category name="Querbeet">
+        <meal>
+          <name>Salat- und Gemüsebuffet in Selbstbedienung, je 100g, Salat</name>
+          <note>Enthält Eier</note>
+          <note>Enthält Gerste Gluten</note>
+          <note>Enthält Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Schalenfrüchte (Nüsse)</note>
+          <note>Enthält Schalenfrüchte Kaschunuss</note>
+          <note>Enthält Schalenfrüchte Mandeln</note>
+          <note>Enthält Schalenfrüchte Walnuss</note>
+          <note>Enthält Sellerie</note>
+          <note>Enthält Senf</note>
+          <note>Enthält Sesamsamen</note>
+          <note>Enthält Soja</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Geschwefelt</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Mit Farbstoff</note>
+          <note>Mit Konservierungsstoff</note>
+          <price role="employee">0.97</price>
+          <price role="other">2.91</price>
+          <price role="student">0.77</price>
+        </meal>
+      </category>
       <category name="Speiseplan">
         <meal>
           <name>Tagesrestproduktion</name>
@@ -971,6 +1020,7 @@
         </meal>
         <meal>
           <name>Dessertbecher</name>
+          <note>D</note>
           <note>Enthält Gelatine</note>
           <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
@@ -1030,7 +1080,6 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Vegan</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -1060,6 +1109,32 @@
           <price role="employee">2.55</price>
           <price role="other">0.00</price>
           <price role="student">1.50</price>
+        </meal>
+      </category>
+      <category name="Querbeet">
+        <meal>
+          <name>Salat- und Gemüsebuffet in Selbstbedienung, je 100g, Salat</name>
+          <note>Enthält Eier</note>
+          <note>Enthält Gerste Gluten</note>
+          <note>Enthält Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Schalenfrüchte (Nüsse)</note>
+          <note>Enthält Schalenfrüchte Kaschunuss</note>
+          <note>Enthält Schalenfrüchte Mandeln</note>
+          <note>Enthält Schalenfrüchte Walnuss</note>
+          <note>Enthält Sellerie</note>
+          <note>Enthält Senf</note>
+          <note>Enthält Sesamsamen</note>
+          <note>Enthält Soja</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Geschwefelt</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Mit Farbstoff</note>
+          <note>Mit Konservierungsstoff</note>
+          <price role="employee">0.97</price>
+          <price role="other">2.91</price>
+          <price role="student">0.77</price>
         </meal>
       </category>
       <category name="Speiseplan">
@@ -1092,6 +1167,7 @@
         </meal>
         <meal>
           <name>Dessertbecher</name>
+          <note>D</note>
           <note>Enthält Gelatine</note>
           <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
@@ -1158,7 +1234,6 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Vegan</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -1173,6 +1248,32 @@
           <price role="employee">3.55</price>
           <price role="other">0.00</price>
           <price role="student">2.10</price>
+        </meal>
+      </category>
+      <category name="Querbeet">
+        <meal>
+          <name>Salat- und Gemüsebuffet in Selbstbedienung, je 100g, Salat</name>
+          <note>Enthält Eier</note>
+          <note>Enthält Gerste Gluten</note>
+          <note>Enthält Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Schalenfrüchte (Nüsse)</note>
+          <note>Enthält Schalenfrüchte Kaschunuss</note>
+          <note>Enthält Schalenfrüchte Mandeln</note>
+          <note>Enthält Schalenfrüchte Walnuss</note>
+          <note>Enthält Sellerie</note>
+          <note>Enthält Senf</note>
+          <note>Enthält Sesamsamen</note>
+          <note>Enthält Soja</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Geschwefelt</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Mit Farbstoff</note>
+          <note>Mit Konservierungsstoff</note>
+          <price role="employee">0.97</price>
+          <price role="other">2.91</price>
+          <price role="student">0.77</price>
         </meal>
       </category>
       <category name="Speiseplan">
@@ -1198,6 +1299,7 @@
         </meal>
         <meal>
           <name>Dessertbecher</name>
+          <note>D</note>
           <note>Enthält Gelatine</note>
           <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
@@ -1246,7 +1348,6 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Vegan</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -1280,6 +1381,32 @@
           <price role="employee">4.30</price>
           <price role="other">0.00</price>
           <price role="student">2.00</price>
+        </meal>
+      </category>
+      <category name="Querbeet">
+        <meal>
+          <name>Salat- und Gemüsebuffet in Selbstbedienung, je 100g, Salat</name>
+          <note>Enthält Eier</note>
+          <note>Enthält Gerste Gluten</note>
+          <note>Enthält Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Schalenfrüchte (Nüsse)</note>
+          <note>Enthält Schalenfrüchte Kaschunuss</note>
+          <note>Enthält Schalenfrüchte Mandeln</note>
+          <note>Enthält Schalenfrüchte Walnuss</note>
+          <note>Enthält Sellerie</note>
+          <note>Enthält Senf</note>
+          <note>Enthält Sesamsamen</note>
+          <note>Enthält Soja</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Geschwefelt</note>
+          <note>Mit Antioxidationsmittel</note>
+          <note>Mit Farbstoff</note>
+          <note>Mit Konservierungsstoff</note>
+          <price role="employee">0.97</price>
+          <price role="other">2.91</price>
+          <price role="student">0.77</price>
         </meal>
       </category>
       <category name="Speiseplan">
