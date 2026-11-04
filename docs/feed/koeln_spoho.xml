@@ -116,7 +116,7 @@
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
           <note>Mit Phosphat</note>
-          <note>mit Geflügel</note>
+          <note>mit Gefluegel</note>
           <price role="employee">3.80</price>
           <price role="other">0.00</price>
           <price role="student">2.25</price>
@@ -153,6 +153,9 @@
         </meal>
         <meal>
           <name>Blumenkohl</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Sellerie</note>
           <note>Vegan</note>
           <price role="employee">0.85</price>
           <price role="other">0.00</price>
@@ -257,7 +260,7 @@
           <name>Paprika-Hähnchengulasch</name>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>mit Geflügel</note>
+          <note>mit Gefluegel</note>
           <price role="employee">3.55</price>
           <price role="other">0.00</price>
           <price role="student">2.10</price>
@@ -277,6 +280,16 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
+          <name>Pommes Cubes</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Mit Farbstoff</note>
+          <note>Vegan</note>
+          <price role="employee">1.10</price>
+          <price role="other">1.40</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
           <name>Dessertbecher Vegan</name>
           <note>Enthält Gelatine</note>
           <note>Enthält Hafer Gluten</note>
@@ -289,32 +302,11 @@
           <price role="student">0.75</price>
         </meal>
         <meal>
-          <name>Dessertbecher verschiedene Sorten</name>
-          <note>Enthält Gelatine</note>
-          <note>Enthält Hafer Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Vegetarisch</note>
-          <price role="employee">1.10</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
           <name>Kaisergemüse</name>
           <note>Vegan</note>
           <price role="employee">0.85</price>
           <price role="other">0.00</price>
           <price role="student">0.50</price>
-        </meal>
-        <meal>
-          <name>Kürbis- Karottenpüree</name>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Vegetarisch</note>
-          <price role="employee">0.75</price>
-          <price role="other">0.00</price>
-          <price role="student">0.45</price>
         </meal>
         <meal>
           <name>Reis</name>
@@ -335,12 +327,24 @@
       </category>
       <category name="Aktion">
         <meal>
-          <name>Chili con carne mit Rindfleisch, Pommes frites, Sour Cream, Nachos, Jalapenos</name>
+          <name>Chili con carne mit Rindfleisch, Pommes Cubes, Sour Cream, Nachos, Jalapenos</name>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Neuland</note>
+          <note>Neuland Fleisch</note>
+          <note>mit Rind</note>
+          <price role="employee">6.10</price>
+          <price role="other">0.00</price>
+          <price role="student">3.75</price>
+        </meal>
+        <meal>
+          <name>Chili con carne mit Rindfleisch, Reis, Sour Cream, Nachos, Jalapenos</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Mit Farbstoff</note>
+          <note>Mit Konservierungsstoff</note>
+          <note>Neuland Fleisch</note>
           <note>mit Rind</note>
           <price role="employee">6.10</price>
           <price role="other">0.00</price>
@@ -396,18 +400,6 @@
           <price role="student">0.77</price>
         </meal>
       </category>
-      <category name="Fleisch">
-        <meal>
-          <name>Hackbällchen, Bratensauce</name>
-          <note>Enthält Senf</note>
-          <note>Mit Farbstoff</note>
-          <note>mit Rind</note>
-          <note>mit Schwein</note>
-          <price role="employee">4.20</price>
-          <price role="other">0.00</price>
-          <price role="student">2.45</price>
-        </meal>
-      </category>
     </day>
     <day date="2026-11-05">
       <category name="Beilagen">
@@ -439,18 +431,6 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Dessertbecher verschiedene Sorten</name>
-          <note>Enthält Gelatine</note>
-          <note>Enthält Hafer Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Vegetarisch</note>
-          <price role="employee">1.10</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
           <name>Dessertbecher Vegan</name>
           <note>Enthält Gelatine</note>
           <note>Enthält Hafer Gluten</note>
@@ -461,6 +441,18 @@
           <price role="employee">1.30</price>
           <price role="other">0.00</price>
           <price role="student">0.75</price>
+        </meal>
+        <meal>
+          <name>Dessertbecher verschiedene Sorten</name>
+          <note>Enthält Gelatine</note>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegetarisch</note>
+          <price role="employee">1.10</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
         </meal>
         <meal>
           <name>Fusilli</name>
@@ -517,7 +509,7 @@
           <name>Paprika-Hähnchengulasch</name>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>mit Geflügel</note>
+          <note>mit Gefluegel</note>
           <price role="employee">3.55</price>
           <price role="other">0.00</price>
           <price role="student">2.10</price>
@@ -573,18 +565,6 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Dessertbecher verschiedene Sorten</name>
-          <note>Enthält Gelatine</note>
-          <note>Enthält Hafer Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Vegetarisch</note>
-          <price role="employee">1.10</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
           <name>Dessertbecher Vegan</name>
           <note>Enthält Gelatine</note>
           <note>Enthält Hafer Gluten</note>
@@ -595,6 +575,18 @@
           <price role="employee">1.30</price>
           <price role="other">0.00</price>
           <price role="student">0.75</price>
+        </meal>
+        <meal>
+          <name>Dessertbecher verschiedene Sorten</name>
+          <note>Enthält Gelatine</note>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegetarisch</note>
+          <price role="employee">1.10</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
         </meal>
         <meal>
           <name>Mandel-Broccoli</name>
@@ -756,7 +748,7 @@
           <note>Enthält Gluten</note>
           <note>Enthält Senf</note>
           <note>Enthält Weizen Gluten</note>
-          <note>mit Geflügel</note>
+          <note>mit Gefluegel</note>
           <price role="employee">4.60</price>
           <price role="other">0.00</price>
           <price role="student">2.70</price>
@@ -827,6 +819,9 @@
         </meal>
         <meal>
           <name>Blumenkohl</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Sellerie</note>
           <note>Vegan</note>
           <price role="employee">0.85</price>
           <price role="other">0.00</price>
@@ -1016,7 +1011,7 @@
       <category name="Fleisch">
         <meal>
           <name>Currywurst, Pommes frites</name>
-          <note>Neuland</note>
+          <note>Neuland Fleisch</note>
           <note>mit Schwein</note>
           <price role="employee">4.30</price>
           <price role="other">0.00</price>
@@ -1087,18 +1082,6 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Dessertbecher verschiedene Sorten</name>
-          <note>Enthält Gelatine</note>
-          <note>Enthält Hafer Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Vegetarisch</note>
-          <price role="employee">1.10</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
           <name>Dessertbecher Vegan</name>
           <note>Enthält Gelatine</note>
           <note>Enthält Hafer Gluten</note>
@@ -1109,6 +1092,18 @@
           <price role="employee">1.30</price>
           <price role="other">0.00</price>
           <price role="student">0.75</price>
+        </meal>
+        <meal>
+          <name>Dessertbecher verschiedene Sorten</name>
+          <note>Enthält Gelatine</note>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegetarisch</note>
+          <price role="employee">1.10</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
         </meal>
         <meal>
           <name>Duftreis</name>
@@ -1142,7 +1137,7 @@
         <meal>
           <name>Fruchtiges Hähnchen-Kokoscurry</name>
           <note>Enthält Krebstiere (Schalen-/ Krusten-/Weichtiere)</note>
-          <note>mit Geflügel</note>
+          <note>mit Gefluegel</note>
           <price role="employee">3.00</price>
           <price role="other">0.00</price>
           <price role="student">1.75</price>
