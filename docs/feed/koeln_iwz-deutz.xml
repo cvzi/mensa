@@ -112,7 +112,7 @@
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
           <note>Mit Phosphat</note>
-          <note>mit Gefluegel</note>
+          <note>mit Geflügel</note>
           <price role="employee">3.80</price>
           <price role="other">4.85</price>
           <price role="student">2.25</price>
@@ -144,7 +144,7 @@
           <note>Enthält Soja</note>
           <note>Vegan</note>
           <price role="employee">1.20</price>
-          <price role="other">1.50</price>
+          <price role="other">0.00</price>
           <price role="student">0.70</price>
         </meal>
         <meal>
@@ -228,7 +228,7 @@
           <note>Enthält Weizen Gluten</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>mit Gefluegel</note>
+          <note>mit Geflügel</note>
           <price role="employee">3.55</price>
           <price role="other">4.50</price>
           <price role="student">2.10</price>
@@ -306,6 +306,13 @@
           <price role="other">1.25</price>
           <price role="student">0.65</price>
         </meal>
+        <meal>
+          <name>Pommes frites</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">1.25</price>
+          <price role="student">0.45</price>
+        </meal>
       </category>
       <category name="Aktion">
         <meal>
@@ -314,7 +321,7 @@
           <note>Enthält Milch</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Neuland Fleisch</note>
+          <note>Neuland</note>
           <note>mit Rind</note>
           <price role="employee">6.10</price>
           <price role="other">7.45</price>
@@ -376,7 +383,7 @@
           <name>Weisskohl-Hackfleischpfanne mit Schupfnudeln</name>
           <note>Enthält Gluten</note>
           <note>Enthält Weizen Gluten</note>
-          <note>Neuland Fleisch</note>
+          <note>Neuland</note>
           <note>mit Rind</note>
           <price role="employee">5.75</price>
           <price role="other">7.35</price>
@@ -387,10 +394,19 @@
     <day date="2026-11-05">
       <category name="Beilagen">
         <meal>
+          <name>Aprikosenpudding</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Schalenfrüchte Haselnuss</note>
+          <note>Vegetarisch</note>
+          <price role="employee">1.35</price>
+          <price role="other">1.75</price>
+          <price role="student">0.80</price>
+        </meal>
+        <meal>
           <name>Basmatireis</name>
           <note>Vegan</note>
           <price role="employee">0.50</price>
-          <price role="other">0.00</price>
+          <price role="other">0.65</price>
           <price role="student">0.30</price>
         </meal>
         <meal>
@@ -407,39 +423,35 @@
           <name>Kaisergemüse</name>
           <note>Vegan</note>
           <price role="employee">0.85</price>
-          <price role="other">0.00</price>
+          <price role="other">1.10</price>
           <price role="student">0.50</price>
         </meal>
         <meal>
-          <name>Kürbis- Karottenpüree</name>
+          <name>Straciatellaquark vegan</name>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Schalenfrüchte Mandeln</note>
+          <note>Enthält Soja</note>
+          <note>Vegan</note>
+          <price role="employee">1.10</price>
+          <price role="other">1.40</price>
+          <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Süßkartoffel- Karottenpüree</name>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
           <note>Vegetarisch</note>
           <price role="employee">0.75</price>
-          <price role="other">0.00</price>
+          <price role="other">0.95</price>
           <price role="student">0.45</price>
         </meal>
         <meal>
-          <name>Orecchiette</name>
-          <note>Enthält Gluten</note>
-          <note>Vegan</note>
-          <price role="employee">0.75</price>
-          <price role="other">0.00</price>
-          <price role="student">0.45</price>
-        </meal>
-      </category>
-      <category name="1 - Vegan/vegetarisch">
-        <meal>
-          <name>Creamed corn, Fladenbrot</name>
-          <note>Enthält Gluten</note>
-          <note>Enthält Sesamsamen</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Mit Farbstoff</note>
-          <note>Mit Konservierungsstoff</note>
-          <note>Vegan</note>
-          <price role="employee">2.75</price>
-          <price role="other">0.00</price>
-          <price role="student">1.60</price>
+          <name>Vanille Pudding</name>
+          <note>Enthält Laktose</note>
+          <note>Vegetarisch</note>
+          <price role="employee">0.70</price>
+          <price role="other">0.85</price>
+          <price role="student">0.40</price>
         </meal>
       </category>
       <category name="Fleisch">
@@ -450,8 +462,23 @@
           <note>mit Rind</note>
           <note>mit Schwein</note>
           <price role="employee">4.20</price>
-          <price role="other">0.00</price>
+          <price role="other">5.35</price>
           <price role="student">2.45</price>
+        </meal>
+        <meal>
+          <name>Hähnchen Cordon bleu, Bratensauce</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Senf</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Mit Farbstoff</note>
+          <note>Mit Konservierungsstoff</note>
+          <note>Mit Phosphat</note>
+          <note>mit Geflügel</note>
+          <price role="employee">3.80</price>
+          <price role="other">4.85</price>
+          <price role="student">2.25</price>
         </meal>
       </category>
       <category name="Vegan/vegetarisch">
@@ -465,7 +492,7 @@
           <note>Mit Konservierungsstoff</note>
           <note>Vegan</note>
           <price role="employee">3.95</price>
-          <price role="other">0.00</price>
+          <price role="other">5.00</price>
           <price role="student">2.30</price>
         </meal>
         <meal>
@@ -491,6 +518,19 @@
           <price role="employee">0.97</price>
           <price role="other">1.07</price>
           <price role="student">0.77</price>
+        </meal>
+      </category>
+      <category name="1 - Vegan/vegetarisch">
+        <meal>
+          <name>Wirsingrahmtopf, Kaiserbrötchen</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Sellerie</note>
+          <note>Vegetarisch</note>
+          <price role="employee">2.30</price>
+          <price role="other">2.90</price>
+          <price role="student">1.35</price>
         </meal>
       </category>
     </day>
@@ -631,7 +671,7 @@
           <note>Enthält Gluten</note>
           <note>Enthält Senf</note>
           <note>Enthält Weizen Gluten</note>
-          <note>mit Gefluegel</note>
+          <note>mit Geflügel</note>
           <price role="employee">4.30</price>
           <price role="other">0.00</price>
           <price role="student">2.55</price>
@@ -767,7 +807,7 @@
       <category name="Fleisch">
         <meal>
           <name>Currywurst</name>
-          <note>Neuland Fleisch</note>
+          <note>Neuland</note>
           <note>mit Schwein</note>
           <price role="employee">3.55</price>
           <price role="other">0.00</price>
@@ -839,7 +879,7 @@
         <meal>
           <name>Fruchtiges Hähnchen-Kokoscurry</name>
           <note>Enthält Krebstiere (Schalen-/ Krusten-/Weichtiere)</note>
-          <note>mit Gefluegel</note>
+          <note>mit Geflügel</note>
           <price role="employee">3.00</price>
           <price role="other">0.00</price>
           <price role="student">1.75</price>
