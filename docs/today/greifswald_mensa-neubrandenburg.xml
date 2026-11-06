@@ -3,13 +3,12 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2026-11-05">
+    <day date="2026-11-06">
       <category name="Tellergericht">
         <meal>
-          <name>Lauch-Mais Käsesuppe mit Hackfleisch Regional</name>
-          <note>Milch/Milchzucker (Laktose)</note>
-          <note>Rindfleisch</note>
-          <note>Schweinefleisch</note>
+          <name>Kartoffel-Kürbis-Creme-Suppe, Teller</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
           <note>geschwefelt</note>
           <note>jodiertes Salz</note>
           <price role="employee">2.60</price>
@@ -17,10 +16,19 @@
           <price role="student">1.50</price>
         </meal>
         <meal>
-          <name>Lauch-Mais Käsesuppe mit Hackfleisch Regional</name>
+          <name>4 Eierkuchen mit Apfelmus</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
           <note>Milch/Milchzucker (Laktose)</note>
-          <note>Rindfleisch</note>
-          <note>Schweinefleisch</note>
+          <note>mit Antioxidationsmittel</note>
+          <price role="employee">3.45</price>
+          <price role="other">5.10</price>
+          <price role="student">1.80</price>
+        </meal>
+        <meal>
+          <name>Kartoffel-Kürbis-Creme-Suppe, Terrine</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
           <note>geschwefelt</note>
           <note>jodiertes Salz</note>
           <price role="employee">3.75</price>
@@ -28,39 +36,43 @@
           <price role="student">2.20</price>
         </meal>
       </category>
-      <category name="Komponente 3">
+      <category name="Komponente 2">
         <meal>
-          <name>Hähnchenschnitzel Art "Cordon bleu" mit Rahmsoße (2,3,9,R,Gefl,G,A)</name>
-          <price role="employee">3.35</price>
-          <price role="other">4.45</price>
-          <price role="student">2.25</price>
-        </meal>
-      </category>
-      <category name="Vegetarische Komponente 1">
-        <meal>
-          <name>Gnocchipfanne mit Kürbis, Spinat und Parmesan Regional</name>
+          <name>Boulette mit Rahmsoße</name>
           <note>Eier und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Milch/Milchzucker (Laktose)</note>
+          <note>Rindfleisch</note>
+          <note>Schweinefleisch</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
           <note>jodiertes Salz</note>
+          <note>mit Antioxidationsmittel</note>
           <price role="employee">3.35</price>
           <price role="other">4.45</price>
           <price role="student">2.25</price>
         </meal>
       </category>
-      <category name="Nudeltheke: Pasta nach Gewicht (pro 100g)">
+      <category name="Vegane Komponente 1">
         <meal>
-          <name>Pastateller: Pasta mit veganer Sonnenblumen-Bolognese [regional, aus ökologischem Anbau]</name>
+          <name>Gemüse-Knusper-Frikadelle  
+ mit Remoulade</name>
           <note>Glutenhaltiges Getreide</note>
           <note>Sellerie und daraus hergestellte Erzeugnisse</note>
           <note>Senf und daraus hergestellte Erzeugnisse</note>
-          <note>jodiertes Salz</note>
-          <price role="employee">1.10</price>
-          <price role="other">1.55</price>
-          <price role="student">0.65</price>
+          <note>mit Süßungsmittel</note>
+          <price role="employee">3.35</price>
+          <price role="other">4.45</price>
+          <price role="student">2.25</price>
         </meal>
       </category>
       <category name="Beilagen">
+        <meal>
+          <name>Jasminreis</name>
+          <price role="employee">1.30</price>
+          <price role="other">1.80</price>
+          <price role="student">0.80</price>
+        </meal>
         <meal>
           <name>Salzkartoffeln</name>
           <note>geschwefelt</note>
@@ -70,20 +82,7 @@
           <price role="student">0.80</price>
         </meal>
         <meal>
-          <name>Kartoffelpüree mit Kürbis</name>
-          <note>Milch/Milchzucker (Laktose)</note>
-          <note>geschwefelt</note>
-          <note>jodiertes Salz</note>
-          <price role="employee">1.30</price>
-          <price role="other">1.80</price>
-          <price role="student">0.80</price>
-        </meal>
-        <meal>
-          <name>Parmesan - Kartoffeln  Regio</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Milch/Milchzucker (Laktose)</note>
-          <note>jodiertes Salz</note>
+          <name>Pommes Frites</name>
           <price role="employee">1.60</price>
           <price role="other">2.10</price>
           <price role="student">1.10</price>
@@ -91,7 +90,15 @@
       </category>
       <category name="Gemüse">
         <meal>
-          <name>Mischgemüse [Karotten und Erbsen]</name>
+          <name>Frühlingsgemüse [Karotten, Erbsen, grüne Bohnen, Blumenkohl, Kohlrabi]</name>
+          <note>jodiertes Salz</note>
+          <price role="employee">1.30</price>
+          <price role="other">1.80</price>
+          <price role="student">0.80</price>
+        </meal>
+        <meal>
+          <name>Porree-Rahmgemüse</name>
+          <note>Glutenhaltiges Getreide</note>
           <note>jodiertes Salz</note>
           <price role="employee">1.30</price>
           <price role="other">1.80</price>
