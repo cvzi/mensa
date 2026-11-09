@@ -4,7 +4,7 @@
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
     <day date="2026-11-09">
-      <category name="EG Nord 11.30 - 14.30 Uhr - Beilagen">
+      <category name="Beilagen">
         <meal>
           <name>Basmatireis</name>
           <note>Vegan</note>
@@ -47,6 +47,20 @@
           <price role="student">0.40</price>
         </meal>
         <meal>
+          <name>Pommes Wedges</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.55</price>
+        </meal>
+        <meal>
+          <name>Pommes Wedges</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">0.00</price>
+          <price role="student">0.55</price>
+        </meal>
+        <meal>
           <name>Beilagensalat Standard</name>
           <note>Enthält Eier</note>
           <note>Enthält Sellerie</note>
@@ -83,8 +97,18 @@
           <price role="other">0.00</price>
           <price role="student">1.05</price>
         </meal>
+      </category>
+      <category name="EG Süd - 11:00 - 14:30 Uhr - Vegan/vegetarisch">
         <meal>
-          <name>Kürbis-Falafelbällchen, Hummus, Süßkartoffel-Rosenkohl Curry, Dessert</name>
+          <name>Gemüsecremesuppe, Brötchen</name>
+          <note>Enthält Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">1.80</price>
+          <price role="other">0.00</price>
+          <price role="student">1.05</price>
+        </meal>
+        <meal>
+          <name>Kürbis-Falafelbällchen, Hummus, Süßkartoffel-Rosenkohl Curry, + 1 Beilage</name>
           <note>Enthält Gelatine</note>
           <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
@@ -121,28 +145,6 @@
           <price role="student">1.55</price>
         </meal>
       </category>
-      <category name="MG Nord 11.30 - 14.15 Uhr - Aktion">
-        <meal>
-          <name>Penne Rigate, Rindfleisch Bolognese</name>
-          <note>Enthält Sellerie</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>mit Rind</note>
-          <price role="employee">6.10</price>
-          <price role="other">0.00</price>
-          <price role="student">3.75</price>
-        </meal>
-        <meal>
-          <name>Ravioli Spinat-Käsefüllung, Kräuterrahmsauce</name>
-          <note>Enthält Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Vegetarisch</note>
-          <price role="employee">6.10</price>
-          <price role="other">0.00</price>
-          <price role="student">3.75</price>
-        </meal>
-      </category>
       <category name="MG Süd 11:30 - 14:30 Uhr - Aktion">
         <meal>
           <name>Pizza Chorizo</name>
@@ -158,7 +160,7 @@
           <price role="student">4.30</price>
         </meal>
       </category>
-      <category name="MG Nord 11.30 - 14.15 Uhr - Vegan/vegetarisch">
+      <category name="MG Nord &amp; EG Nord  11.30 - 14.15 Uhr - Vegan/vegetarisch">
         <meal>
           <name>Salatbuffet in Selbstbedienung, je 100g</name>
           <note>Enthält Eier</note>
@@ -182,14 +184,6 @@
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
-        </meal>
-      </category>
-      <category name="Speiseplan">
-        <meal>
-          <name>Tagesrestproduktion</name>
-          <price role="employee">0.80</price>
-          <price role="other">2.80</price>
-          <price role="student">0.60</price>
         </meal>
       </category>
     </day>
@@ -273,6 +267,15 @@
           <price role="student">0.45</price>
         </meal>
         <meal>
+          <name>Kartoffelpüree</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Vegetarisch</note>
+          <price role="employee">0.75</price>
+          <price role="other">0.00</price>
+          <price role="student">0.45</price>
+        </meal>
+        <meal>
           <name>Kirschquark</name>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
@@ -305,14 +308,11 @@
           <price role="student">0.20</price>
         </meal>
         <meal>
-          <name>Beilagensalat Standard</name>
-          <note>Enthält Eier</note>
-          <note>Enthält Sellerie</note>
-          <note>Enthält Senf</note>
+          <name>Salzkartoffeln</name>
           <note>Vegan</note>
-          <price role="employee">1.10</price>
+          <price role="employee">0.70</price>
           <price role="other">0.00</price>
-          <price role="student">0.65</price>
+          <price role="student">0.40</price>
         </meal>
       </category>
       <category name="MG Süd 11:30 - 14:30 Uhr - Aktion">
@@ -364,7 +364,32 @@
           <price role="student">3.75</price>
         </meal>
       </category>
-      <category name="MG Nord 11.30 - 14.15 Uhr - Vegan/vegetarisch">
+      <category name="MG Süd Restaurant 2 - Aktion">
+        <meal>
+          <name>Pizza Spinat &amp; Gorgonzola</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegetarisch</note>
+          <price role="employee">6.50</price>
+          <price role="other">0.00</price>
+          <price role="student">4.30</price>
+        </meal>
+      </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Beilagensalat Standard</name>
+          <note>Enthält Eier</note>
+          <note>Enthält Sellerie</note>
+          <note>Enthält Senf</note>
+          <note>Vegan</note>
+          <price role="employee">1.10</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
+        </meal>
+      </category>
+      <category name="MG Nord &amp; EG Nord  11.30 - 14.15 Uhr - Vegan/vegetarisch">
         <meal>
           <name>Salatbuffet in Selbstbedienung, je 100g</name>
           <note>Enthält Eier</note>
