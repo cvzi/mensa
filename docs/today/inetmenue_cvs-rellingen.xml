@@ -3,22 +3,58 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2026-11-02">
-      <category name="Mittagessen Essen 03">
-        <meal>
-          <name>SCHULENTWICKLUNGSTAG! - kein Mensabetrieb⚠️Bestellzeit abgelaufen</name>
-        </meal>
-      </category>
-    </day>
-    <day date="2026-11-03">
+    <day date="2026-11-09">
       <category name="Frühstück Essen 01">
         <meal>
-          <name>Naturjoghurt mit Obst-Topping⚠️Bestellzeit abgelaufen</name>
+          <name>Obstvariationen</name>
         </meal>
       </category>
       <category name="Frühstück Essen 02">
         <meal>
-          <name>Franzbrötchen⚠️Bestellzeit abgelaufen</name>
+          <name>Schokoladen-Muffin</name>
+        </meal>
+      </category>
+      <category name="Mittagessen Essen 03">
+        <meal>
+          <name>Milchreis warm, mit Zimt und Zucker und Kirschen</name>
+          <note>Eier</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch</note>
+          <note>Vegetarisch</note>
+        </meal>
+      </category>
+      <category name="Mittagessen Vegetarisch">
+        <meal>
+          <name>Pizza Margarita</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch</note>
+          <note>Vegetarisch</note>
+          <note>Weizen</note>
+          <note>mit Farbstoff</note>
+          <note>mit Konservierungsstoff</note>
+        </meal>
+      </category>
+      <category name="Mittagessen Geflügel">
+        <meal>
+          <name>Pizza Salami</name>
+          <note>Geflügel</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch</note>
+          <note>Weizen</note>
+          <note>mit Farbstoff</note>
+          <note>mit Konservierungsstoff</note>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-11-10">
+      <category name="Frühstück Essen 01">
+        <meal>
+          <name>Naturjoghurt mit Müsli-Topping</name>
+        </meal>
+      </category>
+      <category name="Frühstück Essen 02">
+        <meal>
+          <name>Franzbrötchen</name>
           <note>Eier</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Milch</note>
@@ -28,7 +64,18 @@
       </category>
       <category name="Mittagessen Essen 03">
         <meal>
-          <name>Gemüsebolognese mit Vollkornnudeln⚠️Bestellzeit abgelaufen</name>
+          <name>Hähnchenkeule mit Gemüsereis und Tomatensauce</name>
+          <note>Geflügel</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch</note>
+          <note>Soja</note>
+          <note>mit Geschmackverstärker</note>
+          <note>mit Konservierungsstoff</note>
+        </meal>
+      </category>
+      <category name="Mittagessen Vegetarisch">
+        <meal>
+          <name>Gnocci mit Blattspinat in Sahnesauce</name>
           <note>Eier</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Milch</note>
@@ -38,109 +85,127 @@
       </category>
       <category name="Mittagessen Geflügel">
         <meal>
-          <name>Geflügelleberkäse mit buntem Kartoffelsalat⚠️Bestellzeit abgelaufen</name>
+          <name>Caesar Salat mit gebratenen Hähnchenbruststreifen, Croutons</name>
+          <note>Eier</note>
           <note>Geflügel</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch</note>
+          <note>Senf</note>
+          <note>Weizen</note>
+          <note>mit Farbstoff</note>
+          <note>mit Konservierungsstoff</note>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-11-11">
+      <category name="Frühstück Essen 01">
+        <meal>
+          <name>Smoothie</name>
+        </meal>
+      </category>
+      <category name="Frühstück Essen 02">
+        <meal>
+          <name>Schokoladencroissant</name>
+          <note>Eier</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch</note>
+          <note>Schalenfrüchte</note>
+          <note>Weizen</note>
+        </meal>
+      </category>
+      <category name="Mittagessen Essen 03">
+        <meal>
+          <name>Kartoffelsuppe passiert mit Coutons</name>
+          <note>Glutenhaltiges Getreide</note>
           <note>Milch</note>
           <note>Sellerie</note>
+          <note>Vegetarisch</note>
+          <note>Weizen</note>
+        </meal>
+      </category>
+      <category name="Mittagessen Vegetarisch">
+        <meal>
+          <name>Hähnchengyros im Fladenbrot mit Salat und Zaziki</name>
+          <note>Geflügel</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Schalenfrüchte</note>
+          <note>Sellerie</note>
           <note>Senf</note>
+          <note>Weizen</note>
+        </meal>
+      </category>
+      <category name="Mittagessen Geflügel">
+        <meal>
+          <name>Griechischer Salatteller, Gurke, Tomate, rote Zwiebeln, Blattpetersilie, Fetakäse und Oliven, Baguette</name>
+          <note>Milch</note>
+          <note>Vegetarisch</note>
+          <note>geschwärzt</note>
+          <note>mit Konservierungsstoff</note>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-11-12">
+      <category name="Frühstück Essen 01">
+        <meal>
+          <name>Obstsalat</name>
+        </meal>
+      </category>
+      <category name="Frühstück Essen 02">
+        <meal>
+          <name>Schokoladen-Cookie</name>
+        </meal>
+      </category>
+      <category name="Mittagessen Essen 03">
+        <meal>
+          <name>Fischfilet "Italiano" mit Schwenkkartoffeln und Salat</name>
+          <note>Fisch</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch</note>
+          <note>Senf</note>
+          <note>Weizen</note>
+        </meal>
+      </category>
+      <category name="Mittagessen Vegetarisch">
+        <meal>
+          <name>Champignons gebraten, kleine Ofenkartoffeln, Salat und Dip</name>
+          <note>Milch</note>
+          <note>Vegetarisch</note>
+          <note>mit Antioxidationsmittel</note>
+          <note>mit Konservierungsstoff</note>
+        </meal>
+      </category>
+      <category name="Mittagessen Geflügel">
+        <meal>
+          <name>Salatteller Tomate Mozzarella, Baguette</name>
+          <note>Eier</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch</note>
+          <note>Vegetarisch</note>
+          <note>Weizen</note>
           <note>mit Antioxidationsmittel</note>
           <note>mit Konservierungsstoff</note>
         </meal>
       </category>
     </day>
-    <day date="2026-11-04">
+    <day date="2026-11-13">
       <category name="Frühstück Essen 01">
         <meal>
-          <name>Obstvariationen⚠️Bestellzeit abgelaufen</name>
+          <name>Fitmacher Frühstück</name>
         </meal>
       </category>
       <category name="Frühstück Essen 02">
         <meal>
-          <name>Quarkbällchen⚠️Bestellzeit abgelaufen</name>
+          <name>Bunte Auswahl für die süße Pause</name>
         </meal>
       </category>
       <category name="Mittagessen Essen 03">
         <meal>
-          <name>Erbsensuppe passiert mit Croutons⚠️Bestellzeit abgelaufen</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Milch</note>
-          <note>Sellerie</note>
-          <note>Vegetarisch</note>
-          <note>Weizen</note>
-        </meal>
-      </category>
-      <category name="Mittagessen Geflügel">
-        <meal>
-          <name>Grünkohlpfanne mit Kohlwurst, magerem Kasseler und kleinen Kartoffeln⚠️Bestellzeit abgelaufen</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Hafer</note>
-          <note>Milch</note>
-          <note>Schweinefleisch</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <note>geschwefelt</note>
-          <note>mit Konservierungsstoff</note>
-          <note>mit Phospat</note>
-        </meal>
-      </category>
-      <category name="Mittagessen Vegetarisch">
-        <meal>
-          <name>Wrap mit Eisbergsalat, Gurke, Tomate und Schafskäse⚠️Bestellzeit abgelaufen</name>
+          <name>Asia-Bratnudeln, vegetarische Minifrühlingsrollen</name>
           <note>Eier</note>
           <note>Glutenhaltiges Getreide</note>
-          <note>Milch</note>
-          <note>Vegetarisch</note>
-          <note>Weizen</note>
-          <note>mit Konservierungsstoff</note>
-        </meal>
-      </category>
-    </day>
-    <day date="2026-11-05">
-      <category name="Frühstück Essen 01">
-        <meal>
-          <name>Knabbergemüse mit Kräuterquark⚠️Bestellzeit abgelaufen</name>
-        </meal>
-      </category>
-      <category name="Frühstück Essen 02">
-        <meal>
-          <name>Schokoladen-Cookie⚠️Bestellzeit abgelaufen</name>
-        </meal>
-      </category>
-      <category name="Mittagessen Essen 03">
-        <meal>
-          <name>Cevapcici mit Tzatziki und Djuve-Reis⚠️Bestellzeit abgelaufen</name>
-          <note>Eier</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Milch</note>
-          <note>Rindfleisch</note>
-          <note>Sellerie</note>
-          <note>Weizen</note>
-        </meal>
-      </category>
-      <category name="Mittagessen Geflügel">
-        <meal>
-          <name>Ravioli mit Käsefüllung in Tomaten-Sahnesauce⚠️Bestellzeit abgelaufen</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Milch</note>
-          <note>Sellerie</note>
           <note>Soja</note>
           <note>Vegetarisch</note>
           <note>Weizen</note>
-        </meal>
-      </category>
-      <category name="Mittagessen Vegetarisch">
-        <meal>
-          <name>Chefsalat mit Putenstreifen, Ei und Käse, Dressing nach Wahl⚠️Bestellzeit abgelaufen</name>
-          <note>Eier</note>
-          <note>Geflügel</note>
-          <note>Milch</note>
-        </meal>
-      </category>
-    </day>
-    <day date="2026-11-06">
-      <category name="Mittagessen Essen 03">
-        <meal>
-          <name>Lernstandsgespräche - kein Mensabetrieb Jg 5-13⚠️Bestellzeit abgelaufen</name>
         </meal>
       </category>
     </day>
