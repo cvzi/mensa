@@ -109,14 +109,121 @@ query Location($locationUri: String!) {
             if not isinstance(meal, dict):
                 continue
 
-            name = self.strip_html(meal.get("title_de"))
+            name, description = self.splitTitle(meal.get("title_de"))
             price = meal.get("price")
             if name == "" or price in (None, ""):
                 continue
 
+            notes = self.collectNotes(meal)
+            notes.extend(self.splitNote(description))
+
             self.feed.addMeal(current_date, category_name, name,
-                              notes=self.collectNotes(meal),
-                              prices={"other": price})
+                              notes=notes, prices={"other": price})
+
+    # mensen.at separates the lines of a dish with <br />, and for most of
+    # them that is the dish and what comes with it. Some carry a marketing
+    # description in between, several sentences long - the "Brainfood" range
+    # is the clearest example:
+    #
+    #     Brainfood Texanischer Bohneneintopf
+    #     Bohnen, Paprika und ausgewaehlte Gewuerze sorgen fuer eine ...
+    #     In Zusammenarbeit mit Prof.DDr. ... (Kuechenmeister)
+    #     mit orientalischer Cous Cous
+    #
+    # Joining all of it into the name produces names of 250+ characters for
+    # nine dishes across the 41 locations, up to 379. open-mensa-v2.xsd caps
+    # a name at 250 and says so in as many words: "Shouldn't be more than a
+    # couple of words or a sentence in maximum. Additional text may go into
+    # several notes." Those feeds are invalid against the project's own
+    # schema.
+    #
+    # The description becomes a note instead, so nothing is lost and the
+    # name stays a name. It is recognised per dish rather than per line:
+    # other locations wrap the same text into short lines, and one of those
+    # on its own looks like a list of ingredients ("Eine vielfaeltige
+    # Auswahl an Gemuese, kombiniert mit Kurkuma, Ingwer und" - 70
+    # characters, no sentence end). Only in the context of the whole dish is
+    # it clear that the line sits mid-sentence.
+    #
+    # The thresholds come from all 41 locations, 542 dishes, 693 lines after
+    # the first break: the sentence-end test matches no genuine list of
+    # ingredients at all, and 99 percent of those are at most 82 characters
+    # (26 on average).
+    SENTENCE_END = re.compile(r"[a-zäöüß]\.(\s|$)")
+    VERY_LONG = 90
+    INGREDIENTS_MAX = 50
+
+    @classmethod
+    def splitTitle(cls, title):
+        """Split one title_de into the dish name and its description.
+
+        Returns (name, description). The description is empty for the
+        ordinary case of a dish followed by its ingredients.
+        """
+        parts = [cls.compact(p) for p in re.split(r"<br\s*/?>", title or "",
+                                                  flags=re.IGNORECASE)]
+        parts = [p for p in parts if p]
+        if not parts:
+            return "", ""
+
+        head, rest = parts[0], parts[1:]
+        has_description = any(len(p) >= cls.VERY_LONG or cls.SENTENCE_END.search(p)
+                              for p in rest)
+        if not has_description:
+            return cls.tidyCommas(", ".join([head] + rest)), ""
+
+        ingredients = [p for p in rest
+                       if len(p) <= cls.INGREDIENTS_MAX and not cls.SENTENCE_END.search(p)]
+        description = [p for p in rest if p not in ingredients]
+        return (cls.tidyCommas(", ".join([head] + ingredients)),
+                " ".join(description))
+
+    # open-mensa-v2.xsd caps a note at 250 characters just as it caps a
+    # name, and the longest description across the 41 locations is 334. The
+    # schema allows any number of notes per meal and points at them for
+    # exactly this ("Additional text may go into several notes"), so a long
+    # description is split rather than cut. Sentence boundaries first, a
+    # word boundary where a single sentence is longer than the limit.
+    NOTE_MAX = 250
+
+    @classmethod
+    def splitNote(cls, text):
+        """Split one long description into notes of at most NOTE_MAX each.
+
+        Returns a list, empty for empty input.
+        """
+        text = (text or "").strip()
+        if not text:
+            return []
+
+        pieces = []
+        for sentence in re.split(r"(?<=[.!?])\s+", text):
+            if not sentence:
+                continue
+            if pieces and len(pieces[-1]) + 1 + len(sentence) <= cls.NOTE_MAX:
+                pieces[-1] += " " + sentence
+            else:
+                pieces.append(sentence)
+
+        notes = []
+        for piece in pieces:
+            while len(piece) > cls.NOTE_MAX:
+                cut = piece.rfind(" ", 0, cls.NOTE_MAX)
+                if cut <= 0:
+                    cut = cls.NOTE_MAX
+                notes.append(piece[:cut].strip())
+                piece = piece[cut:].strip()
+            if piece:
+                notes.append(piece)
+        return notes
+
+    @staticmethod
+    def compact(text):
+        """Resolve entities, drop remaining tags, collapse whitespace."""
+        if not text:
+            return ""
+        text = re.sub(r"<[^<]+?>|\n", " ", text)
+        return re.sub(r"\s+", " ", html.unescape(text)).strip()
 
     @staticmethod
     def collectNotes(meal):
@@ -159,6 +266,19 @@ query Location($locationUri: String!) {
         text = re.sub(r"<[^<]+?>|\n", " ", text)
         text = html.unescape(text)
         text = re.sub(r"\s+", " ", text)
-        # A trailing <br /> is common and would leave a dangling comma.
-        text = re.sub(r"\s*,(\s*,)*\s*", ", ", text)
+        return self.tidyCommas(text)
+
+    @staticmethod
+    def tidyCommas(text):
+        """Collapse repeated commas and the whitespace around them.
+
+        A line that already ends in a comma, or a trailing <br />, would
+        otherwise leave two. A comma between digits is a decimal separator
+        and stays untouched: several locations put a price in the category
+        name ("Study Teller € 5,20"), and normalising every comma turned
+        that into "€ 5, 20".
+        """
+        text = re.sub(r",(?:\s*,)+", ",", text)
+        text = re.sub(r"\s+,", ",", text)
+        text = re.sub(r",(?!\s)(?<!\d,)", ", ", text)
         return text.strip().strip(",").strip()
