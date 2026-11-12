@@ -3,63 +3,6 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2026-11-11">
-      <category name="fleischlos">
-        <meal>
-          <name>Zucchini-Möhren-Puffer mit Kartoffelwedges dazu Ketchup, Coleslaw (Krautsalat nach KFC) 6,00 € Zucchini-Möhren-Puffer mit Kartoffelwedges dazu Ketchup [C] Coleslaw (Krautsalat nach KFC) [G,J,C]</name>
-          <note>fleischlos</note>
-          <note>mit Ei</note>
-          <note>mit Milchprodukten (lactosehaltig)</note>
-          <note>mit Senf</note>
-          <price role="student">6.00</price>
-        </meal>
-      </category>
-      <category name="muslimisch">
-        <meal>
-          <name>Cordon bleu vom Schwein mit Wedges dazu Tomatenketchup, Coleslaw (Krautsalat nach KFC) 6,00 € Cordon bleu vom Schwein mit Wedges dazu Tomatenketchup [A1,10,G,C] Coleslaw (Krautsalat nach KFC) [G,J,C]</name>
-          <note>Weizen</note>
-          <note>mit Backtriebmittel</note>
-          <note>mit Ei</note>
-          <note>mit Milchprodukten (lactosehaltig)</note>
-          <note>mit Senf</note>
-          <price role="student">6.00</price>
-        </meal>
-      </category>
-      <category name="normal">
-        <meal>
-          <name>Cordon bleu vom Schwein mit Wedges dazu Tomatenketchup, Coleslaw (Krautsalat nach KFC) 6,00 € Cordon bleu vom Schwein mit Wedges dazu Tomatenketchup [A1,10,G,C] Coleslaw (Krautsalat nach KFC) [G,J,C]</name>
-          <note>Weizen</note>
-          <note>mit Backtriebmittel</note>
-          <note>mit Ei</note>
-          <note>mit Milchprodukten (lactosehaltig)</note>
-          <note>mit Senf</note>
-          <price role="student">6.00</price>
-        </meal>
-      </category>
-      <category name="Teenager fleischlos">
-        <meal>
-          <name>Gemüse-Kohlroulade mit vegetarischer Bratensoße &amp; Kartoffelpüree 6,80 € Gemüse-Kohlroulade mit vegetarischer Bratensoße &amp; Kartoffelpüree [A1,C,G,J,I]</name>
-          <note>Weizen</note>
-          <note>fleischlos</note>
-          <note>mit Ei</note>
-          <note>mit Milchprodukten (lactosehaltig)</note>
-          <note>mit Sellerie</note>
-          <note>mit Senf</note>
-          <price role="student">6.80</price>
-        </meal>
-      </category>
-      <category name="Teenager normal">
-        <meal>
-          <name>Kohlrouladen mit Bratensoße, dazu Kartoffelpüree 6,80 € Kohlrouladen mit Bratensoße, dazu Kartoffelpüree [A1,C,G,I,J]</name>
-          <note>Weizen</note>
-          <note>mit Ei</note>
-          <note>mit Milchprodukten (lactosehaltig)</note>
-          <note>mit Sellerie</note>
-          <note>mit Senf</note>
-          <price role="student">6.80</price>
-        </meal>
-      </category>
-    </day>
     <day date="2026-11-12">
       <category name="fleischlos">
         <meal>
@@ -254,6 +197,15 @@
           <price role="student">6.00</price>
         </meal>
       </category>
+      <category name="Teenager fleischlos">
+        <meal>
+          <name>marinierte, geröstete Champignons mit Pepperpotatoes &amp; Kräuterquark 6,80 € marinierte, geröstete Champignons mit Pepperpotatoes &amp; Kräuterquark [G,I]</name>
+          <note>fleischlos</note>
+          <note>mit Milchprodukten (lactosehaltig)</note>
+          <note>mit Sellerie</note>
+          <price role="student">6.80</price>
+        </meal>
+      </category>
       <category name="normal">
         <meal>
           <name>Chili con Carne mit Mais, Bohnen und Paprika &amp; Reis 6,00 € Chili con Carne mit Mais, Bohnen und Paprika &amp; Reis [A1,10,I]</name>
@@ -262,15 +214,6 @@
           <note>mit Backtriebmittel</note>
           <note>mit Sellerie</note>
           <price role="student">6.00</price>
-        </meal>
-      </category>
-      <category name="Teenager fleischlos">
-        <meal>
-          <name>marinierte, geröstete Champignons mit Pepperpotatoes &amp; Kräuterquark 6,80 € marinierte, geröstete Champignons mit Pepperpotatoes &amp; Kräuterquark [G,I]</name>
-          <note>fleischlos</note>
-          <note>mit Milchprodukten (lactosehaltig)</note>
-          <note>mit Sellerie</note>
-          <price role="student">6.80</price>
         </meal>
       </category>
       <category name="Teenager normal">
@@ -290,7 +233,9 @@
           <name>Gemüse-Reiseintopf mit Backerbsen 6,00 € Gemüse-Reiseintopf mit Backerbsen [I,10,A1]</name>
           <note>Weizen</note>
           <note>fleischlos</note>
+          <note>glutenhaltig</note>
           <note>mit Backtriebmittel</note>
+          <note>mit Ei</note>
           <note>mit Milchprodukten (lactosehaltig)</note>
           <note>mit Sellerie</note>
           <price role="student">6.00</price>
@@ -300,17 +245,9 @@
         <meal>
           <name>Hühner-Reiseintopf mit Backerbsen 6,00 € Hühner-Reiseintopf mit Backerbsen [I,A1,10]</name>
           <note>Weizen</note>
+          <note>glutenhaltig</note>
           <note>mit Backtriebmittel</note>
-          <note>mit Milchprodukten (lactosehaltig)</note>
-          <note>mit Sellerie</note>
-          <price role="student">6.00</price>
-        </meal>
-      </category>
-      <category name="normal">
-        <meal>
-          <name>Hühner-Reiseintopf mit Backerbsen 6,00 € Hühner-Reiseintopf mit Backerbsen [I,A1,10]</name>
-          <note>Weizen</note>
-          <note>mit Backtriebmittel</note>
+          <note>mit Ei</note>
           <note>mit Milchprodukten (lactosehaltig)</note>
           <note>mit Sellerie</note>
           <price role="student">6.00</price>
@@ -321,17 +258,33 @@
           <name>Gemüse-Reiseintopf mit Backerbsen 6,80 € Gemüse-Reiseintopf mit Backerbsen [I,10,A1]</name>
           <note>Weizen</note>
           <note>fleischlos</note>
+          <note>glutenhaltig</note>
           <note>mit Backtriebmittel</note>
+          <note>mit Ei</note>
           <note>mit Milchprodukten (lactosehaltig)</note>
           <note>mit Sellerie</note>
           <price role="student">6.80</price>
+        </meal>
+      </category>
+      <category name="normal">
+        <meal>
+          <name>Hühner-Reiseintopf mit Backerbsen 6,00 € Hühner-Reiseintopf mit Backerbsen [I,A1,10]</name>
+          <note>Weizen</note>
+          <note>glutenhaltig</note>
+          <note>mit Backtriebmittel</note>
+          <note>mit Ei</note>
+          <note>mit Milchprodukten (lactosehaltig)</note>
+          <note>mit Sellerie</note>
+          <price role="student">6.00</price>
         </meal>
       </category>
       <category name="Teenager normal">
         <meal>
           <name>Hühner-Reiseintopf mit Backerbsen 6,80 € Hühner-Reiseintopf mit Backerbsen [I,A1,10]</name>
           <note>Weizen</note>
+          <note>glutenhaltig</note>
           <note>mit Backtriebmittel</note>
+          <note>mit Ei</note>
           <note>mit Milchprodukten (lactosehaltig)</note>
           <note>mit Sellerie</note>
           <price role="student">6.80</price>
@@ -391,15 +344,6 @@
           <price role="student">6.00</price>
         </meal>
       </category>
-      <category name="normal">
-        <meal>
-          <name>Cevapcici mit Kartoffelwürfel, Ajvar, Chinakohlsalat mit Cocktaildressing 6,00 € Cevapcici mit Kartoffelwürfel, Ajvar Chinakohlsalat mit Cocktaildressing [G,I,J]</name>
-          <note>mit Milchprodukten (lactosehaltig)</note>
-          <note>mit Sellerie</note>
-          <note>mit Senf</note>
-          <price role="student">6.00</price>
-        </meal>
-      </category>
       <category name="Teenager fleischlos">
         <meal>
           <name>überbackener Blumenkohl, Kartoffelstampf, Chinakohlsalat mit Cocktaildressing 6,80 € überbackener Blumenkohl, Kartoffelstampf [G] Chinakohlsalat mit Cocktaildressing [G,I,J]</name>
@@ -408,6 +352,15 @@
           <note>mit Sellerie</note>
           <note>mit Senf</note>
           <price role="student">6.80</price>
+        </meal>
+      </category>
+      <category name="normal">
+        <meal>
+          <name>Cevapcici mit Kartoffelwürfel, Ajvar, Chinakohlsalat mit Cocktaildressing 6,00 € Cevapcici mit Kartoffelwürfel, Ajvar Chinakohlsalat mit Cocktaildressing [G,I,J]</name>
+          <note>mit Milchprodukten (lactosehaltig)</note>
+          <note>mit Sellerie</note>
+          <note>mit Senf</note>
+          <price role="student">6.00</price>
         </meal>
       </category>
       <category name="Teenager normal">
