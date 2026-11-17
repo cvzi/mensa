@@ -6,7 +6,10 @@
     <day date="2026-11-16">
       <category name="Beilagen">
         <meal>
-          <name>Beerenquark</name>
+          <name>Beerenquark vegan, Dessert Topping</name>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Schalenfrüchte Haselnuss</note>
+          <note>Enthält Schalenfrüchte Mandeln</note>
           <note>Enthält Soja</note>
           <note>Vegan</note>
           <price role="employee">1.20</price>
@@ -43,9 +46,9 @@
           <name>Nusspudding</name>
           <note>Enthält Laktose</note>
           <note>Vegetarisch</note>
-          <price role="employee">0.95</price>
+          <price role="employee">1.20</price>
           <price role="other">0.00</price>
-          <price role="student">0.55</price>
+          <price role="student">0.70</price>
         </meal>
       </category>
       <category name="Fleisch">
@@ -124,6 +127,14 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
+          <name>Nusspudding</name>
+          <note>Enthält Laktose</note>
+          <note>Vegetarisch</note>
+          <price role="employee">1.20</price>
+          <price role="other">0.00</price>
+          <price role="student">0.70</price>
+        </meal>
+        <meal>
           <name>Reis</name>
           <note>Vegan</note>
           <price role="employee">0.35</price>
@@ -145,19 +156,46 @@
           <price role="other">0.00</price>
           <price role="student">0.40</price>
         </meal>
-      </category>
-      <category name="Aktion">
         <meal>
-          <name>Chili con carne mit Rindfleisch, Sour Cream, Pommes frites</name>
+          <name>Schoko Pudding vegan, Dessert Topping</name>
+          <note>Enthält Schalenfrüchte Haselnuss</note>
+          <note>Vegan</note>
+          <price role="employee">1.30</price>
+          <price role="other">0.00</price>
+          <price role="student">0.75</price>
+        </meal>
+        <meal>
+          <name>Vanille Pudding</name>
           <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
+          <note>Vegetarisch</note>
+          <price role="employee">0.70</price>
+          <price role="other">0.00</price>
+          <price role="student">0.40</price>
+        </meal>
+      </category>
+      <category name="Meisterwerk Aktion">
+        <meal>
+          <name>Chili con carne mit Rindfleisch</name>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Neuland</note>
           <note>mit Rind</note>
-          <price role="employee">6.10</price>
+          <price role="employee">3.80</price>
           <price role="other">0.00</price>
-          <price role="student">3.75</price>
+          <price role="student">2.25</price>
+        </meal>
+      </category>
+      <category name="Fleisch">
+        <meal>
+          <name>Hähnchenschnitzel mit Knusperpanade, Pfefferrahmsauce</name>
+          <note>Enthält Gerste Gluten</note>
+          <note>Enthält Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>mit Geflügel</note>
+          <price role="employee">3.30</price>
+          <price role="other">0.00</price>
+          <price role="student">1.95</price>
         </meal>
       </category>
       <category name="Vegan/vegetarisch">
@@ -169,6 +207,14 @@
           <price role="employee">3.00</price>
           <price role="other">0.00</price>
           <price role="student">1.75</price>
+        </meal>
+        <meal>
+          <name>Riesenrösti mit Champignons</name>
+          <note>Enthält Hafer Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">6.95</price>
+          <price role="other">0.00</price>
+          <price role="student">4.10</price>
         </meal>
         <meal>
           <name>Salatbuffet in Selbstbedienung, je 100g</name>
@@ -765,11 +811,12 @@
           <price role="student">0.77</price>
         </meal>
         <meal>
-          <name>Schnitzel, Ketchup, Mayonnaise</name>
+          <name>Schnitzel, Pilzrahmsauce</name>
           <note>Enthält Gluten</note>
-          <note>Enthält Laktose</note>
           <note>Enthält Senf</note>
+          <note>Enthält Soja</note>
           <note>Enthält Weizen Gluten</note>
+          <note>Mit Farbstoff</note>
           <note>Vegan</note>
           <price role="employee">3.30</price>
           <price role="other">0.00</price>
