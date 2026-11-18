@@ -3,6 +3,84 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
+    <day date="2026-11-16">
+      <category name="Tagesangebot Herzhaft">
+        <meal>
+          <name>Lasagne al Forno vom Rind, dazu Tomatensauce mit Kräutern</name>
+          <note>A</note>
+          <note>G</note>
+          <note>L</note>
+          <note>O</note>
+          <price role="other">7.70</price>
+        </meal>
+        <meal>
+          <name>Marokkanischer Couscoussalat mit Kichererbsen, und Semmel</name>
+          <note>A</note>
+          <note>F</note>
+          <note>G</note>
+          <note>H</note>
+          <note>L</note>
+          <note>O</note>
+          <price role="other">5.60</price>
+        </meal>
+      </category>
+      <category name="Tagesangebot Veggie | Vegan">
+        <meal>
+          <name>Spaghetti, mit Sauce all´arrabbiata, und frischer Parmesan</name>
+          <note>A</note>
+          <note>C</note>
+          <note>G</note>
+          <note>O</note>
+          <price role="other">6.40</price>
+        </meal>
+        <meal>
+          <name>Spinatlasagne mit Fetakäse, dazu Tomaten-Kräutersauce und Petersilie</name>
+          <note>A</note>
+          <note>G</note>
+          <note>O</note>
+          <note>STUDY TELLER</note>
+          <note>VEGGIE</note>
+          <price role="other">6.70</price>
+        </meal>
+      </category>
+      <category name="Wochenangebot">
+        <meal>
+          <name>Spaghetti, Sauce Bolognese Rind, frischer Parmesan</name>
+          <note>A</note>
+          <note>C</note>
+          <note>G</note>
+          <note>L</note>
+          <note>O</note>
+          <price role="other">7.40</price>
+        </meal>
+        <meal>
+          <name>Gebackenes Hühnerschnitzel, mit Pommes frites, Preiselbeeren und, Zitrone</name>
+          <note>A</note>
+          <note>C</note>
+          <price role="other">10.30</price>
+        </meal>
+      </category>
+      <category name="Menü - Haus des Kindes">
+        <meal>
+          <name>Klare Gemüsesuppe mit Ebly, Lasagne al Forno vom Rind</name>
+          <note>A</note>
+          <note>G</note>
+          <note>L</note>
+          <note>O</note>
+          <price role="other">5.60</price>
+        </meal>
+      </category>
+      <category name="Menü - PVS PH Tirol">
+        <meal>
+          <name>Klare Gemüsesuppe mit Ebly, Lasagne al Forno vom Rind, und Gemüsesticks mit Dip</name>
+          <note>A</note>
+          <note>G</note>
+          <note>L</note>
+          <note>O</note>
+          <price role="other">6.10</price>
+        </meal>
+      </category>
+    </day>
     <day date="2026-11-17">
       <category name="Tagesangebot Herzhaft">
         <meal>
@@ -113,7 +191,7 @@
           <price role="other">6.40</price>
         </meal>
         <meal>
-          <name>veganer BIO Linseneintopf, mit hausgemachten Serviettenknödel, und Petersilie</name>
+          <name>veganer BIO Linseneintopf, mit hausgemachten Serviettenknödel, und Schnittlauch</name>
           <note>A</note>
           <note>BIO</note>
           <note>C</note>
@@ -325,45 +403,16 @@
         </meal>
       </category>
     </day>
-    <day date="2026-11-27">
+    <day date="2026-11-23">
       <category name="Tagesangebot Herzhaft">
         <meal>
-          <name>Lasagne al Forno</name>
-          <note>A</note>
-          <note>G</note>
-          <note>L</note>
-          <note>O</note>
-          <price role="other">7.50</price>
-        </meal>
-        <meal>
-          <name>Schollenfilet natur gedämpft, cremiger Blattspinat, Salzerdäpfel</name>
-          <note>A</note>
-          <note>F</note>
-          <note>O</note>
-          <price role="other">8.30</price>
-        </meal>
-      </category>
-      <category name="Tagesangebot Veggie | Vegan">
-        <meal>
-          <name>Spaghetti, Tomaten-Basilikum-Sauce, frischer Parmesan</name>
-          <note>A</note>
-          <note>C</note>
+          <name>Griechischer Bauernsalat mit Schafkäse</name>
           <note>G</note>
           <note>O</note>
-          <price role="other">6.20</price>
+          <price role="other">5.60</price>
         </meal>
         <meal>
-          <name>Cous Cous Gemüselaibchen, Ratatouille Gemüse</name>
-          <note>A</note>
-          <note>C</note>
-          <note>G</note>
-          <note>O</note>
-          <price role="other">6.50</price>
-        </meal>
-      </category>
-      <category name="Wochenangebot">
-        <meal>
-          <name>Spaghetti, Sauce Bolognese Rind, frischer Parmesan</name>
+          <name>Ragout vom Bio kalb in Wurzelrahmsauce, Hausgemachte Spätzle, Schnittlauch</name>
           <note>A</note>
           <note>C</note>
           <note>G</note>
@@ -371,23 +420,382 @@
           <note>O</note>
           <price role="other">7.20</price>
         </meal>
-        <meal>
-          <name>Schweine Schnitzel Wiener Art, Pommes frites, Zitrone</name>
-          <note>A</note>
-          <note>C</note>
-          <price role="other">9.30</price>
-        </meal>
       </category>
-      <category name="Menü - Haus des Kindes">
+      <category name="Tagesangebot Veggie | Vegan">
         <meal>
-          <name>Klare Gemüsesuppe mit, Fadennudeln, Spaghetti, Parmesansauce</name>
+          <name>Spaghetti, Rahmsauce mit Gemüse und Kräutern, frischer Parmesan</name>
           <note>A</note>
           <note>C</note>
           <note>F</note>
           <note>G</note>
           <note>L</note>
           <note>O</note>
-          <price role="other">5.40</price>
+          <price role="other">6.40</price>
+        </meal>
+        <meal>
+          <name>Kärntner Kasnudeln, Braune Butter, frischer Parmesan</name>
+          <note>A</note>
+          <note>C</note>
+          <note>G</note>
+          <price role="other">6.70</price>
+        </meal>
+      </category>
+      <category name="Wochenangebot">
+        <meal>
+          <name>Spaghetti, Carbonara | Sauce | Pute | Standard, frischer Parmesan</name>
+          <note>A</note>
+          <note>C</note>
+          <note>G</note>
+          <note>O</note>
+          <price role="other">7.40</price>
+        </meal>
+        <meal>
+          <name>Gebackenes Hühnerschnitzel, mit Pommes frites, Preiselbeeren und, Zitrone</name>
+          <note>A</note>
+          <note>C</note>
+          <price role="other">10.30</price>
+        </meal>
+      </category>
+      <category name="Menü - Haus des Kindes">
+        <meal>
+          <name>Klare Gemüsesuppe mit, Sternchennudeln, Spaghetti, Sauce Bolognese, Beilagensalat, Gemüsesticks mit Dip</name>
+          <note>A</note>
+          <note>C</note>
+          <note>G</note>
+          <note>L</note>
+          <note>O</note>
+          <price role="other">5.60</price>
+        </meal>
+      </category>
+      <category name="Menü - PVS PH Tirol">
+        <meal>
+          <name>Klare Gemüsesuppe mit, Sternchennudeln, Spaghetti, Sauce Bolognese, Beilagensalat, Gemüsesticks mit Dip</name>
+          <note>A</note>
+          <note>C</note>
+          <note>G</note>
+          <note>L</note>
+          <note>O</note>
+          <price role="other">6.10</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-11-24">
+      <category name="Tagesangebot Herzhaft">
+        <meal>
+          <name>Faschierter Braten, Natursauce, Erdäpfelpurée, Röstzwiebel</name>
+          <note>A</note>
+          <note>C</note>
+          <note>G</note>
+          <note>L</note>
+          <note>M</note>
+          <note>O</note>
+          <price role="other">7.70</price>
+        </meal>
+        <meal>
+          <name>Tomaten-Mozzarellasalat</name>
+          <note>C</note>
+          <note>G</note>
+          <note>H</note>
+          <note>O</note>
+          <price role="other">5.60</price>
+        </meal>
+      </category>
+      <category name="Tagesangebot Veggie | Vegan">
+        <meal>
+          <name>Spaghetti, Rahmsauce mit Gemüse und Kräutern, frischer Parmesan</name>
+          <note>A</note>
+          <note>C</note>
+          <note>F</note>
+          <note>G</note>
+          <note>L</note>
+          <note>O</note>
+          <price role="other">6.40</price>
+        </meal>
+        <meal>
+          <name>Mexiko Wrap VEGAN, Salatmischung Rucola</name>
+          <note>A</note>
+          <note>O</note>
+          <price role="other">6.70</price>
+        </meal>
+      </category>
+      <category name="Wochenangebot">
+        <meal>
+          <name>Spaghetti, Carbonara | Sauce | Pute | Standard, frischer Parmesan</name>
+          <note>A</note>
+          <note>C</note>
+          <note>G</note>
+          <note>O</note>
+          <price role="other">7.40</price>
+        </meal>
+        <meal>
+          <name>Gebackenes Hühnerschnitzel, mit Pommes frites, Preiselbeeren und, Zitrone</name>
+          <note>A</note>
+          <note>C</note>
+          <price role="other">10.30</price>
+        </meal>
+      </category>
+      <category name="Menü - Haus des Kindes">
+        <meal>
+          <name>Faschierter Braten vom Rind, Erdäpfelpurée, Beilagensalat, Topfencreme</name>
+          <note>A</note>
+          <note>C</note>
+          <note>G</note>
+          <note>M</note>
+          <note>O</note>
+          <price role="other">5.60</price>
+        </meal>
+      </category>
+      <category name="Menü - PVS PH Tirol">
+        <meal>
+          <name>Faschierter Braten vom Rind, Erdäpfelpurée, Beilagensalat, Topfencreme</name>
+          <note>A</note>
+          <note>C</note>
+          <note>G</note>
+          <note>M</note>
+          <note>O</note>
+          <price role="other">6.10</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-11-25">
+      <category name="Tagesangebot Herzhaft">
+        <meal>
+          <name>Country Burger mit Bio Rindfleisch, Pommes frites, Ketchup</name>
+          <note>A</note>
+          <note>C</note>
+          <note>G</note>
+          <note>M</note>
+          <note>N</note>
+          <price role="other">12.90</price>
+        </meal>
+        <meal>
+          <name>Tomaten-Mozzarellasalat</name>
+          <note>C</note>
+          <note>G</note>
+          <note>H</note>
+          <note>O</note>
+          <price role="other">5.60</price>
+        </meal>
+      </category>
+      <category name="Tagesangebot Veggie | Vegan">
+        <meal>
+          <name>Spaghetti, Rahmsauce mit Gemüse und Kräutern, frischer Parmesan</name>
+          <note>A</note>
+          <note>C</note>
+          <note>F</note>
+          <note>G</note>
+          <note>L</note>
+          <note>O</note>
+          <price role="other">6.40</price>
+        </meal>
+        <meal>
+          <name>Linsen-Gemüsecurry mit BIO-Tofu VEGAN, Basmatireis</name>
+          <note>F</note>
+          <note>L</note>
+          <note>O</note>
+          <price role="other">6.70</price>
+        </meal>
+      </category>
+      <category name="Wochenangebot">
+        <meal>
+          <name>Spaghetti, Carbonara | Sauce | Pute | Standard, frischer Parmesan</name>
+          <note>A</note>
+          <note>C</note>
+          <note>G</note>
+          <note>O</note>
+          <price role="other">7.40</price>
+        </meal>
+        <meal>
+          <name>Gebackenes Hühnerschnitzel, mit Pommes frites, Preiselbeeren und, Zitrone</name>
+          <note>A</note>
+          <note>C</note>
+          <price role="other">10.30</price>
+        </meal>
+      </category>
+      <category name="Menü - Haus des Kindes">
+        <meal>
+          <name>Klare Gemüsesuppe mit, Fadennudeln, Grießschmarren mit Staubzucker, Birne</name>
+          <note>A</note>
+          <note>C</note>
+          <note>G</note>
+          <note>L</note>
+          <note>O</note>
+          <price role="other">5.60</price>
+        </meal>
+      </category>
+      <category name="Menü - PVS PH Tirol">
+        <meal>
+          <name>Klare Gemüsesuppe mit, Fadennudeln, Grießschmarren mit Staubzucker, Birne</name>
+          <note>A</note>
+          <note>C</note>
+          <note>G</note>
+          <note>L</note>
+          <note>O</note>
+          <price role="other">6.10</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-11-26">
+      <category name="Tagesangebot Herzhaft">
+        <meal>
+          <name>Schweinsbraten vom Karree, Kümmelsaftl, Sauerkraut, Semmelknödel</name>
+          <note>A</note>
+          <note>C</note>
+          <note>G</note>
+          <note>L</note>
+          <note>O</note>
+          <price role="other">7.70</price>
+        </meal>
+        <meal>
+          <name>Tomaten-Mozzarellasalat</name>
+          <note>C</note>
+          <note>G</note>
+          <note>H</note>
+          <note>O</note>
+          <price role="other">5.60</price>
+        </meal>
+      </category>
+      <category name="Tagesangebot Veggie | Vegan">
+        <meal>
+          <name>Spaghetti, Rahmsauce mit Gemüse und Kräutern, frischer Parmesan</name>
+          <note>A</note>
+          <note>C</note>
+          <note>F</note>
+          <note>G</note>
+          <note>L</note>
+          <note>O</note>
+          <price role="other">6.40</price>
+        </meal>
+        <meal>
+          <name>Erdäpfelauflauf mit Karotten &amp; Gelben Rüben, Kräuter Dip VEGAN</name>
+          <note>C</note>
+          <note>F</note>
+          <note>G</note>
+          <note>O</note>
+          <price role="other">6.70</price>
+        </meal>
+      </category>
+      <category name="Wochenangebot">
+        <meal>
+          <name>Spaghetti, Carbonara | Sauce | Pute | Standard, frischer Parmesan</name>
+          <note>A</note>
+          <note>C</note>
+          <note>G</note>
+          <note>O</note>
+          <price role="other">7.40</price>
+        </meal>
+        <meal>
+          <name>Gebackenes Hühnerschnitzel, mit Pommes frites, Preiselbeeren und, Zitrone</name>
+          <note>A</note>
+          <note>C</note>
+          <price role="other">10.30</price>
+        </meal>
+      </category>
+      <category name="Menü - Haus des Kindes">
+        <meal>
+          <name>Tortelloni Spinat Ricotta, Tomatensauce mit Kräutern VEGAN, frischer Parmesan, Beilagensalat, Schoko Blechkuchen</name>
+          <note>A</note>
+          <note>C</note>
+          <note>F</note>
+          <note>G</note>
+          <note>H</note>
+          <note>O</note>
+          <price role="other">5.60</price>
+        </meal>
+      </category>
+      <category name="Menü - PVS PH Tirol">
+        <meal>
+          <name>Tortelloni Spinat Ricotta, Tomatensauce mit Kräutern VEGAN, frischer Parmesan, Beilagensalat, Schoko Blechkuchen</name>
+          <note>A</note>
+          <note>C</note>
+          <note>F</note>
+          <note>G</note>
+          <note>H</note>
+          <note>O</note>
+          <price role="other">6.10</price>
+        </meal>
+      </category>
+    </day>
+    <day date="2026-11-27">
+      <category name="Tagesangebot Herzhaft">
+        <meal>
+          <name>Alaska Seelachsfilet MSC im Sesammantel, Gemüsereis, Sauce Tartare, Zitrone</name>
+          <note>A</note>
+          <note>C</note>
+          <note>D</note>
+          <note>G</note>
+          <note>L</note>
+          <note>M</note>
+          <note>N</note>
+          <price role="other">7.70</price>
+        </meal>
+        <meal>
+          <name>Tomaten-Mozzarellasalat</name>
+          <note>C</note>
+          <note>G</note>
+          <note>H</note>
+          <note>O</note>
+          <price role="other">5.60</price>
+        </meal>
+      </category>
+      <category name="Tagesangebot Veggie | Vegan">
+        <meal>
+          <name>Spaghetti, Rahmsauce mit Gemüse und Kräutern, frischer Parmesan</name>
+          <note>A</note>
+          <note>C</note>
+          <note>F</note>
+          <note>G</note>
+          <note>L</note>
+          <note>O</note>
+          <price role="other">6.40</price>
+        </meal>
+        <meal>
+          <name>Gebackene Champignons, Sauce Tartare</name>
+          <note>A</note>
+          <note>C</note>
+          <note>G</note>
+          <note>M</note>
+          <price role="other">6.70</price>
+        </meal>
+      </category>
+      <category name="Wochenangebot">
+        <meal>
+          <name>Spaghetti, Carbonara | Sauce | Pute | Standard, frischer Parmesan</name>
+          <note>A</note>
+          <note>C</note>
+          <note>G</note>
+          <note>O</note>
+          <price role="other">7.40</price>
+        </meal>
+        <meal>
+          <name>Gebackenes Hühnerschnitzel, mit Pommes frites, Preiselbeeren und, Zitrone</name>
+          <note>A</note>
+          <note>C</note>
+          <price role="other">10.30</price>
+        </meal>
+      </category>
+      <category name="Menü - Haus des Kindes">
+        <meal>
+          <name>Erdäpfelcremesuppe, Fischstäbchen MSC, Basmatireis mit Gemüsewürfel, Gemüsesticks mit Dip</name>
+          <note>A</note>
+          <note>D</note>
+          <note>F</note>
+          <note>G</note>
+          <note>L</note>
+          <note>O</note>
+          <price role="other">5.60</price>
+        </meal>
+      </category>
+      <category name="Menü - PVS PH Tirol">
+        <meal>
+          <name>Erdäpfelcremesuppe, Fischstäbchen MSC, Basmatireis mit Gemüsewürfel, Gemüsesticks mit Dip</name>
+          <note>A</note>
+          <note>D</note>
+          <note>F</note>
+          <note>G</note>
+          <note>L</note>
+          <note>O</note>
+          <price role="other">6.10</price>
         </meal>
       </category>
     </day>
