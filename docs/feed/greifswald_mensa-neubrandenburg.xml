@@ -3,86 +3,6 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2026-11-18">
-      <category name="Komponente 2">
-        <meal>
-          <name>Hackbraten mit Rahmsauce</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Milch/Milchzucker (Laktose)</note>
-          <note>Rindfleisch</note>
-          <note>Schweinefleisch</note>
-          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
-          <note>Senf und daraus hergestellte Erzeugnisse</note>
-          <note>jodiertes Salz</note>
-          <price role="employee">3.35</price>
-          <price role="other">4.45</price>
-          <price role="student">2.25</price>
-        </meal>
-      </category>
-      <category name="Komponente 5">
-        <meal>
-          <name>Crunchy Chicken Burger (1,15,Gefl,G,A,I,J)</name>
-          <price role="employee">6.10</price>
-          <price role="other">7.20</price>
-          <price role="student">5.00</price>
-        </meal>
-      </category>
-      <category name="Vegane Komponente 1">
-        <meal>
-          <name>Planted Chicken Burger</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Senf und daraus hergestellte Erzeugnisse</note>
-          <note>mit Farbstoff</note>
-          <note>mit Süßungsmittel</note>
-          <price role="employee">6.10</price>
-          <price role="other">7.20</price>
-          <price role="student">5.00</price>
-        </meal>
-      </category>
-      <category name="Nudeltheke: Pasta nach Gewicht (pro 100g)">
-        <meal>
-          <name>Pastateller: Rigtoni mit Kürbis-Pestosoße</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Milch/Milchzucker (Laktose)</note>
-          <note>Schalenfrüchte und daraus hergestellte Erzeugnisse (Mandeln, Haselnuss usw.)</note>
-          <note>jodiertes Salz</note>
-          <price role="employee">1.10</price>
-          <price role="other">1.55</price>
-          <price role="student">0.65</price>
-        </meal>
-      </category>
-      <category name="Beilagen">
-        <meal>
-          <name>Salzkartoffeln</name>
-          <note>geschwefelt</note>
-          <note>jodiertes Salz</note>
-          <price role="employee">1.30</price>
-          <price role="other">1.80</price>
-          <price role="student">0.80</price>
-        </meal>
-        <meal>
-          <name>Pommes Frites</name>
-          <price role="employee">1.60</price>
-          <price role="other">2.10</price>
-          <price role="student">1.10</price>
-        </meal>
-      </category>
-      <category name="Gemüse">
-        <meal>
-          <name>Grüne Bohnen</name>
-          <note>jodiertes Salz</note>
-          <price role="employee">1.30</price>
-          <price role="other">1.80</price>
-          <price role="student">0.80</price>
-        </meal>
-      </category>
-      <category name="Salate und Desserts">
-        <meal>
-          <name>Frische Salate und verschiedene Desserts stehen zur Auswahl.</name>
-        </meal>
-      </category>
-    </day>
     <day date="2026-11-19">
       <category name="Tellergericht">
         <meal>
@@ -116,10 +36,12 @@
           <note>Glutenhaltiges Getreide</note>
           <note>Milch/Milchzucker (Laktose)</note>
           <note>Schweinefleisch</note>
-          <note>Senf und daraus hergestellte Erzeugnisse</note>
-          <price role="employee">0.00</price>
-          <price role="other">0.00</price>
-          <price role="student">0.00</price>
+          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
+          <note>jodiertes Salz</note>
+          <note>mit Antioxidationsmittel</note>
+          <price role="employee">3.85</price>
+          <price role="other">4.95</price>
+          <price role="student">2.75</price>
         </meal>
       </category>
       <category name="Vegane Komponente 1">
@@ -157,20 +79,6 @@
           <price role="student">0.80</price>
         </meal>
         <meal>
-          <name>Laugenstange</name>
-          <note>jodiertes Salz</note>
-          <price role="employee">1.30</price>
-          <price role="other">1.80</price>
-          <price role="student">0.80</price>
-        </meal>
-        <meal>
-          <name>Basmatireis</name>
-          <note>jodiertes Salz</note>
-          <price role="employee">1.30</price>
-          <price role="other">1.80</price>
-          <price role="student">0.80</price>
-        </meal>
-        <meal>
           <name>Pommes Frites</name>
           <price role="employee">1.60</price>
           <price role="other">2.10</price>
@@ -178,13 +86,6 @@
         </meal>
       </category>
       <category name="Gemüse">
-        <meal>
-          <name>Preiselbeermarmelade</name>
-          <note>mit Konservierungsstoff</note>
-          <price role="employee">1.30</price>
-          <price role="other">1.80</price>
-          <price role="student">0.80</price>
-        </meal>
         <meal>
           <name>Blattsalat regional</name>
           <price role="employee">1.30</price>
@@ -208,10 +109,14 @@
     <day date="2026-11-20">
       <category name="Tellergericht">
         <meal>
-          <name>Teller: Kartoffelsuppe mit Knackerscheiben</name>
+          <name>Teller: Kartoffelsuppe mit Knackerscheiben  
+ Lauch-Mais Käsesuppe mit Hackfleisch</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker (Laktose)</note>
           <note>Rindfleisch</note>
           <note>Schweinefleisch</note>
           <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
           <note>geschwefelt</note>
           <note>jodiertes Salz</note>
           <note>mit Antioxidationsmittel</note>
@@ -223,10 +128,13 @@
           <price role="student">1.50</price>
         </meal>
         <meal>
-          <name>Terrine: Kartoffelsuppe mit Knackerscheiben</name>
+          <name>Terrine: Kartoffelsuppe mit Knackerscheiben oder  
+ Lauch-Mais Käsesuppe mit Hackfleisch</name>
+          <note>Milch/Milchzucker (Laktose)</note>
           <note>Rindfleisch</note>
           <note>Schweinefleisch</note>
           <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
           <note>geschwefelt</note>
           <note>jodiertes Salz</note>
           <note>mit Antioxidationsmittel</note>
@@ -240,14 +148,11 @@
       </category>
       <category name="Komponente 1">
         <meal>
-          <name>Seelachs in Kräuterpanade  
- mit Dill-Gurkensauce</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <name>Schlemmerfilet Broccoli Käse  
+ Dill-Gurkensauce</name>
           <note>Fische und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Milch/Milchzucker (Laktose)</note>
-          <note>Senf und daraus hergestellte Erzeugnisse</note>
-          <note>gewachst</note>
           <note>jodiertes Salz</note>
           <price role="employee">3.35</price>
           <price role="other">4.45</price>
@@ -256,13 +161,15 @@
       </category>
       <category name="Komponente 2">
         <meal>
-          <name>Paniertes Schweineschnitzel  
- dazu Knoblauchsauce mit Tomate und Kräutern</name>
+          <name>Schweinelachsschnitzel  
+ mit Soße ungarischer Art</name>
           <note>Eier und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Milch/Milchzucker (Laktose)</note>
           <note>Schweinefleisch</note>
+          <note>Senf und daraus hergestellte Erzeugnisse</note>
           <note>jodiertes Salz</note>
+          <note>mit Süßungsmittel</note>
           <price role="employee">3.35</price>
           <price role="other">4.45</price>
           <price role="student">2.25</price>
@@ -270,8 +177,8 @@
       </category>
       <category name="Vegane Komponente 1">
         <meal>
-          <name>Griechische Nudelpfanne mit Falafel</name>
-          <note>Senf und daraus hergestellte Erzeugnisse</note>
+          <name>Vegan: Griechische Nudelpfanne mit Falafel</name>
+          <note>Glutenhaltiges Getreide</note>
           <note>geschwärzt</note>
           <note>mit Antioxidationsmittel</note>
           <price role="employee">3.35</price>
@@ -335,26 +242,6 @@
       <closed/>
     </day>
     <day date="2026-11-23">
-      <category name="Tellergericht">
-        <meal>
-          <name>Teller: Karotten-Ingwer-Suppe mit Kokosmilch [vegan]</name>
-          <note>Senf und daraus hergestellte Erzeugnisse</note>
-          <note>geschwefelt</note>
-          <note>jodiertes Salz</note>
-          <price role="employee">2.60</price>
-          <price role="other">3.65</price>
-          <price role="student">1.50</price>
-        </meal>
-        <meal>
-          <name>Terrine: Karotten-Ingwer-Suppe mit Kokosmilch [vegan]</name>
-          <note>Senf und daraus hergestellte Erzeugnisse</note>
-          <note>geschwefelt</note>
-          <note>jodiertes Salz</note>
-          <price role="employee">3.75</price>
-          <price role="other">5.10</price>
-          <price role="student">2.20</price>
-        </meal>
-      </category>
       <category name="Komponente 1">
         <meal>
           <name>Fischfilet in Backteig  
@@ -391,9 +278,21 @@
       </category>
       <category name="Vegane Komponente 1">
         <meal>
-          <name>Vollkornnudeln mit Bolognese von roten Linsen</name>
+          <name>Vegan: Schupfnudelpfanne mit tomatisiertem Gemüse</name>
           <note>Glutenhaltiges Getreide</note>
-          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>jodiertes Salz</note>
+          <note>mit Süßungsmittel</note>
+          <price role="employee">0.00</price>
+          <price role="other">0.00</price>
+          <price role="student">0.00</price>
+        </meal>
+      </category>
+      <category name="Vegetarische Komponente 1">
+        <meal>
+          <name>5 Mozzarella Sticks  
+ Frischkäse - Paprika Dip</name>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker (Laktose)</note>
           <price role="employee">0.00</price>
           <price role="other">0.00</price>
           <price role="student">0.00</price>
@@ -401,8 +300,8 @@
       </category>
       <category name="Beilagen">
         <meal>
-          <name>Reis</name>
-          <note>jodiertes Salz</note>
+          <name>Gemüsecouscous</name>
+          <note>Glutenhaltiges Getreide</note>
           <price role="employee">1.30</price>
           <price role="other">1.80</price>
           <price role="student">0.80</price>
@@ -486,12 +385,8 @@
       <category name="Komponente 3">
         <meal>
           <name>Hähnchenbrust-Schnitzel "Piccata" (Gefl,G,A) 
- mit Basilikum-Käsesauce</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
+ Paprikasauce</name>
           <note>Glutenhaltiges Getreide</note>
-          <note>Milch/Milchzucker (Laktose)</note>
-          <note>Schwefeldioxid und Sulphite in Konzentration von mehr als 10mg/kg oder 10mg/l, als SO2 angegeben</note>
-          <note>alkoholhaltig </note>
           <note>jodiertes Salz</note>
           <price role="employee">3.35</price>
           <price role="other">4.45</price>
@@ -642,6 +537,13 @@
           <price role="other">1.80</price>
           <price role="student">0.80</price>
         </meal>
+        <meal>
+          <name>Kaisergemüse (Brokkoli, Blumenkohl, Karottenscheiben)</name>
+          <note>jodiertes Salz</note>
+          <price role="employee">1.50</price>
+          <price role="other">2.00</price>
+          <price role="student">1.00</price>
+        </meal>
       </category>
       <category name="Salate und Desserts">
         <meal>
@@ -683,12 +585,11 @@
       </category>
       <category name="Komponente 2">
         <meal>
-          <name>Schweinelachsschnitzel  
- mit Pfeffersauce</name>
-          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <name>Geschnetzeltes nach Züricher Art</name>
           <note>Glutenhaltiges Getreide</note>
           <note>Milch/Milchzucker (Laktose)</note>
-          <note>Schweinefleisch</note>
+          <note>Rindfleisch</note>
+          <note>Schwefeldioxid und Sulphite in Konzentration von mehr als 10mg/kg oder 10mg/l, als SO2 angegeben</note>
           <note>alkoholhaltig </note>
           <note>jodiertes Salz</note>
           <price role="employee">3.35</price>
@@ -707,8 +608,9 @@
       </category>
       <category name="Nudeltheke: Pasta nach Gewicht (pro 100g)">
         <meal>
-          <name>Nudeln mit Kräuterpesto (vegan)</name>
+          <name>Vegan: Soja-Bolognese mit Spaghetti</name>
           <note>Glutenhaltiges Getreide</note>
+          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
           <note>jodiertes Salz</note>
           <price role="employee">1.10</price>
           <price role="other">1.55</price>
@@ -744,6 +646,14 @@
           <price role="other">2.10</price>
           <price role="student">1.10</price>
         </meal>
+        <meal>
+          <name>Spätzle</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <price role="employee">1.60</price>
+          <price role="other">2.10</price>
+          <price role="student">1.10</price>
+        </meal>
       </category>
       <category name="Gemüse">
         <meal>
@@ -763,11 +673,11 @@
     <day date="2026-11-27">
       <category name="Komponente 1">
         <meal>
-          <name>Seelachsfilet in Krosspanade mit Kräutersoße</name>
+          <name>Seelachsfilet in Sesampanade  
+ mit Fischsoße</name>
           <note>Fische und daraus hergestellte Erzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
-          <note>Milch/Milchzucker (Laktose)</note>
-          <note>Senf und daraus hergestellte Erzeugnisse</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
           <note>jodiertes Salz</note>
           <price role="employee">3.35</price>
           <price role="other">4.45</price>
@@ -776,8 +686,8 @@
       </category>
       <category name="Komponente 3">
         <meal>
-          <name>Chicken Wings oder (9,Gefl,A) 
- Hähnchenschnitzel Art "Cordon bleu" (2,9,Gefl,G,A) mit Kräuterschmand</name>
+          <name>Chicken Wings (9,Gefl,A) 
+ mit Kräuterschmand</name>
           <note>Milch/Milchzucker (Laktose)</note>
           <note>jodiertes Salz</note>
           <price role="employee">3.35</price>
@@ -790,6 +700,19 @@
           <name>Shakshuka mit Tofu</name>
           <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
           <note>gewachst</note>
+          <price role="employee">0.00</price>
+          <price role="other">0.00</price>
+          <price role="student">0.00</price>
+        </meal>
+      </category>
+      <category name="Vegetarische Komponente 1">
+        <meal>
+          <name>Gemüselasagne</name>
+          <note>Eier und daraus hergestellte Erzeugnisse</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Milch/Milchzucker (Laktose)</note>
+          <note>Sellerie und daraus hergestellte Erzeugnisse</note>
+          <note>jodiertes Salz</note>
           <price role="employee">0.00</price>
           <price role="other">0.00</price>
           <price role="student">0.00</price>
