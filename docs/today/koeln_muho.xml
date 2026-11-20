@@ -3,7 +3,18 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2026-11-19">
+    <day date="2026-11-20">
+      <category name="Fleisch">
+        <meal>
+          <name>5 Nürnberger Rostbratwürstchen, Senf</name>
+          <note>Enthält Senf</note>
+          <note>Neuland</note>
+          <note>mit Schwein</note>
+          <price role="employee">3.30</price>
+          <price role="other">0.00</price>
+          <price role="student">1.95</price>
+        </meal>
+      </category>
       <category name="Beilagen">
         <meal>
           <name>Basmatireis</name>
@@ -43,19 +54,29 @@
           <price role="student">0.75</price>
         </meal>
         <meal>
-          <name>Mandel-Broccoli</name>
-          <note>Enthält Schalenfrüchte Mandeln</note>
+          <name>Drillinge</name>
           <note>Vegan</note>
-          <price role="employee">1.30</price>
+          <price role="employee">1.45</price>
           <price role="other">0.00</price>
-          <price role="student">0.75</price>
+          <price role="student">0.85</price>
         </meal>
         <meal>
-          <name>Pommes frites</name>
+          <name>Leipzigerallerlei</name>
           <note>Vegan</note>
-          <price role="employee">0.70</price>
+          <price role="employee">0.75</price>
           <price role="other">0.00</price>
-          <price role="student">0.40</price>
+          <price role="student">0.45</price>
+        </meal>
+      </category>
+      <category name="1 - Vegan/vegetarisch">
+        <meal>
+          <name>Broccolicremesuppe, Brötchen</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Soja</note>
+          <note>Vegan</note>
+          <price role="employee">2.40</price>
+          <price role="other">0.00</price>
+          <price role="student">1.40</price>
         </meal>
       </category>
       <category name="Vegan/vegetarisch">
@@ -83,34 +104,9 @@
           <price role="student">1.95</price>
         </meal>
       </category>
-      <category name="Aktion">
-        <meal>
-          <name>Kichererbsen Tikka Masala, Pommes frites</name>
-          <note>Enthält Hafer Gluten</note>
-          <note>Enthält Schalenfrüchte Mandeln</note>
-          <note>Mit Farbstoff</note>
-          <note>Mit Konservierungsstoff</note>
-          <note>Vegan</note>
-          <price role="employee">6.10</price>
-          <price role="other">0.00</price>
-          <price role="student">3.75</price>
-        </meal>
-      </category>
-      <category name="1 - Vegan/vegetarisch">
-        <meal>
-          <name>Kokos-Süßkartoffelsuppe, Brötchen</name>
-          <note>Enthält Gluten</note>
-          <note>Vegan</note>
-          <price role="employee">2.75</price>
-          <price role="other">0.00</price>
-          <price role="student">1.60</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2026-11-20">
       <category name="Fisch">
         <meal>
-          <name>Seelachsfilet im Sesammantel, Teriyakisauce</name>
+          <name>Seelachsfilet im Sesammantel, Gartenkräuterdip</name>
           <note>Enthält Alkohol</note>
           <note>Enthält Fisch</note>
           <note>Enthält Gluten</note>
@@ -120,17 +116,6 @@
           <price role="employee">5.65</price>
           <price role="other">0.00</price>
           <price role="student">3.30</price>
-        </meal>
-      </category>
-      <category name="Vegan/vegetarisch">
-        <meal>
-          <name>Spaghetti, Paprika-Tomatenragout</name>
-          <note>Enthält Gluten</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Vegan</note>
-          <price role="employee">2.75</price>
-          <price role="other">0.00</price>
-          <price role="student">1.60</price>
         </meal>
       </category>
     </day>
