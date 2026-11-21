@@ -3,7 +3,7 @@
 <?xml-stylesheet type="text/css" href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css"?>
 <openmensa xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2026-11-16">
+    <day date="2026-02-23">
       <category name="Tagessuppe 1 (Fixpreis)">
         <meal>
           <name>Klare Gemüsesuppe</name>
@@ -20,23 +20,32 @@
           <note>Sellerie (L)</note>
         </meal>
       </category>
-      <category name="Tagesteller 1 (Fixpreis)">
+      <category name="Tagesteller 1 (Tagespreis)">
         <meal>
-          <name>Tomaten-Zucchinisauce</name>
+          <name>Gratinierte Käsespätzle</name>
           <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
         </meal>
         <meal>
-          <name>Penne</name>
+          <name>Röstzwiebel</name>
           <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
         </meal>
       </category>
       <category name="Tagesteller 2 (Fixpreis)">
         <meal>
-          <name>Polpetti auf Basilikumpüree mit Röstzwiebel</name>
+          <name>Chicken Tikka Masala Indisch</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Milch oder Laktose (G)</note>
           <note>Schalenfrüchte (H)</note>
-          <note>Sulfite (O)</note>
+        </meal>
+        <meal>
+          <name>Basmatireis</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Schalenfrüchte (H)</note>
         </meal>
       </category>
       <category name="Tagesteller 2 (Tagespreis)">
@@ -44,6 +53,40 @@
           <name>Italienischer Gemüseeintopf
 </name>
           <note>Sulfite (O)</note>
+        </meal>
+      </category>
+      <category name="Tagesteller 3 (Fixpreis)">
+        <meal>
+          <name>Pizza Margherita</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Milch oder Laktose (G)</note>
+        </meal>
+      </category>
+      <category name="Tagesteller 3 (Tagespreis)">
+        <meal>
+          <name>Hausgemachte Pizza Salami</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Senf (M)</note>
+        </meal>
+      </category>
+      <category name="Tagesteller 4 (Fixpreis)">
+        <meal>
+          <name>Hausgemachter Pizza Teig</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Soja (F)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Schalenfrüchte (H)</note>
+        </meal>
+        <meal>
+          <name>Caprese 
+Frische Tomaten, Basilikum &amp; Pesto</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Soja (F)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Schalenfrüchte (H)</note>
         </meal>
       </category>
       <category name="Tagesteller 4 (Tagespreis)">
@@ -72,28 +115,24 @@
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
           <note>Milch oder Laktose (G)</note>
-          <note>Sulfite (O)</note>
         </meal>
         <meal>
           <name>Tomatensauce</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
           <note>Milch oder Laktose (G)</note>
-          <note>Sulfite (O)</note>
         </meal>
         <meal>
           <name>mit frischem Parmesan</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
           <note>Milch oder Laktose (G)</note>
-          <note>Sulfite (O)</note>
         </meal>
       </category>
       <category name="Tagesteller 5 (Tagespreis)">
         <meal>
           <name>Sauce Bolognese vom Rind</name>
           <note>Soja (F)</note>
-          <note>Milch oder Laktose (G)</note>
           <note>Sellerie (L)</note>
           <note>Sulfite (O)</note>
         </meal>
@@ -121,16 +160,9 @@
       </category>
       <category name="Tagesteller 7 (Tagespreis)">
         <meal>
-          <name>mit Basmatireis</name>
+          <name>Hot Dog classic (The classic crunch)</name>
           <note>Glutenhaltiges Getreide (A)</note>
-          <note>Soja (F)</note>
-          <note>Weichtiere (R)</note>
-        </meal>
-        <meal>
-          <name>Kung Pao Chicken</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Soja (F)</note>
-          <note>Weichtiere (R)</note>
+          <note>Senf (M)</note>
         </meal>
       </category>
       <category name="gem.Salat">
@@ -140,37 +172,42 @@
         </meal>
       </category>
     </day>
-    <day date="2026-11-17">
+    <day date="2026-02-24">
       <category name="Tagessuppe 1 (Fixpreis)">
         <meal>
-          <name>Zucchinicremesuppe
-mit Kräutern der Provence</name>
-          <note>Soja (F)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Sellerie (L)</note>
+          <name>Knoblauchcremesuppe</name>
+          <note>Sulfite (O)</note>
         </meal>
       </category>
       <category name="Tagesteller 1 (Fixpreis)">
         <meal>
-          <name>Thai-Pineapple Fried Rice
-mit Huhn und Erbsen</name>
-          <note>Ei (C)</note>
-          <note>Fisch (D)</note>
+          <name>Gemüse Enchilada</name>
+          <note>Glutenhaltiges Getreide (A)</note>
           <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
+        </meal>
+        <meal>
+          <name>Gewürzreis</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Sellerie (L)</note>
         </meal>
       </category>
       <category name="Tagesteller 2 (Fixpreis)">
         <meal>
-          <name>Rindspolpetti</name>
-          <note>Glutenhaltiges Getreide (A)</note>
+          <name>Käsekrainer</name>
+          <note>Milch oder Laktose (G)</note>
+          <note>Senf (M)</note>
         </meal>
         <meal>
-          <name>Spaghetti</name>
-          <note>Glutenhaltiges Getreide (A)</note>
+          <name>Pommes Frites</name>
+          <note>Milch oder Laktose (G)</note>
+          <note>Senf (M)</note>
         </meal>
         <meal>
-          <name>Tomatensauce</name>
-          <note>Glutenhaltiges Getreide (A)</note>
+          <name>Zwiebelsenf</name>
+          <note>Milch oder Laktose (G)</note>
+          <note>Senf (M)</note>
         </meal>
       </category>
       <category name="Tagesteller 2 (Tagespreis)">
@@ -178,6 +215,40 @@ mit Huhn und Erbsen</name>
           <name>Italienischer Gemüseeintopf
 </name>
           <note>Sulfite (O)</note>
+        </meal>
+      </category>
+      <category name="Tagesteller 3 (Fixpreis)">
+        <meal>
+          <name>Pizza Margherita</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Milch oder Laktose (G)</note>
+        </meal>
+      </category>
+      <category name="Tagesteller 3 (Tagespreis)">
+        <meal>
+          <name>Hausgemachte Pizza Salami</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Senf (M)</note>
+        </meal>
+      </category>
+      <category name="Tagesteller 4 (Fixpreis)">
+        <meal>
+          <name>Hausgemachter Pizza Teig</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Soja (F)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Schalenfrüchte (H)</note>
+        </meal>
+        <meal>
+          <name>Caprese 
+Frische Tomaten, Basilikum &amp; Pesto</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Soja (F)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Schalenfrüchte (H)</note>
         </meal>
       </category>
       <category name="Tagesteller 4 (Tagespreis)">
@@ -206,28 +277,24 @@ mit Huhn und Erbsen</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
           <note>Milch oder Laktose (G)</note>
-          <note>Sulfite (O)</note>
         </meal>
         <meal>
           <name>Tomatensauce</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
           <note>Milch oder Laktose (G)</note>
-          <note>Sulfite (O)</note>
         </meal>
         <meal>
           <name>mit frischem Parmesan</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
           <note>Milch oder Laktose (G)</note>
-          <note>Sulfite (O)</note>
         </meal>
       </category>
       <category name="Tagesteller 5 (Tagespreis)">
         <meal>
           <name>Sauce Bolognese vom Rind</name>
           <note>Soja (F)</note>
-          <note>Milch oder Laktose (G)</note>
           <note>Sellerie (L)</note>
           <note>Sulfite (O)</note>
         </meal>
@@ -255,9 +322,23 @@ mit Huhn und Erbsen</name>
       </category>
       <category name="Tagesteller 7 (Tagespreis)">
         <meal>
-          <name>Gebratenes Lachsfilet in  Teriyakisauce mit Broccoligemüse und Jasminreis</name>
+          <name>Gebratene Eiernudeln mit Sojasprossen</name>
           <note>Glutenhaltiges Getreide (A)</note>
-          <note>Fisch (D)</note>
+          <note>Ei (C)</note>
+          <note>Soja (F)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+        <meal>
+          <name>Putenstreifen </name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Soja (F)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+        <meal>
+          <name>Teriyaki Sauce • koreanisch </name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
           <note>Soja (F)</note>
           <note>Sulfite (O)</note>
         </meal>
@@ -269,7 +350,7 @@ mit Huhn und Erbsen</name>
         </meal>
       </category>
     </day>
-    <day date="2026-11-18">
+    <day date="2026-02-25">
       <category name="Tagessuppe 1 (Fixpreis)">
         <meal>
           <name>Klare Gemüsesuppe</name>
@@ -288,11 +369,10 @@ mit Huhn und Erbsen</name>
       </category>
       <category name="Tagesteller 1 (Fixpreis)">
         <meal>
-          <name>Nasi Goreng - Vegetarisches indonesisches Reisgericht B.Ch.</name>
-          <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Soja (F)</note>
-          <note>Milch oder Laktose (G)</note>
+          <name>Indisches Grünes Masala Gemüse</name>
+        </meal>
+        <meal>
+          <name>Limonenblatt - Reis •</name>
         </meal>
       </category>
       <category name="Tagesteller 2 (Fixpreis)">
@@ -314,6 +394,40 @@ mit Huhn und Erbsen</name>
           <note>Sulfite (O)</note>
         </meal>
       </category>
+      <category name="Tagesteller 3 (Fixpreis)">
+        <meal>
+          <name>Pizza Margherita</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Milch oder Laktose (G)</note>
+        </meal>
+      </category>
+      <category name="Tagesteller 3 (Tagespreis)">
+        <meal>
+          <name>Hausgemachte Pizza Salami</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Senf (M)</note>
+        </meal>
+      </category>
+      <category name="Tagesteller 4 (Fixpreis)">
+        <meal>
+          <name>Hausgemachter Pizza Teig</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Soja (F)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Schalenfrüchte (H)</note>
+        </meal>
+        <meal>
+          <name>Caprese 
+Frische Tomaten, Basilikum &amp; Pesto</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Soja (F)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Schalenfrüchte (H)</note>
+        </meal>
+      </category>
       <category name="Tagesteller 4 (Tagespreis)">
         <meal>
           <name>Penne</name>
@@ -340,28 +454,24 @@ mit Huhn und Erbsen</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
           <note>Milch oder Laktose (G)</note>
-          <note>Sulfite (O)</note>
         </meal>
         <meal>
           <name>Tomatensauce</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
           <note>Milch oder Laktose (G)</note>
-          <note>Sulfite (O)</note>
         </meal>
         <meal>
           <name>mit frischem Parmesan</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
           <note>Milch oder Laktose (G)</note>
-          <note>Sulfite (O)</note>
         </meal>
       </category>
       <category name="Tagesteller 5 (Tagespreis)">
         <meal>
           <name>Sauce Bolognese vom Rind</name>
           <note>Soja (F)</note>
-          <note>Milch oder Laktose (G)</note>
           <note>Sellerie (L)</note>
           <note>Sulfite (O)</note>
         </meal>
@@ -389,13 +499,18 @@ mit Huhn und Erbsen</name>
       </category>
       <category name="Tagesteller 7 (Tagespreis)">
         <meal>
-          <name>BAO Pulled Pork
-mit Rotkraut und Spicy Korean Sauce, frischer Koriander</name>
+          <name>BAO•Pulled Pork•Rotkraut•Spicy Korean Sauce•Koriander</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Soja (F)</note>
           <note>Senf (M)</note>
           <note>Sesam (N)</note>
-          <note>Sulfite (O)</note>
+        </meal>
+        <meal>
+          <name>Potato Wedges</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
+          <note>Senf (M)</note>
+          <note>Sesam (N)</note>
         </meal>
       </category>
       <category name="gem.Salat">
@@ -405,47 +520,71 @@ mit Rotkraut und Spicy Korean Sauce, frischer Koriander</name>
         </meal>
       </category>
     </day>
-    <day date="2026-11-19">
+    <day date="2026-02-26">
       <category name="Tagessuppe 1 (Fixpreis)">
         <meal>
-          <name>Chinesische Süß &amp; Sauer Suppe</name>
-          <note>Glutenhaltiges Getreide (A)</note>
+          <name>Erdäpfelsuppe Vegetarisch</name>
           <note>Soja (F)</note>
           <note>Sellerie (L)</note>
-          <note>Sesam (N)</note>
           <note>Sulfite (O)</note>
         </meal>
       </category>
       <category name="Tagesteller 1 (Tagespreis)">
         <meal>
-          <name>WOK-Nudeln mit Pilzen, Gemüse,
-frischem Koriander und Erdnüssen</name>
+          <name>Vegetarische Frühlingsrolle</name>
           <note>Glutenhaltiges Getreide (A)</note>
-          <note>Ei (C)</note>
-          <note>Erdnuss (E)</note>
           <note>Soja (F)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Sesam (N)</note>
+          <note>Sellerie (L)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+        <meal>
+          <name>Gebratener Reis mit Jungzwiebel und Shiitake Pilze</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
+          <note>Sellerie (L)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+        <meal>
+          <name>Teriyaki Sauce • koreanisch </name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Soja (F)</note>
+          <note>Sellerie (L)</note>
+          <note>Sulfite (O)</note>
         </meal>
       </category>
       <category name="Tagesteller 2 (Fixpreis)">
         <meal>
-          <name>Schweinsbraten</name>
+          <name>Schweinsgulasch</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
+          <note>Soja (F)</note>
           <note>Milch oder Laktose (G)</note>
+          <note>Schalenfrüchte (H)</note>
+          <note>Sellerie (L)</note>
+          <note>Sesam (N)</note>
+          <note>Sulfite (O)</note>
         </meal>
         <meal>
-          <name>Semmelknödel</name>
+          <name>Spiralen</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
+          <note>Soja (F)</note>
           <note>Milch oder Laktose (G)</note>
+          <note>Schalenfrüchte (H)</note>
+          <note>Sellerie (L)</note>
+          <note>Sesam (N)</note>
+          <note>Sulfite (O)</note>
         </meal>
         <meal>
-          <name>Warmer Krautsalat</name>
+          <name>Sauerrahm</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
+          <note>Soja (F)</note>
           <note>Milch oder Laktose (G)</note>
+          <note>Schalenfrüchte (H)</note>
+          <note>Sellerie (L)</note>
+          <note>Sesam (N)</note>
+          <note>Sulfite (O)</note>
         </meal>
       </category>
       <category name="Tagesteller 2 (Tagespreis)">
@@ -455,6 +594,40 @@ frischem Koriander und Erdnüssen</name>
           <note>Sulfite (O)</note>
         </meal>
       </category>
+      <category name="Tagesteller 3 (Fixpreis)">
+        <meal>
+          <name>Pizza Margherita</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Milch oder Laktose (G)</note>
+        </meal>
+      </category>
+      <category name="Tagesteller 3 (Tagespreis)">
+        <meal>
+          <name>Hausgemachte Pizza Salami</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Senf (M)</note>
+        </meal>
+      </category>
+      <category name="Tagesteller 4 (Fixpreis)">
+        <meal>
+          <name>Hausgemachter Pizza Teig</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Soja (F)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Schalenfrüchte (H)</note>
+        </meal>
+        <meal>
+          <name>Caprese 
+Frische Tomaten, Basilikum &amp; Pesto</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Soja (F)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Schalenfrüchte (H)</note>
+        </meal>
+      </category>
       <category name="Tagesteller 4 (Tagespreis)">
         <meal>
           <name>Penne</name>
@@ -481,28 +654,24 @@ frischem Koriander und Erdnüssen</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
           <note>Milch oder Laktose (G)</note>
-          <note>Sulfite (O)</note>
         </meal>
         <meal>
           <name>Tomatensauce</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
           <note>Milch oder Laktose (G)</note>
-          <note>Sulfite (O)</note>
         </meal>
         <meal>
           <name>mit frischem Parmesan</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
           <note>Milch oder Laktose (G)</note>
-          <note>Sulfite (O)</note>
         </meal>
       </category>
       <category name="Tagesteller 5 (Tagespreis)">
         <meal>
           <name>Sauce Bolognese vom Rind</name>
           <note>Soja (F)</note>
-          <note>Milch oder Laktose (G)</note>
           <note>Sellerie (L)</note>
           <note>Sulfite (O)</note>
         </meal>
@@ -530,11 +699,20 @@ frischem Koriander und Erdnüssen</name>
       </category>
       <category name="Tagesteller 7 (Tagespreis)">
         <meal>
-          <name>Cheese Burger</name>
+          <name>Cheese Burger mit Bio Rindlfleisch</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
           <note>Milch oder Laktose (G)</note>
           <note>Senf (M)</note>
+          <note>Sulfite (O)</note>
+        </meal>
+        <meal>
+          <name>Pommes Frites</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Senf (M)</note>
+          <note>Sulfite (O)</note>
         </meal>
       </category>
       <category name="gem.Salat">
@@ -544,7 +722,7 @@ frischem Koriander und Erdnüssen</name>
         </meal>
       </category>
     </day>
-    <day date="2026-11-20">
+    <day date="2026-02-27">
       <category name="Tagessuppe 1 (Fixpreis)">
         <meal>
           <name>Klare Gemüsesuppe</name>
@@ -561,13 +739,18 @@ frischem Koriander und Erdnüssen</name>
           <note>Sellerie (L)</note>
         </meal>
       </category>
-      <category name="Tagesteller 1 (Tagespreis)">
+      <category name="Tagesteller 1 (Fixpreis)">
         <meal>
-          <name>Zucchini - Ricotta Pie • 
-warme Schnittlauchsauce</name>
-          <note>Ei (C)</note>
-          <note>Milch oder Laktose (G)</note>
-          <note>Sulfite (O)</note>
+          <name>Green "Meat" Balls vegan •</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+        </meal>
+        <meal>
+          <name>Spaghetti</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+        </meal>
+        <meal>
+          <name>Tomatensauce</name>
+          <note>Glutenhaltiges Getreide (A)</note>
         </meal>
       </category>
       <category name="Tagesteller 2 (Fixpreis)">
@@ -603,6 +786,40 @@ warme Schnittlauchsauce</name>
           <note>Sulfite (O)</note>
         </meal>
       </category>
+      <category name="Tagesteller 3 (Fixpreis)">
+        <meal>
+          <name>Pizza Margherita</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Milch oder Laktose (G)</note>
+        </meal>
+      </category>
+      <category name="Tagesteller 3 (Tagespreis)">
+        <meal>
+          <name>Hausgemachte Pizza Salami</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Senf (M)</note>
+        </meal>
+      </category>
+      <category name="Tagesteller 4 (Fixpreis)">
+        <meal>
+          <name>Hausgemachter Pizza Teig</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Soja (F)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Schalenfrüchte (H)</note>
+        </meal>
+        <meal>
+          <name>Caprese 
+Frische Tomaten, Basilikum &amp; Pesto</name>
+          <note>Glutenhaltiges Getreide (A)</note>
+          <note>Ei (C)</note>
+          <note>Soja (F)</note>
+          <note>Milch oder Laktose (G)</note>
+          <note>Schalenfrüchte (H)</note>
+        </meal>
+      </category>
       <category name="Tagesteller 4 (Tagespreis)">
         <meal>
           <name>Penne</name>
@@ -629,28 +846,24 @@ warme Schnittlauchsauce</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
           <note>Milch oder Laktose (G)</note>
-          <note>Sulfite (O)</note>
         </meal>
         <meal>
           <name>Tomatensauce</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
           <note>Milch oder Laktose (G)</note>
-          <note>Sulfite (O)</note>
         </meal>
         <meal>
           <name>mit frischem Parmesan</name>
           <note>Glutenhaltiges Getreide (A)</note>
           <note>Ei (C)</note>
           <note>Milch oder Laktose (G)</note>
-          <note>Sulfite (O)</note>
         </meal>
       </category>
       <category name="Tagesteller 5 (Tagespreis)">
         <meal>
           <name>Sauce Bolognese vom Rind</name>
           <note>Soja (F)</note>
-          <note>Milch oder Laktose (G)</note>
           <note>Sellerie (L)</note>
           <note>Sulfite (O)</note>
         </meal>
@@ -689,10 +902,10 @@ Bitte HIER eintragen!</name>
         </meal>
       </category>
     </day>
-    <day date="2026-11-21">
+    <day date="2026-02-28">
       <closed/>
     </day>
-    <day date="2026-11-22">
+    <day date="2026-03-01">
       <closed/>
     </day>
   </canteen>
