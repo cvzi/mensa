@@ -201,7 +201,8 @@ SLOT_PATTERN = re.compile(
 
 
 def normalize_slot(slot):
-    """Bring one opening-hours slot into the form "HH:MM-HH:MM".
+    """
+    Bring one opening-hours slot into the form "HH:MM-HH:MM".
 
     Most locations send "11:30-14:00", but the field is typed in by hand
     per location and some write "11:30 - 14:00", "8.00-15.00 Uhr" or free
@@ -357,6 +358,7 @@ def fetch_graphql_nodes():
 
 def build_summary(added_entries, removed_keys, kept_count, output_path,
                   times_changed=None, times_irregular=None):
+    """Collect the result of a sync run for the summary JSON and the PR body."""
     return {
         "added_count": len(added_entries),
         "removed_count": len(removed_keys),
