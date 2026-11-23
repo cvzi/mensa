@@ -54,7 +54,8 @@ def xml_str_param(s):
 
 
 def parse_opening_times(times):
-    """Read opening hours such as "Mo-Do 11:00-14:00 Uhr\nFr 11:00-13:30 Uhr".
+    r"""
+    Read opening hours such as "Mo-Do 11:00-14:00 Uhr\nFr 11:00-13:30 Uhr".
 
     Returns a dict from the English two-letter weekday ("Mo", "Tu", ...) to
     "HH:MM-HH:MM". German abbreviations (Di, Mi, Do, So) are accepted as
@@ -64,7 +65,9 @@ def parse_opening_times(times):
     """
     opening_times = {}
     pattern = re.compile(
-        r"([A-Z][a-z])(\s*-\s*([A-Z][a-z]))?\s*(\d{1,2})[:\.](\d{2})\s*[-–]\s*(\d{1,2})[:\.](\d{2})(?:\s*Uhr)?", flags=re.IGNORECASE)
+        r"([A-Z][a-z])(\s*-\s*([A-Z][a-z]))?\s*"
+        r"(\d{1,2})[:\.](\d{2})\s*[-–]\s*(\d{1,2})[:\.](\d{2})(?:\s*Uhr)?",
+        flags=re.IGNORECASE)
     weekdays = [short for short, _ in weekdays_map]
 
     for result in re.findall(pattern, times):
