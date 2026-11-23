@@ -194,6 +194,38 @@ def build_reference(node):
     return f"{prefix}{suffix}"
 
 
+SLOT_PATTERN = re.compile(
+    r"(\d{1,2})[:.](\d{2})\s*(?:Uhr)?\s*[-–]\s*(\d{1,2})[:.](\d{2})\s*(?:Uhr)?",
+    flags=re.IGNORECASE,
+)
+
+
+def normalize_slot(slot):
+    """Bring one opening-hours slot into the form "HH:MM-HH:MM".
+
+    Most locations send "11:30-14:00", but the field is typed in by hand
+    per location and some write "11:30 - 14:00", "8.00-15.00 Uhr" or free
+    text. Returns None for anything that is not a plain time range.
+    """
+    match = SLOT_PATTERN.fullmatch(compact_whitespace(slot))
+    if not match:
+        return None
+    h1, m1, h2, m2 = (int(x) for x in match.groups())
+    if h1 > 24 or h2 > 24 or m1 > 59 or m2 > 59:
+        return None
+    return "%02d:%02d-%02d:%02d" % (h1, m1, h2, m2)
+
+
+def irregular_slots(opening_hours):
+    """Slots that normalize_slot cannot read, as "Mo: '...'" for the report."""
+    found = []
+    for key, label in DAY_ORDER:
+        for slot in (opening_hours or {}).get(key) or []:
+            if compact_whitespace(slot) and normalize_slot(slot) is None:
+                found.append(f"{label}: {compact_whitespace(slot)!r}")
+    return found
+
+
 def format_times(opening_hours):
     if not opening_hours:
         return ""
@@ -205,7 +237,8 @@ def format_times(opening_hours):
     for key, label in DAY_ORDER:
         slots = opening_hours.get(key) or []
         value = ", ".join(
-            compact_whitespace(slot) for slot in slots if compact_whitespace(slot)
+            normalize_slot(slot) or compact_whitespace(slot)
+            for slot in slots if compact_whitespace(slot)
         )
 
         if not value:
@@ -322,7 +355,8 @@ def fetch_graphql_nodes():
     return [edge["node"] for edge in result["locations"]["edges"]]
 
 
-def build_summary(added_entries, removed_keys, kept_count, output_path):
+def build_summary(added_entries, removed_keys, kept_count, output_path,
+                  times_changed=None, times_irregular=None):
     return {
         "added_count": len(added_entries),
         "removed_count": len(removed_keys),
@@ -330,6 +364,8 @@ def build_summary(added_entries, removed_keys, kept_count, output_path):
         "output_path": str(output_path),
         "added": added_entries,
         "removed_keys": removed_keys,
+        "times_changed": times_changed or [],
+        "times_irregular": times_irregular or [],
     }
 
 
@@ -377,6 +413,27 @@ def build_pr_body(summary):
             ]
         )
 
+    if summary.get("times_changed"):
+        lines.extend(["", "## Opening hours updated from GraphQL", ""])
+        for change in summary["times_changed"]:
+            lines.append(f"- `{change['key']}` - {change['name']}")
+            lines.append(f"  - before: `{change['before']!r}`")
+            lines.append(f"  - now: `{change['after']!r}`")
+
+    if summary.get("times_irregular"):
+        lines.extend(
+            [
+                "",
+                "## Opening hours left unchanged",
+                "",
+                "These locations enter their hours in a form that is not a plain time range,",
+                "so the existing value was kept. Please check them by hand.",
+                "",
+            ]
+        )
+        for entry in summary["times_irregular"]:
+            lines.append(f"- `{entry['key']}` - {entry['name']}: " + ", ".join(entry["slots"]))
+
     return "\n".join(lines).rstrip() + "\n"
 
 
@@ -400,12 +457,29 @@ def sync_canteens(existing_canteens, graphql_nodes):
     removed_keys = []
     added_entries = []
 
+    nodes_by_source = dict(graphql_nodes_by_source)
+    times_changed = []
+    times_irregular = []
+
     for key, canteen in existing_canteens.items():
         source = normalize_source(canteen.get("source", ""))
-        if source in graphql_sources:
-            merged_canteens[key] = canteen
-        else:
+        if source not in graphql_sources:
             removed_keys.append(key)
+            continue
+
+        # Opening hours used to be taken over only for new canteens, so a
+        # hand-entered value never changed again. The GraphQL value is the
+        # one the location maintains itself; it wins unless it cannot be read.
+        opening_hours = nodes_by_source[source].get("openingHours")
+        irregular = irregular_slots(opening_hours)
+        api_times = format_times(opening_hours)
+        if irregular:
+            times_irregular.append({"key": key, "name": canteen.get("name", ""), "slots": irregular})
+        elif api_times and api_times != canteen.get("times"):
+            times_changed.append({"key": key, "name": canteen.get("name", ""),
+                                  "before": canteen.get("times", ""), "after": api_times})
+            canteen = dict(canteen, times=api_times)
+        merged_canteens[key] = canteen
 
     for source, node in graphql_nodes_by_source:
         existing_entry = existing_by_source.get(source)
@@ -427,7 +501,7 @@ def sync_canteens(existing_canteens, graphql_nodes):
             }
         )
 
-    return merged_canteens, new_keys, added_entries, removed_keys
+    return merged_canteens, new_keys, added_entries, removed_keys, times_changed, times_irregular
 
 
 def main():
@@ -440,7 +514,7 @@ def main():
 
     existing_canteens = load_existing_canteens(input_path)
     graphql_nodes = fetch_graphql_nodes()
-    merged_canteens, new_keys, added_entries, removed_keys = sync_canteens(
+    merged_canteens, new_keys, added_entries, removed_keys, times_changed, times_irregular = sync_canteens(
         existing_canteens, graphql_nodes
     )
 
@@ -454,6 +528,8 @@ def main():
         removed_keys=removed_keys,
         kept_count=len(merged_canteens) - len(new_keys),
         output_path=output_path,
+        times_changed=times_changed,
+        times_irregular=times_irregular,
     )
     write_summary_json(summary_path, summary)
     write_pr_body(pr_body_path, summary)
@@ -464,6 +540,8 @@ def main():
     print(f"Kept {summary['kept_count']} existing canteens")
     print(f"Added {summary['added_count']} new canteens")
     print(f"Removed {summary['removed_count']} canteens no longer present in GraphQL")
+    print(f"Updated opening hours of {len(times_changed)} canteens")
+    print(f"Kept opening hours of {len(times_irregular)} canteens with irregular entries")
 
     if added_entries:
         print("New keys:")
