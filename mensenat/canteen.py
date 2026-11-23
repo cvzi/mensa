@@ -52,7 +52,8 @@ query Location($locationUri: String!) {
 
     @staticmethod
     def parseExceptions(raw):
-        """Turn openingHours.exceptions into {date: reason}.
+        r"""
+        Turn openingHours.exceptions into {date: reason}.
 
         mensen.at sends the exceptions as a JSON string inside the JSON
         response, keyed by ISO date:
@@ -126,7 +127,8 @@ query Location($locationUri: String!) {
     CHANGED_HOURS = re.compile(r"\d{1,2}[:.]\d{2}\s*[-–]\s*\d{1,2}[:.]\d{2}")
 
     def addClosedDaysToFeed(self, exceptions, currentWeek, weeks=2):
-        """Mark holidays and closing periods from openingHours.exceptions.
+        """
+        Mark holidays and closing periods from openingHours.exceptions.
 
         Only days within the weeks the feed covers are marked, so the feed
         does not grow with closing periods months ahead. A day that has

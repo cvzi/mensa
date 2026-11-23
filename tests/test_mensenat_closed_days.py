@@ -13,6 +13,7 @@ sys.path.insert(0, os.path.relpath(os.path.join(os.path.dirname(__file__), '..')
 sys.path.insert(0, os.path.relpath(os.path.join(os.path.dirname(__file__), '..', 'mensenat')))
 
 from canteen import Canteen  # noqa: E402
+from util import StyledLazyBuilder  # noqa: E402
 
 SOURCE = "https://www.mensen.at/standort/mensa-m-cafe-vet-med"
 
@@ -69,7 +70,6 @@ class ClosedDaysTest(unittest.TestCase):
     def test_closing_week_without_menu(self):
         # A closing week comes as "available": false, without first_day
         canteen = Canteen(SOURCE)
-        from util import StyledLazyBuilder
         canteen.feed = StyledLazyBuilder()
         canteen.addClosedDaysToFeed(Canteen.parseExceptions(EXCEPTIONS), {"available": False}, weeks=2)
         # Falls back to the current week; must not fail
