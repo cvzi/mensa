@@ -22,6 +22,9 @@ query Location($locationUri: String!) {
         ... on Location {
           menuplanCurrentWeek
           menuplanNextWeek
+          openingHours {
+            exceptions
+          }
         }
       }
     }
@@ -44,7 +47,49 @@ query Location($locationUri: String!) {
         return {
             "menuplanCurrentWeek": self.parseMenuplan(node.get("menuplanCurrentWeek")),
             "menuplanNextWeek": self.parseMenuplan(node.get("menuplanNextWeek")),
+            "exceptions": self.parseExceptions((node.get("openingHours") or {}).get("exceptions")),
         }
+
+    @staticmethod
+    def parseExceptions(raw):
+        """Turn openingHours.exceptions into {date: reason}.
+
+        mensen.at sends the exceptions as a JSON string inside the JSON
+        response, keyed by ISO date:
+
+            "{\"2026-12-08\":{\"data\":\"Maria Empf\\u00e4ngnis\"}, ...}"
+
+        With no exceptions it may be empty, null or "[]". Each location
+        enters its own exceptions, and not all in the same form: a
+        shortened day may come as a list of slots instead of a reason,
+        e.g. "2027-02-01": ["07:30-14:00"] (Mensa PH Tirol, November 2026).
+        Such a day is returned with the slots joined, so that
+        addClosedDaysToFeed sees the time range and leaves it open. An
+        empty reason ({"data": ""}) is a closed day without explanation.
+        """
+        if not raw:
+            return {}
+        if isinstance(raw, str):
+            try:
+                raw = json.loads(raw)
+            except ValueError:
+                return {}
+        if not isinstance(raw, dict):
+            return {}
+        exceptions = {}
+        for day, value in raw.items():
+            try:
+                datetime.strptime(day, "%Y-%m-%d")
+            except (TypeError, ValueError):
+                continue
+            if isinstance(value, dict):
+                reason = value.get("data")
+            elif isinstance(value, (list, tuple)):
+                reason = ", ".join(str(slot) for slot in value if slot)
+            else:
+                reason = value
+            exceptions[day] = "" if reason is None else " ".join(str(reason).split())
+        return exceptions
 
     @staticmethod
     def parseMenuplan(raw):
@@ -65,6 +110,7 @@ query Location($locationUri: String!) {
         self.feed = LazyBuilder()
         self.addWeekMenuToFeed(weekMenus["menuplanCurrentWeek"])
         self.addWeekMenuToFeed(weekMenus["menuplanNextWeek"])
+        self.addClosedDaysToFeed(weekMenus["exceptions"], weekMenus["menuplanCurrentWeek"], weeks=2)
 
         return self.feed.toXMLFeed()
 
@@ -72,8 +118,44 @@ query Location($locationUri: String!) {
         self.feed = LazyBuilder()
         weekMenus = self.fetchWeekMenus()
         self.addWeekMenuToFeed(weekMenus["menuplanCurrentWeek"])
+        self.addClosedDaysToFeed(weekMenus["exceptions"], weekMenus["menuplanCurrentWeek"], weeks=1)
 
         return self.feed.toXMLFeed()
+
+    # A time range in the reason means changed hours, not a closed day
+    CHANGED_HOURS = re.compile(r"\d{1,2}[:.]\d{2}\s*[-–]\s*\d{1,2}[:.]\d{2}")
+
+    def addClosedDaysToFeed(self, exceptions, currentWeek, weeks=2):
+        """Mark holidays and closing periods from openingHours.exceptions.
+
+        Only days within the weeks the feed covers are marked, so the feed
+        does not grow with closing periods months ahead. A day that has
+        meals stays open: the menu is the better evidence. A reason that
+        names a time range ("nur 11:00-13:00") is a shortened day, which
+        OpenMensa cannot express, so it is left alone.
+        """
+        if not exceptions:
+            return
+        first = None
+        if isinstance(currentWeek, dict) and currentWeek.get("first_day"):
+            try:
+                first = datetime.strptime(currentWeek["first_day"], "%Y-%m-%d").date()
+            except ValueError:
+                first = None
+        if first is None:
+            today = date.today()
+            first = today - timedelta(days=today.weekday())
+        last = first + timedelta(days=7 * weeks - 1)
+
+        for day, reason in sorted(exceptions.items()):
+            current = datetime.strptime(day, "%Y-%m-%d").date()
+            if current < first or current > last:
+                continue
+            if self.CHANGED_HOURS.search(reason or ""):
+                continue
+            if self.feed.hasMealsFor(current):
+                continue
+            self.feed.setDayClosed(current)
 
     def addWeekMenuToFeed(self, weekMenu) -> str:
         """Add one week to the feed.
