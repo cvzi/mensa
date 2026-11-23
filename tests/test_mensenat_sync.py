@@ -33,7 +33,8 @@ class SlotTest(unittest.TestCase):
         self.assertEqual(utils.normalize_slot("8:00-15:30"), "08:00-15:30")
 
     def test_free_text_is_not_a_slot(self):
-        for slot in ("geschlossen", "nach Vereinbarung", "11:30", "ab 11:30", "11:30-14:00 und 17:00-19:00", "25:00-26:00"):
+        for slot in ("geschlossen", "nach Vereinbarung", "11:30", "ab 11:30",
+                     "11:30-14:00 und 17:00-19:00", "25:00-26:00"):
             self.assertIsNone(utils.normalize_slot(slot), slot)
 
 
@@ -71,13 +72,13 @@ class SyncTest(unittest.TestCase):
         self.assertIn("Fr: 'nach Vereinbarung'", irregular[0]["slots"])
 
     def test_new_and_removed_still_work(self):
-        merged, new_keys, added, removed, _, _ = self.run_sync()
+        merged, new_keys, _, removed, _, _ = self.run_sync()
         self.assertEqual(removed, ["23"])
         self.assertIn("databaseId:99", new_keys)
         self.assertEqual(merged["databaseId:99"]["times"], "Mo-Fr 08:00-15:00 Uhr")
 
     def test_pr_body_lists_both(self):
-        merged, new_keys, added, removed, changed, irregular = self.run_sync()
+        _, _, added, removed, changed, irregular = self.run_sync()
         summary = utils.build_summary(added, removed, 3, "x", changed, irregular)
         body = utils.build_pr_body(summary)
         self.assertIn("## Opening hours updated from GraphQL", body)
