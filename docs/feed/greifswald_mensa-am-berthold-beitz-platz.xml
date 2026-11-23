@@ -4,7 +4,14 @@
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
     <day date="2026-11-23">
-      <category name="Tellergericht vegan">
+      <category name="Tellergericht">
+        <meal>
+          <name>ReBowl [Preis pro 100g]: Cremige Gemüsesuppe mit Sojasahne und Kräutern</name>
+          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
+          <price role="employee">0.88</price>
+          <price role="other">1.32</price>
+          <price role="student">0.50</price>
+        </meal>
         <meal>
           <name>Kl. Schüssel: Cremige Gemüsesuppe mit Sojasahne und Kräutern</name>
           <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
@@ -44,28 +51,13 @@
           <price role="student">2.25</price>
         </meal>
       </category>
-      <category name="Komponente 3 pro Portion oder nach Gewicht (pro 100g)">
+      <category name="Komponente 3">
         <meal>
           <name>Pastateller: Putengeschnetzeltes (Gefl,A,I) 
  mit Langkornreis</name>
           <price role="employee">1.13</price>
           <price role="other">1.58</price>
           <price role="student">0.68</price>
-        </meal>
-        <meal>
-          <name>Putengeschnetzeltes (Gefl,A,I)</name>
-          <price role="employee">3.35</price>
-          <price role="other">4.45</price>
-          <price role="student">2.25</price>
-        </meal>
-      </category>
-      <category name="Vegane Komponente 1">
-        <meal>
-          <name>Rotes Linsen-Dal [persisches Curry]</name>
-          <note>Sojabohnen und daraus hergestellte Erzeugnisse</note>
-          <price role="employee">2.60</price>
-          <price role="other">3.70</price>
-          <price role="student">1.50</price>
         </meal>
       </category>
       <category name="Vegetarische Komponente 1">

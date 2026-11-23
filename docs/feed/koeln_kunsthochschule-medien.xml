@@ -4,46 +4,52 @@
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
     <day date="2026-11-23">
-      <closed/>
-    </day>
-    <day date="2026-11-24">
-      <closed/>
-    </day>
-    <day date="2026-11-25">
-      <closed/>
-    </day>
-    <day date="2026-11-26">
-      <closed/>
-    </day>
-    <day date="2026-11-27">
-      <closed/>
-    </day>
-    <day date="2026-11-28">
-      <closed/>
-    </day>
-    <day date="2026-11-29">
-      <closed/>
-    </day>
-    <day date="2026-11-30">
-      <closed/>
-    </day>
-    <day date="2026-12-01">
-      <closed/>
-    </day>
-    <day date="2026-12-02">
-      <closed/>
-    </day>
-    <day date="2026-12-03">
-      <closed/>
-    </day>
-    <day date="2026-12-04">
-      <closed/>
-    </day>
-    <day date="2026-12-05">
-      <closed/>
-    </day>
-    <day date="2026-12-06">
-      <closed/>
+      <category name="EG Süd - 11:00 - 14:30 Uhr - Vegan/vegetarisch">
+        <meal>
+          <name>Indischer Spinat, Kichererbsenreis, + 2 Beilagen</name>
+          <note>Enthält Eier</note>
+          <note>Enthält Gelatine</note>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Sellerie</note>
+          <note>Enthält Senf</note>
+          <note>Enthält Soja</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">5.75</price>
+          <price role="other">0.00</price>
+          <price role="student">3.40</price>
+        </meal>
+      </category>
+      <category name="Beilagen">
+        <meal>
+          <name>Kichererbsenreis</name>
+          <note>Vegan</note>
+          <price role="employee">0.60</price>
+          <price role="other">0.00</price>
+          <price role="student">0.35</price>
+        </meal>
+        <meal>
+          <name>Pommes Wedges</name>
+          <note>Vegan</note>
+          <price role="employee">0.95</price>
+          <price role="other">1.20</price>
+          <price role="student">0.55</price>
+        </meal>
+      </category>
+      <category name="MG Nord &amp; EG Nord 11.30 - 14.15 Uhr - Fleisch">
+        <meal>
+          <name>Putenschnitzel, Paprikarahmsauce</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>mit Geflügel</note>
+          <price role="employee">4.85</price>
+          <price role="other">0.00</price>
+          <price role="student">2.85</price>
+        </meal>
+      </category>
     </day>
   </canteen>
 </openmensa>
