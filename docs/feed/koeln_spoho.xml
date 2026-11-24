@@ -43,9 +43,12 @@
         </meal>
         <meal>
           <name>Pistazien Pudding</name>
+          <note>Enthält Gluten</note>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
           <note>Enthält Schalenfrüchte (Nüsse)</note>
+          <note>Enthält Schalenfrüchte Mandeln</note>
+          <note>Enthält Weizen Gluten</note>
           <note>Vegetarisch</note>
           <price role="employee">0.85</price>
           <price role="other">0.00</price>
@@ -80,7 +83,6 @@
           <note>Enthält Eier</note>
           <note>Enthält Gerste Gluten</note>
           <note>Enthält Gluten</note>
-          <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
           <note>Enthält Schalenfrüchte (Nüsse)</note>
@@ -96,7 +98,6 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -151,18 +152,6 @@
           <price role="student">0.50</price>
         </meal>
         <meal>
-          <name>Dessertbecher verschiedene Sorten</name>
-          <note>Enthält Gelatine</note>
-          <note>Enthält Hafer Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Vegetarisch</note>
-          <price role="employee">1.10</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
           <name>Dessertbecher Vegan</name>
           <note>Enthält Gelatine</note>
           <note>Enthält Hafer Gluten</note>
@@ -176,9 +165,12 @@
         </meal>
         <meal>
           <name>Pistazien Pudding</name>
+          <note>Enthält Gluten</note>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
           <note>Enthält Schalenfrüchte (Nüsse)</note>
+          <note>Enthält Schalenfrüchte Mandeln</note>
+          <note>Enthält Weizen Gluten</note>
           <note>Vegetarisch</note>
           <price role="employee">0.85</price>
           <price role="other">0.00</price>
@@ -186,6 +178,8 @@
         </meal>
         <meal>
           <name>Pommes Wedges</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Weizen Gluten</note>
           <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
@@ -227,13 +221,23 @@
           <price role="student">2.30</price>
         </meal>
       </category>
+      <category name="Querbeet">
+        <meal>
+          <name>Milchreis mit Zimt und Zucker</name>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Vegetarisch</note>
+          <price role="employee">3.00</price>
+          <price role="other">7.65</price>
+          <price role="student">1.75</price>
+        </meal>
+      </category>
       <category name="Vegan/vegetarisch">
         <meal>
           <name>Salatbuffet in Selbstbedienung, je 100g</name>
           <note>Enthält Eier</note>
           <note>Enthält Gerste Gluten</note>
           <note>Enthält Gluten</note>
-          <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
           <note>Enthält Schalenfrüchte (Nüsse)</note>
@@ -249,7 +253,6 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -338,12 +341,12 @@
       </category>
       <category name="Vegan/vegetarisch">
         <meal>
-          <name>Kürbis-Falafelbällchen, Hummus</name>
-          <note>Enthält Sesamsamen</note>
+          <name>Kürbis-Falafelbällchen, Süßkartoffelstampf, Petersilie</name>
+          <note>Enthält Soja</note>
           <note>Vegan</note>
-          <price role="employee">2.60</price>
+          <price role="employee">0.00</price>
           <price role="other">0.00</price>
-          <price role="student">1.55</price>
+          <price role="student">0.00</price>
         </meal>
         <meal>
           <name>Linsen Bolognese, Spätzle</name>
@@ -360,7 +363,6 @@
           <note>Enthält Eier</note>
           <note>Enthält Gerste Gluten</note>
           <note>Enthält Gluten</note>
-          <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
           <note>Enthält Schalenfrüchte (Nüsse)</note>
@@ -376,7 +378,6 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -424,6 +425,14 @@
           <price role="student">2.10</price>
         </meal>
         <meal>
+          <name>Kürbis-Falafelbällchen, Süßkartoffelstampf, Petersilie</name>
+          <note>Enthält Soja</note>
+          <note>Vegan</note>
+          <price role="employee">0.00</price>
+          <price role="other">0.00</price>
+          <price role="student">0.00</price>
+        </meal>
+        <meal>
           <name>Rote Beete Gnocchi mit Pesto</name>
           <note>Enthält Gluten</note>
           <note>Enthält Laktose</note>
@@ -441,7 +450,6 @@
           <note>Enthält Eier</note>
           <note>Enthält Gerste Gluten</note>
           <note>Enthält Gluten</note>
-          <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
           <note>Enthält Schalenfrüchte (Nüsse)</note>
@@ -457,7 +465,6 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -630,7 +637,6 @@
           <note>Enthält Eier</note>
           <note>Enthält Gerste Gluten</note>
           <note>Enthält Gluten</note>
-          <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
           <note>Enthält Schalenfrüchte (Nüsse)</note>
@@ -646,7 +652,6 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -684,18 +689,6 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Dessertbecher verschiedene Sorten</name>
-          <note>Enthält Gelatine</note>
-          <note>Enthält Hafer Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Vegetarisch</note>
-          <price role="employee">1.10</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
           <name>Dessertbecher Vegan</name>
           <note>Enthält Gelatine</note>
           <note>Enthält Hafer Gluten</note>
@@ -706,6 +699,18 @@
           <price role="employee">1.30</price>
           <price role="other">0.00</price>
           <price role="student">0.75</price>
+        </meal>
+        <meal>
+          <name>Dessertbecher verschiedene Sorten</name>
+          <note>Enthält Gelatine</note>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegetarisch</note>
+          <price role="employee">1.10</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
         </meal>
         <meal>
           <name>Erbsen</name>
@@ -753,7 +758,6 @@
           <note>Enthält Eier</note>
           <note>Enthält Gerste Gluten</note>
           <note>Enthält Gluten</note>
-          <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
           <note>Enthält Schalenfrüchte (Nüsse)</note>
@@ -769,7 +773,6 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -829,18 +832,6 @@
           <price role="student">0.50</price>
         </meal>
         <meal>
-          <name>Dessertbecher Vegan</name>
-          <note>Enthält Gelatine</note>
-          <note>Enthält Hafer Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Vegan</note>
-          <price role="employee">1.30</price>
-          <price role="other">0.00</price>
-          <price role="student">0.75</price>
-        </meal>
-        <meal>
           <name>Dessertbecher verschiedene Sorten</name>
           <note>Enthält Gelatine</note>
           <note>Enthält Hafer Gluten</note>
@@ -851,6 +842,18 @@
           <price role="employee">1.10</price>
           <price role="other">0.00</price>
           <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Dessertbecher Vegan</name>
+          <note>Enthält Gelatine</note>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">1.30</price>
+          <price role="other">0.00</price>
+          <price role="student">0.75</price>
         </meal>
         <meal>
           <name>Orecchiette</name>
@@ -890,7 +893,6 @@
           <note>Enthält Eier</note>
           <note>Enthält Gerste Gluten</note>
           <note>Enthält Gluten</note>
-          <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
           <note>Enthält Schalenfrüchte (Nüsse)</note>
@@ -906,7 +908,6 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -1059,7 +1060,6 @@
           <note>Enthält Eier</note>
           <note>Enthält Gerste Gluten</note>
           <note>Enthält Gluten</note>
-          <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
           <note>Enthält Schalenfrüchte (Nüsse)</note>
@@ -1075,7 +1075,6 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -1112,18 +1111,6 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Dessertbecher Vegan</name>
-          <note>Enthält Gelatine</note>
-          <note>Enthält Hafer Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Vegan</note>
-          <price role="employee">1.30</price>
-          <price role="other">0.00</price>
-          <price role="student">0.75</price>
-        </meal>
-        <meal>
           <name>Dessertbecher verschiedene Sorten</name>
           <note>Enthält Gelatine</note>
           <note>Enthält Hafer Gluten</note>
@@ -1134,6 +1121,18 @@
           <price role="employee">1.10</price>
           <price role="other">0.00</price>
           <price role="student">0.65</price>
+        </meal>
+        <meal>
+          <name>Dessertbecher Vegan</name>
+          <note>Enthält Gelatine</note>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">1.30</price>
+          <price role="other">0.00</price>
+          <price role="student">0.75</price>
         </meal>
         <meal>
           <name>Fusilli</name>
@@ -1197,7 +1196,6 @@
           <note>Enthält Eier</note>
           <note>Enthält Gerste Gluten</note>
           <note>Enthält Gluten</note>
-          <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
           <note>Enthält Schalenfrüchte (Nüsse)</note>
@@ -1213,7 +1211,6 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
@@ -1279,6 +1276,8 @@
         </meal>
         <meal>
           <name>Pommes Wedges</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Weizen Gluten</note>
           <note>Vegan</note>
           <price role="employee">0.95</price>
           <price role="other">0.00</price>
@@ -1317,7 +1316,6 @@
           <note>Enthält Eier</note>
           <note>Enthält Gerste Gluten</note>
           <note>Enthält Gluten</note>
-          <note>Enthält Hafer Gluten</note>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
           <note>Enthält Schalenfrüchte (Nüsse)</note>
@@ -1333,7 +1331,6 @@
           <note>Mit Antioxidationsmittel</note>
           <note>Mit Farbstoff</note>
           <note>Mit Konservierungsstoff</note>
-          <note>Mit Süßstoff</note>
           <price role="employee">0.97</price>
           <price role="other">2.91</price>
           <price role="student">0.77</price>
