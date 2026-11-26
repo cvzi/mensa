@@ -3,13 +3,14 @@
 <?xml-stylesheet href="https://cdn.jsdelivr.net/npm/om-style@1.0.0/lightgreen.css" type="text/css"?>
 <openmensa version="2.1" xmlns="http://openmensa.org/open-mensa-v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openmensa.org/open-mensa-v2 http://openmensa.org/open-mensa-v2.xsd">
   <canteen>
-    <day date="2026-11-25">
+    <day date="2026-11-26">
       <category name="Freeflow">
         <meal>
-          <name>Der Freeflow ist wegen krankheitsbedingten Personalausfällen heute geschlossen. Wir hoffen auf euer Verständnis.</name>
+          <name>Der Freeflow ist wegen krankheitsbedingten Personalausfällen heute geschlossen. Wir hoffen auf euer Verständnis.)</name>
           <note>Glutenhaltiges Getreide</note>
           <note>Green Comfort Food - Mo. bis Do. im freeflow</note>
           <note>Schalenfrüchte (Nüsse)</note>
+          <note>Sellerie</note>
           <note>Senf</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
@@ -27,9 +28,12 @@
           <price role="student">5.55</price>
         </meal>
         <meal>
-          <name>Penne Ratatouille mit Kirschtomaten, Auberginen, Zucchini, Paprika und Tomatensugo</name>
+          <name>Caprese Fusion - Mozzarella, Oliven, Kirschtomaten, Bulgursalat, Edamame, Blattsalat &amp; French-Dip</name>
+          <note>Eier und Eierzeugnisse</note>
           <note>Glutenhaltiges Getreide</note>
-          <note>Sellerie</note>
+          <note>Laktose</note>
+          <note>Robotic Kitchen von 11.30 bis 14:30 Uhr</note>
+          <note>Senf</note>
           <note>Soja</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
@@ -46,82 +50,10 @@
           <price role="student">5.55</price>
         </meal>
         <meal>
-          <name>Caprese Fusion - Mozzarella, Oliven, Kirschtomaten, Bulgursalat, Edamame, Blattsalat &amp; French-Dip</name>
-          <note>Eier und Eierzeugnisse</note>
+          <name>Penne Ratatouille mit Kirschtomaten, Auberginen, Zucchini, Paprika und Tomatensugo</name>
           <note>Glutenhaltiges Getreide</note>
-          <note>Laktose</note>
-          <note>Robotic Kitchen von 11.30 bis 14:30 Uhr</note>
-          <note>Senf</note>
+          <note>Sellerie</note>
           <note>Soja</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
-      </category>
-      <category name="Essen II Drehkreuz/Ampel">
-        <meal>
-          <name>Neapolitanische Pizza Margherita , dazu Salat</name>
-          <note>Campus Street Food</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Laktose</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
-      </category>
-      <category name="Essen I Drehkreuz/Ampel">
-        <meal>
-          <name>Gebratene Hähnchenbrustwürfel mit Frischkäsekräutersoße , Kroketten und Salat</name>
-          <note>Ausgabe bis 14:00 Uhr geöffnet</note>
-          <note>Geflügel</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Konservierungsstoff</note>
-          <note>Laktose</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
-      </category>
-      <category name="Warme Theke">
-        <meal>
-          <name>Panini mit Tomaten, Mozzarella und Pesto oder: Panini mit Putensalami, Remoulade und Gouda</name>
-          <note>Antioxidationsmittel</note>
-          <note>Eier und Eierzeugnisse</note>
-          <note>Farbstoff</note>
-          <note>Geflügel</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Konservierungsstoff</note>
-          <note>Laktose</note>
-          <note>Schalenfrüchte (Nüsse)</note>
-          <note>Senf</note>
-          <note>Sesam</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
-      </category>
-      <category name="Suppen/Eintöpfe">
-        <meal>
-          <name>Veganer Mediterraner Gemüseeintopf, dazu eine Scheibe Brot</name>
-          <note>Farbstoff</note>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
-          <price role="employee">5.55</price>
-          <price role="other">5.55</price>
-          <price role="student">5.55</price>
-        </meal>
-      </category>
-    </day>
-    <day date="2026-11-26">
-      <category name="Freeflow">
-        <meal>
-          <name>Der Freeflow ist wegen krankheitsbedingten Personalausfällen heute geschlossen. Wir hoffen auf euer Verständnis.)</name>
-          <note>Glutenhaltiges Getreide</note>
-          <note>Green Comfort Food - Mo. bis Do. im freeflow</note>
-          <note>Schalenfrüchte (Nüsse)</note>
-          <note>Sellerie</note>
-          <note>Senf</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
           <price role="student">5.55</price>
@@ -463,15 +395,13 @@
       </category>
       <category name="Essen I Drehkreuz/Ampel">
         <meal>
-          <name>Pfälzer Knusperschnitzel mit Grumbeer Stäbchen und Frischkäse-Pilz-Dip, dazu Kopfsalat mit Joghurt-Dressing</name>
+          <name>Pfälzer Knusperschnitzel mit Grumbeer Stäbchen und Frischkäse-Pilz-Dip, dazu Kopfsalat</name>
           <note>Farbstoff</note>
           <note>Glutenhaltiges Getreide</note>
           <note>Laktose</note>
           <note>Regional Rockstar-Lokal, lecker, überraschend gut</note>
-          <note>Schwefeldioxid ("SO2") und Sulfite</note>
           <note>Schwein</note>
           <note>Senf</note>
-          <note>geschwefelt</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
           <price role="student">5.55</price>
@@ -536,6 +466,22 @@
           <price role="other">5.55</price>
           <price role="student">5.55</price>
         </meal>
+        <meal>
+          <name>Schweinefilet im Speckmantel  an Sauce Béarnaise, dazu Zapfenkroketten und Blattsalat mit Wildkräutern</name>
+          <note>Antioxidationsmittel</note>
+          <note>Eier und Eierzeugnisse</note>
+          <note>Farbstoff</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Konservierungsstoff</note>
+          <note>Laktose</note>
+          <note>Schwefeldioxid ("SO2") und Sulfite</note>
+          <note>Schwein</note>
+          <note>Senf</note>
+          <note>geschwefelt</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
       </category>
       <category name="Essen I Drehkreuz/Ampel">
         <meal>
@@ -549,11 +495,35 @@
           <price role="other">5.55</price>
           <price role="student">5.55</price>
         </meal>
+        <meal>
+          <name>Lachsfilet  mit Limetten-Soße, Tagliatelle und Blattsalat mit Wildkräutern</name>
+          <note>Farbstoff</note>
+          <note>Fisch</note>
+          <note>Glutenhaltiges Getreide</note>
+          <note>Soja</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
       </category>
       <category name="Freeflow">
         <meal>
           <name>Weihnachtsessen</name>
           <note>Glutenhaltiges Getreide</note>
+          <price role="employee">5.55</price>
+          <price role="other">5.55</price>
+          <price role="student">5.55</price>
+        </meal>
+        <meal>
+          <name>Rumpsteak mit Zwiebel-Balsamicojus, Röstinchen und Bohnenbündchen im Speckmantel</name>
+          <note>Antioxidationsmittel</note>
+          <note>Farbstoff</note>
+          <note>Konservierungsstoff</note>
+          <note>Rind</note>
+          <note>Schwefeldioxid ("SO2") und Sulfite</note>
+          <note>Schwein</note>
+          <note>Sellerie</note>
+          <note>Senf</note>
           <price role="employee">5.55</price>
           <price role="other">5.55</price>
           <price role="student">5.55</price>

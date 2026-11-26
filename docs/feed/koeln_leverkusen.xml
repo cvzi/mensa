@@ -102,18 +102,6 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Dessertbecher verschiedene Sorten</name>
-          <note>Enthält Gelatine</note>
-          <note>Enthält Hafer Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Vegetarisch</note>
-          <price role="employee">1.10</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
           <name>Dessertbecher Vegan</name>
           <note>Enthält Gelatine</note>
           <note>Enthält Hafer Gluten</note>
@@ -124,6 +112,18 @@
           <price role="employee">1.30</price>
           <price role="other">0.00</price>
           <price role="student">0.75</price>
+        </meal>
+        <meal>
+          <name>Dessertbecher verschiedene Sorten</name>
+          <note>Enthält Gelatine</note>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegetarisch</note>
+          <price role="employee">1.10</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
         </meal>
         <meal>
           <name>Käsekuchen</name>
@@ -191,18 +191,6 @@
           <price role="student">0.65</price>
         </meal>
         <meal>
-          <name>Dessertbecher verschiedene Sorten</name>
-          <note>Enthält Gelatine</note>
-          <note>Enthält Hafer Gluten</note>
-          <note>Enthält Laktose</note>
-          <note>Enthält Milch</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Vegetarisch</note>
-          <price role="employee">1.10</price>
-          <price role="other">0.00</price>
-          <price role="student">0.65</price>
-        </meal>
-        <meal>
           <name>Dessertbecher Vegan</name>
           <note>Enthält Gelatine</note>
           <note>Enthält Hafer Gluten</note>
@@ -213,6 +201,18 @@
           <price role="employee">1.30</price>
           <price role="other">0.00</price>
           <price role="student">0.75</price>
+        </meal>
+        <meal>
+          <name>Dessertbecher verschiedene Sorten</name>
+          <note>Enthält Gelatine</note>
+          <note>Enthält Hafer Gluten</note>
+          <note>Enthält Laktose</note>
+          <note>Enthält Milch</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegetarisch</note>
+          <price role="employee">1.10</price>
+          <price role="other">0.00</price>
+          <price role="student">0.65</price>
         </meal>
         <meal>
           <name>Gurkensalat</name>
@@ -232,15 +232,6 @@
           <price role="student">0.01</price>
         </meal>
         <meal>
-          <name>Spätzle</name>
-          <note>Enthält Gluten</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Vegan</note>
-          <price role="employee">1.85</price>
-          <price role="other">0.00</price>
-          <price role="student">1.10</price>
-        </meal>
-        <meal>
           <name>Tomate-Mozzarellasalat</name>
           <note>Enthält Laktose</note>
           <note>Enthält Milch</note>
@@ -249,6 +240,15 @@
           <price role="employee">3.85</price>
           <price role="other">0.00</price>
           <price role="student">2.25</price>
+        </meal>
+        <meal>
+          <name>vegan: Spätzle</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">1.85</price>
+          <price role="other">0.00</price>
+          <price role="student">1.10</price>
         </meal>
         <meal>
           <name>vegetarisch: Kürbis-Karottenstampf</name>
@@ -334,7 +334,7 @@
           <note>Vegetarisch</note>
           <price role="employee">5.10</price>
           <price role="other">0.00</price>
-          <price role="student">3.00</price>
+          <price role="student">0.03</price>
         </meal>
       </category>
       <category name="Beilagen">
@@ -395,16 +395,7 @@
           <note>Vegetarisch</note>
           <price role="employee">1.70</price>
           <price role="other">0.00</price>
-          <price role="student">1.00</price>
-        </meal>
-        <meal>
-          <name>Spätzle</name>
-          <note>Enthält Gluten</note>
-          <note>Enthält Weizen Gluten</note>
-          <note>Vegan</note>
-          <price role="employee">1.85</price>
-          <price role="other">0.00</price>
-          <price role="student">1.10</price>
+          <price role="student">0.01</price>
         </meal>
         <meal>
           <name>Tomate-Mozzarellasalat</name>
@@ -415,6 +406,15 @@
           <price role="employee">3.85</price>
           <price role="other">0.00</price>
           <price role="student">2.25</price>
+        </meal>
+        <meal>
+          <name>vegan: Spätzle</name>
+          <note>Enthält Gluten</note>
+          <note>Enthält Weizen Gluten</note>
+          <note>Vegan</note>
+          <price role="employee">1.85</price>
+          <price role="other">0.00</price>
+          <price role="student">1.10</price>
         </meal>
       </category>
       <category name="1 - Vegan/vegetarisch">
@@ -628,9 +628,9 @@
           <note>Enthält Senf</note>
           <note>Mit Antioxidationsmittel</note>
           <note>mit Wild</note>
-          <price role="employee">0.00</price>
+          <price role="employee">8.10</price>
           <price role="other">0.00</price>
-          <price role="student">0.00</price>
+          <price role="student">5.50</price>
         </meal>
       </category>
     </day>
